@@ -55,3 +55,6 @@ frontend/.env.local
 frontend/public/workout/source.zip
 .playwright-cli/
 backups/
+# Retain pinned atlas inputs locally; source fetcher verifies hashes.
+# Full input archives contain excluded atlas objects and are not redistributed.
+assets/anatomy/z-anatomy/*.fbx

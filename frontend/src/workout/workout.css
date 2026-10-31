@@ -2421,3 +2421,4 @@ label select {
 .anatomy-review .anatomy { height: 100%; }
 .anatomy-review header { display: flex; align-items: center; justify-content: space-between; gap: 16px; margin-bottom: 20px; }
 @media (max-width:600px) { .anatomy-review { padding: 12px; } .anatomy-review header { flex-wrap: wrap; } }
+.anatomy-credit { position:absolute; left:16px; top:42px; font-size:9px; color:#56604d; text-decoration:underline; z-index:1; }

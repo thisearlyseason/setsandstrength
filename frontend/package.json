@@ -19,7 +19,8 @@
     "check:coverage": "node ../scripts/workout/check-coverage.mjs",
     "check:release": "node ../scripts/workout/check-coverage.mjs --release",
     "test:anatomy": "node --test scripts/anatomy/tests/*.test.mjs",
-    "assets:queue": "node ../scripts/workout/production-queue.mjs"
+    "assets:queue": "node ../scripts/workout/production-queue.mjs",
+    "assets:anatomical": "node --max-old-space-size=6144 scripts/anatomy/import-z-anatomy.mjs"
   },
   "license": "AGPL-3.0-or-later",
   "dependencies": {

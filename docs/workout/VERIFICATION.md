@@ -71,3 +71,17 @@ Supersedes the earlier seven-study count: **17 draft clips, 0 approved, 5,615 pe
 - Final production-build smoke: all 17 clips load, no JavaScript exceptions; 390px phone layout has no horizontal overflow; reduced motion starts paused; blocked model/clip requests show the load-failure message. The intentionally blocked requests produce expected network errors.
 - Fork training tests: 5 pass. Local Supabase integration checks pass, including ownership isolation and revision-conflict handling. Production build passes with existing upstream chunk-size warnings. Release gate remains blocked as intended.
 - Two consecutive asset generations produce identical audit/content hashes. Final useful screenshots and concise test logs are retained in ignored `work/`; no dependency tree or checkout was duplicated.
+
+## Free anatomical-base integration — 2026-10-31
+
+The user authorized a vetted free open-license anatomical base while retaining original movements. The active viewer now uses the selected Z-Anatomy / BodyParts3D surfaces; the preceding procedural-body limitation is superseded. Movement/deformation review remains unfinished.
+
+- Pinned muscular/skeletal FBX inputs verified by SHA-256. Publisher license and attribution retained; separate restricted systems and identified ear/organ structures excluded from the public export. Full mixed atlas inputs are excluded from the source ZIP.
+- 22 original draft clips, 0 approved, 5,610 pending. Full catalog parity remains 5,632 named exercises plus 922 aliases.
+- 27 targeted tests pass: pinned-source integrity, attribution presence, excluded structures, split buffers, valid normalized skin weights, all 22 motion constraints/loop closures, geometry winding and equipment visibility.
+- Conversion fixed reflected surface winding and revised the first automatic skin-weight pass after visible arm/chest stretching. These are engineering fixes, not anatomy or technique approval.
+- No purchases, paid asset services, subscriptions, account provisioning or public deployment.
+
+- Browser check: all 22 clips load with one shared-base request, separate selected-clip requests and no JavaScript exceptions. Reviewed a pose contact sheet; finger grips and smaller deformation issues remain visible and are launch blockers.
+- Mobile 390×844: no horizontal overflow; reduced motion starts paused. Blocking model/clip requests produces the explicit load-failure fallback (expected network errors only).
+- Production build and five fork training tests pass; catalog structure passes; public-release validation remains intentionally blocked. No training persistence/authentication code changed in this batch.

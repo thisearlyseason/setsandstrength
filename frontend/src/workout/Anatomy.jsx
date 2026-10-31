@@ -1,6 +1,8 @@
 import { supabase } from './backend.js'
 import { useEffect, useRef, useState } from 'react'
 import { RotateCcw, Pause, Play, Maximize2 } from 'lucide-react'
+// One CPU-side base model; each viewer gets independent bones/materials.
+const modelCache = new Map()
 export default function Anatomy({
   motion = 'squat',
   primary = [],
@@ -25,11 +27,13 @@ export default function Anatomy({
     setLoading(true)
     setProgress(0)
     ;(async () => {
-      const [T, { GLTFLoader }, { OrbitControls }] = await Promise.all([
-        import('three'),
-        import('three/addons/loaders/GLTFLoader.js'),
-        import('three/addons/controls/OrbitControls.js'),
-      ])
+      const [T, { GLTFLoader }, { OrbitControls }, { clone }] =
+        await Promise.all([
+          import('three'),
+          import('three/addons/loaders/GLTFLoader.js'),
+          import('three/addons/controls/OrbitControls.js'),
+          import('three/addons/utils/SkeletonUtils.js'),
+        ])
       if (disposed) return
       const renderer = new T.WebGLRenderer({ antialias: true, alpha: true })
       renderer.setPixelRatio(Math.min(devicePixelRatio, 2))
@@ -154,30 +158,46 @@ export default function Anatomy({
         observer.disconnect()
         controls.dispose()
         scene.traverse((o) => {
-          o.geometry?.dispose()
+          if (!o.userData.cachedGeometry) o.geometry?.dispose()
+          o.skeleton?.dispose()
           if (o.material) {
             for (const m of [].concat(o.material)) m.dispose()
           }
         })
         renderer.dispose()
+        renderer.forceContextLoss()
         renderer.domElement.remove()
         api.current = null
       }
       try {
-        const base = '/workout/anatomy-v2/'
+        const base = '/workout/anatomy-z1/'
         const remote = supabase?.storage
           .from('exercise-assets')
-          .getPublicUrl('anatomy-v2/').data.publicUrl
+          .getPublicUrl('anatomy-z1/').data.publicUrl
         const loader = new GLTFLoader()
         async function load(baseUrl) {
-          const [gltf, response] = await Promise.all([
-            loader.loadAsync(baseUrl + 'model.gltf'),
+          if (!modelCache.has(baseUrl)) {
+            modelCache.clear()
+            modelCache.set(
+              baseUrl,
+              loader.loadAsync(baseUrl + 'model.gltf').catch((e) => {
+                modelCache.delete(baseUrl)
+                throw e
+              }),
+            )
+          }
+          const [baseModel, response] = await Promise.all([
+            modelCache.get(baseUrl),
             fetch(baseUrl + 'motions/' + motion + '.json'),
           ])
           if (!response.ok) throw Error('Motion asset unavailable')
           const clip = T.AnimationClip.parse(await response.json())
           if (clip.name !== motion) throw Error('Motion identity mismatch')
-          return { gltf, clip }
+          const cloned = clone(baseModel.scene)
+          cloned.traverse((o) => {
+            if (o.isMesh) o.userData.cachedGeometry = true
+          })
+          return { gltf: { scene: cloned }, clip }
         }
         let loaded
         try {
@@ -186,13 +206,7 @@ export default function Anatomy({
           loaded = await load(base)
         }
         const { gltf, clip } = loaded
-        if (disposed) {
-          gltf.scene.traverse((o) => {
-            o.geometry?.dispose()
-            o.material?.dispose()
-          })
-          return
-        }
+        if (disposed) return
         scene.add(gltf.scene)
         gltf.scene.traverse((o) => {
           if (!o.isMesh) return
@@ -264,9 +278,17 @@ export default function Anatomy({
         </p>
       )}
       <div className="viewer-top">
-        <span className="tag">ANATOMY LAB</span>
+        <span className="tag">ANATOMY · Z-ANATOMY</span>
         <span className="tag muted">Draft · review required</span>
       </div>
+      <a
+        className="anatomy-credit"
+        href="/workout/anatomy-z1/NOTICE.txt"
+        target="_blank"
+        rel="noreferrer"
+      >
+        Z-Anatomy / BodyParts3D · CC BY-SA 4.0 · adapted
+      </a>
       <div className="viewer-timeline">
         <label>
           Movement phase

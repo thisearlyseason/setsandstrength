@@ -60,8 +60,8 @@ need syncing. In-progress sessions are preserved through the upstream stash mech
 Catalog and program files are versioned offline snapshots of the seeded public tables.
 Enrollment copies a specific template version into ordinary routines and calendar dates.
 Changes to templates do not alter an enrolled user's routines. Media metadata has a
-complete entry for every named exercise; only seven entries currently have prototype
-motion studies. The viewer fetches the original glTF from local Supabase Storage, with
+complete entry for every named exercise; 22 entries currently have draft
+motion studies. The viewer fetches the adapted Z-Anatomy glTF from local Supabase Storage, with
 a bundled public copy as an offline fallback.
 
 Private uploads have an account-prefixed Storage policy and integration tests. A general
@@ -114,3 +114,5 @@ Stop only this project's containers with `supabase stop` from this directory. Do
 Temporary logs and browser screenshots are under ignored `work/`; source and final
 artifacts are separate. The source-download ZIP excludes secrets, caches and restricted
 upstream exercise media and is regenerated after code changes.
+
+For the current free licensed anatomy base, original motion sources, attribution and reproduction commands, see [ANATOMY-PRODUCTION.md](ANATOMY-PRODUCTION.md).

@@ -1,6 +1,11 @@
 import * as T from 'three'
 export const definitions = [
   ['3948', 'squat', 'body weight'],
+  ['0031', 'barbell-curl', 'barbell'],
+  ['0285', 'alternating-curl', 'dumbbell'],
+  ['0417', 'loaded-calf-raise', 'dumbbell'],
+  ['0426', 'overhead-press', 'dumbbell'],
+  ['1064', 'sumo-squat', 'body weight'],
   ['0032', 'hinge', 'barbell'],
   ['0662', 'press', 'body weight'],
   ['0027', 'pull', 'barbell'],
@@ -43,25 +48,37 @@ export function solveIK(start, end, l1, l2, pole) {
   return { middle, end: reachableEnd, residual: Math.abs(raw - d) }
 }
 export function pose(motion, t) {
+  const kind =
+    {
+      'barbell-curl': 'biceps-curl',
+      'alternating-curl': 'biceps-curl',
+      'loaded-calf-raise': 'calf-raise',
+      'sumo-squat': 'squat',
+    }[motion] || motion
   const a = (1 - Math.cos(t * Math.PI * 2)) / 2,
     p = {},
     checks = []
   let hip = V([0, 0.9, 0]),
     trunk = Q(0),
     feet = { L: V([-0.11, 0.03, 0]), R: V([0.11, 0.03, 0]) }
-  const bench = motion.includes('bench-press'),
-    prone = motion === 'press' || motion === 'plank'
-  if (motion === 'squat') {
+  const bench = kind.includes('bench-press'),
+    prone = kind === 'press' || kind === 'plank'
+  if (kind === 'squat') {
     hip = V([0, 0.9 - 0.35 * a, -0.19 * a])
     trunk = Q(0.38 * a)
     feet = { L: V([-0.16, 0.03, 0]), R: V([0.16, 0.03, 0]) }
   }
-  if (['hinge', 'romanian-deadlift', 'pull'].includes(motion)) {
-    const b = motion === 'pull' ? 1 : a
-    hip = V([0, 0.9 - (motion === 'hinge' ? 0.29 : 0.13) * b, -0.2 * b])
-    trunk = Q((motion === 'romanian-deadlift' ? 0.95 : 1.05) * b)
+  if (motion === 'sumo-squat') {
+    hip = V([0, 0.88 - 0.3 * a, -0.1 * a])
+    trunk = Q(0.15 * a)
+    feet = { L: V([-0.26, 0.03, 0]), R: V([0.26, 0.03, 0]) }
   }
-  if (motion === 'unilateral') {
+  if (['hinge', 'romanian-deadlift', 'pull'].includes(kind)) {
+    const b = kind === 'pull' ? 1 : a
+    hip = V([0, 0.9 - (kind === 'hinge' ? 0.29 : 0.13) * b, -0.2 * b])
+    trunk = Q((kind === 'romanian-deadlift' ? 0.95 : 1.05) * b)
+  }
+  if (kind === 'unilateral') {
     const phase = (t * 2) % 1,
       step = Math.sin(phase * Math.PI),
       bend = step * step,
@@ -71,14 +88,14 @@ export function pose(motion, t) {
     feet[active].y += 0.06 * Math.sin(phase * 2 * Math.PI) ** 2
     trunk = Q(0.08 * bend)
   }
-  if (motion === 'calf-raise') {
+  if (kind === 'calf-raise') {
     hip.y += 0.105 * a
     feet.L.y += 0.105 * a
     feet.R.y += 0.105 * a
     feet.L.z = 0.135 * (1 - Math.cos(0.9 * a))
     feet.R.z = feet.L.z
   }
-  if (motion === 'locomotion') {
+  if (kind === 'locokind') {
     hip.y = 0.85 + 0.018 * Math.cos(t * 4 * Math.PI)
     for (const [s, k] of [
       ['L', 0],
@@ -94,15 +111,14 @@ export function pose(motion, t) {
   }
   if (prone) {
     const height =
-        (motion === 'plank' ? 0.258 : 0.31) -
-        (motion === 'press' ? 0.12 * a : 0),
+        (kind === 'plank' ? 0.258 : 0.31) - (kind === 'press' ? 0.12 * a : 0),
       rise = height - 0.12,
       tilt = Math.asin(rise / 0.885)
     hip = V([0, height, -0.85 + Math.sqrt(0.885 * 0.885 - rise * rise)])
     trunk = Q(Math.PI / 2 - tilt)
     feet = { L: V([-0.105, 0.12, -0.85]), R: V([0.105, 0.12, -0.85]) }
   }
-  if (motion === 'floor') {
+  if (kind === 'floor') {
     hip = V([0, 0.16, 0])
     trunk = Q(-Math.PI / 2)
   }
@@ -128,7 +144,7 @@ export function pose(motion, t) {
   set(
     'pelvis',
     hip,
-    prone || bench || motion === 'floor' ? trunk : new T.Quaternion(),
+    prone || bench || kind === 'floor' ? trunk : new T.Quaternion(),
   )
   set('torso', hip, trunk)
   let barTarget = null
@@ -141,34 +157,44 @@ export function pose(motion, t) {
       .clone()
       .add(
         V([s * 0.105, -0.035, 0]).applyQuaternion(
-          prone || bench || motion === 'floor' ? trunk : new T.Quaternion(),
+          prone || bench || kind === 'floor' ? trunk : new T.Quaternion(),
         ),
       )
     let ankle = feet[side]
-    if (motion === 'floor') {
+    if (kind === 'floor') {
       const extend = side === 'L' ? a : 1 - a
       ankle = V([s * 0.11, 0.55 - 0.4 * extend, 0.4 + 0.43 * extend])
     }
-    const leg = solveIK(origin, ankle, 0.43, 0.42, V([0, prone ? -1 : 1, 1]))
+    const leg = solveIK(
+      origin,
+      ankle,
+      0.43,
+      0.42,
+      V([motion === 'sumo-squat' ? s * 0.35 : 0, prone ? -1 : 1, 1]),
+    )
     checks.push({ name: 'ankle' + side, residual: leg.residual })
     segment('thigh' + side, origin, leg.middle)
     segment('shin' + side, leg.middle, leg.end)
     set(
       'foot' + side,
       leg.end,
-      Q(motion === 'calf-raise' ? 0.9 * a : prone ? 1.1 : 0),
+      Q(kind === 'calf-raise' ? 0.9 * a : prone ? 1.1 : 0),
     )
-    let shoulder = local([s * 0.205, 0.43, 0])
-    if (motion === 'shrug') shoulder.y += 0.055 * a
+    if (motion === 'sumo-squat')
+      p['foot' + side].quaternion = new T.Quaternion()
+        .setFromAxisAngle(V([0, 1, 0]), s * 0.4)
+        .toArray()
+    let shoulder = local([s * 0.17, 0.5, 0])
+    if (kind === 'shrug') shoulder.y += 0.055 * a
     let elbow,
       hand,
       handQ = new T.Quaternion()
-    if (['hinge', 'pull'].includes(motion)) {
+    if (['hinge', 'pull'].includes(kind)) {
       const reach = 0.569
       const dx = s * 0.28 - shoulder.x,
         dz = 0.15 - shoulder.z
       const y =
-        motion === 'hinge'
+        kind === 'hinge'
           ? shoulder.y - Math.sqrt(reach * reach - dx * dx - dz * dz)
           : 0.49 + 0.37 * a
       hand = V([s * 0.28, y, 0.15])
@@ -177,8 +203,8 @@ export function pose(motion, t) {
       elbow = arm.middle
       hand = arm.end
       checks.push({ name: 'grip' + side, residual: arm.residual })
-    } else if (motion === 'plank') {
-      elbow = V([s * 0.205, shoulder.y - 0.3, shoulder.z])
+    } else if (kind === 'plank') {
+      elbow = V([shoulder.x, shoulder.y - 0.3, shoulder.z])
       hand = elbow.clone().add(V([0, 0, 0.27]))
       handQ = Q(-Math.PI / 2)
     } else if (prone) {
@@ -190,7 +216,7 @@ export function pose(motion, t) {
       handQ = Q(-Math.PI / 2)
     } else if (bench) {
       hand = V([
-        s * (motion === 'bench-press' ? 0.3 : 0.29 - 0.08 * a),
+        s * (kind === 'bench-press' ? 0.3 : 0.29 - 0.08 * a),
         0.77 + 0.32 * a,
         -0.15,
       ])
@@ -199,22 +225,39 @@ export function pose(motion, t) {
       hand = arm.end
       barTarget = V([0, hand.y - 0.06, hand.z])
       checks.push({ name: 'benchGrip' + side, residual: arm.residual })
+    } else if (kind === 'overhead-press' || motion === 'sumo-squat') {
+      hand =
+        kind === 'overhead-press'
+          ? V([s * 0.22, 1.4 + 0.5 * a, 0.02])
+          : local([s * 0.035, 0.34, 0.2])
+      const arm = solveIK(shoulder, hand, 0.3, 0.27, V([s, -0.3, 0]))
+      elbow = arm.middle
+      hand = arm.end
+      checks.push({ name: 'newGrip' + side, residual: arm.residual })
+      handQ = kind === 'overhead-press' ? Q(Math.PI) : new T.Quaternion()
     } else {
       let upper = 0,
         flex = 0,
         abduct = 0
-      if (motion === 'squat') upper = -1.3 * a
-      if (['biceps-curl', 'hammer-curl'].includes(motion)) flex = -2.05 * a
-      if (motion === 'front-raise') upper = -1.5 * a
-      if (motion === 'lateral-raise') abduct = s * 1.45 * a
-      if (motion === 'locomotion')
+      if (kind === 'squat') upper = -1.3 * a
+      if (['biceps-curl', 'hammer-curl'].includes(kind))
+        flex =
+          -2.05 *
+          (motion === 'alternating-curl'
+            ? (side === 'L' && t < 0.5) || (side === 'R' && t >= 0.5)
+              ? Math.sin(t * 2 * Math.PI) ** 2
+              : 0
+            : a)
+      if (kind === 'front-raise') upper = -1.5 * a
+      if (kind === 'lateral-raise') abduct = s * 1.45 * a
+      if (kind === 'locokind')
         upper = (side === 'L' ? 1 : -1) * 0.32 * Math.sin(t * 2 * Math.PI)
-      if (motion === 'floor')
+      if (kind === 'floor')
         upper = -Math.PI / 2 - (side === 'L' ? 1 - a : a) * 1.3
       const uq = new T.Quaternion().setFromEuler(new T.Euler(upper, 0, abduct))
       const fq = uq.clone().multiply(Q(flex))
       // Standing arm world orientation maintains vertical hanging hands during hip hinges.
-      const base = motion === 'floor' ? trunk : new T.Quaternion()
+      const base = kind === 'floor' ? trunk : new T.Quaternion()
       elbow = shoulder
         .clone()
         .add(V([0, -0.3, 0]).applyQuaternion(uq).applyQuaternion(base))
@@ -222,7 +265,7 @@ export function pose(motion, t) {
         .clone()
         .add(V([0, -0.27, 0]).applyQuaternion(fq).applyQuaternion(base))
       handQ = base.clone().multiply(fq)
-      if (motion === 'hammer-curl')
+      if (kind === 'hammer-curl')
         handQ.multiply(
           new T.Quaternion().setFromAxisAngle(V([0, 1, 0]), (s * Math.PI) / 2),
         )
@@ -242,6 +285,11 @@ export function pose(motion, t) {
       handQ,
       equipment === 'dumbbell' ? [1, 1, 1] : [0, 0, 0],
     )
+  }
+  if (motion === 'barbell-curl') {
+    const { hand, handQ } = hands.L
+    barTarget = V([0, -0.065, 0]).applyQuaternion(handQ).add(hand)
+    barTarget.x = 0
   }
   set(
     'barbell',

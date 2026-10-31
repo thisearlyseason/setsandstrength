@@ -194,18 +194,18 @@ const pilots = Object.fromEntries(
 )
 const manifest = EXDB.map((x) => ({
   exerciseId: x.id,
-  model: pilots[x.id] ? '/workout/anatomy-v2/model.gltf' : null,
+  model: pilots[x.id] ? '/workout/anatomy-z1/model.gltf' : null,
   motion: pilots[x.id] || null,
   motionAsset: pilots[x.id]
-    ? `/workout/anatomy-v2/motions/${pilots[x.id]}.json`
+    ? `/workout/anatomy-z1/motions/${pilots[x.id]}.json`
     : null,
-  assetVersion: pilots[x.id] ? 'anatomy-v2' : null,
+  assetVersion: pilots[x.id] ? 'anatomy-z1' : null,
   equipment: x.eq,
   camera: [3, 2, 5],
   primary: [x.tg],
   secondary: x.sm || [],
   provenance: pilots[x.id]
-    ? 'Original Workout parametric muscle surfaces and constrained motion; no upstream media used; anatomical approximation awaiting review'
+    ? 'Z-Anatomy / BodyParts3D anatomical mesh adapted under CC BY-SA 4.0; original Workout motions; automatic rig awaiting deformation and technique review'
     : null,
   reviewStatus: pilots[x.id] ? 'draft' : 'pending',
   difficulty: null,

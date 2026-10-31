@@ -35,9 +35,8 @@ function Review() {
         secondary={exercise.sm || []}
       />
       <p>
-        Original parametric anatomy · draft. These articulated studies are not
-        yet realistic production anatomy or professionally reviewed exercise
-        demonstrations.
+        Z-Anatomy / BodyParts3D anatomical surfaces · original Workout motion.
+        Automatic skin weights and exercise technique remain unreviewed.
       </p>
     </main>
   )

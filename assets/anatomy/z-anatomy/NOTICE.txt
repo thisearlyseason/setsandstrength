@@ -1,0 +1,36 @@
+Z-Anatomy / BodyParts3D anatomical model adaptation for Workout
+
+Anatomical base: Z-Anatomy — The libre 3D atlas of anatomy.
+Copyright Gauthier Kervyn and contributors; original BodyParts3D model by
+Kousaku Okubo / The Database Center for Life Science (DBCLS).
+Source: https://github.com/LluisV/Z-Anatomy (pinned revision in source.json)
+Original project: https://github.com/Z-Anatomy/Models-of-human-anatomy
+
+Adapted anatomical meshes and rig weights: CC BY-SA 4.0
+https://creativecommons.org/licenses/by-sa/4.0/
+https://creativecommons.org/licenses/by-sa/4.0/legalcode
+
+Upstream requested credit: "BodyParts3D - The Database Center for Life
+Science - CC-BY-SA 2.1 Japan" and "Z-Anatomy - The libre 3D atlas of
+anatomy - CC-BY-SA 4.0". The upstream license/attributions are retained in
+UPSTREAM-LICENSE.txt. DBCLS now lists its own database under CC BY 4.0;
+this adaptation retains the Z-Anatomy derivative's CC BY-SA 4.0 terms.
+
+Changes by Workout: selected muscular/physical skeletal structures only;
+removed annotation geometry, attachment patches, organs, nerves and ear
+structures; converted centimeters to meters; spatially welded vertices;
+recomputed normals; assigned materials, skin weights and an animation rig;
+grouped surfaces by muscle region; exported glTF with split binary buffers.
+Geometry and skin-weight adaptations are distributed under CC BY-SA 4.0.
+No endorsement by source authors is implied. No warranty of anatomical or
+instructional accuracy is provided. Automated rigging requires human review.
+
+Workout motion curves and equipment are separately original work, licensed
+under the repository's AGPL-3.0-or-later terms. No source motion was imported.
+Application code remains AGPL-3.0-or-later; its license does not replace
+these anatomical asset terms.
+
+The retained input FBX archives include unused atlas objects; do not treat
+all objects in those archives as cleared for redistribution. The public
+export explicitly excludes inner-ear and other separately restricted assets.
+Only the selected derived meshes are included in Workout's source download.

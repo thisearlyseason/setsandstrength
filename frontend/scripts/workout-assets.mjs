@@ -34,31 +34,42 @@ if (reviewed.length)
     'Refusing to replace approved manifest records with generated drafts',
   )
 
-const assetRoot = new URL('../public/workout/anatomy-v2/', import.meta.url)
-const files = [
-  'model.gltf',
-  'anatomy.bin',
-  'audit.json',
-  ...readdirSync(new URL('motions/', assetRoot)).map(
-    (name) => 'motions/' + name,
-  ),
-]
-for (const file of files) {
-  const { error } = await db.storage
-    .from('exercise-assets')
-    .upload('anatomy-v2/' + file, readFileSync(new URL(file, assetRoot)), {
-      contentType: file.endsWith('.gltf')
-        ? 'model/gltf+json'
-        : file.endsWith('.json')
-          ? 'application/json'
-          : 'application/octet-stream',
-      cacheControl: '0',
-      upsert: true,
-    })
-  if (error) throw error
+const publicRoot = new URL('../public/workout/', import.meta.url)
+let uploaded = 0
+for (const version of ['anatomy-v2', 'anatomy-z1']) {
+  const assetRoot = new URL(version + '/', publicRoot)
+  const model = JSON.parse(readFileSync(new URL('model.gltf', assetRoot)))
+  const files = [
+    'model.gltf',
+    ...model.buffers
+      .filter((b) => !b.uri.startsWith('data:'))
+      .map((b) => b.uri),
+    'audit.json',
+  ]
+  files.push(
+    ...readdirSync(new URL('motions/', assetRoot)).map(
+      (name) => 'motions/' + name,
+    ),
+  )
+  if (version === 'anatomy-z1') files.push('NOTICE.txt')
+  for (const file of files) {
+    const { error } = await db.storage
+      .from('exercise-assets')
+      .upload(version + '/' + file, readFileSync(new URL(file, assetRoot)), {
+        contentType: file.endsWith('.gltf')
+          ? 'model/gltf+json'
+          : file.endsWith('.json')
+            ? 'application/json'
+            : 'application/octet-stream',
+        cacheControl: '0',
+        upsert: true,
+      })
+    if (error) throw error
+    uploaded++
+  }
 }
 console.log(
-  `Uploaded ${files.length} original draft anatomy/motion files to local Supabase Storage.`,
+  `Uploaded ${uploaded} model, motion and attribution files to local Supabase.`,
 )
 const { error: manifestError } = await db
   .from('exercise_media')

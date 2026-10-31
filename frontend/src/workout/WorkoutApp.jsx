@@ -1113,7 +1113,7 @@ function ExerciseDetail({ id, onClose, onNotice, requireUser }) {
         {motions[id] ? (
           <Suspense
             fallback={
-              <div className="media-loading">Loading original 3D study…</div>
+              <div className="media-loading">Loading anatomical movement study…</div>
             }
           >
             <Anatomy
@@ -1128,7 +1128,7 @@ function ExerciseDetail({ id, onClose, onNotice, requireUser }) {
             <div>
               <span className="tag pale">DEMONSTRATION PENDING</span>
               <p>
-                Original anatomy animation is in production.
+                This exercise demonstration is in production.
                 <br />
                 Instructions are available below.
               </p>
@@ -2016,7 +2016,9 @@ function Profile({ user, ready, onNotice }) {
             Upstream project
           </a>
           <span> · </span>
-          <a href="/workout/LICENSE.txt">AGPL license</a>
+          <a href="/workout/LICENSE.txt">Code license</a>
+          <span> · </span>
+          <a href="/workout/anatomy-z1/NOTICE.txt">Anatomy credits &amp; license</a>
         </div>
       </section>
       {backup && (
