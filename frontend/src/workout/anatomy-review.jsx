@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { createRoot } from 'react-dom/client'
-import Anatomy from './Anatomy.jsx'
-import studies from './studies.json'
+import Anatomy from './Illustration.jsx'
+import studies from './illustrations.json'
 import { EXDB } from '../lib/exercises-data.js'
 import './workout.css'
 function Review() {
@@ -13,7 +13,7 @@ function Review() {
       <header>
         <div>
           <span className="eyebrow">WORKOUT / MOTION REVIEW</span>
-          <h1>Anatomy lab</h1>
+          <h1>Illustration studio</h1>
         </div>
         <select
           aria-label="Exercise"
@@ -35,8 +35,9 @@ function Review() {
         secondary={exercise.sm || []}
       />
       <p>
-        Z-Anatomy / BodyParts3D anatomical surfaces · original Workout motion.
-        Automatic skin weights and exercise technique remain unreviewed.
+        Original 2D drawings and motion. Drafts are checked against catalog
+        instructions, but are not professionally approved. Walking and missing
+        demonstrations remain pending.
       </p>
     </main>
   )

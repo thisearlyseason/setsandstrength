@@ -8,7 +8,7 @@ with zipfile.ZipFile(out,'w',zipfile.ZIP_DEFLATED,compresslevel=6) as z:
  for rel in sorted(set(paths)):
   p=root/rel
   if not p.is_file() or p.is_symlink():continue
-  if rel.startswith(('catalogue/media/','work/','.playwright-cli/','frontend/dist/','supabase/.temp/')):continue
+  if rel.startswith(('catalogue/media/','assets/anatomy/archive/','work/','.playwright-cli/','frontend/dist/','supabase/.temp/')):continue
   if any(part in ('node_modules','.git','.cache','.vite') for part in p.parts):continue
   if p==out or (p.name.startswith('.env') and p.name!='.env.example'):continue
   if rel.startswith('assets/anatomy/z-anatomy/') and p.suffix == '.fbx':continue

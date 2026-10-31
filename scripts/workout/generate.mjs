@@ -1,4 +1,3 @@
-import { definitions } from '../../frontend/scripts/anatomy/movements.mjs'
 import { readFileSync, writeFileSync, readdirSync, mkdirSync } from 'node:fs'
 import { EXDB, EXALIAS } from '../../frontend/src/lib/exercises-data.js'
 import { execFileSync } from 'node:child_process'
@@ -10,6 +9,11 @@ const source = execFileSync('git', ['rev-parse', 'upstream/main'], {
 const named = readdirSync('catalogue/exercises')
   .map((f) => JSON.parse(readFileSync('catalogue/exercises/' + f)))
   .filter((x) => x.name)
+// Fork correction: neutral grip remains constant during a hammer curl.
+const hammer = named.find((x) => x.id === '0313')
+if (hammer)
+  hammer.instructions[1] =
+    'Keep your palms facing each other throughout the repetition; do not rotate the wrists into a palms-up curl.'
 const ids = new Set(EXDB.map((x) => x.id))
 if (named.length !== ids.size || named.some((x) => !ids.has(x.id)))
   throw Error('Catalog parity failed')
@@ -189,23 +193,26 @@ for (const p of programs)
       for (const section of s.sections)
         for (const e of section.exercises)
           if (!ids.has(e.id)) throw Error('Unknown exercise ' + e.id)
+const drawings = JSON.parse(
+  readFileSync('frontend/src/workout/illustrations.json'),
+)
 const pilots = Object.fromEntries(
-  definitions.map((d) => [d.exerciseId, d.motion]),
+  Object.entries(drawings).map(([id, d]) => [id, d.motion]),
 )
 const manifest = EXDB.map((x) => ({
   exerciseId: x.id,
-  model: pilots[x.id] ? '/workout/anatomy-z1/model.gltf' : null,
+  model: null,
+  medium: 'vector-illustration',
+  illustrationAsset: drawings[x.id]?.path || null,
   motion: pilots[x.id] || null,
-  motionAsset: pilots[x.id]
-    ? `/workout/anatomy-z1/motions/${pilots[x.id]}.json`
-    : null,
-  assetVersion: pilots[x.id] ? 'anatomy-z1' : null,
+  motionAsset: null,
+  assetVersion: pilots[x.id] ? 'illustrations-v1' : null,
   equipment: x.eq,
   camera: [3, 2, 5],
   primary: [x.tg],
   secondary: x.sm || [],
   provenance: pilots[x.id]
-    ? 'Z-Anatomy / BodyParts3D anatomical mesh adapted under CC BY-SA 4.0; original Workout motions; automatic rig awaiting deformation and technique review'
+    ? 'Original Workout 2D vector drawings and movement curves; no upstream imagery or anatomical mesh used; technique review pending'
     : null,
   reviewStatus: pilots[x.id] ? 'draft' : 'pending',
   difficulty: null,

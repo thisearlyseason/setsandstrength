@@ -1,3 +1,5 @@
+> Current visual direction: original 2D drawings. The 3D workflow below is historical; see [ILLUSTRATIONS.md](ILLUSTRATIONS.md) for active setup and coverage.
+
 # Anatomical model and original motion production
 
 The active viewer now uses **Z-Anatomy / BodyParts3D anatomical surfaces**, replacing the procedural body. No asset purchases, subscriptions, cloud model-generation services, or hosted accounts were used. The user authorized the free open-license base; exercise movements remain originally authored for Workout.

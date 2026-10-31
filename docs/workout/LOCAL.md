@@ -1,3 +1,5 @@
+> Current visual direction: original 2D drawings. The 3D workflow below is historical; see [ILLUSTRATIONS.md](ILLUSTRATIONS.md) for active setup and coverage.
+
 # Workout local development
 
 This is a local development version of an AGPL openGym fork. Start with the app at

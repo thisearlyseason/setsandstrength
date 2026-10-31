@@ -64,12 +64,12 @@ export function pose(motion, t) {
   const bench = kind.includes('bench-press'),
     prone = kind === 'press' || kind === 'plank'
   if (kind === 'squat') {
-    hip = V([0, 0.9 - 0.35 * a, -0.19 * a])
+    hip = V([0, 0.9 - 0.48895 * a, -0.19 * a])
     trunk = Q(0.38 * a)
     feet = { L: V([-0.16, 0.03, 0]), R: V([0.16, 0.03, 0]) }
   }
   if (motion === 'sumo-squat') {
-    hip = V([0, 0.88 - 0.3 * a, -0.1 * a])
+    hip = V([0, 0.88 - 0.49624 * a, -0.1 * a])
     trunk = Q(0.15 * a)
     feet = { L: V([-0.26, 0.03, 0]), R: V([0.26, 0.03, 0]) }
   }
@@ -162,15 +162,22 @@ export function pose(motion, t) {
       )
     let ankle = feet[side]
     if (kind === 'floor') {
-      const extend = side === 'L' ? a : 1 - a
-      ankle = V([s * 0.11, 0.55 - 0.4 * extend, 0.4 + 0.43 * extend])
+      const extend =
+        (side === 'L' && t < 0.5) || (side === 'R' && t >= 0.5)
+          ? Math.sin(t * 2 * Math.PI) ** 2
+          : 0
+      ankle = V([s * 0.11, 0.59 - 0.45 * extend, 0.455 + 0.375 * extend])
     }
     const leg = solveIK(
       origin,
       ankle,
       0.43,
       0.42,
-      V([motion === 'sumo-squat' ? s * 0.35 : 0, prone ? -1 : 1, 1]),
+      V([
+        motion === 'sumo-squat' ? s * 0.35 : 0,
+        prone ? -1 : 1,
+        kind === 'floor' ? 0 : 1,
+      ]),
     )
     checks.push({ name: 'ankle' + side, residual: leg.residual })
     segment('thigh' + side, origin, leg.middle)
@@ -217,7 +224,7 @@ export function pose(motion, t) {
     } else if (bench) {
       hand = V([
         s * (kind === 'bench-press' ? 0.3 : 0.29 - 0.08 * a),
-        0.77 + 0.32 * a,
+        0.77 + (kind === 'bench-press' ? 0.345 : 0.36) * a,
         -0.15,
       ])
       const arm = solveIK(shoulder, hand, 0.3, 0.27, V([s, 0, 0]))
@@ -228,7 +235,7 @@ export function pose(motion, t) {
     } else if (kind === 'overhead-press' || motion === 'sumo-squat') {
       hand =
         kind === 'overhead-press'
-          ? V([s * 0.22, 1.4 + 0.5 * a, 0.02])
+          ? V([s * 0.22, 1.4 + 0.565 * a, 0.02])
           : local([s * 0.035, 0.34, 0.2])
       const arm = solveIK(shoulder, hand, 0.3, 0.27, V([s, -0.3, 0]))
       elbow = arm.middle
@@ -253,7 +260,12 @@ export function pose(motion, t) {
       if (kind === 'locokind')
         upper = (side === 'L' ? 1 : -1) * 0.32 * Math.sin(t * 2 * Math.PI)
       if (kind === 'floor')
-        upper = -Math.PI / 2 - (side === 'L' ? 1 - a : a) * 1.3
+        upper =
+          -Math.PI / 2 -
+          ((side === 'R' && t < 0.5) || (side === 'L' && t >= 0.5)
+            ? Math.sin(t * 2 * Math.PI) ** 2
+            : 0) *
+            1.3
       const uq = new T.Quaternion().setFromEuler(new T.Euler(upper, 0, abduct))
       const fq = uq.clone().multiply(Q(flex))
       // Standing arm world orientation maintains vertical hanging hands during hip hinges.

@@ -1,4 +1,4 @@
-import studies from './studies.json'
+import studies from './illustrations.json'
 import { movementOf, difficultyOf } from './classification.js'
 import { lazy, Suspense, useEffect, useRef, useState } from 'react'
 import {
@@ -63,7 +63,7 @@ import {
   readJSON,
 } from './training.js'
 import programs from './programs.json'
-const Anatomy = lazy(() => import('./Anatomy.jsx'))
+const Anatomy = lazy(() => import('./Illustration.jsx'))
 const motions = Object.fromEntries(
   Object.entries(studies).map(([id, m]) => [id, m.motion]),
 )
@@ -1113,7 +1113,7 @@ function ExerciseDetail({ id, onClose, onNotice, requireUser }) {
         {motions[id] ? (
           <Suspense
             fallback={
-              <div className="media-loading">Loading anatomical movement study…</div>
+              <div className="media-loading">Loading exercise drawing…</div>
             }
           >
             <Anatomy
@@ -2018,7 +2018,7 @@ function Profile({ user, ready, onNotice }) {
           <span> · </span>
           <a href="/workout/LICENSE.txt">Code license</a>
           <span> · </span>
-          <a href="/workout/anatomy-z1/NOTICE.txt">Anatomy credits &amp; license</a>
+          <a href="/workout/illustrations/NOTICE.txt">Illustration credits</a>
         </div>
       </section>
       {backup && (
@@ -2037,11 +2037,9 @@ function Profile({ user, ready, onNotice }) {
               onClick={() => {
                 try {
                   const current = useStore.getState().S
-                  useStore
-                    .getState()
-                    .importBackup(backup, {
-                      mergeWith: { state: current, local: true },
-                    })
+                  useStore.getState().importBackup(backup, {
+                    mergeWith: { state: current, local: true },
+                  })
                   setBackup(null)
                   onNotice('Backup imported and queued for sync.')
                 } catch (e) {

@@ -14,13 +14,13 @@
     "pdf:check": "node scripts/pdf/render-samples.mjs --out pdf-samples --langs en,de,ar --paper A4,Letter --check",
     "test:fork": "VITE_WORKOUT=0 vitest run src/workout",
     "test:integration": "node scripts/workout-integration.mjs",
-    "assets:original": "node scripts/workout-anatomy.mjs",
+    "assets:original": "node scripts/anatomy/illustrations.mjs",
     "assets:upload": "node scripts/workout-assets.mjs",
     "check:coverage": "node ../scripts/workout/check-coverage.mjs",
     "check:release": "node ../scripts/workout/check-coverage.mjs --release",
     "test:anatomy": "node --test scripts/anatomy/tests/*.test.mjs",
     "assets:queue": "node ../scripts/workout/production-queue.mjs",
-    "assets:anatomical": "node --max-old-space-size=6144 scripts/anatomy/import-z-anatomy.mjs"
+    "assets:illustrations": "node scripts/anatomy/illustrations.mjs"
   },
   "license": "AGPL-3.0-or-later",
   "dependencies": {

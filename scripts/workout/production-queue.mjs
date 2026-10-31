@@ -31,6 +31,7 @@ const entries = [...EXDB]
       sourceInstructions: `catalogue/exercises/${e.id}.json`,
       status: m.reviewStatus,
       model: m.model,
+    illustrationAsset: m.illustrationAsset || null,
       motionAsset: m.motionAsset || null,
       requiredReview: [
         'anatomical landmarks and deformation',

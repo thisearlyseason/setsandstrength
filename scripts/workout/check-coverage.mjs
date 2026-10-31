@@ -31,6 +31,24 @@ for (const p of programs) {
 }
 const assets = new Map()
 for (const m of media) {
+  if (m.illustrationAsset) {
+    if (
+      !m.illustrationAsset.startsWith('/workout/illustrations/') ||
+      m.illustrationAsset.includes('..') ||
+      !existsSync(new URL('frontend/public' + m.illustrationAsset, root))
+    )
+      errors.push('Missing illustration ' + m.exerciseId)
+    else {
+      const drawing = read('frontend/public' + m.illustrationAsset)
+      if (
+        drawing.exerciseId !== m.exerciseId ||
+        drawing.motion !== m.motion ||
+        drawing.frames?.length !== 61 ||
+        drawing.cues?.length !== 4
+      )
+        errors.push('Invalid illustration ' + m.exerciseId)
+    }
+  }
   if (!m.model) continue
   const path = new URL('frontend/public' + m.model, root)
   if (
@@ -80,7 +98,7 @@ for (const m of media) {
 const approved = media.filter(
   (m) =>
     m.reviewStatus === 'approved' &&
-    m.model &&
+    (m.model || m.illustrationAsset) &&
     m.motion &&
     m.review?.reviewer &&
     m.review?.date &&

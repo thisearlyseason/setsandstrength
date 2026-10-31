@@ -85,3 +85,13 @@ The user authorized a vetted free open-license anatomical base while retaining o
 - Browser check: all 22 clips load with one shared-base request, separate selected-clip requests and no JavaScript exceptions. Reviewed a pose contact sheet; finger grips and smaller deformation issues remain visible and are launch blockers.
 - Mobile 390×844: no horizontal overflow; reduced motion starts paused. Blocking model/clip requests produces the explicit load-failure fallback (expected network errors only).
 - Production build and five fork training tests pass; catalog structure passes; public-release validation remains intentionally blocked. No training persistence/authentication code changed in this batch.
+
+## Switch to original 2D drawings — 2026-10-31
+
+User replaced the 3D requirement with drawing-style demonstrations and emphasized movement correctness and zero extra costs. The active flow now uses SVG drawings. Archived 3D assets remain outside the web build; none are requested by the drawing viewer.
+
+- 21 draft illustrations, 0 approved, 5,611 pending. Walking explicitly withdrawn pending a correct gait demonstration.
+- 32 source/rig/illustration tests pass. New checks cover dead-bug tabletop and opposite-limb return, squat depth, press extension, deadlift/bench starting phases, neutral hammer-grip cues, and no active WebGL/model imports.
+- Browser cycled through all 21 drawings: zero model requests, zero canvas elements, zero JavaScript exceptions. Visually inspected the pose contact sheet and adjusted anatomy outlines/framing.
+- See `ILLUSTRATIONS.md` for actual technique corrections, primary references and remaining limitations. No purchase or paid service used; no professional approval claimed.
+- Final browser interaction: paused initial state, play/pause, phase selection, 390px layout without overflow and explicit missing-drawing fallback pass. Build contains no glTF or anatomical binary files. Current corresponding-source ZIP excludes archived 3D model assets.

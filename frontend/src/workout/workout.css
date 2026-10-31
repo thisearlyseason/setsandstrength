@@ -2422,3 +2422,21 @@ label select {
 .anatomy-review header { display: flex; align-items: center; justify-content: space-between; gap: 16px; margin-bottom: 20px; }
 @media (max-width:600px) { .anatomy-review { padding: 12px; } .anatomy-review header { flex-wrap: wrap; } }
 .anatomy-credit { position:absolute; left:16px; top:42px; font-size:9px; color:#56604d; text-decoration:underline; z-index:1; }
+
+.illustration-viewer { background:#f8faf5; border:1px solid #e0e6db; border-radius:20px; overflow:hidden; color:#26342b; }
+.illustration-heading { display:flex; justify-content:space-between; padding:16px 20px 0; gap:12px; font-size:10px; font-weight:700; letter-spacing:.08em; }
+.illustration-heading span:last-child { color:#838c7d; font-weight:500; letter-spacing:0; }
+.illustration-viewer > svg { display:block; width:100%; height:350px; }
+.illustration-caption { min-height:84px; padding:0 22px 14px; max-width:620px; margin:auto; }
+.illustration-caption strong { font-size:18px; }
+.illustration-caption p { font-size:13px; line-height:1.5; color:#697362; margin:6px 0 0; }
+.illustration-steps { display:grid; grid-template-columns:repeat(4,1fr); padding:0 16px; gap:5px; }
+.illustration-steps button { display:flex; flex-direction:column; align-items:center; padding:10px 4px; gap:6px; background:transparent; border:1px solid #dfe5d8; font-size:10px; }
+.illustration-steps button[aria-pressed=true] { background:#d5f185; border-color:#b7ce6b; }
+.illustration-steps span { font-size:12px; font-weight:700; }
+.illustration-controls { display:flex; align-items:center; gap:12px; padding:14px 16px; }
+.illustration-controls input { flex:1; width:40%; accent-color:#728b35; }
+.illustration-controls button,.illustration-controls select { padding:8px; font-size:11px; background:white; }
+.anatomy-review .illustration-viewer { max-width:1100px; margin:auto; }
+.anatomy-review .illustration-viewer > svg { height:min(58vh,680px); }
+@media(max-width:600px){.illustration-viewer > svg{height:310px}.illustration-controls{gap:6px}.illustration-heading{padding:14px 14px 0;font-size:8px}.illustration-caption{padding:0 16px 12px}}

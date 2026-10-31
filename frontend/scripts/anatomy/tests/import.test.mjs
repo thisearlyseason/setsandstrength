@@ -4,7 +4,7 @@ import { readFileSync } from 'node:fs'
 import { createHash } from 'node:crypto'
 const root = new URL('../../../../', import.meta.url),
   sourceRoot = new URL('assets/anatomy/z-anatomy/', root),
-  assetRoot = new URL('frontend/public/workout/anatomy-z1/', root)
+  assetRoot = new URL('assets/anatomy/archive/anatomy-z1/', root)
 const read = (p) => JSON.parse(readFileSync(p)),
   model = read(new URL('model.gltf', assetRoot)),
   audit = read(new URL('audit.json', assetRoot))
