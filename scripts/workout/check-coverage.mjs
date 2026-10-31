@@ -42,7 +42,37 @@ for (const m of media) {
     continue
   }
   if (!assets.has(m.model)) assets.set(m.model, JSON.parse(readFileSync(path)))
-  if (!assets.get(m.model).animations?.some((a) => a.name === m.motion))
+  for (const buffer of assets.get(m.model).buffers || []) {
+    if (!buffer.uri || buffer.uri.startsWith('data:')) continue
+    const binary = new URL(buffer.uri, path)
+    if (
+      buffer.uri.includes('..') ||
+      buffer.uri.startsWith('/') ||
+      !existsSync(binary) ||
+      readFileSync(binary).length !== buffer.byteLength
+    )
+      errors.push('Missing or mismatched model buffer for ' + m.exerciseId)
+  }
+  if (m.motionAsset) {
+    if (
+      !m.motionAsset.startsWith('/workout/') ||
+      m.motionAsset.includes('..') ||
+      !existsSync(new URL('frontend/public' + m.motionAsset, root))
+    ) {
+      errors.push('Missing independent motion for ' + m.exerciseId)
+    } else {
+      const clip = read('frontend/public' + m.motionAsset)
+      if (
+        clip.name !== m.motion ||
+        !clip.tracks?.length ||
+        !(clip.duration > 0)
+      )
+        errors.push('Invalid motion clip for ' + m.exerciseId)
+      const nodes = new Set(assets.get(m.model).nodes.map((n) => n.name))
+      if (clip.tracks?.some((t) => !nodes.has(t.name.split('.')[0])))
+        errors.push('Motion targets absent rig node for ' + m.exerciseId)
+    }
+  } else if (!assets.get(m.model).animations?.some((a) => a.name === m.motion))
     errors.push('Missing motion clip for ' + m.exerciseId)
   if (EXDB.find((e) => e.id === m.exerciseId)?.eq !== m.equipment)
     errors.push('Equipment metadata mismatch for ' + m.exerciseId)
@@ -55,7 +85,8 @@ const approved = media.filter(
     m.review?.reviewer &&
     m.review?.date &&
     m.review?.equipmentVerified &&
-    m.review?.techniqueVerified,
+    m.review?.techniqueVerified &&
+    m.review?.anatomyVerified,
 )
 const report = {
   upstream: baseline.commit,

@@ -2410,3 +2410,14 @@ label select {
     width: 58%;
   }
 }
+
+.viewer-timeline { position: absolute; bottom: 76px; left: 20px; right: 20px; display: flex; align-items: end; gap: 16px; font-size: 11px; }
+.viewer-timeline label { flex: 1; display: grid; gap: 3px; color: #34443a; }
+.viewer-timeline input { width: 100%; accent-color: #384b2d; }
+.viewer-timeline > div { display: flex; gap: 3px; }
+.viewer-timeline button { font-size: 11px; padding: 6px; text-transform: capitalize; background: #ffffffcc; }
+.anatomy-review { max-width: 1500px; padding: 32px; margin: auto; }
+.anatomy-review .anatomy-wrap { height: min(78vh, 1000px); }
+.anatomy-review .anatomy { height: 100%; }
+.anatomy-review header { display: flex; align-items: center; justify-content: space-between; gap: 16px; margin-bottom: 20px; }
+@media (max-width:600px) { .anatomy-review { padding: 12px; } .anatomy-review header { flex-wrap: wrap; } }

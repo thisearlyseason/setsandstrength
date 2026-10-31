@@ -17,7 +17,9 @@
     "assets:original": "node scripts/workout-anatomy.mjs",
     "assets:upload": "node scripts/workout-assets.mjs",
     "check:coverage": "node ../scripts/workout/check-coverage.mjs",
-    "check:release": "node ../scripts/workout/check-coverage.mjs --release"
+    "check:release": "node ../scripts/workout/check-coverage.mjs --release",
+    "test:anatomy": "node --test scripts/anatomy/tests/*.test.mjs",
+    "assets:queue": "node ../scripts/workout/production-queue.mjs"
   },
   "license": "AGPL-3.0-or-later",
   "dependencies": {

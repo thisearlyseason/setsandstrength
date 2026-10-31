@@ -1,8 +1,9 @@
-// Original procedural study. Geometry and motion authored for this fork, never sampled
-// from the upstream licensed animations. Draft: not an anatomical/technique approval.
-import * as T from 'three'
 import { GLTFExporter } from 'three/addons/exporters/GLTFExporter.js'
-import { writeFileSync } from 'node:fs'
+import { AnimationClip } from 'three'
+import { writeFileSync, mkdirSync } from 'node:fs'
+import { createHash } from 'node:crypto'
+import { createModel, VERSION } from './anatomy/model.mjs'
+import { definitions, createClip, pose } from './anatomy/movements.mjs'
 globalThis.FileReader = class {
   readAsArrayBuffer(b) {
     b.arrayBuffer().then((r) => {
@@ -19,161 +20,83 @@ globalThis.FileReader = class {
     })
   }
 }
-const scene = new T.Scene(),
-  body = new T.Group()
-body.name = 'body'
-body.position.y = 1.05
-scene.add(body)
-const gray = new T.MeshStandardMaterial({
-    color: 0x778582,
-    roughness: 0.55,
-    metalness: 0.12,
-  }),
-  dark = new T.MeshStandardMaterial({ color: 0x364340, roughness: 0.65 }),
-  lime = new T.MeshStandardMaterial({ color: 0xc4ee55, roughness: 0.6 })
-function joint(parent, name, pos) {
-  const g = new T.Group()
-  g.name = name
-  g.position.set(...pos)
-  parent.add(g)
-  return g
+const root = new URL('../public/workout/' + VERSION + '/', import.meta.url)
+mkdirSync(root, { recursive: true })
+mkdirSync(new URL('motions/', root), { recursive: true })
+const { scene, nodes } = createModel(),
+  rest = pose('squat', 0)
+for (const [name, transform] of Object.entries(rest.transforms)) {
+  nodes[name].position.fromArray(transform.position)
+  nodes[name].quaternion.fromArray(transform.quaternion)
+  nodes[name].scale.fromArray(transform.scale)
 }
-function ell(parent, name, pos, scale, mat = gray) {
-  const mesh = new T.Mesh(new T.SphereGeometry(1, 20, 14), mat)
-  mesh.name = name
-  mesh.position.set(...pos)
-  mesh.scale.set(...scale)
-  parent.add(mesh)
-  return mesh
-}
-const torso = joint(body, 'torso', [0, 0, 0])
-ell(torso, 'pelvis', [0, 0, 0], [0.19, 0.15, 0.12], dark)
-ell(torso, 'ribcage', [0, 0.3, 0], [0.23, 0.28, 0.13])
-ell(torso, 'abdominals', [0, 0.18, 0.105], [0.115, 0.17, 0.045], lime)
-for (const side of [-1, 1]) {
-  const tag = side < 0 ? 'L' : 'R'
-  ell(
-    torso,
-    'pectorals' + tag,
-    [side * 0.105, 0.43, 0.1],
-    [0.105, 0.095, 0.05],
-    lime,
-  )
-  const arm = joint(torso, 'arm' + tag, [side * 0.25, 0.42, 0])
-  ell(arm, 'deltoids' + tag, [0, -0.03, 0], [0.1, 0.12, 0.1])
-  ell(arm, 'biceps' + tag, [0, -0.17, 0.01], [0.075, 0.17, 0.07])
-  const fore = joint(arm, 'forearm' + tag, [0, -0.3, 0])
-  ell(fore, 'forearmMesh' + tag, [0, -0.13, 0], [0.06, 0.15, 0.055])
-  ell(fore, 'hand' + tag, [0, -0.3, 0], [0.06, 0.085, 0.035], dark)
-  const leg = joint(body, 'leg' + tag, [side * 0.105, -0.05, 0])
-  ell(leg, 'quadriceps' + tag, [0, -0.22, 0.01], [0.105, 0.24, 0.1], lime)
-  const shin = joint(leg, 'shin' + tag, [0, -0.45, 0])
-  ell(shin, 'calves' + tag, [0, -0.2, 0], [0.07, 0.22, 0.07])
-  ell(shin, 'foot' + tag, [0, -0.44, 0.06], [0.08, 0.05, 0.14], dark)
-}
-ell(torso, 'neck', [0, 0.61, 0], [0.065, 0.09, 0.065])
-ell(torso, 'head', [0, 0.77, 0], [0.115, 0.155, 0.105])
-ell(torso, 'face', [0, 0.76, 0.085], [0.07, 0.09, 0.03], dark)
-const frames = 49,
-  times = Array.from({ length: frames }, (_, i) => (i * 4) / (frames - 1))
-function clip(name, fn) {
-  const channels = {}
-  for (const time of times) {
-    const v = fn((time / 4) * 2 * Math.PI)
-    for (const [key, val] of Object.entries(v)) {
-      ;(channels[key] ||= []).push(...(Array.isArray(val) ? val : [val]))
-    }
+// Equipment starts visible in the asset so exporters retain geometry; selected clips hide it.
+for (const name of ['barbell', 'dumbbellL', 'dumbbellR', 'bench'])
+  nodes[name].scale.set(1, 1, 1)
+const gltf = await new GLTFExporter().parseAsync(scene, {
+  binary: false,
+  onlyVisible: false,
+})
+const binary = Buffer.from(gltf.buffers[0].uri.split(',')[1], 'base64')
+gltf.buffers[0].uri = 'anatomy.bin'
+writeFileSync(new URL('anatomy.bin', root), binary)
+writeFileSync(new URL('model.gltf', root), JSON.stringify(gltf))
+let triangles = 0,
+  meshes = 0,
+  regions = new Set()
+scene.traverse((o) => {
+  if (o.isMesh) {
+    meshes++
+    triangles += o.geometry.index
+      ? o.geometry.index.count / 3
+      : o.geometry.attributes.position.count / 3
+    if (o.userData.region) regions.add(o.userData.region)
   }
-  return new T.AnimationClip(
-    name,
-    4,
-    Object.entries(channels).map(([path, vals]) =>
-      path.endsWith('position')
-        ? new T.VectorKeyframeTrack(path, times, vals)
-        : new T.QuaternionKeyframeTrack(path, times, vals),
-    ),
-  )
+})
+const audit = []
+for (const d of definitions) {
+  const { clip, maxConstraintResidual } = createClip(d)
+  const serialized = AnimationClip.toJSON(clip)
+  delete serialized.uuid // Stable content hashes across reproducible generation.
+  const data = JSON.stringify(serialized)
+  writeFileSync(new URL('motions/' + d.motion + '.json', root), data)
+  audit.push({
+    ...d,
+    maxConstraintResidual,
+    sha256: createHash('sha256').update(data).digest('hex'),
+    reviewStatus: 'draft',
+  })
 }
-const rot = (x = 0, y = 0, z = 0) =>
-  new T.Quaternion().setFromEuler(new T.Euler(x, y, z)).toArray()
-const animations = [
-  'squat',
-  'hinge',
-  'press',
-  'pull',
-  'unilateral',
-  'floor',
-  'locomotion',
-].map((name) =>
-  clip(name, (t) => {
-    const a = (1 - Math.cos(t)) / 2,
-      out = { 'body.position': [0, 1.05, 0] }
-    if (name === 'squat') {
-      out['body.position'] = [0, 1.05 - 0.28 * a, -0.08 * a]
-      out['torso.quaternion'] = rot(0.28 * a)
-      for (const s of ['L', 'R']) {
-        out['leg' + s + '.quaternion'] = rot(-0.95 * a)
-        out['shin' + s + '.quaternion'] = rot(1.25 * a)
-        out['arm' + s + '.quaternion'] = rot(-0.8 * a)
-      }
-    }
-    if (name === 'hinge' || name === 'pull') {
-      out['torso.quaternion'] = rot(name === 'pull' ? 0.8 : 0.9 * a)
-      out['body.position'] = [0, 1.05 - 0.12 * a, -0.12 * a]
-      for (const s of ['L', 'R']) {
-        out['leg' + s + '.quaternion'] = rot(-0.25 * a)
-        out['shin' + s + '.quaternion'] = rot(0.4 * a)
-        out['arm' + s + '.quaternion'] = rot(
-          name === 'pull' ? -0.6 + 0.6 * a : -0.6 * a,
-        )
-        out['forearm' + s + '.quaternion'] = rot(name === 'pull' ? -1.2 * a : 0)
-      }
-    }
-    if (name === 'unilateral') {
-      out['body.position'] = [0, 1.05 - 0.25 * a, 0]
-      out['legL.quaternion'] = rot(-0.8 * a)
-      out['shinL.quaternion'] = rot(1.1 * a)
-      out['legR.quaternion'] = rot(0.4 * a)
-      out['shinR.quaternion'] = rot(1.1 * a)
-    }
-    if (name === 'press') {
-      out['body.position'] = [0, 0.55, 0]
-      out['body.quaternion'] = rot(-Math.PI / 2)
-      for (const s of ['L', 'R']) {
-        out['arm' + s + '.quaternion'] = rot(-1.1 + 0.5 * a)
-        out['forearm' + s + '.quaternion'] = rot(-1 * a)
-      }
-    }
-    if (name === 'floor') {
-      out['body.position'] = [0, 0.2, 0]
-      out['body.quaternion'] = rot(Math.PI / 2)
-      for (const [s, k] of [
-        ['L', 1],
-        ['R', -1],
-      ]) {
-        out['leg' + s + '.quaternion'] = rot(-1 + 0.4 * Math.sin(t) * k)
-        out['shin' + s + '.quaternion'] = rot(1)
-        out['arm' + s + '.quaternion'] = rot(-2 + 0.7 * Math.sin(t) * k)
-      }
-    }
-    if (name === 'locomotion') {
-      for (const [s, k] of [
-        ['L', 1],
-        ['R', -1],
-      ]) {
-        out['leg' + s + '.quaternion'] = rot(0.45 * Math.sin(t) * k)
-        out['shin' + s + '.quaternion'] = rot(
-          Math.max(0, 0.65 * Math.sin(t) * k),
-        )
-        out['arm' + s + '.quaternion'] = rot(-0.35 * Math.sin(t) * k)
-      }
-    }
-    return out
-  }),
-)
-const gltf = await new GLTFExporter().parseAsync(scene, { animations })
+const report = {
+  version: VERSION,
+  meshes,
+  triangles,
+  regions: [...regions].sort(),
+  binaryBytes: binary.length,
+  modelSha256: createHash('sha256').update(binary).digest('hex'),
+  motions: audit,
+  limitations: [
+    'Parametric anatomical approximation; not anatomist-reviewed',
+    'Segment articulation, not a deforming production skin',
+    'Walking is a stationary gait study',
+    'Contact residuals measure reachability, not instructional correctness',
+  ],
+}
 writeFileSync(
-  new URL('../public/workout/anatomy.gltf', import.meta.url),
-  JSON.stringify(gltf),
+  new URL('audit.json', root),
+  JSON.stringify(report, null, 2) + '\n',
 )
-console.log('Original draft rig and seven motion studies exported.')
+console.log(
+  JSON.stringify(
+    {
+      version: VERSION,
+      meshes,
+      triangles,
+      modelMB: binary.length / 1e6,
+      clips: audit.length,
+      maxResidual: Math.max(...audit.map((a) => a.maxConstraintResidual)),
+    },
+    null,
+    2,
+  ),
+)

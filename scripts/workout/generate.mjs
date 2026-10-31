@@ -1,3 +1,4 @@
+import { definitions } from '../../frontend/scripts/anatomy/movements.mjs'
 import { readFileSync, writeFileSync, readdirSync, mkdirSync } from 'node:fs'
 import { EXDB, EXALIAS } from '../../frontend/src/lib/exercises-data.js'
 import { execFileSync } from 'node:child_process'
@@ -188,25 +189,23 @@ for (const p of programs)
       for (const section of s.sections)
         for (const e of section.exercises)
           if (!ids.has(e.id)) throw Error('Unknown exercise ' + e.id)
-const pilots = {
-  3948: 'squat',
-  '0032': 'hinge',
-  '0662': 'press',
-  '0027': 'pull',
-  '0336': 'unilateral',
-  '0276': 'floor',
-  2258: 'locomotion',
-}
+const pilots = Object.fromEntries(
+  definitions.map((d) => [d.exerciseId, d.motion]),
+)
 const manifest = EXDB.map((x) => ({
   exerciseId: x.id,
-  model: pilots[x.id] ? '/workout/anatomy.gltf' : null,
+  model: pilots[x.id] ? '/workout/anatomy-v2/model.gltf' : null,
   motion: pilots[x.id] || null,
+  motionAsset: pilots[x.id]
+    ? `/workout/anatomy-v2/motions/${pilots[x.id]}.json`
+    : null,
+  assetVersion: pilots[x.id] ? 'anatomy-v2' : null,
   equipment: x.eq,
   camera: [3, 2, 5],
   primary: [x.tg],
   secondary: x.sm || [],
   provenance: pilots[x.id]
-    ? 'Original procedural Workout study; no upstream media used'
+    ? 'Original Workout parametric muscle surfaces and constrained motion; no upstream media used; anatomical approximation awaiting review'
     : null,
   reviewStatus: pilots[x.id] ? 'draft' : 'pending',
   difficulty: null,

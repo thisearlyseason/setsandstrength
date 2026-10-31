@@ -59,3 +59,15 @@ Latest useful screenshots and concise logs are in ignored `work/`. Final source 
 instructions are tracked separately. `frontend/public/workout/source.zip` is a regenerated
 corresponding-source deliverable, excluding local credentials, caches and restricted media.
 No shared caches, other project containers, user worktrees or recovery volumes were removed.
+
+## Anatomy continuation — 2026-10-31
+
+Supersedes the earlier seven-study count: **17 draft clips, 0 approved, 5,615 pending**. See `ANATOMY-PRODUCTION.md` for the current model limitations and reproducible commands. The full-catalog realistic-anatomy requirement remains unfinished.
+
+- 19 targeted rig checks pass: all 17 clips sampled over 121 frames, finite/unit transforms, bounded IK residuals, fixed segment lengths, loop closure, muscle geometry winding and equipment visibility.
+- All 17 clips loaded in a 1920×1080 browser review session with individual asset requests. Reviewed a pose contact sheet and corrected reversed muscle winding, lunge steps, dead-bug arm direction, forearm plank support and prone-body alignment.
+- The rendered anatomy still appears procedural. These checks do **not** establish professional anatomical or exercise accuracy.
+- Storage migration applied locally; all 20 model/clip/audit files uploaded without changing user training records. Frontend source exposes no service key.
+- Final production-build smoke: all 17 clips load, no JavaScript exceptions; 390px phone layout has no horizontal overflow; reduced motion starts paused; blocked model/clip requests show the load-failure message. The intentionally blocked requests produce expected network errors.
+- Fork training tests: 5 pass. Local Supabase integration checks pass, including ownership isolation and revision-conflict handling. Production build passes with existing upstream chunk-size warnings. Release gate remains blocked as intended.
+- Two consecutive asset generations produce identical audit/content hashes. Final useful screenshots and concise test logs are retained in ignored `work/`; no dependency tree or checkout was duplicated.

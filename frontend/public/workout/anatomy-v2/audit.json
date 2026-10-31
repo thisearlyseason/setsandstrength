@@ -1,0 +1,188 @@
+{
+  "version": "anatomy-v2",
+  "meshes": 189,
+  "triangles": 279980,
+  "regions": [
+    "abdominals",
+    "adductors",
+    "biceps",
+    "calves",
+    "deltoids",
+    "forearms",
+    "glutes",
+    "hamstrings",
+    "lats",
+    "neck",
+    "pectorals",
+    "quadriceps",
+    "serratus",
+    "spine",
+    "tibialis",
+    "traps",
+    "triceps",
+    "upper back"
+  ],
+  "binaryBytes": 6996352,
+  "modelSha256": "941d7a0a359c7a4b6e69bc7c496a7284d20eb82b9d9327f2591df6ebb3c37d2f",
+  "motions": [
+    {
+      "exerciseId": "3948",
+      "motion": "squat",
+      "equipment": "body weight",
+      "duration": 6,
+      "maxConstraintResidual": 0,
+      "sha256": "0797f4d841c4eee682a4a2905af2cfeba0e3639cec4602246b19fd751fd43b78",
+      "reviewStatus": "draft"
+    },
+    {
+      "exerciseId": "0032",
+      "motion": "hinge",
+      "equipment": "barbell",
+      "duration": 6,
+      "maxConstraintResidual": 0,
+      "sha256": "9395dc4c96c5e46dbc339be1935d9ffc45eb9792573f0100737279ef6016fe70",
+      "reviewStatus": "draft"
+    },
+    {
+      "exerciseId": "0662",
+      "motion": "press",
+      "equipment": "body weight",
+      "duration": 6,
+      "maxConstraintResidual": 0.0000010000000002508003,
+      "sha256": "4a82019dabc1c1131af134e23808b8433a44adf83ba197b98c60372bde2f97ae",
+      "reviewStatus": "draft"
+    },
+    {
+      "exerciseId": "0027",
+      "motion": "pull",
+      "equipment": "barbell",
+      "duration": 6,
+      "maxConstraintResidual": 0,
+      "sha256": "89fc51cc1a14840f660955caee243d7682f174a5a7968989fb83e29aa1393656",
+      "reviewStatus": "draft"
+    },
+    {
+      "exerciseId": "0336",
+      "motion": "unilateral",
+      "equipment": "dumbbell",
+      "duration": 6,
+      "maxConstraintResidual": 0,
+      "sha256": "5c9002a288d861db31578b99960b3393b6eaa992d937ad94d5cdad80c85885c0",
+      "reviewStatus": "draft"
+    },
+    {
+      "exerciseId": "0276",
+      "motion": "floor",
+      "equipment": "body weight",
+      "duration": 6,
+      "maxConstraintResidual": 0,
+      "sha256": "f9d85ad9aa581efc2fdd86fdf77663b6fd4f1e17c0c938999cc083e6b669422c",
+      "reviewStatus": "draft"
+    },
+    {
+      "exerciseId": "2258",
+      "motion": "locomotion",
+      "equipment": "body weight",
+      "duration": 1.6,
+      "maxConstraintResidual": 0,
+      "sha256": "fb8cd567e4da2e7d71139c8e909756f0b9a20caf7b9e3e8cf6b803f48b993b6e",
+      "reviewStatus": "draft"
+    },
+    {
+      "exerciseId": "0294",
+      "motion": "biceps-curl",
+      "equipment": "dumbbell",
+      "duration": 6,
+      "maxConstraintResidual": 0,
+      "sha256": "0ab4da93039cddd433b21918819ff523cb21de88809bd596164b5f413fb95163",
+      "reviewStatus": "draft"
+    },
+    {
+      "exerciseId": "0313",
+      "motion": "hammer-curl",
+      "equipment": "dumbbell",
+      "duration": 6,
+      "maxConstraintResidual": 0,
+      "sha256": "bf60f4f59330951fcd0f847c08dfe55a3b0a1bc36f1514bc34609ede5462fefa",
+      "reviewStatus": "draft"
+    },
+    {
+      "exerciseId": "0310",
+      "motion": "front-raise",
+      "equipment": "dumbbell",
+      "duration": 6,
+      "maxConstraintResidual": 0,
+      "sha256": "0fd37725b968902be7e986508ce2e95e07d721559fbac24cf3c4f34069a2d64a",
+      "reviewStatus": "draft"
+    },
+    {
+      "exerciseId": "0334",
+      "motion": "lateral-raise",
+      "equipment": "dumbbell",
+      "duration": 6,
+      "maxConstraintResidual": 0,
+      "sha256": "7a469526f0f6ef1f48b398216d3a29ea7f05b86524fdf34894ca2d7323cc39d1",
+      "reviewStatus": "draft"
+    },
+    {
+      "exerciseId": "0406",
+      "motion": "shrug",
+      "equipment": "dumbbell",
+      "duration": 6,
+      "maxConstraintResidual": 0,
+      "sha256": "31b0056d506e7177dc7f6d42a2ae1aa3d59a39c6939993b4e102f48764e4404e",
+      "reviewStatus": "draft"
+    },
+    {
+      "exerciseId": "3018",
+      "motion": "calf-raise",
+      "equipment": "body weight",
+      "duration": 6,
+      "maxConstraintResidual": 0,
+      "sha256": "905df45d81dd450b302bb8665aac62671ecd42b575452a242ccee7dd71d3568b",
+      "reviewStatus": "draft"
+    },
+    {
+      "exerciseId": "0463",
+      "motion": "plank",
+      "equipment": "body weight",
+      "duration": 6,
+      "maxConstraintResidual": 0.0000010000000000287557,
+      "sha256": "0ae89dffb692187f3fce91b29cb9494b95b8bcc8f02d8c29c95c639d92365eda",
+      "reviewStatus": "draft"
+    },
+    {
+      "exerciseId": "0025",
+      "motion": "bench-press",
+      "equipment": "barbell",
+      "duration": 6,
+      "maxConstraintResidual": 0,
+      "sha256": "61d4ba09a63050ecf3c101e48f35bad5650d6e18a2f4ebcd6dacc3230cccb30d",
+      "reviewStatus": "draft"
+    },
+    {
+      "exerciseId": "0289",
+      "motion": "dumbbell-bench-press",
+      "equipment": "dumbbell",
+      "duration": 6,
+      "maxConstraintResidual": 0,
+      "sha256": "f15cc7fbfb62e3dacb6d23f6dad79ab638d30b76ad250dd0d9b0d79762f1e05a",
+      "reviewStatus": "draft"
+    },
+    {
+      "exerciseId": "1459",
+      "motion": "romanian-deadlift",
+      "equipment": "dumbbell",
+      "duration": 6,
+      "maxConstraintResidual": 0,
+      "sha256": "ac739542781fc47eafb36e9ad3582141b38c0fbdbf43d92d5257bf1c71945af6",
+      "reviewStatus": "draft"
+    }
+  ],
+  "limitations": [
+    "Parametric anatomical approximation; not anatomist-reviewed",
+    "Segment articulation, not a deforming production skin",
+    "Walking is a stationary gait study",
+    "Contact residuals measure reachability, not instructional correctness"
+  ]
+}
