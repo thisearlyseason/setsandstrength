@@ -1,3 +1,4 @@
+import { supabaseApi } from '../workout/backend.js'
 // Backend + WebAuthn helpers (ported from the vanilla app).
 import { t } from './i18n-core.js'
 import { MOBILE } from './mobile.js'
@@ -58,6 +59,7 @@ function refusal(status, body) {
 }
 
 export async function api(path, opts) {
+  if (import.meta.env.VITE_WORKOUT === '1') return supabaseApi(path, opts)
   const { timeout, ...init } = opts || {}
   // A phone with no server to talk to: local mode, or a pairing that is gone. There is no
   // relative URL to fall back on here — the WebView's own origin is Capacitor's local asset
@@ -111,6 +113,7 @@ async function exchange(url, init) {
 // origin is Capacitor's asset server, which answers every path with index.html: the phones sent
 // every "left" to https://localhost/api/activity. The api() call beside it reaches the server.
 export function beacon(path, body) {
+  if (import.meta.env.VITE_WORKOUT === '1') return false
   if (MOBILE) return false
   try {
     if (typeof navigator === 'undefined' || typeof navigator.sendBeacon !== 'function') return false

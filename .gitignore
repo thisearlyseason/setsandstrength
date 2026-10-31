@@ -48,3 +48,10 @@ assets/tee/
 assets/bmc-cover*
 # scripts/pdf/render-samples.mjs output (npm run pdf:check)
 frontend/pdf-samples/
+
+# Workout fork scratch and local credentials
+work/
+frontend/.env.local
+frontend/public/workout/source.zip
+.playwright-cli/
+backups/

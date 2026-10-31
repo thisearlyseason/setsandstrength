@@ -2,10 +2,11 @@ import { readFileSync, writeFileSync, existsSync } from 'node:fs'
 import { createHash } from 'node:crypto'
 import { join, resolve } from 'node:path'
 import { fileURLToPath } from 'node:url'
-import { defineConfig } from 'vite'
+import { defineConfig, loadEnv } from 'vite'
 import react from '@vitejs/plugin-react'
 import { lazyAssets, stampSw } from './scripts/sw-stamp.mjs'
 
+const workoutMode = loadEnv('development', fileURLToPath(new URL('.', import.meta.url)), '').VITE_WORKOUT === '1'
 const backend = process.env.API_TARGET || 'http://127.0.0.1:3000'
 // The API refuses a state-changing request that a browser sent from anywhere other than its own
 // ORIGIN (the CSRF guard in api/server.js). The dev server is on a different port, so the page's
@@ -19,7 +20,7 @@ const media = process.env.MEDIA_TARGET
 const catalogueMedia = {
   name: 'opengym-catalogue-media',
   configureServer(server) {
-    if (media) return
+    if (workoutMode || media) return
     const dirs = { '/exercise-media/still/': ['still', '.webp'], '/exercise-media/clip/': ['clip', '.mp4'] }
     const root = resolve(fileURLToPath(new URL('.', import.meta.url)), '../catalogue/media')
     server.middlewares.use((req, res, next) => {
@@ -73,6 +74,8 @@ const swStamp = {
     if (!existsSync(html) || !existsSync(sw)) return
     const stamp = createHash('sha256').update(readFileSync(html)).digest('hex').slice(0, 10)
     writeFileSync(sw, stampSw(readFileSync(sw, 'utf8'), { stamp, lazy }))
+    const workoutSw = join(outDir, 'workout-sw.js')
+    if (existsSync(workoutSw)) writeFileSync(workoutSw, readFileSync(workoutSw, 'utf8').replaceAll('__WORKOUT_BUILD__', stamp))
   }
 }
 

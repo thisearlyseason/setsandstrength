@@ -1,3 +1,17 @@
+# Workout fork (local Supabase edition)
+
+This checkout is a redesigned, open-source fork of openGym. For this version, use
+[Workout local setup](docs/workout/LOCAL.md), [verification](docs/workout/VERIFICATION.md),
+and [hosted migration](docs/workout/HOSTED-MIGRATION.md). The original README below is
+retained as upstream documentation; its Docker JSON-file backend is **not** the active
+Workout backend.
+
+The full exercise catalog is retained. Original 3D animation production and professional
+program review are incomplete; [coverage](docs/workout/coverage.json) blocks public launch.
+No original upstream exercise artwork is served by the redesigned interface.
+
+---
+
 <div align="center">
 
 <p>

@@ -8,10 +8,16 @@
     "build": "vite build",
     "build:mobile": "VITE_MOBILE=1 vite build && node ../scripts/catalogue/stage-media.mjs dist && cap sync && node scripts/check-mobile-bundle.mjs",
     "preview": "vite preview",
-    "test": "vitest run",
-    "test:watch": "vitest",
+    "test": "VITE_WORKOUT=0 vitest run",
+    "test:watch": "VITE_WORKOUT=0 vitest",
     "test:fatigue-probe": "node scripts/fatigue-monotonic-probe.mjs",
-    "pdf:check": "node scripts/pdf/render-samples.mjs --out pdf-samples --langs en,de,ar --paper A4,Letter --check"
+    "pdf:check": "node scripts/pdf/render-samples.mjs --out pdf-samples --langs en,de,ar --paper A4,Letter --check",
+    "test:fork": "VITE_WORKOUT=0 vitest run src/workout",
+    "test:integration": "node scripts/workout-integration.mjs",
+    "assets:original": "node scripts/workout-anatomy.mjs",
+    "assets:upload": "node scripts/workout-assets.mjs",
+    "check:coverage": "node ../scripts/workout/check-coverage.mjs",
+    "check:release": "node ../scripts/workout/check-coverage.mjs --release"
   },
   "license": "AGPL-3.0-or-later",
   "dependencies": {
@@ -23,12 +29,15 @@
     "@capacitor/local-notifications": "^8.0.0",
     "@capacitor/share": "^8.0.0",
     "@capacitor/splash-screen": "^8.0.2",
+    "@supabase/supabase-js": "^2.118.0",
     "jsqr": "^1.4.0",
     "leaflet": "^1.9.4",
     "lean-qr": "^2.7.4",
+    "lucide-react": "^1.65.0",
     "react": "^19.3.1",
     "react-dom": "^19.3.1",
     "react-router-dom": "^7.18.4",
+    "three": "^0.187.0",
     "zustand": "^5.0.15"
   },
   "devDependencies": {
