@@ -1927,3 +1927,5 @@ Batch 488 (2026-11-04): saved and inspected male masters 0259, 0283, 0812, 0815.
 Batch 489 (2026-11-04): saved and inspected male masters 10589, 0256, 6358, 6359. Exact originals and prompts retained. Qualified anatomy review pending; no publication. Eight pipeline checks passed; approvals preserved. See batch report for blockers and coverage.
 
 0057 user correction: v2 built-in edit aligns bar orientation and hands in both poses. v1 original, prompt and history retained. Qualified review pending. Eight pipeline checks passed; no publication. See0057-bar-hands-correction-v2-report.json.
+
+0060 user correction: v3 built-in edit aligns bar orientation and hands in both poses. v1 original, prompt and history retained. Qualified review pending. Eight pipeline checks passed; no publication. See0060-bar-hands-correction-v3-report.json.
