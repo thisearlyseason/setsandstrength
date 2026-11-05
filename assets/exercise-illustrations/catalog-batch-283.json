@@ -1,0 +1,345 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "2365",
+      "variant": "male",
+      "key": "2365-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Lie supported on the bench holding one dumbbell above your chest with both hands and elbows softly bent."
+        },
+        {
+          "key": "p2",
+          "caption": "Keep that elbow bend fixed as you lower the dumbbell behind your head; keep ribs down and return over the chest."
+        }
+      ],
+      "prompt": "STRAIGHT ARM DUMBBELL PULLOVER v2. TWO equal cells SAME SIDE REAR three-quarter camera showing lateral back and both hands. Long FLAT bench supports FULL HEAD, upper back pelvis, feet planted floor. BOTH hands cup the upper head of ONE vertical dumbbell using secure overlapping palms on head underside, thumbs wrapped around handle. LEFT dumbbell above chest arms almost straight with slight15degree elbow bend. RIGHT arms sweep overhead toward space BEHIND head until upper arms near ears and horizontal, SAME15degree elbow bend no elbow flexing, dumbbell outside head end of bench. Head remains fully supported on bench, ribs down hips stable. Primary LATS only small smooth uniform red tint over intact lateral back tank; chest black. No other dumbbells. Premium detailed adult MALE grayscale anatomical illustration matching approved original project reference for rendering STYLE ONLY, ignore its pose/highlights. White background, soft contact shadows, realistic proportions/equipment, crisp detailed exposed gray muscle contours. Opaque BLACK tank and mid-thigh shorts fully wrap front sides back seat crotch with normal seams hems folds, black shoes. No transparency cutaways or anatomy through fabric. Red over clothing must be a PLAIN UNIFORM SOFT teaching tint without fibers lobes rays or segmentation. Only specified primary muscle red. Exactly two arms hands five fingers, two legs feet. Equal cells same camera/person/equipment, entire body and equipment within each cell generous margins. No text arrows logos symbols or embedded captions.",
+      "inspectionNote": "Real output inspected. One dumbbell travels above chest to behind head, head/hips remain bench-supported and feet planted; elbows nearly straight throughout. Both hands appear resting on top of dumbbell head rather than supporting its underside securely; block grip correction. Lateral tank tint on intact cloth. Qualified review of shoulder range, elbow-angle consistency, hand anatomy and rib position required. Human anatomy review remains pending. No approval or publication.",
+      "blockingIssues": [
+        "Hands appear atop dumbbell head with unclear secure support; correct two-hand cupped underside grip."
+      ],
+      "canonicalName": "dumbbells straight arm pullover v. 2",
+      "styleVersion": "white-v1",
+      "equipment": "dumbbell",
+      "primaryMuscles": [
+        "lats"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. One dumbbell travels above chest to behind head, head/hips remain bench-supported and feet planted; elbows nearly straight throughout. Both hands appear resting on top of dumbbell head rather than supporting its underside securely; block grip correction. Lateral tank tint on intact cloth. Qualified review of shoulder range, elbow-angle consistency, hand anatomy and rib position required. Human anatomy review remains pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2365-male-anatomical-white-v1-p1-ae078e7e02cf.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 37936,
+          "sha256": "ae078e7e02cfec77f335c501c379e3dc9ad8e1f1b0568afbca9b84e973714d48"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/2365-male-anatomical-white-v1-p2-d647633f49e7.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 32818,
+          "sha256": "d647633f49e78f23e0a5ae35a82c12df6b322ebb52e416468f0346f92cdf4397"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-283.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2365-male-anatomical-white-v1-thumb-e4394fb92fc9.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 3760,
+        "sha256": "e4394fb92fc9fca670b7fdda86eed0197792567534467ef4506d0543e391f17a"
+      },
+      "processingSignature": "b24c559f903632f879622dfb3e898d18bf240572ff245f1689da0b02c43a5520",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2365-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1803884,
+        "sha256": "558cf406d1603003fb561d83e68c65c53172d2d83a115082d8e7eadbeb4ce626"
+      }
+    },
+    {
+      "exerciseId": "2367",
+      "variant": "male",
+      "key": "2367-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand on a low step with a dumbbell in each hand."
+        },
+        {
+          "key": "p2",
+          "caption": "Step one foot backward off the step and lower the rear knee toward the floor, keeping the front heel on the step and torso upright; return and switch after your reps."
+        }
+      ],
+      "prompt": "DUMBBELL REVERSE LUNGE FROM LOW STEP. TWO equal cells SAME SIDE three-quarter camera facing IMAGE RIGHT. Low sturdy gray rectangular step15cm high. LEFT stand upright BOTH feet on TOP step, dumbbell each hand arms down palms inward. RIGHT SAME FRONT RIGHT foot stays firmly on TOP step heel grounded, LEFT leg steps BACK off step to floor behind at IMAGE LEFT, rear heel raised toes on floor. Bend both knees, front thigh near parallel floor, front knee over ankle, REAR knee hovers above FLOOR below top step. Upright neutral torso arms long dumbbells beside body. Step same location under front foot, no rear foot on step. Primary QUADS only uniform red tint on working FRONT thigh intact shorts and exposed distal quadriceps; fabric no internal anatomy. Premium detailed adult MALE grayscale anatomical illustration matching approved original project reference for rendering STYLE ONLY, ignore its pose/highlights. White background, soft contact shadows, realistic proportions/equipment, crisp detailed exposed gray muscle contours. Opaque BLACK tank and mid-thigh shorts fully wrap front sides back seat crotch with normal seams hems folds, black shoes. No transparency cutaways or anatomy through fabric. Red over clothing must be a PLAIN UNIFORM SOFT teaching tint without fibers lobes rays or segmentation. Only specified primary muscle red. Exactly two arms hands five fingers, two legs feet. Equal cells same camera/person/equipment, entire body and equipment within each cell generous margins. No text arrows logos symbols or embedded captions.",
+      "inspectionNote": "Real output inspected. Both feet on low step then reverse lunge with front heel retained atop step and rear toes on floor; torso tall and dumbbells at sides. Start lacks primary quad highlight; end shows fiber-like quad shading through red shorts. Block consistent highlight/fabric correction. Qualified review of rear-knee height, front knee/ankle stacking, balance and leg laterality required. Human anatomy review remains pending. No approval or publication.",
+      "blockingIssues": [
+        "Start lacks primary-muscle highlight.",
+        "End quad overlay has fiber-like anatomy through shorts; replace with uniform tint on opaque fabric."
+      ],
+      "canonicalName": "dumbbell rear lunge from step",
+      "styleVersion": "white-v1",
+      "equipment": "dumbbell",
+      "primaryMuscles": [
+        "quads"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Both feet on low step then reverse lunge with front heel retained atop step and rear toes on floor; torso tall and dumbbells at sides. Start lacks primary quad highlight; end shows fiber-like quad shading through red shorts. Block consistent highlight/fabric correction. Qualified review of rear-knee height, front knee/ankle stacking, balance and leg laterality required. Human anatomy review remains pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2367-male-anatomical-white-v1-p1-3741d9213939.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 21302,
+          "sha256": "3741d9213939d8f89e8ac724de595f95c6f61fb077e8edba879f45bcb94f2392"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/2367-male-anatomical-white-v1-p2-c6ac5792fdf2.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 24586,
+          "sha256": "c6ac5792fdf2debc78996d5fc75e39db7a0be43fecc01da4c0bdd68533d35f4a"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-283.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2367-male-anatomical-white-v1-thumb-e92c7a6ff948.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2276,
+        "sha256": "e92c7a6ff948b4918dec95e215927c268eadebe1c0615b9ca17fe9400195e165"
+      },
+      "processingSignature": "aa3961d18e60007a36baf21611eb34c680a8bcdcdc82952eed492f6e252f795b",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2367-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1355557,
+        "sha256": "65ab1ca81aa06498a08c95f24e182d648b6dfa4360a512811b3a59c536aaf044"
+      }
+    },
+    {
+      "exerciseId": "2368",
+      "variant": "male",
+      "key": "2368-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Take a long split stance, with the rear heel raised and torso tall."
+        },
+        {
+          "key": "p2",
+          "caption": "Lower until the front thigh is near parallel and rear knee hovers over the floor, keeping feet fixed; push through the front heel to rise, then switch legs after your reps."
+        }
+      ],
+      "prompt": "BODYWEIGHT SPLIT SQUAT. TWO equal cells SAME SIDE three-quarter camera facing RIGHT. NO equipment. Same fixed split stance RIGHT foot forward at IMAGE RIGHT flat heel, LEFT foot behind at IMAGE LEFT toes grounded heel raised, feet hipwidth side-to-side not tightrope. Hands on hips. LEFT standing high in long split stance with knees softly bent torso upright. RIGHT lower straight DOWN with both knees bent90, FRONT right thigh near parallel floor, front knee over ankle, REAR left knee hovers just above floor under hip. Feet stay EXACT SAME positions, no stepping and no rear foot elevated. Primary QUADS only uniform red tint over intact front working thigh shorts and distal exposed quads. No fiber anatomy on shorts. Premium detailed adult MALE grayscale anatomical illustration matching approved original project reference for rendering STYLE ONLY, ignore its pose/highlights. White background, soft contact shadows, realistic proportions/equipment, crisp detailed exposed gray muscle contours. Opaque BLACK tank and mid-thigh shorts fully wrap front sides back seat crotch with normal seams hems folds, black shoes. No transparency cutaways or anatomy through fabric. Red over clothing must be a PLAIN UNIFORM SOFT teaching tint without fibers lobes rays or segmentation. Only specified primary muscle red. Exactly two arms hands five fingers, two legs feet. Equal cells same camera/person/equipment, entire body and equipment within each cell generous margins. No text arrows logos symbols or embedded captions.",
+      "inspectionNote": "Real output inspected. Fixed split stance, hands on hips, rear heel lifted and upright torso lower to near-parallel front thigh. Red quad rendering replaces/opens front shorts panel and exposes muscle fibers, violating opaque clothing requirement; block clothing correction. Qualified review of fixed foot spacing, rear-knee clearance and front knee alignment required. Human anatomy review remains pending. No approval or publication.",
+      "blockingIssues": [
+        "Front thigh shorts panel becomes an anatomical cutaway with exposed muscle fibers; restore fully opaque fabric and uniform overlay."
+      ],
+      "canonicalName": "split squats",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "quads"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Fixed split stance, hands on hips, rear heel lifted and upright torso lower to near-parallel front thigh. Red quad rendering replaces/opens front shorts panel and exposes muscle fibers, violating opaque clothing requirement; block clothing correction. Qualified review of fixed foot spacing, rear-knee clearance and front knee alignment required. Human anatomy review remains pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2368-male-anatomical-white-v1-p1-45c2842ce6fb.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 24982,
+          "sha256": "45c2842ce6fb6c0fc97fe6d2601d8ecf4fa1d8f4780f013f64a78bbd4dcaf276"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/2368-male-anatomical-white-v1-p2-752b3c615d18.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 23320,
+          "sha256": "752b3c615d18d7a240ea8219d3e2e81a87bc1ff977a65054eaf4a492db7dadfa"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-283.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2368-male-anatomical-white-v1-thumb-2488f5631d6f.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2818,
+        "sha256": "2488f5631d6fd38826308d1a25c92cff334b319f8e4d622db084a08f063a2f0e"
+      },
+      "processingSignature": "f0f3950a7fed22baf891d34121edb525c54064265a47234ae8afacb7a28826fd",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2368-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1365277,
+        "sha256": "442abd29ee226c4573c623e59510f43ea0e6746753042159fb6cfafe3f192c8a"
+      }
+    },
+    {
+      "exerciseId": "2371",
+      "variant": "male",
+      "key": "2371-male-anatomical-white-v1",
+      "layout": {
+        "columns": 3,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Sit with knees bent, feet flat and weight held in both hands; lean back slightly."
+        },
+        {
+          "key": "p2",
+          "caption": "Rotate your rib cage right, bringing the weight toward your right side while keeping pelvis and feet stable."
+        },
+        {
+          "key": "p3",
+          "caption": "Rotate through center toward your left side, keeping both hands on the weight and avoiding arm-only movement."
+        }
+      ],
+      "prompt": "WEIGHTED RUSSIAN TWIST v2. THREE equal cells SAME elevated FRONT three-quarter camera. Man sits on floor knees bent feet FLAT hipwidth, torso reclines20degrees, pelvis grounded. Hold ONE small gray circular WEIGHT PLATE vertically with BOTH hands at opposite rims, arms slightly bent. LEFT center start plate before chest chest faces forward. CENTER rotate ribcage shoulders/head RIGHT about35degrees plate follows toward RIGHT hip, pelvis knees feet stay facing forward same positions, no lower body reversal. RIGHT rotate ribcage shoulders/head LEFT35degrees plate follows LEFT hip, knees feet pelvis SAME orientation. Real coherent moderate torso twist; two arms connected, two legs. Primary ABS only plain uniform soft red oval over intact abdominal tank. No sixpack segments, fabric opaque, chest black. Premium detailed adult MALE grayscale anatomical illustration matching approved original project reference for rendering STYLE ONLY, ignore its pose/highlights. White background, soft contact shadows, realistic proportions/equipment, crisp detailed exposed gray muscle contours. Opaque BLACK tank and mid-thigh shorts fully wrap front sides back seat crotch with normal seams hems folds, black shoes. No transparency cutaways or anatomy through fabric. Red over clothing must be a PLAIN UNIFORM SOFT teaching tint without fibers lobes rays or segmentation. Only specified primary muscle red. Exactly two arms hands five fingers, two legs feet. Equal cells same camera/person/equipment, entire body and equipment within each cell generous margins. No text arrows logos symbols or embedded captions.",
+      "inspectionNote": "Real output inspected. Center plate hold then two side holds, seated pelvis and feet remain grounded, opaque tank/shorts and plain abdominal tint. Second and third poses rotate toward same image side rather than opposite sides; block alternating direction correction. Qualified review of ribcage versus arm rotation, lean angle, grip and coherent pelvis orientation required. Human anatomy review remains pending. No approval or publication.",
+      "blockingIssues": [
+        "Both twist endpoints face the same side; regenerate distinct right and left torso rotations."
+      ],
+      "canonicalName": "weighted russian twist v. 2",
+      "styleVersion": "white-v1",
+      "equipment": "weighted",
+      "primaryMuscles": [
+        "abs"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Center plate hold then two side holds, seated pelvis and feet remain grounded, opaque tank/shorts and plain abdominal tint. Second and third poses rotate toward same image side rather than opposite sides; block alternating direction correction. Qualified review of ribcage versus arm rotation, lean angle, grip and coherent pelvis orientation required. Human anatomy review remains pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2371-male-anatomical-white-v1-p1-dd245b6fd910.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 25538,
+          "sha256": "dd245b6fd910a02066139282da693f4fc72a1ec3d1d8cc823e29eb9079371957"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/2371-male-anatomical-white-v1-p2-973a6b05bfeb.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 25820,
+          "sha256": "973a6b05bfeb5d5bcc2c17c80f34503210f824bf59ce312a1cdc6a1635ada293"
+        },
+        {
+          "pose": "p3",
+          "path": "/workout/illustration-pilot/2371-male-anatomical-white-v1-p3-8b5328cb54b2.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 25854,
+          "sha256": "8b5328cb54b27f62a546aded6930bef9e97f2dce62fa93c15e703c0a409ccfb4"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-283.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2371-male-anatomical-white-v1-thumb-f6ba95172adb.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 3638,
+        "sha256": "f6ba95172adb608965bad7734c945129f47e50f4d4cc50b0b2826ad37fade63a"
+      },
+      "processingSignature": "b774a44b496de3ae63b711ec7be08996f65013336dd5e0bdc017ff7cbd62593d",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2371-male-anatomical-white-v1.png",
+        "width": 2172,
+        "height": 724,
+        "bytes": 1600836,
+        "sha256": "0ba187075f5ef545d09d869eba2978addb9a9d22efa85570662db0f632e5f4e4"
+      }
+    }
+  ]
+}

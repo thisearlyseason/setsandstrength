@@ -1,0 +1,365 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "3407",
+      "variant": "male",
+      "key": "3407-male-anatomical-white-v1",
+      "prompt": "Three equal panels same FRONT view. Standing LOW BODY ROTATION. Feet slightly wider than hips, knees soft feet planted. Both hands loosely clasped in front of WAIST below navel allposes. Panel1 hips/torso neutral forward. Panel2 rotate BOTH PELVIS and TRUNK about25degrees to modelRIGHT viewerLEFT, hands stayinfrontwaist and head follows. Panel3 MIRROR pelvis/trunk rotateLEFT viewerRIGHT. Show clearly rotating waistband and shoulder line, not neck-only turns. No twisting knees forcefully no feet shift. Primary ABS small plain uniform redwash intact black ABDOMEN only, chest black. Premium detailed adult MALE grayscale anatomical illustration pure white background soft contact shadows detailed exposed gray muscles. Original project reference STYLE ONLY. Opaque BLACK tank/mid-thigh shorts fully wrap front sides back seat crotch with fabric seams folds hems. Covered primary red highlights SMALL PLAIN UNIFORM wash on intact fabric NO fibers/lobes/segments/cutaways. One head two arms/hands two legs/feet per figure. Same model/camera/scale all panels wholebodyinframe no text arrows logos.",
+      "layout": {
+        "columns": 3,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand with soft knees and hands at waist."
+        },
+        {
+          "key": "p2",
+          "caption": "Rotate hips and trunk gently to right."
+        },
+        {
+          "key": "p3",
+          "caption": "Return through center and rotate to left smoothly."
+        }
+      ],
+      "inspectionNote": "Real output inspected. Low hand position with neutral and opposite torso turns, opaque clothes. Abdominal anatomical segments visible through tank need plain-wash correction; qualified coordinated pelvic rotation and knee comfort review pending. Human anatomy review pending. No approval or publication.",
+      "blockingIssues": [
+        "Replace abdominal anatomical segments through tank with plain uniform wash."
+      ],
+      "canonicalName": "standing low body rotation",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "abs"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Low hand position with neutral and opposite torso turns, opaque clothes. Abdominal anatomical segments visible through tank need plain-wash correction; qualified coordinated pelvic rotation and knee comfort review pending. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/3407-male-anatomical-white-v1-p1-01499313290c.webp",
+          "width": 591,
+          "height": 887,
+          "bytes": 21984,
+          "sha256": "01499313290cfc806e741946fc67c18a7a1211fad30d890f82f5c01cff60def1"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/3407-male-anatomical-white-v1-p2-6e25fa249860.webp",
+          "width": 592,
+          "height": 887,
+          "bytes": 22212,
+          "sha256": "6e25fa24986099f267b7a55642dc876eb156783d5d09208c12593759123a0eb7"
+        },
+        {
+          "pose": "p3",
+          "path": "/workout/illustration-pilot/3407-male-anatomical-white-v1-p3-32e0826454eb.webp",
+          "width": 591,
+          "height": 887,
+          "bytes": 21968,
+          "sha256": "32e0826454ebdf9b17cd01f2dc2fff2628be493995d10e349b700e11d426f480"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-359.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/3407-male-anatomical-white-v1-thumb-285424cec80b.webp",
+        "width": 160,
+        "height": 240,
+        "bytes": 2414,
+        "sha256": "285424cec80bf94666b1a104854898ca938fbbe03f9868369c54c8a191c308df"
+      },
+      "processingSignature": "e538aef0c1a6605c50fef10964f443f107c10027a436911d90ff523812188f32",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/3407-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1478400,
+        "sha256": "8a2841e08939d22ccad416e2df5761511310bdba56e3f3d46ac7911f2d774c6f"
+      }
+    },
+    {
+      "exerciseId": "3409",
+      "variant": "male",
+      "key": "3409-male-anatomical-white-v1",
+      "prompt": "Three equal panels same SIDEthreequartercamera headLEFT. STANDING PHELPS shoulder arm swings no equipment. Feet shoulderwidth fixed talltorso. Panel1 botharmsstraight hangbysides. Panel2 swing BOTHlongarms FORWARDandUP into overhead reach, elbowssoft shouldersrelaxed no shrug. Panel3 BOTHlongarms swing DOWNandBEHINDhips about30degreesbehindbody, elbowssoft palms inward chestopen, NO torso forward hinge. Clearly visible arc phases captionsoutside. Primary exposed DELTOIDS red ONLY tankblack. Premium detailed adult MALE grayscale anatomical illustration pure white background soft contact shadows detailed exposed gray muscles. Original project reference STYLE ONLY. Opaque BLACK tank/mid-thigh shorts fully wrap front sides back seat crotch with fabric seams folds hems. Covered primary red highlights SMALL PLAIN UNIFORM wash on intact fabric NO fibers/lobes/segments/cutaways. One head two arms/hands two legs/feet per figure. Same model/camera/scale all panels wholebodyinframe no text arrows logos.",
+      "layout": {
+        "columns": 3,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand tall with arms relaxed."
+        },
+        {
+          "key": "p2",
+          "caption": "Swing both arms forward and up in a large comfortable arc."
+        },
+        {
+          "key": "p3",
+          "caption": "Swing down past hips behind body; continue loosely and rhythmically."
+        }
+      ],
+      "inspectionNote": "Real output inspected. Standing arm-swing down, overhead and behind-hip phases with opaque clothes/deltoid highlights. Embedded gray motion arrows violate clean artwork convention; remove before review. Qualified shoulder arc and hand anatomy review pending. Human anatomy review pending. No approval or publication.",
+      "blockingIssues": [
+        "Remove embedded motion arrows; keep movement explanation in accessible captions only."
+      ],
+      "canonicalName": "standing phelps",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "delts"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Standing arm-swing down, overhead and behind-hip phases with opaque clothes/deltoid highlights. Embedded gray motion arrows violate clean artwork convention; remove before review. Qualified shoulder arc and hand anatomy review pending. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/3409-male-anatomical-white-v1-p1-4d4d99eea26a.webp",
+          "width": 591,
+          "height": 887,
+          "bytes": 18216,
+          "sha256": "4d4d99eea26acac4560d7b5def1cdf996851d61708764e9c1de01ff79b55a17a"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/3409-male-anatomical-white-v1-p2-b0992f049817.webp",
+          "width": 592,
+          "height": 887,
+          "bytes": 20108,
+          "sha256": "b0992f049817d13c7d5a9fb8d668ab5ae480298579a84a06ca1637f46239c97d"
+        },
+        {
+          "pose": "p3",
+          "path": "/workout/illustration-pilot/3409-male-anatomical-white-v1-p3-08877b79ac69.webp",
+          "width": 591,
+          "height": 887,
+          "bytes": 19786,
+          "sha256": "08877b79ac69165166b6e5bdda263f5a107cabb61183cb777e14ae0d0d6142d7"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-359.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/3409-male-anatomical-white-v1-thumb-f969ebc385c4.webp",
+        "width": 160,
+        "height": 240,
+        "bytes": 2046,
+        "sha256": "f969ebc385c4b1bc19b095108c1eaa444880251758d85b79ad964a4c52b13a89"
+      },
+      "processingSignature": "01d4daeebdfbdff0153f004904d78fe7dec475af595c198d32aebc79b32fa7c1",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/3409-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1397476,
+        "sha256": "ee941a1a2c61261a613ce63d849f88ab770a194baa3197c96883e61ed10b0def"
+      }
+    },
+    {
+      "exerciseId": "3412",
+      "variant": "male",
+      "key": "3412-male-anatomical-white-v1",
+      "prompt": "Two equal panels SAME SIDEcamera headLEFTfeetRIGHT. LYING GLUTE SQUEEZE with SMALLHIPLIFT. SUPINE headNECKshouldersRESTFLOOR allposes palmsbysidesfloor kneesBENT feetFLAT hipwidth. Panel1 pelvisbuttRESTfloor glutesrelaxed. Panel2 squeezeGLUTES liftpelvisONLYaFEWinches gently off floor, notfullbridge no lumbararch ribsdown, headstaysfloor. Samefeet/knees. Primary GLUTES SMALL PLAIN uniformredwash intactblackSEATshorts only; torsoblack. Premium detailed adult MALE grayscale anatomical illustration pure white background soft contact shadows detailed exposed gray muscles. Original project reference STYLE ONLY. Opaque BLACK tank/mid-thigh shorts fully wrap front sides back seat crotch with fabric seams folds hems. Covered primary red highlights SMALL PLAIN UNIFORM wash on intact fabric NO fibers/lobes/segments/cutaways. One head two arms/hands two legs/feet per figure. Same model/camera/scale all panels wholebodyinframe no text arrows logos.",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Lie with knees bent, feet flat and head resting on floor."
+        },
+        {
+          "key": "p2",
+          "caption": "Squeeze glutes and lift hips slightly for two seconds; lower under control."
+        }
+      ],
+      "inspectionNote": "Real output inspected. Supine small hip-lift squeeze with planted feet and opaque shorts/plain glute wash. Head/neck hover in both phases instead of resting floor; correction required. Qualified small pelvic lift review pending. Human anatomy review pending. No approval or publication.",
+      "blockingIssues": [
+        "Rest head and neck on floor in both phases."
+      ],
+      "canonicalName": "lying glute squeeze",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "glutes"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Supine small hip-lift squeeze with planted feet and opaque shorts/plain glute wash. Head/neck hover in both phases instead of resting floor; correction required. Qualified small pelvic lift review pending. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/3412-male-anatomical-white-v1-p1-41fd2651cf80.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 24150,
+          "sha256": "41fd2651cf8075f59d14a7816c693d4fa234b49320b3ac99612f1c4dc404b0cf"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/3412-male-anatomical-white-v1-p2-81e2386e8924.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 23974,
+          "sha256": "81e2386e8924b5b730742ebafabac3dc3e1b490e771030e7a7c4beae7b852599"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-359.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/3412-male-anatomical-white-v1-thumb-6f58047008a2.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2276,
+        "sha256": "6f58047008a2668f18c4eb81754e920f1e8f9081d2d0e9098989d96bb087bca0"
+      },
+      "processingSignature": "35a2caca81b0dcf0b2825a6d58a080a5260fad12c27b823780b57263ff3e0eaf",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/3412-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1347330,
+        "sha256": "b367ccc491c1b872a52af5d1acf4d0fc1963fcd12e3daec5945dc8e04bbd4977"
+      }
+    },
+    {
+      "exerciseId": "3413",
+      "variant": "male",
+      "key": "3413-male-anatomical-white-v1",
+      "prompt": "Three equal panels SAME elevated TOP-DIAGONALcamera headTOPfeetBOTTOM. SUPINE SHOULDER SWEEP floorarmarcs. Lieback headneckshouldersfloor kneesBENT feetflat hipsstill allposes. Panel1 BOTHarmsSTRAIGHToutSIDES T palmsup backofarmsfloor. Panel2 BOTHarms sweepDIAGONALLYUPtowardhead formingY onFLOOR elbowsstraightsoft. Panel3 BOTHarmsreachOVERHEADalongfloor beyondhead formingnarrowV handsnotclasped. SAMEfloorcontact ascomfortable, noarmbehindback, noheadhover. Primary exposed DELTOIDS red ONLY, tank/shortsblack. Premium detailed adult MALE grayscale anatomical illustration pure white background soft contact shadows detailed exposed gray muscles. Original project reference STYLE ONLY. Opaque BLACK tank/mid-thigh shorts fully wrap front sides back seat crotch with fabric seams folds hems. Covered primary red highlights SMALL PLAIN UNIFORM wash on intact fabric NO fibers/lobes/segments/cutaways. One head two arms/hands two legs/feet per figure. Same model/camera/scale all panels wholebodyinframe no text arrows logos.",
+      "layout": {
+        "columns": 3,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Lie on back with arms extended sideways."
+        },
+        {
+          "key": "p2",
+          "caption": "Sweep both arms toward overhead along a comfortable floor arc."
+        },
+        {
+          "key": "p3",
+          "caption": "Reach overhead, then return along same path slowly."
+        }
+      ],
+      "inspectionNote": "Real output inspected. Supine shoulder sweep T through Y to overhead with knees bent, feet planted and opaque clothes, deltoid-only highlight. Qualified head/arm floor contact, elbow softness and comfortable shoulder range review pending. Human anatomy review pending. No approval or publication.",
+      "canonicalName": "lying shoulder sweep",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "delts"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Supine shoulder sweep T through Y to overhead with knees bent, feet planted and opaque clothes, deltoid-only highlight. Qualified head/arm floor contact, elbow softness and comfortable shoulder range review pending. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/3413-male-anatomical-white-v1-p1-b43b0cb04b8d.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 22998,
+          "sha256": "b43b0cb04b8d8af010a47c7a74ed81445648d8fc01d3ee97ce1c53376eb32776"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/3413-male-anatomical-white-v1-p2-5810ff5d43d6.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 21142,
+          "sha256": "5810ff5d43d682ee9927d05387ee286ee97da8df469f250981438959ccc941f5"
+        },
+        {
+          "pose": "p3",
+          "path": "/workout/illustration-pilot/3413-male-anatomical-white-v1-p3-25a2d80c8b9a.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 21060,
+          "sha256": "25a2d80c8b9a5eab25d6186a1889f6197514e86e4f69d88486919d02f38ac72b"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-359.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/3413-male-anatomical-white-v1-thumb-5e5b1a85c35e.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 3040,
+        "sha256": "5e5b1a85c35eadd6f27079d50dda07bd3fd1beeedc350206d0dde1a07f4570c7"
+      },
+      "processingSignature": "05909b8f1e5194b1c29d16f75e90e5a99eabf2c2ad4eb4ff4426c777f3ef628a",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/3413-male-anatomical-white-v1.png",
+        "width": 2172,
+        "height": 724,
+        "bytes": 1568234,
+        "sha256": "d0ffac754524329e5103de3cfd26e76c1bed577620db4d55155dad266a22ad43"
+      }
+    }
+  ]
+}

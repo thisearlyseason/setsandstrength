@@ -1,0 +1,77 @@
+{
+  "batch": 228,
+  "runId": "8098d2b4-910f-482c-8018-b97dee895c0d",
+  "trigger": "2026-11-03T16:23:31.219Z",
+  "completedAt": "2026-11-03T16:31:51.873061+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 4,
+  "calls": 4,
+  "exerciseIds": [
+    "1717",
+    "1718",
+    "1719",
+    "1721"
+  ],
+  "variants": [
+    "male"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 791,
+    "remainingVariants": 10473,
+    "approvedVariants": 0,
+    "blockedVariants": 252,
+    "knownPoseImages": 1565,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 418,
+      "remainingVariants": 5214,
+      "blockedVariants": 133
+    }
+  },
+  "reviewNotes": {
+    "1717": "Cable rope squat row: standing, squat extended arms, squat row with continuous waist-height cable. BLOCKED for radial anatomical rays within tank lat overlay. Qualified review of overhand rope grip, chest endpoint and squat depth also needed.",
+    "1718": "Seated close-grip barbell triceps extension: overhead to bent elbows. BLOCKED: lowered bar remains above crown rather than behind head/neck and elbows flare, so canonical range not established.",
+    "1719": "Incline close-grip barbell bench press: chest to extended arms, supported back and planted feet. Qualified review needed for overhand grip width, wrists/elbows, bar chest contact/path and triceps highlight mapping.",
+    "1721": "Reverse-grip skullcrusher: extended to bent elbows with head/back supported and feet planted. Qualified review needed for exact reverse-palm orientation, wrist flexion, forehead clearance/range and stationary upper arms; no grip or anatomy approval."
+  },
+  "deferred": [
+    {
+      "exerciseId": "1710",
+      "reason": "Partner-assisted description conflicts with self-held figure-four instructions."
+    },
+    {
+      "exerciseId": "1712",
+      "reason": "Partner-assisted description conflicts with bench-supported self stretch and lowering already supported foot."
+    },
+    {
+      "exerciseId": "1713",
+      "reason": "Partner-assisted description conflicts with self-held ankle instructions."
+    },
+    {
+      "exerciseId": "1714",
+      "reason": "Rectus femoris stretch target abs conflicts with quadriceps mechanics and partner/self instructions."
+    },
+    {
+      "exerciseId": "1716",
+      "reason": "Seated ball plus second held ball and lowering to chest do not establish described pectoral stretch."
+    }
+  ],
+  "tests": 7,
+  "genCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "publicationIndexUnchanged": true,
+  "savedMasters": [
+    "assets/exercise-illustrations/generated/1717-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/1718-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/1719-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/1721-male-anatomical-white-v1.png"
+  ]
+}

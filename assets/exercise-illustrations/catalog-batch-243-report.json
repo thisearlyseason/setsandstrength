@@ -1,0 +1,83 @@
+{
+  "batch": 243,
+  "runId": "755cd1f9-627a-4b4d-bc02-0f76302406b6",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "trigger": "2026-11-03T19:24:22.353Z",
+  "purpose": "batch243 scheduled male continuation",
+  "started": "2026-11-03T19:24:42.086126+00:00",
+  "completedAt": "2026-11-03T19:30:18.947758+00:00",
+  "actualToolName": "image_gen__imagegen",
+  "calls": 4,
+  "newCandidateSets": 4,
+  "exerciseIds": [
+    "1848",
+    "1852",
+    "1854",
+    "1855"
+  ],
+  "variants": [
+    "male"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 845,
+    "remainingVariants": 10419,
+    "approvedVariants": 0,
+    "blockedVariants": 268,
+    "knownPoseImages": 1652,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 472,
+      "remainingVariants": 5160,
+      "blockedVariants": 149
+    }
+  },
+  "reviewNotes": {
+    "1848": "Static calf stretch: straight rear leg, rear heel down, front knee bent and both palms on wall. Rear calf red only, coherent whole-body orientation. Qualified review needed for toe/hip alignment, rear heel loading, ankle range and calf mapping.",
+    "1852": "Three-step leg raise/hip lift: legs resting, legs vertical, then visible small hip curl with head/shoulders down. Qualified review needed for actual posterior pelvic curl, cervical support, two-leg visibility and abdominal mapping.",
+    "1854": "Two-step slightly bent knee leg raise: low-hover to elevated legs, head/shoulders supported and knees modestly bent. Qualified review needed for top range reaching above hips, consistent knee angle, hand placement under rather than beside hips and lumbar control.",
+    "1855": "Three-step head-up leg raise/hip lift: low legs, vertical legs and hip curl with small head/shoulder lift retained. Qualified review needed for cervical position, controlled pelvis lift, no neck loading, two-leg visibility and abdominal mapping."
+  },
+  "deferred": [
+    {
+      "exerciseId": "1851",
+      "reason": "Incline bench press setup combined with standing-style leg dip/drive cue; exact supported mechanics unclear."
+    },
+    {
+      "exerciseId": "1859",
+      "reason": "Description says push handle down, but instructions specify behind-head overhead extension facing away; clarify range."
+    }
+  ],
+  "tests": 7,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "workerSyncResult": {
+    "statuses": {
+      "generated": 845,
+      "pending": 10419
+    },
+    "remaining": 10419,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 1311931715
+  },
+  "publicationIndexUnchanged": true,
+  "savedMasters": [
+    "assets/exercise-illustrations/generated/1848-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/1852-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/1854-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/1855-male-anatomical-white-v1.png"
+  ]
+}

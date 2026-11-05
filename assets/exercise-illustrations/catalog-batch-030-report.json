@@ -1,0 +1,37 @@
+{
+  "batch": 30,
+  "trigger": "2026-11-01T07:18:42.043Z",
+  "completedAt": "2026-11-01T07:26:08.494577+00:00",
+  "tool": "image_gen.imagegen",
+  "newCandidateSets": 4,
+  "generationCalls": 6,
+  "exerciseIds": [
+    "0643",
+    "0300"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 114,
+    "remainingVariants": 11150,
+    "approvedVariants": 0,
+    "blockedVariants": 48,
+    "knownPoseImages": 228,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "All pending, none published. Static triceps stretch uses one pose; deadlift two. Deadlift v2 corrections improve neck alignment and mid-shin range, v1 history retained; both blocked for obscured far grip and qualified range review. Full opaque back/seat clothing inspected.",
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 186690329
+}

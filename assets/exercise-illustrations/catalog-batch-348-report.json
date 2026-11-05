@@ -1,0 +1,70 @@
+{
+  "batch": 348,
+  "runId": "74549150-7054-423e-b522-9509a28564ea",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "trigger": "2026-11-04T12:12:32.218Z",
+  "purpose": "batch348 scheduled male continuation",
+  "started": "2026-11-04T12:12:54.227768+00:00",
+  "completedAt": "2026-11-04T12:19:26.919743+00:00",
+  "actualToolName": "image_gen__imagegen",
+  "calls": 4,
+  "newCandidateSets": 4,
+  "exerciseIds": [
+    "3339",
+    "3341",
+    "3342",
+    "3343"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1250,
+    "remainingVariants": 10014,
+    "approvedVariants": 0,
+    "blockedVariants": 467,
+    "knownPoseImages": 2453,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 877,
+      "remainingVariants": 4755,
+      "blockedVariants": 348
+    }
+  },
+  "reviewNotes": {
+    "3339": "One-hand load stays consistent, standing and two lunges visible with opaque clothes. Both lunge panels appear to repeat same front leg rather than unambiguous alternation; correction required. Qualified knee tracking and clothing overlay review pending.",
+    "3341": "Standing then clearly opposite leading-leg lunges, dumbbells at both sides, upright torso, opaque clothes and plain front-thigh wash. Qualified knee/ankle tracking, rear heel contact and quadriceps highlight coverage review pending.",
+    "3342": "Low dual pulleys, crossed cable routing and Y finish with thumbs up visible. Opaque clothes and deltoid-only highlights. Qualified low-hand crossing, cable-to-handle continuity, shoulder range and torso lean review pending.",
+    "3343": "Seated guided lateral raise low and shoulder-height phases, upper-arm pads, bent elbows, planted feet and opaque clothes. Deltoid-only highlights. Qualified machine pivot/linkage, pad contact and hand anatomy review pending."
+  },
+  "blockingIssues": {
+    "3339": [
+      "Make final lunge clearly use opposite leading leg rather than repeating same-leg pose."
+    ]
+  },
+  "deferred": {},
+  "tests": 7,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "workerSyncResult": {
+    "statuses": {
+      "generated": 1250,
+      "pending": 10014
+    },
+    "remaining": 10014,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 1907529920
+  },
+  "publicationIndexUnchanged": true
+}

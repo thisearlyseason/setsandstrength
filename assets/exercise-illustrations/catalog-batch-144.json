@@ -1,0 +1,490 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "0903",
+      "variant": "male",
+      "key": "0903-male-anatomical-white-v2",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand on the band and hinge forward, holding its ends with upper arms close to the torso and elbows bent."
+        },
+        {
+          "key": "p2",
+          "caption": "Keep the upper arms still and straighten both elbows backward against the band, then bend slowly to return."
+        }
+      ],
+      "prompt": "Correct BOTH ARMS in this original male BAND TRICEPS KICKBACK. Slightly more FRONT SIDE three-quarter camera BOTH panels so both upper arms/elbows/hands clearly visible separately, not hidden behind torso. Preserve hinged flat-back torso/soft knees, fixed feet on gray elastic band. BOTH upper arms are HORIZONTAL alongside torso at BACK LEVEL, BOTH elbows held HIGH beside ribs in IDENTICAL positions in start and finish. LEFT START BOTH elbows90degrees with forearms hanging DOWN from high fixed elbows, NOT far upper arm dropping down from shoulder. RIGHT FINISH straighten BOTH forearms backward from same HIGH elbows until both arms in line torso, both hands visible behind hips, not a row/shoulder extension. One handle each hand neutral grip. Band strands from same-side shoe to corresponding hand taut, no crossings, middle trapped under shoes. Fine detailed exposed grayscale anatomy, both triceps red only, full opaque BLACK shirt/shorts front sides back seat crotch. TWO equal SQUARE cells wide landscape generous head/hand/shoe margins white background no text.",
+      "inspectionNote": "Correction reveals both finish handles, but far upper arm still drops at start and swings back at finish rather than fixed bilateral elbows. Finish band strands also converge near one shoe, underfoot routing unclear. Exposed triceps red and opaque clothes retained; blocked movement/routing repair pending.",
+      "canonicalName": "band kickback",
+      "styleVersion": "white-v1",
+      "equipment": "band",
+      "primaryMuscles": [
+        "triceps"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0903-male-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "status": "generated",
+        "costUSD": null
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Correction reveals both finish handles, but far upper arm still drops at start and swings back at finish rather than fixed bilateral elbows. Finish band strands also converge near one shoe, underfoot routing unclear. Exposed triceps red and opaque clothes retained; blocked movement/routing repair pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0903-male-anatomical-white-v2-p1-71699e88ed08.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 35116,
+          "sha256": "71699e88ed08bd7d924f11112cb799ec52304c17ec62d2f5409c980c1297c11c"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0903-male-anatomical-white-v2-p2-656b5f604473.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 36440,
+          "sha256": "656b5f604473fd76c2ed4fdcd5aa3e881e32c691824203996d34ca693f8f0aa9"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0903-male-anatomical-white-v2-thumb-7743f42c4cde.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 3716,
+        "sha256": "7743f42c4cde663d15f624ee56c20ce8cc5b824061312fd23e5289d53397dc18"
+      },
+      "processingSignature": "45fec6232106e2711fb399c61ede3f538d51630f59ce56ea86f64ec99193a5e9",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0903-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1487912,
+        "sha256": "a8bb2e10acff306a82233f1669a795308396ac850fab0abdae3c15bd201c82ff"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0903",
+          "variant": "male",
+          "key": "0903-male-anatomical-white-v1",
+          "layout": {
+            "columns": 2,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Stand on the band and hinge forward, holding its ends with upper arms close to the torso and elbows bent."
+            },
+            {
+              "key": "p2",
+              "caption": "Keep the upper arms still and straighten both elbows backward against the band, then bend slowly to return."
+            }
+          ],
+          "prompt": "Original premium ADULT male anatomical exercise illustration, TWO equal SQUARE cells side by side WIDE LANDSCAPE 2:1. Same model/scale/proportions, limb lengths, camera and band both panels. BAND TRICEPS KICKBACK canonical0903. SIDE-FRONT three-quarter camera, model faces LEFT, backside image RIGHT. Stand feet shoulder width flat floor, knees soft, HIP HINGE torso near parallel floor neutral straight spine/neck eyes floor. ONE gray elastic BAND middle anchored securely UNDER BOTH shoes, two ends held corresponding hands neutral palms inward, closed fingers/thumbs grip band handles. Upper arms tucked alongside torso held near HORIZONTAL, elbows fixed by ribs same position both poses. LEFT START elbows BENT90degrees, forearms hang DOWN under fixed elbows, hands below ribs, both strands mildly taut from shoes to handles. RIGHT FINISH BOTH forearms extend BACK toward image RIGHT, straighten elbows until arms in line torso, handles behind hips, no upper-arm swing, no shoulders lifting. SAME torso/hips/feet/knees both panels. Band strands elongated taut from corresponding shoe to corresponding hand behind hip, no crossing/body penetration, no detached bands. Primary TRICEPS RED only exposed BACK of upper arms, no shoulder/chest/biceps red. Fine detailed EXPOSED grayscale anatomical contours realistic proportions, equal male/female detail. Full opaque BLACK athletic tank shirt and MID-THIGH shorts wrap FRONT SIDES BACK SEAT CROTCH continuous real fabric seams/broad cloth folds, never cutaways/transparency/anatomical fibers through cloth. Black shoes. Entire body, hands and all band inside EACH square with generous white margins head/feet/hand edges, no crossing panels. Pure white background soft contact shadows. Project original artwork rendering STYLE ONLY ignore its bench push-up/chest red/equipment. No embedded text/captions/arrows/labels.",
+          "inspectionNote": "Band kickback bent-to-straight near elbow, hinged torso and foot anchors, exposed triceps red with opaque clothes. Far upper arm appears lower in start and hides behind torso finish, fixed bilateral elbow position uncertain. Planned bilateral arm visibility/fixed-elbow correction. Qualified grip, band routing and neck pending.",
+          "canonicalName": "band kickback",
+          "styleVersion": "white-v1",
+          "equipment": "band",
+          "primaryMuscles": [
+            "triceps"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Band kickback bent-to-straight near elbow, hinged torso and foot anchors, exposed triceps red with opaque clothes. Far upper arm appears lower in start and hides behind torso finish, fixed bilateral elbow position uncertain. Planned bilateral arm visibility/fixed-elbow correction. Qualified grip, band routing and neck pending.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0903-male-anatomical-white-v1-p1-09d0ca05277d.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 33846,
+              "sha256": "09d0ca05277deed0c34ca47bee84b11de7e5625eb6bcc709d0c4b77af686976a"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0903-male-anatomical-white-v1-p2-305ef008b7bb.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 32284,
+              "sha256": "305ef008b7bbac98ec66881dc6b07b2bc4816a5640398db2d97963c1424bc733"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0903-male-anatomical-white-v1-thumb-5a917dda9d04.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 3596,
+            "sha256": "5a917dda9d04b33678fb0920e67cd902ac9cd23e0e95d41f0211501e01749693"
+          },
+          "processingSignature": "9ee3b808fd7b9c1de81eb4e4a9455dcee632311ccdf6b219a2dbfb4c7f91c9d0",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0903-male-anatomical-white-v1.png",
+            "width": 1774,
+            "height": 887,
+            "bytes": 1466048,
+            "sha256": "20600f7bc9050f92727c83e01cf2c979906aa77a92780488d84d8bf134883407"
+          }
+        }
+      ],
+      "blockingIssues": [
+        "Far upper arm changes position instead of fixed elbow kickback after correction; bilateral band foot routing also unclear. Requires movement and routing repair."
+      ]
+    },
+    {
+      "exerciseId": "0903",
+      "variant": "female",
+      "key": "0903-female-anatomical-white-v2",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand on the band and hinge forward, holding its ends with upper arms close to the torso and elbows bent."
+        },
+        {
+          "key": "p2",
+          "caption": "Keep the upper arms still and straighten both elbows backward against the band, then bend slowly to return."
+        }
+      ],
+      "prompt": "Correct BOTH ARMS in this original female BAND TRICEPS KICKBACK. Slightly more FRONT SIDE three-quarter camera BOTH panels so both upper arms/elbows/hands clearly visible separately, not hidden behind torso. Preserve hinged flat-back torso/soft knees, fixed feet on gray elastic band. BOTH upper arms are HORIZONTAL alongside torso at BACK LEVEL, BOTH elbows held HIGH beside ribs in IDENTICAL positions in start and finish. LEFT START BOTH elbows90degrees with forearms hanging DOWN from high fixed elbows, NOT far upper arm dropping down from shoulder. RIGHT FINISH straighten BOTH forearms backward from same HIGH elbows until both arms in line torso, both hands visible behind hips, not a row/shoulder extension. One handle each hand neutral grip. Band strands from same-side shoe to corresponding hand taut, no crossings, middle trapped under shoes. Fine detailed exposed grayscale anatomy, both triceps red only, full opaque BLACK shirt/shorts front sides back seat crotch. TWO equal SQUARE cells wide landscape generous head/hand/shoe margins white background no text.",
+      "inspectionNote": "Correction exposes both finish handles, but far upper arm remains lowered start and swings backward finish rather than fixed elbows; strands converge at near shoe with far route obscured. Red triceps and opaque clothes retained. Blocked for bilateral arm technique and band routing repair, qualified anatomy review pending.",
+      "canonicalName": "band kickback",
+      "styleVersion": "white-v1",
+      "equipment": "band",
+      "primaryMuscles": [
+        "triceps"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0903-female-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "status": "generated",
+        "costUSD": null
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Correction exposes both finish handles, but far upper arm remains lowered start and swings backward finish rather than fixed elbows; strands converge at near shoe with far route obscured. Red triceps and opaque clothes retained. Blocked for bilateral arm technique and band routing repair, qualified anatomy review pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0903-female-anatomical-white-v2-p1-90c84a1aac5d.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 34450,
+          "sha256": "90c84a1aac5da56b9f1ffce78516bfbf5a8b73709b7a7f7e70a262f44135f135"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0903-female-anatomical-white-v2-p2-79753aceba10.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 35948,
+          "sha256": "79753aceba10b31ff91d410ff96ff160a7c1ca157265fbbdef5f5b482b683307"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0903-female-anatomical-white-v2-thumb-6d876db7044a.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 3568,
+        "sha256": "6d876db7044a4b9d43289576e825de59cc7f3dbcc4e7757e6328875882fccc34"
+      },
+      "processingSignature": "fcee7755bd3cd731772c5d4515ca989a4b265e1b13b7407a322ed698013ecc70",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0903-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1486471,
+        "sha256": "fc315cfb214bd96659ff00641f049111f05f13e809ce54f64f6b93e49b18ecc4"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0903",
+          "variant": "female",
+          "key": "0903-female-anatomical-white-v1",
+          "layout": {
+            "columns": 2,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Stand on the band and hinge forward, holding its ends with upper arms close to the torso and elbows bent."
+            },
+            {
+              "key": "p2",
+              "caption": "Keep the upper arms still and straighten both elbows backward against the band, then bend slowly to return."
+            }
+          ],
+          "prompt": "Original premium ADULT female anatomical exercise illustration, TWO equal SQUARE cells side by side WIDE LANDSCAPE 2:1. Same model/scale/proportions, limb lengths, camera and band both panels. BAND TRICEPS KICKBACK canonical0903. SIDE-FRONT three-quarter camera, model faces LEFT, backside image RIGHT. Stand feet shoulder width flat floor, knees soft, HIP HINGE torso near parallel floor neutral straight spine/neck eyes floor. ONE gray elastic BAND middle anchored securely UNDER BOTH shoes, two ends held corresponding hands neutral palms inward, closed fingers/thumbs grip band handles. Upper arms tucked alongside torso held near HORIZONTAL, elbows fixed by ribs same position both poses. LEFT START elbows BENT90degrees, forearms hang DOWN under fixed elbows, hands below ribs, both strands mildly taut from shoes to handles. RIGHT FINISH BOTH forearms extend BACK toward image RIGHT, straighten elbows until arms in line torso, handles behind hips, no upper-arm swing, no shoulders lifting. SAME torso/hips/feet/knees both panels. Band strands elongated taut from corresponding shoe to corresponding hand behind hip, no crossing/body penetration, no detached bands. Primary TRICEPS RED only exposed BACK of upper arms, no shoulder/chest/biceps red. Fine detailed EXPOSED grayscale anatomical contours realistic proportions, equal male/female detail. Full opaque BLACK athletic tank shirt and MID-THIGH shorts wrap FRONT SIDES BACK SEAT CROTCH continuous real fabric seams/broad cloth folds, never cutaways/transparency/anatomical fibers through cloth. Black shoes. Entire body, hands and all band inside EACH square with generous white margins head/feet/hand edges, no crossing panels. Pure white background soft contact shadows. Project original artwork rendering STYLE ONLY ignore its bench push-up/chest red/equipment. No embedded text/captions/arrows/labels.",
+          "inspectionNote": "Near arm elbow kickback represented, far upper arm drops toward floor at start and disappears at finish so bilateral fixed-elbow technique not clear. Band shoe-to-handle strands connected, triceps red, opaque clothing. Planned bilateral arm visibility correction; qualified grip, routing and spine pending.",
+          "canonicalName": "band kickback",
+          "styleVersion": "white-v1",
+          "equipment": "band",
+          "primaryMuscles": [
+            "triceps"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Near arm elbow kickback represented, far upper arm drops toward floor at start and disappears at finish so bilateral fixed-elbow technique not clear. Band shoe-to-handle strands connected, triceps red, opaque clothing. Planned bilateral arm visibility correction; qualified grip, routing and spine pending.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0903-female-anatomical-white-v1-p1-7d9325fa2d3c.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 35166,
+              "sha256": "7d9325fa2d3c36a86ac0a0fa9b19e62b066bda10fee55ac51ba3674d7bb5dede"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0903-female-anatomical-white-v1-p2-02a0e7cde0c2.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 34626,
+              "sha256": "02a0e7cde0c26535561561b6eea3eb696be2d7a24216f3d9a9653f5a183ff65a"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0903-female-anatomical-white-v1-thumb-6134d2626ae9.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 3612,
+            "sha256": "6134d2626ae9ef0e9702aa1ed1bf8b2825d767c4b9c7490a46a98d9ccf3b67f5"
+          },
+          "processingSignature": "ad8c97435b2e39816ec3ce5052e48a2372ba9071a9ed65f49b162df76d49a976",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0903-female-anatomical-white-v1.png",
+            "width": 1774,
+            "height": 887,
+            "bytes": 1497587,
+            "sha256": "bb4da436b1b21bef5047859c84bb6f10ebb8157875adc5843c953181598a6466"
+          }
+        }
+      ],
+      "blockingIssues": [
+        "Far upper arm changes position instead of fixed elbow kickback after correction; bilateral band foot routing also unclear. Requires movement and routing repair."
+      ]
+    },
+    {
+      "exerciseId": "0907",
+      "variant": "male",
+      "key": "0907-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand on the band and hold its ends at the sides with elbows slightly bent."
+        },
+        {
+          "key": "p2",
+          "caption": "Raise both arms out to shoulder height without shrugging or leaning, then lower with control."
+        }
+      ],
+      "prompt": "Original premium ADULT male anatomical exercise illustration, TWO equal SQUARE cells side by side WIDE LANDSCAPE 2:1. Same model/scale/proportions, limb lengths, camera and band both panels. BAND LATERAL RAISE canonical0907. FRONT SIDE three-quarter camera, model stands upright feet shoulder width flat floor knees soft, neutral neck eyes forward. ONE gray elastic band MIDDLE securely anchored UNDER BOTH shoe soles, separate strands to corresponding hand, closed hands grip ends or handles. LEFT START both arms down at SIDES of thighs, palms inward, elbows slightly bent. RIGHT FINISH raise BOTH arms OUT TO SIDES to SHOULDER HEIGHT, broad T with hands not higher than shoulders, palms face DOWN, slight elbow bend unchanged, shoulders stay DOWN no shrug, no front raise or torso lean. Band strands stretch visibly TAUT diagonally from each fixed shoe to same-side raised hand, no crossings/body penetration or floating unattached bands. Same feet/torso/knees both poses. Primary LATERAL DELTOID RED on exposed outer shoulder caps only, no chest/biceps/forearm red. Fine detailed EXPOSED grayscale anatomical contours realistic proportions, equal male/female detail. Full opaque BLACK athletic tank shirt and MID-THIGH shorts wrap FRONT SIDES BACK SEAT CROTCH continuous real fabric seams/broad cloth folds, never cutaways/transparency/anatomical fibers through cloth. Black shoes. Entire body, hands and all band inside EACH square with generous white margins head/feet/hand edges, no crossing panels. Pure white background soft contact shadows. Project original artwork rendering STYLE ONLY ignore its bench push-up/chest red/equipment. No embedded text/captions/arrows/labels.",
+      "inspectionNote": "Band lateral raise arms at sides to near shoulder-level spread, palms down finish, steady upright torso and feet. Taut same-side hand-to-shoe strands, red exposed lateral deltoids, opaque black clothing. Head margin modest but uncropped; qualified anchoring, grip/wrist and shoulder height/shrug control pending review.",
+      "canonicalName": "band lateral raise",
+      "styleVersion": "white-v1",
+      "equipment": "band",
+      "primaryMuscles": [
+        "delts"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Band lateral raise arms at sides to near shoulder-level spread, palms down finish, steady upright torso and feet. Taut same-side hand-to-shoe strands, red exposed lateral deltoids, opaque black clothing. Head margin modest but uncropped; qualified anchoring, grip/wrist and shoulder height/shrug control pending review.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0907-male-anatomical-white-v1-p1-ed23543ad7d5.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 25006,
+          "sha256": "ed23543ad7d5929e3908ba1e6b1e2b52715363f552bf95f70aa2ceaa2eddf3e8"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0907-male-anatomical-white-v1-p2-a37726de7da3.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 29838,
+          "sha256": "a37726de7da371c0e57ae5f015f5a4a52cfc5e5ff56001f6fafbb9bbbe0121b7"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0907-male-anatomical-white-v1-thumb-1f98918e457b.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2808,
+        "sha256": "1f98918e457b69ba6327c8002b4f460f62f0702aa9c8fc7008499b1afbcc6d52"
+      },
+      "processingSignature": "a726519bea694bbfa06865e3625289f7bb09aa924f5298a97bd77aa2af88368e",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0907-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1375025,
+        "sha256": "a4dfb045a0fbe5a7a6bb8c4b3840320835ac16837bd7285a3b93c72484e247d3"
+      }
+    },
+    {
+      "exerciseId": "0907",
+      "variant": "female",
+      "key": "0907-female-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand on the band and hold its ends at the sides with elbows slightly bent."
+        },
+        {
+          "key": "p2",
+          "caption": "Raise both arms out to shoulder height without shrugging or leaning, then lower with control."
+        }
+      ],
+      "prompt": "Original premium ADULT female anatomical exercise illustration, TWO equal SQUARE cells side by side WIDE LANDSCAPE 2:1. Same model/scale/proportions, limb lengths, camera and band both panels. BAND LATERAL RAISE canonical0907. FRONT SIDE three-quarter camera, model stands upright feet shoulder width flat floor knees soft, neutral neck eyes forward. ONE gray elastic band MIDDLE securely anchored UNDER BOTH shoe soles, separate strands to corresponding hand, closed hands grip ends or handles. LEFT START both arms down at SIDES of thighs, palms inward, elbows slightly bent. RIGHT FINISH raise BOTH arms OUT TO SIDES to SHOULDER HEIGHT, broad T with hands not higher than shoulders, palms face DOWN, slight elbow bend unchanged, shoulders stay DOWN no shrug, no front raise or torso lean. Band strands stretch visibly TAUT diagonally from each fixed shoe to same-side raised hand, no crossings/body penetration or floating unattached bands. Same feet/torso/knees both poses. Primary LATERAL DELTOID RED on exposed outer shoulder caps only, no chest/biceps/forearm red. Fine detailed EXPOSED grayscale anatomical contours realistic proportions, equal male/female detail. Full opaque BLACK athletic tank shirt and MID-THIGH shorts wrap FRONT SIDES BACK SEAT CROTCH continuous real fabric seams/broad cloth folds, never cutaways/transparency/anatomical fibers through cloth. Black shoes. Entire body, hands and all band inside EACH square with generous white margins head/feet/hand edges, no crossing panels. Pure white background soft contact shadows. Project original artwork rendering STYLE ONLY ignore its bench push-up/chest red/equipment. No embedded text/captions/arrows/labels.",
+      "inspectionNote": "Lateral band raise sides-down start to shoulder-height arms, upright torso and fixed stance, palms down finish. Taut hand-to-shoe strands with under-sole band middle, exposed deltoid red and opaque clothes. Modest head margin; qualified anchoring, grip/wrist, elbow softness and shoulder plane pending review.",
+      "canonicalName": "band lateral raise",
+      "styleVersion": "white-v1",
+      "equipment": "band",
+      "primaryMuscles": [
+        "delts"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Lateral band raise sides-down start to shoulder-height arms, upright torso and fixed stance, palms down finish. Taut hand-to-shoe strands with under-sole band middle, exposed deltoid red and opaque clothes. Modest head margin; qualified anchoring, grip/wrist, elbow softness and shoulder plane pending review.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0907-female-anatomical-white-v1-p1-75043bae3f20.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 24954,
+          "sha256": "75043bae3f2019bf066c2762e9f090f0261a8a59ed7d5360eac25b8745798924"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0907-female-anatomical-white-v1-p2-0adaaa28c37e.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 28384,
+          "sha256": "0adaaa28c37eeb698c17f3bc5016b1eee7e6c523036fe9bd4f112302c90326be"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0907-female-anatomical-white-v1-thumb-dfa573c3172a.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2724,
+        "sha256": "dfa573c3172ab47a0a73ae0a1d8a9041304b12e3480e33c62f06fee5586cf06e"
+      },
+      "processingSignature": "f10a0fe1208e97113d3dafc6c954d46e65bb69053a39e95b8cb85d16e8040f6f",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0907-female-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1362180,
+        "sha256": "c966b2a0d58ba524beee848366ed10344d3d132febb5c3afe47fc68f9cbd575b"
+      }
+    }
+  ]
+}

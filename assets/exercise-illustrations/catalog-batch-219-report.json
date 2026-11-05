@@ -1,0 +1,77 @@
+{
+  "batch": 219,
+  "runId": "07c666cb-3d3d-4502-a92d-970396bc997b",
+  "trigger": "2026-11-03T15:14:30.991Z",
+  "completedAt": "2026-11-03T15:20:34.716069+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 4,
+  "calls": 4,
+  "exerciseIds": [
+    "1631",
+    "1633",
+    "1634",
+    "1639"
+  ],
+  "variants": [
+    "male"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 755,
+    "remainingVariants": 10509,
+    "approvedVariants": 0,
+    "blockedVariants": 246,
+    "knownPoseImages": 1482,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 382,
+      "remainingVariants": 5250,
+      "blockedVariants": 127
+    }
+  },
+  "reviewNotes": {
+    "1631": "Seated concentration cable curl, braced upper arm lowered to curled handle. Qualified review of continuous thigh/elbow contact, supination, hand anatomy and cable geometry required.",
+    "1633": "Standing one-arm cable preacher curl. BLOCKED: elbow and upper arm slide upward along pad between poses rather than remaining fixed.",
+    "1634": "Lying cable curl with supported head/back and feet planted. BLOCKED: cable connects to bar END rather than center between hands; start elbows also remain bent instead of nearly extended.",
+    "1639": "Standing rope hammer preacher curl, neutral grips and connected low cable. BLOCKED: elbows and upper arms shift upward along pad at finish instead of maintaining fixed support."
+  },
+  "deferred": [
+    {
+      "exerciseId": "1632",
+      "reason": "Drag-curl description pulls elbows back but instructions require stationary upper arms."
+    },
+    {
+      "exerciseId": "1635",
+      "reason": "Reverse grip conflicts with underhand instruction."
+    },
+    {
+      "exerciseId": "1636",
+      "reason": "Overhead arms conflict with elbows close to sides and curl toward forehead."
+    },
+    {
+      "exerciseId": "1638",
+      "reason": "High-pulley downward thigh motion conflicts with stated biceps curl mechanics."
+    },
+    {
+      "exerciseId": "1640",
+      "reason": "Hammer neutral grip conflicts with palms-up instruction."
+    }
+  ],
+  "tests": 7,
+  "genCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "publicationIndexUnchanged": true,
+  "savedMasters": [
+    "assets/exercise-illustrations/generated/1631-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/1633-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/1634-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/1639-male-anatomical-white-v1.png"
+  ]
+}

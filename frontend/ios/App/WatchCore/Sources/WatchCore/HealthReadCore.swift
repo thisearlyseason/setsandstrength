@@ -42,7 +42,7 @@ public enum HealthReadCore {
     /// Whether openGym wrote this one itself (by its sync identifier or its source).
     public static func isOwn(source: String, syncId: String?) -> Bool {
         if let id = syncId, id.hasPrefix("opengym-") { return true }
-        return source == ownPrefix || source.hasPrefix(ownPrefix + ".")
+        return [ownPrefix, "pro.gamedaysports.setsstrength"].contains { source == $0 || source.hasPrefix($0 + ".") }
     }
 
     /// Weigh-ins as JS takes them, openGym's own left out.

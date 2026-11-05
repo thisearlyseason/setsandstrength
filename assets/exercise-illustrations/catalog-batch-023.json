@@ -1,0 +1,54 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "0088",
+      "variant": "male",
+      "key": "0088-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Heels lowered"
+        },
+        {
+          "key": "p2",
+          "caption": "Raise heels"
+        }
+      ],
+      "prompt": "Premium grayscale anatomical fitness illustration for BARBELL SEATED CALF RAISE (catalog0088), ADULT MALE. Reference style and seated calf mechanics ONLY: REPLACE dumbbell with ONE straight BARBELL with matching small plates/collars across lower thighs above knees. TWO equal side-by-side panels white gutter, same person camera scale bench weights step. Near SIDE-REAR three-quarter view makes heel-floor/step gaps and both calf backs visible. Sit upright on horizontal padded bench, hips remain seated in both poses, knees bent90degrees. Padded straight bar rests horizontally across BOTH lower thighs just above knees, hands stabilize shaft on either side, plates clear thighs/bench. Balls of BOTH feet fixed on same front edge of sturdy low step, heels extend BEHIND edge unsupported. Left: lower both heels below top of step, forefeet remain planted. Right: raise both heels high, forefeet in EXACT SAME places on step, thighs/bar lift slightly but hips never leave seat. Do not slide whole shoes onto step, do not stand. Whole foot/step contact and heel-height difference clear. Highlight posterior/lateral lower calf SOLEUS region red, spare Achilles tendon and shins. All other exposed anatomy detailed grayscale realistic proportions. Full opaque black sleeveless training top wrapping chest torso sides/back and knee-length shorts fully covering front sides seat crotch and back with real seams folds closed hems, shoes. No cutaways/transparent cloth/missing back panels. White background soft shadows, all body/equipment within each panel margins. No text numbers labels arrows logos. Qualified calf mapping and contact review required.",
+      "inspectionNote": "Opaque rear clothing and heel-height change visible. Bar shaft appears occluded through hip region rather than unambiguously across lower thighs; equipment support/geometry and soleus boundaries require correction or qualified review.",
+      "batch": "catalog-batch-023.json",
+      "blockingIssues": [
+        "Verify/correct bar support across lower thighs, fixed forefoot edge contact and soleus-only highlight before approval."
+      ]
+    },
+    {
+      "exerciseId": "0088",
+      "variant": "female",
+      "key": "0088-female-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Heels lowered"
+        },
+        {
+          "key": "p2",
+          "caption": "Raise heels"
+        }
+      ],
+      "prompt": "Premium grayscale anatomical fitness illustration for BARBELL SEATED CALF RAISE (catalog0088), ADULT FEMALE. Reference style and seated calf mechanics ONLY: REPLACE dumbbell with ONE straight BARBELL with matching small plates/collars across lower thighs above knees. TWO equal side-by-side panels white gutter, same person camera scale bench weights step. Near FRONT-SIDE three-quarter view makes heel-floor/step gaps and both calf backs visible. Sit upright on horizontal padded bench, hips remain seated in both poses, knees bent90degrees. Padded straight bar rests horizontally across BOTH lower thighs just above knees, hands stabilize shaft on either side, plates clear thighs/bench. Balls of BOTH feet fixed on same front edge of sturdy low step, heels extend BEHIND edge unsupported. Left: lower both heels below top of step, forefeet remain planted. Right: raise both heels high, forefeet in EXACT SAME places on step, thighs/bar lift slightly but hips never leave seat. Do not slide whole shoes onto step, do not stand. Whole foot/step contact and heel-height difference clear. Highlight posterior/lateral lower calf SOLEUS region red, spare Achilles tendon and shins. All other exposed anatomy detailed grayscale realistic proportions. Full opaque black sleeveless training top wrapping chest torso sides/back and knee-length shorts fully covering front sides seat crotch and back with real seams folds closed hems, shoes. No cutaways/transparent cloth/missing back panels. White background soft shadows, all body/equipment within each panel margins. No text numbers labels arrows logos. Qualified calf mapping and contact review required. CRITICAL equipment: bar MUST be visibly across BOTH LOWER THIGHS just behind knees in FRONT of torso, never across pelvis or through hips. Use front-oblique viewpoint to verify hands/shaft/padded contact on thighs.",
+      "inspectionNote": "Front bar support and complete opaque clothing visible. Whole feet appear on step instead of heels hanging behind edge; target highlight appears anterior calf. Equipment/foot contact and soleus location require correction before approval.",
+      "batch": "catalog-batch-023.json",
+      "blockingIssues": [
+        "Verify/correct bar support across lower thighs, fixed forefoot edge contact and soleus-only highlight before approval."
+      ]
+    }
+  ]
+}

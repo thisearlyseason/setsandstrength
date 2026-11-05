@@ -1,0 +1,78 @@
+{
+  "batch": 297,
+  "runId": "6d24175d-badd-46c3-90fa-b3149bdfe4df",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "trigger": "2026-11-04T04:14:27.268Z",
+  "purpose": "batch297 scheduled male continuation",
+  "started": "2026-11-04T04:14:41.815274+00:00",
+  "completedAt": "2026-11-04T04:20:17.833129+00:00",
+  "actualToolName": "image_gen__imagegen",
+  "calls": 4,
+  "newCandidateSets": 4,
+  "exerciseIds": [
+    "2714",
+    "2717",
+    "2718",
+    "2729"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1056,
+    "remainingVariants": 10208,
+    "approvedVariants": 0,
+    "blockedVariants": 364,
+    "knownPoseImages": 2028,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 683,
+      "remainingVariants": 4949,
+      "blockedVariants": 245
+    }
+  },
+  "reviewNotes": {
+    "2714": "One static hold with plates hanging from integral hand grips, arms lateral at shoulder height, upright stance and exposed shoulder highlights only. Opaque clothing fully wraps body. Qualified review needed for wrist flexion versus neutral alignment, grip security, elbow softness and shoulder depression. Human anatomy review pending.",
+    "2717": "Single symmetrical crucifix hold, plates below hands, arms lateral at shoulder height and opaque clothing. Wrists visibly bend down instead of straight canonical alignment; block wrist correction. Qualified review of grip, elbow softness, shoulder position and highlight mapping required. Human anatomy review pending.",
+    "2718": "Single forward hold with separated plates below hands, arms near shoulder height and upright posture; anterior shoulders red and clothing opaque. Qualified review needed for wrist alignment, plate handle grip security, shoulder depression and avoiding lumbar extension. Human anatomy review pending.",
+    "2729": "Floor-to-standing sequence with straight arms and plain red glute wash on opaque shorts. Bar appears behind shins and thighs instead of anterior over mid-foot; block bar/body geometry correction. Qualified review needed for neutral neck, hip height, grip clearance and lockout. Human anatomy review pending."
+  },
+  "blockingIssues": {
+    "2717": [
+      "Wrists bend down; correct to straight wrist alignment while securely gripping plate handles."
+    ],
+    "2729": [
+      "Bar runs behind legs; correct to anterior shins at setup and in front of thighs at lockout."
+    ]
+  },
+  "deferred": {
+    "2705": "Pronation name conflicts with straight-arm lifting instructions; technique clarification required.",
+    "2706": "Supination name conflicts with supine curl instructions; technique clarification required.",
+    "2707": "Log equipment conflicts with weight-plate equipment metadata; clarify.",
+    "2708": "Partner/stick setup versus weight-plate equipment metadata needs clarification."
+  },
+  "tests": 7,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "workerSyncResult": {
+    "statuses": {
+      "generated": 1056,
+      "pending": 10208
+    },
+    "remaining": 10208,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 1626154514
+  },
+  "publicationIndexUnchanged": true
+}

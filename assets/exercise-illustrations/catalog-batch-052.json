@@ -1,0 +1,92 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "0791",
+      "variant": "male",
+      "key": "0791-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand tall holding the chair for balance"
+        },
+        {
+          "key": "p2",
+          "caption": "Lift the outside leg sideways without leaning; then switch sides"
+        }
+      ],
+      "prompt": "Premium scientific anatomical fitness illustration, detailed fine SILVER GRAYSCALE muscle fibers/tendons on exposed arms and legs, realistic adult MALE proportions. Entire face hands skin neutral monochrome no beige; only primary target red. Pure white background soft contact shadows. TWO equal side-by-side panels wide white gutter, same full model camera clothes equipment and scale. Whole body head hands feet and equipment fit inside each panel, ample margins. Fully opaque BLACK sleeveless shirt wraps complete torso front sides BACK; knee-length black shorts wrap full front sides rear SEAT CROTCH with visible seams folds closed hems. Athletic shoes. Any muscle highlight over clothes must be diffuse red surface tint on intact black folded cloth, not exposed red anatomy, not cutaway. No missing cloth transparency decorations or text captions arrows logos. STANDING HIP ABDUCTION, bodyweight. FRONT three-quarter camera shows leg moving SIDEWAYS not forward. Adult stands beside a simple sturdy black chair on LEFT, LEFT hand lightly holds chair back for balance; RIGHT hand relaxed empty beside right thigh in both poses. Torso upright hips LEVEL and square, toes point FORWARD. LEFT leg is stance leg with foot flat and knee softly unlocked. LEFT PANEL both legs down feet near hip width. RIGHT PANEL lift RIGHT leg straight out to RIGHT SIDE only20-30degrees, right knee straight, right toes still forward not turned outward; left pelvis does not hitch up, torso does not lean or twist. Left hand chair and left foot unchanged. Red RIGHT LATERAL UPPER HIP abductors/gluteus medius region as diffuse glow on continuous black outer shorts with seams/folds visible, no red quad/adductor or knee. Shorts crotch and rear seat fully cover in raised-leg pose. No ankle weights bands or cable.",
+      "inspectionNote": "Standing hip abduction, outside leg lifts laterally with level torso and intact opaque shorts. Generated side mirrored relative to prompt; accessible captions use canonical side-neutral wording since record permits either leg. Chair seat partly cropped; qualified hip/toe alignment review pending."
+    },
+    {
+      "exerciseId": "0791",
+      "variant": "female",
+      "key": "0791-female-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand tall holding the chair for balance"
+        },
+        {
+          "key": "p2",
+          "caption": "Lift the outside leg sideways without leaning; then switch sides"
+        }
+      ],
+      "prompt": "Premium scientific anatomical fitness illustration, detailed fine SILVER GRAYSCALE muscle fibers/tendons on exposed arms and legs, realistic adult FEMALE proportions. Entire face hands skin neutral monochrome no beige; only primary target red. Pure white background soft contact shadows. TWO equal side-by-side panels wide white gutter, same full model camera clothes equipment and scale. Whole body head hands feet and equipment fit inside each panel, ample margins. Fully opaque BLACK sleeveless shirt wraps complete torso front sides BACK; knee-length black shorts wrap full front sides rear SEAT CROTCH with visible seams folds closed hems. Athletic shoes. Any muscle highlight over clothes must be diffuse red surface tint on intact black folded cloth, not exposed red anatomy, not cutaway. No missing cloth transparency decorations or text captions arrows logos. STANDING HIP ABDUCTION, bodyweight. FRONT three-quarter camera shows leg moving SIDEWAYS not forward. Adult stands beside a simple sturdy black chair on LEFT, LEFT hand lightly holds chair back for balance; RIGHT hand relaxed empty beside right thigh in both poses. Torso upright hips LEVEL and square, toes point FORWARD. LEFT leg is stance leg with foot flat and knee softly unlocked. LEFT PANEL both legs down feet near hip width. RIGHT PANEL lift RIGHT leg straight out to RIGHT SIDE only20-30degrees, right knee straight, right toes still forward not turned outward; left pelvis does not hitch up, torso does not lean or twist. Left hand chair and left foot unchanged. Red RIGHT LATERAL UPPER HIP abductors/gluteus medius region as diffuse glow on continuous black outer shorts with seams/folds visible, no red quad/adductor or knee. Shorts crotch and rear seat fully cover in raised-leg pose. No ankle weights bands or cable. Include ENTIRE chair with margin; do not crop seat or legs at panel edges.",
+      "inspectionNote": "Outside leg abducts sideways, full opaque shorts/crotch and detailed anatomy. Side mirrored relative to prompt; canonical side-neutral captions used. Support chair partly cropped in end panel; qualified pelvis/toe alignment and highlight review pending."
+    },
+    {
+      "exerciseId": "0499",
+      "variant": "male",
+      "key": "0499-male-anatomical-white-v2",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hang beneath the bar with body straight and heels grounded"
+        },
+        {
+          "key": "p2",
+          "caption": "Pull chest toward bar while keeping hips aligned"
+        }
+      ],
+      "prompt": "Edit original project inverted-row illustration to correct EQUIPMENT CONTINUITY. Preserve two-panel male grayscale anatomical style, body/heels/garments and white background. The bar is fixed and must be at EXACTLY SAME mounting holes and absolute height in BOTH panels. Right panel currently bar mounted lower: raise entire right-panel horizontal bar and hand grips to match left-panel mount holes/height, adjusting forearms and upper torso naturally to maintain BOTH hands on bar and chest approaching bar, body straight heels stay fixed. Do not move or resize rack posts or bases. Left frame and right frame should be identical; only model elbow flexion and rigid-body angle differ. Keep both overhand grips same width and full opaque black back shirt and shorts covering rear/crotch. Red upper-back highlight a diffuse surface tint on intact shirt with black fabric folds visible through it. Add white margins around entire rack and figure without cutting feet or bases. No text arrows logos.",
+      "inspectionNote": "Corrected right fixed-bar mounting height to match left panel; full clothing and folded back highlight retained. Feet/body alignment and grip need qualified review. Rack bases touch image edges; framing polish still pending.",
+      "reference": {
+        "path": "assets/exercise-illustrations/generated/0499-male-anatomical-white-v1.png",
+        "rights": "Original project-generated candidate used as edit target; no upstream media."
+      }
+    },
+    {
+      "exerciseId": "0499",
+      "variant": "female",
+      "key": "0499-female-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hang beneath the bar with body straight and heels grounded"
+        },
+        {
+          "key": "p2",
+          "caption": "Pull chest toward bar while keeping hips aligned"
+        }
+      ],
+      "prompt": "Premium scientific anatomical fitness illustration, detailed fine SILVER GRAYSCALE muscle fibers/tendons on exposed arms and legs, realistic adult FEMALE proportions. Entire face hands skin neutral monochrome no beige; only primary target red. Pure white background soft contact shadows. TWO equal side-by-side panels wide white gutter, same full model camera clothes equipment and scale. Whole body head hands feet and equipment fit inside each panel, ample margins. Fully opaque BLACK sleeveless shirt wraps complete torso front sides BACK; knee-length black shorts wrap full front sides rear SEAT CROTCH with visible seams folds closed hems. Athletic shoes. Any muscle highlight over clothes must be diffuse red surface tint on intact black folded cloth, not exposed red anatomy, not cutaway. No missing cloth transparency decorations or text captions arrows logos. INVERTED BODYWEIGHT ROW UNDER FIXED BAR. Low SIDE-rear three-quarter camera shows both overhand grips and upper back. One waist-high horizontal straight steel bar mounted securely between two rigid stable upright supports with broad floor bases, same height and frame both poses. NO weights or cables. Adult lies facing UP beneath bar, both heels planted on floor in SAME place, legs knees straight, toes lifted, head spine pelvis ankles in one rigid line, no sagging hips. Hands slightly wider than shoulders OVERHAND grip, palms away. LEFT PANEL arms extend straight upward to fixed bar while straight body hangs beneath it without touching floor. RIGHT PANEL flex elbows and pull upper chest toward same bar with chest just below bar, elbows travel backward, body remains straight as it pivots around heels. No situp or hip thrust; do not move fixed bar, feet or hand grip locations. Red PRIMARY UPPER-BACK between shoulder blades as subtle tint ON intact black shirt with visible folds, not lats-only or bare back. Full support frame and entire figure included. Fixed bar MUST mount to exact SAME mounting holes in both views, same absolute height and identical grip points. Rack doesn't move. Leave generous white margin around both rack bases and full rack top. Raise chest by elbow bending only, never moving bar.",
+      "inspectionNote": "Inverted row with straight body and intact opaque back shirt/shorts. Rack tops cropped, bar alignment/mount and grip positions shift subtly, heel contact and prescribed low bar need qualified confirmation. Upper-back red looks sculpted through shirt; needs intact fabric overlay review."
+    }
+  ]
+}

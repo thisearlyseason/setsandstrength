@@ -1,0 +1,78 @@
+{
+  "batch": 261,
+  "runId": "8e0261c7-37bc-43c1-8c28-055f1555056b",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "trigger": "2026-11-03T22:27:54.085Z",
+  "purpose": "batch261 scheduled male continuation",
+  "started": "2026-11-03T22:28:33.210873+00:00",
+  "completedAt": "2026-11-03T22:34:40.555969+00:00",
+  "actualToolName": "image_gen__imagegen",
+  "calls": 4,
+  "newCandidateSets": 4,
+  "exerciseIds": [
+    "2118",
+    "2119",
+    "2120",
+    "2121"
+  ],
+  "variants": [
+    "male"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 917,
+    "remainingVariants": 10347,
+    "approvedVariants": 0,
+    "blockedVariants": 296,
+    "knownPoseImages": 1735,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 544,
+      "remainingVariants": 5088,
+      "blockedVariants": 177
+    }
+  },
+  "reviewNotes": {
+    "2118": "Front-facing seated cross-legged side bend with coherent torso/pelvis/leg orientation, supporting palm grounded and opposite arm overhead. Elongated right waist highlighted over intact tank with fabric folds; all clothing opaque. Qualified review needed for both sit bones remaining grounded, crossed-ankle anatomy, hand anatomy, comfortable lateral range and abdominal versus lat mapping.",
+    "2119": "Standing front-view lateral bend, raised right arm reaches left, opposite arm relaxed, both feet grounded and hip/torso orientation coherent. Right elongated waist teaching tint on intact tank. Qualified review needed for hip level, palm orientation, side-bend range, finger anatomy and abdominal mapping.",
+    "2120": "Both hands grip full overhead stick, elbows near straight, feet grounded, coherent front body. Actual bend is toward subject right (image left) while red is on compressed right waist rather than opposite elongated left waist. Block for highlight laterality correction. Qualified review of stance width, dowel grip, hip steadiness and comfortable lateral range.",
+    "2121": "Overhead supine banana curve, both hands and feet displaced to image right, legs together and body face up. Red follows convex elongated image-left waist on intact tank. Qualified review needed for shoulder/hip floor contact, neutral head, comfortable side arc, finger anatomy and abdominal mapping. Full opaque clothing and all fingertips/shoes in frame."
+  },
+  "blockingIssues": {
+    "2120": [
+      "Actual bend is toward subject right while highlight is on compressed right waist; move highlight to opposite elongated waist."
+    ]
+  },
+  "tests": 7,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "workerSyncResult": {
+    "statuses": {
+      "generated": 917,
+      "pending": 10347
+    },
+    "remaining": 10347,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 1414539799
+  },
+  "publicationIndexUnchanged": true,
+  "savedMasters": [
+    "assets/exercise-illustrations/generated/2118-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/2119-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/2120-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/2121-male-anatomical-white-v1.png"
+  ]
+}

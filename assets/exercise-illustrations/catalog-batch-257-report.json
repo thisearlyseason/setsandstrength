@@ -1,0 +1,89 @@
+{
+  "batch": 257,
+  "runId": "e83fd782-7da6-4b81-8b4d-f85f550330ef",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "trigger": "2026-11-03T21:59:53.832Z",
+  "purpose": "batch257 scheduled male continuation",
+  "started": "2026-11-03T22:00:08.922528+00:00",
+  "completedAt": "2026-11-03T22:05:33.864474+00:00",
+  "actualToolName": "image_gen__imagegen",
+  "calls": 4,
+  "newCandidateSets": 4,
+  "exerciseIds": [
+    "2093",
+    "2094",
+    "2095",
+    "2099"
+  ],
+  "variants": [
+    "male"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 901,
+    "remainingVariants": 10363,
+    "approvedVariants": 0,
+    "blockedVariants": 290,
+    "knownPoseImages": 1717,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 528,
+      "remainingVariants": 5104,
+      "blockedVariants": 171
+    }
+  },
+  "reviewNotes": {
+    "2093": "Seated posture, feet grounded, working arm straight and palm up with opposite hand supporting fingers. Wrist remains nearly neutral with no clear backward bend or thumb-side deviation required by canonical instructions. Block pending correction of wrist range and deviation. Qualified review of ulnar-side flexor mapping and hand anatomy. Opaque clothing and continuous limbs.",
+    "2094": "Palm and four fingers visible with true thumb projecting freely outward, but assisting hand pinches a separate thumb-like protrusion at opposite wrist edge rather than the actual thumb. Block for malformed extra thumb-like anatomy and wrong guiding contact; regenerate with normal thumb attachment. Clothing intact and red limited to forearm.",
+    "2095": "Working elbow straight, palm up, assisting hand supports fingertips; no extra arm segment and clothing intact. Backward finger extension is very subtle, so qualified review needed for adequate gentle finger range, hand contact/finger count, forearm supination and palmar flexor mapping.",
+    "2099": "Figure-four shape with ankle over opposite knee and hands behind supporting thigh; head and shoulders contact floor. Visible red overlay appears on supporting/held-thigh hip rather than crossed/open-leg glute; block for laterality mapping correction. Qualified review of leg tracing, ankle placement, comfortable hip range and hand overlap. Shorts remain opaque."
+  },
+  "blockingIssues": {
+    "2093": [
+      "Wrist remains nearly neutral; required backward bend and thumb-side deviation are not demonstrated."
+    ],
+    "2094": [
+      "Assisting hand pinches an extra thumb-like protrusion at wrist rather than actual thumb; correct hand anatomy and contact."
+    ],
+    "2099": [
+      "Highlight appears on supporting/held-thigh hip instead of crossed/open-leg glute; correct laterality mapping."
+    ]
+  },
+  "deferred": {
+    "2096": "Finger flexion/top-of-hand stretch versus wrist-flexor mapping requires clarification.",
+    "2097": "Finger spreading targets intrinsic hand muscles but canonical primary is forearms; mapping review needed.",
+    "2098": "Ulnar deviation stretches radial-side tissues; specific primary highlight requires qualified mapping."
+  },
+  "tests": 7,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "workerSyncResult": {
+    "statuses": {
+      "generated": 901,
+      "pending": 10363
+    },
+    "remaining": 10363,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 1392091894
+  },
+  "publicationIndexUnchanged": true,
+  "savedMasters": [
+    "assets/exercise-illustrations/generated/2093-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/2094-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/2095-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/2099-male-anatomical-white-v1.png"
+  ]
+}

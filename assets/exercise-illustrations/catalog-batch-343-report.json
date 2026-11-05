@@ -1,0 +1,82 @@
+{
+  "batch": 343,
+  "runId": "0c4efb3a-b790-487b-89ea-9e0c9a3e10d9",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "trigger": "2026-11-04T11:37:31.815Z",
+  "purpose": "batch343 scheduled male continuation",
+  "started": "2026-11-04T11:37:46.712522+00:00",
+  "completedAt": "2026-11-04T11:42:33.283129+00:00",
+  "actualToolName": "image_gen__imagegen",
+  "calls": 4,
+  "newCandidateSets": 4,
+  "exerciseIds": [
+    "3302",
+    "3305",
+    "3308",
+    "3309"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1230,
+    "remainingVariants": 10034,
+    "approvedVariants": 0,
+    "blockedVariants": 455,
+    "knownPoseImages": 2409,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 857,
+      "remainingVariants": 4775,
+      "blockedVariants": 336
+    }
+  },
+  "reviewNotes": {
+    "3302": "Wall-supported handstand with straight arms and legs, heels at wall, opaque clothes. Unrequested red torso highlight accompanies triceps and needs removal; qualified wrist, elbow and shoulder stacking review pending.",
+    "3305": "Standing front rack, squat and overhead press phases visible with grounded feet and opaque shorts. Tank has unrequested red pectoral/abdominal anatomy and front-rack elbows are too low; correction required.",
+    "3308": "Loaded floor-to-standing lift, rear view shows opaque shorts with plain glute wash. Mixed-looking grip and rear camera make bar position relative to shins/thighs unclear. Block for clear front-of-leg bar path and grip depiction; qualified back/head alignment review pending.",
+    "3309": "Standing and parallel-depth front squat with forward elbows, bar on front shoulders, planted feet and opaque clothing/plain thigh wash. Qualified wrist/finger anatomy, bar contact, knee tracking and depth review pending."
+  },
+  "blockingIssues": {
+    "3302": [
+      "Remove non-primary red torso overlay; keep triceps-only primary highlight."
+    ],
+    "3305": [
+      "Remove non-primary torso red/anatomical detail; keep deltoids only.",
+      "Correct front rack so elbows project forward and bar rests on front shoulders rather than wrists."
+    ],
+    "3308": [
+      "Clarify that bar remains in front of legs close to shins and thighs, with unambiguous hand grip."
+    ]
+  },
+  "deferred": {
+    "3301": "Frog planche hold description versus bent-elbow push-up transition leaves precise support/pose uncertain.",
+    "3303": "Flag grip orientation palms facing each other on vertical pole is ambiguous.",
+    "3304": "Skin-the-cat description says roll over bar while instructions say pass through arms; range needs clarification.",
+    "3306": "Fingals fingers implement unspecified, body-weight equipment conflicts with lifting implement."
+  },
+  "tests": 7,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "workerSyncResult": {
+    "statuses": {
+      "generated": 1230,
+      "pending": 10034
+    },
+    "remaining": 10034,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 1877389768
+  },
+  "publicationIndexUnchanged": true
+}

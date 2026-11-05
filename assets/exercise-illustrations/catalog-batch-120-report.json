@@ -1,0 +1,87 @@
+{
+  "batch": 120,
+  "trigger": "2026-11-02T22:17:23.088Z",
+  "completedAt": "2026-11-02T22:35:44.334464+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 4,
+  "generationCalls": 8,
+  "exerciseIds": [
+    "0719",
+    "0726"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 490,
+    "remainingVariants": 10774,
+    "approvedVariants": 0,
+    "blockedVariants": 193,
+    "knownPoseImages": 1014,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Four candidate sets, eight poses, eight built-in calls and four retained corrections. Side stretch crunches show bottom arm overhead on mat, top hand behind head, straight stacked legs grounded and upper torso lengthened then crunched. Cloth edits soften segmented tint with broad folds remaining; qualified lateral flexion versus rotation, pelvic contact, neck alignment and cloth folds review pending. Single-leg bridges show lower/raised hips with supporting foot fixed, opposite straight leg in air, upper shoulders/palms grounded; both recomposed two square landscape cells and glute tint softened. Female hair moved behind head but direct skull/mat contact remains uncertain and head appears propped on hair: BLOCKED for cervical support review/correction. Qualified same-leg identity, pelvic stability and hip/lumbar alignment review pending. Fine exposed grayscale anatomy and full opaque clothes front/sides/back/seat/crotch retained. Originals, exact prompts and correction history saved. No anatomy approval or publication. Original project artwork style only, no upstream media. Pipeline checks do not approve anatomy.",
+  "metadataConflictsDeferred": {
+    "0725": "Single-arm push-up name/description versus instructions alternating lifting arm only during descent and returning it to floor during ascent; exact support sequence needs clarification."
+  },
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 801387752,
+  "savedMasters": [
+    {
+      "exerciseId": "0719",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0719-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1635113,
+        "sha256": "c30aeaf4540ca9c276ed66c4d0a91d853e1e37477d37719503022591b4333a7a"
+      }
+    },
+    {
+      "exerciseId": "0719",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0719-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1236369,
+        "sha256": "e936c2016cd5485eda31feff1402a31fe6f69e4294d651b5703381ef6794e00a"
+      }
+    },
+    {
+      "exerciseId": "0726",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0726-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1415865,
+        "sha256": "cf4828a4f38b6991fd73d717054f3fe4927b9ecf73edb90821cd5f76e7d3048a"
+      }
+    },
+    {
+      "exerciseId": "0726",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0726-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1403435,
+        "sha256": "259d3e3c58d4467c5b027fb74bd7f96102c1348dd83d90f439f3149b0096accf"
+      }
+    }
+  ]
+}

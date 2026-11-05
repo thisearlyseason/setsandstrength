@@ -1,0 +1,77 @@
+{
+  "batch": 262,
+  "runId": "ca9a8000-4d91-4b99-bb9b-813d086179a4",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "trigger": "2026-11-03T22:35:54.168Z",
+  "purpose": "batch262 scheduled male continuation",
+  "started": "2026-11-03T22:36:13.163089+00:00",
+  "completedAt": "2026-11-03T22:42:30.400392+00:00",
+  "actualToolName": "image_gen__imagegen",
+  "calls": 4,
+  "newCandidateSets": 4,
+  "exerciseIds": [
+    "2122",
+    "2123",
+    "2125",
+    "2127"
+  ],
+  "variants": [
+    "male"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 921,
+    "remainingVariants": 10343,
+    "approvedVariants": 0,
+    "blockedVariants": 296,
+    "knownPoseImages": 1740,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 548,
+      "remainingVariants": 5084,
+      "blockedVariants": 177
+    }
+  },
+  "reviewNotes": {
+    "2122": "Main model side bends away from raised right arm; partner stands behind and gently supports raised arm and opposite hip. Four arms/hands traceable despite partial occlusion, both bodies/feet fully framed and clothed. Red correctly on main elongated right waist, partner unhighlighted. Qualified review needed for stabilizing hip choice, light upper-arm contact, shoulder range, fingers and abdominal mapping.",
+    "2123": "Main male bends away from overhead right arm; partner behind steadies hip and guides upper arm, four distinct traceable arms with contact hands visible. Red only main elongated right waist over intact tank, partner unhighlighted, all clothing opaque. Qualified review needed for assistance pressure, hip steadiness, upper-arm grip, stance and abdominal mapping.",
+    "2125": "Overhead supine side stretch, arms overhead shifted to image right, legs together with small foot displacement and gentle torso arc. Elongated convex image-left waist highlighted over intact tank; both shoulders and hips appear floor-supported. Qualified review needed for enough same-side foot displacement, floor contact, comfortable curvature, hand anatomy and mapping.",
+    "2127": "Two distinct captain-chair positions: weighted ankles hanging and knees raised toward chest. Both forearms supported on pads, hands grip handles and back against backrest, full station framed. Ankle cuffs secure above shoes, plain abdominal teaching tint on opaque tank. Qualified review needed for pelvic curl, upper-back contact, shoulder position, cuff fit, knee range and muscle mapping."
+  },
+  "blockingIssues": {},
+  "deferred": {
+    "2124": "Instruction to sink hips opposite reach while keeping hips over knees requires pose clarification."
+  },
+  "tests": 7,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "workerSyncResult": {
+    "statuses": {
+      "generated": 921,
+      "pending": 10343
+    },
+    "remaining": 10343,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 1420395030
+  },
+  "publicationIndexUnchanged": true,
+  "savedMasters": [
+    "assets/exercise-illustrations/generated/2122-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/2123-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/2125-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/2127-male-anatomical-white-v1.png"
+  ]
+}

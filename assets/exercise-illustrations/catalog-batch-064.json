@@ -1,0 +1,194 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "0218",
+      "variant": "male",
+      "key": "0218-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Sit with feet supported and hold wide bar, arms extended"
+        },
+        {
+          "key": "p2",
+          "caption": "Row bar toward lower chest without rocking torso"
+        }
+      ],
+      "prompt": "Premium detailed medical anatomical fitness illustration, realistic adult MALE. White background and soft contact shadows. Exposed arms legs and neck SILVER GRAYSCALE with fine anatomical muscle-fiber STRIATIONS, realistic tendons/proportions, no photographic flesh hue. Face and hands neutral monochrome. Same model clothing equipment camera scale and light across TWO SIDE-BY-SIDE poses. Full person and COMPLETE equipment including tower top and floor bases inside each half, generous white margins and broad gutter. Real OPAQUE BLACK sleeveless athletic shirt wraps torso chest abdomen BACK and sides, opaque black knee-length shorts cover front sides REAR SEAT CROTCH with seams folds closed hems, black shoes. No cutaway clothing, no fabric holes or transparency. Muscles beneath fabric use ONLY subtle diffuse red surface tint ON intact BLACK FOLDED TEXTILE, never exposed red-muscle fiber windows. No text numbers captions arrows labels logos. SEATED WIDE OVERHAND GRIP CABLE ROW. Adult sits on long flat low rowing bench facing LOW pulley, feet firm on angled footrests and knees slightly bent. Neutral straight spine, slight forward hip lean stable in both poses. A WIDE STRAIGHT BAR held with both hands PRONATED palms DOWN clearly wider than shoulder-width. CRITICAL: cable attaches to CENTRAL ring at EXACT MIDPOINT of bar BETWEEN hands; never at bar end. Front-side three-quarter view must reveal BOTH distinct hands and central ring unobstructed in BOTH poses. LEFT arms extended toward pulley, soft elbows. RIGHT pull bar to LOWER CHEST with elbows bending outward somewhat due wide grip, shoulderblades retract; no leanback and no torso swing. Same fixed feet bench pelvis and torso angle. One taut cable from central bar carabiner to low pulley ahead, physically clear of shins/frame. Red PRIMARY UPPER BACK between shoulderblades only as diffuse tint on intact black shirt, not red bare anatomy. Biceps/delts remain gray. No neutral V-handle or narrow grip.",
+      "inspectionNote": "Wide pronated bar and central cable attachment, stable torso and feet supported, opaque clothes. Incorrect red pectoral highlight at endpoint and tower top cropped; block until corrected.",
+      "blockingIssues": [
+        "Remove red chest highlight; only upper-back target. Restore full tower framing."
+      ],
+      "canonicalName": "cable seated wide-grip row",
+      "styleVersion": "white-v1",
+      "equipment": "cable",
+      "primaryMuscles": [
+        "upper-back"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original generation from exercise metadata and user-selected style. No upstream image input."
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Wide pronated bar and central cable attachment, stable torso and feet supported, opaque clothes. Incorrect red pectoral highlight at endpoint and tower top cropped; block until corrected. Correction v2 rejected for asymmetric two-arm row; original active candidate remains blocked.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0218-male-anatomical-white-v1-p1-140ca661976b.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 59206,
+          "sha256": "140ca661976b0531b44b892cd04e7b2b859eb016c1f5cd5f599000fcc2baa03c"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0218-male-anatomical-white-v1-p2-4d6a1f0c647b.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 57604,
+          "sha256": "4d6a1f0c647b1f0368cd211db97d920c34dccc4a75fe11e9a9349659bed1d393"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0218-male-anatomical-white-v1-thumb-2ea6ce5cb1f0.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 5788,
+        "sha256": "2ea6ce5cb1f0a870efed467f02aa2d699558e57b8662c466ca3b1f431c81ddce"
+      },
+      "processingSignature": "508804000a8f04231ea49771ee48e40378b985f2afd7b2df7f21a6cf283378f4",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0218-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1726492,
+        "sha256": "5204b88474ef0983a90a380f98136ed23942b96135e1a2977f5bd8d28827cb9f"
+      },
+      "correctionHistory": [
+        {
+          "key": "0218-male-anatomical-white-v2",
+          "prompt": "Correct this original male wide-grip seated cable-row artwork. Keep two phases: arms extended then wide overhand bar at lower chest, stable torso and supported feet, realistic silver anatomical striations, fully opaque black shirt/shorts covering back seat crotch and sides. CHANGE CAMERA to REAR THREE-QUARTER viewpoint to show UPPER BACK between shoulderblades. Correct highlight: ONLY muted diffuse red tint on continuous BLACK FABRIC BETWEEN SHOULDERBLADES, folds crossing tint. NO red pectoral/chest highlights and no bare red muscle window in shirt. Preserve WIDE pronated hands and one central carabiner BETWEEN HANDS at bar midpoint, taut cable to low pulley physically clear of legs. Entire machine tower top/base, bench and all feet fit within each panel with generous WHITE margin/gutter. Same equipment/body proportions and same camera both poses; no text.",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0218-male-anatomical-white-v2.png",
+            "width": 1774,
+            "height": 887,
+            "bytes": 1643192,
+            "sha256": "d82b9c1bdaf68fe773983c06a1b1193d177438390cd28871a42d41ef8664904a"
+          },
+          "generation": {
+            "attempts": 2,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "rejected",
+            "notes": "Correction fixes back highlight but end pose has asymmetric arm flexion: one arm remains extended while other rows. Still crops tower. Rejected as active replacement.",
+            "reviewer": ""
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Sit with feet supported and hold wide bar, arms extended"
+            },
+            {
+              "key": "p2",
+              "caption": "Row bar toward lower chest without rocking torso"
+            }
+          ],
+          "layout": {
+            "columns": 2,
+            "rows": 1
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "0218",
+      "variant": "female",
+      "key": "0218-female-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Sit with feet supported and hold wide bar, arms extended"
+        },
+        {
+          "key": "p2",
+          "caption": "Row bar toward lower chest without rocking torso"
+        }
+      ],
+      "prompt": "Premium detailed medical anatomical fitness illustration, realistic adult FEMALE. White background and soft contact shadows. Exposed arms legs and neck SILVER GRAYSCALE with fine anatomical muscle-fiber STRIATIONS, realistic tendons/proportions, no photographic flesh hue. Face and hands neutral monochrome. Same model clothing equipment camera scale and light across TWO SIDE-BY-SIDE poses. Full person and COMPLETE equipment including tower top and floor bases inside each half, generous white margins and broad gutter. Real OPAQUE BLACK sleeveless athletic shirt wraps torso chest abdomen BACK and sides, opaque black knee-length shorts cover front sides REAR SEAT CROTCH with seams folds closed hems, black shoes. No cutaway clothing, no fabric holes or transparency. Muscles beneath fabric use ONLY subtle diffuse red surface tint ON intact BLACK FOLDED TEXTILE, never exposed red-muscle fiber windows. No text numbers captions arrows labels logos. SEATED WIDE OVERHAND GRIP CABLE ROW. Adult sits on long flat low rowing bench facing LOW pulley, feet firm on angled footrests and knees slightly bent. Neutral straight spine, slight forward hip lean stable in both poses. A WIDE STRAIGHT BAR held with both hands PRONATED palms DOWN clearly wider than shoulder-width. CRITICAL: cable attaches to CENTRAL ring at EXACT MIDPOINT of bar BETWEEN hands; never at bar end. Front-side three-quarter view must reveal BOTH distinct hands and central ring unobstructed in BOTH poses. LEFT arms extended toward pulley, soft elbows. RIGHT pull bar to LOWER CHEST with elbows bending outward somewhat due wide grip, shoulderblades retract; no leanback and no torso swing. Same fixed feet bench pelvis and torso angle. One taut cable from central bar carabiner to low pulley ahead, physically clear of shins/frame. Red PRIMARY UPPER BACK between shoulderblades only as diffuse tint on intact black shirt, not red bare anatomy. Biceps/delts remain gray. No neutral V-handle or narrow grip. CRITICAL highlight accuracy: CHEST is fully BLACK shirt, NO red pectorals. Only BACK between scapulae may show red surface tint; use REAR-side camera to see back if needed, but preserve wide pronated grips and central cable ring visible. Camera pulled back enough entire tower top fits with white margin.",
+      "inspectionNote": "Wide pronated grips, central attachment, full frame and opaque clothes. Red tint on lateral chest/axilla does not clearly identify upper back; camera obscures target region. Needs highlight/camera correction before approval.",
+      "blockingIssues": [
+        "Show upper-back highlight accurately; current lateral-chest tint is ambiguous."
+      ]
+    },
+    {
+      "exerciseId": "0220",
+      "variant": "male",
+      "key": "0220-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand with arms straight and shoulders relaxed"
+        },
+        {
+          "key": "p2",
+          "caption": "Lift shoulders toward ears without bending elbows"
+        }
+      ],
+      "prompt": "Premium detailed medical anatomical fitness illustration, realistic adult MALE. White background and soft contact shadows. Exposed arms legs and neck SILVER GRAYSCALE with fine anatomical muscle-fiber STRIATIONS, realistic tendons/proportions, no photographic flesh hue. Face and hands neutral monochrome. Same model clothing equipment camera scale and light across TWO SIDE-BY-SIDE poses. Full person and COMPLETE equipment including tower top and floor bases inside each half, generous white margins and broad gutter. Real OPAQUE BLACK sleeveless athletic shirt wraps torso chest abdomen BACK and sides, opaque black knee-length shorts cover front sides REAR SEAT CROTCH with seams folds closed hems, black shoes. No cutaway clothing, no fabric holes or transparency. Muscles beneath fabric use ONLY subtle diffuse red surface tint ON intact BLACK FOLDED TEXTILE, never exposed red-muscle fiber windows. No text numbers captions arrows labels logos. STANDING CABLE SHRUG WITH TWO HANDLES. Adult stands facing a functional dual-low-pulley cable station, feet shoulder width. Each hand holds separate D handle with OVERHAND pronated grip, arms straight hanging just in FRONT of thighs. TWO separate taut cables connect handle swivels to two LOW pulleys in front of feet, cables clear of knees and shoes. Both arms remain straight, elbows do not bend, wrists neutral. LEFT shoulders relaxed/depressed naturally. RIGHT SHRUG BOTH shoulders VERTICALLY UP toward ears, clear visible decrease in shoulder-ear gap, arms still long and straight, hands rise only with shoulder elevation. No shoulder roll, no elbow curl, no sidebend, no cervical forward bend or head tilt, torso feet and head identical. Rear-side three-quarter view reveals upper trapezius neck slope and both separate hands/cables. Red PRIMARY upper TRAPEZIUS near base of neck on exposed gray neck muscle only; where under shirt use muted red tint on BLACK CLOTH, shoulder caps/delts remain gray, not red. Same dual pulley station geometry both poses, no bar or dumbbells.",
+      "inspectionNote": "Shoulder elevation with straight elbows and stable feet, separate continuous low cables, red neck trapezius and full opaque rear/crotch clothes visible. Rear camera obscures exact overhand grip and handles-front-of-thigh relation; qualified grip/setup confirmation required.",
+      "blockingIssues": [
+        "Confirm overhand grip and handles in front of thighs; rear view does not establish these canonical details."
+      ]
+    },
+    {
+      "exerciseId": "0220",
+      "variant": "female",
+      "key": "0220-female-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand with arms straight and shoulders relaxed"
+        },
+        {
+          "key": "p2",
+          "caption": "Lift shoulders toward ears without bending elbows"
+        }
+      ],
+      "prompt": "Premium detailed medical anatomical fitness illustration, realistic adult FEMALE. White background and soft contact shadows. Exposed arms legs and neck SILVER GRAYSCALE with fine anatomical muscle-fiber STRIATIONS, realistic tendons/proportions, no photographic flesh hue. Face and hands neutral monochrome. Same model clothing equipment camera scale and light across TWO SIDE-BY-SIDE poses. Full person and COMPLETE equipment including tower top and floor bases inside each half, generous white margins and broad gutter. Real OPAQUE BLACK sleeveless athletic shirt wraps torso chest abdomen BACK and sides, opaque black knee-length shorts cover front sides REAR SEAT CROTCH with seams folds closed hems, black shoes. No cutaway clothing, no fabric holes or transparency. Muscles beneath fabric use ONLY subtle diffuse red surface tint ON intact BLACK FOLDED TEXTILE, never exposed red-muscle fiber windows. No text numbers captions arrows labels logos. STANDING CABLE SHRUG WITH TWO HANDLES. Adult stands facing a functional dual-low-pulley cable station, feet shoulder width. Each hand holds separate D handle with OVERHAND pronated grip, arms straight hanging just in FRONT of thighs. TWO separate taut cables connect handle swivels to two LOW pulleys in front of feet, cables clear of knees and shoes. Both arms remain straight, elbows do not bend, wrists neutral. LEFT shoulders relaxed/depressed naturally. RIGHT SHRUG BOTH shoulders VERTICALLY UP toward ears, clear visible decrease in shoulder-ear gap, arms still long and straight, hands rise only with shoulder elevation. No shoulder roll, no elbow curl, no sidebend, no cervical forward bend or head tilt, torso feet and head identical. Rear-side three-quarter view reveals upper trapezius neck slope and both separate hands/cables. Red PRIMARY upper TRAPEZIUS near base of neck on exposed gray neck muscle only; where under shirt use muted red tint on BLACK CLOTH, shoulder caps/delts remain gray, not red. Same dual pulley station geometry both poses, no bar or dumbbells. Rear-SIDE angle sufficiently oblique to show both handles are just IN FRONT of thigh plane and OVERHAND palms down, not neutral hammer grip. Working movement is shoulder ELEVATION only, identical straight elbow angle both positions. Keep full black fabric back shirt with red neck trapezius visible above neckline, no bare red back window.",
+      "inspectionNote": "Shoulder elevation, straight arms, full opaque rear/crotch garment and continuous separate cables. Tower top clipped; rear-side camera still obscures exact pronated grip/handles-front-of-thigh relation.",
+      "blockingIssues": [
+        "Restore tower top and clarify overhand grip with handles in front of thighs."
+      ]
+    }
+  ]
+}

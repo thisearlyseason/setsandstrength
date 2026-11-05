@@ -1,0 +1,82 @@
+{
+  "batch": 260,
+  "runId": "1c03fab8-6a84-456c-b62b-aa2eaabeae53",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "trigger": "2026-11-03T22:20:53.996Z",
+  "purpose": "batch260 scheduled male continuation",
+  "started": "2026-11-03T22:21:15.841589+00:00",
+  "completedAt": "2026-11-03T22:27:07.036433+00:00",
+  "actualToolName": "image_gen__imagegen",
+  "calls": 4,
+  "newCandidateSets": 4,
+  "exerciseIds": [
+    "2113",
+    "2114",
+    "2115",
+    "2117"
+  ],
+  "variants": [
+    "male"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 913,
+    "remainingVariants": 10351,
+    "approvedVariants": 0,
+    "blockedVariants": 295,
+    "knownPoseImages": 1731,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 540,
+      "remainingVariants": 5092,
+      "blockedVariants": 176
+    }
+  },
+  "reviewNotes": {
+    "2113": "Front-view standing side bend, right arm overhead reaching left, opposite hand on hip, hips shift slightly opposite, both feet grounded. Uniform red overlay correctly follows elongated right waist on intact tank; compressed side black and no torso/pelvis reversal. Qualified review needed for stance width, hip shift, side-bend range, hand anatomy and abdominal versus lat mapping.",
+    "2114": "Chair-seated front view with feet flat and hips supported, overhead right arm reaches left and opposite hand rests thigh. Small side bend and elongated-side abdominal tint on intact tank, no twisted lower body. Qualified review needed for adequate gentle lateral range, grounded sit bones, chair stability, hand anatomy and abdominal mapping.",
+    "2115": "Two tall-kneeling views on pad, hands on hips, shins grounded and intact clothing. Positions look nearly identical without clear forward pelvic motion or posterior tilt; block for insufficient dynamic distinction. Red glute overlays contain radial fiber-like lines through shorts and require plain tint. Qualified review of ribs/lumbar control and glute mapping.",
+    "2117": "Front-view lateral side stretch with right arm overhead reaching left and opposite arm relaxed alongside thigh, coherent forward torso/pelvis/legs and feet planted. Elongated right waist red overlay retains cloth folds; clothing opaque. Qualified review of hip level, comfortable side-bend range, abdominal versus lat mapping and hand anatomy."
+  },
+  "blockingIssues": {
+    "2115": [
+      "Two positions are nearly identical; show forward pelvic shift and posterior tilt without lumbar arch.",
+      "Radial fiber-like lines in glute overlay through shorts; replace with plain fabric teaching tint."
+    ]
+  },
+  "deferred": {
+    "2116": "Primary target spine does not identify a muscle highlight; qualified mapping needed."
+  },
+  "tests": 7,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "workerSyncResult": {
+    "statuses": {
+      "generated": 913,
+      "pending": 10351
+    },
+    "remaining": 10351,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 1409077250
+  },
+  "publicationIndexUnchanged": true,
+  "savedMasters": [
+    "assets/exercise-illustrations/generated/2113-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/2114-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/2115-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/2117-male-anatomical-white-v1.png"
+  ]
+}

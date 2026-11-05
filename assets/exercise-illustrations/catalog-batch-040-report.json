@@ -1,0 +1,37 @@
+{
+  "batch": 40,
+  "trigger": "2026-11-01T09:07:13.212Z",
+  "completedAt": "2026-11-01T09:23:18.650621+00:00",
+  "tool": "image_gen.imagegen",
+  "newCandidateSets": 4,
+  "generationCalls": 8,
+  "exerciseIds": [
+    "0085",
+    "0413"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 156,
+    "remainingVariants": 11108,
+    "approvedVariants": 0,
+    "blockedVariants": 68,
+    "knownPoseImages": 314,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "All pending and blocked, none published. RDL v2 corrects camera flip to matching side views; grip detail occluded by plates requires review. Squat v2 corrects clothing texture to opaque surface tint; legacy target/muscleMap discrepancy and far grip visibility remain held. All four v1 histories retained.",
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 253223959
+}

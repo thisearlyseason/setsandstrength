@@ -1,0 +1,68 @@
+{
+  "runId": "28658522-c9f7-4941-aa18-3221b7b44e7d",
+  "triggerTimestamp": "2026-11-04T20:33:02.854Z",
+  "builtInImageGenAvailable": true,
+  "skill": "imagegen built-in mode",
+  "batches": [
+    411,
+    412,
+    413
+  ],
+  "generatedMasters": 11,
+  "generatedIds": [
+    "3732",
+    "3733",
+    "3734",
+    "3736",
+    "3737",
+    "3740",
+    "3742",
+    "3743",
+    "3745",
+    "3746",
+    "3747"
+  ],
+  "blocked": {
+    "3732": [
+      "Glute highlight contains anatomical fibers over shorts instead of plain fabric wash."
+    ],
+    "3746": [
+      "Pulled-position right elbow cropped at outer image boundary."
+    ],
+    "3747": [
+      "Anatomical quadriceps fibers rendered through shorts instead of flat fabric overlay."
+    ]
+  },
+  "coverageAfter": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1466,
+    "remainingVariants": 9798,
+    "approvedVariants": 0,
+    "blockedVariants": 555,
+    "knownPoseImages": 2927,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 1093,
+      "remainingVariants": 4539,
+      "blockedVariants": 436
+    }
+  },
+  "pipelineTests": "8 passed, 0 failed after each batch",
+  "existingUserApprovalsPreserved": 1306,
+  "approvedIndexUnchanged": true,
+  "anatomyReview": "pending",
+  "publication": "No new originals published; current app index preserved",
+  "stopReason": "Repeated systemic anatomy-through-clothing overlays on 3732 and 3747; saved and blocked affected originals.",
+  "deferred": {
+    "3735": "3 month position name lacks corresponding leg position in canonical instructions; flag uncertainty.",
+    "3741": "Canonical offers differing towel configurations with unclear lateral raise mechanics; defer.",
+    "3744": "Fixed length sheet taut in front cannot open arms to sides as described without slack or specified grip change; defer.",
+    "3738/3739": "Avoided repeated covered-chest output defects from prior run.",
+    "3748/3749/3750/3751/3752": "Exact prompts prepared; no original generated when output failures stopped run."
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "0002",
+      "variant": "male",
+      "key": "0002-male-anatomical-white-v2",
+      "layout": {
+        "columns": 3,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand"
+        },
+        {
+          "key": "p2",
+          "caption": "Bend right"
+        },
+        {
+          "key": "p3",
+          "caption": "Bend left"
+        }
+      ],
+      "prompt": "Edit middle panel ONLY: man must bend toward VIEWER LEFT, head and shoulders shifted LEFT of pelvis, VIEWER LEFT shoulder LOWER than viewer-right shoulder; VIEWER LEFT hand slides down outer thigh toward knee and viewer-right hand stays higher. Final panel stays bending toward VIEWER RIGHT, as it is now. Thus middle and final are visibly MIRROR-OPPOSITE directions, not duplicates. First panel remains upright. Keep pelvis centered and both feet planted, no rotation or forward bend. Preserve complete opaque top/shorts with full rear seat crotch sides/front, realistic anatomy grayscale detail and red abdominal-side overlay on intact fabric, white background, same three equal panels, no text.",
+      "inspectionNote": "Corrected duplicated bend: middle and final now opposite directions. Full opaque garments and planted feet visible. Detailed target mapping and range remain qualified review items.",
+      "history": [
+        {
+          "key": "0002-male-anatomical-white-v1",
+          "layout": {
+            "columns": 3,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Stand"
+            },
+            {
+              "key": "p2",
+              "caption": "Bend right"
+            },
+            {
+              "key": "p3",
+              "caption": "Bend left"
+            }
+          ],
+          "prompt": "Premium anatomical fitness educational illustration for catalog0002, standing 45-degree SIDE BEND, ADULT MALE. Reference is artistic style only, replace wall sit completely. THREE equal panels horizontally with broad white gutters, full figures inside panels. Front view, same model/camera/scale. Panel1: stand upright feet shoulder-width, arms relaxed down beside thighs, pelvis level. Panel2: bend torso toward model's RIGHT (viewer LEFT) in frontal plane, right hand slides down right outer thigh toward knee, left hand stays alongside left thigh; shoulders tilt toward right, hips stay centered above planted feet, no forward flexion, rotation or moving feet. Panel3: opposite bend LEFT (viewer RIGHT), left hand slides down left outer thigh toward left knee, shoulders tilt opposite way, same planted feet/level pelvis. Show clear distinct side-to-side torso lateral flexion, not a lunge or hip hinge, comfortable controlled range without forced end-range. Pure white background, grayscale realistic anatomical detail on exposed limbs, soft shadows, realistic body proportions. Full opaque black sleeveless athletic top with complete front/back/sides/chest coverage, knee-length shorts wrapping full seat crotch sides/front/back with seams folds and closed leg openings, shoes. Red abdominal-side/oblique region surface teaching overlay ON INTACT top; no cutaway or transparency or anatomy exposed through cloth. Torso covered in all poses. No weights/equipment, no text arrows labels numbers. Exact target subdivisions and range require qualified review; image is candidate instructional poses, not video."
+        }
+      ],
+      "blockingIssues": [
+        "Target abs versus oblique subdivision and canonical 45-degree range require qualified review."
+      ]
+    },
+    {
+      "exerciseId": "0002",
+      "variant": "female",
+      "key": "0002-female-anatomical-white-v1",
+      "layout": {
+        "columns": 3,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand"
+        },
+        {
+          "key": "p2",
+          "caption": "Bend right"
+        },
+        {
+          "key": "p3",
+          "caption": "Bend left"
+        }
+      ],
+      "prompt": "Create ADULT FEMALE version of this three-position standing side-bend illustration. Preserve the three DIFFERENT poses exactly: left upright, middle bending toward VIEWER LEFT with left-side-of-image hand lower, final bending toward VIEWER RIGHT with right-side-of-image hand lower. Do not repeat same direction. Same camera scale and three equal panels with generous white gutters. Detailed grayscale anatomical illustration quality on exposed arms/legs, realistic female proportions, no flesh-colored photographic skin. Full opaque black sleeveless training top with full chest/torso/sides/back coverage; knee-length black shorts with complete rear seat crotch sides/front and normal seams/folds, shoes. Red abdominal-side teaching overlay ON intact top, fabric remains opaque, no cutaway anatomy or transparent cloth. Feet planted shoulder-width apart, pelvis centered, comfortable torso lateral flexion without rotation or forward bend. Entire figures inside panels. White background soft shadows, no text/arrows/numbers/logos. Qualified anatomy/range review still required.",
+      "inspectionNote": "Distinct opposite side bends, planted feet, full opaque top/shorts and grayscale detail visible. Qualified target mapping and range review required.",
+      "blockingIssues": [
+        "Target abs versus oblique subdivision and canonical 45-degree range require qualified review."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "jobs": [
+    {
+      "key": "0027-male-anatomical-white-v1",
+      "exerciseId": "0027",
+      "variant": "male",
+      "prompt": "Create a premium anatomical fitness exercise illustration on pure white background, crisp grayscale muscle contours, realistic adult proportions, subtle contact shadows. TWO equal-width side-by-side panels of BARBELL BENT OVER ROW. Same person, camera, barbell, plate sizes, stance and scale in both panels. Rear three-quarter view that clearly shows upper back, hands, bar and full body. Standing with knees slightly bent, torso hinged forward and stable near horizontal, neutral neck aligned with spine. LEFT: arms straight down, bar hanging below shoulders, pronated overhand grip slightly wider than shoulders. RIGHT: same hip hinge and torso angle, elbows bend and move behind torso pulling bar to lower ribs/upper abdomen. No change of torso angle between panels, no upright row, no shrug. Bar close to body; wrists straight, feet remain grounded. Full opaque black training shirt and mid-thigh shorts covering front sides rear crotch with closed leg hems. Red upper-back target region as a teaching overlay printed over intact shirt; do not cut holes or show anatomy through fabric. Grayscale anatomical detail on exposed limbs. Black shoes. Full barbell, head, hands and feet inside each panel with generous margins. No labels, captions, numbers, borders or watermark. Adult male model.",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hinge \u00b7 arms extended"
+        },
+        {
+          "key": "p2",
+          "caption": "Row toward lower ribs"
+        }
+      ],
+      "inspectionNote": "Full shirt and shorts visible; extended and pulled positions distinct. Rear camera obscures part of the grip and bar-to-torso contact; torso-angle consistency requires qualified review.",
+      "blockingIssues": [
+        "Verify pronated grip, bar contact position and torso-angle consistency in both poses before approval."
+      ]
+    },
+    {
+      "key": "0027-female-anatomical-white-v1",
+      "exerciseId": "0027",
+      "variant": "female",
+      "prompt": "Create a premium anatomical fitness exercise illustration on pure white background, crisp grayscale muscle contours, realistic adult proportions, subtle contact shadows. TWO equal-width side-by-side panels of BARBELL BENT OVER ROW. Same person, camera, barbell, plate sizes, stance and scale in both panels. Rear three-quarter view that clearly shows upper back, hands, bar and full body. Standing with knees slightly bent, torso hinged forward and stable near horizontal, neutral neck aligned with spine. LEFT: arms straight down, bar hanging below shoulders, pronated overhand grip slightly wider than shoulders. RIGHT: same hip hinge and torso angle, elbows bend and move behind torso pulling bar to lower ribs/upper abdomen. No change of torso angle between panels, no upright row, no shrug. Bar close to body; wrists straight, feet remain grounded. Full opaque black training shirt and mid-thigh shorts covering front sides rear crotch with closed leg hems. Red upper-back target region as a teaching overlay printed over intact shirt; do not cut holes or show anatomy through fabric. Grayscale anatomical detail on exposed limbs. Black shoes. Full barbell, head, hands and feet inside each panel with generous margins. No labels, captions, numbers, borders or watermark. Adult female model.",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hinge \u00b7 arms extended"
+        },
+        {
+          "key": "p2",
+          "caption": "Row toward lower ribs"
+        }
+      ],
+      "inspectionNote": "Full shirt and shorts visible; extended and pulled positions distinct. Rear camera obscures part of the grip and bar-to-torso contact; torso-angle consistency requires qualified review.",
+      "blockingIssues": [
+        "Verify pronated grip, bar contact position and torso-angle consistency in both poses before approval."
+      ]
+    }
+  ]
+}

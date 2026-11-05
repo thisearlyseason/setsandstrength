@@ -1,0 +1,484 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "0774",
+      "variant": "male",
+      "key": "0774-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand with feet shoulder-width and knees soft. Hold the Smith bar at shoulder level in front with an overhand grip slightly wider than the shoulders."
+        },
+        {
+          "key": "p2",
+          "caption": "Press upward along the guides until the arms extend overhead, then lower slowly while keeping the torso steady."
+        }
+      ],
+      "prompt": "Original premium ADULT male exercise anatomy illustration, TWO equal SQUARE cells side by side WIDE LANDSCAPE same model scale/limb lengths. STANDING SMITH MILITARY PRESS. Realistic Smith machine with TWO VERTICAL guide rails connected grounded frame, horizontal bar ATTACHED to sliding collars on both rails, modest equal plates outside hands. FRONT three-quarter camera showing hands/elbows/bar-neck clearance. Feet shoulder-width soles flat fixed floor, knees softly bent, torso UPRIGHT neutral spine/ribs no backbend and head neutral. Closed OVERHAND pronated grip slightly wider than shoulders, palms forward thumbs wrapped, wrists stacked forearms. LEFT bar at FRONT upper chest/shoulder height below chin, elbows bent and slightly forward beneath bar, forearms nearly vertical, not behind neck. RIGHT bar travels VERTICALLY in guides above head with arms fully extended, same fixed feet/torso and no head bar collision. Red primary DELTOIDS on EXPOSED rounded shoulder caps only, no chest/triceps/biceps red. Fine detailed EXPOSED grayscale muscle anatomy arms/calves, realistic proportions, equal male/female detail. Reference original project artwork ONLY rendering STYLE, never push-up pose/bench/chest red. Fully opaque BLACK athletic shirt and MID-THIGH shorts continuously wrap FRONT SIDES BACK SEAT CROTCH with seams and BROAD fabric folds, no cutaway/transparency/anatomy through fabric. Black shoes. Pure white background soft contact shadows. Entire body and any equipment within EACH cell generous margins all sides, no cross-cell overlap, no embedded captions/text/labels/arrows.",
+      "inspectionNote": "Smith standing press from front shoulder-level bar to overhead extension, connected guide collars, fixed feet and upright torso. Closed overhand grip and exposed deltoid red, full opaque clothes and fine grayscale anatomy. Qualified wrist/forearm alignment, knee softness, bar clearance/path and deltoid localization pending.",
+      "canonicalName": "smith standing military press",
+      "styleVersion": "white-v1",
+      "equipment": "smith machine",
+      "primaryMuscles": [
+        "deltoids"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Smith standing press from front shoulder-level bar to overhead extension, connected guide collars, fixed feet and upright torso. Closed overhand grip and exposed deltoid red, full opaque clothes and fine grayscale anatomy. Qualified wrist/forearm alignment, knee softness, bar clearance/path and deltoid localization pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0774-male-anatomical-white-v1-p1-d57fa3112738.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 38922,
+          "sha256": "d57fa3112738f14753251208763b4ef0feeb970470e49652042dd6ca33d16f4c"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0774-male-anatomical-white-v1-p2-2903ea46747c.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 39818,
+          "sha256": "2903ea46747c4c74e6f9b5ac76fa6b5c42e693d071e3784dbfb796a3b2c18b2c"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0774-male-anatomical-white-v1-thumb-ba342fce0f52.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 4796,
+        "sha256": "ba342fce0f52c9b4d211a27aed6965c7ce27fc36c619a12cc75d9aa5c1805333"
+      },
+      "processingSignature": "30c9ef8a03aa5d4cc8807d7a3a7a20c814fdb44bcce62911d3e24441754814e9",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0774-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1502575,
+        "sha256": "5d87952e4588e6c39f7d164fd609d415b78b1811828f735b57d86b2865aae9e7"
+      }
+    },
+    {
+      "exerciseId": "0774",
+      "variant": "female",
+      "key": "0774-female-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand with feet shoulder-width and knees soft. Hold the Smith bar at shoulder level in front with an overhand grip slightly wider than the shoulders."
+        },
+        {
+          "key": "p2",
+          "caption": "Press upward along the guides until the arms extend overhead, then lower slowly while keeping the torso steady."
+        }
+      ],
+      "prompt": "Original premium ADULT female exercise anatomy illustration, TWO equal SQUARE cells side by side WIDE LANDSCAPE same model scale/limb lengths. STANDING SMITH MILITARY PRESS. Realistic Smith machine with TWO VERTICAL guide rails connected grounded frame, horizontal bar ATTACHED to sliding collars on both rails, modest equal plates outside hands. FRONT three-quarter camera showing hands/elbows/bar-neck clearance. Feet shoulder-width soles flat fixed floor, knees softly bent, torso UPRIGHT neutral spine/ribs no backbend and head neutral. Closed OVERHAND pronated grip slightly wider than shoulders, palms forward thumbs wrapped, wrists stacked forearms. LEFT bar at FRONT upper chest/shoulder height below chin, elbows bent and slightly forward beneath bar, forearms nearly vertical, not behind neck. RIGHT bar travels VERTICALLY in guides above head with arms fully extended, same fixed feet/torso and no head bar collision. Red primary DELTOIDS on EXPOSED rounded shoulder caps only, no chest/triceps/biceps red. Fine detailed EXPOSED grayscale muscle anatomy arms/calves, realistic proportions, equal male/female detail. Reference original project artwork ONLY rendering STYLE, never push-up pose/bench/chest red. Fully opaque BLACK athletic shirt and MID-THIGH shorts continuously wrap FRONT SIDES BACK SEAT CROTCH with seams and BROAD fabric folds, no cutaway/transparency/anatomy through fabric. Black shoes. Pure white background soft contact shadows. Entire body and any equipment within EACH cell generous margins all sides, no cross-cell overlap, no embedded captions/text/labels/arrows.",
+      "inspectionNote": "Standing Smith press shows front shoulder-level start and overhead extended finish, upright torso, fixed feet, closed overhand grip and connected collars. Fine exposed grayscale anatomy, deltoid red and full opaque clothes. Qualified knee softness, wrist/forearm alignment, guide path and muscle localization pending.",
+      "canonicalName": "smith standing military press",
+      "styleVersion": "white-v1",
+      "equipment": "smith machine",
+      "primaryMuscles": [
+        "deltoids"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Standing Smith press shows front shoulder-level start and overhead extended finish, upright torso, fixed feet, closed overhand grip and connected collars. Fine exposed grayscale anatomy, deltoid red and full opaque clothes. Qualified knee softness, wrist/forearm alignment, guide path and muscle localization pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0774-female-anatomical-white-v1-p1-25227b73fae3.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 46524,
+          "sha256": "25227b73fae338a07a982fc9cc2528802ae56d3fbc9b3c29ff0a3b62cf711da6"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0774-female-anatomical-white-v1-p2-0eac4ca336b6.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 47176,
+          "sha256": "0eac4ca336b621534c42827788076d05ccdf7e18c8013b072ace33a80e961d75"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0774-female-anatomical-white-v1-thumb-0f95de99fc2c.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 5724,
+        "sha256": "0f95de99fc2ccb910da77d921a770aebbcc7f57ccb84d94eef5c88d10ba47436"
+      },
+      "processingSignature": "062379d787f34e7757f5023861b01d257336c23f9ad7e95ccad984976f296d30",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0774-female-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1556470,
+        "sha256": "56ca7e054f03b61034be9b7a3ffb9e2f67abcfe107c20e413b0a5ed0c7af6917"
+      }
+    },
+    {
+      "exerciseId": "0781",
+      "variant": "male",
+      "key": "0781-male-anatomical-white-v2",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand upright in a long split stance, one foot forward and the other back. Keep the front heel grounded."
+        },
+        {
+          "key": "p2",
+          "caption": "Bend both knees until the rear knee hovers just above the floor, then press through the front heel to rise. Finish repetitions before switching legs."
+        }
+      ],
+      "prompt": "Edit ONLY thigh red overlay in original male two-panel bodyweight SPLIT SQUAT. Remove fine red streaks/rays/fiber lines. Replace ONE smooth diffuse BLURRED oval red tint on intact opaque BLACK front-working-thigh shorts. Cloth broad folds/seams only, no anatomy through fabric, full shorts front sides back seat crotch and shirt retained. Preserve standing long split stance then bent-knee bottom, SAME front foot flat heel and rear toe positions, rear knee hovering just above floor not touching, upright torso hands hips, same limb lengths/scale. Fine exposed grayscale anatomy, white background, TWO equal SQUARE landscape cells generous head/shoe margins. No text.",
+      "inspectionNote": "Front-thigh overlay corrected to smooth diffuse tint over intact opaque shorts. Split stance and rear-knee-hover bottom retained, front heel grounded, hands hips, upright torso, fine exposed anatomy. Qualified fixed foot positions, knee tracking, proportions and primary quadriceps mapping pending.",
+      "canonicalName": "split squat",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "quads"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0781-male-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "status": "generated",
+        "costUSD": null
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Front-thigh overlay corrected to smooth diffuse tint over intact opaque shorts. Split stance and rear-knee-hover bottom retained, front heel grounded, hands hips, upright torso, fine exposed anatomy. Qualified fixed foot positions, knee tracking, proportions and primary quadriceps mapping pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0781-male-anatomical-white-v2-p1-e66b53ef46a2.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 22610,
+          "sha256": "e66b53ef46a27ac0360a86e9a89d7838f445f6cdda793be892bdcf684c6d3e90"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0781-male-anatomical-white-v2-p2-36763564ba03.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 21772,
+          "sha256": "36763564ba03a9e2d89e3b47bc7387a0a6e5cb59e2f7b2cf18eeff8fb3730a72"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0781-male-anatomical-white-v2-thumb-b2b173908fd6.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2644,
+        "sha256": "b2b173908fd6ac30e20fa7eb7d9a29136bdb0aa9cc0120a7276ca9dea7a8e7af"
+      },
+      "processingSignature": "81f0d78adcfef34f0de750aca815b527cf9b9703cd47e3ee00a60a7c16983817",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0781-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1330619,
+        "sha256": "01d068e645e717126e2e61d1f8a0760ee7bffbc43f91a0537363bf4751d74a8f"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0781",
+          "variant": "male",
+          "key": "0781-male-anatomical-white-v1",
+          "layout": {
+            "columns": 2,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Stand upright in a long split stance, one foot forward and the other back. Keep the front heel grounded."
+            },
+            {
+              "key": "p2",
+              "caption": "Bend both knees until the rear knee hovers just above the floor, then press through the front heel to rise. Finish repetitions before switching legs."
+            }
+          ],
+          "prompt": "Original premium ADULT male exercise anatomy illustration, TWO equal SQUARE cells side by side WIDE LANDSCAPE same model scale/limb lengths. BODYWEIGHT SPLIT SQUAT, no equipment. SIDE-FRONT three-quarter camera, model faces IMAGE RIGHT both cells. Same LONG staggered stride: nearer front foot forward RIGHT sole/HEEL flat floor, far rear foot behind LEFT on balls/toes, rear heel lifted. Feet remain SAME positions in BOTH phases, no walking/step. LEFT start standing tall, front leg nearly straight, rear leg near straight with soft knees. RIGHT descend VERTICALLY between feet by bending BOTH knees: front knee near90degrees tracking toes, front heel grounded; REAR KNEE hovers3cm ABOVE FLOOR and clearly not touching. Upright torso same orientation, neutral spine, hands rest at hips not pressing knee. Same lead leg/foot positions/scale, no reversal or airborne feet. Primary QUADRICEPS: one smoothly diffuse BLURRED red tint on front-thigh opaque shorts, predominantly FRONT working leg, no fibers/rays/striations. No chest/abs/knee/calf red. Fine detailed EXPOSED grayscale muscle anatomy arms/calves, realistic proportions, equal male/female detail. Reference original project artwork ONLY rendering STYLE, never push-up pose/bench/chest red. Fully opaque BLACK athletic shirt and MID-THIGH shorts continuously wrap FRONT SIDES BACK SEAT CROTCH with seams and BROAD fabric folds, no cutaway/transparency/anatomy through fabric. Black shoes. Pure white background soft contact shadows. Entire body and any equipment within EACH cell generous margins all sides, no cross-cell overlap, no embedded captions/text/labels/arrows.",
+          "inspectionNote": "Split stance standing and bent-knee bottom with rear knee hovering, hands hips, front heel grounded. Full opaque clothes but thigh tint has fine streaks, correction required. Detailed exposed anatomy; qualified fixed foot positions, knee tracking and proportions pending.",
+          "canonicalName": "split squat",
+          "styleVersion": "white-v1",
+          "equipment": "body weight",
+          "primaryMuscles": [
+            "quads"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Split stance standing and bent-knee bottom with rear knee hovering, hands hips, front heel grounded. Full opaque clothes but thigh tint has fine streaks, correction required. Detailed exposed anatomy; qualified fixed foot positions, knee tracking and proportions pending.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0781-male-anatomical-white-v1-p1-d900c0671d8b.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 24706,
+              "sha256": "d900c0671d8b84ab4ac840be7e85c318ee39c7cbce10dade94da9d463a982d77"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0781-male-anatomical-white-v1-p2-d2749064ba48.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 24566,
+              "sha256": "d2749064ba484f4d93f60c4c78e3b4b3a91f938bb42ff234cb033703f31e4c6d"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0781-male-anatomical-white-v1-thumb-2a565fa0e0d2.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 2626,
+            "sha256": "2a565fa0e0d249b4eb12fdb679c5e39208f6e6ef46cbb1f31001658d70ade9d6"
+          },
+          "processingSignature": "ceb5cd0b2b711f4ec815ffec692c1049350129886b787d997defc25aea5b28ce",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0781-male-anatomical-white-v1.png",
+            "width": 1774,
+            "height": 887,
+            "bytes": 1358002,
+            "sha256": "51b03b0896ee9ba5216e9c4f5fbbf81fd5f16772b5f0ebb9b58369c324b3f72c"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "0781",
+      "variant": "female",
+      "key": "0781-female-anatomical-white-v2",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand upright in a long split stance, one foot forward and the other back. Keep the front heel grounded."
+        },
+        {
+          "key": "p2",
+          "caption": "Bend both knees until the rear knee hovers just above the floor, then press through the front heel to rise. Finish repetitions before switching legs."
+        }
+      ],
+      "prompt": "Edit ONLY thigh red overlay in original female two-panel bodyweight SPLIT SQUAT. Remove fine red streaks/rays/fiber lines. Replace ONE smooth diffuse BLURRED oval red tint on intact opaque BLACK front-working-thigh shorts. Cloth broad folds/seams only, no anatomy through fabric, full shorts front sides back seat crotch and shirt retained. Preserve standing long split stance then bent-knee bottom, SAME front foot flat heel and rear toe positions, rear knee hovering just above floor not touching, upright torso hands hips, same limb lengths/scale. Fine exposed grayscale anatomy, white background, TWO equal SQUARE landscape cells generous head/shoe margins. No text.",
+      "inspectionNote": "Front-thigh tint softened to smooth diffuse overlay on opaque shorts. Standing long stride and rear-knee-hover bottom, front heel grounded, hands hips and upright torso retained. Fine exposed grayscale anatomy, full opaque clothes. Qualified fixed foot positions, knee tracking, proportions and primary quadriceps mapping pending.",
+      "canonicalName": "split squat",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "quads"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0781-female-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "status": "generated",
+        "costUSD": null
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Front-thigh tint softened to smooth diffuse overlay on opaque shorts. Standing long stride and rear-knee-hover bottom, front heel grounded, hands hips and upright torso retained. Fine exposed grayscale anatomy, full opaque clothes. Qualified fixed foot positions, knee tracking, proportions and primary quadriceps mapping pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0781-female-anatomical-white-v2-p1-4e3d628d92a5.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 23992,
+          "sha256": "4e3d628d92a5766b006c486294710c8e595290254b1992de388f31997c451a1a"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0781-female-anatomical-white-v2-p2-418c039ad116.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 23674,
+          "sha256": "418c039ad1168d88652282daeb95d3cf0f5dae3b4f7a9674b7130ff063c14d89"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0781-female-anatomical-white-v2-thumb-42b7bf538a1e.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2864,
+        "sha256": "42b7bf538a1ef51465be4e5a734b3c15ef20fab724b4aae4ba6b13830342f634"
+      },
+      "processingSignature": "8afb194ae62202cbca5315fc069d7661cdd070030c8c5a9c561cf703a9e92f68",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0781-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1352947,
+        "sha256": "cde9807e4aa63768313de95a46b96879266c6bc8642ce2d2baee8c4a4ab83cb7"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0781",
+          "variant": "female",
+          "key": "0781-female-anatomical-white-v1",
+          "layout": {
+            "columns": 2,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Stand upright in a long split stance, one foot forward and the other back. Keep the front heel grounded."
+            },
+            {
+              "key": "p2",
+              "caption": "Bend both knees until the rear knee hovers just above the floor, then press through the front heel to rise. Finish repetitions before switching legs."
+            }
+          ],
+          "prompt": "Original premium ADULT female exercise anatomy illustration, TWO equal SQUARE cells side by side WIDE LANDSCAPE same model scale/limb lengths. BODYWEIGHT SPLIT SQUAT, no equipment. SIDE-FRONT three-quarter camera, model faces IMAGE RIGHT both cells. Same LONG staggered stride: nearer front foot forward RIGHT sole/HEEL flat floor, far rear foot behind LEFT on balls/toes, rear heel lifted. Feet remain SAME positions in BOTH phases, no walking/step. LEFT start standing tall, front leg nearly straight, rear leg near straight with soft knees. RIGHT descend VERTICALLY between feet by bending BOTH knees: front knee near90degrees tracking toes, front heel grounded; REAR KNEE hovers3cm ABOVE FLOOR and clearly not touching. Upright torso same orientation, neutral spine, hands rest at hips not pressing knee. Same lead leg/foot positions/scale, no reversal or airborne feet. Primary QUADRICEPS: one smoothly diffuse BLURRED red tint on front-thigh opaque shorts, predominantly FRONT working leg, no fibers/rays/striations. No chest/abs/knee/calf red. Fine detailed EXPOSED grayscale muscle anatomy arms/calves, realistic proportions, equal male/female detail. Reference original project artwork ONLY rendering STYLE, never push-up pose/bench/chest red. Fully opaque BLACK athletic shirt and MID-THIGH shorts continuously wrap FRONT SIDES BACK SEAT CROTCH with seams and BROAD fabric folds, no cutaway/transparency/anatomy through fabric. Black shoes. Pure white background soft contact shadows. Entire body and any equipment within EACH cell generous margins all sides, no cross-cell overlap, no embedded captions/text/labels/arrows.",
+          "inspectionNote": "Split squat standing and bottom phases with rear knee hovering, front heel grounded, hands hips and upright torso. Opaque clothes, thigh overlay has fine streaks; smooth correction required. Detailed exposed grayscale anatomy; qualified fixed-foot stance, knee tracking, proportions and mapping pending.",
+          "canonicalName": "split squat",
+          "styleVersion": "white-v1",
+          "equipment": "body weight",
+          "primaryMuscles": [
+            "quads"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Split squat standing and bottom phases with rear knee hovering, front heel grounded, hands hips and upright torso. Opaque clothes, thigh overlay has fine streaks; smooth correction required. Detailed exposed grayscale anatomy; qualified fixed-foot stance, knee tracking, proportions and mapping pending.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0781-female-anatomical-white-v1-p1-6cac233b6f4e.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 26306,
+              "sha256": "6cac233b6f4e9d72bd5bbc0822ded964d6eb6625979adfca1a40cdd35e168060"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0781-female-anatomical-white-v1-p2-57b992e4160a.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 25562,
+              "sha256": "57b992e4160ade0e95c25b68a294fef53d8bff6badf2fdf78ca5a60079ea7026"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0781-female-anatomical-white-v1-thumb-934fd3a6cd80.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 2844,
+            "sha256": "934fd3a6cd80bee079156bcc0bad308601caeef09239f9f057fd99107f50306f"
+          },
+          "processingSignature": "720a49bc697916b2b789b0d94d3e5a994d3a9f992c11188320e18d0ee6ee9db6",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0781-female-anatomical-white-v1.png",
+            "width": 1774,
+            "height": 887,
+            "bytes": 1384473,
+            "sha256": "f6a1258c488b2e724fc35f00d144978240f2b5131b5db14f3bbe63aeb0b673fe"
+          }
+        }
+      ]
+    }
+  ]
+}

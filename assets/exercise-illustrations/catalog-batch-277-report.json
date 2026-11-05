@@ -1,0 +1,75 @@
+{
+  "batch": 277,
+  "runId": "55f46b1d-57da-41cb-865f-e1b9f07e5950",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "trigger": "2026-11-04T01:08:25.683Z",
+  "purpose": "batch277 scheduled male continuation",
+  "started": "2026-11-04T01:08:39.548059+00:00",
+  "completedAt": "2026-11-04T01:13:08.597385+00:00",
+  "actualToolName": "image_gen__imagegen",
+  "calls": 4,
+  "newCandidateSets": 4,
+  "exerciseIds": [
+    "2318",
+    "2321",
+    "2323",
+    "2324"
+  ],
+  "variants": [
+    "male"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 981,
+    "remainingVariants": 10283,
+    "approvedVariants": 0,
+    "blockedVariants": 321,
+    "knownPoseImages": 1872,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 608,
+      "remainingVariants": 5024,
+      "blockedVariants": 202
+    }
+  },
+  "reviewNotes": {
+    "2318": "Seated leverage shoulder press with back/head support, planted feet, overhand handles at shoulder height then overhead extension, red exposed deltoids and opaque clothing. Qualified review needed for machine pivot/plate geometry, upward-forward path, wrist stacking and elbow softness. Human anatomy review remains pending.",
+    "2321": "Standing neutral-grip lowered dumbbells then supinated curls near shoulders, torso still and upper arms close to ribs. Biceps-only red, opaque clothing and full body in frame. Qualified review needed for supination timing, elbow drift, wrist alignment and endpoint. Human anatomy review remains pending.",
+    "2323": "Wide toes-out stance then parallel-thigh squat, heels grounded, one vertical dumbbell held with both hands between legs. Rear oblique view shows intact shorts with glute teaching tint and ordinary cloth folds. Qualified review needed for arm/hand occlusion and whether dumbbell remains in front of pelvis, knee tracking, depth, stance width and hip alignment. Human anatomy review remains pending.",
+    "2324": "Hip hinge then tall hip extension facing away from low pulley, nearly straight knees, long arms, rope held between legs and cable trailing behind. Smooth glute tint on opaque shorts, tank intact. Qualified review needed for cable/rope clearance between legs, grip occlusion, knee softness, neutral lumbar posture and hip endpoint. Human anatomy review remains pending."
+  },
+  "blockingIssues": {},
+  "deferred": {},
+  "tests": 7,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "workerSyncResult": {
+    "statuses": {
+      "generated": 981,
+      "pending": 10283
+    },
+    "remaining": 10283,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 1512569169
+  },
+  "publicationIndexUnchanged": true,
+  "savedMasters": [
+    "assets/exercise-illustrations/generated/2318-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/2321-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/2323-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/2324-male-anatomical-white-v1.png"
+  ]
+}

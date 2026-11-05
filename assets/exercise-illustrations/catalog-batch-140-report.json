@@ -1,0 +1,88 @@
+{
+  "batch": 140,
+  "trigger": "2026-11-03T03:58:55.821Z",
+  "completedAt": "2026-11-03T04:07:58.749379+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 4,
+  "generationCalls": 6,
+  "exerciseIds": [
+    "0856",
+    "0860"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 568,
+    "remainingVariants": 10696,
+    "approvedVariants": 0,
+    "blockedVariants": 209,
+    "knownPoseImages": 1164,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Four candidates, eight poses, six built-in calls including two retained Svend chest-overlay corrections. Svend sets show vertical plate between palms at chest then forward extension; red pectoral patches smoothed over continuous opaque black shirt. Cable kickbacks show connected low pulley/right D-handle, elbow-bent start then backward extension, upper arm near torso and other palm braced thigh; exposed triceps red. Cable passes foreground near legs without clear penetration; routing clearance, fixed upper-arm position, neutral neck, grip/palm contact, wrist and muscle mapping remain qualified human-review items. Full opaque black clothing visually retained, with no clothing or anatomy approval. All originals, exact prompts and correction histories saved. No publication, no upstream licensed media; project artwork used for style only. Seven pipeline checks do not establish anatomical accuracy.",
+  "metadataConflictsDeferred": {
+    "0862": "Up-down title vs chest-level horizontal rotation instructions; cable height and trajectory unresolved.",
+    "0865": "Description adds hip lift at top, instructions only leg lift; pose sequence unresolved."
+  },
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 915124948,
+  "savedMasters": [
+    {
+      "exerciseId": "0856",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0856-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1288164,
+        "sha256": "a9428d19c885c6e58c9245afc3d4499e787fa93a98d548dea5bf43373d97703d"
+      }
+    },
+    {
+      "exerciseId": "0856",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0856-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1273607,
+        "sha256": "252caf1d29390d6c2ae4180cda461cb5897aa934b6220b07a4d2f2ecaac7b8d7"
+      }
+    },
+    {
+      "exerciseId": "0860",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0860-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1583869,
+        "sha256": "1d44314d34d221302b8f84cb87d664fc94ac1306dadaae2ab4140d6633997835"
+      }
+    },
+    {
+      "exerciseId": "0860",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0860-female-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1529440,
+        "sha256": "36d7c6965d9b33655b92edede39614f2c9902e32d4b4413951bbdf9f96f98e58"
+      }
+    }
+  ]
+}

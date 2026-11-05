@@ -1,0 +1,326 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "2765",
+      "variant": "male",
+      "key": "2765-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hold elbow at your side bent 90 degrees, with palm up."
+        },
+        {
+          "key": "p2",
+          "caption": "Rotate the same forearm until palm faces down; keep elbow still and wrist neutral."
+        }
+      ],
+      "prompt": "FOREARM PRONATION MOBILITY TWO equalpanels SAME frontthreequarter camera. Standtall noequipment. SAME LEFTelbowheldbywaist bent90 bothposes, leftforearmhorizontal pointingFORWARD, upperarmvertical remainsfixed, RIGHTarmrelaxedside. LEFTSTART lefthandOPENPALMUP visiblepalmfacingceiling thumbOUTWARD. RIGHTEND rotateONLYLEFTforearm longaxis so palmDOWNtofloor dorsumfacesceiling thumbINWARD, elbowstill90 sameposition forearmhorizontal sameforwarddirection. Noelbowflexion no wristbend. Primary LEFT FOREARM pronators only redexposedproximalanteriormedialforearm BOTHposes; bicepschestgrayblack. Premium detailed adult MALE grayscale anatomical illustration. Approved original project reference STYLE ONLY ignore its pose/highlights. Pure white background soft shadows crisp detailed exposed gray muscle contours realistic proportions. Opaque BLACK tank and black mid-thigh shorts fully wrap front sides back seat crotch normal fabric seams folds hems black shoes. No anatomy through fabric no cutaways. Covered primary highlight SMALL PLAIN UNIFORM soft red COLOR WASH on intact fabric no fibers lobes striations. Only specified primary red all other regions gray/black. Equal cells same person camera whole body in frame generous margins. Exactly two arms hands five fingers two legs feet. No text arrows logos.",
+      "inspectionNote": "Real output inspected. Same forearm rotates from palm up to palm down with elbow near 90 at side and upper arm stationary; opposite arm relaxed and opaque clothing. Qualified review needed for forearm rotation versus wrist movement, pronator mapping, thumb/finger anatomy and elbow angle. Human anatomy review pending. No approval or publication.",
+      "canonicalName": "forearm pronation",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "forearms"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Same forearm rotates from palm up to palm down with elbow near 90 at side and upper arm stationary; opposite arm relaxed and opaque clothing. Qualified review needed for forearm rotation versus wrist movement, pronator mapping, thumb/finger anatomy and elbow angle. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2765-male-anatomical-white-v1-p1-32edd82318c3.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 23526,
+          "sha256": "32edd82318c3fab5475660a94d3b56e95c64e4c1ee4bbd43dfd38f3745c2f171"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/2765-male-anatomical-white-v1-p2-d87f92b011c7.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 23504,
+          "sha256": "d87f92b011c705173a2ce575acdc4490a656ffb12e6c59b0f7a9a3a89cf597ba"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-300.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2765-male-anatomical-white-v1-thumb-ca5f200f3dec.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2502,
+        "sha256": "ca5f200f3dec28725c0965a13c8680284ecccf3a8dd7a2378b3f110c85f2123f"
+      },
+      "processingSignature": "5c1fb4d9819945b71cbdd18526e752afde695858ab2d3acd2eeaf641e2d9880f",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2765-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1329596,
+        "sha256": "3ef7c7327eaa92b52c8974285b0e2f39f6cb2c9bcb7d1974e1fe66f785d4aed7"
+      }
+    },
+    {
+      "exerciseId": "2766",
+      "variant": "male",
+      "key": "2766-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hold elbow at your side bent 90 degrees, with palm down."
+        },
+        {
+          "key": "p2",
+          "caption": "Rotate the same forearm until palm faces up, keeping elbow still."
+        }
+      ],
+      "prompt": "FOREARM SUPINATION MOBILITY TWO equalpanels SAME frontthreequarter camera. Standtall noequipment. SAME LEFTelbowbywaist bent90 BOTHposes upperarmverticalSTILL forearmhorizontalpointingFORWARD. RIGHTarmemptyrelaxedside. LEFTSTART leftOPENHAND PALMDOWNtowardfloor dorsumup thumbINWARD. RIGHTEND rotateONLYFOREARM longaxis untilOPENPALMUPtoceiling thumbOUTWARD, elbowstill90 sameposition forearmhorizontal sameforwarddirection no wristbend. Primary LEFT FOREARM supinators only redexposedproximalouterforearm BOTHposes, bicepschestgrayblack. Premium detailed adult MALE grayscale anatomical illustration. Approved original project reference STYLE ONLY ignore its pose/highlights. Pure white background soft shadows crisp detailed exposed gray muscle contours realistic proportions. Opaque BLACK tank and black mid-thigh shorts fully wrap front sides back seat crotch normal fabric seams folds hems black shoes. No anatomy through fabric no cutaways. Covered primary highlight SMALL PLAIN UNIFORM soft red COLOR WASH on intact fabric no fibers lobes striations. Only specified primary red all other regions gray/black. Equal cells same person camera whole body in frame generous margins. Exactly two arms hands five fingers two legs feet. No text arrows logos.",
+      "inspectionNote": "Real output inspected. Same forearm shown palm down then up with elbow at side and no equipment, supinator-region tint and opaque clothing. Qualified review needed for clearly distinguishable palm orientation/rotation range, thumb laterality, finger anatomy and precise proximal supinator mapping. Human anatomy review pending. No approval or publication.",
+      "canonicalName": "forearm supination",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "forearms"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Same forearm shown palm down then up with elbow at side and no equipment, supinator-region tint and opaque clothing. Qualified review needed for clearly distinguishable palm orientation/rotation range, thumb laterality, finger anatomy and precise proximal supinator mapping. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2766-male-anatomical-white-v1-p1-3c963df7f8aa.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 20068,
+          "sha256": "3c963df7f8aadea58dc926f1d46a2ec8a29e0084e00392b16ba6383c6fbb7def"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/2766-male-anatomical-white-v1-p2-268795a0e1d7.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 20216,
+          "sha256": "268795a0e1d71b960a47fe3a27bdf0f8f4f48bc2e49d97d2b9a91faf16538d9f"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-300.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2766-male-anatomical-white-v1-thumb-d64949c9ad95.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2226,
+        "sha256": "d64949c9ad9561c6a81dcf50f52d8a42cde2d2047ae5837f977d6d51fcab8011"
+      },
+      "processingSignature": "e02d8e7ddf958ab813809156f628b0d0797a6e0a672555fd88ecd5552e99b906",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2766-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1292198,
+        "sha256": "c422d436116ee401c41f80d839dc2ac07fa0200854e9ccad7eb3ee4bc038a51a"
+      }
+    },
+    {
+      "exerciseId": "2767",
+      "variant": "male",
+      "key": "2767-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand tall holding support with weight on one leg."
+        },
+        {
+          "key": "p2",
+          "caption": "Lift the same straight leg out to the side, toes forward; lower without leaning."
+        }
+      ],
+      "prompt": "STANDING HIP ABDUCTION MOBILITY TWOequalpanels SAME FRONTthreequarter view. LEFT handholdssturdysupport toleftsidebalance. LEFTlegstanding kneeSOFT footplanted; SAME RIGHTlegworks BOTHposes. LEFTSTART uprightbothfeetnearhipwidth righttoeslightfloorcontact. RIGHTEND liftSTRAIGHTRIGHTleg OUTTOSIDE about25degrees FRONTALplane footofffloor TOESFORWARD notturnedout, leftfootfixed pelvislevel torsoupright nolean orrotation. Primary RIGHT HIPABDUCTORS only smallplainuniformredwash onupperOUTERrightHIP/sideofintactshorts BOTHposes notanteriorgroin, nofibers allotherregionsgrayblack. Premium detailed adult MALE grayscale anatomical illustration. Approved original project reference STYLE ONLY ignore its pose/highlights. Pure white background soft shadows crisp detailed exposed gray muscle contours realistic proportions. Opaque BLACK tank and black mid-thigh shorts fully wrap front sides back seat crotch normal fabric seams folds hems black shoes. No anatomy through fabric no cutaways. Covered primary highlight SMALL PLAIN UNIFORM soft red COLOR WASH on intact fabric no fibers lobes striations. Only specified primary red all other regions gray/black. Equal cells same person camera whole body in frame generous margins. Exactly two arms hands five fingers two legs feet. No text arrows logos.",
+      "inspectionNote": "Real output inspected. Straight leg lifts laterally, support hand/foot grounded, torso mostly upright and clothing opaque. Red highlight remains on standing/support hip instead of moving-leg abductors; block laterality/mapping correction. Qualified review of toes forward, level pelvis and standing knee softness required. Human anatomy review pending. No approval or publication.",
+      "blockingIssues": [
+        "Primary highlight on support hip rather than abducting leg; correct working-side abductor mapping both poses."
+      ],
+      "canonicalName": "hip abduction",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "abductors"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Straight leg lifts laterally, support hand/foot grounded, torso mostly upright and clothing opaque. Red highlight remains on standing/support hip instead of moving-leg abductors; block laterality/mapping correction. Qualified review of toes forward, level pelvis and standing knee softness required. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2767-male-anatomical-white-v1-p1-4f2f55aa277d.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 27196,
+          "sha256": "4f2f55aa277d28e576a07df0432322ff5e9014132b4bcdda2301fac945905569"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/2767-male-anatomical-white-v1-p2-01caaaa620ef.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 28164,
+          "sha256": "01caaaa620efd461d1fc2f0829043b7a6efbc92f25ec3b1f82017f1f61f56835"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-300.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2767-male-anatomical-white-v1-thumb-36b48bb7fd26.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 3066,
+        "sha256": "36b48bb7fd262d20802f37b024f37b7c688a3af4c0ec8b601c50dd5d2a61277e"
+      },
+      "processingSignature": "d11c67a790a4ddeb50438b8db82958d319f296ea499c6cd6cefb7254b5a44d36",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2767-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1404580,
+        "sha256": "58913a7fe39b2fd6bf3fe8496639c84520e3593f6f0f04a5b800029b9c62aa33"
+      }
+    },
+    {
+      "exerciseId": "2768",
+      "variant": "male",
+      "key": "2768-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hold support and lift the working leg slightly out to the side."
+        },
+        {
+          "key": "p2",
+          "caption": "Bring that leg inward across the front of the standing leg; pause and return under control."
+        }
+      ],
+      "prompt": "STANDING HIP ADDUCTION MOBILITY TWOequalpanels SAME FRONTthreequarter view. LEFT handholdssturdysupport toleftside. LEFTlegstanding footfixedkneesoft. SAME RIGHTlegworks BOTHposes torsotall pelvislevel toesforward. LEFTSTART rightSTRAIGHTleg slightlyOUTTOSIDE footofffloor20degrees. RIGHTEND rightSTRAIGHTleg swingsINWARD ACROSSFRONTOFLEFTstandingleg, rightfoothoveringjustleftofleftankle notbehindleg, nolegfusion clearoverlapandtwofeet, leftfootplanted sameposition. No torsorotation nolean. Primary RIGHT ADDUCTORS only red exposedMEDIALRIGHTTHIGHbelowshorts andsmallplainwash onintactmedialrightshorts BOTHposes, otherregionsgrayblack. Premium detailed adult MALE grayscale anatomical illustration. Approved original project reference STYLE ONLY ignore its pose/highlights. Pure white background soft shadows crisp detailed exposed gray muscle contours realistic proportions. Opaque BLACK tank and black mid-thigh shorts fully wrap front sides back seat crotch normal fabric seams folds hems black shoes. No anatomy through fabric no cutaways. Covered primary highlight SMALL PLAIN UNIFORM soft red COLOR WASH on intact fabric no fibers lobes striations. Only specified primary red all other regions gray/black. Equal cells same person camera whole body in frame generous margins. Exactly two arms hands five fingers two legs feet. No text arrows logos.",
+      "inspectionNote": "Real output inspected. Same straight leg moves inward from abducted position, support foot/hand grounded and medial-thigh tint on intact shorts. Finish stops beside standing leg rather than crossing in front as canonical instructions specify; block endpoint correction. Qualified review needed for clear leg separation, adductor mapping, toes forward and pelvis stability. Human anatomy review pending. No approval or publication.",
+      "blockingIssues": [
+        "Finish must show working leg crossing in front of standing leg; currently stops beside it."
+      ],
+      "canonicalName": "hip adduction",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "adductors"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Same straight leg moves inward from abducted position, support foot/hand grounded and medial-thigh tint on intact shorts. Finish stops beside standing leg rather than crossing in front as canonical instructions specify; block endpoint correction. Qualified review needed for clear leg separation, adductor mapping, toes forward and pelvis stability. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2768-male-anatomical-white-v1-p1-9787264892b8.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 29444,
+          "sha256": "9787264892b803f8a17c22e69b9e3e693b470f5cdb6fe0ee6cdea7ddce9cc619"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/2768-male-anatomical-white-v1-p2-ddf6c5170431.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 28176,
+          "sha256": "ddf6c51704311297863c25c306ac487cab44cbe79c351fad584526117f0ca4d8"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-300.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2768-male-anatomical-white-v1-thumb-a6d121fcbf78.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 3466,
+        "sha256": "a6d121fcbf78a4ab600d2ab7e3459331ab18d130fc5deb95a03fa6ea7f176383"
+      },
+      "processingSignature": "1a5a6ec1dc487257127b8c2a10d6acf4ef11b34f785c961e48b618571b79baa8",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2768-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1412451,
+        "sha256": "1251ce4ad21c45739230f7df1169ac40242dca23cb86b36839adcce6a0aeed74"
+      }
+    }
+  ]
+}

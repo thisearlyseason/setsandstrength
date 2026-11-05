@@ -1,0 +1,77 @@
+{
+  "batch": 331,
+  "runId": "5caea03d-0db4-4816-bdfc-34e4dd36abfc",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "trigger": "2026-11-04T09:30:30.056Z",
+  "purpose": "batch331 scheduled male continuation",
+  "started": "2026-11-04T09:30:59.782858+00:00",
+  "completedAt": "2026-11-04T09:38:05.556152+00:00",
+  "actualToolName": "image_gen__imagegen",
+  "calls": 3,
+  "newCandidateSets": 3,
+  "exerciseIds": [
+    "3185",
+    "3186",
+    "3187"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1188,
+    "remainingVariants": 10076,
+    "approvedVariants": 0,
+    "blockedVariants": 433,
+    "knownPoseImages": 2320,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 815,
+      "remainingVariants": 4817,
+      "blockedVariants": 314
+    }
+  },
+  "reviewNotes": {
+    "3185": "Hanging-band bench press with two suspended kettlebells and feet planted. Lowered bar appears above face rather than mid chest; chest overlay contains anatomical lobes/nipple through tank. Block bar path and fabric corrections.",
+    "3186": "Standing military press shoulders-to-overhead with two small kettlebells freely suspended from bar-end loops, feet planted, deltoid red only and opaque clothing. Qualified review of band attachments, bar path, wrist stacking and rib posture pending.",
+    "3187": "Goblet squat, two-foot airborne jump and bent-knee landing visible with kettlebell securely at chest. Quad fibers/segments appear through shorts in squat/landing; block fabric correction. Qualified landing, grip and load control review pending."
+  },
+  "blockingIssues": {
+    "3185": [
+      "Lower bar toward mid chest rather than face.",
+      "Replace anatomical chest lobes/nipple through tank with plain uniform wash on opaque fabric."
+    ],
+    "3187": [
+      "Replace quad anatomical fibers/segments through shorts with plain uniform wash over intact opaque cloth."
+    ]
+  },
+  "deferred": {
+    "3188": "Hanging weight attachment/routing on dumbbell during overhead arc uncertain; clarify.",
+    "3193": "Glute-ham raise name/hamstring action versus torso-extension endpoint instructions ambiguous.",
+    "3194": "Frankenstein squat name versus unsupported straight-arm bar hold instructions conflict.",
+    "3195": "Lying two-one curl name/description conflicts with seated bilateral instructions."
+  },
+  "tests": 7,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "workerSyncResult": {
+    "statuses": {
+      "generated": 1188,
+      "pending": 10076
+    },
+    "remaining": 10076,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 1817460711
+  },
+  "publicationIndexUnchanged": true
+}

@@ -1,0 +1,58 @@
+{
+  "batch": 483,
+  "runId": "ff31cea1-bfbe-4767-9aee-d41f7a94dbb6",
+  "triggerTimestamp": "2026-11-05T02:51:05.739Z",
+  "builtInImageGenAvailable": true,
+  "generatedIds": [
+    "0030",
+    "0055",
+    "0072",
+    "0076"
+  ],
+  "coverageAfter": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1720,
+    "remainingVariants": 9544,
+    "approvedVariants": 0,
+    "blockedVariants": 612,
+    "knownPoseImages": 3488,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 1347,
+      "remainingVariants": 4285,
+      "blockedVariants": 493
+    }
+  },
+  "paidWorker": {
+    "statuses": {
+      "generated": 1720,
+      "pending": 9544
+    },
+    "remaining": 9544,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 2591869293
+  },
+  "pipelineTests": "8 passed, 0 failed",
+  "approvedIndexUnchanged": true,
+  "existingUserApprovalsPreserved": 1306,
+  "anatomyReview": "pending",
+  "publication": "none",
+  "blocked": {
+    "0055": [
+      "Grip orientation changes between press poses; lowered pose appears supinated rather than consistent overhand palms toward feet."
+    ]
+  }
+}

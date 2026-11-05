@@ -1,0 +1,58 @@
+{
+  "batch": 399,
+  "runId": "99a44c7a-cbaa-4399-b0c9-b41d48c7eec9",
+  "triggerTimestamp": "2026-11-04T19:16:02.311Z",
+  "builtInImageGenAvailable": true,
+  "generatedIds": [
+    "3651",
+    "3652",
+    "3654",
+    "3662"
+  ],
+  "coverageAfter": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1412,
+    "remainingVariants": 9852,
+    "approvedVariants": 0,
+    "blockedVariants": 539,
+    "knownPoseImages": 2808,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 1039,
+      "remainingVariants": 4593,
+      "blockedVariants": 420
+    }
+  },
+  "paidWorker": {
+    "statuses": {
+      "generated": 1412,
+      "pending": 9852
+    },
+    "remaining": 9852,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 2142961928
+  },
+  "pipelineTests": "7 passed, 0 failed",
+  "approvedIndexUnchanged": true,
+  "existingUserApprovalsPreserved": 1306,
+  "anatomyReview": "pending",
+  "publication": "none",
+  "blocked": {
+    "3654": [
+      "Grip appears underhand instead of canonical overhand."
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "batch": 164,
+  "runId": "64c299ec-45ba-4794-976c-66d4d4c9bf0b",
+  "trigger": "2026-11-03T08:31:57.908Z",
+  "completedAt": "2026-11-03T08:36:38.925241+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 2,
+  "generationCalls": 2,
+  "exerciseIds": [
+    "1174"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 642,
+    "remainingVariants": 10622,
+    "approvedVariants": 0,
+    "blockedVariants": 221,
+    "knownPoseImages": 1292,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Two knee diamond push-up candidates, four poses, two built-in calls. Grounded knees, close diamond hands, straight-arm to near-elbow bent push-up, exposed triceps red and full opaque clothes. BOTH BLOCKED: bottom far elbow appears much straighter than near elbow, so symmetric bilateral flexion is not established. Knee-to-head alignment, neck gaze, hand/finger contact and depth require qualified review. Every original and exact prompt retained for correction; no anatomy/clothing approval or publication. Original project artwork rendering style only, no upstream licensed input. Seven pipeline checks do not establish anatomical accuracy.",
+  "metadataConflictsDeferred": {
+    "1172": "Assisted weighted push-up assistance method undefined.",
+    "1176": "Face-down versus supine incline front raise alternative requires explicit pose choice."
+  },
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 1019054043,
+  "savedMasters": [
+    {
+      "exerciseId": "1174",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1174-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1489072,
+        "sha256": "6d585757110af648dc8f378c13baea63badf1a53a1ad208906d86aef1e5f29e8"
+      }
+    },
+    {
+      "exerciseId": "1174",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1174-female-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1573638,
+        "sha256": "3e5ab4fe1b20c7919fa5666ef6e246f937c9ff0d1e39b974ac36044618ba217a"
+      }
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "3468",
+      "variant": "male",
+      "key": "3468-male-anatomical-white-v1",
+      "prompt": "ONE single static pose FRONT HAMSTRING STRETCH. Male standing SIDE view one heel forward on FLOOR toes up knee straight, other support knee slightly bent. Hinge from hips flat long back, hands rest lightly on support thigh, neck aligned. Both feet on floor, no bench. Primary HAMSTRINGS red on visible back thigh below shorts, covered region small plain wash intact shorts. Premium detailed grayscale anatomical adult MALE illustration pure white background soft contact shadows realistic muscle contours joints. Original project reference STYLE ONLY. Complete opaque BLACK tank and mid-thigh shorts fully wrap front sides back seat crotch with seams folds hems. Red on garments small plain teaching wash NO anatomical fibers segments lobes cutaways transparency. Same model camera scale equipment all panels. Full body hands feet mat fit within own panel generous margins. No text arrows logos captions.",
+      "layout": {
+        "columns": 1,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hold front hamstring stretch, then switch legs."
+        }
+      ],
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream media used.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only"
+      },
+      "inspectionNote": "Real output inspected. Single heel-forward hamstring stretch, toes up, long hip hinge, intact clothes and distal hamstring highlight. Hands rest on extended thigh; qualified stretch pressure and muscle-map review pending. Human anatomy review pending; no approval or publication.",
+      "blockingIssues": []
+    },
+    {
+      "exerciseId": "3469",
+      "variant": "male",
+      "key": "3469-male-anatomical-white-v1",
+      "prompt": "ONE single static pose DOWNWARD FACING DOG. Male SIDE three-quarter view hands flat shoulder-width on mat arms straight, hips lifted up and BACK form inverted V, feet hip-width toes forward, heels move gently toward floor, neck relaxed between arms. Realistic leg stretch no rounded collapsed shoulders. Primary HAMSTRINGS red on back thighs only, covered portions small plain uniform wash intact shorts. Premium detailed grayscale anatomical adult MALE illustration pure white background soft contact shadows realistic muscle contours joints. Original project reference STYLE ONLY. Complete opaque BLACK tank and mid-thigh shorts fully wrap front sides back seat crotch with seams folds hems. Red on garments small plain teaching wash NO anatomical fibers segments lobes cutaways transparency. Same model camera scale equipment all panels. Full body hands feet mat fit within own panel generous margins. No text arrows logos captions.",
+      "layout": {
+        "columns": 1,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hold downward-facing dog with straight arms."
+        }
+      ],
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream media used.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only"
+      },
+      "inspectionNote": "Real output inspected. Single downward dog hold with straight arms and lifted hips, opaque garments, hamstring emphasis. Qualified shoulder alignment and heel comfort review pending. Human anatomy review pending; no approval or publication.",
+      "blockingIssues": []
+    },
+    {
+      "exerciseId": "3470",
+      "variant": "male",
+      "key": "3470-male-anatomical-white-v1",
+      "prompt": "THREE equal panels same three-quarter SIDE camera. FORWARD LUNGE. Same male hands on hips all panels. Left stand feet hip width. Center RIGHT foot steps forward, RIGHT knee about90deg over ankle, LEFT knee lowered near floor heel lifted, torso upright. Right LEFT foot forward LEFT knee about90deg RIGHT knee lowered, clearly reverse lead leg. Primary GLUTES small plain red wash over intact shorts seat, other regions grayscale. Premium detailed grayscale anatomical adult MALE illustration pure white background soft contact shadows realistic muscle contours joints. Original project reference STYLE ONLY. Complete opaque BLACK tank and mid-thigh shorts fully wrap front sides back seat crotch with seams folds hems. Red on garments small plain teaching wash NO anatomical fibers segments lobes cutaways transparency. Same model camera scale equipment all panels. Full body hands feet mat fit within own panel generous margins. No text arrows logos captions.",
+      "layout": {
+        "columns": 3,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand with hands on hips."
+        },
+        {
+          "key": "p2",
+          "caption": "Step forward into right lunge."
+        },
+        {
+          "key": "p3",
+          "caption": "Return and lunge forward with left leg."
+        }
+      ],
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream media used.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only"
+      },
+      "inspectionNote": "Real output inspected. Standing and two lunge panels with opaque garments and glute surface wash. Both lunge panels appear to repeat same leading leg instead of alternating; correction needed. Human anatomy review pending; no approval or publication.",
+      "blockingIssues": [
+        "Repeated leading leg in alternating forward-lunge sequence."
+      ]
+    },
+    {
+      "exerciseId": "3472",
+      "variant": "male",
+      "key": "3472-male-anatomical-white-v1",
+      "prompt": "ONE single static pose LYING LEG TUCK HIP STRETCH. Male supine on mat SIDE three-quarter view, head fully resting mat neck comfortable, both hands clasp RIGHT shin just below knee gently pull RIGHT knee toward chest. LEFT leg relaxed extended on mat. Shoulders grounded hips level, no hip lift. Primary GLUTES small plain red wash over intact opaque shorts seat/outer hip only. Premium detailed grayscale anatomical adult MALE illustration pure white background soft contact shadows realistic muscle contours joints. Original project reference STYLE ONLY. Complete opaque BLACK tank and mid-thigh shorts fully wrap front sides back seat crotch with seams folds hems. Red on garments small plain teaching wash NO anatomical fibers segments lobes cutaways transparency. Same model camera scale equipment all panels. Full body hands feet mat fit within own panel generous margins. No text arrows logos captions.",
+      "layout": {
+        "columns": 1,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hold one knee gently toward chest, then switch legs."
+        }
+      ],
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream media used.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only"
+      },
+      "inspectionNote": "Real output inspected. Single knee-to-chest stretch with head on mat, opposite leg extended, intact garments. Glute highlight contains muscle fibers through shorts; replace with plain uniform wash. Human anatomy review pending; no approval or publication.",
+      "blockingIssues": [
+        "Glute muscle fibers visible through shorts; replace with plain surface wash."
+      ]
+    }
+  ]
+}

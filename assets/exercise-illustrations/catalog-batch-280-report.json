@@ -1,0 +1,91 @@
+{
+  "batch": 280,
+  "runId": "f3067de4-be83-4593-afae-67a7b501175a",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "trigger": "2026-11-04T01:29:25.884Z",
+  "purpose": "batch280 scheduled male continuation",
+  "started": "2026-11-04T01:29:40.957094+00:00",
+  "completedAt": "2026-11-04T01:34:45.963701+00:00",
+  "actualToolName": "image_gen__imagegen",
+  "calls": 4,
+  "newCandidateSets": 4,
+  "exerciseIds": [
+    "2343",
+    "2344",
+    "2347",
+    "2349"
+  ],
+  "variants": [
+    "male"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 993,
+    "remainingVariants": 10271,
+    "approvedVariants": 0,
+    "blockedVariants": 328,
+    "knownPoseImages": 1901,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 620,
+      "remainingVariants": 5012,
+      "blockedVariants": 209
+    }
+  },
+  "reviewNotes": {
+    "2343": "Rounded-back faulty comparison differs from neutral hinged start and row endpoint; external captions identify the intentional fault. Overhand bar and planted feet visible, row endpoint near abdomen. Red lateral tank region shows repeated fiber-like bands; block fabric-overlay correction. Qualified review of neutral spine, fixed torso angle, bar endpoint and grip remains required. Human anatomy review remains pending.",
+    "2344": "Faulty comparison lifts much of back away from floor; correct start supine and correct curl retain lower-back/pelvic contact with shoulder elevation. External captions distinguish faulty pose. Bent knees and feet grounded, hands lightly by head, tint on intact abdominal tank. Qualified review of actual lumbar contact, cervical alignment, curl range, hand pressure and overlay folds remains required. Human anatomy review remains pending.",
+    "2347": "Raised-hip faulty hold clearly contrasts with nearly straight correct forearm plank. Elbows beneath shoulders, forearms/toes grounded and full body in frame; external captions identify comparison. Abdominal red overlay includes segmented muscle-like lobes visible through tank; block clothing-overlay correction. Qualified review of head/hip/heel alignment and elbow support remains required. Human anatomy review remains pending.",
+    "2349": "Output substitutes bench-supported elevated side planks for canonical floor forearm support; faulty/correct hip contrast is weak and abdominal anatomy segments show through tank. Block equipment, comparison and fabric corrections. External captions retained but do not make incorrect output usable. Qualified review of shoulder stacking, feet, supporting elbow and hip line required. Human anatomy review remains pending."
+  },
+  "blockingIssues": {
+    "2343": [
+      "Red lat overlay has fiber-like striations through tank; replace with uniform tint on opaque fabric."
+    ],
+    "2347": [
+      "Segmented abdominal anatomy visible in red tank overlay; replace with uniform tint on opaque cloth."
+    ],
+    "2349": [
+      "Forearm rests on an unrequested bench rather than floor.",
+      "Faulty versus correct hip alignment contrast is unclear.",
+      "Segmented abdominal anatomy shows through tank overlay; replace with uniform tint on opaque cloth."
+    ]
+  },
+  "deferred": {
+    "2345": "Specific faulty knee/foot comparison and sled camera require detailed technique planning.",
+    "2346": "Combined back-distance and elbow-direction comparison requires detailed pose planning.",
+    "2348": "Wrist-extension versus flexion fault is not specified; clarify comparison."
+  },
+  "tests": 7,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "workerSyncResult": {
+    "statuses": {
+      "generated": 993,
+      "pending": 10271
+    },
+    "remaining": 10271,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 1530964345
+  },
+  "publicationIndexUnchanged": true,
+  "savedMasters": [
+    "assets/exercise-illustrations/generated/2343-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/2344-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/2347-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/2349-male-anatomical-white-v1.png"
+  ]
+}

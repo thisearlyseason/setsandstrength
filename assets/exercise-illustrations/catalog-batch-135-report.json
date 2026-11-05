@@ -1,0 +1,88 @@
+{
+  "batch": 135,
+  "trigger": "2026-11-03T02:38:25.219Z",
+  "completedAt": "2026-11-03T02:59:42.533581+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 4,
+  "generationCalls": 6,
+  "exerciseIds": [
+    "0817",
+    "0813"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 550,
+    "remainingVariants": 10714,
+    "approvedVariants": 0,
+    "blockedVariants": 205,
+    "knownPoseImages": 1128,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Four candidate sets, six poses, six built-in calls and two retained corrections. Overhead triceps stretch pairs each one static hold with opposite hand gently on elbow, stretched hand upper back and posterior-arm red. Head rotation corrected to neutral rear alignment and overhead margins expanded. Between-bench dip pairs show hands on rear edge, heels on second bench, extended legs and top/lowered bent-elbow phases. Female top hips very close to rear edge: qualified off-bench clearance review remains necessary. Fine exposed grayscale anatomy and full opaque shirt/shorts retained. Qualified stretch hand/elbow contact, shoulder range, dip wrist support, shoulder depth, elbow track, heel contact, proportions and primary mapping pending. All original masters, exact prompts and correction history saved. No anatomy approval or publication. Original project artwork style only, no upstream media. Pipeline checks do not approve anatomy.",
+  "metadataConflictsDeferred": {
+    "0816": "Standing arms-forward instructions lack supporting surface needed to lower body by elbow flexion; setup undefined.",
+    "0818": "Parallel neutral grip title/description conflicts with overhand instruction; target lats conflicts with upper-back primary map."
+  },
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 889899713,
+  "savedMasters": [
+    {
+      "exerciseId": "0817",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0817-male-anatomical-white-v2.png",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 1258603,
+        "sha256": "0c88aa303959b0197b544f4eb64fcc67bf5bae7a242fb57c153f18d0ce4ff695"
+      }
+    },
+    {
+      "exerciseId": "0817",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0817-female-anatomical-white-v2.png",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 1273766,
+        "sha256": "6b187ba4c0da54e63cb660d8c6c57bc28244e85c4b36183c89d80da57111ee07"
+      }
+    },
+    {
+      "exerciseId": "0813",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0813-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1491305,
+        "sha256": "359db318f6195b004fca56793fea87e1207e189bf5d7a1678f50ae673014da77"
+      }
+    },
+    {
+      "exerciseId": "0813",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0813-female-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1495919,
+        "sha256": "f17e9b9cd110b9e03f9e84e494997864fa10c7bc1c26c4662b963d25a006e5f3"
+      }
+    }
+  ]
+}

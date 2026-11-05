@@ -1,0 +1,330 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "3332",
+      "variant": "male",
+      "key": "3332-male-anatomical-white-v1",
+      "prompt": "WEIGHTED STABILITY BALL CRUNCH TWOequalpanels SAME SIDEview headLEFTfeetRIGHT. Largegrayinflatableball underLOWERBACK allposes BOTHfeetflatfloorknees90 hipwidth. HoldONEsmallROUNDplateagainstCHEST BOTHhands allposes. LEFTSTRETCH torsoextendsgentlyoverball headneckfollowspine NOTdropheadback, upperbackcontactball, pelvissteady. RIGHTCURL ribs towardpelvis shouldersUP upperbackCLEARSball lowerbackSTILLsupported hipsnotbridge. PrimaryABS smallPLAINuniformredwash intacttankabdomenONLY. Premium detailed adult MALE grayscale anatomy illustration pure WHITE backdrop softshadows realistic equipment exposedgraymusculature. Original project reference STYLEONLY not equipmentpose. OPAQUE BLACK tank and midthighshorts wrapfrontsidesbackseatcrotch seamsfoldshems. Primary redONLY SMALL PLAIN UNIFORM wash overintactcloth NO fibers/lobes/segments/cutaways. Exactlyonehead twoarms hands twolegsfeet perfigure. Same modelcamera scale entirebodyequipmentinframe no text arrows logos. ",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Support back over ball with feet planted and plate held against chest."
+        },
+        {
+          "key": "p2",
+          "caption": "Curl upper back off ball, then lower into a controlled stretch."
+        }
+      ],
+      "inspectionNote": "Real output inspected. Weighted ball crunch holds plate against chest and planted feet, but start remains partly curled rather than draped into full range and abdominal anatomical segments show through tank. Correction required. Human anatomy review pending. No approval or publication.",
+      "blockingIssues": [
+        "Show controlled extended start draped over ball, rather than already curled.",
+        "Replace abdominal anatomical segments through tank with plain uniform wash."
+      ],
+      "canonicalName": "weighted stability ball crunch (full range)",
+      "styleVersion": "white-v1",
+      "equipment": "stability ball",
+      "primaryMuscles": [
+        "abs"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Weighted ball crunch holds plate against chest and planted feet, but start remains partly curled rather than draped into full range and abdominal anatomical segments show through tank. Correction required. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/3332-male-anatomical-white-v1-p1-3e919164970a.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 33764,
+          "sha256": "3e919164970ae7366064ec401adfa3a890e1c63452330c5b80cc4ab58f6c8ebd"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/3332-male-anatomical-white-v1-p2-431481d388a4.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 34170,
+          "sha256": "431481d388a4084d2d5e898bec83aaa1c63db88fbcf9acb97f56455e451ed852"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-346.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/3332-male-anatomical-white-v1-thumb-d6c06a153b7b.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 3184,
+        "sha256": "d6c06a153b7bffcb75fce7b15d7bbb7a65336b53bbb25b62d087a25c09453701"
+      },
+      "processingSignature": "a447d8ed04f384c3085aae224a76fa18b0cbbc9b1ce2151d30922c7aae2bd887",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/3332-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1479705,
+        "sha256": "0c37f6f13cd8314bc3edfddc3020e6d627e3ca1ceff86417b83aebc49a6b81a7"
+      }
+    },
+    {
+      "exerciseId": "3333",
+      "variant": "male",
+      "key": "3333-male-anatomical-white-v1",
+      "prompt": "ONE ARM DUMBBELL WIDE BENCH PRESS TWOequalpanels SAMEelevatedFRONTthreequartercamera. Flatbench headLEFTfeetRIGHT headupperbackbuttSUPPORTED BOTHfeetfloor. SAME RIGHTHAND holdsONEdumbbell allposes LEFTfreepalmRESTSonSTOMACH. LEFTTOP RIGHTarmstraight weightoverRIGHTCHEST. RIGHTBOTTOM RIGHTelbowopensOUTSIDEwide near75degreesfromtorso upperarmaboutleveltorso notdeepbelowbench RIGHTforearmVERTICAL weightSTACKEDaboveelbow, wristneutral overhandgrip. LEFTfreehandstaysstomach torsoSQUAREnotrolled. PrimaryPECTORALS plainuniformredwash intacttankchest NO lobesfibers. Premium detailed adult MALE grayscale anatomy illustration pure WHITE backdrop softshadows realistic equipment exposedgraymusculature. Original project reference STYLEONLY not equipmentpose. OPAQUE BLACK tank and midthighshorts wrapfrontsidesbackseatcrotch seamsfoldshems. Primary redONLY SMALL PLAIN UNIFORM wash overintactcloth NO fibers/lobes/segments/cutaways. Exactlyonehead twoarms hands twolegsfeet perfigure. Same modelcamera scale entirebodyequipmentinframe no text arrows logos. ",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Lie supported on bench with right-hand dumbbell over chest and free hand on stomach."
+        },
+        {
+          "key": "p2",
+          "caption": "Lower through a wide elbow path within comfortable range; press up, then switch arms after set."
+        }
+      ],
+      "inspectionNote": "Real output inspected. Single-arm bench press with free hand on stomach and planted feet, wide lower elbow and opaque clothes/plain chest wash. Qualified shoulder range, wrist stack, head support and torso anti-rotation review pending. Human anatomy review pending. No approval or publication.",
+      "canonicalName": "dumbbell one arm wide grip bench press",
+      "styleVersion": "white-v1",
+      "equipment": "dumbbell",
+      "primaryMuscles": [
+        "pectorals"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Single-arm bench press with free hand on stomach and planted feet, wide lower elbow and opaque clothes/plain chest wash. Qualified shoulder range, wrist stack, head support and torso anti-rotation review pending. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/3333-male-anatomical-white-v1-p1-7b84aca7e19b.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 45668,
+          "sha256": "7b84aca7e19bb8a9637927c0efc30fc24be4ffcc78de1c318147bc05dd409aef"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/3333-male-anatomical-white-v1-p2-91938974fd94.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 40486,
+          "sha256": "91938974fd94d5f9c80c396d2fab64235d51bea7e5e6ad6c3b6a260646405004"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-346.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/3333-male-anatomical-white-v1-thumb-81cf847f64b9.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 4632,
+        "sha256": "81cf847f64b9c7b92a1c58cae04fe34e3b7478de44a5cd717d030f485b874a53"
+      },
+      "processingSignature": "9063b0000443830fc657d6d9b9f0b625d9e9599efcf18af4c1e879b7ae743608",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/3333-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1634879,
+        "sha256": "d6214319ad83131937ffb9a16ccb8e26a36601978b29902b803b12fef00a0355"
+      }
+    },
+    {
+      "exerciseId": "3334",
+      "variant": "male",
+      "key": "3334-male-anatomical-white-v1",
+      "prompt": "ONE ARM DUMBBELL FLOOR FLY TWOequalpanels SAMEelevatedFRONTthreequartercamera headLEFTfeetRIGHT. Supine HEADSHOULDERSfloor BOTHkneesBENTfeetFLATfloor. SAME RIGHTHANDholdsONEdumbbell LEFTpalmflatfloorleftside forstability. LEFTTOP RIGHTarmraisedaboverightCHEST elbowsoft15degree bend palmfacesLEFT. RIGHTOPEN sameRIGHTarmopensLATERALLYtoRIGHT untilupperarmrestsFLOOR, elbowkeepsSAMEsmall15degreebend NOT90press, weightoutbesiderightshoulder notforward. TorsoSQUAREstill headfloor. PrimaryPECTORALS plainuniformredwash intacttankchest NO anatomicalfiberslobes. Premium detailed adult MALE grayscale anatomy illustration pure WHITE backdrop softshadows realistic equipment exposedgraymusculature. Original project reference STYLEONLY not equipmentpose. OPAQUE BLACK tank and midthighshorts wrapfrontsidesbackseatcrotch seamsfoldshems. Primary redONLY SMALL PLAIN UNIFORM wash overintactcloth NO fibers/lobes/segments/cutaways. Exactlyonehead twoarms hands twolegsfeet perfigure. Same modelcamera scale entirebodyequipmentinframe no text arrows logos. ",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Lie with knees bent and one dumbbell over chest, elbow softly bent."
+        },
+        {
+          "key": "p2",
+          "caption": "Open arm sideways until upper arm touches floor; return above chest and switch after set."
+        }
+      ],
+      "inspectionNote": "Real output inspected. Floor fly top and open phases with opaque clothing, but weighted arm switches sides between panels. Free arm becomes loaded in second panel, so sequence is incorrect. Human anatomy review pending. No approval or publication.",
+      "blockingIssues": [
+        "Keep dumbbell in the same arm across both fly phases and show the opposite free arm consistently."
+      ],
+      "canonicalName": "dumbbell one arm floor fly",
+      "styleVersion": "white-v1",
+      "equipment": "dumbbell",
+      "primaryMuscles": [
+        "pectorals"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Floor fly top and open phases with opaque clothing, but weighted arm switches sides between panels. Free arm becomes loaded in second panel, so sequence is incorrect. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/3334-male-anatomical-white-v1-p1-72b1ef1815cb.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 31908,
+          "sha256": "72b1ef1815cb14ef33d0ab9559b48f6f363f705ec63c09e57ad175e267860813"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/3334-male-anatomical-white-v1-p2-0095931fcb6a.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 27730,
+          "sha256": "0095931fcb6a23ab0af72ca65d6c2faa16d9fbbcf1ce826c70c37d92abdcd33e"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-346.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/3334-male-anatomical-white-v1-thumb-130c0d1254d3.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 3146,
+        "sha256": "130c0d1254d36bdf4a7c53416cbc64ddb3aca390944869d1e24eadee3f326136"
+      },
+      "processingSignature": "ce8db4120eea2bea5b0791bb91266efbd34efed3bc39bb4bcd978eddfdcd5fa2",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/3334-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1475405,
+        "sha256": "bdeee83b5bbf858d7b123ad14a4805b2664cdeb75602b4299c241c81204b054c"
+      }
+    },
+    {
+      "exerciseId": "3335",
+      "variant": "male",
+      "key": "3335-male-anatomical-white-v1",
+      "prompt": "DUMBBELL GLUTE BRIDGE TWOequalpanels SAME SIDEthreequartercamera headLEFTfeetRIGHT seathipvisible. LieSUPINE HEADNECKSHOULDERSflatFLOOR ALLposes, kneesBENT BOTHfeetflatfloorHIPwidth. ONE dumbbellhorizontalACROSSFRONTHIPCREASE BOTHhandssteadyit allposes, notonabdomen notbetweenlegs. LEFTSTART pelvisBUTTfloor hipslow. RIGHTTOP liftPELVIS untilSHOULDERHIPKNEEstraightdiagonal shinsnearvertical ribsDOWN nooverarch headNEVERlift. PrimaryGLUTES smallPLAINuniformredwash intactblackSEATshortsONLY NO fiberslobescutaways othergrayblack. Premium detailed adult MALE grayscale anatomy illustration pure WHITE backdrop softshadows realistic equipment exposedgraymusculature. Original project reference STYLEONLY not equipmentpose. OPAQUE BLACK tank and midthighshorts wrapfrontsidesbackseatcrotch seamsfoldshems. Primary redONLY SMALL PLAIN UNIFORM wash overintactcloth NO fibers/lobes/segments/cutaways. Exactlyonehead twoarms hands twolegsfeet perfigure. Same modelcamera scale entirebodyequipmentinframe no text arrows logos. ",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Lie with knees bent and dumbbell held across hips."
+        },
+        {
+          "key": "p2",
+          "caption": "Lift hips into shoulder-to-knee alignment, squeeze glutes, then lower slowly."
+        }
+      ],
+      "inspectionNote": "Real output inspected. Dumbbell across hip crease steadied by hands, hips low then bridge with planted feet and opaque shorts/plain glute wash. Head and neck hover clearly in both poses, requiring correction. Human anatomy review pending. No approval or publication.",
+      "blockingIssues": [
+        "Rest head and neck on floor in both bridge phases."
+      ],
+      "canonicalName": "dumbbell glute bridge",
+      "styleVersion": "white-v1",
+      "equipment": "dumbbell",
+      "primaryMuscles": [
+        "glutes"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Dumbbell across hip crease steadied by hands, hips low then bridge with planted feet and opaque shorts/plain glute wash. Head and neck hover clearly in both poses, requiring correction. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/3335-male-anatomical-white-v1-p1-392daac563d5.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 26206,
+          "sha256": "392daac563d51a4ed62bf003e78e715c13c3bf164cd43cb51b28258e7b659b81"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/3335-male-anatomical-white-v1-p2-c6ce4b4cc339.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 26152,
+          "sha256": "c6ce4b4cc339be3080cee761560f5bcbd95b428fd1ada0d5e1765951730417b2"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-346.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/3335-male-anatomical-white-v1-thumb-050ea258b016.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2566,
+        "sha256": "050ea258b016ca4c9f6ffc7c828195e26bdfbb5d5df2a24ab5c4e7289756654a"
+      },
+      "processingSignature": "76d74f3872063754f57f0e8cf7e40f40f92cc956a2252670224afeff001987c0",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/3335-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1358486,
+        "sha256": "2b4676f71836d00397e170b650628aab5ada45595ddcdccbb3b564059cb4e3e3"
+      }
+    }
+  ]
+}

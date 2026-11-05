@@ -1,0 +1,124 @@
+{
+  "batch": 69,
+  "trigger": "2026-11-01T13:59:16.555Z",
+  "completedAt": "2026-11-01T14:12:06.652023+00:00",
+  "tool": "image_gen.imagegen",
+  "newCandidateSets": 6,
+  "generationCalls": 7,
+  "exerciseIds": [
+    "0420",
+    "0423",
+    "0426"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 276,
+    "remainingVariants": 10988,
+    "approvedVariants": 0,
+    "blockedVariants": 120,
+    "knownPoseImages": 562,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "All pending and unpublished. Male standing kickback blocked for upper-arm angle/elbow stability; female hinge/extension inspected with far starting hand occluded. Single-arm overhead extensions preserve free hand and full opaque clothes; female unloaded-arm highlight corrected in v2, original retained. Both-arm overhead presses inspected for level shafts, pronated grip and planted feet. Qualified wrist alignment, cervical clearance, shoulder range, anatomical mapping and technique review remains required. Pipeline success does not prove movement correctness.",
+  "metadataConflictsDeferred": [
+    {
+      "exerciseId": "0421",
+      "issue": "Standing-straight instructions omit elbow-thigh brace described in prose; defer support setup."
+    },
+    {
+      "exerciseId": "0422",
+      "issue": "Working upper-arm pad support description versus free-hand support instructions disagree."
+    },
+    {
+      "exerciseId": "0429",
+      "issue": "Reverse-pronated description versus palms-toward-body start instruction; defer grip planning."
+    },
+    {
+      "exerciseId": "0430",
+      "issue": "Appears mechanically equivalent to 0423; preserve ID and require variant review before sharing assets."
+    }
+  ],
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 445666274,
+  "savedMasters": [
+    {
+      "exerciseId": "0420",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0420-male-anatomical-white-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1529848,
+        "sha256": "2ecfc41daf5f99d266dc6e12955fe315e4481abf49966787c8e9d9bc02554ee3"
+      }
+    },
+    {
+      "exerciseId": "0420",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0420-female-anatomical-white-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1579612,
+        "sha256": "e64d349ea9e54193951471f05a7b3a2deb0c732906a65d3255531e7c7099d8a5"
+      }
+    },
+    {
+      "exerciseId": "0423",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0423-male-anatomical-white-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1314285,
+        "sha256": "d2696d7481b74cfc5b5526c95807774c4f487636a79fdd576698a1d0ff65ea4b"
+      }
+    },
+    {
+      "exerciseId": "0423",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0423-female-anatomical-white-v2.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1629079,
+        "sha256": "5635a7bd032ecb1ab662f06b8a47ca9153f5818bc46abb45e151689a0618112b"
+      }
+    },
+    {
+      "exerciseId": "0426",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0426-male-anatomical-white-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1451238,
+        "sha256": "b523b67774515891d42bddcfdd81647406f18f0e151c12ce606ca0baafa3e020"
+      }
+    },
+    {
+      "exerciseId": "0426",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0426-female-anatomical-white-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1403779,
+        "sha256": "53ed38d980b60408e9e1a54216a917e43b00b4cf63950ca54780c2483752a54b"
+      }
+    }
+  ]
+}

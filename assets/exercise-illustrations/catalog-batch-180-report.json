@@ -1,0 +1,69 @@
+{
+  "batch": 180,
+  "runId": "e2ead0f9-b4ca-48ac-8468-6cf9796d8ba1",
+  "trigger": "2026-11-03T10:34:28.951Z",
+  "completedAt": "2026-11-03T10:38:23.429107+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 2,
+  "generationCalls": 2,
+  "exerciseIds": [
+    "1390"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 674,
+    "remainingVariants": 10590,
+    "approvedVariants": 0,
+    "blockedVariants": 225,
+    "knownPoseImages": 1340,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Two seated calf stretch candidates, one static pose per variant, two built-in calls. Grounded working heel and dorsiflexed toes with hands on shoe, other foot planted and working calf red. Full opaque clothes and detailed exposed grayscale anatomy retained. Qualified heel pressure, knee extension, finger contact, hip hinge and slight neck extension require human review. Every original and exact prompt saved. Original project artwork style only; no upstream licensed media input. No anatomical approval or publication. Seven pipeline checks do not establish anatomical accuracy.",
+  "metadataConflictsDeferred": {
+    "1391": "Calf-only press versus repeated knee bending.",
+    "1392": "One-leg title versus bilateral feet instructions.",
+    "1393": "Floor single-leg title versus platform and bar above ankles instructions.",
+    "1394": "Reverse title versus heel raise instructions.",
+    "1395": "Smith loading/bar contact omitted."
+  },
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 1067230752,
+  "savedMasters": [
+    {
+      "exerciseId": "1390",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1390-male-anatomical-white-v1.png",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 1723791,
+        "sha256": "ab3430d8f429fde992f13a2165aac60a3736dde1991ec98ffa9560558450f0c6"
+      }
+    },
+    {
+      "exerciseId": "1390",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1390-female-anatomical-white-v1.png",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 1716750,
+        "sha256": "9ac4806ba523126b5e2e21aec1b4b7815660a477bcc9282996ff9b6e6e248d8c"
+      }
+    }
+  ]
+}

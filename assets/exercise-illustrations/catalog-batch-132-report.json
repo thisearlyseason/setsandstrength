@@ -1,0 +1,87 @@
+{
+  "batch": 132,
+  "trigger": "2026-11-03T01:18:54.681Z",
+  "completedAt": "2026-11-03T01:34:12.498798+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 4,
+  "generationCalls": 4,
+  "exerciseIds": [
+    "0792",
+    "0793"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 538,
+    "remainingVariants": 10726,
+    "approvedVariants": 0,
+    "blockedVariants": 205,
+    "knownPoseImages": 1108,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Four candidate sets, eight poses, four built-in calls, no corrections required at initial visual inspection. Bent-knee hip extension pairs show thigh down then short backward hip motion with knee bent, hands rail, grounded support foot and steady torso; diffuse glute-seat tint over opaque shorts. Band lateral raise pairs show arms down then shoulder-height with two taut shoe-to-hand strands, closed grips and exposed deltoid red. Fine exposed grayscale anatomy and full opaque shirt/shorts retained. Qualified lumbar/pelvis constancy, knee-angle/hip range, underfoot band security, elbow softness, wrist alignment, shrug avoidance and primary muscle mapping remain pending. All original masters and exact prompts saved. No anatomy approval or publication. Original project artwork style only, no upstream media. Pipeline checks do not approve anatomy.",
+  "metadataConflictsDeferred": {
+    "0798": "Cardiovascular target lacks primary skeletal-muscle mapping for red highlights."
+  },
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 873623967,
+  "savedMasters": [
+    {
+      "exerciseId": "0792",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0792-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1346457,
+        "sha256": "dcbee54eee2f86203212426ae14e15519ede48778399177c557ed82c07b02b30"
+      }
+    },
+    {
+      "exerciseId": "0792",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0792-female-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1338438,
+        "sha256": "7f34bbbdf180a25c47d56d4bb929dc126c41298b90e0705530073b93f60097ae"
+      }
+    },
+    {
+      "exerciseId": "0793",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0793-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1377358,
+        "sha256": "c506637627e9effa8b248ee5421a32d45de1f6c7a3b6dc9ad90605da08e49ff3"
+      }
+    },
+    {
+      "exerciseId": "0793",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0793-female-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1688128,
+        "sha256": "ff4a3ef6d3643b149312141b0a1877f33faa8d28f8df2c19571c34ad019bb068"
+      }
+    }
+  ]
+}

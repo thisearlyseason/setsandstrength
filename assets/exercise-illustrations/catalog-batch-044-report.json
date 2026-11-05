@@ -1,0 +1,93 @@
+{
+  "batch": 44,
+  "trigger": "2026-11-01T09:59:13.873Z",
+  "completedAt": "2026-11-01T10:05:23.398191+00:00",
+  "tool": "image_gen.imagegen",
+  "newCandidateSets": 4,
+  "generationCalls": 5,
+  "exerciseIds": [
+    "0390",
+    "0381"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 172,
+    "remainingVariants": 11092,
+    "approvedVariants": 0,
+    "blockedVariants": 75,
+    "knownPoseImages": 346,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "All pending, unpublished. Stability-ball curls retain upright torso, grounded feet and upper-arm alignment; far start hand partly occluded, qualified grip review required. Rear lunge male rear-seat coverage repaired with original edit history retained. Both lunge variants blocked for far-side dumbbell visibility/clearance; qualified leg/muscle mapping review needed.",
+  "metadataConflictsDeferred": [
+    {
+      "exerciseId": "0407",
+      "issue": "Instructions say bend opposite weight while lowering weight; direction conflicts."
+    },
+    {
+      "exerciseId": "0362",
+      "issue": "Description suggests bench-supported arm, instructions specify seated overhead extension; qualified clarification needed."
+    }
+  ],
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 279431121,
+  "savedMasters": [
+    {
+      "exerciseId": "0390",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0390-male-anatomical-white-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1766957,
+        "sha256": "a3d67885056618e0e7a7317cffa9f93441280f2f1e0f06fa611194027841aafa"
+      }
+    },
+    {
+      "exerciseId": "0390",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0390-female-anatomical-white-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1658222,
+        "sha256": "c0927ba0c75a124be8c1885575bc79360fe96f8d827cc4d8ca532850663dea62"
+      }
+    },
+    {
+      "exerciseId": "0381",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0381-male-anatomical-white-v2.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1670846,
+        "sha256": "418fcf9a290c800bea076d4e17f9b95eb2d94b76523d7c22ede985fcb1e217c4"
+      }
+    },
+    {
+      "exerciseId": "0381",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0381-female-anatomical-white-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1413437,
+        "sha256": "c8e6cd5d876459933f9a17ff3917311c78464a68c17194c6a4be554e36cd80e5"
+      }
+    }
+  ]
+}

@@ -1,0 +1,545 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "0540",
+      "layout": {
+        "columns": 3,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand with one kettlebell racked at shoulder height"
+        },
+        {
+          "key": "p2",
+          "caption": "Dip knees slightly while keeping torso upright and bell at shoulder"
+        },
+        {
+          "key": "p3",
+          "caption": "Drive legs straight and press the kettlebell overhead"
+        }
+      ],
+      "detail": "THREE equal side-by-side panels KETTLEBELL ONE ARM PUSH PRESS. Same FRONT three-quarter view, feet shoulder-width flat in same positions. Exactly ONE gray kettlebell held in model RIGHT hand (IMAGE LEFT) throughout, left hand EMPTY relaxed by side in all panels. Bell arched handle securely enclosed by right hand, round mass outside/back of forearm. LEFT upright standing right bell shoulder rack, elbow underneath load, wrist neutral. MIDDLE shallow knee/hip DIP 15-25degrees, knees track toes, torso upright, bell REMAINS right shoulder rack, no arm press yet. RIGHT drive hips/knees straight then right arm fully overhead, wrist over elbow over right shoulder, round bell behind/outside forearm. No leg re-dip catch, back arch or side bend. Left arm stays unloaded and lowered with empty hand. Primary RIGHT DELTOID red ONLY at loaded shoulder cap, LEFT unloaded shoulder and all triceps/other muscles gray. Shirt solid black no chest tint. Secure closed hand-handle contact, no bell merging or floating. Same feet/person/one bell across all three panels.",
+      "variant": "male",
+      "key": "0540-male-anatomical-white-v2",
+      "prompt": "Correct ONLY red muscle-highlight color placement in this original three-panel male kettlebell single-arm push-press illustration. Preserve ALL poses, grayscale fine anatomical fibers, man/face, bell grip/geometry, camera, opaque black shirt/shorts and white background exactly. In ALL THREE panels: the arm HOLDING kettlebell (on IMAGE LEFT side of each man, model RIGHT arm) is the LOADED arm. Put RED ONLY on that loaded RIGHT DELTOID at shoulder cap, including the small visible shoulder area beside the racked arm. The other arm hanging straight by his side (IMAGE RIGHT of each man, model LEFT arm) is UNLOADED and must be entirely GRAYSCALE, no red whatsoever on its shoulder. REMOVE red from free-arm shoulder in first and middle panels. Keep correct loaded-arm red in last panel. Do not color pectoral shirt, biceps, triceps or neck red, no invented anatomy under shirt. If loaded shoulder partially occluded, color only visible part, not opposite shoulder. No other changes or text.",
+      "inspectionNote": "Highlight corrected consistently to loaded right shoulder; unloaded left shoulder grayscale in all three rack/dip/overhead phases. Opaque clothing, grip and anatomical detail retained. Human technique, wrist/load stacking and primary muscle boundaries remain pending.",
+      "canonicalName": "kettlebell one arm push press",
+      "styleVersion": "white-v1",
+      "equipment": "kettlebell",
+      "primaryMuscles": [
+        "delts"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Highlight corrected consistently to loaded right shoulder; unloaded left shoulder grayscale in all three rack/dip/overhead phases. Opaque clothing, grip and anatomical detail retained. Human technique, wrist/load stacking and primary muscle boundaries remain pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0540-male-anatomical-white-v2-p1-98526426c931.webp",
+          "width": 591,
+          "height": 887,
+          "bytes": 21428,
+          "sha256": "98526426c9315da879b82da31b29ec3f9cfb2e9260d3358dc1944219447efb18"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0540-male-anatomical-white-v2-p2-64cd6aba6c42.webp",
+          "width": 592,
+          "height": 887,
+          "bytes": 20214,
+          "sha256": "64cd6aba6c4260b6abdd645fc702ed3990d3a03d316b0c8acb430c4148355e31"
+        },
+        {
+          "pose": "p3",
+          "path": "/workout/illustration-pilot/0540-male-anatomical-white-v2-p3-7e7acc1343c4.webp",
+          "width": 591,
+          "height": 887,
+          "bytes": 21912,
+          "sha256": "7e7acc1343c4a04941e04a1b0dde67f4f25ff31749e1a07dc109babdf03d9eb6"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0540-male-anatomical-white-v2-thumb-f6388ebdaaec.webp",
+        "width": 160,
+        "height": 240,
+        "bytes": 2344,
+        "sha256": "f6388ebdaaeceffef1a19b3d906bca9dcc66c5a66d50e3df77f0e255853f1835"
+      },
+      "processingSignature": "8238f8f3769979c44deab93770e5860f7d0ca4be967a574ef7c8902bee998555",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0540-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1692212,
+        "sha256": "b2f9f76dc35e65fdd7679e9c87304867634ae6f936726146bafa754029f1d964"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0540",
+          "layout": {
+            "columns": 3,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Stand with one kettlebell racked at shoulder height"
+            },
+            {
+              "key": "p2",
+              "caption": "Dip knees slightly while keeping torso upright and bell at shoulder"
+            },
+            {
+              "key": "p3",
+              "caption": "Drive legs straight and press the kettlebell overhead"
+            }
+          ],
+          "detail": "THREE equal side-by-side panels KETTLEBELL ONE ARM PUSH PRESS. Same FRONT three-quarter view, feet shoulder-width flat in same positions. Exactly ONE gray kettlebell held in model RIGHT hand (IMAGE LEFT) throughout, left hand EMPTY relaxed by side in all panels. Bell arched handle securely enclosed by right hand, round mass outside/back of forearm. LEFT upright standing right bell shoulder rack, elbow underneath load, wrist neutral. MIDDLE shallow knee/hip DIP 15-25degrees, knees track toes, torso upright, bell REMAINS right shoulder rack, no arm press yet. RIGHT drive hips/knees straight then right arm fully overhead, wrist over elbow over right shoulder, round bell behind/outside forearm. No leg re-dip catch, back arch or side bend. Left arm stays unloaded and lowered with empty hand. Primary RIGHT DELTOID red ONLY at loaded shoulder cap, LEFT unloaded shoulder and all triceps/other muscles gray. Shirt solid black no chest tint. Secure closed hand-handle contact, no bell merging or floating. Same feet/person/one bell across all three panels.",
+          "variant": "male",
+          "key": "0540-male-anatomical-white-v1",
+          "prompt": "Scientific-educational original fitness illustration. Attached original project image is ONLY rendering STYLE reference: grayscale exposed fine muscle fibers and tendons, opaque black clothing, white background. Do NOT copy exercise, bench configuration or red chest highlight. Realistic adult MALE with consistent face/body proportions/camera/equipment across panels. Detailed grayscale exposed anatomy, monochrome hands/face, no flesh color. OPAQUE matte BLACK sleeveless shirt covers torso FRONT SIDES BACK, OPAQUE loose BLACK knee-length shorts wrap both thighs FRONT SIDES BACK, REAR/SEAT/CROTCH completely, stitched closed hems and broad fabric folds. NO anatomy windows, transparent cloth, cutaways, muscle fibers/six-pack/navel on clothing. Black trainers. Pure white background soft ground shadows. Full person, fingers, bells and supports in EACH panel with generous white gutters/margins above bells and below shoes, no cropped objects. No embedded words/numbers/captions/arrows/logos. THREE equal side-by-side panels KETTLEBELL ONE ARM PUSH PRESS. Same FRONT three-quarter view, feet shoulder-width flat in same positions. Exactly ONE gray kettlebell held in model RIGHT hand (IMAGE LEFT) throughout, left hand EMPTY relaxed by side in all panels. Bell arched handle securely enclosed by right hand, round mass outside/back of forearm. LEFT upright standing right bell shoulder rack, elbow underneath load, wrist neutral. MIDDLE shallow knee/hip DIP 15-25degrees, knees track toes, torso upright, bell REMAINS right shoulder rack, no arm press yet. RIGHT drive hips/knees straight then right arm fully overhead, wrist over elbow over right shoulder, round bell behind/outside forearm. No leg re-dip catch, back arch or side bend. Left arm stays unloaded and lowered with empty hand. Primary RIGHT DELTOID red ONLY at loaded shoulder cap, LEFT unloaded shoulder and all triceps/other muscles gray. Shirt solid black no chest tint. Secure closed hand-handle contact, no bell merging or floating. Same feet/person/one bell across all three panels.",
+          "inspectionNote": "Male single-bell rack/dip/overhead phases retain loaded right arm, empty left hand and opaque clothing. Shoulder highlight is on wrong unloaded side in first two panels and needs correction.",
+          "blockingIssues": [
+            "First two panels highlight unloaded LEFT shoulder instead of loaded RIGHT deltoid. Move red to loaded shoulder consistently before publication."
+          ],
+          "canonicalName": "kettlebell one arm push press",
+          "styleVersion": "white-v1",
+          "equipment": "kettlebell",
+          "primaryMuscles": [
+            "delts"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Male single-bell rack/dip/overhead phases retain loaded right arm, empty left hand and opaque clothing. Shoulder highlight is on wrong unloaded side in first two panels and needs correction.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0540-male-anatomical-white-v1-p1-a4f8a3a97450.webp",
+              "width": 591,
+              "height": 887,
+              "bytes": 21752,
+              "sha256": "a4f8a3a97450b579e13aa9e3d9029dfc1188884604939859bc2eb2c40d0b7b2a"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0540-male-anatomical-white-v1-p2-e455c47a4376.webp",
+              "width": 592,
+              "height": 887,
+              "bytes": 21528,
+              "sha256": "e455c47a4376176406a62bffd39540105c57b6614f37f3d5c1762689242b810a"
+            },
+            {
+              "pose": "p3",
+              "path": "/workout/illustration-pilot/0540-male-anatomical-white-v1-p3-ebad806ff557.webp",
+              "width": 591,
+              "height": 887,
+              "bytes": 22542,
+              "sha256": "ebad806ff557af0e5254d34cf24d3786c543852ff3a96595fc733a7c741184be"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0540-male-anatomical-white-v1-thumb-084512ee55ac.webp",
+            "width": 160,
+            "height": 240,
+            "bytes": 2262,
+            "sha256": "084512ee55ac42f6049fe725d7a17419ad8c93564c517a0d6e74267138fb01ef"
+          },
+          "processingSignature": "1db1e9194588b43b212c27a6671e9e83aca7b367b2a653b45537ee1a2d1c1f2b",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0540-male-anatomical-white-v1.png",
+            "width": 1774,
+            "height": 887,
+            "bytes": 1748286,
+            "sha256": "9e36caec01d1457245ca10e6a3f15654013a63b79cc9e56e55981be027ab3b42"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "0540",
+      "layout": {
+        "columns": 3,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand with one kettlebell racked at shoulder height"
+        },
+        {
+          "key": "p2",
+          "caption": "Dip knees slightly while keeping torso upright and bell at shoulder"
+        },
+        {
+          "key": "p3",
+          "caption": "Drive legs straight and press the kettlebell overhead"
+        }
+      ],
+      "detail": "THREE equal side-by-side panels KETTLEBELL ONE ARM PUSH PRESS. Same FRONT three-quarter view, feet shoulder-width flat in same positions. Exactly ONE gray kettlebell held in model RIGHT hand (IMAGE LEFT) throughout, left hand EMPTY relaxed by side in all panels. Bell arched handle securely enclosed by right hand, round mass outside/back of forearm. LEFT upright standing right bell shoulder rack, elbow underneath load, wrist neutral. MIDDLE shallow knee/hip DIP 15-25degrees, knees track toes, torso upright, bell REMAINS right shoulder rack, no arm press yet. RIGHT drive hips/knees straight then right arm fully overhead, wrist over elbow over right shoulder, round bell behind/outside forearm. No leg re-dip catch, back arch or side bend. Left arm stays unloaded and lowered with empty hand. Primary RIGHT DELTOID red ONLY at loaded shoulder cap, LEFT unloaded shoulder and all triceps/other muscles gray. Shirt solid black no chest tint. Secure closed hand-handle contact, no bell merging or floating. Same feet/person/one bell across all three panels.",
+      "variant": "female",
+      "key": "0540-female-anatomical-white-v2",
+      "prompt": "Correct ONLY red muscle-highlight color placement in this original three-panel female kettlebell single-arm push-press illustration. Preserve ALL poses, grayscale fine anatomical fibers, woman/face, bell grip/geometry, camera, opaque black shirt/shorts and white background exactly. In ALL THREE panels: the arm HOLDING kettlebell (on IMAGE LEFT side of each woman, model RIGHT arm) is the LOADED arm. Put RED ONLY on that loaded RIGHT DELTOID at shoulder cap, including the small visible shoulder area beside the racked arm. The other arm hanging straight by her side (IMAGE RIGHT of each woman, model LEFT arm) is UNLOADED and must be entirely GRAYSCALE, no red whatsoever on its shoulder. REMOVE red from free-arm shoulder in ALL THREE panels. Add red on loaded right deltoid in last overhead panel as well as first two rack panels. Do not color pectoral shirt, biceps, triceps or neck red, no invented anatomy under shirt. If loaded shoulder partially occluded, color only visible part, not opposite shoulder. No other changes or text.",
+      "inspectionNote": "Correction removes red from unloaded left shoulder, but moves some red onto loaded forearm rather than deltoid in rack/dip panels. Exercise sequence and opaque clothing retained; target localization remains blocked.",
+      "canonicalName": "kettlebell one arm push press",
+      "styleVersion": "white-v1",
+      "equipment": "kettlebell",
+      "primaryMuscles": [
+        "delts"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Correction removes red from unloaded left shoulder, but moves some red onto loaded forearm rather than deltoid in rack/dip panels. Exercise sequence and opaque clothing retained; target localization remains blocked.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0540-female-anatomical-white-v2-p1-689434f36f32.webp",
+          "width": 591,
+          "height": 887,
+          "bytes": 19454,
+          "sha256": "689434f36f32bd26f41cea68cdab589009d599eb8239391d92d3d5e7ddc79a37"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0540-female-anatomical-white-v2-p2-f98b3754d846.webp",
+          "width": 592,
+          "height": 887,
+          "bytes": 20462,
+          "sha256": "f98b3754d846fe7661b54587a2cda9180fd2d35fd33d64fe37638aeccb1b7c93"
+        },
+        {
+          "pose": "p3",
+          "path": "/workout/illustration-pilot/0540-female-anatomical-white-v2-p3-add73bbff0c0.webp",
+          "width": 591,
+          "height": 887,
+          "bytes": 19760,
+          "sha256": "add73bbff0c02d6a7e51e483be0cad8da65e3016c033170b5462c4766e61e9d9"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0540-female-anatomical-white-v2-thumb-cee227f59b72.webp",
+        "width": 160,
+        "height": 240,
+        "bytes": 2202,
+        "sha256": "cee227f59b72ce3f2442e20a4b7c365a2482049f2fb51db96d4a4d38176dbe06"
+      },
+      "processingSignature": "8e5639658405b0fcfddeb736e3b0e103d3e2cd61804ef7d6efc195ebb756e716",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0540-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1681902,
+        "sha256": "786c5381ff30e6b7356973a984b06781cc6b110fe8c93bd9cb0dd21ec78bfcf4"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0540",
+          "layout": {
+            "columns": 3,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Stand with one kettlebell racked at shoulder height"
+            },
+            {
+              "key": "p2",
+              "caption": "Dip knees slightly while keeping torso upright and bell at shoulder"
+            },
+            {
+              "key": "p3",
+              "caption": "Drive legs straight and press the kettlebell overhead"
+            }
+          ],
+          "detail": "THREE equal side-by-side panels KETTLEBELL ONE ARM PUSH PRESS. Same FRONT three-quarter view, feet shoulder-width flat in same positions. Exactly ONE gray kettlebell held in model RIGHT hand (IMAGE LEFT) throughout, left hand EMPTY relaxed by side in all panels. Bell arched handle securely enclosed by right hand, round mass outside/back of forearm. LEFT upright standing right bell shoulder rack, elbow underneath load, wrist neutral. MIDDLE shallow knee/hip DIP 15-25degrees, knees track toes, torso upright, bell REMAINS right shoulder rack, no arm press yet. RIGHT drive hips/knees straight then right arm fully overhead, wrist over elbow over right shoulder, round bell behind/outside forearm. No leg re-dip catch, back arch or side bend. Left arm stays unloaded and lowered with empty hand. Primary RIGHT DELTOID red ONLY at loaded shoulder cap, LEFT unloaded shoulder and all triceps/other muscles gray. Shirt solid black no chest tint. Secure closed hand-handle contact, no bell merging or floating. Same feet/person/one bell across all three panels.",
+          "variant": "female",
+          "key": "0540-female-anatomical-white-v1",
+          "prompt": "Scientific-educational original fitness illustration. Attached original project image is ONLY rendering STYLE reference: grayscale exposed fine muscle fibers and tendons, opaque black clothing, white background. Do NOT copy exercise, bench configuration or red chest highlight. Realistic adult FEMALE with consistent face/body proportions/camera/equipment across panels. Detailed grayscale exposed anatomy, monochrome hands/face, no flesh color. OPAQUE matte BLACK sleeveless shirt covers torso FRONT SIDES BACK, OPAQUE loose BLACK knee-length shorts wrap both thighs FRONT SIDES BACK, REAR/SEAT/CROTCH completely, stitched closed hems and broad fabric folds. NO anatomy windows, transparent cloth, cutaways, muscle fibers/six-pack/navel on clothing. Black trainers. Pure white background soft ground shadows. Full person, fingers, bells and supports in EACH panel with generous white gutters/margins above bells and below shoes, no cropped objects. No embedded words/numbers/captions/arrows/logos. THREE equal side-by-side panels KETTLEBELL ONE ARM PUSH PRESS. Same FRONT three-quarter view, feet shoulder-width flat in same positions. Exactly ONE gray kettlebell held in model RIGHT hand (IMAGE LEFT) throughout, left hand EMPTY relaxed by side in all panels. Bell arched handle securely enclosed by right hand, round mass outside/back of forearm. LEFT upright standing right bell shoulder rack, elbow underneath load, wrist neutral. MIDDLE shallow knee/hip DIP 15-25degrees, knees track toes, torso upright, bell REMAINS right shoulder rack, no arm press yet. RIGHT drive hips/knees straight then right arm fully overhead, wrist over elbow over right shoulder, round bell behind/outside forearm. No leg re-dip catch, back arch or side bend. Left arm stays unloaded and lowered with empty hand. Primary RIGHT DELTOID red ONLY at loaded shoulder cap, LEFT unloaded shoulder and all triceps/other muscles gray. Shirt solid black no chest tint. Secure closed hand-handle contact, no bell merging or floating. Same feet/person/one bell across all three panels.",
+          "inspectionNote": "Female single-bell rack/dip/overhead poses preserve one loaded right arm and empty left hand with full opaque clothing. All phases highlight wrong unloaded shoulder.",
+          "blockingIssues": [
+            "Red highlight is on unloaded LEFT shoulder in all three phases; move red to loaded RIGHT shoulder consistently before publication."
+          ],
+          "canonicalName": "kettlebell one arm push press",
+          "styleVersion": "white-v1",
+          "equipment": "kettlebell",
+          "primaryMuscles": [
+            "delts"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Female single-bell rack/dip/overhead poses preserve one loaded right arm and empty left hand with full opaque clothing. All phases highlight wrong unloaded shoulder.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0540-female-anatomical-white-v1-p1-01d19352fe12.webp",
+              "width": 591,
+              "height": 887,
+              "bytes": 21632,
+              "sha256": "01d19352fe12d2eed6bd6bb73707b6b687d323e7ed41e254f79953391090f1bd"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0540-female-anatomical-white-v1-p2-e62b442959c5.webp",
+              "width": 592,
+              "height": 887,
+              "bytes": 21188,
+              "sha256": "e62b442959c5346a380d3b214ead51664fdb858636d9e0a1368b374c4a159372"
+            },
+            {
+              "pose": "p3",
+              "path": "/workout/illustration-pilot/0540-female-anatomical-white-v1-p3-f204367fef1f.webp",
+              "width": 591,
+              "height": 887,
+              "bytes": 21650,
+              "sha256": "f204367fef1ff93ad9019f471aab736a6ac00575ec455b6fb6b338468781881e"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0540-female-anatomical-white-v1-thumb-deff7527f3e9.webp",
+            "width": 160,
+            "height": 240,
+            "bytes": 2202,
+            "sha256": "deff7527f3e97dd91d96e795659a47761fdd9a50dacea40f832fcd18a10d5f24"
+          },
+          "processingSignature": "385e9a218c485955d731d9049b6c5aec8a14fc1623f887dd30b6b434e3f31ee1",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0540-female-anatomical-white-v1.png",
+            "width": 1774,
+            "height": 887,
+            "bytes": 1749463,
+            "sha256": "45e7efdb1c5db15ff0ca5c14e5fdd982ac928a83dbe16b736ec8bd663b5393a4"
+          }
+        }
+      ],
+      "blockingIssues": [
+        "Red in first two panels is on loaded forearm/wrist rather than deltoid. Restrict target highlight to visible shoulder cap; keep forearm gray before publication."
+      ]
+    },
+    {
+      "exerciseId": "0546",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Sit upright with feet planted and both kettlebells at shoulder height"
+        },
+        {
+          "key": "p2",
+          "caption": "Press both kettlebells overhead while keeping torso upright"
+        }
+      ],
+      "detail": "TWO equal SIDE-BY-SIDE panels KETTLEBELL SEATED PRESS. Same FRONT three-quarter camera. Model sits upright on horizontal padded flat gym BENCH, hips fully supported, knees near90degrees, feet flat shoulder-width on floor. Entire sturdy bench including all support feet/pad shown with white clearance. Exactly TWO matching gray kettlebells per panel, both arched handles securely held in hands, palms facing forward, round masses rest behind/outside forearms. LEFT bells at shoulder height rack, elbows bent below wrists, upright neutral spine/pelvis. RIGHT extend BOTH arms overhead in scapular plane, wrists/elbows stack over shoulders, bells behind/outside forearms; seated hips and feet remain stationary, no standing/leg drive, no lumbar arch or back lean. Neutral wrist and closed secure grips. PRIMARY DELTOIDS exposed red at BOTH shoulder caps only, triceps/pectorals/forearms gray, entire shirt black no tint. Same model, bench, two bells, footwear, lighting and scale across panels. Frame whole bench feet and overhead bells within EACH panel.",
+      "variant": "male",
+      "key": "0546-male-anatomical-white-v1",
+      "prompt": "Scientific-educational original fitness illustration. Attached original project image is ONLY rendering STYLE reference: grayscale exposed fine muscle fibers and tendons, opaque black clothing, white background. Do NOT copy exercise, bench configuration or red chest highlight. Realistic adult MALE with consistent face/body proportions/camera/equipment across panels. Detailed grayscale exposed anatomy, monochrome hands/face, no flesh color. OPAQUE matte BLACK sleeveless shirt covers torso FRONT SIDES BACK, OPAQUE loose BLACK knee-length shorts wrap both thighs FRONT SIDES BACK, REAR/SEAT/CROTCH completely, stitched closed hems and broad fabric folds. NO anatomy windows, transparent cloth, cutaways, muscle fibers/six-pack/navel on clothing. Black trainers. Pure white background soft ground shadows. Full person, fingers, bells and supports in EACH panel with generous white gutters/margins above bells and below shoes, no cropped objects. No embedded words/numbers/captions/arrows/logos. TWO equal SIDE-BY-SIDE panels KETTLEBELL SEATED PRESS. Same FRONT three-quarter camera. Model sits upright on horizontal padded flat gym BENCH, hips fully supported, knees near90degrees, feet flat shoulder-width on floor. Entire sturdy bench including all support feet/pad shown with white clearance. Exactly TWO matching gray kettlebells per panel, both arched handles securely held in hands, palms facing forward, round masses rest behind/outside forearms. LEFT bells at shoulder height rack, elbows bent below wrists, upright neutral spine/pelvis. RIGHT extend BOTH arms overhead in scapular plane, wrists/elbows stack over shoulders, bells behind/outside forearms; seated hips and feet remain stationary, no standing/leg drive, no lumbar arch or back lean. Neutral wrist and closed secure grips. PRIMARY DELTOIDS exposed red at BOTH shoulder caps only, triceps/pectorals/forearms gray, entire shirt black no tint. Same model, bench, two bells, footwear, lighting and scale across panels. Frame whole bench feet and overhead bells within EACH panel.",
+      "inspectionNote": "Male seated rack/overhead press retains supported hips, flat feet, neutral upright torso, two secure-looking bell grips, full bench framing and opaque clothing. Qualified shoulder/wrist loading, grip and technique review pending.",
+      "canonicalName": "kettlebell seated press",
+      "styleVersion": "white-v1",
+      "equipment": "kettlebell",
+      "primaryMuscles": [
+        "delts"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Male seated rack/overhead press retains supported hips, flat feet, neutral upright torso, two secure-looking bell grips, full bench framing and opaque clothing. Qualified shoulder/wrist loading, grip and technique review pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0546-male-anatomical-white-v1-p1-33a71540fbec.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 36546,
+          "sha256": "33a71540fbec5ec82e2511942e7105722a17a75510ef3c536bd8096366ef3a1d"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0546-male-anatomical-white-v1-p2-9a0817f81f51.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 37966,
+          "sha256": "9a0817f81f51c945a02c279dfb5db77232d51d582a55c5fd98e973388d2a32b3"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0546-male-anatomical-white-v1-thumb-76fa1b2dd8a4.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 3794,
+        "sha256": "76fa1b2dd8a445bf9f2ed345eb950d8ba006cc7b155f4cb873606f3b6badab6b"
+      },
+      "processingSignature": "f3f13c40e02611024f1142bcab0d02be882da21b23c76ed7365080ca74d6902a",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0546-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1773689,
+        "sha256": "6e73e4af1dedd629c33ea9141f8f331f6f319c322c8dbba3da00f090c2e1451c"
+      }
+    },
+    {
+      "exerciseId": "0546",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Sit upright with feet planted and both kettlebells at shoulder height"
+        },
+        {
+          "key": "p2",
+          "caption": "Press both kettlebells overhead while keeping torso upright"
+        }
+      ],
+      "detail": "TWO equal SIDE-BY-SIDE panels KETTLEBELL SEATED PRESS. Same FRONT three-quarter camera. Model sits upright on horizontal padded flat gym BENCH, hips fully supported, knees near90degrees, feet flat shoulder-width on floor. Entire sturdy bench including all support feet/pad shown with white clearance. Exactly TWO matching gray kettlebells per panel, both arched handles securely held in hands, palms facing forward, round masses rest behind/outside forearms. LEFT bells at shoulder height rack, elbows bent below wrists, upright neutral spine/pelvis. RIGHT extend BOTH arms overhead in scapular plane, wrists/elbows stack over shoulders, bells behind/outside forearms; seated hips and feet remain stationary, no standing/leg drive, no lumbar arch or back lean. Neutral wrist and closed secure grips. PRIMARY DELTOIDS exposed red at BOTH shoulder caps only, triceps/pectorals/forearms gray, entire shirt black no tint. Same model, bench, two bells, footwear, lighting and scale across panels. Frame whole bench feet and overhead bells within EACH panel.",
+      "variant": "female",
+      "key": "0546-female-anatomical-white-v1",
+      "prompt": "Scientific-educational original fitness illustration. Attached original project image is ONLY rendering STYLE reference: grayscale exposed fine muscle fibers and tendons, opaque black clothing, white background. Do NOT copy exercise, bench configuration or red chest highlight. Realistic adult FEMALE with consistent face/body proportions/camera/equipment across panels. Detailed grayscale exposed anatomy, monochrome hands/face, no flesh color. OPAQUE matte BLACK sleeveless shirt covers torso FRONT SIDES BACK, OPAQUE loose BLACK knee-length shorts wrap both thighs FRONT SIDES BACK, REAR/SEAT/CROTCH completely, stitched closed hems and broad fabric folds. NO anatomy windows, transparent cloth, cutaways, muscle fibers/six-pack/navel on clothing. Black trainers. Pure white background soft ground shadows. Full person, fingers, bells and supports in EACH panel with generous white gutters/margins above bells and below shoes, no cropped objects. No embedded words/numbers/captions/arrows/logos. TWO equal SIDE-BY-SIDE panels KETTLEBELL SEATED PRESS. Same FRONT three-quarter camera. Model sits upright on horizontal padded flat gym BENCH, hips fully supported, knees near90degrees, feet flat shoulder-width on floor. Entire sturdy bench including all support feet/pad shown with white clearance. Exactly TWO matching gray kettlebells per panel, both arched handles securely held in hands, palms facing forward, round masses rest behind/outside forearms. LEFT bells at shoulder height rack, elbows bent below wrists, upright neutral spine/pelvis. RIGHT extend BOTH arms overhead in scapular plane, wrists/elbows stack over shoulders, bells behind/outside forearms; seated hips and feet remain stationary, no standing/leg drive, no lumbar arch or back lean. Neutral wrist and closed secure grips. PRIMARY DELTOIDS exposed red at BOTH shoulder caps only, triceps/pectorals/forearms gray, entire shirt black no tint. Same model, bench, two bells, footwear, lighting and scale across panels. Frame whole bench feet and overhead bells within EACH panel.",
+      "inspectionNote": "Female seated press retains supported hips, planted feet, two-bell rack/overhead phases, fully visible bench and opaque torso/seat/crotch clothing. Shoulder/wrist loading, grip, muscle mapping and anatomy approval pending.",
+      "canonicalName": "kettlebell seated press",
+      "styleVersion": "white-v1",
+      "equipment": "kettlebell",
+      "primaryMuscles": [
+        "delts"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Female seated press retains supported hips, planted feet, two-bell rack/overhead phases, fully visible bench and opaque torso/seat/crotch clothing. Shoulder/wrist loading, grip, muscle mapping and anatomy approval pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0546-female-anatomical-white-v1-p1-30bba793c9d1.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 34476,
+          "sha256": "30bba793c9d176afc38c9c9cedbe9e1a10cf1f1eb69055a04fbdb72383b14638"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0546-female-anatomical-white-v1-p2-561276f6df29.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 34712,
+          "sha256": "561276f6df29de98489fc2bb2076fca68dd7c0bb1e1b50a8b776f9c3f6086a38"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0546-female-anatomical-white-v1-thumb-5736812142ff.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 3610,
+        "sha256": "5736812142ff1bb5d8478065bba7c7aceadb10219d6811805f33147aa7b0d694"
+      },
+      "processingSignature": "752424a3e7224bfcff3b797b03680563275a1c37d3375ec3588135de80b5a4ca",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0546-female-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1759247,
+        "sha256": "040113de788a2776732b0f82436a6d99ba1719e7095509d615d2874ec75d0d15"
+      }
+    }
+  ]
+}

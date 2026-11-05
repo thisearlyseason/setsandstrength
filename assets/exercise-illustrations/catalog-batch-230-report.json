@@ -1,0 +1,68 @@
+{
+  "batch": 230,
+  "runId": "88899e2a-ea1a-4103-99ba-8b6dca73ea87",
+  "trigger": "2026-11-03T16:46:01.346Z",
+  "completedAt": "2026-11-03T17:16:13.430315+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 2,
+  "calls": 2,
+  "exerciseIds": [
+    "1730",
+    "1732"
+  ],
+  "variants": [
+    "male"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 797,
+    "remainingVariants": 10467,
+    "approvedVariants": 0,
+    "blockedVariants": 255,
+    "knownPoseImages": 1580,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 424,
+      "remainingVariants": 5208,
+      "blockedVariants": 136
+    }
+  },
+  "reviewNotes": {
+    "1730": "Alternating seated bent-over kickback candidate. BLOCKED: third cell reverses head/torso facing direction while lower body remains oriented as earlier cells, making the alternate-arm sequence inconsistent.",
+    "1732": "Forward lunge triceps extension: standing start, held lunge with arms extended overhead, then elbows bent to weights behind head. Qualified review needed for far dumbbell occlusion, skull clearance, upper-arm stillness, wrist grip and knee/foot alignment."
+  },
+  "interruption": "Turn was interrupted after second generated output. Recovered that original from built-in output path, finalized two saved masters, and released owned lock.",
+  "plannedNotGenerated": [
+    "1735",
+    "1740"
+  ],
+  "deferred": [
+    {
+      "exerciseId": "1731",
+      "reason": "Flat bench seated setup omits lying-back step and grip/instructions resemble standard press rather than close-grip mechanics."
+    },
+    {
+      "exerciseId": "1733",
+      "reason": "Extension name conflicts with chest-to-overhead press instructions."
+    },
+    {
+      "exerciseId": "1737",
+      "reason": "Bent-over kickback body position conflicts with elbows close to head cue."
+    }
+  ],
+  "tests": 7,
+  "genCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "publicationIndexUnchanged": true,
+  "savedMasters": [
+    "assets/exercise-illustrations/generated/1730-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/1732-male-anatomical-white-v1.png"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "batch": 31,
+  "trigger": "2026-11-01T07:26:42.133Z",
+  "completedAt": "2026-11-01T07:34:16.671137+00:00",
+  "tool": "image_gen.imagegen",
+  "newCandidateSets": 4,
+  "generationCalls": 5,
+  "exerciseIds": [
+    "0945",
+    "0070"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 118,
+    "remainingVariants": 11146,
+    "approvedVariants": 0,
+    "blockedVariants": 50,
+    "knownPoseImages": 234,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "All pending, none published. Child pose single static illustration each variant with opaque rear coverage. Both preacher curls blocked for upper-arm/elbow movement on pad. Targeted male v2 correction failed same consistency check and is retained separately as rejected; no additional completed set counted.",
+  "metadataConflictFlag": {
+    "exerciseId": "0318",
+    "issue": "Instruction says rest upper arms on incline bench while elbows hang down; description implies ordinary incline curl. Requires qualified clarification; skipped."
+  },
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 194280470
+}

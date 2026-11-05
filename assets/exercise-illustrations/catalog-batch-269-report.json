@@ -1,0 +1,89 @@
+{
+  "batch": 269,
+  "runId": "7800fdee-3b81-48e0-8cf0-25e869e9dab4",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "trigger": "2026-11-03T23:39:24.833Z",
+  "purpose": "batch269 scheduled male continuation",
+  "started": "2026-11-03T23:40:00.161731+00:00",
+  "completedAt": "2026-11-03T23:48:43.078822+00:00",
+  "actualToolName": "image_gen__imagegen",
+  "calls": 4,
+  "newCandidateSets": 4,
+  "exerciseIds": [
+    "2189",
+    "2198",
+    "2200",
+    "2204"
+  ],
+  "variants": [
+    "male"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 949,
+    "remainingVariants": 10315,
+    "approvedVariants": 0,
+    "blockedVariants": 308,
+    "knownPoseImages": 1797,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 576,
+      "remainingVariants": 5056,
+      "blockedVariants": 189
+    }
+  },
+  "reviewNotes": {
+    "2189": "Two seated overhead extension positions with one vertical dumbbell held in both hands, elbows near ears, feet planted and torso upright. Elbows extend then flex behind head, triceps-only red on exposed upper arms. Qualified review needed for secure two-hand grip/finger anatomy, dumbbell clearance, elbow range, ribs/lumbar control and muscle mapping.",
+    "2198": "Machine extension shows bent and nearly straight elbows with handles high then low, feet planted and triceps tint on exposed arms. Upper arms lift/shift off support pad in end pose and lever-pivot position changes; block for fixed upper-arm support and consistent elbow-aligned machine geometry. Qualified review of load linkage, wrist grip, shoulder control and mapping.",
+    "2200": "Distinct low/raised heel-on-ball bridge, head and shoulders appear grounded, palms on floor and both heels atop ball in same location. Glute tint over intact shorts and full ball/feet framed. Qualified review needed for shoulder-hip-knee alignment, ball stability, heel contact, knee angle, lumbar control and mapping; overlay fiber-versus-cloth-fold detail needs checking.",
+    "2204": "Two plank positions with roller moving forward and feet grounded, abdominal tint on intact tank. Hands rather than forearms appear to take roller contact and end-position hand/roller extend outside cell; block for forearm support and complete framing. Qualified review of controlled body-saw travel, neck alignment, hip level and roller geometry."
+  },
+  "blockingIssues": {
+    "2198": [
+      "Upper arms shift off pad and pivot geometry changes; correct supported upper arms and consistent elbow-aligned lever."
+    ],
+    "2204": [
+      "Hands rather than forearms appear to support on roller; correct forearm contact.",
+      "End-position hand and roller clipped outside cell; regenerate with full framing."
+    ]
+  },
+  "deferred": {
+    "2192": "Cardiovascular primary requires muscle-highlight mapping.",
+    "2193": "Cardiovascular primary requires muscle-highlight mapping.",
+    "2197": "Treadmill name/instructions conflict with stationary-bike equipment.",
+    "2202": "Roller under glutes just above knees is anatomically contradictory.",
+    "2203": "Rolling along thighs versus shoulder/chest primary mapping needs clarification."
+  },
+  "tests": 7,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "workerSyncResult": {
+    "statuses": {
+      "generated": 949,
+      "pending": 10315
+    },
+    "remaining": 10315,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 1462751737
+  },
+  "publicationIndexUnchanged": true,
+  "savedMasters": [
+    "assets/exercise-illustrations/generated/2189-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/2198-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/2200-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/2204-male-anatomical-white-v1.png"
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "batch": 130,
+  "trigger": "2026-11-03T00:40:54.336Z",
+  "completedAt": "2026-11-03T00:57:40.333737+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 4,
+  "generationCalls": 8,
+  "exerciseIds": [
+    "0783",
+    "0788"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 530,
+    "remainingVariants": 10734,
+    "approvedVariants": 0,
+    "blockedVariants": 204,
+    "knownPoseImages": 1092,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Four candidate sets, eight poses, eight built-in calls and four retained corrections. Arms-overhead squat pairs show standing then thigh-near-parallel squat with heels grounded and arms alongside ears. Raised-hand margins increased and thigh overlays smoothed over opaque cloth; thin gray cell borders introduced, no text. Free barbell behind-neck press pairs show bar behind shoulders then overhead with deltoid highlights; corrected head from turned profile to neutral rear alignment and expanded plate margins. Fine exposed grayscale anatomy and full opaque shirt/shorts retained. Qualified squat depth, ribs-down posture, knee tracking, shoulder range, bar shelf/cervical clearance, grip, elbow extension and primary muscle mapping remain pending. All original masters, exact prompts and correction history saved. No anatomy approval or publication. Original project artwork style only, no upstream media. Pipeline checks do not approve anatomy.",
+  "metadataConflictsDeferred": {
+    "0782": "Cardiovascular target lacks primary skeletal-muscle mapping for red highlights.",
+    "0784": "Band placement explicitly unspecified: around legs or under feet, needs selection.",
+    "0785": "Cardiovascular target lacks primary skeletal-muscle mapping for red highlights.",
+    "0786": "Squat-jerk title conflicts with split-catch instructions including rear-knee floor contact; requires correction."
+  },
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 862576712,
+  "savedMasters": [
+    {
+      "exerciseId": "0783",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0783-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1196271,
+        "sha256": "a0f41573e983b80e712200804e328f34638dcea9365b87ffdabc98032bdbcac2"
+      }
+    },
+    {
+      "exerciseId": "0783",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0783-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1158178,
+        "sha256": "8f33191d0b450a04b7fb9bc3f4960c131880fca9bf123b56cb40e4771ccaa60f"
+      }
+    },
+    {
+      "exerciseId": "0788",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0788-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1288290,
+        "sha256": "157dd1bf4ce7baba4580b93792a7cc8eaa1b5499d3db1f24fe0f1413bfadb05c"
+      }
+    },
+    {
+      "exerciseId": "0788",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0788-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1284888,
+        "sha256": "92428e1f03367a14a6dbc663e3b40123d16ba9bc3b96b12cd74a44fb92ff7f41"
+      }
+    }
+  ]
+}

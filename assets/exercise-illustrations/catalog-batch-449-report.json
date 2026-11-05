@@ -1,0 +1,61 @@
+{
+  "batch": 449,
+  "runId": "cb6f85bf-1c2b-4159-94ec-62368290c7be",
+  "triggerTimestamp": "2026-11-04T23:41:04.582Z",
+  "builtInImageGenAvailable": true,
+  "generatedIds": [
+    "4680",
+    "4682",
+    "4687",
+    "4719"
+  ],
+  "coverageAfter": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1596,
+    "remainingVariants": 9668,
+    "approvedVariants": 0,
+    "blockedVariants": 587,
+    "knownPoseImages": 3216,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 1223,
+      "remainingVariants": 4409,
+      "blockedVariants": 468
+    }
+  },
+  "paidWorker": {
+    "statuses": {
+      "generated": 1596,
+      "pending": 9668
+    },
+    "remaining": 9668,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 2411814392
+  },
+  "pipelineTests": "8 passed, 0 failed",
+  "approvedIndexUnchanged": true,
+  "existingUserApprovalsPreserved": 1306,
+  "anatomyReview": "pending",
+  "publication": "none",
+  "blocked": {
+    "4682": [
+      "Band topology changes: two strands from each hand in starting pose become one strand per hand in raised pose. Correct equipment consistency before approval."
+    ],
+    "4687": [
+      "Starting handles are held with palms up, rotating to neutral at the top; hammer curl requires palms facing inward throughout. Correct starting grip."
+    ]
+  }
+}

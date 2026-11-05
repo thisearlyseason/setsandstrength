@@ -1,0 +1,347 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "2292",
+      "variant": "male",
+      "key": "2292-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hold dumbbells and hinge forward with knees soft and back straight. Let the arms hang with a slight elbow bend."
+        },
+        {
+          "key": "p2",
+          "caption": "Raise both arms out to the sides until parallel to the floor without lifting the torso or shrugging. Pause, then lower slowly."
+        }
+      ],
+      "prompt": "DUMBBELL REAR DELT RAISE. TWOequalcells sidebyside SAME REAR SIDEthreequartercamera. MaleSTANDINGfeetSHOULDERWIDTH kneessoft HIPHINGE70degrees torsoNEARHORIZONTAL backFLAT neckneutralgazeFLOOR. OneGRAYdumbbelleachHAND. LEFTstartarmsHANGUNDERshoulders palmsIN eachother elbowsSOFT15degrees. RIGHTraiseBOTHarmsOUTSIDES WIDE untilUPPERARMSparallelFLOOR alignedTORSO elbowssoft15unchanged, handsbeloworelbowheight neutralwrists notrow. TorsoandkneesSAMEbothposes no risingback shrug or swinging. PrimaryexposedBOTHPOSTERIORDELTOIDSRED only upperbacktankBLACK. Premium detailed adult MALE grayscale anatomical illustration matching original project reference rendering STYLE ONLY, ignore reference exercise/highlights. Pure white background soft shadows realistic proportions crisp detailed exposed gray muscle contours. Opaque BLACK tank and mid-thigh shorts fully wrap front sides back seat crotch seams hems folds. NO cutaways transparency or anatomy through fabric. Red over clothing plain UNIFORM SOFT teaching ellipse NO internal fibers rays lobes segmentation, retain ordinary fabric folds. Only specified primary red no chest. Black shoes. Normal two arms hands five fingers two legs feet, entire body equipment hands feet eachcell with margins. No text arrows logos.",
+      "inspectionNote": "Real output inspected. Two bent-over rear-delt raise positions with torso held near horizontal, knees soft and dumbbells moving from hanging to wide lateral position. Posterior shoulders red, tank/shorts intact opaque. Qualified review needed for parallel upper-arm height, elbow bend, neck alignment, wrist position, hip hinge stability and posterior-deltoid mapping. Human anatomy review remains pending; no approval or publication.",
+      "canonicalName": "dumbbell rear delt raise",
+      "styleVersion": "white-v1",
+      "equipment": "dumbbell",
+      "primaryMuscles": [
+        "delts"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Two bent-over rear-delt raise positions with torso held near horizontal, knees soft and dumbbells moving from hanging to wide lateral position. Posterior shoulders red, tank/shorts intact opaque. Qualified review needed for parallel upper-arm height, elbow bend, neck alignment, wrist position, hip hinge stability and posterior-deltoid mapping. Human anatomy review remains pending; no approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2292-male-anatomical-white-v1-p1-5b86f3edadd3.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 29648,
+          "sha256": "5b86f3edadd376d6ffab51af5f1890e9b4bb617341d78567176e15c463d543ff"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/2292-male-anatomical-white-v1-p2-7501a06f046b.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 29730,
+          "sha256": "7501a06f046b31fd96cd7980e5a4c6b5e13082616f4d72d31f45301333bdea43"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-274.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2292-male-anatomical-white-v1-thumb-2b0480050bc1.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 3160,
+        "sha256": "2b0480050bc1dabfb9fff0eb8b0cb6791275f0a317612207e9fa9443646d3016"
+      },
+      "processingSignature": "5923222d6c46454116f55052b050937ba4402c62beb68a5bcc53526f76d770ee",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2292-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1443255,
+        "sha256": "90695f6c534e199ccc7090579d59b90ab513212249fd3f1b1bfb3cccc5a66782"
+      }
+    },
+    {
+      "exerciseId": "2293",
+      "variant": "male",
+      "key": "2293-male-anatomical-white-v1",
+      "layout": {
+        "columns": 3,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand behind the preacher pad with upper arms supported and palms facing forward."
+        },
+        {
+          "key": "p2",
+          "caption": "Curl the dumbbells toward your shoulders without moving the upper arms."
+        },
+        {
+          "key": "p3",
+          "caption": "At the top, turn palms down. Lower slowly and rotate back to the starting grip."
+        }
+      ],
+      "prompt": "STANDING ZOTTMAN PREACHER CURL. THREEequalcells sidebyside WIDE3:1 SAME FRONT SIDEthreequartercamera. GrayPREACHERBENCH slopedwideUPPERARMPAD underBOTHUPPERARMS elbowspadfixedallposes, onegrayDUMBBELLeachHAND. LEFTstartELBOWSnearlystraightsoft armsdownalongPAD PALMSUPSUPINATED clearlyfingerpadsvisible. MIDDLEcurlELBOWSbent120 dumbbellsnearSHOULDERS PALMSUP still, upperarmsstaypad. RIGHTatTOProtateBOTHforearmsPRONATED PALMSDOWN knucklesvisible, elbowsstillbent120 upperarmsPAD, thenlowerduringreturncaption. wristsstaystraightnotflexed no shoulderlift. PrimaryBOTH exposedBICEPSRED frontupperarms only, forearmsgray chestblack.  MaleSTANDSbehindpreacherpad feetflat shoulderwidth kneesSOFT bothposes, NO sitting no seatunderhips. Hipsneutral torsoTALL slightleanintopad chestnotround. Fullstandinglegsbenchweightsframe. Premium detailed adult MALE grayscale anatomical illustration matching original project reference rendering STYLE ONLY, ignore reference exercise/highlights. Pure white background soft shadows realistic proportions crisp detailed exposed gray muscle contours. Opaque BLACK tank and mid-thigh shorts fully wrap front sides back seat crotch seams hems folds. NO cutaways transparency or anatomy through fabric. Red over clothing plain UNIFORM SOFT teaching ellipse NO internal fibers rays lobes segmentation, retain ordinary fabric folds. Only specified primary red no chest. Black shoes. Normal two arms hands five fingers two legs feet, entire body equipment hands feet eachcell with margins. No text arrows logos.",
+      "inspectionNote": "Real output inspected. Three standing preacher curl views show low supinated start, raised supinated curl and top pronated grip. Upper arms appear supported on pad, feet grounded and biceps red only. Qualified review needed for upper-arm contact across all stages, wrist pronation versus flexion, elbow range, grip/fingers and biceps mapping. Human anatomy review remains pending; no approval or publication.",
+      "canonicalName": "dumbbell standing zottman preacher curl",
+      "styleVersion": "white-v1",
+      "equipment": "dumbbell",
+      "primaryMuscles": [
+        "biceps"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Three standing preacher curl views show low supinated start, raised supinated curl and top pronated grip. Upper arms appear supported on pad, feet grounded and biceps red only. Qualified review needed for upper-arm contact across all stages, wrist pronation versus flexion, elbow range, grip/fingers and biceps mapping. Human anatomy review remains pending; no approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2293-male-anatomical-white-v1-p1-742d27eb8f0f.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 29316,
+          "sha256": "742d27eb8f0f84c16cb9042d62cfae0390306e64a3b284e944f2c5d2da9a3faa"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/2293-male-anatomical-white-v1-p2-e6783d7e2cd9.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 28336,
+          "sha256": "e6783d7e2cd9b2c2c2cbdf0a75e9be56979c61b75e8681b609988c6b0ac4ea72"
+        },
+        {
+          "pose": "p3",
+          "path": "/workout/illustration-pilot/2293-male-anatomical-white-v1-p3-59c0e64b4c06.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 28130,
+          "sha256": "59c0e64b4c06b9b20481e154affa4405b6a673bb943305f6d0912fa1b5cc207d"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-274.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2293-male-anatomical-white-v1-thumb-80add0500ae3.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 4036,
+        "sha256": "80add0500ae3e6b4d3ab7369dbc1e4bd484e63e4522b7aa1fe274658ee8bfc36"
+      },
+      "processingSignature": "45f5b1dae839ff89e1f8e769f4702097c4b7f558a71e5fb16a4f71e721198ea0",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2293-male-anatomical-white-v1.png",
+        "width": 2172,
+        "height": 724,
+        "bytes": 1595457,
+        "sha256": "8ab6950bea38034c6af268ca171ae0336427ebbf688b014a3e5ba4d5d22c15fc"
+      }
+    },
+    {
+      "exerciseId": "2294",
+      "variant": "male",
+      "key": "2294-male-anatomical-white-v1",
+      "layout": {
+        "columns": 3,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Sit at the preacher bench with upper arms supported, elbows softly bent and palms up."
+        },
+        {
+          "key": "p2",
+          "caption": "Curl both dumbbells toward the shoulders while keeping upper arms still."
+        },
+        {
+          "key": "p3",
+          "caption": "Turn the palms down at the top, lower slowly and rotate back to the starting grip."
+        }
+      ],
+      "prompt": "SEATED ZOTTMAN PREACHER CURL. THREEequalcells sidebyside WIDE3:1 SAME FRONT SIDEthreequartercamera. GrayPREACHERBENCH slopedwideUPPERARMPAD underBOTHUPPERARMS elbowspadfixedallposes, onegrayDUMBBELLeachHAND. LEFTstartELBOWSnearlystraightsoft armsdownalongPAD PALMSUPSUPINATED clearlyfingerpadsvisible. MIDDLEcurlELBOWSbent120 dumbbellsnearSHOULDERS PALMSUP still, upperarmsstaypad. RIGHTatTOProtateBOTHforearmsPRONATED PALMSDOWN knucklesvisible, elbowsstillbent120 upperarmsPAD, thenlowerduringreturncaption. wristsstaystraightnotflexed no shoulderlift. PrimaryBOTH exposedBICEPSRED frontupperarms only, forearmsgray chestblack.  MaleSITSpreacherbenchSEAT hipsupportedknees90 feetFLATfloor, torsoUPRIGHT leaninggentlyintopad upperarmsstationary. ClearlySEATEDallthreeposes notstanding. Fullbenchfeetweightsframe. Premium detailed adult MALE grayscale anatomical illustration matching original project reference rendering STYLE ONLY, ignore reference exercise/highlights. Pure white background soft shadows realistic proportions crisp detailed exposed gray muscle contours. Opaque BLACK tank and mid-thigh shorts fully wrap front sides back seat crotch seams hems folds. NO cutaways transparency or anatomy through fabric. Red over clothing plain UNIFORM SOFT teaching ellipse NO internal fibers rays lobes segmentation, retain ordinary fabric folds. Only specified primary red no chest. Black shoes. Normal two arms hands five fingers two legs feet, entire body equipment hands feet eachcell with margins. No text arrows logos.",
+      "inspectionNote": "Real output inspected. Three seated preacher curl positions with feet grounded, upper arms supported, low palms-up start, top curl and top palms-down rotation. Biceps-only red and full opaque clothing. Qualified review needed for pronation/wrist neutrality, elbow range, hand/finger grip, stable pad contact and biceps mapping. Human anatomy review remains pending; no approval or publication.",
+      "canonicalName": "dumbbell zottman preacher curl",
+      "styleVersion": "white-v1",
+      "equipment": "dumbbell",
+      "primaryMuscles": [
+        "biceps"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Three seated preacher curl positions with feet grounded, upper arms supported, low palms-up start, top curl and top palms-down rotation. Biceps-only red and full opaque clothing. Qualified review needed for pronation/wrist neutrality, elbow range, hand/finger grip, stable pad contact and biceps mapping. Human anatomy review remains pending; no approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2294-male-anatomical-white-v1-p1-6efb15666e90.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 38392,
+          "sha256": "6efb15666e906f7ac9c0dfb9dd048c41687ceb05d35d96396567f6a747c48e46"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/2294-male-anatomical-white-v1-p2-9d5cc6a01090.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 36476,
+          "sha256": "9d5cc6a01090be2992b41d65c2b0ecde7ddc88c1353b09e3fd5895d57e9e0d40"
+        },
+        {
+          "pose": "p3",
+          "path": "/workout/illustration-pilot/2294-male-anatomical-white-v1-p3-cecaf5d13f2d.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 36446,
+          "sha256": "cecaf5d13f2d6298773513191be1239d6803a2eb1be26b240ccfff5e43400c13"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-274.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2294-male-anatomical-white-v1-thumb-dd5e0a751769.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 5150,
+        "sha256": "dd5e0a75176952d7a8ec82fda660973031c737cc0b1336019c62435c66227e61"
+      },
+      "processingSignature": "63a9b49930d94eb5a1d4b2151f56f7e9ac68e33ee8bc4d27ef52a7a2400d6abb",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2294-male-anatomical-white-v1.png",
+        "width": 2172,
+        "height": 724,
+        "bytes": 1759562,
+        "sha256": "35e26636ceb50a0b4a1d65b51966be92a97a8271e128bb7c40f24ed314cf0cc1"
+      }
+    },
+    {
+      "exerciseId": "2296",
+      "variant": "male",
+      "key": "2296-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Kneel with your forearms resting on a stability ball. Brace your abs and align your body from knees to head."
+        },
+        {
+          "key": "p2",
+          "caption": "Roll the ball forward under your forearms while extending the body without letting the back sag. Draw it back with control."
+        }
+      ],
+      "prompt": "STABILITY BALL ROLLOUT. TWOequalcells sidebyside SAME SIDEthreequarterfloorcamera. MaleKNEELSgrayMAT kneeshipwidthground shinsandshoetopsfloor, BOTHFOREARMS RESTTOPlargeGRAYSTABILITYBALL inFRONTofknees. LEFTstartforearmsball elbows90 ballnearbody hipsaboveKNEES ribsdown neutralspine kneehipheadLINE. RIGHTROLLBALLFORWARD40cm forearmssupportedball armsreachlong elbowsnearlystraight, entireBODYleansFORWARDasunitfromKNEES kneesSTAYfixedkneefloorpoints, pelvislowerinlinewithkneehipheadSTRAIGHTLINE no lumbararchpike no hands-onlycontact. PrimaryABS only uniformsoftREDellipse intactblacktankabdomen. Fullballforearmshandsheadfeetframe. Premium detailed adult MALE grayscale anatomical illustration matching original project reference rendering STYLE ONLY, ignore reference exercise/highlights. Pure white background soft shadows realistic proportions crisp detailed exposed gray muscle contours. Opaque BLACK tank and mid-thigh shorts fully wrap front sides back seat crotch seams hems folds. NO cutaways transparency or anatomy through fabric. Red over clothing plain UNIFORM SOFT teaching ellipse NO internal fibers rays lobes segmentation, retain ordinary fabric folds. Only specified primary red no chest. Black shoes. Normal two arms hands five fingers two legs feet, entire body equipment hands feet eachcell with margins. No text arrows logos.",
+      "inspectionNote": "Real output inspected. Kneeling rollout shows ball farther forward and body extending from knees. Only hands/wrists visibly contact ball rather than forearms required by canonical record; block for correct forearm support. Abdominal tint on opaque tank. Qualified review of knee-hip-head alignment, lumbar control, ball travel, neck and mapping. Human anatomy review remains pending; no approval or publication.",
+      "blockingIssues": [
+        "Hands/wrists rather than forearms contact stability ball; correct forearm-supported rollout."
+      ],
+      "canonicalName": "stability ball rollout",
+      "styleVersion": "white-v1",
+      "equipment": "stability ball",
+      "primaryMuscles": [
+        "abs"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Kneeling rollout shows ball farther forward and body extending from knees. Only hands/wrists visibly contact ball rather than forearms required by canonical record; block for correct forearm support. Abdominal tint on opaque tank. Qualified review of knee-hip-head alignment, lumbar control, ball travel, neck and mapping. Human anatomy review remains pending; no approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2296-male-anatomical-white-v1-p1-006f4832c664.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 43324,
+          "sha256": "006f4832c664a1d2bd081abd194291fd16ad7e4ab7d4276b2733156ae9a2988c"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/2296-male-anatomical-white-v1-p2-7f5cfd497de1.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 35272,
+          "sha256": "7f5cfd497de1d678e922b5796d90f67343d6380c4c8a069c3eed1c60c32f36af"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-274.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2296-male-anatomical-white-v1-thumb-9eb9a54122a4.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 3600,
+        "sha256": "9eb9a54122a4ae162bcfd1e4c9e42e889cc1440606e2a9bf7290eb550107c08c"
+      },
+      "processingSignature": "452005003a1e0d96e10fb5a2aab7e3308add1ff0108efa4a6ba7302da006ed00",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2296-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1583196,
+        "sha256": "57297fb6379350d9cd3b75c645716f1a87d509abf9783891c5351936d6be44be"
+      }
+    }
+  ]
+}

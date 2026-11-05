@@ -1,0 +1,57 @@
+{
+  "batch": 422,
+  "runId": "addd37a6-f661-4de9-8744-84ed288f9b7d",
+  "triggerTimestamp": "2026-11-04T21:15:33.238Z",
+  "builtInImageGenAvailable": true,
+  "generatedIds": [
+    "3831",
+    "3855",
+    "3860"
+  ],
+  "coverageAfter": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1495,
+    "remainingVariants": 9769,
+    "approvedVariants": 0,
+    "blockedVariants": 567,
+    "knownPoseImages": 2995,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 1122,
+      "remainingVariants": 4510,
+      "blockedVariants": 448
+    }
+  },
+  "paidWorker": {
+    "statuses": {
+      "generated": 1495,
+      "pending": 9769
+    },
+    "remaining": 9769,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 2263121425
+  },
+  "pipelineTests": "8 passed, 0 failed",
+  "approvedIndexUnchanged": true,
+  "existingUserApprovalsPreserved": 1306,
+  "anatomyReview": "pending",
+  "publication": "none",
+  "blocked": {
+    "3860": [
+      "Tank cutaway exposes highlighted back anatomy; opaque clothing requirement violated."
+    ]
+  }
+}

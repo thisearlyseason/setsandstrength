@@ -1,0 +1,601 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "0503",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hold a straight-body plank with shins supported on the stability ball"
+        },
+        {
+          "key": "p2",
+          "caption": "Lift hips into a pike as the ball rolls toward planted hands"
+        }
+      ],
+      "detail": "TWO equal SIDE-BY-SIDE panels of JACK KNIFE ON BALL. Same SIDE VIEW, head IMAGE LEFT, ball IMAGE RIGHT. LEFT high plank, both flat palms on floor directly below shoulders, arms straight, long straight diagonal head-hip-heel line. Both shins/top feet rest firmly on TOP of large gray spherical STABILITY BALL, ball supports lower legs; toes not touching floor. RIGHT keep palms in EXACT same floor position, arms straight, shoulders stacked over wrists; lift HIPS HIGH into inverted-V pike, both knees NEARLY STRAIGHT; ball rolls LEFT toward hands while feet/top toes remain supported on ball upper surface. Torso descends diagonally from high pelvis to shoulders, legs descend diagonally from pelvis to ball; head neutral between upper arms. Ball remains same diameter, on floor in both panels, no levitation, NO tucked knees. Red primary ABS only low-contrast soft blur on opaque black abdominal shirt, no torso muscle window. Gray legs/arms and entire ball visible.",
+      "variant": "male",
+      "key": "0503-male-anatomical-white-v3",
+      "prompt": "Correct ONLY the RIGHT pike panel of this original two-panel male stability-ball exercise illustration. LEFT plank panel unchanged. In RIGHT panel roll the SAME diameter stability ball noticeably LEFT toward his planted hands, approximately half the ball diameter (about 130 pixels in this composition), while ball stays on floor at same height. Move BOTH supported shoes/top feet LEFT with the ball, maintain secure top-foot support on upper ball surface. Redraw both NEARLY STRAIGHT legs connecting existing high pelvis to closer feet, preserving the man's ORIGINAL anatomical leg lengths/proportions from LEFT panel: do not stretch legs or make knees tuck. Keep high hips and straight-arm pike, align hands/shoulders with LEFT panel's planted hand positions relative to each panel boundary, palms flat and arms straight. Preserve man identity, grayscale exposed anatomy, continuous fully opaque black sleeveless shirt and knee-length black shorts wrapping seat/crotch, diffuse red abdominal cloth tint, pure white background and equal two-panel layout. No new equipment, no text. Whole ball/shoes remain in own panel with white margin.",
+      "inspectionNote": "Ball now clearly rolls toward hands with feet closer to pelvis and nearly straight legs of more consistent proportions. Opaque shirt tint from prior correction retained. All anatomy, neck alignment, planted hands and load/range review pending.",
+      "canonicalName": "jack knife on ball",
+      "styleVersion": "white-v1",
+      "equipment": "stability ball",
+      "primaryMuscles": [
+        "abs"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only for rendering style. No upstream licensed image input. Style approval is separate from anatomical approval.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 3,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Ball now clearly rolls toward hands with feet closer to pelvis and nearly straight legs of more consistent proportions. Opaque shirt tint from prior correction retained. All anatomy, neck alignment, planted hands and load/range review pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0503-male-anatomical-white-v3-p1-6b12de8b21e2.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 25860,
+          "sha256": "6b12de8b21e2aa7c4949311d28ee00c43c1301e0f0eff6e4b72b5926d9cd79bf"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0503-male-anatomical-white-v3-p2-9bc93de84467.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 25420,
+          "sha256": "9bc93de84467dc54b252a7584cba5f4600c444ec88d1272bcd901c164255b0c1"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0503-male-anatomical-white-v3-thumb-f85ff54cb25c.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2802,
+        "sha256": "f85ff54cb25ce7a3c4e36f5c682d6754df890e31718d7cfd7c6e797e8916e2b2"
+      },
+      "processingSignature": "d338b42926c3ae52eb022e8183ecd6321bad49572bf4a6d6964d20894975dbf5",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0503-male-anatomical-white-v3.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1615734,
+        "sha256": "35b43e283206effb7b74263bf0af3830fcebe36a9e492d6eacc06e9464438063"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0503",
+          "layout": {
+            "columns": 2,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Hold a straight-body plank with shins supported on the stability ball"
+            },
+            {
+              "key": "p2",
+              "caption": "Lift hips into a pike as the ball rolls toward planted hands"
+            }
+          ],
+          "detail": "TWO equal SIDE-BY-SIDE panels of JACK KNIFE ON BALL. Same SIDE VIEW, head IMAGE LEFT, ball IMAGE RIGHT. LEFT high plank, both flat palms on floor directly below shoulders, arms straight, long straight diagonal head-hip-heel line. Both shins/top feet rest firmly on TOP of large gray spherical STABILITY BALL, ball supports lower legs; toes not touching floor. RIGHT keep palms in EXACT same floor position, arms straight, shoulders stacked over wrists; lift HIPS HIGH into inverted-V pike, both knees NEARLY STRAIGHT; ball rolls LEFT toward hands while feet/top toes remain supported on ball upper surface. Torso descends diagonally from high pelvis to shoulders, legs descend diagonally from pelvis to ball; head neutral between upper arms. Ball remains same diameter, on floor in both panels, no levitation, NO tucked knees. Red primary ABS only low-contrast soft blur on opaque black abdominal shirt, no torso muscle window. Gray legs/arms and entire ball visible.",
+          "variant": "male",
+          "key": "0503-male-anatomical-white-v1",
+          "prompt": "Use case: scientific-educational. BRAND NEW exercise illustration, attached original project artwork is STYLE REFERENCE ONLY for grayscale detailed anatomy, opaque fabric and white background. DO NOT copy its bench, push-up poses or red chest highlight. Realistic adult MALE, detailed silver-gray exposed arm/leg muscles and tendons, monochrome face/hands. Pure WHITE background soft ground shadows, same model/camera/scale/equipment in all panels. Fully OPAQUE matte BLACK sleeveless athletic shirt covers FRONT, BACK and SIDES of chest/abdomen; fully opaque loose knee-length shorts wrap BOTH thighs front/sides/back, SEAT and CROTCH, closed hems, seams/broad cloth folds. NO anatomical muscle shapes, six-pack or navel on cloth, no clothing cutaways, no transparency or bare buttocks. Red target beneath clothing is just a faint blurred red PRINT on intact BLACK CLOTH. Full body, hands, toes and all equipment within EACH panel, ample white margins/gutters. No text, captions, numbers, logos or arrows. TWO equal SIDE-BY-SIDE panels of JACK KNIFE ON BALL. Same SIDE VIEW, head IMAGE LEFT, ball IMAGE RIGHT. LEFT high plank, both flat palms on floor directly below shoulders, arms straight, long straight diagonal head-hip-heel line. Both shins/top feet rest firmly on TOP of large gray spherical STABILITY BALL, ball supports lower legs; toes not touching floor. RIGHT keep palms in EXACT same floor position, arms straight, shoulders stacked over wrists; lift HIPS HIGH into inverted-V pike, both knees NEARLY STRAIGHT; ball rolls LEFT toward hands while feet/top toes remain supported on ball upper surface. Torso descends diagonally from high pelvis to shoulders, legs descend diagonally from pelvis to ball; head neutral between upper arms. Ball remains same diameter, on floor in both panels, no levitation, NO tucked knees. Red primary ABS only low-contrast soft blur on opaque black abdominal shirt, no torso muscle window. Gray legs/arms and entire ball visible.",
+          "inspectionNote": "Plank-to-pike pair with straight arms, nearly straight legs and supported feet; full ball and limbs framed. Shirt highlight segmentation and ball travel need correction/review.",
+          "blockingIssues": [
+            "Abdominal muscle divisions show through shirt; replace with opaque fabric tint. Ball displacement toward hands is minimal relative to hip rise and needs qualified movement review."
+          ],
+          "canonicalName": "jack knife on ball",
+          "styleVersion": "white-v1",
+          "equipment": "stability ball",
+          "primaryMuscles": [
+            "abs"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only for rendering style. No upstream licensed image input. Style approval is separate from anatomical approval.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Plank-to-pike pair with straight arms, nearly straight legs and supported feet; full ball and limbs framed. Shirt highlight segmentation and ball travel need correction/review.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0503-male-anatomical-white-v1-p1-a818b60eeead.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 29746,
+              "sha256": "a818b60eeead1b14a0cc2ca046c7d099cb474c7fbec409750577d773434b6536"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0503-male-anatomical-white-v1-p2-c3add7b8208d.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 30914,
+              "sha256": "c3add7b8208d12e5df07cdf0cc1f1de4326b657e04fde997f3d257270a152280"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0503-male-anatomical-white-v1-thumb-eb70587a44cf.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 2874,
+            "sha256": "eb70587a44cfc2060a9b2e0193b9d395d47696b0eaa488bd53d37f69e5f1bdf2"
+          },
+          "processingSignature": "21cc780808364cffc702447e39fe4b2c8a9f01a5870053d669569efcd9ca0979",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0503-male-anatomical-white-v1.png",
+            "width": 1774,
+            "height": 887,
+            "bytes": 1693921,
+            "sha256": "1b94a2622f93f303e9833c0c9ced3e11511b642a044a820f7afd3df8706a3495"
+          }
+        },
+        {
+          "exerciseId": "0503",
+          "layout": {
+            "columns": 2,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Hold a straight-body plank with shins supported on the stability ball"
+            },
+            {
+              "key": "p2",
+              "caption": "Lift hips into a pike as the ball rolls toward planted hands"
+            }
+          ],
+          "detail": "TWO equal SIDE-BY-SIDE panels of JACK KNIFE ON BALL. Same SIDE VIEW, head IMAGE LEFT, ball IMAGE RIGHT. LEFT high plank, both flat palms on floor directly below shoulders, arms straight, long straight diagonal head-hip-heel line. Both shins/top feet rest firmly on TOP of large gray spherical STABILITY BALL, ball supports lower legs; toes not touching floor. RIGHT keep palms in EXACT same floor position, arms straight, shoulders stacked over wrists; lift HIPS HIGH into inverted-V pike, both knees NEARLY STRAIGHT; ball rolls LEFT toward hands while feet/top toes remain supported on ball upper surface. Torso descends diagonally from high pelvis to shoulders, legs descend diagonally from pelvis to ball; head neutral between upper arms. Ball remains same diameter, on floor in both panels, no levitation, NO tucked knees. Red primary ABS only low-contrast soft blur on opaque black abdominal shirt, no torso muscle window. Gray legs/arms and entire ball visible.",
+          "variant": "male",
+          "key": "0503-male-anatomical-white-v2",
+          "prompt": "Edit ONLY the sleeveless shirt surfaces of this original two-panel male stability-ball pike illustration. Preserve both poses, limbs, hands, shoes, ball diameter/position, shorts, camera, layout and white background exactly. Repaint ENTIRE shirt fully opaque MATTE BLACK cloth wrapping front, sides and back. Remove ALL six-pack segmentation, navel, muscle fibers and anatomical windows from shirt. Shirt has only broad natural fabric wrinkles, closed hem at waist, no torso skin. Add a very faint soft BLURRY dark red oval PRINT on black cloth at abdomen; unsegmented smooth gradient, with black fabric folds visible across print, no red muscle shapes or lines. Exposed limbs remain fine grayscale anatomical detail. No new objects or text.",
+          "inspectionNote": "Shirt correction removes muscle segmentation and retains opaque fabric with soft red abdominal tint. Pike pose still needs ball-travel and leg-proportion correction.",
+          "canonicalName": "jack knife on ball",
+          "styleVersion": "white-v1",
+          "equipment": "stability ball",
+          "primaryMuscles": [
+            "abs"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only for rendering style. No upstream licensed image input. Style approval is separate from anatomical approval.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 2,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Shirt correction removes muscle segmentation and retains opaque fabric with soft red abdominal tint. Pike pose still needs ball-travel and leg-proportion correction.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0503-male-anatomical-white-v2-p1-14748eb64fe6.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 25122,
+              "sha256": "14748eb64fe64bf9fdf4b749f106f604b4989e28940b1f147aadc0a869d1936f"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0503-male-anatomical-white-v2-p2-5de98ff46d66.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 27502,
+              "sha256": "5de98ff46d66f77a2ff04bdc4202edd395214e4953aec46a2f42a2cbc147c9e0"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0503-male-anatomical-white-v2-thumb-ccab72239fb1.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 2722,
+            "sha256": "ccab72239fb13b5af90fa67164419adb4d7b2b1560541e43ffc6ebd7bba626b7"
+          },
+          "processingSignature": "6e3cdb820e9c56afad0b3c17bca4f62d7c591072dbd1eb7a65f709e0a986cfcd",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0503-male-anatomical-white-v2.png",
+            "width": 1774,
+            "height": 887,
+            "bytes": 1611143,
+            "sha256": "cded6bca7a2a4185633b8945350758c387a8e3b227f4dd387ca85e203351d2d3"
+          },
+          "blockingIssues": [
+            "Pike endpoint ball barely rolls toward hands and leg length appears increased relative to start; correct physical ball/foot position and consistent proportions before publication."
+          ]
+        }
+      ]
+    },
+    {
+      "exerciseId": "0503",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hold a straight-body plank with shins supported on the stability ball"
+        },
+        {
+          "key": "p2",
+          "caption": "Lift hips into a pike as the ball rolls toward planted hands"
+        }
+      ],
+      "detail": "TWO equal SIDE-BY-SIDE panels of JACK KNIFE ON BALL. Same SIDE VIEW, head IMAGE LEFT, ball IMAGE RIGHT. LEFT high plank, both flat palms on floor directly below shoulders, arms straight, long straight diagonal head-hip-heel line. Both shins/top feet rest firmly on TOP of large gray spherical STABILITY BALL, ball supports lower legs; toes not touching floor. RIGHT keep palms in EXACT same floor position, arms straight, shoulders stacked over wrists; lift HIPS HIGH into inverted-V pike, both knees NEARLY STRAIGHT; ball rolls LEFT toward hands while feet/top toes remain supported on ball upper surface. Torso descends diagonally from high pelvis to shoulders, legs descend diagonally from pelvis to ball; head neutral between upper arms. Ball remains same diameter, on floor in both panels, no levitation, NO tucked knees. Red primary ABS only low-contrast soft blur on opaque black abdominal shirt, no torso muscle window. Gray legs/arms and entire ball visible.",
+      "variant": "female",
+      "key": "0503-female-anatomical-white-v2",
+      "prompt": "Correct ONLY the RIGHT pike panel of this original two-panel female stability-ball exercise illustration. LEFT plank panel unchanged. In RIGHT panel roll the SAME diameter stability ball noticeably LEFT toward her planted hands, approximately half the ball diameter (about 130 pixels in this composition), while ball stays on floor at same height. Move BOTH supported shoes/top feet LEFT with the ball, maintain secure top-foot support on upper ball surface. Redraw both NEARLY STRAIGHT legs connecting existing high pelvis to closer feet, preserving the woman's ORIGINAL anatomical leg lengths/proportions from LEFT panel: do not stretch legs or make knees tuck. Keep high hips and straight-arm pike, align hands/shoulders with LEFT panel's planted hand positions relative to each panel boundary, palms flat and arms straight. Preserve woman identity, grayscale exposed anatomy, continuous fully opaque black sleeveless shirt and knee-length black shorts wrapping seat/crotch, diffuse red abdominal cloth tint, pure white background and equal two-panel layout. No new equipment, no text. Whole ball/shoes remain in own panel with white margin.",
+      "inspectionNote": "Ball endpoint now clearly rolled toward hands, supporting feet closer to pelvis with shorter consistent-looking nearly straight legs. Opaque clothing and high pike maintained. Human anatomy, neck alignment, hand positions and support/load review remain pending.",
+      "canonicalName": "jack knife on ball",
+      "styleVersion": "white-v1",
+      "equipment": "stability ball",
+      "primaryMuscles": [
+        "abs"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only for rendering style. No upstream licensed image input. Style approval is separate from anatomical approval.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Ball endpoint now clearly rolled toward hands, supporting feet closer to pelvis with shorter consistent-looking nearly straight legs. Opaque clothing and high pike maintained. Human anatomy, neck alignment, hand positions and support/load review remain pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0503-female-anatomical-white-v2-p1-e30f5f08e668.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 24358,
+          "sha256": "e30f5f08e66851818072cd3c0bb556a3dc5c4319627cfd3ad7dd444408f70d27"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0503-female-anatomical-white-v2-p2-bc29d76c045a.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 24910,
+          "sha256": "bc29d76c045aecad4e3315da141c5cd80146252a357410069035800abf70eb55"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0503-female-anatomical-white-v2-thumb-8a4aa91965d3.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2578,
+        "sha256": "8a4aa91965d3574c7bc6db902c9a69698911584c9e5fc6b2c889ce1133d4e1f2"
+      },
+      "processingSignature": "10e52bf60abffbb730f8d2fc774f78060d2e1374eac6ddbe63e6dc69aa464a64",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0503-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1615808,
+        "sha256": "3a60254e05456d2b6f1644a77f9e9e055e27b25f0e5bfc4ddd96c79499c3fadb"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0503",
+          "layout": {
+            "columns": 2,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Hold a straight-body plank with shins supported on the stability ball"
+            },
+            {
+              "key": "p2",
+              "caption": "Lift hips into a pike as the ball rolls toward planted hands"
+            }
+          ],
+          "detail": "TWO equal SIDE-BY-SIDE panels of JACK KNIFE ON BALL. Same SIDE VIEW, head IMAGE LEFT, ball IMAGE RIGHT. LEFT high plank, both flat palms on floor directly below shoulders, arms straight, long straight diagonal head-hip-heel line. Both shins/top feet rest firmly on TOP of large gray spherical STABILITY BALL, ball supports lower legs; toes not touching floor. RIGHT keep palms in EXACT same floor position, arms straight, shoulders stacked over wrists; lift HIPS HIGH into inverted-V pike, both knees NEARLY STRAIGHT; ball rolls LEFT toward hands while feet/top toes remain supported on ball upper surface. Torso descends diagonally from high pelvis to shoulders, legs descend diagonally from pelvis to ball; head neutral between upper arms. Ball remains same diameter, on floor in both panels, no levitation, NO tucked knees. Red primary ABS only low-contrast soft blur on opaque black abdominal shirt, no torso muscle window. Gray legs/arms and entire ball visible.",
+          "variant": "female",
+          "key": "0503-female-anatomical-white-v1",
+          "prompt": "Use case: scientific-educational. BRAND NEW exercise illustration, attached original project artwork is STYLE REFERENCE ONLY for grayscale detailed anatomy, opaque fabric and white background. DO NOT copy its bench, push-up poses or red chest highlight. Realistic adult FEMALE, detailed silver-gray exposed arm/leg muscles and tendons, monochrome face/hands. Pure WHITE background soft ground shadows, same model/camera/scale/equipment in all panels. Fully OPAQUE matte BLACK sleeveless athletic shirt covers FRONT, BACK and SIDES of chest/abdomen; fully opaque loose knee-length shorts wrap BOTH thighs front/sides/back, SEAT and CROTCH, closed hems, seams/broad cloth folds. NO anatomical muscle shapes, six-pack or navel on cloth, no clothing cutaways, no transparency or bare buttocks. Red target beneath clothing is just a faint blurred red PRINT on intact BLACK CLOTH. Full body, hands, toes and all equipment within EACH panel, ample white margins/gutters. No text, captions, numbers, logos or arrows. TWO equal SIDE-BY-SIDE panels of JACK KNIFE ON BALL. Same SIDE VIEW, head IMAGE LEFT, ball IMAGE RIGHT. LEFT high plank, both flat palms on floor directly below shoulders, arms straight, long straight diagonal head-hip-heel line. Both shins/top feet rest firmly on TOP of large gray spherical STABILITY BALL, ball supports lower legs; toes not touching floor. RIGHT keep palms in EXACT same floor position, arms straight, shoulders stacked over wrists; lift HIPS HIGH into inverted-V pike, both knees NEARLY STRAIGHT; ball rolls LEFT toward hands while feet/top toes remain supported on ball upper surface. Torso descends diagonally from high pelvis to shoulders, legs descend diagonally from pelvis to ball; head neutral between upper arms. Ball remains same diameter, on floor in both panels, no levitation, NO tucked knees. Red primary ABS only low-contrast soft blur on opaque black abdominal shirt, no torso muscle window. Gray legs/arms and entire ball visible.",
+          "inspectionNote": "Female plank/pike pair retains opaque clothing, extended arms, nearly straight legs and ball contact. Ball travel and fixed hand positions need qualified technique review.",
+          "blockingIssues": [
+            "Ball travel toward hands is small relative to hip rise; hand positions shift between phases. Verify/correct physical rolling geometry and neutral plank neck alignment before publication."
+          ],
+          "canonicalName": "jack knife on ball",
+          "styleVersion": "white-v1",
+          "equipment": "stability ball",
+          "primaryMuscles": [
+            "abs"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only for rendering style. No upstream licensed image input. Style approval is separate from anatomical approval.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Female plank/pike pair retains opaque clothing, extended arms, nearly straight legs and ball contact. Ball travel and fixed hand positions need qualified technique review.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0503-female-anatomical-white-v1-p1-cbe01a8b7ee5.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 25438,
+              "sha256": "cbe01a8b7ee50c61d983f39733b73a85f0acadd993ad3023ad7ce6a6dc88114a"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0503-female-anatomical-white-v1-p2-e507c3b4f3b5.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 26810,
+              "sha256": "e507c3b4f3b556cafc540e1d0327ac8fcf16b0feaeb91933df475e34b49dea91"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0503-female-anatomical-white-v1-thumb-5a1fdec22871.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 2616,
+            "sha256": "5a1fdec228711d979085b6647867a0d9f9e4a340907ae4c045ea646d2b9dbba7"
+          },
+          "processingSignature": "b80402fc7e4bbab71c9f24741962793695275e9943bf07aba13c86b877ffbf20",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0503-female-anatomical-white-v1.png",
+            "width": 1774,
+            "height": 887,
+            "bytes": 1659450,
+            "sha256": "9157d6a9533b2bb30ef87450c9af7d068bb571395d750e8ddf4ee066e3535f31"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "0520",
+      "layout": {
+        "columns": 3,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand with both kettlebells at shoulder height in rack position"
+        },
+        {
+          "key": "p2",
+          "caption": "Press one kettlebell overhead while the opposite bell stays racked"
+        },
+        {
+          "key": "p3",
+          "caption": "Return the first bell to rack and press the opposite kettlebell overhead"
+        }
+      ],
+      "detail": "THREE equal SIDE-BY-SIDE panels of KETTLEBELL ALTERNATING PRESS, same FRONT three-quarter view. Feet shoulder-width planted, neutral upright ribcage/pelvis, no leg drive/back arch. Exactly TWO matching gray round kettlebells per panel, each has arched metal HANDLE fully enclosed in one hand and round BODY hanging below handle/resting against OUTSIDE/back of wrist/forearm. LEFT both elbows bent, bells held at shoulder height in secure rack, wrists neutral. MIDDLE model RIGHT arm (IMAGE LEFT) extends overhead fully straight with right wrist over elbow over shoulder, bell mass rests behind/outside right forearm; LEFT arm remains bent at shoulder holding its bell in rack. RIGHTmost reverse: RIGHT arm returned to same shoulder rack, model LEFT arm (IMAGE RIGHT) now extends overhead, bell behind/outside forearm. Arms pass in scapular plane, bells do not merge into hands or disappear, no floating handles. Same two bells/grips/person across panels. Primary DELTOIDS exposed red only at BOTH shoulder caps in all three phases; pectorals/triceps/forearms neutral gray. Shirt entirely solid black no chest tint. Fully opaque clothes front/back/seat/crotch. Generous top margin above overhead bells and bottom below shoes, whole fingers and bells visible.",
+      "variant": "male",
+      "key": "0520-male-anatomical-white-v1",
+      "prompt": "Use case: scientific-educational. BRAND NEW exercise illustration, attached original project artwork is STYLE REFERENCE ONLY for grayscale detailed anatomy, opaque fabric and white background. DO NOT copy its bench, push-up poses or red chest highlight. Realistic adult MALE, detailed silver-gray exposed arm/leg muscles and tendons, monochrome face/hands. Pure WHITE background soft ground shadows, same model/camera/scale/equipment in all panels. Fully OPAQUE matte BLACK sleeveless athletic shirt covers FRONT, BACK and SIDES of chest/abdomen; fully opaque loose knee-length shorts wrap BOTH thighs front/sides/back, SEAT and CROTCH, closed hems, seams/broad cloth folds. NO anatomical muscle shapes, six-pack or navel on cloth, no clothing cutaways, no transparency or bare buttocks. Red target beneath clothing is just a faint blurred red PRINT on intact BLACK CLOTH. Full body, hands, toes and all equipment within EACH panel, ample white margins/gutters. No text, captions, numbers, logos or arrows. THREE equal SIDE-BY-SIDE panels of KETTLEBELL ALTERNATING PRESS, same FRONT three-quarter view. Feet shoulder-width planted, neutral upright ribcage/pelvis, no leg drive/back arch. Exactly TWO matching gray round kettlebells per panel, each has arched metal HANDLE fully enclosed in one hand and round BODY hanging below handle/resting against OUTSIDE/back of wrist/forearm. LEFT both elbows bent, bells held at shoulder height in secure rack, wrists neutral. MIDDLE model RIGHT arm (IMAGE LEFT) extends overhead fully straight with right wrist over elbow over shoulder, bell mass rests behind/outside right forearm; LEFT arm remains bent at shoulder holding its bell in rack. RIGHTmost reverse: RIGHT arm returned to same shoulder rack, model LEFT arm (IMAGE RIGHT) now extends overhead, bell behind/outside forearm. Arms pass in scapular plane, bells do not merge into hands or disappear, no floating handles. Same two bells/grips/person across panels. Primary DELTOIDS exposed red only at BOTH shoulder caps in all three phases; pectorals/triceps/forearms neutral gray. Shirt entirely solid black no chest tint. Fully opaque clothes front/back/seat/crotch. Generous top margin above overhead bells and bottom below shoes, whole fingers and bells visible.",
+      "inspectionNote": "Three male alternating-press phases: two-bell rack, right overhead/left rack, then left overhead/right rack. Closed grips, external bell bodies, full opaque clothing and deltoid highlights visible. Human shoulder alignment, wrist/grip and load review pending.",
+      "canonicalName": "kettlebell alternating press",
+      "styleVersion": "white-v1",
+      "equipment": "kettlebell",
+      "primaryMuscles": [
+        "delts"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only for rendering style. No upstream licensed image input. Style approval is separate from anatomical approval.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Three male alternating-press phases: two-bell rack, right overhead/left rack, then left overhead/right rack. Closed grips, external bell bodies, full opaque clothing and deltoid highlights visible. Human shoulder alignment, wrist/grip and load review pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0520-male-anatomical-white-v1-p1-ffcb9c1a0cb2.webp",
+          "width": 591,
+          "height": 887,
+          "bytes": 20576,
+          "sha256": "ffcb9c1a0cb27a218010bcfb338413776e7bd2e57a7a86cf5db699a1003b26e0"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0520-male-anatomical-white-v1-p2-13e3caba787c.webp",
+          "width": 592,
+          "height": 887,
+          "bytes": 21452,
+          "sha256": "13e3caba787c54ccc7f7eee3ae7665053cbac40f9d31c486e8f182d318ff4731"
+        },
+        {
+          "pose": "p3",
+          "path": "/workout/illustration-pilot/0520-male-anatomical-white-v1-p3-e0ea0561af47.webp",
+          "width": 591,
+          "height": 887,
+          "bytes": 22552,
+          "sha256": "e0ea0561af47d481a93615783008425cf594d251d25f302d7f20540f712f8f35"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0520-male-anatomical-white-v1-thumb-ae0fb424d87a.webp",
+        "width": 160,
+        "height": 240,
+        "bytes": 2210,
+        "sha256": "ae0fb424d87a720afecf80507e644ff169acd415b68a689ffb1c2619f4ec468b"
+      },
+      "processingSignature": "d3e7d21a32fc739cc339f48a1b4121b27b3def9f50e837103b05ecf0af91f30f",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0520-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1699367,
+        "sha256": "e18d6d469fb82e0e3aeae5c62122e5fd0bf26f31a715f416483c34c349f62f8a"
+      }
+    },
+    {
+      "exerciseId": "0520",
+      "layout": {
+        "columns": 3,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand with both kettlebells at shoulder height in rack position"
+        },
+        {
+          "key": "p2",
+          "caption": "Press one kettlebell overhead while the opposite bell stays racked"
+        },
+        {
+          "key": "p3",
+          "caption": "Return the first bell to rack and press the opposite kettlebell overhead"
+        }
+      ],
+      "detail": "THREE equal SIDE-BY-SIDE panels of KETTLEBELL ALTERNATING PRESS, same FRONT three-quarter view. Feet shoulder-width planted, neutral upright ribcage/pelvis, no leg drive/back arch. Exactly TWO matching gray round kettlebells per panel, each has arched metal HANDLE fully enclosed in one hand and round BODY hanging below handle/resting against OUTSIDE/back of wrist/forearm. LEFT both elbows bent, bells held at shoulder height in secure rack, wrists neutral. MIDDLE model RIGHT arm (IMAGE LEFT) extends overhead fully straight with right wrist over elbow over shoulder, bell mass rests behind/outside right forearm; LEFT arm remains bent at shoulder holding its bell in rack. RIGHTmost reverse: RIGHT arm returned to same shoulder rack, model LEFT arm (IMAGE RIGHT) now extends overhead, bell behind/outside forearm. Arms pass in scapular plane, bells do not merge into hands or disappear, no floating handles. Same two bells/grips/person across panels. Primary DELTOIDS exposed red only at BOTH shoulder caps in all three phases; pectorals/triceps/forearms neutral gray. Shirt entirely solid black no chest tint. Fully opaque clothes front/back/seat/crotch. Generous top margin above overhead bells and bottom below shoes, whole fingers and bells visible.",
+      "variant": "female",
+      "key": "0520-female-anatomical-white-v1",
+      "prompt": "Use case: scientific-educational. BRAND NEW exercise illustration, attached original project artwork is STYLE REFERENCE ONLY for grayscale detailed anatomy, opaque fabric and white background. DO NOT copy its bench, push-up poses or red chest highlight. Realistic adult FEMALE, detailed silver-gray exposed arm/leg muscles and tendons, monochrome face/hands. Pure WHITE background soft ground shadows, same model/camera/scale/equipment in all panels. Fully OPAQUE matte BLACK sleeveless athletic shirt covers FRONT, BACK and SIDES of chest/abdomen; fully opaque loose knee-length shorts wrap BOTH thighs front/sides/back, SEAT and CROTCH, closed hems, seams/broad cloth folds. NO anatomical muscle shapes, six-pack or navel on cloth, no clothing cutaways, no transparency or bare buttocks. Red target beneath clothing is just a faint blurred red PRINT on intact BLACK CLOTH. Full body, hands, toes and all equipment within EACH panel, ample white margins/gutters. No text, captions, numbers, logos or arrows. THREE equal SIDE-BY-SIDE panels of KETTLEBELL ALTERNATING PRESS, same FRONT three-quarter view. Feet shoulder-width planted, neutral upright ribcage/pelvis, no leg drive/back arch. Exactly TWO matching gray round kettlebells per panel, each has arched metal HANDLE fully enclosed in one hand and round BODY hanging below handle/resting against OUTSIDE/back of wrist/forearm. LEFT both elbows bent, bells held at shoulder height in secure rack, wrists neutral. MIDDLE model RIGHT arm (IMAGE LEFT) extends overhead fully straight with right wrist over elbow over shoulder, bell mass rests behind/outside right forearm; LEFT arm remains bent at shoulder holding its bell in rack. RIGHTmost reverse: RIGHT arm returned to same shoulder rack, model LEFT arm (IMAGE RIGHT) now extends overhead, bell behind/outside forearm. Arms pass in scapular plane, bells do not merge into hands or disappear, no floating handles. Same two bells/grips/person across panels. Primary DELTOIDS exposed red only at BOTH shoulder caps in all three phases; pectorals/triceps/forearms neutral gray. Shirt entirely solid black no chest tint. Fully opaque clothes front/back/seat/crotch. Generous top margin above overhead bells and bottom below shoes, whole fingers and bells visible.",
+      "inspectionNote": "Three female alternating-press phases retain both matching bells, secure-looking grips, shoulder-height opposite rack and alternating straight overhead arm. Fully opaque wrapping black clothing and exposed red deltoids retained. Human anatomy, wrist/load alignment and technique approval pending.",
+      "canonicalName": "kettlebell alternating press",
+      "styleVersion": "white-v1",
+      "equipment": "kettlebell",
+      "primaryMuscles": [
+        "delts"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only for rendering style. No upstream licensed image input. Style approval is separate from anatomical approval.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Three female alternating-press phases retain both matching bells, secure-looking grips, shoulder-height opposite rack and alternating straight overhead arm. Fully opaque wrapping black clothing and exposed red deltoids retained. Human anatomy, wrist/load alignment and technique approval pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0520-female-anatomical-white-v1-p1-3fb6f43049b3.webp",
+          "width": 591,
+          "height": 887,
+          "bytes": 21032,
+          "sha256": "3fb6f43049b393cb710b4fd093bff842820b993b0adf34d88285662564250d7d"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0520-female-anatomical-white-v1-p2-efe2bd434d81.webp",
+          "width": 592,
+          "height": 887,
+          "bytes": 21908,
+          "sha256": "efe2bd434d816e4677ccb33f779f28a5c29a3031fe17a19f09603385e0894126"
+        },
+        {
+          "pose": "p3",
+          "path": "/workout/illustration-pilot/0520-female-anatomical-white-v1-p3-6422270b2da8.webp",
+          "width": 591,
+          "height": 887,
+          "bytes": 22626,
+          "sha256": "6422270b2da8bb4529fd26fd485cd6d7fcda9ae17dc004f53cfd52bb4ebc5beb"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0520-female-anatomical-white-v1-thumb-e78ee9937ace.webp",
+        "width": 160,
+        "height": 240,
+        "bytes": 2252,
+        "sha256": "e78ee9937ace2ff4cb7aebe20cde13b5e6a81958f59335d5723059f17a1cde79"
+      },
+      "processingSignature": "273771d920b487c9d5b2678ca0f3524ec0cee790c557ee911f82f54a7ddac5bf",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0520-female-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1749783,
+        "sha256": "e9a718f4fe8282b8360f307aa6d8d2a5ea7fb2288e773a8487dd25766931905d"
+      }
+    }
+  ]
+}

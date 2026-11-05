@@ -1,0 +1,92 @@
+{
+  "batch": 152,
+  "runId": "5b06d76f-f349-42a8-9931-394d242aff07",
+  "trigger": "2026-11-03T06:52:27.164Z",
+  "completedAt": "2026-11-03T07:08:51.990995+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 4,
+  "generationCalls": 5,
+  "exerciseIds": [
+    "1004",
+    "1006"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 616,
+    "remainingVariants": 10648,
+    "approvedVariants": 0,
+    "blockedVariants": 213,
+    "knownPoseImages": 1250,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Four candidates, eight poses, five built-in calls including one retained male squat cloth-surface correction. Squat pairs show standing to hips-back near-parallel squat, grounded heels and loop above knees; male edit softens glute tint over opaque shorts but residual fine streaks and loop distance above kneecaps need qualified review. Rear delt row pairs show chest-height anchor, forward arms to high wide elbows and handles toward upper chest, exposed rear-shoulder red. Far hand partly occluded; bilateral grip, band clearance, elbow path and shoulder symmetry require qualified review. Fine exposed grayscale anatomy and continuous opaque shirt/shorts visually retained. Every original, exact prompt and correction history saved; no anatomy/clothing approval or publication. Original project artwork used for rendering style only, no upstream licensed input. Seven pipeline checks do not establish anatomical accuracy.",
+  "metadataConflictsDeferred": {
+    "1009": "Ankle loop versus hand-held band deadlift anchor/contact unresolved.",
+    "1010": "Spine target conflicts with gluteal/hamstring primary map.",
+    "1011": "Waist loop seated twist resistance anchor undefined.",
+    "1014": "V-up band load/anchor undefined.",
+    "1015": "Vertical title conflicts with forward chest-height Pallof instructions."
+  },
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 981695978,
+  "savedMasters": [
+    {
+      "exerciseId": "1004",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1004-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1625772,
+        "sha256": "edd131265ab6089417a6406fd875f7136f8ca88bcc16264f5e3561fd2e0a51d2"
+      }
+    },
+    {
+      "exerciseId": "1004",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1004-female-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1240142,
+        "sha256": "6fc4b7d60b425b5692038736bba2d6ae83f8f2104c447832a52c8a288fd67a19"
+      }
+    },
+    {
+      "exerciseId": "1006",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1006-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1299401,
+        "sha256": "ed20f8ec8b720b6b12f0cf5b1e8ccbc9bceadf649dfc534da14cdc45861d532a"
+      }
+    },
+    {
+      "exerciseId": "1006",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1006-female-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1340417,
+        "sha256": "d8d79a246cc8c1a2a429fb29970551b9c2e3be8ae3b420631b4065f73084909b"
+      }
+    }
+  ]
+}

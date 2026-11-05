@@ -1,0 +1,78 @@
+{
+  "batch": 248,
+  "runId": "ea605720-1443-4561-94e7-3c71ed5acc36",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "trigger": "2026-11-03T20:17:52.693Z",
+  "purpose": "batch248 scheduled male continuation",
+  "started": "2026-11-03T20:18:22.978769+00:00",
+  "completedAt": "2026-11-03T20:29:12.036295+00:00",
+  "actualToolName": "image_gen__imagegen",
+  "calls": 4,
+  "newCandidateSets": 4,
+  "exerciseIds": [
+    "1910",
+    "1913",
+    "1916",
+    "1922"
+  ],
+  "variants": [
+    "male"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 865,
+    "remainingVariants": 10399,
+    "approvedVariants": 0,
+    "blockedVariants": 276,
+    "knownPoseImages": 1677,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 492,
+      "remainingVariants": 5140,
+      "blockedVariants": 157
+    }
+  },
+  "reviewNotes": {
+    "1910": "Standing heel-on-bench hamstring stretch: elevated leg straight/toes up, supporting foot grounded and torso hinged with coherent body orientation. Qualified review needed for exact raised-leg hamstring versus adductor mapping, hip squareness, neutral neck and knee softness.",
+    "1913": "Half-kneeling hamstring stretch: front leg straight heel grounded toes up, opposite knee/shin supported and both palms on floor. Qualified review needed for hip hinge, neutral cervical position, knee not locking and posterior-thigh mapping.",
+    "1916": "Standing forward fold: feet grounded hip width, arms/head hang, red posterior hamstrings visible below intact shorts. Qualified review needed for gentle knee flexion, hip hinge versus excessive spinal rounding and hamstring mapping.",
+    "1922": "Supine towel hamstring stretch: one straight leg raised, opposite leg flat, towel at forefoot held with both hands. BLOCKED: head lifted off floor rather than supported; restore supported neutral head/neck. Qualified review needed for towel contact, knee extension and raised-leg hamstring mapping."
+  },
+  "blockingIssues": {
+    "1922": [
+      "Head floats above floor instead of supported neutral cervical position. Correct head support."
+    ]
+  },
+  "tests": 7,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "workerSyncResult": {
+    "statuses": {
+      "generated": 865,
+      "pending": 10399
+    },
+    "remaining": 10399,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 1340669242
+  },
+  "publicationIndexUnchanged": true,
+  "savedMasters": [
+    "assets/exercise-illustrations/generated/1910-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/1913-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/1916-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/1922-male-anatomical-white-v1.png"
+  ]
+}

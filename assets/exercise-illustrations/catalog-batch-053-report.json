@@ -1,0 +1,97 @@
+{
+  "batch": 53,
+  "trigger": "2026-11-01T11:14:14.723Z",
+  "completedAt": "2026-11-01T11:23:46.084351+00:00",
+  "tool": "image_gen.imagegen",
+  "newCandidateSets": 4,
+  "generationCalls": 4,
+  "exerciseIds": [
+    "0514",
+    "5857"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 208,
+    "remainingVariants": 11056,
+    "approvedVariants": 0,
+    "blockedVariants": 95,
+    "knownPoseImages": 420,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "All pending, unpublished. Jump squat has three static phases including airborne and landing; opaque seat/crotch and cloth folds inspected. Male crop bounds adjusted to include middle hands and delivered airborne crop visually inspected. No continuous-motion claim. Kettlebell curls use allowed two-hand option but both blocked for changed handle contact across poses. Qualified anatomical/plyometric technique review remains required.",
+  "metadataConflictsDeferred": [
+    {
+      "exerciseId": "0459",
+      "issue": "Target glutes conflicts with described flutter-kick lower-abs/hip-flexor movement; deferred."
+    },
+    {
+      "exerciseId": "0530",
+      "issue": "Double windmill description has two kettlebells, instructions one and ambiguous lowering; deferred."
+    },
+    {
+      "exerciseId": "0480",
+      "issue": "Cardiovascular-system target not an anatomical muscle region; no highlight guessed."
+    }
+  ],
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 336241565,
+  "savedMasters": [
+    {
+      "exerciseId": "0514",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0514-male-anatomical-white-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1515368,
+        "sha256": "6afd182c60ec2ace72d3e99e476c99bd63085c88eea50ce33279fdf8627dbe56"
+      }
+    },
+    {
+      "exerciseId": "0514",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0514-female-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1525319,
+        "sha256": "bfa2d36298ef7156ded6dd98f418c1e75f962dd0c28925eef4a57882ff1c6c06"
+      }
+    },
+    {
+      "exerciseId": "5857",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/5857-male-anatomical-white-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1433979,
+        "sha256": "7fecfccea6dea87f3e5d9127749d13ecafe56950a5757e6dbf1e71adc6da227d"
+      }
+    },
+    {
+      "exerciseId": "5857",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/5857-female-anatomical-white-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1409872,
+        "sha256": "90a8b3ff4d554451b0cec0f41d89d1f2a9efe3c3a0f74d8015b8935aff5e70ce"
+      }
+    }
+  ]
+}

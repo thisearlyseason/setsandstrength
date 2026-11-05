@@ -1,0 +1,329 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "3350",
+      "variant": "male",
+      "key": "3350-male-anatomical-white-v1",
+      "prompt": "Two equal panels same rear three-quarter view. Cable LATERAL LUNGE standing SIDEWAYS to stack on viewer LEFT; one LOW pulley routes cable to double-handed handle held against chest. Panel 1 upright feet hip width. Panel 2 step RIGHT foot away from stack to model RIGHT, bend RIGHT knee and sit hips BACK over RIGHT heel, LEFT leg stays straight reaching toward stack, both feet flat toes forward. Torso tall, handle stays chest, same low left cable attached. Right loaded glute primary SMALL PLAIN red wash on intact RIGHT seat shorts ONLY, everything else gray/black. Premium detailed adult MALE grayscale anatomical illustration on pure white, soft contact shadows, realistic equipment, detailed exposed gray muscles. Original project artwork reference STYLE ONLY. Opaque black tank and mid-thigh shorts fully wrap front sides back seat crotch with seams/folds/hems. Covered red highlight SMALL PLAIN UNIFORM wash on intact fabric, NO anatomical fibers/lobes/segments/cutaways. Exactly one head two arms/hands two legs/feet per figure. Same camera/model/scale across panels, whole body/equipment in frame. No text arrows logos.",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand sideways to low cable, holding handle at chest."
+        },
+        {
+          "key": "p2",
+          "caption": "Step sideways away from stack and sit into that hip; return and switch sides after reps."
+        }
+      ],
+      "inspectionNote": "Real output inspected. Low cable chest handle and side step visible, but stance faces toward stack instead of clearly side-on; red wash appears on straight-leg-side hip rather than loaded bent-leg glute. Opaque clothing. Correction required. Human anatomy review pending. No approval or publication.",
+      "blockingIssues": [
+        "Show torso clearly sideways to stack and bent-leg-side loaded glute highlight consistently."
+      ],
+      "canonicalName": "cable lateral lunge",
+      "styleVersion": "white-v1",
+      "equipment": "cable",
+      "primaryMuscles": [
+        "glutes"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Low cable chest handle and side step visible, but stance faces toward stack instead of clearly side-on; red wash appears on straight-leg-side hip rather than loaded bent-leg glute. Opaque clothing. Correction required. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/3350-male-anatomical-white-v1-p1-ddac0966d77e.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 35942,
+          "sha256": "ddac0966d77ec3c97e31bad60b67934c785c31159a0270cdfe36a14ada6d3d2a"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/3350-male-anatomical-white-v1-p2-89017fe1591d.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 38002,
+          "sha256": "89017fe1591d120f70fc6f72d73349cc15ea3637dff70d8287813c6742076216"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-350.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/3350-male-anatomical-white-v1-thumb-4e7b4cde520c.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 3770,
+        "sha256": "4e7b4cde520ca08323b700c6c44f6d9f937ff259bea0566d2a453de0ff932234"
+      },
+      "processingSignature": "4ee72c882a17b2c4893778fb787818468692a8fa6e05a6ea29f0d045c57ae36b",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/3350-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1457196,
+        "sha256": "a072be48c0c8c9bb54fdb6e33770e721ff267237f02248388edbd2f83c767ff7"
+      }
+    },
+    {
+      "exerciseId": "3352",
+      "variant": "male",
+      "key": "3352-male-anatomical-white-v1",
+      "prompt": "Two equal panels same SIDE three-quarter view headRIGHT shows rear hip. KNEELING CABLE PULL THROUGH facing AWAY from LOW pulley behind on LEFT. Both knees and shins on floor hip width. One ROPE attachment has two ends held one per hand, cable runs from low rear pulley BETWEEN LEGS to rope in front, no cable through body. Panel 1 HINGE sit hips BACK toward heels with flat back torso inclined forward, arms straight hands back between knees. Panel 2 extend hips into TALL KNEELING body shoulder-hip-knee straight vertical, rope held in front of pelvis arms straight. Knees fixed both poses. Primary GLUTES small plain uniform red wash on intact black seat shorts ONLY. Premium detailed adult MALE grayscale anatomical illustration on pure white, soft contact shadows, realistic equipment, detailed exposed gray muscles. Original project artwork reference STYLE ONLY. Opaque black tank and mid-thigh shorts fully wrap front sides back seat crotch with seams/folds/hems. Covered red highlight SMALL PLAIN UNIFORM wash on intact fabric, NO anatomical fibers/lobes/segments/cutaways. Exactly one head two arms/hands two legs/feet per figure. Same camera/model/scale across panels, whole body/equipment in frame. No text arrows logos.",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Kneel facing away from low cable and hinge hips back with rope between legs."
+        },
+        {
+          "key": "p2",
+          "caption": "Extend hips to tall kneeling, squeeze glutes, then hinge back."
+        }
+      ],
+      "inspectionNote": "Real output inspected. Kneeling hinge then tall kneeling with low rear cable and rope between legs, opaque shorts/plain glute wash. Qualified hidden cable routing, hip hinge depth, knee contact and neck alignment review pending. Human anatomy review pending. No approval or publication.",
+      "canonicalName": "cable kneeling pull through",
+      "styleVersion": "white-v1",
+      "equipment": "cable",
+      "primaryMuscles": [
+        "glutes"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Kneeling hinge then tall kneeling with low rear cable and rope between legs, opaque shorts/plain glute wash. Qualified hidden cable routing, hip hinge depth, knee contact and neck alignment review pending. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/3352-male-anatomical-white-v1-p1-d419967c5b49.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 36828,
+          "sha256": "d419967c5b49f71b6308a3506eaf5c410e36015e0f365ff976833c9fe41a673b"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/3352-male-anatomical-white-v1-p2-b957ecdc9f3b.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 36688,
+          "sha256": "b957ecdc9f3ba13d6083545a68ef316be23b82d312dc7d31e1b40adc78e163c7"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-350.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/3352-male-anatomical-white-v1-thumb-f800de8962bb.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 3778,
+        "sha256": "f800de8962bb0bb902f57dd93dc9dea913230aa85ae2b2e054d816c79a997d36"
+      },
+      "processingSignature": "dc6fe2acf94e473c529af21a8bdd4c098f46120e15fc158257bd79ccbf936351",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/3352-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1487947,
+        "sha256": "3bfd819a6c80872282a3ba1a9088f848970fdc56c9d1d23873b0f525f632add1"
+      }
+    },
+    {
+      "exerciseId": "3353",
+      "variant": "male",
+      "key": "3353-male-anatomical-white-v1",
+      "prompt": "Two equal panels same SIDE three-quarter camera headRIGHT. SINGLE RIGHT ARM high-pulley overhead triceps extension. HIGH pulley BEHIND model at LEFT at head height, visible cable to ONE handle in RIGHT hand. Split stance facing RIGHT, modest forward lean fixed. RIGHT upper arm points diagonally FORWARD/UP about45 degrees, elbow above shoulder all poses. Panel 1 RIGHT elbow bent about90 hand BEHIND head, cable taut behind. Panel 2 SAME right upper arm remains fixed, extend elbow so RIGHT arm straight diagonally FORWARD/UP, cable still connected to rear high pulley. LEFT free hand rests left hip. Primary exposed RIGHT TRICEPS red ONLY, tank black. Premium detailed adult MALE grayscale anatomical illustration on pure white, soft contact shadows, realistic equipment, detailed exposed gray muscles. Original project artwork reference STYLE ONLY. Opaque black tank and mid-thigh shorts fully wrap front sides back seat crotch with seams/folds/hems. Covered red highlight SMALL PLAIN UNIFORM wash on intact fabric, NO anatomical fibers/lobes/segments/cutaways. Exactly one head two arms/hands two legs/feet per figure. Same camera/model/scale across panels, whole body/equipment in frame. No text arrows logos.",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Face away from high pulley with handle behind head and elbow pointing up."
+        },
+        {
+          "key": "p2",
+          "caption": "Keep upper arm still and extend elbow forward/up; return slowly and switch arms after set."
+        }
+      ],
+      "inspectionNote": "Real output inspected. Single-arm high-pulley overhead extension with split stance and triceps-only highlight. Upper arm shifts forward between bent and extended poses instead of staying fixed; correction flagged. Opaque clothing; qualified grip and elbow review pending. Human anatomy review pending. No approval or publication.",
+      "blockingIssues": [
+        "Keep upper arm fixed at same forward/upward angle while only elbow extends."
+      ],
+      "canonicalName": "cable one arm high pulley overhead tricep extension",
+      "styleVersion": "white-v1",
+      "equipment": "cable",
+      "primaryMuscles": [
+        "triceps"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Single-arm high-pulley overhead extension with split stance and triceps-only highlight. Upper arm shifts forward between bent and extended poses instead of staying fixed; correction flagged. Opaque clothing; qualified grip and elbow review pending. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/3353-male-anatomical-white-v1-p1-91ca8375496c.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 42460,
+          "sha256": "91ca8375496c6b2d853c2c3172729ef074642c79ba599d8583096d078a198b46"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/3353-male-anatomical-white-v1-p2-c9a6d558bb20.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 43912,
+          "sha256": "c9a6d558bb208669f34a8fb6bc05afe4043d38fb9ebc25c345f4b389c38c4d65"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-350.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/3353-male-anatomical-white-v1-thumb-0e0558738d06.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 4554,
+        "sha256": "0e0558738d06d66d203c177fa4573908e95d27b716dd2a44f7841ac645f4a023"
+      },
+      "processingSignature": "9ea591f843ab36e8a32eaf8d9e1d615cf5292b7ff58c49f71acafec333e99904",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/3353-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1541897,
+        "sha256": "c1680be5de8737e52f0baa1f4d9613092b0094e84c5dacdf6efce2b89923f275"
+      }
+    },
+    {
+      "exerciseId": "3354",
+      "variant": "male",
+      "key": "3354-male-anatomical-white-v1",
+      "prompt": "Two equal panels same SIDE three-quarter view headLEFT. Cable FRONT SQUAT facing stack in FRONT LEFT. LOW pulley at ankle height connects visible cable to ONE double-handed handle held against CHEST. Feet shoulder width heels planted. Panel 1 standing tall. Panel 2 deep controlled squat thighs slightly below parallel, knees track toes, torso upright handle still chest. Same machine and foot position. Primary QUADRICEPS red on exposed front thighs and SMALL PLAIN UNIFORM wash on INTACT FRONT black shorts with clearly visible hems, no fibers on cloth. Tank stays black. Premium detailed adult MALE grayscale anatomical illustration on pure white, soft contact shadows, realistic equipment, detailed exposed gray muscles. Original project artwork reference STYLE ONLY. Opaque black tank and mid-thigh shorts fully wrap front sides back seat crotch with seams/folds/hems. Covered red highlight SMALL PLAIN UNIFORM wash on intact fabric, NO anatomical fibers/lobes/segments/cutaways. Exactly one head two arms/hands two legs/feet per figure. Same camera/model/scale across panels, whole body/equipment in frame. No text arrows logos.",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand facing low cable with handle against chest."
+        },
+        {
+          "key": "p2",
+          "caption": "Squat deeply within control, knees tracking toes; stand through heels."
+        }
+      ],
+      "inspectionNote": "Real output inspected. Low front cable chest handle standing and deep squat, heels grounded. Red anatomical quad details appear through shorts near front hem in squat, requiring correction; qualified depth, knees and grip review pending. Human anatomy review pending. No approval or publication.",
+      "blockingIssues": [
+        "Preserve fully opaque front shorts with clear hems and plain red wash, removing anatomical quad pattern through fabric."
+      ],
+      "canonicalName": "cable front squat v. 2",
+      "styleVersion": "white-v1",
+      "equipment": "cable",
+      "primaryMuscles": [
+        "quads"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Low front cable chest handle standing and deep squat, heels grounded. Red anatomical quad details appear through shorts near front hem in squat, requiring correction; qualified depth, knees and grip review pending. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/3354-male-anatomical-white-v1-p1-9afa087770fb.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 44940,
+          "sha256": "9afa087770fbc1d0a488da322cbf46e91b3193b9ba1eea1de14e4c8cca8d2dc8"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/3354-male-anatomical-white-v1-p2-71da319c00be.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 43004,
+          "sha256": "71da319c00be2c84ddd037777225afbc255846a7e39604cad635ece699b52801"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-350.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/3354-male-anatomical-white-v1-thumb-68b0c54e3bb1.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 4806,
+        "sha256": "68b0c54e3bb1405e4a4e3d1bb4cb5aa0424b2f1d6b8ab07f35d353efbf7fdc60"
+      },
+      "processingSignature": "d45830c86c16962437a9feef659cab731b5696c542b7101efee11232eedb4168",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/3354-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1525249,
+        "sha256": "751a11391f4832c2f9bbf0439000261923e9d5dc5cf755787bbf173d656de510"
+      }
+    }
+  ]
+}

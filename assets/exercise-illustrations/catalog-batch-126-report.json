@@ -1,0 +1,88 @@
+{
+  "batch": 126,
+  "trigger": "2026-11-02T23:42:23.918Z",
+  "completedAt": "2026-11-02T23:56:15.879856+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 4,
+  "generationCalls": 8,
+  "exerciseIds": [
+    "0751",
+    "0757"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 514,
+    "remainingVariants": 10750,
+    "approvedVariants": 0,
+    "blockedVariants": 203,
+    "knownPoseImages": 1060,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Four candidate sets, eight poses, eight built-in calls and four retained corrections. Close-grip Smith press pairs retain narrow grip, exposed triceps highlights, supported head and grounded feet. Corrections still leave lower bar appearing near neck/upper chest rather than clear mid/lower sternum: BOTH BLOCKED for bar contact/path correction. Incline pairs corrected to lower backrest angles and smoother upper-chest shirt tint, but head extends above pad and direct skull support remains uncertain: BOTH BLOCKED for head/bench contact correction. Detailed exposed grayscale anatomy and full opaque shirt/shorts retained. Qualified bench angle, wrists/elbows, bar path, equipment geometry, proportions and muscle mapping remain pending. All original masters, exact prompts and correction history saved. No anatomy approval or publication. Original project artwork style only, no upstream media. Pipeline checks do not approve anatomy.",
+  "metadataConflictsDeferred": {
+    "0755": "Description feet forward of bar conflicts with instructions stepping back and widening stance.",
+    "0756": "Target abs conflicts with description glute/hamstring hip raise; support-pad setup undefined."
+  },
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 838689791,
+  "savedMasters": [
+    {
+      "exerciseId": "0751",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0751-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1683231,
+        "sha256": "f52c09f407cc0e056cb646a2ff02313580413ecc0eb399719e71499d6a3cd2fe"
+      }
+    },
+    {
+      "exerciseId": "0751",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0751-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1564811,
+        "sha256": "b51b6b4b493dcfcfee9ee87bd2e70ca9ac447a448640f8de89932bfae1a3edc7"
+      }
+    },
+    {
+      "exerciseId": "0757",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0757-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1668147,
+        "sha256": "af78f5783638aabe9c9da16cbbe710d8d7dc303ed822482cec2ccb016a1a79c3"
+      }
+    },
+    {
+      "exerciseId": "0757",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0757-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1610292,
+        "sha256": "b34e811462408e66ed92e31774a27dd721d82a0a5fcce5d35595919b7ce82e51"
+      }
+    }
+  ]
+}

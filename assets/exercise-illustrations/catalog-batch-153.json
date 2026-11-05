@@ -1,0 +1,162 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "1018",
+      "variant": "male",
+      "key": "1018-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand tall on the band with straight relaxed arms and shoulders lowered."
+        },
+        {
+          "key": "p2",
+          "caption": "Raise both shoulders toward the ears without bending the elbows, then lower under control."
+        }
+      ],
+      "prompt": "Original premium ADULT male exercise anatomical illustration, BAND SHRUG canonical1018. TWO equal SQUARE cells side by side wide LANDSCAPE 2:1. Same full-body model, scale, front three-quarter camera and posture both cells. Stand tall feet shoulder-width, gray elastic band securely pinned beneath BOTH SHOES, two separate taut strands outside legs to closed hands holding ends/handles in front of outer thighs, palms toward thighs neutral wrists. LEFT start shoulders relaxed DOWN. RIGHT finish lift BOTH SHOULDERS STRAIGHT UP toward ears, straight relaxed arms stay vertical without elbow bending; hands rise only a few centimeters as shoulders elevate. Head stationary upright, neck neutral, no shoulder rolling, no rowing or arm raise, no torso lean. Band slightly more stretched in finish. Primary UPPER TRAPEZIUS either side of neck RED on exposed upper shoulder/neck only, no chest/biceps red. Fine detailed grayscale anatomical contours on exposed arms/neck/legs; realistic hands and equipment. Full OPAQUE BLACK scoop-neck athletic tank and MID-THIGH SHORTS wrapping front sides back seat crotch, continuous seams and broad cloth folds, no cutaways/transparency/anatomical fibers through cloth. Black shoes. Pure white background soft contact shadows. Entire body hair hands feet and band fully within each cell, generous white margins no cropping. Project original reference rendering STYLE ONLY, ignore bench pushup pose/chest red/equipment. No text captions arrows labels. Equal instructional quality male/female.",
+      "inspectionNote": "Standing relaxed shoulders to elevated shrug with straight arms and underfoot band; exposed upper traps red, opaque clothes. Qualified review of shoulder elevation, neck posture, grip/handle detail, band under both shoes and proportions remains pending. Head margins modest but uncropped.",
+      "canonicalName": "band shrug",
+      "styleVersion": "white-v1",
+      "equipment": "band",
+      "primaryMuscles": [
+        "traps"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Standing relaxed shoulders to elevated shrug with straight arms and underfoot band; exposed upper traps red, opaque clothes. Qualified review of shoulder elevation, neck posture, grip/handle detail, band under both shoes and proportions remains pending. Head margins modest but uncropped.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/1018-male-anatomical-white-v1-p1-2bf2c826429e.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 24430,
+          "sha256": "2bf2c826429e79247d6d2e74ce78209db2c9e851a7757e7b9af71f41487c7400"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/1018-male-anatomical-white-v1-p2-5d583551650d.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 24374,
+          "sha256": "5d583551650df065f9f6f7a6b8f9c9e62e8bfa88645e87f92c1975d73f1060ee"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-153.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/1018-male-anatomical-white-v1-thumb-a3013d60e1b6.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2654,
+        "sha256": "a3013d60e1b63836db12b0b97014b18bb8ab8a5cd0227bf69f5bf9b1d3b6c345"
+      },
+      "processingSignature": "0c5509b0c323a1e1741cfa11407aa44fb35e2b4b645ce02ee29e17b4525f9c12",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1018-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1344854,
+        "sha256": "f3799e60af3528029ac654ca6ead3cb2f1715c77d048c4ec02ec57361d90ec10"
+      }
+    },
+    {
+      "exerciseId": "1018",
+      "variant": "female",
+      "key": "1018-female-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand tall on the band with straight relaxed arms and shoulders lowered."
+        },
+        {
+          "key": "p2",
+          "caption": "Raise both shoulders toward the ears without bending the elbows, then lower under control."
+        }
+      ],
+      "prompt": "Original premium ADULT female exercise anatomical illustration, BAND SHRUG canonical1018. TWO equal SQUARE cells side by side wide LANDSCAPE 2:1. Same full-body model, scale, front three-quarter camera and posture both cells. Stand tall feet shoulder-width, gray elastic band securely pinned beneath BOTH SHOES, two separate taut strands outside legs to closed hands holding ends/handles in front of outer thighs, palms toward thighs neutral wrists. LEFT start shoulders relaxed DOWN. RIGHT finish lift BOTH SHOULDERS STRAIGHT UP toward ears, straight relaxed arms stay vertical without elbow bending; hands rise only a few centimeters as shoulders elevate. Head stationary upright, neck neutral, no shoulder rolling, no rowing or arm raise, no torso lean. Band slightly more stretched in finish. Primary UPPER TRAPEZIUS either side of neck RED on exposed upper shoulder/neck only, no chest/biceps red. Fine detailed grayscale anatomical contours on exposed arms/neck/legs; realistic hands and equipment. Full OPAQUE BLACK scoop-neck athletic tank and MID-THIGH SHORTS wrapping front sides back seat crotch, continuous seams and broad cloth folds, no cutaways/transparency/anatomical fibers through cloth. Black shoes. Pure white background soft contact shadows. Entire body hair hands feet and band fully within each cell, generous white margins no cropping. Project original reference rendering STYLE ONLY, ignore bench pushup pose/chest red/equipment. No text captions arrows labels. Equal instructional quality male/female.",
+      "inspectionNote": "Standing relaxed shoulders to elevated shrug with straight arms and underfoot band; exposed upper traps red, opaque clothes. Qualified review of shoulder elevation, neck posture, grip/handle detail, band under both shoes and proportions remains pending. Head margins modest but uncropped.",
+      "canonicalName": "band shrug",
+      "styleVersion": "white-v1",
+      "equipment": "band",
+      "primaryMuscles": [
+        "traps"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Standing relaxed shoulders to elevated shrug with straight arms and underfoot band; exposed upper traps red, opaque clothes. Qualified review of shoulder elevation, neck posture, grip/handle detail, band under both shoes and proportions remains pending. Head margins modest but uncropped.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/1018-female-anatomical-white-v1-p1-778f93081c2a.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 25794,
+          "sha256": "778f93081c2ab0a5d384f3ad77247fbf629cacf7fccee7acb214714d3752e9c5"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/1018-female-anatomical-white-v1-p2-70c04ccfc11a.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 25638,
+          "sha256": "70c04ccfc11a51f30c88946424539a58052230f96e20e7bca149b2b77df35780"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-153.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/1018-female-anatomical-white-v1-thumb-11df265ae927.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2626,
+        "sha256": "11df265ae9270cff7cfda77ca55e63f54ef5006e1c80be5f0ee7e55aa954ceeb"
+      },
+      "processingSignature": "653af33d849e0b3e7fe34c1e7b1b3b1f07ea7ac1e32e10ef923a10f2b93c5ead",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1018-female-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1350579,
+        "sha256": "23e056cac36131ea3f940989a2fef2d2541680604344484c3487078fc7dcb781"
+      }
+    }
+  ]
+}

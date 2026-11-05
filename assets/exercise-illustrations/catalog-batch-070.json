@@ -1,0 +1,422 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "0432",
+      "variant": "male",
+      "key": "0432-male-anatomical-white-v2",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand with dumbbells in front of thighs and knees softly bent"
+        },
+        {
+          "key": "p2",
+          "caption": "Hinge hips backward with straight spine and weights close to legs"
+        }
+      ],
+      "prompt": "Edit original male dumbbell stiff-leg deadlift artwork. Fix orientation consistency ONLY: RIGHT endpoint must face IMAGE LEFT like left standing pose. Show SAME rear-side camera behind same shoulder, identical foot shapes pointing IMAGE LEFT and identical stance. Mirror/reorient entire right figure so nose/toes point LEFT, while preserving a correct hip hinge with neutral spine, soft knees, dumbbells close to front shins and arms hanging vertically. No body turn or step between phases. Preserve male identity detailed grayscale anatomy, red glute/hamstring targets, opaque black shirt and shorts completely covering back rear seat crotch with real fabric folds, two dumbbells and pure white background. All figure/weights inside own panel with margins, no text. Left start pose unchanged.",
+      "inspectionNote": "Hip hinge and soft knees, full opaque rear/seat/crotch garments, glute/hamstring highlights. Model/camera reverses facing direction between poses, preventing reliable foot and grip continuity comparison; requires correction.",
+      "canonicalName": "dumbbell stiff leg deadlift",
+      "styleVersion": "white-v1",
+      "equipment": "dumbbell",
+      "primaryMuscles": [
+        "gluteal",
+        "hamstring"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original generation from exercise metadata and user-selected style. No upstream image input."
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Correction restores consistent image-left facing and foot orientation, hip hinge/soft knees and intact opaque seat/crotch garments. Qualified grip, weight path, spinal alignment and hinge range review still required; original retained.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0432-male-anatomical-white-v1-p1-b8d60be7964b.webp",
+          "width": 768,
+          "height": 1024,
+          "bytes": 32584,
+          "sha256": "b8d60be7964b5b78e6f230c8eb350dbef4d10d0e5fc58a9c174e60eff194fb50"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0432-male-anatomical-white-v1-p2-67f1c5f90dd5.webp",
+          "width": 768,
+          "height": 1024,
+          "bytes": 31832,
+          "sha256": "67f1c5f90dd595b39059e58e742d28b604ea655b22ce903802740bf2a46c9893"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0432-male-anatomical-white-v1-thumb-967befba9585.webp",
+        "width": 180,
+        "height": 240,
+        "bytes": 2374,
+        "sha256": "967befba9585c45d2c52622b13e2119a55367b37fc3a99b1165fec99e61cfa80"
+      },
+      "processingSignature": "6ee7f6a2e2f41f12209be95f4da4b09ecc0798a314db242f310ae60fd3fbf3ef",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0432-male-anatomical-white-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1436615,
+        "sha256": "71da6386de6d11bcd91b90bcf1038978b4317ea2880f3e2ca42f7bbcc267388d"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0432",
+          "variant": "male",
+          "key": "0432-male-anatomical-white-v1",
+          "layout": {
+            "columns": 2,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Stand with dumbbells in front of thighs and knees softly bent"
+            },
+            {
+              "key": "p2",
+              "caption": "Hinge hips backward with straight spine and weights close to legs"
+            }
+          ],
+          "prompt": "Premium detailed scientific anatomical fitness illustration, realistic adult MALE. Silver neutral GRAYSCALE exposed arms legs neck with crisp fine muscle-fiber STRIATIONS and realistic tendons, face hands monochrome no flesh-colored photographic skin. Pure white background and soft contact shadows. TWO equal SIDE-BY-SIDE poses, same model proportions clothes equipment camera lighting scale. Entire head hands feet weights and any bench/ball/wall contact inside each panel with broad WHITE margins and gutter. OPAQUE BLACK sleeveless athletic shirt completely covers chest abdomen BACK and sides; opaque black knee-length shorts fully wrap FRONT SIDES REAR SEAT CROTCH with seams folds closed hems; black shoes. NO clothing cutaways/holes/transparency or exposed anatomy where clothing should cover. Under-clothing primary highlights use ONLY diffuse red tint ON BLACK FABRIC with opaque folds/seams crossing tint, never naked red muscle windows. Primary muscles red, secondaries grayscale. No text labels captions numbers arrows logos. DUMBBELL STIFF LEG DEADLIFT, soft knees. Side-rear three-quarter camera clearly shows hip hinge, spine and posterior thigh muscles. ONE dumbbell in EACH hand with OVERHAND grip, palms toward body as arms hang in front of thighs, weights separate and level. Feet shoulder width flat, same stance both poses. LEFT stand tall with knees gently unlocked, shoulders neutral no shrug. RIGHT hips push BACK, torso hinges FORWARD with long neutral flat spine and head aligned; knees retain nearly same soft bend, do NOT deep squat or lock/hyperextend knees. Dumbbells descend CLOSE along front thighs/shins to mid-shin level as range allows, arms vertical under shoulders, weights not touching floor, no rounded lumbar back. Same dumbbells and feet, no torso twist. Primary GLUTES and HAMSTRINGS red: glutes ONLY diffuse red tint on intact rear black SHORTS including full SEAT coverage; posterior hamstrings visible below shorts may be anatomical red, no cutaway. Do not color calves/quads/lumbar red. No bench or cable.",
+          "inspectionNote": "Hip hinge and soft knees, full opaque rear/seat/crotch garments, glute/hamstring highlights. Model/camera reverses facing direction between poses, preventing reliable foot and grip continuity comparison; requires correction.",
+          "blockingIssues": [
+            "Keep identical facing direction/camera and foot placement across start/end, no mirrored endpoint."
+          ],
+          "canonicalName": "dumbbell stiff leg deadlift",
+          "styleVersion": "white-v1",
+          "equipment": "dumbbell",
+          "primaryMuscles": [
+            "gluteal",
+            "hamstring"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original generation from exercise metadata and user-selected style. No upstream image input."
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Hip hinge and soft knees, full opaque rear/seat/crotch garments, glute/hamstring highlights. Model/camera reverses facing direction between poses, preventing reliable foot and grip continuity comparison; requires correction.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0432-male-anatomical-white-v1-p1-b8d60be7964b.webp",
+              "width": 768,
+              "height": 1024,
+              "bytes": 32584,
+              "sha256": "b8d60be7964b5b78e6f230c8eb350dbef4d10d0e5fc58a9c174e60eff194fb50"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0432-male-anatomical-white-v1-p2-67f1c5f90dd5.webp",
+              "width": 768,
+              "height": 1024,
+              "bytes": 31832,
+              "sha256": "67f1c5f90dd595b39059e58e742d28b604ea655b22ce903802740bf2a46c9893"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0432-male-anatomical-white-v1-thumb-967befba9585.webp",
+            "width": 180,
+            "height": 240,
+            "bytes": 2374,
+            "sha256": "967befba9585c45d2c52622b13e2119a55367b37fc3a99b1165fec99e61cfa80"
+          },
+          "processingSignature": "6ee7f6a2e2f41f12209be95f4da4b09ecc0798a314db242f310ae60fd3fbf3ef",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0432-male-anatomical-white-v1.png",
+            "width": 1536,
+            "height": 1024,
+            "bytes": 1436615,
+            "sha256": "71da6386de6d11bcd91b90bcf1038978b4317ea2880f3e2ca42f7bbcc267388d"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "0432",
+      "variant": "female",
+      "key": "0432-female-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand with dumbbells in front of thighs and knees softly bent"
+        },
+        {
+          "key": "p2",
+          "caption": "Hinge hips backward with straight spine and weights close to legs"
+        }
+      ],
+      "prompt": "Premium detailed scientific anatomical fitness illustration, realistic adult FEMALE. Silver neutral GRAYSCALE exposed arms legs neck with crisp fine muscle-fiber STRIATIONS and realistic tendons, face hands monochrome no flesh-colored photographic skin. Pure white background and soft contact shadows. TWO equal SIDE-BY-SIDE poses, same model proportions clothes equipment camera lighting scale. Entire head hands feet weights and any bench/ball/wall contact inside each panel with broad WHITE margins and gutter. OPAQUE BLACK sleeveless athletic shirt completely covers chest abdomen BACK and sides; opaque black knee-length shorts fully wrap FRONT SIDES REAR SEAT CROTCH with seams folds closed hems; black shoes. NO clothing cutaways/holes/transparency or exposed anatomy where clothing should cover. Under-clothing primary highlights use ONLY diffuse red tint ON BLACK FABRIC with opaque folds/seams crossing tint, never naked red muscle windows. Primary muscles red, secondaries grayscale. No text labels captions numbers arrows logos. DUMBBELL STIFF LEG DEADLIFT, soft knees. Side-rear three-quarter camera clearly shows hip hinge, spine and posterior thigh muscles. ONE dumbbell in EACH hand with OVERHAND grip, palms toward body as arms hang in front of thighs, weights separate and level. Feet shoulder width flat, same stance both poses. LEFT stand tall with knees gently unlocked, shoulders neutral no shrug. RIGHT hips push BACK, torso hinges FORWARD with long neutral flat spine and head aligned; knees retain nearly same soft bend, do NOT deep squat or lock/hyperextend knees. Dumbbells descend CLOSE along front thighs/shins to mid-shin level as range allows, arms vertical under shoulders, weights not touching floor, no rounded lumbar back. Same dumbbells and feet, no torso twist. Primary GLUTES and HAMSTRINGS red: glutes ONLY diffuse red tint on intact rear black SHORTS including full SEAT coverage; posterior hamstrings visible below shorts may be anatomical red, no cutaway. Do not color calves/quads/lumbar red. No bench or cable. Critical orientation consistency: model's nose and toes point toward IMAGE LEFT in BOTH panels. Camera stays behind her RIGHT shoulder in BOTH panels, never mirror/flip endpoint. Foot shapes positions and dumbbell grips identical start/end, only hips hinge.",
+      "inspectionNote": "Consistent facing/feet, hip hinge and soft knees, full opaque rear/seat/crotch clothing with glute/hamstring highlights. Qualified overhand grip, weight path, spine and individual hinge range review required."
+    },
+    {
+      "exerciseId": "0433",
+      "variant": "male",
+      "key": "0433-male-anatomical-white-v2",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Lie supported and hold one dumbbell above chest with both hands"
+        },
+        {
+          "key": "p2",
+          "caption": "Lower weight in an arc behind head with a small fixed elbow bend"
+        }
+      ],
+      "prompt": "Correct original male STRAIGHT ARM DUMBBELL PULLOVER illustration. Preserve identity, silver anatomical arms/legs, fully opaque black shirt/shorts covering back/seat/crotch, one two-hand dumbbell, entire flat bench head/pelvis support, planted feet and two side-by-side poses. Right endpoint currently folds elbows90degrees like skull crusher, WRONG EXERCISE. Change right pose to NEARLY STRAIGHT ARMS reaching horizontally PAST HEAD at FULL ARM LENGTH, SHOULDER-ELBOW-WRIST in one nearly straight line parallel floor, only10degree soft elbow bend same as left pose. Rotate arms at SHOULDERS ONLY, do not bend elbows. Dumbbell beyond head by full arm lever, suspended with air gap, not beside ears. Both hands securely support upper weight head, same orientation as start. Keep head/shoulders on bench and neck neutral, no lumbar arch. Widen frame as needed for extended arms and full weight in each own panel. Red primary chest only as muted surface tint on black fabric; no text.",
+      "inspectionNote": "One two-hand dumbbell and full bench support/clothes visible. Endpoint bends elbows markedly rather than maintaining near-straight arms; reads as triceps extension instead of straight-arm pullover. Requires pose correction.",
+      "canonicalName": "dumbbell straight arm pullover",
+      "styleVersion": "white-v1",
+      "equipment": "dumbbell",
+      "primaryMuscles": [
+        "pectorals"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original generation from exercise metadata and user-selected style. No upstream image input."
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Correction restores near-straight full arm lever past head and supported supine position. Custom crop preserves endpoint hand/weight near gutter. Qualified shoulder range, fixed elbow angle, two-hand grip and head support review remain required; original retained.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0433-male-anatomical-white-v1-p1-3306bd9c18ce.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 43292,
+          "sha256": "3306bd9c18ce67a7941baf9cd5f7543639c0d7966ef6932a7d6dbf30a523c56f"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0433-male-anatomical-white-v1-p2-4ec56cde4075.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 37716,
+          "sha256": "4ec56cde40752678e21839e29fcd6dd1191f7beb1ea5972ecb0ebe0a30af5f54"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0433-male-anatomical-white-v1-thumb-d98ff91d50ce.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 3944,
+        "sha256": "d98ff91d50ce6ee4400e789615c7bb407d6e8892855ec48316b2bf9ec231445e"
+      },
+      "processingSignature": "da397f351402ce93e49e3a191a0ba8d8fc83d0e24d3bb6b90e3b9e9bb6c3252b",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0433-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1542609,
+        "sha256": "983d3500a60a2054f6fda594f2088dc78f1cf3a8ac709af1c60a77c7f0601b1c"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0433",
+          "variant": "male",
+          "key": "0433-male-anatomical-white-v1",
+          "layout": {
+            "columns": 2,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Lie supported and hold one dumbbell above chest with both hands"
+            },
+            {
+              "key": "p2",
+              "caption": "Lower weight in an arc behind head with a small fixed elbow bend"
+            }
+          ],
+          "prompt": "Premium detailed scientific anatomical fitness illustration, realistic adult MALE. Silver neutral GRAYSCALE exposed arms legs neck with crisp fine muscle-fiber STRIATIONS and realistic tendons, face hands monochrome no flesh-colored photographic skin. Pure white background and soft contact shadows. TWO equal SIDE-BY-SIDE poses, same model proportions clothes equipment camera lighting scale. Entire head hands feet weights and any bench/ball/wall contact inside each panel with broad WHITE margins and gutter. OPAQUE BLACK sleeveless athletic shirt completely covers chest abdomen BACK and sides; opaque black knee-length shorts fully wrap FRONT SIDES REAR SEAT CROTCH with seams folds closed hems; black shoes. NO clothing cutaways/holes/transparency or exposed anatomy where clothing should cover. Under-clothing primary highlights use ONLY diffuse red tint ON BLACK FABRIC with opaque folds/seams crossing tint, never naked red muscle windows. Primary muscles red, secondaries grayscale. No text labels captions numbers arrows logos. DUMBBELL STRAIGHT ARM PULLOVER on flat bench, LONGITUDINAL full-body support. SIDE-front three-quarter camera shows shoulder arc and head clearance, same angle both panels. Head upper back and pelvis REST fully on long horizontal flat bench, feet firmly on floor, no cross-bench bridge. ONE dumbbell held with BOTH hands securely cupping underside of same upper weight head, fingers/thumbs support it, not two dumbbells or bar. LEFT arms extended vertically above chest with SMALL FIXED soft elbow bend, weight above chest. RIGHT rotate both arms at shoulders in arc BEHIND HEAD until upper arms near ear line, keep same small elbow bend (not triceps extension); dumbbell suspended beyond head end with safe clear air gap to skull/floor, shoulders/head stay supported, neutral spine no big arch. Keep weight identical orientation and secure two-hand grip throughout. Primary PECTORALS only diffuse muted red on intact BLACK CHEST SHIRT, real folds over tint, NO naked chest window; lats/triceps secondary gray. Entire head/feet/bench frame and behind-head weight inside generous margins.",
+          "inspectionNote": "One two-hand dumbbell and full bench support/clothes visible. Endpoint bends elbows markedly rather than maintaining near-straight arms; reads as triceps extension instead of straight-arm pullover. Requires pose correction.",
+          "blockingIssues": [
+            "Keep elbow angle nearly straight and fixed; move long arms in shoulder arc, not elbow flexion."
+          ],
+          "canonicalName": "dumbbell straight arm pullover",
+          "styleVersion": "white-v1",
+          "equipment": "dumbbell",
+          "primaryMuscles": [
+            "pectorals"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original generation from exercise metadata and user-selected style. No upstream image input."
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "One two-hand dumbbell and full bench support/clothes visible. Endpoint bends elbows markedly rather than maintaining near-straight arms; reads as triceps extension instead of straight-arm pullover. Requires pose correction.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0433-male-anatomical-white-v1-p1-3306bd9c18ce.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 43292,
+              "sha256": "3306bd9c18ce67a7941baf9cd5f7543639c0d7966ef6932a7d6dbf30a523c56f"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0433-male-anatomical-white-v1-p2-4ec56cde4075.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 37716,
+              "sha256": "4ec56cde40752678e21839e29fcd6dd1191f7beb1ea5972ecb0ebe0a30af5f54"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0433-male-anatomical-white-v1-thumb-d98ff91d50ce.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 3944,
+            "sha256": "d98ff91d50ce6ee4400e789615c7bb407d6e8892855ec48316b2bf9ec231445e"
+          },
+          "processingSignature": "da397f351402ce93e49e3a191a0ba8d8fc83d0e24d3bb6b90e3b9e9bb6c3252b",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0433-male-anatomical-white-v1.png",
+            "width": 1774,
+            "height": 887,
+            "bytes": 1542609,
+            "sha256": "983d3500a60a2054f6fda594f2088dc78f1cf3a8ac709af1c60a77c7f0601b1c"
+          }
+        }
+      ],
+      "cropBounds": [
+        [
+          0,
+          0,
+          0.47,
+          1
+        ],
+        [
+          0.47,
+          0,
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "exerciseId": "0433",
+      "variant": "female",
+      "key": "0433-female-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Lie supported and hold one dumbbell above chest with both hands"
+        },
+        {
+          "key": "p2",
+          "caption": "Lower weight in an arc behind head with a small fixed elbow bend"
+        }
+      ],
+      "prompt": "Premium detailed scientific anatomical fitness illustration, realistic adult FEMALE. Silver neutral GRAYSCALE exposed arms legs neck with crisp fine muscle-fiber STRIATIONS and realistic tendons, face hands monochrome no flesh-colored photographic skin. Pure white background and soft contact shadows. TWO equal SIDE-BY-SIDE poses, same model proportions clothes equipment camera lighting scale. Entire head hands feet weights and any bench/ball/wall contact inside each panel with broad WHITE margins and gutter. OPAQUE BLACK sleeveless athletic shirt completely covers chest abdomen BACK and sides; opaque black knee-length shorts fully wrap FRONT SIDES REAR SEAT CROTCH with seams folds closed hems; black shoes. NO clothing cutaways/holes/transparency or exposed anatomy where clothing should cover. Under-clothing primary highlights use ONLY diffuse red tint ON BLACK FABRIC with opaque folds/seams crossing tint, never naked red muscle windows. Primary muscles red, secondaries grayscale. No text labels captions numbers arrows logos. DUMBBELL STRAIGHT ARM PULLOVER on flat bench, LONGITUDINAL full-body support. SIDE-front three-quarter camera shows shoulder arc and head clearance, same angle both panels. Head upper back and pelvis REST fully on long horizontal flat bench, feet firmly on floor, no cross-bench bridge. ONE dumbbell held with BOTH hands securely cupping underside of same upper weight head, fingers/thumbs support it, not two dumbbells or bar. LEFT arms extended vertically above chest with SMALL FIXED soft elbow bend, weight above chest. RIGHT rotate both arms at shoulders in arc BEHIND HEAD until upper arms near ear line, keep same small elbow bend (not triceps extension); dumbbell suspended beyond head end with safe clear air gap to skull/floor, shoulders/head stay supported, neutral spine no big arch. Keep weight identical orientation and secure two-hand grip throughout. Primary PECTORALS only diffuse muted red on intact BLACK CHEST SHIRT, real folds over tint, NO naked chest window; lats/triceps secondary gray. Entire head/feet/bench frame and behind-head weight inside generous margins. CRITICAL endpoint: SHOULDER-ELBOW-WRIST form nearly STRAIGHT LINE extending HORIZONTALLY PAST HEAD, elbow bend only10degrees SAME as start, never 90degrees. Dumbbell at arm's length BEYOND head, not immediately beside ear. Arms move at shoulder joint ONLY, no skull-crusher elbow fold. Show whole long arm lever in side view.",
+      "inspectionNote": "Near-straight arm shoulder arc shown at endpoint, head/pelvis supported, feet planted and full opaque clothing. Starting dumbbell lower head partly occluded; qualified secure grip, shoulder range, clearance and fixed elbow-angle review pending."
+    },
+    {
+      "exerciseId": "0435",
+      "variant": "male",
+      "key": "0435-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Lean lower back on ball against wall with wide stance"
+        },
+        {
+          "key": "p2",
+          "caption": "Squat toward thigh-parallel while ball stays supported"
+        }
+      ],
+      "prompt": "Premium detailed scientific anatomical fitness illustration, realistic adult MALE. Silver neutral GRAYSCALE exposed arms legs neck with crisp fine muscle-fiber STRIATIONS and realistic tendons, face hands monochrome no flesh-colored photographic skin. Pure white background and soft contact shadows. TWO equal SIDE-BY-SIDE poses, same model proportions clothes equipment camera lighting scale. Entire head hands feet weights and any bench/ball/wall contact inside each panel with broad WHITE margins and gutter. OPAQUE BLACK sleeveless athletic shirt completely covers chest abdomen BACK and sides; opaque black knee-length shorts fully wrap FRONT SIDES REAR SEAT CROTCH with seams folds closed hems; black shoes. NO clothing cutaways/holes/transparency or exposed anatomy where clothing should cover. Under-clothing primary highlights use ONLY diffuse red tint ON BLACK FABRIC with opaque folds/seams crossing tint, never naked red muscle windows. Primary muscles red, secondaries grayscale. No text labels captions numbers arrows logos. DUMBBELL SUMO SQUAT BACK ON STABILITY BALL WALL. Side-front three-quarter camera reveals BOTH feet and ball-wall-back contacts. Simple white vertical wall represented by faint gray plane on far side, no room clutter. One realistic gray stability ball pinned BETWEEN lower back and WALL, ball never on floor or in hands. ONE dumbbell held in BOTH hands in front of pelvis hanging between thighs, secure grip near upper weight head, arms long, no goblet at chest. Feet WIDE wider than shoulders with toes turned outward, both heels flat slightly forward of hips; knees track outward with toes. LEFT tall standing with soft knees, ball supports lower back against wall. RIGHT lower hips into SUMO squat until thighs aboutparallel floor, knees bend outward, heels flat, torso near upright and supported by same ball, ball rolls relative back naturally but keeps continuous WALL contact; no ball passing through body/wall. Same wall/ball/feet and hand grip, dumbbell clear of floor and knees. Primary QUADRICEPS red only as diffuse graphic on continuous opaque BLACK SHORTS over front thighs, no thigh or crotch fabric cutout. Glutes/adductors secondary gray/black. Complete ball, wall contact, both shoes and dumbbell inside frame.",
+      "inspectionNote": "Wide turned-out stance and single two-hand dumbbell, ball remains between back and wall, heels planted and thighs near parallel. Full opaque seat/crotch shorts. Qualified ball contact, knee tracking, stance and diffuse cloth highlight review pending."
+    },
+    {
+      "exerciseId": "0435",
+      "variant": "female",
+      "key": "0435-female-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Lean lower back on ball against wall with wide stance"
+        },
+        {
+          "key": "p2",
+          "caption": "Squat toward thigh-parallel while ball stays supported"
+        }
+      ],
+      "prompt": "Premium detailed scientific anatomical fitness illustration, realistic adult FEMALE. Silver neutral GRAYSCALE exposed arms legs neck with crisp fine muscle-fiber STRIATIONS and realistic tendons, face hands monochrome no flesh-colored photographic skin. Pure white background and soft contact shadows. TWO equal SIDE-BY-SIDE poses, same model proportions clothes equipment camera lighting scale. Entire head hands feet weights and any bench/ball/wall contact inside each panel with broad WHITE margins and gutter. OPAQUE BLACK sleeveless athletic shirt completely covers chest abdomen BACK and sides; opaque black knee-length shorts fully wrap FRONT SIDES REAR SEAT CROTCH with seams folds closed hems; black shoes. NO clothing cutaways/holes/transparency or exposed anatomy where clothing should cover. Under-clothing primary highlights use ONLY diffuse red tint ON BLACK FABRIC with opaque folds/seams crossing tint, never naked red muscle windows. Primary muscles red, secondaries grayscale. No text labels captions numbers arrows logos. DUMBBELL SUMO SQUAT BACK ON STABILITY BALL WALL. Side-front three-quarter camera reveals BOTH feet and ball-wall-back contacts. Simple white vertical wall represented by faint gray plane on far side, no room clutter. One realistic gray stability ball pinned BETWEEN lower back and WALL, ball never on floor or in hands. ONE dumbbell held in BOTH hands in front of pelvis hanging between thighs, secure grip near upper weight head, arms long, no goblet at chest. Feet WIDE wider than shoulders with toes turned outward, both heels flat slightly forward of hips; knees track outward with toes. LEFT tall standing with soft knees, ball supports lower back against wall. RIGHT lower hips into SUMO squat until thighs aboutparallel floor, knees bend outward, heels flat, torso near upright and supported by same ball, ball rolls relative back naturally but keeps continuous WALL contact; no ball passing through body/wall. Same wall/ball/feet and hand grip, dumbbell clear of floor and knees. Primary QUADRICEPS red only as diffuse graphic on continuous opaque BLACK SHORTS over front thighs, no thigh or crotch fabric cutout. Glutes/adductors secondary gray/black. Complete ball, wall contact, both shoes and dumbbell inside frame.",
+      "inspectionNote": "Wide turned-out stance, flat heels, ball maintains back/wall support and dumbbell stays clear of floor. Opaque black shorts fully wrap rear/crotch with red surface tint. Qualified knee tracking, thigh depth, grip and ball-contact review required."
+    }
+  ]
+}

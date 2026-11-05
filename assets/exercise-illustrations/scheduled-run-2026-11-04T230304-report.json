@@ -1,0 +1,68 @@
+{
+  "runId": "d7b3236e-a16f-4fa6-abe8-8e849277e39a",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "triggerTimestamp": "2026-11-04T23:03:04.247Z",
+  "batches": [
+    438,
+    439,
+    440,
+    441
+  ],
+  "builtInImageGenAvailable": true,
+  "generatedMasters": 16,
+  "generatedIds": [
+    "4191",
+    "4195",
+    "4205",
+    "4235",
+    "4236",
+    "4237",
+    "4238",
+    "4239",
+    "4244",
+    "4338",
+    "4341",
+    "4346",
+    "4352",
+    "4355",
+    "4357",
+    "4360"
+  ],
+  "blocked": {
+    "4244": [
+      "Both panels repeat the same leading leg instead of showing successive walking steps; revise carry sequence before approval."
+    ]
+  },
+  "coverageAfter": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1564,
+    "remainingVariants": 9700,
+    "approvedVariants": 0,
+    "blockedVariants": 582,
+    "knownPoseImages": 3145,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 1191,
+      "remainingVariants": 4441,
+      "blockedVariants": 463
+    }
+  },
+  "pipelineTests": "8 passed, 0 failed after each of four batches",
+  "approvedIndexUnchanged": true,
+  "existingUserApprovalsPreserved": 1306,
+  "publication": "none",
+  "anatomyReview": "pending",
+  "paidWorker": "disabled; inventory sync only, zero requests",
+  "stopReason": "Reached sixteen-master run target within twenty-minute window.",
+  "styleReference": "assets/exercise-illustrations/generated/0853-male-anatomical-white-v1.png",
+  "deferred": {
+    "4202": "Canonical banded landmine name and instructions do not specify band attachment; flag setup ambiguity and skip rather than inventing it.",
+    "4223": "Canonical calves metadata versus peroneal target needs highlight clarification before illustration."
+  },
+  "nextRunGuidance": "Continue missing canonical male sets sequentially with original 0853 artwork for style only. Do not duplicate existing or blocked originals; covered-back target cutaway failures and Arnold palm-rotation failures require separate correction. Carry 4244 needs alternate walking step before approval. No anatomy review or publication was granted by this run."
+}

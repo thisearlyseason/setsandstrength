@@ -1,0 +1,90 @@
+{
+  "batch": 86,
+  "trigger": "2026-11-01T18:41:19.670Z",
+  "completedAt": "2026-11-01T18:52:51.173652+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 4,
+  "generationCalls": 7,
+  "exerciseIds": [
+    "0601",
+    "0605"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 356,
+    "remainingVariants": 10908,
+    "approvedVariants": 0,
+    "blockedVariants": 148,
+    "knownPoseImages": 730,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Four candidate sets and three correction masters saved; none approved or published. Reverse fly candidates use chest support, vertical neutral grips, posterior deltoid highlights and opaque black garments. Both start-pose corrections extend arms forward with soft elbows, improving fly versus row technique; independent handle/lever connections remain mechanically ambiguous and blocked, particularly female far-side start linkage. Standing calf raises show supported forefeet, red calves and intact opaque clothing. Male correction lowers start heels beyond block, raises end heels and translates body/shoulder pads upward; female shows lowered-to-raised heels with body/pad rise. Human review still needed for ankle range, fixed limb lengths, contact points and lever resistance geometry. Original masters, prompts, hashes and correction histories retained. Seven pipeline checks do not constitute anatomical approval; only original project style artwork used.",
+  "metadataConflictsDeferred": [
+    {
+      "exerciseId": "0599",
+      "issue": "Description curls lower legs back/down, but instructions put lower legs under pad and curl legs up; clarify pad placement and motion direction."
+    }
+  ],
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 583365376,
+  "savedMasters": [
+    {
+      "exerciseId": "0601",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0601-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1804553,
+        "sha256": "afcd31a85bcba1e1ed67fe47aa0cea5bb9600bb72f11b9b17a256098c0066c19"
+      }
+    },
+    {
+      "exerciseId": "0601",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0601-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1766884,
+        "sha256": "3d89206562274889067adbf67ea3ac1cb75222c57ad39dc60f395925282a4c5a"
+      }
+    },
+    {
+      "exerciseId": "0605",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0605-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1592809,
+        "sha256": "b7b2e81111e9231417fc31624a47a027b3d1f72e9ce3639fb63212b7ca8e38b9"
+      }
+    },
+    {
+      "exerciseId": "0605",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0605-female-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1676878,
+        "sha256": "ead756f45c9293c1eb4457ca89cca77afa9be608cf3ae32ac5d2165918e6ef14"
+      }
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "batch": 145,
+  "trigger": "2026-11-03T05:14:26.481Z",
+  "completedAt": "2026-11-03T05:27:03.160078+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 4,
+  "generationCalls": 6,
+  "exerciseIds": [
+    "0917",
+    "0927"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 588,
+    "remainingVariants": 10676,
+    "approvedVariants": 0,
+    "blockedVariants": 213,
+    "knownPoseImages": 1204,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Four candidates, eight poses, six built-in calls including two retained leg-raise clothing corrections. Band reverse curls use pronated grip with dorsal forearm red, arms down to about90degree elbow flexion; range toward shoulders and wrist/upper-arm stability remain qualified. Standing straight-leg raises preserve rear low anchor/cuff, front support and forward leg lift; corrections extend opaque shorts to above knees to cover upper/front thighs, seat/crotch continuously, red only exposed distal working quads. Fine exposed grayscale anatomy retained. Qualified leg identity, pelvis stability, torso lean, knee angle, band routing/anchoring, grip and muscle mapping remain human review items. Every original, exact prompt and correction history saved; no clothing/anatomy approval and no publication. Project original artwork used for rendering style only, no upstream licensed input. Seven pipeline checks do not establish anatomical accuracy.",
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 942951132,
+  "savedMasters": [
+    {
+      "exerciseId": "0917",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0917-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1330232,
+        "sha256": "708374074d505ebffaf2c69968d2e294f631b65c8c76cf5de4fa780a76c26901"
+      }
+    },
+    {
+      "exerciseId": "0917",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0917-female-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1336052,
+        "sha256": "1e8a82041b8a415389564fa150c5f17aad0bb446ccd9f38379dfda9faf3f82fd"
+      }
+    },
+    {
+      "exerciseId": "0927",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0927-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1345208,
+        "sha256": "27e9460360cb513ead097ab7e45bdeb70ea6bfcbbc7ffc38b11debc578db50c1"
+      }
+    },
+    {
+      "exerciseId": "0927",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0927-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1390716,
+        "sha256": "2e6a397b6be2acfdbdcc770260fd2c553f68c7fd6e60acd2baf53d5cf3c0fdbe"
+      }
+    }
+  ]
+}

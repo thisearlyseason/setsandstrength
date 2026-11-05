@@ -1,0 +1,69 @@
+{
+  "batch": 177,
+  "runId": "e9eb39c4-0067-4fad-8473-a736b8014944",
+  "trigger": "2026-11-03T10:10:58.774Z",
+  "completedAt": "2026-11-03T10:17:25.712017+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 2,
+  "generationCalls": 2,
+  "exerciseIds": [
+    "1357"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 668,
+    "remainingVariants": 10596,
+    "approvedVariants": 0,
+    "blockedVariants": 225,
+    "knownPoseImages": 1332,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Two single-pose static one-handed hang candidates, two built-in calls. Straight working arm gripping overhead bar, free arm down, feet visibly off floor and exposed working forearm red. Fine grayscale exposed anatomy and full opaque clothes retained. Qualified shoulder active engagement, body-under-hand alignment, finger/thumb grip closure, elbow load and proportions require human review. Every original and exact prompt saved; no anatomy/clothing approval or publication. Original project artwork rendering style only, no upstream licensed input. Seven pipeline checks do not establish anatomical accuracy.",
+  "metadataConflictsDeferred": {
+    "1351": "Reverse grip name/description versus overhand instructions.",
+    "1352": "Spine target lacks explicit primary muscle mapping.",
+    "1358": "Side lat stretch versus lifting bottom leg unclear.",
+    "1362": "Spine target lacks explicit primary muscle mapping.",
+    "1363": "Spine target lacks explicit primary muscle mapping."
+  },
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 1057606177,
+  "savedMasters": [
+    {
+      "exerciseId": "1357",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1357-male-anatomical-white-v1.png",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 1343842,
+        "sha256": "3b93d9e2891148b2cbafc4102ad63b2381e32dec1b5cae9cdf4fc4b4a80da050"
+      }
+    },
+    {
+      "exerciseId": "1357",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1357-female-anatomical-white-v1.png",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 1364865,
+        "sha256": "5e3c65e7922d32560031fdbde507188aab9b4ab10a346bedc41b670be9699ca3"
+      }
+    }
+  ]
+}

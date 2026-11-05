@@ -1,0 +1,65 @@
+{
+  "batch": 220,
+  "runId": "6a66cb93-53a9-4073-b6ea-b42a74dc4583",
+  "trigger": "2026-11-03T15:21:31.019Z",
+  "completedAt": "2026-11-03T15:27:20.175278+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 4,
+  "calls": 4,
+  "exerciseIds": [
+    "1641",
+    "1645",
+    "1647",
+    "1648"
+  ],
+  "variants": [
+    "male"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 759,
+    "remainingVariants": 10505,
+    "approvedVariants": 0,
+    "blockedVariants": 246,
+    "knownPoseImages": 1492,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 386,
+      "remainingVariants": 5246,
+      "blockedVariants": 127
+    }
+  },
+  "reviewNotes": {
+    "1641": "Seated cable curl, center-attached bar lowered to curled position. Qualified human review needed for start elbow extension, underhand grip, cable path and elbow stability.",
+    "1645": "Two-arm incline cable curl, separate handles and taut low cables, extended to curled arms. Far hand/handle partly occluded at start; qualified review needed for far-side cable routing, underhand grip, maintained arm position and back support.",
+    "1647": "Alternating preacher dumbbell curl with three poses: both down, right curl, left curl. Opposite leading arms visibly present, supinated grips. Qualified review needed for upper-arm pad contact, elbow stability, fingers and crop boundaries.",
+    "1648": "Alternating seated hammer curl with three poses: both down, right curl, left curl. Opposite leading arms and neutral grips visibly present. Qualified review needed for shoulder stillness, hand anatomy and elbow range."
+  },
+  "deferred": [
+    {
+      "exerciseId": "1643",
+      "reason": "Overhead description conflicts with upper arms close to sides."
+    },
+    {
+      "exerciseId": "1646",
+      "reason": "Alternating hammer name conflicts with bilateral curl instructions and palm-toward-torso wording."
+    }
+  ],
+  "tests": 7,
+  "genCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "publicationIndexUnchanged": true,
+  "savedMasters": [
+    "assets/exercise-illustrations/generated/1641-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/1645-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/1647-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/1648-male-anatomical-white-v1.png"
+  ]
+}

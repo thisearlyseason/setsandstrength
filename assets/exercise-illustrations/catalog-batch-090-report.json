@@ -1,0 +1,94 @@
+{
+  "batch": 90,
+  "trigger": "2026-11-01T19:37:20.314Z",
+  "completedAt": "2026-11-01T19:56:20.653482+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 4,
+  "generationCalls": 8,
+  "exerciseIds": [
+    "0614",
+    "0616"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 372,
+    "remainingVariants": 10892,
+    "approvedVariants": 0,
+    "blockedVariants": 155,
+    "knownPoseImages": 760,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Four candidate sets with eight pose images and four correction masters; eight built-in calls. None approved or published. Prone alternate hip extension has three phases with folded-arm forehead support, straight knees and pelvis down. Female correction softens glute fabric tint and clarifies final near-leg lift with far foot down; male correction still appears to hover both feet in final panel and remains blocked. Both bench-edge hip-flexor stretches use one static hold with hands behind held thigh and opposite foot free of floor. Clothing corrections soften red thigh overlays; female correction lowers skull to bench and spreads ponytail. All clothing opaque across front/sides/back/seat/crotch, exposed anatomy detailed grayscale. Qualified review remains for leg alternation/contact, lumbar neutrality, modest hip range, pelvis/bench-edge placement and relaxed knee angle. Originals, exact prompts, correction histories and hashes retained. Original project artwork only; pipeline tests are separate from anatomy approval.",
+  "metadataConflictsDeferred": [
+    {
+      "exerciseId": "0618",
+      "issue": "Alias of 1065, excluded from canonical generation."
+    },
+    {
+      "exerciseId": "0619",
+      "issue": "Hamstring primary target conflicts with described active supine straight-leg hip flexion; clarify primary highlight before generation."
+    }
+  ],
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 611246091,
+  "savedMasters": [
+    {
+      "exerciseId": "0614",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0614-male-anatomical-white-v2.png",
+        "width": 2172,
+        "height": 724,
+        "bytes": 1660295,
+        "sha256": "8f5f01bfdcdcc1cd783dd2a5cd8c87a8520afb9b5c5d339c081f088a6427df83"
+      }
+    },
+    {
+      "exerciseId": "0614",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0614-female-anatomical-white-v2.png",
+        "width": 2172,
+        "height": 724,
+        "bytes": 1499704,
+        "sha256": "a3f6443a778da6fddc496db062e468c2f8ec045a1c3773283167abecaf92bdc0"
+      }
+    },
+    {
+      "exerciseId": "0616",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0616-male-anatomical-white-v2.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1764089,
+        "sha256": "8a6513f9418759bfa2a4113dfcd055283e98cb19d078fc736922fb7e29e89886"
+      }
+    },
+    {
+      "exerciseId": "0616",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0616-female-anatomical-white-v2.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1758429,
+        "sha256": "351bc7e5b849d10d856b51ec14f19989351ab47835ef9eb23b597c61d5c00811"
+      }
+    }
+  ]
+}

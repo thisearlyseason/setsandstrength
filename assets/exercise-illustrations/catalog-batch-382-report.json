@@ -1,0 +1,57 @@
+{
+  "batch": 382,
+  "runId": "56c028a6-f5f1-4cb3-9d1f-90c6ed01597d",
+  "triggerTimestamp": "2026-11-04T17:18:01.578Z",
+  "builtInImageGenAvailable": true,
+  "anatomyReview": "pending",
+  "publication": "none",
+  "generatedIds": [
+    "3552",
+    "3553"
+  ],
+  "deferred": {
+    "3550": "Grip and chair/bar setup require clarification.",
+    "3551": "Cardiovascular target requires muscle highlight mapping clarification.",
+    "3554": "Prompt saved; generation deferred after technique failure in 3553."
+  },
+  "failure": "3553 output introduced an unrequested bench and repeated the same rotation in panels 3 and 4. Master retained and blocked; generation stopped.",
+  "coverageAfter": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1373,
+    "remainingVariants": 9891,
+    "approvedVariants": 0,
+    "blockedVariants": 530,
+    "knownPoseImages": 2727,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 1000,
+      "remainingVariants": 4632,
+      "blockedVariants": 411
+    }
+  },
+  "paidWorker": {
+    "statuses": {
+      "generated": 1373,
+      "pending": 9891
+    },
+    "remaining": 9891,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 2087287384
+  },
+  "pipelineTests": "7 passed, 0 failed",
+  "approvedIndexUnchanged": true,
+  "existingUserApprovalsPreserved": 1306
+}

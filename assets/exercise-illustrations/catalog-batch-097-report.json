@@ -1,0 +1,105 @@
+{
+  "batch": 97,
+  "trigger": "2026-11-01T22:21:52.170Z",
+  "completedAt": "2026-11-01T22:31:21.258995+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 4,
+  "generationCalls": 6,
+  "exerciseIds": [
+    "0639",
+    "0640"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 400,
+    "remainingVariants": 10864,
+    "approvedVariants": 0,
+    "blockedVariants": 170,
+    "knownPoseImages": 824,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Four candidate sets with ten pose images, two retained correction masters and six built-in calls. None anatomy approved or published. One-arm dips show single working hand on bench, opposite hand across chest, straight legs/heel support and bent working elbow in lowered phase; red exposed triceps only. Qualified bench hand contact, wrist, shoulder loading and heel continuity review remains. One-arm medicine-ball slams show right-hand waist cup, overhead lift and open-hand floor release while left hand stays hip. Two cloth edits soften radial abdominal tint to diffuse overlay on intact opaque fabric and increase overhead ball margin. Qualified grip, ball-size continuity, release mechanics, muscle mapping and all anatomy/technique review remains separate. Full opaque clothing wraps torso/front/sides/back/seat/crotch; exposed anatomy grayscale. Exact prompts, original PNGs, correction history and hashes retained. Original project artwork only as style reference, no upstream media. Pipeline checks are not anatomy approval.",
+  "metadataConflictsDeferred": [
+    {
+      "exerciseId": "0641",
+      "issue": "Equipment weighted conflicts with bodyweight hands-behind-head instructions; clarify load."
+    },
+    {
+      "exerciseId": "0648",
+      "issue": "Description quarter-squat catch vs instructions front-squat catch; primary target hamstrings vs multiple muscle map needs clarification."
+    },
+    {
+      "exerciseId": "0650",
+      "issue": "Description hands on floor/feet on ball conflicts with seated-on-ball hands-on-ball instructions."
+    },
+    {
+      "exerciseId": "0651",
+      "issue": "Lats target conflicts with upper-back primary muscle map."
+    }
+  ],
+  "completedSkipped": [
+    "0643 male/female already generated; no duplicate generation"
+  ],
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 658344411,
+  "savedMasters": [
+    {
+      "exerciseId": "0639",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0639-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1771357,
+        "sha256": "3264df72e51bb545c77af35955d58ba1774ecae3a2044728a3546e16bf5c8db8"
+      }
+    },
+    {
+      "exerciseId": "0639",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0639-female-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1764640,
+        "sha256": "0d7525f172c1f52ed53c0e3481538a023772d727f07f036b9dad96a683b9cfe3"
+      }
+    },
+    {
+      "exerciseId": "0640",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0640-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1700354,
+        "sha256": "52d44ea8929790b9f85afa819f5703f73e15fd69e0b1501bdcf84a64ab0f8e37"
+      }
+    },
+    {
+      "exerciseId": "0640",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0640-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1677700,
+        "sha256": "3c9f6a3cfc0b6ed252364e3a2f42c88f77e5b0f191626f413dc546786be70911"
+      }
+    }
+  ]
+}

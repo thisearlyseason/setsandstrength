@@ -1,0 +1,113 @@
+{
+  "batch": 80,
+  "trigger": "2026-11-01T17:01:48.553Z",
+  "completedAt": "2026-11-01T17:27:26.967111+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 6,
+  "generationCalls": 11,
+  "exerciseIds": [
+    "0560",
+    "0561",
+    "0569"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 332,
+    "remainingVariants": 10932,
+    "approvedVariants": 0,
+    "blockedVariants": 134,
+    "knownPoseImages": 684,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Six pending candidate sets; none approved or published. Half-kneeling hip-flexor holds use one pose per variant with upright torso, supported rear knee/instep, front foot flat and rear-thigh cloth tint. Wrist-flexor holds initially had forward fingers; female correction and second male correction now show palms down with fingertips toward knees; failed first male correction retained. Female wrist delivery WebP visually inspected. Ball-curl revisions frame complete ball/head/mat, move curled ball closer and retain opaque cloth with rear-thigh tint. Male endpoint leg-proportion geometry remains explicitly blocked; female appears more consistent but all technique/support/load review pending. Five correction attempts retained with original masters and exact prompts. Qualified human anatomy, finger/thumb counts and wrist angles, pelvic tuck, knee support, muscle localization, hip loading and leg proportions remain separate; pipeline checks do not approve anatomy. Original project 0493 male artwork used only as rendering style reference.",
+  "metadataConflictsDeferred": [
+    {
+      "exerciseId": "0562",
+      "issue": "Landmine 180 description says side-to-side arc, instructions alternate right hip to left shoulder rather than equivalent bilateral endpoints; clarify intended rotation range before illustrating."
+    }
+  ],
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 540007254,
+  "savedMasters": [
+    {
+      "exerciseId": "0560",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0560-male-anatomical-white-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1786640,
+        "sha256": "6537838b7f64a0a14d58d11df42be76e86c6279ae15e661a534c4ce505666227"
+      }
+    },
+    {
+      "exerciseId": "0560",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0560-female-anatomical-white-v1.png",
+        "width": 1374,
+        "height": 1145,
+        "bytes": 1861411,
+        "sha256": "512b2437eb9f3d322161346e7a6ea1a5d33d71e89d3e648b0ea32372ae035889"
+      }
+    },
+    {
+      "exerciseId": "0561",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0561-male-anatomical-white-v3.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1835138,
+        "sha256": "64d1d10c051a03616588bf6b7310b90879da1b76a39c4ffed7719f70cb1867f3"
+      }
+    },
+    {
+      "exerciseId": "0561",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0561-female-anatomical-white-v2.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1859994,
+        "sha256": "db6a2d6f13b98b685e973ce8301c40b61f801e041cb25062ae87e5c1cfd190e5"
+      }
+    },
+    {
+      "exerciseId": "0569",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0569-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1602193,
+        "sha256": "a4b641391e25d3c1d1996497cf361f0cab59f6898fab9bcba3963222ad50dc2b"
+      }
+    },
+    {
+      "exerciseId": "0569",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0569-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1481692,
+        "sha256": "b1dd5883119b74147747ccd29d2e3efae269ebe5fdbc3cb22c72af89dd13b9b2"
+      }
+    }
+  ]
+}

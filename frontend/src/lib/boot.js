@@ -1,15 +1,9 @@
 import { registerPlugin } from '@capacitor/core'
 
-// The boot screen in index.html: markup and CSS only, so the web image's CSP needs no new hash.
-// It goes once the app can draw, or on a script error before that, so it never lifts forever.
-// Never mid-move: the logo first finishes building (about 0.7 s), and once the bar is going up
-// and down it leaves when the bar is back on the floor, not halfway through a rep.
-const BUILT_MS = 700, REP_DELAY_MS = 750, REP_MS = 1250
-
-export function bootWait(t, reduced) {
-  if (reduced || !Number.isFinite(t)) return 0
-  if (t < REP_DELAY_MS) return Math.max(0, BUILT_MS - t)
-  return (REP_MS - ((t - REP_DELAY_MS) % REP_MS)) % REP_MS
+// Let fast starts show one turn of the seal. Slow starts can leave immediately.
+export function bootWait(elapsed, duration) {
+  if (!Number.isFinite(elapsed) || !Number.isFinite(duration)) return 0
+  return Math.max(0, duration - elapsed)
 }
 
 export function hideBoot(e) {
@@ -19,8 +13,8 @@ export function hideBoot(e) {
   let wait = 0
   if (!(e instanceof Event)) {
     try {
-      const reduced = window.matchMedia?.('(prefers-reduced-motion: reduce)').matches
-      wait = bootWait(Number(b.querySelector('.db')?.getAnimations?.()[0]?.currentTime), reduced)
+      const spin = b.querySelector('img')?.getAnimations?.()[0]
+      wait = bootWait(spin?.currentTime, spin?.effect?.getTiming().duration)
     } catch { wait = 0 }
   }
   setTimeout(() => {

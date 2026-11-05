@@ -1,0 +1,275 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "2089",
+      "variant": "male",
+      "key": "2089-male-anatomical-white-v1",
+      "layout": {
+        "columns": 1,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Extend one arm with the elbow straight. Gently guide the fingers back with your other hand, keeping them relaxed. Hold a mild palm and forearm stretch for 20\u201330 seconds, then switch sides."
+        }
+      ],
+      "prompt": "FINGER STRETCH, standing FRONT three-quarter view. RIGHT arm extended straight forward at shoulder height, elbow straight, forearm supinated PALM UP. RIGHT wrist gently extended so fingers angle DOWN slightly. LEFT hand cups the four RIGHT fingertips together from below and gently draws them back/down toward body, normal fingers attached to palm, thumb remains relaxed separate. Small comfortable range. Primary right PALMAR forearm flexors red, not chest or left forearm. One SINGLE static full-body male figure only. Premium detailed grayscale anatomical rendering matching original project reference for STYLE ONLY, ignore its pose. Pure white background soft shadows realistic proportions. Exposed gray muscle contours crisp. Opaque BLACK tank and mid-thigh shorts with seams and folds fully wrap front sides back seat crotch. No anatomy through fabric, no cutaways. Only the specified exposed forearm muscle region red, chest shoulders abdomen clothing entirely black/gray with NO RED. Black shoes. Entire body hands fingers feet equipment in frame, generous margins. Exactly two arms and two ordinary hands five fingers each, every forearm connects continuously to its wrist and hand, no detached hands, no extra forearm segments. No text arrows logos.",
+      "inspectionNote": "Real output inspected. Single coherent standing figure, working elbow nearly straight and opposite hand cups fingertips without an extra limb. Wrist appears drooped with palm facing viewer; flexor-stretch extension versus flexion and forearm supination are unclear. Blocking qualified correction/review required for wrist direction and red flexor versus dorsal extensor mapping. Clothing fully opaque and chest unhighlighted. Human anatomy review remains pending; no approval or publication.",
+      "blockingIssues": [
+        "Wrist direction and forearm rotation do not clearly demonstrate a finger/flexor stretch; qualified correction needed to resolve flexion versus extension and flexor versus extensor highlight."
+      ],
+      "canonicalName": "finger stretch",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "forearms"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Single coherent standing figure, working elbow nearly straight and opposite hand cups fingertips without an extra limb. Wrist appears drooped with palm facing viewer; flexor-stretch extension versus flexion and forearm supination are unclear. Blocking qualified correction/review required for wrist direction and red flexor versus dorsal extensor mapping. Clothing fully opaque and chest unhighlighted. Human anatomy review remains pending; no approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2089-male-anatomical-white-v1-p1-65fbbc8aafc9.webp",
+          "width": 800,
+          "height": 1200,
+          "bytes": 37860,
+          "sha256": "65fbbc8aafc96cc9e259ae9a85faced646d14d89b1221669a64b294c4b45c8d3"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-256.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2089-male-anatomical-white-v1-thumb-48342d6a278b.webp",
+        "width": 160,
+        "height": 240,
+        "bytes": 2494,
+        "sha256": "48342d6a278ba0168c718cd44a78805d8ab58183fc05d355c14479bbe0163233"
+      },
+      "processingSignature": "2577b8547000aa65b829e108032030cd4746e3fbf074968d1bde38e15e82741a",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2089-male-anatomical-white-v1.png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1405744,
+        "sha256": "842ffb9e08a587714257211d35040eb9e42d751f35bcb04afc71937a543eaa15"
+      }
+    },
+    {
+      "exerciseId": "2090",
+      "variant": "male",
+      "key": "2090-male-anatomical-white-v1",
+      "layout": {
+        "columns": 1,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Interlace your fingers, turn your palms outward and straighten your arms in front of you. Gently press your hands away with shoulders relaxed. Hold for 20\u201330 seconds, then release."
+        }
+      ],
+      "prompt": "PALMS OUT FOREARM STRETCH, standing FRONT SIDE three-quarter view. BOTH arms straight forward at shoulder height, elbows straight but soft. Fingers interlaced normally, BOTH PALMS turned OUTWARD away from chest as hands push forward. Wrists extended, dorsum of hands toward chest, thumbs visible normal. Shoulders relaxed not shrugged. BOTH exposed inner forearm flexor muscle regions red only. No chest highlight. One SINGLE static full-body male figure only. Premium detailed grayscale anatomical rendering matching original project reference for STYLE ONLY, ignore its pose. Pure white background soft shadows realistic proportions. Exposed gray muscle contours crisp. Opaque BLACK tank and mid-thigh shorts with seams and folds fully wrap front sides back seat crotch. No anatomy through fabric, no cutaways. Only the specified exposed forearm muscle region red, chest shoulders abdomen clothing entirely black/gray with NO RED. Black shoes. Entire body hands fingers feet equipment in frame, generous margins. Exactly two arms and two ordinary hands five fingers each, every forearm connects continuously to its wrist and hand, no detached hands, no extra forearm segments. No text arrows logos.",
+      "inspectionNote": "Real output inspected. Both arms extended with outward-facing palms and interlaced fingers, red restricted to exposed forearms. Full opaque clothing and coherent standing body. Qualified review needed for interlaced finger count/contact, wrist extension, elbow comfort and flexor mapping on both forearms. Human anatomy review remains pending; no approval or publication.",
+      "canonicalName": "palms out forearm stretch",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "forearms"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Both arms extended with outward-facing palms and interlaced fingers, red restricted to exposed forearms. Full opaque clothing and coherent standing body. Qualified review needed for interlaced finger count/contact, wrist extension, elbow comfort and flexor mapping on both forearms. Human anatomy review remains pending; no approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2090-male-anatomical-white-v1-p1-6eab22fed114.webp",
+          "width": 800,
+          "height": 1200,
+          "bytes": 30102,
+          "sha256": "6eab22fed114c769b5cf0527817630b0caca37013643daa8752158e24a427302"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-256.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2090-male-anatomical-white-v1-thumb-5dff3e7f8df1.webp",
+        "width": 160,
+        "height": 240,
+        "bytes": 2260,
+        "sha256": "5dff3e7f8df1875ebf3a56f9956abc9302118a626283cb9a520db0ca94e14faa"
+      },
+      "processingSignature": "8b7c68fccf0b6fb9e4bdb1853729f030e204ebb6d71f0ec0b6186ef8770dd201",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2090-male-anatomical-white-v1.png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1327152,
+        "sha256": "a2fdf4a384755a7b57aba6e9afcd8ee9918d3a5cdc448001a16216538f757ef8"
+      }
+    },
+    {
+      "exerciseId": "2091",
+      "variant": "male",
+      "key": "2091-male-anatomical-white-v1",
+      "layout": {
+        "columns": 1,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Extend one arm palm down and bend the wrist so the fingers point toward the floor. Gently press the back of that hand toward you with the other hand. Keep the elbow straight; hold for 20\u201330 seconds, then switch sides."
+        }
+      ],
+      "prompt": "FINGERS DOWN FOREARM EXTENSOR STRETCH, standing SIDE three-quarter view. RIGHT arm reaches STRAIGHT forward at shoulder height PALM DOWN forearm pronated. RIGHT wrist flexed so RIGHT fingers point vertically DOWN to floor, back of RIGHT hand faces forward. LEFT hand laid on BACK of right hand gently presses it toward body; no gripping detached fingers. RIGHT elbow remains straight. RED ONLY top/dorsal RIGHT forearm extensor muscle region, no red on palm side chest or left arm. One SINGLE static full-body male figure only. Premium detailed grayscale anatomical rendering matching original project reference for STYLE ONLY, ignore its pose. Pure white background soft shadows realistic proportions. Exposed gray muscle contours crisp. Opaque BLACK tank and mid-thigh shorts with seams and folds fully wrap front sides back seat crotch. No anatomy through fabric, no cutaways. Only the specified exposed forearm muscle region red, chest shoulders abdomen clothing entirely black/gray with NO RED. Black shoes. Entire body hands fingers feet equipment in frame, generous margins. Exactly two arms and two ordinary hands five fingers each, every forearm connects continuously to its wrist and hand, no detached hands, no extra forearm segments. No text arrows logos.",
+      "inspectionNote": "Real output inspected. Working arm straight, pronated forearm and wrist flexed fingers down, opposite hand contacts back of hand. Red restricted to dorsal working forearm, clothing opaque. Qualified review needed for finger count/overlap, gentle wrist pressure, exact extensor mapping and comfortable range. Human anatomy review remains pending; no approval or publication.",
+      "canonicalName": "fingers down forearm stretch",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "forearms"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Working arm straight, pronated forearm and wrist flexed fingers down, opposite hand contacts back of hand. Red restricted to dorsal working forearm, clothing opaque. Qualified review needed for finger count/overlap, gentle wrist pressure, exact extensor mapping and comfortable range. Human anatomy review remains pending; no approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2091-male-anatomical-white-v1-p1-4ddd534dacbf.webp",
+          "width": 800,
+          "height": 1200,
+          "bytes": 38324,
+          "sha256": "4ddd534dacbfe1fc147611190bf611058c114e460ec23619e32d099b9cbf72eb"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-256.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2091-male-anatomical-white-v1-thumb-f043ea272553.webp",
+        "width": 160,
+        "height": 240,
+        "bytes": 2428,
+        "sha256": "f043ea2725534f8968768f9a999107aeeb64a67513d16bbdb1524e827de98a2e"
+      },
+      "processingSignature": "01a1de428a45ec724ac4f9d6fb84f732d7940b24376df57af99602932417cd26",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2091-male-anatomical-white-v1.png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1381887,
+        "sha256": "538080325d19480447b00efe84fdb2177c0afae116aba936ec18ca4de68522fa"
+      }
+    },
+    {
+      "exerciseId": "2092",
+      "variant": "male",
+      "key": "2092-male-anatomical-white-v1",
+      "layout": {
+        "columns": 1,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Place one palm flat on a wall with fingers pointing down. Keep your arm straight and gently turn away while maintaining palm and finger contact. Hold a mild forearm stretch for 20\u201330 seconds, then switch sides."
+        }
+      ],
+      "prompt": "WALL FLEXORS STRETCH, standing SIDE three-quarter view facing gray wall on RIGHT. RIGHT arm straight forward slightly below shoulder height. RIGHT PALM flat against wall with ALL FINGERS pointing DOWN and flat on wall, wrist extended naturally. RIGHT elbow straight. Feet grounded small stagger, torso turned gently AWAY LEFT from wall only modestly while palm contact stays. LEFT arm rests by side. RED only RIGHT palmar/inner forearm flexors, others gray and black. Clear palm/finger-wall contact with continuous coherent wrist anatomy. One SINGLE static full-body male figure only. Premium detailed grayscale anatomical rendering matching original project reference for STYLE ONLY, ignore its pose. Pure white background soft shadows realistic proportions. Exposed gray muscle contours crisp. Opaque BLACK tank and mid-thigh shorts with seams and folds fully wrap front sides back seat crotch. No anatomy through fabric, no cutaways. Only the specified exposed forearm muscle region red, chest shoulders abdomen clothing entirely black/gray with NO RED. Black shoes. Entire body hands fingers feet equipment in frame, generous margins. Exactly two arms and two ordinary hands five fingers each, every forearm connects continuously to its wrist and hand, no detached hands, no extra forearm segments. No text arrows logos.",
+      "inspectionNote": "Real output inspected. Single full-body wall stretch, straight working arm with fingers pointing down at wall, opposite arm relaxed and coherent rear three-quarter body. Qualified review needed for palm versus dorsum wall contact, wrist extension versus flexion, forearm rotation and flexor mapping; wall partially obscures contact. Opaque clothing intact. Human anatomy review remains pending; no approval or publication.",
+      "canonicalName": "wall flexors stretch",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "forearms"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Single full-body wall stretch, straight working arm with fingers pointing down at wall, opposite arm relaxed and coherent rear three-quarter body. Qualified review needed for palm versus dorsum wall contact, wrist extension versus flexion, forearm rotation and flexor mapping; wall partially obscures contact. Opaque clothing intact. Human anatomy review remains pending; no approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2092-male-anatomical-white-v1-p1-46ad573efefb.webp",
+          "width": 1200,
+          "height": 800,
+          "bytes": 25814,
+          "sha256": "46ad573efefb24f7223065214f30763c351f165a72ee1d16f2e25756cad0e177"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-256.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2092-male-anatomical-white-v1-thumb-0e3cc461b9de.webp",
+        "width": 240,
+        "height": 160,
+        "bytes": 1738,
+        "sha256": "0e3cc461b9ded78eb8fdea16a48c95d6b8f3389b71b7eca47b8031ded6dac5a8"
+      },
+      "processingSignature": "67f59b217b33c0f6210c627dbc6a704ffa33331bb1d5fd86a7083b9f8015c32a",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2092-male-anatomical-white-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1497600,
+        "sha256": "7fef3a5e9f03f10d6c32074a3700202c2bc54a401ef00ea7fd8c9fd6d1d437f9"
+      }
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "batch": 186,
+  "runId": "87470dfa-f197-4241-ab8f-81d124098335",
+  "trigger": "2026-11-03T11:16:29.293Z",
+  "completedAt": "2026-11-03T11:22:14.602632+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 2,
+  "generationCalls": 2,
+  "exerciseIds": [
+    "1412"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 686,
+    "remainingVariants": 10578,
+    "approvedVariants": 0,
+    "blockedVariants": 227,
+    "knownPoseImages": 1358,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Two palms-up barbell wrist curl candidates, four poses, two built-in calls. Both BLOCKED: Finish wrists and hands move back over padded bench rather than remaining unsupported beyond edge; forearms shift, so isolated wrist articulation and unchanged support are not established. Red forearm flexors and opaque tank/shorts retained with detailed grayscale exposed anatomy. Qualified grip, wrist range, forearm pressure and elbow stability need review. Original project artwork style only, no upstream licensed input. Exact prompts and originals saved. No anatomy/clothing approval or publication. Seven pipeline checks do not establish anatomical accuracy.",
+  "metadataConflictsDeferred": {
+    "1413": "Overhand description versus underhand instruction.",
+    "1414": "Reverse overhand description versus underhand instruction.",
+    "1415": "Neutral title versus palms-up instruction.",
+    "1418": "Standing single knee description versus squat and hug both knees instruction."
+  },
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 1084961876,
+  "savedMasters": [
+    {
+      "exerciseId": "1412",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1412-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1685771,
+        "sha256": "aabc20db827673ab40cdd2055113759dc6bbd572aba5f40c633a32dafab10c3f"
+      }
+    },
+    {
+      "exerciseId": "1412",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1412-female-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1619049,
+        "sha256": "f050410761ff2d7e53cd9285ec077a68bc8c17d5ed3dc99a220010d48b378357"
+      }
+    }
+  ]
+}

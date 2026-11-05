@@ -1,6 +1,53 @@
+import { matchesExerciseSearch } from './exercise-search.js'
+import { deleteMyWorkout } from './my-workouts.js'
+import SwapPicker from './SwapPicker.jsx'
+import { programSessionMatches } from './plan-management.js'
+import MultiFilter from './MultiFilter.jsx'
+import { matchesSelections } from './library-filters.js'
+import ManagePlans from './ManagePlans.jsx'
+import PhotoStory from './PhotoStory.jsx'
+import GoalRing from './GoalRing.jsx'
+import CustomWorkout from './CustomWorkout.jsx'
+import { progressView } from './progress-view.js'
+import { editCompletedSession } from '../lib/session-edit.js'
+import { isWarmup } from './analysis.js'
+import SavedSessionEditor from './SavedSessionEditor.jsx'
+import AdvancedSetRow from './AdvancedSetRow.jsx'
+import { isSideSet, modeForSet, hasCompletedWork } from '../lib/workout-model.js'
+import { setWarmupFlag } from './training.js'
+import { sessionSwapOptions, applySessionSwap } from './session-swaps.js'
+import builderInstructions from '../instr/en.js'
+import BodyGoal from './BodyGoal.jsx'
+import { homeWeek, hasWeeklyPlan, writeWeightGoal } from './home-insights.js'
+import LocalSteps from './LocalSteps.jsx'
+import SavedWorkouts from './SavedWorkouts.jsx'
+import TrainingGoals from './TrainingGoals.jsx'
+import WorkoutTimers from './WorkoutTimers.jsx'
+import { completedRoutine, startScheduled } from './session-tools.js'
+import WorkoutLog from './WorkoutLog.jsx'
+import WorkoutBuilder from './WorkoutBuilder.jsx'
+import ExerciseProgress from './ExerciseProgress.jsx'
+import LocalCoach from './LocalCoach.jsx'
+import TrainingAnalysis from './TrainingAnalysis.jsx'
+import TrainingGuidance from './TrainingGuidance.jsx'
+import Intervals from './Intervals.jsx'
+import ProgressPhotos from './ProgressPhotos.jsx'
+import DuplicateExerciseMerge from './DuplicateExerciseMerge.jsx'
+import { hideBoot } from '../lib/boot.js'
+import CheckIns from './CheckIns.jsx'
+import PilotMedia, { useIllustrationIndex } from './PilotMedia.jsx'
+import { approvedVariant } from './pilot-media.js'
 import studies from './illustrations.json'
 import { movementOf, difficultyOf } from './classification.js'
-import { lazy, Suspense, useEffect, useRef, useState } from 'react'
+import {
+  Fragment,
+  lazy,
+  Suspense,
+  useEffect,
+  useLayoutEffect,
+  useRef,
+  useState,
+} from 'react'
 import {
   NavLink,
   Routes,
@@ -32,6 +79,8 @@ import {
   Settings2,
   ShieldCheck,
   Sparkles,
+  Sun,
+  Moon,
   Target,
   TrendingUp,
   UserRound,
@@ -39,13 +88,15 @@ import {
   X,
 } from 'lucide-react'
 import { useStore } from '../store/useStore.js'
+import { setSystemBarsLight } from '../lib/system-bars.js'
 import { EXDB, EXIDX } from '../lib/exercises.js'
+const sessionCatalog = EXDB.map((e) => ({ ...e, inst: builderInstructions[e.id] || [] }))
 import { todayISO } from '../lib/format.js'
 import { mergeStates } from '../lib/sync-merge.js'
 import { buildSessionEntry } from '../lib/session-start.js'
 import { parseImport, mergeImport } from '../lib/import-csv.js'
 import { workoutsCSV } from '../lib/export-csv.js'
-import { bestWeightFor } from '../lib/history.js'
+import { bestWeightFor, lastEntryFor, workoutVolume } from '../lib/history.js'
 import {
   configured,
   supabase,
@@ -59,6 +110,8 @@ import {
   enrollProgram,
   startSession,
   completeSession,
+  leaveFinishedSession,
+  trainedMs,
   exportJSON,
   readJSON,
 } from './training.js'
@@ -68,21 +121,16 @@ const motions = Object.fromEntries(
   Object.entries(studies).map(([id, m]) => [id, m.motion]),
 )
 const tabs = [
-  ['/', 'Overview', HomeIcon],
-  ['/plans', 'Training plans', CalendarDays],
+  ['/', 'Home', HomeIcon],
+  ['/plans', 'Train', Dumbbell],
   ['/exercises', 'Exercise library', Dumbbell],
   ['/progress', 'Your progress', TrendingUp],
   ['/profile', 'Your profile', UserRound],
 ]
 const sports = [
-  ['all', 'All sports'],
-  ['basketball', 'Basketball'],
-  ['hockey', 'Hockey'],
-  ['volleyball', 'Volleyball'],
-  ['baseball', 'Baseball'],
-  ['soccer', 'Soccer'],
-  ['running', 'Running'],
-  ['general', 'General fitness'],
+  ['all', 'All activities'],
+  ['push', 'Push'], ['pull', 'Pull'],
+  ...new Map(programs.filter(p=>!['push','pull'].includes(p.sport)).map((p) => [p.sport, p.label])),
 ]
 let catalogPromise
 const details = () =>
@@ -200,20 +248,81 @@ function Empty({ icon: Icon = Layers3, title: heading, children, action }) {
     </div>
   )
 }
+function BrandLogo() {
+  return ['dark', 'light'].map((theme) => (
+    <picture key={theme} className={`brand-logo logo-${theme}`}>
+      <source
+        media="(min-width: 761px) and (max-width: 1000px)"
+        srcSet={`/workout/brand/seal-${theme}.webp`}
+      />
+      <img src={`/workout/brand/wordmark-${theme}.webp`} alt="" />
+    </picture>
+  ))
+}
+
+function ThemeButton() {
+  const [mode, setMode] = useState(() => {
+    try {
+      return localStorage.getItem('workout.appearance') === 'light'
+        ? 'light'
+        : 'dark'
+    } catch {
+      return 'dark'
+    }
+  })
+  useLayoutEffect(() => {
+    document.documentElement.dataset.theme = mode
+    void setSystemBarsLight(mode === 'light')
+    document.querySelector('link[rel="icon"]').href =
+      `/workout/brand/seal-${mode}.webp`
+    document
+      .querySelector('meta[name="theme-color"]')
+      ?.setAttribute('content', mode === 'light' ? '#f6f7f0' : '#090c0a')
+  }, [mode])
+
+  const next = mode === 'dark' ? 'light' : 'dark'
+  const label = `Switch to ${next} mode`
+  function toggle() {
+    setMode(next)
+    try {
+      localStorage.setItem('workout.appearance', next)
+    } catch {
+      // The current session still supports both modes if storage is unavailable.
+    }
+  }
+  return (
+    <button
+      className="appearance-button"
+      type="button"
+      onClick={toggle}
+      aria-label={label}
+      title={label}
+    >
+      {next === 'light' ? <Sun size={20} /> : <Moon size={20} />}
+    </button>
+  )
+}
+
 function App() {
   const ready = useStore((s) => s.ready),
     user = useStore((s) => s.user),
+    active = useStore((s) => s.S.active),
     sync = useStore((s) => s.sync),
     [notice, setNotice] = useState(''),
     [detail, setDetail] = useState(null),
     nav = useNavigate(),
     location = useLocation()
   useEffect(() => {
+    hideBoot()
     useStore.getState().boot()
   }, [])
   useEffect(() => {
-    window.scrollTo(0, 0)
-  }, [location.pathname])
+    if (location.hash)
+      requestAnimationFrame(() =>
+        document.getElementById(location.hash.slice(1))?.scrollIntoView(),
+      )
+    else window.scrollTo(0, 0)
+  }, [location.pathname, location.search, location.hash])
   useEffect(() => {
     if (!notice) return
     const t = setTimeout(() => setNotice(''), 6500)
@@ -232,11 +341,8 @@ function App() {
         Skip to content
       </a>
       <aside className="sidebar">
-        <NavLink to="/" className="brand">
-          <span className="brand-mark">
-            <Activity size={25} />
-          </span>
-          workout<span className="brand-dot">.</span>
+        <NavLink to="/" className="brand" aria-label="Sets & Strength home">
+          <BrandLogo />
         </NavLink>
         <p className="sidebar-label">YOUR TRAINING SPACE</p>
         <nav aria-label="Main navigation">
@@ -268,6 +374,13 @@ function App() {
       </aside>
       <div className="workspace">
         <header className="topbar">
+          <NavLink
+            to="/"
+            className="mobile-brand"
+            aria-label="Sets & Strength home"
+          >
+            <BrandLogo />
+          </NavLink>
           <span className="breadcrumb">
             Your space <span>/</span>{' '}
             {location.pathname === '/workout'
@@ -283,6 +396,7 @@ function App() {
                 year: 'numeric',
               })}
             </span>
+            <ThemeButton />
             <button
               className="avatar"
               aria-label="Open profile"
@@ -293,6 +407,16 @@ function App() {
           </div>
         </header>
         <main id="main">
+          {active && location.pathname !== '/workout' && (
+            <NavLink className="resume-strip" to="/workout">
+              <Play size={18} />
+              <span>
+                <small>WORKOUT IN PROGRESS</small>
+                <strong>{active.name}</strong>
+              </span>
+              Resume <ArrowRight size={16} />
+            </NavLink>
+          )}
           <Routes>
             <Route
               path="/"
@@ -318,7 +442,17 @@ function App() {
               path="/exercises"
               element={<Library onDetail={setDetail} />}
             />
-            <Route path="/progress" element={<Progress />} />
+            <Route
+              path="/progress"
+              element={<Progress requireUser={requireUser} onNotice={message} />}
+            />
+            <Route path="/create-workout" element={<CustomWorkout canSave={!!user} requireUser={requireUser} onNotice={message} />} />
+            <Route path="/builder" element={<WorkoutBuilder requireUser={requireUser} notice={message} />} />
+            <Route path="/coach" element={<LocalCoach />} />
+            <Route path="/exercise-progress" element={<ExerciseProgress />} />
+            <Route path="/merge-exercises" element={<DuplicateExerciseMerge />} />
+            <Route path="/intervals" element={<Intervals />} />
+            {import.meta.env.VITE_MOBILE === '1' && <Route path="/progress-photos" element={<ProgressPhotos />} />}
             <Route
               path="/profile"
               element={<Profile user={user} ready={ready} onNotice={message} />}
@@ -362,7 +496,7 @@ function App() {
           <NavLink key={path} to={path} end={path === '/'}>
             <Icon size={21} />
             <span>
-              {['Home', 'Plans', 'Exercises', 'Progress', 'Profile'][i]}
+              {['Home', 'Train', 'Library', 'Progress', 'Profile'][i]}
             </span>
           </NavLink>
         ))}
@@ -377,6 +511,7 @@ function App() {
       )}
       {detail && (
         <ExerciseDetail
+          key={detail}
           id={detail}
           onClose={() => setDetail(null)}
           onNotice={message}
@@ -386,21 +521,55 @@ function App() {
     </div>
   )
 }
+function GettingStarted({ S, nav }) {
+  if (S.gettingStartedDismissed) return null
+  const items = [
+    ['Plan a workout week', hasWeeklyPlan(S), '/plans'],
+    ['Log your first weigh-in', !!S.bodyweight.length, '/progress?view=body'],
+    ['Complete a workout', !!S.workouts.length, '/plans'],
+    ['Ask your training guide', !!S.coachInteractions, '/coach'],
+  ]
+  if (items.every(([, done]) => done)) return null
+  return <section className="history-panel getting-started"><div className="section-head"><div><p className="eyebrow">A FEW FIRST STEPS</p><h2>Getting started</h2></div><button className="text-link" onClick={() => update((s) => { s.gettingStartedDismissed = true })}>Dismiss</button></div><ul>{items.map(([label, done, path]) => <li key={label}><span aria-label={done ? 'Complete' : 'Not complete'}>{done ? '✓' : '○'}</span><button className="text-link" disabled={done} onClick={() => nav(path)}>{label}</button></li>)}</ul></section>
+}
+
+function NutritionTargets({ S }) {
+  const [editing, setEditing] = useState(false), [draft, setDraft] = useState(null)
+  const target = draft || S.nutritionTargets || {}
+  const fields = [['calories', 'Calories', 'kcal'], ['protein', 'Protein', 'g'], ['carbs', 'Carbohydrates', 'g'], ['fat', 'Fat', 'g']]
+  return <section className="history-panel nutrition-targets"><div className="section-head"><div><p className="eyebrow">YOUR DAILY GUIDE</p><h2>Nutrition targets</h2></div><button className="outline compact" onClick={() => { setEditing(!editing); setDraft(null) }}>{editing ? 'Cancel' : 'Edit targets'}</button></div><p className="muted-copy">Targets only. Food and meal logging are not part of this version.</p>{editing ? <form className="builder-fields" onSubmit={(e) => { e.preventDefault(); update((s) => { s.nutritionTargets = Object.fromEntries(fields.map(([k]) => [k, Number(target[k]) || 0])) }); setEditing(false); setDraft(null) }}>{fields.map(([k, label, unit]) => <label key={k}>{label} ({unit})<input type="number" min="0" step="1" value={target[k] ?? ''} onChange={(e) => setDraft({ ...target, [k]: e.target.value })} /></label>)}<button className="lime" type="submit">Save targets</button></form> : <div className="target-grid">{fields.map(([k, label, unit]) => <div className="metric" key={k}><span>{label}</span><strong>{S.nutritionTargets?.[k] == null ? 'Not set' : `${S.nutritionTargets[k]} ${unit}`}</strong></div>)}</div>}</section>
+}
+
 function Home({ user, onDetail, requireUser }) {
   const S = useStore((s) => s.S),
     nav = useNavigate(),
     today = todayISO(),
-    scheduled = (S.dayPlan[today] || [])
-      .map((id) => S.routines.find((r) => r.id === id))
-      .filter(Boolean),
-    next = scheduled[0] || S.routines[0],
-    week = S.workouts.filter(
-      (w) => Date.now() - new Date(w.d + 'T12:00:00').getTime() < 7 * 86400000,
+    completed = new Set(
+      S.workouts.flatMap((w) => w.routineIds || [w.routineId]),
     ),
+    upcoming = Object.keys(S.dayPlan)
+      .sort()
+      .filter((d) => d >= today)
+      .flatMap((date) =>
+        (S.dayPlan[date] || [])
+          .filter((id) => !completed.has(id))
+          .map((id) => ({ date, r: S.routines.find((r) => r.id === id) })),
+      )
+      .find((x) => x.r),
+    next = upcoming?.r || S.routines.find((r) => !r.cancelledAt && !r.programId),
+    enrolled = programs.filter((p) =>
+      S.routines.some((r) => !r.cancelledAt && r.programId === p.id),
+    ),
+    weekly = homeWeek(S, today),
+    week = weekly.workouts,
     minutes = Math.round(
-      week.reduce((n, w) => n + Math.max(0, (w.end - w.start) / 60000), 0),
+      week.reduce((n, w) => n + Math.max(0, trainedMs(w) / 60000), 0),
     )
   const start = () => {
+    if (!next && !S.active) {
+      nav('/plans')
+      return
+    }
     if (!requireUser()) return
     if (S.active) {
       nav('/workout')
@@ -415,17 +584,22 @@ function Home({ user, onDetail, requireUser }) {
   }
   return (
     <>
-      <div className="page-title">
+      <div className="page-title home-heading">
         <div>
-          <p className="eyebrow">SHOW UP FOR YOURSELF</p>
           <h1>
-            {user
-              ? `Let's move, ${user.name.split(' ')[0]}.`
-              : 'Find your next level.'}
+            {user ? (
+              `Let's move, ${user.name.split(' ')[0]}.`
+            ) : (
+'Your day'
+            )}
           </h1>
-          <p>A stronger you starts with what you do today.</p>
+          <p>
+            {enrolled.length
+              ? 'Your plans: ' + enrolled.map((p) => p.title).join(' · ')
+              : 'Small moves. Stronger you.'}
+          </p>
         </div>
-        <button className="outline compact" onClick={() => nav('/plans')}>
+        <button className="outline compact" onClick={() => nav('/plans?view=schedule')}>
           <CalendarDays size={17} />
           My schedule
         </button>
@@ -440,28 +614,31 @@ function Home({ user, onDetail, requireUser }) {
                 ? 'WORKOUT IN PROGRESS'
                 : next
                   ? 'YOUR NEXT WORKOUT'
-                  : 'YOUR NEXT CHAPTER'}
+                  : 'YOUR DAILY MOMENTUM'}
             </span>
             <h2>
               {S.active
                 ? 'KEEP YOUR\nMOMENTUM.'
                 : next
                   ? 'READY. SET.\nGET STRONGER.'
-                  : 'TRAIN WITH\nPURPOSE.'}
+                  : 'FULL BODY.\nFULL FOCUS.'}
             </h2>
             <p>
               {S.active?.name ||
                 next?.name ||
+                enrolled.map((p) => p.title).join(' · ') ||
                 'Your sport. Your pace. A plan that moves with you.'}
             </p>
             <div className="hero-meta">
               <span>
                 <Dumbbell size={16} />
-                {next ? `${next.ex.length} exercises` : '7 training categories'}
+                {next
+                  ? `${next.ex.length} exercises`
+                  : `${sports.length - 1} training categories`}
               </span>
               <span>
                 <Clock3 size={16} />
-                {next ? 'One set at a time' : '4-week programs'}
+                {upcoming ? stampDate(upcoming.date) : '4-week programs'}
               </span>
             </div>
             <button className="lime" onClick={start}>
@@ -469,26 +646,18 @@ function Home({ user, onDetail, requireUser }) {
                 ? 'Continue workout'
                 : next
                   ? 'Start workout'
-                  : 'Find my plan'}
+                  : enrolled.length
+                    ? 'View my plans'
+                    : 'Find my plan'}
               <ArrowUpRight size={20} />
             </button>
           </div>
-          <div className="hero-art">
-            <SportArt sport="general" />
-            <div className="hero-badge">
-              <Target size={24} />
-              <span>
-                PROGRESS
-                <br />
-                <strong>Starts here.</strong>
-              </span>
-            </div>
-          </div>
+          <div className="hero-athlete" aria-hidden="true" />
           <span className="hero-number">01 / YOUR JOURNEY</span>
         </section>
         <section className="week-card">
           <div className="section-head">
-            <h3>This week</h3>
+            <h3>Your rhythm</h3>
             <span className="tag pale">YOUR ACTIVITY</span>
           </div>
           <div className="week-ring">
@@ -499,14 +668,14 @@ function Home({ user, onDetail, requireUser }) {
                 cy="60"
                 r="51"
                 style={{
-                  strokeDasharray: `${Math.min(week.length / 3, 1) * 320} 320`,
+                  strokeDasharray: `${Math.min(week.length / weekly.target, 1) * 320} 320`,
                 }}
               />
             </svg>
             <div>
               <strong>
                 {week.length}
-                <small>/ 3</small>
+                <small>/ {weekly.target}</small>
               </strong>
               <span>workouts</span>
             </div>
@@ -538,15 +707,24 @@ function Home({ user, onDetail, requireUser }) {
           </p>
         </section>
       </div>
+      <div className="builder-actions home-shortcuts" aria-label="Training shortcuts">
+        <button className="outline" onClick={() => nav('/builder')}><Sparkles size={17} /> Build a workout</button>
+        <button className="outline" onClick={() => nav('/coach')}><Activity size={17} /> Ask your training guide</button>
+        <button className="outline" onClick={() => nav('/exercise-progress')}><TrendingUp size={17} /> Exercise progress</button>
+      </div>
+      <GettingStarted S={S} nav={nav} />
+      <details className="layout-disclosure"><summary>Daily nutrition targets</summary><NutritionTargets S={S} /></details>
+      <details className="layout-disclosure"><summary>Body goal</summary><BodyGoal S={S} onSave={(value) => { if (!requireUser()) return false; update((s) => writeWeightGoal(s, value)) }} /></details>
+      <details className="layout-disclosure"><summary>Daily steps</summary><LocalSteps key={user?.id || 'guest'} /></details>
       <div className="metric-row">
         {[
-          [Flame, week.length, 'Workouts this week', 'Keep your momentum'],
-          [Clock3, minutes, 'Minutes trained', 'Time invested in you'],
+          [Flame, week.length, 'Workouts this week', ''],
+          [Clock3, minutes, 'Minutes trained', ''],
           [
             TrendingUp,
             S.workouts.reduce((n, w) => n + (w.prs?.length || 0), 0),
             'Personal records',
-            'Your effort, measured',
+            '',
           ],
         ].map(([Icon, value, label, note]) => (
           <section className="metric" key={label}>
@@ -564,7 +742,7 @@ function Home({ user, onDetail, requireUser }) {
       <div className="section-head spacious">
         <div>
           <p className="eyebrow">BUILT FOR YOUR GAME</p>
-          <h2>Move with a purpose.</h2>
+          <h2>Explore training plans</h2>
         </div>
         <NavLink to="/plans" className="text-link">
           Explore all plans <ArrowRight size={17} />
@@ -596,7 +774,7 @@ function Home({ user, onDetail, requireUser }) {
       <div className="section-head spacious">
         <div>
           <p className="eyebrow">LEARN THE MOVEMENT</p>
-          <h2>A little more intention.</h2>
+          <h2>Learn a movement</h2>
         </div>
         <NavLink to="/exercises" className="text-link">
           {EXDB.length.toLocaleString()} exercises <ArrowRight size={17} />
@@ -629,21 +807,91 @@ function Plans({ user, onNotice, requireUser }) {
   const S = useStore((s) => s.S),
     nav = useNavigate(),
     location = useLocation(),
+    [editingMyWorkout, setEditingMyWorkout] = useState(null),
+    [planLimit, setPlanLimit] = useState(6),
     [sport, setSport] = useState(
       new URLSearchParams(location.search).get('sport') || 'all',
     ),
     [track, setTrack] = useState('beginner'),
+    [equipment, setEquipment] = useState('all'),
     [selected, setSelected] = useState(null),
+    [event, setEvent] = useState(null),
+    [moveDate, setMoveDate] = useState(''),
+    [playDate, setPlayDate] = useState(todayISO()),
+    [agenda, setAgenda] = useState(todayISO()),
     [start, setStart] = useState(todayISO()),
     [month, setMonth] = useState(
       () => new Date(new Date().getFullYear(), new Date().getMonth(), 1),
     )
+  const requestedView = new URLSearchParams(location.search).get('view')
+  const trainView = ['workouts', 'schedule'].includes(requestedView) ? requestedView : 'explore'
+  const showTrainView = view => { const params = new URLSearchParams(location.search); params.set('view',view); nav({pathname:'/plans',search:params.toString()}) }
   useEffect(() => {
     if (user?.age_band === '13-15') setTrack('youth-13')
     else if (user?.age_band === '16-17') setTrack('youth-16')
   }, [user?.age_band])
+  useEffect(() => { setPlanLimit(6) }, [sport, track, equipment])
+  const enrolled = programs.filter((p) =>
+    S.routines.some((r) => !r.cancelledAt && r.programId === p.id),
+  )
+  const openEvent = (r, date) => {
+    setEvent({ r, date })
+    setMoveDate(date)
+  }
+  const launch = (r, date) => {
+    if (!requireUser()) return
+    try {
+      update((s) => startScheduled(s, r, date))
+      setSelected(null)
+      setEvent(null)
+      nav('/workout')
+    } catch (e) {
+      onNotice(e)
+    }
+  }
+  const monthKey =
+    month.getFullYear() + '-' + String(month.getMonth() + 1).padStart(2, '0')
+  const agendaDate = agenda.startsWith(monthKey)
+    ? agenda
+    : Object.keys(S.dayPlan)
+        .sort()
+        .find((d) => d.startsWith(monthKey) && S.dayPlan[d]?.length) ||
+      monthKey + '-01'
   const list = programs.filter(
-    (p) => (sport === 'all' || p.sport === sport) && p.track === track,
+    (p) =>
+      (sport === 'all' || p.sport === sport) &&
+      p.track === track &&
+      (equipment === 'all' ||
+        p.weeks.every((w) =>
+          w.sessions.every((s) =>
+            s.sections
+              .filter((x) => x.name === 'Main')
+              .every((x) =>
+                x.exercises.every((e) => {
+                  const eq = EXIDX[e.id]?.eq
+                  return (
+                    eq === 'body weight' ||
+                    (equipment === 'dumbbells' && eq === 'dumbbell') ||
+                    (equipment === 'bands' &&
+                      ['band', 'resistance band'].includes(eq))
+                  )
+                }),
+              ),
+          ),
+        )),
+  )
+  const preferred = {
+    strength: ['dumbbells', 'general'],
+    muscle: ['dumbbells', 'bodyweight'],
+    weight: ['cardio', 'general'],
+    endurance: ['cardio', 'running'],
+    mobility: ['mobility', 'core'],
+    fitness: ['general', 'bodyweight'],
+  }
+  list.sort(
+    (a, b) =>
+      Number((preferred[S.trainingGoals?.focus] || []).includes(b.sport)) -
+      Number((preferred[S.trainingGoals?.focus] || []).includes(a.sport)),
   )
   const enroll = (p) => {
     if (!requireUser()) return
@@ -657,20 +905,212 @@ function Plans({ user, onNotice, requireUser }) {
     }
     update((s) => enrollProgram(s, p, start))
     setSelected(null)
+    showTrainView('schedule')
+    setAgenda(start)
+    setMonth(new Date(start.slice(0, 7) + '-01T12:00:00'))
     onNotice(
       'Your four-week schedule is ready. You can move any session below.',
     )
   }
+  const calendar = (
+    <section className="calendar-panel">
+      <div className="section-head">
+        <div>
+          <p className="eyebrow">MAKE TIME FOR YOU</p>
+          <h2>Your training calendar</h2>
+        </div>
+        <div className="calendar-controls">
+          <button
+            aria-label="Previous month"
+            onClick={() =>
+              setMonth(new Date(month.getFullYear(), month.getMonth() - 1, 1))
+            }
+          >
+            <ChevronLeft size={19} />
+          </button>
+          <strong>
+            {month.toLocaleDateString('en', {
+              month: 'long',
+              year: 'numeric',
+            })}
+          </strong>
+          <button
+            aria-label="Next month"
+            onClick={() =>
+              setMonth(new Date(month.getFullYear(), month.getMonth() + 1, 1))
+            }
+          >
+            <ChevronRight size={19} />
+          </button>
+        </div>
+      </div>
+      <div className="calendar-grid">
+        {['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'].map((d) => (
+          <span className="day-label" key={d}>
+            {d}
+          </span>
+        ))}
+        {Array.from({ length: (month.getDay() + 6) % 7 }, (_, i) => (
+          <div key={'blank' + i} />
+        ))}
+        {Array.from(
+          {
+            length: new Date(
+              month.getFullYear(),
+              month.getMonth() + 1,
+              0,
+            ).getDate(),
+          },
+          (_, i) => {
+            const iso = `${month.getFullYear()}-${String(month.getMonth() + 1).padStart(2, '0')}-${String(i + 1).padStart(2, '0')}`,
+              routines = (S.dayPlan[iso] || [])
+                .map((id) => S.routines.find((r) => r.id === id))
+                .filter(Boolean)
+            return (
+              <button
+                type="button"
+                key={iso}
+                className={
+                  'month-cell' +
+                  (iso === todayISO() ? ' today' : '') +
+                  (iso === agendaDate ? ' chosen' : '')
+                }
+                aria-label={iso + ', ' + routines.length + ' workouts'}
+                onClick={() => {
+                  setAgenda(iso)
+                  if (routines.length === 1) openEvent(routines[0], iso)
+                }}
+              >
+                {i + 1}
+                {routines.length > 0 &&
+                  routines.every((r) => completedRoutine(S, r.id)) && (
+                    <Check size={10} aria-label="Completed" />
+                  )}
+                <span>
+                  {routines.slice(0, 3).map((r) => (
+                    <i
+                      className={
+                        completedRoutine(S, r.id) ? 'completed-dot' : ''
+                      }
+                      key={r.id}
+                    />
+                  ))}
+                </span>
+              </button>
+            )
+          },
+        )}
+      </div>
+      <div className="day-agenda">
+        <p className="eyebrow">{stampDate(agendaDate)} / SESSIONS</p>
+        {(S.dayPlan[agendaDate] || [])
+          .map((id) => S.routines.find((r) => r.id === id))
+          .filter(Boolean)
+          .map((r) => (
+            <button
+              className="agenda-row"
+              key={r.id}
+              onClick={() => openEvent(r, agendaDate)}
+            >
+              <Dumbbell size={19} />
+              <strong>{r.name}</strong>
+              {completedRoutine(S, r.id) && (
+                <span className="completed-label">Completed!</span>
+              )}
+              <ChevronRight size={18} />
+            </button>
+          ))}
+        {!S.dayPlan[agendaDate]?.length && (
+          <>
+            <p className="muted-copy">No workout scheduled for this day.</p>
+            {(() => {
+              const next = Object.keys(S.dayPlan)
+                .sort()
+                .flatMap((d) =>
+                  (S.dayPlan[d] || []).map((id) =>
+                    S.routines.find((r) => r.id === id),
+                  ),
+                )
+                .find((r) => r && !completedRoutine(S, r.id))
+              return next ? (
+                <button
+                  className="agenda-row"
+                  onClick={() => launch(next, agendaDate)}
+                >
+                  <Play size={17} />
+                  <strong>Move next workout here & start · {next.name}</strong>
+                </button>
+              ) : null
+            })()}
+          </>
+        )}
+      </div>
+      {!S.routines.length && (
+        <p className="muted-copy">
+          Choose a program to fill your calendar. Your schedule stays editable.
+        </p>
+      )}
+    </section>
+  )
   return (
     <>
       <div className="page-title">
         <div>
-          <p className="eyebrow">A PLAN. A PURPOSE.</p>
-          <h1>Train for your game.</h1>
-          <p>Seven ways to move. One stronger you.</p>
+<h1>Train</h1>
+          <p>Find a plan. Save your favorites. Make time to train.</p>
         </div>
-        <span className="tag pale">35 STARTER PROGRAMS</span>
+        <span className="tag pale">{programs.length} STARTER PROGRAMS</span>
       </div>
+      <nav className="train-view-tabs" aria-label="Training views">
+        {[['explore','Explore plans'],['workouts','My Workouts'],['schedule','Schedule']].map(([view,label])=><button key={view} aria-current={trainView===view?'page':undefined} className={trainView===view?'selected':''} onClick={()=>showTrainView(view)}>{label}</button>)}
+      </nav>
+      {trainView==='workouts' && <>
+      <SavedWorkouts routines={S.routines} Modal={Modal} onAdd={() => nav('/create-workout')} onBuild={() => nav('/builder')}
+        onOpen={routine => openEvent(routine, todayISO())}
+        onStart={routine => {if(!requireUser())return;try{update(s => startSession(s,routine));nav('/workout')}catch(error){onNotice(error.message)}}}
+        onEdit={routine => {if(requireUser())setEditingMyWorkout(routine)}}
+        onDelete={routine => {if(!requireUser())return;update(s => deleteMyWorkout(s,routine.id));onNotice('Workout deleted. Your training history is preserved.')}}/>
+      </>}
+      {editingMyWorkout && <ManagePlans key={editingMyWorkout.id} initialWorkout={editingMyWorkout} onDone={() => setEditingMyWorkout(null)} Modal={Modal} requireUser={requireUser} onNotice={onNotice}/>}
+
+      {trainView==='schedule' && <>
+      <div className="creation-strip"><button className="outline" onClick={()=>nav('/create-workout?type=plan')}><Plus size={16}/> Create a plan</button></div>
+      <div id="manage-plans"/><ManagePlans Modal={Modal} requireUser={requireUser} onNotice={onNotice}/>
+      {enrolled.length > 0 && (
+        <section className="saved-plans">
+          <p className="eyebrow">YOUR PLANS</p>
+          {enrolled.map((p) => (
+            <button
+              className="agenda-row"
+              key={p.id}
+              onClick={() => setSelected(p)}
+            >
+              <Layers3 size={20} />
+              <strong>{p.title}</strong>
+              <span>{p.level}</span>
+              <ChevronRight size={16} />
+            </button>
+          ))}
+        </section>
+      )}
+      {calendar}
+      <details className="layout-disclosure"><summary>Training goals</summary><TrainingGoals S={S} requireUser={requireUser} /></details>
+      </>}
+      {trainView==='explore' && <>
+      <div className="section-head train-explore-heading"><h2>Find your next plan</h2><button className="text-link" onClick={()=>nav('/builder')}>Build my own <ArrowRight size={16}/></button></div>
+      <label className="equipment-filter">
+        Available equipment
+        <select
+          aria-label="Available equipment"
+          value={equipment}
+          onChange={(e) => setEquipment(e.target.value)}
+        >
+          <option value="all">Full gym / any equipment</option>
+          <option value="bodyweight">Home / no equipment</option>
+          <option value="dumbbells">Hotel / bodyweight & dumbbells</option>
+          <option value="bands">Home / bodyweight & bands</option>
+        </select>
+      </label>
       <div className="filter-tabs">
         {sports.map(([id, label]) => (
           <button
@@ -696,8 +1136,19 @@ function Plans({ user, onNotice, requireUser }) {
           <option value="youth-16">Youth · Ages 16–17</option>
         </select>
       </div>
+      {!list.length && (
+        <p className="muted-copy">
+          No plan for this combination yet. Choose another activity or track.
+        </p>
+      )}
+      <div className="section-head spacious">
+        <h2>Explore plans</h2>
+        <NavLink className="text-link" to="/exercises">
+          Exercise library <ArrowRight size={16} />
+        </NavLink>
+      </div>
       <div className="plans-grid">
-        {list.map((p) => (
+        {list.slice(0, planLimit).map((p) => (
           <button
             key={p.id}
             className={'plan-card sport-' + p.sport}
@@ -725,131 +1176,154 @@ function Plans({ user, onNotice, requireUser }) {
           </button>
         ))}
       </div>
-      <section className="calendar-panel">
-        <div className="section-head">
-          <div>
-            <p className="eyebrow">MAKE TIME FOR YOU</p>
-            <h2>Your training calendar</h2>
-          </div>
-          <div className="calendar-controls">
-            <button
-              aria-label="Previous month"
-              onClick={() =>
-                setMonth(new Date(month.getFullYear(), month.getMonth() - 1, 1))
-              }
-            >
-              <ChevronLeft size={19} />
-            </button>
-            <strong>
-              {month.toLocaleDateString('en', {
-                month: 'long',
-                year: 'numeric',
-              })}
-            </strong>
-            <button
-              aria-label="Next month"
-              onClick={() =>
-                setMonth(new Date(month.getFullYear(), month.getMonth() + 1, 1))
-              }
-            >
-              <ChevronRight size={19} />
-            </button>
-          </div>
-        </div>
-        <div className="calendar-grid">
-          {['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'].map((d) => (
-            <span className="day-label" key={d}>
-              {d}
-            </span>
-          ))}
-          {Array.from({ length: (month.getDay() + 6) % 7 }, (_, i) => (
-            <div key={'blank' + i} />
-          ))}
-          {Array.from(
-            {
-              length: new Date(
-                month.getFullYear(),
-                month.getMonth() + 1,
-                0,
-              ).getDate(),
-            },
-            (_, i) => {
-              const iso = `${month.getFullYear()}-${String(month.getMonth() + 1).padStart(2, '0')}-${String(i + 1).padStart(2, '0')}`,
-                routines = (S.dayPlan[iso] || [])
-                  .map((id) => S.routines.find((r) => r.id === id))
-                  .filter(Boolean)
-              return (
-                <div
-                  className={
-                    'calendar-day ' + (iso === todayISO() ? 'is-today' : '')
-                  }
-                  key={iso}
+      {planLimit < list.length && <button className="outline load-more" onClick={() => setPlanLimit((n) => n + 6)}>More plans <Plus size={17} /></button>}
+      </>}
+      {event && (
+        <Modal title={event.r.name} onClose={() => setEvent(null)}>
+          <div className="modal-body session-preview">
+            <div className="session-art">
+              <PilotMedia
+                preview
+                id={
+                  (
+                    event.r.ex.find((e) => e.section === 'Main') ||
+                    event.r.ex[0]
+                  )?.id
+                }
+              >
+                <img src="/workout/intent-hero.png" alt="" />
+              </PilotMedia>
+            </div>
+            <p className="eyebrow">
+              {stampDate(event.date)} / {event.r.ex.length} exercises
+            </p>
+            {completedRoutine(S, event.r.id) ? (
+              <p className="completed-label">
+                <CheckCircle2 size={19} /> Completed!{' '}
+                <NavLink to="/progress#workout-log">View workout log</NavLink>
+              </p>
+            ) : (
+              <button
+                className="lime wide"
+                onClick={() => launch(event.r, todayISO())}
+              >
+                <Play size={18} />
+                {[S.active, ...(S.active?.otherSessions || [])].some((a) =>
+                  a?.routineIds?.includes(event.r.id),
+                )
+                  ? 'Resume workout'
+                  : event.date === todayISO()
+                    ? 'Start workout'
+                    : 'Move to today & start'}
+              </button>
+            )}
+            {!completedRoutine(S, event.r.id) && (
+              <>
+                <label>
+                  Move to another day
+                  <input
+                    type="date"
+                    value={moveDate}
+                    onChange={(e) => setMoveDate(e.target.value)}
+                  />
+                </label>
+                <button
+                  className="outline wide"
+                  disabled={!moveDate || moveDate === event.date}
+                  onClick={() => {
+                    if (!requireUser()) return
+                    update((s) => {
+                      s.dayPlan[event.date] = (
+                        s.dayPlan[event.date] || []
+                      ).filter((id) => id !== event.r.id)
+                      s.dayPlan[moveDate] = [
+                        ...new Set([
+                          ...(s.dayPlan[moveDate] || []),
+                          event.r.id,
+                        ]),
+                      ]
+                    })
+                    setAgenda(moveDate)
+                    setMonth(new Date(moveDate.slice(0, 7) + '-01T12:00:00'))
+                    setEvent(null)
+                    onNotice('Workout moved to ' + stampDate(moveDate) + '.')
+                  }}
                 >
-                  <b>{i + 1}</b>
-                  {routines.map((r) => (
-                    <details key={r.id}>
-                      <summary>
-                        {r.name.split(' · ').slice(0, 2).join(' · ')}
-                      </summary>
-                      <button
-                        onClick={() => {
-                          if (!requireUser()) return
-                          try {
-                            update((s) => startSession(s, r))
-                            nav('/workout')
-                          } catch (e) {
-                            onNotice(e)
-                          }
-                        }}
-                      >
-                        Start
-                      </button>
-                      <label>
-                        Move to
-                        <input
-                          aria-label={'Move ' + r.name}
-                          type="date"
-                          value={iso}
-                          onChange={(e) => {
-                            const date = e.target.value
-                            if (!date) return
-                            update((s) => {
-                              s.dayPlan[iso] = (s.dayPlan[iso] || []).filter(
-                                (id) => id !== r.id,
-                              )
-                              s.dayPlan[date] = [
-                                ...(s.dayPlan[date] || []),
-                                r.id,
-                              ]
-                            })
-                          }}
-                        />
-                      </label>
-                    </details>
-                  ))}
-                </div>
-              )
-            },
-          )}
-        </div>
-        {!S.routines.length && (
-          <p className="muted-copy">
-            Choose a program to fill your calendar. Your schedule stays
-            editable.
-          </p>
-        )}
-      </section>
+                  <CalendarDays size={17} />
+                  Move workout
+                </button>
+              </>
+            )}
+          </div>
+        </Modal>
+      )}
       {selected && (
         <Modal title={selected.title} onClose={() => setSelected(null)}>
           <div className="modal-body">
-            <p>{selected.description}</p>
+            <PhotoStory eyebrow={selected.label} title={selected.title} detail={selected.focus} variant="train"/>
+            <div className="plan-facts">
+              <span>
+                <CalendarDays /> {selected.duration} weeks
+              </span>
+              <span>
+                <Activity /> {selected.weeks[0].sessions.length} days/week
+              </span>
+              <span>
+                <Target /> {selected.level}
+              </span>
+            </div>
             <div className="notice-box">
               <ShieldCheck size={22} />
               <span>
-                {selected.supervision}. This program is a draft awaiting
-                qualified coaching review.
+                {selected.supervision} · Draft awaiting coaching review.
               </span>
             </div>
+            {enrolled.some((p) => p.id === selected.id) && (
+              <label>
+                Workout date
+                <input
+                  aria-label="Workout date"
+                  type="date"
+                  value={playDate}
+                  onChange={(e) => setPlayDate(e.target.value)}
+                />
+              </label>
+            )}
+            {enrolled.some((p) => p.id === selected.id) &&
+              selected.ageBand === 'adult' && (
+                <label className="progression-control">
+                  Progression for future sessions
+                  <select
+                    aria-label="Plan progression"
+                    value={
+                      S.routines
+                        .find((r) => !r.cancelledAt && r.programId === selected.id)
+                        ?.ex.find((e) => e.section === 'Main')?.prog || 'double'
+                    }
+                    onChange={(e) => {
+                      const value = e.target.value
+                      update((s) => {
+                        for (const r of s.routines.filter(
+                          (r) => !r.cancelledAt && r.programId === selected.id,
+                        ))
+                          for (const ex of r.ex)
+                            if (ex.section === 'Main')
+                              ex.prog = ex.mode === 'time' ? 'off' : value
+                      })
+                    }}
+                  >
+                    <option value="double">
+                      Build reps, then increase load
+                    </option>
+                    <option value="off">Keep my chosen targets</option>
+                  </select>
+                  <small>
+                    Suggestions use completed work, including missed targets.
+                    Edit every set as needed; timed mobility and youth practice
+                    keep their targets.
+                  </small>
+                </label>
+              )}
             {selected.weeks.map((w) => (
               <details
                 className="week-details"
@@ -861,31 +1335,80 @@ function Plans({ user, onNotice, requireUser }) {
                 </summary>
                 <p>{w.note}</p>
                 {w.sessions.map((s, i) => (
-                  <div key={i}>
-                    <h4>{s.name}</h4>
+                  <details className="session-fold" key={i}>
+                    <summary>
+                      <Dumbbell size={16} /> Day {i + 1} · {s.name}
+                      {(() => {
+                        const r = S.routines.find(
+                          (r) =>
+                            programSessionMatches(r,selected.id,w.week,i,s.name),
+                        )
+                        return r && completedRoutine(S, r.id) ? (
+                          <span className="completed-label">Completed!</span>
+                        ) : null
+                      })()}
+                    </summary>
+                    {(() => {
+                      const routine = S.routines.find(
+                        (r) =>
+                          programSessionMatches(r,selected.id,w.week,i,s.name),
+                      )
+                      return routine ? (
+                        completedRoutine(S, routine.id) ? (
+                          <p className="completed-label">
+                            <CheckCircle2 size={17} /> Completed!
+                          </p>
+                        ) : (
+                          <button
+                            className="lime"
+                            disabled={!playDate}
+                            onClick={() => launch(routine, playDate)}
+                          >
+                            <Play size={16} />
+                            {playDate === todayISO()
+                              ? 'Start today'
+                              : 'Move to ' + stampDate(playDate) + ' & start'}
+                          </button>
+                        )
+                      ) : null
+                    })()}
                     {s.sections.map((section) => (
                       <p key={section.name}>
-                        <strong>{section.name}: </strong>
+                        <strong>{section.name}</strong>
+                        <br />
                         {section.exercises
                           .map((e) => title(EXIDX[e.id]?.n))
                           .join(' · ')}
                       </p>
                     ))}
-                  </div>
+                  </details>
                 ))}
               </details>
             ))}
-            <label>
-              Start date
-              <input
-                type="date"
-                value={start}
-                onChange={(e) => setStart(e.target.value)}
-              />
-            </label>
-            <button className="primary wide" onClick={() => enroll(selected)}>
-              Add draft program to my schedule <ArrowRight size={18} />
-            </button>
+            {!enrolled.some((p) => p.id === selected.id) && (
+              <>
+                <label>
+                  Start date
+                  <input
+                    type="date"
+                    value={start}
+                    onChange={(e) => setStart(e.target.value)}
+                  />
+                </label>
+                <button
+                  className="primary wide"
+                  onClick={() => enroll(selected)}
+                >
+                  Add to my schedule <ArrowRight size={18} />
+                </button>
+              </>
+            )}
+            {enrolled.some((p) => p.id === selected.id) && <button className="outline wide" onClick={()=>{setSelected(null);showTrainView('schedule');requestAnimationFrame(()=>{const details=document.querySelector('.manage-plans');if(details){details.open=true;details.scrollIntoView({block:'start'})}})}}><Settings2 size={17}/> Edit or cancel this plan</button>}
+            {enrolled.some((p) => p.id === selected.id) && (
+              <p>
+                <CheckCircle2 size={16} /> On your schedule
+              </p>
+            )}
           </div>
         </Modal>
       )}
@@ -893,39 +1416,36 @@ function Plans({ user, onNotice, requireUser }) {
   )
 }
 function Library({ onDetail }) {
+  const illustrationIndex = useIllustrationIndex()
   const [query, setQuery] = useState(''),
-    [equipment, setEquipment] = useState(''),
-    [muscle, setMuscle] = useState(''),
-    [movement, setMovement] = useState(''),
-    [difficulty, setDifficulty] = useState(''),
-    [limit, setLimit] = useState(48)
+    [equipment, setEquipment] = useState([]),
+    [muscle, setMuscle] = useState([]),
+    [movement, setMovement] = useState([]),
+    [difficulty, setDifficulty] = useState([]),
+    [limit, setLimit] = useState(12)
   const list = EXDB.filter(
     (e) =>
-      (!query || `${e.n} ${e.tg} ${e.eq}`.includes(query.toLowerCase())) &&
-      (!equipment || e.eq === equipment) &&
-      (!muscle || e.tg === muscle) &&
-      (!movement || movementOf(e) === movement) &&
-      (!difficulty || difficultyOf(e) === difficulty),
+      matchesExerciseSearch(e, query) &&
+      matchesSelections({eq:e.eq,tg:e.tg,movement:movementOf(e),difficulty:difficultyOf(e)},{eq:equipment,tg:muscle,movement,difficulty}),
   )
-  const reset = () => setLimit(48)
+  const reset = () => setLimit(12)
   return (
     <>
       <div className="page-title">
         <div>
           <p className="eyebrow">KNOW YOUR MOVEMENT</p>
-          <h1>The exercise library.</h1>
+          <h1>Exercise library</h1>
           <p>
-            Explore {EXDB.length.toLocaleString()} movements. Build confidence,
-            one rep at a time.
+            {EXDB.length.toLocaleString()} movements. Find your next exercise.
           </p>
         </div>
-        <span className="tag pale">COMPLETE OPENGYM CATALOG</span>
+
       </div>
       <div className="search-bar">
         <Search size={21} />
         <input
           aria-label="Search exercises"
-          placeholder="Search a movement, muscle or equipment…"
+          placeholder="Try push, pull, a muscle or equipment…"
           value={query}
           onChange={(e) => {
             setQuery(e.target.value)
@@ -938,6 +1458,7 @@ function Library({ onDetail }) {
           </button>
         )}
       </div>
+      <div className="filter-tabs" aria-label="Training group shortcuts"><button aria-pressed={query==='push'} onClick={()=>{setQuery(query==='push'?'':'push');reset()}}>Push · chest, shoulders, triceps</button><button aria-pressed={query==='pull'} onClick={()=>{setQuery(query==='pull'?'':'pull');reset()}}>Pull · back, biceps</button></div>
       <div className="library-filters">
         <Settings2 size={18} />
         {[
@@ -966,27 +1487,13 @@ function Library({ onDetail }) {
             ['beginner', 'intermediate', 'unclassified'],
           ],
         ].map(([label, value, set, options]) => (
-          <select
-            aria-label={label}
-            value={value}
-            key={label}
-            onChange={(e) => {
-              set(e.target.value)
-              reset()
-            }}
-          >
-            <option value="">All {label.toLowerCase()}</option>
-            {options.map((o) => (
-              <option key={o} value={o}>
-                {title(o)}
-              </option>
-            ))}
-          </select>
+          <MultiFilter key={label} label={label} values={value} options={options} onChange={next=>{set(next);reset()}}/>
         ))}
       </div>
+      {(equipment.length+muscle.length+movement.length+difficulty.length)>0 && <div className="active-filter-summary"><span>{equipment.length+muscle.length+movement.length+difficulty.length} filters selected</span><button className="text-link" onClick={()=>{setEquipment([]);setMuscle([]);setMovement([]);setDifficulty([]);reset()}}>Clear all</button></div>}
       <div className="section-head">
         <p>{list.length.toLocaleString()} exercises</p>
-        <span className="muted-copy">Original 3D library in production</span>
+        <span className="muted-copy">Upgraded illustrations added as available</span>
       </div>
       <div className="exercise-grid">
         {list.slice(0, limit).map((e, i) => (
@@ -996,7 +1503,9 @@ function Library({ onDetail }) {
             onClick={() => onDetail(e.id)}
           >
             <div className={'exercise-image tone-' + (i % 4)}>
-              <BodyGlyph part={e.bp} />
+              <PilotMedia id={e.id} thumbnail>
+                <BodyGlyph part={e.bp} />
+              </PilotMedia>
               <span className="exercise-part">{e.bp}</span>
               <ArrowUpRight size={19} />
             </div>
@@ -1006,8 +1515,10 @@ function Library({ onDetail }) {
                 {e.eq} <span>·</span> {e.tg}
               </p>
               <small>
-                {motions[e.id]
-                  ? 'Original 3D study · unreviewed'
+                {approvedVariant(illustrationIndex, e.id, 'male') || approvedVariant(illustrationIndex, e.id, 'female')
+                  ? 'Upgraded illustration'
+                  : motions[e.id]
+                  ? 'Draft illustration · unreviewed'
                   : 'Demonstration pending'}
               </small>
             </div>
@@ -1022,7 +1533,7 @@ function Library({ onDetail }) {
       {limit < list.length && (
         <button
           className="outline load-more"
-          onClick={() => setLimit(limit + 48)}
+          onClick={() => setLimit(limit + 12)}
         >
           Load more exercises <Plus size={17} />
         </button>
@@ -1110,31 +1621,33 @@ function ExerciseDetail({ id, onClose, onNotice, requireUser }) {
   return (
     <Modal title={title(base?.n)} onClose={onClose}>
       <div className="modal-body">
-        {motions[id] ? (
-          <Suspense
-            fallback={
-              <div className="media-loading">Loading exercise drawing…</div>
-            }
-          >
-            <Anatomy
-              motion={motions[id]}
-              primary={ex?.muscleMap?.primaries || [base?.tg]}
-              secondary={ex?.muscleMap?.secondaries || base?.sm || []}
-            />
-          </Suspense>
-        ) : (
-          <div className="pending-media">
-            <BodyGlyph part={base?.bp || ''} />
-            <div>
-              <span className="tag pale">DEMONSTRATION PENDING</span>
-              <p>
-                This exercise demonstration is in production.
-                <br />
-                Instructions are available below.
-              </p>
+        <PilotMedia id={id}>
+          {motions[id] ? (
+            <Suspense
+              fallback={
+                <div className="media-loading">Loading exercise drawing…</div>
+              }
+            >
+              <Anatomy
+                motion={motions[id]}
+                primary={ex?.muscleMap?.primaries || [base?.tg]}
+                secondary={ex?.muscleMap?.secondaries || base?.sm || []}
+              />
+            </Suspense>
+          ) : (
+            <div className="pending-media">
+              <BodyGlyph part={base?.bp || ''} />
+              <div>
+                <span className="tag pale">DEMONSTRATION PENDING</span>
+                <p>
+                  This exercise demonstration is in production.
+                  <br />
+                  Instructions are available below.
+                </p>
+              </div>
             </div>
-          </div>
-        )}
+          )}
+        </PilotMedia>
         <div className="detail-tags">
           <span>{base?.eq}</span>
           <span>{base?.tg}</span>
@@ -1168,7 +1681,6 @@ function Player({ onNotice, onDetail, requireUser }) {
     nav = useNavigate(),
     [now, setNow] = useState(Date.now()),
     [swap, setSwap] = useState(false),
-    [swapEq, setSwapEq] = useState(''),
     [confirm, setConfirm] = useState(false),
     [cue, setCue] = useState(null)
   const cueId = a?.entries[a?.cur || 0]?.id
@@ -1189,6 +1701,7 @@ function Player({ onNotice, onDetail, requireUser }) {
     const t = setInterval(() => setNow(Date.now()), 1000)
     return () => clearInterval(t)
   }, [])
+  if (a?.editingWorkoutId) return <SavedSessionEditor Modal={Modal} onNotice={onNotice} />
   if (!a)
     return (
       <Empty
@@ -1207,15 +1720,23 @@ function Player({ onNotice, onDetail, requireUser }) {
     entry = a.entries[index],
     ex = EXIDX[entry?.id],
     done = a.entries.reduce(
-      (n, e) => n + e.sets.filter((s) => s.done).length,
+      (n, e) => n + e.sets.filter(hasCompletedWork).length,
       0,
     ),
     total = a.entries.reduce((n, e) => n + e.sets.length, 0),
     rest = Math.max(0, Math.ceil(((a.restUntil || 0) - now) / 1000))
+  const alternatives = swap && a.builderConstraints ? sessionSwapOptions(a, index, sessionCatalog, S.exerciseIdAliases) : EXDB.filter((e) => e.id !== entry.id && e.tg === ex?.tg)
   const finish = () => {
     try {
-      update((s) => completeSession(s))
-      onNotice('Workout saved. Every session is a step forward.')
+      let saved
+      update((s) => {
+        saved = completeSession(s)
+      })
+      onNotice(
+        saved.badges?.length
+          ? 'Workout saved! ' + saved.badges.map((b) => b.label).join(' · ')
+          : 'Workout saved. Every session is a step forward.',
+      )
       nav('/progress')
     } catch (e) {
       onNotice(e)
@@ -1229,21 +1750,62 @@ function Player({ onNotice, onDetail, requireUser }) {
           <h1>{a.name.split(' · ')[0]}</h1>
           <p>{a.name}</p>
         </div>
+        <button className="outline" onClick={() => nav('/plans')}>
+          <ArrowLeft size={16} />
+          Leave workout
+        </button>
         <button className="outline" onClick={() => setConfirm(true)}>
           Finish workout <Check size={18} />
         </button>
       </div>
+      {!!a.otherSessions?.length && (
+        <div className="saved-plans">
+          <p className="eyebrow">ALSO IN PROGRESS</p>
+          {a.otherSessions.map((session) => (
+            <button
+              key={session.id}
+              className="agenda-row"
+              onClick={() =>
+                update((s) => startSession(s, { id: session.routineIds[0] }))
+              }
+            >
+              <Play size={16} />
+              <strong>Resume {session.name}</strong>
+            </button>
+          ))}
+        </div>
+      )}
       <div className="session-progress">
         <span>
-          {done} / {total} sets complete
+          {done} / {total} {a.entries.some((e) => e.sets.some(isSideSet)) ? 'sets with logged work' : 'sets complete'}
         </span>
         <div>
           <i style={{ width: `${(done / Math.max(total, 1)) * 100}%` }} />
         </div>
         <strong>
-          {Math.floor((now - a.start) / 60000)}:
-          {String(Math.floor((now - a.start) / 1000) % 60).padStart(2, '0')}
+          {Math.floor(trainedMs(a, now) / 60000)}:
+          {String(Math.floor(trainedMs(a, now) / 1000) % 60).padStart(2, '0')}
         </strong>
+      </div>
+      <div className="live-totals">
+        <span>
+          <Clock3 size={16} />
+          Time {Math.floor(trainedMs(a, now) / 60000)} min
+        </span>
+        <span>
+          <Dumbbell size={16} />
+          Volume {Math.round(workoutVolume(a))} {S.unit}
+        </span>
+        <span>
+          <Activity size={16} />
+          {a.entries.reduce(
+            (n, e) =>
+              n +
+              e.sets.filter((s) => s.done).reduce((n, s) => n + (s.r || 0), 0),
+            0,
+          )}{' '}
+          reps
+        </span>
       </div>
       <div className="player-grid">
         <section>
@@ -1256,28 +1818,35 @@ function Player({ onNotice, onDetail, requireUser }) {
             </button>
           </div>
           <h2 className="movement-title">{title(ex?.n)}</h2>
-          {motions[entry.id] ? (
-            <Suspense
-              fallback={<div className="media-loading">Loading movement…</div>}
-            >
-              <Anatomy
-                motion={motions[entry.id]}
-                primary={[ex?.tg]}
-                secondary={ex?.sm || []}
-              />
-            </Suspense>
-          ) : (
-            <div className="pending-media large">
-              <BodyGlyph part={ex?.bp || ''} />
-              <div>
-                <span className="tag pale">DEMONSTRATION PENDING</span>
-                <p>Learn the movement with step-by-step instructions.</p>
-                <button className="outline" onClick={() => onDetail(entry.id)}>
-                  View technique
-                </button>
+          <PilotMedia id={entry.id}>
+            {motions[entry.id] ? (
+              <Suspense
+                fallback={
+                  <div className="media-loading">Loading movement…</div>
+                }
+              >
+                <Anatomy
+                  motion={motions[entry.id]}
+                  primary={[ex?.tg]}
+                  secondary={ex?.sm || []}
+                />
+              </Suspense>
+            ) : (
+              <div className="pending-media large">
+                <BodyGlyph part={ex?.bp || ''} />
+                <div>
+                  <span className="tag pale">DEMONSTRATION PENDING</span>
+                  <p>Learn the movement with step-by-step instructions.</p>
+                  <button
+                    className="outline"
+                    onClick={() => onDetail(entry.id)}
+                  >
+                    View technique
+                  </button>
+                </div>
               </div>
-            </div>
-          )}
+            )}
+          </PilotMedia>
           {cue && (
             <div className="technique-cue">
               <strong>Focus on form</strong>
@@ -1322,17 +1891,64 @@ function Player({ onNotice, onDetail, requireUser }) {
               ? `${bestWeightFor(S, entry.id)} ${S.unit}`
               : 'Not recorded yet'}
           </p>
+          {(() => {
+            const last = lastEntryFor(S, entry.id, entry.rid)
+            return (
+              <section className="last-session">
+                <h4>Last session {last ? '· ' + stampDate(last.d) : ''}</h4>
+                {last ? (
+                  <p>
+                    {last.sets
+                      .map(
+                        (row, i) =>
+                          'Set ' +
+                          (i + 1) +
+                          ': ' +
+                          (row.w ? row.w + ' ' + S.unit + ' × ' : '') +
+                          (row.sec ? row.sec + ' sec' : row.r + ' reps'),
+                      )
+                      .join(' · ')}
+                  </p>
+                ) : (
+                  <p>
+                    No previous session yet. Today establishes your baseline.
+                  </p>
+                )}
+                {entry.plan && (
+                  <p className="muted-copy">
+                    Today's target:{' '}
+                    {entry.plan.why?.join(' ') ||
+                      entry.plan.reason ||
+                      entry.plan.kind ||
+                      'Follow your plan'}
+                    . You can adjust each set below.
+                  </p>
+                )}
+              </section>
+            )
+          })()}
+          <p className="muted-copy">
+            {entry.target?.mode === 'time'
+              ? 'Start a timed set below, or enter the seconds you completed and check Done.'
+              : 'Enter your weight and actual reps, then tap the checkmark to complete the set.'}
+          </p>
           <div className="set-table">
-            <div className="set-row set-heading">
+            {entry.sets.some((row) => !isSideSet(row) && modeForSet(row, entry.target) !== 'cardio' && !(modeForSet(row, entry.target) === 'time' && entry.target?.mode !== 'time') && !Object.hasOwn(row, 'seconds') && !Object.hasOwn(row, 'durationSec')) && <div className="set-row set-heading">
               <span>SET</span>
               <span>{S.unit.toUpperCase()}</span>
               <span>{entry.target?.mode === 'time' ? 'SECONDS' : 'REPS'}</span>
               <span>DONE</span>
-            </div>
+            </div>}
             {entry.sets.map((set, i) => (
-              <div
+              isSideSet(set) || modeForSet(set, entry.target) === 'cardio' || (modeForSet(set, entry.target) === 'time' && entry.target?.mode !== 'time') || Object.hasOwn(set, 'seconds') || Object.hasOwn(set, 'durationSec') ? <AdvancedSetRow key={i} entry={entry} row={set} entryIndex={index} setIndex={i} S={S} onChange={(next) => update((s) => {
+                const previous = s.active.entries[index].sets[i]
+                if (next.done && !previous.done) next.at = Date.now()
+                s.active.entries[index].sets[i] = next
+                if (s.active.setTimer?.entry === index && s.active.setTimer?.set === i) s.active.setTimer = null
+                if (next.done && !previous.done) s.active.restUntil = Date.now() + (entry.target?.rest ?? 90) * 1000
+              })} /> :
+              <Fragment key={i}><div
                 className={'set-row ' + (set.done ? 'completed' : '')}
-                key={i}
               >
                 <b>{i + 1}</b>
                 <input
@@ -1379,37 +1995,24 @@ function Player({ onNotice, onDetail, requireUser }) {
                     update((s) => {
                       const row = s.active.entries[index].sets[i]
                       row.done = !row.done
-                      if (row.done)
+                      if (row.done) row.at = Date.now()
+                      if (
+                        s.active.setTimer?.entry === index &&
+                        s.active.setTimer?.set === i
+                      )
+                        s.active.setTimer = null
+                      if (row.done && !s.active.editingWorkoutId)
                         s.active.restUntil =
-                          Date.now() + (entry.target?.rest || 90) * 1000
+                          Date.now() + (entry.target?.rest ?? 90) * 1000
                     })
                   }
                 >
                   <Check size={19} />
                 </button>
-              </div>
+              </div>{set.done && <details className="set-rating"><summary>Optional set rating</summary><div><label><input type="checkbox" aria-label={`Set ${i + 1} warmup`} checked={isWarmup(set)} onChange={(e) => update((s) => { s.active.entries[index].sets[i] = setWarmupFlag(s.active.entries[index].sets[i], e.target.checked) })} /> Warmup (excluded from working sets)</label><label>Reps in reserve<select aria-label={`Set ${i + 1} reps in reserve`} value={set.rir ?? ''} onChange={(e) => update((s) => { const row = s.active.entries[index].sets[i]; row.rir = e.target.value === '' ? null : Number(e.target.value) })}><option value="">Not rated</option>{Array.from({ length: 11 }, (_, n) => <option value={n} key={n}>{n}</option>)}</select></label><label>Perceived feel<select aria-label={`Set ${i + 1} perceived feel`} value={set.feel ?? ''} onChange={(e) => update((s) => { const row = s.active.entries[index].sets[i]; row.feel = e.target.value === '' ? null : Number(e.target.value) })}><option value="">Not rated</option>{[1, 2, 3, 4, 5].map((n) => <option value={n} key={n}>{n} / 5</option>)}</select></label></div></details>}</Fragment>
             ))}
           </div>
-          <div className={'rest-timer ' + (rest ? 'running' : '')}>
-            <Clock3 size={22} />
-            <div>
-              <span>{rest ? 'REST & RESET' : 'READY FOR YOUR NEXT SET'}</span>
-              <strong>
-                {Math.floor(rest / 60)}:{String(rest % 60).padStart(2, '0')}
-              </strong>
-            </div>
-            {rest > 0 && (
-              <button
-                onClick={() =>
-                  update((s) => {
-                    s.active.restUntil = 0
-                  })
-                }
-              >
-                Skip
-              </button>
-            )}
-          </div>
+          <WorkoutTimers active={a} index={index} />
           <button className="outline wide" onClick={() => setSwap(true)}>
             Swap exercise <ArrowRight size={17} />
           </button>
@@ -1424,36 +2027,14 @@ function Player({ onNotice, onDetail, requireUser }) {
       </div>
       {swap && (
         <Modal title="Find an alternative" onClose={() => setSwap(false)}>
-          <div className="modal-body">
-            <p>
-              Same target muscle. Choose equipment available to you. Your logged
-              sets stay in the session.
-            </p>
-            <select
-              aria-label="Alternative equipment"
-              value={swapEq}
-              onChange={(e) => setSwapEq(e.target.value)}
-            >
-              <option value="">Any equipment</option>
-              {[
-                ...new Set(EXDB.filter((e) => e.tg === ex.tg).map((e) => e.eq)),
-              ].map((eq) => (
-                <option key={eq}>{eq}</option>
-              ))}
-            </select>
-            {EXDB.filter(
-              (e) =>
-                e.id !== entry.id &&
-                e.tg === ex.tg &&
-                (!swapEq || e.eq === swapEq),
-            )
-              .slice(0, 30)
-              .map((e) => (
-                <button
-                  className="alternative"
-                  key={e.id}
-                  onClick={() => {
+          <SwapPicker options={alternatives} current={ex} constrained={!!a.builderConstraints}
+            instructions={builderInstructions}
+            renderMedia={e => <PilotMedia id={e.id} thumbnail><BodyGlyph part={e.bp}/></PilotMedia>}
+            onSwap={e => {
+                    try {
                     update((s) => {
+                      if (s.active.builderConstraints) { s.active = applySessionSwap(s.active, index, e.id, sessionCatalog, s.exerciseIdAliases); return }
+                      s.active.setTimer = null
                       const old = s.active.entries[index],
                         replacement = {
                           id: e.id,
@@ -1474,13 +2055,8 @@ function Player({ onNotice, onDetail, requireUser }) {
                     onNotice(
                       'Alternative ready. Set the load for this movement before you begin.',
                     )
-                  }}
-                >
-                  {title(e.n)}
-                  <small>{e.eq}</small>
-                </button>
-              ))}
-          </div>
+                    } catch (error) { onNotice(error.message) }
+            }}/>
         </Modal>
       )}
       {confirm && (
@@ -1499,7 +2075,7 @@ function Player({ onNotice, onDetail, requireUser }) {
               className="danger-link"
               onClick={() => {
                 update((s) => {
-                  s.active = null
+                  leaveFinishedSession(s)
                 })
                 setConfirm(false)
                 nav('/')
@@ -1513,7 +2089,7 @@ function Player({ onNotice, onDetail, requireUser }) {
     </>
   )
 }
-function Progress() {
+export function Progress({ requireUser, onNotice }) {
   const S = useStore((s) => s.S),
     nav = useNavigate(),
     weeks = Array.from({ length: 8 }, (_, i) => {
@@ -1531,43 +2107,27 @@ function Progress() {
     }),
     max = Math.max(1, ...weeks.map((w) => w.count)),
     minutes = Math.round(
-      S.workouts.reduce((n, w) => n + (w.end - w.start) / 60000, 0),
+      S.workouts.reduce((n, w) => n + trainedMs(w) / 60000, 0),
     )
+  const location = useLocation()
+  const view = progressView(location.search, location.hash)
   return (
     <>
-      <div className="page-title">
-        <div>
-          <p className="eyebrow">LOOK HOW FAR YOU'VE COME</p>
-          <h1>Your effort adds up.</h1>
-          <p>Real sessions. Real progress. Your own pace.</p>
-        </div>
+      <div className="page-title"><div><h1>Progress</h1><p>Your training, at a glance.</p></div>
+        <button className="outline compact" onClick={() => nav('/exercise-progress')}><TrendingUp size={17} /> Exercise progress</button>
       </div>
-      <div className="metric-row">
-        {[
-          [Activity, S.workouts.length, 'Workouts completed'],
-          [Clock3, minutes, 'Minutes invested'],
-          [
-            TrendingUp,
-            S.workouts.reduce((n, w) => n + (w.prs?.length || 0), 0),
-            'Personal records',
-          ],
-        ].map(([Icon, n, label]) => (
-          <section className="metric" key={label}>
-            <div className="metric-icon">
-              <Icon size={21} />
-            </div>
-            <div>
-              <span>{label}</span>
-              <strong>{n}</strong>
-            </div>
-          </section>
-        ))}
-      </div>
+      <nav className="section-nav" aria-label="Progress views">
+        {['overview', 'history', 'body', 'insights'].map((item) => <NavLink key={item} to={`/progress?view=${item}`} aria-current={view === item ? 'page' : false} className={view === item ? 'selected' : ''}>{item[0].toUpperCase() + item.slice(1)}</NavLink>)}
+      </nav>
+      <div className="progress-view" key={view}>
+      {view === 'overview' && <>
+      <PhotoStory eyebrow="PROGRESS IS PERSONAL" title="Look how far you’ve come." variant="progress" action="Log a workout" onAction={()=>nav('/create-workout?type=log')}/>
+      <section className="visual-overview"><div className="visual-overview-intro"><p className="eyebrow">KEEP YOUR MOMENTUM</p><h2>This week, in motion.</h2><p>{S.workouts.length} workouts logged · {S.workouts.reduce((n,w)=>n+(w.prs?.length || 0),0)} personal records</p></div><div className="ring-pair"><GoalRing value={homeWeek(S,todayISO()).count} target={homeWeek(S,todayISO()).target} label="Workouts this week" caption="Your weekly rhythm"/><GoalRing value={Math.round(homeWeek(S,todayISO()).workouts.reduce((n,w)=>n+trainedMs(w)/60000,0))} target={Number(S.trainingGoals?.minutes)||90} label="Active minutes" unit="min" tone="cyan" caption="Your weekly activity"/></div></section>
       <section className="chart-panel">
         <div className="section-head">
           <div>
-            <p className="eyebrow">CONSISTENCY OVER PERFECTION</p>
-            <h2>Your training rhythm</h2>
+
+            <h2>Training rhythm</h2>
           </div>
           <span className="tag pale">LAST 8 WEEKS</span>
         </div>
@@ -1589,69 +2149,46 @@ function Progress() {
           ))}
         </div>
       </section>
-      <section className="history-panel">
-        <div className="section-head">
-          <h2>Session history</h2>
-          <span className="muted-copy">Your work, recorded.</span>
-        </div>
-        {!S.workouts.length ? (
-          <Empty
-            icon={Activity}
-            title="Your story starts with one session"
-            action={
-              <button className="primary" onClick={() => nav('/plans')}>
-                Find your plan <ArrowRight size={18} />
-              </button>
-            }
-          >
-            Finish a workout to start building your progress.
-          </Empty>
-        ) : (
-          S.workouts
-            .slice()
-            .reverse()
-            .map((w) => (
-              <details className="history-row" key={w.id}>
-                <summary>
-                  <span className="history-icon">
-                    <Check size={22} />
-                  </span>
-                  <span>
-                    <strong>{w.name}</strong>
-                    <small>
-                      {stampDate(w.d)} ·{' '}
-                      {Math.max(1, Math.round((w.end - w.start) / 60000))} min
-                    </small>
-                  </span>
-                  <span>
-                    {w.entries.reduce(
-                      (n, e) => n + e.sets.filter((s) => s.done).length,
-                      0,
-                    )}{' '}
-                    sets
-                  </span>
-                  <ChevronRight size={18} />
-                </summary>
-                <div>
-                  {w.entries.map((e, i) => (
-                    <p key={i}>
-                      <strong>{title(EXIDX[e.id]?.n)}</strong> ·{' '}
-                      {e.sets
-                        .filter((s) => s.done)
-                        .map(
-                          (s) =>
-                            `${s.w || 0} ${S.unit} × ${s.r || s.sec || 0}${s.sec ? ' sec' : ''}`,
-                        )
-                        .join(' / ')}
-                    </p>
+      {S.workouts.some((w) => w.badges?.length > 0) && (
+        <section className="history-panel">
+          <h2>Recent records & milestones</h2>
+          <div className="record-grid">
+            {S.workouts
+              .slice()
+              .reverse()
+              .filter((w) => w.badges?.length)
+              .slice(0, 5)
+              .map((w) => (
+                <div key={w.id}>
+                  <p className="eyebrow">{stampDate(w.d)}</p>
+                  {w.badges.map((b, i) => (
+                    <span className="record-badge" key={i}>
+                      <Flame size={16} />
+                      {b.label}
+                      {b.id ? ' · ' + title(EXIDX[b.id]?.n) : ''}
+                    </span>
                   ))}
                 </div>
-              </details>
-            ))
-        )}
-      </section>
-      <section className="history-panel">
-        <h2>Personal baselines</h2>
+              ))}
+          </div>
+        </section>
+      )}
+      <div className="overview-links"><NavLink to="/progress?view=history">Workout history <ArrowRight size={18} /></NavLink><NavLink to="/progress?view=body">Log a body check-in <ArrowRight size={18} /></NavLink><NavLink to="/progress?view=insights">Explore insights <ArrowRight size={18} /></NavLink></div>
+      </>}
+      {view === 'body' && <>
+        <CheckIns S={S} requireUser={requireUser} />
+        {import.meta.env.VITE_MOBILE === '1' && <button className="outline" onClick={() => nav('/progress-photos')}>Progress photos <ArrowRight size={16} /></button>}
+      </>}
+      {view === 'insights' && <>
+        <div className="builder-actions"><button className="outline" onClick={() => nav('/coach')}><Sparkles size={17} /> Ask your guide</button><button className="outline" onClick={() => nav('/intervals')}><Clock3 size={17} /> Interval timer</button></div>
+        <TrainingGoals S={S} requireUser={requireUser} />
+        <TrainingAnalysis />
+        <details className="layout-disclosure"><summary>Activity & next steps</summary><TrainingGuidance /></details>
+      </>}
+      {view === 'history' && <>
+      <WorkoutLog S={S} onEdit={(record) => { if (!requireUser()) return; try { update((s) => editCompletedSession(s, record)); nav('/workout') } catch (error) { onNotice?.(error.message) } }} />
+      <details className="layout-disclosure">
+        <summary>Personal baselines</summary>
         {Object.keys(S.exWeights || {}).length ? (
           Object.entries(S.exWeights).map(([id, best]) => (
             <div className="baseline" key={id}>
@@ -1668,7 +2205,9 @@ function Progress() {
             build from your own history.
           </p>
         )}
-      </section>
+      </details>
+      </>}
+      </div>
     </>
   )
 }
@@ -1701,14 +2240,14 @@ function Profile({ user, ready, onNotice }) {
     try {
       if (!configured)
         throw Error(
-          'Start local Supabase and run the environment setup script.',
+          'Account services are unavailable. Please try again later.',
         )
       const result = signup
         ? await supabase.auth.signUp({ email, password })
         : await supabase.auth.signInWithPassword({ email, password })
       if (result.error) throw result.error
       if (!result.data.session) {
-        onNotice('Check the local email inbox to confirm your account.')
+        onNotice('Check your email inbox to confirm your account.')
         return
       }
       const existing = await profiles()
@@ -1775,8 +2314,13 @@ function Profile({ user, ready, onNotice }) {
     <>
       <div className="page-title">
         <div>
-          <p className="eyebrow">YOUR SPACE. YOUR PACE.</p>
-          <h1>{user ? 'Make it yours.' : 'Your next chapter starts here.'}</h1>
+          <h1>
+            {user ? (
+              user.name
+            ) : (
+'Profile'
+            )}
+          </h1>
           <p>
             {user
               ? 'Manage your training profiles and keep your progress with you.'
@@ -1784,12 +2328,15 @@ function Profile({ user, ready, onNotice }) {
           </p>
         </div>
       </div>
+      <PhotoStory eyebrow="YOUR SPACE" title={user ? `Made for ${user.name.split(' ')[0]}.` : "Your story. Your strength."} detail="Your goals, your training, your way." variant="profile"/>
+      <section className="profile-body-choice"><div><p className="eyebrow">YOUR VISUAL PROFILE</p><h2>Body figure</h2><p>Choose the figure shown in your Body measurements.</p></div><div className="composer-modes">{['male','female'].map(body=><button key={body} type="button" aria-pressed={S.body===body} onClick={()=>update(st=>{st.body=body})}>{body==='male'?'Male':'Female'}</button>)}</div></section>
       {!user && !session ? (
         <div className="auth-grid">
           <section className="auth-story">
-            <SportArt sport="general" />
             <div>
-              <span className="tag glass">TRAIN WITH INTENTION</span>
+              <span className="tag dark-tag">
+                SETS &amp; STRENGTH / YOUR SPACE
+              </span>
               <h2>
                 More movement.
                 <br />
@@ -1803,7 +2350,7 @@ function Profile({ user, ready, onNotice }) {
           </section>
           <form className="auth-form" onSubmit={auth}>
             <h2>{signup ? 'Create your account' : 'Welcome back'}</h2>
-            <p className="muted-copy">Adult account · local Supabase</p>
+            <p className="muted-copy">Your training starts here</p>
             {signup && (
               <label>
                 Your name
@@ -2001,20 +2548,12 @@ function Profile({ user, ready, onNotice }) {
       <section className="about-panel">
         <Activity size={24} />
         <div>
-          <h3>Workout, built on openGym.</h3>
+          <h3>sets&amp;strength</h3>
           <p>
-            An open-source fork with original visual design and local Supabase
-            storage. Exercise media and sports programs remain in development.
+            Your training, plans, and progress in one place.
+            Exercise media and sports programs remain in development.
           </p>
           <a href="/workout/source.zip">Download this version’s source</a>
-          <span> · </span>
-          <a
-            href="https://github.com/DuarteSantos8/openGym"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Upstream project
-          </a>
           <span> · </span>
           <a href="/workout/LICENSE.txt">Code license</a>
           <span> · </span>
@@ -2029,7 +2568,7 @@ function Profile({ user, ready, onNotice }) {
           <div className="modal-body">
             <p>
               {backup.workouts.length} workouts and {backup.routines.length}{' '}
-              routines. Existing history will be merged using openGym’s
+              routines. Existing history will be merged using sets&amp;strength’s
               conflict-aware merge rules.
             </p>
             <button

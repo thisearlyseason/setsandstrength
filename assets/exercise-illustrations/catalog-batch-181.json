@@ -1,0 +1,162 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "1397",
+      "variant": "male",
+      "key": "1397-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand tall with feet shoulder-width apart and both heels grounded."
+        },
+        {
+          "key": "p2",
+          "caption": "Raise both heels onto the balls of your feet, pause, then lower slowly."
+        }
+      ],
+      "prompt": "Use case: scientific-educational. Premium original ADULT male detailed anatomical exercise illustration canonical1397 STANDING CALVES. TWO equal square cells side by side in wide2:1 landscape. Same person full body rear three-quarter view facing RIGHT, identical scale camera proportions. Standing unsupported bodyweight calf raise on flat FLOOR, no equipment, arms relaxed down beside torso. Feet shoulder width toes forward, torso vertical pelvis level knees nearly straight soft and unchanged. LEFT START both heels flat grounded. RIGHT FINISH lift BOTH heels visibly 5cm onto balls of feet through ankle plantarflexion, heels distinctly above floor, forefeet remain stable grounded, no toe-tip balance or ankle roll. Whole body rises slightly vertically, arms same position. Both exposed posterior calf gastrocnemius RED ONLY, no thigh/glute/arm red. Detailed fine grayscale exposed muscle fibers realistic anatomy hands toes proportions. Fully opaque BLACK tank covers front sides back and black MID-THIGH shorts cover FRONT SIDES BACK SEAT CROTCH with broad cloth folds seams, never anatomical fibers through fabric, no transparency/cutaways. Black athletic shoes. Pure white background soft floor contact shadows generous12percent margins full head hands heels inside EACH cell. Reference original project artwork rendering STYLE ONLY ignore pushup equipment and chest highlights. Equal male/female quality. No text captions arrows numbers or extra people.",
+      "inspectionNote": "Both standing calf raise candidates show grounded heels to visibly raised heels, four poses total, two built-in calls. Bilateral calf red, full opaque tank and shorts, exposed grayscale anatomy retained. Qualified forefoot pressure versus toe-tip tendency, ankle roll, stance consistency, head clearance and unsupported balance require human review. Original project artwork style only, no upstream licensed media inputs. Exact prompts and originals retained. No anatomical approval or publication. Seven pipeline checks do not establish anatomical accuracy.",
+      "canonicalName": "standing calves",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "calves"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Both standing calf raise candidates show grounded heels to visibly raised heels, four poses total, two built-in calls. Bilateral calf red, full opaque tank and shorts, exposed grayscale anatomy retained. Qualified forefoot pressure versus toe-tip tendency, ankle roll, stance consistency, head clearance and unsupported balance require human review. Original project artwork style only, no upstream licensed media inputs. Exact prompts and originals retained. No anatomical approval or publication. Seven pipeline checks do not establish anatomical accuracy.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/1397-male-anatomical-white-v1-p1-607c020ca635.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 25006,
+          "sha256": "607c020ca635becc80833d8d28900cded64539d15fd21ef93efc7178d1ba3d7d"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/1397-male-anatomical-white-v1-p2-b00d14015b8c.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 23820,
+          "sha256": "b00d14015b8c49b048daf6ef1e042cad13b87948c01e4d9bee4a73c5961cd981"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-181.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/1397-male-anatomical-white-v1-thumb-44c864eeaec2.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2412,
+        "sha256": "44c864eeaec2f65f0162628ba59841d87b3d61a2b9af1631537ca118bf6e4d66"
+      },
+      "processingSignature": "3ab881c0afb9ef3931f5c16a2223658cddeae3d5ed6920375e64660579e05b77",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1397-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1318267,
+        "sha256": "ab7d0cc70680287d981764baa058499de31b439b9a1aaee4a24c4d9b9d747cc2"
+      }
+    },
+    {
+      "exerciseId": "1397",
+      "variant": "female",
+      "key": "1397-female-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand tall with feet shoulder-width apart and both heels grounded."
+        },
+        {
+          "key": "p2",
+          "caption": "Raise both heels onto the balls of your feet, pause, then lower slowly."
+        }
+      ],
+      "prompt": "Use case: scientific-educational. Premium original ADULT female detailed anatomical exercise illustration canonical1397 STANDING CALVES. TWO equal square cells side by side in wide2:1 landscape. Same person full body rear three-quarter view facing RIGHT, identical scale camera proportions. Standing unsupported bodyweight calf raise on flat FLOOR, no equipment, arms relaxed down beside torso. Feet shoulder width toes forward, torso vertical pelvis level knees nearly straight soft and unchanged. LEFT START both heels flat grounded. RIGHT FINISH lift BOTH heels visibly 5cm onto balls of feet through ankle plantarflexion, heels distinctly above floor, forefeet remain stable grounded, no toe-tip balance or ankle roll. Whole body rises slightly vertically, arms same position. Both exposed posterior calf gastrocnemius RED ONLY, no thigh/glute/arm red. Detailed fine grayscale exposed muscle fibers realistic anatomy hands toes proportions. Fully opaque BLACK tank covers front sides back and black MID-THIGH shorts cover FRONT SIDES BACK SEAT CROTCH with broad cloth folds seams, never anatomical fibers through fabric, no transparency/cutaways. Black athletic shoes. Pure white background soft floor contact shadows generous12percent margins full head hands heels inside EACH cell. Reference original project artwork rendering STYLE ONLY ignore pushup equipment and chest highlights. Equal male/female quality. No text captions arrows numbers or extra people.",
+      "inspectionNote": "Both standing calf raise candidates show grounded heels to visibly raised heels, four poses total, two built-in calls. Bilateral calf red, full opaque tank and shorts, exposed grayscale anatomy retained. Qualified forefoot pressure versus toe-tip tendency, ankle roll, stance consistency, head clearance and unsupported balance require human review. Original project artwork style only, no upstream licensed media inputs. Exact prompts and originals retained. No anatomical approval or publication. Seven pipeline checks do not establish anatomical accuracy.",
+      "canonicalName": "standing calves",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "calves"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Both standing calf raise candidates show grounded heels to visibly raised heels, four poses total, two built-in calls. Bilateral calf red, full opaque tank and shorts, exposed grayscale anatomy retained. Qualified forefoot pressure versus toe-tip tendency, ankle roll, stance consistency, head clearance and unsupported balance require human review. Original project artwork style only, no upstream licensed media inputs. Exact prompts and originals retained. No anatomical approval or publication. Seven pipeline checks do not establish anatomical accuracy.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/1397-female-anatomical-white-v1-p1-4607d0168852.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 21694,
+          "sha256": "4607d01688527626869a438f4e15873608e6225f6f2b7767b9195ed1671f6def"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/1397-female-anatomical-white-v1-p2-325a4d6d414d.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 21992,
+          "sha256": "325a4d6d414de6b96686a9d87c176cf23593ad819f68be26bc7258734601b239"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-181.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/1397-female-anatomical-white-v1-thumb-37e858be91d3.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2292,
+        "sha256": "37e858be91d3f46a703cbf7fb897dacd98eb341f74c79221f7bf39ba183ea26e"
+      },
+      "processingSignature": "d341e44003f010744332cd6fc55db57c0109402a5eea7e52fe9778735902ec99",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1397-female-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1301750,
+        "sha256": "855b8303717d69b3de377c1a7384503c6b8bc2fdfa79a9bfa2289c4cbb0b11c7"
+      }
+    }
+  ]
+}

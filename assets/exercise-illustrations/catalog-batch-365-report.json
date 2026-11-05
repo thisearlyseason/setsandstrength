@@ -1,0 +1,55 @@
+{
+  "batch": 365,
+  "runId": "4c38165d-1a46-4408-988e-16263cc14475",
+  "builtInImageGenAvailable": true,
+  "anatomyReview": "pending",
+  "publication": "none",
+  "deferred": {
+    "3443": "Floor-to-chair dip starting height/setup needs clarification."
+  },
+  "coverageAfter": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1314,
+    "remainingVariants": 9950,
+    "approvedVariants": 0,
+    "blockedVariants": 504,
+    "knownPoseImages": 2604,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 941,
+      "remainingVariants": 4691,
+      "blockedVariants": 385
+    }
+  },
+  "paidWorker": {
+    "statuses": {
+      "generated": 1314,
+      "pending": 9950
+    },
+    "remaining": 9950,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 2001521107
+  },
+  "pipelineTests": "7 passed, 0 failed",
+  "approvedIndexUnchanged": true,
+  "existingUserApprovalsPreserved": 1306,
+  "generatedIds": [
+    "3444",
+    "3448",
+    "3449",
+    "3452"
+  ]
+}

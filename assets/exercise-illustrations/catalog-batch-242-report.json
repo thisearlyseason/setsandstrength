@@ -1,0 +1,79 @@
+{
+  "batch": 242,
+  "runId": "b3982a7e-214e-4eaa-8575-10a347a82b2f",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "trigger": "2026-11-03T19:16:52.268Z",
+  "purpose": "batch242 scheduled male continuation",
+  "started": "2026-11-03T19:17:19.017775+00:00",
+  "completedAt": "2026-11-03T19:23:27.820610+00:00",
+  "actualToolName": "image_gen__imagegen",
+  "calls": 4,
+  "newCandidateSets": 4,
+  "exerciseIds": [
+    "1836",
+    "1837",
+    "1838",
+    "1841"
+  ],
+  "variants": [
+    "male"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 841,
+    "remainingVariants": 10423,
+    "approvedVariants": 0,
+    "blockedVariants": 268,
+    "knownPoseImages": 1643,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 468,
+      "remainingVariants": 5164,
+      "blockedVariants": 149
+    }
+  },
+  "reviewNotes": {
+    "1836": "Forward neck flexion: seated tall, feet grounded, both hands lightly at rear/crown and chin lowered; posterior neck highlight only. Qualified review needed for exact hand contact, mild pressure depiction, elbow relaxation, cervical range and levator mapping.",
+    "1837": "Seated neck extensor stretch: one hand at crown/back, other on thigh, chin lowered with upright torso; posterior neck highlight only. Qualified review needed for hand placement, no forced pressure, cervical flexion and muscle mapping.",
+    "1838": "Neck flexion/rotation: seated with consistent torso/pelvis orientation, head turned and lowered, one guiding hand and posterior-lateral neck overlay. Qualified review needed for actual 45-degree rotation/nose-to-armpit direction, hand laterality and elongated-side muscle mapping.",
+    "1841": "Lying neck extensor stretch BLOCKED: shoulders and upper torso lift into a crunch-like posture, with posterior torso view inconsistent with a clearly supported supine setup. Restore coherent supine orientation, shoulders/upper back grounded and only gentle head lift."
+  },
+  "blockingIssues": {
+    "1841": [
+      "Shoulders/upper torso raised into crunch-like posture instead of supported supine head-only lift.",
+      "Posterior torso versus supine leg orientation is visually incoherent; regenerate with clear consistent side view."
+    ]
+  },
+  "tests": 7,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "workerSyncResult": {
+    "statuses": {
+      "generated": 841,
+      "pending": 10423
+    },
+    "remaining": 10423,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 1306834252
+  },
+  "publicationIndexUnchanged": true,
+  "savedMasters": [
+    "assets/exercise-illustrations/generated/1836-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/1837-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/1838-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/1841-male-anatomical-white-v1.png"
+  ]
+}

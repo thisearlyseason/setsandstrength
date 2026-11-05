@@ -1,0 +1,76 @@
+{
+  "runId": "188d14fa-74b5-4264-8e83-9c3f681671d6",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "triggerTimestamp": "2026-11-05T03:06:05.796Z",
+  "batches": [
+    486,
+    487,
+    488,
+    489
+  ],
+  "builtInImageGenAvailable": true,
+  "generatedMasters": 16,
+  "generatedIds": [
+    "9180",
+    "9181",
+    "9187",
+    "9409",
+    "9411",
+    "9070",
+    "6267",
+    "6364",
+    "0259",
+    "0283",
+    "0812",
+    "0815",
+    "10589",
+    "0256",
+    "6358",
+    "6359"
+  ],
+  "blocked": {
+    "9180": [
+      "Starting stick/hand depth crosses visible thigh area instead of clearly remaining behind body; correct rear equipment placement."
+    ],
+    "9411": [
+      "Second and third panels repeat right heel raise instead of alternating sides."
+    ],
+    "6364": [
+      "Forearms are not supported on thighs; arm placement does not isolate the canonical seated wrist movement."
+    ],
+    "6358": [
+      "Elbow flexion substitutes for isolated wrist flexion; elbows should remain straight and stationary."
+    ],
+    "6359": [
+      "Elbow flexion substitutes for isolated wrist flexion; elbows should remain straight and stationary."
+    ]
+  },
+  "coverageAfter": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1738,
+    "remainingVariants": 9526,
+    "approvedVariants": 0,
+    "blockedVariants": 619,
+    "knownPoseImages": 3527,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 1365,
+      "remainingVariants": 4267,
+      "blockedVariants": 500
+    }
+  },
+  "pipelineTests": "8 passed, 0 failed after each of four batches",
+  "approvedIndexUnchanged": true,
+  "existingUserApprovalsPreserved": 1306,
+  "publication": "none",
+  "anatomyReview": "pending",
+  "paidWorker": "disabled; inventory sync only, zero requests",
+  "stopReason": "Sixteen-master target reached. Last two wrist curl outputs repeatedly substituted elbow flexion for wrist isolation; no further generation.",
+  "nextRunGuidance": "Prioritize clearly specified missing male canonical sets. Defer standing wrist curls6358/6359, seated support6364, alternating calf9411, behind-body stick9180 pending correction. Preserve prior deferred suspension geometry, barbell lying orientation, covered-target clothing failures and hammer-grip leakage. Bodyweight close and diamond pushups, bench/chair dips and elbow circles were consistent.",
+  "styleReference": "assets/exercise-illustrations/generated/0853-male-anatomical-white-v1.png"
+}

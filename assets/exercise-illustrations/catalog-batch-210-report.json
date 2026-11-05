@@ -1,0 +1,62 @@
+{
+  "batch": 210,
+  "runId": "6b6af10d-c6ef-4a4a-858d-743a7f64c7be",
+  "trigger": "2026-11-03T14:09:00.545Z",
+  "completedAt": "2026-11-03T14:16:13.205085+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 2,
+  "generationCalls": 2,
+  "exerciseIds": [
+    "1580"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 734,
+    "remainingVariants": 10530,
+    "approvedVariants": 0,
+    "blockedVariants": 240,
+    "knownPoseImages": 1440,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Two prisoner squat candidates, four poses, two built-in calls. Hands behind head with elbows out, standing to near-parallel squat, flat feet and quadriceps red. Full opaque clothes and detailed grayscale exposed anatomy retained. Qualified hand/neck pressure, finger contact hidden behind head, depth, torso/neck alignment, knee tracking and cloth tint require human review. Original project artwork rendering style only, no upstream licensed input. Exact prompts/originals saved. No anatomy or clothing approval or publication. Seven pipeline checks do not establish anatomical accuracy.",
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 1151862695,
+  "savedMasters": [
+    {
+      "exerciseId": "1580",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1580-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1356762,
+        "sha256": "e2843d4e2ca19ff1c13590b41e5e1a7a772b6028e40f7b3e95c0bc5c274e0380"
+      }
+    },
+    {
+      "exerciseId": "1580",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1580-female-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1271522,
+        "sha256": "a2ad26f321b42d9ca9d4cc9651fc2861a38ffee84e7f77e182c42eb4cb8169b6"
+      }
+    }
+  ]
+}

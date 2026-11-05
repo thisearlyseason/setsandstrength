@@ -1,0 +1,61 @@
+{
+  "batch": 470,
+  "runId": "6b270245-6408-4abd-89f6-7675458805da",
+  "triggerTimestamp": "2026-11-05T01:54:05.411Z",
+  "builtInImageGenAvailable": true,
+  "generatedIds": [
+    "6068",
+    "6069",
+    "6071",
+    "6072"
+  ],
+  "coverageAfter": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1670,
+    "remainingVariants": 9594,
+    "approvedVariants": 0,
+    "blockedVariants": 599,
+    "knownPoseImages": 3376,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 1297,
+      "remainingVariants": 4335,
+      "blockedVariants": 480
+    }
+  },
+  "paidWorker": {
+    "statuses": {
+      "generated": 1670,
+      "pending": 9594
+    },
+    "remaining": 9594,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 2518917197
+  },
+  "pipelineTests": "8 passed, 0 failed",
+  "approvedIndexUnchanged": true,
+  "existingUserApprovalsPreserved": 1306,
+  "anatomyReview": "pending",
+  "publication": "none",
+  "blocked": {
+    "6068": [
+      "Neutral hammer grip shown instead of canonical palms-forward biceps curl."
+    ],
+    "6072": [
+      "Finish bottles remain near waist/lower ribs instead of the specified armpits; high-row range needs correction."
+    ]
+  }
+}

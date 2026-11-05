@@ -1,0 +1,569 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "0790",
+      "variant": "male",
+      "key": "0790-male-anatomical-white-v2",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand tall, shift onto one leg and bend the other knee. Use a support for balance if needed."
+        },
+        {
+          "key": "p2",
+          "caption": "Lift the bent knee out to the side without leaning the torso, then lower with control. Complete repetitions before switching legs."
+        }
+      ],
+      "prompt": "Correct original male STANDING BENT-KNEE HIP ABDUCTION. Fix LEG IDENTITY across TWO cells: leg on IMAGE LEFT is SUPPORT leg straight with sole flat in SAME spot both cells, beside gray support rail imageleft. Leg on IMAGE RIGHT is WORKING leg both cells. LEFT start imageRIGHT knee BENT90degrees with thigh vertical, heel behind suspended; right finish SAME imageRIGHT thigh abducted OUT TO RIGHT about40degrees, knee stays90degrees foot suspended below/back. No leg swapping. Torso/hips square upright level same orientation. Red ONLY OUTER IMAGE-RIGHT working HIP shorts smooth diffuse BLURRED tint, remove wrong imageleft hip red and ALL rays/fibers. Full opaque black shirt/shorts front sides back seat crotch, detailed exposed grayscale anatomy, same scale. Two equal square landscape cells generous margins no text.",
+      "inspectionNote": "Leg identity and working-hip highlight corrected, tint softened. Start now lifts thigh forward rather than keeping it down before lateral abduction; knee flexion not consistently90degrees, blocked for start/plane correction. Support leg and upright torso retained, full opaque clothes and fine exposed anatomy.",
+      "canonicalName": "standing hip abduction (bent knee)",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "abductors"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0790-male-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "status": "generated",
+        "costUSD": null
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Leg identity and working-hip highlight corrected, tint softened. Start now lifts thigh forward rather than keeping it down before lateral abduction; knee flexion not consistently90degrees, blocked for start/plane correction. Support leg and upright torso retained, full opaque clothes and fine exposed anatomy.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0790-male-anatomical-white-v2-p1-446b4a27da65.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 22422,
+          "sha256": "446b4a27da654227b2caac834fc8c917be2eed1da5ca2c933982b9c023cce57a"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0790-male-anatomical-white-v2-p2-a0f8f669f28c.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 23966,
+          "sha256": "a0f8f669f28cebbd5ae2827f4d2e8d50f445b5d12d7033e1727d544c343c3d7f"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0790-male-anatomical-white-v2-thumb-d783f5480545.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2860,
+        "sha256": "d783f5480545188ddded9db50ab49a021751f1960c93e74d7a6a295ec27a1e9d"
+      },
+      "processingSignature": "2bf63f05905838a9ffce634db3a300d073de90fed8c3806e102c0f29be546468",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0790-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1343114,
+        "sha256": "dae844f18a1ad23497b6f99e16edd98e201be64bdde55e09e453b42122451f03"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0790",
+          "variant": "male",
+          "key": "0790-male-anatomical-white-v1",
+          "layout": {
+            "columns": 2,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Stand tall, shift onto one leg and bend the other knee. Use a support for balance if needed."
+            },
+            {
+              "key": "p2",
+              "caption": "Lift the bent knee out to the side without leaning the torso, then lower with control. Complete repetitions before switching legs."
+            }
+          ],
+          "prompt": "Original premium ADULT male exercise anatomy illustration, TWO equal SQUARE cells side by side WIDE LANDSCAPE same model scale/limb lengths. STANDING BENT-KNEE HIP ABDUCTION. FRONT three-quarter camera makes side lift clear. Stand beside simple waist-high gray support rail at IMAGE LEFT, left hand rests rail for balance, right hand hip. LEFT LEG straight supporting body sole flat floor both phases, torso upright square with hips level and neutral spine, no lean or twist. RIGHT working knee BENT90degrees and stays90degrees both cells, right foot suspended. LEFT start right thigh points DOWN near supporting thigh, right heel behind. RIGHT lift RIGHT bent knee OUT TO IMAGE RIGHT by HIP ABDUCTION about40degrees, thigh visibly to SIDE not lifted forward, lower leg remains bent with foot lower/back of knee. Pelvis/body/support foot fixed, no turning entire body, no knee straightening. Red primary outer hip ABDUCTORS: ONE smooth diffuse blurred tint over intact opaque OUTER RIGHT HIP shorts, no entire thigh red. Fine detailed EXPOSED grayscale anatomical muscle contours arms/calves, realistic proportions, equal male/female detail. Reference original project artwork ONLY rendering STYLE, never its push-up pose/bench/chest red. Full opaque BLACK athletic shirt and MID-THIGH shorts continuously cover FRONT SIDES BACK SEAT CROTCH with seams and BROAD fabric folds. Red over clothes diffuse ONLY, no rays/fibers/striations/anatomy visible through cloth, never cutaway or transparency. Black shoes, white background soft floor shadows. Entire body/limbs/support within EACH cell generous margins all sides, no cross-cell overlap. No embedded text/captions/labels/arrows.",
+          "inspectionNote": "Bent-knee side lift and support rail present, but working/support leg identity swaps between phases and red patch sits on opposite hip from raised finish knee. Red rays on cloth. Correction required. Opaque clothes and detailed exposed anatomy.",
+          "canonicalName": "standing hip abduction (bent knee)",
+          "styleVersion": "white-v1",
+          "equipment": "body weight",
+          "primaryMuscles": [
+            "abductors"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Bent-knee side lift and support rail present, but working/support leg identity swaps between phases and red patch sits on opposite hip from raised finish knee. Red rays on cloth. Correction required. Opaque clothes and detailed exposed anatomy.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0790-male-anatomical-white-v1-p1-a05309eb48a9.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 24932,
+              "sha256": "a05309eb48a9d465c3b268a5aa67cb7d27d5737e5f5c0badee2f454d7d60dffe"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0790-male-anatomical-white-v1-p2-31dd1b2c0c34.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 26644,
+              "sha256": "31dd1b2c0c34a1e415ddbc246a80c3483c7680e0e594855049a17f86103d471f"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0790-male-anatomical-white-v1-thumb-0fe9b13fc0fb.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 2880,
+            "sha256": "0fe9b13fc0fb04a19d28a531a3c2d35987b8c152e30474bcdd01a6dea4445c59"
+          },
+          "processingSignature": "5bbba1cd360354a0f89fb3a98ee7d9c8a6aae7c18a8014e487c0e21e4709763e",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0790-male-anatomical-white-v1.png",
+            "width": 1774,
+            "height": 887,
+            "bytes": 1386734,
+            "sha256": "7a7de7126e4c05371c9f7dd0efc4132bd858a46797162548d3f52a4126d5df2a"
+          }
+        }
+      ],
+      "blockingIssues": [
+        "Start thigh raised forward instead of down, knee angle inconsistent; correct start and lateral-abduction sequence."
+      ]
+    },
+    {
+      "exerciseId": "0790",
+      "variant": "female",
+      "key": "0790-female-anatomical-white-v2",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand tall, shift onto one leg and bend the other knee. Use a support for balance if needed."
+        },
+        {
+          "key": "p2",
+          "caption": "Lift the bent knee out to the side without leaning the torso, then lower with control. Complete repetitions before switching legs."
+        }
+      ],
+      "prompt": "Edit ONLY hip red patch original female BENT-KNEE HIP ABDUCTION: remove ALL red fine rays/fiber streaks, replace ONE smooth diffuse BLURRED tint on OUTER working hip intact opaque BLACK shorts. Preserve same-leg bent-knee start then lateral raise, knee remains90degrees, support foot fixed floor, upright level hips/torso, hand rail and other hand hip. Full opaque clothes front sides back seat crotch, fine exposed grayscale anatomy, same scale, two equal square landscape cells margins no text.",
+      "inspectionNote": "Hip highlight corrected to smooth diffuse tint over full opaque shorts. Same working bent-knee start and lateral lift, fixed support leg/rail and upright torso retained. Fine exposed grayscale anatomy. Qualified frontal-plane abduction, knee flexion constancy, pelvis level and abductor mapping pending.",
+      "canonicalName": "standing hip abduction (bent knee)",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "abductors"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0790-female-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "status": "generated",
+        "costUSD": null
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Hip highlight corrected to smooth diffuse tint over full opaque shorts. Same working bent-knee start and lateral lift, fixed support leg/rail and upright torso retained. Fine exposed grayscale anatomy. Qualified frontal-plane abduction, knee flexion constancy, pelvis level and abductor mapping pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0790-female-anatomical-white-v2-p1-4151fc949816.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 22216,
+          "sha256": "4151fc949816150aa8da91ac04e809d2beb27574e9f1a2f8b7548d69913cd6d7"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0790-female-anatomical-white-v2-p2-e252a7e81811.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 23972,
+          "sha256": "e252a7e81811492a4067ab6dd3005017a3bb3957365400b53a76451f5ef7560d"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0790-female-anatomical-white-v2-thumb-1522705e6672.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2768,
+        "sha256": "1522705e6672aa8b36d4d5e67f0093ba4da692fcbc300c28215dfd91e1d4a5c8"
+      },
+      "processingSignature": "013805808cec439bfc7915fc77505013c411d135803e17fe181af550de4cdec3",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0790-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1353981,
+        "sha256": "227a5d05241fbdae56926975b4ad14e810ac8053efc2314c659f07b034a3da63"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0790",
+          "variant": "female",
+          "key": "0790-female-anatomical-white-v1",
+          "layout": {
+            "columns": 2,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Stand tall, shift onto one leg and bend the other knee. Use a support for balance if needed."
+            },
+            {
+              "key": "p2",
+              "caption": "Lift the bent knee out to the side without leaning the torso, then lower with control. Complete repetitions before switching legs."
+            }
+          ],
+          "prompt": "Original premium ADULT female exercise anatomy illustration, TWO equal SQUARE cells side by side WIDE LANDSCAPE same model scale/limb lengths. STANDING BENT-KNEE HIP ABDUCTION. FRONT three-quarter camera makes side lift clear. Stand beside simple waist-high gray support rail at IMAGE LEFT, left hand rests rail for balance, right hand hip. LEFT LEG straight supporting body sole flat floor both phases, torso upright square with hips level and neutral spine, no lean or twist. RIGHT working knee BENT90degrees and stays90degrees both cells, right foot suspended. LEFT start right thigh points DOWN near supporting thigh, right heel behind. RIGHT lift RIGHT bent knee OUT TO IMAGE RIGHT by HIP ABDUCTION about40degrees, thigh visibly to SIDE not lifted forward, lower leg remains bent with foot lower/back of knee. Pelvis/body/support foot fixed, no turning entire body, no knee straightening. Red primary outer hip ABDUCTORS: ONE smooth diffuse blurred tint over intact opaque OUTER RIGHT HIP shorts, no entire thigh red. Fine detailed EXPOSED grayscale anatomical muscle contours arms/calves, realistic proportions, equal male/female detail. Reference original project artwork ONLY rendering STYLE, never its push-up pose/bench/chest red. Full opaque BLACK athletic shirt and MID-THIGH shorts continuously cover FRONT SIDES BACK SEAT CROTCH with seams and BROAD fabric folds. Red over clothes diffuse ONLY, no rays/fibers/striations/anatomy visible through cloth, never cutaway or transparency. Black shoes, white background soft floor shadows. Entire body/limbs/support within EACH cell generous margins all sides, no cross-cell overlap. No embedded text/captions/labels/arrows.",
+          "inspectionNote": "Bent knee remains on same working side and lifted laterally, support leg/rail steady, upright torso. Hip red contains fiber rays over shorts; correction required. Full opaque clothes and detailed exposed anatomy. Qualified plane, knee angle and hip-abductor localization pending.",
+          "canonicalName": "standing hip abduction (bent knee)",
+          "styleVersion": "white-v1",
+          "equipment": "body weight",
+          "primaryMuscles": [
+            "abductors"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Bent knee remains on same working side and lifted laterally, support leg/rail steady, upright torso. Hip red contains fiber rays over shorts; correction required. Full opaque clothes and detailed exposed anatomy. Qualified plane, knee angle and hip-abductor localization pending.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0790-female-anatomical-white-v1-p1-f3f7502d6708.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 25288,
+              "sha256": "f3f7502d670867571b722cc41971303e6702a743ef0c41c9a366e1539a9a2d75"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0790-female-anatomical-white-v1-p2-258b6dfd0442.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 27124,
+              "sha256": "258b6dfd0442826c50b293af8dbde8e96f35441f8ede81724f56a7f447e36380"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0790-female-anatomical-white-v1-thumb-34d3ac68324c.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 2796,
+            "sha256": "34d3ac68324c1834f79ed5b8b5c1ed284f4cd4ac832b39e334f1334b6d746ad0"
+          },
+          "processingSignature": "8e26bab4cf45f3ae17c58aac6023388b92edc53d3d376b5ce806f6757b52b533",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0790-female-anatomical-white-v1.png",
+            "width": 1774,
+            "height": 887,
+            "bytes": 1402438,
+            "sha256": "b5411fb60fd66cc4fdee9a0372d719967c62d68c134c661be850e229b71eeeed"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "0795",
+      "variant": "male",
+      "key": "0795-male-anatomical-white-v2",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand with hands on hips and shift weight onto the left leg, keeping the right knee below the hip."
+        },
+        {
+          "key": "p2",
+          "caption": "Curl the right heel toward the glutes by bending the knee while the thigh stays steady, then lower slowly. Complete repetitions before switching legs."
+        }
+      ],
+      "prompt": "Edit ONLY hamstring red patch original male STANDING SINGLE LEG CURL: remove ALL fine red streaks/fibers/rays, ONE smoothly blurred diffuse oval tint over intact opaque BLACK POSTERIOR WORKING THIGH shorts, broad cloth folds/seams only. Preserve knee-only curl with thigh vertical/knee under hip, same-leg start nearly straight foot suspended then heel toward buttock, supporting foot fixed, upright torso hands hips. Full opaque shirt/shorts front sides back seat crotch, detailed exposed grayscale anatomy, two equal square landscape cells generous margins no text.",
+      "inspectionNote": "Hamstring overlay smoothed to diffuse tint over intact opaque posterior-thigh shorts. Near-straight suspended start then knee curl heel toward glute retained, hands hips upright torso. Fine exposed grayscale anatomy and full opaque clothes. Qualified thigh/knee constancy, heel range, leg identity and mapping pending.",
+      "canonicalName": "standing single leg curl",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "hamstrings"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0795-male-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "status": "generated",
+        "costUSD": null
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Hamstring overlay smoothed to diffuse tint over intact opaque posterior-thigh shorts. Near-straight suspended start then knee curl heel toward glute retained, hands hips upright torso. Fine exposed grayscale anatomy and full opaque clothes. Qualified thigh/knee constancy, heel range, leg identity and mapping pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0795-male-anatomical-white-v2-p1-361da4fc6a70.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 18164,
+          "sha256": "361da4fc6a70b07235dc988ac4f65198b668b15b8d3c4271a34565aca790c99f"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0795-male-anatomical-white-v2-p2-078fdf6bce8a.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 17872,
+          "sha256": "078fdf6bce8ae15e0acc11523d435b8aff30a778d3988ee9e9c046d14f851647"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0795-male-anatomical-white-v2-thumb-abacda269a3d.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2128,
+        "sha256": "abacda269a3d412ed2b9362fad6daa262fa0327a408e1dfff0b1c0f960e8b88f"
+      },
+      "processingSignature": "f22ee1a0e63febf2c0b6209e91e5636c1ddc5c69f2c33f5fd015cae671156289",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0795-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1293516,
+        "sha256": "2d3a9583fda25e104402b3fc31d6b9426bfc8f4541e1878d85af71c1658bfc68"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0795",
+          "variant": "male",
+          "key": "0795-male-anatomical-white-v1",
+          "layout": {
+            "columns": 2,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Stand with hands on hips and shift weight onto the left leg, keeping the right knee below the hip."
+            },
+            {
+              "key": "p2",
+              "caption": "Curl the right heel toward the glutes by bending the knee while the thigh stays steady, then lower slowly. Complete repetitions before switching legs."
+            }
+          ],
+          "prompt": "Original premium ADULT male exercise anatomy illustration, TWO equal SQUARE cells side by side WIDE LANDSCAPE same model scale/limb lengths. STANDING SINGLE LEG HAMSTRING CURL, bodyweight no equipment. SIDE-REAR three-quarter camera with model facing IMAGE RIGHT, same view both phases, working RIGHT leg nearer camera. Hands BOTH at HIPS. LEFT leg supports body sole flat floor, upright torso fixed hips level. RIGHT THIGH remains VERTICAL beside supporting thigh in BOTH phases, right knee stays DIRECTLY BELOW HIP same position, no hip extension/backward thigh swing. LEFT start right leg nearly straight with toes just above floor. RIGHT curl only RIGHT KNEE to about110degrees so heel approaches RIGHT buttock, shin rotates UP BEHIND, knee stays below hip and thigh vertical. Supporting leg/body fixed, no back arch, no leaning forward, no hand assist. Red primary HAMSTRINGS: ONE smoothly blurred diffuse tint over intact opaque POSTERIOR RIGHT THIGH shorts, no calf/glute/chest red. Fine detailed EXPOSED grayscale anatomical muscle contours arms/calves, realistic proportions, equal male/female detail. Reference original project artwork ONLY rendering STYLE, never its push-up pose/bench/chest red. Full opaque BLACK athletic shirt and MID-THIGH shorts continuously cover FRONT SIDES BACK SEAT CROTCH with seams and BROAD fabric folds. Red over clothes diffuse ONLY, no rays/fibers/striations/anatomy visible through cloth, never cutaway or transparency. Black shoes, white background soft floor shadows. Entire body/limbs/support within EACH cell generous margins all sides, no cross-cell overlap. No embedded text/captions/labels/arrows.",
+          "inspectionNote": "Standing single-leg curl shows near-straight working start and heel raised behind, hands hips and torso steady. Red on posterior thigh cloth has fine streaks; correction required. Full opaque clothes and fine exposed anatomy. Qualified thigh/knee constancy, heel range and mapping pending.",
+          "canonicalName": "standing single leg curl",
+          "styleVersion": "white-v1",
+          "equipment": "body weight",
+          "primaryMuscles": [
+            "hamstrings"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Standing single-leg curl shows near-straight working start and heel raised behind, hands hips and torso steady. Red on posterior thigh cloth has fine streaks; correction required. Full opaque clothes and fine exposed anatomy. Qualified thigh/knee constancy, heel range and mapping pending.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0795-male-anatomical-white-v1-p1-d58b33c9b0b8.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 19832,
+              "sha256": "d58b33c9b0b8c8620473cf84dba8d5d5064237a542adcd072c7ca9307145df7c"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0795-male-anatomical-white-v1-p2-2cc20a22cef4.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 19464,
+              "sha256": "2cc20a22cef4e361fd146be78c2525e8642a475ea7f6a675dd91e022314a90c8"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0795-male-anatomical-white-v1-thumb-c473d921001e.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 2122,
+            "sha256": "c473d921001e0ea6d10ef34194bd9e09b38af30904cefe08f4a9911acc59e668"
+          },
+          "processingSignature": "93dd3a4af01e41fab1b68a8d8fa5d6cc36840055a5571c427f36c32e9d10a5b9",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0795-male-anatomical-white-v1.png",
+            "width": 1774,
+            "height": 887,
+            "bytes": 1294795,
+            "sha256": "416679def5d5e926d70ab7208b49af267eae0280e88f5147719223ea1efefa59"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "0795",
+      "variant": "female",
+      "key": "0795-female-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand with hands on hips and shift weight onto the left leg, keeping the right knee below the hip."
+        },
+        {
+          "key": "p2",
+          "caption": "Curl the right heel toward the glutes by bending the knee while the thigh stays steady, then lower slowly. Complete repetitions before switching legs."
+        }
+      ],
+      "prompt": "Original premium ADULT female exercise anatomy illustration, TWO equal SQUARE cells side by side WIDE LANDSCAPE same model scale/limb lengths. STANDING SINGLE LEG HAMSTRING CURL, bodyweight no equipment. SIDE-REAR three-quarter camera with model facing IMAGE RIGHT, same view both phases, working RIGHT leg nearer camera. Hands BOTH at HIPS. LEFT leg supports body sole flat floor, upright torso fixed hips level. RIGHT THIGH remains VERTICAL beside supporting thigh in BOTH phases, right knee stays DIRECTLY BELOW HIP same position, no hip extension/backward thigh swing. LEFT start right leg nearly straight with toes just above floor. RIGHT curl only RIGHT KNEE to about110degrees so heel approaches RIGHT buttock, shin rotates UP BEHIND, knee stays below hip and thigh vertical. Supporting leg/body fixed, no back arch, no leaning forward, no hand assist. Red primary HAMSTRINGS: ONE smoothly blurred diffuse tint over intact opaque POSTERIOR RIGHT THIGH shorts, no calf/glute/chest red. Fine detailed EXPOSED grayscale anatomical muscle contours arms/calves, realistic proportions, equal male/female detail. Reference original project artwork ONLY rendering STYLE, never its push-up pose/bench/chest red. Full opaque BLACK athletic shirt and MID-THIGH shorts continuously cover FRONT SIDES BACK SEAT CROTCH with seams and BROAD fabric folds. Red over clothes diffuse ONLY, no rays/fibers/striations/anatomy visible through cloth, never cutaway or transparency. Black shoes, white background soft floor shadows. Entire body/limbs/support within EACH cell generous margins all sides, no cross-cell overlap. No embedded text/captions/labels/arrows.",
+      "inspectionNote": "Single-leg curl shows nearly straight suspended start and heel curled behind toward glute, hands hips and steady torso. Opaque shorts with diffuse posterior-thigh tint, fine exposed grayscale anatomy. Qualified thigh/knee constancy, heel range, leg identity and hamstring mapping pending.",
+      "canonicalName": "standing single leg curl",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "hamstrings"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Single-leg curl shows nearly straight suspended start and heel curled behind toward glute, hands hips and steady torso. Opaque shorts with diffuse posterior-thigh tint, fine exposed grayscale anatomy. Qualified thigh/knee constancy, heel range, leg identity and hamstring mapping pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0795-female-anatomical-white-v1-p1-ae468b297ca3.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 21102,
+          "sha256": "ae468b297ca3ca6b44a100156f8fbbca0d57e2c73d1915026700b9e3e5fb7604"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0795-female-anatomical-white-v1-p2-4408d527033e.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 20814,
+          "sha256": "4408d527033e724454feba9d941d52ef8f4caf701badd0f4677257fee2d944f0"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0795-female-anatomical-white-v1-thumb-dc6b3dbd2c89.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2306,
+        "sha256": "dc6b3dbd2c891da3137bfb362e2bca8fb9e2756d792a976ebeb71e462c87ee93"
+      },
+      "processingSignature": "2c5b61e5ba0bcde06c09b5a5696a9c3ee98dddf25cb347a37963147fce3b10ee",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0795-female-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1306263,
+        "sha256": "6a56ed6049df856dde61cea1f5ba8c19e0fad0f899958b4cebe7749daeb89a85"
+      }
+    }
+  ]
+}

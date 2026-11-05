@@ -1,0 +1,87 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "5483",
+      "variant": "male",
+      "key": "5483-male-anatomical-white-v1",
+      "prompt": "Weighted seated calf raise version2 TWO equal side-by-side panels SIDEthreequarter. Sitonflatbench BOTHknees90degrees BOTHforefeet onraisedblock BOTHheelsfreeoffbackedge. A small WEIGHTPLATE restsFLAT across LOWERTHIGHS justABOVEknees, BOTHhandssteadyplate. First heelslowerBELOWblocktop forstretch. Second BOTHheelsriseHIGHonto ballsfeet kneesliftplate slightly. Sameblockfootplacement sameplateweight no kneestraightening. Exposed CALVES red only. Use case: scientific educational. Match original 0853 reference only in premium detailed grayscale anatomy rendering, never its movement or equipment. White background, subtle floor shadow, realistic muscular adult male. Same person, camera, scale and equipment in both panels. Fully opaque black tank and mid-thigh black shorts wrap front, sides, back and crotch, realistic seams, folds and hems; no clothing cutaways or anatomical fibers over cloth. Red highlights only on exposed target deltoids or triceps as specified. Entire body, hands, feet, weights and equipment fit generously inside each panel. No words, numbers or arrows.",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Sit with forefeet on raised edge and weight secured across lower thighs; lower heels for a stretch."
+        },
+        {
+          "key": "p2",
+          "caption": "Press high through forefeet, pause, then lower slowly with knees bent."
+        }
+      ],
+      "inspectionNote": "Real output inspected. Weighted seated raise shows secured plate and heel rise, but heel-lowered start stays level with block instead of below it. Qualified anatomy review pending; no publication.",
+      "blockingIssues": [
+        "Heels are level with raised block at start, omitting required lowered-heel stretch. Correct lower end range before approval."
+      ],
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream media used.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0853-male-anatomical-white-v1.png",
+        "role": "style only"
+      }
+    },
+    {
+      "exerciseId": "5513",
+      "variant": "male",
+      "key": "5513-male-anatomical-white-v1",
+      "prompt": "BENCH DIP heels on STABILITYBALL TWO equal side-by-side panels SIDEview. StableflatbenchBEHINDperson BOTHhandsgripFRONTedgebesidehips. BOTHheelsrestONtopofLARGEroundstabilityball INFRONTperson legsstraight, ballremainsSAMEposition. First hipsuspendedjustinfrontbench elbowsstraight. Second bendelbowsBACK90degrees loweringhips withbackclosebench heelsSTILLONBALL shouldersdown. Fullbenchballhandsfeetvisible. Exposed TRICEPS red only. Use case: scientific educational. Match original 0853 reference only in premium detailed grayscale anatomy rendering, never its movement or equipment. White background, subtle floor shadow, realistic muscular adult male. Same person, camera, scale and equipment in both panels. Fully opaque black tank and mid-thigh black shorts wrap front, sides, back and crotch, realistic seams, folds and hems; no clothing cutaways or anatomical fibers over cloth. Red highlights only on exposed target deltoids or triceps as specified. Entire body, hands, feet, weights and equipment fit generously inside each panel. No words, numbers or arrows.",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Support hands on bench and heels on stability ball, hips off bench and arms straight."
+        },
+        {
+          "key": "p2",
+          "caption": "Bend elbows to about ninety degrees, then press up while keeping ball steady."
+        }
+      ],
+      "inspectionNote": "Real output inspected. Bench edge hand support and heels on same stability ball retained through support and bent-elbow dip. Qualified anatomy review pending; no publication.",
+      "blockingIssues": [],
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream media used.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0853-male-anatomical-white-v1.png",
+        "role": "style only"
+      }
+    },
+    {
+      "exerciseId": "5606",
+      "variant": "male",
+      "key": "5606-male-anatomical-white-v1",
+      "prompt": "Dumbbell PRONErearDELTSWING TWO equal side-by-side panels REARthreequarter. Chestdownon45degreeinclinebench chestandabdomenONpad feetplantedfloor. ONElightdumbbellEACHhand. First armshangbelowshoulders softelbowbend. Second swingweightsLATERALLYOUTANDUP toshoulderheight withsameSOFTelbows, torsoSTILLonpad notarching notrowing. Lowerundercontrol. Exposed REARDELTOIDS red only; backcoveredopaquetank. Use case: scientific educational. Match original 0853 reference only in premium detailed grayscale anatomy rendering, never its movement or equipment. White background, subtle floor shadow, realistic muscular adult male. Same person, camera, scale and equipment in both panels. Fully opaque black tank and mid-thigh black shorts wrap front, sides, back and crotch, realistic seams, folds and hems; no clothing cutaways or anatomical fibers over cloth. Red highlights only on exposed target deltoids or triceps as specified. Entire body, hands, feet, weights and equipment fit generously inside each panel. No words, numbers or arrows.",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Lie chest down on incline bench with dumbbells hanging and soft elbows."
+        },
+        {
+          "key": "p2",
+          "caption": "Swing weights out and up to shoulder height, then lower slowly while keeping torso still."
+        }
+      ],
+      "inspectionNote": "Real output inspected. Chest-supported prone lateral swing has soft elbows and same torso contact, detailed opaque back clothing. Qualified anatomy review pending; no publication.",
+      "blockingIssues": [],
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream media used.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0853-male-anatomical-white-v1.png",
+        "role": "style only"
+      }
+    }
+  ]
+}

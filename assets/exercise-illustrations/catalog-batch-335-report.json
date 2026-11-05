@@ -1,0 +1,73 @@
+{
+  "batch": 335,
+  "runId": "a45727e4-0293-4698-ab29-4a31f05340b1",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "trigger": "2026-11-04T10:16:30.854Z",
+  "purpose": "batch335 scheduled male continuation",
+  "started": "2026-11-04T10:17:13.400093+00:00",
+  "completedAt": "2026-11-04T10:25:14.021722+00:00",
+  "actualToolName": "image_gen__imagegen",
+  "calls": 3,
+  "newCandidateSets": 3,
+  "exerciseIds": [
+    "3231",
+    "3232",
+    "3233"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1202,
+    "remainingVariants": 10062,
+    "approvedVariants": 0,
+    "blockedVariants": 441,
+    "knownPoseImages": 2348,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 829,
+      "remainingVariants": 4803,
+      "blockedVariants": 322
+    }
+  },
+  "reviewNotes": {
+    "3231": "Standing T arms then two-hand hip-hinge toe reach, heels planted and opaque tank with plain lumbar wash. Qualified review of comfortable spinal position, soft knees and neck neutrality pending.",
+    "3232": "Chest-height rope pull shows arms extended then hands beside face with elbows high/wide, upright torso and rear-deltoid-only red. Opaque clothes intact. Qualified review of grip, elbow height, shoulder rotation and cable hardware pending.",
+    "3233": "Seated underhand straight-bar row shows feet braced, upright torso and elbows pulling back. Lat tint has anatomical diagonal fiber/segment shapes through tank; block cloth overlay correction. Qualified grip, low-rib endpoint and cable path review pending."
+  },
+  "blockingIssues": {
+    "3233": [
+      "Replace lat anatomical fiber/segment shapes through tank with plain uniform wash on opaque fabric."
+    ]
+  },
+  "deferred": {
+    "3234": "Hyght-specific exercise name conflicts with flat-bench fly description; clarify intended technique.",
+    "3235": "Assisted inverse curl name conflicts with resisted prone cable leg curl instructions.",
+    "3236": "Female-named record/maleVariant alias is not active exception; preserve/defer. Knees lifted and thighs parallel also conflict with kneeling hip-thrust description.",
+    "3237": "Landmine lateral raise name conflicts with front-shoulder bar setup and raising to shoulder height; clarify."
+  },
+  "tests": 7,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "workerSyncResult": {
+    "statuses": {
+      "generated": 1202,
+      "pending": 10062
+    },
+    "remaining": 10062,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 1837451899
+  },
+  "publicationIndexUnchanged": true
+}

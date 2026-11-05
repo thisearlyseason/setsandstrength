@@ -1,0 +1,271 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "0420",
+      "variant": "male",
+      "key": "0420-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hinge forward with upper arms beside torso and elbows bent"
+        },
+        {
+          "key": "p2",
+          "caption": "Straighten both elbows backward while keeping upper arms still"
+        }
+      ],
+      "prompt": "Premium detailed scientific anatomical fitness illustration. Realistic adult MALE, silver GRAYSCALE anatomical muscle-fiber STRIATIONS and tendons on exposed arms/legs, face hands neutral monochrome not flesh colored. Pure white background and soft shadows. TWO equal SIDE-BY-SIDE phases with same model clothes camera light scale and equipment. Whole head feet hands and entire dumbbells within each half with broad WHITE margins above raised weights and below shoes and wide gutter. OPAQUE BLACK sleeveless shirt wraps entire chest abdomen BACK and sides; opaque black knee-length shorts cover FRONT SIDES REAR SEAT CROTCH, real seams folds closed hems, black trainers. No clothing cutaways, holes, exposed anatomy through fabric or transparency. RED primary muscles only, secondary muscles gray. No text captions labels numbers arrows logos. DUMBBELL STANDING KICKBACK, BOTH ARMS. SIDE-rear three-quarter camera reveals BOTH arms/hands. Feet shoulder width flat, knees softly bent, hip hinge torso about45degrees above floor with straight neutral spine and neck in line, stable torso/pelvis. ONE small dumbbell per hand, neutral grip palms toward body. Upper arms held ALONG TORSO approximately parallel to angled back, elbows beside ribs throughout. LEFT elbows flexed90degrees, forearms/dumbbells hang downward, upper arms do not hang down. RIGHT extend ONLY elbows to straighten forearms BACK along upper-arm line until both arms align with torso, no shoulder swing or wrist bending. SAME elbow spatial positions and torso angle both phases, no standing up, no lumbar arch. Two dumbbells clear of thighs and each other, two arms only. RED both TRICEPS posterior upper arms, biceps/delts gray. Full opaque back and seat shorts, no bench.",
+      "inspectionNote": "Two dumbbells, stable hinge/feet and opaque rear/crotch clothing. Upper arms appear low relative to torso and elbow position shifts during extension; qualified correction needed to isolate elbow motion.",
+      "blockingIssues": [
+        "Confirm/correct fixed upper-arm angle and elbow position aligned with torso during kickback."
+      ]
+    },
+    {
+      "exerciseId": "0420",
+      "variant": "female",
+      "key": "0420-female-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hinge forward with upper arms beside torso and elbows bent"
+        },
+        {
+          "key": "p2",
+          "caption": "Straighten both elbows backward while keeping upper arms still"
+        }
+      ],
+      "prompt": "Premium detailed scientific anatomical fitness illustration. Realistic adult FEMALE, silver GRAYSCALE anatomical muscle-fiber STRIATIONS and tendons on exposed arms/legs, face hands neutral monochrome not flesh colored. Pure white background and soft shadows. TWO equal SIDE-BY-SIDE phases with same model clothes camera light scale and equipment. Whole head feet hands and entire dumbbells within each half with broad WHITE margins above raised weights and below shoes and wide gutter. OPAQUE BLACK sleeveless shirt wraps entire chest abdomen BACK and sides; opaque black knee-length shorts cover FRONT SIDES REAR SEAT CROTCH, real seams folds closed hems, black trainers. No clothing cutaways, holes, exposed anatomy through fabric or transparency. RED primary muscles only, secondary muscles gray. No text captions labels numbers arrows logos. DUMBBELL STANDING KICKBACK, BOTH ARMS. SIDE-rear three-quarter camera reveals BOTH arms/hands. Feet shoulder width flat, knees softly bent, hip hinge torso about45degrees above floor with straight neutral spine and neck in line, stable torso/pelvis. ONE small dumbbell per hand, neutral grip palms toward body. Upper arms held ALONG TORSO approximately parallel to angled back, elbows beside ribs throughout. LEFT elbows flexed90degrees, forearms/dumbbells hang downward, upper arms do not hang down. RIGHT extend ONLY elbows to straighten forearms BACK along upper-arm line until both arms align with torso, no shoulder swing or wrist bending. SAME elbow spatial positions and torso angle both phases, no standing up, no lumbar arch. Two dumbbells clear of thighs and each other, two arms only. RED both TRICEPS posterior upper arms, biceps/delts gray. Full opaque back and seat shorts, no bench. CRITICAL strict SIDE view makes torso and upper-arm lines measurable: upper arm ALIGNED PARALLEL with torso throughout, elbow lifted at ribcage height, not hanging downward under shoulder. At endpoint forearm continues BACK along upper-arm/torso line. Both elbows stay same coordinates relative shoulder, only forearms rotate, no shoulder lift.",
+      "inspectionNote": "Hinge and upper arms align approximately with torso; elbow extension backward visible, full opaque back/seat/crotch clothing and neutral grips. Far starting hand/weight occluded; qualified elbow stability, wrist alignment and triceps mapping review pending."
+    },
+    {
+      "exerciseId": "0423",
+      "variant": "male",
+      "key": "0423-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hold one dumbbell overhead with elbow extended"
+        },
+        {
+          "key": "p2",
+          "caption": "Bend elbow to lower dumbbell behind head without moving upper arm"
+        }
+      ],
+      "prompt": "Premium detailed scientific anatomical fitness illustration. Realistic adult MALE, silver GRAYSCALE anatomical muscle-fiber STRIATIONS and tendons on exposed arms/legs, face hands neutral monochrome not flesh colored. Pure white background and soft shadows. TWO equal SIDE-BY-SIDE phases with same model clothes camera light scale and equipment. Whole head feet hands and entire dumbbells within each half with broad WHITE margins above raised weights and below shoes and wide gutter. OPAQUE BLACK sleeveless shirt wraps entire chest abdomen BACK and sides; opaque black knee-length shorts cover FRONT SIDES REAR SEAT CROTCH, real seams folds closed hems, black trainers. No clothing cutaways, holes, exposed anatomy through fabric or transparency. RED primary muscles only, secondary muscles gray. No text captions labels numbers arrows logos. DUMBBELL STANDING ONE ARM EXTENSION, overhead triceps. Rear-side three-quarter camera shows working elbow and dumbbell behind head with clear head clearance. Stand tall feet shoulder width, ONE small dumbbell held in ONE hand NEUTRAL grip, free EMPTY hand relaxed at side. LEFT working upper arm VERTICAL close beside head, elbow extended nearly straight and dumbbell overhead. RIGHT same upper arm remains VERTICAL in same place; bend elbow to lower dumbbell behind head, forearm rotates downward from fixed elbow, weight clear of skull/neck and never touching body. No shoulder rotation/drop, torso lean, back arch or grip switch, wrist straight. Both phases show same TWO arms only, same hand holds weight and free hand remains empty. RED working TRICEPS on back of upper arm only; delts/biceps gray. Whole overhead dumbbell and feet fully inside margins, shirt and shorts opaque front/back/seat/crotch.",
+      "inspectionNote": "Same hand holds single overhead weight, elbow bends behind head while upper arm stays near vertical; free hand empty and full opaque back/seat clothes. Qualified head/neck clearance, wrist and upper-arm stability review required."
+    },
+    {
+      "exerciseId": "0423",
+      "variant": "female",
+      "key": "0423-female-anatomical-white-v2",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hold one dumbbell overhead with elbow extended"
+        },
+        {
+          "key": "p2",
+          "caption": "Bend elbow to lower dumbbell behind head without moving upper arm"
+        }
+      ],
+      "prompt": "Edit original female one-arm overhead triceps extension artwork. Minimal edit: in RIGHT panel remove red highlight from DOWN EMPTY ARM so that entire unloaded arm is SILVER GRAYSCALE like left panel's empty arm. Only raised WORKING arm triceps stays red in both phases. Preserve exact two poses/body anatomy/female identity, one dumbbell held in same overhead hand, clear head/neck gap, fully opaque black shirt and shorts around back/seat/crotch, white background, camera scale and feet. Widen framing a little to leave white margin ABOVE overhead dumbbell. Do not add text, new colors, muscles or equipment. No other changes.",
+      "inspectionNote": "Single overhead dumbbell and full opaque clothes, elbow flexion behind head. Endpoint incorrectly highlights unloaded triceps too; working wrist/dumbbell orientation needs qualified review.",
+      "canonicalName": "dumbbell standing one arm extension",
+      "styleVersion": "white-v1",
+      "equipment": "dumbbell",
+      "primaryMuscles": [
+        "triceps"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original generation from exercise metadata and user-selected style. No upstream image input."
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Correction removes unloaded-arm red highlight and preserves single working triceps highlight, opaque clothes and head-clearance composition. Qualified wrist/weight orientation, cervical clearance and fixed upper-arm review remain required; original retained.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0423-female-anatomical-white-v1-p1-12656c318a08.webp",
+          "width": 768,
+          "height": 1024,
+          "bytes": 25196,
+          "sha256": "12656c318a083e52670335bf7c6439b812dcb34150ac2b1882a0275dce63a5df"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0423-female-anatomical-white-v1-p2-920fe613fa39.webp",
+          "width": 768,
+          "height": 1024,
+          "bytes": 25630,
+          "sha256": "920fe613fa399d0b41c70fd26037b37e69f83b68a86ab3a8cf4f88fe88c7c467"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0423-female-anatomical-white-v1-thumb-b720fedbfe71.webp",
+        "width": 180,
+        "height": 240,
+        "bytes": 1954,
+        "sha256": "b720fedbfe714bee1656290f740f0fb33dcdb6e3479bbaa866e9a99af662869a"
+      },
+      "processingSignature": "1f56503c3b30698ed88116a2b9cd7aa0756a399316b854aa10aebc743d7ffe86",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0423-female-anatomical-white-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1338853,
+        "sha256": "c4c841c21d00172f5ec504199f45cca3d0c1e223021e7d0fd2dfe9817c81f03e"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0423",
+          "variant": "female",
+          "key": "0423-female-anatomical-white-v1",
+          "layout": {
+            "columns": 2,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Hold one dumbbell overhead with elbow extended"
+            },
+            {
+              "key": "p2",
+              "caption": "Bend elbow to lower dumbbell behind head without moving upper arm"
+            }
+          ],
+          "prompt": "Premium detailed scientific anatomical fitness illustration. Realistic adult FEMALE, silver GRAYSCALE anatomical muscle-fiber STRIATIONS and tendons on exposed arms/legs, face hands neutral monochrome not flesh colored. Pure white background and soft shadows. TWO equal SIDE-BY-SIDE phases with same model clothes camera light scale and equipment. Whole head feet hands and entire dumbbells within each half with broad WHITE margins above raised weights and below shoes and wide gutter. OPAQUE BLACK sleeveless shirt wraps entire chest abdomen BACK and sides; opaque black knee-length shorts cover FRONT SIDES REAR SEAT CROTCH, real seams folds closed hems, black trainers. No clothing cutaways, holes, exposed anatomy through fabric or transparency. RED primary muscles only, secondary muscles gray. No text captions labels numbers arrows logos. DUMBBELL STANDING ONE ARM EXTENSION, overhead triceps. Rear-side three-quarter camera shows working elbow and dumbbell behind head with clear head clearance. Stand tall feet shoulder width, ONE small dumbbell held in ONE hand NEUTRAL grip, free EMPTY hand relaxed at side. LEFT working upper arm VERTICAL close beside head, elbow extended nearly straight and dumbbell overhead. RIGHT same upper arm remains VERTICAL in same place; bend elbow to lower dumbbell behind head, forearm rotates downward from fixed elbow, weight clear of skull/neck and never touching body. No shoulder rotation/drop, torso lean, back arch or grip switch, wrist straight. Both phases show same TWO arms only, same hand holds weight and free hand remains empty. RED working TRICEPS on back of upper arm only; delts/biceps gray. Whole overhead dumbbell and feet fully inside margins, shirt and shorts opaque front/back/seat/crotch.",
+          "inspectionNote": "Single overhead dumbbell and full opaque clothes, elbow flexion behind head. Endpoint incorrectly highlights unloaded triceps too; working wrist/dumbbell orientation needs qualified review.",
+          "blockingIssues": [
+            "Remove red from unloaded arm; only working triceps highlighted consistently across phases."
+          ],
+          "canonicalName": "dumbbell standing one arm extension",
+          "styleVersion": "white-v1",
+          "equipment": "dumbbell",
+          "primaryMuscles": [
+            "triceps"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original generation from exercise metadata and user-selected style. No upstream image input."
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Single overhead dumbbell and full opaque clothes, elbow flexion behind head. Endpoint incorrectly highlights unloaded triceps too; working wrist/dumbbell orientation needs qualified review.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0423-female-anatomical-white-v1-p1-12656c318a08.webp",
+              "width": 768,
+              "height": 1024,
+              "bytes": 25196,
+              "sha256": "12656c318a083e52670335bf7c6439b812dcb34150ac2b1882a0275dce63a5df"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0423-female-anatomical-white-v1-p2-920fe613fa39.webp",
+              "width": 768,
+              "height": 1024,
+              "bytes": 25630,
+              "sha256": "920fe613fa399d0b41c70fd26037b37e69f83b68a86ab3a8cf4f88fe88c7c467"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0423-female-anatomical-white-v1-thumb-b720fedbfe71.webp",
+            "width": 180,
+            "height": 240,
+            "bytes": 1954,
+            "sha256": "b720fedbfe714bee1656290f740f0fb33dcdb6e3479bbaa866e9a99af662869a"
+          },
+          "processingSignature": "1f56503c3b30698ed88116a2b9cd7aa0756a399316b854aa10aebc743d7ffe86",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0423-female-anatomical-white-v1.png",
+            "width": 1536,
+            "height": 1024,
+            "bytes": 1338853,
+            "sha256": "c4c841c21d00172f5ec504199f45cca3d0c1e223021e7d0fd2dfe9817c81f03e"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "0426",
+      "variant": "male",
+      "key": "0426-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand with both dumbbells at shoulder level, palms forward"
+        },
+        {
+          "key": "p2",
+          "caption": "Press both dumbbells overhead with stable torso"
+        }
+      ],
+      "prompt": "Premium detailed scientific anatomical fitness illustration. Realistic adult MALE, silver GRAYSCALE anatomical muscle-fiber STRIATIONS and tendons on exposed arms/legs, face hands neutral monochrome not flesh colored. Pure white background and soft shadows. TWO equal SIDE-BY-SIDE phases with same model clothes camera light scale and equipment. Whole head feet hands and entire dumbbells within each half with broad WHITE margins above raised weights and below shoes and wide gutter. OPAQUE BLACK sleeveless shirt wraps entire chest abdomen BACK and sides; opaque black knee-length shorts cover FRONT SIDES REAR SEAT CROTCH, real seams folds closed hems, black trainers. No clothing cutaways, holes, exposed anatomy through fabric or transparency. RED primary muscles only, secondary muscles gray. No text captions labels numbers arrows logos. DUMBBELL STANDING OVERHEAD PRESS, BOTH ARMS PRONATED. TRUE FRONT camera, feet shoulder width flat, knees soft, stable braced torso/head with no sidebend or back arch. ONE identical dumbbell per hand, palms FORWARD both phases, wrists straight and shafts LEVEL HORIZONTAL. LEFT dumbbells at shoulder level, elbows bent90degrees, forearms vertical with wrists above elbows. RIGHT press BOTH dumbbells upward until both elbows nearly straight, weights above shoulders, not both weights touching and no exaggerated shrug. Same feet and torso height, no leg dip/jump. RED BOTH DELTOID shoulder caps only, biceps/triceps/forearms gray, no red chest/neck. Same two arms/two weights, same grip. Full overhead weights inside top white margin and all shoes inside lower margin, no bench or cable.",
+      "inspectionNote": "Both dumbbells press from shoulders to overhead with pronated-looking grip, stable feet and torso, level shafts and full opaque clothing. Qualified overhead range, wrist/elbow alignment and deltoid mapping review pending."
+    },
+    {
+      "exerciseId": "0426",
+      "variant": "female",
+      "key": "0426-female-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand with both dumbbells at shoulder level, palms forward"
+        },
+        {
+          "key": "p2",
+          "caption": "Press both dumbbells overhead with stable torso"
+        }
+      ],
+      "prompt": "Premium detailed scientific anatomical fitness illustration. Realistic adult FEMALE, silver GRAYSCALE anatomical muscle-fiber STRIATIONS and tendons on exposed arms/legs, face hands neutral monochrome not flesh colored. Pure white background and soft shadows. TWO equal SIDE-BY-SIDE phases with same model clothes camera light scale and equipment. Whole head feet hands and entire dumbbells within each half with broad WHITE margins above raised weights and below shoes and wide gutter. OPAQUE BLACK sleeveless shirt wraps entire chest abdomen BACK and sides; opaque black knee-length shorts cover FRONT SIDES REAR SEAT CROTCH, real seams folds closed hems, black trainers. No clothing cutaways, holes, exposed anatomy through fabric or transparency. RED primary muscles only, secondary muscles gray. No text captions labels numbers arrows logos. DUMBBELL STANDING OVERHEAD PRESS, BOTH ARMS PRONATED. TRUE FRONT camera, feet shoulder width flat, knees soft, stable braced torso/head with no sidebend or back arch. ONE identical dumbbell per hand, palms FORWARD both phases, wrists straight and shafts LEVEL HORIZONTAL. LEFT dumbbells at shoulder level, elbows bent90degrees, forearms vertical with wrists above elbows. RIGHT press BOTH dumbbells upward until both elbows nearly straight, weights above shoulders, not both weights touching and no exaggerated shrug. Same feet and torso height, no leg dip/jump. RED BOTH DELTOID shoulder caps only, biceps/triceps/forearms gray, no red chest/neck. Same two arms/two weights, same grip. Full overhead weights inside top white margin and all shoes inside lower margin, no bench or cable.",
+      "inspectionNote": "Both weights move shoulder-to-overhead, pronated grip and level shafts, planted feet and full opaque clothing. Qualified scapular range, wrist/elbow alignment, trunk stability and muscle mapping review pending."
+    }
+  ]
+}

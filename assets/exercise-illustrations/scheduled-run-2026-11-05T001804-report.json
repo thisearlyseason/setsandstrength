@@ -1,0 +1,71 @@
+{
+  "runId": "31685116-6383-4f7c-81a4-0adf0ffc7e8a",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "triggerTimestamp": "2026-11-05T00:18:04.737Z",
+  "batches": [
+    453,
+    454,
+    455,
+    456
+  ],
+  "builtInImageGenAvailable": true,
+  "generatedMasters": 15,
+  "generatedIds": [
+    "4960",
+    "4961",
+    "4973",
+    "4981",
+    "5002",
+    "5003",
+    "5009",
+    "5052",
+    "5092",
+    "5110",
+    "5130",
+    "5134",
+    "5074",
+    "5094",
+    "5160"
+  ],
+  "blocked": {
+    "4960": [
+      "End-pose cable clip is attached off-center near the hand rather than the straight-bar central eyelet; correct attachment geometry before approval."
+    ],
+    "5052": [
+      "Starting heel is level with the step, omitting the required below-step stretch. Correct lower end range before approval."
+    ]
+  },
+  "coverageAfter": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1623,
+    "remainingVariants": 9641,
+    "approvedVariants": 0,
+    "blockedVariants": 591,
+    "knownPoseImages": 3272,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 1250,
+      "remainingVariants": 4382,
+      "blockedVariants": 472
+    }
+  },
+  "pipelineTests": "8 passed, 0 failed after each of four batches",
+  "approvedIndexUnchanged": true,
+  "existingUserApprovalsPreserved": 1306,
+  "publication": "none",
+  "anatomyReview": "pending",
+  "paidWorker": "disabled; inventory sync only, zero requests",
+  "stopReason": "Twenty-minute work window reached after fifteen masters; no further generation started after time check. Final partial batch checkpoint completed. Static holds avoided following prior repeated single-pose failures.",
+  "styleReference": "assets/exercise-illustrations/generated/0853-male-anatomical-white-v1.png",
+  "deferred": {
+    "4967": "Form-check exercise calls for correct and incorrect comparison, but incorrect technique is unspecified; do not invent it.",
+    "5001": "Elbow tucked at side plus arm on thigh/pad and upward-outward rotation lacks clear support geometry; flag before depicting.",
+    "5174": "Exact prompt saved and planned but not generated because run time window elapsed. No PNG or manifest entry exists; safe next candidate."
+  },
+  "nextRunGuidance": "Continue missing dynamic canonical male sets; 5174 prompt is saved but ungenerated and can be reused. Avoid static holds with two-panel style reference pending reference strategy correction. 4960 needs central clip attachment; 5052 below-step end range. Inspect landmine apparent projected length and stair forefoot contact during qualified review. Do not duplicate registered or blocked masters; keep publication and qualified anatomy approval separate."
+}

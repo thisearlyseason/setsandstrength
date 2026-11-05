@@ -1,0 +1,656 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "0655",
+      "variant": "male",
+      "key": "0655-male-anatomical-white-v2",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hold a straight plank with both hands on the stability ball and toes on the floor"
+        },
+        {
+          "key": "p2",
+          "caption": "Bend elbows to lower the chest toward the ball, keeping the body straight"
+        }
+      ],
+      "detail": "STABILITY BALL HANDS-SUPPORTED PUSH-UP, TWO phases. Same full-body three-quarter FRONT/SIDE camera head image LEFT feet RIGHT, one large round ribbed GRAY FULL SPHERE stability ball on floor under BOTH HANDS at image LEFT. This is a full round gym ball about55cm diameter, NOT a half dome, Bosu, bench or medicine ball. Both palms press upper sides of sphere shoulder-width apart, fingers spread securely over curved surface, no platform or handle. BOTH feet hip-width TOES on floor behind, knees STRAIGHT. LEFT HIGH: arms extended, body straight shoulder-hip-heel line from hands on ball to toes floor. RIGHT LOW: bend elbows about90degrees to lower CHEST toward TOP ball while keeping hips in line and knees straight, hands and ball remain same locations. Chest above ball not intersecting. Exactly2arms/2legs, same ball size/shape, no ball deformation or duplicates. Whole ball/person/fingers/shoes within white margins. Primary CHEST only smooth soft diffuse BLURRED red tint over continuous OPAQUE matte BLACK shirt, no pectoral subdivisions/fibers/starburst/cutaways. All exposed arms/legs fine detailed grayscale anatomical fibers. Full opaque black sleeveless shirt wraps torso front sides back and loose knee shorts wrap front sides back seat crotch. No text/arrows.",
+      "prompt": "Edit original project two-panel stability-ball push-up. Preserve exact ball full SPHERE, hands on ball upper sides, toes floor, high and low elbow poses, straight trunk/legs, model/camera/lighting and detailed fine grayscale anatomical fibers on ALL EXPOSED arms/legs. Repaint ONLY red chest SHIRT highlights into smooth soft diffuse BLURRED RED patches over continuous opaque matte BLACK FABRIC. Erase every radial ray/starburst/fiber streak and anatomical pectoral muscle subdivisions inside clothing. Natural broad garment folds/seams only. Shirt wraps torso front sides back fully; loose knee shorts fully wrap front sides rear seat crotch with no transparent cutaways. Entire model/ball within each panel. No text or other changes.",
+      "inspectionNote": "Chest cloth tint now diffuse without radial anatomy pattern; full opaque clothing and detailed grayscale exposed limbs retained. Hands on full sphere and toe support preserved in high/low phases. Qualified ball continuity, wrist/hand contact, alignment and anatomy review pending.",
+      "canonicalName": "push-up (on stability ball)",
+      "styleVersion": "white-v1",
+      "equipment": "stability ball",
+      "primaryMuscles": [
+        "pectorals"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0655-male-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "status": "generated",
+        "costUSD": null
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Chest cloth tint now diffuse without radial anatomy pattern; full opaque clothing and detailed grayscale exposed limbs retained. Hands on full sphere and toe support preserved in high/low phases. Qualified ball continuity, wrist/hand contact, alignment and anatomy review pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0655-male-anatomical-white-v2-p1-b7a68db81149.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 38028,
+          "sha256": "b7a68db81149d216a37ac6c0080d5add9677c8b8af3ca87ee0df5e0e1afe64be"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0655-male-anatomical-white-v2-p2-dc0dbc7728ca.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 32434,
+          "sha256": "dc0dbc7728ca4d15d863a3ac575b37ec347d4343fdea4294d2e252bb197a8213"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0655-male-anatomical-white-v2-thumb-bce6c5905903.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 3724,
+        "sha256": "bce6c5905903863e3a88a2c5671aa5155bf36c62cf114b2d5a6afe05c7a8d272"
+      },
+      "processingSignature": "0452974a6a4c486db53df4befbf8875fd1f81888f7d2e0f96b57bb448405a9c8",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0655-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1750180,
+        "sha256": "57c45b8327a533528b16f18ec9835d872dbf2199a5b114cf2f7a0944690a8fa2"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0655",
+          "variant": "male",
+          "key": "0655-male-anatomical-white-v1",
+          "layout": {
+            "columns": 2,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Hold a straight plank with both hands on the stability ball and toes on the floor"
+            },
+            {
+              "key": "p2",
+              "caption": "Bend elbows to lower the chest toward the ball, keeping the body straight"
+            }
+          ],
+          "detail": "STABILITY BALL HANDS-SUPPORTED PUSH-UP, TWO phases. Same full-body three-quarter FRONT/SIDE camera head image LEFT feet RIGHT, one large round ribbed GRAY FULL SPHERE stability ball on floor under BOTH HANDS at image LEFT. This is a full round gym ball about55cm diameter, NOT a half dome, Bosu, bench or medicine ball. Both palms press upper sides of sphere shoulder-width apart, fingers spread securely over curved surface, no platform or handle. BOTH feet hip-width TOES on floor behind, knees STRAIGHT. LEFT HIGH: arms extended, body straight shoulder-hip-heel line from hands on ball to toes floor. RIGHT LOW: bend elbows about90degrees to lower CHEST toward TOP ball while keeping hips in line and knees straight, hands and ball remain same locations. Chest above ball not intersecting. Exactly2arms/2legs, same ball size/shape, no ball deformation or duplicates. Whole ball/person/fingers/shoes within white margins. Primary CHEST only smooth soft diffuse BLURRED red tint over continuous OPAQUE matte BLACK shirt, no pectoral subdivisions/fibers/starburst/cutaways. All exposed arms/legs fine detailed grayscale anatomical fibers. Full opaque black sleeveless shirt wraps torso front sides back and loose knee shorts wrap front sides back seat crotch. No text/arrows.",
+          "prompt": "Original educational exercise illustration. Attached original project artwork is STYLE reference ONLY, never pose reference. Detailed fine grayscale anatomical fibers on exposed arms and legs, realistic neutral adult MALE; pure white background. TWO equal side-by-side panels, same exact model, camera and lighting. FULLY OPAQUE matte BLACK sleeveless shirt continuously wraps torso front/sides/back. Loose BLACK knee-length shorts fully wrap both upper thighs, front, sides, rear, seat and crotch with closed hems/seams and natural fabric folds. Never translucent fabric, bare buttocks, anatomy windows, clothing cutaways or muscle-fiber patterns on clothes. Black trainers. Red PRIMARY muscle highlights only as specified, over clothing one soft diffuse blurred tint on intact black fabric, no anatomy divisions or fibers. Entire person, shoes, hands and apparatus fit in EACH panel with generous white margins. No text, arrows, logos or numbers. STABILITY BALL HANDS-SUPPORTED PUSH-UP, TWO phases. Same full-body three-quarter FRONT/SIDE camera head image LEFT feet RIGHT, one large round ribbed GRAY FULL SPHERE stability ball on floor under BOTH HANDS at image LEFT. This is a full round gym ball about55cm diameter, NOT a half dome, Bosu, bench or medicine ball. Both palms press upper sides of sphere shoulder-width apart, fingers spread securely over curved surface, no platform or handle. BOTH feet hip-width TOES on floor behind, knees STRAIGHT. LEFT HIGH: arms extended, body straight shoulder-hip-heel line from hands on ball to toes floor. RIGHT LOW: bend elbows about90degrees to lower CHEST toward TOP ball while keeping hips in line and knees straight, hands and ball remain same locations. Chest above ball not intersecting. Exactly2arms/2legs, same ball size/shape, no ball deformation or duplicates. Whole ball/person/fingers/shoes within white margins. Primary CHEST only smooth soft diffuse BLURRED red tint over continuous OPAQUE matte BLACK shirt, no pectoral subdivisions/fibers/starburst/cutaways. All exposed arms/legs fine detailed grayscale anatomical fibers. Full opaque black sleeveless shirt wraps torso front sides back and loose knee shorts wrap front sides back seat crotch. No text/arrows.",
+          "inspectionNote": "Two stability-ball push-up phases show both hands on full sphere, toes floor, elbows straight/bent and aligned trunk. Full opaque clothes and detailed grayscale exposed anatomy. Chest red has radial fiber pattern needing diffuse cloth edit. Qualified hand/ball contact, wrist and ball continuity review pending.",
+          "canonicalName": "push-up (on stability ball)",
+          "styleVersion": "white-v1",
+          "equipment": "stability ball",
+          "primaryMuscles": [
+            "pectorals"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Two stability-ball push-up phases show both hands on full sphere, toes floor, elbows straight/bent and aligned trunk. Full opaque clothes and detailed grayscale exposed anatomy. Chest red has radial fiber pattern needing diffuse cloth edit. Qualified hand/ball contact, wrist and ball continuity review pending.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0655-male-anatomical-white-v1-p1-053323a168e7.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 39666,
+              "sha256": "053323a168e797a29839e3eb0717d6a8dd092b028277aa56bfc73dd764b01463"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0655-male-anatomical-white-v1-p2-2ae18a63c89d.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 34164,
+              "sha256": "2ae18a63c89dc3ef92e3089529c8cb6eb1d598fda7d5d3f459c4aab0bb110ab2"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0655-male-anatomical-white-v1-thumb-06d15ca8eb02.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 3752,
+            "sha256": "06d15ca8eb020306107c5073501725a4bcbfe889f94516f7925a94737a12baf9"
+          },
+          "processingSignature": "328ba731485b2073fb796c9896c14421a5c0cdeefa1717e0d2beb07e01057c2c",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0655-male-anatomical-white-v1.png",
+            "width": 1774,
+            "height": 887,
+            "bytes": 1783486,
+            "sha256": "7d550b3956f3df35cb73707ef2ed58ef2fb7c8dac36d5184bb7e3a2c02a106ae"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "0655",
+      "variant": "female",
+      "key": "0655-female-anatomical-white-v2",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hold a straight plank with both hands on the stability ball and toes on the floor"
+        },
+        {
+          "key": "p2",
+          "caption": "Bend elbows to lower the chest toward the ball, keeping the body straight"
+        }
+      ],
+      "detail": "STABILITY BALL HANDS-SUPPORTED PUSH-UP, TWO phases. Same full-body three-quarter FRONT/SIDE camera head image LEFT feet RIGHT, one large round ribbed GRAY FULL SPHERE stability ball on floor under BOTH HANDS at image LEFT. This is a full round gym ball about55cm diameter, NOT a half dome, Bosu, bench or medicine ball. Both palms press upper sides of sphere shoulder-width apart, fingers spread securely over curved surface, no platform or handle. BOTH feet hip-width TOES on floor behind, knees STRAIGHT. LEFT HIGH: arms extended, body straight shoulder-hip-heel line from hands on ball to toes floor. RIGHT LOW: bend elbows about90degrees to lower CHEST toward TOP ball while keeping hips in line and knees straight, hands and ball remain same locations. Chest above ball not intersecting. Exactly2arms/2legs, same ball size/shape, no ball deformation or duplicates. Whole ball/person/fingers/shoes within white margins. Primary CHEST only smooth soft diffuse BLURRED red tint over continuous OPAQUE matte BLACK shirt, no pectoral subdivisions/fibers/starburst/cutaways. All exposed arms/legs fine detailed grayscale anatomical fibers. Full opaque black sleeveless shirt wraps torso front sides back and loose knee shorts wrap front sides back seat crotch. No text/arrows.",
+      "prompt": "Edit original project two-panel stability-ball push-up. Preserve exact ball full SPHERE, hands on ball upper sides, toes floor, high and low elbow poses, straight trunk/legs, model/camera/lighting and detailed fine grayscale anatomical fibers on ALL EXPOSED arms/legs. Repaint ONLY red chest SHIRT highlights into smooth soft diffuse BLURRED RED patches over continuous opaque matte BLACK FABRIC. Erase every radial ray/starburst/fiber streak and anatomical pectoral muscle subdivisions inside clothing. Natural broad garment folds/seams only. Shirt wraps torso front sides back fully; loose knee shorts fully wrap front sides rear seat crotch with no transparent cutaways. Entire model/ball within each panel. No text or other changes.",
+      "inspectionNote": "Diffuse red chest tint on intact opaque shirt improved; hands/full sphere, toe support and high/low plank retained. Fine grayscale exposed muscle detail. Qualified ball size/roll continuity, grip, wrist and alignment review pending; anatomy approval separate.",
+      "canonicalName": "push-up (on stability ball)",
+      "styleVersion": "white-v1",
+      "equipment": "stability ball",
+      "primaryMuscles": [
+        "pectorals"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0655-female-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "status": "generated",
+        "costUSD": null
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Diffuse red chest tint on intact opaque shirt improved; hands/full sphere, toe support and high/low plank retained. Fine grayscale exposed muscle detail. Qualified ball size/roll continuity, grip, wrist and alignment review pending; anatomy approval separate.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0655-female-anatomical-white-v2-p1-5f3f5b7ed121.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 34134,
+          "sha256": "5f3f5b7ed121d32f2e29bebd6fa8361dd89ef4d1f5fa061e0bfc76f2cd14226f"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0655-female-anatomical-white-v2-p2-7866aa377541.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 29078,
+          "sha256": "7866aa3775416ce4fac21b5b29d52bbaf438e2947fded98acf68af1f8fc51dc1"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0655-female-anatomical-white-v2-thumb-5061a08ec6c1.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 3478,
+        "sha256": "5061a08ec6c1f8590a0ef72f2e2ac96dae073f80260344dfd6367395397e5199"
+      },
+      "processingSignature": "dd832efa476e468229055e75ed31728e356febc12c262e7b2e25dad6987cd069",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0655-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1723154,
+        "sha256": "ddac4526bfb2225e33bfe8f819d831cb6145cb2ebb43aac1adc20af72f09721b"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0655",
+          "variant": "female",
+          "key": "0655-female-anatomical-white-v1",
+          "layout": {
+            "columns": 2,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Hold a straight plank with both hands on the stability ball and toes on the floor"
+            },
+            {
+              "key": "p2",
+              "caption": "Bend elbows to lower the chest toward the ball, keeping the body straight"
+            }
+          ],
+          "detail": "STABILITY BALL HANDS-SUPPORTED PUSH-UP, TWO phases. Same full-body three-quarter FRONT/SIDE camera head image LEFT feet RIGHT, one large round ribbed GRAY FULL SPHERE stability ball on floor under BOTH HANDS at image LEFT. This is a full round gym ball about55cm diameter, NOT a half dome, Bosu, bench or medicine ball. Both palms press upper sides of sphere shoulder-width apart, fingers spread securely over curved surface, no platform or handle. BOTH feet hip-width TOES on floor behind, knees STRAIGHT. LEFT HIGH: arms extended, body straight shoulder-hip-heel line from hands on ball to toes floor. RIGHT LOW: bend elbows about90degrees to lower CHEST toward TOP ball while keeping hips in line and knees straight, hands and ball remain same locations. Chest above ball not intersecting. Exactly2arms/2legs, same ball size/shape, no ball deformation or duplicates. Whole ball/person/fingers/shoes within white margins. Primary CHEST only smooth soft diffuse BLURRED red tint over continuous OPAQUE matte BLACK shirt, no pectoral subdivisions/fibers/starburst/cutaways. All exposed arms/legs fine detailed grayscale anatomical fibers. Full opaque black sleeveless shirt wraps torso front sides back and loose knee shorts wrap front sides back seat crotch. No text/arrows.",
+          "prompt": "Original educational exercise illustration. Attached original project artwork is STYLE reference ONLY, never pose reference. Detailed fine grayscale anatomical fibers on exposed arms and legs, realistic neutral adult FEMALE; pure white background. TWO equal side-by-side panels, same exact model, camera and lighting. FULLY OPAQUE matte BLACK sleeveless shirt continuously wraps torso front/sides/back. Loose BLACK knee-length shorts fully wrap both upper thighs, front, sides, rear, seat and crotch with closed hems/seams and natural fabric folds. Never translucent fabric, bare buttocks, anatomy windows, clothing cutaways or muscle-fiber patterns on clothes. Black trainers. Red PRIMARY muscle highlights only as specified, over clothing one soft diffuse blurred tint on intact black fabric, no anatomy divisions or fibers. Entire person, shoes, hands and apparatus fit in EACH panel with generous white margins. No text, arrows, logos or numbers. STABILITY BALL HANDS-SUPPORTED PUSH-UP, TWO phases. Same full-body three-quarter FRONT/SIDE camera head image LEFT feet RIGHT, one large round ribbed GRAY FULL SPHERE stability ball on floor under BOTH HANDS at image LEFT. This is a full round gym ball about55cm diameter, NOT a half dome, Bosu, bench or medicine ball. Both palms press upper sides of sphere shoulder-width apart, fingers spread securely over curved surface, no platform or handle. BOTH feet hip-width TOES on floor behind, knees STRAIGHT. LEFT HIGH: arms extended, body straight shoulder-hip-heel line from hands on ball to toes floor. RIGHT LOW: bend elbows about90degrees to lower CHEST toward TOP ball while keeping hips in line and knees straight, hands and ball remain same locations. Chest above ball not intersecting. Exactly2arms/2legs, same ball size/shape, no ball deformation or duplicates. Whole ball/person/fingers/shoes within white margins. Primary CHEST only smooth soft diffuse BLURRED red tint over continuous OPAQUE matte BLACK shirt, no pectoral subdivisions/fibers/starburst/cutaways. All exposed arms/legs fine detailed grayscale anatomical fibers. Full opaque black sleeveless shirt wraps torso front sides back and loose knee shorts wrap front sides back seat crotch. No text/arrows.",
+          "inspectionNote": "High and low stability-ball push-up with full sphere, hands upper sides and toes floor. Detailed grayscale exposed anatomy and full opaque garments. Chest red has internal fiber streaks needing diffuse cloth treatment; qualified ball roll/size continuity, wrists and trunk alignment review pending.",
+          "canonicalName": "push-up (on stability ball)",
+          "styleVersion": "white-v1",
+          "equipment": "stability ball",
+          "primaryMuscles": [
+            "pectorals"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "High and low stability-ball push-up with full sphere, hands upper sides and toes floor. Detailed grayscale exposed anatomy and full opaque garments. Chest red has internal fiber streaks needing diffuse cloth treatment; qualified ball roll/size continuity, wrists and trunk alignment review pending.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0655-female-anatomical-white-v1-p1-ea0a8b379207.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 37856,
+              "sha256": "ea0a8b379207346d6f7377ff12e024592cc5c2fecf30afcc83fd7a8a902fa2cd"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0655-female-anatomical-white-v1-p2-142c368b452a.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 33300,
+              "sha256": "142c368b452abe44479aecbb59cdd2eb99c529a4058253d9d957f3324370d093"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0655-female-anatomical-white-v1-thumb-68b68f804ddb.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 3604,
+            "sha256": "68b68f804ddb09d06544c8f8b3119c9cede1f848d97df1fe37e50ca9ccaecaed"
+          },
+          "processingSignature": "c0944464f86b4aa492902f0481b1abfdf2c46caf193c4c8237c4e4f904c35986",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0655-female-anatomical-white-v1.png",
+            "width": 1774,
+            "height": 887,
+            "bytes": 1802506,
+            "sha256": "97e6ad8a23199ee2a65ad5bb7280811299df54cf4acf902d3544d9fa7f247a7e"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "0656",
+      "variant": "male",
+      "key": "0656-male-anatomical-white-v2",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hold a straight plank with both hands on the stability ball and toes on the floor"
+        },
+        {
+          "key": "p2",
+          "caption": "Bend elbows to lower the chest toward the ball, keeping the body straight"
+        }
+      ],
+      "detail": "STABILITY BALL HANDS-SUPPORTED PUSH-UP, TWO phases. Same full-body three-quarter FRONT/SIDE camera head image LEFT feet RIGHT, one large round ribbed GRAY FULL SPHERE stability ball on floor under BOTH HANDS at image LEFT. This is a full round gym ball about55cm diameter, NOT a half dome, Bosu, bench or medicine ball. Both palms press upper sides of sphere shoulder-width apart, fingers spread securely over curved surface, no platform or handle. BOTH feet hip-width TOES on floor behind, knees STRAIGHT. LEFT HIGH: arms extended, body straight shoulder-hip-heel line from hands on ball to toes floor. RIGHT LOW: bend elbows about90degrees to lower CHEST toward TOP ball while keeping hips in line and knees straight, hands and ball remain same locations. Chest above ball not intersecting. Exactly2arms/2legs, same ball size/shape, no ball deformation or duplicates. Whole ball/person/fingers/shoes within white margins. Primary CHEST only smooth soft diffuse BLURRED red tint over continuous OPAQUE matte BLACK shirt, no pectoral subdivisions/fibers/starburst/cutaways. All exposed arms/legs fine detailed grayscale anatomical fibers. Full opaque black sleeveless shirt wraps torso front sides back and loose knee shorts wrap front sides back seat crotch. No text/arrows.",
+      "prompt": "Edit original project two-panel stability-ball push-up. Preserve exact ball full SPHERE, hands on ball upper sides, toes floor, high and low elbow poses, straight trunk/legs, model/camera/lighting and detailed fine grayscale anatomical fibers on ALL EXPOSED arms/legs. Repaint ONLY red chest SHIRT highlights into smooth soft diffuse BLURRED RED patches over continuous opaque matte BLACK FABRIC. Erase every radial ray/starburst/fiber streak and anatomical pectoral muscle subdivisions inside clothing. Natural broad garment folds/seams only. Shirt wraps torso front sides back fully; loose knee shorts fully wrap front sides rear seat crotch with no transparent cutaways. Entire model/ball within each panel. No text or other changes.",
+      "inspectionNote": "Chest overlay now diffuse on opaque fabric; detailed grayscale exposed limbs and full opaque shorts retained. Full stability ball and hands/toes contacts in high/low push-up phases preserved. Qualified sphere continuity, wrist/hand contact, alignment and anatomy review pending.",
+      "canonicalName": "push-up (on stability ball)",
+      "styleVersion": "white-v1",
+      "equipment": "stability ball",
+      "primaryMuscles": [
+        "pectorals"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0656-male-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "status": "generated",
+        "costUSD": null
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Chest overlay now diffuse on opaque fabric; detailed grayscale exposed limbs and full opaque shorts retained. Full stability ball and hands/toes contacts in high/low push-up phases preserved. Qualified sphere continuity, wrist/hand contact, alignment and anatomy review pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0656-male-anatomical-white-v2-p1-6b94a58a5380.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 37168,
+          "sha256": "6b94a58a5380241ed7b5b14ff3e114c11809822bb1eb3d45a7ee628619f75880"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0656-male-anatomical-white-v2-p2-5d5a28aa8de3.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 33982,
+          "sha256": "5d5a28aa8de32143d8a65a5a9b0bf7e7d0f4f91eae206ae32a38b561b8587619"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0656-male-anatomical-white-v2-thumb-1ed430e08981.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 3770,
+        "sha256": "1ed430e08981e289d6fc77bd18b2cc4cd7605cd334dbf4e5d5495cd1b1fdcfa1"
+      },
+      "processingSignature": "758b44d10baca685a5cfef99b8bf8bcfa877652ea8b1e33758b2db337fbcdfdc",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0656-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1777300,
+        "sha256": "9a1ad35a742d4a793a6933ec1c12cd243c8ba864763c77a4c6c3c0a877e867ab"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0656",
+          "variant": "male",
+          "key": "0656-male-anatomical-white-v1",
+          "layout": {
+            "columns": 2,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Hold a straight plank with both hands on the stability ball and toes on the floor"
+            },
+            {
+              "key": "p2",
+              "caption": "Bend elbows to lower the chest toward the ball, keeping the body straight"
+            }
+          ],
+          "detail": "STABILITY BALL HANDS-SUPPORTED PUSH-UP, TWO phases. Same full-body three-quarter FRONT/SIDE camera head image LEFT feet RIGHT, one large round ribbed GRAY FULL SPHERE stability ball on floor under BOTH HANDS at image LEFT. This is a full round gym ball about55cm diameter, NOT a half dome, Bosu, bench or medicine ball. Both palms press upper sides of sphere shoulder-width apart, fingers spread securely over curved surface, no platform or handle. BOTH feet hip-width TOES on floor behind, knees STRAIGHT. LEFT HIGH: arms extended, body straight shoulder-hip-heel line from hands on ball to toes floor. RIGHT LOW: bend elbows about90degrees to lower CHEST toward TOP ball while keeping hips in line and knees straight, hands and ball remain same locations. Chest above ball not intersecting. Exactly2arms/2legs, same ball size/shape, no ball deformation or duplicates. Whole ball/person/fingers/shoes within white margins. Primary CHEST only smooth soft diffuse BLURRED red tint over continuous OPAQUE matte BLACK shirt, no pectoral subdivisions/fibers/starburst/cutaways. All exposed arms/legs fine detailed grayscale anatomical fibers. Full opaque black sleeveless shirt wraps torso front sides back and loose knee shorts wrap front sides back seat crotch. No text/arrows.",
+          "prompt": "Original educational exercise illustration. Attached original project artwork is STYLE reference ONLY, never pose reference. Detailed fine grayscale anatomical fibers on exposed arms and legs, realistic neutral adult MALE; pure white background. TWO equal side-by-side panels, same exact model, camera and lighting. FULLY OPAQUE matte BLACK sleeveless shirt continuously wraps torso front/sides/back. Loose BLACK knee-length shorts fully wrap both upper thighs, front, sides, rear, seat and crotch with closed hems/seams and natural fabric folds. Never translucent fabric, bare buttocks, anatomy windows, clothing cutaways or muscle-fiber patterns on clothes. Black trainers. Red PRIMARY muscle highlights only as specified, over clothing one soft diffuse blurred tint on intact black fabric, no anatomy divisions or fibers. Entire person, shoes, hands and apparatus fit in EACH panel with generous white margins. No text, arrows, logos or numbers. STABILITY BALL HANDS-SUPPORTED PUSH-UP, TWO phases. Same full-body three-quarter FRONT/SIDE camera head image LEFT feet RIGHT, one large round ribbed GRAY FULL SPHERE stability ball on floor under BOTH HANDS at image LEFT. This is a full round gym ball about55cm diameter, NOT a half dome, Bosu, bench or medicine ball. Both palms press upper sides of sphere shoulder-width apart, fingers spread securely over curved surface, no platform or handle. BOTH feet hip-width TOES on floor behind, knees STRAIGHT. LEFT HIGH: arms extended, body straight shoulder-hip-heel line from hands on ball to toes floor. RIGHT LOW: bend elbows about90degrees to lower CHEST toward TOP ball while keeping hips in line and knees straight, hands and ball remain same locations. Chest above ball not intersecting. Exactly2arms/2legs, same ball size/shape, no ball deformation or duplicates. Whole ball/person/fingers/shoes within white margins. Primary CHEST only smooth soft diffuse BLURRED red tint over continuous OPAQUE matte BLACK shirt, no pectoral subdivisions/fibers/starburst/cutaways. All exposed arms/legs fine detailed grayscale anatomical fibers. Full opaque black sleeveless shirt wraps torso front sides back and loose knee shorts wrap front sides back seat crotch. No text/arrows. Use a slightly more SIDE-ON three-quarter camera, preserving both hands visibility.",
+          "inspectionNote": "Stable full-sphere hands-supported push-up phases show high/low elbows, straight legs and toe support. Opaque garments and detailed exposed anatomy. Chest highlight has radial cloth fibers needing correction. Qualified ball size/shape continuity, hands and torso review pending.",
+          "canonicalName": "push-up (on stability ball)",
+          "styleVersion": "white-v1",
+          "equipment": "stability ball",
+          "primaryMuscles": [
+            "pectorals"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Stable full-sphere hands-supported push-up phases show high/low elbows, straight legs and toe support. Opaque garments and detailed exposed anatomy. Chest highlight has radial cloth fibers needing correction. Qualified ball size/shape continuity, hands and torso review pending.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0656-male-anatomical-white-v1-p1-37cb01647bc4.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 39388,
+              "sha256": "37cb01647bc4b8ade45aba24045f53224bd67f82517856c20af316b8c82faa9f"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0656-male-anatomical-white-v1-p2-515eb92c1cb4.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 35282,
+              "sha256": "515eb92c1cb4e9dd62b18f3cfba2e3c9e19e8e40cd44dc105471c0edbb1a55f6"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0656-male-anatomical-white-v1-thumb-75dcf877c195.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 3748,
+            "sha256": "75dcf877c195335cda082696579b808917108f946092df2cc9d2950ef3235634"
+          },
+          "processingSignature": "7ac685ee613c0fc56f2638bffbbca8d1bc3a93ad0de3d61fd1192b7e05c03dd9",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0656-male-anatomical-white-v1.png",
+            "width": 1774,
+            "height": 887,
+            "bytes": 1790699,
+            "sha256": "051ff7bdf46c79c2bbf49490153e24feb4e74bf8aceaa4815bc51ce4133985cc"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "0656",
+      "variant": "female",
+      "key": "0656-female-anatomical-white-v2",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hold a straight plank with both hands on the stability ball and toes on the floor"
+        },
+        {
+          "key": "p2",
+          "caption": "Bend elbows to lower the chest toward the ball, keeping the body straight"
+        }
+      ],
+      "detail": "STABILITY BALL HANDS-SUPPORTED PUSH-UP, TWO phases. Same full-body three-quarter FRONT/SIDE camera head image LEFT feet RIGHT, one large round ribbed GRAY FULL SPHERE stability ball on floor under BOTH HANDS at image LEFT. This is a full round gym ball about55cm diameter, NOT a half dome, Bosu, bench or medicine ball. Both palms press upper sides of sphere shoulder-width apart, fingers spread securely over curved surface, no platform or handle. BOTH feet hip-width TOES on floor behind, knees STRAIGHT. LEFT HIGH: arms extended, body straight shoulder-hip-heel line from hands on ball to toes floor. RIGHT LOW: bend elbows about90degrees to lower CHEST toward TOP ball while keeping hips in line and knees straight, hands and ball remain same locations. Chest above ball not intersecting. Exactly2arms/2legs, same ball size/shape, no ball deformation or duplicates. Whole ball/person/fingers/shoes within white margins. Primary CHEST only smooth soft diffuse BLURRED red tint over continuous OPAQUE matte BLACK shirt, no pectoral subdivisions/fibers/starburst/cutaways. All exposed arms/legs fine detailed grayscale anatomical fibers. Full opaque black sleeveless shirt wraps torso front sides back and loose knee shorts wrap front sides back seat crotch. No text/arrows.",
+      "prompt": "Edit original project two-panel stability-ball push-up. Preserve exact ball full SPHERE, hands on ball upper sides, toes floor, high and low elbow poses, straight trunk/legs, model/camera/lighting and detailed fine grayscale anatomical fibers on ALL EXPOSED arms/legs. Repaint ONLY red chest SHIRT highlights into smooth soft diffuse BLURRED RED patches over continuous opaque matte BLACK FABRIC. Erase every radial ray/starburst/fiber streak and anatomical pectoral muscle subdivisions inside clothing. Natural broad garment folds/seams only. Shirt wraps torso front sides back fully; loose knee shorts fully wrap front sides rear seat crotch with no transparent cutaways. Entire model/ball within each panel. No text or other changes.",
+      "inspectionNote": "Chest red softened into diffuse tint on intact opaque fabric; full shirt/shorts and fine exposed grayscale anatomy retained. Two hands on full sphere and toe support preserved in high/low phases. Qualified ball continuity, wrist/finger contact, trunk alignment and anatomy review pending.",
+      "canonicalName": "push-up (on stability ball)",
+      "styleVersion": "white-v1",
+      "equipment": "stability ball",
+      "primaryMuscles": [
+        "pectorals"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0656-female-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "status": "generated",
+        "costUSD": null
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Chest red softened into diffuse tint on intact opaque fabric; full shirt/shorts and fine exposed grayscale anatomy retained. Two hands on full sphere and toe support preserved in high/low phases. Qualified ball continuity, wrist/finger contact, trunk alignment and anatomy review pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0656-female-anatomical-white-v2-p1-e9dd7cd977cf.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 35032,
+          "sha256": "e9dd7cd977cf97ff88a665e0d19e85460f707557672e2c34ab21171152a5be93"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0656-female-anatomical-white-v2-p2-64010f8bf1da.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 31554,
+          "sha256": "64010f8bf1daf7ee547519efd7331b9dd0003eeaf3319d0c1155fdab26c9d5e0"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0656-female-anatomical-white-v2-thumb-bdae65153bde.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 3648,
+        "sha256": "bdae65153bdec24d3e979715b5d8c61ef0c7af7409e5ad0809ae12be4a3de9f5"
+      },
+      "processingSignature": "ea95c49b3e0792e46ad4254596c2a32c333991e6c268177b045132b33de716f7",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0656-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1734786,
+        "sha256": "90b0739819c19e016557e0834eb9d3f23ab0f9565d2286b30e1e5309fc7dd173"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0656",
+          "variant": "female",
+          "key": "0656-female-anatomical-white-v1",
+          "layout": {
+            "columns": 2,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Hold a straight plank with both hands on the stability ball and toes on the floor"
+            },
+            {
+              "key": "p2",
+              "caption": "Bend elbows to lower the chest toward the ball, keeping the body straight"
+            }
+          ],
+          "detail": "STABILITY BALL HANDS-SUPPORTED PUSH-UP, TWO phases. Same full-body three-quarter FRONT/SIDE camera head image LEFT feet RIGHT, one large round ribbed GRAY FULL SPHERE stability ball on floor under BOTH HANDS at image LEFT. This is a full round gym ball about55cm diameter, NOT a half dome, Bosu, bench or medicine ball. Both palms press upper sides of sphere shoulder-width apart, fingers spread securely over curved surface, no platform or handle. BOTH feet hip-width TOES on floor behind, knees STRAIGHT. LEFT HIGH: arms extended, body straight shoulder-hip-heel line from hands on ball to toes floor. RIGHT LOW: bend elbows about90degrees to lower CHEST toward TOP ball while keeping hips in line and knees straight, hands and ball remain same locations. Chest above ball not intersecting. Exactly2arms/2legs, same ball size/shape, no ball deformation or duplicates. Whole ball/person/fingers/shoes within white margins. Primary CHEST only smooth soft diffuse BLURRED red tint over continuous OPAQUE matte BLACK shirt, no pectoral subdivisions/fibers/starburst/cutaways. All exposed arms/legs fine detailed grayscale anatomical fibers. Full opaque black sleeveless shirt wraps torso front sides back and loose knee shorts wrap front sides back seat crotch. No text/arrows.",
+          "prompt": "Original educational exercise illustration. Attached original project artwork is STYLE reference ONLY, never pose reference. Detailed fine grayscale anatomical fibers on exposed arms and legs, realistic neutral adult FEMALE; pure white background. TWO equal side-by-side panels, same exact model, camera and lighting. FULLY OPAQUE matte BLACK sleeveless shirt continuously wraps torso front/sides/back. Loose BLACK knee-length shorts fully wrap both upper thighs, front, sides, rear, seat and crotch with closed hems/seams and natural fabric folds. Never translucent fabric, bare buttocks, anatomy windows, clothing cutaways or muscle-fiber patterns on clothes. Black trainers. Red PRIMARY muscle highlights only as specified, over clothing one soft diffuse blurred tint on intact black fabric, no anatomy divisions or fibers. Entire person, shoes, hands and apparatus fit in EACH panel with generous white margins. No text, arrows, logos or numbers. STABILITY BALL HANDS-SUPPORTED PUSH-UP, TWO phases. Same full-body three-quarter FRONT/SIDE camera head image LEFT feet RIGHT, one large round ribbed GRAY FULL SPHERE stability ball on floor under BOTH HANDS at image LEFT. This is a full round gym ball about55cm diameter, NOT a half dome, Bosu, bench or medicine ball. Both palms press upper sides of sphere shoulder-width apart, fingers spread securely over curved surface, no platform or handle. BOTH feet hip-width TOES on floor behind, knees STRAIGHT. LEFT HIGH: arms extended, body straight shoulder-hip-heel line from hands on ball to toes floor. RIGHT LOW: bend elbows about90degrees to lower CHEST toward TOP ball while keeping hips in line and knees straight, hands and ball remain same locations. Chest above ball not intersecting. Exactly2arms/2legs, same ball size/shape, no ball deformation or duplicates. Whole ball/person/fingers/shoes within white margins. Primary CHEST only smooth soft diffuse BLURRED red tint over continuous OPAQUE matte BLACK shirt, no pectoral subdivisions/fibers/starburst/cutaways. All exposed arms/legs fine detailed grayscale anatomical fibers. Full opaque black sleeveless shirt wraps torso front sides back and loose knee shorts wrap front sides back seat crotch. No text/arrows. Use a slightly more SIDE-ON three-quarter camera, preserving both hands visibility.",
+          "inspectionNote": "Two full-sphere push-up phases hands upper ball and toes floor, elbows extend/bend while trunk stays aligned. Full opaque clothes and detailed grayscale anatomy. Red chest fiber pattern needs diffuse cloth edit. Qualified grip, wrist, ball geometry/size and technique review pending.",
+          "canonicalName": "push-up (on stability ball)",
+          "styleVersion": "white-v1",
+          "equipment": "stability ball",
+          "primaryMuscles": [
+            "pectorals"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Two full-sphere push-up phases hands upper ball and toes floor, elbows extend/bend while trunk stays aligned. Full opaque clothes and detailed grayscale anatomy. Red chest fiber pattern needs diffuse cloth edit. Qualified grip, wrist, ball geometry/size and technique review pending.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0656-female-anatomical-white-v1-p1-e1dfe1ef9e75.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 35862,
+              "sha256": "e1dfe1ef9e7502ba34ed642021b6d098366d626e3e660ea2f3297efbe8f23059"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0656-female-anatomical-white-v1-p2-a3badd50a567.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 31852,
+              "sha256": "a3badd50a567b5482ef96a9792a7a8dc7d6399aae288b1625e30d273a62de166"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0656-female-anatomical-white-v1-thumb-8fca734d6915.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 3594,
+            "sha256": "8fca734d6915e79e4f3722a1f41fa9cfbbe0b6ceec9bacd68b5cc94c00f0250e"
+          },
+          "processingSignature": "aa8886fb83fc456257859e5a647490d184955ab6ffda338305e761c661f52736",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0656-female-anatomical-white-v1.png",
+            "width": 1774,
+            "height": 887,
+            "bytes": 1504414,
+            "sha256": "e1d7ef7f14932d242f3162ae8b6994559e76ffef039df164ee7975592c84308f"
+          }
+        }
+      ]
+    }
+  ]
+}

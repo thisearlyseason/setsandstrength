@@ -1,0 +1,55 @@
+{
+  "batch": 378,
+  "runId": "46549531-2787-4f3d-912e-3ce01dd804c4",
+  "builtInImageGenAvailable": true,
+  "anatomyReview": "pending",
+  "publication": "none",
+  "deferred": {
+    "3528": "Spine primary muscle mapping unresolved.",
+    "3530": "Band anchor direction/setup not specified; could change resistance pattern.",
+    "3531": "Cardiovascular primary highlight mapping unresolved."
+  },
+  "coverageAfter": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1361,
+    "remainingVariants": 9903,
+    "approvedVariants": 0,
+    "blockedVariants": 525,
+    "knownPoseImages": 2696,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 988,
+      "remainingVariants": 4644,
+      "blockedVariants": 406
+    }
+  },
+  "paidWorker": {
+    "statuses": {
+      "generated": 1361,
+      "pending": 9903
+    },
+    "remaining": 9903,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 2069787995
+  },
+  "pipelineTests": "7 passed, 0 failed",
+  "approvedIndexUnchanged": true,
+  "existingUserApprovalsPreserved": 1306,
+  "generatedIds": [
+    "3527",
+    "3529"
+  ]
+}

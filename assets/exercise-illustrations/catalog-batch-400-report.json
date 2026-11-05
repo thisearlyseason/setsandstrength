@@ -1,0 +1,61 @@
+{
+  "batch": 400,
+  "runId": "99a44c7a-cbaa-4399-b0c9-b41d48c7eec9",
+  "triggerTimestamp": "2026-11-04T19:16:02.311Z",
+  "builtInImageGenAvailable": true,
+  "generatedIds": [
+    "3663",
+    "3664",
+    "3665",
+    "3668"
+  ],
+  "coverageAfter": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1416,
+    "remainingVariants": 9848,
+    "approvedVariants": 0,
+    "blockedVariants": 541,
+    "knownPoseImages": 2818,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 1043,
+      "remainingVariants": 4589,
+      "blockedVariants": 422
+    }
+  },
+  "paidWorker": {
+    "statuses": {
+      "generated": 1416,
+      "pending": 9848
+    },
+    "remaining": 9848,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 2148859167
+  },
+  "pipelineTests": "7 passed, 0 failed",
+  "approvedIndexUnchanged": true,
+  "existingUserApprovalsPreserved": 1306,
+  "anatomyReview": "pending",
+  "publication": "none",
+  "blocked": {
+    "3663": [
+      "Final two panels repeat same lifted leg."
+    ],
+    "3668": [
+      "Tank highlight includes nipple-like anatomical detail instead of plain fabric wash."
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "batch": 314,
+  "runId": "4cbe8c27-8cac-4e7e-807f-e612ed6db052",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "trigger": "2026-11-04T06:58:28.222Z",
+  "purpose": "batch314 scheduled male continuation",
+  "started": "2026-11-04T06:59:26.882848+00:00",
+  "completedAt": "2026-11-04T07:11:20.749260+00:00",
+  "actualToolName": "image_gen__imagegen",
+  "calls": 4,
+  "newCandidateSets": 4,
+  "exerciseIds": [
+    "2931",
+    "2932",
+    "2934",
+    "2936"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1124,
+    "remainingVariants": 10140,
+    "approvedVariants": 0,
+    "blockedVariants": 396,
+    "knownPoseImages": 2180,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 751,
+      "remainingVariants": 4881,
+      "blockedVariants": 277
+    }
+  },
+  "reviewNotes": {
+    "2931": "Back-to-wall start and straight-arm overhead finish, head/back/pelvis near wall with ribs down and opaque clothing. Anterior shoulder red only. Qualified review needed for maintained contact, pain-free shoulder range, elbow straightness and avoiding lumbar arch. Human anatomy review pending.",
+    "2932": "Tall kneeling with normal kettlebell racked at shoulder then pressed overhead, bell below handle behind forearm and same arm working. Deltoid red only, opaque clothing. Qualified review needed for grip security, wrist stacking, ribs/pelvis neutral and overhead lockout. Human anatomy review pending.",
+    "2934": "Same half-kneeling leg position and working arm, normal kettlebell rack to overhead lockout; torso tall and opaque clothing. Deltoid red only. Qualified review needed for rear-knee glute engagement, pelvis level, wrist/shoulder stacking and front-knee alignment. Human anatomy review pending.",
+    "2936": "Half kneeling ankle rock shows front tibia advancing over toes with heel grounded, rear knee down and hands on thigh. Calf tint and opaque clothing. Qualified review needed for unchanged foot/rear-knee spacing, true ankle dorsiflexion versus whole-body translation, calf mapping and comfortable range. Human anatomy review pending."
+  },
+  "blockingIssues": {},
+  "deferred": {},
+  "tests": 7,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "workerSyncResult": {
+    "statuses": {
+      "generated": 1124,
+      "pending": 10140
+    },
+    "remaining": 10140,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 1722421444
+  },
+  "publicationIndexUnchanged": true
+}

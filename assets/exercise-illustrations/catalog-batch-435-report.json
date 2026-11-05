@@ -1,0 +1,58 @@
+{
+  "batch": 435,
+  "runId": "ffb24b1c-d97a-4aa5-b6ec-5e16b370c72a",
+  "triggerTimestamp": "2026-11-04T22:36:03.986Z",
+  "builtInImageGenAvailable": true,
+  "generatedIds": [
+    "4088",
+    "4092",
+    "4114",
+    "4115"
+  ],
+  "coverageAfter": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1540,
+    "remainingVariants": 9724,
+    "approvedVariants": 0,
+    "blockedVariants": 580,
+    "knownPoseImages": 3095,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 1167,
+      "remainingVariants": 4465,
+      "blockedVariants": 461
+    }
+  },
+  "paidWorker": {
+    "statuses": {
+      "generated": 1540,
+      "pending": 9724
+    },
+    "remaining": 9724,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 2328882774
+  },
+  "pipelineTests": "8 passed, 0 failed",
+  "approvedIndexUnchanged": true,
+  "existingUserApprovalsPreserved": 1306,
+  "anatomyReview": "pending",
+  "publication": "none",
+  "blocked": {
+    "4115": [
+      "Extended-pose cable bypasses center bar clip and connects near hand; hardware continuity incorrect."
+    ]
+  }
+}

@@ -1,0 +1,348 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "0694",
+      "variant": "male",
+      "key": "0694-male-anatomical-white-v1",
+      "layout": {
+        "columns": 3,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Sit tall on the stability ball with feet flat and hands in front of the chest."
+        },
+        {
+          "key": "p2",
+          "caption": "Rotate the torso to the left while keeping hips and feet facing forward."
+        },
+        {
+          "key": "p3",
+          "caption": "Return through center and rotate to the right, keeping hips steady."
+        }
+      ],
+      "detail": "SEATED TORSO TWIST ON STABILITY BALL, THREE equal SQUARE panels in one wide horizontal row. Fixed FRONTAL camera same model/scale. Sit upright astride full large gray round stability ball, hips/knees near 90 degrees, both feet FLAT floor hip width. Ball/PELVIS/KNEES/FEET same FRONT-FACING orientation and position in ALL phases; only ribcage and shoulders rotate. Hold hands together in front chest with elbows gently bent. LEFT: chest neutral toward camera, hands at sternum. CENTER: rotate chest/shoulders/head toward IMAGE LEFT, clasped hands in front rotated sternum move toward IMAGE LEFT, shoulder line visibly turned relative pelvis, hips stay front. RIGHT: rotate chest/shoulders/head toward IMAGE RIGHT, hands in front rotated sternum move IMAGE RIGHT, opposite shoulder line rotation, hips remain front. Do NOT mirror whole lower body/ball, do NOT side-bend. Spine long vertical, no backward lean. ONE soft diffuse BLURRED red tint over intact black abdominal shirt, no visible muscle patterns on fabric. Fine exposed grayscale anatomy, full ball/body within margin.",
+      "prompt": "Original educational exercise illustration. Attached original project artwork STYLE ONLY never pose/equipment reference. Neutral adult MALE, premium fine detailed grayscale anatomical fibers on EXPOSED muscles, pure white background. Fully OPAQUE matte BLACK sleeveless shirt covers torso front sides back abdomen; loose knee-length BLACK shorts wrap both thighs front sides rear seat crotch, closed seams/hems and broad natural folds. Black trainers. Red PRIMARY only as specified; over cloth ONE smooth diffuse blurred tint without rays/fibers/sixpack divisions. Whole body fingers shoes and apparatus within generous white margins. No text/labels/arrows/logos. SEATED TORSO TWIST ON STABILITY BALL, THREE equal SQUARE panels in one wide horizontal row. Fixed FRONTAL camera same model/scale. Sit upright astride full large gray round stability ball, hips/knees near 90 degrees, both feet FLAT floor hip width. Ball/PELVIS/KNEES/FEET same FRONT-FACING orientation and position in ALL phases; only ribcage and shoulders rotate. Hold hands together in front chest with elbows gently bent. LEFT: chest neutral toward camera, hands at sternum. CENTER: rotate chest/shoulders/head toward IMAGE LEFT, clasped hands in front rotated sternum move toward IMAGE LEFT, shoulder line visibly turned relative pelvis, hips stay front. RIGHT: rotate chest/shoulders/head toward IMAGE RIGHT, hands in front rotated sternum move IMAGE RIGHT, opposite shoulder line rotation, hips remain front. Do NOT mirror whole lower body/ball, do NOT side-bend. Spine long vertical, no backward lean. ONE soft diffuse BLURRED red tint over intact black abdominal shirt, no visible muscle patterns on fabric. Fine exposed grayscale anatomy, full ball/body within margin.",
+      "inspectionNote": "Three upright ball-seated phases show neutral and opposite shoulder/head rotations with knees/feet facing forward and full ball. Opaque clothing and diffuse abdominal red with broad folds, detailed exposed grayscale anatomy. Narrow but contained head/shoe margins. Qualified hip fixation, torso rotation versus arm swing, ball contact and scale continuity review pending.",
+      "canonicalName": "seated twist (on stability ball)",
+      "styleVersion": "white-v1",
+      "equipment": "stability ball",
+      "primaryMuscles": [
+        "abs"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Three upright ball-seated phases show neutral and opposite shoulder/head rotations with knees/feet facing forward and full ball. Opaque clothing and diffuse abdominal red with broad folds, detailed exposed grayscale anatomy. Narrow but contained head/shoe margins. Qualified hip fixation, torso rotation versus arm swing, ball contact and scale continuity review pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0694-male-anatomical-white-v1-p1-d9e349cc1da4.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 23056,
+          "sha256": "d9e349cc1da47f4f1a4a64ccb1433d08f93cd2d1f146def0c0bf5f413214080c"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0694-male-anatomical-white-v1-p2-41963cb47249.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 22808,
+          "sha256": "41963cb472491c7ad3b5a866fda494f66f8bf9c607b42c45bffd6a86b5a3618b"
+        },
+        {
+          "pose": "p3",
+          "path": "/workout/illustration-pilot/0694-male-anatomical-white-v1-p3-5a9345605169.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 22816,
+          "sha256": "5a93456051691d75706a8e5bcc502f248902a36800633c3b5f25bd8288357afd"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0694-male-anatomical-white-v1-thumb-a2d8c9b74ed6.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 3164,
+        "sha256": "a2d8c9b74ed6f69260fc6f7c2870162dabb650ecd894998a07f8b64e3bb22feb"
+      },
+      "processingSignature": "7abb606d7aaa69401250ff6accf774ff994e4f69995bec9dabd42c4b98ff4079",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0694-male-anatomical-white-v1.png",
+        "width": 2172,
+        "height": 724,
+        "bytes": 1467998,
+        "sha256": "805a93c0e6fcc4a2fec8cb4cf0488f456dd358749000031e7af8c908c565ad46"
+      }
+    },
+    {
+      "exerciseId": "0694",
+      "variant": "female",
+      "key": "0694-female-anatomical-white-v1",
+      "layout": {
+        "columns": 3,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Sit tall on the stability ball with feet flat and hands in front of the chest."
+        },
+        {
+          "key": "p2",
+          "caption": "Rotate the torso to the left while keeping hips and feet facing forward."
+        },
+        {
+          "key": "p3",
+          "caption": "Return through center and rotate to the right, keeping hips steady."
+        }
+      ],
+      "detail": "SEATED TORSO TWIST ON STABILITY BALL, THREE equal SQUARE panels in one wide horizontal row. Fixed FRONTAL camera same model/scale. Sit upright astride full large gray round stability ball, hips/knees near 90 degrees, both feet FLAT floor hip width. Ball/PELVIS/KNEES/FEET same FRONT-FACING orientation and position in ALL phases; only ribcage and shoulders rotate. Hold hands together in front chest with elbows gently bent. LEFT: chest neutral toward camera, hands at sternum. CENTER: rotate chest/shoulders/head toward IMAGE LEFT, clasped hands in front rotated sternum move toward IMAGE LEFT, shoulder line visibly turned relative pelvis, hips stay front. RIGHT: rotate chest/shoulders/head toward IMAGE RIGHT, hands in front rotated sternum move IMAGE RIGHT, opposite shoulder line rotation, hips remain front. Do NOT mirror whole lower body/ball, do NOT side-bend. Spine long vertical, no backward lean. ONE soft diffuse BLURRED red tint over intact black abdominal shirt, no visible muscle patterns on fabric. Fine exposed grayscale anatomy, full ball/body within margin.",
+      "prompt": "Original educational exercise illustration. Attached original project artwork STYLE ONLY never pose/equipment reference. Neutral adult FEMALE, premium fine detailed grayscale anatomical fibers on EXPOSED muscles, pure white background. Fully OPAQUE matte BLACK sleeveless shirt covers torso front sides back abdomen; loose knee-length BLACK shorts wrap both thighs front sides rear seat crotch, closed seams/hems and broad natural folds. Black trainers. Red PRIMARY only as specified; over cloth ONE smooth diffuse blurred tint without rays/fibers/sixpack divisions. Whole body fingers shoes and apparatus within generous white margins. No text/labels/arrows/logos. SEATED TORSO TWIST ON STABILITY BALL, THREE equal SQUARE panels in one wide horizontal row. Fixed FRONTAL camera same model/scale. Sit upright astride full large gray round stability ball, hips/knees near 90 degrees, both feet FLAT floor hip width. Ball/PELVIS/KNEES/FEET same FRONT-FACING orientation and position in ALL phases; only ribcage and shoulders rotate. Hold hands together in front chest with elbows gently bent. LEFT: chest neutral toward camera, hands at sternum. CENTER: rotate chest/shoulders/head toward IMAGE LEFT, clasped hands in front rotated sternum move toward IMAGE LEFT, shoulder line visibly turned relative pelvis, hips stay front. RIGHT: rotate chest/shoulders/head toward IMAGE RIGHT, hands in front rotated sternum move IMAGE RIGHT, opposite shoulder line rotation, hips remain front. Do NOT mirror whole lower body/ball, do NOT side-bend. Spine long vertical, no backward lean. ONE soft diffuse BLURRED red tint over intact black abdominal shirt, no visible muscle patterns on fabric. Fine exposed grayscale anatomy, full ball/body within margin.",
+      "inspectionNote": "Three ball-seated phases show neutral and opposite upper-torso/head rotations with front-facing knees/feet and full ball. Smooth diffuse abdominal tint on opaque shirt, detailed exposed grayscale anatomy. Narrow but contained margins. Qualified hip fixation, torso versus arm rotation, ball contact and model scale review pending.",
+      "canonicalName": "seated twist (on stability ball)",
+      "styleVersion": "white-v1",
+      "equipment": "stability ball",
+      "primaryMuscles": [
+        "abs"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Three ball-seated phases show neutral and opposite upper-torso/head rotations with front-facing knees/feet and full ball. Smooth diffuse abdominal tint on opaque shirt, detailed exposed grayscale anatomy. Narrow but contained margins. Qualified hip fixation, torso versus arm rotation, ball contact and model scale review pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0694-female-anatomical-white-v1-p1-3ec453c179d6.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 20544,
+          "sha256": "3ec453c179d6f8b0cd91f1b30fbcaa8860cbb65d47f748225524ed592ab79aa9"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0694-female-anatomical-white-v1-p2-ff57998e9e9b.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 20682,
+          "sha256": "ff57998e9e9bb04540ef732e1b752ced241e16ed0ba412cd050d4696479e820d"
+        },
+        {
+          "pose": "p3",
+          "path": "/workout/illustration-pilot/0694-female-anatomical-white-v1-p3-7bf0729e5615.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 20230,
+          "sha256": "7bf0729e5615395cdcb7ef56b18d654260e8771529c56da781e6169dc72fa79c"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0694-female-anatomical-white-v1-thumb-02c4f1a07077.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2894,
+        "sha256": "02c4f1a07077aa50070d18eff226801d2f1f84ff0b82947ffaad3548de1fb356"
+      },
+      "processingSignature": "b66b8bac3704bad60f25372f6b02d051e0d06f18032f7c4ef80be815e17585e5",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0694-female-anatomical-white-v1.png",
+        "width": 2172,
+        "height": 724,
+        "bytes": 1421481,
+        "sha256": "55d035fd5fb35afd890a617d911889dbb2892f94171bace91f1571507fa54fcc"
+      }
+    },
+    {
+      "exerciseId": "0698",
+      "variant": "male",
+      "key": "0698-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand on the band and hold its ends at shoulder height, elbows bent."
+        },
+        {
+          "key": "p2",
+          "caption": "Press both hands overhead until arms are straight; lower slowly without leaning back."
+        }
+      ],
+      "detail": "STANDING RESISTANCE BAND SHOULDER PRESS, TWO equal SQUARE panels side by side same model/camera/lighting. Front three-quarter view whole body. Stand tall feet shoulder width BOTH shoes pinning middle of ONE continuous gray elastic band to floor. Two band branches rise from beneath shoes to EACH hand, closed grip at band ends, NO external anchors/no weights. LEFT bottom: hands at shoulders, elbows bent about 90 degrees pointing down/out, forearms near vertical, band mildly stretched from feet to hands. RIGHT TOP: BOTH hands pressed directly overhead, elbows fully straight, band taut LONGER from feet to hands on both sides; each band branch continuous and OUTSIDE torso/arms, no crossing through body, soles pin same middle band. Upright stacked ribs/pelvis, core tight, knees softly straight, no lumbar lean. Hands slightly wider than shoulders overhead, palm direction naturally forward at top. Primary DELTOIDS on exposed shoulders RED with fine anatomical muscle fibers, all other exposed muscles grayscale. Shirt/shorts fully opaque black no red on chest/abdomen. Full band/shoes/hands inside generous margins.",
+      "prompt": "Original educational exercise illustration. Attached original project artwork STYLE ONLY never pose/equipment reference. Neutral adult MALE, premium fine detailed grayscale anatomical fibers on EXPOSED muscles, pure white background. Fully OPAQUE matte BLACK sleeveless shirt covers torso front sides back abdomen; loose knee-length BLACK shorts wrap both thighs front sides rear seat crotch, closed seams/hems and broad natural folds. Black trainers. Red PRIMARY only as specified; over cloth ONE smooth diffuse blurred tint without rays/fibers/sixpack divisions. Whole body fingers shoes and apparatus within generous white margins. No text/labels/arrows/logos. STANDING RESISTANCE BAND SHOULDER PRESS, TWO equal SQUARE panels side by side same model/camera/lighting. Front three-quarter view whole body. Stand tall feet shoulder width BOTH shoes pinning middle of ONE continuous gray elastic band to floor. Two band branches rise from beneath shoes to EACH hand, closed grip at band ends, NO external anchors/no weights. LEFT bottom: hands at shoulders, elbows bent about 90 degrees pointing down/out, forearms near vertical, band mildly stretched from feet to hands. RIGHT TOP: BOTH hands pressed directly overhead, elbows fully straight, band taut LONGER from feet to hands on both sides; each band branch continuous and OUTSIDE torso/arms, no crossing through body, soles pin same middle band. Upright stacked ribs/pelvis, core tight, knees softly straight, no lumbar lean. Hands slightly wider than shoulders overhead, palm direction naturally forward at top. Primary DELTOIDS on exposed shoulders RED with fine anatomical muscle fibers, all other exposed muscles grayscale. Shirt/shorts fully opaque black no red on chest/abdomen. Full band/shoes/hands inside generous margins.",
+      "inspectionNote": "Standing band press shows shoulders-height bent elbows then straight overhead arms, upright torso and feet pinning gray band with continuous outer branches. Red exposed deltoids, other muscles grayscale and full opaque clothes. Overhead fists have narrow but contained upper margin. Qualified grip, band underfoot routing, shoulder range and no lumbar extension review pending.",
+      "canonicalName": "shoulder press (with band)",
+      "styleVersion": "white-v1",
+      "equipment": "band",
+      "primaryMuscles": [
+        "delts"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Standing band press shows shoulders-height bent elbows then straight overhead arms, upright torso and feet pinning gray band with continuous outer branches. Red exposed deltoids, other muscles grayscale and full opaque clothes. Overhead fists have narrow but contained upper margin. Qualified grip, band underfoot routing, shoulder range and no lumbar extension review pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0698-male-anatomical-white-v1-p1-732024322962.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 22918,
+          "sha256": "7320243229628230c07882ff7d1a44bb54210712dbbc1d9844e2bec5498b998a"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0698-male-anatomical-white-v1-p2-bdac592d40b3.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 23758,
+          "sha256": "bdac592d40b33bad4b1d2fef6c0dc746938b469e66503c0ad5caa1642c0c3517"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0698-male-anatomical-white-v1-thumb-148d23661fca.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2614,
+        "sha256": "148d23661fca51873ff1438491d283121e3be88814715cfec9ccd7091c610956"
+      },
+      "processingSignature": "0f7aaff797c4ad2eed2efc68fd3d45465f68a0121ebe91c96e1298a50459cc4a",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0698-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1301776,
+        "sha256": "e71b0d7ac4796eb52896cb47743416dbd77e5e3619859a97c8ae7b703e00d2df"
+      }
+    },
+    {
+      "exerciseId": "0698",
+      "variant": "female",
+      "key": "0698-female-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand on the band and hold its ends at shoulder height, elbows bent."
+        },
+        {
+          "key": "p2",
+          "caption": "Press both hands overhead until arms are straight; lower slowly without leaning back."
+        }
+      ],
+      "detail": "STANDING RESISTANCE BAND SHOULDER PRESS, TWO equal SQUARE panels side by side same model/camera/lighting. Front three-quarter view whole body. Stand tall feet shoulder width BOTH shoes pinning middle of ONE continuous gray elastic band to floor. Two band branches rise from beneath shoes to EACH hand, closed grip at band ends, NO external anchors/no weights. LEFT bottom: hands at shoulders, elbows bent about 90 degrees pointing down/out, forearms near vertical, band mildly stretched from feet to hands. RIGHT TOP: BOTH hands pressed directly overhead, elbows fully straight, band taut LONGER from feet to hands on both sides; each band branch continuous and OUTSIDE torso/arms, no crossing through body, soles pin same middle band. Upright stacked ribs/pelvis, core tight, knees softly straight, no lumbar lean. Hands slightly wider than shoulders overhead, palm direction naturally forward at top. Primary DELTOIDS on exposed shoulders RED with fine anatomical muscle fibers, all other exposed muscles grayscale. Shirt/shorts fully opaque black no red on chest/abdomen. Full band/shoes/hands inside generous margins.",
+      "prompt": "Original educational exercise illustration. Attached original project artwork STYLE ONLY never pose/equipment reference. Neutral adult FEMALE, premium fine detailed grayscale anatomical fibers on EXPOSED muscles, pure white background. Fully OPAQUE matte BLACK sleeveless shirt covers torso front sides back abdomen; loose knee-length BLACK shorts wrap both thighs front sides rear seat crotch, closed seams/hems and broad natural folds. Black trainers. Red PRIMARY only as specified; over cloth ONE smooth diffuse blurred tint without rays/fibers/sixpack divisions. Whole body fingers shoes and apparatus within generous white margins. No text/labels/arrows/logos. STANDING RESISTANCE BAND SHOULDER PRESS, TWO equal SQUARE panels side by side same model/camera/lighting. Front three-quarter view whole body. Stand tall feet shoulder width BOTH shoes pinning middle of ONE continuous gray elastic band to floor. Two band branches rise from beneath shoes to EACH hand, closed grip at band ends, NO external anchors/no weights. LEFT bottom: hands at shoulders, elbows bent about 90 degrees pointing down/out, forearms near vertical, band mildly stretched from feet to hands. RIGHT TOP: BOTH hands pressed directly overhead, elbows fully straight, band taut LONGER from feet to hands on both sides; each band branch continuous and OUTSIDE torso/arms, no crossing through body, soles pin same middle band. Upright stacked ribs/pelvis, core tight, knees softly straight, no lumbar lean. Hands slightly wider than shoulders overhead, palm direction naturally forward at top. Primary DELTOIDS on exposed shoulders RED with fine anatomical muscle fibers, all other exposed muscles grayscale. Shirt/shorts fully opaque black no red on chest/abdomen. Full band/shoes/hands inside generous margins.",
+      "inspectionNote": "Standing band press shows shoulder-height bent elbows then straight overhead arms, torso upright and gray band under shoes with continuous branches to hands. Red exposed deltoids and detailed grayscale other muscles, opaque full clothes. Very narrow but contained top fist margin. Qualified grip, band routing, shoulder range and lumbar alignment review pending.",
+      "canonicalName": "shoulder press (with band)",
+      "styleVersion": "white-v1",
+      "equipment": "band",
+      "primaryMuscles": [
+        "delts"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Standing band press shows shoulder-height bent elbows then straight overhead arms, torso upright and gray band under shoes with continuous branches to hands. Red exposed deltoids and detailed grayscale other muscles, opaque full clothes. Very narrow but contained top fist margin. Qualified grip, band routing, shoulder range and lumbar alignment review pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0698-female-anatomical-white-v1-p1-9961e5ac4c08.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 23520,
+          "sha256": "9961e5ac4c08444b4524ffc72c06ad54256124ee2d7f6b2b5d501259c33f6498"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0698-female-anatomical-white-v1-p2-df8bcca0f614.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 24382,
+          "sha256": "df8bcca0f614fb611236e17ef4c9fe8edf52d2bfadf706f88d900b501a85e673"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0698-female-anatomical-white-v1-thumb-2ab219c92aa5.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2542,
+        "sha256": "2ab219c92aa5ec78eb33ca8371a3e3552ad2f43870dcd6fae0388fdfffc8a9a7"
+      },
+      "processingSignature": "dd55c455aacb8d9e0c7c1503bf6842f3380325cb84b32fa64a7c934995568181",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0698-female-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1309932,
+        "sha256": "0c13520e22a2e63751028c5b7992746a3faf392983ba289103056b3dafce75c0"
+      }
+    }
+  ]
+}

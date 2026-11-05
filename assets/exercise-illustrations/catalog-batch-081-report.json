@@ -1,0 +1,85 @@
+{
+  "batch": 81,
+  "trigger": "2026-11-01T17:28:48.894Z",
+  "completedAt": "2026-11-01T17:47:07.883926+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 4,
+  "generationCalls": 7,
+  "exerciseIds": [
+    "0568",
+    "0570"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 336,
+    "remainingVariants": 10928,
+    "approvedVariants": 0,
+    "blockedVariants": 134,
+    "knownPoseImages": 690,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Four pending candidate sets; none approved or published. Top-leg bench side bridges each use one static hold with top ankle support, lower leg raised and full opaque torso/seat/crotch clothing. Female correction places supporting elbow/forearm flat beneath shoulder and softens segmented abdominal shirt tint; delivery crop visually checked. Human review specifically must confirm lower-foot clearance from bench upright and hip/shoulder stacking in both variants. Seated bench leg pull-ins show airborne extension/tuck, seated pelvis and bench-edge grips. Male correction turns head toward knees and repaints shirt; female shirt correction removes segmented abs and chest red, retaining diffuse abdominal tint on opaque black fabric. Three correction attempts and originals retained with exact prompts/hashes. All anatomy, support/grip loading, neck/spine alignment, range and cloth/muscle localization review remains separate; passing pipeline checks is not anatomical approval. Original 0493 male project artwork used only for rendering style, no upstream media.",
+  "metadataConflictsDeferred": [],
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 546805206,
+  "savedMasters": [
+    {
+      "exerciseId": "0568",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0568-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1718445,
+        "sha256": "5cc491831f01bed1c7e75d45ef9c5f1bbf140b3ab0ed7fc558715cedd7f037a9"
+      }
+    },
+    {
+      "exerciseId": "0568",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0568-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1671161,
+        "sha256": "dd1a3661a7f3108b29d99d0d66ea5b00e5736e8114ea09342a8a73db158bc48e"
+      }
+    },
+    {
+      "exerciseId": "0570",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0570-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1727473,
+        "sha256": "953fa7f495e1982ce974361ded453ee27059068481366839eacdf063f0dc0ec0"
+      }
+    },
+    {
+      "exerciseId": "0570",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0570-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1680873,
+        "sha256": "e7229c613fe89d279e30170198a3fba1133d4b04abac7c3b8ce09dae5618f260"
+      }
+    }
+  ]
+}

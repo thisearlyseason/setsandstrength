@@ -1,0 +1,87 @@
+{
+  "batch": 121,
+  "trigger": "2026-11-02T22:37:23.332Z",
+  "completedAt": "2026-11-02T22:57:51.671756+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 4,
+  "generationCalls": 8,
+  "exerciseIds": [
+    "0723",
+    "0728"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 494,
+    "remainingVariants": 10770,
+    "approvedVariants": 0,
+    "blockedVariants": 195,
+    "knownPoseImages": 1024,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Four candidate sets, ten poses, eight built-in calls and four retained corrections. Vertical straight-leg sideways lifts show supine vertical legs with opposite slight lateral tilts. Male lower-camera correction still does not clearly distinguish grounded pelvis from hip lift: BLOCKED. Female correction creates pelvic gap but introduces anatomical-looking gray seat surfaces below shirt/shorts; complete opaque seat/crotch coverage cannot be established: BLOCKED for clothing correction, no clothing approval. Qualified pelvic motion, leg tilt and cervical support review pending. Ball seated knee extensions show both feet down then one knee straight forward, opposite foot grounded and torso upright. Both overlapping tall originals corrected into separate square landscape cells; female erroneous chest highlight removed, quadriceps red diffuse over intact front-thigh fabric. Qualified same-leg identity, knee-only extension and ball stability review pending. Detailed exposed grayscale anatomy retained. All originals, exact prompts and correction history saved. No anatomy approval or publication. Original project artwork style only, no upstream media. Pipeline checks do not approve anatomy or clothing.",
+  "metadataConflictsDeferred": {
+    "0727": "Title/description requires ball of foot on dumbbell, while instructions say dumbbell held in hand; equipment placement conflicts and needs clarification."
+  },
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 807263270,
+  "savedMasters": [
+    {
+      "exerciseId": "0723",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0723-male-anatomical-white-v2.png",
+        "width": 2172,
+        "height": 724,
+        "bytes": 1442821,
+        "sha256": "2e1418e98913429df0b37af12d6d35a8d72f155d196d2706bc4dee54fa1a8b64"
+      }
+    },
+    {
+      "exerciseId": "0723",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0723-female-anatomical-white-v2.png",
+        "width": 2172,
+        "height": 724,
+        "bytes": 1433452,
+        "sha256": "621ddfb728ab7a2b495782be0a4e22afc44a02bfb7c7d11e474df27f7f68bfe1"
+      }
+    },
+    {
+      "exerciseId": "0728",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0728-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1495595,
+        "sha256": "b481ba2fd223d53812a1ae8adb8e22348e6650bef6baad1e078a04e1db1c51a9"
+      }
+    },
+    {
+      "exerciseId": "0728",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0728-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1503650,
+        "sha256": "186ee838bd021f583a65edaae2a37f62a757c8d659f409c295c27c8925677678"
+      }
+    }
+  ]
+}

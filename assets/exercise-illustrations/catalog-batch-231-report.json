@@ -1,0 +1,61 @@
+{
+  "batch": 231,
+  "runId": "d95418bd-9feb-4539-a710-9697faeb9c63",
+  "trigger": "2026-11-03T17:18:21.213Z",
+  "completedAt": "2026-11-03T17:30:44.978988+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 4,
+  "calls": 4,
+  "exerciseIds": [
+    "1735",
+    "1740",
+    "1741",
+    "1743"
+  ],
+  "variants": [
+    "male"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 801,
+    "remainingVariants": 10463,
+    "approvedVariants": 0,
+    "blockedVariants": 256,
+    "knownPoseImages": 1588,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 428,
+      "remainingVariants": 5204,
+      "blockedVariants": 137
+    }
+  },
+  "reviewNotes": {
+    "1735": "Lying single-arm extension: upper arm remains vertical and forearm lowers weight near forehead, with supported skull/back and feet planted. Qualified review of elbow stability, wrist/grip, clearance and hand anatomy required.",
+    "1740": "Standing bent-over single-arm extension: high upper arm, bent elbow to straight backward extension, free hand on thigh. Qualified review of shoulder stillness, elbow range, hinge angle and wrist alignment required.",
+    "1741": "Bent-over two-arm extension: both weights move backward but far upper arm hangs lower in start and swings upward at finish. BLOCKED for far-side upper-arm movement rather than isolated elbow extension.",
+    "1743": "Twisting dumbbell bench press: extended pronated to lowered supinated-looking grips, supported body and feet planted. Qualified review of precise palm rotation, wrist angle, elbow tuck, triceps mapping and weight path required."
+  },
+  "deferred": [
+    {
+      "exerciseId": "1742",
+      "reason": "Stork/single-leg description conflicts with bilateral planted-foot instructions."
+    }
+  ],
+  "tests": 7,
+  "genCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "publicationIndexUnchanged": true,
+  "savedMasters": [
+    "assets/exercise-illustrations/generated/1735-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/1740-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/1741-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/1743-male-anatomical-white-v1.png"
+  ]
+}

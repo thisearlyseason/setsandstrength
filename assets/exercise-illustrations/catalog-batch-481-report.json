@@ -1,0 +1,58 @@
+{
+  "batch": 481,
+  "runId": "613d1a47-0f57-4764-8504-a6139146e5d9",
+  "triggerTimestamp": "2026-11-05T02:33:05.653Z",
+  "builtInImageGenAvailable": true,
+  "generatedIds": [
+    "7892",
+    "7995",
+    "8502",
+    "7747"
+  ],
+  "coverageAfter": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1712,
+    "remainingVariants": 9552,
+    "approvedVariants": 0,
+    "blockedVariants": 611,
+    "knownPoseImages": 3471,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 1339,
+      "remainingVariants": 4293,
+      "blockedVariants": 492
+    }
+  },
+  "paidWorker": {
+    "statuses": {
+      "generated": 1712,
+      "pending": 9552
+    },
+    "remaining": 9552,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 2579873812
+  },
+  "pipelineTests": "8 passed, 0 failed",
+  "approvedIndexUnchanged": true,
+  "existingUserApprovalsPreserved": 1306,
+  "anatomyReview": "pending",
+  "publication": "none",
+  "blocked": {
+    "7995": [
+      "Raised panel duplicates an arm/hand and dumbbell, showing three instead of two."
+    ]
+  }
+}

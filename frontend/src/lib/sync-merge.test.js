@@ -955,7 +955,7 @@ describe('a reset leads the unit over a copy that switched before it', () => {
     for (const m of [mergeStates(reset, stale), mergeStates(stale, reset)]) {
       expect(m.unit).toBe('kg')
       expect(m.unitSet).toBeUndefined()
-      expect(m.bodyweight).toEqual([{ d: '2026-09-27', w: convertBodyWeight(220, 'lb', 'kg'), t: 5900 }])
+      expect(m.bodyweight).toEqual([{ d: '2026-09-27', w: convertBodyWeight(220, 'lb', 'kg'), t: 5900, _weightSource: { kg: 220 * 0.45359237, displayUnit: 'kg', displayWeight: 99.8, stamp: 5900 } }])
       expect(m.restSec).toBe(90)
     }
   })
@@ -983,4 +983,99 @@ describe('body measurements across devices (#82)', () => {
     stampChange(prev, next, 1000)
     expect(next.measurements[0].t).toBe(1000)
   })
+})
+
+describe('user exercise ID aliases', () => {
+  it('keeps aliases from both device copies through profile sync', () => {
+    const out = mergeStates(base({ exerciseIdAliases: { oldA: 'newA' }, _ts: 10 }), base({ exerciseIdAliases: { oldB: 'newB' }, _ts: 20 }))
+    expect(out.exerciseIdAliases).toMatchObject({ oldA: 'newA', oldB: 'newB' })
+  })
+})
+
+it('resolves old exercise IDs from an offline client without duplicating set rows', () => {
+  const merged = base({ _ts: 20, exerciseIdAliases: { old: 'canonical' }, workouts: [{ id: 'one', d: '2026-11-01', entries: [{ id: 'canonical', sets: [{ done: true, w: 20, r: 8 }] }] }] })
+  const offline = base({ _ts: 30, workouts: [{ id: 'two', d: '2026-11-02', entries: [{ id: 'old', sets: [{ done: true, w: 22, r: 8 }] }] }] })
+  const result = mergeStates(merged, offline)
+  expect(result.workouts.flatMap((w) => w.entries).map((e) => e.id)).toEqual(['canonical', 'canonical'])
+  expect(result.workouts.flatMap((w) => w.entries).flatMap((e) => e.sets)).toHaveLength(2)
+  expect(mergeStates(result, offline).workouts.flatMap((w) => w.entries).flatMap((e) => e.sets)).toHaveLength(2)
+})
+
+it('preserves concurrent progress-photo metadata and applies deletions on offline replay', () => {
+  const a = base({ _ts: 10, progressPhotos: [{ id: 'photo-a', at: 10, date: '2026-11-01' }] })
+  const b = base({ _ts: 20, progressPhotos: [{ id: 'photo-b', at: 20, date: '2026-11-02' }] })
+  const both = mergeStates(a, b)
+  expect(both.progressPhotos.map((x) => x.id).sort()).toEqual(['photo-a', 'photo-b'])
+  const removed = structuredClone(both); removed.progressPhotos = removed.progressPhotos.filter((x) => x.id !== 'photo-a')
+  stampChange(both, removed, 100)
+  expect(mergeStates(removed, a).progressPhotos.map((x) => x.id)).toEqual(['photo-b'])
+  expect(localExtras(a, base()).progressPhotos).toBe(1)
+})
+
+
+describe('concurrent exercise merges converge', () => {
+  const logged = id => ({ id: 'session', d: '2026-11-01', entries: [{ id, sets: [{ done: true, w: 25, r: 8 }, { done: true, w: 25, r: 8 }] }] })
+  it.each([
+    [{ old: 'a' }, { old: 'b' }, { old: 'a', b: 'a' }],
+    [{ a: 'b' }, { b: 'a' }, { b: 'a' }],
+  ])('normalizes conflicting aliases before merging two clients and their offline replay', (left, right, expected) => {
+    const a = base({ _ts: 10, exerciseIdAliases: left, workouts: [logged(Object.values(left)[0])] })
+    const b = base({ _ts: 10, exerciseIdAliases: right, workouts: [logged(Object.values(right)[0])] })
+    const ab = mergeStates(a, b), ba = mergeStates(b, a)
+    expect(ab.exerciseIdAliases).toEqual(expected)
+    expect(ba.exerciseIdAliases).toEqual(expected)
+    expect(ab.workouts).toEqual(ba.workouts)
+    const offline = base({ _ts: 30, workouts: [{ ...logged(Object.keys(left)[0]), id: 'offline' }] })
+    const clientA = mergeStates(ab, offline), clientB = mergeStates(offline, ba)
+    const synced = mergeStates(clientA, clientB)
+    expect(synced.exerciseIdAliases).toEqual(expected)
+    expect(synced.workouts.flatMap(w => w.entries).every(e => e.id === 'a')).toBe(true)
+    expect(synced.workouts.flatMap(w => w.entries).flatMap(e => e.sets)).toHaveLength(4)
+    expect(mergeStates(synced, offline).workouts).toEqual(synced.workouts)
+  })
+  it('recomputes an edited PR using completed work instead of a larger warmup or stale cache', () => {
+    const old = { id: 'w', _ts: 1, d: '2026-11-01', entries: [{ id: 'sq', sets: [{ done: true, w: 200, r: 8 }] }] }
+    const edited = { ...old, _ts: 2, entries: [{ id: 'sq', sets: [{ done: true, phase: 'warmup', w: 150, r: 8 }, { done: true, w: 80, r: 8 }] }] }
+    const a = base({ _ts: 2, workouts: [edited], exWeights: { sq: { w: 80, d: old.d } } })
+    const b = base({ _ts: 3, workouts: [old], exWeights: { sq: { w: 200, d: old.d } } })
+    for (const result of [mergeStates(a, b), mergeStates(b, a)]) expect(result.exWeights.sq).toEqual({ w: 80, d: old.d })
+  })
+})
+
+it('converges for three clients regardless of reconciliation grouping', () => {
+  const a = base({ exerciseIdAliases: { old: 'b' } })
+  const b = base({ exerciseIdAliases: { old: 'c' } })
+  const c = base({ exerciseIdAliases: { b: 'd' } })
+  const left = mergeStates(mergeStates(a, b), c)
+  const right = mergeStates(a, mergeStates(b, c))
+  expect(left.exerciseIdAliases).toEqual(right.exerciseIdAliases)
+  expect(left.exerciseIdAliases).toEqual({ old: 'c', b: 'c', d: 'c' })
+  const clients = [a, b, c].map((state, i) => ({ ...state, workouts: [{ id: `client-${i}`, d: `2026-11-0${i + 1}`, entries: [{ id: ['b', 'c', 'd'][i], sets: [{ done: true, w: 20 + i, r: 8 }] }] }] }))
+  for (const order of [[0, 1, 2], [0, 2, 1], [1, 0, 2], [1, 2, 0], [2, 0, 1], [2, 1, 0]]) {
+    const [x, y, z] = order.map(i => clients[i])
+    for (const out of [mergeStates(mergeStates(x, y), z), mergeStates(x, mergeStates(y, z))]) {
+      expect(out.exerciseIdAliases).toEqual(left.exerciseIdAliases)
+      expect(out.exerciseMergeEdges).toEqual(left.exerciseMergeEdges)
+      expect(out.workouts.flatMap(w => w.entries).map(e => e.id)).toEqual(['c', 'c', 'c'])
+      expect(out.workouts.flatMap(w => w.entries).flatMap(e => e.sets).map(s => s.w)).toEqual([20, 21, 22])
+    }
+  }
+})
+
+it('a reset removes the exercise merge edge facts together with their alias references', () => {
+  const stale = base({ _ts: 10, exerciseIdAliases: { old: 'canonical' }, exerciseMergeEdges: { old: ['canonical'] } })
+  const reset = base({ _ts: 20, resetAt: 20, resetIds: resetIdsOf(stale) })
+  for (const out of [mergeStates(stale, reset), mergeStates(reset, stale)]) {
+    expect(out.exerciseIdAliases || {}).toEqual({})
+    expect(out.exerciseMergeEdges || {}).toEqual({})
+  }
+})
+
+it('normalizes legacy cyclic aliases even when only one sync copy exists', () => {
+  const state = base({ exerciseIdAliases: { a: 'b', b: 'a' }, workouts: [{ id: 'w', entries: [{ id: 'b', sets: [{ w: 20 }] }] }] })
+  for (const out of [mergeStates(state, null), mergeStates(null, state)]) {
+    expect(out.exerciseIdAliases).toEqual({ b: 'a' })
+    expect(out.workouts[0].entries[0].id).toBe('a')
+  }
+  expect(state.exerciseIdAliases).toEqual({ a: 'b', b: 'a' })
 })

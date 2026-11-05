@@ -1,0 +1,69 @@
+{
+  "batch": 233,
+  "runId": "657445b9-a91c-49e0-aa8d-e360c8f05892",
+  "trigger": "2026-11-03T17:48:21.541Z",
+  "completedAt": "2026-11-03T17:59:18.850021+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 4,
+  "calls": 4,
+  "exerciseIds": [
+    "1756",
+    "1757",
+    "1758",
+    "1759"
+  ],
+  "variants": [
+    "male"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 809,
+    "remainingVariants": 10455,
+    "approvedVariants": 0,
+    "blockedVariants": 259,
+    "knownPoseImages": 1605,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 436,
+      "remainingVariants": 5196,
+      "blockedVariants": 140
+    }
+  },
+  "reviewNotes": {
+    "1756": "Barbell single-leg deadlift: balance to hinge, free leg extended, overhand bar and plain red glute teaching ellipse plus exposed hamstrings. Qualified review of bar path/occlusion, working side, pelvis/spine control, knee softness and overlay placement required.",
+    "1757": "Dumbbell single-leg deadlift: balance to hinge, free leg extended and plain cloth overlay. BLOCKED: visible loaded hand appears on same side as supporting leg rather than canonical right-hand/left-leg contralateral pairing.",
+    "1758": "Assisted sit-up: second adult helper holds shoes/ankles with main exerciser supine to approximately45degree curl, no neck pulling depicted. Qualified review of helper contact, far foot occlusion, neck and lumbar motion required. Diffuse red ellipse retained on intact tank.",
+    "1759": "Pistol squat: same support foot planted, free leg held forward, standing to near-parallel squat, plain red glute ellipse on intact shorts. Qualified review of heel loading, knee tracking, hip depth, balance and overlay mapping/style required."
+  },
+  "deferred": [
+    {
+      "exerciseId": "1753",
+      "reason": "Three-bench name conflicts with one-bench instructions; equipment setup needs clarification."
+    },
+    {
+      "exerciseId": "1754",
+      "reason": "Weighted three-bench title but single bench and no external load placement in instructions."
+    },
+    {
+      "exerciseId": "1755",
+      "reason": "Weighted description but no external load placement in bench-dip instructions."
+    }
+  ],
+  "tests": 7,
+  "genCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "publicationIndexUnchanged": true,
+  "savedMasters": [
+    "assets/exercise-illustrations/generated/1756-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/1757-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/1758-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/1759-male-anatomical-white-v1.png"
+  ]
+}

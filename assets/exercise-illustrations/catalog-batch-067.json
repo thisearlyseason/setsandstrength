@@ -1,0 +1,232 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "0401",
+      "variant": "male",
+      "key": "0401-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Support forearms along thighs, palms up and wrists lowered"
+        },
+        {
+          "key": "p2",
+          "caption": "Flex only the wrists to curl the dumbbells upward"
+        }
+      ],
+      "prompt": "Premium detailed scientific anatomical fitness illustration. Realistic adult MALE with SILVER GRAYSCALE muscle-fiber STRIATIONS and realistic tendons on exposed arms legs, face hands neutral monochrome, no flesh-colored photographic skin. Pure white background, subtle shadows. TWO equal SIDE-BY-SIDE poses, SAME body/clothing/camera/lighting/weights/bench geometry and scale across phases. Full head feet hands dumbbells and complete bench fit inside each half with generous WHITE margins and gutter. Fully OPAQUE BLACK sleeveless athletic shirt covers chest abdomen BACK and sides, opaque black knee-length shorts wrap FRONT SIDES REAR SEAT CROTCH with seams folds closed hems; black trainers. Never cutaway clothing, holes, transparent fabric or missing rear panels. Primary muscles red only, secondaries grayscale. No text captions numbers arrows logos. DUMBBELL SEATED PALMS UP WRIST CURL. Side-front three-quarter camera shows BOTH supinated palms UP and forearm-thigh contact. Sit near front of flat bench feet flat shoulder width knees90degrees, torso neutral with slight forward hip hinge. BOTH forearms lie FLAT along thighs from elbows near hips to wrists just beyond knees throughout, not floating. Hold ONE small dumbbell per hand with UNDERHAND SUPINATED grip, palms face CEILING, fingers closed and thumb wrapped, dumbbells separate. LEFT wrists gently extended down beyond knees with palms still up. RIGHT FLEX WRISTS ONLY to curl palms slightly up toward forearms, dumbbells move only a few centimeters. Same forearm/thigh contact and elbow angle both phases; no elbow/biceps curl or lifting forearms. RED primary wrist FLEXOR muscle bellies on VOLAR/inner PALM SIDE of BOTH forearms, not dorsal extensors; biceps/triceps/hands gray. Realistic small weights, wrists not extreme range. Entire flat bench rear and feet inside margins.",
+      "inspectionNote": "Palms-up separate dumbbells, small wrist/hand rise, forearm highlights and full opaque clothing visible. Qualified forearm-thigh contact, wrist-only motion and volar flexor localization review pending; not approved."
+    },
+    {
+      "exerciseId": "0401",
+      "variant": "female",
+      "key": "0401-female-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Support forearms along thighs, palms up and wrists lowered"
+        },
+        {
+          "key": "p2",
+          "caption": "Flex only the wrists to curl the dumbbells upward"
+        }
+      ],
+      "prompt": "Premium detailed scientific anatomical fitness illustration. Realistic adult FEMALE with SILVER GRAYSCALE muscle-fiber STRIATIONS and realistic tendons on exposed arms legs, face hands neutral monochrome, no flesh-colored photographic skin. Pure white background, subtle shadows. TWO equal SIDE-BY-SIDE poses, SAME body/clothing/camera/lighting/weights/bench geometry and scale across phases. Full head feet hands dumbbells and complete bench fit inside each half with generous WHITE margins and gutter. Fully OPAQUE BLACK sleeveless athletic shirt covers chest abdomen BACK and sides, opaque black knee-length shorts wrap FRONT SIDES REAR SEAT CROTCH with seams folds closed hems; black trainers. Never cutaway clothing, holes, transparent fabric or missing rear panels. Primary muscles red only, secondaries grayscale. No text captions numbers arrows logos. DUMBBELL SEATED PALMS UP WRIST CURL. Side-front three-quarter camera shows BOTH supinated palms UP and forearm-thigh contact. Sit near front of flat bench feet flat shoulder width knees90degrees, torso neutral with slight forward hip hinge. BOTH forearms lie FLAT along thighs from elbows near hips to wrists just beyond knees throughout, not floating. Hold ONE small dumbbell per hand with UNDERHAND SUPINATED grip, palms face CEILING, fingers closed and thumb wrapped, dumbbells separate. LEFT wrists gently extended down beyond knees with palms still up. RIGHT FLEX WRISTS ONLY to curl palms slightly up toward forearms, dumbbells move only a few centimeters. Same forearm/thigh contact and elbow angle both phases; no elbow/biceps curl or lifting forearms. RED primary wrist FLEXOR muscle bellies on VOLAR/inner PALM SIDE of BOTH forearms, not dorsal extensors; biceps/triceps/hands gray. Realistic small weights, wrists not extreme range. Entire flat bench rear and feet inside margins.",
+      "inspectionNote": "Supinated palms-up grip, separate dumbbells, small hand rise and full opaque clothes; entire bench/body inside frame. Forearm support, wrist-only range and flexor highlight require qualified review; not approved."
+    },
+    {
+      "exerciseId": "0402",
+      "variant": "male",
+      "key": "0402-male-anatomical-white-v2",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Rest one upper arm on preacher pad with palm up"
+        },
+        {
+          "key": "p2",
+          "caption": "Curl dumbbell toward shoulder while keeping upper arm supported"
+        }
+      ],
+      "prompt": "Correct this original male one-arm preacher curl illustration. Preserve male identity, detailed silver anatomical arms/legs, red working biceps only, fully opaque black shirt and knee-length shorts covering rear/crotch, white background and full bench/body margins. Change BOTH panels to TRUE SIDE view showing working upper arm ON TOP of sloped pad, not outside side edge. Armpit rests near top pad edge; back of upper arm lies FLAT down slope. Working ELBOW located at SAME point just above LOWER PAD EDGE in both phases, never slides upward. LEFT forearm extends beyond pad downward with palm up holding one dumbbell. RIGHT ONLY forearm rotates about fixed elbow to curl dumbbell toward shoulder, elbow and upper arm do not move. Keep exact shoulder/elbow/pad positions and angle identical, no shoulder flexion or torso lean between phases. Free hand empty rests bench, wrist neutral and supinated grip, full feet on floor. No text labels or extra limbs.",
+      "inspectionNote": "Single supinated dumbbell and complete opaque clothing. Working upper arm is outside edge of pad rather than resting along its top; elbow support not maintained across phases. Requires preacher-pad contact correction.",
+      "blockingIssues": [
+        "Confirm/correct identical elbow contact point and upper-arm angle relative to pad between phases; side-view correction alone does not establish continuity."
+      ],
+      "canonicalName": "dumbbell seated preacher curl",
+      "styleVersion": "white-v1",
+      "equipment": "dumbbell",
+      "primaryMuscles": [
+        "biceps"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original generation from exercise metadata and user-selected style. No upstream image input."
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Side-view correction improves upper-arm pad support and supinated curl view. Elbow placement appears to shift slightly relative to pad; retain fixed-elbow continuity check/correction blocker pending qualified review. Full opaque clothes preserved, original retained.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0402-male-anatomical-white-v1-p1-d6d5bacb3681.webp",
+          "width": 768,
+          "height": 1024,
+          "bytes": 65126,
+          "sha256": "d6d5bacb3681ebd8ab5847519995f533939dfa754becc5e81b2d4605c343a22d"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0402-male-anatomical-white-v1-p2-36d2d1ac8606.webp",
+          "width": 768,
+          "height": 1024,
+          "bytes": 64130,
+          "sha256": "36d2d1ac8606f91fbd166d51a1ac079896e6972b6b2f073ee001f11cde2d6782"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0402-male-anatomical-white-v1-thumb-8d5d0a1b9af4.webp",
+        "width": 180,
+        "height": 240,
+        "bytes": 4216,
+        "sha256": "8d5d0a1b9af43e35bb0b2f294a4bdc4f8422a38379f7dcf44bb8cb8d7de971d9"
+      },
+      "processingSignature": "1d30a590c0467e19c74a9af99f5448cbab2c85257ccbbb18121d8dafae957082",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0402-male-anatomical-white-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1835871,
+        "sha256": "aebb81beee3d7f4de2f4038abd090f27ad5829c5461fa4ca17aff18014947790"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0402",
+          "variant": "male",
+          "key": "0402-male-anatomical-white-v1",
+          "layout": {
+            "columns": 2,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Rest one upper arm on preacher pad with palm up"
+            },
+            {
+              "key": "p2",
+              "caption": "Curl dumbbell toward shoulder while keeping upper arm supported"
+            }
+          ],
+          "prompt": "Premium detailed scientific anatomical fitness illustration. Realistic adult MALE with SILVER GRAYSCALE muscle-fiber STRIATIONS and realistic tendons on exposed arms legs, face hands neutral monochrome, no flesh-colored photographic skin. Pure white background, subtle shadows. TWO equal SIDE-BY-SIDE poses, SAME body/clothing/camera/lighting/weights/bench geometry and scale across phases. Full head feet hands dumbbells and complete bench fit inside each half with generous WHITE margins and gutter. Fully OPAQUE BLACK sleeveless athletic shirt covers chest abdomen BACK and sides, opaque black knee-length shorts wrap FRONT SIDES REAR SEAT CROTCH with seams folds closed hems; black trainers. Never cutaway clothing, holes, transparent fabric or missing rear panels. Primary muscles red only, secondaries grayscale. No text captions numbers arrows logos. DUMBBELL SEATED PREACHER CURL, ONE ARM as canonical instructions. Adult sits upright behind a proper preacher bench with angled padded ARMREST in FRONT, chest behind top edge without compression, feet flat. ONE working upper arm rests along sloped pad from near armpit to elbow at low end; pad not under forearm. Same ONE dumbbell held UNDERHAND SUPINATED PALM UP in both poses; other EMPTY hand rests on pad side or bench support. Front-side three-quarter camera clearly shows elbow-pad contact and working biceps. LEFT elbow nearly extended but softly unlocked, forearm continues DOWN slope with dumbbell low beyond pad end, wrist straight. RIGHT FLEX SAME elbow bringing dumbbell toward same-side shoulder, upper arm and elbow stay fixed on pad; head torso feet and pad identical, no shoulder lift, no wrist curl. Forearm rotates around fixed elbow but SUPINATED grip maintained. RED working BICEPS only; opposite biceps forearms/delts gray. Correct one arm holding one dumbbell, free arm stays empty. Complete preacher bench seat, sloped arm pad and floor support feet visible.",
+          "inspectionNote": "Single supinated dumbbell and complete opaque clothing. Working upper arm is outside edge of pad rather than resting along its top; elbow support not maintained across phases. Requires preacher-pad contact correction.",
+          "blockingIssues": [
+            "Place entire working upper arm on pad and keep elbow fixed at same pad location both poses."
+          ],
+          "canonicalName": "dumbbell seated preacher curl",
+          "styleVersion": "white-v1",
+          "equipment": "dumbbell",
+          "primaryMuscles": [
+            "biceps"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original generation from exercise metadata and user-selected style. No upstream image input."
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Single supinated dumbbell and complete opaque clothing. Working upper arm is outside edge of pad rather than resting along its top; elbow support not maintained across phases. Requires preacher-pad contact correction.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0402-male-anatomical-white-v1-p1-d6d5bacb3681.webp",
+              "width": 768,
+              "height": 1024,
+              "bytes": 65126,
+              "sha256": "d6d5bacb3681ebd8ab5847519995f533939dfa754becc5e81b2d4605c343a22d"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0402-male-anatomical-white-v1-p2-36d2d1ac8606.webp",
+              "width": 768,
+              "height": 1024,
+              "bytes": 64130,
+              "sha256": "36d2d1ac8606f91fbd166d51a1ac079896e6972b6b2f073ee001f11cde2d6782"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0402-male-anatomical-white-v1-thumb-8d5d0a1b9af4.webp",
+            "width": 180,
+            "height": 240,
+            "bytes": 4216,
+            "sha256": "8d5d0a1b9af43e35bb0b2f294a4bdc4f8422a38379f7dcf44bb8cb8d7de971d9"
+          },
+          "processingSignature": "1d30a590c0467e19c74a9af99f5448cbab2c85257ccbbb18121d8dafae957082",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0402-male-anatomical-white-v1.png",
+            "width": 1536,
+            "height": 1024,
+            "bytes": 1835871,
+            "sha256": "aebb81beee3d7f4de2f4038abd090f27ad5829c5461fa4ca17aff18014947790"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "0402",
+      "variant": "female",
+      "key": "0402-female-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Rest one upper arm on preacher pad with palm up"
+        },
+        {
+          "key": "p2",
+          "caption": "Curl dumbbell toward shoulder while keeping upper arm supported"
+        }
+      ],
+      "prompt": "Premium detailed scientific anatomical fitness illustration. Realistic adult FEMALE with SILVER GRAYSCALE muscle-fiber STRIATIONS and realistic tendons on exposed arms legs, face hands neutral monochrome, no flesh-colored photographic skin. Pure white background, subtle shadows. TWO equal SIDE-BY-SIDE poses, SAME body/clothing/camera/lighting/weights/bench geometry and scale across phases. Full head feet hands dumbbells and complete bench fit inside each half with generous WHITE margins and gutter. Fully OPAQUE BLACK sleeveless athletic shirt covers chest abdomen BACK and sides, opaque black knee-length shorts wrap FRONT SIDES REAR SEAT CROTCH with seams folds closed hems; black trainers. Never cutaway clothing, holes, transparent fabric or missing rear panels. Primary muscles red only, secondaries grayscale. No text captions numbers arrows logos. DUMBBELL SEATED PREACHER CURL, ONE ARM as canonical instructions. Adult sits upright behind a proper preacher bench with angled padded ARMREST in FRONT, chest behind top edge without compression, feet flat. ONE working upper arm rests along sloped pad from near armpit to elbow at low end; pad not under forearm. Same ONE dumbbell held UNDERHAND SUPINATED PALM UP in both poses; other EMPTY hand rests on pad side or bench support. Front-side three-quarter camera clearly shows elbow-pad contact and working biceps. LEFT elbow nearly extended but softly unlocked, forearm continues DOWN slope with dumbbell low beyond pad end, wrist straight. RIGHT FLEX SAME elbow bringing dumbbell toward same-side shoulder, upper arm and elbow stay fixed on pad; head torso feet and pad identical, no shoulder lift, no wrist curl. Forearm rotates around fixed elbow but SUPINATED grip maintained. RED working BICEPS only; opposite biceps forearms/delts gray. Correct one arm holding one dumbbell, free arm stays empty. Complete preacher bench seat, sloped arm pad and floor support feet visible. CRITICAL true SIDE view: working upper arm lies on MIDDLE OF TOP surface of sloped preacher pad, not dangling OUTSIDE side edge. Armpit near top pad edge; elbow stays firmly at SAME point on LOWER HALF of pad in both poses. Show support/contact clearly, pad lies UNDER entire upper arm, no shifting elbow toward top edge at curl end. Wrist neutral.",
+      "inspectionNote": "Supinated single dumbbell, full opaque clothing and pad contact visible. Elbow appears to migrate upward on pad during curl; upper arm not fixed. Requires contact/axis correction.",
+      "blockingIssues": [
+        "Keep elbow at same point on lower pad and upper arm stationary across both phases."
+      ]
+    }
+  ]
+}

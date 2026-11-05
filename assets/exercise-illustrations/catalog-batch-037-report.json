@@ -1,0 +1,38 @@
+{
+  "batch": 37,
+  "trigger": "2026-11-01T08:23:12.753Z",
+  "completedAt": "2026-11-01T08:34:56.099353+00:00",
+  "tool": "image_gen.imagegen",
+  "newCandidateSets": 6,
+  "generationCalls": 6,
+  "exerciseIds": [
+    "2188",
+    "0409",
+    "8192"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 144,
+    "remainingVariants": 11120,
+    "approvedVariants": 0,
+    "blockedVariants": 58,
+    "knownPoseImages": 290,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "All pending, none published. Two-hand seated extensions and supported single-leg calf raises inspected for clothing/pose/equipment. Both sumo dumbbell deadlift candidates blocked for obscured or inconsistent grip/equipment depiction. Opaque rear coverage visible throughout. Qualified anatomy/technique review mandatory.",
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 234265841
+}

@@ -1,0 +1,88 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "0398",
+      "variant": "male",
+      "key": "0398-male-anatomical-white-v2",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Sit and hinge forward with right elbow bent at torso height"
+        },
+        {
+          "key": "p2",
+          "caption": "Extend the elbow backward while holding upper arm still"
+        }
+      ],
+      "prompt": "Scientific educational premium exercise illustration. Crisp silver-gray anatomical muscle fibers and tendons on exposed arms and legs, realistic proportions. Entire face/limbs neutral grayscale, ONLY primary muscle red. Pure white backdrop, subtle shadows. TWO equal side-by-side panels wide white gutter, same adult MALE with consistent model clothes camera scale equipment. Full body feet hands and equipment within generous margins. Fully opaque plain black sleeveless shirt covers chest torso FRONT SIDES BACK; knee-length shorts wrap front sides full rear SEAT CROTCH with visible seams folds closed hems. Black trainers. No missing cloth, transparency, cutaways, red clothing decoration. No embedded text captions arrows logos. SEATED ONE ARM DUMBBELL KICKBACK: adult sits near front of a horizontal black bench, pelvis clearly on bench cushion, feet flat apart. Hinge forward at hips until flat torso nearly parallel to floor, neck neutral gaze downward. LEFT empty hand supports left thigh, only RIGHT hand holds one modest dumbbell. RIGHT upper arm horizontal alongside ribs, RIGHT ELBOW fixed at SAME point level with torso in BOTH panels. Left panel elbow flexed90degrees, forearm vertical down and dumbbell below elbow. Right panel only elbow extends so forearm points straight BACK in same line as upper arm; dumbbell behind hip, neutral grip/wrist. No upper-arm rowing swing, no torso rise or stand-up. Red RIGHT TRICEPS only; biceps deltoids gray. Side-front camera on RIGHT side clearly sees bent-to-extended elbow and bench seat contact in both poses.\nPOSE GEOMETRY PRIORITY: pelvis stays sitting on bench, torso and upper arms HORIZONTAL parallel to floor, chest over knees. Shoulder and elbow same horizontal level in BOTH panels. Start upper arm must already lie flat along ribs; elbow is behind hip at same height as shoulder, forearm points vertically down. End shoulder/elbow/humerus do not move at all; only forearm extends back. Not a rowing motion. Broad side view makes fixed elbow position clear.",
+      "inspectionNote": "Correction improves fixed upper arm and seated hinge, full garments intact. Dumbbell axis rotates conspicuously across poses and torso not clearly floor-parallel; block for qualified technique/grip review."
+    },
+    {
+      "exerciseId": "0398",
+      "variant": "female",
+      "key": "0398-female-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Sit and hinge forward with right elbow bent at torso height"
+        },
+        {
+          "key": "p2",
+          "caption": "Extend the elbow backward while holding upper arm still"
+        }
+      ],
+      "prompt": "Scientific educational premium exercise illustration. Crisp silver-gray anatomical muscle fibers and tendons on exposed arms and legs, realistic proportions. Entire face/limbs neutral grayscale, ONLY primary muscle red. Pure white backdrop, subtle shadows. TWO equal side-by-side panels wide white gutter, same adult FEMALE with consistent model clothes camera scale equipment. Full body feet hands and equipment within generous margins. Fully opaque plain black sleeveless shirt covers chest torso FRONT SIDES BACK; knee-length shorts wrap front sides full rear SEAT CROTCH with visible seams folds closed hems. Black trainers. No missing cloth, transparency, cutaways, red clothing decoration. No embedded text captions arrows logos. SEATED ONE ARM DUMBBELL KICKBACK: adult sits near front of a horizontal black bench, pelvis clearly on bench cushion, feet flat apart. Hinge forward at hips until flat torso nearly parallel to floor, neck neutral gaze downward. LEFT empty hand supports left thigh, only RIGHT hand holds one modest dumbbell. RIGHT upper arm horizontal alongside ribs, RIGHT ELBOW fixed at SAME point level with torso in BOTH panels. Left panel elbow flexed90degrees, forearm vertical down and dumbbell below elbow. Right panel only elbow extends so forearm points straight BACK in same line as upper arm; dumbbell behind hip, neutral grip/wrist. No upper-arm rowing swing, no torso rise or stand-up. Red RIGHT TRICEPS only; biceps deltoids gray. Side-front camera on RIGHT side clearly sees bent-to-extended elbow and bench seat contact in both poses. CRITICAL: keep right humerus along ribs parallel to torso in BOTH panels, right elbow anchored beside hip at same height as shoulder; do not start with elbow hanging low. No shoulder swing. Only forearm rotates at fixed elbow.",
+      "inspectionNote": "Seated kickback with full opaque garments and planted feet. Upper arm better fixed but torso is more upright than canonical parallel-to-floor instruction and end wrist/weight axis rotates; flag qualified technique review or correction."
+    },
+    {
+      "exerciseId": "0416",
+      "variant": "male",
+      "key": "0416-male-anatomical-white-v2",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand with arms lowered and palms forward"
+        },
+        {
+          "key": "p2",
+          "caption": "Curl both weights without moving upper arms"
+        }
+      ],
+      "prompt": "Scientific educational premium exercise illustration. Crisp silver-gray anatomical muscle fibers and tendons on exposed arms and legs, realistic proportions. Entire face/limbs neutral grayscale, ONLY primary muscle red. Pure white backdrop, subtle shadows. TWO equal side-by-side panels wide white gutter, same adult MALE with consistent model clothes camera scale equipment. Full body feet hands and equipment within generous margins. Fully opaque plain black sleeveless shirt covers chest torso FRONT SIDES BACK; knee-length shorts wrap front sides full rear SEAT CROTCH with visible seams folds closed hems. Black trainers. No missing cloth, transparency, cutaways, red clothing decoration. No embedded text captions arrows logos. STANDING BILATERAL BICEPS CURL. Upright adult feet shoulder width, knees softly unlocked, neutral spine, no lean or swing. Front three-quarter camera sees BOTH hands and grips. One same modest dumbbell per hand. LEFT PANEL arms lowered beside torso elbows almost straight, BOTH PALMS FORWARD supinated grip. RIGHT PANEL both elbows flex to bring weights near shoulders, palms remain toward shoulders/face; upper arms remain VERTICAL beside ribs at identical positions, no elbows lifting forward, wrists straight. Only BOTH BICEPS red; all forearms deltoids gray. Both hands clearly close around dumbbell handles, no hidden third weight. Strict neutral silver GRAYSCALE face hands skin, ZERO beige flesh tint. Red biceps the only colored pixels.",
+      "inspectionNote": "Neutral grayscale correction removes flesh tint while retaining supinated bilateral curl and full opaque clothing. Qualified elbow/wrist alignment and muscle review pending."
+    },
+    {
+      "exerciseId": "0416",
+      "variant": "female",
+      "key": "0416-female-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand with arms lowered and palms forward"
+        },
+        {
+          "key": "p2",
+          "caption": "Curl both weights without moving upper arms"
+        }
+      ],
+      "prompt": "Scientific educational premium exercise illustration. Crisp silver-gray anatomical muscle fibers and tendons on exposed arms and legs, realistic proportions. Entire face/limbs neutral grayscale, ONLY primary muscle red. Pure white backdrop, subtle shadows. TWO equal side-by-side panels wide white gutter, same adult FEMALE with consistent model clothes camera scale equipment. Full body feet hands and equipment within generous margins. Fully opaque plain black sleeveless shirt covers chest torso FRONT SIDES BACK; knee-length shorts wrap front sides full rear SEAT CROTCH with visible seams folds closed hems. Black trainers. No missing cloth, transparency, cutaways, red clothing decoration. No embedded text captions arrows logos. STANDING BILATERAL BICEPS CURL. Upright adult feet shoulder width, knees softly unlocked, neutral spine, no lean or swing. Front three-quarter camera sees BOTH hands and grips. One same modest dumbbell per hand. LEFT PANEL arms lowered beside torso elbows almost straight, BOTH PALMS FORWARD supinated grip. RIGHT PANEL both elbows flex to bring weights near shoulders, palms remain toward shoulders/face; upper arms remain VERTICAL beside ribs at identical positions, no elbows lifting forward, wrists straight. Only BOTH BICEPS red; all forearms deltoids gray. Both hands clearly close around dumbbell handles, no hidden third weight. Strict neutral silver GRAYSCALE face hands skin, ZERO beige flesh tint. Red biceps the only colored pixels.",
+      "inspectionNote": "Detailed neutral grayscale bilateral supinated curl with consistent feet, upper arms and full opaque clothing. Both handles visible; qualified elbow/wrist and biceps mapping review remains pending."
+    }
+  ]
+}

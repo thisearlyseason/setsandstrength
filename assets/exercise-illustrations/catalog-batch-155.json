@@ -1,0 +1,272 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "1053",
+      "variant": "male",
+      "key": "1053-male-anatomical-white-v1",
+      "layout": {
+        "columns": 1,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Kneel on one knee with the other foot forward. Tuck the pelvis and gently shift hips forward while keeping the torso tall; hold, then switch sides."
+        }
+      ],
+      "prompt": "KNEELING HIP FLEXOR STRETCH canonical1053. Side three-quarter view facing LEFT, LEFT foot flat ahead with knee over ankle about90degrees, RIGHT knee and upper shin on a flat thin mat behind, right toes rest comfortably. Torso TALL UPRIGHT shoulders level neutral head, hands rest on front thigh. Pelvis gently TUCKED posteriorly, rear glute engaged, hips shift slightly forward without lumbar arch. Rear hip extended, back knee bent90degrees. ONE static lunge hold, not deep kneel sitting heel. Red exposed REAR RIGHT front thigh quadriceps below shorts hem ONLY, no front leg red, no cloth red. Original premium ADULT male fine detailed grayscale exposed anatomical muscle contours, realistic proportions hands feet, equal male/female detail. SINGLE SQUARE full-body static hold, pure WHITE background soft contact shadows generous12percent white margins whole body within frame. Full OPAQUE BLACK athletic tank and MID-THIGH shorts wrapping front sides back seat crotch continuous seams and broad fabric folds no cutaway/transparency/anatomical fibers through cloth. Black shoes. Primary red only as specified. Original project artwork reference rendering STYLE ONLY ignore bench push-up/chest red. No text captions arrows labels.",
+      "inspectionNote": "Single kneeling lunge hold, upright torso, grounded front foot and rear knee/shin, red rear exposed quadriceps. Qualified pelvic tuck, hip extension, rear knee pressure and mapping require human review. Fine grayscale anatomy and full opaque clothing visually retained; no anatomy/clothing approval.",
+      "canonicalName": "kneeling hip flexor stretch",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "quads"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Single kneeling lunge hold, upright torso, grounded front foot and rear knee/shin, red rear exposed quadriceps. Qualified pelvic tuck, hip extension, rear knee pressure and mapping require human review. Fine grayscale anatomy and full opaque clothing visually retained; no anatomy/clothing approval.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/1053-male-anatomical-white-v1-p1-77748d29ae94.webp",
+          "width": 1200,
+          "height": 1200,
+          "bytes": 56292,
+          "sha256": "77748d29ae948744eed676920fb0a4e2047d675233fc04e5baf43a3bd8c60ecc"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-155.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/1053-male-anatomical-white-v1-thumb-51900111416d.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 3560,
+        "sha256": "51900111416dd49d4db80276d7d4ffebd8c48c2cb8406e18c35e66a9c3899345"
+      },
+      "processingSignature": "3da0b5250c2558dd5cf810db96debc88342c2a201f3f3b0889925a5ace3fad0c",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1053-male-anatomical-white-v1.png",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 1511274,
+        "sha256": "fffbf8851adff2cb04fef6c82225559bfdb6865f8e8849bfc109b33e4a1857f4"
+      }
+    },
+    {
+      "exerciseId": "1053",
+      "variant": "female",
+      "key": "1053-female-anatomical-white-v1",
+      "layout": {
+        "columns": 1,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Kneel on one knee with the other foot forward. Tuck the pelvis and gently shift hips forward while keeping the torso tall; hold, then switch sides."
+        }
+      ],
+      "prompt": "KNEELING HIP FLEXOR STRETCH canonical1053. Side three-quarter view facing LEFT, LEFT foot flat ahead with knee over ankle about90degrees, RIGHT knee and upper shin on a flat thin mat behind, right toes rest comfortably. Torso TALL UPRIGHT shoulders level neutral head, hands rest on front thigh. Pelvis gently TUCKED posteriorly, rear glute engaged, hips shift slightly forward without lumbar arch. Rear hip extended, back knee bent90degrees. ONE static lunge hold, not deep kneel sitting heel. Red exposed REAR RIGHT front thigh quadriceps below shorts hem ONLY, no front leg red, no cloth red. Original premium ADULT female fine detailed grayscale exposed anatomical muscle contours, realistic proportions hands feet, equal male/female detail. SINGLE SQUARE full-body static hold, pure WHITE background soft contact shadows generous12percent white margins whole body within frame. Full OPAQUE BLACK athletic tank and MID-THIGH shorts wrapping front sides back seat crotch continuous seams and broad fabric folds no cutaway/transparency/anatomical fibers through cloth. Black shoes. Primary red only as specified. Original project artwork reference rendering STYLE ONLY ignore bench push-up/chest red. No text captions arrows labels.",
+      "inspectionNote": "Single kneeling lunge hold, upright torso, grounded front foot and rear knee/shin, red rear exposed quadriceps. Qualified pelvic tuck, hip extension, rear knee pressure and mapping require human review. Fine grayscale anatomy and full opaque clothing visually retained; no anatomy/clothing approval.",
+      "canonicalName": "kneeling hip flexor stretch",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "quads"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Single kneeling lunge hold, upright torso, grounded front foot and rear knee/shin, red rear exposed quadriceps. Qualified pelvic tuck, hip extension, rear knee pressure and mapping require human review. Fine grayscale anatomy and full opaque clothing visually retained; no anatomy/clothing approval.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/1053-female-anatomical-white-v1-p1-231e08f417f6.webp",
+          "width": 1200,
+          "height": 1200,
+          "bytes": 63664,
+          "sha256": "231e08f417f64ff26b807de07605f540f0ea384d9627004dbf309111eb09455c"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-155.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/1053-female-anatomical-white-v1-thumb-d8cdf89bf76b.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 3876,
+        "sha256": "d8cdf89bf76b27cdf5c56c8abc1ee86dd957329361f6a8aaef6e96b8aa954107"
+      },
+      "processingSignature": "642b81cd794754e46dcffc58211db4372642e20fd1d67474ec7a697c78f68269",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1053-female-anatomical-white-v1.png",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 1553230,
+        "sha256": "d9d30cbe1b7150e58a517150405dae897452d695829cd8268befc0fff8d12ed1"
+      }
+    },
+    {
+      "exerciseId": "1054",
+      "variant": "male",
+      "key": "1054-male-anatomical-white-v1",
+      "layout": {
+        "columns": 1,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Lean into a wall in a lunge with the back leg straight, toes forward and heel grounded. Hold the calf stretch, then switch sides."
+        }
+      ],
+      "prompt": "LUNGING STRAIGHT LEG CALF STRETCH canonical1054. Full profile facing LEFT, BOTH hands flat on a small plain vertical wall at shoulder height on LEFT, elbows slightly bent. LEFT foot forward with knee bent over ankle, RIGHT leg extended straight BEHIND, BOTH heels flat grounded and both feet/toes point straight toward wall, no rear foot outward rotation. Torso inclines as straight line toward wall, hips square level, back knee remains straight not hyperextended. ONE static hold. Red PRIMARY exposed REAR RIGHT calf gastrocnemius ONLY, no front calf/thigh/chest red. Gray wall section and floor contact fully inside square, no excessive wall covering limbs. Original premium ADULT male fine detailed grayscale exposed anatomical muscle contours, realistic proportions hands feet, equal male/female detail. SINGLE SQUARE full-body static hold, pure WHITE background soft contact shadows generous12percent white margins whole body within frame. Full OPAQUE BLACK athletic tank and MID-THIGH shorts wrapping front sides back seat crotch continuous seams and broad fabric folds no cutaway/transparency/anatomical fibers through cloth. Black shoes. Primary red only as specified. Original project artwork reference rendering STYLE ONLY ignore bench push-up/chest red. No text captions arrows labels.",
+      "inspectionNote": "Single wall calf stretch, rear knee straight with heel grounded, front knee bent and palms wall. Red rear calf. Qualified foot alignment, far limb occlusion, ankle/knee angle and pelvis/neck posture require human review. Fine grayscale anatomy and full opaque clothing visually retained; no anatomy/clothing approval.",
+      "canonicalName": "lunging straight leg calf stretch",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "calves"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Single wall calf stretch, rear knee straight with heel grounded, front knee bent and palms wall. Red rear calf. Qualified foot alignment, far limb occlusion, ankle/knee angle and pelvis/neck posture require human review. Fine grayscale anatomy and full opaque clothing visually retained; no anatomy/clothing approval.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/1054-male-anatomical-white-v1-p1-94db3294f38a.webp",
+          "width": 1200,
+          "height": 1200,
+          "bytes": 51490,
+          "sha256": "94db3294f38a166a8e18df549d19b12f8704c0845551de7e8396e139a71a081a"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-155.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/1054-male-anatomical-white-v1-thumb-97b0896ba236.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 3376,
+        "sha256": "97b0896ba236d63a9fe72c18b8d887ea617b7bfbd800f55e8c6b55752944495a"
+      },
+      "processingSignature": "7daf343f09fc18d2ed7655453a1aa84da303477ff8bfb93cd9ca9d54e3006361",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1054-male-anatomical-white-v1.png",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 1527160,
+        "sha256": "84fb83a0445a018cda4b47dcebf883e8861d2952f499c70fc502c5ffbf2a81ff"
+      }
+    },
+    {
+      "exerciseId": "1054",
+      "variant": "female",
+      "key": "1054-female-anatomical-white-v1",
+      "layout": {
+        "columns": 1,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Lean into a wall in a lunge with the back leg straight, toes forward and heel grounded. Hold the calf stretch, then switch sides."
+        }
+      ],
+      "prompt": "LUNGING STRAIGHT LEG CALF STRETCH canonical1054. Full profile facing LEFT, BOTH hands flat on a small plain vertical wall at shoulder height on LEFT, elbows slightly bent. LEFT foot forward with knee bent over ankle, RIGHT leg extended straight BEHIND, BOTH heels flat grounded and both feet/toes point straight toward wall, no rear foot outward rotation. Torso inclines as straight line toward wall, hips square level, back knee remains straight not hyperextended. ONE static hold. Red PRIMARY exposed REAR RIGHT calf gastrocnemius ONLY, no front calf/thigh/chest red. Gray wall section and floor contact fully inside square, no excessive wall covering limbs. Original premium ADULT female fine detailed grayscale exposed anatomical muscle contours, realistic proportions hands feet, equal male/female detail. SINGLE SQUARE full-body static hold, pure WHITE background soft contact shadows generous12percent white margins whole body within frame. Full OPAQUE BLACK athletic tank and MID-THIGH shorts wrapping front sides back seat crotch continuous seams and broad fabric folds no cutaway/transparency/anatomical fibers through cloth. Black shoes. Primary red only as specified. Original project artwork reference rendering STYLE ONLY ignore bench push-up/chest red. No text captions arrows labels.",
+      "inspectionNote": "Single wall calf stretch, rear knee straight with heel grounded, front knee bent and palms wall. Red rear calf. Qualified foot alignment, far limb occlusion, ankle/knee angle and pelvis/neck posture require human review. Fine grayscale anatomy and full opaque clothing visually retained; no anatomy/clothing approval.",
+      "canonicalName": "lunging straight leg calf stretch",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "calves"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Single wall calf stretch, rear knee straight with heel grounded, front knee bent and palms wall. Red rear calf. Qualified foot alignment, far limb occlusion, ankle/knee angle and pelvis/neck posture require human review. Fine grayscale anatomy and full opaque clothing visually retained; no anatomy/clothing approval.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/1054-female-anatomical-white-v1-p1-90a5b30a3ee8.webp",
+          "width": 1200,
+          "height": 1200,
+          "bytes": 51926,
+          "sha256": "90a5b30a3ee844f9887cb60d8cc80ad32c5ceb98287475f2d358f6c29b7e9037"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-155.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/1054-female-anatomical-white-v1-thumb-109ca4cdcb6b.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 3144,
+        "sha256": "109ca4cdcb6bb9ae8f02469dd0f331d26816fa33d097e66b4a6050675ce216cc"
+      },
+      "processingSignature": "647baaa0cb9adfb64e75aacc4023288a4993cf25eaeba9056fa3c9dd0cdfc0e4",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1054-female-anatomical-white-v1.png",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 1469407,
+        "sha256": "9187866ce73d40b35e4cda5561804a03bdcb28379c25c46b904d4fdf5728113b"
+      }
+    }
+  ]
+}

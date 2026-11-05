@@ -1,0 +1,576 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "0498",
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Lean back with a straight body and extended arms holding suspension handles"
+        },
+        {
+          "key": "p2",
+          "caption": "Bend elbows and draw chest toward handles, keeping heels planted"
+        }
+      ],
+      "detail": "INVERTED ROW WITH STRAPS. Side-rear three-quarter view makes the upper BACK visible, head toward IMAGE LEFT, heels IMAGE RIGHT. Complete suspension trainer rig: two dark webbing straps attached securely to overhead horizontal bar on sturdy freestanding frame. Each taut strap ends in ONE handle grasped by ONE hand with closed overhand grip; both handles near each other just wider than shoulders, palms face downward at initial reach. Model leans backward with legs extended, feet hip-width, heels planted on floor, straight diagonal head-shoulder-hip-heel line. LEFT arms fully extended in front/up toward overhead anchor, torso leaning back, shoulder blades neutral. RIGHT flex BOTH elbows to bring handles beside lower chest, elbows pass torso, shoulder blades retract, rigid body pivots forward/up around SAME planted heels. Strap length fixed across panels; anchor and rig unmoving; endpoints/handle positions follow correct constant-length arc. No cable machine or bench. Red PRIMARY upper back between shoulder blades as diffuse print on opaque upper-back shirt; biceps/forearms gray. Show whole overhead anchor, frame feet, straps, hands and heels.",
+      "variant": "male",
+      "key": "0498-male-anatomical-white-v2",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "prompt": "Correct this original two-panel suspension-row illustration while preserving its adult male identity, detailed grayscale exposed anatomy, fully opaque black shirt and knee-length shorts, upper-back diffuse red tint and white background. TWO CHANGES: 1) Zoom each WHOLE scene out by 20 percent so full freestanding rig including top corners and ALL feet are visible with generous white margins. 2) Correct row mechanics: strap hardware and LENGTH must be IDENTICAL between left/right panels, no buckle extension. LEFT shows straight arms and rigid torso leaning back. RIGHT shows the body rotating forward/up TOWARD overhead anchor around the SAME planted heels; shoulders move noticeably UP and toward the anchor, torso angle becomes steeper, elbows bend so handles touch sides of chest, scapulae retract. Reposition torso/arms rather than lengthening straps to reach handles. Each taut strap connects anchor to one securely grasped handle along same constant-length arc. Keep legs straight, no hip sag, no changing feet or anchor position, no slack straps. Render whole rig at same position/scale in both panels. Full opaque fabric wrapping front/sides/back/seat/crotch without anatomy windows, red only on upper-back cloth. No text.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed image input. Anatomy approval is separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "inspectionNote": "Reframing now includes complete rig and all supports, with steeper endpoint torso and opaque clothing retained. Constant-length strap geometry still appears inconsistent; blocked pending correction and qualified review.",
+      "canonicalName": "inverted row with straps",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "upper back"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Reframing now includes complete rig and all supports, with steeper endpoint torso and opaque clothing retained. Constant-length strap geometry still appears inconsistent; blocked pending correction and qualified review.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0498-male-anatomical-white-v2-p1-075b7f2c871f.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 39494,
+          "sha256": "075b7f2c871fcd2404c80f07b409c47475fce8dddd90f9fd11b6e7af3ae034b9"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0498-male-anatomical-white-v2-p2-8ddbc25aa50b.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 39710,
+          "sha256": "8ddbc25aa50ba1400f9e35636f4f36d9b4fae11fe40ca175a3d1d3ad4aa667e8"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0498-male-anatomical-white-v2-thumb-c568bb982b15.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 4460,
+        "sha256": "c568bb982b154f855a25b619e721dafbc00c9ac0078e00d9fdbe134d91c32def"
+      },
+      "processingSignature": "4d30a0f5010b8ae8ac6e029181f8206785a55333aac5428266decf665f222e65",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0498-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1577493,
+        "sha256": "36b81bbcd9b2ec4796abdb3f20049f185a754de3931959c3ddc49979b78a8b42"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0498",
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Lean back with a straight body and extended arms holding suspension handles"
+            },
+            {
+              "key": "p2",
+              "caption": "Bend elbows and draw chest toward handles, keeping heels planted"
+            }
+          ],
+          "detail": "INVERTED ROW WITH STRAPS. Side-rear three-quarter view makes the upper BACK visible, head toward IMAGE LEFT, heels IMAGE RIGHT. Complete suspension trainer rig: two dark webbing straps attached securely to overhead horizontal bar on sturdy freestanding frame. Each taut strap ends in ONE handle grasped by ONE hand with closed overhand grip; both handles near each other just wider than shoulders, palms face downward at initial reach. Model leans backward with legs extended, feet hip-width, heels planted on floor, straight diagonal head-shoulder-hip-heel line. LEFT arms fully extended in front/up toward overhead anchor, torso leaning back, shoulder blades neutral. RIGHT flex BOTH elbows to bring handles beside lower chest, elbows pass torso, shoulder blades retract, rigid body pivots forward/up around SAME planted heels. Strap length fixed across panels; anchor and rig unmoving; endpoints/handle positions follow correct constant-length arc. No cable machine or bench. Red PRIMARY upper back between shoulder blades as diffuse print on opaque upper-back shirt; biceps/forearms gray. Show whole overhead anchor, frame feet, straps, hands and heels.",
+          "variant": "male",
+          "key": "0498-male-anatomical-white-v1",
+          "layout": {
+            "columns": 2,
+            "rows": 1
+          },
+          "prompt": "Use case: scientific-educational. Create a BRAND NEW original exercise illustration; attached original project image is STYLE REFERENCE ONLY (grayscale anatomical rendering, fabric and white background), do NOT copy its exercise, bench, pose or chest highlight. Premium detailed realistic grayscale exposed arm/leg anatomy with fine muscle fibers and tendons; neutral grayscale face/hands, no flesh color. Pure white background, soft ground shadows. Adult MALE, same person, camera, equipment and scale in BOTH equal side-by-side panels. FULLY OPAQUE matte black sleeveless shirt covers entire torso FRONT SIDES BACK; black loose knee-length athletic shorts cover BOTH thighs FRONT SIDES REAR SEAT CROTCH with closed hems. CLOTH has broad folds/seams, never muscle fibers, six-pack, navel, transparent windows or bare buttocks. Red target highlight under clothing is ONLY a faint diffuse blurry red surface print on intact BLACK CLOTH with BLACK folds crossing it. All other regions grayscale. Entire body, fingers, shoes and apparatus in each panel with generous white margins; no text, labels, arrows or numbers. INVERTED ROW WITH STRAPS. Side-rear three-quarter view makes the upper BACK visible, head toward IMAGE LEFT, heels IMAGE RIGHT. Complete suspension trainer rig: two dark webbing straps attached securely to overhead horizontal bar on sturdy freestanding frame. Each taut strap ends in ONE handle grasped by ONE hand with closed overhand grip; both handles near each other just wider than shoulders, palms face downward at initial reach. Model leans backward with legs extended, feet hip-width, heels planted on floor, straight diagonal head-shoulder-hip-heel line. LEFT arms fully extended in front/up toward overhead anchor, torso leaning back, shoulder blades neutral. RIGHT flex BOTH elbows to bring handles beside lower chest, elbows pass torso, shoulder blades retract, rigid body pivots forward/up around SAME planted heels. Strap length fixed across panels; anchor and rig unmoving; endpoints/handle positions follow correct constant-length arc. No cable machine or bench. Red PRIMARY upper back between shoulder blades as diffuse print on opaque upper-back shirt; biceps/forearms gray. Show whole overhead anchor, frame feet, straps, hands and heels.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed image input. Anatomy approval is separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "inspectionNote": "Two suspension-row phases with opaque continuous clothing and upper-back red tint; hands grasp handles and heels supported. Rig framing and fixed-length strap geometry need correction.",
+          "blockingIssues": [
+            "Top/outer rig is clipped, and strap length appears to change across phases. Correct full equipment framing and constant-length strap arc before publication."
+          ],
+          "canonicalName": "inverted row with straps",
+          "styleVersion": "white-v1",
+          "equipment": "body weight",
+          "primaryMuscles": [
+            "upper back"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Two suspension-row phases with opaque continuous clothing and upper-back red tint; hands grasp handles and heels supported. Rig framing and fixed-length strap geometry need correction.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0498-male-anatomical-white-v1-p1-d65254c2351e.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 45484,
+              "sha256": "d65254c2351ea2b5b03609830178a2d274180453f6f04f16b68550e126cdc1e4"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0498-male-anatomical-white-v1-p2-e15cf9db000e.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 46024,
+              "sha256": "e15cf9db000e6698ab47001d85a408bed341de15e72f8e60f607f412a2a66f70"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0498-male-anatomical-white-v1-thumb-f00087c1789a.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 4998,
+            "sha256": "f00087c1789a700af9266f3a5c4d7c12a21e06999334d118ae124b5947aad11b"
+          },
+          "processingSignature": "b8af3fffc463ed609b2e05b95c3a49e1294a513b06adf5e7a14aa879c0cbed31",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0498-male-anatomical-white-v1.png",
+            "width": 1774,
+            "height": 887,
+            "bytes": 1802008,
+            "sha256": "06ddf6a19d7f610e2308ff9fae89dec8b01146c3feb4ddded634d03e918b7a9c"
+          }
+        }
+      ],
+      "blockingIssues": [
+        "Strap distance from fixed anchors to handles still appears to increase between phases; correct constant-length suspension geometry before publication."
+      ]
+    },
+    {
+      "exerciseId": "0498",
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Lean back with a straight body and extended arms holding suspension handles"
+        },
+        {
+          "key": "p2",
+          "caption": "Bend elbows and draw chest toward handles, keeping heels planted"
+        }
+      ],
+      "detail": "INVERTED ROW WITH STRAPS. Side-rear three-quarter view makes the upper BACK visible, head toward IMAGE LEFT, heels IMAGE RIGHT. Complete suspension trainer rig: two dark webbing straps attached securely to overhead horizontal bar on sturdy freestanding frame. Each taut strap ends in ONE handle grasped by ONE hand with closed overhand grip; both handles near each other just wider than shoulders, palms face downward at initial reach. Model leans backward with legs extended, feet hip-width, heels planted on floor, straight diagonal head-shoulder-hip-heel line. LEFT arms fully extended in front/up toward overhead anchor, torso leaning back, shoulder blades neutral. RIGHT flex BOTH elbows to bring handles beside lower chest, elbows pass torso, shoulder blades retract, rigid body pivots forward/up around SAME planted heels. Strap length fixed across panels; anchor and rig unmoving; endpoints/handle positions follow correct constant-length arc. No cable machine or bench. Red PRIMARY upper back between shoulder blades as diffuse print on opaque upper-back shirt; biceps/forearms gray. Show whole overhead anchor, frame feet, straps, hands and heels.",
+      "variant": "female",
+      "key": "0498-female-anatomical-white-v2",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "prompt": "Correct this original two-panel suspension-row illustration while preserving its adult female identity, detailed grayscale exposed anatomy, fully opaque black shirt and knee-length shorts, upper-back diffuse red tint and white background. TWO CHANGES: 1) Zoom each WHOLE scene out by 20 percent so full freestanding rig including top corners and ALL feet are visible with generous white margins. 2) Correct row mechanics: strap hardware and LENGTH must be IDENTICAL between left/right panels, no buckle extension. LEFT shows straight arms and rigid torso leaning back. RIGHT shows the body rotating forward/up TOWARD overhead anchor around the SAME planted heels; shoulders move noticeably UP and toward the anchor, torso angle becomes steeper, elbows bend so handles touch sides of chest, scapulae retract. Reposition torso/arms rather than lengthening straps to reach handles. Each taut strap connects anchor to one securely grasped handle along same constant-length arc. Keep legs straight, no hip sag, no changing feet or anchor position, no slack straps. Render whole rig at same position/scale in both panels. Full opaque fabric wrapping front/sides/back/seat/crotch without anatomy windows, red only on upper-back cloth. No text.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed image input. Anatomy approval is separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "inspectionNote": "Complete rig now framed with steeper endpoint torso; opaque coverage retained. Strap continuity remains unresolved, so candidate remains blocked pending correction and qualified review.",
+      "canonicalName": "inverted row with straps",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "upper back"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Complete rig now framed with steeper endpoint torso; opaque coverage retained. Strap continuity remains unresolved, so candidate remains blocked pending correction and qualified review.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0498-female-anatomical-white-v2-p1-2b8f0c49fd5d.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 32664,
+          "sha256": "2b8f0c49fd5d585c558be732e00fd5b362a29b558163cd73ebfbd61859f7f02e"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0498-female-anatomical-white-v2-p2-ed4164efa96c.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 33096,
+          "sha256": "ed4164efa96cf781143bbaabb624545ed054bb379f2d5e1ba53b5f08f65c7c6f"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0498-female-anatomical-white-v2-thumb-7be3921ffbb0.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 3948,
+        "sha256": "7be3921ffbb09a3221d7e4074c44feafe8b4ad0426f27095c8449df797db56bd"
+      },
+      "processingSignature": "b356c4faea1dcd07c435caac160401d315fbc108dbf90e31d446b9c9c1dbcf57",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0498-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1624473,
+        "sha256": "435caa1d6ce9b91a2de95675f2b9ab2b67ffc766bdd2d14f1f8cf1150437daa3"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0498",
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Lean back with a straight body and extended arms holding suspension handles"
+            },
+            {
+              "key": "p2",
+              "caption": "Bend elbows and draw chest toward handles, keeping heels planted"
+            }
+          ],
+          "detail": "INVERTED ROW WITH STRAPS. Side-rear three-quarter view makes the upper BACK visible, head toward IMAGE LEFT, heels IMAGE RIGHT. Complete suspension trainer rig: two dark webbing straps attached securely to overhead horizontal bar on sturdy freestanding frame. Each taut strap ends in ONE handle grasped by ONE hand with closed overhand grip; both handles near each other just wider than shoulders, palms face downward at initial reach. Model leans backward with legs extended, feet hip-width, heels planted on floor, straight diagonal head-shoulder-hip-heel line. LEFT arms fully extended in front/up toward overhead anchor, torso leaning back, shoulder blades neutral. RIGHT flex BOTH elbows to bring handles beside lower chest, elbows pass torso, shoulder blades retract, rigid body pivots forward/up around SAME planted heels. Strap length fixed across panels; anchor and rig unmoving; endpoints/handle positions follow correct constant-length arc. No cable machine or bench. Red PRIMARY upper back between shoulder blades as diffuse print on opaque upper-back shirt; biceps/forearms gray. Show whole overhead anchor, frame feet, straps, hands and heels.",
+          "variant": "female",
+          "key": "0498-female-anatomical-white-v1",
+          "layout": {
+            "columns": 2,
+            "rows": 1
+          },
+          "prompt": "Use case: scientific-educational. Create a BRAND NEW original exercise illustration; attached original project image is STYLE REFERENCE ONLY (grayscale anatomical rendering, fabric and white background), do NOT copy its exercise, bench, pose or chest highlight. Premium detailed realistic grayscale exposed arm/leg anatomy with fine muscle fibers and tendons; neutral grayscale face/hands, no flesh color. Pure white background, soft ground shadows. Adult FEMALE, same person, camera, equipment and scale in BOTH equal side-by-side panels. FULLY OPAQUE matte black sleeveless shirt covers entire torso FRONT SIDES BACK; black loose knee-length athletic shorts cover BOTH thighs FRONT SIDES REAR SEAT CROTCH with closed hems. CLOTH has broad folds/seams, never muscle fibers, six-pack, navel, transparent windows or bare buttocks. Red target highlight under clothing is ONLY a faint diffuse blurry red surface print on intact BLACK CLOTH with BLACK folds crossing it. All other regions grayscale. Entire body, fingers, shoes and apparatus in each panel with generous white margins; no text, labels, arrows or numbers. INVERTED ROW WITH STRAPS. Side-rear three-quarter view makes the upper BACK visible, head toward IMAGE LEFT, heels IMAGE RIGHT. Complete suspension trainer rig: two dark webbing straps attached securely to overhead horizontal bar on sturdy freestanding frame. Each taut strap ends in ONE handle grasped by ONE hand with closed overhand grip; both handles near each other just wider than shoulders, palms face downward at initial reach. Model leans backward with legs extended, feet hip-width, heels planted on floor, straight diagonal head-shoulder-hip-heel line. LEFT arms fully extended in front/up toward overhead anchor, torso leaning back, shoulder blades neutral. RIGHT flex BOTH elbows to bring handles beside lower chest, elbows pass torso, shoulder blades retract, rigid body pivots forward/up around SAME planted heels. Strap length fixed across panels; anchor and rig unmoving; endpoints/handle positions follow correct constant-length arc. No cable machine or bench. Red PRIMARY upper back between shoulder blades as diffuse print on opaque upper-back shirt; biceps/forearms gray. Show whole overhead anchor, frame feet, straps, hands and heels.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed image input. Anatomy approval is separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "inspectionNote": "Two female suspension-row phases preserve opaque back/seat/crotch coverage, closed handle grips and upper-back tint. Fixed-length strap continuity and complete rig framing remain blocked.",
+          "blockingIssues": [
+            "Rig top clipped and endpoint straps appear lengthened with extra buckle; body does not clearly pivot toward anchor. Correct strap length and apparatus continuity before publication."
+          ],
+          "canonicalName": "inverted row with straps",
+          "styleVersion": "white-v1",
+          "equipment": "body weight",
+          "primaryMuscles": [
+            "upper back"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Two female suspension-row phases preserve opaque back/seat/crotch coverage, closed handle grips and upper-back tint. Fixed-length strap continuity and complete rig framing remain blocked.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0498-female-anatomical-white-v1-p1-1f4709dd5973.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 38478,
+              "sha256": "1f4709dd59731598f5ae48c9b90f90650d9da47aa60ad265fe90921897710769"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0498-female-anatomical-white-v1-p2-98e543c2cfff.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 39552,
+              "sha256": "98e543c2cfffa2ca856798f4ae0fd593f111f8578dd51f2d289bf28735effb73"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0498-female-anatomical-white-v1-thumb-771b90e490dc.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 4370,
+            "sha256": "771b90e490dcea990dce64cf51e022d5a854aee40b74dccd33d581a2743d4b8f"
+          },
+          "processingSignature": "c0b5b1806fd113c852a9c4bf1d684af629cbc85cc6a46aa773291b2bb6da828a",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0498-female-anatomical-white-v1.png",
+            "width": 1774,
+            "height": 887,
+            "bytes": 1774209,
+            "sha256": "41277a25ac8d7a8c72c63f4b4e7880c15b19b61b003137570e7048f5db3d79a1"
+          }
+        }
+      ],
+      "blockingIssues": [
+        "Endpoint straps show extra buckle and length change relative to start. Correct constant-length suspension rig geometry before publication."
+      ]
+    },
+    {
+      "exerciseId": "0502",
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Lie supine with straight legs and arms extended overhead"
+        },
+        {
+          "key": "p2",
+          "caption": "Fold at hips and reach hands toward toes with controlled abdominal contraction"
+        }
+      ],
+      "detail": "JACK KNIFE FLOOR, bodyweight abdominal exercise. Same strict SIDE view both panels; head at IMAGE LEFT, feet IMAGE RIGHT. Fully visible thin gray exercise mat. LEFT lie flat SUPINE back/head supported, straight legs together extending right and arms straight overhead extending left, entire body and hands inside margin. RIGHT simultaneous V-up: balance on pelvis/sacrum, lift shoulders/upper back and both straight legs off mat toward each other, hinge/curl torso into diagonal upward-left and legs diagonal upward-right making a clear V; BOTH straight arms reach forward/up toward toes. Knees soft nearly straight, legs paired, neck neutral, hands near toes without requiring contact. No bent-knee crunch or shoulderstand, no neck load. Whole mat visible. Red PRIMARY abdomen only a very soft blurred red tint printed on intact black shirt, NO outlined abdominal divisions, no bellybutton; all exposed limbs gray. Shorts wrap seat/crotch, closed loose knee-length hems even when legs lifted.",
+      "variant": "male",
+      "key": "0502-male-anatomical-white-v2",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "prompt": "Edit ONLY clothing surface in this original two-panel male jackknife illustration. Preserve both poses, head, hands, legs, shoes, shorts, mat, grayscale exposed arm/leg anatomy, camera and white background exactly. Paint the ENTIRE sleeveless shirt as solid fully opaque MATTE BLACK athletic fabric, wrapping front sides and back, no windows. Broad cloth folds only. Remove all abdominal segments, muscle fibers, anatomical stripes and navel from red area. Add ONLY a faint low-contrast airbrushed red OVAL on black abdominal cloth; smooth gradient with no interior lines or divisions. Fabric remains visibly black beneath print; folds cross print. Full torso coverage, no cropped shirt. Keep exact two-panel layout, no text.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed image input. Anatomy approval is separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "inspectionNote": "Shirt correction replaces segmented anatomical abdominal highlight with broad soft red tint on continuous black fabric. Same supine/V-up phases and opaque shorts retained. Qualified anatomy, lumbar loading, fabric and range review still pending.",
+      "canonicalName": "jack knife floor",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "abs"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Shirt correction replaces segmented anatomical abdominal highlight with broad soft red tint on continuous black fabric. Same supine/V-up phases and opaque shorts retained. Qualified anatomy, lumbar loading, fabric and range review still pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0502-male-anatomical-white-v2-p1-8893c7cb4fc4.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 18294,
+          "sha256": "8893c7cb4fc4454341a4a20681c50074e76220953e0d23d8f61524b48f92d185"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0502-male-anatomical-white-v2-p2-1c1e524808da.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 25084,
+          "sha256": "1c1e524808daf32d0b637615d96c61a137328095057caab20a8c516cb16190a4"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0502-male-anatomical-white-v2-thumb-0367a8589e72.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 1752,
+        "sha256": "0367a8589e72644f2ea4c7def9f17911a695c3c6734cdd25581d0253f5f37149"
+      },
+      "processingSignature": "244701504e3f30e99159476a0bba44006f574844c57ff127258252555c227ca0",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0502-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1626489,
+        "sha256": "aa95ffcf6760f22d0badfbef6a2025b361dcbee8c55916b1200724d993d15bd7"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0502",
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Lie supine with straight legs and arms extended overhead"
+            },
+            {
+              "key": "p2",
+              "caption": "Fold at hips and reach hands toward toes with controlled abdominal contraction"
+            }
+          ],
+          "detail": "JACK KNIFE FLOOR, bodyweight abdominal exercise. Same strict SIDE view both panels; head at IMAGE LEFT, feet IMAGE RIGHT. Fully visible thin gray exercise mat. LEFT lie flat SUPINE back/head supported, straight legs together extending right and arms straight overhead extending left, entire body and hands inside margin. RIGHT simultaneous V-up: balance on pelvis/sacrum, lift shoulders/upper back and both straight legs off mat toward each other, hinge/curl torso into diagonal upward-left and legs diagonal upward-right making a clear V; BOTH straight arms reach forward/up toward toes. Knees soft nearly straight, legs paired, neck neutral, hands near toes without requiring contact. No bent-knee crunch or shoulderstand, no neck load. Whole mat visible. Red PRIMARY abdomen only a very soft blurred red tint printed on intact black shirt, NO outlined abdominal divisions, no bellybutton; all exposed limbs gray. Shorts wrap seat/crotch, closed loose knee-length hems even when legs lifted.",
+          "variant": "male",
+          "key": "0502-male-anatomical-white-v1",
+          "layout": {
+            "columns": 2,
+            "rows": 1
+          },
+          "prompt": "Use case: scientific-educational. Create a BRAND NEW original exercise illustration; attached original project image is STYLE REFERENCE ONLY (grayscale anatomical rendering, fabric and white background), do NOT copy its exercise, bench, pose or chest highlight. Premium detailed realistic grayscale exposed arm/leg anatomy with fine muscle fibers and tendons; neutral grayscale face/hands, no flesh color. Pure white background, soft ground shadows. Adult MALE, same person, camera, equipment and scale in BOTH equal side-by-side panels. FULLY OPAQUE matte black sleeveless shirt covers entire torso FRONT SIDES BACK; black loose knee-length athletic shorts cover BOTH thighs FRONT SIDES REAR SEAT CROTCH with closed hems. CLOTH has broad folds/seams, never muscle fibers, six-pack, navel, transparent windows or bare buttocks. Red target highlight under clothing is ONLY a faint diffuse blurry red surface print on intact BLACK CLOTH with BLACK folds crossing it. All other regions grayscale. Entire body, fingers, shoes and apparatus in each panel with generous white margins; no text, labels, arrows or numbers. JACK KNIFE FLOOR, bodyweight abdominal exercise. Same strict SIDE view both panels; head at IMAGE LEFT, feet IMAGE RIGHT. Fully visible thin gray exercise mat. LEFT lie flat SUPINE back/head supported, straight legs together extending right and arms straight overhead extending left, entire body and hands inside margin. RIGHT simultaneous V-up: balance on pelvis/sacrum, lift shoulders/upper back and both straight legs off mat toward each other, hinge/curl torso into diagonal upward-left and legs diagonal upward-right making a clear V; BOTH straight arms reach forward/up toward toes. Knees soft nearly straight, legs paired, neck neutral, hands near toes without requiring contact. No bent-knee crunch or shoulderstand, no neck load. Whole mat visible. Red PRIMARY abdomen only a very soft blurred red tint printed on intact black shirt, NO outlined abdominal divisions, no bellybutton; all exposed limbs gray. Shorts wrap seat/crotch, closed loose knee-length hems even when legs lifted.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed image input. Anatomy approval is separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "inspectionNote": "Two jackknife phases show supine straight-body start and V-up with paired straight legs and hands toward toes. All body parts in frame; shirt abdominal treatment needs correction.",
+          "blockingIssues": [
+            "Red abdominal region displays six-pack segmentation through shirt; replace with opaque black cloth and diffuse unsegmented red print before publication."
+          ],
+          "canonicalName": "jack knife floor",
+          "styleVersion": "white-v1",
+          "equipment": "body weight",
+          "primaryMuscles": [
+            "abs"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Two jackknife phases show supine straight-body start and V-up with paired straight legs and hands toward toes. All body parts in frame; shirt abdominal treatment needs correction.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0502-male-anatomical-white-v1-p1-65349b159a70.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 18130,
+              "sha256": "65349b159a70870740e5befa99f95a40e8971914ade0a8c645db83b39bdbdc85"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0502-male-anatomical-white-v1-p2-ce62676a7ad7.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 27052,
+              "sha256": "ce62676a7ad790fe778458270126b3c10b43c3c4865bbaf9ceda2af0b7b88f4c"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0502-male-anatomical-white-v1-thumb-ca082ec48f2a.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 1714,
+            "sha256": "ca082ec48f2a34adfddb3c84217fa92e82cab140657bbff6b19970f4f628377d"
+          },
+          "processingSignature": "e05f954347b40ca0ed0639d6fecba5643b587f11f4492f80d6518e32acf2c341",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0502-male-anatomical-white-v1.png",
+            "width": 1774,
+            "height": 887,
+            "bytes": 1634847,
+            "sha256": "8ecae015a2affcb6ff62ef46beccda94e295928f0588002fbec1792b08e92837"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "0502",
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Lie supine with straight legs and arms extended overhead"
+        },
+        {
+          "key": "p2",
+          "caption": "Fold at hips and reach hands toward toes with controlled abdominal contraction"
+        }
+      ],
+      "detail": "JACK KNIFE FLOOR, bodyweight abdominal exercise. Same strict SIDE view both panels; head at IMAGE LEFT, feet IMAGE RIGHT. Fully visible thin gray exercise mat. LEFT lie flat SUPINE back/head supported, straight legs together extending right and arms straight overhead extending left, entire body and hands inside margin. RIGHT simultaneous V-up: balance on pelvis/sacrum, lift shoulders/upper back and both straight legs off mat toward each other, hinge/curl torso into diagonal upward-left and legs diagonal upward-right making a clear V; BOTH straight arms reach forward/up toward toes. Knees soft nearly straight, legs paired, neck neutral, hands near toes without requiring contact. No bent-knee crunch or shoulderstand, no neck load. Whole mat visible. Red PRIMARY abdomen only a very soft blurred red tint printed on intact black shirt, NO outlined abdominal divisions, no bellybutton; all exposed limbs gray. Shorts wrap seat/crotch, closed loose knee-length hems even when legs lifted.",
+      "variant": "female",
+      "key": "0502-female-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "prompt": "Use case: scientific-educational. Create a BRAND NEW original exercise illustration; attached original project image is STYLE REFERENCE ONLY (grayscale anatomical rendering, fabric and white background), do NOT copy its exercise, bench, pose or chest highlight. Premium detailed realistic grayscale exposed arm/leg anatomy with fine muscle fibers and tendons; neutral grayscale face/hands, no flesh color. Pure white background, soft ground shadows. Adult FEMALE, same person, camera, equipment and scale in BOTH equal side-by-side panels. FULLY OPAQUE matte black sleeveless shirt covers entire torso FRONT SIDES BACK; black loose knee-length athletic shorts cover BOTH thighs FRONT SIDES REAR SEAT CROTCH with closed hems. CLOTH has broad folds/seams, never muscle fibers, six-pack, navel, transparent windows or bare buttocks. Red target highlight under clothing is ONLY a faint diffuse blurry red surface print on intact BLACK CLOTH with BLACK folds crossing it. All other regions grayscale. Entire body, fingers, shoes and apparatus in each panel with generous white margins; no text, labels, arrows or numbers. JACK KNIFE FLOOR, bodyweight abdominal exercise. Same strict SIDE view both panels; head at IMAGE LEFT, feet IMAGE RIGHT. Fully visible thin gray exercise mat. LEFT lie flat SUPINE back/head supported, straight legs together extending right and arms straight overhead extending left, entire body and hands inside margin. RIGHT simultaneous V-up: balance on pelvis/sacrum, lift shoulders/upper back and both straight legs off mat toward each other, hinge/curl torso into diagonal upward-left and legs diagonal upward-right making a clear V; BOTH straight arms reach forward/up toward toes. Knees soft nearly straight, legs paired, neck neutral, hands near toes without requiring contact. No bent-knee crunch or shoulderstand, no neck load. Whole mat visible. Red PRIMARY abdomen only a very soft blurred red tint printed on intact black shirt, NO outlined abdominal divisions, no bellybutton; all exposed limbs gray. Shorts wrap seat/crotch, closed loose knee-length hems even when legs lifted.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed image input. Anatomy approval is separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "inspectionNote": "Two female jackknife phases show supported supine start and controlled-looking V-up with paired nearly straight legs, reach toward toes and opaque wrapping clothing. Fabric red follows folds; anatomy, lumbar loading and range review remain pending.",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0502-female-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1641580,
+        "sha256": "d08923a21010cfbfe881977144d71053e5dfba069a5b70a817b2356da204227f"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Two female jackknife phases show supported supine start and controlled-looking V-up with paired nearly straight legs, reach toward toes and opaque wrapping clothing. Fabric red follows folds; anatomy, lumbar loading and range review remain pending.",
+        "reviewer": ""
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0502-female-anatomical-white-v1-p1-07b1ba495456.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 15312,
+          "sha256": "07b1ba495456826bcaa7ab746f7139b9018c160c125e3af8d3402c1c597aebf4"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0502-female-anatomical-white-v1-p2-734fd59e5247.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 28682,
+          "sha256": "734fd59e52477f0ab31fb2bc5e78f9265cfa0ff8debd22472757064fe8cc5611"
+        }
+      ],
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0502-female-anatomical-white-v1-thumb-85197f9b7b30.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 1514,
+        "sha256": "85197f9b7b3093f778857fd3e84157f2fee0aed658ccfa2a3cdc5b86b0f28160"
+      },
+      "processingSignature": "8e5c92d8cb21ae3d32dad83c9b349191ab490fbf4c8274c8f81ef9fbfbbe0984"
+    }
+  ]
+}

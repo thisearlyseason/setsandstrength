@@ -1,0 +1,55 @@
+{
+  "batch": 375,
+  "runId": "3ee11e46-9266-4e68-b45b-14b272154b67",
+  "builtInImageGenAvailable": true,
+  "anatomyReview": "pending",
+  "publication": "none",
+  "deferred": {
+    "3511": "Spine primary-muscle mapping and band mechanics require review."
+  },
+  "coverageAfter": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1352,
+    "remainingVariants": 9912,
+    "approvedVariants": 0,
+    "blockedVariants": 521,
+    "knownPoseImages": 2675,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 979,
+      "remainingVariants": 4653,
+      "blockedVariants": 402
+    }
+  },
+  "paidWorker": {
+    "statuses": {
+      "generated": 1352,
+      "pending": 9912
+    },
+    "remaining": 9912,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 2056228384
+  },
+  "pipelineTests": "7 passed, 0 failed",
+  "approvedIndexUnchanged": true,
+  "existingUserApprovalsPreserved": 1306,
+  "generatedIds": [
+    "3509",
+    "3510",
+    "3512",
+    "3513"
+  ]
+}

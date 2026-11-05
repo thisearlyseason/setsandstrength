@@ -1,0 +1,80 @@
+{
+  "batch": 322,
+  "runId": "49a49c88-2f06-4fd2-b6fa-c58a5c385297",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "trigger": "2026-11-04T08:09:58.627Z",
+  "purpose": "batch322 scheduled male continuation",
+  "started": "2026-11-04T08:10:17.528069+00:00",
+  "completedAt": "2026-11-04T08:16:05.818827+00:00",
+  "actualToolName": "image_gen__imagegen",
+  "calls": 4,
+  "newCandidateSets": 4,
+  "exerciseIds": [
+    "3016",
+    "3017",
+    "3018",
+    "3030"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1155,
+    "remainingVariants": 10109,
+    "approvedVariants": 0,
+    "blockedVariants": 413,
+    "knownPoseImages": 2248,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 782,
+      "remainingVariants": 4850,
+      "blockedVariants": 294
+    }
+  },
+  "reviewNotes": {
+    "3016": "Lowered and raised curl-up phases with knees bent, feet planted, hands behind head and opaque tank with plain abdomen wash. Lowered phase head/shoulders remain lifted rather than lying flat; correct start pose. Qualified neck support and torso range review pending.",
+    "3017": "Floor-to-abdomen bar row shown with bent knees and opaque clothes. Torso appears substantially above horizontal rather than stable nearly horizontal Pendlay position; upper-back tint has anatomical segments through tank. Grip pronation also requires qualified review.",
+    "3018": "Both heels grounded then raised onto forefeet with tall posture, straight knees and posterior calf red only; clothing opaque. Qualified review of bilateral heel elevation, ankle alignment and finger details pending.",
+    "3030": "Two barbell split-squat phases with front heel grounded, rear forefoot support, upright torso and loaded bar across upper back. Front quad anatomical fibers extend across shorts in bottom phase; block clothing correction. Qualified bar placement and knee tracking review pending."
+  },
+  "blockingIssues": {
+    "3016": [
+      "Show initial head/shoulders resting on floor before curl-up; currently start remains elevated."
+    ],
+    "3017": [
+      "Keep torso nearly horizontal and fixed during Pendlay row.",
+      "Replace anatomical upper-back shapes through tank with plain uniform wash on intact fabric."
+    ],
+    "3030": [
+      "Remove quad fiber/segment depiction through shorts; preserve intact opaque cloth with plain wash only."
+    ]
+  },
+  "deferred": {
+    "3019": "Chest-height bench-row setup conflicts with chin-above-bar endpoint; clarify.",
+    "3021": "Scapular push-up name versus elbow-position/lowering instructions needs clarification."
+  },
+  "tests": 7,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "workerSyncResult": {
+    "statuses": {
+      "generated": 1155,
+      "pending": 10109
+    },
+    "remaining": 10109,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 1768586702
+  },
+  "publicationIndexUnchanged": true
+}

@@ -1,0 +1,58 @@
+{
+  "batch": 444,
+  "runId": "137cdea4-b0c6-4bec-9a1e-9327b967ef83",
+  "triggerTimestamp": "2026-11-04T23:23:04.491Z",
+  "builtInImageGenAvailable": true,
+  "generatedIds": [
+    "4445",
+    "4446",
+    "4465",
+    "4375"
+  ],
+  "coverageAfter": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1576,
+    "remainingVariants": 9688,
+    "approvedVariants": 0,
+    "blockedVariants": 584,
+    "knownPoseImages": 3172,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 1203,
+      "remainingVariants": 4429,
+      "blockedVariants": 465
+    }
+  },
+  "paidWorker": {
+    "statuses": {
+      "generated": 1576,
+      "pending": 9688
+    },
+    "remaining": 9688,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 2383537937
+  },
+  "pipelineTests": "8 passed, 0 failed",
+  "approvedIndexUnchanged": true,
+  "existingUserApprovalsPreserved": 1306,
+  "anatomyReview": "pending",
+  "publication": "none",
+  "blocked": {
+    "4445": [
+      "Starting pose: both band branches connect to one handle while the other hand holds a detached grip. Correct continuous hand-to-anchor connections before approval."
+    ]
+  }
+}

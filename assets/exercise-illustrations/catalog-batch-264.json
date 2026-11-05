@@ -1,0 +1,320 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "2146",
+      "variant": "male",
+      "key": "2146-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Set your upper back on the machine pad, secure the belt across your hips and plant both feet flat."
+        },
+        {
+          "key": "p2",
+          "caption": "Drive through your heels to lift the hips until torso and thighs align. Squeeze your glutes, then lower with control."
+        }
+      ],
+      "prompt": "LEVER HIP THRUST. TWO equal cells side by side samecamera. Realistic plate-loaded GRAY HIPTHRUST LEVER MACHINE viewed SIDE three-quarter: stablefloorbase fixedFOOTPLATFORM andfixedpaddedUPPERBACKsupport atscapulaheight, pivotedgrayleverarm connectssecuredwidepaddedBELTacrossHIPCREST tosmallplatehorn, beltconnectedbothsides not floating. Male UPPERBACK contactsEDGEofbackpad bothpositions NOT forearmsupport. BOTHhandsgripsidehandles. Feetflatplatform kneeshipwidth shinsnearverticalattop, chinslighttucked neckneutral. MachinegeometryfixedexcepthipbeltleverROTATESwithpelvis. LEFT hipsLOWbelowknees torsoangledDOWNfromshoulders bothkneesbent feetfixed. RIGHT HIPSLIFTED torsoandTHIGHS HORIZONTAL shoulderHIPkneeLINE, glutescontract no lumbararch bothfeetflat fixed. Show clearpelvisheightchange beltandleverfollowhipupward. Premium detailed adult MALE grayscale anatomical illustration matching original project reference rendering STYLE ONLY, ignore reference exercise/highlights. WHITE background soft contact shadows realistic proportions crisp detailed exposed gray muscle contours. Opaque BLACK tank and mid-thigh shorts fully wrap front sides back seat crotch with seams folds hems. No cutaways transparency or muscle anatomy through fabric. Primary GLUTES only plain UNIFORM SOFT RED teaching ellipse on intact shorts buttocks with no internal muscle fibers rays lobes segmentation; preserve ordinary fabric folds. No chest abdomen leg highlights. Black shoes. Normal two arms hands five fingers two legs feet, all body equipment inside each cell margins. No text arrows logos.",
+      "inspectionNote": "Real output inspected. Two distinct lowered and raised hip-thrust positions with feet planted on fixed platform, upper back on pad, hands on handles and belt crossing hips attached to lever. Hip height changes clearly and glute tint on opaque shorts. Qualified review needed for exact torso/thigh alignment at top, back-pad pivot/contact, belt/lever mechanical geometry, chin control and glute mapping. Human anatomy review remains pending; no approval or publication.",
+      "canonicalName": "lever hip thrust",
+      "styleVersion": "white-v1",
+      "equipment": "leverage machine",
+      "primaryMuscles": [
+        "glutes"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Two distinct lowered and raised hip-thrust positions with feet planted on fixed platform, upper back on pad, hands on handles and belt crossing hips attached to lever. Hip height changes clearly and glute tint on opaque shorts. Qualified review needed for exact torso/thigh alignment at top, back-pad pivot/contact, belt/lever mechanical geometry, chin control and glute mapping. Human anatomy review remains pending; no approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2146-male-anatomical-white-v1-p1-a214777bf761.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 42490,
+          "sha256": "a214777bf761f8e7075066bd4b762c7ff008109ff2efd9a6f3556e8755f0caa0"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/2146-male-anatomical-white-v1-p2-4e9f61b01e08.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 42574,
+          "sha256": "4e9f61b01e0841c0a394f74741360fcadad9145ea29ef0f4bda7fa93c83da458"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-264.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2146-male-anatomical-white-v1-thumb-d5cd4347e223.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 4982,
+        "sha256": "d5cd4347e223d0a758b027ff3607c5ff3ffcfbef477efff0b4c48bc14c746f29"
+      },
+      "processingSignature": "974f586875b4b7094118425ad4386b3a976a5e51c7eec16746a6bd1280c202fd",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2146-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1556986,
+        "sha256": "f5fe1b25d58d749602430503b91915713f1f87a32612068030cc65a57aeb5be0"
+      }
+    },
+    {
+      "exerciseId": "2147",
+      "variant": "male",
+      "key": "2147-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Set your upper back on the pad, secure the hip belt and place a loop band above your knees. Keep feet flat and gently press knees outward."
+        },
+        {
+          "key": "p2",
+          "caption": "Lift your hips through your heels until torso and thighs align, keeping tension on the knee band. Squeeze your glutes, then lower slowly."
+        }
+      ],
+      "prompt": "LEVER HIP THRUST WITH RESISTANCE BAND. TWO equal cells side by side samecamera. Realistic plate-loaded GRAY HIPTHRUST LEVER MACHINE viewed SIDE three-quarter: stablefloorbase fixedFOOTPLATFORM andfixedpaddedUPPERBACKsupport atscapulaheight, pivotedgrayleverarm connectssecuredwidepaddedBELTacrossHIPCREST tosmallplatehorn, beltconnectedbothsides not floating. Male UPPERBACK contactsEDGEofbackpad bothpositions NOT forearmsupport. BOTHhandsgripsidehandles. Feetflatplatform kneeshipwidth shinsnearverticalattop, chinslighttucked neckneutral. MachinegeometryfixedexcepthipbeltleverROTATESwithpelvis. A clearlyvisibleGRAY LOOPBAND encirclesBOTHthighs JUST ABOVE KNEES, distinctfromHIPBELT. KneespushgentlyOUTagainstband feetremainplanted. LEFT hipsLOW torsoangleddownfrombackpad. RIGHThipsUPtorsoandTHIGHS HORIZONTAL shoulderhipkneeline glutescontractnobackarch. Kneebandstaysaboveknees hipbeltstaysHIPCREST, donotconfusebands. Premium detailed adult MALE grayscale anatomical illustration matching original project reference rendering STYLE ONLY, ignore reference exercise/highlights. WHITE background soft contact shadows realistic proportions crisp detailed exposed gray muscle contours. Opaque BLACK tank and mid-thigh shorts fully wrap front sides back seat crotch with seams folds hems. No cutaways transparency or muscle anatomy through fabric. Primary GLUTES only plain UNIFORM SOFT RED teaching ellipse on intact shorts buttocks with no internal muscle fibers rays lobes segmentation; preserve ordinary fabric folds. No chest abdomen leg highlights. Black shoes. Normal two arms hands five fingers two legs feet, all body equipment inside each cell margins. No text arrows logos.",
+      "inspectionNote": "Real output inspected. Distinct lowered/raised hips, upper back supported, foot platform and hip belt/lever shown with separate loop band above both knees. Knees remain separated and feet planted; plain glute tint on opaque shorts. Qualified review needed for knee-band tension/contact around both thighs, lever-pivot geometry, top torso alignment, back-pad support and comfortable hip range. Human anatomy review remains pending; no approval or publication.",
+      "canonicalName": "lever hip thrust with resistance band",
+      "styleVersion": "white-v1",
+      "equipment": "leverage machine",
+      "primaryMuscles": [
+        "glutes"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Distinct lowered/raised hips, upper back supported, foot platform and hip belt/lever shown with separate loop band above both knees. Knees remain separated and feet planted; plain glute tint on opaque shorts. Qualified review needed for knee-band tension/contact around both thighs, lever-pivot geometry, top torso alignment, back-pad support and comfortable hip range. Human anatomy review remains pending; no approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2147-male-anatomical-white-v1-p1-a503ff20dd70.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 49080,
+          "sha256": "a503ff20dd7080186b4963924b85b5d41e08e3e40fc1a1def9eedf85dc3c50e8"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/2147-male-anatomical-white-v1-p2-ff2b4f4329fa.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 46806,
+          "sha256": "ff2b4f4329fa86e0fedf0c9b73619b10523602924f0e491855a7b55d47dcbac3"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-264.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2147-male-anatomical-white-v1-thumb-d99abebc8bb6.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 5096,
+        "sha256": "d99abebc8bb60b5237f6d817ad1e42201c7c9fe02c8bdc6c30c4902a00c23f72"
+      },
+      "processingSignature": "c5d9e8161bc4ce1d99e839ec46459b3019e35ef829670ee2b0414c0972fb3828",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2147-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1629606,
+        "sha256": "03c3b151c0ea771defd710e5b9c36d233b0b7d2986d801c3ece80e0f562d9269"
+      }
+    },
+    {
+      "exerciseId": "2148",
+      "variant": "male",
+      "key": "2148-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Support your upper back on the pad and secure the hip belt. Plant one foot flat and lift the other leg."
+        },
+        {
+          "key": "p2",
+          "caption": "Press through the planted heel to raise your hips until the torso is level. Keep your pelvis even, then lower under control and switch legs."
+        }
+      ],
+      "prompt": "LEVER SINGLE LEG HIP THRUST. TWO equal cells side by side samecamera. Realistic plate-loaded GRAY HIPTHRUST LEVER MACHINE viewed SIDE three-quarter: stablefloorbase fixedFOOTPLATFORM andfixedpaddedUPPERBACKsupport atscapulaheight, pivotedgrayleverarm connectssecuredwidepaddedBELTacrossHIPCREST tosmallplatehorn, beltconnectedbothsides not floating. Male UPPERBACK contactsEDGEofbackpad bothpositions NOT forearmsupport. BOTHhandsgripsidehandles. Feetflatplatform kneeshipwidth shinsnearverticalattop, chinslighttucked neckneutral. MachinegeometryfixedexcepthipbeltleverROTATESwithpelvis. ONLY RIGHTFOOTplantedplatform, LEFTFREELEG raisedoffplatformbothposes withknee90, clearseparationtwolegs. LEFTcellhipsLOWtorsoangleddown. RIGHTcellhipsliftuntilTORSOLEVEL workingRIGHTthighHORIZONTAL rightknee90 shinnearvertical, pelvisLEVEL notrolling leftfootremainsoffplatform. Beltandleverfollowhips. RedONLYworkingRIGHTglute buttock plainellipse on intactshorts notfreeleg. Premium detailed adult MALE grayscale anatomical illustration matching original project reference rendering STYLE ONLY, ignore reference exercise/highlights. WHITE background soft contact shadows realistic proportions crisp detailed exposed gray muscle contours. Opaque BLACK tank and mid-thigh shorts fully wrap front sides back seat crotch with seams folds hems. No cutaways transparency or muscle anatomy through fabric. Primary GLUTES only plain UNIFORM SOFT RED teaching ellipse on intact shorts buttocks with no internal muscle fibers rays lobes segmentation; preserve ordinary fabric folds. No chest abdomen leg highlights. Black shoes. Normal two arms hands five fingers two legs feet, all body equipment inside each cell margins. No text arrows logos.",
+      "inspectionNote": "Real output inspected. One working foot planted and other foot raised in both hip-thrust poses, distinct pelvic heights, belt/lever follows hips, upper back on pad and hand on handle. Red on working-side glute over opaque shorts. Qualified review required for top torso level/hip extension, pelvic level, support-pad height/contact, lever/belt geometry and free-leg position. Human anatomy review remains pending; no approval or publication.",
+      "canonicalName": "lever single leg hip thrust",
+      "styleVersion": "white-v1",
+      "equipment": "leverage machine",
+      "primaryMuscles": [
+        "glutes"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. One working foot planted and other foot raised in both hip-thrust poses, distinct pelvic heights, belt/lever follows hips, upper back on pad and hand on handle. Red on working-side glute over opaque shorts. Qualified review required for top torso level/hip extension, pelvic level, support-pad height/contact, lever/belt geometry and free-leg position. Human anatomy review remains pending; no approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2148-male-anatomical-white-v1-p1-7fa55ac2eafd.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 46532,
+          "sha256": "7fa55ac2eafdc99521896c30bf8679307870ea6e1897b5c4ed3980b52f609e2e"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/2148-male-anatomical-white-v1-p2-c1b0210d6b37.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 45848,
+          "sha256": "c1b0210d6b372c07e73e81be3b72100a99b2a6de9396989d35251726c0d0c643"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-264.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2148-male-anatomical-white-v1-thumb-65d4c58cd659.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 4982,
+        "sha256": "65d4c58cd659be6b7076f0d27bb2f1b3e24dc6b5d9191c9ff164acf8dcdc7de6"
+      },
+      "processingSignature": "c37c976521f299f29aa188a5bda41e6a3369a8b8ecc0bd33e48576fcf6dbdeb4",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2148-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1857797,
+        "sha256": "7790665d66fe45426cbc1ab8b610c8fa0ab7c2c03e988b8bde14a464f36e86d1"
+      }
+    },
+    {
+      "exerciseId": "2149",
+      "variant": "male",
+      "key": "2149-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Anchor the band low in front, loop it securely around one foot and get on all fours. Keep your back flat and core braced."
+        },
+        {
+          "key": "p2",
+          "caption": "With the working knee bent, press that foot up and back against the band. Keep hips level, squeeze the glute and lower slowly, then switch legs."
+        }
+      ],
+      "prompt": "RESISTANCE BAND BENT LEG KICKBACK KNEELING. TWO equalcells side by side SAME SIDE threequartercamera. GrayMAT fourpointkneeling handsunderSHOULDERS LEFTsupportkneeunderHIP bothpalmsonfloor corebracedflatback. LOW GRAYBANDanchorsecuredtofloorpost IN FRONT ofbodynearhands, grayelasticrunsBACKalongFLOORthenUPtoRIGHTworkingSHOEforefootsecureloop. LEFTstartRIGHTkneebent90underhip nearfloor. RIGHTendRIGHTTHIGH liftsBACKUP untilparallelFLOOR RIGHTkneestays90 RIGHTsolefacesceiling, LEFTkneeandBOTHhandsfixedfloor, pelvisLEVEL no lumbararch. Band fromFRONTLOWANCHORtoRIGHTfoot stretchedclearlytautlongerattop anddoesnotpassthroughbody. PrimaryRIGHTworkingGLUTE only plainredellipse on intactshorts. Premium detailed adult MALE grayscale anatomical illustration matching original project reference rendering STYLE ONLY, ignore reference exercise/highlights. WHITE background soft contact shadows realistic proportions crisp detailed exposed gray muscle contours. Opaque BLACK tank and mid-thigh shorts fully wrap front sides back seat crotch with seams folds hems. No cutaways transparency or muscle anatomy through fabric. Primary GLUTES only plain UNIFORM SOFT RED teaching ellipse on intact shorts buttocks with no internal muscle fibers rays lobes segmentation; preserve ordinary fabric folds. No chest abdomen leg highlights. Black shoes. Normal two arms hands five fingers two legs feet, all body equipment inside each cell margins. No text arrows logos.",
+      "inspectionNote": "Real output inspected. Two distinct quadruped kickback positions with low front anchor and band looped around working shoe, taut longer diagonal band at top. Working knee stays bent, thigh lifts near horizontal, both palms and opposite knee supported. Glute tint on intact shorts. Qualified review needed for anchor/loop security, band clearance, pelvis level, lumbar/neck control and working-side mapping. Human anatomy review remains pending; no approval or publication.",
+      "canonicalName": "resistance band bent leg kickback (kneeling)",
+      "styleVersion": "white-v1",
+      "equipment": "resistance band",
+      "primaryMuscles": [
+        "glutes"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Two distinct quadruped kickback positions with low front anchor and band looped around working shoe, taut longer diagonal band at top. Working knee stays bent, thigh lifts near horizontal, both palms and opposite knee supported. Glute tint on intact shorts. Qualified review needed for anchor/loop security, band clearance, pelvis level, lumbar/neck control and working-side mapping. Human anatomy review remains pending; no approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2149-male-anatomical-white-v1-p1-09dd383c4517.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 42582,
+          "sha256": "09dd383c45176c8c3a5f5929255a9869efc5eeb335a386584ee5d644f98e07e8"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/2149-male-anatomical-white-v1-p2-b2a074d7b3a8.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 47552,
+          "sha256": "b2a074d7b3a8635899a6d664d16124550aa419e3db0c3b4ad7819a0822483da6"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-264.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2149-male-anatomical-white-v1-thumb-90e24a503b8e.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 3730,
+        "sha256": "90e24a503b8e14795b5a557a8c928d0ead147e7e7d6b43f4cd6d4b65d797a6a5"
+      },
+      "processingSignature": "2d264a6f4136012c6dcabd8cdb561a153be759789083213ae9bcb07f7c6548a5",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2149-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1604584,
+        "sha256": "8e7b5957ca5d6f545e3d722a3a52c2e73589d72638c5c1e6779f34a5022038e6"
+      }
+    }
+  ]
+}

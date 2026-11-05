@@ -1,0 +1,645 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "0699",
+      "variant": "male",
+      "key": "0699-male-anatomical-white-v2",
+      "layout": {
+        "columns": 2,
+        "rows": 2
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Lower into a push-up with elbows close to the sides."
+        },
+        {
+          "key": "p2",
+          "caption": "Press into a straight-arm high plank."
+        },
+        {
+          "key": "p3",
+          "caption": "Support on the left hand and tap the left shoulder with the right hand."
+        },
+        {
+          "key": "p4",
+          "caption": "Repeat the push-up, then support on the right hand and tap the right shoulder with the left hand."
+        }
+      ],
+      "detail": "SHOULDER TAP PUSH-UP, FOUR equal SQUARE panels in 2x2. SAME FRONT three-quarter angle head IMAGE LEFT feet RIGHT, chest visible, plain floor thin gray mat only. Knees always extended off floor, both toes grounded, straight head-shoulders-hips-heels, pelvis level. TOP LEFT lower: BOTH palms floor, elbows bent close sides, chest near floor. TOP RIGHT top: BOTH palms floor under shoulders, elbows straight, high plank. BOTTOM LEFT: high plank on LEFT palm directly under left shoulder, RIGHT hand crosses chest to TOUCH LEFT SHOULDER, right elbow lifted bent, both toes grounded. BOTTOM RIGHT: high plank on RIGHT palm under right shoulder, LEFT hand crosses chest to TOUCH RIGHT SHOULDER, left elbow lifted bent, both toes grounded. Clearly opposite shoulder taps, one floor supporting palm in each tap panel, no hand resting on same-side shoulder, no raised arm reaching ceiling, no bent knees. Same body/pelvis direction fixed through all phases, stable core no hip twist. Primary PECTORALS ONE smoothly blurred diffuse red teaching tint across front chest of intact black shirt, no muscle fibers/radial rays in garment. Exposed arm/calf grayscale fine detail, no bench.",
+      "prompt": "Edit original project FOUR-panel male shoulder tap push-up. Preserve EXACT all four poses, lowered/top pushup and two opposite cross-body shoulder taps, floor supporting hands and planted toes, fine detailed EXPOSED grayscale muscle fibers, opaque full clothing front sides back seat crotch. Only replace all red CHEST shirt patches with ONE smooth diffuse soft BLURRED red tint on continuous matte BLACK fabric, erase ALL radial rays/muscle fibers/pectoral lines and divisions on garments. Broad natural cloth folds only, no anatomical muscle divisions on shirt. Keep entire body in each square cell. No text.",
+      "inspectionNote": "Chest rays softened to diffuse red over opaque shirt; four push-up/tap phases, planted toes and single-hand support retained. Fine grayscale exposed anatomy. Qualified tapping-hand/shoulder identity, contact, pelvic stability and joint alignment review pending.",
+      "canonicalName": "shoulder tap push-up",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "pectorals"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0699-male-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "status": "generated",
+        "costUSD": null
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Chest rays softened to diffuse red over opaque shirt; four push-up/tap phases, planted toes and single-hand support retained. Fine grayscale exposed anatomy. Qualified tapping-hand/shoulder identity, contact, pelvic stability and joint alignment review pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0699-male-anatomical-white-v2-p1-54dd2d24f506.webp",
+          "width": 624,
+          "height": 630,
+          "bytes": 15534,
+          "sha256": "54dd2d24f506f59f51f392ffb58bec0596b253ebde01c884322e495d83122a2c"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0699-male-anatomical-white-v2-p2-ac98bb63df12.webp",
+          "width": 623,
+          "height": 630,
+          "bytes": 18438,
+          "sha256": "ac98bb63df12adcbe4fa9faeede9fa6772754c42331c3d535438cc2a7b04b358"
+        },
+        {
+          "pose": "p3",
+          "path": "/workout/illustration-pilot/0699-male-anatomical-white-v2-p3-0e4940b854fb.webp",
+          "width": 624,
+          "height": 631,
+          "bytes": 19910,
+          "sha256": "0e4940b854fb2361b284a56b7af9e8d780c381d4c286ed0f79285bd1a1f467a2"
+        },
+        {
+          "pose": "p4",
+          "path": "/workout/illustration-pilot/0699-male-anatomical-white-v2-p4-6dd978da7bca.webp",
+          "width": 623,
+          "height": 631,
+          "bytes": 19396,
+          "sha256": "6dd978da7bca97c58eb4da6de052190343ccc83ab2566d492b970f2e298dfe27"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0699-male-anatomical-white-v2-thumb-2dd0404a0ae7.webp",
+        "width": 238,
+        "height": 240,
+        "bytes": 2684,
+        "sha256": "2dd0404a0ae7c36d1ec335d26ccc0a09df45573f959bf2f9c9b17bda7a26c715"
+      },
+      "processingSignature": "f6b6dc472d544de7455f5897915bb0fee9e1311c4468365c726f9e18d534267f",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0699-male-anatomical-white-v2.png",
+        "width": 1247,
+        "height": 1261,
+        "bytes": 1826183,
+        "sha256": "49120a6008e2632fb227e3ccd3fa63b36c80cca5111daac7b02a615dc358cfb1"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0699",
+          "variant": "male",
+          "key": "0699-male-anatomical-white-v1",
+          "layout": {
+            "columns": 2,
+            "rows": 2
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Lower into a push-up with elbows close to the sides."
+            },
+            {
+              "key": "p2",
+              "caption": "Press into a straight-arm high plank."
+            },
+            {
+              "key": "p3",
+              "caption": "Support on the left hand and tap the left shoulder with the right hand."
+            },
+            {
+              "key": "p4",
+              "caption": "Repeat the push-up, then support on the right hand and tap the right shoulder with the left hand."
+            }
+          ],
+          "detail": "SHOULDER TAP PUSH-UP, FOUR equal SQUARE panels in 2x2. SAME FRONT three-quarter angle head IMAGE LEFT feet RIGHT, chest visible, plain floor thin gray mat only. Knees always extended off floor, both toes grounded, straight head-shoulders-hips-heels, pelvis level. TOP LEFT lower: BOTH palms floor, elbows bent close sides, chest near floor. TOP RIGHT top: BOTH palms floor under shoulders, elbows straight, high plank. BOTTOM LEFT: high plank on LEFT palm directly under left shoulder, RIGHT hand crosses chest to TOUCH LEFT SHOULDER, right elbow lifted bent, both toes grounded. BOTTOM RIGHT: high plank on RIGHT palm under right shoulder, LEFT hand crosses chest to TOUCH RIGHT SHOULDER, left elbow lifted bent, both toes grounded. Clearly opposite shoulder taps, one floor supporting palm in each tap panel, no hand resting on same-side shoulder, no raised arm reaching ceiling, no bent knees. Same body/pelvis direction fixed through all phases, stable core no hip twist. Primary PECTORALS ONE smoothly blurred diffuse red teaching tint across front chest of intact black shirt, no muscle fibers/radial rays in garment. Exposed arm/calf grayscale fine detail, no bench.",
+          "prompt": "Original educational exercise illustration. Attached original project artwork STYLE ONLY never pose/equipment reference. Neutral adult MALE, premium fine detailed grayscale anatomical fibers on EXPOSED muscles, pure white background. Fully OPAQUE matte BLACK sleeveless shirt covers torso front sides back abdomen; loose knee-length BLACK shorts wrap both thighs front sides rear seat crotch, closed seams/hems and broad natural folds. Black trainers. Red PRIMARY only as specified; over cloth ONE smooth diffuse blurred tint without rays/fibers/sixpack divisions. Whole body fingers shoes within generous white margins. No text/labels/arrows/logos. SHOULDER TAP PUSH-UP, FOUR equal SQUARE panels in 2x2. SAME FRONT three-quarter angle head IMAGE LEFT feet RIGHT, chest visible, plain floor thin gray mat only. Knees always extended off floor, both toes grounded, straight head-shoulders-hips-heels, pelvis level. TOP LEFT lower: BOTH palms floor, elbows bent close sides, chest near floor. TOP RIGHT top: BOTH palms floor under shoulders, elbows straight, high plank. BOTTOM LEFT: high plank on LEFT palm directly under left shoulder, RIGHT hand crosses chest to TOUCH LEFT SHOULDER, right elbow lifted bent, both toes grounded. BOTTOM RIGHT: high plank on RIGHT palm under right shoulder, LEFT hand crosses chest to TOUCH RIGHT SHOULDER, left elbow lifted bent, both toes grounded. Clearly opposite shoulder taps, one floor supporting palm in each tap panel, no hand resting on same-side shoulder, no raised arm reaching ceiling, no bent knees. Same body/pelvis direction fixed through all phases, stable core no hip twist. Primary PECTORALS ONE smoothly blurred diffuse red teaching tint across front chest of intact black shirt, no muscle fibers/radial rays in garment. Exposed arm/calf grayscale fine detail, no bench.",
+          "inspectionNote": "Four phases show push-up lower/top and apparent opposite cross-body shoulder taps with single supporting palm, toes planted and legs extended. Full opaque clothing, fine exposed grayscale muscles. Chest tint has radial fiber-like pattern requiring correction; qualified tapping-hand identity, shoulder contact and pelvic stability review pending.",
+          "canonicalName": "shoulder tap push-up",
+          "styleVersion": "white-v1",
+          "equipment": "body weight",
+          "primaryMuscles": [
+            "pectorals"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Four phases show push-up lower/top and apparent opposite cross-body shoulder taps with single supporting palm, toes planted and legs extended. Full opaque clothing, fine exposed grayscale muscles. Chest tint has radial fiber-like pattern requiring correction; qualified tapping-hand identity, shoulder contact and pelvic stability review pending.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0699-male-anatomical-white-v1-p1-c1785de6ad7b.webp",
+              "width": 624,
+              "height": 630,
+              "bytes": 16918,
+              "sha256": "c1785de6ad7b61ee199fedc48468c9e7a7ad60a8b9b11c91934bf6dfeaf815f5"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0699-male-anatomical-white-v1-p2-d37878ef7462.webp",
+              "width": 623,
+              "height": 630,
+              "bytes": 19934,
+              "sha256": "d37878ef746288cf0a5b05924db7e49bf653ab7c6691e89bab9c4e5c7f4c4de7"
+            },
+            {
+              "pose": "p3",
+              "path": "/workout/illustration-pilot/0699-male-anatomical-white-v1-p3-023f8746e773.webp",
+              "width": 624,
+              "height": 631,
+              "bytes": 21544,
+              "sha256": "023f8746e773d59e5c4dd1b8655fedd251a1c4dba976c5fed3beec48e48eb3a0"
+            },
+            {
+              "pose": "p4",
+              "path": "/workout/illustration-pilot/0699-male-anatomical-white-v1-p4-152883d73f1f.webp",
+              "width": 623,
+              "height": 631,
+              "bytes": 20962,
+              "sha256": "152883d73f1f0f7f42b9f1a26c046beca250ff5bc74c4b81c1aea56d6c803116"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0699-male-anatomical-white-v1-thumb-d0a6bdbf1b2d.webp",
+            "width": 238,
+            "height": 240,
+            "bytes": 2676,
+            "sha256": "d0a6bdbf1b2dc4f08ac731d6efd2a17bc16a6b0e115f9cd545ae204c8f35236a"
+          },
+          "processingSignature": "ec1ea2268f627e0bf3cae83c39b1c7ef29e6fff33f5414560f528447854660ee",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0699-male-anatomical-white-v1.png",
+            "width": 1247,
+            "height": 1261,
+            "bytes": 1504286,
+            "sha256": "0870a099227d45675e4c0748264b3b42ec5ca7e7bf29013dd112fedda70704de"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "0699",
+      "variant": "female",
+      "key": "0699-female-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 2
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Lower into a push-up with elbows close to the sides."
+        },
+        {
+          "key": "p2",
+          "caption": "Press into a straight-arm high plank."
+        },
+        {
+          "key": "p3",
+          "caption": "Support on the left hand and tap the left shoulder with the right hand."
+        },
+        {
+          "key": "p4",
+          "caption": "Repeat the push-up, then support on the right hand and tap the right shoulder with the left hand."
+        }
+      ],
+      "detail": "SHOULDER TAP PUSH-UP, FOUR equal SQUARE panels in 2x2. SAME FRONT three-quarter angle head IMAGE LEFT feet RIGHT, chest visible, plain floor thin gray mat only. Knees always extended off floor, both toes grounded, straight head-shoulders-hips-heels, pelvis level. TOP LEFT lower: BOTH palms floor, elbows bent close sides, chest near floor. TOP RIGHT top: BOTH palms floor under shoulders, elbows straight, high plank. BOTTOM LEFT: high plank on LEFT palm directly under left shoulder, RIGHT hand crosses chest to TOUCH LEFT SHOULDER, right elbow lifted bent, both toes grounded. BOTTOM RIGHT: high plank on RIGHT palm under right shoulder, LEFT hand crosses chest to TOUCH RIGHT SHOULDER, left elbow lifted bent, both toes grounded. Clearly opposite shoulder taps, one floor supporting palm in each tap panel, no hand resting on same-side shoulder, no raised arm reaching ceiling, no bent knees. Same body/pelvis direction fixed through all phases, stable core no hip twist. Primary PECTORALS ONE smoothly blurred diffuse red teaching tint across front chest of intact black shirt, no muscle fibers/radial rays in garment. Exposed arm/calf grayscale fine detail, no bench.",
+      "prompt": "Original educational exercise illustration. Attached original project artwork STYLE ONLY never pose/equipment reference. Neutral adult FEMALE, premium fine detailed grayscale anatomical fibers on EXPOSED muscles, pure white background. Fully OPAQUE matte BLACK sleeveless shirt covers torso front sides back abdomen; loose knee-length BLACK shorts wrap both thighs front sides rear seat crotch, closed seams/hems and broad natural folds. Black trainers. Red PRIMARY only as specified; over cloth ONE smooth diffuse blurred tint without rays/fibers/sixpack divisions. Whole body fingers shoes within generous white margins. No text/labels/arrows/logos. SHOULDER TAP PUSH-UP, FOUR equal SQUARE panels in 2x2. SAME FRONT three-quarter angle head IMAGE LEFT feet RIGHT, chest visible, plain floor thin gray mat only. Knees always extended off floor, both toes grounded, straight head-shoulders-hips-heels, pelvis level. TOP LEFT lower: BOTH palms floor, elbows bent close sides, chest near floor. TOP RIGHT top: BOTH palms floor under shoulders, elbows straight, high plank. BOTTOM LEFT: high plank on LEFT palm directly under left shoulder, RIGHT hand crosses chest to TOUCH LEFT SHOULDER, right elbow lifted bent, both toes grounded. BOTTOM RIGHT: high plank on RIGHT palm under right shoulder, LEFT hand crosses chest to TOUCH RIGHT SHOULDER, left elbow lifted bent, both toes grounded. Clearly opposite shoulder taps, one floor supporting palm in each tap panel, no hand resting on same-side shoulder, no raised arm reaching ceiling, no bent knees. Same body/pelvis direction fixed through all phases, stable core no hip twist. Primary PECTORALS ONE smoothly blurred diffuse red teaching tint across front chest of intact black shirt, no muscle fibers/radial rays in garment. Exposed arm/calf grayscale fine detail, no bench.",
+      "inspectionNote": "Four phases show push-up lower/top and opposite-looking cross-body shoulder taps, each with one supporting palm and both toes planted. Full opaque clothes with diffuse chest tint and fine grayscale exposed anatomy. Qualified hand/shoulder identity, contact, pelvis stability and shoulder range review pending.",
+      "canonicalName": "shoulder tap push-up",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "pectorals"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Four phases show push-up lower/top and opposite-looking cross-body shoulder taps, each with one supporting palm and both toes planted. Full opaque clothes with diffuse chest tint and fine grayscale exposed anatomy. Qualified hand/shoulder identity, contact, pelvis stability and shoulder range review pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0699-female-anatomical-white-v1-p1-aaf99d387872.webp",
+          "width": 632,
+          "height": 623,
+          "bytes": 18518,
+          "sha256": "aaf99d387872954f1387f1e392298390ca20ddf6da98de928def70f87334f4d4"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0699-female-anatomical-white-v1-p2-ca4ef09d6923.webp",
+          "width": 631,
+          "height": 623,
+          "bytes": 21524,
+          "sha256": "ca4ef09d6923d1841f10ac81d1262337eecfc11dc6280f3c54dc11dec73ba69f"
+        },
+        {
+          "pose": "p3",
+          "path": "/workout/illustration-pilot/0699-female-anatomical-white-v1-p3-f78c3a9cc3f4.webp",
+          "width": 632,
+          "height": 623,
+          "bytes": 22696,
+          "sha256": "f78c3a9cc3f4686bfb37ac17472bbf79de9bf004086117c3c310f8b472a577a9"
+        },
+        {
+          "pose": "p4",
+          "path": "/workout/illustration-pilot/0699-female-anatomical-white-v1-p4-eaa17c694532.webp",
+          "width": 631,
+          "height": 623,
+          "bytes": 21800,
+          "sha256": "eaa17c694532229e063887e6c29143514d581f060e888c54c6ba5af13bcaa1b0"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0699-female-anatomical-white-v1-thumb-509fb523fd3a.webp",
+        "width": 240,
+        "height": 237,
+        "bytes": 2968,
+        "sha256": "509fb523fd3a53cb510b11a8f4d819e128087b7e6a009c0d2ac2340220ab93f6"
+      },
+      "processingSignature": "8f963f795872fcbb24e33fabe425b667dd0630aa46933e6fe07182e5098682ae",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0699-female-anatomical-white-v1.png",
+        "width": 1263,
+        "height": 1246,
+        "bytes": 1553597,
+        "sha256": "322b5dd698a094d75a232ae8319b3dea0cb1a2da4c02785c33f6e801b5edd032"
+      }
+    },
+    {
+      "exerciseId": "0703",
+      "variant": "male",
+      "key": "0703-male-anatomical-white-v2",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hold a forearm side plank with straight legs stacked and hips lifted."
+        },
+        {
+          "key": "p2",
+          "caption": "Raise the straight top leg toward the ceiling, pause briefly, then lower with control; switch sides after the repetitions."
+        }
+      ],
+      "detail": "FOREARM SIDE BRIDGE HIP ABDUCTION STAR, TWO equal SQUARE panels side by side same fixed FRONT-side three-quarter view. LEFT FOREARM grounded on gray mat with elbow directly under shoulder, forearm points ahead palm down, LEFT bottom leg STRAIGHT with outer left shoe on mat, pelvis raised in straight line head-shoulders-hips-bottom heel. RIGHT top hand rests on right hip. LEFT START: BOTH straight legs stacked, top right shoe resting on bottom left shoe, hold forearm side plank. RIGHT RAISE: keep exact bottom forearm/body/leg unchanged and hips lifted, raise RIGHT TOP LEG STRAIGHT upward away from bottom leg by about35degrees, right knee fully extended, toes forward, no hip flexion/knee tuck, no top arm raised. Bottom shoe remains grounded, top shoe clearly separated elevated, normal anatomical leg lengths/hip connections. Primary ABDUCTORS ONE smooth diffuse BLURRED red patch over OUTER top hip/upper thigh on fully opaque black shorts, no rays/fibers/muscle divisions on fabric. No red abdomen/chest. Both legs/calves visible fine grayscale exposed anatomy. Full opaque shirt and shorts front sides back seat crotch; whole model inside generous margins.",
+      "prompt": "Correct original project TWO-panel male forearm side bridge hip abduction. Preserve stacked straight legs first, raised straight top leg second, bottom forearm under shoulder, bottom shoe planted, top hand on hip, same camera/model. RAISE PELVIS in BOTH panels so shoulder-HIP-bottom heel form one STRAIGHT inclined line, no sag. Clear white AIR GAP under hip/shorts well above mat, ONLY forearm and outside bottom shoe touch floor, neither hip nor thigh/knee touches mat. Keep bottom knee straight. Top leg rises about35degrees in second. Preserve fine detailed grayscale EXPOSED anatomy. Outer top hip teaching tint ONE smooth diffuse BLURRED red patch on intact opaque BLACK shorts, no rays/fibers/divisions in cloth; rest shirt black. Full opaque front sides back seat crotch. No text.",
+      "inspectionNote": "Correction raises pelvis and clears visible air gap under shorts/hip in both phases, stacked then top leg abducted straight. Forearm and bottom shoe supports retained, diffuse outer-hip red over intact opaque shorts. Detailed exposed grayscale anatomy. Qualified straight shoulder/hip/heel alignment, support identity and leg range review pending.",
+      "canonicalName": "side bridge hip abduction (star)",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "abductors"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0703-male-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "status": "generated",
+        "costUSD": null
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Correction raises pelvis and clears visible air gap under shorts/hip in both phases, stacked then top leg abducted straight. Forearm and bottom shoe supports retained, diffuse outer-hip red over intact opaque shorts. Detailed exposed grayscale anatomy. Qualified straight shoulder/hip/heel alignment, support identity and leg range review pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0703-male-anatomical-white-v2-p1-bdb293b351c7.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 26110,
+          "sha256": "bdb293b351c7ec3f7ef96df47b12ff2378b1fdc6c8060b50c648ccace1582443"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0703-male-anatomical-white-v2-p2-2bbb014f0865.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 28040,
+          "sha256": "2bbb014f0865724a77c832154445b239c39c21b635e40405f1eaa96288c151e8"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0703-male-anatomical-white-v2-thumb-2f3ee372dacb.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2770,
+        "sha256": "2f3ee372dacb910d00b0c2adbc689cbc4a86eae1caeb490190366791d91d30ba"
+      },
+      "processingSignature": "5282860a2f27940fc1187dc2a78ea48e51c44f879e85b92ad75ba295da0baeb7",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0703-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1393442,
+        "sha256": "d70906372fd069c52d2bfd3e3132d3ca1404a0ec4384e907948c809fbda6709b"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0703",
+          "variant": "male",
+          "key": "0703-male-anatomical-white-v1",
+          "layout": {
+            "columns": 2,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Hold a forearm side plank with straight legs stacked and hips lifted."
+            },
+            {
+              "key": "p2",
+              "caption": "Raise the straight top leg toward the ceiling, pause briefly, then lower with control; switch sides after the repetitions."
+            }
+          ],
+          "detail": "FOREARM SIDE BRIDGE HIP ABDUCTION STAR, TWO equal SQUARE panels side by side same fixed FRONT-side three-quarter view. LEFT FOREARM grounded on gray mat with elbow directly under shoulder, forearm points ahead palm down, LEFT bottom leg STRAIGHT with outer left shoe on mat, pelvis raised in straight line head-shoulders-hips-bottom heel. RIGHT top hand rests on right hip. LEFT START: BOTH straight legs stacked, top right shoe resting on bottom left shoe, hold forearm side plank. RIGHT RAISE: keep exact bottom forearm/body/leg unchanged and hips lifted, raise RIGHT TOP LEG STRAIGHT upward away from bottom leg by about35degrees, right knee fully extended, toes forward, no hip flexion/knee tuck, no top arm raised. Bottom shoe remains grounded, top shoe clearly separated elevated, normal anatomical leg lengths/hip connections. Primary ABDUCTORS ONE smooth diffuse BLURRED red patch over OUTER top hip/upper thigh on fully opaque black shorts, no rays/fibers/muscle divisions on fabric. No red abdomen/chest. Both legs/calves visible fine grayscale exposed anatomy. Full opaque shirt and shorts front sides back seat crotch; whole model inside generous margins.",
+          "prompt": "Original educational exercise illustration. Attached original project artwork STYLE ONLY never pose/equipment reference. Neutral adult MALE, premium fine detailed grayscale anatomical fibers on EXPOSED muscles, pure white background. Fully OPAQUE matte BLACK sleeveless shirt covers torso front sides back abdomen; loose knee-length BLACK shorts wrap both thighs front sides rear seat crotch, closed seams/hems and broad natural folds. Black trainers. Red PRIMARY only as specified; over cloth ONE smooth diffuse blurred tint without rays/fibers/sixpack divisions. Whole body fingers shoes within generous white margins. No text/labels/arrows/logos. FOREARM SIDE BRIDGE HIP ABDUCTION STAR, TWO equal SQUARE panels side by side same fixed FRONT-side three-quarter view. LEFT FOREARM grounded on gray mat with elbow directly under shoulder, forearm points ahead palm down, LEFT bottom leg STRAIGHT with outer left shoe on mat, pelvis raised in straight line head-shoulders-hips-bottom heel. RIGHT top hand rests on right hip. LEFT START: BOTH straight legs stacked, top right shoe resting on bottom left shoe, hold forearm side plank. RIGHT RAISE: keep exact bottom forearm/body/leg unchanged and hips lifted, raise RIGHT TOP LEG STRAIGHT upward away from bottom leg by about35degrees, right knee fully extended, toes forward, no hip flexion/knee tuck, no top arm raised. Bottom shoe remains grounded, top shoe clearly separated elevated, normal anatomical leg lengths/hip connections. Primary ABDUCTORS ONE smooth diffuse BLURRED red patch over OUTER top hip/upper thigh on fully opaque black shorts, no rays/fibers/muscle divisions on fabric. No red abdomen/chest. Both legs/calves visible fine grayscale exposed anatomy. Full opaque shirt and shorts front sides back seat crotch; whole model inside generous margins.",
+          "inspectionNote": "Two forearm side-bridge phases show straight legs stacked then top-leg raised, diffuse outer-hip red on opaque shorts and detailed exposed anatomy. Hips/low shorts appear too close to mat with sagging line; correction required for visible elevated pelvis. Qualified support identity, leg abduction and knee alignment review pending.",
+          "canonicalName": "side bridge hip abduction (star)",
+          "styleVersion": "white-v1",
+          "equipment": "body weight",
+          "primaryMuscles": [
+            "abductors"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Two forearm side-bridge phases show straight legs stacked then top-leg raised, diffuse outer-hip red on opaque shorts and detailed exposed anatomy. Hips/low shorts appear too close to mat with sagging line; correction required for visible elevated pelvis. Qualified support identity, leg abduction and knee alignment review pending.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0703-male-anatomical-white-v1-p1-0e0f0052c70c.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 29864,
+              "sha256": "0e0f0052c70c898236e67301255dbee9ac849513ec608c733b0831c95f1f3137"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0703-male-anatomical-white-v1-p2-142296fa4ad1.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 32022,
+              "sha256": "142296fa4ad1204e2554b82052914720ff5c06df768f1faea1e8aaf9a0180a19"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0703-male-anatomical-white-v1-thumb-dc0ff0e19e00.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 2810,
+            "sha256": "dc0ff0e19e002f5825bf09fa0ea6ef59973b0e74043951e7d53709d372a16fa6"
+          },
+          "processingSignature": "ada2ee2f08f527b85d9d213893a37cd0ef37fe6b56cfae92f3f20e838dbc1069",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0703-male-anatomical-white-v1.png",
+            "width": 1774,
+            "height": 887,
+            "bytes": 1411005,
+            "sha256": "6c5ce5f8fdc345973799f031bd4827ff3ff0dfef5e101aa180026eb73bdb7d89"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "0703",
+      "variant": "female",
+      "key": "0703-female-anatomical-white-v2",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hold a forearm side plank with straight legs stacked and hips lifted."
+        },
+        {
+          "key": "p2",
+          "caption": "Raise the straight top leg toward the ceiling, pause briefly, then lower with control; switch sides after the repetitions."
+        }
+      ],
+      "detail": "FOREARM SIDE BRIDGE HIP ABDUCTION STAR, TWO equal SQUARE panels side by side same fixed FRONT-side three-quarter view. LEFT FOREARM grounded on gray mat with elbow directly under shoulder, forearm points ahead palm down, LEFT bottom leg STRAIGHT with outer left shoe on mat, pelvis raised in straight line head-shoulders-hips-bottom heel. RIGHT top hand rests on right hip. LEFT START: BOTH straight legs stacked, top right shoe resting on bottom left shoe, hold forearm side plank. RIGHT RAISE: keep exact bottom forearm/body/leg unchanged and hips lifted, raise RIGHT TOP LEG STRAIGHT upward away from bottom leg by about35degrees, right knee fully extended, toes forward, no hip flexion/knee tuck, no top arm raised. Bottom shoe remains grounded, top shoe clearly separated elevated, normal anatomical leg lengths/hip connections. Primary ABDUCTORS ONE smooth diffuse BLURRED red patch over OUTER top hip/upper thigh on fully opaque black shorts, no rays/fibers/muscle divisions on fabric. No red abdomen/chest. Both legs/calves visible fine grayscale exposed anatomy. Full opaque shirt and shorts front sides back seat crotch; whole model inside generous margins.",
+      "prompt": "Edit original project TWO-panel female forearm side bridge hip abduction. Preserve EXACT stacked then raised straight top leg, forearm/foot support, lifted hips, top hand on hip, camera/model, full framing and fine detailed EXPOSED grayscale muscles. ONLY replace outer top hip red rays on shorts with ONE smooth diffuse soft BLURRED red teaching tint over continuous opaque matte BLACK fabric. Erase ALL radial rays/muscle fiber lines/anatomical divisions on garment, broad natural folds/seams only. Preserve visible gap under hip and straight shoulder-hip-bottom heel alignment, top leg straight raised secondpanel. Full opaque clothes front sides back seat crotch. No text.",
+      "inspectionNote": "Outer-hip rays removed, now diffuse smooth red over opaque shorts. Stacked then raised straight top leg, grounded forearm/bottom shoe and visible hip gap retained. Fine exposed grayscale anatomy, full opaque clothes. Qualified support identity, straight shoulder/hip/heel alignment and abduction range review pending.",
+      "canonicalName": "side bridge hip abduction (star)",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "abductors"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0703-female-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "status": "generated",
+        "costUSD": null
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Outer-hip rays removed, now diffuse smooth red over opaque shorts. Stacked then raised straight top leg, grounded forearm/bottom shoe and visible hip gap retained. Fine exposed grayscale anatomy, full opaque clothes. Qualified support identity, straight shoulder/hip/heel alignment and abduction range review pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0703-female-anatomical-white-v2-p1-0772c8dcd23c.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 25748,
+          "sha256": "0772c8dcd23c65ef6ad7dc2d06fffac451c0036c0db8dfdd6ae0b0ce446c532d"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0703-female-anatomical-white-v2-p2-340e5de8a7ab.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 26706,
+          "sha256": "340e5de8a7ab56119116925476ba3ada2e5905435c82ab08a6a8ebc3505d2e90"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0703-female-anatomical-white-v2-thumb-b78d42dbf52c.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2760,
+        "sha256": "b78d42dbf52c631476eb01f67fb02d11a42b5ec65680d684bc192b32bea0abe7"
+      },
+      "processingSignature": "e068651a102e82e8394788ada638c00d96ff81b84693db89737c0e30f828d1ab",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0703-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1745827,
+        "sha256": "71dee74a5b126bd9818dd9dc713a0c040b2a19ce748a511f60cde31974309147"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0703",
+          "variant": "female",
+          "key": "0703-female-anatomical-white-v1",
+          "layout": {
+            "columns": 2,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Hold a forearm side plank with straight legs stacked and hips lifted."
+            },
+            {
+              "key": "p2",
+              "caption": "Raise the straight top leg toward the ceiling, pause briefly, then lower with control; switch sides after the repetitions."
+            }
+          ],
+          "detail": "FOREARM SIDE BRIDGE HIP ABDUCTION STAR, TWO equal SQUARE panels side by side same fixed FRONT-side three-quarter view. LEFT FOREARM grounded on gray mat with elbow directly under shoulder, forearm points ahead palm down, LEFT bottom leg STRAIGHT with outer left shoe on mat, pelvis raised in straight line head-shoulders-hips-bottom heel. RIGHT top hand rests on right hip. LEFT START: BOTH straight legs stacked, top right shoe resting on bottom left shoe, hold forearm side plank. RIGHT RAISE: keep exact bottom forearm/body/leg unchanged and hips lifted, raise RIGHT TOP LEG STRAIGHT upward away from bottom leg by about35degrees, right knee fully extended, toes forward, no hip flexion/knee tuck, no top arm raised. Bottom shoe remains grounded, top shoe clearly separated elevated, normal anatomical leg lengths/hip connections. Primary ABDUCTORS ONE smooth diffuse BLURRED red patch over OUTER top hip/upper thigh on fully opaque black shorts, no rays/fibers/muscle divisions on fabric. No red abdomen/chest. Both legs/calves visible fine grayscale exposed anatomy. Full opaque shirt and shorts front sides back seat crotch; whole model inside generous margins.",
+          "prompt": "Original educational exercise illustration. Attached original project artwork STYLE ONLY never pose/equipment reference. Neutral adult FEMALE, premium fine detailed grayscale anatomical fibers on EXPOSED muscles, pure white background. Fully OPAQUE matte BLACK sleeveless shirt covers torso front sides back abdomen; loose knee-length BLACK shorts wrap both thighs front sides rear seat crotch, closed seams/hems and broad natural folds. Black trainers. Red PRIMARY only as specified; over cloth ONE smooth diffuse blurred tint without rays/fibers/sixpack divisions. Whole body fingers shoes within generous white margins. No text/labels/arrows/logos. FOREARM SIDE BRIDGE HIP ABDUCTION STAR, TWO equal SQUARE panels side by side same fixed FRONT-side three-quarter view. LEFT FOREARM grounded on gray mat with elbow directly under shoulder, forearm points ahead palm down, LEFT bottom leg STRAIGHT with outer left shoe on mat, pelvis raised in straight line head-shoulders-hips-bottom heel. RIGHT top hand rests on right hip. LEFT START: BOTH straight legs stacked, top right shoe resting on bottom left shoe, hold forearm side plank. RIGHT RAISE: keep exact bottom forearm/body/leg unchanged and hips lifted, raise RIGHT TOP LEG STRAIGHT upward away from bottom leg by about35degrees, right knee fully extended, toes forward, no hip flexion/knee tuck, no top arm raised. Bottom shoe remains grounded, top shoe clearly separated elevated, normal anatomical leg lengths/hip connections. Primary ABDUCTORS ONE smooth diffuse BLURRED red patch over OUTER top hip/upper thigh on fully opaque black shorts, no rays/fibers/muscle divisions on fabric. No red abdomen/chest. Both legs/calves visible fine grayscale exposed anatomy. Full opaque shirt and shorts front sides back seat crotch; whole model inside generous margins.",
+          "inspectionNote": "Two forearm side-bridge phases show straight legs stacked then top-leg raised, bottom shoe/forearm supported and visible gap under hip. Outer-hip tint has radial rays on opaque shorts requiring correction. Fine grayscale exposed anatomy. Qualified pelvis alignment, support identity and abduction range review pending.",
+          "canonicalName": "side bridge hip abduction (star)",
+          "styleVersion": "white-v1",
+          "equipment": "body weight",
+          "primaryMuscles": [
+            "abductors"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Two forearm side-bridge phases show straight legs stacked then top-leg raised, bottom shoe/forearm supported and visible gap under hip. Outer-hip tint has radial rays on opaque shorts requiring correction. Fine grayscale exposed anatomy. Qualified pelvis alignment, support identity and abduction range review pending.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0703-female-anatomical-white-v1-p1-2ccb1cec024c.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 29294,
+              "sha256": "2ccb1cec024c163a6c48b8870cb7ec6cdfb65cc65cd23971b2f835a7ade4a783"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0703-female-anatomical-white-v1-p2-917f417e8498.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 30788,
+              "sha256": "917f417e8498ea3cbbd23e9ef359ac3e5ee9b98c3be42889f4c257c235d62748"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0703-female-anatomical-white-v1-thumb-e5ec908e0a44.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 2766,
+            "sha256": "e5ec908e0a44fea2f803afd271660bea80cc0283e9662687e3d5c107db121617"
+          },
+          "processingSignature": "3a6344d7e3aba7576eec0099f605e91afe06662a3813738467718448bb9ce01a",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0703-female-anatomical-white-v1.png",
+            "width": 1774,
+            "height": 887,
+            "bytes": 1424113,
+            "sha256": "60bf6b233c8de306da958aaac2975612819c87d9ef500325206f4ba3fa7a1366"
+          }
+        }
+      ]
+    }
+  ]
+}

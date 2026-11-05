@@ -1,0 +1,37 @@
+{
+  "batch": 41,
+  "trigger": "2026-11-01T09:24:13.454Z",
+  "completedAt": "2026-11-01T09:37:16.559802+00:00",
+  "tool": "image_gen.imagegen",
+  "newCandidateSets": 4,
+  "generationCalls": 6,
+  "exerciseIds": [
+    "0285",
+    "0340"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 160,
+    "remainingVariants": 11104,
+    "approvedVariants": 0,
+    "blockedVariants": 70,
+    "knownPoseImages": 324,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "All pending, none published. Alternating curl has three phases with opposite arm down. Hammer press initial pronated axes corrected using foot-end view, v1 history retained. Corrected end plates obscure actual grip, both variants held for qualified review or alternate-view correction. Opaque full clothing inspected.",
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 259826202
+}

@@ -1,0 +1,98 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "3779",
+      "variant": "male",
+      "key": "3779-male-anatomical-white-v1",
+      "prompt": "BAND SKIER side-rear threequarter TWO panels. Two band strands anchored OVERHEAD to fixedpost ahead, one complete Dhandle EACHhand. First stand knees soft arms extended forwardup. Second hiphinge backflat BOTH arms straight pull down and BACK PAST HIPS. Lats plain flat red wash on INTACT tank sides/back, all fabric folds visible. Use case: scientific-educational. Premium detailed grayscale anatomical adult male on pure white background, crisp realistic muscle contours on exposed skin, subtle contact shadows, no text. Reference artwork STYLE ONLY, no reference bench or pushup or chest highlight. Same camera scale model equipment all panels. Opaque black tank and mid-thigh shorts wrap whole front sides back crotch with seams folds hems. Covered highlights plain red FABRIC wash, NO anatomical fibers nipples muscle lobes cutaways transparency. Exposed target muscles red. Full body hands feet complete equipment generously inside frame. Every band visibly connects fixed anchor carabiner to complete handle grip; no gaps. Fixed post/anchor same physical and pixel location in every panel.",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Reach forward with overhead anchored band handles."
+        },
+        {
+          "key": "p2",
+          "caption": "Hinge and pull both handles past hips, then return."
+        }
+      ],
+      "blockingIssues": [],
+      "inspectionNote": "Real output inspected. Overhead anchored band remains continuous to both handles through straight-arm hip hinge; fabric folds retained. Review exact hinge depth. Qualified anatomy review pending; no publication.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream media used.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only"
+      }
+    },
+    {
+      "exerciseId": "3781",
+      "variant": "male",
+      "key": "3781-male-anatomical-white-v1",
+      "prompt": "BAND SPLIT JUMP WITH SINGLE ARM ROW sideview THREE panels. Lowband ankleheight fixedpost ahead, complete Dhandle RIGHT hand. First shallow splitstance LEFTfootforward RIGHTback knees slightlybent armextended. Second jump BOTHfeetofffloor switchinglegs midair. Third softlanding RIGHTfootforward LEFTback and RIGHTelbowrows handle toribs. Quads red exposed only. Use case: scientific-educational. Premium detailed grayscale anatomical adult male on pure white background, crisp realistic muscle contours on exposed skin, subtle contact shadows, no text. Reference artwork STYLE ONLY, no reference bench or pushup or chest highlight. Same camera scale model equipment all panels. Opaque black tank and mid-thigh shorts wrap whole front sides back crotch with seams folds hems. Covered highlights plain red FABRIC wash, NO anatomical fibers nipples muscle lobes cutaways transparency. Exposed target muscles red. Full body hands feet complete equipment generously inside frame. Every band visibly connects fixed anchor carabiner to complete handle grip; no gaps. Fixed post/anchor same physical and pixel location in every panel.",
+      "layout": {
+        "columns": 3,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Begin in shallow split stance with low band handle."
+        },
+        {
+          "key": "p2",
+          "caption": "Jump and switch legs in mid-air."
+        },
+        {
+          "key": "p3",
+          "caption": "Land softly in opposite stance and row to ribs."
+        }
+      ],
+      "blockingIssues": [
+        "Start and landing retain same lead leg; canonical leg switch during jump is not depicted."
+      ],
+      "inspectionNote": "Real output inspected. Airborne and row phases visible, but leg switch missing; saved blocked. Qualified anatomy review pending; no publication.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream media used.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only"
+      }
+    },
+    {
+      "exerciseId": "3782",
+      "variant": "male",
+      "key": "3782-male-anatomical-white-v1",
+      "prompt": "BAND JUMP LUNGE WITH SINGLE ARM ROW sideview THREE panels. Lowband ANKLEheight fixedpost ahead toRIGHTDhandle. First deep lunge LEFTfootforward RIGHTback frontknee90. Second jump BOTHfeet airborne switchinglegs. Third land deep opposite lunge RIGHTfootforward LEFTback frontknee90 while RIGHTelbow rows handleribs. Chestup frontkneeoverankle. Quads red exposed only. Use case: scientific-educational. Premium detailed grayscale anatomical adult male on pure white background, crisp realistic muscle contours on exposed skin, subtle contact shadows, no text. Reference artwork STYLE ONLY, no reference bench or pushup or chest highlight. Same camera scale model equipment all panels. Opaque black tank and mid-thigh shorts wrap whole front sides back crotch with seams folds hems. Covered highlights plain red FABRIC wash, NO anatomical fibers nipples muscle lobes cutaways transparency. Exposed target muscles red. Full body hands feet complete equipment generously inside frame. Every band visibly connects fixed anchor carabiner to complete handle grip; no gaps. Fixed post/anchor same physical and pixel location in every panel.",
+      "layout": {
+        "columns": 3,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Start in lunge holding low band handle."
+        },
+        {
+          "key": "p2",
+          "caption": "Jump and switch legs."
+        },
+        {
+          "key": "p3",
+          "caption": "Land in opposite lunge and row handle to ribs."
+        }
+      ],
+      "blockingIssues": [
+        "Start and landing retain same lead leg; canonical leg switch during jump is not depicted."
+      ],
+      "inspectionNote": "Real output inspected. Airborne and row phases visible, but leg switch missing; saved blocked. Qualified anatomy review pending; no publication.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream media used.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only"
+      }
+    }
+  ],
+  "runStopReason": "Repeated jump leg-switch depiction failure on 3781 and 3782."
+}

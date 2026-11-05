@@ -1,0 +1,85 @@
+{
+  "batch": 279,
+  "runId": "52f41809-1432-40ef-93ad-6c4a0d6aa096",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "trigger": "2026-11-04T01:22:25.808Z",
+  "purpose": "batch279 scheduled male continuation",
+  "started": "2026-11-04T01:22:38.894330+00:00",
+  "completedAt": "2026-11-04T01:27:38.320958+00:00",
+  "actualToolName": "image_gen__imagegen",
+  "calls": 4,
+  "newCandidateSets": 4,
+  "exerciseIds": [
+    "2337",
+    "2338",
+    "2339",
+    "2342"
+  ],
+  "variants": [
+    "male"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 989,
+    "remainingVariants": 10275,
+    "approvedVariants": 0,
+    "blockedVariants": 325,
+    "knownPoseImages": 1891,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 616,
+      "remainingVariants": 5016,
+      "blockedVariants": 206
+    }
+  },
+  "reviewNotes": {
+    "2337": "Supported flat-bench fly with feet grounded, paired dumbbells above chest then opened laterally near torso level. Soft elbow bend subtle at top and greater in open pose; qualified review needed for fixed elbow angle, wrist orientation, shoulder range and tank-overlay opacity/contours. Head and hips supported, opaque shorts. Human anatomy review remains pending.",
+    "2338": "Three bench poses saved with external captions distinguishing faulty comparison from correct bottom/top. First image shows lumbar arch gap while buttocks still appear pad-supported, so it does not clearly depict the intended lifted-hip fault; block comparison correction. Correct poses retain head/hips support, feet grounded and chest tint. Qualified review of hip contact and bar/wrist geometry required. Human anatomy review remains pending.",
+    "2339": "Wide-grip faulty example visibly differs from moderate-grip bottom and pressed finish; external captions identify faulty comparison. Correct bottom forearms more vertical. Bar appears at neck/very upper chest rather than mid-chest; block corrected-pose bar-path correction. Qualified review of camera projection, grip width, wrist stacking, head support and elbow angles required. Clothing remains opaque, chest teaching tint. Human anatomy review remains pending.",
+    "2342": "Flared upper-arm faulty comparison differs from tucked-elbow bottom and pressed finish, with external captions identifying intentional fault. Head/back/hips supported, feet grounded. Qualified review of actual elbow angles, bar placement, bench flatness versus camera perspective, wrist stacking and chest-overlay cloth detail required. Human anatomy review remains pending."
+  },
+  "blockingIssues": {
+    "2338": [
+      "Faulty comparison shows a lumbar arch rather than clearly lifted buttocks; hip-contact contrast is not established."
+    ],
+    "2339": [
+      "Correct bottom bar projects across neck/very upper chest rather than mid-chest; correct bar path and camera."
+    ]
+  },
+  "deferred": {
+    "2340": "Subtle scapular protraction/retraction comparison requires detailed pose/camera planning.",
+    "2341": "Faulty arm/bar path not precisely specified; clarify comparison before generating."
+  },
+  "tests": 7,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "workerSyncResult": {
+    "statuses": {
+      "generated": 989,
+      "pending": 10275
+    },
+    "remaining": 10275,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 1525070169
+  },
+  "publicationIndexUnchanged": true,
+  "savedMasters": [
+    "assets/exercise-illustrations/generated/2337-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/2338-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/2339-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/2342-male-anatomical-white-v1.png"
+  ]
+}

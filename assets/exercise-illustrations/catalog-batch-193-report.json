@@ -1,0 +1,65 @@
+{
+  "batch": 193,
+  "runId": "27430cdc-f966-4509-9870-b74f6a5a1ffe",
+  "trigger": "2026-11-03T12:05:29.677Z",
+  "completedAt": "2026-11-03T12:10:24.457951+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 2,
+  "generationCalls": 2,
+  "exerciseIds": [
+    "1460"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 700,
+    "remainingVariants": 10564,
+    "approvedVariants": 0,
+    "blockedVariants": 231,
+    "knownPoseImages": 1384,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Two walking lunge candidates, six poses, two built-in calls. Both BLOCKED because lunge cells repeat same leading leg rather than switching. Standing and split lunges retain front flat sole, rear heel raised, upright torso and red glute tint on intact shorts. Full opaque clothes and grayscale anatomy retained. Qualified knee/ankle alignment, rear knee clearance, alternating limb identity and fabric tint require review. Existing 1459 masters skipped before generation. Original project artwork style only, no upstream licensed input. Exact prompts/originals saved. No anatomical approval or publication. Seven pipeline checks do not establish anatomical accuracy.",
+  "skippedCompletedIds": [
+    "1459"
+  ],
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 1103908457,
+  "savedMasters": [
+    {
+      "exerciseId": "1460",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1460-male-anatomical-white-v1.png",
+        "width": 2172,
+        "height": 724,
+        "bytes": 1336537,
+        "sha256": "5b77bc97cf4076fa752faf37e0428967656f5c193707f61c0565bfd314f301a9"
+      }
+    },
+    {
+      "exerciseId": "1460",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1460-female-anatomical-white-v1.png",
+        "width": 2172,
+        "height": 724,
+        "bytes": 1312908,
+        "sha256": "3d0b11e38b0d521012b292ce7109e724d8965af309d8700f6feca988b1f2f40f"
+      }
+    }
+  ]
+}

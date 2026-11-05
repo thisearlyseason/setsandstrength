@@ -1,0 +1,79 @@
+{
+  "batch": 349,
+  "runId": "ba2f3c68-10b4-4988-993e-e627336aec06",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "trigger": "2026-11-04T12:20:02.382Z",
+  "purpose": "batch349 scheduled male continuation",
+  "started": "2026-11-04T12:20:30.288655+00:00",
+  "completedAt": "2026-11-04T12:27:15.910201+00:00",
+  "actualToolName": "image_gen__imagegen",
+  "calls": 4,
+  "newCandidateSets": 4,
+  "exerciseIds": [
+    "3344",
+    "3347",
+    "3348",
+    "3349"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1254,
+    "remainingVariants": 10010,
+    "approvedVariants": 0,
+    "blockedVariants": 470,
+    "knownPoseImages": 2463,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 881,
+      "remainingVariants": 4751,
+      "blockedVariants": 351
+    }
+  },
+  "reviewNotes": {
+    "3344": "Guided seated fly open and close phases with back support, planted feet and opaque shorts. Red pectoral fiber pattern through tank requires plain-wash correction. Qualified elbow bend, linkage and handle path review pending.",
+    "3347": "Standing supinated start, bilateral curl and overhead press with two dumbbells and stable stance. Opaque black clothing, biceps-only highlights. Qualified wrist rotation, elbow position and rib control review pending.",
+    "3348": "Alternating opposite shoulder taps visible, but duplicate shoes/feet appear under bench in addition to feet behind torso. Pectoral anatomical detail through tank also requires correction. Invalid limb depiction blocked.",
+    "3349": "Low front pulley and double-handed chest handle, standing and parallel squat with grounded heels. Front shorts show anatomical quad pattern/unclear intact hem in squat; correction required. Qualified knee tracking and cable tension review pending."
+  },
+  "blockingIssues": {
+    "3344": [
+      "Replace pectoral fiber pattern through tank with plain uniform wash on intact opaque fabric."
+    ],
+    "3348": [
+      "Remove duplicate feet/shoes; each figure must have exactly two connected legs and feet.",
+      "Replace anatomical chest pattern through tank with plain uniform wash."
+    ],
+    "3349": [
+      "Keep front shorts fully opaque with clear hems and plain uniform red wash, removing quad anatomy through fabric."
+    ]
+  },
+  "deferred": {
+    "3345": "Wrist curl name conflicts with finger spring squeeze instruction; precise implement/action unclear."
+  },
+  "tests": 7,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "workerSyncResult": {
+    "statuses": {
+      "generated": 1254,
+      "pending": 10010
+    },
+    "remaining": 10010,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 1913669559
+  },
+  "publicationIndexUnchanged": true
+}

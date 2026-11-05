@@ -1,0 +1,13 @@
+{
+  "authorizedVariants": 893,
+  "maleVariants": 639,
+  "femaleExistingVariants": 254,
+  "blockedRetained": 547,
+  "deliveryAssetsHashValidated": 2603,
+  "qualifiedAnatomyApprovalAdded": false,
+  "pipelineTests": "8 passed",
+  "mediaTests": "5 passed",
+  "productionBuild": "passed; candidate media excluded; authorized delivery included",
+  "browserVerification": "Local app exercise detail renders both poses and captions for dumbbell seated one arm front raise (3689).",
+  "releaseBoundary": "Local web app and built web assets; no remote deployment or native package rebuild."
+}

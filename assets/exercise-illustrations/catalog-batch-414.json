@@ -1,0 +1,121 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "3749",
+      "variant": "male",
+      "key": "3749-male-anatomical-white-v1",
+      "prompt": "INVERTED ROW WITH BED SHEET side three-quarter TWO panels. Bedsheet securely looped around thick fixed POST at chestheight, full postbase visible. Both ends gripped. Athlete heels grounded leansback straight body headtoheels. First armsstraight body leanedfarback. Second pulls chest toward hands bendingelbows close torso shoulderblades together, body remainsstraight. Lats red plainwash on intact tank sides/back. Use case: scientific-educational. Premium detailed grayscale anatomical adult male illustration on pure white background. Original project artwork reference for rendering style ONLY, never reference movement or chest overlay. Crisp detailed exposed muscle contours, realistic joints and proportions, soft contact shadows. Same model, camera, equipment, clothing and scale in every panel. Solid opaque BLACK tank and mid-thigh shorts completely wrap front, sides, back, seat and crotch, with seams folds and hems. Covered primary muscles: only a flat red teaching wash on intact fabric, NO fibers, lobes, nipples, muscle shapes, cutaways or transparency. Exposed primary muscles red as specified. Whole body, hands, feet and complete equipment within every equal-width panel with generous white margins above and below. No text, labels, arrows, numbers or logos.",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hold anchored sheet and lean back with straight body and arms."
+        },
+        {
+          "key": "p2",
+          "caption": "Pull chest toward hands, squeeze shoulder blades, then lower."
+        }
+      ],
+      "inspectionNote": "Real output inspected. Sheet connection continuous but pulled pose loses straight body at hips and lats fibers appear through tank. Qualified anatomy review pending; no approval or publication.",
+      "blockingIssues": [
+        "Hip bend breaks straight-body row alignment.",
+        "Lats anatomy fibers visible through tank overlay."
+      ],
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream media used.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only"
+      }
+    },
+    {
+      "exerciseId": "3750",
+      "variant": "male",
+      "key": "3750-male-anatomical-white-v1",
+      "prompt": "FRONT PLANK SIDE HOP rear three-quarter THREE panels samecamera. Highplank handsunder shoulders fixedsamefloorpoints shouldersstable hipslow. First feet together behindbody centered. Second both feet hop shortdistance to athletesLEFT, land together with lowhips. Third both feet hop across to athletesRIGHT, landtogether. Straight arms allposes. Abs primary plain flat redwash on intact tank, no abs anatomythroughshirt. Use case: scientific-educational. Premium detailed grayscale anatomical adult male illustration on pure white background. Original project artwork reference for rendering style ONLY, never reference movement or chest overlay. Crisp detailed exposed muscle contours, realistic joints and proportions, soft contact shadows. Same model, camera, equipment, clothing and scale in every panel. Solid opaque BLACK tank and mid-thigh shorts completely wrap front, sides, back, seat and crotch, with seams folds and hems. Covered primary muscles: only a flat red teaching wash on intact fabric, NO fibers, lobes, nipples, muscle shapes, cutaways or transparency. Exposed primary muscles red as specified. Whole body, hands, feet and complete equipment within every equal-width panel with generous white margins above and below. No text, labels, arrows, numbers or logos.",
+      "layout": {
+        "columns": 3,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Begin in high plank with hands under shoulders."
+        },
+        {
+          "key": "p2",
+          "caption": "Hop both feet a short distance to one side."
+        },
+        {
+          "key": "p3",
+          "caption": "Hop feet across to the other side while shoulders stay steady."
+        }
+      ],
+      "inspectionNote": "Real output inspected. Generated incline bench-supported plank rather than floor high plank; reference movement leaked into output. Qualified anatomy review pending; no approval or publication.",
+      "blockingIssues": [
+        "Hands incorrectly placed on bench instead of floor high plank."
+      ],
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream media used.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only"
+      }
+    },
+    {
+      "exerciseId": "3751",
+      "variant": "male",
+      "key": "3751-male-anatomical-white-v1",
+      "prompt": "REVERSE PUSH UP side three-quarter TWO panels. Hands on FLOOR behind hips fingers pointTOWARD hips, feetflat kneesbent. First hips lifted off floor armsstraight. Second elbows bend pointingBACK lower hips closefloor without sitting, same hand and footplacement. Press up via triceps. No bench. Exposed triceps red. Use case: scientific-educational. Premium detailed grayscale anatomical adult male illustration on pure white background. Original project artwork reference for rendering style ONLY, never reference movement or chest overlay. Crisp detailed exposed muscle contours, realistic joints and proportions, soft contact shadows. Same model, camera, equipment, clothing and scale in every panel. Solid opaque BLACK tank and mid-thigh shorts completely wrap front, sides, back, seat and crotch, with seams folds and hems. Covered primary muscles: only a flat red teaching wash on intact fabric, NO fibers, lobes, nipples, muscle shapes, cutaways or transparency. Exposed primary muscles red as specified. Whole body, hands, feet and complete equipment within every equal-width panel with generous white margins above and below. No text, labels, arrows, numbers or logos.",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Place hands behind hips and lift hips with straight arms."
+        },
+        {
+          "key": "p2",
+          "caption": "Bend elbows back to lower hips, then press up."
+        }
+      ],
+      "inspectionNote": "Real output inspected. Floor reverse push up shows planted palms fingers toward hips and elbows bending back, with hips lifted then lowered. Qualified anatomy review pending; no approval or publication.",
+      "blockingIssues": [],
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream media used.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only"
+      }
+    },
+    {
+      "exerciseId": "3752",
+      "variant": "male",
+      "key": "3752-male-anatomical-white-v1",
+      "prompt": "LYING DOUBLE LEGS BICEPS CURL WITH TOWEL side three-quarter TWO panels. Lie supine on floor HEAD supported, towel loops securely across soles of BOTH feet, each hand holds oneend. Both legs slightly lifted off floor knees soft. Elbows stay beside torso onfloor. First elbowsmoreextended towel taut feet fartheraway. Second bend elbows CURL hands towardchest while legsprovide opposing resistance; knees bend slightly toallow motion. Continuous towel visible linking hands around BOTH feet. Exposed biceps red. Use case: scientific-educational. Premium detailed grayscale anatomical adult male illustration on pure white background. Original project artwork reference for rendering style ONLY, never reference movement or chest overlay. Crisp detailed exposed muscle contours, realistic joints and proportions, soft contact shadows. Same model, camera, equipment, clothing and scale in every panel. Solid opaque BLACK tank and mid-thigh shorts completely wrap front, sides, back, seat and crotch, with seams folds and hems. Covered primary muscles: only a flat red teaching wash on intact fabric, NO fibers, lobes, nipples, muscle shapes, cutaways or transparency. Exposed primary muscles red as specified. Whole body, hands, feet and complete equipment within every equal-width panel with generous white margins above and below. No text, labels, arrows, numbers or logos.",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Lie back with towel around both feet and elbows beside torso."
+        },
+        {
+          "key": "p2",
+          "caption": "Curl hands toward chest against leg resistance, then lower slowly."
+        }
+      ],
+      "inspectionNote": "Real output inspected. Continuous towel around both feet and both hands; curl against legs shown; review elbow-floor contact and added head cushion. Qualified anatomy review pending; no approval or publication.",
+      "blockingIssues": [],
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream media used.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only"
+      }
+    }
+  ]
+}

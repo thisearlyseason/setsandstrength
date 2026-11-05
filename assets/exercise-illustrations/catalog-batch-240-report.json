@@ -1,0 +1,78 @@
+{
+  "batch": 240,
+  "runId": "2f5ec2cc-3492-491d-9335-74c54d2cc05f",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "trigger": "2026-11-03T19:01:22.133Z",
+  "purpose": "batch240 scheduled male continuation",
+  "started": "2026-11-03T19:01:35.690283+00:00",
+  "completedAt": "2026-11-03T19:07:37.307280+00:00",
+  "actualToolName": "image_gen__imagegen",
+  "calls": 4,
+  "newCandidateSets": 4,
+  "exerciseIds": [
+    "1814",
+    "1817",
+    "1818",
+    "1820"
+  ],
+  "variants": [
+    "male"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 833,
+    "remainingVariants": 10431,
+    "approvedVariants": 0,
+    "blockedVariants": 265,
+    "knownPoseImages": 1635,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 460,
+      "remainingVariants": 5172,
+      "blockedVariants": 146
+    }
+  },
+  "reviewNotes": {
+    "1814": "Elbow-flexor stretch: extended right arm with opposite hand holding fingers. BLOCKED: right hand appears palm-down/wrist-flexed rather than canonical palm-up with fingers pressed down/back. Correct forearm and wrist orientation. Qualified biceps target mapping also required.",
+    "1817": "Arms on support stretch: both palms planted behind on bench, elbows straight, knees bent and feet grounded, hips just forward of bench. Qualified review needed for appropriate shoulder extension, elbow loading, exact biceps mapping and support symmetry.",
+    "1818": "Supported supinated bar suspension: straight arms overhead, visible wrapped grips and both feet grounded for load control. Qualified review needed for precise underhand grip, thumb placement, shoulder position and biceps highlight mapping.",
+    "1820": "EZ preacher stretch: unloaded bent EZ bar low, arms extended on sloping pad, underhand grips and feet planted. Qualified review needed for elbow support, comfortable terminal extension without hyperextension, grip and biceps mapping."
+  },
+  "blockingIssues": {
+    "1814": [
+      "Working hand appears palm-down/wrist-flexed instead of canonical palm-up with fingers pressed down/back. Correct forearm/wrist orientation."
+    ]
+  },
+  "tests": 7,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "workerSyncResult": {
+    "statuses": {
+      "generated": 833,
+      "pending": 10431
+    },
+    "remaining": 10431,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 1295662258
+  },
+  "publicationIndexUnchanged": true,
+  "savedMasters": [
+    "assets/exercise-illustrations/generated/1814-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/1817-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/1818-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/1820-male-anatomical-white-v1.png"
+  ]
+}

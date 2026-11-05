@@ -1,0 +1,64 @@
+{
+  "runId": "58dabd12-905b-4a4e-9db3-24689d0b09b7",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "triggerTimestamp": "2026-11-05T01:29:05.204Z",
+  "batches": [
+    465,
+    466,
+    467,
+    468
+  ],
+  "builtInImageGenAvailable": true,
+  "generatedMasters": 13,
+  "generatedIds": [
+    "5853",
+    "5854",
+    "5859",
+    "5860",
+    "5861",
+    "5863",
+    "5866",
+    "5873",
+    "5888",
+    "5914",
+    "5915",
+    "5855",
+    "5944"
+  ],
+  "blocked": {
+    "5873": [
+      "Lowered EZ bar moves toward chest rather than forehead; elbow-flexion direction is incorrect for canonical lying triceps extension. Correct before approval."
+    ],
+    "5944": [
+      "Lowered hand appears palm-up while raised hand is neutral; canonical front raise requires neutral grip from start through finish. Correct lowered grip before approval."
+    ]
+  },
+  "coverageAfter": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1662,
+    "remainingVariants": 9602,
+    "approvedVariants": 0,
+    "blockedVariants": 596,
+    "knownPoseImages": 3358,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 1289,
+      "remainingVariants": 4343,
+      "blockedVariants": 477
+    }
+  },
+  "pipelineTests": "8 passed, 0 failed after each of four batches",
+  "approvedIndexUnchanged": true,
+  "existingUserApprovalsPreserved": 1306,
+  "publication": "none",
+  "anatomyReview": "pending",
+  "paidWorker": "disabled; inventory sync only, zero requests",
+  "stopReason": "Twenty-minute work window reached after thirteen masters; final partial batch checkpoint completed.",
+  "styleReference": "assets/exercise-illustrations/generated/0853-male-anatomical-white-v1.png",
+  "nextRunGuidance": "Continue clear missing dynamic male sets, skipping all registered and blocked originals. 5873 needs forehead-direction elbow flexion; 5944 lowered neutral grip. For neutral-grip exercises, explicitly counter lower-pose supination from reference. Avoid static holds with two-panel reference until original single-pose style reference strategy corrected. No anatomy approval or publication occurred."
+}

@@ -1,0 +1,88 @@
+{
+  "batch": 251,
+  "runId": "3938be69-2999-47bd-8391-7a71ccbf08c1",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "trigger": "2026-11-03T20:55:23.158Z",
+  "purpose": "batch251 scheduled male continuation",
+  "started": "2026-11-03T20:55:58.770727+00:00",
+  "completedAt": "2026-11-03T21:04:19.651668+00:00",
+  "actualToolName": "image_gen__imagegen",
+  "calls": 4,
+  "newCandidateSets": 4,
+  "exerciseIds": [
+    "1949",
+    "1953",
+    "1954",
+    "1956"
+  ],
+  "variants": [
+    "male"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 877,
+    "remainingVariants": 10387,
+    "approvedVariants": 0,
+    "blockedVariants": 280,
+    "knownPoseImages": 1689,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 504,
+      "remainingVariants": 5128,
+      "blockedVariants": 161
+    }
+  },
+  "reviewNotes": {
+    "1949": "Standing hip-flexor stretch: staggered stance, upright torso, rear forefoot support and rear anterior-thigh highlight. Qualified review needed for actual posterior pelvic tuck, comfortable hip extension, glute engagement and quad-versus-hip-flexor mapping.",
+    "1953": "Supported standing quad stretch: one hand on chair, other holds same-side shoe/ankle with bent knee, opposite foot grounded and knees close. Qualified review needed for exact ankle grip, neutral pelvis, knee alignment and quad overlay on intact shorts.",
+    "1954": "Box quad stretch: bent rear knee with foot on box, front foot grounded, torso tall and rear-thigh teaching overlay. Qualified review needed for top-of-foot rather than toe-only support, hip tuck, mild depth and quad mapping.",
+    "1956": "Double kneeling lean-back stretch: knees/shins supported, hands behind on floor, hips lifted and torso leaning back with intact shorts overlays. Qualified review needed for avoiding excessive hip lift/lumbar arch, comfortable knee range, foot orientation, hand contact and quad mapping."
+  },
+  "deferred": [
+    {
+      "exerciseId": "1952",
+      "reason": "Assisted leg extension lacks explicit hip/knee movement plane or supported final position; clarify before illustrating."
+    },
+    {
+      "exerciseIds": [
+        "1957",
+        "1958",
+        "1959",
+        "1960"
+      ],
+      "reason": "Front-shin/top-of-foot stretch descriptions conflict with calves primary target; metadata/mapping clarification required."
+    }
+  ],
+  "tests": 7,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "workerSyncResult": {
+    "statuses": {
+      "generated": 877,
+      "pending": 10387
+    },
+    "remaining": 10387,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 1358088053
+  },
+  "publicationIndexUnchanged": true,
+  "savedMasters": [
+    "assets/exercise-illustrations/generated/1949-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/1953-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/1954-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/1956-male-anatomical-white-v1.png"
+  ]
+}

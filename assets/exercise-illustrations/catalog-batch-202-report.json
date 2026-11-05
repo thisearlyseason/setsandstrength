@@ -1,0 +1,65 @@
+{
+  "batch": 202,
+  "runId": "8e1fe6d7-a1ce-4a23-9677-61932a0e758b",
+  "trigger": "2026-11-03T13:09:00.059Z",
+  "completedAt": "2026-11-03T13:15:00.667030+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 2,
+  "generationCalls": 2,
+  "exerciseIds": [
+    "1525"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 718,
+    "remainingVariants": 10546,
+    "approvedVariants": 0,
+    "blockedVariants": 235,
+    "knownPoseImages": 1412,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Two barbell jerk dip squat candidates, four poses, two built-in calls. Front rack with elbows forward, standing to short knee dip, feet flat, quadriceps red with diffuse cloth tint. Full opaque clothing and exposed detailed grayscale anatomy retained. Qualified front rack finger/wrist topology and shoulder shelf contact, torso verticality, dip depth, bar over midfoot and knee tracking require human review. Static endpoints do not establish explosive drive. Original project artwork rendering style only, no upstream licensed input. Exact prompts/originals saved. No anatomy or clothing approval or publication. Seven pipeline checks do not establish anatomical accuracy.",
+  "metadataConflictsDeferred": {
+    "1526": "Straight-arm description conflicts with high elbow pull and turnover instructions."
+  },
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 1129676386,
+  "savedMasters": [
+    {
+      "exerciseId": "1525",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1525-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1418933,
+        "sha256": "190bfe1d2c9af9b8c46378538dda5abb5ab6482a8e4a184c5c0affe02e73d7ed"
+      }
+    },
+    {
+      "exerciseId": "1525",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1525-female-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1385105,
+        "sha256": "9464d09b28be181b881aa04d420315922902b2f18fdc929c18d8dd9539665621"
+      }
+    }
+  ]
+}

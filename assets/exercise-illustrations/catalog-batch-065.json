@@ -1,0 +1,226 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "0385",
+      "variant": "male",
+      "key": "0385-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Rest forearms along thighs with palms down and wrists lowered"
+        },
+        {
+          "key": "p2",
+          "caption": "Extend wrists slightly while keeping forearms supported"
+        }
+      ],
+      "prompt": "Premium scientific anatomical fitness illustration. Realistic adult MALE, SILVER GRAYSCALE exposed arms legs neck with fine realistic muscle-fiber STRIATIONS and tendons, no smooth flesh-colored photographic skin; face/hands neutral monochrome. Pure white background soft shadows. TWO equal SIDE-BY-SIDE phases same model clothing camera scale light and equipment, whole body shoes dumbbells and complete bench if used inside each half with generous white margins/gutter. Fully OPAQUE BLACK sleeveless athletic shirt wraps whole chest abdomen BACK and sides; opaque black knee-length shorts cover whole front sides REAR SEAT CROTCH with closed hems seams folds; black trainers. No fabric holes/cutaways/transparency. Red primary muscle on exposed anatomy; under clothing use ONLY diffuse red tint on intact BLACK TEXTILE with folds crossing tint, never bare red muscle window. No text captions labels arrows numbers logos. DUMBBELL REVERSE WRIST CURL, seated. True SIDE-front oblique camera reveals wrists and forearm-thigh contact. Adult sits near front of flat bench feet flat shoulder-width knees90degrees thighs horizontal, torso gently hinged forward neutral spine. BOTH forearms lie FLAT along tops of thighs from elbows near hips to wrists just beyond knees in BOTH phases. Each hand holds ONE small realistic dumbbell, OVERHAND palms DOWN, handles horizontal across palm and knuckles on top. LEFT wrists relaxed slightly flexed downward beyond knees, weights below knee height slightly, forearms still flat. RIGHT extend WRISTS ONLY so backs of hands lift modestly toward forearm alignment, weights move only few centimeters, no elbow movement, no lifting forearms. Same elbow angle, same thigh contact, same body position. Two separate dumbbells never join as bar; identical weight/head sizes both phases. RED wrist EXTENSOR belly on DORSAL/top aspect of both forearms ONLY, biceps/triceps/hands gray. Full black shorts stay under forearms, clothing remains opaque, no cable equipment. Entire flat bench including rear end and feet visible inside each panel.",
+      "inspectionNote": "Separate dumbbells, pronated hands and dorsal forearm highlights, small hand rise and full opaque clothing visible. Need qualified check of continuous forearm-thigh support and isolated wrist range; no movement/anatomy approval."
+    },
+    {
+      "exerciseId": "0385",
+      "variant": "female",
+      "key": "0385-female-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Rest forearms along thighs with palms down and wrists lowered"
+        },
+        {
+          "key": "p2",
+          "caption": "Extend wrists slightly while keeping forearms supported"
+        }
+      ],
+      "prompt": "Premium scientific anatomical fitness illustration. Realistic adult FEMALE, SILVER GRAYSCALE exposed arms legs neck with fine realistic muscle-fiber STRIATIONS and tendons, no smooth flesh-colored photographic skin; face/hands neutral monochrome. Pure white background soft shadows. TWO equal SIDE-BY-SIDE phases same model clothing camera scale light and equipment, whole body shoes dumbbells and complete bench if used inside each half with generous white margins/gutter. Fully OPAQUE BLACK sleeveless athletic shirt wraps whole chest abdomen BACK and sides; opaque black knee-length shorts cover whole front sides REAR SEAT CROTCH with closed hems seams folds; black trainers. No fabric holes/cutaways/transparency. Red primary muscle on exposed anatomy; under clothing use ONLY diffuse red tint on intact BLACK TEXTILE with folds crossing tint, never bare red muscle window. No text captions labels arrows numbers logos. DUMBBELL REVERSE WRIST CURL, seated. True SIDE-front oblique camera reveals wrists and forearm-thigh contact. Adult sits near front of flat bench feet flat shoulder-width knees90degrees thighs horizontal, torso gently hinged forward neutral spine. BOTH forearms lie FLAT along tops of thighs from elbows near hips to wrists just beyond knees in BOTH phases. Each hand holds ONE small realistic dumbbell, OVERHAND palms DOWN, handles horizontal across palm and knuckles on top. LEFT wrists relaxed slightly flexed downward beyond knees, weights below knee height slightly, forearms still flat. RIGHT extend WRISTS ONLY so backs of hands lift modestly toward forearm alignment, weights move only few centimeters, no elbow movement, no lifting forearms. Same elbow angle, same thigh contact, same body position. Two separate dumbbells never join as bar; identical weight/head sizes both phases. RED wrist EXTENSOR belly on DORSAL/top aspect of both forearms ONLY, biceps/triceps/hands gray. Full black shorts stay under forearms, clothing remains opaque, no cable equipment. Entire flat bench including rear end and feet visible inside each panel.",
+      "inspectionNote": "Pronated separate dumbbells, forearms along thighs with small hand rise, dorsal extensor highlights, opaque full clothing and bench visible. Exact forearm contact and wrist-only endpoint require qualified review; no anatomy approval."
+    },
+    {
+      "exerciseId": "10901",
+      "variant": "male",
+      "key": "10901-male-anatomical-white-v2",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand tall holding one dumbbell with shoulder relaxed"
+        },
+        {
+          "key": "p2",
+          "caption": "Lift the loaded shoulder straight toward the ear"
+        }
+      ],
+      "prompt": "Correct this original male single-arm dumbbell shrug illustration. Keep male identity, silver detailed anatomical arms legs, fully opaque black sleeveless shirt and knee-length shorts covering whole back sides seat crotch, two side-by-side phases, ONE dumbbell in same hand, empty free hand. Change BOTH poses to identical REAR THREE-QUARTER camera behind loaded shoulder, showing BACK of neck/upper trapezius. Left shoulder relaxed down, right loaded shoulder raises vertically toward ear while elbow remains straight, opposite shoulder stays relaxed, torso/head neutral no tilt. Correct highlight ONLY loaded-side UPPER TRAPEZIUS posterior neck-to-shoulder slope RED; deltoid gray. NO red FRONT neck sternocleidomastoid or pectoral highlights. Black shirt remains continuous opaque fabric all over back, only faint diffuse red tint on intact upper-back fabric if necessary, no muscle-window cutaway. Full model/dumbbell/feet within broad white margins, same scale lighting both poses. No text.",
+      "inspectionNote": "Single loaded shoulder elevates with straight arm, free arm stays empty, full opaque clothes. Red anterior neck/chest tint does not correctly locate upper trapezius; requires rear-view highlight correction.",
+      "canonicalName": "dumbbell single arm shrug",
+      "styleVersion": "white-v1",
+      "equipment": "dumbbell",
+      "primaryMuscles": [
+        "traps"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original generation from exercise metadata and user-selected style. No upstream image input."
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Rear-view correction removes anterior chest highlight and shows loaded-side posterior upper trapezius. Single loaded shoulder elevation, straight arm and opaque back/seat/crotch clothes inspected. Qualified trapezius localization and scapular/cervical technique review still required. Original retained.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/10901-male-anatomical-white-v1-p1-ec84ec3b995c.webp",
+          "width": 768,
+          "height": 1024,
+          "bytes": 41092,
+          "sha256": "ec84ec3b995cf0e58cbd50cd5d4c8670845c1255868b95f4ed7d30c46b4d5f63"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/10901-male-anatomical-white-v1-p2-5e6d82ee9ccd.webp",
+          "width": 768,
+          "height": 1024,
+          "bytes": 41326,
+          "sha256": "5e6d82ee9ccd6242f695b79e815a0dd21d1841d122c0a061e274639324f9af4a"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/10901-male-anatomical-white-v1-thumb-e556d2189889.webp",
+        "width": 180,
+        "height": 240,
+        "bytes": 2832,
+        "sha256": "e556d21898898496273586bec969c36555cad8a2e0654cf15c58f1cb72f96e25"
+      },
+      "processingSignature": "37277e9f5935ee794f28c27521c708659e8985821492aa4cac043a100b41211e",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/10901-male-anatomical-white-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1842630,
+        "sha256": "ab5ee0ccdf354bd555f83d39a584bcf4af310ba6592d13b50c10c6fce82e6a43"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "10901",
+          "variant": "male",
+          "key": "10901-male-anatomical-white-v1",
+          "layout": {
+            "columns": 2,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Stand tall holding one dumbbell with shoulder relaxed"
+            },
+            {
+              "key": "p2",
+              "caption": "Lift the loaded shoulder straight toward the ear"
+            }
+          ],
+          "prompt": "Premium scientific anatomical fitness illustration. Realistic adult MALE, SILVER GRAYSCALE exposed arms legs neck with fine realistic muscle-fiber STRIATIONS and tendons, no smooth flesh-colored photographic skin; face/hands neutral monochrome. Pure white background soft shadows. TWO equal SIDE-BY-SIDE phases same model clothing camera scale light and equipment, whole body shoes dumbbells and complete bench if used inside each half with generous white margins/gutter. Fully OPAQUE BLACK sleeveless athletic shirt wraps whole chest abdomen BACK and sides; opaque black knee-length shorts cover whole front sides REAR SEAT CROTCH with closed hems seams folds; black trainers. No fabric holes/cutaways/transparency. Red primary muscle on exposed anatomy; under clothing use ONLY diffuse red tint on intact BLACK TEXTILE with folds crossing tint, never bare red muscle window. No text captions labels arrows numbers logos. DUMBBELL SINGLE ARM SHRUG. Front-side three-quarter camera shows one loaded shoulder and face/ear gap clearly. Stand tall feet hip-to-shoulder width, ONE dumbbell held in ONE hand at side in neutral grip palm toward thigh, arm straight. Other EMPTY arm relaxed straight at side. LEFT loaded shoulder relaxed naturally down; RIGHT elevate ONLY loaded shoulder VERTICALLY toward its ear visibly reducing shoulder-ear gap. Elbow stays straight, dumbbell rises only by scapular elevation, no biceps curl, no rolling shoulder, no torso sidebend, no head tilt. Nonloaded shoulder remains relaxed same height, head/torso/feet fixed both phases. Same hand/arm holds same dumbbell throughout. RED only loaded-side UPPER TRAPEZIUS slope between neck and shoulder; deltoid shoulder cap remains GRAY, opposite upper trap GRAY. Show red exposed neck anatomy above neckline only, below neckline diffuse red teaching tint on intact BLACK SHIRT, no shoulder/chest cutaway. Full figure and entire single dumbbell inside margins; no bench or cable machine.",
+          "inspectionNote": "Single loaded shoulder elevates with straight arm, free arm stays empty, full opaque clothes. Red anterior neck/chest tint does not correctly locate upper trapezius; requires rear-view highlight correction.",
+          "blockingIssues": [
+            "Remove anterior neck/pectoral red tint and accurately locate loaded-side upper trapezius."
+          ],
+          "canonicalName": "dumbbell single arm shrug",
+          "styleVersion": "white-v1",
+          "equipment": "dumbbell",
+          "primaryMuscles": [
+            "traps"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original generation from exercise metadata and user-selected style. No upstream image input."
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Single loaded shoulder elevates with straight arm, free arm stays empty, full opaque clothes. Red anterior neck/chest tint does not correctly locate upper trapezius; requires rear-view highlight correction.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/10901-male-anatomical-white-v1-p1-ec84ec3b995c.webp",
+              "width": 768,
+              "height": 1024,
+              "bytes": 41092,
+              "sha256": "ec84ec3b995cf0e58cbd50cd5d4c8670845c1255868b95f4ed7d30c46b4d5f63"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/10901-male-anatomical-white-v1-p2-5e6d82ee9ccd.webp",
+              "width": 768,
+              "height": 1024,
+              "bytes": 41326,
+              "sha256": "5e6d82ee9ccd6242f695b79e815a0dd21d1841d122c0a061e274639324f9af4a"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/10901-male-anatomical-white-v1-thumb-e556d2189889.webp",
+            "width": 180,
+            "height": 240,
+            "bytes": 2832,
+            "sha256": "e556d21898898496273586bec969c36555cad8a2e0654cf15c58f1cb72f96e25"
+          },
+          "processingSignature": "37277e9f5935ee794f28c27521c708659e8985821492aa4cac043a100b41211e",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/10901-male-anatomical-white-v1.png",
+            "width": 1536,
+            "height": 1024,
+            "bytes": 1842630,
+            "sha256": "ab5ee0ccdf354bd555f83d39a584bcf4af310ba6592d13b50c10c6fce82e6a43"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "10901",
+      "variant": "female",
+      "key": "10901-female-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand tall holding one dumbbell with shoulder relaxed"
+        },
+        {
+          "key": "p2",
+          "caption": "Lift the loaded shoulder straight toward the ear"
+        }
+      ],
+      "prompt": "Premium scientific anatomical fitness illustration. Realistic adult FEMALE, SILVER GRAYSCALE exposed arms legs neck with fine realistic muscle-fiber STRIATIONS and tendons, no smooth flesh-colored photographic skin; face/hands neutral monochrome. Pure white background soft shadows. TWO equal SIDE-BY-SIDE phases same model clothing camera scale light and equipment, whole body shoes dumbbells and complete bench if used inside each half with generous white margins/gutter. Fully OPAQUE BLACK sleeveless athletic shirt wraps whole chest abdomen BACK and sides; opaque black knee-length shorts cover whole front sides REAR SEAT CROTCH with closed hems seams folds; black trainers. No fabric holes/cutaways/transparency. Red primary muscle on exposed anatomy; under clothing use ONLY diffuse red tint on intact BLACK TEXTILE with folds crossing tint, never bare red muscle window. No text captions labels arrows numbers logos. DUMBBELL SINGLE ARM SHRUG. Front-side three-quarter camera shows one loaded shoulder and face/ear gap clearly. Stand tall feet hip-to-shoulder width, ONE dumbbell held in ONE hand at side in neutral grip palm toward thigh, arm straight. Other EMPTY arm relaxed straight at side. LEFT loaded shoulder relaxed naturally down; RIGHT elevate ONLY loaded shoulder VERTICALLY toward its ear visibly reducing shoulder-ear gap. Elbow stays straight, dumbbell rises only by scapular elevation, no biceps curl, no rolling shoulder, no torso sidebend, no head tilt. Nonloaded shoulder remains relaxed same height, head/torso/feet fixed both phases. Same hand/arm holds same dumbbell throughout. RED only loaded-side UPPER TRAPEZIUS slope between neck and shoulder; deltoid shoulder cap remains GRAY, opposite upper trap GRAY. Show red exposed neck anatomy above neckline only, below neckline diffuse red teaching tint on intact BLACK SHIRT, no shoulder/chest cutaway. Full figure and entire single dumbbell inside margins; no bench or cable machine. OVERRIDE camera to REAR THREE-QUARTER angle behind the loaded shoulder, show upper trapezius on BACK slope from posterior neck to acromion. NO red pectorals, no red front neck sternocleidomastoid. Target upper trapezius only. Clearly see loaded shoulder rise while empty arm/shoulder remain relaxed. All shirt back fully opaque black; red tint below collar only on back cloth.",
+      "inspectionNote": "Loaded-side shoulder elevates, straight arm and single dumbbell maintained; rear trapezius highlight clearer, empty side remains relaxed. Full opaque back/seat/crotch clothing visible. Qualified scapular motion, cervical position and highlight review pending."
+    }
+  ]
+}

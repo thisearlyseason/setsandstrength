@@ -1,0 +1,58 @@
+{
+  "batch": 443,
+  "runId": "137cdea4-b0c6-4bec-9a1e-9327b967ef83",
+  "triggerTimestamp": "2026-11-04T23:23:04.491Z",
+  "builtInImageGenAvailable": true,
+  "generatedIds": [
+    "4394",
+    "4411",
+    "4412",
+    "4422"
+  ],
+  "coverageAfter": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1572,
+    "remainingVariants": 9692,
+    "approvedVariants": 0,
+    "blockedVariants": 583,
+    "knownPoseImages": 3162,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 1199,
+      "remainingVariants": 4433,
+      "blockedVariants": 464
+    }
+  },
+  "paidWorker": {
+    "statuses": {
+      "generated": 1572,
+      "pending": 9692
+    },
+    "remaining": 9692,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 2377236751
+  },
+  "pipelineTests": "8 passed, 0 failed",
+  "approvedIndexUnchanged": true,
+  "existingUserApprovalsPreserved": 1306,
+  "anatomyReview": "pending",
+  "publication": "none",
+  "blocked": {
+    "4411": [
+      "High front raise ends below eye level; canonical record requires eye level or higher. Correct end range before approval."
+    ]
+  }
+}

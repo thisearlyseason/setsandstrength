@@ -1,0 +1,59 @@
+{
+  "batch": 394,
+  "runId": "4840bd32-8fef-4fa7-8a26-b4632cd8ae7f",
+  "triggerTimestamp": "2026-11-04T18:42:02.120Z",
+  "builtInImageGenAvailable": true,
+  "anatomyReview": "pending",
+  "publication": "none",
+  "generatedIds": [
+    "3622",
+    "3623"
+  ],
+  "failure": "3623 abdomen overlay shows six-pack lobes on clothing instead of plain uniform surface wash. Retained and blocked; generation stopped.",
+  "deferred": {
+    "3606": "Not attempted this run.",
+    "3616": "Not attempted this run.",
+    "3617": "Not attempted this run.",
+    "3621": "Not attempted this run.",
+    "3630": "Exact prompt saved; not generated after clothing-overlay failure."
+  },
+  "coverageAfter": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1398,
+    "remainingVariants": 9866,
+    "approvedVariants": 0,
+    "blockedVariants": 537,
+    "knownPoseImages": 2779,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 1025,
+      "remainingVariants": 4607,
+      "blockedVariants": 418
+    }
+  },
+  "paidWorker": {
+    "statuses": {
+      "generated": 1398,
+      "pending": 9866
+    },
+    "remaining": 9866,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 2122593826
+  },
+  "pipelineTests": "7 passed, 0 failed",
+  "approvedIndexUnchanged": true,
+  "existingUserApprovalsPreserved": 1306
+}

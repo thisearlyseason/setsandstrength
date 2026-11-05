@@ -58,3 +58,22 @@ backups/
 # Retain pinned atlas inputs locally; source fetcher verifies hashes.
 # Full input archives contain excluded atlas objects and are not redistributed.
 assets/anatomy/z-anatomy/*.fbx
+
+# Local attachments and device verification evidence
+.codex-attachments/
+docs/workout/verification-*/
+
+# Illustration masters stay local; optimized delivery assets are versioned under
+# frontend/public/workout/. Match the corresponding-source packaging exclusions.
+assets/exercise-illustrations/**/*.png
+assets/exercise-illustrations/**/*.jpg
+assets/exercise-illustrations/**/*.jpeg
+assets/exercise-illustrations/**/*.webp
+
+# Private environment variants and signing material
+.env.*
+!.env.example
+*.keystore
+*.jks
+*.p12
+*.mobileprovision

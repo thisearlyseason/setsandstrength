@@ -1,0 +1,90 @@
+{
+  "batch": 99,
+  "trigger": "2026-11-01T22:43:52.410Z",
+  "completedAt": "2026-11-01T22:56:07.977617+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 4,
+  "generationCalls": 8,
+  "exerciseIds": [
+    "0653",
+    "0654"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 408,
+    "remainingVariants": 10856,
+    "approvedVariants": 0,
+    "blockedVariants": 174,
+    "knownPoseImages": 846,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Four candidate sets with ten pose images and four retained corrections, eight built-in calls. None approved or published. Inverted Bosu push-ups show flat platform up and hemisphere down with both hands at rim, toes floor and high/low plank. Both cloth edits replace internal chest fibers with diffuse red patches on intact opaque black shirt. Knee-chest push-ups show low push-up then two knee-drive high planks; both opposite-leg correction attempts fail to exchange bent-leg identity, leaving both sets blocked. Male residual chest pattern also flagged. Qualified trainer geometry, wrist/rim grip, toe support, trunk alignment, limb continuity and all anatomy/technique review remain separate. Full opaque clothes wrap torso/front/sides/back/seat/crotch, exposed anatomy detailed grayscale. Exact prompts, original PNGs, corrections and hashes retained, original project artwork style-only and no upstream media inputs. Pipeline checks are not anatomy approval.",
+  "metadataConflictsDeferred": [
+    {
+      "exerciseId": "0652",
+      "issue": "Lats target conflicts with upper-back primary muscle map; clarify red primary highlight before generating."
+    }
+  ],
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 672254734,
+  "savedMasters": [
+    {
+      "exerciseId": "0653",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0653-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1721303,
+        "sha256": "c07ca278636b5e5a6c9b24c001b72d658ac642a0666b25ced533769b789e0f4f"
+      }
+    },
+    {
+      "exerciseId": "0653",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0653-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1688154,
+        "sha256": "8bd96d19b01cb49f982adea7490c49919660d3331eaa9d8df692f9da18d5aaef"
+      }
+    },
+    {
+      "exerciseId": "0654",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0654-male-anatomical-white-v2.png",
+        "width": 2172,
+        "height": 724,
+        "bytes": 1746075,
+        "sha256": "d8312669c902cff061225d39e8aa7e1a3f674f3cdb25fecf1214032b14f61dd9"
+      }
+    },
+    {
+      "exerciseId": "0654",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0654-female-anatomical-white-v2.png",
+        "width": 2172,
+        "height": 724,
+        "bytes": 1681334,
+        "sha256": "4a70c3dff74826e771e529dba3a7a80abdce2e9d946f439ab778f09017ea2ea4"
+      }
+    }
+  ]
+}

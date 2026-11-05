@@ -1,0 +1,353 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "2807",
+      "variant": "male",
+      "key": "2807-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand wide with toes out and hold one dumbbell securely in both hands."
+        },
+        {
+          "key": "p2",
+          "caption": "Hinge the weight back between legs, then drive hips forward to stand and swing it to hip height."
+        }
+      ],
+      "prompt": "DUMBBELL SUMO PULL THROUGH v2 TWOequalpanels SAME SIDErear threequartercamera. Widefeet toesout bothsolesfloor ONE NORMAL TWOHEADED DUMBBELL heldwithBOTHhands securelyaroundHANDLE, bothweightheadsvisible noextrastem. LEFTSTART hingehipsBACK flatneutralback kneessoft armsstraight dumbbellswingsBACKBETWEENlegs BELOWpelvis safelegclearance. RIGHTEND drivehipsforwardSTANDTALLneutralspine kneesextended, straightarmsswingdumbbellFORWARD toHIPh eight only notshoulder noleanback. FeetSAMEpositions. Primary BOTHGLUTES onlysmallplainuniformredwash onseatrear/sideofintactshorts BOTHposes allotherregionsgrayblack. Premium detailed adult MALE grayscale anatomical illustration. Approved original project reference STYLE ONLY ignore its pose/highlights. Pure white background soft shadows crisp detailed exposed gray muscle contours realistic proportions equipment. Opaque BLACK tank and black mid-thigh shorts fully wrap front sides back seat crotch normal fabric seams folds hems black shoes. No anatomy through fabric no cutaways. Covered primary highlight SMALL PLAIN UNIFORM soft red COLOR WASH on intact fabric no fibers lobes striations. Only specified primary red all other regions gray/black. Equal cells same person camera equipment whole body in frame generous margins. Exactly two arms hands five fingers two legs feet. No text captions labels arrows logos.",
+      "inspectionNote": "Real output inspected. Wide stance hinge then stand with dumbbell forward near hip height, both hands on normal handle. Glute wash includes radiating fiber-like anatomy over shorts; block overlay correction. Clothing otherwise opaque. Qualified review needed for safe between-leg swing clearance, neutral lockout rather than leanback, grip security and hamstring hinge. Human anatomy review pending. No approval or publication.",
+      "blockingIssues": [
+        "Remove radiating anatomy-like glute lines over shorts; retain plain uniform wash and opaque fabric."
+      ],
+      "canonicalName": "dumbbell sumo pull through v. 2",
+      "styleVersion": "white-v1",
+      "equipment": "dumbbell",
+      "primaryMuscles": [
+        "glutes"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Wide stance hinge then stand with dumbbell forward near hip height, both hands on normal handle. Glute wash includes radiating fiber-like anatomy over shorts; block overlay correction. Clothing otherwise opaque. Qualified review needed for safe between-leg swing clearance, neutral lockout rather than leanback, grip security and hamstring hinge. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2807-male-anatomical-white-v1-p1-324ff844f5a5.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 25640,
+          "sha256": "324ff844f5a58ab5490d6c8b2072fc89c0b1e2ac665cb72c0d07dae9b65c1e9f"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/2807-male-anatomical-white-v1-p2-8ee279806e05.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 23498,
+          "sha256": "8ee279806e053df77607a102a330af36d80c67a3bd9919055c0f3388e3edd1f9"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-306.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2807-male-anatomical-white-v1-thumb-5d9a713f2fe7.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2748,
+        "sha256": "5d9a713f2fe713fe1a36e10d8ef8020442bc1dbc4ea1ebaf7042f8598b4469a5"
+      },
+      "processingSignature": "8d1fb530f0ee955ce47be1fd3595c34f477f3441f1cacec5ee806eec0188924d",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2807-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1370766,
+        "sha256": "fa321c73ac522ccb0064a416143e398c6b106791efe9c8ecfaa5a2d6dea97bf0"
+      }
+    },
+    {
+      "exerciseId": "2809",
+      "variant": "male",
+      "key": "2809-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Set the bar across your upper back and take a split stance with torso upright."
+        },
+        {
+          "key": "p2",
+          "caption": "Lower rear knee toward floor, then rise through the front foot; keep the same stance."
+        }
+      ],
+      "prompt": "BARBELL SPLIT SQUAT v3 TWOequalpanels SAME SIDEfrontthreequartercamera. Normalstraightbarbell acrossUPPERBACKTRAPS BELOWneck notonhead handswideholdingbar platesoutsidehands. SAMELEFTfootforwardRIGHTfootback inlongsplitstance hipwidthlateralspace BOTHposes. LEFTSTART torsoUPRIGHT frontsoleflat rearforefootfloor rearheelup kneesnearlystraight. RIGHTEND lowerVERTICALLY bendBOTHknees frontthighnearhorizontal frontkneeaboveankle rearjustabovefloor, rearheelraised frontheelgrounded. FeetremainSAMEspots noswitch. Spineheadneutral. Primary LEFTQUADS onlyred exposedanteriorthighaboveknee plusplainuniformwash onintactfrontleftshorts nofibers otherregionsgrayblack. Premium detailed adult MALE grayscale anatomical illustration. Approved original project reference STYLE ONLY ignore its pose/highlights. Pure white background soft shadows crisp detailed exposed gray muscle contours realistic proportions equipment. Opaque BLACK tank and black mid-thigh shorts fully wrap front sides back seat crotch normal fabric seams folds hems black shoes. No anatomy through fabric no cutaways. Covered primary highlight SMALL PLAIN UNIFORM soft red COLOR WASH on intact fabric no fibers lobes striations. Only specified primary red all other regions gray/black. Equal cells same person camera equipment whole body in frame generous margins. Exactly two arms hands five fingers two legs feet. No text captions labels arrows logos.",
+      "inspectionNote": "Real output inspected. Same split stance lowers rear knee near floor with front heel grounded, bar across upper back and torso upright. Quad overlay shows dense anatomical striations over shorts; block fabric correction. Qualified review needed for bar support below neck, grip/wrist position, knee tracking and balance. Human anatomy review pending. No approval or publication.",
+      "blockingIssues": [
+        "Remove anatomical quad striations through shorts; preserve plain uniform wash over opaque fabric."
+      ],
+      "canonicalName": "barbell split squat v. 3",
+      "styleVersion": "white-v1",
+      "equipment": "barbell",
+      "primaryMuscles": [
+        "quads"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Same split stance lowers rear knee near floor with front heel grounded, bar across upper back and torso upright. Quad overlay shows dense anatomical striations over shorts; block fabric correction. Qualified review needed for bar support below neck, grip/wrist position, knee tracking and balance. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2809-male-anatomical-white-v1-p1-373ea1533f8b.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 34644,
+          "sha256": "373ea1533f8b92264ed6e486ba4a89b4383be878636e77b029437dd7ecc8c497"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/2809-male-anatomical-white-v1-p2-9e7514ec7605.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 34840,
+          "sha256": "9e7514ec7605b7f976c03c9189e7d5c041464a0fc7dd93b9a557cd25d579df4e"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-306.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2809-male-anatomical-white-v1-thumb-8d06cd5949b1.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 3652,
+        "sha256": "8d06cd5949b115df09157ef4bbbe4b26a72e7a044e97ac6436de4b43322f9f72"
+      },
+      "processingSignature": "e8a9efc6b2c2b353c4f78acb1215403f549c87d32ae5cbd7087b4392d2e0f610",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2809-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1517608,
+        "sha256": "11853f4c694ccd355fc020bf8a5a20c9049472dc1047c521a1643b3178e2d623"
+      }
+    },
+    {
+      "exerciseId": "2815",
+      "variant": "male",
+      "key": "2815-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 2
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Lie back holding the ball overhead with legs extended."
+        },
+        {
+          "key": "p2",
+          "caption": "Curl into a V and transfer the ball from hands to feet."
+        },
+        {
+          "key": "p3",
+          "caption": "Lower slowly with the ball secured between feet and arms overhead."
+        },
+        {
+          "key": "p4",
+          "caption": "Curl back up and transfer the ball to your hands; repeat with control."
+        }
+      ],
+      "prompt": "STABILITY BALL V UP HAND TO FOOT TRANSFER FOUR equalcells SAME SIDEcamera headLEFTfeetRIGHT, NO TEXT anywhere. ONE SAME GRAY STABILITYBALL eachpose. Pose1 SUPINEheadbackfloor armsextendOVERHEADleft holdingballBOTHHANDS ballnearhead beyondhands, legsSTRAIGHTextendedrightnear floor. Pose2 CURLintoV shoulderbladesofffloor BOTHstraightlegsraise45to60deg andarmsreachforward/up TRANSFERballfromHANDS toBETWEENFEET, bothhandstouchballandfeetgripball safely. Pose3 lowerHEADBACKfloor armsreachoverheadEMPTY, legsstraightlowerNEARfloor WITHBALLsecuredBETWEENFEET, nottouchfloor. Pose4 CURLVagain feetbringballtowardbothhands TAKEBALLbackwithhands, armslegsraised. Neutralneck nobendknees. Primary ABS onlysmallplainuniformredwash intactfrontabdomen blacktank ALLposes nosegmentsfibers chestgrayblack. Premium detailed adult MALE grayscale anatomical illustration. Approved original project reference STYLE ONLY ignore its pose/highlights. Pure white background soft shadows crisp detailed exposed gray muscle contours realistic proportions equipment. Opaque BLACK tank and black mid-thigh shorts fully wrap front sides back seat crotch normal fabric seams folds hems black shoes. No anatomy through fabric no cutaways. Covered primary highlight SMALL PLAIN UNIFORM soft red COLOR WASH on intact fabric no fibers lobes striations. Only specified primary red all other regions gray/black. Equal cells same person camera equipment whole body in frame generous margins. Exactly two arms hands five fingers two legs feet. No text captions labels arrows logos.",
+      "inspectionNote": "Real output inspected. Four poses rendered in 2x2 show ball overhead, hand/foot transfer, feet holding ball lowered and return to hands. Tank contains segmented abdominal anatomy rather than plain wash; block overlay correction. Qualified review needed for secure ball between feet, control without lumbar arch, hand anatomy and neutral neck. Human anatomy review pending. No approval or publication.",
+      "blockingIssues": [
+        "Remove segmented abdominal anatomy through tank; use plain uniform abdominal color wash on opaque fabric."
+      ],
+      "canonicalName": "v up down (with stability ball)",
+      "styleVersion": "white-v1",
+      "equipment": "stability ball",
+      "primaryMuscles": [
+        "abs"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Four poses rendered in 2x2 show ball overhead, hand/foot transfer, feet holding ball lowered and return to hands. Tank contains segmented abdominal anatomy rather than plain wash; block overlay correction. Qualified review needed for secure ball between feet, control without lumbar arch, hand anatomy and neutral neck. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2815-male-anatomical-white-v1-p1-d7eb67e67adf.webp",
+          "width": 768,
+          "height": 512,
+          "bytes": 14334,
+          "sha256": "d7eb67e67adf695618d99e84832926d988a2f12b2784c79db8ef7c63edb2c609"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/2815-male-anatomical-white-v1-p2-ff19c26f0643.webp",
+          "width": 768,
+          "height": 512,
+          "bytes": 20988,
+          "sha256": "ff19c26f0643a340dceb619c6b19cbbb19b06469b42dd45e35d2102c09194f41"
+        },
+        {
+          "pose": "p3",
+          "path": "/workout/illustration-pilot/2815-male-anatomical-white-v1-p3-649f44355e8a.webp",
+          "width": 768,
+          "height": 512,
+          "bytes": 14060,
+          "sha256": "649f44355e8a12ebe504dbd25d3e3dd3536d21fa5852081ced3354f1840ea169"
+        },
+        {
+          "pose": "p4",
+          "path": "/workout/illustration-pilot/2815-male-anatomical-white-v1-p4-43c60cf5b8bb.webp",
+          "width": 768,
+          "height": 512,
+          "bytes": 22230,
+          "sha256": "43c60cf5b8bbd30d75a7d194bd2395d8be4ff0150751a15640f0e29c7934ea11"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-306.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2815-male-anatomical-white-v1-thumb-4505f8f2da7e.webp",
+        "width": 240,
+        "height": 160,
+        "bytes": 1716,
+        "sha256": "4505f8f2da7e9685a97567ae71d5381201f9bb9ba1b06ed612ec79b07ee66430"
+      },
+      "processingSignature": "f12c385b7292352918d9fb5dff59d78d0c423e6314bb16afc48cb9ad8c9e97d0",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2815-male-anatomical-white-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1481130,
+        "sha256": "9abcd144c0b7bcc9aa4c49e93c6719c8c121322503191cf98b82c3cae6af4da3"
+      }
+    },
+    {
+      "exerciseId": "2828",
+      "variant": "male",
+      "key": "2828-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hold one rope end in each hand in a slight squat with core braced."
+        },
+        {
+          "key": "p2",
+          "caption": "Raise arms out to shoulder height to create rope waves, then lower and repeat."
+        }
+      ],
+      "prompt": "BATTLE ROPES SIDE RAISE TWOequalpanels SAME FRONTthreequartercamera. TwoTHICKROPES eachhandholdsONEEND secure neutralgrip, ropesextendFORWARD fromhands towardSAMEVISIBLELOWANCHORseveralfeetaway, curvedwaves physicalcontinuousrope nointersectionsbody. SAMEslightSQUAT kneesbenthipsback chesttall feetwideplanted BOTHposes. LEFTSTART armsDOWNbesidehips elbowssoft ropeslow. RIGHTEND BOTHarmsraiseOUTTOSIDES shoulderheight elbowssoft nearlystraight, ropescreateUPWARDWAVES continuouscurves toanchor, notfrontshoulderraise. Torsofixed nolean. Primary BOTHLATERALDELTOIDS onlyred exposedshouldercaps BOTHposes otherregionsgrayblack. Premium detailed adult MALE grayscale anatomical illustration. Approved original project reference STYLE ONLY ignore its pose/highlights. Pure white background soft shadows crisp detailed exposed gray muscle contours realistic proportions equipment. Opaque BLACK tank and black mid-thigh shorts fully wrap front sides back seat crotch normal fabric seams folds hems black shoes. No anatomy through fabric no cutaways. Covered primary highlight SMALL PLAIN UNIFORM soft red COLOR WASH on intact fabric no fibers lobes striations. Only specified primary red all other regions gray/black. Equal cells same person camera equipment whole body in frame generous margins. Exactly two arms hands five fingers two legs feet. No text captions labels arrows logos.",
+      "inspectionNote": "Real output inspected. Slight squat with both rope ends secure, arms lower then lift laterally near shoulder height creating continuous waves toward anchor. Exposed deltoid highlights only and opaque clothing. Qualified review needed for lateral rather than forward arm path, rope length/anchor mechanics, elbow softness and stable knees/hips. Human anatomy review pending. No approval or publication.",
+      "canonicalName": "battling ropes side raise",
+      "styleVersion": "white-v1",
+      "equipment": "rope",
+      "primaryMuscles": [
+        "delts"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Slight squat with both rope ends secure, arms lower then lift laterally near shoulder height creating continuous waves toward anchor. Exposed deltoid highlights only and opaque clothing. Qualified review needed for lateral rather than forward arm path, rope length/anchor mechanics, elbow softness and stable knees/hips. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2828-male-anatomical-white-v1-p1-bcf6d4828ade.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 32404,
+          "sha256": "bcf6d4828ade420f69f522a32ad71dffb6ef44057d5e478670a094b61c6e1561"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/2828-male-anatomical-white-v1-p2-4bc3783f6ccb.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 34686,
+          "sha256": "4bc3783f6ccbb48f5c7ad6eb504e22a676fbeb3f88662316204e1b32ec886624"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-306.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2828-male-anatomical-white-v1-thumb-a8e9eed8d309.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 3712,
+        "sha256": "a8e9eed8d309a3723e963c09e2727ef22b2333b6b1cc79b2db26ad7a36eb02f8"
+      },
+      "processingSignature": "41f5ef98eee9f272451ac41975b247be58ef7146c6bfa2ad22a138f780efe115",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2828-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1612918,
+        "sha256": "e506e9a73ece2ee006441f305317c84d123730407076ca1c460f30ffe390b78c"
+      }
+    }
+  ]
+}

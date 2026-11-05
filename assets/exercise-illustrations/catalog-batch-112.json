@@ -1,0 +1,514 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "0696",
+      "variant": "male",
+      "key": "0696-male-anatomical-white-v2",
+      "layout": {
+        "columns": 3,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Lie supine with legs extended, arms at sides and heels on the floor."
+        },
+        {
+          "key": "p2",
+          "caption": "Lift the hips with legs long, keeping shoulders, head and heels supported."
+        },
+        {
+          "key": "p3",
+          "caption": "Slide both heels toward the glutes with hips lifted; extend slowly and lower the hips."
+        }
+      ],
+      "detail": "SUPINE FLOOR SLIDING HAMSTRING CURL, THREE equal SQUARE panels in one WIDE LANDSCAPE row. Same SIDE three-quarter camera, HEAD LEFT FEET RIGHT. No bench/equipment/sliders, plain floor. Skull DIRECTLY rests on floor throughout, eyes ceiling, neutral relaxed neck, hair flattened away from under skull. Arms at sides palms flat floor unchanged. LEFT: supine start full back/pelvis on floor, both legs extended long, heels on floor, toes up. CENTER: bridge with BOTH legs long almost straight, hips lifted off floor, heels stay planted far away, upper shoulders and skull grounded, body shoulder-hips-knees-heels near straight low inclined line. RIGHT: draw BOTH heels along floor TOWARD glutes, knees now bent near 90 degrees with shins near vertical and feet flatter, hips stay lifted, body shoulder-hips-knees aligned, upper shoulders/skull grounded. Heel positions clearly move from FAR away center to CLOSE right, both feet floor contact, pelvis rises slightly as knees bend, no legs floating/no thighs pulled chest/no extreme lumbar arch. Primary HAMSTRINGS ONE smooth diffuse blurred red tint over posterior thighs on opaque black shorts, no fibers/rays in fabric; exposed calves/arms detailed grayscale. Same model scale and shoulder/head fixed floor position across phases.",
+      "prompt": "Correct original project THREE-panel supine floor sliding hamstring curl. Keep same side view head left feet right, same model and SAME SCALE, identical head/shoulder anchored locations in each square cell. LEFT start long legs/pelvis floor, CENTER long-leg bridge heels far away, RIGHT curled bridge. CRITICAL RIGHT panel heels must visibly slide toward hips, move BOTH shoes LEFT toward hands so heel is approximately one forearm length from fingertips, knees bend90degrees over heels; do not elongate torso or change thigh/shin lengths to keep feet far away. Maintain normal same limb lengths across all poses, same fixed skull/shoulder positions, hips lifted only center/right. Skull DIRECTLY on floor, eyes ceiling neutral neck, flatten hair behind head not under skull. Palms grounded same place. Replace red shorts fiber streaks with ONE smooth diffuse BLURRED red teaching tint over continuous opaque matte BLACK posterior thigh fabric, erase every ray/anatomical division, broad natural folds only. Preserve fine detailed grayscale EXPOSED arm/calf muscles and all full opaque garments front sides rear seat crotch. Whole body in three square cells with margins. No text/equipment.",
+      "inspectionNote": "Correction moves curled-phase heels closer to hands/glutes and replaces cloth streaks with smooth diffuse red. Three supine phases, grounded head/shoulders/palms and lifted hips in bridge phases retained. Exposed anatomy remains grayscale, opaque full garments. Qualified heel-slide continuity, limb scale, knee range and lumbar/hip alignment review pending.",
+      "canonicalName": "self assisted inverse leg curl (on floor)",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "hamstrings"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0696-male-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "status": "generated",
+        "costUSD": null
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Correction moves curled-phase heels closer to hands/glutes and replaces cloth streaks with smooth diffuse red. Three supine phases, grounded head/shoulders/palms and lifted hips in bridge phases retained. Exposed anatomy remains grayscale, opaque full garments. Qualified heel-slide continuity, limb scale, knee range and lumbar/hip alignment review pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0696-male-anatomical-white-v2-p1-a2723ac2a901.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 12320,
+          "sha256": "a2723ac2a901d5aede5703340e46c43a038e745c285436351a9181c01f8a0f68"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0696-male-anatomical-white-v2-p2-40ac5f7f7bc3.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 12520,
+          "sha256": "40ac5f7f7bc3971508525efc70c6c795b04131e931f915057d9e5689e4cb7257"
+        },
+        {
+          "pose": "p3",
+          "path": "/workout/illustration-pilot/0696-male-anatomical-white-v2-p3-9a36c907fbe3.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 13046,
+          "sha256": "9a36c907fbe3c9366422a1645f4df94b39ae63b474af1212bdbfa96c8b77a284"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0696-male-anatomical-white-v2-thumb-b8b8302f93e3.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 1942,
+        "sha256": "b8b8302f93e3d9356aa0400647c1913fa62a0acdbeb98c8502dbc7849d7705a0"
+      },
+      "processingSignature": "3c69d7ba20d0c039456a0e0c367139d59b8aa004455de006b25a2717df0c190c",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0696-male-anatomical-white-v2.png",
+        "width": 2172,
+        "height": 724,
+        "bytes": 1144850,
+        "sha256": "14de0d7ec2082c204b01ae97cf9370213b0a11efe52e3ba95f388e4a560cc9e6"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0696",
+          "variant": "male",
+          "key": "0696-male-anatomical-white-v1",
+          "layout": {
+            "columns": 3,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Lie supine with legs extended, arms at sides and heels on the floor."
+            },
+            {
+              "key": "p2",
+              "caption": "Lift the hips with legs long, keeping shoulders, head and heels supported."
+            },
+            {
+              "key": "p3",
+              "caption": "Slide both heels toward the glutes with hips lifted; extend slowly and lower the hips."
+            }
+          ],
+          "detail": "SUPINE FLOOR SLIDING HAMSTRING CURL, THREE equal SQUARE panels in one WIDE LANDSCAPE row. Same SIDE three-quarter camera, HEAD LEFT FEET RIGHT. No bench/equipment/sliders, plain floor. Skull DIRECTLY rests on floor throughout, eyes ceiling, neutral relaxed neck, hair flattened away from under skull. Arms at sides palms flat floor unchanged. LEFT: supine start full back/pelvis on floor, both legs extended long, heels on floor, toes up. CENTER: bridge with BOTH legs long almost straight, hips lifted off floor, heels stay planted far away, upper shoulders and skull grounded, body shoulder-hips-knees-heels near straight low inclined line. RIGHT: draw BOTH heels along floor TOWARD glutes, knees now bent near 90 degrees with shins near vertical and feet flatter, hips stay lifted, body shoulder-hips-knees aligned, upper shoulders/skull grounded. Heel positions clearly move from FAR away center to CLOSE right, both feet floor contact, pelvis rises slightly as knees bend, no legs floating/no thighs pulled chest/no extreme lumbar arch. Primary HAMSTRINGS ONE smooth diffuse blurred red tint over posterior thighs on opaque black shorts, no fibers/rays in fabric; exposed calves/arms detailed grayscale. Same model scale and shoulder/head fixed floor position across phases.",
+          "prompt": "Original educational exercise illustration. Attached original project artwork STYLE ONLY never pose/equipment reference. Neutral adult MALE, premium fine detailed grayscale anatomical fibers on EXPOSED muscles, pure white background. Fully OPAQUE matte BLACK sleeveless shirt covers torso front sides back abdomen; loose knee-length BLACK shorts wrap both thighs front sides rear seat crotch, closed seams/hems and broad natural folds. Black trainers. Red PRIMARY only as specified; over cloth ONE smooth diffuse blurred tint without rays/fibers/sixpack divisions. Whole body fingers shoes within generous white margins. No text/labels/arrows/logos. SUPINE FLOOR SLIDING HAMSTRING CURL, THREE equal SQUARE panels in one WIDE LANDSCAPE row. Same SIDE three-quarter camera, HEAD LEFT FEET RIGHT. No bench/equipment/sliders, plain floor. Skull DIRECTLY rests on floor throughout, eyes ceiling, neutral relaxed neck, hair flattened away from under skull. Arms at sides palms flat floor unchanged. LEFT: supine start full back/pelvis on floor, both legs extended long, heels on floor, toes up. CENTER: bridge with BOTH legs long almost straight, hips lifted off floor, heels stay planted far away, upper shoulders and skull grounded, body shoulder-hips-knees-heels near straight low inclined line. RIGHT: draw BOTH heels along floor TOWARD glutes, knees now bent near 90 degrees with shins near vertical and feet flatter, hips stay lifted, body shoulder-hips-knees aligned, upper shoulders/skull grounded. Heel positions clearly move from FAR away center to CLOSE right, both feet floor contact, pelvis rises slightly as knees bend, no legs floating/no thighs pulled chest/no extreme lumbar arch. Primary HAMSTRINGS ONE smooth diffuse blurred red tint over posterior thighs on opaque black shorts, no fibers/rays in fabric; exposed calves/arms detailed grayscale. Same model scale and shoulder/head fixed floor position across phases.",
+          "inspectionNote": "Three supine phases show hips grounded, long-leg bridge and bent-knee bridge with head grounded, palms planted. Heel displacement toward glutes versus changing limb scale needs correction/qualified review; red shorts tint has fiber streaks. Detailed exposed anatomy and opaque full clothing retained.",
+          "canonicalName": "self assisted inverse leg curl (on floor)",
+          "styleVersion": "white-v1",
+          "equipment": "body weight",
+          "primaryMuscles": [
+            "hamstrings"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Three supine phases show hips grounded, long-leg bridge and bent-knee bridge with head grounded, palms planted. Heel displacement toward glutes versus changing limb scale needs correction/qualified review; red shorts tint has fiber streaks. Detailed exposed anatomy and opaque full clothing retained.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0696-male-anatomical-white-v1-p1-20540add4048.webp",
+              "width": 724,
+              "height": 724,
+              "bytes": 13960,
+              "sha256": "20540add4048a15b30cfac57667be1fbb1a304f60808706db3ba8a4271f800dd"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0696-male-anatomical-white-v1-p2-388fb0683530.webp",
+              "width": 724,
+              "height": 724,
+              "bytes": 15162,
+              "sha256": "388fb0683530bd84e0fd7be4a6178be381404c61350af42c330cdfe9233ef142"
+            },
+            {
+              "pose": "p3",
+              "path": "/workout/illustration-pilot/0696-male-anatomical-white-v1-p3-fdec0d5dbed1.webp",
+              "width": 724,
+              "height": 724,
+              "bytes": 16680,
+              "sha256": "fdec0d5dbed197c11084db305a8b665cc28037a757cc45beac6e3ec148968aaa"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0696-male-anatomical-white-v1-thumb-1679f63c291e.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 1954,
+            "sha256": "1679f63c291ed1ffd637d6a94dada4f774ba24c6df3db43c53139a7f530c967d"
+          },
+          "processingSignature": "33096931410f2cb0e8ffea2e6dc74eb129863990cfaa5289c593aee9981fa49e",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0696-male-anatomical-white-v1.png",
+            "width": 2172,
+            "height": 724,
+            "bytes": 1217259,
+            "sha256": "7f9de4bdeb3a4dc9ad12ad14bb68687014b9605e92c82b0fd1d497e7b56db3fd"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "0696",
+      "variant": "female",
+      "key": "0696-female-anatomical-white-v2",
+      "layout": {
+        "columns": 3,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Lie supine with legs extended, arms at sides and heels on the floor."
+        },
+        {
+          "key": "p2",
+          "caption": "Lift the hips with legs long, keeping shoulders, head and heels supported."
+        },
+        {
+          "key": "p3",
+          "caption": "Slide both heels toward the glutes with hips lifted; extend slowly and lower the hips."
+        }
+      ],
+      "detail": "SUPINE FLOOR SLIDING HAMSTRING CURL, THREE equal SQUARE panels in one WIDE LANDSCAPE row. Same SIDE three-quarter camera, HEAD LEFT FEET RIGHT. No bench/equipment/sliders, plain floor. Skull DIRECTLY rests on floor throughout, eyes ceiling, neutral relaxed neck, hair flattened away from under skull. Arms at sides palms flat floor unchanged. LEFT: supine start full back/pelvis on floor, both legs extended long, heels on floor, toes up. CENTER: bridge with BOTH legs long almost straight, hips lifted off floor, heels stay planted far away, upper shoulders and skull grounded, body shoulder-hips-knees-heels near straight low inclined line. RIGHT: draw BOTH heels along floor TOWARD glutes, knees now bent near 90 degrees with shins near vertical and feet flatter, hips stay lifted, body shoulder-hips-knees aligned, upper shoulders/skull grounded. Heel positions clearly move from FAR away center to CLOSE right, both feet floor contact, pelvis rises slightly as knees bend, no legs floating/no thighs pulled chest/no extreme lumbar arch. Primary HAMSTRINGS ONE smooth diffuse blurred red tint over posterior thighs on opaque black shorts, no fibers/rays in fabric; exposed calves/arms detailed grayscale. Same model scale and shoulder/head fixed floor position across phases.",
+      "prompt": "Correct original project THREE-panel supine floor sliding hamstring curl. Keep same side view head left feet right, same model and SAME SCALE, identical head/shoulder anchored locations in each square cell. LEFT start long legs/pelvis floor, CENTER long-leg bridge heels far away, RIGHT curled bridge. CRITICAL RIGHT panel heels must visibly slide toward hips, move BOTH shoes LEFT toward hands so heel is approximately one forearm length from fingertips, knees bend90degrees over heels; do not elongate torso or change thigh/shin lengths to keep feet far away. Maintain normal same limb lengths across all poses, same fixed skull/shoulder positions, hips lifted only center/right. Skull DIRECTLY on floor, eyes ceiling neutral neck, flatten hair behind head not under skull. Palms grounded same place. Replace red shorts fiber streaks with ONE smooth diffuse BLURRED red teaching tint over continuous opaque matte BLACK posterior thigh fabric, erase every ray/anatomical division, broad natural folds only. Preserve fine detailed grayscale EXPOSED arm/calf muscles and all full opaque garments front sides rear seat crotch. Whole body in three square cells with margins. No text/equipment.",
+      "inspectionNote": "Correction moves curled-phase heels closer to hands/glutes, cloth tint softened to diffuse red. Supine start and long-leg/curled bridges retained, head/shoulders/palms appear grounded. Fine grayscale exposed muscles and opaque full garments. Qualified limb scale, heel-slide continuity, cervical contact and hip/lumbar alignment review pending.",
+      "canonicalName": "self assisted inverse leg curl (on floor)",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "hamstrings"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0696-female-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "status": "generated",
+        "costUSD": null
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Correction moves curled-phase heels closer to hands/glutes, cloth tint softened to diffuse red. Supine start and long-leg/curled bridges retained, head/shoulders/palms appear grounded. Fine grayscale exposed muscles and opaque full garments. Qualified limb scale, heel-slide continuity, cervical contact and hip/lumbar alignment review pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0696-female-anatomical-white-v2-p1-52dde8bed62f.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 13096,
+          "sha256": "52dde8bed62f6359c94d38df591cf9561fa1282f3c3b4863f3a2345813d779da"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0696-female-anatomical-white-v2-p2-d40afb0a8c09.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 14768,
+          "sha256": "d40afb0a8c096a2b5eb730a99343cc4402d9dc732a2949ae270d4dd0ffcbf02d"
+        },
+        {
+          "pose": "p3",
+          "path": "/workout/illustration-pilot/0696-female-anatomical-white-v2-p3-c0bb575184bc.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 14510,
+          "sha256": "c0bb575184bc98a38fe9bd5398900afd504f88e1da887eb764c883055522feda"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0696-female-anatomical-white-v2-thumb-2c59cfb7c6fa.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 1922,
+        "sha256": "2c59cfb7c6faa7f7b50d49911f5f272de193fe06938af1d18727d33c1142bd2a"
+      },
+      "processingSignature": "f9f64e4d47a16d6f8f545e18012c05467fd889a88fdad4f73e08578bcf032bb7",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0696-female-anatomical-white-v2.png",
+        "width": 2172,
+        "height": 724,
+        "bytes": 1171871,
+        "sha256": "3f6674d429c3b3d4c2be9d4cd8798fe1933fe3d845c9ad7aadd6e8cfba6234fe"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0696",
+          "variant": "female",
+          "key": "0696-female-anatomical-white-v1",
+          "layout": {
+            "columns": 3,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Lie supine with legs extended, arms at sides and heels on the floor."
+            },
+            {
+              "key": "p2",
+              "caption": "Lift the hips with legs long, keeping shoulders, head and heels supported."
+            },
+            {
+              "key": "p3",
+              "caption": "Slide both heels toward the glutes with hips lifted; extend slowly and lower the hips."
+            }
+          ],
+          "detail": "SUPINE FLOOR SLIDING HAMSTRING CURL, THREE equal SQUARE panels in one WIDE LANDSCAPE row. Same SIDE three-quarter camera, HEAD LEFT FEET RIGHT. No bench/equipment/sliders, plain floor. Skull DIRECTLY rests on floor throughout, eyes ceiling, neutral relaxed neck, hair flattened away from under skull. Arms at sides palms flat floor unchanged. LEFT: supine start full back/pelvis on floor, both legs extended long, heels on floor, toes up. CENTER: bridge with BOTH legs long almost straight, hips lifted off floor, heels stay planted far away, upper shoulders and skull grounded, body shoulder-hips-knees-heels near straight low inclined line. RIGHT: draw BOTH heels along floor TOWARD glutes, knees now bent near 90 degrees with shins near vertical and feet flatter, hips stay lifted, body shoulder-hips-knees aligned, upper shoulders/skull grounded. Heel positions clearly move from FAR away center to CLOSE right, both feet floor contact, pelvis rises slightly as knees bend, no legs floating/no thighs pulled chest/no extreme lumbar arch. Primary HAMSTRINGS ONE smooth diffuse blurred red tint over posterior thighs on opaque black shorts, no fibers/rays in fabric; exposed calves/arms detailed grayscale. Same model scale and shoulder/head fixed floor position across phases.",
+          "prompt": "Original educational exercise illustration. Attached original project artwork STYLE ONLY never pose/equipment reference. Neutral adult FEMALE, premium fine detailed grayscale anatomical fibers on EXPOSED muscles, pure white background. Fully OPAQUE matte BLACK sleeveless shirt covers torso front sides back abdomen; loose knee-length BLACK shorts wrap both thighs front sides rear seat crotch, closed seams/hems and broad natural folds. Black trainers. Red PRIMARY only as specified; over cloth ONE smooth diffuse blurred tint without rays/fibers/sixpack divisions. Whole body fingers shoes within generous white margins. No text/labels/arrows/logos. SUPINE FLOOR SLIDING HAMSTRING CURL, THREE equal SQUARE panels in one WIDE LANDSCAPE row. Same SIDE three-quarter camera, HEAD LEFT FEET RIGHT. No bench/equipment/sliders, plain floor. Skull DIRECTLY rests on floor throughout, eyes ceiling, neutral relaxed neck, hair flattened away from under skull. Arms at sides palms flat floor unchanged. LEFT: supine start full back/pelvis on floor, both legs extended long, heels on floor, toes up. CENTER: bridge with BOTH legs long almost straight, hips lifted off floor, heels stay planted far away, upper shoulders and skull grounded, body shoulder-hips-knees-heels near straight low inclined line. RIGHT: draw BOTH heels along floor TOWARD glutes, knees now bent near 90 degrees with shins near vertical and feet flatter, hips stay lifted, body shoulder-hips-knees aligned, upper shoulders/skull grounded. Heel positions clearly move from FAR away center to CLOSE right, both feet floor contact, pelvis rises slightly as knees bend, no legs floating/no thighs pulled chest/no extreme lumbar arch. Primary HAMSTRINGS ONE smooth diffuse blurred red tint over posterior thighs on opaque black shorts, no fibers/rays in fabric; exposed calves/arms detailed grayscale. Same model scale and shoulder/head fixed floor position across phases.",
+          "inspectionNote": "Supine start, long-leg bridge and bent-knee bridge with palms/shoulders/head apparently grounded and no bun. Heel displacement is small relative to large knee flexion, raising scale/limb continuity concern; correction required. Red shorts show streaks. Full opaque clothing and detailed exposed muscles retained.",
+          "canonicalName": "self assisted inverse leg curl (on floor)",
+          "styleVersion": "white-v1",
+          "equipment": "body weight",
+          "primaryMuscles": [
+            "hamstrings"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Supine start, long-leg bridge and bent-knee bridge with palms/shoulders/head apparently grounded and no bun. Heel displacement is small relative to large knee flexion, raising scale/limb continuity concern; correction required. Red shorts show streaks. Full opaque clothing and detailed exposed muscles retained.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0696-female-anatomical-white-v1-p1-0e98105bad75.webp",
+              "width": 724,
+              "height": 724,
+              "bytes": 13904,
+              "sha256": "0e98105bad7565bbbc0bb9330eb590dacfa73bccaf887166c9cc550bb6f63e0a"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0696-female-anatomical-white-v1-p2-a82d534d9196.webp",
+              "width": 724,
+              "height": 724,
+              "bytes": 15394,
+              "sha256": "a82d534d9196b23164ffd7eff6e5af5281d250d4e71756b9b91e6147f902bf9d"
+            },
+            {
+              "pose": "p3",
+              "path": "/workout/illustration-pilot/0696-female-anatomical-white-v1-p3-e86588637abd.webp",
+              "width": 724,
+              "height": 724,
+              "bytes": 16912,
+              "sha256": "e86588637abd9673ac6525486d074a91b498e8d6693ad2426446d0d989b4cd91"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0696-female-anatomical-white-v1-thumb-df9084dd8577.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 1950,
+            "sha256": "df9084dd85776d904c86cbd51d231a3c2089926b4db29d426750720482d9b393"
+          },
+          "processingSignature": "e493db5a5b4652ca53afe7244f567aa990d6e26725b2716ec3c7de52949322a7",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0696-female-anatomical-white-v1.png",
+            "width": 2172,
+            "height": 724,
+            "bytes": 1235870,
+            "sha256": "b53b1fa86e92bb373475bb6c50422084b1576dd137ac71ff36e81ee1475599c1"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "0701",
+      "variant": "male",
+      "key": "0701-male-anatomical-white-v1",
+      "layout": {
+        "columns": 1,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Support on the forearm and stacked bent knees, lift the hips into a straight line from knees to head, and hold 20\u201330 seconds before switching sides."
+        }
+      ],
+      "detail": "BENT-KNEE SIDE BRIDGE ISOMETRIC, ONE static hold full-body SIDE three-quarter FRONT view. Lie on LEFT side and support LEFT FOREARM flat on thin gray mat, elbow directly under left shoulder, forearm points ahead, left hand relaxed flat. BOTH knees BENT together about90degrees and STACKED on mat, BOTH lower legs/feet extend BACK BEHIND knees, shoes visible. Lift HIPS off mat until straight line LEFT KNEE-HIP-SHOULDER-HEAD, torso long diagonal, no side bend/sag. Ground support ONLY left forearm plus bent left knee/shin, NOT toes. RIGHT arm rests hand on right hip, top elbow points up naturally. Both legs remain knees bent stacked, no top leg raised. Neck neutral aligned spine eyes forward, full body/shoes/hands within wide margins. Primary ABS one smooth diffuse BLURRED red tint over side/front abdominal region of intact black shirt, no rays/fibers/sixpack divisions in garment. Exposed arms/calves fine detailed grayscale anatomy; all opaque shirt/shorts front sides back seat crotch. No bench/ball.",
+      "prompt": "Original educational exercise illustration. Attached original project artwork STYLE ONLY never pose/equipment reference. Neutral adult MALE, premium fine detailed grayscale anatomical fibers on EXPOSED muscles, pure white background. Fully OPAQUE matte BLACK sleeveless shirt covers torso front sides back abdomen; loose knee-length BLACK shorts wrap both thighs front sides rear seat crotch, closed seams/hems and broad natural folds. Black trainers. Red PRIMARY only as specified; over cloth ONE smooth diffuse blurred tint without rays/fibers/sixpack divisions. Whole body fingers shoes within generous white margins. No text/labels/arrows/logos. BENT-KNEE SIDE BRIDGE ISOMETRIC, ONE static hold full-body SIDE three-quarter FRONT view. Lie on LEFT side and support LEFT FOREARM flat on thin gray mat, elbow directly under left shoulder, forearm points ahead, left hand relaxed flat. BOTH knees BENT together about90degrees and STACKED on mat, BOTH lower legs/feet extend BACK BEHIND knees, shoes visible. Lift HIPS off mat until straight line LEFT KNEE-HIP-SHOULDER-HEAD, torso long diagonal, no side bend/sag. Ground support ONLY left forearm plus bent left knee/shin, NOT toes. RIGHT arm rests hand on right hip, top elbow points up naturally. Both legs remain knees bent stacked, no top leg raised. Neck neutral aligned spine eyes forward, full body/shoes/hands within wide margins. Primary ABS one smooth diffuse BLURRED red tint over side/front abdominal region of intact black shirt, no rays/fibers/sixpack divisions in garment. Exposed arms/calves fine detailed grayscale anatomy; all opaque shirt/shorts front sides back seat crotch. No bench/ball.",
+      "inspectionNote": "Single side-bridge hold shows grounded forearm/elbow under shoulder, stacked bent knees and feet, hips lifted, top hand on hip. Smooth diffuse abdominal tint on opaque shirt and full shorts seat/crotch, fine grayscale exposed anatomy. Qualified knee/hip/shoulder alignment, support-side identity and bent-knee angle review pending.",
+      "canonicalName": "side bridge (bent knee)",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "abs"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Single side-bridge hold shows grounded forearm/elbow under shoulder, stacked bent knees and feet, hips lifted, top hand on hip. Smooth diffuse abdominal tint on opaque shirt and full shorts seat/crotch, fine grayscale exposed anatomy. Qualified knee/hip/shoulder alignment, support-side identity and bent-knee angle review pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0701-male-anatomical-white-v1-p1-b25639d1d5c2.webp",
+          "width": 1200,
+          "height": 600,
+          "bytes": 33122,
+          "sha256": "b25639d1d5c2796da909c4e4770e5ea4db0cc6ddfeeb97c76a4f6bb0bdf463d3"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0701-male-anatomical-white-v1-thumb-8b0c1dd2c33c.webp",
+        "width": 240,
+        "height": 120,
+        "bytes": 2322,
+        "sha256": "8b0c1dd2c33c74d2ef17df3673f6dd90f1a1d583fe9287b5010b638c02ce4068"
+      },
+      "processingSignature": "468e2bd9179d44b7a4b30bb2c3ecbef9a77fc3f21d9cacc8460b186cb22363a3",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0701-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1527630,
+        "sha256": "9c8795e38c443338e9bcf4b4bc2cb5c94f611b0bb70789c08c27aeb6b06085b4"
+      }
+    },
+    {
+      "exerciseId": "0701",
+      "variant": "female",
+      "key": "0701-female-anatomical-white-v1",
+      "layout": {
+        "columns": 1,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Support on the forearm and stacked bent knees, lift the hips into a straight line from knees to head, and hold 20\u201330 seconds before switching sides."
+        }
+      ],
+      "detail": "BENT-KNEE SIDE BRIDGE ISOMETRIC, ONE static hold full-body SIDE three-quarter FRONT view. Lie on LEFT side and support LEFT FOREARM flat on thin gray mat, elbow directly under left shoulder, forearm points ahead, left hand relaxed flat. BOTH knees BENT together about90degrees and STACKED on mat, BOTH lower legs/feet extend BACK BEHIND knees, shoes visible. Lift HIPS off mat until straight line LEFT KNEE-HIP-SHOULDER-HEAD, torso long diagonal, no side bend/sag. Ground support ONLY left forearm plus bent left knee/shin, NOT toes. RIGHT arm rests hand on right hip, top elbow points up naturally. Both legs remain knees bent stacked, no top leg raised. Neck neutral aligned spine eyes forward, full body/shoes/hands within wide margins. Primary ABS one smooth diffuse BLURRED red tint over side/front abdominal region of intact black shirt, no rays/fibers/sixpack divisions in garment. Exposed arms/calves fine detailed grayscale anatomy; all opaque shirt/shorts front sides back seat crotch. No bench/ball.",
+      "prompt": "Original educational exercise illustration. Attached original project artwork STYLE ONLY never pose/equipment reference. Neutral adult FEMALE, premium fine detailed grayscale anatomical fibers on EXPOSED muscles, pure white background. Fully OPAQUE matte BLACK sleeveless shirt covers torso front sides back abdomen; loose knee-length BLACK shorts wrap both thighs front sides rear seat crotch, closed seams/hems and broad natural folds. Black trainers. Red PRIMARY only as specified; over cloth ONE smooth diffuse blurred tint without rays/fibers/sixpack divisions. Whole body fingers shoes within generous white margins. No text/labels/arrows/logos. BENT-KNEE SIDE BRIDGE ISOMETRIC, ONE static hold full-body SIDE three-quarter FRONT view. Lie on LEFT side and support LEFT FOREARM flat on thin gray mat, elbow directly under left shoulder, forearm points ahead, left hand relaxed flat. BOTH knees BENT together about90degrees and STACKED on mat, BOTH lower legs/feet extend BACK BEHIND knees, shoes visible. Lift HIPS off mat until straight line LEFT KNEE-HIP-SHOULDER-HEAD, torso long diagonal, no side bend/sag. Ground support ONLY left forearm plus bent left knee/shin, NOT toes. RIGHT arm rests hand on right hip, top elbow points up naturally. Both legs remain knees bent stacked, no top leg raised. Neck neutral aligned spine eyes forward, full body/shoes/hands within wide margins. Primary ABS one smooth diffuse BLURRED red tint over side/front abdominal region of intact black shirt, no rays/fibers/sixpack divisions in garment. Exposed arms/calves fine detailed grayscale anatomy; all opaque shirt/shorts front sides back seat crotch. No bench/ball.",
+      "inspectionNote": "Single static side bridge shows forearm grounded under shoulder, knees/feet stacked bent, hips elevated and top hand on hip. Smooth diffuse abdominal tint over opaque shirt, full shorts seat/crotch and fine exposed grayscale anatomy. Qualified support-side identity, knee angle and knee/hip/shoulder alignment review pending.",
+      "canonicalName": "side bridge (bent knee)",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "abs"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Single static side bridge shows forearm grounded under shoulder, knees/feet stacked bent, hips elevated and top hand on hip. Smooth diffuse abdominal tint over opaque shirt, full shorts seat/crotch and fine exposed grayscale anatomy. Qualified support-side identity, knee angle and knee/hip/shoulder alignment review pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0701-female-anatomical-white-v1-p1-e9f5588c064d.webp",
+          "width": 1200,
+          "height": 600,
+          "bytes": 30500,
+          "sha256": "e9f5588c064d75c8ded5d06aa023b94e88ec3d498ca297abfe215ace1c292e05"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0701-female-anatomical-white-v1-thumb-fc77265e882a.webp",
+        "width": 240,
+        "height": 120,
+        "bytes": 2168,
+        "sha256": "fc77265e882a1bfc442afde38470a8804fbd2016ba36d1b79111c0e25ad69456"
+      },
+      "processingSignature": "a91ac9f8e7d92a4c4db14310ec2f8cbd0fbbefce4133f660de0da5e8d5bd1fa8",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0701-female-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1460165,
+        "sha256": "60e1ffe3f940b3aa0226ca2d99e463a1ed5d189d5396c1f0a59358a1496d0b52"
+      }
+    }
+  ]
+}

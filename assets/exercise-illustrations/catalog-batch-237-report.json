@@ -1,0 +1,80 @@
+{
+  "batch": 237,
+  "runId": "7dd8bded-9cee-4c77-8ed1-74fc919f488c",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "trigger": "2026-11-03T18:39:10.721628+00:00",
+  "purpose": "batch237 interactive male continuation",
+  "completedAt": "2026-11-03T18:44:33.574609+00:00",
+  "actualToolName": "image_gen__imagegen",
+  "calls": 4,
+  "newCandidateSets": 4,
+  "exerciseIds": [
+    "1782",
+    "1785",
+    "1791",
+    "1792"
+  ],
+  "variants": [
+    "male"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 821,
+    "remainingVariants": 10443,
+    "approvedVariants": 0,
+    "blockedVariants": 262,
+    "knownPoseImages": 1623,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 448,
+      "remainingVariants": 5184,
+      "blockedVariants": 143
+    }
+  },
+  "reviewNotes": {
+    "1782": "Reverse chest stretch: tall stance, straight arms extended behind torso and clasped hands separated from pelvis. Qualified review needed for interlaced finger anatomy, relaxed shoulder range, pectoral mapping and neutral lumbar posture.",
+    "1785": "Kneeling chest stretch: hands contact bench and knees/shins grounded, but chest stays high and head lifts into extension rather than dropping chest below arms with neutral neck. Correction required before approval.",
+    "1791": "Seated trap/neck stretch: right hand anchors seat and right upper trap is red, but head tilts toward the anchored right shoulder rather than away. Direction/laterality correction required before approval.",
+    "1792": "Cross-body shoulder stretch: right arm crosses chest, opposite hand supports upper arm, opaque tank and shorts retained. Qualified review needed for forearm-hook versus hand-pull technique, relaxed shoulder position, finger anatomy and posterior deltoid highlight placement."
+  },
+  "blockingIssues": {
+    "1785": [
+      "Chest does not lower sufficiently below arms; head lifts into extension. Correct chest drop and neutral cervical alignment."
+    ],
+    "1791": [
+      "Head tilts toward anchored/highlighted shoulder instead of away. Correct head tilt and right/left stretch laterality."
+    ]
+  },
+  "tests": 7,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "workerSyncResult": {
+    "statuses": {
+      "generated": 821,
+      "pending": 10443
+    },
+    "remaining": 10443,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 1279443298
+  },
+  "publicationIndexUnchanged": true,
+  "savedMasters": [
+    "assets/exercise-illustrations/generated/1782-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/1785-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/1791-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/1792-male-anatomical-white-v1.png"
+  ]
+}

@@ -1,0 +1,232 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "0321",
+      "variant": "male",
+      "key": "0321-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Support back on incline and hold dumbbells beside upper chest"
+        },
+        {
+          "key": "p2",
+          "caption": "Press dumbbells upward while keeping palms facing each other"
+        }
+      ],
+      "prompt": "Premium scientific anatomical fitness illustration, realistic adult MALE. Detailed SILVER GRAYSCALE muscle-fiber STRIATIONS and tendons on exposed arms thighs calves, face hands neutral monochrome, no flesh-colored photographic skin. Pure white background, soft shadows. TWO SIDE-BY-SIDE equal-size phases with SAME body clothing equipment camera/light. Whole figure head hands shoes dumbbells and complete bench frame fit inside own half with generous WHITE margin and wide gutter. Fully OPAQUE BLACK sleeveless athletic shirt covers chest abdomen BACK and sides; opaque black knee-length shorts fully wrap front sides REAR SEAT CROTCH with closed hems seams fabric folds, black trainers. No exposed muscle windows or cutaway/transparent clothing. Under-clothing highlights ONLY diffuse red surface tint on intact BLACK TEXTILE with clearly visible folds crossing tint; never red anatomical fiber shapes through clothing. No text numbers captions arrows logos. DUMBBELL INCLINE HAMMER PRESS, NEUTRAL GRIP. Bench backrest set45degrees, person reclines SUPINE with head upper back and pelvis supported, feet flat wide enough for stability. Front-side three-quarter camera clearly shows BOTH dumbbells and palm orientations. LEFT dumbbells beside upper chest/shoulders, elbows bent below hands, wrists straight stacked above elbows, palms face EACH OTHER neutral hammer grip. RIGHT press both dumbbells UP toward ceiling above upper chest until arms extended but elbows not hyperextended, same neutral palms-facing-each-other grip, no rotation. Upper arms track about30-45degrees to torso, not extreme flared90degrees. Two separate identical dumbbells remain distinct, weights no collision, forearms vertical relative gravity. Head/back stay on45degree bench, feet identical and planted, no arch exaggeration. Red primary UPPER PECTORALS only as muted red tint ON black chest shirt with intact fabric folds, deltoid caps/triceps silvergray. No bare chest windows. Whole bench including support legs and headrest visible.",
+      "inspectionNote": "Incline supported press and opaque clothing visible. Far shoe clips frame; exact neutral palms-facing grip not clearly established by hand/weight perspective. Needs framing and grip confirmation before approval.",
+      "blockingIssues": [
+        "Restore whole shoe and verify true neutral hammer grip in both phases."
+      ]
+    },
+    {
+      "exerciseId": "0321",
+      "variant": "female",
+      "key": "0321-female-anatomical-white-v2",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Support back on incline and hold dumbbells beside upper chest"
+        },
+        {
+          "key": "p2",
+          "caption": "Press dumbbells upward while keeping palms facing each other"
+        }
+      ],
+      "prompt": "Correct original female incline neutral-grip dumbbell press artwork. Preserve female identity detailed silver anatomy, 45degree bench, full opaque black shirt and knee-length shorts covering back/seat/crotch, feet/body/bench framing and two start/end press poses. Fix weights and wrists: currently dumbbell shafts are VERTICAL, which is wrong. Each dumbbell's handle and two hexagonal heads must lie HORIZONTAL/PARALLEL TO FLOOR in BOTH phases. Dumbbell shaft should run front-to-back in sagittal plane, one head nearer camera and other farther from camera, NOT up-and-down. Hands grip those LEVEL handles with palms facing each other, wrists straight stacked above forearms, no sideways wrist kink. Neutral grip means palms facing each other, not a vertically hanging hammer weight. Left dumbbells at upper chest with elbows bent; right elbows extended pressing weights toward ceiling. Maintain real supported head/back, stable feet and arms no extra limbs. Primary upper-chest red only as soft tint on opaque folded black textile. All figures and weights inside margins, white background, no text.",
+      "inspectionNote": "Full body/bench and opaque clothes. Dumbbell shafts vertical rather than level with neutral wrists; grip depiction requires correction before instructional use.",
+      "blockingIssues": [
+        "Confirm/correct true palms-facing neutral grip in both phases; level shafts alone do not establish hammer-press specificity."
+      ],
+      "canonicalName": "dumbbell incline hammer press",
+      "styleVersion": "white-v1",
+      "equipment": "dumbbell",
+      "primaryMuscles": [
+        "pectorals"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original generation from exercise metadata and user-selected style. No upstream image input."
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Correction makes dumbbell shafts level and preserves supported incline press and opaque clothes. Perspective still does not clearly demonstrate palms facing each other; qualified neutral-grip confirmation/correction remains blocked. Original vertical-shaft version retained.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0321-female-anatomical-white-v1-p1-c72df2a1da85.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 42510,
+          "sha256": "c72df2a1da852348d95d97d0187cbfddf8b44ee8101967373c630116d1388035"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0321-female-anatomical-white-v1-p2-de5cf43a99f4.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 46854,
+          "sha256": "de5cf43a99f45ee93eca9b17615b031954ee9f2f0dadc047e712f50d210ba7f9"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0321-female-anatomical-white-v1-thumb-566875a810f3.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 4162,
+        "sha256": "566875a810f37951924b61fa8cf422a078a6fd7e16d0c99e4cd1497adfc25e1c"
+      },
+      "processingSignature": "71d8c21223ebce4361d06110e818ae04708f8ece16ea955105d16a6b3b556651",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0321-female-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1828448,
+        "sha256": "00e849de6ca0d6067dda3e434546066ea6a977d9a3dae3942ad9f74908bc034e"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0321",
+          "variant": "female",
+          "key": "0321-female-anatomical-white-v1",
+          "layout": {
+            "columns": 2,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Support back on incline and hold dumbbells beside upper chest"
+            },
+            {
+              "key": "p2",
+              "caption": "Press dumbbells upward while keeping palms facing each other"
+            }
+          ],
+          "prompt": "Premium scientific anatomical fitness illustration, realistic adult FEMALE. Detailed SILVER GRAYSCALE muscle-fiber STRIATIONS and tendons on exposed arms thighs calves, face hands neutral monochrome, no flesh-colored photographic skin. Pure white background, soft shadows. TWO SIDE-BY-SIDE equal-size phases with SAME body clothing equipment camera/light. Whole figure head hands shoes dumbbells and complete bench frame fit inside own half with generous WHITE margin and wide gutter. Fully OPAQUE BLACK sleeveless athletic shirt covers chest abdomen BACK and sides; opaque black knee-length shorts fully wrap front sides REAR SEAT CROTCH with closed hems seams fabric folds, black trainers. No exposed muscle windows or cutaway/transparent clothing. Under-clothing highlights ONLY diffuse red surface tint on intact BLACK TEXTILE with clearly visible folds crossing tint; never red anatomical fiber shapes through clothing. No text numbers captions arrows logos. DUMBBELL INCLINE HAMMER PRESS, NEUTRAL GRIP. Bench backrest set45degrees, person reclines SUPINE with head upper back and pelvis supported, feet flat wide enough for stability. Front-side three-quarter camera clearly shows BOTH dumbbells and palm orientations. LEFT dumbbells beside upper chest/shoulders, elbows bent below hands, wrists straight stacked above elbows, palms face EACH OTHER neutral hammer grip. RIGHT press both dumbbells UP toward ceiling above upper chest until arms extended but elbows not hyperextended, same neutral palms-facing-each-other grip, no rotation. Upper arms track about30-45degrees to torso, not extreme flared90degrees. Two separate identical dumbbells remain distinct, weights no collision, forearms vertical relative gravity. Head/back stay on45degree bench, feet identical and planted, no arch exaggeration. Red primary UPPER PECTORALS only as muted red tint ON black chest shirt with intact fabric folds, deltoid caps/triceps silvergray. No bare chest windows. Whole bench including support legs and headrest visible. CRITICAL hammer orientation: palms face MIDLINE toward each other in BOTH phases, thumbs point toward head, dumbbell LONG AXES are parallel to BODY'S sagittal head-to-foot direction, not transverse barbell-like axes. Show true neutral grip from SIDE-front camera. Zoom out enough both entire shoes remain well inside panel edges.",
+          "inspectionNote": "Full body/bench and opaque clothes. Dumbbell shafts vertical rather than level with neutral wrists; grip depiction requires correction before instructional use.",
+          "blockingIssues": [
+            "Correct dumbbell axes and wrist posture: level dumbbell handles with palms facing each other, not vertical hammer axes."
+          ],
+          "canonicalName": "dumbbell incline hammer press",
+          "styleVersion": "white-v1",
+          "equipment": "dumbbell",
+          "primaryMuscles": [
+            "pectorals"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original generation from exercise metadata and user-selected style. No upstream image input."
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Full body/bench and opaque clothes. Dumbbell shafts vertical rather than level with neutral wrists; grip depiction requires correction before instructional use.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0321-female-anatomical-white-v1-p1-c72df2a1da85.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 42510,
+              "sha256": "c72df2a1da852348d95d97d0187cbfddf8b44ee8101967373c630116d1388035"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0321-female-anatomical-white-v1-p2-de5cf43a99f4.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 46854,
+              "sha256": "de5cf43a99f45ee93eca9b17615b031954ee9f2f0dadc047e712f50d210ba7f9"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0321-female-anatomical-white-v1-thumb-566875a810f3.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 4162,
+            "sha256": "566875a810f37951924b61fa8cf422a078a6fd7e16d0c99e4cd1497adfc25e1c"
+          },
+          "processingSignature": "71d8c21223ebce4361d06110e818ae04708f8ece16ea955105d16a6b3b556651",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0321-female-anatomical-white-v1.png",
+            "width": 1774,
+            "height": 887,
+            "bytes": 1828448,
+            "sha256": "00e849de6ca0d6067dda3e434546066ea6a977d9a3dae3942ad9f74908bc034e"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "0327",
+      "variant": "male",
+      "key": "0327-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Rest chest on incline pad and let dumbbells hang"
+        },
+        {
+          "key": "p2",
+          "caption": "Row both dumbbells toward chest while keeping chest supported"
+        }
+      ],
+      "prompt": "Premium scientific anatomical fitness illustration, realistic adult MALE. Detailed SILVER GRAYSCALE muscle-fiber STRIATIONS and tendons on exposed arms thighs calves, face hands neutral monochrome, no flesh-colored photographic skin. Pure white background, soft shadows. TWO SIDE-BY-SIDE equal-size phases with SAME body clothing equipment camera/light. Whole figure head hands shoes dumbbells and complete bench frame fit inside own half with generous WHITE margin and wide gutter. Fully OPAQUE BLACK sleeveless athletic shirt covers chest abdomen BACK and sides; opaque black knee-length shorts fully wrap front sides REAR SEAT CROTCH with closed hems seams fabric folds, black trainers. No exposed muscle windows or cutaway/transparent clothing. Under-clothing highlights ONLY diffuse red surface tint on intact BLACK TEXTILE with clearly visible folds crossing tint; never red anatomical fiber shapes through clothing. No text numbers captions arrows logos. DUMBBELL INCLINE ROW, CHEST SUPPORTED. Bench backrest45degrees and same fixed angle both phases. Person sits reversed straddling lower seat, chest and abdomen against FRONT of inclined pad, feet planted on floor to either side, head ABOVE TOP of pad with neck neutral and face clear of cushion, back flat. Rear-side three-quarter camera sees upper back and both dumbbells. LEFT arms hang straight DOWN vertically from shoulders toward floor, palms facing each other neutral grip, dumbbells clear of bench frame/floor, no bracing hand. RIGHT bend BOTH elbows and row dumbbells toward lower chest alongside pad, elbows travel backward, scapulae retract, upper body remains supported with same chest/pad contact. Same arm grips and foot position, not one-arm row, no chest lifting away from pad, not biceps curl. Two separate identical dumbbells one in each hand, anatomical two arms only. RED primary UPPER BACK between scapulae only as diffuse red tint printed on intact BLACK BACK SHIRT, real folds over tint, chest/biceps/delts gray. Full bench headrest/seat/frame and both feet visible, no cutaways.",
+      "inspectionNote": "Chest supported on incline, both elbows row at endpoint, head clear and full opaque rear/crotch clothes. Far starting arm/weight partly occluded. Qualified bench angle, neutral grip, chest support and printed highlight review required; not approved."
+    },
+    {
+      "exerciseId": "0327",
+      "variant": "female",
+      "key": "0327-female-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Rest chest on incline pad and let dumbbells hang"
+        },
+        {
+          "key": "p2",
+          "caption": "Row both dumbbells toward chest while keeping chest supported"
+        }
+      ],
+      "prompt": "Premium scientific anatomical fitness illustration, realistic adult FEMALE. Detailed SILVER GRAYSCALE muscle-fiber STRIATIONS and tendons on exposed arms thighs calves, face hands neutral monochrome, no flesh-colored photographic skin. Pure white background, soft shadows. TWO SIDE-BY-SIDE equal-size phases with SAME body clothing equipment camera/light. Whole figure head hands shoes dumbbells and complete bench frame fit inside own half with generous WHITE margin and wide gutter. Fully OPAQUE BLACK sleeveless athletic shirt covers chest abdomen BACK and sides; opaque black knee-length shorts fully wrap front sides REAR SEAT CROTCH with closed hems seams fabric folds, black trainers. No exposed muscle windows or cutaway/transparent clothing. Under-clothing highlights ONLY diffuse red surface tint on intact BLACK TEXTILE with clearly visible folds crossing tint; never red anatomical fiber shapes through clothing. No text numbers captions arrows logos. DUMBBELL INCLINE ROW, CHEST SUPPORTED. Bench backrest45degrees and same fixed angle both phases. Person sits reversed straddling lower seat, chest and abdomen against FRONT of inclined pad, feet planted on floor to either side, head ABOVE TOP of pad with neck neutral and face clear of cushion, back flat. Rear-side three-quarter camera sees upper back and both dumbbells. LEFT arms hang straight DOWN vertically from shoulders toward floor, palms facing each other neutral grip, dumbbells clear of bench frame/floor, no bracing hand. RIGHT bend BOTH elbows and row dumbbells toward lower chest alongside pad, elbows travel backward, scapulae retract, upper body remains supported with same chest/pad contact. Same arm grips and foot position, not one-arm row, no chest lifting away from pad, not biceps curl. Two separate identical dumbbells one in each hand, anatomical two arms only. RED primary UPPER BACK between scapulae only as diffuse red tint printed on intact BLACK BACK SHIRT, real folds over tint, chest/biceps/delts gray. Full bench headrest/seat/frame and both feet visible, no cutaways.",
+      "inspectionNote": "Both arms row toward chest with supported torso, rear upper-back tint on intact shirt, full opaque seat/crotch clothes and stable planted feet. Far arm/weight occluded at start; qualified angle, grip and support review pending."
+    }
+  ]
+}

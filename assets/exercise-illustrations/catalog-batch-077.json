@@ -1,0 +1,611 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "0528",
+      "layout": {
+        "columns": 3,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand with both kettlebells racked at shoulder height"
+        },
+        {
+          "key": "p2",
+          "caption": "Dip knees slightly while keeping torso upright and bells racked"
+        },
+        {
+          "key": "p3",
+          "caption": "Drive through legs and press both bells overhead to standing lockout"
+        }
+      ],
+      "detail": "THREE equal side-by-side panels KETTLEBELL DOUBLE PUSH PRESS. Same FRONT three-quarter view, feet shoulder-width flat and same places throughout. Exactly TWO matching gray kettlebells per panel, each arched handle securely enclosed by one hand, round mass outside/back of forearm. LEFT upright standing with both bells at shoulder-height rack, elbows bent underneath load, wrists neutral. MIDDLE shallow vertical knee/hip DIP about 15-25 degrees, knees track toes, torso upright and pelvis neutral, both bells REMAIN at shoulder rack. RIGHT drive legs straight and extend BOTH arms overhead in scapular plane, wrists/elbows stack over shoulders, knees/hips fully extended, no re-dip catch and no back arch. Round bells behind/outside forearms, handles connected, no floating weights or changed grip. PRIMARY DELTOIDS exposed red at both shoulder caps all phases; all other muscle regions gray, chest shirt pureblack. No squat-depth dip, no split stance, no arm-first jerk; show rack-dip-standing-overhead sequence.",
+      "variant": "male",
+      "key": "0528-male-anatomical-white-v1",
+      "prompt": "Scientific-educational original exercise illustration. Attached original project artwork is STYLE ONLY: detailed grayscale exposed muscle fibers/tendons, matte clothing and pure white background. DO NOT copy exercise/bench/poses/chest highlight. Adult MALE same model/camera/proportions/equipment in every panel. Realistic anatomical exposed limbs/face/hands fully GRAYSCALE, no flesh coloring. Fully OPAQUE BLACK sleeveless shirt front/sides/back covers whole torso; opaque BLACK loose KNEE-LENGTH shorts wrap both thighs front/sides/back, REAR/SEAT/CROTCH, closed stitched hems, visible broad fabric folds. No muscle divisions or bare anatomy inside fabric, no translucent windows, no buttock/thigh cutaways. Red under clothing is ONLY faint unsegmented BLURRY red print ON BLACK fabric with folds crossing it. Black trainers, soft contact shadows. Whole figure, hands, bells and shoes in EACH panel, generous white margins above bells and below feet, white gutters. No text/captions/numbers/arrows/logos. THREE equal side-by-side panels KETTLEBELL DOUBLE PUSH PRESS. Same FRONT three-quarter view, feet shoulder-width flat and same places throughout. Exactly TWO matching gray kettlebells per panel, each arched handle securely enclosed by one hand, round mass outside/back of forearm. LEFT upright standing with both bells at shoulder-height rack, elbows bent underneath load, wrists neutral. MIDDLE shallow vertical knee/hip DIP about 15-25 degrees, knees track toes, torso upright and pelvis neutral, both bells REMAIN at shoulder rack. RIGHT drive legs straight and extend BOTH arms overhead in scapular plane, wrists/elbows stack over shoulders, knees/hips fully extended, no re-dip catch and no back arch. Round bells behind/outside forearms, handles connected, no floating weights or changed grip. PRIMARY DELTOIDS exposed red at both shoulder caps all phases; all other muscle regions gray, chest shirt pureblack. No squat-depth dip, no split stance, no arm-first jerk; show rack-dip-standing-overhead sequence.",
+      "inspectionNote": "Three phases show shoulder rack, shallow knee dip and standing two-arm overhead finish. Opaque shirt/shorts wrap throughout; both bells and grips in frame. Qualified shoulder/triceps highlight boundaries, wrist/load stacking and leg-drive technique review pending.",
+      "canonicalName": "kettlebell double push press",
+      "styleVersion": "white-v1",
+      "equipment": "kettlebell",
+      "primaryMuscles": [
+        "delts"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input; anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Three phases show shoulder rack, shallow knee dip and standing two-arm overhead finish. Opaque shirt/shorts wrap throughout; both bells and grips in frame. Qualified shoulder/triceps highlight boundaries, wrist/load stacking and leg-drive technique review pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0528-male-anatomical-white-v1-p1-66f98139998b.webp",
+          "width": 512,
+          "height": 1024,
+          "bytes": 25932,
+          "sha256": "66f98139998b4373018f962d2d3df82acc7d9555088bcaccb72d9a89c0a08085"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0528-male-anatomical-white-v1-p2-73c836e86f4a.webp",
+          "width": 512,
+          "height": 1024,
+          "bytes": 27194,
+          "sha256": "73c836e86f4ad8d8ce5f1ee6220a6046a76d19bf8302c5fef8cd66d6e09e7cac"
+        },
+        {
+          "pose": "p3",
+          "path": "/workout/illustration-pilot/0528-male-anatomical-white-v1-p3-8ae6fe1109f3.webp",
+          "width": 512,
+          "height": 1024,
+          "bytes": 29884,
+          "sha256": "8ae6fe1109f3eb3a19e8921e2dd9bca01acd695c6cbeb388ecc5418f58b9daf1"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0528-male-anatomical-white-v1-thumb-c47e06cb919a.webp",
+        "width": 120,
+        "height": 240,
+        "bytes": 2090,
+        "sha256": "c47e06cb919a546ef8eef2ec86ac3a8c943a1378aa3c4950fcb92e411f119877"
+      },
+      "processingSignature": "6a0937a7cb457646d82f06b0d3861dafd3cd48d64cbe156c473d633f11eaf410",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0528-male-anatomical-white-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1867746,
+        "sha256": "3669660ba7a3ce2c15c7ead83d131bcac103e9727b398b38d5575feed5c26b19"
+      }
+    },
+    {
+      "exerciseId": "0528",
+      "layout": {
+        "columns": 3,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand with both kettlebells racked at shoulder height"
+        },
+        {
+          "key": "p2",
+          "caption": "Dip knees slightly while keeping torso upright and bells racked"
+        },
+        {
+          "key": "p3",
+          "caption": "Drive through legs and press both bells overhead to standing lockout"
+        }
+      ],
+      "detail": "THREE equal side-by-side panels KETTLEBELL DOUBLE PUSH PRESS. Same FRONT three-quarter view, feet shoulder-width flat and same places throughout. Exactly TWO matching gray kettlebells per panel, each arched handle securely enclosed by one hand, round mass outside/back of forearm. LEFT upright standing with both bells at shoulder-height rack, elbows bent underneath load, wrists neutral. MIDDLE shallow vertical knee/hip DIP about 15-25 degrees, knees track toes, torso upright and pelvis neutral, both bells REMAIN at shoulder rack. RIGHT drive legs straight and extend BOTH arms overhead in scapular plane, wrists/elbows stack over shoulders, knees/hips fully extended, no re-dip catch and no back arch. Round bells behind/outside forearms, handles connected, no floating weights or changed grip. PRIMARY DELTOIDS exposed red at both shoulder caps all phases; all other muscle regions gray, chest shirt pureblack. No squat-depth dip, no split stance, no arm-first jerk; show rack-dip-standing-overhead sequence.",
+      "variant": "female",
+      "key": "0528-female-anatomical-white-v1",
+      "prompt": "Scientific-educational original exercise illustration. Attached original project artwork is STYLE ONLY: detailed grayscale exposed muscle fibers/tendons, matte clothing and pure white background. DO NOT copy exercise/bench/poses/chest highlight. Adult FEMALE same model/camera/proportions/equipment in every panel. Realistic anatomical exposed limbs/face/hands fully GRAYSCALE, no flesh coloring. Fully OPAQUE BLACK sleeveless shirt front/sides/back covers whole torso; opaque BLACK loose KNEE-LENGTH shorts wrap both thighs front/sides/back, REAR/SEAT/CROTCH, closed stitched hems, visible broad fabric folds. No muscle divisions or bare anatomy inside fabric, no translucent windows, no buttock/thigh cutaways. Red under clothing is ONLY faint unsegmented BLURRY red print ON BLACK fabric with folds crossing it. Black trainers, soft contact shadows. Whole figure, hands, bells and shoes in EACH panel, generous white margins above bells and below feet, white gutters. No text/captions/numbers/arrows/logos. THREE equal side-by-side panels KETTLEBELL DOUBLE PUSH PRESS. Same FRONT three-quarter view, feet shoulder-width flat and same places throughout. Exactly TWO matching gray kettlebells per panel, each arched handle securely enclosed by one hand, round mass outside/back of forearm. LEFT upright standing with both bells at shoulder-height rack, elbows bent underneath load, wrists neutral. MIDDLE shallow vertical knee/hip DIP about 15-25 degrees, knees track toes, torso upright and pelvis neutral, both bells REMAIN at shoulder rack. RIGHT drive legs straight and extend BOTH arms overhead in scapular plane, wrists/elbows stack over shoulders, knees/hips fully extended, no re-dip catch and no back arch. Round bells behind/outside forearms, handles connected, no floating weights or changed grip. PRIMARY DELTOIDS exposed red at both shoulder caps all phases; all other muscle regions gray, chest shirt pureblack. No squat-depth dip, no split stance, no arm-first jerk; show rack-dip-standing-overhead sequence.",
+      "inspectionNote": "Female rack, shallow dip and bilateral standing overhead press phases retain two bells, planted feet and full opaque clothing. Qualified shoulder highlight boundaries, wrist/load stacking, knee alignment and leg-drive review pending.",
+      "canonicalName": "kettlebell double push press",
+      "styleVersion": "white-v1",
+      "equipment": "kettlebell",
+      "primaryMuscles": [
+        "delts"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input; anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Female rack, shallow dip and bilateral standing overhead press phases retain two bells, planted feet and full opaque clothing. Qualified shoulder highlight boundaries, wrist/load stacking, knee alignment and leg-drive review pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0528-female-anatomical-white-v1-p1-e062960183eb.webp",
+          "width": 591,
+          "height": 887,
+          "bytes": 22594,
+          "sha256": "e062960183eb3a5c171f7feb5405754b2e79577aed852aa88de598760a9da2f3"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0528-female-anatomical-white-v1-p2-a289283b1809.webp",
+          "width": 592,
+          "height": 887,
+          "bytes": 22096,
+          "sha256": "a289283b18097e0064cf0c1255d00f415c66fd5b871c6d7d9e9a07fc89de9ae1"
+        },
+        {
+          "pose": "p3",
+          "path": "/workout/illustration-pilot/0528-female-anatomical-white-v1-p3-577bcf1a04c0.webp",
+          "width": 591,
+          "height": 887,
+          "bytes": 22942,
+          "sha256": "577bcf1a04c00118dade77f66737893e0b61e1d46a80cf8980ab55a6ec0e6c0d"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0528-female-anatomical-white-v1-thumb-f56a86b41647.webp",
+        "width": 160,
+        "height": 240,
+        "bytes": 2328,
+        "sha256": "f56a86b41647e4bbc09ecd8042269d17ccf3986657e22f5bbd1e83aecf060968"
+      },
+      "processingSignature": "9bec18d1c48f635f85850d5530864ca56fa37aacf16a69d089841499d9ed6f28",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0528-female-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1724947,
+        "sha256": "c15995c955ad4c333fe181bb0d21d0aadff8dc8e255b1e0f6415684b6ea5a86e"
+      }
+    },
+    {
+      "exerciseId": "0534",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand holding one kettlebell close to chest with both hands"
+        },
+        {
+          "key": "p2",
+          "caption": "Squat with heels planted, knees tracking toes and kettlebell at chest"
+        }
+      ],
+      "detail": "TWO equal SIDE-BY-SIDE panels KETTLEBELL GOBLET SQUAT. Same SIDE-FRONT three-quarter camera, person faces IMAGE LEFT, side of hips and thighs clearly visible. Exactly ONE gray kettlebell held close to sternum with BOTH hands securely gripping opposite sides/horns of its arched handle, mass hangs below handle, elbows bent down and in. LEFT upright stand, feet shoulder-width slight toe turnout, knees softly extended, chest up. RIGHT lower into squat hips back/down, knees bend tracking toes, thighs about parallel floor, heels and entire shoes stay planted, knees not collapsed inward, lumbar spine neutral, torso only modestly inclines; bell remains close to chest same grip, elbows inside knees. Both heels same footprint as left phase, no movement of camera or bell size. RED primary QUADRICEPS/GLUTEAL/ADDUCTORS (canonical muscleMap), visible only as low-contrast broad soft blurry red teaching print on FULLY OPAQUE BLACK upper-thigh/rear shorts; no anatomical shapes or muscle fibers on clothing. NO thigh/buttock muscle windows anywhere: fully covered front/back/sides/seat/crotch throughout; lower legs exposed gray.",
+      "variant": "male",
+      "key": "0534-male-anatomical-white-v3",
+      "prompt": "Edit ONLY the EXPOSED grayscale arms and lower legs in this original two-panel male goblet squat illustration. Restore premium fine anatomical muscle-fiber STRIATIONS, tendons and detailed grayscale contour texture on exposed deltoids, biceps, triceps, forearms, quadriceps region BELOW shorts hems, calves and shins. Match crisp realistic scientific muscle rendering, not smooth plastic skin. Keep face/hands grayscale. Preserve both poses, same man/proportions, grips, bell, shoes, camera, panels, white background EXACTLY. CLOTHING MUST REMAIN COMPLETELY UNCHANGED: fully OPAQUE BLACK shirt and knee-length shorts front/sides/back/seat/crotch with broad folds, diffuse red surface tint on cloth. Do NOT add muscle fibers, cutaways, transparency or anatomical divisions to ANY clothing. No new red on exposed arms or lower legs, no text.",
+      "inspectionNote": "Exposed arm/leg fine muscle-fiber detail restored while corrected opaque shorts and soft red surface tint retained. Same standing/squat poses and secure-looking bilateral one-bell grip. All anatomy, depth, knee alignment and muscle-map review remain pending.",
+      "canonicalName": "kettlebell goblet squat",
+      "styleVersion": "white-v1",
+      "equipment": "kettlebell",
+      "primaryMuscles": [
+        "quadriceps",
+        "gluteal",
+        "adductors"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input; anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 3,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Exposed arm/leg fine muscle-fiber detail restored while corrected opaque shorts and soft red surface tint retained. Same standing/squat poses and secure-looking bilateral one-bell grip. All anatomy, depth, knee alignment and muscle-map review remain pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0534-male-anatomical-white-v3-p1-6dec6eb70fb1.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 23142,
+          "sha256": "6dec6eb70fb1a6a6c78040507070c194b8b24aaf4edabb7e78d6f02858013f5e"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0534-male-anatomical-white-v3-p2-1996b1dcd76b.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 23640,
+          "sha256": "1996b1dcd76b53e40f302b049caade2e2f0525ac9f89cf4ece178c8c6c70c80a"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0534-male-anatomical-white-v3-thumb-ac31b85d6876.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2636,
+        "sha256": "ac31b85d687668e871f1e4f4904314388f157131c007d100f6738bc3022955d8"
+      },
+      "processingSignature": "39875cdae27a21f935630081dce53f52fdb864631953e84cd1c93374ecfdac93",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0534-male-anatomical-white-v3.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1631895,
+        "sha256": "279cb62f96cbc7429de28e13db972d191a371ef59d16aa2f6ce78f39387e2404"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0534",
+          "layout": {
+            "columns": 2,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Stand holding one kettlebell close to chest with both hands"
+            },
+            {
+              "key": "p2",
+              "caption": "Squat with heels planted, knees tracking toes and kettlebell at chest"
+            }
+          ],
+          "detail": "TWO equal SIDE-BY-SIDE panels KETTLEBELL GOBLET SQUAT. Same SIDE-FRONT three-quarter camera, person faces IMAGE LEFT, side of hips and thighs clearly visible. Exactly ONE gray kettlebell held close to sternum with BOTH hands securely gripping opposite sides/horns of its arched handle, mass hangs below handle, elbows bent down and in. LEFT upright stand, feet shoulder-width slight toe turnout, knees softly extended, chest up. RIGHT lower into squat hips back/down, knees bend tracking toes, thighs about parallel floor, heels and entire shoes stay planted, knees not collapsed inward, lumbar spine neutral, torso only modestly inclines; bell remains close to chest same grip, elbows inside knees. Both heels same footprint as left phase, no movement of camera or bell size. RED primary QUADRICEPS/GLUTEAL/ADDUCTORS (canonical muscleMap), visible only as low-contrast broad soft blurry red teaching print on FULLY OPAQUE BLACK upper-thigh/rear shorts; no anatomical shapes or muscle fibers on clothing. NO thigh/buttock muscle windows anywhere: fully covered front/back/sides/seat/crotch throughout; lower legs exposed gray.",
+          "variant": "male",
+          "key": "0534-male-anatomical-white-v1",
+          "prompt": "Scientific-educational original exercise illustration. Attached original project artwork is STYLE ONLY: detailed grayscale exposed muscle fibers/tendons, matte clothing and pure white background. DO NOT copy exercise/bench/poses/chest highlight. Adult MALE same model/camera/proportions/equipment in every panel. Realistic anatomical exposed limbs/face/hands fully GRAYSCALE, no flesh coloring. Fully OPAQUE BLACK sleeveless shirt front/sides/back covers whole torso; opaque BLACK loose KNEE-LENGTH shorts wrap both thighs front/sides/back, REAR/SEAT/CROTCH, closed stitched hems, visible broad fabric folds. No muscle divisions or bare anatomy inside fabric, no translucent windows, no buttock/thigh cutaways. Red under clothing is ONLY faint unsegmented BLURRY red print ON BLACK fabric with folds crossing it. Black trainers, soft contact shadows. Whole figure, hands, bells and shoes in EACH panel, generous white margins above bells and below feet, white gutters. No text/captions/numbers/arrows/logos. TWO equal SIDE-BY-SIDE panels KETTLEBELL GOBLET SQUAT. Same SIDE-FRONT three-quarter camera, person faces IMAGE LEFT, side of hips and thighs clearly visible. Exactly ONE gray kettlebell held close to sternum with BOTH hands securely gripping opposite sides/horns of its arched handle, mass hangs below handle, elbows bent down and in. LEFT upright stand, feet shoulder-width slight toe turnout, knees softly extended, chest up. RIGHT lower into squat hips back/down, knees bend tracking toes, thighs about parallel floor, heels and entire shoes stay planted, knees not collapsed inward, lumbar spine neutral, torso only modestly inclines; bell remains close to chest same grip, elbows inside knees. Both heels same footprint as left phase, no movement of camera or bell size. RED primary QUADRICEPS/GLUTEAL/ADDUCTORS (canonical muscleMap), visible only as low-contrast broad soft blurry red teaching print on FULLY OPAQUE BLACK upper-thigh/rear shorts; no anatomical shapes or muscle fibers on clothing. NO thigh/buttock muscle windows anywhere: fully covered front/back/sides/seat/crotch throughout; lower legs exposed gray.",
+          "inspectionNote": "Male goblet squat has one bell close to chest in both phases, bilateral handle grips, planted heels and roughly parallel thighs. Shirt/shorts wrap fully but red areas show muscle-fiber styling on fabric and need softening.",
+          "blockingIssues": [
+            "Replace detailed muscle-fiber outlines on shorts with diffuse unsegmented red print on opaque black cloth before publication."
+          ],
+          "canonicalName": "kettlebell goblet squat",
+          "styleVersion": "white-v1",
+          "equipment": "kettlebell",
+          "primaryMuscles": [
+            "quadriceps",
+            "gluteal",
+            "adductors"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input; anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Male goblet squat has one bell close to chest in both phases, bilateral handle grips, planted heels and roughly parallel thighs. Shirt/shorts wrap fully but red areas show muscle-fiber styling on fabric and need softening.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0534-male-anatomical-white-v1-p1-d5c7f94ca138.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 24224,
+              "sha256": "d5c7f94ca138316e52a3bdd0087ec549f56969db0646c31acaec76c79fe36053"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0534-male-anatomical-white-v1-p2-cb2a1b9900b3.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 24836,
+              "sha256": "cb2a1b9900b3a59bd64a57cbf23a5ef90ab16d6d69c5ab3c2633e14125b00ceb"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0534-male-anatomical-white-v1-thumb-c8a1b08a153b.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 2560,
+            "sha256": "c8a1b08a153bbad04f053f033cd64916452de3fea611918af25e5e9e1f9a969d"
+          },
+          "processingSignature": "53e98359cb8d15e1a1eb6812f8e95af41668ddf621edfe3c7ddf00d60d5ca313",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0534-male-anatomical-white-v1.png",
+            "width": 1774,
+            "height": 887,
+            "bytes": 1668564,
+            "sha256": "9d0b5f1a43604dfe643afa68c54a254889dadb8a741fe078062a64111c18a118"
+          }
+        },
+        {
+          "exerciseId": "0534",
+          "layout": {
+            "columns": 2,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Stand holding one kettlebell close to chest with both hands"
+            },
+            {
+              "key": "p2",
+              "caption": "Squat with heels planted, knees tracking toes and kettlebell at chest"
+            }
+          ],
+          "detail": "TWO equal SIDE-BY-SIDE panels KETTLEBELL GOBLET SQUAT. Same SIDE-FRONT three-quarter camera, person faces IMAGE LEFT, side of hips and thighs clearly visible. Exactly ONE gray kettlebell held close to sternum with BOTH hands securely gripping opposite sides/horns of its arched handle, mass hangs below handle, elbows bent down and in. LEFT upright stand, feet shoulder-width slight toe turnout, knees softly extended, chest up. RIGHT lower into squat hips back/down, knees bend tracking toes, thighs about parallel floor, heels and entire shoes stay planted, knees not collapsed inward, lumbar spine neutral, torso only modestly inclines; bell remains close to chest same grip, elbows inside knees. Both heels same footprint as left phase, no movement of camera or bell size. RED primary QUADRICEPS/GLUTEAL/ADDUCTORS (canonical muscleMap), visible only as low-contrast broad soft blurry red teaching print on FULLY OPAQUE BLACK upper-thigh/rear shorts; no anatomical shapes or muscle fibers on clothing. NO thigh/buttock muscle windows anywhere: fully covered front/back/sides/seat/crotch throughout; lower legs exposed gray.",
+          "variant": "male",
+          "key": "0534-male-anatomical-white-v2",
+          "prompt": "Edit ONLY shorts surfaces in this original two-panel male kettlebell goblet squat illustration. Preserve both standing/squat poses, hand grips, bell, face, exposed grayscale anatomical legs/arms, shirt, camera and white background EXACTLY. Repaint ALL shorts fully opaque matte BLACK athletic cloth covering front/sides/back, both upper thighs, buttocks/SEAT/CROTCH, closed hems just above knees. Remove ALL fine muscle fibers, anatomical divisions and muscle-shaped red markings from fabric. Use natural broad folds, stitched seams and fabric texture ONLY. Add faint soft BLURRY dark-red gradient PRINT on black cloth over front upper thighs and outer rear hip, without internal red lines or muscle outlines; black fabric remains visible across tint. Do not remove red teaching tint entirely. No exposed anatomy in shorts, no windows, no transparent material, no cutaways. Maintain whole frame and equal two panels, no text.",
+          "inspectionNote": "Shorts revision softens anatomical red outlines into fabric tint and retains opaque seat/crotch and squat mechanics. Exposed-limb striation is reduced versus original; style-detail consistency and all anatomy review remain pending.",
+          "canonicalName": "kettlebell goblet squat",
+          "styleVersion": "white-v1",
+          "equipment": "kettlebell",
+          "primaryMuscles": [
+            "quadriceps",
+            "gluteal",
+            "adductors"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input; anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 2,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Shorts revision softens anatomical red outlines into fabric tint and retains opaque seat/crotch and squat mechanics. Exposed-limb striation is reduced versus original; style-detail consistency and all anatomy review remain pending.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0534-male-anatomical-white-v2-p1-33798192839a.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 21416,
+              "sha256": "33798192839aad5a30c321423a8772d2f659d88e6337aa848d5a1cd3a85c440e"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0534-male-anatomical-white-v2-p2-f8bdbf110ddb.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 21848,
+              "sha256": "f8bdbf110ddbbcd5e63694111725c7f7c5e7adee6f0f19d318b04f1b5cca01c7"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0534-male-anatomical-white-v2-thumb-4d494191607e.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 2502,
+            "sha256": "4d494191607ef6bc54a885d4dc4275c0735a78d607eaa4f1cac1d5240afeaf12"
+          },
+          "processingSignature": "ee9d80c6d387372b3fef346c3140ae8e7c45152d75fe273c2e258e78d482ebeb",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0534-male-anatomical-white-v2.png",
+            "width": 1774,
+            "height": 887,
+            "bytes": 1617125,
+            "sha256": "e235b0757be44dd9ae30bd51eeb7a13dfb0e164dce318f66482e3f2f43da209d"
+          },
+          "blockingIssues": [
+            "Clothing correction reduced exposed-limb muscle-fiber detail; restore approved fine anatomical texture without reintroducing garment cutaways before publication."
+          ]
+        }
+      ]
+    },
+    {
+      "exerciseId": "0534",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand holding one kettlebell close to chest with both hands"
+        },
+        {
+          "key": "p2",
+          "caption": "Squat with heels planted, knees tracking toes and kettlebell at chest"
+        }
+      ],
+      "detail": "TWO equal SIDE-BY-SIDE panels KETTLEBELL GOBLET SQUAT. Same SIDE-FRONT three-quarter camera, person faces IMAGE LEFT, side of hips and thighs clearly visible. Exactly ONE gray kettlebell held close to sternum with BOTH hands securely gripping opposite sides/horns of its arched handle, mass hangs below handle, elbows bent down and in. LEFT upright stand, feet shoulder-width slight toe turnout, knees softly extended, chest up. RIGHT lower into squat hips back/down, knees bend tracking toes, thighs about parallel floor, heels and entire shoes stay planted, knees not collapsed inward, lumbar spine neutral, torso only modestly inclines; bell remains close to chest same grip, elbows inside knees. Both heels same footprint as left phase, no movement of camera or bell size. RED primary QUADRICEPS/GLUTEAL/ADDUCTORS (canonical muscleMap), visible only as low-contrast broad soft blurry red teaching print on FULLY OPAQUE BLACK upper-thigh/rear shorts; no anatomical shapes or muscle fibers on clothing. NO thigh/buttock muscle windows anywhere: fully covered front/back/sides/seat/crotch throughout; lower legs exposed gray.",
+      "variant": "female",
+      "key": "0534-female-anatomical-white-v2",
+      "prompt": "Edit ONLY shorts surfaces in this original two-panel female kettlebell goblet squat illustration. Preserve both standing/squat poses, hand grips, bell, face, exposed grayscale anatomical legs/arms, shirt, camera and white background EXACTLY. Repaint ALL shorts fully opaque matte BLACK athletic cloth covering front/sides/back, both upper thighs, buttocks/SEAT/CROTCH, closed hems just above knees. Remove ALL fine muscle fibers, anatomical divisions and muscle-shaped red markings from fabric. Use natural broad folds, stitched seams and fabric texture ONLY. Add faint soft BLURRY dark-red gradient PRINT on black cloth over front upper thighs and outer rear hip, without internal red lines or muscle outlines; black fabric remains visible across tint. Do not remove red teaching tint entirely. No exposed anatomy in shorts, no windows, no transparent material, no cutaways. Maintain whole frame and equal two panels, no text. IMPORTANT: preserve ALL fine grayscale muscle-fiber striations and tendons on EXPOSED arms and lower legs exactly as original; do not smooth exposed anatomical detail. Only fabric surface changes.",
+      "inspectionNote": "Shorts highlight softened to diffuse red on opaque black fabric while exposed-limb anatomical detail retained. Standing/squat phases, one-bell bilateral grip and planted heels remain. Qualified anatomy, depth, knee tracking and muscle-map review pending.",
+      "canonicalName": "kettlebell goblet squat",
+      "styleVersion": "white-v1",
+      "equipment": "kettlebell",
+      "primaryMuscles": [
+        "quadriceps",
+        "gluteal",
+        "adductors"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input; anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Shorts highlight softened to diffuse red on opaque black fabric while exposed-limb anatomical detail retained. Standing/squat phases, one-bell bilateral grip and planted heels remain. Qualified anatomy, depth, knee tracking and muscle-map review pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0534-female-anatomical-white-v2-p1-4052f840a5bf.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 22712,
+          "sha256": "4052f840a5bf4a7f601791c5e2fe8b5351dc5c0dd988b6dcfa9b862c9ddd9a62"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0534-female-anatomical-white-v2-p2-49aa488b7ae0.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 22660,
+          "sha256": "49aa488b7ae0bef5af7d070c358c797aa00892098260708febf288d5f4fe41ec"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0534-female-anatomical-white-v2-thumb-c8b325ba0153.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2474,
+        "sha256": "c8b325ba015350635ad66f08ad28717bc351bd011a29a9e0260b4d6328fc8287"
+      },
+      "processingSignature": "80e8754bad15d255f27fa93aa791b878ed442f84f06027daf95d1ce15ba16f67",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0534-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1655116,
+        "sha256": "6c423a7f7337a2575a756405005225802f2056394f44ae6f0113d7fd7bce1b3b"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0534",
+          "layout": {
+            "columns": 2,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Stand holding one kettlebell close to chest with both hands"
+            },
+            {
+              "key": "p2",
+              "caption": "Squat with heels planted, knees tracking toes and kettlebell at chest"
+            }
+          ],
+          "detail": "TWO equal SIDE-BY-SIDE panels KETTLEBELL GOBLET SQUAT. Same SIDE-FRONT three-quarter camera, person faces IMAGE LEFT, side of hips and thighs clearly visible. Exactly ONE gray kettlebell held close to sternum with BOTH hands securely gripping opposite sides/horns of its arched handle, mass hangs below handle, elbows bent down and in. LEFT upright stand, feet shoulder-width slight toe turnout, knees softly extended, chest up. RIGHT lower into squat hips back/down, knees bend tracking toes, thighs about parallel floor, heels and entire shoes stay planted, knees not collapsed inward, lumbar spine neutral, torso only modestly inclines; bell remains close to chest same grip, elbows inside knees. Both heels same footprint as left phase, no movement of camera or bell size. RED primary QUADRICEPS/GLUTEAL/ADDUCTORS (canonical muscleMap), visible only as low-contrast broad soft blurry red teaching print on FULLY OPAQUE BLACK upper-thigh/rear shorts; no anatomical shapes or muscle fibers on clothing. NO thigh/buttock muscle windows anywhere: fully covered front/back/sides/seat/crotch throughout; lower legs exposed gray.",
+          "variant": "female",
+          "key": "0534-female-anatomical-white-v1",
+          "prompt": "Scientific-educational original exercise illustration. Attached original project artwork is STYLE ONLY: detailed grayscale exposed muscle fibers/tendons, matte clothing and pure white background. DO NOT copy exercise/bench/poses/chest highlight. Adult FEMALE same model/camera/proportions/equipment in every panel. Realistic anatomical exposed limbs/face/hands fully GRAYSCALE, no flesh coloring. Fully OPAQUE BLACK sleeveless shirt front/sides/back covers whole torso; opaque BLACK loose KNEE-LENGTH shorts wrap both thighs front/sides/back, REAR/SEAT/CROTCH, closed stitched hems, visible broad fabric folds. No muscle divisions or bare anatomy inside fabric, no translucent windows, no buttock/thigh cutaways. Red under clothing is ONLY faint unsegmented BLURRY red print ON BLACK fabric with folds crossing it. Black trainers, soft contact shadows. Whole figure, hands, bells and shoes in EACH panel, generous white margins above bells and below feet, white gutters. No text/captions/numbers/arrows/logos. TWO equal SIDE-BY-SIDE panels KETTLEBELL GOBLET SQUAT. Same SIDE-FRONT three-quarter camera, person faces IMAGE LEFT, side of hips and thighs clearly visible. Exactly ONE gray kettlebell held close to sternum with BOTH hands securely gripping opposite sides/horns of its arched handle, mass hangs below handle, elbows bent down and in. LEFT upright stand, feet shoulder-width slight toe turnout, knees softly extended, chest up. RIGHT lower into squat hips back/down, knees bend tracking toes, thighs about parallel floor, heels and entire shoes stay planted, knees not collapsed inward, lumbar spine neutral, torso only modestly inclines; bell remains close to chest same grip, elbows inside knees. Both heels same footprint as left phase, no movement of camera or bell size. RED primary QUADRICEPS/GLUTEAL/ADDUCTORS (canonical muscleMap), visible only as low-contrast broad soft blurry red teaching print on FULLY OPAQUE BLACK upper-thigh/rear shorts; no anatomical shapes or muscle fibers on clothing. NO thigh/buttock muscle windows anywhere: fully covered front/back/sides/seat/crotch throughout; lower legs exposed gray.",
+          "inspectionNote": "Female goblet squat retains one bell near chest, both horn grips, planted heels and roughly parallel squat thighs. Full black torso/seat/crotch coverage, but shorts highlight fiber outlines need softening.",
+          "blockingIssues": [
+            "Replace muscle-fiber styling on shorts with diffuse unsegmented red print on opaque cloth before publication."
+          ],
+          "canonicalName": "kettlebell goblet squat",
+          "styleVersion": "white-v1",
+          "equipment": "kettlebell",
+          "primaryMuscles": [
+            "quadriceps",
+            "gluteal",
+            "adductors"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input; anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Female goblet squat retains one bell near chest, both horn grips, planted heels and roughly parallel squat thighs. Full black torso/seat/crotch coverage, but shorts highlight fiber outlines need softening.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0534-female-anatomical-white-v1-p1-3f3f7cd7ab58.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 24766,
+              "sha256": "3f3f7cd7ab58c8d919a39320ca561f28eb4b1804bc943556c7fda4c8169d7e94"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0534-female-anatomical-white-v1-p2-ea87a7d0cdcf.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 24514,
+              "sha256": "ea87a7d0cdcf968b2e30c70af8c38c1170fda31315343e94d30b1f5219247ce2"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0534-female-anatomical-white-v1-thumb-c6588da185a4.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 2502,
+            "sha256": "c6588da185a485ef743a56ef74405b3953ac9d8bd9a272855c22dc772d86042f"
+          },
+          "processingSignature": "8f7e388df8f0ec5e838a98c9df11c4fda5a4d0f05b8cce18b30d900492d2e8df",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0534-female-anatomical-white-v1.png",
+            "width": 1774,
+            "height": 887,
+            "bytes": 1689527,
+            "sha256": "6254220b6630abc46da8710e3a9169735684699ab41c8d43d0213d4ce60de3f9"
+          }
+        }
+      ]
+    }
+  ]
+}

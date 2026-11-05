@@ -1,0 +1,77 @@
+{
+  "batch": 346,
+  "runId": "9790b0bd-2aac-4486-88e3-5dfc7cd2b6d3",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "trigger": "2026-11-04T11:58:32.114Z",
+  "purpose": "batch346 scheduled male continuation",
+  "started": "2026-11-04T11:59:10.215474+00:00",
+  "completedAt": "2026-11-04T12:04:42.358254+00:00",
+  "actualToolName": "image_gen__imagegen",
+  "calls": 4,
+  "newCandidateSets": 4,
+  "exerciseIds": [
+    "3332",
+    "3333",
+    "3334",
+    "3335"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1242,
+    "remainingVariants": 10022,
+    "approvedVariants": 0,
+    "blockedVariants": 463,
+    "knownPoseImages": 2436,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 869,
+      "remainingVariants": 4763,
+      "blockedVariants": 344
+    }
+  },
+  "reviewNotes": {
+    "3332": "Weighted ball crunch holds plate against chest and planted feet, but start remains partly curled rather than draped into full range and abdominal anatomical segments show through tank. Correction required.",
+    "3333": "Single-arm bench press with free hand on stomach and planted feet, wide lower elbow and opaque clothes/plain chest wash. Qualified shoulder range, wrist stack, head support and torso anti-rotation review pending.",
+    "3334": "Floor fly top and open phases with opaque clothing, but weighted arm switches sides between panels. Free arm becomes loaded in second panel, so sequence is incorrect.",
+    "3335": "Dumbbell across hip crease steadied by hands, hips low then bridge with planted feet and opaque shorts/plain glute wash. Head and neck hover clearly in both poses, requiring correction."
+  },
+  "blockingIssues": {
+    "3332": [
+      "Show controlled extended start draped over ball, rather than already curled.",
+      "Replace abdominal anatomical segments through tank with plain uniform wash."
+    ],
+    "3334": [
+      "Keep dumbbell in the same arm across both fly phases and show the opposite free arm consistently."
+    ],
+    "3335": [
+      "Rest head and neck on floor in both bridge phases."
+    ]
+  },
+  "deferred": {},
+  "tests": 7,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "workerSyncResult": {
+    "statuses": {
+      "generated": 1242,
+      "pending": 10022
+    },
+    "remaining": 10022,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 1895777146
+  },
+  "publicationIndexUnchanged": true
+}

@@ -1,0 +1,246 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "0031",
+      "variant": "male",
+      "key": "0031-male-anatomical-white-v2",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Start"
+        },
+        {
+          "key": "p2",
+          "caption": "Curl"
+        }
+      ],
+      "prompt": "Edit only RIGHT panel of this male barbell-curl illustration. Complete the curl: flex BOTH elbows further so bar reaches upper chest just below shoulder height, hands approach shoulders, forearms slope up steeply rather than remaining horizontal. Maintain palms-up underhand grip, neutral wrists, upper arms vertical close to ribs, elbows at same location, torso upright no lean. Keep entire LEFT panel unchanged. Keep bar horizontal, same plates/collars and realistic hands gripping shaft. Preserve approved grayscale anatomy, red biceps only, opaque complete black top and enclosed knee-length shorts, shoes, white background, same camera scale and lighting. No text. Do not change man or garments.",
+      "inspectionNote": "Corrected endpoint now upper chest with deeply flexed elbows; intact garments and stable torso. Qualified review of grip, wrist position and biceps boundaries pending.",
+      "history": [
+        {
+          "key": "0031-male-anatomical-white-v1",
+          "layout": {
+            "columns": 2,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Start"
+            },
+            {
+              "key": "p2",
+              "caption": "Curl"
+            }
+          ],
+          "prompt": "Premium anatomical educational fitness illustration, detailed grayscale realistic proportions, pure white background, subtle soft contact shadows, crisp HD detail matching attached approved style reference ONLY. Do NOT copy its squat pose. Adult male model. Wear opaque black sleeveless athletic training top fully covering torso chest back and sides, knee-length black athletic shorts completely enclosing hips seat crotch front and back with normal closed leg openings seams and fabric folds, shoes. No see-through fabric, no missing rear panels, no anatomical cutaways under clothes. Highlight only specified target muscles red. No text, numbers, labels, arrows, watermarks. Keep all bodies/equipment comfortably inside frame with ample white margins. Exercise: barbell curl (catalog 0031). Two equal side-by-side panels with white gutter. SAME model, camera, clothing, equipment and scale. Front three-quarter view nearly frontal, whole body visible. Stand feet shoulder-width apart, knees relaxed, torso upright. Hold ONE straight barbell with matching small plates and collars at both ends, shoulder-width UNDERHAND supinated grip, each palm up/forward and thumbs wrapped. Left panel arms down with slight elbow bend and bar at upper thighs. Right panel elbows flexed, bar near lower chest, wrists neutral, upper arms vertical close to ribs and elbows in same location, no backward torso lean. Bar remains horizontal and continuous through both hands with mechanically plausible grip; identical bar and plates in each panel. Highlight BICEPS on front of both upper arms red, other anatomy grayscale."
+        }
+      ],
+      "reference": {
+        "path": "assets/exercise-illustrations/generated/3948-male-anatomical-white-v4.png",
+        "rights": "Original project generated artwork used as approved style reference. No upstream media inputs."
+      },
+      "batch": "catalog-batch-008.json"
+    },
+    {
+      "exerciseId": "0031",
+      "variant": "female",
+      "key": "0031-female-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Start"
+        },
+        {
+          "key": "p2",
+          "caption": "Curl"
+        }
+      ],
+      "prompt": "Premium anatomical educational fitness illustration, detailed grayscale realistic proportions, pure white background, subtle soft contact shadows, crisp HD detail matching attached approved style reference ONLY. Do NOT copy its squat pose. Adult female model. Wear opaque black sleeveless athletic training top fully covering torso chest back and sides, knee-length black athletic shorts completely enclosing hips seat crotch front and back with normal closed leg openings seams and fabric folds, shoes. No see-through fabric, no missing rear panels, no anatomical cutaways under clothes. Highlight only specified target muscles red. No text, numbers, labels, arrows, watermarks. Keep all bodies/equipment comfortably inside frame with ample white margins. Exercise: barbell curl (catalog 0031). Two equal side-by-side panels with white gutter. SAME model, camera, clothing, equipment and scale. Front three-quarter view nearly frontal, whole body visible. Stand feet shoulder-width apart, knees relaxed, torso upright. Hold ONE straight barbell with matching small plates and collars at both ends, shoulder-width UNDERHAND supinated grip, each palm up/forward and thumbs wrapped. Left panel arms down with slight elbow bend and bar at upper thighs. Right panel elbows deeply flexed about 130-140 degrees, bar near upper chest just below shoulders, NOT a halfway 90-degree curl, wrists neutral, upper arms vertical close to ribs and elbows in same location, no backward torso lean. Bar remains horizontal and continuous through both hands with mechanically plausible grip; identical bar and plates in each panel. Highlight BICEPS on front of both upper arms red, other anatomy grayscale.",
+      "inspectionNote": "Visible complete clothing, supinated grip, upper-chest curl endpoint and stable torso. Qualified review of wrist alignment, biceps boundaries and exact range pending.",
+      "reference": {
+        "path": "assets/exercise-illustrations/generated/3948-male-anatomical-white-v4.png",
+        "rights": "Original project generated artwork used as approved style reference. No upstream media inputs."
+      },
+      "batch": "catalog-batch-008.json"
+    },
+    {
+      "exerciseId": "0310",
+      "variant": "male",
+      "key": "0310-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Start"
+        },
+        {
+          "key": "p2",
+          "caption": "Raise forward"
+        }
+      ],
+      "prompt": "Premium anatomical educational fitness illustration, detailed grayscale realistic proportions, pure white background, subtle soft contact shadows, crisp HD detail matching attached approved style reference ONLY. Do NOT copy its squat pose. Adult male model. Wear opaque black sleeveless athletic training top fully covering torso chest back and sides, knee-length black athletic shorts completely enclosing hips seat crotch front and back with normal closed leg openings seams and fabric folds, shoes. No see-through fabric, no missing rear panels, no anatomical cutaways under clothes. Highlight only specified target muscles red. No text, numbers, labels, arrows, watermarks. Keep all bodies/equipment comfortably inside frame with ample white margins. Exercise: dumbbell front raise (catalog 0310). Two equal side-by-side panels with white gutter. SAME model, equipment, clothing, camera, scale. Near SIDE three-quarter camera so frontward elevation is unmistakable. Stand upright feet shoulder-width, hold one dumbbell in each hand. Left: arms down in front of thighs, palms toward thighs (pronated grip). Right: both arms raised straight FORWARD to shoulder height, nearly horizontal with slight soft elbow bend, palms facing floor, wrists neutral, no lateral raise or overhead press. Upper arms parallel forward and weights separated shoulder-width. Torso stays vertical and ribs down, feet unchanged. Show both weights, complete hands and shoulders with minimal overlap. Red highlight ANTERIOR deltoids on front shoulder caps only, no red upper chest or biceps.",
+      "inspectionNote": "Frontward elevation to shoulder height, pronated grip and opaque garments visible. Dumbbells overlap in start perspective; verify separate equipment, wrist alignment and anterior deltoid boundaries before approval.",
+      "reference": {
+        "path": "assets/exercise-illustrations/generated/3948-male-anatomical-white-v4.png",
+        "rights": "Original project generated artwork used as approved style reference. No upstream media inputs."
+      },
+      "batch": "catalog-batch-008.json"
+    },
+    {
+      "exerciseId": "0310",
+      "variant": "female",
+      "key": "0310-female-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Start"
+        },
+        {
+          "key": "p2",
+          "caption": "Raise forward"
+        }
+      ],
+      "prompt": "Premium anatomical educational fitness illustration, detailed grayscale realistic proportions, pure white background, subtle soft contact shadows, crisp HD detail matching attached approved style reference ONLY. Do NOT copy its squat pose. Adult female model. Wear opaque black sleeveless athletic training top fully covering torso chest back and sides, knee-length black athletic shorts completely enclosing hips seat crotch front and back with normal closed leg openings seams and fabric folds, shoes. No see-through fabric, no missing rear panels, no anatomical cutaways under clothes. Highlight only specified target muscles red. No text, numbers, labels, arrows, watermarks. Keep all bodies/equipment comfortably inside frame with ample white margins. Exercise: dumbbell front raise (catalog 0310). Two equal side-by-side panels with white gutter. SAME model, equipment, clothing, camera, scale. Near SIDE three-quarter camera so frontward elevation is unmistakable. Stand upright feet shoulder-width, hold one dumbbell in each hand. Left: arms down in front of thighs, palms toward thighs (pronated grip). Right: both arms raised straight FORWARD to shoulder height, nearly horizontal with slight soft elbow bend, palms facing floor, wrists neutral, no lateral raise or overhead press. Upper arms parallel forward and weights separated shoulder-width. Torso stays vertical and ribs down, feet unchanged. Show both weights, complete hands and shoulders with minimal overlap. Red highlight ANTERIOR deltoids on front shoulder caps only, no red upper chest or biceps.",
+      "inspectionNote": "Visible forward raise, shoulder-level endpoint, grounded feet, consistent garments and dumbbells. Qualified review of exact anterior-deltoid highlight boundaries and wrist alignment pending.",
+      "reference": {
+        "path": "assets/exercise-illustrations/generated/3948-male-anatomical-white-v4.png",
+        "rights": "Original project generated artwork used as approved style reference. No upstream media inputs."
+      },
+      "batch": "catalog-batch-008.json"
+    },
+    {
+      "exerciseId": "0297",
+      "variant": "male",
+      "key": "0297-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Extend arm"
+        },
+        {
+          "key": "p2",
+          "caption": "Curl"
+        }
+      ],
+      "prompt": "Premium anatomical educational fitness illustration, detailed grayscale realistic proportions, pure white background, subtle soft contact shadows, crisp HD detail matching attached approved style reference ONLY. Do NOT copy its squat pose. Adult male model. Wear opaque black sleeveless athletic training top fully covering torso chest back and sides, knee-length black athletic shorts completely enclosing hips seat crotch front and back with normal closed leg openings seams and fabric folds, shoes. No see-through fabric, no missing rear panels, no anatomical cutaways under clothes. Highlight only specified target muscles red. No text, numbers, labels, arrows, watermarks. Keep all bodies/equipment comfortably inside frame with ample white margins. Exercise: dumbbell concentration curl (catalog 0297). Two equal side-by-side panels with white gutter. SAME model, bench, clothing, camera and scale. Front three-quarter view with right elbow's inner-thigh contact visible. Seated on a simple horizontal flat padded bench, legs spread, both feet fully planted, torso leaning slightly forward from hips with neutral neck. ONE dumbbell in RIGHT hand only with UNDERHAND supinated grip. RIGHT upper arm braced against inside of RIGHT thigh just above knee; right elbow remains in exactly that position. Left hand on LEFT thigh for support. Left panel right forearm extended down between legs, dumbbell above floor. Right panel flex right elbow to bring dumbbell toward right shoulder without lifting elbow off thigh or twisting trunk. Show same working arm in both panels. Real grip/hand geometry. Highlight RIGHT biceps red only. Other muscles grayscale.",
+      "inspectionNote": "Same right working arm, one dumbbell, stable seated stance and full clothing visible. Elbow-to-inner-thigh brace contact is partly obscured; qualified review must establish sustained contact and neutral wrist before approval.",
+      "reference": {
+        "path": "assets/exercise-illustrations/generated/3948-male-anatomical-white-v4.png",
+        "rights": "Original project generated artwork used as approved style reference. No upstream media inputs."
+      },
+      "batch": "catalog-batch-008.json",
+      "blockingIssues": [
+        "Inner-thigh bracing contact is not sufficiently clear; requires correction or qualified confirmation before approval."
+      ]
+    },
+    {
+      "exerciseId": "0297",
+      "variant": "female",
+      "key": "0297-female-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Extend arm"
+        },
+        {
+          "key": "p2",
+          "caption": "Curl"
+        }
+      ],
+      "prompt": "Premium anatomical educational fitness illustration, detailed grayscale realistic proportions, pure white background, subtle soft contact shadows, crisp HD detail matching attached approved style reference ONLY. Do NOT copy its squat pose. Adult female model. Wear opaque black sleeveless athletic training top fully covering torso chest back and sides, knee-length black athletic shorts completely enclosing hips seat crotch front and back with normal closed leg openings seams and fabric folds, shoes. No see-through fabric, no missing rear panels, no anatomical cutaways under clothes. Highlight only specified target muscles red. No text, numbers, labels, arrows, watermarks. Keep all bodies/equipment comfortably inside frame with ample white margins. Exercise: dumbbell concentration curl (catalog 0297). Two equal side-by-side panels with white gutter. SAME model, bench, clothing, camera and scale. Front three-quarter view with right elbow's inner-thigh contact visible. Seated on a simple horizontal flat padded bench, legs spread, both feet fully planted, torso leaning slightly forward from hips with neutral neck. ONE dumbbell in RIGHT hand only with UNDERHAND supinated grip. RIGHT upper arm braced against inside of RIGHT thigh just above knee; right elbow remains in exactly that position. Left hand on LEFT thigh for support. Left panel right forearm extended down between legs, dumbbell above floor. Right panel flex right elbow to bring dumbbell toward right shoulder without lifting elbow off thigh or twisting trunk. Show same working arm in both panels. Real grip/hand geometry. Highlight RIGHT biceps red only. Other muscles grayscale.",
+      "inspectionNote": "Same right arm and one dumbbell in both positions, complete opaque clothing. Inner-thigh bracing is not sufficiently clear to certify; qualified contact/grip review required before approval.",
+      "reference": {
+        "path": "assets/exercise-illustrations/generated/3948-male-anatomical-white-v4.png",
+        "rights": "Original project generated artwork used as approved style reference. No upstream media inputs."
+      },
+      "batch": "catalog-batch-008.json",
+      "blockingIssues": [
+        "Inner-thigh bracing contact is not sufficiently clear; requires correction or qualified confirmation before approval."
+      ]
+    },
+    {
+      "exerciseId": "0715",
+      "variant": "male",
+      "key": "0715-male-anatomical-white-v1",
+      "layout": {
+        "columns": 1,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hold"
+        }
+      ],
+      "prompt": "Premium anatomical educational fitness illustration, detailed grayscale realistic proportions, pure white background, subtle soft contact shadows, crisp HD detail matching attached approved style reference ONLY. Do NOT copy its squat pose. Adult male model. Wear opaque black sleeveless athletic training top fully covering torso chest back and sides, knee-length black athletic shorts completely enclosing hips seat crotch front and back with normal closed leg openings seams and fabric folds, shoes. No see-through fabric, no missing rear panels, no anatomical cutaways under clothes. Highlight only specified target muscles red. No text, numbers, labels, arrows, watermarks. Keep all bodies/equipment comfortably inside frame with ample white margins. Exercise: side plank (catalog 0715). ONE static hold illustration only, no start/end pair. Full adult body from head to stacked shoes. Lie on RIGHT side on thin gray mat, support on RIGHT forearm and outer edge of RIGHT foot, LEFT leg and foot stacked on top. Right elbow directly under right shoulder, forearm on mat angled forward, hand relaxed. Lift hips to form straight head-shoulder-hip-ankle line, hips and shoulders stacked without rolling. LEFT hand resting on LEFT hip. Camera near front of body at low three-quarter angle so supporting forearm, straight trunk and stacked feet clearly visible. Neck neutral, head aligned. Full opaque athletic top wraps chest/sides/back; shorts completely cover seat/crotch/back even in side view. Red external-oblique region teaching overlay on SIDE of intact top only, preserve fabric folds and opacity, no see-through anatomy. No red ribs, shoulder or thigh. Quiet static hold, not moving sequence.",
+      "inspectionNote": "Single right-forearm hold with stacked feet, raised hips and complete opaque garments. Qualified review must confirm neck/body alignment and oblique overlay placement; fabric remains intact.",
+      "reference": {
+        "path": "assets/exercise-illustrations/generated/3948-male-anatomical-white-v4.png",
+        "rights": "Original project generated artwork used as approved style reference. No upstream media inputs."
+      },
+      "batch": "catalog-batch-008.json"
+    },
+    {
+      "exerciseId": "0715",
+      "variant": "female",
+      "key": "0715-female-anatomical-white-v2",
+      "layout": {
+        "columns": 1,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hold"
+        }
+      ],
+      "prompt": "Edit this female side-plank illustration to match the approved detailed GRAYSCALE anatomical illustration style. Keep woman, pose, full opaque clothing, mat, composition and anatomy proportions. Convert ALL exposed skin to grayscale, including face arms legs; remove flesh-colored orange/tan skin. Add crisp realistic anatomical muscle contours and subtle muscle striations ONLY on exposed arms/legs with equal detail and quality to the male anatomical fitness reference. Never expose fibers through clothing. Shirt and knee-length shorts remain fully opaque with intact fabric folds, full front back sides seat crotch coverage. Red oblique teaching graphic is printed ON the intact side of shirt, no cutaway or transparency. White background, soft shadows. Preserve single right-forearm side-plank hold, stacked feet, hips raised, straight aligned trunk, neutral neck. No labels/text/numbers.",
+      "inspectionNote": "Restored grayscale anatomical detail with full opaque top and shorts. Forearm-supported single hold and stacked feet visible. Qualified alignment and oblique graphic review still required.",
+      "history": [
+        {
+          "key": "0715-female-anatomical-white-v1",
+          "layout": {
+            "columns": 1,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Hold"
+            }
+          ],
+          "prompt": "Premium anatomical educational fitness illustration, detailed grayscale realistic proportions, pure white background, subtle soft contact shadows, crisp HD detail matching attached approved style reference ONLY. Do NOT copy its squat pose. Adult female model. Wear opaque black sleeveless athletic training top fully covering torso chest back and sides, knee-length black athletic shorts completely enclosing hips seat crotch front and back with normal closed leg openings seams and fabric folds, shoes. No see-through fabric, no missing rear panels, no anatomical cutaways under clothes. Highlight only specified target muscles red. No text, numbers, labels, arrows, watermarks. Keep all bodies/equipment comfortably inside frame with ample white margins. Exercise: side plank (catalog 0715). ONE static hold illustration only, no start/end pair. Full adult body from head to stacked shoes. Lie on RIGHT side on thin gray mat, support on RIGHT forearm and outer edge of RIGHT foot, LEFT leg and foot stacked on top. Right elbow directly under right shoulder, forearm on mat angled forward, hand relaxed. Lift hips to form straight head-shoulder-hip-ankle line, hips and shoulders stacked without rolling. LEFT hand resting on LEFT hip. Camera near front of body at low three-quarter angle so supporting forearm, straight trunk and stacked feet clearly visible. Neck neutral, head aligned. Full opaque athletic top wraps chest/sides/back; shorts completely cover seat/crotch/back even in side view. Red external-oblique region teaching overlay on SIDE of intact top only, preserve fabric folds and opacity, no see-through anatomy. No red ribs, shoulder or thigh. Quiet static hold, not moving sequence."
+        }
+      ],
+      "reference": {
+        "path": "assets/exercise-illustrations/generated/3948-male-anatomical-white-v4.png",
+        "rights": "Original project generated artwork used as approved style reference. No upstream media inputs."
+      },
+      "batch": "catalog-batch-008.json"
+    }
+  ]
+}

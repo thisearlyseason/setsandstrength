@@ -1,0 +1,484 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "0917",
+      "variant": "male",
+      "key": "0917-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand on the band and hold both ends with an overhand grip, arms down and elbows beside the torso."
+        },
+        {
+          "key": "p2",
+          "caption": "Curl the hands toward the shoulders with palms facing down and wrists straight, keeping upper arms still; lower slowly."
+        }
+      ],
+      "prompt": "Original premium ADULT male anatomical exercise illustration, TWO equal SQUARE cells side by side WIDE LANDSCAPE 2:1, same model scale/proportions, camera, band, feet and limb lengths both poses. BAND REVERSE CURL canonical0917. FRONT SIDE three-quarter camera, upright torso neutral neck gaze forward, feet shoulder width flat floor knees soft. One gray elastic band MIDDLE securely trapped UNDER BOTH shoe soles, separate ends with compact HANDLES firmly grasped in corresponding hands. OVERHAND PRONATED grip BOTH hands, palms face BACK at down START and DOWN at raised FINISH, backs of knuckles face UP toward ceiling finish, no supination or hammer grip. LEFT START arms near straight down by thighs, elbows beside ribs. RIGHT FINISH flex BOTH elbows and curl hands toward lower chest/shoulders with PALMS DOWN, wrists STRAIGHT, upper arms vertical beside ribs elbows fixed, no torso swing/elbows forward. Band strands taut visibly stretch from same-side shoe to same-side raised hand, no crossing/penetration, no dumbbells/straight bar. Primary FOREARM EXTENSORS RED on exposed OUTER/DORSAL forearm just BELOW elbows extending toward wrists, NOT biceps/shoulders. Fine detailed EXPOSED grayscale anatomical contours realistic proportions equal male/female quality. Full opaque BLACK athletic tank shirt and MID-THIGH shorts wrap FRONT SIDES BACK SEAT CROTCH continuous real fabric seams/broad cloth folds, no cutaway/transparency/anatomical fibers through cloth. Black shoes. ENTIRE body/head/feet/hands and all band anchors/support inside EACH square with generous white margins, no crossing panels. Pure white background soft contact shadows. Original project artwork for rendering STYLE ONLY ignore bench push-up/chest red/equipment. No embedded text/captions/arrows/labels.",
+      "inspectionNote": "Pronated overhand band reverse curl from arms down to about90degree elbow flexion, wrists near straight and upper arms beside torso. Red exposed dorsal forearms, band connected shoes/handles and opaque clothes. Qualified range toward shoulders, grip orientation, underfoot anchoring and mapping pending human review.",
+      "canonicalName": "band reverse curl",
+      "styleVersion": "white-v1",
+      "equipment": "band",
+      "primaryMuscles": [
+        "forearms"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Pronated overhand band reverse curl from arms down to about90degree elbow flexion, wrists near straight and upper arms beside torso. Red exposed dorsal forearms, band connected shoes/handles and opaque clothes. Qualified range toward shoulders, grip orientation, underfoot anchoring and mapping pending human review.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0917-male-anatomical-white-v1-p1-97dae167f149.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 24650,
+          "sha256": "97dae167f1496490bb96e37e38a6bbf9c7f61c670d565fbf0834fb949b815daf"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0917-male-anatomical-white-v1-p2-1d67a951dc26.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 24160,
+          "sha256": "1d67a951dc26051383f70eb8acbaa6225f514861673a5af3384f274b3cf1a6aa"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0917-male-anatomical-white-v1-thumb-47e786f40516.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2682,
+        "sha256": "47e786f40516f51c813d670dcdd3c811130319588381912a6bac2152c55d8ebf"
+      },
+      "processingSignature": "ce310ba50631e597e7a0b7317ef36ae5ad84cea1d6baedd5435e9cd3cb791107",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0917-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1330232,
+        "sha256": "708374074d505ebffaf2c69968d2e294f631b65c8c76cf5de4fa780a76c26901"
+      }
+    },
+    {
+      "exerciseId": "0917",
+      "variant": "female",
+      "key": "0917-female-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand on the band and hold both ends with an overhand grip, arms down and elbows beside the torso."
+        },
+        {
+          "key": "p2",
+          "caption": "Curl the hands toward the shoulders with palms facing down and wrists straight, keeping upper arms still; lower slowly."
+        }
+      ],
+      "prompt": "Original premium ADULT female anatomical exercise illustration, TWO equal SQUARE cells side by side WIDE LANDSCAPE 2:1, same model scale/proportions, camera, band, feet and limb lengths both poses. BAND REVERSE CURL canonical0917. FRONT SIDE three-quarter camera, upright torso neutral neck gaze forward, feet shoulder width flat floor knees soft. One gray elastic band MIDDLE securely trapped UNDER BOTH shoe soles, separate ends with compact HANDLES firmly grasped in corresponding hands. OVERHAND PRONATED grip BOTH hands, palms face BACK at down START and DOWN at raised FINISH, backs of knuckles face UP toward ceiling finish, no supination or hammer grip. LEFT START arms near straight down by thighs, elbows beside ribs. RIGHT FINISH flex BOTH elbows and curl hands toward lower chest/shoulders with PALMS DOWN, wrists STRAIGHT, upper arms vertical beside ribs elbows fixed, no torso swing/elbows forward. Band strands taut visibly stretch from same-side shoe to same-side raised hand, no crossing/penetration, no dumbbells/straight bar. Primary FOREARM EXTENSORS RED on exposed OUTER/DORSAL forearm just BELOW elbows extending toward wrists, NOT biceps/shoulders. Fine detailed EXPOSED grayscale anatomical contours realistic proportions equal male/female quality. Full opaque BLACK athletic tank shirt and MID-THIGH shorts wrap FRONT SIDES BACK SEAT CROTCH continuous real fabric seams/broad cloth folds, no cutaway/transparency/anatomical fibers through cloth. Black shoes. ENTIRE body/head/feet/hands and all band anchors/support inside EACH square with generous white margins, no crossing panels. Pure white background soft contact shadows. Original project artwork for rendering STYLE ONLY ignore bench push-up/chest red/equipment. No embedded text/captions/arrows/labels.",
+      "inspectionNote": "Band reverse curl overhand palms-down raised grip, elbows beside torso and wrists near straight, upright feet/torso stable. Range about90degrees, exposed dorsal forearms red and opaque clothing. Qualified range toward shoulders, grip/forearm rotation, underfoot band security and mapping pending review.",
+      "canonicalName": "band reverse curl",
+      "styleVersion": "white-v1",
+      "equipment": "band",
+      "primaryMuscles": [
+        "forearms"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Band reverse curl overhand palms-down raised grip, elbows beside torso and wrists near straight, upright feet/torso stable. Range about90degrees, exposed dorsal forearms red and opaque clothing. Qualified range toward shoulders, grip/forearm rotation, underfoot band security and mapping pending review.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0917-female-anatomical-white-v1-p1-a19a287a53bb.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 26284,
+          "sha256": "a19a287a53bbbd0107aca6649194d76f08c2c11b4660cb506b90cfd674bb2693"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0917-female-anatomical-white-v1-p2-4b25fd0de59f.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 23674,
+          "sha256": "4b25fd0de59f4091dcfb31e31c51b77fc210a0569dbe4baff692b6b7fb2ac85d"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0917-female-anatomical-white-v1-thumb-91a90d8cc073.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2660,
+        "sha256": "91a90d8cc073882538e49cc357eeed81f6ff1c6073c6580a0b99c52367daf133"
+      },
+      "processingSignature": "309e793f9cc1dd6549e7515ca50e954a527687894a31e2e060f608dc497a8a72",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0917-female-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1336052,
+        "sha256": "1e8a82041b8a415389564fa150c5f17aad0bb446ccd9f38379dfda9faf3f82fd"
+      }
+    },
+    {
+      "exerciseId": "0927",
+      "variant": "male",
+      "key": "0927-male-anatomical-white-v2",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand tall holding support, with the band securely attached to the right ankle and anchored low behind the body."
+        },
+        {
+          "key": "p2",
+          "caption": "Raise the straight right leg forward while keeping the pelvis and torso steady; lower slowly, then switch legs."
+        }
+      ],
+      "prompt": "Correct original male band standing straight-leg raise. CLOTHING REPAIR: opaque BLACK athletic shorts must be LONGER to JUST ABOVE KNEES on BOTH legs in BOTH poses. Intact fabric fully wraps ALL FRONT, SIDES, BACK, SEAT and CROTCH, and the ENTIRE upper two-thirds of BOTH thighs, including front of lifted thigh. No high side slit, rolled hem, leg-opening cutaway, transparent fabric or exposed anatomy through shorts. Show realistic seams and broad cloth folds. RED quadriceps highlight ONLY on EXPOSED distal front thigh segment between new hem and knee of SAME ANKLE-CUFF working leg, no red through cloth or on support leg. Preserve same two poses, straight working-leg start then forward30degree lift, cuff and taut elastic band from fixed low rear anchor, hands on front support, support foot grounded and torso/pelvis steady. Fine exposed grayscale anatomy, opaque shirt, neutral neck. TWO equal SQUARE cells wide landscape generous head/foot/anchor margins white background no text.",
+      "inspectionNote": "Correction extends opaque shorts to above knees with continuous front/side/back/seat/crotch fabric; red limited to exposed distal working quadriceps. Same cuff-leg straight forward raise and rear band/front support retained. Qualified leg identity, pelvis, knee angle, under-band clearance and proportions pending human review.",
+      "canonicalName": "band standing straight leg raise",
+      "styleVersion": "white-v1",
+      "equipment": "band",
+      "primaryMuscles": [
+        "quads"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0927-male-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "status": "generated",
+        "costUSD": null
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Correction extends opaque shorts to above knees with continuous front/side/back/seat/crotch fabric; red limited to exposed distal working quadriceps. Same cuff-leg straight forward raise and rear band/front support retained. Qualified leg identity, pelvis, knee angle, under-band clearance and proportions pending human review.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0927-male-anatomical-white-v2-p1-26f99ff740a1.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 24498,
+          "sha256": "26f99ff740a1c8175530e07d1686b21d40020f8a6725914cba32d3d171e0396e"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0927-male-anatomical-white-v2-p2-d0992e5fc4ba.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 27070,
+          "sha256": "d0992e5fc4baac9dcd7868a3520ca81ed65f0124e172b1eb046544db876009e5"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0927-male-anatomical-white-v2-thumb-dcf1461c81b4.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2824,
+        "sha256": "dcf1461c81b4c0209ee00111b029934f0fc456a59d18a0b5a1202c1936fe78c2"
+      },
+      "processingSignature": "f6a84d5d69e1097ee5f0abd0b51d02a8558caccdd9537bbea2fba0bef0a1826e",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0927-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1345208,
+        "sha256": "27e9460360cb513ead097ab7e45bdeb70ea6bfcbbc7ffc38b11debc578db50c1"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0927",
+          "variant": "male",
+          "key": "0927-male-anatomical-white-v1",
+          "layout": {
+            "columns": 2,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Stand tall holding support, with the band securely attached to the right ankle and anchored low behind the body."
+            },
+            {
+              "key": "p2",
+              "caption": "Raise the straight right leg forward while keeping the pelvis and torso steady; lower slowly, then switch legs."
+            }
+          ],
+          "prompt": "Original premium ADULT male anatomical exercise illustration, TWO equal SQUARE cells side by side WIDE LANDSCAPE 2:1, same model scale/proportions, camera, band, feet and limb lengths both poses. BAND STANDING STRAIGHT LEG RAISE canonical0927. SIDE FRONT three-quarter camera, model FACES image RIGHT, BACK at LEFT. A compact fixed gray support post at model FRONT image RIGHT grasped by BOTH palms waist height for balance. Band gray secure LOW ANCHOR on small fixed post BEHIND model image LEFT, visible gray ANKLE CUFF around RIGHT ankle connects elastic band to low rear anchor, taut and unobstructed outside legs both panels. LEFT support foot planted sole flat, soft left knee, neutral upright torso/neck eyes forward, pelvis level. LEFT START working RIGHT leg STRAIGHT vertical under hip, right foot rests lightly floor beside left foot, cuff visible. RIGHT FINISH SAME straight RIGHT leg raises FORWARD toward image RIGHT about30degrees, knee nearly straight unchanged, toes up, cuff visible and BAND stretches TAUT from rear anchor to front raised ankle. Left foot/torso/pelvis/hands fixed, no leaning back, no bent-knee lift, no lateral raise or leg kick backward. Primary QUADRICEPS RED on EXPOSED FRONT thigh of same RIGHT cuff leg only, no support-leg red, no hip/shorts red. Same-side limb identity continuous. Fine detailed EXPOSED grayscale anatomical contours realistic proportions equal male/female quality. Full opaque BLACK athletic tank shirt and MID-THIGH shorts wrap FRONT SIDES BACK SEAT CROTCH continuous real fabric seams/broad cloth folds, no cutaway/transparency/anatomical fibers through cloth. Black shoes. ENTIRE body/head/feet/hands and all band anchors/support inside EACH square with generous white margins, no crossing panels. Pure white background soft contact shadows. Original project artwork for rendering STYLE ONLY ignore bench push-up/chest red/equipment. No embedded text/captions/arrows/labels.",
+          "inspectionNote": "Standing straight leg raise forward with cuff-connected low rear anchor and front support, support foot stable. Red on cuff-leg quads, but shorts front working-leg hem rides high/appears cut away near hip; planned full cloth-wrap repair. Qualified leg identity, band clearance, pelvis and knee angle pending.",
+          "canonicalName": "band standing straight leg raise",
+          "styleVersion": "white-v1",
+          "equipment": "band",
+          "primaryMuscles": [
+            "quads"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Standing straight leg raise forward with cuff-connected low rear anchor and front support, support foot stable. Red on cuff-leg quads, but shorts front working-leg hem rides high/appears cut away near hip; planned full cloth-wrap repair. Qualified leg identity, band clearance, pelvis and knee angle pending.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0927-male-anatomical-white-v1-p1-3f33f8fdbbbf.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 27028,
+              "sha256": "3f33f8fdbbbfd4a92f3a2e5485aae36f419da534cb9d7004f004be4e2981d40c"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0927-male-anatomical-white-v1-p2-52753afc4e81.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 29848,
+              "sha256": "52753afc4e81006054d664142f8c3e2779721b219681303932a85d231cda600a"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0927-male-anatomical-white-v1-thumb-51820cc0ab37.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 2894,
+            "sha256": "51820cc0ab37e291a3705efddeb34447068b4d337cec757bb5ac2ca214998bb5"
+          },
+          "processingSignature": "775b49544abdca8c8ee7cbe5bb3ecdc225f1d89c37954f696a54737da2a6257f",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0927-male-anatomical-white-v1.png",
+            "width": 1774,
+            "height": 887,
+            "bytes": 1390902,
+            "sha256": "b9f68e85a6468783a1227678d6cf4101d4b04aef325bb93db31a29d5e75c12c8"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "0927",
+      "variant": "female",
+      "key": "0927-female-anatomical-white-v2",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand tall holding support, with the band securely attached to the right ankle and anchored low behind the body."
+        },
+        {
+          "key": "p2",
+          "caption": "Raise the straight right leg forward while keeping the pelvis and torso steady; lower slowly, then switch legs."
+        }
+      ],
+      "prompt": "Correct original female band standing straight-leg raise. CLOTHING REPAIR: opaque BLACK athletic shorts must be LONGER to JUST ABOVE KNEES on BOTH legs in BOTH poses. Intact fabric fully wraps ALL FRONT, SIDES, BACK, SEAT and CROTCH, and the ENTIRE upper two-thirds of BOTH thighs, including front of lifted thigh. No high side slit, rolled hem, leg-opening cutaway, transparent fabric or exposed anatomy through shorts. Show realistic seams and broad cloth folds. RED quadriceps highlight ONLY on EXPOSED distal front thigh segment between new hem and knee of SAME ANKLE-CUFF working leg, no red through cloth or on support leg. Preserve same two poses, straight working-leg start then forward30degree lift, cuff and taut elastic band from fixed low rear anchor, hands on front support, support foot grounded and torso/pelvis steady. Fine exposed grayscale anatomy, opaque shirt, neutral neck. TWO equal SQUARE cells wide landscape generous head/foot/anchor margins white background no text.",
+      "inspectionNote": "Correction adds longer continuous opaque shorts above knees, covering upper/front thighs and full seat/crotch; red retained only exposed distal working quad. Same straight cuff-leg forward raise with rear anchor/front support. Qualified pelvis stability, torso lean, knee angle and band routing pending human review.",
+      "canonicalName": "band standing straight leg raise",
+      "styleVersion": "white-v1",
+      "equipment": "band",
+      "primaryMuscles": [
+        "quads"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0927-female-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "status": "generated",
+        "costUSD": null
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Correction adds longer continuous opaque shorts above knees, covering upper/front thighs and full seat/crotch; red retained only exposed distal working quad. Same straight cuff-leg forward raise with rear anchor/front support. Qualified pelvis stability, torso lean, knee angle and band routing pending human review.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0927-female-anatomical-white-v2-p1-91d56d1d3d3f.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 26640,
+          "sha256": "91d56d1d3d3f58493f790ccb3a1210219f686cfff9c229850d46bfb89f26b080"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0927-female-anatomical-white-v2-p2-e4eb3295d2dd.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 29166,
+          "sha256": "e4eb3295d2ddaafea992d896bb8fc3a5cc0313e8093f0dc81c0e6ec9028f3fb2"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0927-female-anatomical-white-v2-thumb-9acf6c9daf30.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 3030,
+        "sha256": "9acf6c9daf30f61f1202931d814a8ba3842b81122c425b783958699488e95fe9"
+      },
+      "processingSignature": "1d49ad5d234eecff6c55abab9cf0b72c5d57878cf4fa255b973568782188b49a",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0927-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1390716,
+        "sha256": "2e6a397b6be2acfdbdcc770260fd2c553f68c7fd6e60acd2baf53d5cf3c0fdbe"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0927",
+          "variant": "female",
+          "key": "0927-female-anatomical-white-v1",
+          "layout": {
+            "columns": 2,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Stand tall holding support, with the band securely attached to the right ankle and anchored low behind the body."
+            },
+            {
+              "key": "p2",
+              "caption": "Raise the straight right leg forward while keeping the pelvis and torso steady; lower slowly, then switch legs."
+            }
+          ],
+          "prompt": "Original premium ADULT female anatomical exercise illustration, TWO equal SQUARE cells side by side WIDE LANDSCAPE 2:1, same model scale/proportions, camera, band, feet and limb lengths both poses. BAND STANDING STRAIGHT LEG RAISE canonical0927. SIDE FRONT three-quarter camera, model FACES image RIGHT, BACK at LEFT. A compact fixed gray support post at model FRONT image RIGHT grasped by BOTH palms waist height for balance. Band gray secure LOW ANCHOR on small fixed post BEHIND model image LEFT, visible gray ANKLE CUFF around RIGHT ankle connects elastic band to low rear anchor, taut and unobstructed outside legs both panels. LEFT support foot planted sole flat, soft left knee, neutral upright torso/neck eyes forward, pelvis level. LEFT START working RIGHT leg STRAIGHT vertical under hip, right foot rests lightly floor beside left foot, cuff visible. RIGHT FINISH SAME straight RIGHT leg raises FORWARD toward image RIGHT about30degrees, knee nearly straight unchanged, toes up, cuff visible and BAND stretches TAUT from rear anchor to front raised ankle. Left foot/torso/pelvis/hands fixed, no leaning back, no bent-knee lift, no lateral raise or leg kick backward. Primary QUADRICEPS RED on EXPOSED FRONT thigh of same RIGHT cuff leg only, no support-leg red, no hip/shorts red. Same-side limb identity continuous. Fine detailed EXPOSED grayscale anatomical contours realistic proportions equal male/female quality. Full opaque BLACK athletic tank shirt and MID-THIGH shorts wrap FRONT SIDES BACK SEAT CROTCH continuous real fabric seams/broad cloth folds, no cutaway/transparency/anatomical fibers through cloth. Black shoes. ENTIRE body/head/feet/hands and all band anchors/support inside EACH square with generous white margins, no crossing panels. Pure white background soft contact shadows. Original project artwork for rendering STYLE ONLY ignore bench push-up/chest red/equipment. No embedded text/captions/arrows/labels.",
+          "inspectionNote": "Cuff-leg forward straight raise with anchored rear band and front support, red working quads. Upper thigh shorts hem rides high in lifted pose; planned longer continuous shorts wrap for equal clothing coverage. Qualified torso lean, pelvis stability, knee angle and band clearance pending.",
+          "canonicalName": "band standing straight leg raise",
+          "styleVersion": "white-v1",
+          "equipment": "band",
+          "primaryMuscles": [
+            "quads"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Cuff-leg forward straight raise with anchored rear band and front support, red working quads. Upper thigh shorts hem rides high in lifted pose; planned longer continuous shorts wrap for equal clothing coverage. Qualified torso lean, pelvis stability, knee angle and band clearance pending.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0927-female-anatomical-white-v1-p1-f43471c9697c.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 29156,
+              "sha256": "f43471c9697c46c4a35b31088d9d023091a723b2df2923167b9a85d4d1d24713"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0927-female-anatomical-white-v1-p2-4a5a5e77fb2f.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 31474,
+              "sha256": "4a5a5e77fb2f84e956e47b05267d18da7399502ba94b2689c520faa2f1113a63"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0927-female-anatomical-white-v1-thumb-d95b7e23f38e.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 3002,
+            "sha256": "d95b7e23f38ed1b3d3658a8967ba4f044510d3be2367f0cef7534c97dfbc7e73"
+          },
+          "processingSignature": "da39f978bcc97cea48536ca024c2787038dd92419d9d1f63293864e578831c93",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0927-female-anatomical-white-v1.png",
+            "width": 1774,
+            "height": 887,
+            "bytes": 1432935,
+            "sha256": "81176fa06a9a2ed7a39c958c27f9683ca74feb52ab2bad193bb1e77b34521232"
+          }
+        }
+      ]
+    }
+  ]
+}

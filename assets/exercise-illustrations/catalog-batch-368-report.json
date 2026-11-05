@@ -1,0 +1,55 @@
+{
+  "batch": 368,
+  "runId": "dc444d44-8dc4-4b13-824c-d75261f484ce",
+  "builtInImageGenAvailable": true,
+  "anatomyReview": "pending",
+  "publication": "none",
+  "deferred": {
+    "3474": "Overhead arms and pulling knee instructions need interpretation; not guessed."
+  },
+  "coverageAfter": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1324,
+    "remainingVariants": 9940,
+    "approvedVariants": 0,
+    "blockedVariants": 509,
+    "knownPoseImages": 2617,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 951,
+      "remainingVariants": 4681,
+      "blockedVariants": 390
+    }
+  },
+  "paidWorker": {
+    "statuses": {
+      "generated": 1324,
+      "pending": 9940
+    },
+    "remaining": 9940,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 2015996477
+  },
+  "pipelineTests": "7 passed, 0 failed",
+  "approvedIndexUnchanged": true,
+  "existingUserApprovalsPreserved": 1306,
+  "generatedIds": [
+    "3473",
+    "3475",
+    "3476",
+    "3477"
+  ]
+}

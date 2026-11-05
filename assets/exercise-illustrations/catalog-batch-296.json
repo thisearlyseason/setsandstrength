@@ -1,0 +1,324 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "2671",
+      "variant": "male",
+      "key": "2671-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hinge with a neutral back, knees soft, and close overhand grip on the Smith bar below knees."
+        },
+        {
+          "key": "p2",
+          "caption": "Pull the guided bar toward lower ribs, elbows close; lower with torso still."
+        }
+      ],
+      "prompt": "SMITH NARROW ROW v2. TWO equal panels SAME SIDE rear threequarter camera. Real Smith machine with TWO vertical guide rails fixed to frame, straight loaded horizontal bar sliding ONLY vertically on same rails. Stand feet hipwidth, knees soft, hiphinge torso about45degrees flatneutralback, close OVERHAND grip hands just inside shoulders. LEFT armsstraight bar justbelowknees. RIGHT pullbarverticallytoLOWERRIBS, elbowstucked back, torso hips knees stationary. Same bar staysINFRONT oflegs notinsidebody, plates outsideguidecollars. Primary LATS only small plain red lateralback wash on intacttank. Premium detailed adult MALE grayscale anatomical illustration; approved original reference is rendering STYLE ONLY ignore its pose and highlights. Pure white background, soft contact shadows, realistic proportions equipment, crisp detailed exposed gray muscle contours. Opaque BLACK tank and BLACK mid-thigh shorts fully wrap front sides back seat crotch, normal seams folds hems, black shoes. All cloth intact no cutaways, no fibers anatomy or striations visible through fabric. Where a primary target is covered use SMALL PLAIN UNIFORM SOFT RED COLOR WASH on intact fabric only, fabric folds retained no muscle detail. Only named primary red, all other regions grayscale. Exactly two arms hands five fingers two legs feet. Same person camera equipment each panel, entire body equipment visible generous margins. No text arrows logos.",
+      "inspectionNote": "Real output inspected. Smith guides and raised bar shown with hinged torso, knees soft and red lateral tank wash. End bar appears to run through hips/thighs rather than stay anterior and reach lower ribs; close grip also changes. Block bar/body geometry and grip consistency. Opaque clothing retained. Qualified review of hinge, back position and guided path required. Human anatomy review pending. No approval or publication.",
+      "blockingIssues": [
+        "End bar intersects hip/thigh region instead of staying in front of body at lower ribs; correct stance relative to guide path.",
+        "Maintain same narrow grip between poses."
+      ],
+      "canonicalName": "smith narrow row v. 2",
+      "styleVersion": "white-v1",
+      "equipment": "smith machine",
+      "primaryMuscles": [
+        "lats"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Smith guides and raised bar shown with hinged torso, knees soft and red lateral tank wash. End bar appears to run through hips/thighs rather than stay anterior and reach lower ribs; close grip also changes. Block bar/body geometry and grip consistency. Opaque clothing retained. Qualified review of hinge, back position and guided path required. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2671-male-anatomical-white-v1-p1-2df5773efdf1.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 49588,
+          "sha256": "2df5773efdf1409950a8da974c3c2bbdf90c5daa48006a2e2356b5dbda9bc3dc"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/2671-male-anatomical-white-v1-p2-ab530b497b24.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 47632,
+          "sha256": "ab530b497b24abf9cd16e3a6e87908d1f7d888adff709e7bbde07fe0a31634d5"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-296.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2671-male-anatomical-white-v1-thumb-19c5cbc5e5a1.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 5778,
+        "sha256": "19c5cbc5e5a11f4d854b0a16248f294a0695953dca52957220c21a40e3638e47"
+      },
+      "processingSignature": "7d11ed2a515af19ee2c5d0bcd570edc59764a4c5f0a88713798c93724a5061ce",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2671-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1621896,
+        "sha256": "d9be7ebfc4339522d37de336af86f4bb468f157bb6ab34a83f64af2f319472de"
+      }
+    },
+    {
+      "exerciseId": "2683",
+      "variant": "male",
+      "key": "2683-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Rest forearms on thighs with wrists beyond knees, palms down, and let wrists lower the bar."
+        },
+        {
+          "key": "p2",
+          "caption": "Extend wrists to lift the bar while keeping forearms still; lower slowly."
+        }
+      ],
+      "prompt": "BARBELL REVERSE WRIST CURL v2. TWO equal panels SAME SIDE frontthreequarter view sufficiently close to see wrists but entirebody included. Seatedonflatbench feetflat knees90, BOTHFOREARMS restflat onTHIGHS fromelbows tonearwrists, wrists JUSTBEYONDknees. Straightlightshortbarbell heldOVERHAND palmsDOWN, thumbswrapped. LEFT forearmsSTILL horizontal, wristsFLEXEDdownbarhangsbelowknees. RIGHT forearms SAMEsupportposition and elbowsSTILL, EXTENDWRISTS knucklesrotateUP raisingbarjustabovekneelevel, smallwristonlyarc notbicepscurl. Primary dorsal FOREARM EXTENSORS only red onexposedupperouterforearms, bicepschestGRAY/BLACK. Premium detailed adult MALE grayscale anatomical illustration; approved original reference is rendering STYLE ONLY ignore its pose and highlights. Pure white background, soft contact shadows, realistic proportions equipment, crisp detailed exposed gray muscle contours. Opaque BLACK tank and BLACK mid-thigh shorts fully wrap front sides back seat crotch, normal seams folds hems, black shoes. All cloth intact no cutaways, no fibers anatomy or striations visible through fabric. Where a primary target is covered use SMALL PLAIN UNIFORM SOFT RED COLOR WASH on intact fabric only, fabric folds retained no muscle detail. Only named primary red, all other regions grayscale. Exactly two arms hands five fingers two legs feet. Same person camera equipment each panel, entire body equipment visible generous margins. No text arrows logos.",
+      "inspectionNote": "Real output inspected. Seated supported forearms, overhand bar grip and wrists lower then raise bar; feet grounded, opaque clothing and dorsal forearm highlights. Qualified review needed for extent of wrist extension in finish, wrist clearance beyond knees, fixed forearm contact and bar control. Human anatomy review pending. No approval or publication.",
+      "canonicalName": "barbell reverse wrist curl v. 2",
+      "styleVersion": "white-v1",
+      "equipment": "barbell",
+      "primaryMuscles": [
+        "forearms"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Seated supported forearms, overhand bar grip and wrists lower then raise bar; feet grounded, opaque clothing and dorsal forearm highlights. Qualified review needed for extent of wrist extension in finish, wrist clearance beyond knees, fixed forearm contact and bar control. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2683-male-anatomical-white-v1-p1-a07de09e2fe4.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 45794,
+          "sha256": "a07de09e2fe49aeb16498338781707c4aab13f16c59093f45a6823ddb7548470"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/2683-male-anatomical-white-v1-p2-0d294a11c262.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 44978,
+          "sha256": "0d294a11c262548cde859ba5149713d254b29b7ac96809108252da92e7c35ed4"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-296.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2683-male-anatomical-white-v1-thumb-0aec3d756677.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 4644,
+        "sha256": "0aec3d75667730da81781de3d1428f4070d9a58696d78e2e6316492c7a23b88c"
+      },
+      "processingSignature": "cff8e8b6a3a6fffacac9a3fc20a27acac3d3677204693bb0eb34bdc5258a5942",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2683-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1650075,
+        "sha256": "18b636f4bdaee0dc361ced8f767c36436e7bd5eb015952da1edefae487b14e87"
+      }
+    },
+    {
+      "exerciseId": "2689",
+      "variant": "male",
+      "key": "2689-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Face away from low pulley and hold the handle in one hand beside your thigh."
+        },
+        {
+          "key": "p2",
+          "caption": "Raise that arm forward to shoulder height without leaning; lower slowly."
+        }
+      ],
+      "prompt": "CABLE ONE ARM FRONT RAISE. TWO equal panels SAME LEFTSIDE threequarter camera, SAMELEFTARM worksbothposes. Standing facingAWAY fromlowpulley behindheels. LEFT hand Dhandle OVERHAND palmsfacesbackatstart thenDOWNatfinish, cable fromlowpulleyBEHINDbody passesOUTSIDEleftleg tohandle withoutintersectingbody. RIGHTarmemptyrelaxedside. LEFT panel leftarmnearlystraight bythigh handlebesideleftthigh. RIGHT leftarmraisesFORWARD intosagittalplane straightaheadtoSHOULDERheight slightelbowbend, cabletaut frombehindlowpulleytohand, torsoupright nolean. Primary LEFT ANTERIOR DELTOID only red exposedfrontleftshoulder BOTHposes; oppositearmchestGRAY/BLACK. Premium detailed adult MALE grayscale anatomical illustration; approved original reference is rendering STYLE ONLY ignore its pose and highlights. Pure white background, soft contact shadows, realistic proportions equipment, crisp detailed exposed gray muscle contours. Opaque BLACK tank and BLACK mid-thigh shorts fully wrap front sides back seat crotch, normal seams folds hems, black shoes. All cloth intact no cutaways, no fibers anatomy or striations visible through fabric. Where a primary target is covered use SMALL PLAIN UNIFORM SOFT RED COLOR WASH on intact fabric only, fabric folds retained no muscle detail. Only named primary red, all other regions grayscale. Exactly two arms hands five fingers two legs feet. Same person camera equipment each panel, entire body equipment visible generous margins. No text arrows logos.",
+      "inspectionNote": "Real output inspected. Same arm holds D handle beside thigh then raises forward to shoulder height, upright torso, opposite arm empty and anterior shoulder highlighted. Clothing opaque. Qualified review needed for cable clearance outside leg versus projected overlap, visible stack travel/load engagement, wrist alignment and sagittal-plane path. Human anatomy review pending. No approval or publication.",
+      "canonicalName": "cable one arm front raise",
+      "styleVersion": "white-v1",
+      "equipment": "cable",
+      "primaryMuscles": [
+        "delts"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Same arm holds D handle beside thigh then raises forward to shoulder height, upright torso, opposite arm empty and anterior shoulder highlighted. Clothing opaque. Qualified review needed for cable clearance outside leg versus projected overlap, visible stack travel/load engagement, wrist alignment and sagittal-plane path. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2689-male-anatomical-white-v1-p1-90d2d68730dd.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 37066,
+          "sha256": "90d2d68730dd5bb534a38e7cb34478866ecd90b4457987835335e4e3581c3baa"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/2689-male-anatomical-white-v1-p2-092e3f5c5750.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 37832,
+          "sha256": "092e3f5c57508acf77dc3be0599c93e530ee5f3926dcbe74214b2e9403ce47e0"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-296.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2689-male-anatomical-white-v1-thumb-3269f3290e3d.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 3850,
+        "sha256": "3269f3290e3dafec42e072f78763f47d0eb62ca708e02897d44f1bbc1155df2b"
+      },
+      "processingSignature": "bb5bdda82413153b1a3ec8b0e419be3e6958e41652c94a72aad5ce25baae26ca",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2689-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1470360,
+        "sha256": "04fcf6799a1140ad8a3974bf4ba21938a1d465d18ddf72742501175f90eeead3"
+      }
+    },
+    {
+      "exerciseId": "2690",
+      "variant": "male",
+      "key": "2690-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand holding one dumbbell at your side, with a soft bend in the elbow."
+        },
+        {
+          "key": "p2",
+          "caption": "Raise that arm out to shoulder height without swinging; lower slowly."
+        }
+      ],
+      "prompt": "DUMBBELL ONE ARM LATERAL RAISE v2. TWO equal panels SAMEFRONTthreequarter camera SAMELEFTARM worksbothposes. Standfeetshoulderwidth kneessoft torsoupright. LEFT hand ONEdumbbell neutralgrippalm inward atthigh, RIGHT handemptyrestsatrightside. LEFT panel workingleftarmbesideleftthigh elbowsoft. RIGHT workingLEFTarmraisesOUTTOSIDE inFRONTALplane untilupperarmhorizontalSHOULDERheight, softelbowbendabout15degrees forearm alignedarm, handnotaboveelbow, palmfacesDOWN atshoulderheight, nooverheadraise noshrug nolean. Primary LEFT MIDDLE DELTOID only red exposedlateralleftshoulder inBOTHposes. OtherarmchestGRAY/BLACK. Premium detailed adult MALE grayscale anatomical illustration; approved original reference is rendering STYLE ONLY ignore its pose and highlights. Pure white background, soft contact shadows, realistic proportions equipment, crisp detailed exposed gray muscle contours. Opaque BLACK tank and BLACK mid-thigh shorts fully wrap front sides back seat crotch, normal seams folds hems, black shoes. All cloth intact no cutaways, no fibers anatomy or striations visible through fabric. Where a primary target is covered use SMALL PLAIN UNIFORM SOFT RED COLOR WASH on intact fabric only, fabric folds retained no muscle detail. Only named primary red, all other regions grayscale. Exactly two arms hands five fingers two legs feet. Same person camera equipment each panel, entire body equipment visible generous margins. No text arrows logos.",
+      "inspectionNote": "Real output inspected. Same arm raises one dumbbell laterally to shoulder height, opposite arm empty, upright torso and soft elbow. Primary lateral shoulder red only and full opaque clothing. Qualified review needed for elbow bend, wrist/hand height relative to elbow, shoulder shrug avoidance and exact deltoid location. Human anatomy review pending. No approval or publication.",
+      "canonicalName": "dumbbell one arm lateral raise v. 2",
+      "styleVersion": "white-v1",
+      "equipment": "dumbbell",
+      "primaryMuscles": [
+        "delts"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Same arm raises one dumbbell laterally to shoulder height, opposite arm empty, upright torso and soft elbow. Primary lateral shoulder red only and full opaque clothing. Qualified review needed for elbow bend, wrist/hand height relative to elbow, shoulder shrug avoidance and exact deltoid location. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2690-male-anatomical-white-v1-p1-38aa12af86d2.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 19984,
+          "sha256": "38aa12af86d22efe1a3196e57b48a776d7275147b51433056d07d353e3513ef5"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/2690-male-anatomical-white-v1-p2-cf939b37ecb9.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 20648,
+          "sha256": "cf939b37ecb908cd5f409f05b3f2d877ed112d32b03f75d4653c8fbb2269f24d"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-296.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2690-male-anatomical-white-v1-thumb-dc57f57aa27f.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2442,
+        "sha256": "dc57f57aa27f98233edbd85dedd40bcb77ef08b75fab79c1689fbe2bb6383261"
+      },
+      "processingSignature": "735d71b026d44a6ff273a9dc5d125aa430d2c3e486a7033f90ff196eed59f91b",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2690-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1298239,
+        "sha256": "2143c75292a487a3e3b83f4dbb19c1b23514bb2319ae92fe748e26e4986a4e55"
+      }
+    }
+  ]
+}

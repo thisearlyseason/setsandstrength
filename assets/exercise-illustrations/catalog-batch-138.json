@@ -1,0 +1,402 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "0834",
+      "variant": "male",
+      "key": "0834-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand tall with a dumbbell in each hand in front of the thighs, palms facing the thighs."
+        },
+        {
+          "key": "p2",
+          "caption": "Raise both dumbbells forward to shoulder height with nearly straight arms and a steady torso, then lower with control."
+        }
+      ],
+      "prompt": "Original premium ADULT male exercise anatomical illustration. TWO equal SQUARE cells side by side in WIDE LANDSCAPE 2:1 canvas. Same adult model, scale, limb lengths and equipment both cells, fully visible with generous margins. WEIGHTED FRONT RAISE canonical ID0834. Stand upright, feet shoulder-width flat floor, knees soft, torso vertical, neutral neck. Side-front three-quarter camera so forward arm elevation is clear. ONE gray dumbbell in EACH hand, closed fingers around centered handles. Pronated grip PALMS face thighs at START, palms face FLOOR at FINISH, same grip no twisting. LEFT START arms nearly straight hanging IN FRONT OF THIGHS dumbbells just clear of thighs. RIGHT FINISH BOTH arms raised STRAIGHT FORWARD to SHOULDER HEIGHT, elbows very slightly soft unchanged, dumbbells level shoulder height, never side lateral raise or overhead. No torso rocking, no shrugging, feet unchanged. Highlight primary ANTERIOR DELTOID caps RED on exposed shoulder anatomy ONLY, no chest/biceps red. Fine detailed EXPOSED grayscale anatomical muscle contours and realistic proportions, equal male/female quality. Opaque BLACK athletic tank shirt and MID-THIGH black shorts wrap fully FRONT SIDES BACK SEAT CROTCH, continuous real fabric seams and broad cloth folds; NEVER cutaways, transparency, exposed anatomy through fabric, or red fibers through cloth. Black shoes. Pure white background soft grounded shadows. Entire body, dumbbells or ankle cuff and mat inside EACH square cell, no cropped head/feet, no cross-cell overlap. No captions/text/arrows/labels. Original supplied project artwork is rendering STYLE ONLY, ignore its bench push-up pose/equipment/chest red.",
+      "inspectionNote": "Both dumbbells move from thigh front to shoulder-height forward raise with pronated grip and nearly straight arms; feet and upright torso consistent. Red anterior shoulder caps on exposed grayscale anatomy, continuous opaque black clothing. Qualified shoulder mapping, wrist/finger grip and elbow alignment pending human review.",
+      "canonicalName": "weighted front raise",
+      "styleVersion": "white-v1",
+      "equipment": "weighted",
+      "primaryMuscles": [
+        "delts"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Both dumbbells move from thigh front to shoulder-height forward raise with pronated grip and nearly straight arms; feet and upright torso consistent. Red anterior shoulder caps on exposed grayscale anatomy, continuous opaque black clothing. Qualified shoulder mapping, wrist/finger grip and elbow alignment pending human review.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0834-male-anatomical-white-v1-p1-6a8fa1dd9e0b.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 24190,
+          "sha256": "6a8fa1dd9e0bdd8573a4a9a1f0450c2462f4036043bd8099e961a0f189b8b22c"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0834-male-anatomical-white-v1-p2-5b003ede6855.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 23426,
+          "sha256": "5b003ede68552362f6d992ff9ae34ccfacd92412148f30f14d91773d3736447c"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0834-male-anatomical-white-v1-thumb-2f8c957351c8.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2570,
+        "sha256": "2f8c957351c8ce559dc0744b013497116287bb0ea91e36bed4ae83eb5224f23c"
+      },
+      "processingSignature": "15e80e7e781de79b0b02cd3ff8486b3387e205fe565210188d62525a9b9203d4",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0834-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1319437,
+        "sha256": "adb0020c5dac7745170bf2b03f5aa25538582084d52f4a630f66902f98904bae"
+      }
+    },
+    {
+      "exerciseId": "0834",
+      "variant": "female",
+      "key": "0834-female-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand tall with a dumbbell in each hand in front of the thighs, palms facing the thighs."
+        },
+        {
+          "key": "p2",
+          "caption": "Raise both dumbbells forward to shoulder height with nearly straight arms and a steady torso, then lower with control."
+        }
+      ],
+      "prompt": "Original premium ADULT female exercise anatomical illustration. TWO equal SQUARE cells side by side in WIDE LANDSCAPE 2:1 canvas. Same adult model, scale, limb lengths and equipment both cells, fully visible with generous margins. WEIGHTED FRONT RAISE canonical ID0834. Stand upright, feet shoulder-width flat floor, knees soft, torso vertical, neutral neck. Side-front three-quarter camera so forward arm elevation is clear. ONE gray dumbbell in EACH hand, closed fingers around centered handles. Pronated grip PALMS face thighs at START, palms face FLOOR at FINISH, same grip no twisting. LEFT START arms nearly straight hanging IN FRONT OF THIGHS dumbbells just clear of thighs. RIGHT FINISH BOTH arms raised STRAIGHT FORWARD to SHOULDER HEIGHT, elbows very slightly soft unchanged, dumbbells level shoulder height, never side lateral raise or overhead. No torso rocking, no shrugging, feet unchanged. Highlight primary ANTERIOR DELTOID caps RED on exposed shoulder anatomy ONLY, no chest/biceps red. Fine detailed EXPOSED grayscale anatomical muscle contours and realistic proportions, equal male/female quality. Opaque BLACK athletic tank shirt and MID-THIGH black shorts wrap fully FRONT SIDES BACK SEAT CROTCH, continuous real fabric seams and broad cloth folds; NEVER cutaways, transparency, exposed anatomy through fabric, or red fibers through cloth. Black shoes. Pure white background soft grounded shadows. Entire body, dumbbells or ankle cuff and mat inside EACH square cell, no cropped head/feet, no cross-cell overlap. No captions/text/arrows/labels. Original supplied project artwork is rendering STYLE ONLY, ignore its bench push-up pose/equipment/chest red.",
+      "inspectionNote": "Paired front raise from thigh front to approximately shoulder height; pronated dumbbell grips, nearly straight arms and steady upright torso. Red anterior shoulder caps on exposed grayscale anatomy, full opaque shirt/shorts. Qualified shoulder mapping, humeral rotation, wrist/finger grip and limb consistency pending human review.",
+      "canonicalName": "weighted front raise",
+      "styleVersion": "white-v1",
+      "equipment": "weighted",
+      "primaryMuscles": [
+        "delts"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Paired front raise from thigh front to approximately shoulder height; pronated dumbbell grips, nearly straight arms and steady upright torso. Red anterior shoulder caps on exposed grayscale anatomy, full opaque shirt/shorts. Qualified shoulder mapping, humeral rotation, wrist/finger grip and limb consistency pending human review.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0834-female-anatomical-white-v1-p1-fed529e7ff46.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 23548,
+          "sha256": "fed529e7ff46b916a2eb8b840baaea6817e8f3c094d18c5690d21be667c18149"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0834-female-anatomical-white-v1-p2-846402282586.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 23890,
+          "sha256": "8464022825865b2ad0adbc230f69848df3d4d268a0c349d2200169367e499c6b"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0834-female-anatomical-white-v1-thumb-1be09bda99db.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2508,
+        "sha256": "1be09bda99db168791a3af849b7a0250aeb48920b30b74986d83e69f252fe0c4"
+      },
+      "processingSignature": "1427972c2890cd69b7d7e0704d8ecaaa63095127d152d3e2c67d8d776bfcc726",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0834-female-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1332296,
+        "sha256": "613efbb3f2da1cc94a0b7f96d2b88ef78d7851133f9d6dbaac72d4d5a8f21932"
+      }
+    },
+    {
+      "exerciseId": "0837",
+      "variant": "male",
+      "key": "0837-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Lie on the left side with straight stacked legs and a secured weight cuff on the upper right ankle."
+        },
+        {
+          "key": "p2",
+          "caption": "Lift the straight upper right leg outward and slightly back while keeping the pelvis steady; lower slowly, then repeat on the other side."
+        }
+      ],
+      "prompt": "Original premium ADULT male exercise anatomical illustration. TWO equal SQUARE cells side by side in WIDE LANDSCAPE 2:1 canvas. Same adult model, scale, limb lengths and equipment both cells, fully visible with generous margins. WEIGHTED LYING HIP ABDUCTION canonical ID0837. Lie on LEFT SIDE on thin gray mat, HEAD IMAGE LEFT, feet IMAGE RIGHT. Camera SIDE-FRONT slightly above so top right outer hip and legs visible. Lower left forearm comfortably supports head with neutral neck, lower left leg straight resting mat. Upper RIGHT leg straight from hip to ankle, toes point forward parallel floor, not rotated ceiling. Secure compact gray ANKLE CUFF WEIGHT visibly wrapped around TOP RIGHT ankle only, strap secure; no handheld dumbbell. Upper RIGHT palm rests mat in front of torso for balance. LEFT START both straight legs stacked together, pelvis vertical. RIGHT FINISH SAME top right leg lifted outward from hip up about30degrees and SLIGHTLY BACK, knee straight, foot forward, lower left leg remains fully grounded, no pelvis rolling or trunk side bend. Same right ankle cuff visible on lifted leg. Highlight upper RIGHT OUTER HIP ABDUCTORS with ONE soft diffuse RED patch OVER intact opaque black shorts lateral hip only, never groin/knees/quads. NO muscle fibers/rays/sixpack/anatomical grooves through cloth. Fine detailed EXPOSED grayscale anatomical muscle contours and realistic proportions, equal male/female quality. Opaque BLACK athletic tank shirt and MID-THIGH black shorts wrap fully FRONT SIDES BACK SEAT CROTCH, continuous real fabric seams and broad cloth folds; NEVER cutaways, transparency, exposed anatomy through fabric, or red fibers through cloth. Black shoes. Pure white background soft grounded shadows. Entire body, dumbbells or ankle cuff and mat inside EACH square cell, no cropped head/feet, no cross-cell overlap. No captions/text/arrows/labels. Original supplied project artwork is rendering STYLE ONLY, ignore its bench push-up pose/equipment/chest red.",
+      "inspectionNote": "Side-lying top right leg retains visible ankle cuff, lifts outward with knee straight while lower leg grounded. Forearm supports head, upper palm braces mat, pelvis remains near stacked. Diffuse red outer hip tint on opaque shorts; full shirt/short coverage. Lift angle modest and slight rearward component subtle; qualified pelvis rotation, toe alignment, neck and mapping pending human review.",
+      "canonicalName": "weighted lying hip abduction",
+      "styleVersion": "white-v1",
+      "equipment": "weighted",
+      "primaryMuscles": [
+        "abductors"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Side-lying top right leg retains visible ankle cuff, lifts outward with knee straight while lower leg grounded. Forearm supports head, upper palm braces mat, pelvis remains near stacked. Diffuse red outer hip tint on opaque shorts; full shirt/short coverage. Lift angle modest and slight rearward component subtle; qualified pelvis rotation, toe alignment, neck and mapping pending human review.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0837-male-anatomical-white-v1-p1-f67c137b2048.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 19866,
+          "sha256": "f67c137b20489235787b31d1dcc88c25704f1e4386c00516abcf63db9de0ec7c"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0837-male-anatomical-white-v1-p2-ff2c4fdd1030.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 20786,
+          "sha256": "ff2c4fdd1030a88c87e13cf64820972dbe8ef6614b02d33c7d3891987cd213fb"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0837-male-anatomical-white-v1-thumb-ae47f2bb2c44.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2178,
+        "sha256": "ae47f2bb2c4483f6b6cbf895a511e45a0412c89405417a50824b57deb5147966"
+      },
+      "processingSignature": "b873a153b8aea8b14606e56a69c8d8a6919649738e984449ba9c82c7c609bd4c",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0837-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1287505,
+        "sha256": "217f9a2a20a7da55dd929fae1ed3b81b28f64036efd38800476543bb399ef62c"
+      }
+    },
+    {
+      "exerciseId": "0837",
+      "variant": "female",
+      "key": "0837-female-anatomical-white-v2",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Lie on the left side with straight stacked legs and a secured weight cuff on the upper right ankle."
+        },
+        {
+          "key": "p2",
+          "caption": "Lift the straight upper right leg outward and slightly back while keeping the pelvis steady; lower slowly, then repeat on the other side."
+        }
+      ],
+      "prompt": "Edit this original female weighted side-lying hip abduction image. Preserve two equal square cells in wide landscape, original straight stacked-leg start and same top right leg lifted finish, same secured gray cuff on upper right ankle only, grounded lower leg, stable side-lying pelvis, support forearm/head and upper palm on mat. Only correct shorts red surface: replace ALL fine red fibers, rays, anatomical patterns with ONE smooth diffuse BLURRED red tint on OUTER TOP RIGHT HIP over continuous opaque BLACK shorts, showing broad real fabric folds and seams only. NO muscle fibers through cloth. Keep full opaque shirt and shorts coverage front sides back seat crotch, detailed exposed grayscale anatomy, black shoes, neutral neck, white background and generous margins. No text.\n",
+      "inspectionNote": "Correction softens red outer hip tint on intact opaque shorts and retains upper right ankle cuff, straight-leg lift and grounded lower leg. Full shirt and shorts coverage and detailed exposed grayscale anatomy. Slight rearward leg component subtle; qualified pelvis stability, toe alignment, neck and mapping pending human review.",
+      "canonicalName": "weighted lying hip abduction",
+      "styleVersion": "white-v1",
+      "equipment": "weighted",
+      "primaryMuscles": [
+        "abductors"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0837-female-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "status": "generated",
+        "costUSD": null
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Correction softens red outer hip tint on intact opaque shorts and retains upper right ankle cuff, straight-leg lift and grounded lower leg. Full shirt and shorts coverage and detailed exposed grayscale anatomy. Slight rearward leg component subtle; qualified pelvis stability, toe alignment, neck and mapping pending human review.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0837-female-anatomical-white-v2-p1-3b23139e7c56.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 22460,
+          "sha256": "3b23139e7c5615aaf43aef364f8db359be58fefb7a81af9a6d7c3c0d3ba01c75"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0837-female-anatomical-white-v2-p2-c011846733d3.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 23146,
+          "sha256": "c011846733d336cabd3495366aee295a91c1bdea365a67809ab7a91d0da6cc7d"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0837-female-anatomical-white-v2-thumb-7ea0875a705d.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2524,
+        "sha256": "7ea0875a705d3e859ca145a9f8229ef16041efcd973e4f2aaa3fe5fecc526cad"
+      },
+      "processingSignature": "f9a1d85a7cd36fe96dc9c721367f7bafc2bd63c57d6ea5d617d6851655157816",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0837-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1308481,
+        "sha256": "a2a2714905d722bf93790571482f3b51c10d18ffee7675c3f053da0cf4e0c395"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0837",
+          "variant": "female",
+          "key": "0837-female-anatomical-white-v1",
+          "layout": {
+            "columns": 2,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Lie on the left side with straight stacked legs and a secured weight cuff on the upper right ankle."
+            },
+            {
+              "key": "p2",
+              "caption": "Lift the straight upper right leg outward and slightly back while keeping the pelvis steady; lower slowly, then repeat on the other side."
+            }
+          ],
+          "prompt": "Original premium ADULT female exercise anatomical illustration. TWO equal SQUARE cells side by side in WIDE LANDSCAPE 2:1 canvas. Same adult model, scale, limb lengths and equipment both cells, fully visible with generous margins. WEIGHTED LYING HIP ABDUCTION canonical ID0837. Lie on LEFT SIDE on thin gray mat, HEAD IMAGE LEFT, feet IMAGE RIGHT. Camera SIDE-FRONT slightly above so top right outer hip and legs visible. Lower left forearm comfortably supports head with neutral neck, lower left leg straight resting mat. Upper RIGHT leg straight from hip to ankle, toes point forward parallel floor, not rotated ceiling. Secure compact gray ANKLE CUFF WEIGHT visibly wrapped around TOP RIGHT ankle only, strap secure; no handheld dumbbell. Upper RIGHT palm rests mat in front of torso for balance. LEFT START both straight legs stacked together, pelvis vertical. RIGHT FINISH SAME top right leg lifted outward from hip up about30degrees and SLIGHTLY BACK, knee straight, foot forward, lower left leg remains fully grounded, no pelvis rolling or trunk side bend. Same right ankle cuff visible on lifted leg. Highlight upper RIGHT OUTER HIP ABDUCTORS with ONE soft diffuse RED patch OVER intact opaque black shorts lateral hip only, never groin/knees/quads. NO muscle fibers/rays/sixpack/anatomical grooves through cloth. Fine detailed EXPOSED grayscale anatomical muscle contours and realistic proportions, equal male/female quality. Opaque BLACK athletic tank shirt and MID-THIGH black shorts wrap fully FRONT SIDES BACK SEAT CROTCH, continuous real fabric seams and broad cloth folds; NEVER cutaways, transparency, exposed anatomy through fabric, or red fibers through cloth. Black shoes. Pure white background soft grounded shadows. Entire body, dumbbells or ankle cuff and mat inside EACH square cell, no cropped head/feet, no cross-cell overlap. No captions/text/arrows/labels. Original supplied project artwork is rendering STYLE ONLY, ignore its bench push-up pose/equipment/chest red.",
+          "inspectionNote": "Top right ankle cuff remains on lifted straight leg, lower leg grounded, supporting forearm and upper palm visible. Red hip overlay has fine streaks needing cloth-surface smoothing. Slight rearward trajectory subtle; pelvis, toe orientation, neck and mapping pending qualified review.",
+          "canonicalName": "weighted lying hip abduction",
+          "styleVersion": "white-v1",
+          "equipment": "weighted",
+          "primaryMuscles": [
+            "abductors"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Top right ankle cuff remains on lifted straight leg, lower leg grounded, supporting forearm and upper palm visible. Red hip overlay has fine streaks needing cloth-surface smoothing. Slight rearward trajectory subtle; pelvis, toe orientation, neck and mapping pending qualified review.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0837-female-anatomical-white-v1-p1-e6ec9bc7ab5a.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 24248,
+              "sha256": "e6ec9bc7ab5a14ac62c4a038887693e3d6caf883e78d2d24cd0946b7d0b8392b"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0837-female-anatomical-white-v1-p2-aedbb3fb43d8.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 25282,
+              "sha256": "aedbb3fb43d83f1d919ce871e2c91a4c33b4e0a7aa53f0037664569b69638ec3"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0837-female-anatomical-white-v1-thumb-95a4d56b8d27.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 2400,
+            "sha256": "95a4d56b8d27e84a064733a05f9453541e7fc0aebf3de57053b211b4dded2bf1"
+          },
+          "processingSignature": "c79b762f172ea503df78242e2612c8a6d39d517a2235c0fdbe0dbe32eef7f2b1",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0837-female-anatomical-white-v1.png",
+            "width": 1774,
+            "height": 887,
+            "bytes": 1343760,
+            "sha256": "0471b001e94cbfa7c3773d60131078a7e036ac756513baac661b4505c8632381"
+          }
+        }
+      ]
+    }
+  ]
+}

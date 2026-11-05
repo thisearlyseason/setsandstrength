@@ -1,0 +1,97 @@
+{
+  "batch": 104,
+  "trigger": "2026-11-02T18:04:19.691Z",
+  "completedAt": "2026-11-02T18:29:25.289115+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 4,
+  "generationCalls": 8,
+  "exerciseIds": [
+    "0667",
+    "0668"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 428,
+    "remainingVariants": 10836,
+    "approvedVariants": 0,
+    "blockedVariants": 182,
+    "knownPoseImages": 886,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Four candidate sets, six pose images and four retained corrections using eight built-in calls. Single-leg push-ups use two phases with same straight raised leg and opposite toes on mat, switch legs next set per canonical instructions. Chest cloth edits replace internal streaks with diffuse tint. Rear decline bridge uses one static floor bridge pose according to hold:true and isometric category with shoulders/skull support, flat feet and palms down. Glute cloth edits make diffuse tint; female ponytail spreads but direct skull/mat contact remains uncertain and blocked. Qualified pelvic/knee/neck alignment, leg continuity, hand support and all anatomy/technique review remain separate. Fully opaque shirt/shorts wrap front/sides/back/seat/crotch; exposed anatomy fine grayscale. None approved or published. Originals, exact prompts, correction history and hashes retained. Original project artwork style-only, no upstream licensed media inputs. Pipeline checks are not anatomy approval.",
+  "metadataConflictsDeferred": [
+    {
+      "exerciseId": "0665",
+      "issue": "W hand position lacks precise palm/finger orientation and spacing; clarify setup before generating."
+    },
+    {
+      "exerciseId": "0666",
+      "issue": "Description raises arm only at top but instructions extend arm before lowering; clarify one-arm support timing."
+    }
+  ],
+  "recoveredErrors": [
+    "TypeError: Cannot read properties of undefined (reading '0') while reading expired in-memory prompt template; rebuilt prompts from current canonical records before generation."
+  ],
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 706545927,
+  "savedMasters": [
+    {
+      "exerciseId": "0667",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0667-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1746394,
+        "sha256": "cb1807e642960d28b9aadea8ae27449f63c3531cdbc9d4d7d711054c6f29bed5"
+      }
+    },
+    {
+      "exerciseId": "0667",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0667-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1753532,
+        "sha256": "48112dcf2682d0c0ee31729bc528b21f76dd0973b0635c471dc85a79f1b40275"
+      }
+    },
+    {
+      "exerciseId": "0668",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0668-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1726299,
+        "sha256": "c5926605f24a209fe774e73f740ffb39b142de1a73345d7876eb98a2ca132fee"
+      }
+    },
+    {
+      "exerciseId": "0668",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0668-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1818088,
+        "sha256": "2fae6f3ab523a2c493a8912dd681f419b3b68c4b655017ceb802805d4be19fd6"
+      }
+    }
+  ]
+}

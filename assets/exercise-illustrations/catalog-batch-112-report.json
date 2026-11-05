@@ -1,0 +1,84 @@
+{
+  "batch": 112,
+  "trigger": "2026-11-02T20:12:52.104Z",
+  "completedAt": "2026-11-02T20:23:23.616126+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 4,
+  "generationCalls": 6,
+  "exerciseIds": [
+    "0696",
+    "0701"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 458,
+    "remainingVariants": 10806,
+    "approvedVariants": 0,
+    "blockedVariants": 186,
+    "knownPoseImages": 954,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Four candidate sets, eight poses, six built-in calls and two retained corrections. Floor hamstring curls show supine long-leg start, long-leg bridge and curled bent-knee bridge; corrections move heels closer to hands/glutes and replace fiber-like shorts tint with diffuse red. Qualified same-limb scale, true heel-slide continuity, knee range, head/shoulder contact and hip/lumbar alignment review pending. Bent-knee side bridges use one static hold each, forearm under shoulder, stacked bent knees/feet, hips lifted and top hand on hip; qualified support-side identity and knee/hip/shoulder alignment review pending. Fine exposed grayscale anatomy, diffuse teaching tints and full opaque clothes front/sides/back/seat/crotch retained. No anatomy approval or publication. All original PNGs, exact prompts and correction history saved. Original project artwork style only, no upstream media. Pipeline checks do not approve anatomy.",
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 751654367,
+  "savedMasters": [
+    {
+      "exerciseId": "0696",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0696-male-anatomical-white-v2.png",
+        "width": 2172,
+        "height": 724,
+        "bytes": 1144850,
+        "sha256": "14de0d7ec2082c204b01ae97cf9370213b0a11efe52e3ba95f388e4a560cc9e6"
+      }
+    },
+    {
+      "exerciseId": "0696",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0696-female-anatomical-white-v2.png",
+        "width": 2172,
+        "height": 724,
+        "bytes": 1171871,
+        "sha256": "3f6674d429c3b3d4c2be9d4cd8798fe1933fe3d845c9ad7aadd6e8cfba6234fe"
+      }
+    },
+    {
+      "exerciseId": "0701",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0701-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1527630,
+        "sha256": "9c8795e38c443338e9bcf4b4bc2cb5c94f611b0bb70789c08c27aeb6b06085b4"
+      }
+    },
+    {
+      "exerciseId": "0701",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0701-female-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1460165,
+        "sha256": "60e1ffe3f940b3aa0226ca2d99e463a1ed5d189d5396c1f0a59358a1496d0b52"
+      }
+    }
+  ]
+}

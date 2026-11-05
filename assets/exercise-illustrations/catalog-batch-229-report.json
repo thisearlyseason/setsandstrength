@@ -1,0 +1,65 @@
+{
+  "batch": 229,
+  "runId": "29a3446b-87d3-4e17-bc1c-81b3eed01149",
+  "trigger": "2026-11-03T16:33:31.305Z",
+  "completedAt": "2026-11-03T16:42:35.876705+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 4,
+  "calls": 4,
+  "exerciseIds": [
+    "1722",
+    "1726",
+    "1728",
+    "1729"
+  ],
+  "variants": [
+    "male"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 795,
+    "remainingVariants": 10469,
+    "approvedVariants": 0,
+    "blockedVariants": 254,
+    "knownPoseImages": 1574,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 422,
+      "remainingVariants": 5210,
+      "blockedVariants": 135
+    }
+  },
+  "reviewNotes": {
+    "1722": "High-pulley rope overhead triceps extension: extended to hands behind head with taut cable and both bent elbows. Qualified review needed for rope grip, elbow stability, skull clearance and shoulder alignment.",
+    "1726": "Floor-lying rope extension: arms extended to bent elbows near forehead, supported skull/back and planted feet. Returned vertical two-row master; layout changed to one column/two rows to preserve complete poses. Qualified review needed for rope routing, skull clearance, neutral wrist and upper-arm position.",
+    "1728": "Bilateral cable kickback: bent to partially extended elbows with two connected low cables. BLOCKED: finish upper arms drop and elbows remain bent, so isolated full backward extension is not established.",
+    "1729": "Alternating lying dumbbell extension: opposite arms lower in middle/right cells. BLOCKED: working upper arms lower toward torso/bench with forearms vertical, depicting an alternating press rather than elbow-only skull extension."
+  },
+  "deferred": [
+    {
+      "exerciseId": "1723",
+      "reason": "Starts fully extended then instructs pushdown until fully extended; no bent-elbow start established."
+    },
+    {
+      "exerciseId": "1725",
+      "reason": "Incline-bench setup conflicts with standing-only instructions."
+    }
+  ],
+  "tests": 7,
+  "genCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "publicationIndexUnchanged": true,
+  "savedMasters": [
+    "assets/exercise-illustrations/generated/1722-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/1726-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/1728-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/1729-male-anatomical-white-v1.png"
+  ]
+}

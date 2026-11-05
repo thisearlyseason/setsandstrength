@@ -12,6 +12,9 @@ import androidx.health.connect.client.records.ExerciseSessionRecord;
 import androidx.health.connect.client.records.HeartRateRecord;
 import androidx.health.connect.client.records.Record;
 import androidx.health.connect.client.records.WeightRecord;
+import androidx.health.connect.client.records.StepsRecord;
+import androidx.health.connect.client.request.AggregateRequest;
+import androidx.health.connect.client.aggregate.AggregationResult;
 import androidx.health.connect.client.records.metadata.Metadata;
 import androidx.health.connect.client.request.ReadRecordsRequest;
 import androidx.health.connect.client.response.ReadRecordsResponse;
@@ -46,8 +49,8 @@ import org.json.JSONObject;
  * Settings: no permission is asked for before that. What to write is worked out in JS
  * (lib/health-connect.js); this side only turns those plain objects into records.
  *
- * Every record carries openGym's own id as its clientRecordId, so writing it again replaces it,
- * and "remove" finds exactly the records openGym wrote. The version is the time of the write:
+ * Every record carries sets&strength's own id as its clientRecordId, so writing it again replaces it,
+ * and "remove" finds exactly the records sets&strength wrote. The version is the time of the write:
  * Health Connect keeps a rewritten record only when its version is higher than the stored one.
  *
  * The client's API is Kotlin suspend functions. They are called from a worker thread through
@@ -279,6 +282,28 @@ public class HealthConnectPlugin extends Plugin {
         });
     }
 
+    // Aggregate across sources through Health Connect's deduplicated step metric.
+    @PluginMethod
+    public void readSteps(PluginCall call) {
+        if (!"available".equals(sdkStatus())) { call.reject("Health Connect is unavailable", "unavailable"); return; }
+        Long from = millis(call, "from"), to = millis(call, "to");
+        if (from == null || to == null || to <= from) { call.reject("A valid time range is needed", "failed"); return; }
+        worker.execute(() -> {
+            try {
+                if (!granted().contains("android.permission.health.READ_STEPS")) { call.reject("Step access is not allowed", "permission"); return; }
+                AggregateRequest request = new AggregateRequest(Collections.singleton(StepsRecord.COUNT_TOTAL),
+                        TimeRangeFilter.between(Instant.ofEpochMilli(from), Instant.ofEpochMilli(to)), Collections.emptySet());
+                AggregationResult result = (AggregationResult) BuildersKt.runBlocking(EmptyCoroutineContext.INSTANCE,
+                        (scope, cont) -> client().aggregate(request, cont));
+                Long count = result.get(StepsRecord.COUNT_TOTAL);
+                JSObject out = new JSObject();
+                out.put("count", count == null ? JSONObject.NULL : count);
+                call.resolve(out);
+            } catch (SecurityException e) { call.reject("Step access is not allowed", "permission"); }
+            catch (Exception e) { call.reject("Steps could not be read", "failed"); }
+        });
+    }
+
     @PluginMethod
     public void readWeights(PluginCall call) {
         if (!"available".equals(sdkStatus())) {
@@ -358,12 +383,13 @@ public class HealthConnectPlugin extends Plugin {
         JSObject r = new JSObject();
         r.put("heartRate", granted.contains(READ_HEART_RATE));
         r.put("weight", granted.contains(READ_WEIGHT));
+        r.put("steps", granted.contains("android.permission.health.READ_STEPS"));
         r.put("history", granted.contains(READ_HISTORY));
         return r;
     }
 
     // Health Connect's own screen for the data apps wrote, where the user can look at and delete
-    // what openGym wrote. Without Health Connect (Android 13 and lower), its store page instead.
+    // what sets&strength wrote. Without Health Connect (Android 13 and lower), its store page instead.
     @PluginMethod
     public void openSettings(PluginCall call) {
         String status = sdkStatus();

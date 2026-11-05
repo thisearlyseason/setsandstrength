@@ -1,0 +1,172 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "1436",
+      "variant": "male",
+      "key": "1436-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Rest the bar high on the upper traps, grip it securely and stand with feet shoulder-width apart and toes slightly turned out."
+        },
+        {
+          "key": "p2",
+          "caption": "Brace and bend your hips and knees, keeping your feet flat and knees aligned with your toes. Lower toward parallel, then stand under control."
+        }
+      ],
+      "prompt": "Use case scientific-educational. Original premium ADULT male detailed anatomical illustration canonical1436 BARBELL HIGH BAR SQUAT. TWO equal square cells side by side wide2:1 landscape same full body model same camera scale. Rear-side three-quarter view facing RIGHT, whole head feet barbell plates visible. Bar HIGH across UPPER TRAPEZIUS muscular shelf just below neck NEVER on neck, both hands pronated overhand wrap bar just outside shoulders thumbs opposed, elbows point down/back. Chrome straight bar with equal moderate gray round plates, fixed same width/load both poses no equipment rack. Feet shoulder-width toes slightly turned out heel and forefoot fully flat stationary. LEFT START standing tall knees/hips extended soft no hyperextension. RIGHT BOTTOM controlled squat with hips BACK AND DOWN thighs approximately PARALLEL floor, knees track over second toes, torso modest forward lean with neutral straight back and chest lifted, bar remains above midfoot. Both elbows bend consistently grip same bar no wrist contortion. Primaries per canonical muscleMap quadriceps gluteal adductors RED: fine red exposed distal quad/inner thigh where uncovered; smooth diffuse red tint over intact shorts FRONT thigh/INNER upper thigh and BACK glutes. Black fabric MUST stay intact smooth cloth folds, NEVER muscle striations or separated muscle lobes THROUGH shorts. All other regions grayscale including back/arms/calves. Full opaque BLACK athletic tank wraps FRONT SIDES BACK, BLACK MID-THIGH shorts cover FRONT SIDES BACK SEAT CROTCH seams broad folds continuous hems no cutaway/transparency. Fine detailed grayscale exposed anatomy realistic fingers proportions. Black flat shoes. Pure WHITE background soft contact shadows generous12percent margins bar ends plates head hands both feet inside EACH cell uncropped. Equal male/female quality. Original project reference STYLE ONLY ignore pushup/chest highlight. No text labels arrows extra people.",
+      "inspectionNote": "Two high-bar barbell squat candidates, four poses, two built-in calls. Both BLOCKED for overcloth radial highlight fibers; male posterior thigh highlighting also needs correction. Standing to near-parallel squat, flat feet, bar high across upper back, opaque clothing and exposed grayscale detail retained. Qualified upper-trap bar placement, wrist grip, knee tracking, depth, bar over midfoot and primary mapping require human review. Original project artwork style only, no upstream licensed input. Exact prompts/originals retained. No anatomy or clothing approval or publication. Seven pipeline checks do not establish anatomical accuracy.",
+      "blockingIssues": [
+        "Overcloth glute highlights contain radial anatomical-looking fibers instead of diffuse tint on plain fabric; male also colors exposed posterior thigh despite hamstrings not primary."
+      ],
+      "canonicalName": "barbell high bar squat",
+      "styleVersion": "white-v1",
+      "equipment": "barbell",
+      "primaryMuscles": [
+        "quadriceps",
+        "gluteal",
+        "adductors"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Two high-bar barbell squat candidates, four poses, two built-in calls. Both BLOCKED for overcloth radial highlight fibers; male posterior thigh highlighting also needs correction. Standing to near-parallel squat, flat feet, bar high across upper back, opaque clothing and exposed grayscale detail retained. Qualified upper-trap bar placement, wrist grip, knee tracking, depth, bar over midfoot and primary mapping require human review. Original project artwork style only, no upstream licensed input. Exact prompts/originals retained. No anatomy or clothing approval or publication. Seven pipeline checks do not establish anatomical accuracy.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/1436-male-anatomical-white-v1-p1-03878e9f8409.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 31340,
+          "sha256": "03878e9f84099a6fe5aeb24ecbef5d933e261d6f6a4fed9eaee7a2812491d5b9"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/1436-male-anatomical-white-v1-p2-05e80bc1f9f9.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 31122,
+          "sha256": "05e80bc1f9f90bfdee17ccad2af86146bf37072486cee95b757ab346ef22a233"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-189.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/1436-male-anatomical-white-v1-thumb-385cbef3152d.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 3240,
+        "sha256": "385cbef3152d465f1762a99f7d0a30bcc2572552793cff5c4f53bb8041730e04"
+      },
+      "processingSignature": "1f9a8d266ad81ae515ddf54486f223c3f35322e03c41bff4be56e810919e67fd",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1436-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1446081,
+        "sha256": "62a1ebb317772b72916706c93e333c2f45921dacff71a96c86896aa014a25bcd"
+      }
+    },
+    {
+      "exerciseId": "1436",
+      "variant": "female",
+      "key": "1436-female-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Rest the bar high on the upper traps, grip it securely and stand with feet shoulder-width apart and toes slightly turned out."
+        },
+        {
+          "key": "p2",
+          "caption": "Brace and bend your hips and knees, keeping your feet flat and knees aligned with your toes. Lower toward parallel, then stand under control."
+        }
+      ],
+      "prompt": "Use case scientific-educational. Original premium ADULT female detailed anatomical illustration canonical1436 BARBELL HIGH BAR SQUAT. TWO equal square cells side by side wide2:1 landscape same full body model same camera scale. Rear-side three-quarter view facing RIGHT, whole head feet barbell plates visible. Bar HIGH across UPPER TRAPEZIUS muscular shelf just below neck NEVER on neck, both hands pronated overhand wrap bar just outside shoulders thumbs opposed, elbows point down/back. Chrome straight bar with equal moderate gray round plates, fixed same width/load both poses no equipment rack. Feet shoulder-width toes slightly turned out heel and forefoot fully flat stationary. LEFT START standing tall knees/hips extended soft no hyperextension. RIGHT BOTTOM controlled squat with hips BACK AND DOWN thighs approximately PARALLEL floor, knees track over second toes, torso modest forward lean with neutral straight back and chest lifted, bar remains above midfoot. Both elbows bend consistently grip same bar no wrist contortion. Primaries per canonical muscleMap quadriceps gluteal adductors RED: fine red exposed distal quad/inner thigh where uncovered; smooth diffuse red tint over intact shorts FRONT thigh/INNER upper thigh and BACK glutes. Black fabric MUST stay intact smooth cloth folds, NEVER muscle striations or separated muscle lobes THROUGH shorts. All other regions grayscale including back/arms/calves. Full opaque BLACK athletic tank wraps FRONT SIDES BACK, BLACK MID-THIGH shorts cover FRONT SIDES BACK SEAT CROTCH seams broad folds continuous hems no cutaway/transparency. Fine detailed grayscale exposed anatomy realistic fingers proportions. Black flat shoes. Pure WHITE background soft contact shadows generous12percent margins bar ends plates head hands both feet inside EACH cell uncropped. Equal male/female quality. Original project reference STYLE ONLY ignore pushup/chest highlight. No text labels arrows extra people.",
+      "inspectionNote": "Two high-bar barbell squat candidates, four poses, two built-in calls. Both BLOCKED for overcloth radial highlight fibers; male posterior thigh highlighting also needs correction. Standing to near-parallel squat, flat feet, bar high across upper back, opaque clothing and exposed grayscale detail retained. Qualified upper-trap bar placement, wrist grip, knee tracking, depth, bar over midfoot and primary mapping require human review. Original project artwork style only, no upstream licensed input. Exact prompts/originals retained. No anatomy or clothing approval or publication. Seven pipeline checks do not establish anatomical accuracy.",
+      "blockingIssues": [
+        "Overcloth glute highlights contain radial anatomical-looking fibers instead of diffuse tint on plain fabric; male also colors exposed posterior thigh despite hamstrings not primary."
+      ],
+      "canonicalName": "barbell high bar squat",
+      "styleVersion": "white-v1",
+      "equipment": "barbell",
+      "primaryMuscles": [
+        "quadriceps",
+        "gluteal",
+        "adductors"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Two high-bar barbell squat candidates, four poses, two built-in calls. Both BLOCKED for overcloth radial highlight fibers; male posterior thigh highlighting also needs correction. Standing to near-parallel squat, flat feet, bar high across upper back, opaque clothing and exposed grayscale detail retained. Qualified upper-trap bar placement, wrist grip, knee tracking, depth, bar over midfoot and primary mapping require human review. Original project artwork style only, no upstream licensed input. Exact prompts/originals retained. No anatomy or clothing approval or publication. Seven pipeline checks do not establish anatomical accuracy.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/1436-female-anatomical-white-v1-p1-c48eb19b129e.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 28622,
+          "sha256": "c48eb19b129e351784560627367e18c99870a8455d14d42d764717728c6a6327"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/1436-female-anatomical-white-v1-p2-bacab6bb5031.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 28746,
+          "sha256": "bacab6bb5031c20b99c5ce65175d675ef59ba4c2155a4067d9d9c9debe08d905"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-189.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/1436-female-anatomical-white-v1-thumb-03dcf0a54f66.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 3034,
+        "sha256": "03dcf0a54f66b48fe1a3bbd110439d020b47e4a2a45a1090a0d8ba024793c830"
+      },
+      "processingSignature": "8bc973189d3f47ab3a9ae95f2b850579ce738338de95c29602d7fcf8a2f800eb",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1436-female-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1410064,
+        "sha256": "43fb88b5c4cfbfa801db9b7d0631c9b1d430c0b4216863085f4de6fd430ff15c"
+      }
+    }
+  ]
+}

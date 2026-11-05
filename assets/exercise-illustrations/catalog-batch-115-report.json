@@ -1,0 +1,84 @@
+{
+  "batch": 115,
+  "trigger": "2026-11-02T20:57:22.496Z",
+  "completedAt": "2026-11-02T21:10:23.292625+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 4,
+  "generationCalls": 6,
+  "exerciseIds": [
+    "0706",
+    "0707"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 470,
+    "remainingVariants": 10794,
+    "approvedVariants": 0,
+    "blockedVariants": 188,
+    "knownPoseImages": 980,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Four candidate sets, six poses, six built-in calls and two retained corrections. Forearm side bridges each one static hold, stacked straight legs, outer bottom shoe/forearm support and visible hip gap; qualified support-side identity, shoulder over elbow and straight head/hip/heel alignment review pending. Side crunch v2 shows lower and lifted bent-leg/trunk phases, hands lightly behind head. Both corrections soften abdominal tint and female master becomes two square landscape cells. Both crunches BLOCKED because contraction still appears rolled toward seated/supine balance rather than clearly on lateral pelvis; side-lying support and simultaneous lateral crunch mechanics unresolved after correction. Fine exposed grayscale anatomy, diffuse shirt tint with broad folds and full opaque clothes front/sides/back/seat/crotch retained. Original PNGs, exact prompts and correction history saved. No anatomy approval or publication. Original project artwork style only, no upstream media. Pipeline checks do not approve anatomy.",
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 770942038,
+  "savedMasters": [
+    {
+      "exerciseId": "0706",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0706-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1498592,
+        "sha256": "3d3094d0680018881dff8e76969d0d98f9cbcf737a839569ddf3287d6910c006"
+      }
+    },
+    {
+      "exerciseId": "0706",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0706-female-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1455125,
+        "sha256": "b4f7bcd494e73f4676a70c8b3a2b33ac214b42f3b14c3b0783499252b9f6536b"
+      }
+    },
+    {
+      "exerciseId": "0707",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0707-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1489591,
+        "sha256": "40ce7a7fad236141d96a9c2acd486298ca92b9ac3848a5c8c68b5312a8a177f4"
+      }
+    },
+    {
+      "exerciseId": "0707",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0707-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1493465,
+        "sha256": "e4aa13a98d4d8be446bfed33f8e7fe5ef6d752469beb7ef0e6cabef2a7957408"
+      }
+    }
+  ]
+}

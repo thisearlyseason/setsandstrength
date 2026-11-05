@@ -1,0 +1,73 @@
+{
+  "batch": 253,
+  "runId": "4b4a7db5-effd-40bd-95e0-8615d903d1fa",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "trigger": "2026-11-03T21:18:53.268Z",
+  "purpose": "batch253 scheduled male continuation",
+  "started": "2026-11-03T21:19:32.710203+00:00",
+  "completedAt": "2026-11-03T21:30:07.058793+00:00",
+  "actualToolName": "image_gen__imagegen",
+  "calls": 4,
+  "newCandidateSets": 4,
+  "exerciseIds": [
+    "1976",
+    "1979",
+    "1981",
+    "1983"
+  ],
+  "variants": [
+    "male"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 885,
+    "remainingVariants": 10379,
+    "approvedVariants": 0,
+    "blockedVariants": 281,
+    "knownPoseImages": 1698,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 512,
+      "remainingVariants": 5120,
+      "blockedVariants": 162
+    }
+  },
+  "reviewNotes": {
+    "1976": "Single-arm shoulder-flexor stretch: straight arm back/down contacting post, torso turned away, opposite arm relaxed. Qualified review needed for comfortable shoulder extension, hand/post grip, exact anterior-deltoid highlight and rotation range.",
+    "1979": "Cross-body shoulder stretch: straight arm across chest with opposite hand above elbow, shoulder down and coherent body. Qualified review needed for gentle upper-arm contact, finger anatomy and posterior-deltoid mapping.",
+    "1981": "Bent-arm cross-body shoulder stretch: working elbow visibly bent, opposite hand cradles elbow and forearm angled up. Qualified review needed for comfortable elbow-guiding pressure, shoulder height, hand anatomy and posterior-deltoid mapping.",
+    "1983": "Overhead shoulder reach: both arms straight with separate hands, feet grounded and torso tall. Qualified review needed for rib/lumbar control, neck extension, exact deltoid versus axillary highlight placement and comfortable backward reach."
+  },
+  "tests": 7,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "workerSyncResult": {
+    "statuses": {
+      "generated": 885,
+      "pending": 10379
+    },
+    "remaining": 10379,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 1369246922
+  },
+  "publicationIndexUnchanged": true,
+  "savedMasters": [
+    "assets/exercise-illustrations/generated/1976-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/1979-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/1981-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/1983-male-anatomical-white-v1.png"
+  ]
+}

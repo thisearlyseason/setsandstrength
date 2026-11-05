@@ -1,0 +1,88 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "3831",
+      "variant": "male",
+      "key": "3831-male-anatomical-white-v1",
+      "prompt": "LYING SINGLE LEG REVERSE BICEPS CURL WITH TOWEL sidefrontview TWO panels. Supine floor towel looparound LEFT foot only, RIGHTlegrestextendedfloor. BOTHhands gripends OVERHAND palmsDOWN knucklesUP pronatedgrip. Elbows bysides. First armsnearlystraight leftlegraised modestly. Second curlhands towardchest againstLEFTfoot resistance, leftkneebends toallow, towelstayscontinuous. Forearmsred exposedonly. Use case: scientific-educational. Premium detailed grayscale anatomical adult male illustration white background crisp detailed exposed muscles and realistic joints soft contact shadows. Reference original artwork for STYLE ONLY not movement. Same camera scale model garments all panels. Entire body equipment feet hands inside frame generous margins. Opaque black tank and mid-thigh shorts wrap front sides back seat crotch seams folds hems. Red primary-muscle teaching overlay on garment must be PLAIN FLAT surface color with fabric folds, NEVER show muscle shapes sixpack fibers nipples cutaways or transparent cloth. Exposed target muscles detailed red. No captions text arrows numbers logos.",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Lie back with towel around one foot and overhand grip."
+        },
+        {
+          "key": "p2",
+          "caption": "Curl against foot resistance, then extend and switch legs."
+        }
+      ],
+      "inspectionNote": "Real output inspected. Single foot towel loop and overhand grips retained through reverse curl; exposed forearm highlight. Qualified anatomy review pending; no publication.",
+      "blockingIssues": [],
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream media used.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only"
+      }
+    },
+    {
+      "exerciseId": "3855",
+      "variant": "male",
+      "key": "3855-male-anatomical-white-v1",
+      "prompt": "STANDING BACK EXTENSION AND FLEXION sideview TWO panels. Standfeet hipwidth handsONHIPS. First GENTLE backarch slightlyliftchest lookslightlyup, hipsstablekneessoft. Second gentlyROUNDupperandlowerback tuckchin, no deepfold no squat. Spineprimary plain flat red FABRICwash on tankback nofibers. Use case: scientific-educational. Premium detailed grayscale anatomical adult male illustration white background crisp detailed exposed muscles and realistic joints soft contact shadows. Reference original artwork for STYLE ONLY not movement. Same camera scale model garments all panels. Entire body equipment feet hands inside frame generous margins. Opaque black tank and mid-thigh shorts wrap front sides back seat crotch seams folds hems. Red primary-muscle teaching overlay on garment must be PLAIN FLAT surface color with fabric folds, NEVER show muscle shapes sixpack fibers nipples cutaways or transparent cloth. Exposed target muscles detailed red. No captions text arrows numbers logos.",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Gently arch back with hands on hips."
+        },
+        {
+          "key": "p2",
+          "caption": "Round back and tuck chin, moving within comfortable range."
+        }
+      ],
+      "inspectionNote": "Real output inspected. Gentle standing extension/flexion with hands on hips and intact plain fabric back highlight. Qualified anatomy review pending; no publication.",
+      "blockingIssues": [],
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream media used.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only"
+      }
+    },
+    {
+      "exerciseId": "3860",
+      "variant": "male",
+      "key": "3860-male-anatomical-white-v1",
+      "prompt": "WEIGHTED PLATE BENT OVER ROW side-rearthreequarter TWO panels. BOTHhands firmlygrip OPPOSITEEDGES oneROUNDweightplate withvisiblecenterhole. Hingehipsback flatback softknees torsonearlyhorizontal. First armshang platebelowchest. Second elbowsclose pullplatetowardLOWERribs, shouldersblades squeeze, torsofixed. Upperback primary plain red fabricwash tankback no fibers. Use case: scientific-educational. Premium detailed grayscale anatomical adult male illustration white background crisp detailed exposed muscles and realistic joints soft contact shadows. Reference original artwork for STYLE ONLY not movement. Same camera scale model garments all panels. Entire body equipment feet hands inside frame generous margins. Opaque black tank and mid-thigh shorts wrap front sides back seat crotch seams folds hems. Red primary-muscle teaching overlay on garment must be PLAIN FLAT surface color with fabric folds, NEVER show muscle shapes sixpack fibers nipples cutaways or transparent cloth. Exposed target muscles detailed red. No captions text arrows numbers logos.",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hinge forward holding plate at opposite edges."
+        },
+        {
+          "key": "p2",
+          "caption": "Row plate toward lower ribs, then lower with control."
+        }
+      ],
+      "inspectionNote": "Real output inspected. Plate edges held continuously and row shown, but tank has cutaway exposing back musculature. Qualified anatomy review pending; no publication.",
+      "blockingIssues": [
+        "Tank cutaway exposes highlighted back anatomy; opaque clothing requirement violated."
+      ],
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream media used.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only"
+      }
+    }
+  ],
+  "runStopReason": "Repeated covered-back anatomy/cutaway output defects on3827 and3860; stop run."
+}

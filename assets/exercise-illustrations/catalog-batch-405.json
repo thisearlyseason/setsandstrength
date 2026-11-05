@@ -1,0 +1,159 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "3696",
+      "variant": "male",
+      "key": "3696-male-anatomical-white-v1",
+      "prompt": "3 equal panels horizontal row. BENT OVER ALTERNATE REAR DELT FLY FRONT view male hip HINGE flat back knees soft TWO dumbbells. First both arms hang down. Second RIGHT arm raises sideways to shoulder height VIEWER LEFT with slight elbow bend, LEFT arm hangs VIEWER RIGHT. Third LEFT raises VIEWER RIGHT RIGHT hangs VIEWER LEFT. Same FRONT camera NOT mirrored bench no bench. Torso staysstill neck neutral. Exposed REAR DELTOIDS red only. Premium detailed grayscale anatomical adult MALE illustration pure white background soft shadows crisp realistic muscle anatomy joints. Original project reference STYLE ONLY. Same model camera scale garments equipment all panels. Complete opaque BLACK tank mid-thigh shorts wrap front sides back seat crotch seams folds hems. Covered red highlight PLAIN UNIFORM wash NO anatomical fibers segments lobes cutaways transparency. Full body hands feet equipment inside every panel generous margins. No text arrows labels logos numbers.\n",
+      "layout": {
+        "columns": 3,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hinge with both dumbbells hanging."
+        },
+        {
+          "key": "p2",
+          "caption": "Raise right arm sideways to shoulder height, then lower."
+        },
+        {
+          "key": "p3",
+          "caption": "Raise left arm sideways, then lower and continue alternating."
+        }
+      ],
+      "inspectionNote": "Real output inspected. Alternate bent-over fly raises opposite arms but large elbow bend makes row-like movement. Qualified anatomy review pending; no approval or publication.",
+      "blockingIssues": [
+        "Raised fly poses bend elbows substantially into row-like movement."
+      ],
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream media used.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only"
+      }
+    },
+    {
+      "exerciseId": "3697",
+      "variant": "male",
+      "key": "3697-male-anatomical-white-v1",
+      "prompt": "2 equal panels horizontal row. CABLE KNEELING REAR DELT ROPE ROW SIDE three-quarter male BOTH knees mat facing LOW cable pulley ankleheight. Single ROPE attachment splits into TWO ends both hands neutral palms faceeachother. First arms fully extended in front taut cable to low pulley. Second pull rope toward lower chest elbows flex and draw backward shoulderblades retract, torso tall NO leaning. No high pulley. Exposed REAR DELTOIDS red only. Premium detailed grayscale anatomical adult MALE illustration pure white background soft shadows crisp realistic muscle anatomy joints. Original project reference STYLE ONLY. Same model camera scale garments equipment all panels. Complete opaque BLACK tank mid-thigh shorts wrap front sides back seat crotch seams folds hems. Covered red highlight PLAIN UNIFORM wash NO anatomical fibers segments lobes cutaways transparency. Full body hands feet equipment inside every panel generous margins. No text arrows labels logos numbers.\n",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Kneel facing low pulley, holding rope ends with arms extended."
+        },
+        {
+          "key": "p2",
+          "caption": "Retract shoulder blades and pull rope toward torso, then return."
+        }
+      ],
+      "inspectionNote": "Real output inspected. Kneeling low-pulley rope row shows extended and retracted positions; review neutral grip and rear-delt mapping. Qualified anatomy review pending; no approval or publication.",
+      "blockingIssues": [],
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream media used.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only"
+      }
+    },
+    {
+      "exerciseId": "3698",
+      "variant": "male",
+      "key": "3698-male-anatomical-white-v1",
+      "prompt": "4 equal panels horizontal row. INCHWORM V2 SIDE view FOUR panels male FLOOR. First standing feet hipwidth. Second forward fold palms floor nearfeet legs nearlystraight. Third hands walked FAR FORWARD HIGH PLANK arms straight torso hips heels straightline. Fourth FEET walked toward stationary hands hips HIGH invertedV legs nearlystraight. Hands/feet support actualfloor no bench. ABS plain UNIFORM red wash intact tank abdomen no sixpack fibers. Premium detailed grayscale anatomical adult MALE illustration pure white background soft shadows crisp realistic muscle anatomy joints. Original project reference STYLE ONLY. Same model camera scale garments equipment all panels. Complete opaque BLACK tank mid-thigh shorts wrap front sides back seat crotch seams folds hems. Covered red highlight PLAIN UNIFORM wash NO anatomical fibers segments lobes cutaways transparency. Full body hands feet equipment inside every panel generous margins. No text arrows labels logos numbers.\n",
+      "layout": {
+        "columns": 4,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand tall."
+        },
+        {
+          "key": "p2",
+          "caption": "Fold forward and place hands on floor."
+        },
+        {
+          "key": "p3",
+          "caption": "Walk hands forward into high plank."
+        },
+        {
+          "key": "p4",
+          "caption": "Walk feet toward hands with legs straight, then repeat."
+        }
+      ],
+      "inspectionNote": "Real output inspected. Four inchworm poses show standing, fold, high plank and hips-high feet-in position. Unequal panel boundaries recorded for delivery. Qualified anatomy review pending; no approval or publication.",
+      "blockingIssues": [],
+      "cropBounds": [
+        [
+          0,
+          0,
+          0.21500920810313076,
+          1
+        ],
+        [
+          0.21500920810313076,
+          0,
+          0.43232044198895025,
+          1
+        ],
+        [
+          0.43232044198895025,
+          0,
+          0.7173112338858195,
+          1
+        ],
+        [
+          0.7173112338858195,
+          0,
+          1,
+          1
+        ]
+      ],
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream media used.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only"
+      }
+    },
+    {
+      "exerciseId": "3699",
+      "variant": "male",
+      "key": "3699-male-anatomical-white-v1",
+      "prompt": "3 equal panels horizontal row. SHOULDER TAP FRONT three-quarter THREE poses male floor HIGH PLANK toes spread stable. First BOTH palms floor under shoulders straight body. Second RIGHT hand touches LEFT SHOULDER at VIEWER RIGHT LEFT palm floor supports. Third LEFT hand touches RIGHT SHOULDER VIEWER LEFT RIGHT palm floor supports. CLEAR alternate supporting hand, hips square level torso straight no knee support. ABS plain uniform red wash intact tank abdomen NO sixpack fibers. Premium detailed grayscale anatomical adult MALE illustration pure white background soft shadows crisp realistic muscle anatomy joints. Original project reference STYLE ONLY. Same model camera scale garments equipment all panels. Complete opaque BLACK tank mid-thigh shorts wrap front sides back seat crotch seams folds hems. Covered red highlight PLAIN UNIFORM wash NO anatomical fibers segments lobes cutaways transparency. Full body hands feet equipment inside every panel generous margins. No text arrows labels logos numbers.\n",
+      "layout": {
+        "columns": 3,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hold high plank with stable hips."
+        },
+        {
+          "key": "p2",
+          "caption": "Tap left shoulder with right hand, then return."
+        },
+        {
+          "key": "p3",
+          "caption": "Tap right shoulder with left hand, then return."
+        }
+      ],
+      "inspectionNote": "Real output inspected. Opposite shoulder taps demonstrated, but primary highlight sits over upper chest rather than abdomen; exposed-toe shoe rendering also needs review. Qualified anatomy review pending; no approval or publication.",
+      "blockingIssues": [
+        "Primary abs highlight is displaced onto upper chest; revise mapping.",
+        "Exposed-toe footwear rendering needs correction or qualified verification."
+      ],
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream media used.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only"
+      }
+    }
+  ]
+}

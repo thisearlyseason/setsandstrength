@@ -151,6 +151,13 @@ export function referencedHashes(state) {
   return out
 }
 
+// Local-only photos must survive device cleanup without becoming upload references.
+export function localReferencedHashes(state) {
+  const out = referencedHashes(state)
+  for (const photo of state?.progressPhotos || []) if (HASH_RE.test(photo?.hash || '')) out.add(photo.hash)
+  return out
+}
+
 /**
  * The same hashes in the order the sync wants them, posters first: a poster is what every list
  * shows, so it is the file another device most wants soon, and it is small. Each hash comes with

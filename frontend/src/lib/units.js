@@ -25,6 +25,34 @@ export function convertBodyWeight(value, from, to) {
   return Math.round((to === 'lb' ? v * LB_PER_KG : v / LB_PER_KG) * 10) / 10
 }
 
+// Weigh-ins retain a precise kg source across display-unit changes. The last displayed
+// value and edit stamp detect a new reading, including edits made by an older client.
+const KG_PER_LB = 0.45359237
+const finiteWeight = value => value != null && value !== '' && Number.isFinite(Number(value))
+export function bodyWeightInKg(row, unit) {
+  if (!finiteWeight(row?.w)) return null
+  const source = row._weightSource
+  if (source && finiteWeight(source.kg) && Number(source.kg) >= 0
+      && finiteWeight(source.displayWeight) && ['kg', 'lb'].includes(source.displayUnit)
+      && source.stamp === (row.t ?? null)) {
+    const expected = source.displayUnit === unit ? source.displayWeight : convertBodyWeight(source.displayWeight, source.displayUnit, unit)
+    if (Math.abs(Number(expected) - Number(row.w)) < 1e-9) return Number(source.kg)
+  }
+  return Number(row.w) * (unit === 'lb' ? KG_PER_LB : 1)
+}
+function convertWeighIn(row, from, to) {
+  const kg = bodyWeightInKg(row, from)
+  if (kg == null) return { ...row, w: convertBodyWeight(row.w, from, to) }
+  const w = Math.round((to === 'lb' ? kg / KG_PER_LB : kg) * 10) / 10
+  return { ...row, w, _weightSource: { kg, displayUnit: to, displayWeight: w, stamp: row.t ?? null } }
+}
+export function estimatedLeanMass(row, bodyFat, unit) {
+  const kg = bodyWeightInKg(row, unit)
+  if (!(kg > 0) || bodyFat == null || bodyFat === '' || !Number.isFinite(Number(bodyFat)) || Number(bodyFat) < 0 || Number(bodyFat) > 100) return null
+  const leanKg = kg * (1 - Number(bodyFat) / 100)
+  return Math.round((unit === 'lb' ? leanKg / KG_PER_LB : leanKg) * 10) / 10
+}
+
 const convSet = (set, from, to) => {
   if (!set || typeof set !== 'object') return set
   const out = { ...set }
@@ -95,7 +123,9 @@ export function convertStateUnit(S, to) {
     return out
   }
   const out = { ...S, unit: to }
-  if (Array.isArray(S.bodyweight)) out.bodyweight = S.bodyweight.map(b => ({ ...b, w: bw(b.w) }))
+  // Carry a legacy target's precise value before the first rounded display conversion.
+  if (out.bodyGoalKg == null && S.targetW != null && Number(S.targetW) > 0 && !Number(S.trainingGoals?.weight)) out.bodyGoalKg = Number(S.targetW) * (from === 'lb' ? KG_PER_LB : 1)
+  if (Array.isArray(S.bodyweight)) out.bodyweight = S.bodyweight.map(b => convertWeighIn(b, from, to))
   if (S.targetW != null) out.targetW = bw(S.targetW)
   // A weekly-rate corridor in the profile's unit (#759) moves with it, to the hundredth: 0.25 kg a
   // week is 0.55 lb, and a tenth would make it 0.6. One in percent of body weight holds no weight.

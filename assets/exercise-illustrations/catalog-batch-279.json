@@ -1,0 +1,362 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "2337",
+      "variant": "male",
+      "key": "2337-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Lie supported on the bench holding dumbbells above your chest with elbows softly bent."
+        },
+        {
+          "key": "p2",
+          "caption": "Lower in a wide arc while keeping the elbow bend fixed, then bring the dumbbells together above your chest."
+        }
+      ],
+      "prompt": "DUMBBELL CHEST FLY ARM FORM CHECK. TWO equal cells side by side SAME elevated front-foot three-quarter camera. Flat bench long enough to support FULL HEAD, upper back and buttocks; feet planted. LEFT dumbbells above chest palms facing each other, arms nearly straight with SOFT20degree elbow bends. RIGHT open arms out to SIDES in wide arc until upper arms near torso level, same soft20degree elbow bends, palms face upward/inward. No elbow-bent bench press, no lowering below shoulder comfort. Two normal dumbbells, hands grasp handles thumbs wrapped. Same head support, hips contact and feet throughout. Premium detailed adult MALE grayscale anatomical illustration matching approved original project reference for rendering STYLE ONLY, ignore reference pose/highlights. Pure white background, soft contact shadows, realistic proportions and equipment, detailed crisp exposed gray muscle anatomy. Opaque black tank and mid-thigh shorts fully cover front sides back seat and crotch, visible seams hems cloth folds; black shoes. No transparency cutaways or fibers through fabric. PECTORALS ONLY as plain uniform soft red teaching tint on intact tank chest, no internal fibers lobes or segmentation. Arms shoulders legs gray. Normal two arms, two hands five fingers, two legs feet. Equal cells, consistent camera and body/equipment proportions. Entire body bench and weights within each cell with generous margins. No text symbols arrows logos.",
+      "inspectionNote": "Real output inspected. Supported flat-bench fly with feet grounded, paired dumbbells above chest then opened laterally near torso level. Soft elbow bend subtle at top and greater in open pose; qualified review needed for fixed elbow angle, wrist orientation, shoulder range and tank-overlay opacity/contours. Head and hips supported, opaque shorts. Human anatomy review remains pending. No approval or publication.",
+      "canonicalName": "dumbbell chest fly arms (form check)",
+      "styleVersion": "white-v1",
+      "equipment": "dumbbell",
+      "primaryMuscles": [
+        "pectorals"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Supported flat-bench fly with feet grounded, paired dumbbells above chest then opened laterally near torso level. Soft elbow bend subtle at top and greater in open pose; qualified review needed for fixed elbow angle, wrist orientation, shoulder range and tank-overlay opacity/contours. Head and hips supported, opaque shorts. Human anatomy review remains pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2337-male-anatomical-white-v1-p1-09b54ee7a83f.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 40692,
+          "sha256": "09b54ee7a83f3004873617164becaae44a6adc0c5a5aa065eb817d63076e0e18"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/2337-male-anatomical-white-v1-p2-ef911163aec3.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 37620,
+          "sha256": "ef911163aec34956a211e2b4bea7cf163615693c9cf52f1f624476206a571c5f"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-279.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2337-male-anatomical-white-v1-thumb-237cfbea80a4.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 4236,
+        "sha256": "237cfbea80a430d956cf9eb8bb44561e8342d0faf3ca596952a6b090b7e1c234"
+      },
+      "processingSignature": "d644927005632496e8c0564b6f700f8e7db357fc046d3ad9e7615003a20e4c2c",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2337-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1595435,
+        "sha256": "bba48349c39a2e49cff4989c964d832e59be7144eb0d5b58a4d19c03bdd639bd"
+      }
+    },
+    {
+      "exerciseId": "2338",
+      "variant": "male",
+      "key": "2338-male-anatomical-white-v1",
+      "layout": {
+        "columns": 3,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Faulty example: hips lifted away from the bench during the press; do not copy this position."
+        },
+        {
+          "key": "p2",
+          "caption": "Correct start: keep hips, upper back and head on the bench, feet flat, and bar controlled near mid-chest."
+        },
+        {
+          "key": "p3",
+          "caption": "Correct finish: press upward while maintaining hip contact with the bench and feet planted."
+        }
+      ],
+      "prompt": "BENCH PRESS HIP CONTACT FORM COMPARISON. THREE equal cells left to right same EXACT SIDE camera. Flat bench, normal light barbell, moderate grip, feet flat. Bench extends under ENTIRE HEAD and torso. LEFT INTENTIONALLY FAULTY EXAMPLE: at bottom of press bar at mid-chest, hips visibly lifted8cm OFF bench pad with a clear WHITE AIR GAP under buttocks, head upperback still supported, feet grounded. CENTER CORRECT bottom: same bar mid-chest, BUTTOCKS FIRMLY TOUCH bench pad no gap, natural small lumbar arch, head upperback supported, forearms vertical. RIGHT CORRECT top: bar pressed above chest arms nearly straight, buttocks STILL firmly TOUCH pad, head supported feet flat. This is an educational incorrect-versus-correct comparison; only LEFT intentionally faulty HIP CONTACT. No other faults. Premium detailed adult MALE grayscale anatomical illustration matching approved original project reference for rendering STYLE ONLY, ignore reference pose/highlights. Pure white background, soft contact shadows, realistic proportions and equipment, detailed crisp exposed gray muscle anatomy. Opaque black tank and mid-thigh shorts fully cover front sides back seat and crotch, visible seams hems cloth folds; black shoes. No transparency cutaways or fibers through fabric. PECTORALS ONLY as plain uniform soft red teaching tint on intact tank chest, no internal fibers lobes or segmentation. Arms shoulders legs gray. Normal two arms, two hands five fingers, two legs feet. Equal cells, consistent camera and body/equipment proportions. Entire body bench and weights within each cell with generous margins. No text symbols arrows logos.",
+      "inspectionNote": "Real output inspected. Three bench poses saved with external captions distinguishing faulty comparison from correct bottom/top. First image shows lumbar arch gap while buttocks still appear pad-supported, so it does not clearly depict the intended lifted-hip fault; block comparison correction. Correct poses retain head/hips support, feet grounded and chest tint. Qualified review of hip contact and bar/wrist geometry required. Human anatomy review remains pending. No approval or publication.",
+      "blockingIssues": [
+        "Faulty comparison shows a lumbar arch rather than clearly lifted buttocks; hip-contact contrast is not established."
+      ],
+      "canonicalName": "chest bench press butt (form check)",
+      "styleVersion": "white-v1",
+      "equipment": "barbell",
+      "primaryMuscles": [
+        "pectorals"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Three bench poses saved with external captions distinguishing faulty comparison from correct bottom/top. First image shows lumbar arch gap while buttocks still appear pad-supported, so it does not clearly depict the intended lifted-hip fault; block comparison correction. Correct poses retain head/hips support, feet grounded and chest tint. Qualified review of hip contact and bar/wrist geometry required. Human anatomy review remains pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2338-male-anatomical-white-v1-p1-a387a2afc274.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 26346,
+          "sha256": "a387a2afc2747c40f689cf530500ca1d518dfe0d9a9345a2f993660ba0f15205"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/2338-male-anatomical-white-v1-p2-36f6ee1ea140.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 25848,
+          "sha256": "36f6ee1ea140d69481f3698e9dfd4c817dcdf8f14e9af726c217a17bc20ffc59"
+        },
+        {
+          "pose": "p3",
+          "path": "/workout/illustration-pilot/2338-male-anatomical-white-v1-p3-bc6d0c9a58cb.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 29698,
+          "sha256": "bc6d0c9a58cb06272aba24f5d8b835aa4ba5bd8328c7270decd2467df2efb76a"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-279.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2338-male-anatomical-white-v1-thumb-f1058c85b699.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 3540,
+        "sha256": "f1058c85b699108ce85a9d1437b477e462b25f5e87bda5cbe3379368292cacf3"
+      },
+      "processingSignature": "a0b8e64ac2d263ff6b3041c050b2a5709874f72dd0e2bb19a7ac92db2c68e986",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2338-male-anatomical-white-v1.png",
+        "width": 2172,
+        "height": 724,
+        "bytes": 1534316,
+        "sha256": "8feb0d4b5e0729de658234d52c617629e48f9a7531a4e1ee4c48c11bcd94943e"
+      }
+    },
+    {
+      "exerciseId": "2339",
+      "variant": "male",
+      "key": "2339-male-anatomical-white-v1",
+      "layout": {
+        "columns": 3,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Faulty example: excessive grip width leaves forearms angled outward at the bottom; do not copy this grip."
+        },
+        {
+          "key": "p2",
+          "caption": "Correct bottom: grip just wider than the shoulders so forearms stay vertical beneath wrists."
+        },
+        {
+          "key": "p3",
+          "caption": "Correct finish: press upward with the same moderate grip and controlled bar path."
+        }
+      ],
+      "prompt": "BENCH PRESS GRIP WIDTH FORM COMPARISON. THREE equal cells same elevated FRONT-FOOT camera, both wrists elbows visible. Same flat bench supporting entire HEAD back hips, feet grounded, light barbell normal plates, overhand closed grip. LEFT INTENTIONALLY FAULTY bottom example: hands EXCESSIVELY WIDE on bar so wrists lie well OUTSIDE elbows and FOREARMS SLANT OUTWARD from elbows to wrists; bar near mid-chest. CENTER CORRECT bottom: hands just wider than shoulders, wrists directly above elbows, BOTH FOREARMS VERTICAL, elbows about45degrees from torso, bar mid-chest. RIGHT CORRECT top: same moderate grip as CENTER, arms nearly straight bar above chest. Only left grip deliberately faulty; all hips head supported and neutral wrists throughout. Premium detailed adult MALE grayscale anatomical illustration matching approved original project reference for rendering STYLE ONLY, ignore reference pose/highlights. Pure white background, soft contact shadows, realistic proportions and equipment, detailed crisp exposed gray muscle anatomy. Opaque black tank and mid-thigh shorts fully cover front sides back seat and crotch, visible seams hems cloth folds; black shoes. No transparency cutaways or fibers through fabric. PECTORALS ONLY as plain uniform soft red teaching tint on intact tank chest, no internal fibers lobes or segmentation. Arms shoulders legs gray. Normal two arms, two hands five fingers, two legs feet. Equal cells, consistent camera and body/equipment proportions. Entire body bench and weights within each cell with generous margins. No text symbols arrows logos.",
+      "inspectionNote": "Real output inspected. Wide-grip faulty example visibly differs from moderate-grip bottom and pressed finish; external captions identify faulty comparison. Correct bottom forearms more vertical. Bar appears at neck/very upper chest rather than mid-chest; block corrected-pose bar-path correction. Qualified review of camera projection, grip width, wrist stacking, head support and elbow angles required. Clothing remains opaque, chest teaching tint. Human anatomy review remains pending. No approval or publication.",
+      "blockingIssues": [
+        "Correct bottom bar projects across neck/very upper chest rather than mid-chest; correct bar path and camera."
+      ],
+      "canonicalName": "chest bench press grip width (form check)",
+      "styleVersion": "white-v1",
+      "equipment": "barbell",
+      "primaryMuscles": [
+        "pectorals"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Wide-grip faulty example visibly differs from moderate-grip bottom and pressed finish; external captions identify faulty comparison. Correct bottom forearms more vertical. Bar appears at neck/very upper chest rather than mid-chest; block corrected-pose bar-path correction. Qualified review of camera projection, grip width, wrist stacking, head support and elbow angles required. Clothing remains opaque, chest teaching tint. Human anatomy review remains pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2339-male-anatomical-white-v1-p1-e87aa3aafdf4.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 26546,
+          "sha256": "e87aa3aafdf404dbbbd9c9da6e645741318198cfed07305b62fc849a8414de17"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/2339-male-anatomical-white-v1-p2-d89c680fd3a5.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 25976,
+          "sha256": "d89c680fd3a58976d9769adc6df824130f5be725273e32b8f33a9e35bac9e298"
+        },
+        {
+          "pose": "p3",
+          "path": "/workout/illustration-pilot/2339-male-anatomical-white-v1-p3-3a3d6c69c618.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 26822,
+          "sha256": "3a3d6c69c61848a8cdcc81b39cb7934a76efb11abe6d0174b09ffd6ceb9bd569"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-279.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2339-male-anatomical-white-v1-thumb-2529613644b5.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 4204,
+        "sha256": "2529613644b5f5f2df303ec86c876fc4bb25187651e9bf1c5ea7ae5e43a4f26c"
+      },
+      "processingSignature": "33397b28ae55c87a720a1341128c8d489d716b617ebd21be72c305263a144bad",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2339-male-anatomical-white-v1.png",
+        "width": 2172,
+        "height": 724,
+        "bytes": 1534681,
+        "sha256": "62b578d6d81603ec0b1864894e8dc2792db356cc1a25178b34086f13c9f1c39a"
+      }
+    },
+    {
+      "exerciseId": "2342",
+      "variant": "male",
+      "key": "2342-male-anatomical-white-v1",
+      "layout": {
+        "columns": 3,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Faulty example: elbows flare wide near shoulder level at the bottom; do not copy this position."
+        },
+        {
+          "key": "p2",
+          "caption": "Correct bottom: keep elbows about 45 degrees from your torso with wrists stacked above them."
+        },
+        {
+          "key": "p3",
+          "caption": "Correct finish: press under control while retaining the tucked elbow path."
+        }
+      ],
+      "prompt": "BENCH PRESS ELBOW POSITION FORM COMPARISON. THREE equal cells same high elevated front-foot three-quarter view, enough overhead visibility to distinguish upper-arm angle relative torso. Flat bench extends under FULL HEAD and hips, feet grounded, light normal barbell moderate overhand closed grip. LEFT INTENTIONALLY FAULTY bottom example: upper arms flare out to SIDES90degrees from torso, elbows near shoulder transverse line; bar at upper chest. CENTER CORRECT bottom example: elbows tucked45degrees relative torso, bar at mid-to-lower chest, forearms vertical wrists over elbows. RIGHT CORRECT top: controlled press bar above chest arms nearly straight using same moderate grip. Head back hips supported all cells. Only LEFT elbow flare intentionally faulty; correct poses must clearly show45degree tuck. Premium detailed adult MALE grayscale anatomical illustration matching approved original project reference for rendering STYLE ONLY, ignore reference pose/highlights. Pure white background, soft contact shadows, realistic proportions and equipment, detailed crisp exposed gray muscle anatomy. Opaque black tank and mid-thigh shorts fully cover front sides back seat and crotch, visible seams hems cloth folds; black shoes. No transparency cutaways or fibers through fabric. PECTORALS ONLY as plain uniform soft red teaching tint on intact tank chest, no internal fibers lobes or segmentation. Arms shoulders legs gray. Normal two arms, two hands five fingers, two legs feet. Equal cells, consistent camera and body/equipment proportions. Entire body bench and weights within each cell with generous margins. No text symbols arrows logos.",
+      "inspectionNote": "Real output inspected. Flared upper-arm faulty comparison differs from tucked-elbow bottom and pressed finish, with external captions identifying intentional fault. Head/back/hips supported, feet grounded. Qualified review of actual elbow angles, bar placement, bench flatness versus camera perspective, wrist stacking and chest-overlay cloth detail required. Human anatomy review remains pending. No approval or publication.",
+      "canonicalName": "chest bench press elbows (form check)",
+      "styleVersion": "white-v1",
+      "equipment": "barbell",
+      "primaryMuscles": [
+        "pectorals"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Flared upper-arm faulty comparison differs from tucked-elbow bottom and pressed finish, with external captions identifying intentional fault. Head/back/hips supported, feet grounded. Qualified review of actual elbow angles, bar placement, bench flatness versus camera perspective, wrist stacking and chest-overlay cloth detail required. Human anatomy review remains pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2342-male-anatomical-white-v1-p1-be38462d6d85.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 34420,
+          "sha256": "be38462d6d8572037aae8c35425fa9db8db7a6c9c67e18e85f1cb0ac4db7309b"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/2342-male-anatomical-white-v1-p2-2526805290a2.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 33456,
+          "sha256": "2526805290a2097669739609dd78c3dee56be14d236e04266afd8473764e2e3c"
+        },
+        {
+          "pose": "p3",
+          "path": "/workout/illustration-pilot/2342-male-anatomical-white-v1-p3-a0d46b0f167f.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 32114,
+          "sha256": "a0d46b0f167fd352f3bc0685b23bb55bee8255df0838c0a3db699b016b42a6df"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-279.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2342-male-anatomical-white-v1-thumb-945716240cf5.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 5078,
+        "sha256": "945716240cf56316f0704abdf15bc6c5227a12d1203e53c7cc27a2f088584aff"
+      },
+      "processingSignature": "6f9711c02ad8a6a4a520f283dcc8d6b9c63b1b9991680e88ee1cf809b3650272",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2342-male-anatomical-white-v1.png",
+        "width": 2172,
+        "height": 724,
+        "bytes": 1759894,
+        "sha256": "abaa65869a99341aee180ea69ae0e1a6b5924fcb34c2178b48612ff70fecbcf5"
+      }
+    }
+  ]
+}

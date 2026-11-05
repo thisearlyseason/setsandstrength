@@ -1,0 +1,92 @@
+{
+  "batch": 276,
+  "runId": "9d6e8a3f-e22a-4ec4-82a5-0e27c499ab7f",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "trigger": "2026-11-04T01:00:25.623Z",
+  "purpose": "batch276 scheduled male continuation",
+  "started": "2026-11-04T01:01:03.515979+00:00",
+  "completedAt": "2026-11-04T01:07:52.646375+00:00",
+  "actualToolName": "image_gen__imagegen",
+  "calls": 4,
+  "newCandidateSets": 4,
+  "exerciseIds": [
+    "2307",
+    "2309",
+    "2312",
+    "2317"
+  ],
+  "variants": [
+    "male"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 977,
+    "remainingVariants": 10287,
+    "approvedVariants": 0,
+    "blockedVariants": 321,
+    "knownPoseImages": 1864,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 604,
+      "remainingVariants": 5028,
+      "blockedVariants": 202
+    }
+  },
+  "reviewNotes": {
+    "2307": "Guard, knee chamber and heel-led extension are distinct, supporting foot grounded and clothing opaque. End stance reads as a forward heel push with chest oriented toward kick rather than a clearly lateral side-kick hip/foot alignment; needs correction/qualified technique review. Red abductor overlay remains a small outer-hip tint. Human anatomy review remains pending.",
+    "2309": "Distinct guard, raised-knee chamber and forward heel push, toes upward, hands guarded, support foot grounded and slight torso lean. Working quad tint on opaque shorts with cloth folds. Qualified review needed for leg laterality, support knee softness, balance, heel strike and controlled retraction. Human anatomy review remains pending.",
+    "2312": "Supine bent-knee start and extended-leg poses are visible, two legs per pose, opaque clothing and abdominal teaching tint. Bent knee remains low with foot planted and torso repeats similar facing rather than clear alternating opposite shoulder-to-knee crunches. Block for movement/laterality correction; qualified review of cervical support, abdominal rotation and leg clearance remains required. Human anatomy review remains pending.",
+    "2317": "Seated bench setup, feet planted, upper arms down then lateral shoulder-height raise and elbow bends retained. Deltoid highlights on exposed shoulders, opaque tank and shorts. Start grip appears supinated, changing to pronated at top rather than palms toward body throughout; block grip correction. Qualified review of elbow angle, lateral versus forward trajectory and shoulder positioning required. Human anatomy review remains pending."
+  },
+  "blockingIssues": {
+    "2307": [
+      "Side-kick lateral hip alignment is unclear; end pose reads as forward heel push. Correct side-facing pelvis and supporting-foot rotation."
+    ],
+    "2312": [
+      "Bent leg stays foot-planted rather than bringing knee toward opposite elbow; alternating cross-body torso rotation is not clearly depicted."
+    ],
+    "2317": [
+      "Start grip appears palms-up/supinated rather than canonical palms toward body; grip rotates between poses."
+    ]
+  },
+  "deferred": {
+    "2306": "Spinning hook kick arc/support rotation needs detailed technique planning.",
+    "2308": "Roundhouse pivot/hip turnover requires detailed technique planning.",
+    "2310": "Spinning back kick trajectory/support requires detailed technique planning.",
+    "2311": "Cardiovascular target lacks primary highlight mapping.",
+    "2314": "Machine support/hand placement unspecified.",
+    "2315": "Rotary calf machine support/footplate geometry requires detailed technique planning."
+  },
+  "tests": 7,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "workerSyncResult": {
+    "statuses": {
+      "generated": 977,
+      "pending": 10287
+    },
+    "remaining": 10287,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 1506540909
+  },
+  "publicationIndexUnchanged": true,
+  "savedMasters": [
+    "assets/exercise-illustrations/generated/2307-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/2309-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/2312-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/2317-male-anatomical-white-v1.png"
+  ]
+}

@@ -1,0 +1,381 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "0679",
+      "variant": "male",
+      "key": "0679-male-anatomical-white-v2",
+      "layout": {
+        "columns": 3,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Lie supine with knees bent, feet flat and arms at sides."
+        },
+        {
+          "key": "p2",
+          "caption": "Tilt the pelvis and slowly peel the lower spine off the mat."
+        },
+        {
+          "key": "p3",
+          "caption": "Lift into a bridge, pause, then roll the spine down slowly."
+        }
+      ],
+      "detail": "ROLLING BRIDGE, THREE phases of ONE slow repetition. Full-body SIDE VIEW, HEAD LEFT FEET RIGHT in every panel. Lie supine face UP on plain thin gray floor mat. Back of skull rests DIRECTLY ON MAT in ALL phases, eyes ceiling, neck relaxed neutral, no head lifting or neck bridging. Arms straight at sides palms down, knees bent and both feet flat hip width, heels under knees at top, feet NEVER move. LEFT START: pelvis and full back on mat, knees bent. CENTER PARTIAL ROLL: posterior pelvic tilt, tailbone/pelvis and lower lumbar lift just slightly while upper and middle back and head stay grounded. RIGHT TOP: pelvis rises to gentle bridge with shoulders/hips/knees aligned, upper shoulder blades and skull stay grounded; no excessive lumbar arch. Both arms stay mat at sides, both shoes planted in every phase. Display clearly progressive low/mid/high pelvic elevation. No equipment except thin mat. Fine grayscale exposed arm/calf anatomy, red only soft blurred abdominal fabric tint, opaque shirt continuous to waistband no abdomen exposed.",
+      "prompt": "Edit original project THREE-panel male rolling bridge. Preserve exact low/mid/high pelvis phases, head directly on mat, feet planted, model/camera, fine detailed grayscale exposed arm/calf muscles. Replace ALL red abdominal shirt areas with ONE smoothly BLURRED diffuse soft red tint on continuous opaque matte black shirt. Erase ALL radial rays, streaks, striations and sixpack divisions in garment. Keep only broad natural cloth folds and seams. No anatomical detail on clothing. Full opaque shirt/shorts front sides back seat crotch. No text.",
+      "inspectionNote": "Abdominal tint softened to diffuse red over intact black fabric with broad folds; three pelvis heights, head/mat contact and planted feet retained. Exposed anatomy detailed. Qualified spinal segmentation, joint alignment and bilateral limb continuity remain pending.",
+      "canonicalName": "rolling bridge",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "abs"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0679-male-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "status": "generated",
+        "costUSD": null
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Abdominal tint softened to diffuse red over intact black fabric with broad folds; three pelvis heights, head/mat contact and planted feet retained. Exposed anatomy detailed. Qualified spinal segmentation, joint alignment and bilateral limb continuity remain pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0679-male-anatomical-white-v2-p1-df228e2ed3e4.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 15638,
+          "sha256": "df228e2ed3e470a8727f13960c4a91c88d9751f111330ec732661bf704119629"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0679-male-anatomical-white-v2-p2-1b97ffdbd927.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 15708,
+          "sha256": "1b97ffdbd927830b37fb2e64041c77a93fe9e15a2862fc5a148d7fa7a4460d6d"
+        },
+        {
+          "pose": "p3",
+          "path": "/workout/illustration-pilot/0679-male-anatomical-white-v2-p3-d6c49e97023b.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 16146,
+          "sha256": "d6c49e97023b2d3558cc099dfb8ca8c44775501907ff4767b0cc03437bec3e03"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0679-male-anatomical-white-v2-thumb-f1072f1cd82c.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2246,
+        "sha256": "f1072f1cd82c7e36f605159f21af036592f9326d71db4549f902fc8fbd0ec5a2"
+      },
+      "processingSignature": "f15fd75ba70ae1277cb8d4d9eefce9181bff5c1e672554a4c21f4a05630edbda",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0679-male-anatomical-white-v2.png",
+        "width": 2172,
+        "height": 724,
+        "bytes": 1653850,
+        "sha256": "8c3178d720473f8c4791b6264a1ff4aa20fe2081c339bce4c9822f7507c2ae99"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0679",
+          "variant": "male",
+          "key": "0679-male-anatomical-white-v1",
+          "layout": {
+            "columns": 3,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Lie supine with knees bent, feet flat and arms at sides."
+            },
+            {
+              "key": "p2",
+              "caption": "Tilt the pelvis and slowly peel the lower spine off the mat."
+            },
+            {
+              "key": "p3",
+              "caption": "Lift into a bridge, pause, then roll the spine down slowly."
+            }
+          ],
+          "detail": "ROLLING BRIDGE, THREE phases of ONE slow repetition. Full-body SIDE VIEW, HEAD LEFT FEET RIGHT in every panel. Lie supine face UP on plain thin gray floor mat. Back of skull rests DIRECTLY ON MAT in ALL phases, eyes ceiling, neck relaxed neutral, no head lifting or neck bridging. Arms straight at sides palms down, knees bent and both feet flat hip width, heels under knees at top, feet NEVER move. LEFT START: pelvis and full back on mat, knees bent. CENTER PARTIAL ROLL: posterior pelvic tilt, tailbone/pelvis and lower lumbar lift just slightly while upper and middle back and head stay grounded. RIGHT TOP: pelvis rises to gentle bridge with shoulders/hips/knees aligned, upper shoulder blades and skull stay grounded; no excessive lumbar arch. Both arms stay mat at sides, both shoes planted in every phase. Display clearly progressive low/mid/high pelvic elevation. No equipment except thin mat. Fine grayscale exposed arm/calf anatomy, red only soft blurred abdominal fabric tint, opaque shirt continuous to waistband no abdomen exposed.",
+          "prompt": "Original educational exercise illustration. Attached original project artwork STYLE ONLY never pose reference. Realistic neutral adult MALE, fine detailed grayscale anatomical fibers on EXPOSED muscles. Pure white background. THREE equal square side-by-side panels, identical model/camera/lighting. Fully OPAQUE matte BLACK sleeveless shirt wraps torso front/sides/back and covers abdomen; loose knee-length BLACK shorts wrap both thighs/front/sides/rear/seat/crotch with closed seams/hems, broad natural folds, black trainers. No transparent cloth, cutaways, anatomy windows or muscle fibers on garments. Primary ABS red only ONE smooth diffuse blurred tint across intact abdominal shirt fabric, no sixpack divisions, rays or muscle fibers. Whole person fingers shoes inside generous white margins. No labels/text/arrows/logos. ROLLING BRIDGE, THREE phases of ONE slow repetition. Full-body SIDE VIEW, HEAD LEFT FEET RIGHT in every panel. Lie supine face UP on plain thin gray floor mat. Back of skull rests DIRECTLY ON MAT in ALL phases, eyes ceiling, neck relaxed neutral, no head lifting or neck bridging. Arms straight at sides palms down, knees bent and both feet flat hip width, heels under knees at top, feet NEVER move. LEFT START: pelvis and full back on mat, knees bent. CENTER PARTIAL ROLL: posterior pelvic tilt, tailbone/pelvis and lower lumbar lift just slightly while upper and middle back and head stay grounded. RIGHT TOP: pelvis rises to gentle bridge with shoulders/hips/knees aligned, upper shoulder blades and skull stay grounded; no excessive lumbar arch. Both arms stay mat at sides, both shoes planted in every phase. Display clearly progressive low/mid/high pelvic elevation. No equipment except thin mat. Fine grayscale exposed arm/calf anatomy, red only soft blurred abdominal fabric tint, opaque shirt continuous to waistband no abdomen exposed.",
+          "inspectionNote": "Three supine bridge phases show progressive pelvis elevation and head/mat contact with planted feet. Shirt red has radial streaks requiring correction; qualified spinal sequencing and limb continuity review pending.",
+          "canonicalName": "rolling bridge",
+          "styleVersion": "white-v1",
+          "equipment": "body weight",
+          "primaryMuscles": [
+            "abs"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Three supine bridge phases show progressive pelvis elevation and head/mat contact with planted feet. Shirt red has radial streaks requiring correction; qualified spinal sequencing and limb continuity review pending.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0679-male-anatomical-white-v1-p1-56508d1d42d7.webp",
+              "width": 724,
+              "height": 724,
+              "bytes": 17686,
+              "sha256": "56508d1d42d7118141705b7f2d2a9643b93bb3ce812b89639041e43d9fb3e781"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0679-male-anatomical-white-v1-p2-da9f5498f29f.webp",
+              "width": 724,
+              "height": 724,
+              "bytes": 17918,
+              "sha256": "da9f5498f29f0968d3c7122e91df85b0ab871b918ba7d2f8aea470c47c549c58"
+            },
+            {
+              "pose": "p3",
+              "path": "/workout/illustration-pilot/0679-male-anatomical-white-v1-p3-dc1a4e2403f4.webp",
+              "width": 724,
+              "height": 724,
+              "bytes": 18770,
+              "sha256": "dc1a4e2403f408fa05b6a2dceda7abcf86d6a7905e9a22c3814a15e4b0393731"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0679-male-anatomical-white-v1-thumb-e2c19617ecf1.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 2224,
+            "sha256": "e2c19617ecf1e2e4b5867e4f813f28b0a316f869abf1df8233ac1a0dd2dd1789"
+          },
+          "processingSignature": "060166563f312a4b99cd59df4b3a2740f508fb99734ff1e2da0885078a506177",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0679-male-anatomical-white-v1.png",
+            "width": 2172,
+            "height": 724,
+            "bytes": 1264846,
+            "sha256": "c70c6f4598078a6b0cccab2aa16af26c6baf5e3aa5c591385684584276eba3d2"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "0679",
+      "variant": "female",
+      "key": "0679-female-anatomical-white-v2",
+      "layout": {
+        "columns": 3,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Lie supine with knees bent, feet flat and arms at sides."
+        },
+        {
+          "key": "p2",
+          "caption": "Tilt the pelvis and slowly peel the lower spine off the mat."
+        },
+        {
+          "key": "p3",
+          "caption": "Lift into a bridge, pause, then roll the spine down slowly."
+        }
+      ],
+      "detail": "ROLLING BRIDGE, THREE phases of ONE slow repetition. Full-body SIDE VIEW, HEAD LEFT FEET RIGHT in every panel. Lie supine face UP on plain thin gray floor mat. Back of skull rests DIRECTLY ON MAT in ALL phases, eyes ceiling, neck relaxed neutral, no head lifting or neck bridging. Arms straight at sides palms down, knees bent and both feet flat hip width, heels under knees at top, feet NEVER move. LEFT START: pelvis and full back on mat, knees bent. CENTER PARTIAL ROLL: posterior pelvic tilt, tailbone/pelvis and lower lumbar lift just slightly while upper and middle back and head stay grounded. RIGHT TOP: pelvis rises to gentle bridge with shoulders/hips/knees aligned, upper shoulder blades and skull stay grounded; no excessive lumbar arch. Both arms stay mat at sides, both shoes planted in every phase. Display clearly progressive low/mid/high pelvic elevation. No equipment except thin mat. Fine grayscale exposed arm/calf anatomy, red only soft blurred abdominal fabric tint, opaque shirt continuous to waistband no abdomen exposed.",
+      "prompt": "Edit original project THREE-panel female rolling bridge. Preserve low/mid/high pelvis phases, planted feet and grayscale exposed muscle detail, full opaque black shirt/shorts. Correct HEAD in ALL panels: back of SKULL lies DIRECTLY flat on MAT, chin relaxed, eyes upward toward ceiling; move bun/ponytail out from underneath skull, flatten hair behind head on mat so it cannot prop the head. Neck neutral with small natural cervical curve, head not raised. Replace red abdominal shirt pattern with ONE soft diffuse BLURRED red tint over continuous opaque matte black fabric, no rays/fibers/sixpack lines. Broad natural fabric folds only. No cutaways or transparency. No text.",
+      "inspectionNote": "Hair bun removed and flattened behind head; abdominal tint softened over continuous opaque fabric. Three bridge heights and planted feet retained with detailed grayscale exposed muscles. Head still appears elevated with hair under occiput; direct skull/mat contact not established. Human spinal sequencing and limb continuity review pending.",
+      "canonicalName": "rolling bridge",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "abs"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0679-female-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "status": "generated",
+        "costUSD": null
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Hair bun removed and flattened behind head; abdominal tint softened over continuous opaque fabric. Three bridge heights and planted feet retained with detailed grayscale exposed muscles. Head still appears elevated with hair under occiput; direct skull/mat contact not established. Human spinal sequencing and limb continuity review pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0679-female-anatomical-white-v2-p1-88a53c00e6ee.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 15728,
+          "sha256": "88a53c00e6ee4e3211a012b066a4d8e6beb2056745e6ade77203d8c15d0436cc"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0679-female-anatomical-white-v2-p2-24673227e9eb.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 15710,
+          "sha256": "24673227e9eb1cba93b37fd1c93853a8c85a8080f2a7652dc4dc497aa8afb74f"
+        },
+        {
+          "pose": "p3",
+          "path": "/workout/illustration-pilot/0679-female-anatomical-white-v2-p3-9a1c992c4ff4.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 15946,
+          "sha256": "9a1c992c4ff45a43b310ef0812271a509aa0de555e7431823f8026c3a68931d1"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0679-female-anatomical-white-v2-thumb-0bc6fe13c3ff.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2316,
+        "sha256": "0bc6fe13c3ff54d274b771970008d3bd0e8be0cfcf4f7acf6f25675e14a2a04f"
+      },
+      "processingSignature": "f236bf8e06673dba409173949bce974fd0d912ea7ec5900a9abd736c489e2b04",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0679-female-anatomical-white-v2.png",
+        "width": 2172,
+        "height": 724,
+        "bytes": 1643971,
+        "sha256": "7b2cceb6d2c8cee3a3ac48f98a0845af7e9d0026a79a5f1070c8743e271dbda2"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0679",
+          "variant": "female",
+          "key": "0679-female-anatomical-white-v1",
+          "layout": {
+            "columns": 3,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Lie supine with knees bent, feet flat and arms at sides."
+            },
+            {
+              "key": "p2",
+              "caption": "Tilt the pelvis and slowly peel the lower spine off the mat."
+            },
+            {
+              "key": "p3",
+              "caption": "Lift into a bridge, pause, then roll the spine down slowly."
+            }
+          ],
+          "detail": "ROLLING BRIDGE, THREE phases of ONE slow repetition. Full-body SIDE VIEW, HEAD LEFT FEET RIGHT in every panel. Lie supine face UP on plain thin gray floor mat. Back of skull rests DIRECTLY ON MAT in ALL phases, eyes ceiling, neck relaxed neutral, no head lifting or neck bridging. Arms straight at sides palms down, knees bent and both feet flat hip width, heels under knees at top, feet NEVER move. LEFT START: pelvis and full back on mat, knees bent. CENTER PARTIAL ROLL: posterior pelvic tilt, tailbone/pelvis and lower lumbar lift just slightly while upper and middle back and head stay grounded. RIGHT TOP: pelvis rises to gentle bridge with shoulders/hips/knees aligned, upper shoulder blades and skull stay grounded; no excessive lumbar arch. Both arms stay mat at sides, both shoes planted in every phase. Display clearly progressive low/mid/high pelvic elevation. No equipment except thin mat. Fine grayscale exposed arm/calf anatomy, red only soft blurred abdominal fabric tint, opaque shirt continuous to waistband no abdomen exposed.",
+          "prompt": "Original educational exercise illustration. Attached original project artwork STYLE ONLY never pose reference. Realistic neutral adult FEMALE, fine detailed grayscale anatomical fibers on EXPOSED muscles. Pure white background. THREE equal square side-by-side panels, identical model/camera/lighting. Fully OPAQUE matte BLACK sleeveless shirt wraps torso front/sides/back and covers abdomen; loose knee-length BLACK shorts wrap both thighs/front/sides/rear/seat/crotch with closed seams/hems, broad natural folds, black trainers. No transparent cloth, cutaways, anatomy windows or muscle fibers on garments. Primary ABS red only ONE smooth diffuse blurred tint across intact abdominal shirt fabric, no sixpack divisions, rays or muscle fibers. Whole person fingers shoes inside generous white margins. No labels/text/arrows/logos. Hair tied flat away from the back of skull so skull contacts mat directly. ROLLING BRIDGE, THREE phases of ONE slow repetition. Full-body SIDE VIEW, HEAD LEFT FEET RIGHT in every panel. Lie supine face UP on plain thin gray floor mat. Back of skull rests DIRECTLY ON MAT in ALL phases, eyes ceiling, neck relaxed neutral, no head lifting or neck bridging. Arms straight at sides palms down, knees bent and both feet flat hip width, heels under knees at top, feet NEVER move. LEFT START: pelvis and full back on mat, knees bent. CENTER PARTIAL ROLL: posterior pelvic tilt, tailbone/pelvis and lower lumbar lift just slightly while upper and middle back and head stay grounded. RIGHT TOP: pelvis rises to gentle bridge with shoulders/hips/knees aligned, upper shoulder blades and skull stay grounded; no excessive lumbar arch. Both arms stay mat at sides, both shoes planted in every phase. Display clearly progressive low/mid/high pelvic elevation. No equipment except thin mat. Fine grayscale exposed arm/calf anatomy, red only soft blurred abdominal fabric tint, opaque shirt continuous to waistband no abdomen exposed.",
+          "inspectionNote": "Three supine bridge phases show progressive pelvis elevation and feet planted. Ponytail appears under skull lifting head, and cloth tint has residual streaks; correction required. Human spinal sequencing and limb continuity review pending.",
+          "canonicalName": "rolling bridge",
+          "styleVersion": "white-v1",
+          "equipment": "body weight",
+          "primaryMuscles": [
+            "abs"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Three supine bridge phases show progressive pelvis elevation and feet planted. Ponytail appears under skull lifting head, and cloth tint has residual streaks; correction required. Human spinal sequencing and limb continuity review pending.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0679-female-anatomical-white-v1-p1-93ca7a66e0ce.webp",
+              "width": 724,
+              "height": 724,
+              "bytes": 17226,
+              "sha256": "93ca7a66e0ce2c77e9f9ebb77ed13c7f1ae3621dcbb3e765697669e258ed3aaf"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0679-female-anatomical-white-v1-p2-4adb6629173f.webp",
+              "width": 724,
+              "height": 724,
+              "bytes": 17412,
+              "sha256": "4adb6629173f78a523bc0b0cbf331168c2ff0b2f193fd1cb669ec4913d9ead67"
+            },
+            {
+              "pose": "p3",
+              "path": "/workout/illustration-pilot/0679-female-anatomical-white-v1-p3-2e0b7fdd08df.webp",
+              "width": 724,
+              "height": 724,
+              "bytes": 17838,
+              "sha256": "2e0b7fdd08dfa40f684e51ad660b1dd8bd996e03c5d2ba619faea9bf8dee31d7"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0679-female-anatomical-white-v1-thumb-4a4137be40b2.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 2284,
+            "sha256": "4a4137be40b2a747e0830c0ae95f3100e30b3b171a0303fb7010177187aa1f7b"
+          },
+          "processingSignature": "c49e4ab5b8d58cd369801b3d831e3346a5b3e8c6f1abea27924aa9514fe09696",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0679-female-anatomical-white-v1.png",
+            "width": 2172,
+            "height": 724,
+            "bytes": 1290579,
+            "sha256": "d99b1e48ea2dfd39a5a5ccc38b33517ee690e512d5fdab2d8019232857520e10"
+          }
+        }
+      ],
+      "blockingIssues": [
+        "Direct skull/mat contact and neutral cervical support remain uncertain after correction; head still appears elevated on hair."
+      ]
+    }
+  ]
+}

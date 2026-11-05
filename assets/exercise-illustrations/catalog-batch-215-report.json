@@ -1,0 +1,49 @@
+{
+  "batch": 215,
+  "runId": "45152851-2fb1-4f97-8c20-06d1273adfaf",
+  "trigger": "2026-11-03T14:48:00.810Z",
+  "completedAt": "2026-11-03T14:52:14.073745+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 2,
+  "calls": 2,
+  "exerciseIds": [
+    "1615"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 744,
+    "remainingVariants": 10520,
+    "approvedVariants": 0,
+    "blockedVariants": 243,
+    "knownPoseImages": 1460,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Two lever hammer-grip preacher curl candidates, four poses, two built-in calls. Real outputs inspected: neutral vertical handles, supported upper arms, extended to flexed elbows, red exposed biceps, opaque tank and shorts, complete bodies and machine frames. Qualified human review needed for exact elbow/pivot alignment, maintained pad contact, finger anatomy, resistance linkage and range. Female machine includes weight stack; male uses compact lever frame with resistance mechanism not fully established. Equivalent detailed rendering retained. Original artwork style only, no upstream media. Exact prompts and masters retained. No anatomical approval or publication.",
+  "deferred": [
+    {
+      "exerciseId": "1612",
+      "reason": "Spine target lacks specific primary-muscle mapping."
+    },
+    {
+      "exerciseId": "1616",
+      "reason": "Overhand reverse-grip description conflicts with underhand palms-up instruction."
+    }
+  ],
+  "tests": 7,
+  "genCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 1166686780,
+  "savedMasters": [
+    "assets/exercise-illustrations/generated/1615-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/1615-female-anatomical-white-v1.png"
+  ]
+}

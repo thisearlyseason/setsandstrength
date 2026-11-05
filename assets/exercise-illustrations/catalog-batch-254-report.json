@@ -1,0 +1,81 @@
+{
+  "batch": 254,
+  "runId": "1b729815-6931-4883-bde1-cf94859fbda6",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "trigger": "2026-11-03T21:32:53.428Z",
+  "purpose": "batch254 scheduled male continuation",
+  "started": "2026-11-03T21:33:28.289827+00:00",
+  "completedAt": "2026-11-03T21:45:22.577070+00:00",
+  "actualToolName": "image_gen__imagegen",
+  "calls": 4,
+  "newCandidateSets": 4,
+  "exerciseIds": [
+    "1989",
+    "1990",
+    "1991",
+    "1992"
+  ],
+  "variants": [
+    "male"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 889,
+    "remainingVariants": 10375,
+    "approvedVariants": 0,
+    "blockedVariants": 283,
+    "knownPoseImages": 1703,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 516,
+      "remainingVariants": 5116,
+      "blockedVariants": 164
+    }
+  },
+  "reviewNotes": {
+    "1989": "Parallel-bar stretch shows both feet grounded, hips flexed, straight arms and hands on separate bars. Visible radial muscle-like lines in the tank overlay require correction. Qualified review also needed for chest-drop range and bar height.",
+    "1990": "Doorframe stretch has vertical supported forearm and torso turning away, but working elbow is visibly below shoulder height. Correct upper-arm elevation and elbow angle before approval.",
+    "1991": "Original master unexpectedly contains two similar figures. Preserve the entire original and deliver only the right-hand final static hold using normalized crop bounds. Rear torso, pelvis and feet are coherent; lower working arm holds the towel behind the back, overhead assisting hand holds its upper end, and posterior-deltoid highlight follows the working side. Qualified review needed for internal-rotation range, wrist and towel contact, and muscle mapping.",
+    "1992": "Two distinct hack-squat positions show high and lowered sled carriage, supported back and shoulders, hands on handles, and feet on the platform. Qualified review required for exact below-parallel depth, knee tracking, heel contact, carriage/rail mechanics and quadriceps mapping."
+  },
+  "blockingIssues": {
+    "1989": [
+      "Muscle-like radial/internal fiber lines rendered through tank in red lat overlay; replace with plain teaching tint on intact fabric."
+    ],
+    "1990": [
+      "Working elbow is below shoulder height instead of level with the shoulder; correct upper-arm elevation and elbow angle."
+    ]
+  },
+  "tests": 7,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "workerSyncResult": {
+    "statuses": {
+      "generated": 889,
+      "pending": 10375
+    },
+    "remaining": 10375,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 1375100500
+  },
+  "publicationIndexUnchanged": true,
+  "savedMasters": [
+    "assets/exercise-illustrations/generated/1989-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/1990-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/1991-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/1992-male-anatomical-white-v1.png"
+  ]
+}

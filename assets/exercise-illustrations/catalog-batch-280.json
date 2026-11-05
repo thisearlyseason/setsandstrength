@@ -1,0 +1,355 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "2343",
+      "variant": "male",
+      "key": "2343-male-anatomical-white-v1",
+      "layout": {
+        "columns": 3,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Faulty comparison: the back rounds while holding the bar; do not copy this posture."
+        },
+        {
+          "key": "p2",
+          "caption": "Correct start: hinge at the hips with soft knees, keeping a long neutral spine and arms hanging."
+        },
+        {
+          "key": "p3",
+          "caption": "Correct finish: row toward the lower ribs while keeping your torso and neutral spine still; lower under control."
+        }
+      ],
+      "prompt": "BARBELL BENT-OVER ROW BACK FORM COMPARISON. THREE equal cells SAME exact side-three-quarter camera facing IMAGE RIGHT. Light straight barbell small plates, overhand closed grip just wider than shoulders, feet grounded. LEFT deliberately FAULTY start example: spine visibly rounded through thoracic and lumbar regions, shoulders slumped, arms hang with bar below knees. CENTER CORRECT start: hinge hips back torso45degrees, long neutral flat back from pelvis to head, knees softly bent, arms hang bar below shoulders. RIGHT CORRECT finish: EXACT SAME neutral spine and hinge angle as center, elbows flexed and drawn back, bar at lower ribs. Primary LATS only smooth uniform red tint over lateral mid/lower tank back. Tank shoulders/chest black. Premium detailed adult MALE grayscale anatomical illustration matching approved original project reference for rendering STYLE ONLY, ignore its pose/highlights. White background, soft contact shadows, detailed crisp exposed gray muscle contours, realistic proportions. Opaque BLACK tank and mid-thigh shorts fully cover front sides back seat crotch, normal seams hems folds and black shoes. No cutaways transparency or anatomy/fibers through fabric. Red over cloth is plain uniform soft teaching tint, no internal fibers rays lobes. Only named primary muscles red. Two arms/hands with five fingers, two legs/feet anatomically coherent. Equal cells same camera and person, entire body/equipment inside each cell with generous margins. No text arrows logos or checkmarks. Faulty comparison will be clearly captioned outside image files.",
+      "inspectionNote": "Real output inspected. Rounded-back faulty comparison differs from neutral hinged start and row endpoint; external captions identify the intentional fault. Overhand bar and planted feet visible, row endpoint near abdomen. Red lateral tank region shows repeated fiber-like bands; block fabric-overlay correction. Qualified review of neutral spine, fixed torso angle, bar endpoint and grip remains required. Human anatomy review remains pending. No approval or publication.",
+      "blockingIssues": [
+        "Red lat overlay has fiber-like striations through tank; replace with uniform tint on opaque fabric."
+      ],
+      "canonicalName": "bent over row back (form check)",
+      "styleVersion": "white-v1",
+      "equipment": "barbell",
+      "primaryMuscles": [
+        "lats"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Rounded-back faulty comparison differs from neutral hinged start and row endpoint; external captions identify the intentional fault. Overhand bar and planted feet visible, row endpoint near abdomen. Red lateral tank region shows repeated fiber-like bands; block fabric-overlay correction. Qualified review of neutral spine, fixed torso angle, bar endpoint and grip remains required. Human anatomy review remains pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2343-male-anatomical-white-v1-p1-1ea0fd2253bf.webp",
+          "width": 591,
+          "height": 887,
+          "bytes": 31362,
+          "sha256": "1ea0fd2253bf966572bf674d1c1f5e8c95ef636fd90df6b425098843cb4d7e23"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/2343-male-anatomical-white-v1-p2-b6787966acbc.webp",
+          "width": 592,
+          "height": 887,
+          "bytes": 29434,
+          "sha256": "b6787966acbc85a67c55a598a2e3af16bb622413db9bd078ec01abc3f99b2aef"
+        },
+        {
+          "pose": "p3",
+          "path": "/workout/illustration-pilot/2343-male-anatomical-white-v1-p3-2f949bb4238f.webp",
+          "width": 591,
+          "height": 887,
+          "bytes": 27130,
+          "sha256": "2f949bb4238fc6d6874294c81cd1db61188bbf801f46ff44003fb37cd87e561a"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-280.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2343-male-anatomical-white-v1-thumb-51f9367083bc.webp",
+        "width": 160,
+        "height": 240,
+        "bytes": 3148,
+        "sha256": "51f9367083bc5712f647d112055acfa473b3e63c1321146c99faeab8889b5804"
+      },
+      "processingSignature": "0f6f11809253f3531c74958eeaace2e6bd5f44f9de027426c2424f7afe7c4d59",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2343-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1661872,
+        "sha256": "b3520b25b9eae747056466c46eeeaf3f4780b480737014e0076d76f8e9f58418"
+      }
+    },
+    {
+      "exerciseId": "2344",
+      "variant": "male",
+      "key": "2344-male-anatomical-white-v1",
+      "layout": {
+        "columns": 3,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Faulty comparison: the lower back lifts away from the floor during the curl; do not copy this posture."
+        },
+        {
+          "key": "p2",
+          "caption": "Correct start: lie with knees bent and feet flat, hands lightly by the head and lower back gently on the floor."
+        },
+        {
+          "key": "p3",
+          "caption": "Correct finish: curl only the upper back and shoulders, keeping the lower back on the floor and avoiding neck pulling."
+        }
+      ],
+      "prompt": "CRUNCH LOWER BACK FORM COMPARISON. THREE equal cells same EXACT SIDE camera, head toward IMAGE LEFT feet RIGHT. Knees bent90 feet flat hipwidth, hands LIGHTLY beside head elbows out. LEFT intentionally FAULTY curl: lower back visibly arches OFF floor with white air gap beneath LUMBAR region, pelvis on floor, shoulders curled. CENTER CORRECT start: shoulders/head down, pelvis AND lumbar back gently flat on floor, neutral neck. RIGHT CORRECT crunch: shoulder blades lifted modestly by curling rib cage toward pelvis, head follows spine, LUMBAR BACK remains gently ON floor no gap, pelvis stays grounded. Hands do not pull neck. Primary ABS only smooth uniform soft red tint on intact front abdominal tank, chest black. Premium detailed adult MALE grayscale anatomical illustration matching approved original project reference for rendering STYLE ONLY, ignore its pose/highlights. White background, soft contact shadows, detailed crisp exposed gray muscle contours, realistic proportions. Opaque BLACK tank and mid-thigh shorts fully cover front sides back seat crotch, normal seams hems folds and black shoes. No cutaways transparency or anatomy/fibers through fabric. Red over cloth is plain uniform soft teaching tint, no internal fibers rays lobes. Only named primary muscles red. Two arms/hands with five fingers, two legs/feet anatomically coherent. Equal cells same camera and person, entire body/equipment inside each cell with generous margins. No text arrows logos or checkmarks. Faulty comparison will be clearly captioned outside image files.",
+      "inspectionNote": "Real output inspected. Faulty comparison lifts much of back away from floor; correct start supine and correct curl retain lower-back/pelvic contact with shoulder elevation. External captions distinguish faulty pose. Bent knees and feet grounded, hands lightly by head, tint on intact abdominal tank. Qualified review of actual lumbar contact, cervical alignment, curl range, hand pressure and overlay folds remains required. Human anatomy review remains pending. No approval or publication.",
+      "canonicalName": "crunch back (form check)",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "abs"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Faulty comparison lifts much of back away from floor; correct start supine and correct curl retain lower-back/pelvic contact with shoulder elevation. External captions distinguish faulty pose. Bent knees and feet grounded, hands lightly by head, tint on intact abdominal tank. Qualified review of actual lumbar contact, cervical alignment, curl range, hand pressure and overlay folds remains required. Human anatomy review remains pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2344-male-anatomical-white-v1-p1-0e815cbbbb63.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 20152,
+          "sha256": "0e815cbbbb630d512376ab69dca80ef4eafe1cb5fd0c1d5cf4b0dcb115deffbf"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/2344-male-anatomical-white-v1-p2-c2c8befe7aaf.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 17080,
+          "sha256": "c2c8befe7aaf64af0531e92b98330b925f4e385398087ae37b8733fce0cc640b"
+        },
+        {
+          "pose": "p3",
+          "path": "/workout/illustration-pilot/2344-male-anatomical-white-v1-p3-287b9648c6bb.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 19024,
+          "sha256": "287b9648c6bb2d270a95c4bff5700076e5f3ee1394e3fcf3f684e5daab7ff24a"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-280.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2344-male-anatomical-white-v1-thumb-84f6c37b8787.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2920,
+        "sha256": "84f6c37b8787972e4987481469b071d34c85d5b3f66aa8cf02787212f0806020"
+      },
+      "processingSignature": "b3439fe3448e392140eb63795823ffbe5969fb29f933616f24339dc3c8d5c85b",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2344-male-anatomical-white-v1.png",
+        "width": 2172,
+        "height": 724,
+        "bytes": 1398455,
+        "sha256": "c5b515607ce7e9fdfd791bddd5652da1f7664e77de90b566a349430ac184190f"
+      }
+    },
+    {
+      "exerciseId": "2347",
+      "variant": "male",
+      "key": "2347-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Faulty comparison: hips are pushed upward into a pike; do not copy this alignment."
+        },
+        {
+          "key": "p2",
+          "caption": "Correct hold: keep elbows under shoulders, forearms and toes grounded, and head, hips and heels in one line; breathe steadily."
+        }
+      ],
+      "prompt": "FRONT FOREARM PLANK HIP FORM COMPARISON. TWO equal cells side by side exact SIDE camera facing IMAGE RIGHT. LEFT deliberately FAULTY hold: elbows under shoulders forearms on floor, straight legs toes grounded, BUTTOCKS pushed high into pronounced PIKE so torso/legs form inverted V with hip20cm above shoulder-to-heel line. RIGHT CORRECT static hold: elbows under shoulders forearms on floor, legs straight toes grounded, HEAD SHOULDERS HIPS HEELS form one straight horizontal line, no hip sag or pike. Head neutral eyes down. Entire hands and shoes visible. Primary ABS only smooth red tint over intact front/side abdominal tank, chest and hip cloth black. Premium detailed adult MALE grayscale anatomical illustration matching approved original project reference for rendering STYLE ONLY, ignore its pose/highlights. White background, soft contact shadows, detailed crisp exposed gray muscle contours, realistic proportions. Opaque BLACK tank and mid-thigh shorts fully cover front sides back seat crotch, normal seams hems folds and black shoes. No cutaways transparency or anatomy/fibers through fabric. Red over cloth is plain uniform soft teaching tint, no internal fibers rays lobes. Only named primary muscles red. Two arms/hands with five fingers, two legs/feet anatomically coherent. Equal cells same camera and person, entire body/equipment inside each cell with generous margins. No text arrows logos or checkmarks. Faulty comparison will be clearly captioned outside image files.",
+      "inspectionNote": "Real output inspected. Raised-hip faulty hold clearly contrasts with nearly straight correct forearm plank. Elbows beneath shoulders, forearms/toes grounded and full body in frame; external captions identify comparison. Abdominal red overlay includes segmented muscle-like lobes visible through tank; block clothing-overlay correction. Qualified review of head/hip/heel alignment and elbow support remains required. Human anatomy review remains pending. No approval or publication.",
+      "blockingIssues": [
+        "Segmented abdominal anatomy visible in red tank overlay; replace with uniform tint on opaque cloth."
+      ],
+      "canonicalName": "front plank butt (form check)",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "abs"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Raised-hip faulty hold clearly contrasts with nearly straight correct forearm plank. Elbows beneath shoulders, forearms/toes grounded and full body in frame; external captions identify comparison. Abdominal red overlay includes segmented muscle-like lobes visible through tank; block clothing-overlay correction. Qualified review of head/hip/heel alignment and elbow support remains required. Human anatomy review remains pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2347-male-anatomical-white-v1-p1-a15b18a7d795.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 24358,
+          "sha256": "a15b18a7d795513104faa4c0bf383661370775e8fdeec2dfde19b913047c2aee"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/2347-male-anatomical-white-v1-p2-3c4098971281.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 21032,
+          "sha256": "3c4098971281fcad1597723f78305bf13f89397af8e08a578d2fcb5bfeacc852"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-280.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2347-male-anatomical-white-v1-thumb-e52a551304b3.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2364,
+        "sha256": "e52a551304b34e011fe55104f12493878634e28ce74be7b4e22a2e1619dff7f8"
+      },
+      "processingSignature": "c15473b00e5432fcaa5a5353d70145daa61754ea594aaf1a08f06f3ee84348c2",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2347-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1303812,
+        "sha256": "71f5a3b68bedce49e5b146a09ada45065f8943c868a727fb11e1bacc5c118e3c"
+      }
+    },
+    {
+      "exerciseId": "2349",
+      "variant": "male",
+      "key": "2349-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Faulty comparison: hips bend so the buttocks stick backward out of the body line; do not copy this position."
+        },
+        {
+          "key": "p2",
+          "caption": "Correct hold: stack feet and shoulders, keep elbow under shoulder and hips elevated so head, hips and feet align; then switch sides."
+        }
+      ],
+      "prompt": "SIDE FOREARM PLANK HIP FORM COMPARISON. TWO equal cells same elevated FRONT three-quarter camera showing lateral body and front-to-back alignment. Same LEFT forearm support elbow under shoulder, left hip faces floor, RIGHT hand on right hip, feet stacked. LEFT deliberately FAULTY example: HIPS FLEXED with buttocks pushed BACKWARD behind shoulder-to-ankle line, torso/legs form shallow bent V viewed from above, hips remain elevated. RIGHT CORRECT single static hold: LEFT forearm and outside LEFT foot support, RIGHT foot stacked atop LEFT foot, shoulders stacked, straight hips torso legs, HEAD HIPS ANKLES one line, no pike no dropping hip, right hand on hip. Exactly two legs and feet. Primary ABS only smooth uniform tint over intact front/side abdominal tank, no red chest or hips. Premium detailed adult MALE grayscale anatomical illustration matching approved original project reference for rendering STYLE ONLY, ignore its pose/highlights. White background, soft contact shadows, detailed crisp exposed gray muscle contours, realistic proportions. Opaque BLACK tank and mid-thigh shorts fully cover front sides back seat crotch, normal seams hems folds and black shoes. No cutaways transparency or anatomy/fibers through fabric. Red over cloth is plain uniform soft teaching tint, no internal fibers rays lobes. Only named primary muscles red. Two arms/hands with five fingers, two legs/feet anatomically coherent. Equal cells same camera and person, entire body/equipment inside each cell with generous margins. No text arrows logos or checkmarks. Faulty comparison will be clearly captioned outside image files.",
+      "inspectionNote": "Real output inspected. Output substitutes bench-supported elevated side planks for canonical floor forearm support; faulty/correct hip contrast is weak and abdominal anatomy segments show through tank. Block equipment, comparison and fabric corrections. External captions retained but do not make incorrect output usable. Qualified review of shoulder stacking, feet, supporting elbow and hip line required. Human anatomy review remains pending. No approval or publication.",
+      "blockingIssues": [
+        "Forearm rests on an unrequested bench rather than floor.",
+        "Faulty versus correct hip alignment contrast is unclear.",
+        "Segmented abdominal anatomy shows through tank overlay; replace with uniform tint on opaque cloth."
+      ],
+      "canonicalName": "side plank butt (form check)",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "abs"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Output substitutes bench-supported elevated side planks for canonical floor forearm support; faulty/correct hip contrast is weak and abdominal anatomy segments show through tank. Block equipment, comparison and fabric corrections. External captions retained but do not make incorrect output usable. Qualified review of shoulder stacking, feet, supporting elbow and hip line required. Human anatomy review remains pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2349-male-anatomical-white-v1-p1-dca7c97d7b32.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 33254,
+          "sha256": "dca7c97d7b32cc08380cde4bd2559e469ad97f819dc54d115e95734fd6c3769f"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/2349-male-anatomical-white-v1-p2-d16dbc9ad4cb.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 32912,
+          "sha256": "d16dbc9ad4cbd2a3274b9961df199ad3f3004b7312011a3c244fcb1fc690edef"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-280.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2349-male-anatomical-white-v1-thumb-e0856d2d145c.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 3694,
+        "sha256": "e0856d2d145cabfe75c8ebb1e35a1e19384a732840476b9d329f1fb1f7545c54"
+      },
+      "processingSignature": "df569392e367539e02fe4aad595c6a6ac3619290dda48e59c85916448314ad2c",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2349-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1530037,
+        "sha256": "b2b9a87d7e1cd01a7d26666a1cdeea84441ee2f33dbdb18e3ed0d5dc1a806f53"
+      }
+    }
+  ]
+}

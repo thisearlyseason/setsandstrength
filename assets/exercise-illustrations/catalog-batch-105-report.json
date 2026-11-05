@@ -1,0 +1,102 @@
+{
+  "batch": 105,
+  "trigger": "2026-11-02T18:31:19.844Z",
+  "completedAt": "2026-11-02T18:55:07.332141+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 4,
+  "generationCalls": 8,
+  "exerciseIds": [
+    "0669",
+    "0674"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 432,
+    "remainingVariants": 10832,
+    "approvedVariants": 0,
+    "blockedVariants": 182,
+    "knownPoseImages": 892,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Four candidate sets, six pose images and four retained correction masters using eight built-in calls. None approved or published. Rear-deltoid stretches use one static pose; front three-quarter corrections make right arm visibly cross chest with opposite hand holding elbow, rear shoulder red. Pull-ups use dead hang and chin-above-fixed-bar phases with feet together airborne and supinated grip planned from canonical record. Cloth/framing edits soften lats tint on intact fabric and provide generous head/shoe/bar margins. Qualified shoulder adduction, hand contact, red deltoid extent, grip/palm orientation, wrist/elbow/shoulder continuity, fixed-bar geometry and all anatomy/technique review remain separate. Fully opaque clothes wrap torso/front/sides/back/seat/crotch; exposed anatomy fine grayscale. Original PNGs, exact prompts, correction history and hashes retained; original project artwork style-only, no upstream media inputs. Pipeline checks are not anatomy approval.",
+  "metadataConflictsDeferred": [
+    {
+      "exerciseId": "0670",
+      "issue": "Rear/behind-neck description conflicts with chin-above-bar instructions; clarify pull direction."
+    },
+    {
+      "exerciseId": "0671",
+      "issue": "Alias of 0872; excluded from canonical generation."
+    },
+    {
+      "exerciseId": "0672",
+      "issue": "Hands-behind-body description vs ordinary parallel-bar instructions leaves reverse dip support geometry ambiguous."
+    },
+    {
+      "exerciseId": "0673",
+      "issue": "Lats target conflicts with upper-back primary map; clarify muscle highlight before generation."
+    }
+  ],
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 711521644,
+  "savedMasters": [
+    {
+      "exerciseId": "0669",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0669-male-anatomical-white-v2.png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1318436,
+        "sha256": "4f37e6013a2b539687bec48589ee9ea5b87bbc26f74502f7364cd0b4db7dac5c"
+      }
+    },
+    {
+      "exerciseId": "0669",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0669-female-anatomical-white-v2.png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1368483,
+        "sha256": "bd689f9b537ee6e0d6e52f97a82da315b10a2993d83fde2d5f8378b4685144be"
+      }
+    },
+    {
+      "exerciseId": "0674",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0674-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1162719,
+        "sha256": "fe7b6bb0a9440b09c004bba2308e5be25b59bd284b83faccb85f59710e46a925"
+      }
+    },
+    {
+      "exerciseId": "0674",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0674-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1126079,
+        "sha256": "7db04aa620033c96113fdd2ec38b684657a8fa548fb1176696930d2b9a8a30bf"
+      }
+    }
+  ]
+}

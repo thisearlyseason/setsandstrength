@@ -1,0 +1,3 @@
+export default function MultiFilter({label,values,onChange,options}) {
+ return <details className="multi-filter"><summary>{label}<span>{values.length || 'All'}</span></summary><div className="multi-filter-menu"><div className="multi-filter-heading"><strong>{label}</strong><button type="button" onClick={()=>onChange([])}>Clear</button></div>{options.map(option=><label key={option}><input type="checkbox" checked={values.includes(option)} onChange={()=>onChange(values.includes(option)?values.filter(v=>v!==option):[...values,option])}/><span>{option.replace(/\b\w/g,c=>c.toUpperCase())}</span></label>)}</div></details>
+}

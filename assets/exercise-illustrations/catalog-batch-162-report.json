@@ -1,0 +1,66 @@
+{
+  "batch": 162,
+  "runId": "89e93da3-ea1a-4aa7-ba3f-36aa819b27ab",
+  "trigger": "2026-11-03T08:17:27.855Z",
+  "completedAt": "2026-11-03T08:24:23.719220+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 2,
+  "generationCalls": 3,
+  "exerciseIds": [
+    "1148"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 638,
+    "remainingVariants": 10626,
+    "approvedVariants": 0,
+    "blockedVariants": 219,
+    "knownPoseImages": 1284,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Two single-pose static supine suspension plank candidates, three built-in calls including retained male head-support/abdominal-overlay correction. Straight legs with heels secured in separate cradles, lifted pelvis and arms/upper back supported on mat. Male edit grounds skull and lowers smooth red onto abdominal shirt; female skull supported with cropped hair. Full opaque black clothes and exposed grayscale anatomy visually retained. Qualified hip line/lumbar arch, neck comfort, primary mapping and cradle security require human review. Every original, exact prompt and correction history saved; no anatomy/clothing approval or publication. Original project artwork rendering style only, no upstream licensed input. Seven pipeline checks do not establish anatomical accuracy.",
+  "metadataConflictsDeferred": {
+    "1140": "Both hands holding straps versus opposite arm sprint movement requires clarification.",
+    "1141": "Fixed-length taut overhead straps with squat path unclear."
+  },
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 1013156757,
+  "savedMasters": [
+    {
+      "exerciseId": "1148",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1148-male-anatomical-white-v2.png",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 1745756,
+        "sha256": "38a0bfb7b8e9a4d0bcea968abb2e459302b7380d41cd1b8b4a9cf8fdc3166c8a"
+      }
+    },
+    {
+      "exerciseId": "1148",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1148-female-anatomical-white-v1.png",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 1389004,
+        "sha256": "9ebe8e31ad869b705c916378a85c057e77505bdae368857f8fa67f6d18288d13"
+      }
+    }
+  ]
+}

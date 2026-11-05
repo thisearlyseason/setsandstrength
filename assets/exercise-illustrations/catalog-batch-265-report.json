@@ -1,0 +1,78 @@
+{
+  "batch": 265,
+  "runId": "79eeb522-317d-46b7-a902-f49f9e7a2f08",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "trigger": "2026-11-03T22:59:54.350Z",
+  "purpose": "batch265 scheduled male continuation",
+  "started": "2026-11-03T23:00:22.450524+00:00",
+  "completedAt": "2026-11-03T23:07:07.325677+00:00",
+  "actualToolName": "image_gen__imagegen",
+  "calls": 4,
+  "newCandidateSets": 4,
+  "exerciseIds": [
+    "2150",
+    "2151",
+    "2152",
+    "2153"
+  ],
+  "variants": [
+    "male"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 933,
+    "remainingVariants": 10331,
+    "approvedVariants": 0,
+    "blockedVariants": 299,
+    "knownPoseImages": 1765,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 560,
+      "remainingVariants": 5072,
+      "blockedVariants": 180
+    }
+  },
+  "reviewNotes": {
+    "2150": "Distinct side-lying closed/open clam positions, head supported by lower arm, upper palm floor, knees bent with loop band above knees, feet touching in open pose. Top glute highlighted on opaque shorts. Qualified review needed for stacked hips/no backward roll, band contact and tension, hand anatomy and glute mapping; slight radial lines in overlay need fabric-versus-fiber review.",
+    "2151": "Band anchored at elbow height opposite working arm, handle moves from belly outward with elbow bent and upper arm near side. Two distinct forearm positions and longer band at end, shoulder highlight confined to working side, clothing intact. Qualified review needed for elbow remaining tucked, forearm rotation versus shoulder abduction, band tension, handle grip and posterior-deltoid mapping.",
+    "2152": "Three forearm-plank positions show both toes down then band-resisted straight-leg lifts. Middle and final lifts do not clearly demonstrate opposite working legs; apparent repeated near-side leg lift requires correction/clear laterality. Band joins both ankles, supported elbows and toes visible, glute tint on opaque shorts. Qualified review of pelvic level, lumbar control, raised-leg height and mapping.",
+    "2153": "Distinct standing/deep squat positions, handles held at shoulders and band passes under both feet, heels appear grounded and knees track outward with toes. Plain quad teaching tint on intact shorts, no unrelated highlights. Qualified review needed for below-parallel depth, band anchoring/tension at bottom, spine control, knee tracking and hand anatomy."
+  },
+  "blockingIssues": {
+    "2152": [
+      "Middle and final lifts do not clearly show opposite legs; correct apparent repeated near-side lift and make alternation explicit."
+    ]
+  },
+  "tests": 7,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "workerSyncResult": {
+    "statuses": {
+      "generated": 933,
+      "pending": 10331
+    },
+    "remaining": 10331,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 1438886232
+  },
+  "publicationIndexUnchanged": true,
+  "savedMasters": [
+    "assets/exercise-illustrations/generated/2150-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/2151-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/2152-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/2153-male-anatomical-white-v1.png"
+  ]
+}

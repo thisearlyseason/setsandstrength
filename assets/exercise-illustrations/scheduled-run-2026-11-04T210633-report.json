@@ -1,0 +1,46 @@
+{
+  "runId": "d72325ee-b2c9-4051-98d3-2b0ae0371539",
+  "triggerTimestamp": "2026-11-04T21:06:33.146Z",
+  "builtInImageGenAvailable": true,
+  "batches": [
+    417
+  ],
+  "generatedMasters": 2,
+  "blocked": {
+    "3775": [
+      "Arms extend toward side anchor rather than straight forward from chest; incorrect Pallof anti-rotation geometry."
+    ],
+    "3776": [
+      "Arms extend toward side anchor rather than straight forward from chest; incorrect Pallof anti-rotation geometry."
+    ]
+  },
+  "coverageAfter": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1481,
+    "remainingVariants": 9783,
+    "approvedVariants": 0,
+    "blockedVariants": 562,
+    "knownPoseImages": 2964,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 1108,
+      "remainingVariants": 4524,
+      "blockedVariants": 443
+    }
+  },
+  "pipelineTests": "8 passed, 0 failed",
+  "approvedIndexUnchanged": true,
+  "existingUserApprovalsPreserved": 1306,
+  "publication": "none",
+  "anatomyReview": "pending",
+  "stopReason": "Repeated incorrect Pallof arm direction toward side anchor instead of forward; both originals saved blocked.",
+  "nextRunGuidance": "Do not continue same Pallof prompt. Use overhead or elevated perspective specifying feet and torso facing page bottom, hands forward toward viewer, side anchor left, band lateral/diagonal, arms perpendicular to anchor pull. Fixed anchor height correction worked. Choose clearly specified non-Pallof exercises if uncertain.",
+  "deferred": {
+    "3779": "Exact prompt prepared; no original generated when systemic direction errors stopped run."
+  }
+}

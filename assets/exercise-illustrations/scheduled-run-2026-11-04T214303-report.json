@@ -1,0 +1,45 @@
+{
+  "runId": "eea3f60c-8ae5-43b6-8ec5-417440bc6172",
+  "triggerTimestamp": "2026-11-04T21:43:03.527Z",
+  "builtInImageGenAvailable": true,
+  "batches": [
+    426
+  ],
+  "generatedMasters": 2,
+  "blocked": {
+    "3828": [
+      "Side/back tank fabric replaced by exposed red muscle anatomy; full opaque wrapping violated."
+    ],
+    "3858": [
+      "Side/back tank fabric replaced by exposed red muscle anatomy; full opaque wrapping violated."
+    ]
+  },
+  "coverageAfter": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1504,
+    "remainingVariants": 9760,
+    "approvedVariants": 0,
+    "blockedVariants": 572,
+    "knownPoseImages": 3014,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 1131,
+      "remainingVariants": 4501,
+      "blockedVariants": 453
+    }
+  },
+  "pipelineTests": "8 passed, 0 failed",
+  "approvedIndexUnchanged": true,
+  "existingUserApprovalsPreserved": 1306,
+  "anatomyReview": "pending",
+  "publication": "none",
+  "styleReference": "assets/exercise-illustrations/generated/0853-male-anatomical-white-v1.png",
+  "referenceBasis": "Original user-approved project artwork, visually inspected, opaque tank and exposed biceps highlight; used for style only.",
+  "stopReason": "Repeated incomplete fabric over highlighted back regions persists with alternate reference. Both originals saved blocked.",
+  "nextRunGuidance": "Avoid covered-back target generation until prompt method corrected; continue clearly specified exposed-muscle exercises. Candidate0853 has no chest-overlay contamination, preserve this style reference over0493. Do not automatically retry blocked masters or publish."
+}

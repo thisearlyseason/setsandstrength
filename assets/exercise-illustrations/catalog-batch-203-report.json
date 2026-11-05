@@ -1,0 +1,62 @@
+{
+  "batch": 203,
+  "runId": "defa5f28-633b-42a5-9cb5-6013fd6b4cd2",
+  "trigger": "2026-11-03T13:16:00.115Z",
+  "completedAt": "2026-11-03T13:22:17.977162+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 2,
+  "generationCalls": 2,
+  "exerciseIds": [
+    "1532"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 720,
+    "remainingVariants": 10544,
+    "approvedVariants": 0,
+    "blockedVariants": 235,
+    "knownPoseImages": 1416,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Two deficit barbell Romanian deadlift candidates, four poses, two built-in calls. Standing to high-hip hinge on low stable platform with soft knees, flat feet, bar lowered near shins and posterior hamstrings red. Full opaque clothes and exposed detailed grayscale anatomy retained. Rear view occludes bar shaft/far grip behind legs; qualified review must establish anterior bar path and plate clearance rather than infer from occlusion. Also review hip hinge, lumbar/neck alignment, grip, platform security and hamstring mapping. Original project artwork rendering style only, no upstream licensed input. Exact prompts/originals saved. No anatomy or clothing approval or publication. Seven pipeline checks do not establish anatomical accuracy.",
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 1132397000,
+  "savedMasters": [
+    {
+      "exerciseId": "1532",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1532-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1371805,
+        "sha256": "a34685a9ac37a5d59e0d07d625e893e9fc74bdbaeffdd05e769b5c11aa1ec8cb"
+      }
+    },
+    {
+      "exerciseId": "1532",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1532-female-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1348809,
+        "sha256": "145d4a6e5d5e8ce68f211fa64778e534d8cd4542c8b7d27d921eb9538d32eaa0"
+      }
+    }
+  ]
+}

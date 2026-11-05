@@ -1,0 +1,704 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "0675",
+      "variant": "male",
+      "key": "0675-male-anatomical-white-v2",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Lie prone with hips supported on the ball and both hands on the floor, legs lowered straight behind"
+        },
+        {
+          "key": "p2",
+          "caption": "Lift both straight legs behind while keeping hips on the ball and hands planted"
+        }
+      ],
+      "detail": "REVERSE HYPEREXTENSION ON STABILITY BALL, TWO phases. Full body SIDE three-quarter view head IMAGE LEFT feet RIGHT, ONE large round gray full stability ball under PELVIS/hips, body prone face DOWN. BOTH palms firmly flat on FLOOR in front of ball under shoulders, arms nearly straight, neck neutral eyes toward floor. Ball supports abdomen/pelvis at same place/height and ball size/location unchanged. BOTH legs straight together behind, knees extended in both poses. LEFT LOWER: straight legs slope down from hips to shoes just above floor or toes lightly touch floor, no knee bend. RIGHT RAISED: lift BOTH straight legs behind until near torso height, feet clearly higher than lowered phase, hips stay supported ball, no extreme lumbar arch/neck lift. Upper body/hands stay same, only hip extension changes, two legs continuous hip-thigh-knee-shoe, no extra limb. Primary GLUTES only ONE smooth diffuse BLURRED RED patch over side/rear hip of continuous opaque BLACK shorts, no radial fiber rays/muscle divisions or cutaway in fabric. All exposed limbs fine detailed grayscale anatomy, shirt/shorts full front sides back seat crotch. Whole ball/model/shoes/hands fit frame, no text.",
+      "prompt": "Edit original project TWO-panel reverse hyperextension on stability ball. Preserve EXACT poses, model/camera, full round ball supporting hips, hands planted floor and both straight legs lowered then raised, fine detailed grayscale anatomical fibers on all EXPOSED arms/legs. Only replace glute red fabric tint with ONE smooth soft diffuse BLURRED RED patch over intact continuous opaque matte BLACK shorts, remove every radial ray/fiber streak/anatomical division on clothing. Broad natural fabric folds/seams only; full opaque shorts front sides rear seat crotch and shirt front sides back. Add small white margin at shoe edge without altering motion. No cutaways/transparency/text.",
+      "inspectionNote": "Glute tint now smoother diffuse over opaque shorts; prone ball-supported hip extension, planted hands and straight legs preserved. Raised shoes remain narrowly inside frame. Fine grayscale exposed anatomy and full opaque clothing retained; qualified pelvis/ball continuity and lumbar/hip range review pending.",
+      "canonicalName": "reverse hyper extension (on stability ball)",
+      "styleVersion": "white-v1",
+      "equipment": "stability ball",
+      "primaryMuscles": [
+        "glutes"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0675-male-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "status": "generated",
+        "costUSD": null
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Glute tint now smoother diffuse over opaque shorts; prone ball-supported hip extension, planted hands and straight legs preserved. Raised shoes remain narrowly inside frame. Fine grayscale exposed anatomy and full opaque clothing retained; qualified pelvis/ball continuity and lumbar/hip range review pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0675-male-anatomical-white-v2-p1-1396e4ae240b.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 26056,
+          "sha256": "1396e4ae240b743a9c16bd24f567d193839ec7252d94046d1c8b0007a5bd58ca"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0675-male-anatomical-white-v2-p2-c2eeeb866c43.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 25536,
+          "sha256": "c2eeeb866c430bdc39d3895524c1cc16889992bb3ccd28c1c80f24cf06cd2086"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0675-male-anatomical-white-v2-thumb-4bef8899df3f.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2804,
+        "sha256": "4bef8899df3f6638787dd99a8e06d1faea75bd6e415f780f4afd940a65fbd8bd"
+      },
+      "processingSignature": "1ac170615ad9ceaf6162ad47bce21054e1fbf094e3fb85e38d0d1d81cb83389e",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0675-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1668107,
+        "sha256": "5cf48d78727418befe14ff750d3eb44b0a70fd004b07cca0ebd891b57b5768e4"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0675",
+          "variant": "male",
+          "key": "0675-male-anatomical-white-v1",
+          "layout": {
+            "columns": 2,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Lie prone with hips supported on the ball and both hands on the floor, legs lowered straight behind"
+            },
+            {
+              "key": "p2",
+              "caption": "Lift both straight legs behind while keeping hips on the ball and hands planted"
+            }
+          ],
+          "detail": "REVERSE HYPEREXTENSION ON STABILITY BALL, TWO phases. Full body SIDE three-quarter view head IMAGE LEFT feet RIGHT, ONE large round gray full stability ball under PELVIS/hips, body prone face DOWN. BOTH palms firmly flat on FLOOR in front of ball under shoulders, arms nearly straight, neck neutral eyes toward floor. Ball supports abdomen/pelvis at same place/height and ball size/location unchanged. BOTH legs straight together behind, knees extended in both poses. LEFT LOWER: straight legs slope down from hips to shoes just above floor or toes lightly touch floor, no knee bend. RIGHT RAISED: lift BOTH straight legs behind until near torso height, feet clearly higher than lowered phase, hips stay supported ball, no extreme lumbar arch/neck lift. Upper body/hands stay same, only hip extension changes, two legs continuous hip-thigh-knee-shoe, no extra limb. Primary GLUTES only ONE smooth diffuse BLURRED RED patch over side/rear hip of continuous opaque BLACK shorts, no radial fiber rays/muscle divisions or cutaway in fabric. All exposed limbs fine detailed grayscale anatomy, shirt/shorts full front sides back seat crotch. Whole ball/model/shoes/hands fit frame, no text.",
+          "prompt": "Original educational exercise illustration. Attached original project artwork STYLE ONLY never pose reference. Realistic neutral adult MALE, fine detailed grayscale anatomical fibers on EXPOSED muscles. Pure white background. TWO equal side-by-side panels, identical model/camera/lighting. Fully OPAQUE matte BLACK sleeveless shirt wraps torso front/sides/back; loose knee-length BLACK shorts wrap both thighs/front/sides/rear/seat/crotch with closed seams/hems, broad natural folds, black trainers. No transparent cloth, bare buttocks, cutaways, anatomy windows or muscle fibers on garments. Red primary only as specified, over clothing ONE smooth diffuse blurred tint on intact fabric without anatomical divisions. Whole person fingers shoes apparatus inside white margins. No labels/text/arrows/logos. REVERSE HYPEREXTENSION ON STABILITY BALL, TWO phases. Full body SIDE three-quarter view head IMAGE LEFT feet RIGHT, ONE large round gray full stability ball under PELVIS/hips, body prone face DOWN. BOTH palms firmly flat on FLOOR in front of ball under shoulders, arms nearly straight, neck neutral eyes toward floor. Ball supports abdomen/pelvis at same place/height and ball size/location unchanged. BOTH legs straight together behind, knees extended in both poses. LEFT LOWER: straight legs slope down from hips to shoes just above floor or toes lightly touch floor, no knee bend. RIGHT RAISED: lift BOTH straight legs behind until near torso height, feet clearly higher than lowered phase, hips stay supported ball, no extreme lumbar arch/neck lift. Upper body/hands stay same, only hip extension changes, two legs continuous hip-thigh-knee-shoe, no extra limb. Primary GLUTES only ONE smooth diffuse BLURRED RED patch over side/rear hip of continuous opaque BLACK shorts, no radial fiber rays/muscle divisions or cutaway in fabric. All exposed limbs fine detailed grayscale anatomy, shirt/shorts full front sides back seat crotch. Whole ball/model/shoes/hands fit frame, no text.",
+          "inspectionNote": "Two prone ball-supported reverse hyperextension phases show hands planted, pelvis on full sphere, straight legs lowered then lifted near torso level. Opaque clothing fully wraps seat/crotch and diffuse glute tint; detailed grayscale exposed anatomy. Raised shoes have narrow margin. Qualified ball/pelvis continuity, hip/lumbar range and leg alignment review pending.",
+          "canonicalName": "reverse hyper extension (on stability ball)",
+          "styleVersion": "white-v1",
+          "equipment": "stability ball",
+          "primaryMuscles": [
+            "glutes"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Two prone ball-supported reverse hyperextension phases show hands planted, pelvis on full sphere, straight legs lowered then lifted near torso level. Opaque clothing fully wraps seat/crotch and diffuse glute tint; detailed grayscale exposed anatomy. Raised shoes have narrow margin. Qualified ball/pelvis continuity, hip/lumbar range and leg alignment review pending.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0675-male-anatomical-white-v1-p1-d0a2d5c6ba52.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 28286,
+              "sha256": "d0a2d5c6ba52fd3d648b124291d69ffea518e6c94efb3299d247c77759da3930"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0675-male-anatomical-white-v1-p2-319330182f1a.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 27878,
+              "sha256": "319330182f1a4539d531d8a663060e753b0b8883e70fa350cf4b609dcab0cff6"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0675-male-anatomical-white-v1-thumb-da68b0d6cb54.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 2800,
+            "sha256": "da68b0d6cb54377a5baa1cac87c502c74dab2ae5a6578f273fa90064d60d3acb"
+          },
+          "processingSignature": "f8b61e02f8511be55802329fb0433ac98b793f025c868eac05aef1b63fc7f8ca",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0675-male-anatomical-white-v1.png",
+            "width": 1774,
+            "height": 887,
+            "bytes": 1383055,
+            "sha256": "a1d428ad26d2384ab2b04f60f16bdea2aa5ee0106244ee6a02d4d8ba4cea6c47"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "0675",
+      "variant": "female",
+      "key": "0675-female-anatomical-white-v2",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Lie prone with hips supported on the ball and both hands on the floor, legs lowered straight behind"
+        },
+        {
+          "key": "p2",
+          "caption": "Lift both straight legs behind while keeping hips on the ball and hands planted"
+        }
+      ],
+      "detail": "REVERSE HYPEREXTENSION ON STABILITY BALL, TWO phases. Full body SIDE three-quarter view head IMAGE LEFT feet RIGHT, ONE large round gray full stability ball under PELVIS/hips, body prone face DOWN. BOTH palms firmly flat on FLOOR in front of ball under shoulders, arms nearly straight, neck neutral eyes toward floor. Ball supports abdomen/pelvis at same place/height and ball size/location unchanged. BOTH legs straight together behind, knees extended in both poses. LEFT LOWER: straight legs slope down from hips to shoes just above floor or toes lightly touch floor, no knee bend. RIGHT RAISED: lift BOTH straight legs behind until near torso height, feet clearly higher than lowered phase, hips stay supported ball, no extreme lumbar arch/neck lift. Upper body/hands stay same, only hip extension changes, two legs continuous hip-thigh-knee-shoe, no extra limb. Primary GLUTES only ONE smooth diffuse BLURRED RED patch over side/rear hip of continuous opaque BLACK shorts, no radial fiber rays/muscle divisions or cutaway in fabric. All exposed limbs fine detailed grayscale anatomy, shirt/shorts full front sides back seat crotch. Whole ball/model/shoes/hands fit frame, no text.",
+      "prompt": "Edit original project TWO-panel reverse hyperextension on stability ball. Preserve EXACT poses, model/camera, full round ball supporting hips, hands planted floor and both straight legs lowered then raised, fine detailed grayscale anatomical fibers on all EXPOSED arms/legs. Only replace glute red fabric tint with ONE smooth soft diffuse BLURRED RED patch over intact continuous opaque matte BLACK shorts, remove every radial ray/fiber streak/anatomical division on clothing. Broad natural fabric folds/seams only; full opaque shorts front sides rear seat crotch and shirt front sides back. Add small white margin at shoe edge without altering motion. No cutaways/transparency/text.",
+      "inspectionNote": "Glute tint now smooth diffuse opaque fabric with poses/ball/hands/straight-leg movement preserved. Fine exposed grayscale anatomy and full opaque seat/crotch coverage. Qualified ball/pelvis continuity, hip/lumbar extension range and limb alignment review pending.",
+      "canonicalName": "reverse hyper extension (on stability ball)",
+      "styleVersion": "white-v1",
+      "equipment": "stability ball",
+      "primaryMuscles": [
+        "glutes"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0675-female-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "status": "generated",
+        "costUSD": null
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Glute tint now smooth diffuse opaque fabric with poses/ball/hands/straight-leg movement preserved. Fine exposed grayscale anatomy and full opaque seat/crotch coverage. Qualified ball/pelvis continuity, hip/lumbar extension range and limb alignment review pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0675-female-anatomical-white-v2-p1-ef106dbafa5f.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 25238,
+          "sha256": "ef106dbafa5f15e9f36048432070c7922d1ae9a8d2be7d2732d266fe7515a997"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0675-female-anatomical-white-v2-p2-55718c027a42.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 24904,
+          "sha256": "55718c027a423f58a04c5056b4e530de94820a90fc5f2c9ace98350e77cbf055"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0675-female-anatomical-white-v2-thumb-4838e4d6f340.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2720,
+        "sha256": "4838e4d6f340628d575881f4e80aba7b30839fc6b5b99a5251b27318c3badd8f"
+      },
+      "processingSignature": "7f51f7c80cced8c5fd7730918459e3398b137beb7d9a89b9fdcaf58026cb6e8a",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0675-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1674024,
+        "sha256": "f02f456c40de2c9fc3e2edeec295ec327f74891689441aaa6cc8f543862e24a5"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0675",
+          "variant": "female",
+          "key": "0675-female-anatomical-white-v1",
+          "layout": {
+            "columns": 2,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Lie prone with hips supported on the ball and both hands on the floor, legs lowered straight behind"
+            },
+            {
+              "key": "p2",
+              "caption": "Lift both straight legs behind while keeping hips on the ball and hands planted"
+            }
+          ],
+          "detail": "REVERSE HYPEREXTENSION ON STABILITY BALL, TWO phases. Full body SIDE three-quarter view head IMAGE LEFT feet RIGHT, ONE large round gray full stability ball under PELVIS/hips, body prone face DOWN. BOTH palms firmly flat on FLOOR in front of ball under shoulders, arms nearly straight, neck neutral eyes toward floor. Ball supports abdomen/pelvis at same place/height and ball size/location unchanged. BOTH legs straight together behind, knees extended in both poses. LEFT LOWER: straight legs slope down from hips to shoes just above floor or toes lightly touch floor, no knee bend. RIGHT RAISED: lift BOTH straight legs behind until near torso height, feet clearly higher than lowered phase, hips stay supported ball, no extreme lumbar arch/neck lift. Upper body/hands stay same, only hip extension changes, two legs continuous hip-thigh-knee-shoe, no extra limb. Primary GLUTES only ONE smooth diffuse BLURRED RED patch over side/rear hip of continuous opaque BLACK shorts, no radial fiber rays/muscle divisions or cutaway in fabric. All exposed limbs fine detailed grayscale anatomy, shirt/shorts full front sides back seat crotch. Whole ball/model/shoes/hands fit frame, no text.",
+          "prompt": "Original educational exercise illustration. Attached original project artwork STYLE ONLY never pose reference. Realistic neutral adult FEMALE, fine detailed grayscale anatomical fibers on EXPOSED muscles. Pure white background. TWO equal side-by-side panels, identical model/camera/lighting. Fully OPAQUE matte BLACK sleeveless shirt wraps torso front/sides/back; loose knee-length BLACK shorts wrap both thighs/front/sides/rear/seat/crotch with closed seams/hems, broad natural folds, black trainers. No transparent cloth, bare buttocks, cutaways, anatomy windows or muscle fibers on garments. Red primary only as specified, over clothing ONE smooth diffuse blurred tint on intact fabric without anatomical divisions. Whole person fingers shoes apparatus inside white margins. No labels/text/arrows/logos. REVERSE HYPEREXTENSION ON STABILITY BALL, TWO phases. Full body SIDE three-quarter view head IMAGE LEFT feet RIGHT, ONE large round gray full stability ball under PELVIS/hips, body prone face DOWN. BOTH palms firmly flat on FLOOR in front of ball under shoulders, arms nearly straight, neck neutral eyes toward floor. Ball supports abdomen/pelvis at same place/height and ball size/location unchanged. BOTH legs straight together behind, knees extended in both poses. LEFT LOWER: straight legs slope down from hips to shoes just above floor or toes lightly touch floor, no knee bend. RIGHT RAISED: lift BOTH straight legs behind until near torso height, feet clearly higher than lowered phase, hips stay supported ball, no extreme lumbar arch/neck lift. Upper body/hands stay same, only hip extension changes, two legs continuous hip-thigh-knee-shoe, no extra limb. Primary GLUTES only ONE smooth diffuse BLURRED RED patch over side/rear hip of continuous opaque BLACK shorts, no radial fiber rays/muscle divisions or cutaway in fabric. All exposed limbs fine detailed grayscale anatomy, shirt/shorts full front sides back seat crotch. Whole ball/model/shoes/hands fit frame, no text.",
+          "inspectionNote": "Hands planted and pelvis on full stability ball, straight legs lowered then raised near torso height. Full opaque clothes and detailed grayscale anatomy. Glute cloth tint has radial streaks needing smooth diffuse correction; qualified ball/pelvis continuity, lumbar range and leg alignment pending.",
+          "canonicalName": "reverse hyper extension (on stability ball)",
+          "styleVersion": "white-v1",
+          "equipment": "stability ball",
+          "primaryMuscles": [
+            "glutes"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Hands planted and pelvis on full stability ball, straight legs lowered then raised near torso height. Full opaque clothes and detailed grayscale anatomy. Glute cloth tint has radial streaks needing smooth diffuse correction; qualified ball/pelvis continuity, lumbar range and leg alignment pending.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0675-female-anatomical-white-v1-p1-c57f50adf481.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 29516,
+              "sha256": "c57f50adf4816634a1b47e5e23ca4d5c34362a0dba7b246b8fbb49bd94fe20c9"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0675-female-anatomical-white-v1-p2-34fc7737313a.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 28628,
+              "sha256": "34fc7737313a197e83c7193e821b74975640c835db31b89d53935f6de6ab7a7f"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0675-female-anatomical-white-v1-thumb-d5baba3b9557.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 2728,
+            "sha256": "d5baba3b95575df905442d8398bf74e340f5935ef01dbf0d0680c4371540f30c"
+          },
+          "processingSignature": "a0920ad3927dd1d13021326e8d9b60b5aa54aa90d812526f77b08a0fea1857dc",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0675-female-anatomical-white-v1.png",
+            "width": 1774,
+            "height": 887,
+            "bytes": 1395232,
+            "sha256": "28c171671d0967f81eb7a5d89d9c45528a7567e4ae7432b9a31fb6ce51421c98"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "0676",
+      "variant": "male",
+      "key": "0676-male-anatomical-white-v2",
+      "layout": {
+        "columns": 3,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Step the right leg back into a reverse lunge with the left foot flat"
+        },
+        {
+          "key": "p2",
+          "caption": "Drive through the left heel to stand as the right leg swings forward"
+        },
+        {
+          "key": "p3",
+          "caption": "Extend the same right leg into a forward kick; finish the set before switching legs"
+        }
+      ],
+      "detail": "REVERSE LUNGE TO FORWARD LEG KICK, THREE phases, full body SIDE three-quarter view model faces IMAGE LEFT, same camera. RIGHT leg is moving leg in ALL phases; LEFT leg stays supporting. LEFT LUNGE: RIGHT foot steps BACK toward IMAGE RIGHT, right knee bends near floor beneath hip, right heel up toes floor; LEFT foot forward IMAGE LEFT flat and left knee90degrees, torso upright hands hips. MIDDLE RETURN: stand upright left foot planted same location, RIGHT foot lifted behind slightly as it swings through (right knee flex), body balanced over LEFT foot, hands hips. RIGHT KICK: RIGHT leg swings FORWARD toward IMAGE LEFT, knee extends straight for a modest waist-height kick, RIGHT shoe clear in air in front, LEFT supporting leg nearly straight foot flat. Torso tall with only slight natural lean, hips level, hands hips throughout. Trace same RIGHT hip-thigh-knee-shoe from rear lunge through forward kick; do not kick left support leg or change sides between phases. Both legs/hands/shoes fully inside each panel; no equipment. Primary GLUTES only soft diffuse blurred red tint on intact opaque BLACK side/rear hip shorts, no radial rays/anatomical fibers/divisions through cloth; all exposed legs/arms fine grayscale anatomy. Full opaque shirt/shorts wrap front sides back seat crotch. No text/arrows.",
+      "prompt": "Edit original project THREE-panel reverse lunge to forward kick. Preserve all exact poses, hands hips, rear moving-leg to upright swing to forward kick, support foot and fine detailed grayscale anatomical fibers on EXPOSED arms/legs. Only repaint red GLUTE/HIP shorts tint in every panel as smooth soft diffuse BLURRED RED over continuous intact opaque matte BLACK fabric. Erase every radial ray/starburst/fiber streak/anatomical muscle subdivision on shorts; natural broad folds/seams only. Full opaque shorts front sides rear seat crotch and black shirt front sides back. Slightly reduce whole composition within each panel for generous head/shoe margins without changing pose geometry. No cutaways/transparency/text.",
+      "inspectionNote": "Wider margins and softer diffuse glute cloth tint; reverse lunge, upright transition and forward kick poses retained with full opaque clothing and detailed grayscale anatomy. Same moving-leg continuity, support-foot placement and lunge/kick technique require qualified review; not anatomy approved.",
+      "canonicalName": "reverse lunge (leg kick)",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "glutes"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0676-male-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "status": "generated",
+        "costUSD": null
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Wider margins and softer diffuse glute cloth tint; reverse lunge, upright transition and forward kick poses retained with full opaque clothing and detailed grayscale anatomy. Same moving-leg continuity, support-foot placement and lunge/kick technique require qualified review; not anatomy approved.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0676-male-anatomical-white-v2-p1-94424f151751.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 17456,
+          "sha256": "94424f1517519a911c1d650f34d7ceb8e18733e0fb1df611f2f7cfbfc189a7fe"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0676-male-anatomical-white-v2-p2-662f9599f9bf.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 14428,
+          "sha256": "662f9599f9bfa6630e225e283d458ed2b02c885ac0befe5bb13a1abff5abd112"
+        },
+        {
+          "pose": "p3",
+          "path": "/workout/illustration-pilot/0676-male-anatomical-white-v2-p3-430cf4598d25.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 15548,
+          "sha256": "430cf4598d25b57ad3ed655d04257189b33518f153e83c60fe0f74f972d8b143"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0676-male-anatomical-white-v2-thumb-24374354d59d.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2668,
+        "sha256": "24374354d59d2b5104eb46c4e517bdc2b72383226b96bc60fe5bbba5ce1e49fc"
+      },
+      "processingSignature": "870ff8eef6ebaf3c38a3e3d7ff0b548b7d37679323fb8d0d36f38d5ce76ed8ca",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0676-male-anatomical-white-v2.png",
+        "width": 2172,
+        "height": 724,
+        "bytes": 1230789,
+        "sha256": "f744ced82a9c2457556f2028cce669bb279718eb6338be0a1ee978e8cd656575"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0676",
+          "variant": "male",
+          "key": "0676-male-anatomical-white-v1",
+          "layout": {
+            "columns": 3,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Step the right leg back into a reverse lunge with the left foot flat"
+            },
+            {
+              "key": "p2",
+              "caption": "Drive through the left heel to stand as the right leg swings forward"
+            },
+            {
+              "key": "p3",
+              "caption": "Extend the same right leg into a forward kick; finish the set before switching legs"
+            }
+          ],
+          "detail": "REVERSE LUNGE TO FORWARD LEG KICK, THREE phases, full body SIDE three-quarter view model faces IMAGE LEFT, same camera. RIGHT leg is moving leg in ALL phases; LEFT leg stays supporting. LEFT LUNGE: RIGHT foot steps BACK toward IMAGE RIGHT, right knee bends near floor beneath hip, right heel up toes floor; LEFT foot forward IMAGE LEFT flat and left knee90degrees, torso upright hands hips. MIDDLE RETURN: stand upright left foot planted same location, RIGHT foot lifted behind slightly as it swings through (right knee flex), body balanced over LEFT foot, hands hips. RIGHT KICK: RIGHT leg swings FORWARD toward IMAGE LEFT, knee extends straight for a modest waist-height kick, RIGHT shoe clear in air in front, LEFT supporting leg nearly straight foot flat. Torso tall with only slight natural lean, hips level, hands hips throughout. Trace same RIGHT hip-thigh-knee-shoe from rear lunge through forward kick; do not kick left support leg or change sides between phases. Both legs/hands/shoes fully inside each panel; no equipment. Primary GLUTES only soft diffuse blurred red tint on intact opaque BLACK side/rear hip shorts, no radial rays/anatomical fibers/divisions through cloth; all exposed legs/arms fine grayscale anatomy. Full opaque shirt/shorts wrap front sides back seat crotch. No text/arrows.",
+          "prompt": "Original educational exercise illustration. Attached original project artwork STYLE ONLY never pose reference. Realistic neutral adult MALE, fine detailed grayscale anatomical fibers on EXPOSED muscles. Pure white background. THREE equal side-by-side panels, identical model/camera/lighting. Fully OPAQUE matte BLACK sleeveless shirt wraps torso front/sides/back; loose knee-length BLACK shorts wrap both thighs/front/sides/rear/seat/crotch with closed seams/hems, broad natural folds, black trainers. No transparent cloth, bare buttocks, cutaways, anatomy windows or muscle fibers on garments. Red primary only as specified, over clothing ONE smooth diffuse blurred tint on intact fabric without anatomical divisions. Whole person fingers shoes apparatus inside white margins. No labels/text/arrows/logos. REVERSE LUNGE TO FORWARD LEG KICK, THREE phases, full body SIDE three-quarter view model faces IMAGE LEFT, same camera. RIGHT leg is moving leg in ALL phases; LEFT leg stays supporting. LEFT LUNGE: RIGHT foot steps BACK toward IMAGE RIGHT, right knee bends near floor beneath hip, right heel up toes floor; LEFT foot forward IMAGE LEFT flat and left knee90degrees, torso upright hands hips. MIDDLE RETURN: stand upright left foot planted same location, RIGHT foot lifted behind slightly as it swings through (right knee flex), body balanced over LEFT foot, hands hips. RIGHT KICK: RIGHT leg swings FORWARD toward IMAGE LEFT, knee extends straight for a modest waist-height kick, RIGHT shoe clear in air in front, LEFT supporting leg nearly straight foot flat. Torso tall with only slight natural lean, hips level, hands hips throughout. Trace same RIGHT hip-thigh-knee-shoe from rear lunge through forward kick; do not kick left support leg or change sides between phases. Both legs/hands/shoes fully inside each panel; no equipment. Primary GLUTES only soft diffuse blurred red tint on intact opaque BLACK side/rear hip shorts, no radial rays/anatomical fibers/divisions through cloth; all exposed legs/arms fine grayscale anatomy. Full opaque shirt/shorts wrap front sides back seat crotch. No text/arrows.",
+          "inspectionNote": "Reverse lunge, upright transition and straight forward kick shown with hands hips and standing support foot. Full opaque clothes, fine grayscale exposed anatomy. Red hip tint contains cloth streaks needing diffuse correction; head margins small. Same moving-leg continuity from rear step to kick requires qualified review.",
+          "canonicalName": "reverse lunge (leg kick)",
+          "styleVersion": "white-v1",
+          "equipment": "body weight",
+          "primaryMuscles": [
+            "glutes"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Reverse lunge, upright transition and straight forward kick shown with hands hips and standing support foot. Full opaque clothes, fine grayscale exposed anatomy. Red hip tint contains cloth streaks needing diffuse correction; head margins small. Same moving-leg continuity from rear step to kick requires qualified review.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0676-male-anatomical-white-v1-p1-6cf69b9cd497.webp",
+              "width": 724,
+              "height": 724,
+              "bytes": 20294,
+              "sha256": "6cf69b9cd4971e311e0c5ae2ac1b955527faed68e4efbc00e60574057e646cd2"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0676-male-anatomical-white-v1-p2-d38189e15d33.webp",
+              "width": 724,
+              "height": 724,
+              "bytes": 16146,
+              "sha256": "d38189e15d3388c6503478ba4c1cf90b6fea29c8129c4b6eba0b8dd02940811f"
+            },
+            {
+              "pose": "p3",
+              "path": "/workout/illustration-pilot/0676-male-anatomical-white-v1-p3-a4a129f22617.webp",
+              "width": 724,
+              "height": 724,
+              "bytes": 17856,
+              "sha256": "a4a129f226171dc32676c8e5cfb9fa4540df3ac9a1d4d2363fdcb54010155c51"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0676-male-anatomical-white-v1-thumb-7d93ea752473.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 2926,
+            "sha256": "7d93ea7524731b1ed33e0cdd13892546e22ae191ede87e886753876eb4d65dc0"
+          },
+          "processingSignature": "8eb9ec406571a808176fba8a9986076f4ee23360263a11146d7b6c819a65a9cf",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0676-male-anatomical-white-v1.png",
+            "width": 2172,
+            "height": 724,
+            "bytes": 1327267,
+            "sha256": "f14e96ee6a1238fd19c22ae86b20b6213184f14e8f6287712554081418f93ae3"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "0676",
+      "variant": "female",
+      "key": "0676-female-anatomical-white-v2",
+      "layout": {
+        "columns": 3,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Step the right leg back into a reverse lunge with the left foot flat"
+        },
+        {
+          "key": "p2",
+          "caption": "Drive through the left heel to stand as the right leg swings forward"
+        },
+        {
+          "key": "p3",
+          "caption": "Extend the same right leg into a forward kick; finish the set before switching legs"
+        }
+      ],
+      "detail": "REVERSE LUNGE TO FORWARD LEG KICK, THREE phases, full body SIDE three-quarter view model faces IMAGE LEFT, same camera. RIGHT leg is moving leg in ALL phases; LEFT leg stays supporting. LEFT LUNGE: RIGHT foot steps BACK toward IMAGE RIGHT, right knee bends near floor beneath hip, right heel up toes floor; LEFT foot forward IMAGE LEFT flat and left knee90degrees, torso upright hands hips. MIDDLE RETURN: stand upright left foot planted same location, RIGHT foot lifted behind slightly as it swings through (right knee flex), body balanced over LEFT foot, hands hips. RIGHT KICK: RIGHT leg swings FORWARD toward IMAGE LEFT, knee extends straight for a modest waist-height kick, RIGHT shoe clear in air in front, LEFT supporting leg nearly straight foot flat. Torso tall with only slight natural lean, hips level, hands hips throughout. Trace same RIGHT hip-thigh-knee-shoe from rear lunge through forward kick; do not kick left support leg or change sides between phases. Both legs/hands/shoes fully inside each panel; no equipment. Primary GLUTES only soft diffuse blurred red tint on intact opaque BLACK side/rear hip shorts, no radial rays/anatomical fibers/divisions through cloth; all exposed legs/arms fine grayscale anatomy. Full opaque shirt/shorts wrap front sides back seat crotch. No text/arrows.",
+      "prompt": "Edit original project THREE-panel reverse lunge to forward kick. Preserve all exact poses, hands hips, rear moving-leg to upright swing to forward kick, support foot and fine detailed grayscale anatomical fibers on EXPOSED arms/legs. Only repaint red GLUTE/HIP shorts tint in every panel as smooth soft diffuse BLURRED RED over continuous intact opaque matte BLACK fabric. Erase every radial ray/starburst/fiber streak/anatomical muscle subdivision on shorts; natural broad folds/seams only. Full opaque shorts front sides rear seat crotch and black shirt front sides back. Slightly reduce whole composition within each panel for generous head/shoe margins without changing pose geometry. No cutaways/transparency/text. Preserve female proportions and equal fine exposed grayscale anatomy.",
+      "inspectionNote": "Wider margins and diffuse glute fabric tint improved; lunge/swing-through/forward-kick poses preserved with opaque clothes and fine grayscale exposed anatomy. Same moving-leg continuity, support-foot alignment and kick/lunge technique remain for qualified review, no anatomy approval.",
+      "canonicalName": "reverse lunge (leg kick)",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "glutes"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0676-female-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "status": "generated",
+        "costUSD": null
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Wider margins and diffuse glute fabric tint improved; lunge/swing-through/forward-kick poses preserved with opaque clothes and fine grayscale exposed anatomy. Same moving-leg continuity, support-foot alignment and kick/lunge technique remain for qualified review, no anatomy approval.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0676-female-anatomical-white-v2-p1-65e898b0a94b.webp",
+          "width": 591,
+          "height": 887,
+          "bytes": 19086,
+          "sha256": "65e898b0a94b7cd2b5cd03fc6cab9512700d6a4bdab120b5e9d8558aabc3df26"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0676-female-anatomical-white-v2-p2-b198826866f5.webp",
+          "width": 592,
+          "height": 887,
+          "bytes": 16700,
+          "sha256": "b198826866f55ef0e8361f6f9da2bc8b90146701a574476cb60f74d71c2d64c2"
+        },
+        {
+          "pose": "p3",
+          "path": "/workout/illustration-pilot/0676-female-anatomical-white-v2-p3-6ef8616565c5.webp",
+          "width": 591,
+          "height": 887,
+          "bytes": 18300,
+          "sha256": "6ef8616565c5498dd746b7c421226ead1c5bea647b18c93ccf094e0ae96060f4"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0676-female-anatomical-white-v2-thumb-e3525aec9fa2.webp",
+        "width": 160,
+        "height": 240,
+        "bytes": 2312,
+        "sha256": "e3525aec9fa2ef341fb7d8f0de197bddbf16b5853b6dc8555d4de4c8564f92da"
+      },
+      "processingSignature": "0932028d728fa8f974f42bd8c0a64e811fa3b996e8a886d44c4f638c5fdf7284",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0676-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1368682,
+        "sha256": "faa717cb79bcc102fd71f6933c2062596a2603a23b2f1b1f624b13a1733ccc1b"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0676",
+          "variant": "female",
+          "key": "0676-female-anatomical-white-v1",
+          "layout": {
+            "columns": 3,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Step the right leg back into a reverse lunge with the left foot flat"
+            },
+            {
+              "key": "p2",
+              "caption": "Drive through the left heel to stand as the right leg swings forward"
+            },
+            {
+              "key": "p3",
+              "caption": "Extend the same right leg into a forward kick; finish the set before switching legs"
+            }
+          ],
+          "detail": "REVERSE LUNGE TO FORWARD LEG KICK, THREE phases, full body SIDE three-quarter view model faces IMAGE LEFT, same camera. RIGHT leg is moving leg in ALL phases; LEFT leg stays supporting. LEFT LUNGE: RIGHT foot steps BACK toward IMAGE RIGHT, right knee bends near floor beneath hip, right heel up toes floor; LEFT foot forward IMAGE LEFT flat and left knee90degrees, torso upright hands hips. MIDDLE RETURN: stand upright left foot planted same location, RIGHT foot lifted behind slightly as it swings through (right knee flex), body balanced over LEFT foot, hands hips. RIGHT KICK: RIGHT leg swings FORWARD toward IMAGE LEFT, knee extends straight for a modest waist-height kick, RIGHT shoe clear in air in front, LEFT supporting leg nearly straight foot flat. Torso tall with only slight natural lean, hips level, hands hips throughout. Trace same RIGHT hip-thigh-knee-shoe from rear lunge through forward kick; do not kick left support leg or change sides between phases. Both legs/hands/shoes fully inside each panel; no equipment. Primary GLUTES only soft diffuse blurred red tint on intact opaque BLACK side/rear hip shorts, no radial rays/anatomical fibers/divisions through cloth; all exposed legs/arms fine grayscale anatomy. Full opaque shirt/shorts wrap front sides back seat crotch. No text/arrows.",
+          "prompt": "Original educational exercise illustration. Attached original project artwork STYLE ONLY never pose reference. Realistic neutral adult FEMALE, fine detailed grayscale anatomical fibers on EXPOSED muscles. Pure white background. THREE equal side-by-side panels, identical model/camera/lighting. Fully OPAQUE matte BLACK sleeveless shirt wraps torso front/sides/back; loose knee-length BLACK shorts wrap both thighs/front/sides/rear/seat/crotch with closed seams/hems, broad natural folds, black trainers. No transparent cloth, bare buttocks, cutaways, anatomy windows or muscle fibers on garments. Red primary only as specified, over clothing ONE smooth diffuse blurred tint on intact fabric without anatomical divisions. Whole person fingers shoes apparatus inside white margins. No labels/text/arrows/logos. REVERSE LUNGE TO FORWARD LEG KICK, THREE phases, full body SIDE three-quarter view model faces IMAGE LEFT, same camera. RIGHT leg is moving leg in ALL phases; LEFT leg stays supporting. LEFT LUNGE: RIGHT foot steps BACK toward IMAGE RIGHT, right knee bends near floor beneath hip, right heel up toes floor; LEFT foot forward IMAGE LEFT flat and left knee90degrees, torso upright hands hips. MIDDLE RETURN: stand upright left foot planted same location, RIGHT foot lifted behind slightly as it swings through (right knee flex), body balanced over LEFT foot, hands hips. RIGHT KICK: RIGHT leg swings FORWARD toward IMAGE LEFT, knee extends straight for a modest waist-height kick, RIGHT shoe clear in air in front, LEFT supporting leg nearly straight foot flat. Torso tall with only slight natural lean, hips level, hands hips throughout. Trace same RIGHT hip-thigh-knee-shoe from rear lunge through forward kick; do not kick left support leg or change sides between phases. Both legs/hands/shoes fully inside each panel; no equipment. Primary GLUTES only soft diffuse blurred red tint on intact opaque BLACK side/rear hip shorts, no radial rays/anatomical fibers/divisions through cloth; all exposed legs/arms fine grayscale anatomy. Full opaque shirt/shorts wrap front sides back seat crotch. No text/arrows.",
+          "inspectionNote": "Reverse lunge, upright swing-through and straight forward kick shown with hands hips, full opaque clothes and fine grayscale exposed anatomy. Red glute cloth has radial rays requiring diffuse correction. Same moving-leg continuity from rear lunge to kick and support-foot alignment need qualified review.",
+          "canonicalName": "reverse lunge (leg kick)",
+          "styleVersion": "white-v1",
+          "equipment": "body weight",
+          "primaryMuscles": [
+            "glutes"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Reverse lunge, upright swing-through and straight forward kick shown with hands hips, full opaque clothes and fine grayscale exposed anatomy. Red glute cloth has radial rays requiring diffuse correction. Same moving-leg continuity from rear lunge to kick and support-foot alignment need qualified review.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0676-female-anatomical-white-v1-p1-e84d46d5f8e6.webp",
+              "width": 591,
+              "height": 887,
+              "bytes": 23380,
+              "sha256": "e84d46d5f8e65f828c69d784ad609e47a4c4b9a86d3217d7bb66766034e3a072"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0676-female-anatomical-white-v1-p2-f04eb8cd02e8.webp",
+              "width": 592,
+              "height": 887,
+              "bytes": 20374,
+              "sha256": "f04eb8cd02e8f48974dbd6c513fc339a78833a6f9166c0c5c4e02de8585cab72"
+            },
+            {
+              "pose": "p3",
+              "path": "/workout/illustration-pilot/0676-female-anatomical-white-v1-p3-8f994dd4e7b0.webp",
+              "width": 591,
+              "height": 887,
+              "bytes": 20604,
+              "sha256": "8f994dd4e7b084c88ff50d44f135a45c90e50ee7713c3143da049ebc88abfe6b"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0676-female-anatomical-white-v1-thumb-7f2abfd78cd0.webp",
+            "width": 160,
+            "height": 240,
+            "bytes": 2566,
+            "sha256": "7f2abfd78cd0b68bbd8d724fb83c421d624b3f6cd276ef408a52768640526820"
+          },
+          "processingSignature": "39be8eccf6cf3dc3aad40f83f6b901d0716567223fcd1b44ced2ffc7d1e0c47a",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0676-female-anatomical-white-v1.png",
+            "width": 1774,
+            "height": 887,
+            "bytes": 1458516,
+            "sha256": "fa42f095bc727c4188e890ba9f58c608574f63288f9421370bd73e3285023fb8"
+          }
+        }
+      ]
+    }
+  ]
+}

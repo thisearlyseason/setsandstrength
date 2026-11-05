@@ -1,0 +1,64 @@
+{
+  "runId": "ff31cea1-bfbe-4767-9aee-d41f7a94dbb6",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "triggerTimestamp": "2026-11-05T02:51:05.739Z",
+  "batches": [
+    482,
+    483,
+    484
+  ],
+  "builtInImageGenAvailable": true,
+  "generatedMasters": 10,
+  "generatedIds": [
+    "8617",
+    "8633",
+    "8652",
+    "8654",
+    "0030",
+    "0055",
+    "0072",
+    "0076",
+    "0057",
+    "0060"
+  ],
+  "blocked": {
+    "0055": [
+      "Grip orientation changes between press poses; lowered pose appears supinated rather than consistent overhand palms toward feet."
+    ],
+    "0057": [
+      "Barbell rotates substantially between poses instead of remaining transverse under a fixed camera; hand/grip geometry and bar orientation need correction."
+    ],
+    "0060": [
+      "Barbell rotates substantially between poses instead of remaining transverse under a fixed camera; hand/grip geometry and bar orientation need correction."
+    ]
+  },
+  "coverageAfter": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1722,
+    "remainingVariants": 9542,
+    "approvedVariants": 0,
+    "blockedVariants": 614,
+    "knownPoseImages": 3492,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 1349,
+      "remainingVariants": 4283,
+      "blockedVariants": 495
+    }
+  },
+  "pipelineTests": "8 passed, 0 failed after each of three batches",
+  "approvedIndexUnchanged": true,
+  "existingUserApprovalsPreserved": 1306,
+  "publication": "none",
+  "anatomyReview": "pending",
+  "paidWorker": "disabled; inventory sync only, zero requests",
+  "stopReason": "Repeated systemic barbell geometry failure in 0057 and0060: transverse bar rotates toward end-on between poses under same camera. Stopped before0048/6406 and planned forearm batch.",
+  "nextRunGuidance": "Continue clear missing male exercises. Bodyweight chair movements8617,8633,8652,8654 were consistent. Defer barbell lying extensions until fixed camera and bar orientation are controlled. Suspension geometry, covered-target cutaways and hammer-grip leakage remain deferred. Prompts0048,6406,6358,6359,6267,6364 exist without originals; no completion claimed.",
+  "deferredReport": "scheduled-run-2026-11-05T025105-deferred.json",
+  "styleReference": "assets/exercise-illustrations/generated/0853-male-anatomical-white-v1.png"
+}

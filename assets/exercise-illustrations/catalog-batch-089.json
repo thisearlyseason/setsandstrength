@@ -1,0 +1,677 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "0612",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand upright with feet hip-width apart and hands on hips"
+        },
+        {
+          "key": "p2",
+          "caption": "Step forward and lower until both knees bend about ninety degrees, front knee above ankle"
+        }
+      ],
+      "detail": "BODYWEIGHT FORWARD LUNGE, FRONT SIDE THREE-QUARTER view facing IMAGE RIGHT. No equipment. LEFT start stand upright feet HIP width, hands on hips, knees soft, spine/neck neutral. RIGHT SAME model steps RIGHT leg FORWARD toward IMAGE RIGHT and lowers into lunge, right foot flat on floor, right knee bent90degrees stacked above right ankle; left leg stays BEHIND toward IMAGE LEFT, left heel lifted on toes, left knee bent90degrees hovering just above floor. Hips sink vertically between legs, torso upright, pelvis level, both knees track with toes without collapsing inward. Stable hip-width tracks, not tightrope. Same right leg identity, proportions and camera. Hands stay on hips. Front thigh approximately horizontal, rear thigh near vertical. Primary QUADRICEPS front thighs ONLY soft DIFFUSE red patches over fully opaque black thigh fabric; no red knees/calves/glutes, no anatomical fiber divisions on shorts. Shirt black and entire seat/crotch fully clothed at deep lunge. Entire person including both shoes within each panel with generous white margins.",
+      "variant": "male",
+      "key": "0612-male-anatomical-white-v2",
+      "prompt": "Edit ONLY the red QUADRICEPS overlays on BLACK SHORTS in this original project exercise illustration, preserving every pose and figure. Remove ALL fine fibers, radial lines, starbursts and anatomical muscle sections from the shorts. Restore CONTINUOUS OPAQUE matte BLACK fabric with broad cloth folds, seams and closed hems; place only SOFT BLURRED DIFFUSE RED COLOR patches over same front-thigh regions. No muscle shapes or internal lines in red patches; no anatomy visible through fabric. Keep full opaque coverage of thighs/front/sides/rear/seat/crotch. Keep exposed grayscale anatomy on limbs detailed with fine muscle fibers. Preserve pose, head, neck, limbs, hand/ankle contacts if present, clothing silhouette, white background, dimensions and layout. No added figures, text or equipment.",
+      "inspectionNote": "Clothing correction removes internal thigh patterns and leaves diffuse red tint over intact opaque shorts. Standing-to-forward-lunge poses, hands on hips, front knee above ankle and grayscale exposed anatomy retained. Rear-knee depth, stance width and leg identity require qualified review; original retained and no anatomy approval.",
+      "canonicalName": "lunge",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "quads"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0612-male-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Clothing correction removes internal thigh patterns and leaves diffuse red tint over intact opaque shorts. Standing-to-forward-lunge poses, hands on hips, front knee above ankle and grayscale exposed anatomy retained. Rear-knee depth, stance width and leg identity require qualified review; original retained and no anatomy approval.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0612-male-anatomical-white-v2-p1-cfbc76e4e0da.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 22872,
+          "sha256": "cfbc76e4e0da259e412439dc35b3abab0b5afd9ddc4a4e9204a35cc9b04893ec"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0612-male-anatomical-white-v2-p2-039c24b41820.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 21694,
+          "sha256": "039c24b4182053dd02b45e9a9bf31b222aa778db81ab6b9aacfe07c7685d1a21"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0612-male-anatomical-white-v2-thumb-b97fb869f771.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2570,
+        "sha256": "b97fb869f7719fc795f6284eeefce7f9a7d098fd53ecaf5b858fdfcbd84684dd"
+      },
+      "processingSignature": "d5391c4fa56e33e391aef4e3df8e1d0f7a3094f78181951bcf42124cdeee7868",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0612-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1633487,
+        "sha256": "821aba6455091dedcbafd998e41787052e1fdae8e0c747bc801646cdccacb4d8"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0612",
+          "layout": {
+            "columns": 2,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Stand upright with feet hip-width apart and hands on hips"
+            },
+            {
+              "key": "p2",
+              "caption": "Step forward and lower until both knees bend about ninety degrees, front knee above ankle"
+            }
+          ],
+          "detail": "BODYWEIGHT FORWARD LUNGE, FRONT SIDE THREE-QUARTER view facing IMAGE RIGHT. No equipment. LEFT start stand upright feet HIP width, hands on hips, knees soft, spine/neck neutral. RIGHT SAME model steps RIGHT leg FORWARD toward IMAGE RIGHT and lowers into lunge, right foot flat on floor, right knee bent90degrees stacked above right ankle; left leg stays BEHIND toward IMAGE LEFT, left heel lifted on toes, left knee bent90degrees hovering just above floor. Hips sink vertically between legs, torso upright, pelvis level, both knees track with toes without collapsing inward. Stable hip-width tracks, not tightrope. Same right leg identity, proportions and camera. Hands stay on hips. Front thigh approximately horizontal, rear thigh near vertical. Primary QUADRICEPS front thighs ONLY soft DIFFUSE red patches over fully opaque black thigh fabric; no red knees/calves/glutes, no anatomical fiber divisions on shorts. Shirt black and entire seat/crotch fully clothed at deep lunge. Entire person including both shoes within each panel with generous white margins.",
+          "variant": "male",
+          "key": "0612-male-anatomical-white-v1",
+          "prompt": "Original educational exercise illustration. Attached original project image is STYLE reference ONLY, never pose reference. Detailed fine grayscale anatomical fibers on exposed limbs, realistic neutral adult MALE; pure white background. TWO equal side-by-side panels with identical model, dimensions, camera and lighting. FULLY OPAQUE matte BLACK sleeveless shirt continuously wraps torso front/sides/back. Loose BLACK knee-length shorts wrap BOTH upper thighs, seat and crotch fully front/sides/rear, closed hems and seams, broad natural fabric folds. NO bare buttocks, translucent cloth, cutaways, anatomy windows or muscle-fiber patterns on garments. Black trainers. Red PRIMARY muscle highlights only as specified; over clothing use a SOFT DIFFUSE COLOR PATCH on intact BLACK FABRIC without anatomical subdivisions. Whole person, fingers/shoes and ENTIRE machine including frame, lever, pivots, weight stack and base within EACH panel with generous white margins. Same EXACT fixed frame/seat/pad/camera/pivots in both phases; only exercise joints and connected moving lever rotate. No text, arrows, captions, logos or numbers. BODYWEIGHT FORWARD LUNGE, FRONT SIDE THREE-QUARTER view facing IMAGE RIGHT. No equipment. LEFT start stand upright feet HIP width, hands on hips, knees soft, spine/neck neutral. RIGHT SAME model steps RIGHT leg FORWARD toward IMAGE RIGHT and lowers into lunge, right foot flat on floor, right knee bent90degrees stacked above right ankle; left leg stays BEHIND toward IMAGE LEFT, left heel lifted on toes, left knee bent90degrees hovering just above floor. Hips sink vertically between legs, torso upright, pelvis level, both knees track with toes without collapsing inward. Stable hip-width tracks, not tightrope. Same right leg identity, proportions and camera. Hands stay on hips. Front thigh approximately horizontal, rear thigh near vertical. Primary QUADRICEPS front thighs ONLY soft DIFFUSE red patches over fully opaque black thigh fabric; no red knees/calves/glutes, no anatomical fiber divisions on shorts. Shirt black and entire seat/crotch fully clothed at deep lunge. Entire person including both shoes within each panel with generous white margins.",
+          "inspectionNote": "Upright standing start to forward lunge, front foot flat and knee over ankle, rear heel lifted, hands on hips. Opaque shorts wrap seat/crotch but red thigh overlays have radial/fiber lines; needs diffuse fabric treatment. Rear-knee angle, stance width and same-leg identity require human validation.",
+          "blockingIssues": [
+            "Red quadriceps overlays include fiber/radial patterns on shorts; replace with diffuse intact-fabric tint."
+          ],
+          "canonicalName": "lunge",
+          "styleVersion": "white-v1",
+          "equipment": "body weight",
+          "primaryMuscles": [
+            "quads"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Upright standing start to forward lunge, front foot flat and knee over ankle, rear heel lifted, hands on hips. Opaque shorts wrap seat/crotch but red thigh overlays have radial/fiber lines; needs diffuse fabric treatment. Rear-knee angle, stance width and same-leg identity require human validation.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0612-male-anatomical-white-v1-p1-13fcff99785b.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 24410,
+              "sha256": "13fcff99785b10cc4095d9ca204b691d25ac400e551fad2bbb9a57df95adee6f"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0612-male-anatomical-white-v1-p2-038fbd5e9ad5.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 23674,
+              "sha256": "038fbd5e9ad5542c17a4975e4ec0a4b2b85a22c2b824f217c4b78ef6a1ff048e"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0612-male-anatomical-white-v1-thumb-2858715faa5f.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 2504,
+            "sha256": "2858715faa5f4ecccd2fc202ea4efabdef76ac10a4699ebad0886ccf1637d501"
+          },
+          "processingSignature": "0aaba3c3a61b26245f18978e0a40877ba01cd08441ee8dae73638925b39c9e71",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0612-male-anatomical-white-v1.png",
+            "width": 1774,
+            "height": 887,
+            "bytes": 1690945,
+            "sha256": "b5d06e1e1ae1d58e2a3d5590a947c07f60ad6cfcafd372d808a80b99d5bcef33"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "0612",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand upright with feet hip-width apart and hands on hips"
+        },
+        {
+          "key": "p2",
+          "caption": "Step forward and lower until both knees bend about ninety degrees, front knee above ankle"
+        }
+      ],
+      "detail": "BODYWEIGHT FORWARD LUNGE, FRONT SIDE THREE-QUARTER view facing IMAGE RIGHT. No equipment. LEFT start stand upright feet HIP width, hands on hips, knees soft, spine/neck neutral. RIGHT SAME model steps RIGHT leg FORWARD toward IMAGE RIGHT and lowers into lunge, right foot flat on floor, right knee bent90degrees stacked above right ankle; left leg stays BEHIND toward IMAGE LEFT, left heel lifted on toes, left knee bent90degrees hovering just above floor. Hips sink vertically between legs, torso upright, pelvis level, both knees track with toes without collapsing inward. Stable hip-width tracks, not tightrope. Same right leg identity, proportions and camera. Hands stay on hips. Front thigh approximately horizontal, rear thigh near vertical. Primary QUADRICEPS front thighs ONLY soft DIFFUSE red patches over fully opaque black thigh fabric; no red knees/calves/glutes, no anatomical fiber divisions on shorts. Shirt black and entire seat/crotch fully clothed at deep lunge. Entire person including both shoes within each panel with generous white margins.",
+      "variant": "female",
+      "key": "0612-female-anatomical-white-v3",
+      "prompt": "Restore premium fine GRAYSCALE ANATOMICAL MUSCLE-FIBER and tendon detail ONLY on EXPOSED ARMS, SHOULDERS, FOREARMS, hands and LOWER LEGS in BOTH poses of this original project female lunge illustration. Crisp fine parallel muscle striations, clear natural muscle boundaries and tendons, same educational anatomy rendering quality as detailed original project artwork. Do not smooth anatomy into skin. Keep torso shirt and all shorts COMPLETELY OPAQUE matte BLACK with cloth folds, and preserve existing SOFT DIFFUSE RED thigh tint with NO fibers or anatomy patterns in fabric. Do not add exposed chest, abs, buttocks or crotch. Preserve exact poses, identity, proportions, hand positions, white background and two panels. No text.",
+      "inspectionNote": "Second correction restores clear fine grayscale muscle-fiber detail on exposed arms and lower legs while keeping opaque garments and diffuse red quadriceps fabric tint. Standing-to-lunge poses retained. Rear-knee depth, stance width, leg proportions and anatomical mapping require human review. All previous masters retained; no anatomy approval.",
+      "canonicalName": "lunge",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "quads"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0612-female-anatomical-white-v2.png"
+      },
+      "generation": {
+        "attempts": 3,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Second correction restores clear fine grayscale muscle-fiber detail on exposed arms and lower legs while keeping opaque garments and diffuse red quadriceps fabric tint. Standing-to-lunge poses retained. Rear-knee depth, stance width, leg proportions and anatomical mapping require human review. All previous masters retained; no anatomy approval.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0612-female-anatomical-white-v3-p1-0488a92c978d.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 25770,
+          "sha256": "0488a92c978d8d224dfb546f6edb7bbe156fa254c90a003d46b7e6a21c368e66"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0612-female-anatomical-white-v3-p2-6648600f56e0.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 25568,
+          "sha256": "6648600f56e053c8fe9644d301e381615feb911c9e47d7ebc7295038ef879322"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0612-female-anatomical-white-v3-thumb-f8563de59524.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2864,
+        "sha256": "f8563de5952403f9f3471ddcb6005078ed74ea02f98364f26bb19cff88767e3e"
+      },
+      "processingSignature": "c2756ea99c56263de6debeb960d6ae8b4f8b8616ce4e86cf6f67e67233e1a9c9",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0612-female-anatomical-white-v3.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1684243,
+        "sha256": "b81a75ae93758660332baa7eed8156da3f602ffbe108815554280587ef4d9f68"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0612",
+          "layout": {
+            "columns": 2,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Stand upright with feet hip-width apart and hands on hips"
+            },
+            {
+              "key": "p2",
+              "caption": "Step forward and lower until both knees bend about ninety degrees, front knee above ankle"
+            }
+          ],
+          "detail": "BODYWEIGHT FORWARD LUNGE, FRONT SIDE THREE-QUARTER view facing IMAGE RIGHT. No equipment. LEFT start stand upright feet HIP width, hands on hips, knees soft, spine/neck neutral. RIGHT SAME model steps RIGHT leg FORWARD toward IMAGE RIGHT and lowers into lunge, right foot flat on floor, right knee bent90degrees stacked above right ankle; left leg stays BEHIND toward IMAGE LEFT, left heel lifted on toes, left knee bent90degrees hovering just above floor. Hips sink vertically between legs, torso upright, pelvis level, both knees track with toes without collapsing inward. Stable hip-width tracks, not tightrope. Same right leg identity, proportions and camera. Hands stay on hips. Front thigh approximately horizontal, rear thigh near vertical. Primary QUADRICEPS front thighs ONLY soft DIFFUSE red patches over fully opaque black thigh fabric; no red knees/calves/glutes, no anatomical fiber divisions on shorts. Shirt black and entire seat/crotch fully clothed at deep lunge. Entire person including both shoes within each panel with generous white margins.",
+          "variant": "female",
+          "key": "0612-female-anatomical-white-v1",
+          "prompt": "Original educational exercise illustration. Attached original project image is STYLE reference ONLY, never pose reference. Detailed fine grayscale anatomical fibers on exposed limbs, realistic neutral adult FEMALE; pure white background. TWO equal side-by-side panels with identical model, dimensions, camera and lighting. FULLY OPAQUE matte BLACK sleeveless shirt continuously wraps torso front/sides/back. Loose BLACK knee-length shorts wrap BOTH upper thighs, seat and crotch fully front/sides/rear, closed hems and seams, broad natural fabric folds. NO bare buttocks, translucent cloth, cutaways, anatomy windows or muscle-fiber patterns on garments. Black trainers. Red PRIMARY muscle highlights only as specified; over clothing use a SOFT DIFFUSE COLOR PATCH on intact BLACK FABRIC without anatomical subdivisions. Whole person, fingers/shoes and ENTIRE machine including frame, lever, pivots, weight stack and base within EACH panel with generous white margins. Same EXACT fixed frame/seat/pad/camera/pivots in both phases; only exercise joints and connected moving lever rotate. No text, arrows, captions, logos or numbers. BODYWEIGHT FORWARD LUNGE, FRONT SIDE THREE-QUARTER view facing IMAGE RIGHT. No equipment. LEFT start stand upright feet HIP width, hands on hips, knees soft, spine/neck neutral. RIGHT SAME model steps RIGHT leg FORWARD toward IMAGE RIGHT and lowers into lunge, right foot flat on floor, right knee bent90degrees stacked above right ankle; left leg stays BEHIND toward IMAGE LEFT, left heel lifted on toes, left knee bent90degrees hovering just above floor. Hips sink vertically between legs, torso upright, pelvis level, both knees track with toes without collapsing inward. Stable hip-width tracks, not tightrope. Same right leg identity, proportions and camera. Hands stay on hips. Front thigh approximately horizontal, rear thigh near vertical. Primary QUADRICEPS front thighs ONLY soft DIFFUSE red patches over fully opaque black thigh fabric; no red knees/calves/glutes, no anatomical fiber divisions on shorts. Shirt black and entire seat/crotch fully clothed at deep lunge. Entire person including both shoes within each panel with generous white margins.",
+          "inspectionNote": "Standing start and upright forward lunge, front knee over ankle and foot flat, rear heel up, hands on hips. Full opaque clothing but fine internal lines remain in red thigh tint; needs diffuse cloth overlay. Rear-knee angle, leg proportions and stance width need human review.",
+          "blockingIssues": [
+            "Red quadriceps overlay contains internal fiber lines on shorts; soften to diffuse intact-fabric tint."
+          ],
+          "canonicalName": "lunge",
+          "styleVersion": "white-v1",
+          "equipment": "body weight",
+          "primaryMuscles": [
+            "quads"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Standing start and upright forward lunge, front knee over ankle and foot flat, rear heel up, hands on hips. Full opaque clothing but fine internal lines remain in red thigh tint; needs diffuse cloth overlay. Rear-knee angle, leg proportions and stance width need human review.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0612-female-anatomical-white-v1-p1-20e39d5e26d3.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 21738,
+              "sha256": "20e39d5e26d30c746247074a9bc581e89068abef140d23943a6b5d5356185ba9"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0612-female-anatomical-white-v1-p2-bc29129375a9.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 22070,
+              "sha256": "bc29129375a9d9b14651083f7fa259bbe8fb5bde56392ce8071230a37dd32f30"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0612-female-anatomical-white-v1-thumb-fee6daf296d6.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 2452,
+            "sha256": "fee6daf296d65132bd92d0293822bea00efc615f740b73238d52b606bcb1b60f"
+          },
+          "processingSignature": "5068544fd5025e9e3d2f64e5e4dc2a91cfd9796095d3f809ff457e5b49100b0f",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0612-female-anatomical-white-v1.png",
+            "width": 1774,
+            "height": 887,
+            "bytes": 1341084,
+            "sha256": "21f934c7adc35f1680126e82e60c700641d8f44678dc1988762a27950529a624"
+          }
+        },
+        {
+          "exerciseId": "0612",
+          "layout": {
+            "columns": 2,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Stand upright with feet hip-width apart and hands on hips"
+            },
+            {
+              "key": "p2",
+              "caption": "Step forward and lower until both knees bend about ninety degrees, front knee above ankle"
+            }
+          ],
+          "detail": "BODYWEIGHT FORWARD LUNGE, FRONT SIDE THREE-QUARTER view facing IMAGE RIGHT. No equipment. LEFT start stand upright feet HIP width, hands on hips, knees soft, spine/neck neutral. RIGHT SAME model steps RIGHT leg FORWARD toward IMAGE RIGHT and lowers into lunge, right foot flat on floor, right knee bent90degrees stacked above right ankle; left leg stays BEHIND toward IMAGE LEFT, left heel lifted on toes, left knee bent90degrees hovering just above floor. Hips sink vertically between legs, torso upright, pelvis level, both knees track with toes without collapsing inward. Stable hip-width tracks, not tightrope. Same right leg identity, proportions and camera. Hands stay on hips. Front thigh approximately horizontal, rear thigh near vertical. Primary QUADRICEPS front thighs ONLY soft DIFFUSE red patches over fully opaque black thigh fabric; no red knees/calves/glutes, no anatomical fiber divisions on shorts. Shirt black and entire seat/crotch fully clothed at deep lunge. Entire person including both shoes within each panel with generous white margins.",
+          "variant": "female",
+          "key": "0612-female-anatomical-white-v2",
+          "prompt": "Edit ONLY the red QUADRICEPS overlays on BLACK SHORTS in this original project exercise illustration, preserving every pose and figure. Remove ALL fine fibers, radial lines, starbursts and anatomical muscle sections from the shorts. Restore CONTINUOUS OPAQUE matte BLACK fabric with broad cloth folds, seams and closed hems; place only SOFT BLURRED DIFFUSE RED COLOR patches over same front-thigh regions. No muscle shapes or internal lines in red patches; no anatomy visible through fabric. Keep full opaque coverage of thighs/front/sides/rear/seat/crotch. Keep exposed grayscale anatomy on limbs detailed with fine muscle fibers. Preserve pose, head, neck, limbs, hand/ankle contacts if present, clothing silhouette, white background, dimensions and layout. No added figures, text or equipment.",
+          "inspectionNote": "Diffuse red thigh fabric tint corrected with full opaque coverage, but edit also smooths exposed anatomical fiber detail. Lunge alignment and pose retained. Restore exposed muscle detail before equivalent-quality review; original retained.",
+          "canonicalName": "lunge",
+          "styleVersion": "white-v1",
+          "equipment": "body weight",
+          "primaryMuscles": [
+            "quads"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose",
+            "editInputPath": "assets/exercise-illustrations/generated/0612-female-anatomical-white-v1.png"
+          },
+          "generation": {
+            "attempts": 2,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Diffuse red thigh fabric tint corrected with full opaque coverage, but edit also smooths exposed anatomical fiber detail. Lunge alignment and pose retained. Restore exposed muscle detail before equivalent-quality review; original retained.",
+            "reviewer": ""
+          },
+          "assets": [],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": null,
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0612-female-anatomical-white-v2.png",
+            "width": 1774,
+            "height": 887,
+            "bytes": 1622009,
+            "sha256": "371460438722ea7292027505b4f9465b2b3f2680bc45bce4de27baedc1c885e4"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "0613",
+      "layout": {
+        "columns": 1,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Lie on your side, keep hips stacked and gently hold the top ankle behind you to stretch the front thigh"
+        }
+      ],
+      "detail": "SIDE-LYING QUADRICEPS STRETCH \u2014 ONE STATIC HOLD, ONE person ONE pose only. Full-body SIDE three-quarter view, head IMAGE LEFT feet IMAGE RIGHT, lying on LEFT side on white floor. Left bottom leg extends STRAIGHT along floor. Left arm folded under head supports neutral neck. Right TOP leg bends at KNEE, right thigh remains alongside left thigh with hips stacked and right knee next to left knee, not pulled forward; right lower leg folds BACK bringing right heel gently toward clothed buttock. Right TOP arm reaches behind hip and right HAND grasps RIGHT ANKLE just above shoe, gentle pull; hand and ankle contact visibly clear. Knee flexion should stretch FRONT of right thigh without arching lumbar spine or rotating pelvis. Only TOP RIGHT QUADRICEPS front thigh has one soft diffuse RED tint printed on intact BLACK shorts; bottom leg/all other anatomy grayscale, no red glutes or hamstrings. Entire black shorts continuously wrap BOTH thighs, crotch, rear/seat, no exposed buttocks or clothing windows while top knee bent. Shirt opaque black front/sides/back. Whole head/hand/fingers/shoes within spacious margins; no bench/equipment.",
+      "variant": "male",
+      "key": "0613-male-anatomical-white-v2",
+      "prompt": "Edit ONLY the red QUADRICEPS overlays on BLACK SHORTS in this original project exercise illustration, preserving every pose and figure. Remove ALL fine fibers, radial lines, starbursts and anatomical muscle sections from the shorts. Restore CONTINUOUS OPAQUE matte BLACK fabric with broad cloth folds, seams and closed hems; place only SOFT BLURRED DIFFUSE RED COLOR patches over same front-thigh regions. No muscle shapes or internal lines in red patches; no anatomy visible through fabric. Keep full opaque coverage of thighs/front/sides/rear/seat/crotch. Keep exposed grayscale anatomy on limbs detailed with fine muscle fibers. Preserve pose, head, neck, limbs, hand/ankle contacts if present, clothing silhouette, white background, dimensions and layout. No added figures, text or equipment.",
+      "inspectionNote": "Clothing correction leaves diffuse red top-thigh tint on opaque black shorts. One static side-lying quad stretch with bottom leg straight and hand contacting bent top ankle retained; exposed grayscale fibers remain detailed. Human review required for neck support, hip/knee stacking and ankle grip; original retained.",
+      "canonicalName": "lying (side) quads stretch",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "quads"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0613-male-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Clothing correction leaves diffuse red top-thigh tint on opaque black shorts. One static side-lying quad stretch with bottom leg straight and hand contacting bent top ankle retained; exposed grayscale fibers remain detailed. Human review required for neck support, hip/knee stacking and ankle grip; original retained.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0613-male-anatomical-white-v2-p1-7cc68106f287.webp",
+          "width": 1200,
+          "height": 600,
+          "bytes": 29056,
+          "sha256": "7cc68106f287f0a94995ddee27f97da700569d8451258f81361eec25bb48b5e2"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0613-male-anatomical-white-v2-thumb-6ba8b5183571.webp",
+        "width": 240,
+        "height": 120,
+        "bytes": 2070,
+        "sha256": "6ba8b5183571feecf62d9e7527c7d3a29b68443dee06bcd7bae49d47bd66bb56"
+      },
+      "processingSignature": "14f86115cd9eeac99a3111d0289ab1c2b29871f464ae3adf47f7dec94a574958",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0613-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1684294,
+        "sha256": "cd79c2239b71c22a47e8b3735979d3932e1192685246981bd51fa2f5bc602cae"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0613",
+          "layout": {
+            "columns": 1,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Lie on your side, keep hips stacked and gently hold the top ankle behind you to stretch the front thigh"
+            }
+          ],
+          "detail": "SIDE-LYING QUADRICEPS STRETCH \u2014 ONE STATIC HOLD, ONE person ONE pose only. Full-body SIDE three-quarter view, head IMAGE LEFT feet IMAGE RIGHT, lying on LEFT side on white floor. Left bottom leg extends STRAIGHT along floor. Left arm folded under head supports neutral neck. Right TOP leg bends at KNEE, right thigh remains alongside left thigh with hips stacked and right knee next to left knee, not pulled forward; right lower leg folds BACK bringing right heel gently toward clothed buttock. Right TOP arm reaches behind hip and right HAND grasps RIGHT ANKLE just above shoe, gentle pull; hand and ankle contact visibly clear. Knee flexion should stretch FRONT of right thigh without arching lumbar spine or rotating pelvis. Only TOP RIGHT QUADRICEPS front thigh has one soft diffuse RED tint printed on intact BLACK shorts; bottom leg/all other anatomy grayscale, no red glutes or hamstrings. Entire black shorts continuously wrap BOTH thighs, crotch, rear/seat, no exposed buttocks or clothing windows while top knee bent. Shirt opaque black front/sides/back. Whole head/hand/fingers/shoes within spacious margins; no bench/equipment.",
+          "variant": "male",
+          "key": "0613-male-anatomical-white-v1",
+          "prompt": "Original educational exercise illustration. Attached original project image is STYLE reference ONLY, never pose reference. Detailed fine grayscale anatomical fibers on exposed limbs, realistic neutral adult MALE; pure white background. ONE static pose, one person, no panels or repeated figures. FULLY OPAQUE matte BLACK sleeveless shirt continuously wraps torso front/sides/back. Loose BLACK knee-length shorts wrap BOTH upper thighs, seat and crotch fully front/sides/rear, closed hems and seams, broad natural fabric folds. NO bare buttocks, translucent cloth, cutaways, anatomy windows or muscle-fiber patterns on garments. Black trainers. Red PRIMARY muscle highlights only as specified; over clothing use a SOFT DIFFUSE COLOR PATCH on intact BLACK FABRIC without anatomical subdivisions. Whole person, fingers/shoes and ENTIRE machine including frame, lever, pivots, weight stack and base within image with generous white margins. Same EXACT fixed frame/seat/pad/camera/pivots in this hold; only exercise joints and connected moving lever rotate. No text, arrows, captions, logos or numbers. SIDE-LYING QUADRICEPS STRETCH \u2014 ONE STATIC HOLD, ONE person ONE pose only. Full-body SIDE three-quarter view, head IMAGE LEFT feet IMAGE RIGHT, lying on LEFT side on white floor. Left bottom leg extends STRAIGHT along floor. Left arm folded under head supports neutral neck. Right TOP leg bends at KNEE, right thigh remains alongside left thigh with hips stacked and right knee next to left knee, not pulled forward; right lower leg folds BACK bringing right heel gently toward clothed buttock. Right TOP arm reaches behind hip and right HAND grasps RIGHT ANKLE just above shoe, gentle pull; hand and ankle contact visibly clear. Knee flexion should stretch FRONT of right thigh without arching lumbar spine or rotating pelvis. Only TOP RIGHT QUADRICEPS front thigh has one soft diffuse RED tint printed on intact BLACK shorts; bottom leg/all other anatomy grayscale, no red glutes or hamstrings. Entire black shorts continuously wrap BOTH thighs, crotch, rear/seat, no exposed buttocks or clothing windows while top knee bent. Shirt opaque black front/sides/back. Whole head/hand/fingers/shoes within spacious margins; no bench/equipment.",
+          "inspectionNote": "One side-lying quad hold, bottom leg straight, top knee flexed and same-side hand at ankle. Hips stacked and opaque garments wrap torso/seat/crotch. Red top-thigh patch includes fiber streaks requiring diffuse fabric treatment. Head support, hand/ankle contact and knee alignment need human review.",
+          "blockingIssues": [
+            "Top-thigh red patch contains fiber streaks on shorts; replace with diffuse intact-fabric tint."
+          ],
+          "canonicalName": "lying (side) quads stretch",
+          "styleVersion": "white-v1",
+          "equipment": "body weight",
+          "primaryMuscles": [
+            "quads"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "One side-lying quad hold, bottom leg straight, top knee flexed and same-side hand at ankle. Hips stacked and opaque garments wrap torso/seat/crotch. Red top-thigh patch includes fiber streaks requiring diffuse fabric treatment. Head support, hand/ankle contact and knee alignment need human review.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0613-male-anatomical-white-v1-p1-d5ee9dbbeff1.webp",
+              "width": 1200,
+              "height": 600,
+              "bytes": 31882,
+              "sha256": "d5ee9dbbeff12afcd015309f2dcfc1f59330616f31acce70f7866e797bd67156"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0613-male-anatomical-white-v1-thumb-3b42c459ed19.webp",
+            "width": 240,
+            "height": 120,
+            "bytes": 2044,
+            "sha256": "3b42c459ed1954dd9c3ac065360abe3d8ddc4ca245824291f871fcc97afa2422"
+          },
+          "processingSignature": "e9f8bc92dd834d6e990e1f2825d76f0a9263c392facebc838d7efd4c2fd223e7",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0613-male-anatomical-white-v1.png",
+            "width": 1774,
+            "height": 887,
+            "bytes": 1772667,
+            "sha256": "e20c2f2fb422ce17ccc2ebaab1d2409348c7c279934482c0df2071fc8ce1652e"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "0613",
+      "layout": {
+        "columns": 1,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Lie on your side, keep hips stacked and gently hold the top ankle behind you to stretch the front thigh"
+        }
+      ],
+      "detail": "SIDE-LYING QUADRICEPS STRETCH \u2014 ONE STATIC HOLD, ONE person ONE pose only. Full-body SIDE three-quarter view, head IMAGE LEFT feet IMAGE RIGHT, lying on LEFT side on white floor. Left bottom leg extends STRAIGHT along floor. Left arm folded under head supports neutral neck. Right TOP leg bends at KNEE, right thigh remains alongside left thigh with hips stacked and right knee next to left knee, not pulled forward; right lower leg folds BACK bringing right heel gently toward clothed buttock. Right TOP arm reaches behind hip and right HAND grasps RIGHT ANKLE just above shoe, gentle pull; hand and ankle contact visibly clear. Knee flexion should stretch FRONT of right thigh without arching lumbar spine or rotating pelvis. Only TOP RIGHT QUADRICEPS front thigh has one soft diffuse RED tint printed on intact BLACK shorts; bottom leg/all other anatomy grayscale, no red glutes or hamstrings. Entire black shorts continuously wrap BOTH thighs, crotch, rear/seat, no exposed buttocks or clothing windows while top knee bent. Shirt opaque black front/sides/back. Whole head/hand/fingers/shoes within spacious margins; no bench/equipment.",
+      "variant": "female",
+      "key": "0613-female-anatomical-white-v2",
+      "prompt": "Edit ONLY the red QUADRICEPS overlays on BLACK SHORTS in this original project exercise illustration, preserving every pose and figure. Remove ALL fine fibers, radial lines, starbursts and anatomical muscle sections from the shorts. Restore CONTINUOUS OPAQUE matte BLACK fabric with broad cloth folds, seams and closed hems; place only SOFT BLURRED DIFFUSE RED COLOR patches over same front-thigh regions. No muscle shapes or internal lines in red patches; no anatomy visible through fabric. Keep full opaque coverage of thighs/front/sides/rear/seat/crotch. Keep exposed grayscale anatomy on limbs detailed with fine muscle fibers. Preserve pose, head, neck, limbs, hand/ankle contacts if present, clothing silhouette, white background, dimensions and layout. No added figures, text or equipment.",
+      "inspectionNote": "Clothing correction softens top-thigh red overlay on continuous opaque shorts, retaining detailed grayscale exposed anatomy. One side-lying hold with bottom leg straight and top hand at ankle. Human review needed for neck angle, stacked hips/knees and gentle range; original retained, no anatomy approval.",
+      "canonicalName": "lying (side) quads stretch",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "quads"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0613-female-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Clothing correction softens top-thigh red overlay on continuous opaque shorts, retaining detailed grayscale exposed anatomy. One side-lying hold with bottom leg straight and top hand at ankle. Human review needed for neck angle, stacked hips/knees and gentle range; original retained, no anatomy approval.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0613-female-anatomical-white-v2-p1-cd02c03f43d7.webp",
+          "width": 1200,
+          "height": 600,
+          "bytes": 31788,
+          "sha256": "cd02c03f43d76ffe3327cfdbfe3981b78c9720a1ae990b34682cfc873884f158"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0613-female-anatomical-white-v2-thumb-9306d89f9353.webp",
+        "width": 240,
+        "height": 120,
+        "bytes": 2212,
+        "sha256": "9306d89f935341cee71014b714332bc992a6db22d5a78f4d77400908a25422b3"
+      },
+      "processingSignature": "eb31135190b5440ad7cfff67832897937daf4629ff73f190bbb7312d73d6b82f",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0613-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1729522,
+        "sha256": "1f61c9f89b627e997102e5635a65ef3496e2fe800bb3b982fde10c17f3c7a008"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0613",
+          "layout": {
+            "columns": 1,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Lie on your side, keep hips stacked and gently hold the top ankle behind you to stretch the front thigh"
+            }
+          ],
+          "detail": "SIDE-LYING QUADRICEPS STRETCH \u2014 ONE STATIC HOLD, ONE person ONE pose only. Full-body SIDE three-quarter view, head IMAGE LEFT feet IMAGE RIGHT, lying on LEFT side on white floor. Left bottom leg extends STRAIGHT along floor. Left arm folded under head supports neutral neck. Right TOP leg bends at KNEE, right thigh remains alongside left thigh with hips stacked and right knee next to left knee, not pulled forward; right lower leg folds BACK bringing right heel gently toward clothed buttock. Right TOP arm reaches behind hip and right HAND grasps RIGHT ANKLE just above shoe, gentle pull; hand and ankle contact visibly clear. Knee flexion should stretch FRONT of right thigh without arching lumbar spine or rotating pelvis. Only TOP RIGHT QUADRICEPS front thigh has one soft diffuse RED tint printed on intact BLACK shorts; bottom leg/all other anatomy grayscale, no red glutes or hamstrings. Entire black shorts continuously wrap BOTH thighs, crotch, rear/seat, no exposed buttocks or clothing windows while top knee bent. Shirt opaque black front/sides/back. Whole head/hand/fingers/shoes within spacious margins; no bench/equipment.",
+          "variant": "female",
+          "key": "0613-female-anatomical-white-v1",
+          "prompt": "Original educational exercise illustration. Attached original project image is STYLE reference ONLY, never pose reference. Detailed fine grayscale anatomical fibers on exposed limbs, realistic neutral adult FEMALE; pure white background. ONE static pose, one person, no panels or repeated figures. FULLY OPAQUE matte BLACK sleeveless shirt continuously wraps torso front/sides/back. Loose BLACK knee-length shorts wrap BOTH upper thighs, seat and crotch fully front/sides/rear, closed hems and seams, broad natural fabric folds. NO bare buttocks, translucent cloth, cutaways, anatomy windows or muscle-fiber patterns on garments. Black trainers. Red PRIMARY muscle highlights only as specified; over clothing use a SOFT DIFFUSE COLOR PATCH on intact BLACK FABRIC without anatomical subdivisions. Whole person, fingers/shoes and ENTIRE machine including frame, lever, pivots, weight stack and base within image with generous white margins. Same EXACT fixed frame/seat/pad/camera/pivots in this hold; only exercise joints and connected moving lever rotate. No text, arrows, captions, logos or numbers. SIDE-LYING QUADRICEPS STRETCH \u2014 ONE STATIC HOLD, ONE person ONE pose only. Full-body SIDE three-quarter view, head IMAGE LEFT feet IMAGE RIGHT, lying on LEFT side on white floor. Left bottom leg extends STRAIGHT along floor. Left arm folded under head supports neutral neck. Right TOP leg bends at KNEE, right thigh remains alongside left thigh with hips stacked and right knee next to left knee, not pulled forward; right lower leg folds BACK bringing right heel gently toward clothed buttock. Right TOP arm reaches behind hip and right HAND grasps RIGHT ANKLE just above shoe, gentle pull; hand and ankle contact visibly clear. Knee flexion should stretch FRONT of right thigh without arching lumbar spine or rotating pelvis. Only TOP RIGHT QUADRICEPS front thigh has one soft diffuse RED tint printed on intact BLACK shorts; bottom leg/all other anatomy grayscale, no red glutes or hamstrings. Entire black shorts continuously wrap BOTH thighs, crotch, rear/seat, no exposed buttocks or clothing windows while top knee bent. Shirt opaque black front/sides/back. Whole head/hand/fingers/shoes within spacious margins; no bench/equipment.",
+          "inspectionNote": "One side-lying quad stretch, straight bottom leg and bent top knee with same-side hand holding ankle. Opaque black shirt/shorts wrap body fully; red thigh patch has fiber streaks needing diffuse overlay. Neck support, knee/hip stacking and ankle grip need qualified human review.",
+          "blockingIssues": [
+            "Red top-thigh overlay includes fiber streaks on shorts; replace with diffuse tint on intact fabric."
+          ],
+          "canonicalName": "lying (side) quads stretch",
+          "styleVersion": "white-v1",
+          "equipment": "body weight",
+          "primaryMuscles": [
+            "quads"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "One side-lying quad stretch, straight bottom leg and bent top knee with same-side hand holding ankle. Opaque black shirt/shorts wrap body fully; red thigh patch has fiber streaks needing diffuse overlay. Neck support, knee/hip stacking and ankle grip need qualified human review.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0613-female-anatomical-white-v1-p1-499d2bc37dd5.webp",
+              "width": 1200,
+              "height": 600,
+              "bytes": 34360,
+              "sha256": "499d2bc37dd5d69b0d145f4726081b88004d0810d78db138542b4c9a5f3878f0"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0613-female-anatomical-white-v1-thumb-88de184df660.webp",
+            "width": 240,
+            "height": 120,
+            "bytes": 2164,
+            "sha256": "88de184df660cd89482be4ba290e75c6f85f8cce11adfe6d09fbb0bad53458c9"
+          },
+          "processingSignature": "e2a980ae6c6888f48819361623f76b5a1556f3f53c16fbd80bffda44def901b3",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0613-female-anatomical-white-v1.png",
+            "width": 1774,
+            "height": 887,
+            "bytes": 1778421,
+            "sha256": "3e4eb32396bf216fc5575e1771b4461e3c3ce7eb6dbd3e0e4737f057e68b4622"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "batch": 159,
+  "runId": "3ac20d0c-3327-4846-9b3f-e77e731e0099",
+  "trigger": "2026-11-03T07:56:27.738Z",
+  "completedAt": "2026-11-03T08:00:54.549540+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 2,
+  "generationCalls": 2,
+  "exerciseIds": [
+    "1098"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 632,
+    "remainingVariants": 10632,
+    "approvedVariants": 0,
+    "blockedVariants": 217,
+    "knownPoseImages": 1276,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Two single-pose static suspension side bridge candidates, two built-in calls. One forearm support, separate stacked foot cradles, elevated pelvis and free hand on hip. Diffuse abdominal red teaching overlay on continuous opaque shirt with fully opaque shorts; fine exposed grayscale anatomy retained. Qualified shoulder-over-elbow placement, pelvic stacking/sag especially female, neck alignment, cradle security and primary mapping require human review. Every original and exact prompt saved; no anatomy/clothing approval or publication. Original project artwork rendering style only, no upstream licensed input. Seven pipeline checks do not establish anatomical accuracy.",
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 1004280945,
+  "savedMasters": [
+    {
+      "exerciseId": "1098",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1098-male-anatomical-white-v1.png",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 1411522,
+        "sha256": "2c81368bf8135d9110f95a01d7f38550f76ee9bafcf52237b5e9eca81ac5a0d7"
+      }
+    },
+    {
+      "exerciseId": "1098",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1098-female-anatomical-white-v1.png",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 1356069,
+        "sha256": "cb8ec476401c719c44779088c3a980786ed6947aeaea000312946165ba8b9d74"
+      }
+    }
+  ]
+}

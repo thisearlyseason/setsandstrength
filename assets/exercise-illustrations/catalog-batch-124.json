@@ -1,0 +1,662 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "0738",
+      "variant": "male",
+      "key": "0738-male-anatomical-white-v2",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Recline in the 45-degree sled with forefeet supported on the platform and heels free to lower; keep knees nearly straight."
+        },
+        {
+          "key": "p2",
+          "caption": "Press the platform away by extending the ankles, then lower with control. Keep the knee angle steady."
+        }
+      ],
+      "prompt": "Correct this original male TWO-panel 45-degree sled CALF PRESS. Remove ALL red from chest and shirt, shirt fully BLACK opaque. Red ONLY exposed posterior CALVES. Essential correction: move BOTH FEET DOWN to very LOWER EDGE of footplate in both cells, ONLY balls of feet/forefeet supported on plate lip, heels protrude BELOW AND BEYOND lower lip with clear airspace, NOT full soles on plate. LEFT ankles dorsiflexed heels lowered toward body, RIGHT plantarflexed heels pushed away from body by ankle extension, toe balls maintain contact on lower lip. Keep knees same nearly straight angle, hip/head/back fixed pad, no knee extension change. Machine rails45degrees, footplate attached carriage moves only small ankle-driven distance. Show clear ankle angle change. Both hands grip side seat handles. Preserve full opaque black shirt/shorts front sides back seat crotch, detailed exposed grayscale anatomy, white background. TWO equal square landscape cells, generous margins no clipping. No text.",
+      "inspectionNote": "Chest red removed, feet moved to lower platform edge with visible ankle-angle change, knees remain nearly straight. Right shoe/forefoot appears to straddle or penetrate lower lip rather than clearly supported forefoot; heel clearance and mechanically valid contact uncertain, blocked for equipment-contact correction. Full opaque clothes and detailed exposed anatomy.",
+      "canonicalName": "sled 45\u00b0 calf press",
+      "styleVersion": "white-v1",
+      "equipment": "sled machine",
+      "primaryMuscles": [
+        "calves"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0738-male-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "status": "generated",
+        "costUSD": null
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Chest red removed, feet moved to lower platform edge with visible ankle-angle change, knees remain nearly straight. Right shoe/forefoot appears to straddle or penetrate lower lip rather than clearly supported forefoot; heel clearance and mechanically valid contact uncertain, blocked for equipment-contact correction. Full opaque clothes and detailed exposed anatomy.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0738-male-anatomical-white-v2-p1-38fb69ada40c.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 63750,
+          "sha256": "38fb69ada40ce3b53a533a874963040cef23296208eeb9151c53cdd5ec309397"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0738-male-anatomical-white-v2-p2-5b050331f7ac.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 64000,
+          "sha256": "5b050331f7ac85eeb10406109318caca2998647562ce771c1da63ee585439ebb"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0738-male-anatomical-white-v2-thumb-81d52dacca9a.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 6158,
+        "sha256": "81d52dacca9a15c42502b6f1879642e86f560cb329a9bd95358e0693d9516b9c"
+      },
+      "processingSignature": "fe6c7cdd6dd86da49e4c5f032ea3d03b7ac57fe1d94554d2bc229252ec849911",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0738-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1829282,
+        "sha256": "867d4a8749fd49ac41db0b6624d11b7051cb43bd443c04e31cacfd66d33204eb"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0738",
+          "variant": "male",
+          "key": "0738-male-anatomical-white-v1",
+          "layout": {
+            "columns": 2,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Recline in the 45-degree sled with forefeet supported on the platform and heels free to lower; keep knees nearly straight."
+            },
+            {
+              "key": "p2",
+              "caption": "Press the platform away by extending the ankles, then lower with control. Keep the knee angle steady."
+            }
+          ],
+          "prompt": "Original premium ADULT male exercise anatomy illustration. TWO equal SQUARE cells side by side WIDE LANDSCAPE. Same realistic 45-degree inclined SLED LEG PRESS machine in each cell, camera side-front three-quarter showing entire model, feet/platform contact, inclined parallel rails, carriage and padded reclined seat. Head and back fully supported on reclined pad LOW LEFT, feet point HIGH RIGHT toward broad metal footplate mounted PERPENDICULAR to rails, plates/resistance on carriage, grounded base, real connected engineering. Both hands hold SIDE seat HANDLES with closed grips. CALF PRESS, ankle-only motion. Both legs nearly straight with slight knee softness, IDENTICAL knee angle/hip position in both cells. Feet parallel hip-width, FOREFOOT balls contact lower lip of inclined footplate; HEELS extend past lower platform lip FREE, not fully supported. LEFT controlled lowered heels, ankles dorsiflexed toes toward shins. RIGHT plantarflex BOTH ankles so toes/forefoot press footplate AWAY along rails, heels rise toward toes relative to footplate. Small travel only, NO leg press squat/knee bending. EXPOSED posterior calves have red primary gastrocnemius and soleus highlights, detailed grayscale rest. No thigh/chest red. Reference original project artwork ONLY for fine grayscale exposed muscle rendering quality, NOT pose or bench/chest highlight. Realistic proportions, fine detailed grayscale exposed arms/calves, matching male/female quality. Fully opaque black athletic shirt and MID-THIGH shorts wrap front sides BACK SEAT CROTCH continuously, seams and broad cloth folds. Red over clothing ONLY soft smoothly blurred diffuse tint, NO red muscle fibers/rays/striations/sixpack, NO cutaway/transparency. Black shoes. White background soft grounded shadows. Machine and every limb fully contained WITH GENEROUS margins in EACH cell, no overlap across cell boundary. No text/captions/arrows/labels.",
+          "inspectionNote": "Inclined machine and grips present, but forefeet too high on platform and heels not clearly free; ankle travel unclear, erroneous chest red copied. Correct before review. Detailed exposed grayscale anatomy and opaque clothing.",
+          "canonicalName": "sled 45\u00b0 calf press",
+          "styleVersion": "white-v1",
+          "equipment": "sled machine",
+          "primaryMuscles": [
+            "calves"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Inclined machine and grips present, but forefeet too high on platform and heels not clearly free; ankle travel unclear, erroneous chest red copied. Correct before review. Detailed exposed grayscale anatomy and opaque clothing.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0738-male-anatomical-white-v1-p1-83e4d50bc5b2.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 66674,
+              "sha256": "83e4d50bc5b221554e2313e85d9f7090b7bdf919ebab93dfc41f6546b847fc24"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0738-male-anatomical-white-v1-p2-71d4eac4eb94.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 66402,
+              "sha256": "71d4eac4eb942e0b340b682e252252f6f9e938f02139b57c9570abbb152108d0"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0738-male-anatomical-white-v1-thumb-1e87974b3745.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 6230,
+            "sha256": "1e87974b374508a28be966e2bd4393c88ce7d969e9cd53058846d7e54e8e1dba"
+          },
+          "processingSignature": "71c460906ac8a87a168db6b5fed69eaef35bce141dd3c242a8ba2eb3a778f204",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0738-male-anatomical-white-v1.png",
+            "width": 1774,
+            "height": 887,
+            "bytes": 1897690,
+            "sha256": "924b488255aa83e4a708c2f6ec32af116b1560dd22d6d078fb3bcfe836dc1bcf"
+          }
+        }
+      ],
+      "blockingIssues": [
+        "Forefoot-to-platform lip support and heel clearance are not clearly mechanically valid in finish; correct contact geometry."
+      ]
+    },
+    {
+      "exerciseId": "0738",
+      "variant": "female",
+      "key": "0738-female-anatomical-white-v2",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Recline in the 45-degree sled with forefeet supported on the platform and heels free to lower; keep knees nearly straight."
+        },
+        {
+          "key": "p2",
+          "caption": "Press the platform away by extending the ankles, then lower with control. Keep the knee angle steady."
+        }
+      ],
+      "prompt": "Correct this original female TWO-panel 45-degree sled CALF PRESS. Remove ALL red from chest and shirt, shirt fully BLACK opaque. Red ONLY exposed posterior CALVES. Essential correction: move BOTH FEET DOWN to very LOWER EDGE of footplate in both cells, ONLY balls of feet/forefeet supported on plate lip, heels protrude BELOW AND BEYOND lower lip with clear airspace, NOT full soles on plate. LEFT ankles dorsiflexed heels lowered toward body, RIGHT plantarflexed heels pushed away from body by ankle extension, toe balls maintain contact on lower lip. Keep knees same nearly straight angle, hip/head/back fixed pad, no knee extension change. Machine rails45degrees, footplate attached carriage moves only small ankle-driven distance. Show clear ankle angle change. Both hands grip side seat handles. Preserve full opaque black shirt/shorts front sides back seat crotch, detailed exposed grayscale anatomy, white background. TWO equal square landscape cells, generous margins no clipping. No text.",
+      "inspectionNote": "Chest red removed, feet moved to lower plate lip and calves remain highlighted. Ankle positions still nearly identical and forefoot/lip geometry lacks clear heel-free contact, blocked for demonstrable ankle motion and equipment contact. Detailed exposed grayscale anatomy and full opaque clothing.",
+      "canonicalName": "sled 45\u00b0 calf press",
+      "styleVersion": "white-v1",
+      "equipment": "sled machine",
+      "primaryMuscles": [
+        "calves"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0738-female-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "status": "generated",
+        "costUSD": null
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Chest red removed, feet moved to lower plate lip and calves remain highlighted. Ankle positions still nearly identical and forefoot/lip geometry lacks clear heel-free contact, blocked for demonstrable ankle motion and equipment contact. Detailed exposed grayscale anatomy and full opaque clothing.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0738-female-anatomical-white-v2-p1-49faaa497fc7.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 70646,
+          "sha256": "49faaa497fc7d0d5e5aaf0fb01138a652acd9be1b971866cc28bd5c3d600ca2a"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0738-female-anatomical-white-v2-p2-751999da819a.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 70384,
+          "sha256": "751999da819a8120982bc5f03c65202a567fabf07f85e0512678e2a41cb85280"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0738-female-anatomical-white-v2-thumb-74d3678897e3.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 7044,
+        "sha256": "74d3678897e3b840dcd84ff63d96093cd02a09264ac32b8111dd21b3d424c7c6"
+      },
+      "processingSignature": "17594e24ccfacd30d74a3006fbc9d687774c0d43a85c4a0add33e494da15bf8b",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0738-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1928358,
+        "sha256": "4bc5f49402530991a075d1214f14a82b960ade433da86754ac4d31882ca225e2"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0738",
+          "variant": "female",
+          "key": "0738-female-anatomical-white-v1",
+          "layout": {
+            "columns": 2,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Recline in the 45-degree sled with forefeet supported on the platform and heels free to lower; keep knees nearly straight."
+            },
+            {
+              "key": "p2",
+              "caption": "Press the platform away by extending the ankles, then lower with control. Keep the knee angle steady."
+            }
+          ],
+          "prompt": "Original premium ADULT female exercise anatomy illustration. TWO equal SQUARE cells side by side WIDE LANDSCAPE. Same realistic 45-degree inclined SLED LEG PRESS machine in each cell, camera side-front three-quarter showing entire model, feet/platform contact, inclined parallel rails, carriage and padded reclined seat. Head and back fully supported on reclined pad LOW LEFT, feet point HIGH RIGHT toward broad metal footplate mounted PERPENDICULAR to rails, plates/resistance on carriage, grounded base, real connected engineering. Both hands hold SIDE seat HANDLES with closed grips. CALF PRESS, ankle-only motion. Both legs nearly straight with slight knee softness, IDENTICAL knee angle/hip position in both cells. Feet parallel hip-width, FOREFOOT balls contact lower lip of inclined footplate; HEELS extend past lower platform lip FREE, not fully supported. LEFT controlled lowered heels, ankles dorsiflexed toes toward shins. RIGHT plantarflex BOTH ankles so toes/forefoot press footplate AWAY along rails, heels rise toward toes relative to footplate. Small travel only, NO leg press squat/knee bending. EXPOSED posterior calves have red primary gastrocnemius and soleus highlights, detailed grayscale rest. No thigh/chest red. Reference original project artwork ONLY for fine grayscale exposed muscle rendering quality, NOT pose or bench/chest highlight. Realistic proportions, fine detailed grayscale exposed arms/calves, matching male/female quality. Fully opaque black athletic shirt and MID-THIGH shorts wrap front sides BACK SEAT CROTCH continuously, seams and broad cloth folds. Red over clothing ONLY soft smoothly blurred diffuse tint, NO red muscle fibers/rays/striations/sixpack, NO cutaway/transparency. Black shoes. White background soft grounded shadows. Machine and every limb fully contained WITH GENEROUS margins in EACH cell, no overlap across cell boundary. No text/captions/arrows/labels.",
+          "inspectionNote": "Inclined calf press machine and grips rendered, but forefeet high on platform/heels not free, ankle travel unclear and red chest contamination. Correction required. Detailed exposed grayscale anatomy and full opaque clothes.",
+          "canonicalName": "sled 45\u00b0 calf press",
+          "styleVersion": "white-v1",
+          "equipment": "sled machine",
+          "primaryMuscles": [
+            "calves"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Inclined calf press machine and grips rendered, but forefeet high on platform/heels not free, ankle travel unclear and red chest contamination. Correction required. Detailed exposed grayscale anatomy and full opaque clothes.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0738-female-anatomical-white-v1-p1-b148b73aad05.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 73454,
+              "sha256": "b148b73aad05a369a816ec228600f8656e6d205fc4770666f36b5f9191fafe12"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0738-female-anatomical-white-v1-p2-d17b5878b4f1.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 73076,
+              "sha256": "d17b5878b4f18152807ea3b9bde43bde9019d314a80ab9cb3bcac1cbe69c948c"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0738-female-anatomical-white-v1-thumb-eb3088078fa2.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 7090,
+            "sha256": "eb3088078fa24fd560c915a5b1358bccedb1c2a49ed4653bae12390aac7bc1ab"
+          },
+          "processingSignature": "b85bd11f96b13296c4d7ff0f54ec24e7274e1d7280df914f7744489e3516f47a",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0738-female-anatomical-white-v1.png",
+            "width": 1774,
+            "height": 887,
+            "bytes": 1985547,
+            "sha256": "acfa3fdf54b11fc36524760028a228115eca6d5202b05f4755305e3ce1d28f99"
+          }
+        }
+      ],
+      "blockingIssues": [
+        "Ankle range not clearly demonstrated and forefoot platform support/heel clearance uncertain; correct movement/contact."
+      ]
+    },
+    {
+      "exerciseId": "0739",
+      "variant": "male",
+      "key": "0739-male-anatomical-white-v2",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Recline against the pad, grip the side handles and place both feet shoulder-width on the platform with knees bent."
+        },
+        {
+          "key": "p2",
+          "caption": "Press through the heels until the legs are nearly extended without locking the knees, then lower with control."
+        }
+      ],
+      "prompt": "Correct ONLY red overlay and cloth surface of this original male two-panel45degree leg press. Remove ALL fine red rays, lines, muscle fibers or radial striations from shorts. Use smooth diffuse BLURRED red tint over intact BLACK front/inner thigh and hip-seat FABRIC, broad fabric folds/seams only. Keep exposed knee region grayscale, no red bleed onto knee/calf, no red chest/arms. Full opaque shirt/shorts all front sides back seat crotch. Preserve exact two leg press phases, full sole/heel plate contact, same knee tracking and fixed head/back/pelvis on pads, closed hands grip seat handles, connected45degree rails/carriage. End knees slightly soft not locked. Fine detailed grayscale exposed anatomy, two equal SQUARE cells wide LANDSCAPE, increase white margins so full machine contained. No text.",
+      "inspectionNote": "Overlay softened to diffuse tint over opaque shorts with broad fabric folds, exposed knees/calves grayscale. Two leg press phases and full sole platform contact retained, grips and supported back present. Qualified pelvis stability, knee softness, machine carriage geometry, proportions and full primary-muscle localization pending.",
+      "canonicalName": "sled 45\u00b0 leg press",
+      "styleVersion": "white-v1",
+      "equipment": "sled machine",
+      "primaryMuscles": [
+        "quadriceps",
+        "gluteal",
+        "adductors"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0739-male-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "status": "generated",
+        "costUSD": null
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Overlay softened to diffuse tint over opaque shorts with broad fabric folds, exposed knees/calves grayscale. Two leg press phases and full sole platform contact retained, grips and supported back present. Qualified pelvis stability, knee softness, machine carriage geometry, proportions and full primary-muscle localization pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0739-male-anatomical-white-v2-p1-ef8469bc9483.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 59666,
+          "sha256": "ef8469bc9483dc70d76283286a23dfd25e8c59869312c5a93847f3077c27467d"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0739-male-anatomical-white-v2-p2-619538c5ec0a.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 61922,
+          "sha256": "619538c5ec0a137dda58dbb76a8f50431a8ade5e8015352ed863be43b04714c5"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0739-male-anatomical-white-v2-thumb-1ce8f14777b1.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 6418,
+        "sha256": "1ce8f14777b154abc5257896b39508129be2083406ba58302893e2a18948d0ea"
+      },
+      "processingSignature": "a4941dfa81803fc35b1c73e4a5731bcd1b9593f24358526a85eed4f265211e00",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0739-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1767187,
+        "sha256": "6c51c6e22ebd0455531b68766712abf817a58c48c118974f4b1400f611543373"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0739",
+          "variant": "male",
+          "key": "0739-male-anatomical-white-v1",
+          "layout": {
+            "columns": 2,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Recline against the pad, grip the side handles and place both feet shoulder-width on the platform with knees bent."
+            },
+            {
+              "key": "p2",
+              "caption": "Press through the heels until the legs are nearly extended without locking the knees, then lower with control."
+            }
+          ],
+          "prompt": "Original premium ADULT male exercise anatomy illustration. TWO equal SQUARE cells side by side WIDE LANDSCAPE. Same realistic 45-degree inclined SLED LEG PRESS machine in each cell, camera side-front three-quarter showing entire model, feet/platform contact, inclined parallel rails, carriage and padded reclined seat. Head and back fully supported on reclined pad LOW LEFT, feet point HIGH RIGHT toward broad metal footplate mounted PERPENDICULAR to rails, plates/resistance on carriage, grounded base, real connected engineering. Both hands hold SIDE seat HANDLES with closed grips. LEG PRESS dynamic two phases. BOTH feet shoulder-width, full soles and HEELS continuously flush against footplate, toes slightly out. LEFT knees bend about90degrees, knees track toes, knees toward torso without pelvis lifting; back and pelvis supported pad. RIGHT SAME feet same stance on footplate, legs NEARLY extended with soft knees, sled carriage moves AWAY from seat up45degree rails. Seat/head/pelvis/handles FIXED both cells, only legs straighten and footplate carriage translates. Never footplate detached from rails. Primary QUADRICEPS, GLUTEAL and ADDUCTORS: smooth diffuse red teaching tint on intact opaque front/inner thigh shorts and visible hip-seat fabric, no red on chest or arms. Reference original project artwork ONLY for fine grayscale exposed muscle rendering quality, NOT pose or bench/chest highlight. Realistic proportions, fine detailed grayscale exposed arms/calves, matching male/female quality. Fully opaque black athletic shirt and MID-THIGH shorts wrap front sides BACK SEAT CROTCH continuously, seams and broad cloth folds. Red over clothing ONLY soft smoothly blurred diffuse tint, NO red muscle fibers/rays/striations/sixpack, NO cutaway/transparency. Black shoes. White background soft grounded shadows. Machine and every limb fully contained WITH GENEROUS margins in EACH cell, no overlap across cell boundary. No text/captions/arrows/labels.",
+          "inspectionNote": "Leg press bends then extends with full feet on platform and hands on side handles. Full opaque clothes but red rays over shorts and tint bleeds onto knee region; correction needed. Qualified knee softness, hip support, carriage geometry and mapping pending.",
+          "canonicalName": "sled 45\u00b0 leg press",
+          "styleVersion": "white-v1",
+          "equipment": "sled machine",
+          "primaryMuscles": [
+            "quadriceps",
+            "gluteal",
+            "adductors"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Leg press bends then extends with full feet on platform and hands on side handles. Full opaque clothes but red rays over shorts and tint bleeds onto knee region; correction needed. Qualified knee softness, hip support, carriage geometry and mapping pending.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0739-male-anatomical-white-v1-p1-b6f4db8ac9ee.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 65662,
+              "sha256": "b6f4db8ac9ee8a6bfacfe9b4a18c42af44bd931c855d286cdec9e37f4c398c1f"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0739-male-anatomical-white-v1-p2-389e5c51fa43.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 68532,
+              "sha256": "389e5c51fa43cefa5cfcff24903295d1b5e10b7486dbf32358f16717fd0c564c"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0739-male-anatomical-white-v1-thumb-488939bdac05.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 6384,
+            "sha256": "488939bdac0590bd94867bb978ae1273724d7d7bdd89e903878051f6f6611296"
+          },
+          "processingSignature": "8d5dee3e897d54dc7fcf202b07b1e0209952cd52740d9fd52d84e62a2899d28b",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0739-male-anatomical-white-v1.png",
+            "width": 1774,
+            "height": 887,
+            "bytes": 1895924,
+            "sha256": "0bf22bc16716faeaf57223955bef0de7f70fd4254f94c924ce1f656d69b06cfa"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "0739",
+      "variant": "female",
+      "key": "0739-female-anatomical-white-v2",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Recline against the pad, grip the side handles and place both feet shoulder-width on the platform with knees bent."
+        },
+        {
+          "key": "p2",
+          "caption": "Press through the heels until the legs are nearly extended without locking the knees, then lower with control."
+        }
+      ],
+      "prompt": "Correct ONLY red overlay and cloth surface of this original female two-panel45degree leg press. Remove ALL fine red rays, lines, muscle fibers or radial striations from shorts. Use smooth diffuse BLURRED red tint over intact BLACK front/inner thigh and hip-seat FABRIC, broad fabric folds/seams only. Keep exposed knee region grayscale, no red bleed onto knee/calf, no red chest/arms. Full opaque shirt/shorts all front sides back seat crotch. Preserve exact two leg press phases, full sole/heel plate contact, same knee tracking and fixed head/back/pelvis on pads, closed hands grip seat handles, connected45degree rails/carriage. End knees slightly soft not locked. Fine detailed grayscale exposed anatomy, two equal SQUARE cells wide LANDSCAPE, increase white margins so full machine contained. No text.",
+      "inspectionNote": "Muscle-ray pattern removed from opaque shorts; broad smooth red cloth overlay with folds remains, equipment framing improved. Bent and near-extended leg press phases, feet against plate, closed grips and supported back retained. Qualified pelvis support, knee softness, carriage geometry, proportions and full primary mapping pending.",
+      "canonicalName": "sled 45\u00b0 leg press",
+      "styleVersion": "white-v1",
+      "equipment": "sled machine",
+      "primaryMuscles": [
+        "quadriceps",
+        "gluteal",
+        "adductors"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0739-female-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "status": "generated",
+        "costUSD": null
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Muscle-ray pattern removed from opaque shorts; broad smooth red cloth overlay with folds remains, equipment framing improved. Bent and near-extended leg press phases, feet against plate, closed grips and supported back retained. Qualified pelvis support, knee softness, carriage geometry, proportions and full primary mapping pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0739-female-anatomical-white-v2-p1-753b045547cd.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 54730,
+          "sha256": "753b045547cd5966a06138fca4055f08d190c6bbc1682b26dcb0361a65096112"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0739-female-anatomical-white-v2-p2-a6bccdec7139.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 58042,
+          "sha256": "a6bccdec7139d351bad9fb59c3a9f828a6decd131ba63a7a590c3bc91be75b19"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0739-female-anatomical-white-v2-thumb-e457ff4a616e.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 5826,
+        "sha256": "e457ff4a616e81af826160d19113b6a736079457532e40adfa7e665d879a214f"
+      },
+      "processingSignature": "ca31ffb4b317aa6da06024bad86c249fd62c4cbbe743b528516b26be6b8653be",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0739-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1719333,
+        "sha256": "f5344e1ad4965fe3c1a98b70bd4047a53dde5dbf658abb83dc9e87e81412af7b"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0739",
+          "variant": "female",
+          "key": "0739-female-anatomical-white-v1",
+          "layout": {
+            "columns": 2,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Recline against the pad, grip the side handles and place both feet shoulder-width on the platform with knees bent."
+            },
+            {
+              "key": "p2",
+              "caption": "Press through the heels until the legs are nearly extended without locking the knees, then lower with control."
+            }
+          ],
+          "prompt": "Original premium ADULT female exercise anatomy illustration. TWO equal SQUARE cells side by side WIDE LANDSCAPE. Same realistic 45-degree inclined SLED LEG PRESS machine in each cell, camera side-front three-quarter showing entire model, feet/platform contact, inclined parallel rails, carriage and padded reclined seat. Head and back fully supported on reclined pad LOW LEFT, feet point HIGH RIGHT toward broad metal footplate mounted PERPENDICULAR to rails, plates/resistance on carriage, grounded base, real connected engineering. Both hands hold SIDE seat HANDLES with closed grips. LEG PRESS dynamic two phases. BOTH feet shoulder-width, full soles and HEELS continuously flush against footplate, toes slightly out. LEFT knees bend about90degrees, knees track toes, knees toward torso without pelvis lifting; back and pelvis supported pad. RIGHT SAME feet same stance on footplate, legs NEARLY extended with soft knees, sled carriage moves AWAY from seat up45degree rails. Seat/head/pelvis/handles FIXED both cells, only legs straighten and footplate carriage translates. Never footplate detached from rails. Primary QUADRICEPS, GLUTEAL and ADDUCTORS: smooth diffuse red teaching tint on intact opaque front/inner thigh shorts and visible hip-seat fabric, no red on chest or arms. Reference original project artwork ONLY for fine grayscale exposed muscle rendering quality, NOT pose or bench/chest highlight. Realistic proportions, fine detailed grayscale exposed arms/calves, matching male/female quality. Fully opaque black athletic shirt and MID-THIGH shorts wrap front sides BACK SEAT CROTCH continuously, seams and broad cloth folds. Red over clothing ONLY soft smoothly blurred diffuse tint, NO red muscle fibers/rays/striations/sixpack, NO cutaway/transparency. Black shoes. White background soft grounded shadows. Machine and every limb fully contained WITH GENEROUS margins in EACH cell, no overlap across cell boundary. No text/captions/arrows/labels.",
+          "inspectionNote": "Leg press bend and extension shown, full feet platform contact, closed handle grips. Detailed exposed anatomy and opaque clothing but shorts red has muscle-ray patterns, correction needed. Qualified carriage geometry, pelvis support, knee softness and mapping pending.",
+          "canonicalName": "sled 45\u00b0 leg press",
+          "styleVersion": "white-v1",
+          "equipment": "sled machine",
+          "primaryMuscles": [
+            "quadriceps",
+            "gluteal",
+            "adductors"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Leg press bend and extension shown, full feet platform contact, closed handle grips. Detailed exposed anatomy and opaque clothing but shorts red has muscle-ray patterns, correction needed. Qualified carriage geometry, pelvis support, knee softness and mapping pending.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0739-female-anatomical-white-v1-p1-e7808efc4bd6.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 61536,
+              "sha256": "e7808efc4bd62b01090d2583969cb45f22e9e9b672527a4727441ef17c9a352f"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0739-female-anatomical-white-v1-p2-98ad6e89eb8d.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 65530,
+              "sha256": "98ad6e89eb8d060386c807b9b99aed107cce503ea47421b0696e2bb55f5b7226"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0739-female-anatomical-white-v1-thumb-685a6b6ae3a7.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 6270,
+            "sha256": "685a6b6ae3a7e877dddc819ae8daf4f332c6c2cbb5c489abca403468b7dd4484"
+          },
+          "processingSignature": "55b3329dac3f53525a41a07c7f16ec08c87b74880b5bab7cf696e2fbb4482f16",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0739-female-anatomical-white-v1.png",
+            "width": 1774,
+            "height": 887,
+            "bytes": 1842315,
+            "sha256": "b7d004337424200aec68dae9b9235e13ce496e63bccb9557876783431022a08e"
+          }
+        }
+      ]
+    }
+  ]
+}

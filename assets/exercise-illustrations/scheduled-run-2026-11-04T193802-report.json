@@ -1,0 +1,53 @@
+{
+  "runId": "1c9dfbb1-02cd-48b2-9744-461f26012b87",
+  "triggerTimestamp": "2026-11-04T19:38:02.431Z",
+  "batches": [
+    403,
+    404,
+    405,
+    406
+  ],
+  "generatedMasters": 16,
+  "blocked": {
+    "3694": [
+      "Final pose mirrors camera and bench; consistent view needed to confirm alternating arms."
+    ],
+    "3695": [
+      "Nipple-like details appear over tank chest highlights; replace with plain fabric wash."
+    ],
+    "3696": [
+      "Raised fly poses bend elbows substantially into row-like movement."
+    ],
+    "3699": [
+      "Primary abs highlight is displaced onto upper chest; revise mapping.",
+      "Exposed-toe footwear rendering needs correction or qualified verification."
+    ]
+  },
+  "coverageAfter": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1440,
+    "remainingVariants": 9824,
+    "approvedVariants": 0,
+    "blockedVariants": 547,
+    "knownPoseImages": 2876,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 1067,
+      "remainingVariants": 4565,
+      "blockedVariants": 428
+    }
+  },
+  "pipelineTests": "7/7 passed after each batch",
+  "existingUserApprovalsPreserved": 1306,
+  "publication": "none",
+  "anatomyReview": "pending",
+  "deferred": {
+    "3700,3701,3703,3705,3708": "Cardiovascular target needs muscle highlight mapping.",
+    "3704,3706,3710,3711,3713": "Not attempted within sixteen-master run target."
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "1502",
+      "variant": "male",
+      "key": "1502-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "With the band anchored high, hold its ends and keep your elbows beside your ribs. Stand tall with a slight forward lean."
+        },
+        {
+          "key": "p2",
+          "caption": "Straighten both elbows to press your hands down, pause, then return slowly while keeping your upper arms still."
+        }
+      ],
+      "prompt": "Use case scientific-educational. Original premium ADULT male detailed anatomical illustration canonical1502 BAND PUSHDOWN. TWO equal square cells side by side wide2:1 landscape SAME full body model camera scale. Side-front three-quarter view facing LEFT toward single gray vertical anchor post. Gray elastic resistance band securely loops around ONE high anchor above head LEFT, TWO continuous band strands descend to hands. Both hands grasp separate ends neutral grip palms facing inward thumbs wrap ends. Band line stays in OPEN SPACE in FRONT of chest/face not through body. Feet hip width soles flat fixed floor, knees soft torso slight forward lean neutral spine. Upper arms held vertical and elbows PINNED beside ribs throughout. LEFT START BOTH elbows bent90deg, forearms near horizontal hands in front upper waist, band taut from high anchor. RIGHT FINISH extend ONLY elbows until BOTH arms straight beside thighs, hands lower in front thighs, upper arms elbows stay same position; band elongates visibly taut high anchor fixed no slack. No shoulder swing torso change or leg drive. PRIMARY exposed BOTH posterior upper arm TRICEPS RED ONLY, shoulders biceps forearms grayscale. Fine detailed grayscale exposed muscle contours realistic fingers limbs proportions. Complete opaque BLACK tank wraps FRONT SIDES BACK and BLACK MID-THIGH shorts cover FRONT SIDES BACK SEAT CROTCH seams broad real folds no cutaways/transparency/fibers through fabric. Black shoes. Pure WHITE background soft contact shadows generous12percent margins head high anchor band hands feet fully inside EACH square no crop. Equal male/female quality. Original project reference rendering STYLE ONLY ignore bench pushup/chest red. No text labels captions arrows extra figures.",
+      "inspectionNote": "Two high-anchor band pushdown candidates, four poses, two built-in calls. Bent elbows to straight arms beside thighs, continuous taut bands from fixed high anchor and exposed triceps red. Full opaque clothes and detailed grayscale anatomy retained. Qualified band grip/anchor security, elbow drift, wrist alignment, torso position and far-arm muscle mapping require human review. Original project artwork rendering style only, no upstream licensed input. Exact prompts/originals saved. No anatomy or clothing approval or publication. Seven pipeline checks do not establish anatomical accuracy.",
+      "canonicalName": "band pushdown",
+      "styleVersion": "white-v1",
+      "equipment": "band",
+      "primaryMuscles": [
+        "triceps"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Two high-anchor band pushdown candidates, four poses, two built-in calls. Bent elbows to straight arms beside thighs, continuous taut bands from fixed high anchor and exposed triceps red. Full opaque clothes and detailed grayscale anatomy retained. Qualified band grip/anchor security, elbow drift, wrist alignment, torso position and far-arm muscle mapping require human review. Original project artwork rendering style only, no upstream licensed input. Exact prompts/originals saved. No anatomy or clothing approval or publication. Seven pipeline checks do not establish anatomical accuracy.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/1502-male-anatomical-white-v1-p1-c49b763762dc.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 29794,
+          "sha256": "c49b763762dc2b63de1ba5c812eb1addcc1464ca71a9c508b84e2141e9718ad2"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/1502-male-anatomical-white-v1-p2-765ef12dfc6f.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 31668,
+          "sha256": "765ef12dfc6f7d25d58135f3811c4feb2dc04303e94b7e2106b7db5bf28b35d7"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-199.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/1502-male-anatomical-white-v1-thumb-42e1c2f5610b.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 3268,
+        "sha256": "42e1c2f5610ba91c790e50cd215b851155aaf05ab5c8864a1aac47535f2d0985"
+      },
+      "processingSignature": "dfdc3387633038c6c9b40c90d430e42efa81adf87d9638177368a506799e6c64",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1502-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1457349,
+        "sha256": "2685cbbf37d26d3d67290a64b8c1cc69dfc3e426efd090f33f13884b2dfbe703"
+      }
+    },
+    {
+      "exerciseId": "1502",
+      "variant": "female",
+      "key": "1502-female-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "With the band anchored high, hold its ends and keep your elbows beside your ribs. Stand tall with a slight forward lean."
+        },
+        {
+          "key": "p2",
+          "caption": "Straighten both elbows to press your hands down, pause, then return slowly while keeping your upper arms still."
+        }
+      ],
+      "prompt": "Use case scientific-educational. Original premium ADULT female detailed anatomical illustration canonical1502 BAND PUSHDOWN. TWO equal square cells side by side wide2:1 landscape SAME full body model camera scale. Side-front three-quarter view facing LEFT toward single gray vertical anchor post. Gray elastic resistance band securely loops around ONE high anchor above head LEFT, TWO continuous band strands descend to hands. Both hands grasp separate ends neutral grip palms facing inward thumbs wrap ends. Band line stays in OPEN SPACE in FRONT of chest/face not through body. Feet hip width soles flat fixed floor, knees soft torso slight forward lean neutral spine. Upper arms held vertical and elbows PINNED beside ribs throughout. LEFT START BOTH elbows bent90deg, forearms near horizontal hands in front upper waist, band taut from high anchor. RIGHT FINISH extend ONLY elbows until BOTH arms straight beside thighs, hands lower in front thighs, upper arms elbows stay same position; band elongates visibly taut high anchor fixed no slack. No shoulder swing torso change or leg drive. PRIMARY exposed BOTH posterior upper arm TRICEPS RED ONLY, shoulders biceps forearms grayscale. Fine detailed grayscale exposed muscle contours realistic fingers limbs proportions. Complete opaque BLACK tank wraps FRONT SIDES BACK and BLACK MID-THIGH shorts cover FRONT SIDES BACK SEAT CROTCH seams broad real folds no cutaways/transparency/fibers through fabric. Black shoes. Pure WHITE background soft contact shadows generous12percent margins head high anchor band hands feet fully inside EACH square no crop. Equal male/female quality. Original project reference rendering STYLE ONLY ignore bench pushup/chest red. No text labels captions arrows extra figures.",
+      "inspectionNote": "Two high-anchor band pushdown candidates, four poses, two built-in calls. Bent elbows to straight arms beside thighs, continuous taut bands from fixed high anchor and exposed triceps red. Full opaque clothes and detailed grayscale anatomy retained. Qualified band grip/anchor security, elbow drift, wrist alignment, torso position and far-arm muscle mapping require human review. Original project artwork rendering style only, no upstream licensed input. Exact prompts/originals saved. No anatomy or clothing approval or publication. Seven pipeline checks do not establish anatomical accuracy.",
+      "canonicalName": "band pushdown",
+      "styleVersion": "white-v1",
+      "equipment": "band",
+      "primaryMuscles": [
+        "triceps"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Two high-anchor band pushdown candidates, four poses, two built-in calls. Bent elbows to straight arms beside thighs, continuous taut bands from fixed high anchor and exposed triceps red. Full opaque clothes and detailed grayscale anatomy retained. Qualified band grip/anchor security, elbow drift, wrist alignment, torso position and far-arm muscle mapping require human review. Original project artwork rendering style only, no upstream licensed input. Exact prompts/originals saved. No anatomy or clothing approval or publication. Seven pipeline checks do not establish anatomical accuracy.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/1502-female-anatomical-white-v1-p1-fd87607649eb.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 29634,
+          "sha256": "fd87607649eb1725b90485e12c7fdd9952e5500847247a1fa0b70f9d9e3d6d63"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/1502-female-anatomical-white-v1-p2-8f191e7fe91e.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 31258,
+          "sha256": "8f191e7fe91eb9bdd918b549c4249d176f83973e646a67602a097a94ca010a1b"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-199.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/1502-female-anatomical-white-v1-thumb-8535b4eccb12.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 3230,
+        "sha256": "8535b4eccb120bd9ad205e438eca4343bfe4756b59e6b1810b22c28da85eedbf"
+      },
+      "processingSignature": "0b16a9f2a0881222102322b8e682fac404e92de5bd16d3e2d2587c6fc24378e3",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1502-female-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1444480,
+        "sha256": "4a33374b649b9ef1cddfd2390fc1e877131e246795b589fb39bdb1f203ec3761"
+      }
+    }
+  ]
+}

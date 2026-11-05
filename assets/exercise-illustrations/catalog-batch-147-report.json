@@ -1,0 +1,84 @@
+{
+  "batch": 147,
+  "trigger": "2026-11-03T05:43:26.770Z",
+  "completedAt": "2026-11-03T05:54:04.816329+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 4,
+  "generationCalls": 4,
+  "exerciseIds": [
+    "0943",
+    "0949"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 596,
+    "remainingVariants": 10668,
+    "approvedVariants": 0,
+    "blockedVariants": 213,
+    "knownPoseImages": 1216,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Four single-pose static-hold candidates, four built-in calls. Chair pose v2 pairs show feet together with grounded heels, hips back/down and overhead arms beside ears, exposed quadriceps red. Downward dog pairs show inverted V with spread palms, nearly straight limbs, relaxed neck and exposed posterior thigh red. Fine exposed grayscale anatomy and continuous opaque black clothing including pelvis underside visually retained. Qualified hand/toe anatomy, spine/shoulder alignment, knee softness, chair depth, weight distribution and primary mapping require human review. Chair fingertip margins modest but uncropped. Every original and exact prompt saved; no corrections required at this inspection stage, no clothing/anatomy approval or publication. Project original artwork used for rendering style only, no upstream licensed input. Seven pipeline checks do not establish anatomical accuracy.",
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 954017652,
+  "savedMasters": [
+    {
+      "exerciseId": "0943",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0943-male-anatomical-white-v1.png",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 1345612,
+        "sha256": "1edcb0b4cf2faf2b944658caa4be79dc7725df58d730fac99cea9e1dfeb26a36"
+      }
+    },
+    {
+      "exerciseId": "0943",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0943-female-anatomical-white-v1.png",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 1324876,
+        "sha256": "2b566e183f6e740301bdd77852d4ef7ba50cf29a9c9a36d53e735fd8a923c43f"
+      }
+    },
+    {
+      "exerciseId": "0949",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0949-male-anatomical-white-v1.png",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 1547454,
+        "sha256": "217c587bdedb3c0ab84256f19689ae5b65a4e3328c7a4104df43efdb9fb4048c"
+      }
+    },
+    {
+      "exerciseId": "0949",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0949-female-anatomical-white-v1.png",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 1499837,
+        "sha256": "49a7694c8f29d197c920017d49b178ce103a4c0a3889b1f748833a836da93815"
+      }
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "runId": "411784be-86d7-4309-ac48-e7f1e210fdba",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "triggerTimestamp": "2026-11-05T02:12:05.479Z",
+  "batches": [
+    473,
+    474,
+    475,
+    476
+  ],
+  "builtInImageGenAvailable": true,
+  "generatedMasters": 15,
+  "generatedIds": [
+    "6123",
+    "6141",
+    "6143",
+    "6147",
+    "6148",
+    "6149",
+    "6150",
+    "6158",
+    "6159",
+    "6194",
+    "6108",
+    "6137",
+    "6136",
+    "6144",
+    "6162"
+  ],
+  "blocked": {
+    "6147": [
+      "Dumbbell orientation changes from vertical at bottom to horizontal at top and wrists supinate rather than retaining neutral hammer grip."
+    ],
+    "6137": [
+      "Scapular movement insufficiently clear between poses; highlight has muscle-like striations over clothing rather than a plain teaching overlay."
+    ],
+    "6144": [
+      "Abdominal anatomy rendered over tank instead of plain teaching highlight on intact fabric."
+    ],
+    "6162": [
+      "Chest highlight exposes nipple and anatomical striations through tank; fails opaque clothing requirement."
+    ]
+  },
+  "coverageAfter": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1693,
+    "remainingVariants": 9571,
+    "approvedVariants": 0,
+    "blockedVariants": 606,
+    "knownPoseImages": 3431,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 1320,
+      "remainingVariants": 4312,
+      "blockedVariants": 487
+    }
+  },
+  "pipelineTests": "8 passed, 0 failed after each of four batches",
+  "approvedIndexUnchanged": true,
+  "existingUserApprovalsPreserved": 1306,
+  "publication": "none",
+  "anatomyReview": "pending",
+  "paidWorker": "disabled; inventory sync only, zero requests",
+  "stopReason": "Repeated covered-target rendering failures: 6137 upper-back striations, 6144 abdominal anatomy over tank, 6162 nipple and anatomical striations through tank. Stopped before 6209 rather than weakening opaque clothing requirements.",
+  "nextRunGuidance": "Use exposed primary muscle targets next; defer covered chest, abs and back until a corrected reference/prompt strategy succeeds. Avoid neutral hammer curls with supinated two-panel reference due to grip rotation leakage. 6209 prompt exists but no original generated; do not treat as completed. Ambiguous 6140,6146,6103 flagged in deferred report.",
+  "styleReference": "assets/exercise-illustrations/generated/0853-male-anatomical-white-v1.png",
+  "deferredReport": "scheduled-run-2026-11-05T021205-deferred.json"
+}

@@ -1,0 +1,114 @@
+{
+  "batch": 77,
+  "trigger": "2026-11-01T16:13:17.985Z",
+  "completedAt": "2026-11-01T16:27:16.328805+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 4,
+  "generationCalls": 7,
+  "exerciseIds": [
+    "0528",
+    "0534"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 316,
+    "remainingVariants": 10948,
+    "approvedVariants": 0,
+    "blockedVariants": 132,
+    "knownPoseImages": 654,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Four candidate sets remain pending and unpublished. Push-press variants show rack, shallow dip and standing bilateral overhead finish with both bells and opaque wrapping clothing; male overhead delivery crop visually checked. Goblet-squat variants show one bell close to chest, two-hand horn grips, planted heels and approximately parallel thighs. Both shorts revisions replace detailed red muscle-fiber treatment with diffuse tint on intact opaque fabric; male additional correction restores exposed-limb fine anatomical striation lost in first edit. Original masters and three correction attempts retained. Qualified human anatomy, wrist/load stacking, shoulder highlight boundaries, leg-drive sequence, knee alignment, depth and muscle-map review remain mandatory. Pipeline checks do not constitute anatomical approval. Original project 0493 male artwork used only for rendering style.",
+  "metadataConflictsDeferred": [
+    {
+      "exerciseId": "0525",
+      "issue": "Biceps target conflicts with provided full-body primary map; palm-up bottoms-up catch grip also requires qualified clarification."
+    },
+    {
+      "exerciseId": "0526",
+      "issue": "Alternating title conflicts with simultaneous double-clean instructions and biceps target conflicts with primary map."
+    },
+    {
+      "exerciseId": "0527",
+      "issue": "Jerk instructions press overhead before dip/drive; clarify sequence rather than guessing."
+    },
+    {
+      "exerciseId": "0529",
+      "issue": "Floor-to-overhead description versus hanging-thigh start, plus deltoid target versus full-body map; qualified scope clarification needed."
+    },
+    {
+      "exerciseId": "0530",
+      "issue": "Double-windmill title and two-bell description conflict with instructions describing one bell."
+    },
+    {
+      "exerciseId": "0531",
+      "issue": "Extended-range title lacks an extended-range setup in ordinary floor-press instructions."
+    },
+    {
+      "exerciseId": "0533",
+      "issue": "Front-squat two-hand chest hold resembles 0534 goblet squat; preserve ID and clarify variation before reuse."
+    }
+  ],
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 512640335,
+  "savedMasters": [
+    {
+      "exerciseId": "0528",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0528-male-anatomical-white-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1867746,
+        "sha256": "3669660ba7a3ce2c15c7ead83d131bcac103e9727b398b38d5575feed5c26b19"
+      }
+    },
+    {
+      "exerciseId": "0528",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0528-female-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1724947,
+        "sha256": "c15995c955ad4c333fe181bb0d21d0aadff8dc8e255b1e0f6415684b6ea5a86e"
+      }
+    },
+    {
+      "exerciseId": "0534",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0534-male-anatomical-white-v3.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1631895,
+        "sha256": "279cb62f96cbc7429de28e13db972d191a371ef59d16aa2f6ce78f39387e2404"
+      }
+    },
+    {
+      "exerciseId": "0534",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0534-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1655116,
+        "sha256": "6c423a7f7337a2575a756405005225802f2056394f44ae6f0113d7fd7bce1b3b"
+      }
+    }
+  ]
+}

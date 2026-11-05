@@ -1,0 +1,79 @@
+{
+  "batch": 306,
+  "runId": "adc8f24b-7397-4d13-8986-764f47ab686b",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "trigger": "2026-11-04T05:25:57.687Z",
+  "purpose": "batch306 scheduled male continuation",
+  "started": "2026-11-04T05:26:27.661323+00:00",
+  "completedAt": "2026-11-04T05:34:22.031917+00:00",
+  "actualToolName": "image_gen__imagegen",
+  "calls": 4,
+  "newCandidateSets": 4,
+  "exerciseIds": [
+    "2807",
+    "2809",
+    "2815",
+    "2828"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1092,
+    "remainingVariants": 10172,
+    "approvedVariants": 0,
+    "blockedVariants": 381,
+    "knownPoseImages": 2104,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 719,
+      "remainingVariants": 4913,
+      "blockedVariants": 262
+    }
+  },
+  "reviewNotes": {
+    "2807": "Wide stance hinge then stand with dumbbell forward near hip height, both hands on normal handle. Glute wash includes radiating fiber-like anatomy over shorts; block overlay correction. Clothing otherwise opaque. Qualified review needed for safe between-leg swing clearance, neutral lockout rather than leanback, grip security and hamstring hinge. Human anatomy review pending.",
+    "2809": "Same split stance lowers rear knee near floor with front heel grounded, bar across upper back and torso upright. Quad overlay shows dense anatomical striations over shorts; block fabric correction. Qualified review needed for bar support below neck, grip/wrist position, knee tracking and balance. Human anatomy review pending.",
+    "2815": "Four poses rendered in 2x2 show ball overhead, hand/foot transfer, feet holding ball lowered and return to hands. Tank contains segmented abdominal anatomy rather than plain wash; block overlay correction. Qualified review needed for secure ball between feet, control without lumbar arch, hand anatomy and neutral neck. Human anatomy review pending.",
+    "2828": "Slight squat with both rope ends secure, arms lower then lift laterally near shoulder height creating continuous waves toward anchor. Exposed deltoid highlights only and opaque clothing. Qualified review needed for lateral rather than forward arm path, rope length/anchor mechanics, elbow softness and stable knees/hips. Human anatomy review pending."
+  },
+  "blockingIssues": {
+    "2807": [
+      "Remove radiating anatomy-like glute lines over shorts; retain plain uniform wash and opaque fabric."
+    ],
+    "2809": [
+      "Remove anatomical quad striations through shorts; preserve plain uniform wash over opaque fabric."
+    ],
+    "2815": [
+      "Remove segmented abdominal anatomy through tank; use plain uniform abdominal color wash on opaque fabric."
+    ]
+  },
+  "deferred": {
+    "2808": "Ordinary femaleVariant counterpart of 2807; deferred.",
+    "2810": "Ordinary femaleVariant counterpart of 2809; deferred."
+  },
+  "tests": 7,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "workerSyncResult": {
+    "statuses": {
+      "generated": 1092,
+      "pending": 10172
+    },
+    "remaining": 10172,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 1676273204
+  },
+  "publicationIndexUnchanged": true
+}

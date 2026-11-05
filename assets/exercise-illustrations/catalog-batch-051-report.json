@@ -1,0 +1,83 @@
+{
+  "batch": 51,
+  "trigger": "2026-11-01T10:53:14.534Z",
+  "completedAt": "2026-11-01T11:02:23.498954+00:00",
+  "tool": "image_gen.imagegen",
+  "newCandidateSets": 4,
+  "generationCalls": 5,
+  "exerciseIds": [
+    "0597",
+    "0598"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 200,
+    "remainingVariants": 11064,
+    "approvedVariants": 0,
+    "blockedVariants": 92,
+    "knownPoseImages": 402,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "All pending and unpublished. Opaque complete shorts/crotch coverage and distinct outward abduction versus inward adduction inspected. All four candidates blocked for machine continuity/mechanical correctness; female adduction edit adds medial pads but retains extra outer pads. Not accepted instructional assets. Qualified anatomy and muscle mapping review remains separate.",
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 323628118,
+  "savedMasters": [
+    {
+      "exerciseId": "0597",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0597-male-anatomical-white-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1863872,
+        "sha256": "f4bde3a2f8b6e9bd4434aac4e70cd74a4e7fa981066bfac50db0260f29e2856d"
+      }
+    },
+    {
+      "exerciseId": "0597",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0597-female-anatomical-white-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1778717,
+        "sha256": "a7dbad23a84605696f89384d4aa1933af43116d35850d83f66deeb498b3a2556"
+      }
+    },
+    {
+      "exerciseId": "0598",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0598-male-anatomical-white-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1831091,
+        "sha256": "194631ff0765dd0563acf3d4db5e50f36a81c89b2e8e2c870cb8bb2d39a92492"
+      }
+    },
+    {
+      "exerciseId": "0598",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0598-female-anatomical-white-v2.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1940545,
+        "sha256": "d0f3144a71e62672b08753862b55a266198be5ab26d6da70be125dfd2e27addd"
+      }
+    }
+  ]
+}

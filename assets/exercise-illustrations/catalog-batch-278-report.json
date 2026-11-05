@@ -1,0 +1,91 @@
+{
+  "batch": 278,
+  "runId": "125f5b1e-12f7-4052-9134-fa27ddac42a7",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "trigger": "2026-11-04T01:15:25.764Z",
+  "purpose": "batch278 scheduled male continuation",
+  "started": "2026-11-04T01:15:38.069243+00:00",
+  "completedAt": "2026-11-04T01:20:45.522783+00:00",
+  "actualToolName": "image_gen__imagegen",
+  "calls": 4,
+  "newCandidateSets": 4,
+  "exerciseIds": [
+    "2325",
+    "2326",
+    "2328",
+    "2336"
+  ],
+  "variants": [
+    "male"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 985,
+    "remainingVariants": 10279,
+    "approvedVariants": 0,
+    "blockedVariants": 323,
+    "knownPoseImages": 1880,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 612,
+      "remainingVariants": 5020,
+      "blockedVariants": 204
+    }
+  },
+  "reviewNotes": {
+    "2325": "Hinged posture maintained, lowered pronated handles rotate toward neutral in second pose. End weights remain below lower ribs/hips and elbows insufficiently flexed, leaving the row incomplete; block endpoint correction. Lateral back tint on tank, opaque shorts. Qualified review of grip rotation, shoulder retraction, cloth-overlay rendering and lumbar alignment remains required. Human anatomy review remains pending.",
+    "2326": "Pronated dumbbells remain transverse, arms hang then elbows pull back with weight near lower ribs, stable hinged torso and feet. Far-hand/weight occluded in end pose; qualified review of bilateral grip, elbow tracking, endpoint and shoulder retraction required. Lateral tank tint follows normal folds; opaque shorts and intact tank. Human anatomy review remains pending.",
+    "2328": "Both narrow hands rest on ball top, toe support on floor, straight-arm start then chest lowered toward ball with elbows close to ribs. Exposed triceps red only, opaque clothing. Qualified review required for spinal/hip line, wrist support on curved ball, elbow depth, hand anatomy and stability. Human anatomy review remains pending.",
+    "2336": "Lowered bar then near-straight-arm press, feet planted, hips on bench and plain chest tint over opaque tank. Lowered bar projects near neck rather than mid-chest and head appears beyond bench support; block correction before use. Qualified review of actual forearm verticality, wrist/bar stacking, elbow angle, camera projection and rack clearance required. Human anatomy review remains pending."
+  },
+  "blockingIssues": {
+    "2325": [
+      "Row endpoint incomplete: weights remain low and elbow flexion is too small rather than weights approaching hips."
+    ],
+    "2336": [
+      "Lowered bar is near neck/upper chest rather than canonical mid-chest; correct bar path.",
+      "Head appears unsupported beyond bench pad; restore full head support."
+    ]
+  },
+  "deferred": {
+    "2327": "Reverse/underhand name contradicts overhand instructions; female label uncertain, no female exception authorized.",
+    "2329": "Twist direction and opposite-elbow/knee direction conflict; clarify before generating.",
+    "2330": "Target lats conflicts with primary upper-back map.",
+    "2331": "Cardiovascular target lacks primary highlight mapping.",
+    "2333": "Arm slingers name conflicts with fully extended hanging-bar instructions.",
+    "2334": "Sled calf press geometry requires detailed technique planning.",
+    "2335": "Shoulder-pad setup conflicts with knees-under-pad and press-pad-down ankle-extension instructions."
+  },
+  "tests": 7,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "workerSyncResult": {
+    "statuses": {
+      "generated": 985,
+      "pending": 10279
+    },
+    "remaining": 10279,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 1518645843
+  },
+  "publicationIndexUnchanged": true,
+  "savedMasters": [
+    "assets/exercise-illustrations/generated/2325-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/2326-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/2328-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/2336-male-anatomical-white-v1.png"
+  ]
+}

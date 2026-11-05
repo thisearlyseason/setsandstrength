@@ -1,0 +1,55 @@
+{
+  "batch": 364,
+  "runId": "97da44fd-9621-4f22-a1f9-ce0c44f73e90",
+  "builtInImageGenAvailable": true,
+  "publication": "none",
+  "anatomyReview": "pending",
+  "deferred": {
+    "3441": "Neck target mapping needs qualified review."
+  },
+  "coverageAfter": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1310,
+    "remainingVariants": 9954,
+    "approvedVariants": 0,
+    "blockedVariants": 502,
+    "knownPoseImages": 2594,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 937,
+      "remainingVariants": 4695,
+      "blockedVariants": 383
+    }
+  },
+  "paidWorker": {
+    "statuses": {
+      "generated": 1310,
+      "pending": 9954
+    },
+    "remaining": 9954,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 1995603423
+  },
+  "pipelineTests": "7 passed, 0 failed",
+  "approvedIndexUnchanged": true,
+  "existingUserApprovalsPreserved": 1306,
+  "generatedIds": [
+    "3438",
+    "3439",
+    "3440",
+    "3442"
+  ]
+}

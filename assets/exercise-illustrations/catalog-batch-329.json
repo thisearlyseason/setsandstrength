@@ -1,0 +1,332 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "3171",
+      "prompt": "BOXING RIGHT HOOK TWOequalpanels same FRONTthreequartercamera. Orthodoxstance LEFTfootFRONT RIGHTfootBACK kneessoft chinTUCKED. LEFTSTART guard BOTHfistsnearface elbowsdown. RIGHTEND RIGHTelbowbent90 RIGHTupperarmrisesnearshoulderheight RIGHTfistswingsHORIZONTALARC acrossfront atjawheight towardviewerLEFT, rotateRIGHTHIPandTORSOforward pivotonRIGHTREARforefoot heelturnsUP, LEFTfistSTAYSGUARDatLEFTCHEEK. Notstraightpunch rightelbowstays90, nohyperextension. Primary RIGHTDELTOID redonly othermusclesgrayblack. Premium detailed adult MALE grayscale anatomical exercise illustration, approved original project image STYLE ONLY not pose. Pure white background soft shadows realistic anatomy proportions equipment detailed exposed gray muscles. Opaque BLACK tank and mid-thigh shorts fully cover front sides back seat crotch with normal seams folds hems. Primary red ONLY; exposed highlights detailed, covered highlight SMALL PLAIN UNIFORM softwash over INTACT blackfabric NO musclefibers lobes anatomical segments cutaways transparency. Exactly two arms hands and two legs feet per figure. Equal panels same person camera equipment scale full body margins. No text arrows labels logos.",
+      "variant": "male",
+      "key": "3171-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Take orthodox boxing stance with hands up and chin tucked."
+        },
+        {
+          "key": "p2",
+          "caption": "Pivot rear right foot and rotate hips/torso into bent-elbow right hook; keep left guard up and return."
+        }
+      ],
+      "inspectionNote": "Real output inspected. Guard and bent-elbow right hook visible with left hand guarding and rear-foot pivot, deltoid-only highlight and opaque clothes. Unrelated bench copied into scene needs removal. Qualified hook path, stance and hip rotation review pending. Human anatomy review pending. No approval or publication.",
+      "blockingIssues": [
+        "Remove unrelated bench from boxing illustration."
+      ],
+      "canonicalName": "boxing right hook",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "delts"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Guard and bent-elbow right hook visible with left hand guarding and rear-foot pivot, deltoid-only highlight and opaque clothes. Unrelated bench copied into scene needs removal. Qualified hook path, stance and hip rotation review pending. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/3171-male-anatomical-white-v1-p1-ce4618b2b7de.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 36352,
+          "sha256": "ce4618b2b7de3d27e08f949877e14bf3d331d35ee6fd4648bbc9932ae8ba9a89"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/3171-male-anatomical-white-v1-p2-eab38e0a01d7.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 36222,
+          "sha256": "eab38e0a01d7f134d0340043f33687a0984514a66c700f12d23277dec9ce0991"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-329.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/3171-male-anatomical-white-v1-thumb-ab90b635a9a7.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 3834,
+        "sha256": "ab90b635a9a7098b47fa8a9c976c06793c1b16add80260fde7dc25d8ea8a6f99"
+      },
+      "processingSignature": "84b7a7eaf2a70468558f3c0779451c89dd9668b05fb41d0d229d162be291d18d",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/3171-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1758987,
+        "sha256": "3a2de2540be72329470addb51b4c53f7dec9d2e0603a5b6f355730fcc059f1d6"
+      }
+    },
+    {
+      "exerciseId": "3174",
+      "prompt": "BARBELL BENCH PRESS KNEES90 TWOequalpanels same SIDEfrontthreequartercamera. LieFULLLENGTHonFLATBENCH HEADBACKPELVISsupported LOWERBACKflat ribsdown. BOTHHIPSflex90 THIGHSVERTICAL kneesBENT90 shinsHORIZONTAL BOTHfeetAIRBORNE abovebench nofloorcontact allposes. Realstraightloadedbarbell BOTHhandsOVERHAND slightlywiderthanshoulders thumbswrapped. LEFTSTART baroverMIDCHEST elbowsSTRAIGHT wristsstacked. RIGHTEND lowerbarMIDCHEST elbowsbendabout90 out45degrees forearmsvertical no barintersectbody. Samebenchbarplatesbothposes. Primary BOTHPECTORALS SMALLPLAINUNIFORM redwashoverintactblacktank NO chestlobes fibers nipples otherbodygrayblack. Premium detailed adult MALE grayscale anatomical exercise illustration, approved original project image STYLE ONLY not pose. Pure white background soft shadows realistic anatomy proportions equipment detailed exposed gray muscles. Opaque BLACK tank and mid-thigh shorts fully cover front sides back seat crotch with normal seams folds hems. Primary red ONLY; exposed highlights detailed, covered highlight SMALL PLAIN UNIFORM softwash over INTACT blackfabric NO musclefibers lobes anatomical segments cutaways transparency. Exactly two arms hands and two legs feet per figure. Equal panels same person camera equipment scale full body margins. No text arrows labels logos.",
+      "variant": "male",
+      "key": "3174-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Lie on bench with feet lifted, hips/knees at 90 degrees and bar held over chest."
+        },
+        {
+          "key": "p2",
+          "caption": "Lower bar toward mid chest with control, then press up while keeping lower back flat."
+        }
+      ],
+      "inspectionNote": "Real output inspected. Bench press top and lowered phases with feet airborne and supported head/back. Knees/hips do not maintain requested 90-degree tabletop: thighs angled and shins slope downward. Block defining leg-position correction. Qualified bar descent and grip review pending. Human anatomy review pending. No approval or publication.",
+      "blockingIssues": [
+        "Set thighs vertical and shins horizontal with hips/knees 90 degrees in both poses; maintain feet clear."
+      ],
+      "canonicalName": "barbell bench press (knees at 90 degrees)",
+      "styleVersion": "white-v1",
+      "equipment": "barbell",
+      "primaryMuscles": [
+        "pectorals"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Bench press top and lowered phases with feet airborne and supported head/back. Knees/hips do not maintain requested 90-degree tabletop: thighs angled and shins slope downward. Block defining leg-position correction. Qualified bar descent and grip review pending. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/3174-male-anatomical-white-v1-p1-0cc386b721c5.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 43022,
+          "sha256": "0cc386b721c534b21a8dd78bceab03291abafeb49825bc12e760295dba5c6993"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/3174-male-anatomical-white-v1-p2-6888b4e57f83.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 39144,
+          "sha256": "6888b4e57f83db1eb219a6df873195f7b80f4052335df4f7bc571f0a302d2ec3"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-329.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/3174-male-anatomical-white-v1-thumb-1984424a42cb.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 4502,
+        "sha256": "1984424a42cb17ece1c8c3425753e0168457a877e409acc39f21ba022d222d3a"
+      },
+      "processingSignature": "3db7d4f9cad3c7b7b2a55adbf8d21a820605b014d16587060d6b744403fd7e44",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/3174-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1590759,
+        "sha256": "b0bb0902e46b03024ea8bb316abe48a1a7a533144ad51b564eca22c6087b425d"
+      }
+    },
+    {
+      "exerciseId": "3175",
+      "prompt": "DUMBBELL FLY KNEES90 TWOequalpanels SAME elevated FRONTthreequartercamera botharmsvisible. LieFLATBENCH HEADBACKPELVISsupported backflat BOTHHIPS90 THIGHSvertical BOTHKNEES90 shinsHORIZONTAL feetAIRBORNE nofloorcontact. EACHhandONE normaltwoheadedDUMBBELL palmsfaceEACHOTHER. LEFTSTART armsnearlystraightabovecHEST softELBOWBEND15degrees weightsclosetogether. RIGHTEND openBOTHARMSOUTSIDE widearc untilUPPERARMSlevelwithTORSO, SAME15degreeelbowbend no90degreepress; weightsoutsideshoulders wristsneutral. Bothhandsneverlosesweights. Primary PECTORALS smallplainuniformredwash overintactblacktank NO lobesfibersegments or nipple otherbodygrayblack. Premium detailed adult MALE grayscale anatomical exercise illustration, approved original project image STYLE ONLY not pose. Pure white background soft shadows realistic anatomy proportions equipment detailed exposed gray muscles. Opaque BLACK tank and mid-thigh shorts fully cover front sides back seat crotch with normal seams folds hems. Primary red ONLY; exposed highlights detailed, covered highlight SMALL PLAIN UNIFORM softwash over INTACT blackfabric NO musclefibers lobes anatomical segments cutaways transparency. Exactly two arms hands and two legs feet per figure. Equal panels same person camera equipment scale full body margins. No text arrows labels logos.",
+      "variant": "male",
+      "key": "3175-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Lie on bench with knees at 90 degrees and dumbbells above chest, palms facing."
+        },
+        {
+          "key": "p2",
+          "caption": "Open arms wide with slight fixed elbow bend, then arc weights back over chest; keep back flat."
+        }
+      ],
+      "inspectionNote": "Real output inspected. Dumbbell fly closes above chest then opens wide with soft elbows and supported head/back. Lifted legs have sloped shins rather than 90-degree tabletop. Block defining leg-position correction; qualified fly shoulder range and grip review pending. Human anatomy review pending. No approval or publication.",
+      "blockingIssues": [
+        "Maintain hips/knees 90 degrees with thighs vertical and shins horizontal; current shins slope down."
+      ],
+      "canonicalName": "dumbbell fly (knees at 90 degrees)",
+      "styleVersion": "white-v1",
+      "equipment": "dumbbell",
+      "primaryMuscles": [
+        "pectorals"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Dumbbell fly closes above chest then opens wide with soft elbows and supported head/back. Lifted legs have sloped shins rather than 90-degree tabletop. Block defining leg-position correction; qualified fly shoulder range and grip review pending. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/3175-male-anatomical-white-v1-p1-0e6fcd44627a.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 35470,
+          "sha256": "0e6fcd44627a8048340f53be115977ecd93e7535359bd37b2f8d08e24aef7f23"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/3175-male-anatomical-white-v1-p2-41fe5d3cd102.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 30868,
+          "sha256": "41fe5d3cd102b96bf55def3ef85033bcd378b8706303bd45495f1eab8a2f1d2a"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-329.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/3175-male-anatomical-white-v1-thumb-cf74506e3fe0.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 3976,
+        "sha256": "cf74506e3fe068fc7f610a73d8df845dc7330876fb81753ae35dba5b93a08565"
+      },
+      "processingSignature": "df639b5fec24298f95e39c049b0c403808ebf1d220f3a8c646b7980f7020abfb",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/3175-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1762114,
+        "sha256": "e6938952caeb6e3baf8668a5aebe480fc0881a74111ee3f1fef7189fc3f699f9"
+      }
+    },
+    {
+      "exerciseId": "3176",
+      "prompt": "ONE DUMBBELL STRAIGHT ARM PULLOVER KNEES90 TWOequalpanels same SIDEthreequartercamera facingLEFT HEADatLEFT. LieFULLLENGTHFLATBENCH HEADBACKPELVISsupported BACKFLAT ribsdown. BOTHHIPS90 thighsVERTICAL knees90 shinsHORIZONTAL feetAIRBORNE samebothposes. BOTHHANDSsecurelycupUPPERHEADofONE NORMALtwoheadedDUMBBELL handleVERTICAL otherheadbelow noextraweight. LEFTSTART weightABOVECHEST armsnearlySTRAIGHT soft15degreeELBOWbend. RIGHTEND SAMEARMSsweepARCBEHINDHEAD leftward tocomfortable nearTORSOline keepelbowangle15 noelbowcurl backflat. SameoneDBbothhandsallposes. Primary PECTORALS smallplainuniformredwash overintactblacktank nofiberslobes nipples othergrayblack. Premium detailed adult MALE grayscale anatomical exercise illustration, approved original project image STYLE ONLY not pose. Pure white background soft shadows realistic anatomy proportions equipment detailed exposed gray muscles. Opaque BLACK tank and mid-thigh shorts fully cover front sides back seat crotch with normal seams folds hems. Primary red ONLY; exposed highlights detailed, covered highlight SMALL PLAIN UNIFORM softwash over INTACT blackfabric NO musclefibers lobes anatomical segments cutaways transparency. Exactly two arms hands and two legs feet per figure. Equal panels same person camera equipment scale full body margins. No text arrows labels logos.",
+      "variant": "male",
+      "key": "3176-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Lie on bench with knees at 90 degrees, holding one dumbbell above chest with both hands."
+        },
+        {
+          "key": "p2",
+          "caption": "Keep arms nearly straight and ribs down as weight arcs behind head; return over chest."
+        }
+      ],
+      "inspectionNote": "Real output inspected. Single normal dumbbell held both hands above chest then behind head, arms nearly straight, knees near tabletop and opaque clothes/plain chest wash. Head/neck appear unsupported hovering above bench and stray hair-shaped artifact appears near forehead at endpoint; block support/artifact correction. Qualified grip and shoulder range review pending. Human anatomy review pending. No approval or publication.",
+      "blockingIssues": [
+        "Rest head/neck on bench and remove stray hair-shaped artifact near forehead in endpoint."
+      ],
+      "canonicalName": "dumbbell straight arm pullover (knees at 90 degrees)",
+      "styleVersion": "white-v1",
+      "equipment": "dumbbell",
+      "primaryMuscles": [
+        "pectorals"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Single normal dumbbell held both hands above chest then behind head, arms nearly straight, knees near tabletop and opaque clothes/plain chest wash. Head/neck appear unsupported hovering above bench and stray hair-shaped artifact appears near forehead at endpoint; block support/artifact correction. Qualified grip and shoulder range review pending. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/3176-male-anatomical-white-v1-p1-98e7bbfb3d02.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 32126,
+          "sha256": "98e7bbfb3d026ed95b24e00c803227bdedeb25b8c1177855af3e6ae955a80c58"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/3176-male-anatomical-white-v1-p2-967f92301e94.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 26560,
+          "sha256": "967f92301e9462daedef9974179a06fce85e0f3a06b46e423c8213a883d145b3"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-329.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/3176-male-anatomical-white-v1-thumb-1a0acb737fa3.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 3232,
+        "sha256": "1a0acb737fa31577f219467d7f49c54ffc4062740c321c3a720cfee19ea559c0"
+      },
+      "processingSignature": "3f4d77ee420e37bd5f29303ac0198187537034d5e0982e58a8768d0790683df0",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/3176-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1416872,
+        "sha256": "128427601ae2f5cb6e32b2958cdfcf5660b57306c1a9931dd950d10e5dfb73de"
+      }
+    }
+  ]
+}

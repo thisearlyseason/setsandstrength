@@ -1,0 +1,55 @@
+{
+  "batch": 372,
+  "runId": "06164bd2-ea43-4654-831d-abd89d71d999",
+  "builtInImageGenAvailable": true,
+  "anatomyReview": "pending",
+  "publication": "none",
+  "deferred": {
+    "3495": "Anchor location and floor-row equipment geometry need explicit resolution."
+  },
+  "coverageAfter": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1340,
+    "remainingVariants": 9924,
+    "approvedVariants": 0,
+    "blockedVariants": 517,
+    "knownPoseImages": 2653,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 967,
+      "remainingVariants": 4665,
+      "blockedVariants": 398
+    }
+  },
+  "paidWorker": {
+    "statuses": {
+      "generated": 1340,
+      "pending": 9924
+    },
+    "remaining": 9924,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 2039026232
+  },
+  "pipelineTests": "7 passed, 0 failed",
+  "approvedIndexUnchanged": true,
+  "existingUserApprovalsPreserved": 1306,
+  "generatedIds": [
+    "3494",
+    "3496",
+    "3497",
+    "3498"
+  ]
+}

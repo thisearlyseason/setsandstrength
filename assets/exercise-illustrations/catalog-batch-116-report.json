@@ -1,0 +1,98 @@
+{
+  "batch": 116,
+  "trigger": "2026-11-02T21:11:52.600Z",
+  "completedAt": "2026-11-02T21:25:12.862020+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 4,
+  "generationCalls": 7,
+  "successfulGenerationOutputs": 6,
+  "exerciseIds": [
+    "0708",
+    "0711"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 474,
+    "remainingVariants": 10790,
+    "approvedVariants": 0,
+    "blockedVariants": 189,
+    "knownPoseImages": 986,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Four candidate sets, six poses, seven built-in calls: six successful outputs and one transient network failure, recovered with same-tool retry. Supine side crunches show tilted bent knees/feet grounded with shoulders low then curled upward, hands behind head. Both cloth edits retained; female tint diffuse, male residual diagonal fiber-like shirt streaks BLOCKED for correction. Qualified spinal curl, neck support and knee/pelvis continuity review pending. Side-lunge stretches each one static pose, one knee bent and opposite leg straight, both shoes grounded, chest upright and diffuse adductor tint over inner straight-thigh shorts. Hands near bent knee; qualified no joint pressure, knee tracking, heel contact and muscle localization review pending. Fine exposed grayscale anatomy and full opaque clothes front/sides/back/seat/crotch retained. Original PNGs, exact prompts and correction history saved. No anatomy approval or publication. Original project artwork style only, no upstream media. Pipeline checks do not approve anatomy.",
+  "events": [
+    {
+      "exerciseId": "0708",
+      "variant": "female",
+      "phase": "correction",
+      "error": "image generation failed: network error: error sending request",
+      "action": "Retry once using same built-in tool; no billing/tool switch.",
+      "outcome": "Retry succeeded using built-in image_gen; no usage limit or billing switch."
+    }
+  ],
+  "metadataConflictsDeferred": {
+    "0709": "Description swings hips side-to-side while instructions raise straight legs to side on bars. Exact support and movement plane need clarification."
+  },
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 777215231,
+  "savedMasters": [
+    {
+      "exerciseId": "0708",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0708-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1710702,
+        "sha256": "2b88d86bbc1ac44422f6e76837a6ae2c576ccbaf1e9f3276416d657e1c60d3e3"
+      }
+    },
+    {
+      "exerciseId": "0708",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0708-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1774346,
+        "sha256": "ed37932590bd0705345dcdea77ef58c93d736c4572f830deeee01e8a2628fcc3"
+      }
+    },
+    {
+      "exerciseId": "0711",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0711-male-anatomical-white-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1411685,
+        "sha256": "40bfa31e6169a6f99389ef166d932bad45405613075c0d6e31b4c39f6331a1d4"
+      }
+    },
+    {
+      "exerciseId": "0711",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0711-female-anatomical-white-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1376460,
+        "sha256": "def4ee8ddde18292b7c59f25492ae327db5d186da28e2a6df9c5bdcfb9e36e0b"
+      }
+    }
+  ]
+}

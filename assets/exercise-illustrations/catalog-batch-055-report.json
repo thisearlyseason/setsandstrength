@@ -1,0 +1,97 @@
+{
+  "batch": 55,
+  "trigger": "2026-11-01T11:38:14.964Z",
+  "completedAt": "2026-11-01T11:50:15.537514+00:00",
+  "tool": "image_gen.imagegen",
+  "newCandidateSets": 4,
+  "generationCalls": 6,
+  "exerciseIds": [
+    "0705",
+    "0710"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 216,
+    "remainingVariants": 11048,
+    "approvedVariants": 0,
+    "blockedVariants": 96,
+    "knownPoseImages": 436,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "All pending, unpublished. Side-bridge hold has one pose per variant; alternating standing hip abduction has three phases. Two male detail corrections replace photographic smooth skin with anatomical fibers; original masters retained. Opaque rear/crotch garments and diffuse highlights on folded cloth inspected. Custom crop bounds on three-phase sets preserve full limbs, delivered male lift crop visually inspected. Qualified joint alignment and primary muscle mapping review remains required.",
+  "metadataConflictsDeferred": [
+    {
+      "exerciseId": "0690",
+      "issue": "Seated lower-back stretch title/description conflicts with target lats; deferred."
+    },
+    {
+      "exerciseId": "0720",
+      "issue": "Side-to-side chin description requires lateral traversal, instructions ordinary pull-up; deferred."
+    },
+    {
+      "exerciseId": "0678",
+      "issue": "Rocky pull-up title/description not specific enough to distinguish ordinary pull-up instructions; qualified planning needed."
+    }
+  ],
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 349031718,
+  "savedMasters": [
+    {
+      "exerciseId": "0705",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0705-male-anatomical-white-v2.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1589807,
+        "sha256": "1082b3c3827d664158bc5fa5486103a153c2c01007c59e6214b283cde4a552a4"
+      }
+    },
+    {
+      "exerciseId": "0705",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0705-female-anatomical-white-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1581790,
+        "sha256": "d8aa9e1365de9a0a20107ffcfeabd78f1a9986dabe529acacd0b3306d86f51c9"
+      }
+    },
+    {
+      "exerciseId": "0710",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0710-male-anatomical-white-v2.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1601206,
+        "sha256": "462b065cd1ca12bb1599cb0338e8a552f5dfb945ef36432fed55fd1aee2322fb"
+      }
+    },
+    {
+      "exerciseId": "0710",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0710-female-anatomical-white-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1603210,
+        "sha256": "3d104d040e1677f3c6aab38c91609f835ac03280aca3cb3d7873170cb8e17c40"
+      }
+    }
+  ]
+}

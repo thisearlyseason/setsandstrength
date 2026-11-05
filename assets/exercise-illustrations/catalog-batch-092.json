@@ -1,0 +1,731 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "0620",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Lie supported with hands under clothed hips and both straight legs extended beyond bench"
+        },
+        {
+          "key": "p2",
+          "caption": "Raise both straight legs together toward ceiling while keeping back and pelvis supported"
+        }
+      ],
+      "detail": "LYING LEG RAISE ON FLAT BENCH. Same SIDE three-quarter view facing ceiling, head IMAGE LEFT feet IMAGE RIGHT. Lie SUPINE on stable flat padded bench with HEAD/SKULL, shoulders, spine and pelvis supported; head relaxed on pad, neck neutral, no crunch, no ponytail lifting head. BOTH hands slide underneath fully CLOTHED glutes for support, elbows/forearms close to sides. Pelvis lies near foot-end of bench and BOTH legs extend beyond end, knees STRAIGHT but soft, legs together with ankles side by side. LEFT both legs nearly horizontal just above bench height, feet beyond end never touching floor. RIGHT raise BOTH straight legs TOGETHER from hips to about80degrees upward toward ceiling, knees straight, legs together, same limb lengths; no knee tuck, no pelvis lifting/rolling off pad, lumbar back gently pressed to bench. Same entire bench/pad/base/camera between phases. Primary ABDOMINAL region only one SOFT DIFFUSE BLURRED RED tint over intact BLACK abdomen shirt fabric; NO segmented abs/muscle outlines visible through shirt, entire black torso fabric continuous front/sides/back. All exposed arms/legs detailed GRAYSCALE, shorts opaque black across front/rear/seat/crotch, including over hands. Whole head/hands/shoes and ENTIRE BENCH/base within each panel with ample white margins.",
+      "variant": "male",
+      "key": "0620-male-anatomical-white-v2",
+      "prompt": "Edit ONLY the red ABDOMEN highlight in BOTH panels of original project exercise illustration. Restore shirt to FULLY OPAQUE matte BLACK fabric, continuous across chest/abdomen/front/sides/back with broad natural cloth folds. Replace all red muscle sections, fibers and six-pack outlines with ONE faint very SOFT BLURRED DIFFUSE RED tint printed on intact black ABDOMEN fabric. No visible internal lines or anatomy through shirt. Shorts stay opaque wrapping front/sides/rear/seat/crotch and hands under clothed hips. Preserve all fine detailed grayscale EXPOSED muscle anatomy on arms/legs, exact body/pose/proportions, face/head, bench if present, camera, white background and panel dimensions. No text.",
+      "inspectionNote": "Correction softens red abdominal tint over continuous opaque black shirt. Straight legs rise together, head/back remain supported and hands under clothed hips. Full bench and fine grayscale exposed anatomy retained. Limb proportions, lumbar neutrality and pelvis contact need qualified human review; original retained, no anatomy approval.",
+      "canonicalName": "lying leg raise flat bench",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "abs"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0620-male-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Correction softens red abdominal tint over continuous opaque black shirt. Straight legs rise together, head/back remain supported and hands under clothed hips. Full bench and fine grayscale exposed anatomy retained. Limb proportions, lumbar neutrality and pelvis contact need qualified human review; original retained, no anatomy approval.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0620-male-anatomical-white-v2-p1-1614a3ff0c36.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 21596,
+          "sha256": "1614a3ff0c36de8d1367b44e571f549fccbf3774cb30d4f5abecc562b599c074"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0620-male-anatomical-white-v2-p2-72b3a904535c.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 25960,
+          "sha256": "72b3a904535cf60aa92e96c8d76118762eff1b2f80b35cd8e5342a8f1997d3ba"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0620-male-anatomical-white-v2-thumb-abd18e7271fa.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2624,
+        "sha256": "abd18e7271fac5f2262ab3fc554de1ac7e56a73e2e464930df2165c6b610e602"
+      },
+      "processingSignature": "eb09c3f0a50340b18cfa5259d5ddbcfd4697b7d104b4360793f86bf486d46057",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0620-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1633556,
+        "sha256": "4ac463cff058da2ec7b1a3f7cc4bc75a049ff6cd8ba7020a3717b22ccedc3e42"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0620",
+          "layout": {
+            "columns": 2,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Lie supported with hands under clothed hips and both straight legs extended beyond bench"
+            },
+            {
+              "key": "p2",
+              "caption": "Raise both straight legs together toward ceiling while keeping back and pelvis supported"
+            }
+          ],
+          "detail": "LYING LEG RAISE ON FLAT BENCH. Same SIDE three-quarter view facing ceiling, head IMAGE LEFT feet IMAGE RIGHT. Lie SUPINE on stable flat padded bench with HEAD/SKULL, shoulders, spine and pelvis supported; head relaxed on pad, neck neutral, no crunch, no ponytail lifting head. BOTH hands slide underneath fully CLOTHED glutes for support, elbows/forearms close to sides. Pelvis lies near foot-end of bench and BOTH legs extend beyond end, knees STRAIGHT but soft, legs together with ankles side by side. LEFT both legs nearly horizontal just above bench height, feet beyond end never touching floor. RIGHT raise BOTH straight legs TOGETHER from hips to about80degrees upward toward ceiling, knees straight, legs together, same limb lengths; no knee tuck, no pelvis lifting/rolling off pad, lumbar back gently pressed to bench. Same entire bench/pad/base/camera between phases. Primary ABDOMINAL region only one SOFT DIFFUSE BLURRED RED tint over intact BLACK abdomen shirt fabric; NO segmented abs/muscle outlines visible through shirt, entire black torso fabric continuous front/sides/back. All exposed arms/legs detailed GRAYSCALE, shorts opaque black across front/rear/seat/crotch, including over hands. Whole head/hands/shoes and ENTIRE BENCH/base within each panel with ample white margins.",
+          "variant": "male",
+          "key": "0620-male-anatomical-white-v1",
+          "prompt": "Original educational exercise illustration. Attached original project image is STYLE reference ONLY, never pose reference. Detailed fine grayscale anatomical fibers on exposed limbs, realistic neutral adult MALE; pure white background. TWO equal side-by-side panels with identical model, dimensions, camera and lighting. FULLY OPAQUE matte BLACK sleeveless shirt continuously wraps torso front/sides/back. Loose BLACK knee-length shorts wrap BOTH upper thighs, seat and crotch fully front/sides/rear, closed hems and seams, broad natural fabric folds. NO bare buttocks, translucent cloth, cutaways, anatomy windows or muscle-fiber patterns on garments. Black trainers. Red PRIMARY muscle highlights only as specified; over clothing use a SOFT DIFFUSE COLOR PATCH on intact BLACK FABRIC without anatomical subdivisions. Whole person, fingers/shoes and ENTIRE machine including frame, lever, pivots, weight stack and base within EACH panel with generous white margins. Same EXACT fixed frame/seat/pad/camera/pivots in both phases; only exercise joints and connected moving lever rotate. No text, arrows, captions, logos or numbers. LYING LEG RAISE ON FLAT BENCH. Same SIDE three-quarter view facing ceiling, head IMAGE LEFT feet IMAGE RIGHT. Lie SUPINE on stable flat padded bench with HEAD/SKULL, shoulders, spine and pelvis supported; head relaxed on pad, neck neutral, no crunch, no ponytail lifting head. BOTH hands slide underneath fully CLOTHED glutes for support, elbows/forearms close to sides. Pelvis lies near foot-end of bench and BOTH legs extend beyond end, knees STRAIGHT but soft, legs together with ankles side by side. LEFT both legs nearly horizontal just above bench height, feet beyond end never touching floor. RIGHT raise BOTH straight legs TOGETHER from hips to about80degrees upward toward ceiling, knees straight, legs together, same limb lengths; no knee tuck, no pelvis lifting/rolling off pad, lumbar back gently pressed to bench. Same entire bench/pad/base/camera between phases. Primary ABDOMINAL region only one SOFT DIFFUSE BLURRED RED tint over intact BLACK abdomen shirt fabric; NO segmented abs/muscle outlines visible through shirt, entire black torso fabric continuous front/sides/back. All exposed arms/legs detailed GRAYSCALE, shorts opaque black across front/rear/seat/crotch, including over hands. Whole head/hands/shoes and ENTIRE BENCH/base within each panel with ample white margins.",
+          "inspectionNote": "Bench leg raise with head/back supported, hands under clothed hips, legs together and straight from low to high. Whole bench retained with tight side margin. Opaque garments but red abdominal tint has segmented anatomy pattern requiring diffuse fabric correction. Leg-length consistency, pelvis contact and lumbar neutrality need human review.",
+          "blockingIssues": [
+            "Abdominal tint contains segmented muscle pattern on shirt; replace with diffuse intact-fabric overlay."
+          ],
+          "canonicalName": "lying leg raise flat bench",
+          "styleVersion": "white-v1",
+          "equipment": "body weight",
+          "primaryMuscles": [
+            "abs"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Bench leg raise with head/back supported, hands under clothed hips, legs together and straight from low to high. Whole bench retained with tight side margin. Opaque garments but red abdominal tint has segmented anatomy pattern requiring diffuse fabric correction. Leg-length consistency, pelvis contact and lumbar neutrality need human review.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0620-male-anatomical-white-v1-p1-37bed6c51c7d.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 24350,
+              "sha256": "37bed6c51c7d26813f3287219eafff0d2b25ef729a546966399ef5182a775ab4"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0620-male-anatomical-white-v1-p2-aea20c064fc0.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 28798,
+              "sha256": "aea20c064fc05f2f1c950149b1af02cc2316e9469e416a34d1c485d8ef617ea5"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0620-male-anatomical-white-v1-thumb-5c396d1c1cb4.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 2604,
+            "sha256": "5c396d1c1cb42f7bc0b0b4e7aed5d40c62fe58663f06241607d1e8940d2c32d1"
+          },
+          "processingSignature": "e90345d135411a3706ae7e5509e15122f53b0d15455a36f4b366449f3c2a4063",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0620-male-anatomical-white-v1.png",
+            "width": 1774,
+            "height": 887,
+            "bytes": 1609555,
+            "sha256": "0d096432c89cc153af2a9547b5feca18c87e0f6b708b67da6469e9679bde68cd"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "0620",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Lie supported with hands under clothed hips and both straight legs extended beyond bench"
+        },
+        {
+          "key": "p2",
+          "caption": "Raise both straight legs together toward ceiling while keeping back and pelvis supported"
+        }
+      ],
+      "detail": "LYING LEG RAISE ON FLAT BENCH. Same SIDE three-quarter view facing ceiling, head IMAGE LEFT feet IMAGE RIGHT. Lie SUPINE on stable flat padded bench with HEAD/SKULL, shoulders, spine and pelvis supported; head relaxed on pad, neck neutral, no crunch, no ponytail lifting head. BOTH hands slide underneath fully CLOTHED glutes for support, elbows/forearms close to sides. Pelvis lies near foot-end of bench and BOTH legs extend beyond end, knees STRAIGHT but soft, legs together with ankles side by side. LEFT both legs nearly horizontal just above bench height, feet beyond end never touching floor. RIGHT raise BOTH straight legs TOGETHER from hips to about80degrees upward toward ceiling, knees straight, legs together, same limb lengths; no knee tuck, no pelvis lifting/rolling off pad, lumbar back gently pressed to bench. Same entire bench/pad/base/camera between phases. Primary ABDOMINAL region only one SOFT DIFFUSE BLURRED RED tint over intact BLACK abdomen shirt fabric; NO segmented abs/muscle outlines visible through shirt, entire black torso fabric continuous front/sides/back. All exposed arms/legs detailed GRAYSCALE, shorts opaque black across front/rear/seat/crotch, including over hands. Whole head/hands/shoes and ENTIRE BENCH/base within each panel with ample white margins.",
+      "variant": "female",
+      "key": "0620-female-anatomical-white-v3",
+      "prompt": "Restore fine detailed GRAYSCALE ANATOMICAL MUSCLE-FIBER and tendon rendering ONLY on EXPOSED arms, shoulders and legs in BOTH poses of this original project female BENCH LEG RAISE. Crisp thin parallel striations within natural muscles, clear tendons and accurate joints, same premium detail as original project anatomy art. Keep exact head support, poses, limb proportions, identity and entire bench unchanged. Shirt and shorts remain FULLY OPAQUE BLACK fabric with broad folds; preserve SOFT DIFFUSE RED abdomen tint, absolutely NO fibers, six-pack sections or anatomy patterns in clothing. Continuous torso/seat/crotch/front/sides/back coverage. Preserve white background, two panels and dimensions. No text.",
+      "inspectionNote": "Second correction restores fine grayscale exposed limb anatomy while keeping opaque black clothing and diffuse abdominal tint. Both straight legs raise together, head/back supported and full bench retained. Qualified review required for limb lengths, lumbar neutrality and pelvis contact. All previous masters retained; no anatomy approval.",
+      "canonicalName": "lying leg raise flat bench",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "abs"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0620-female-anatomical-white-v2.png"
+      },
+      "generation": {
+        "attempts": 3,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Second correction restores fine grayscale exposed limb anatomy while keeping opaque black clothing and diffuse abdominal tint. Both straight legs raise together, head/back supported and full bench retained. Qualified review required for limb lengths, lumbar neutrality and pelvis contact. All previous masters retained; no anatomy approval.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0620-female-anatomical-white-v3-p1-33e899efc855.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 24696,
+          "sha256": "33e899efc855a853a9b6968523c8024349818e9a9f93854a3aa2d4789fc7c843"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0620-female-anatomical-white-v3-p2-9d714ab7bee5.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 29444,
+          "sha256": "9d714ab7bee53badac9e49ed601792b649ad5d9a729f672d8d27d729780eca2c"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0620-female-anatomical-white-v3-thumb-73221e8eb4c2.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2812,
+        "sha256": "73221e8eb4c2fa893fc05eb62a6f7b15b45797cf71a6da638808d9e54a842262"
+      },
+      "processingSignature": "6bc5ac11938188b55c79c904fd72979fd441dc63e8abf660eaae46e4562240eb",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0620-female-anatomical-white-v3.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1651667,
+        "sha256": "fc98b2e05147105a6b88f84322ee1576bb84c9ffc7036a759e14bc60103223fe"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0620",
+          "layout": {
+            "columns": 2,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Lie supported with hands under clothed hips and both straight legs extended beyond bench"
+            },
+            {
+              "key": "p2",
+              "caption": "Raise both straight legs together toward ceiling while keeping back and pelvis supported"
+            }
+          ],
+          "detail": "LYING LEG RAISE ON FLAT BENCH. Same SIDE three-quarter view facing ceiling, head IMAGE LEFT feet IMAGE RIGHT. Lie SUPINE on stable flat padded bench with HEAD/SKULL, shoulders, spine and pelvis supported; head relaxed on pad, neck neutral, no crunch, no ponytail lifting head. BOTH hands slide underneath fully CLOTHED glutes for support, elbows/forearms close to sides. Pelvis lies near foot-end of bench and BOTH legs extend beyond end, knees STRAIGHT but soft, legs together with ankles side by side. LEFT both legs nearly horizontal just above bench height, feet beyond end never touching floor. RIGHT raise BOTH straight legs TOGETHER from hips to about80degrees upward toward ceiling, knees straight, legs together, same limb lengths; no knee tuck, no pelvis lifting/rolling off pad, lumbar back gently pressed to bench. Same entire bench/pad/base/camera between phases. Primary ABDOMINAL region only one SOFT DIFFUSE BLURRED RED tint over intact BLACK abdomen shirt fabric; NO segmented abs/muscle outlines visible through shirt, entire black torso fabric continuous front/sides/back. All exposed arms/legs detailed GRAYSCALE, shorts opaque black across front/rear/seat/crotch, including over hands. Whole head/hands/shoes and ENTIRE BENCH/base within each panel with ample white margins.",
+          "variant": "female",
+          "key": "0620-female-anatomical-white-v1",
+          "prompt": "Original educational exercise illustration. Attached original project image is STYLE reference ONLY, never pose reference. Detailed fine grayscale anatomical fibers on exposed limbs, realistic neutral adult FEMALE; pure white background. TWO equal side-by-side panels with identical model, dimensions, camera and lighting. FULLY OPAQUE matte BLACK sleeveless shirt continuously wraps torso front/sides/back. Loose BLACK knee-length shorts wrap BOTH upper thighs, seat and crotch fully front/sides/rear, closed hems and seams, broad natural fabric folds. NO bare buttocks, translucent cloth, cutaways, anatomy windows or muscle-fiber patterns on garments. Black trainers. Red PRIMARY muscle highlights only as specified; over clothing use a SOFT DIFFUSE COLOR PATCH on intact BLACK FABRIC without anatomical subdivisions. Whole person, fingers/shoes and ENTIRE machine including frame, lever, pivots, weight stack and base within EACH panel with generous white margins. Same EXACT fixed frame/seat/pad/camera/pivots in both phases; only exercise joints and connected moving lever rotate. No text, arrows, captions, logos or numbers. LYING LEG RAISE ON FLAT BENCH. Same SIDE three-quarter view facing ceiling, head IMAGE LEFT feet IMAGE RIGHT. Lie SUPINE on stable flat padded bench with HEAD/SKULL, shoulders, spine and pelvis supported; head relaxed on pad, neck neutral, no crunch, no ponytail lifting head. BOTH hands slide underneath fully CLOTHED glutes for support, elbows/forearms close to sides. Pelvis lies near foot-end of bench and BOTH legs extend beyond end, knees STRAIGHT but soft, legs together with ankles side by side. LEFT both legs nearly horizontal just above bench height, feet beyond end never touching floor. RIGHT raise BOTH straight legs TOGETHER from hips to about80degrees upward toward ceiling, knees straight, legs together, same limb lengths; no knee tuck, no pelvis lifting/rolling off pad, lumbar back gently pressed to bench. Same entire bench/pad/base/camera between phases. Primary ABDOMINAL region only one SOFT DIFFUSE BLURRED RED tint over intact BLACK abdomen shirt fabric; NO segmented abs/muscle outlines visible through shirt, entire black torso fabric continuous front/sides/back. All exposed arms/legs detailed GRAYSCALE, shorts opaque black across front/rear/seat/crotch, including over hands. Whole head/hands/shoes and ENTIRE BENCH/base within each panel with ample white margins.",
+          "inspectionNote": "Bench leg raise with straight legs together, head/back support and hands under clothed hips. Entire bench visible; lowered legs hover above long bench. Opaque shirt but red abdomen has internal muscle lines; replace with diffuse tint. Pelvis support, lumbar neutrality and fixed leg proportions need human review.",
+          "blockingIssues": [
+            "Red abdomen overlay contains anatomical lines on shirt; soften to diffuse tint on intact fabric."
+          ],
+          "canonicalName": "lying leg raise flat bench",
+          "styleVersion": "white-v1",
+          "equipment": "body weight",
+          "primaryMuscles": [
+            "abs"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Bench leg raise with straight legs together, head/back support and hands under clothed hips. Entire bench visible; lowered legs hover above long bench. Opaque shirt but red abdomen has internal muscle lines; replace with diffuse tint. Pelvis support, lumbar neutrality and fixed leg proportions need human review.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0620-female-anatomical-white-v1-p1-8fabd309789f.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 25236,
+              "sha256": "8fabd309789f8efd6e5e1a2cf749dd4a45c550fb99e1439d961d56e349afac19"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0620-female-anatomical-white-v1-p2-44b9bb41d95e.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 28774,
+              "sha256": "44b9bb41d95e84e5bcc3ebcd8e617f00c651d54de7b18c10c8c378e0d408611b"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0620-female-anatomical-white-v1-thumb-fd88e9ad9e0d.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 2556,
+            "sha256": "fd88e9ad9e0d243eae089c96ceaba184246243961e15d23a0b7036233caa4c4b"
+          },
+          "processingSignature": "f9f46fd5f365d7292df6ef012824341b87eb0665d68ddebd5564f149a635f066",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0620-female-anatomical-white-v1.png",
+            "width": 1774,
+            "height": 887,
+            "bytes": 1674342,
+            "sha256": "aa245ebabde265148bb5cd72be0a7a32fbcf53db931ac681adeafc9f24e107d9"
+          }
+        },
+        {
+          "exerciseId": "0620",
+          "layout": {
+            "columns": 2,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Lie supported with hands under clothed hips and both straight legs extended beyond bench"
+            },
+            {
+              "key": "p2",
+              "caption": "Raise both straight legs together toward ceiling while keeping back and pelvis supported"
+            }
+          ],
+          "detail": "LYING LEG RAISE ON FLAT BENCH. Same SIDE three-quarter view facing ceiling, head IMAGE LEFT feet IMAGE RIGHT. Lie SUPINE on stable flat padded bench with HEAD/SKULL, shoulders, spine and pelvis supported; head relaxed on pad, neck neutral, no crunch, no ponytail lifting head. BOTH hands slide underneath fully CLOTHED glutes for support, elbows/forearms close to sides. Pelvis lies near foot-end of bench and BOTH legs extend beyond end, knees STRAIGHT but soft, legs together with ankles side by side. LEFT both legs nearly horizontal just above bench height, feet beyond end never touching floor. RIGHT raise BOTH straight legs TOGETHER from hips to about80degrees upward toward ceiling, knees straight, legs together, same limb lengths; no knee tuck, no pelvis lifting/rolling off pad, lumbar back gently pressed to bench. Same entire bench/pad/base/camera between phases. Primary ABDOMINAL region only one SOFT DIFFUSE BLURRED RED tint over intact BLACK abdomen shirt fabric; NO segmented abs/muscle outlines visible through shirt, entire black torso fabric continuous front/sides/back. All exposed arms/legs detailed GRAYSCALE, shorts opaque black across front/rear/seat/crotch, including over hands. Whole head/hands/shoes and ENTIRE BENCH/base within each panel with ample white margins.",
+          "variant": "female",
+          "key": "0620-female-anatomical-white-v2",
+          "prompt": "Edit ONLY the red ABDOMEN highlight in BOTH panels of original project exercise illustration. Restore shirt to FULLY OPAQUE matte BLACK fabric, continuous across chest/abdomen/front/sides/back with broad natural cloth folds. Replace all red muscle sections, fibers and six-pack outlines with ONE faint very SOFT BLURRED DIFFUSE RED tint printed on intact black ABDOMEN fabric. No visible internal lines or anatomy through shirt. Shorts stay opaque wrapping front/sides/rear/seat/crotch and hands under clothed hips. Preserve all fine detailed grayscale EXPOSED muscle anatomy on arms/legs, exact body/pose/proportions, face/head, bench if present, camera, white background and panel dimensions. No text.",
+          "inspectionNote": "Correction replaces segmented abdomen overlay with diffuse red tint on opaque black fabric. Straight-leg bench raise, head/back support, hands under clothed hips and entire bench retained. Exposed anatomical detail is slightly softer; quality, fixed limb lengths and pelvis contact need human review. Original retained; no anatomy approval.",
+          "canonicalName": "lying leg raise flat bench",
+          "styleVersion": "white-v1",
+          "equipment": "body weight",
+          "primaryMuscles": [
+            "abs"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose",
+            "editInputPath": "assets/exercise-illustrations/generated/0620-female-anatomical-white-v1.png"
+          },
+          "generation": {
+            "attempts": 2,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Correction replaces segmented abdomen overlay with diffuse red tint on opaque black fabric. Straight-leg bench raise, head/back support, hands under clothed hips and entire bench retained. Exposed anatomical detail is slightly softer; quality, fixed limb lengths and pelvis contact need human review. Original retained; no anatomy approval.",
+            "reviewer": ""
+          },
+          "assets": [],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": null,
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0620-female-anatomical-white-v2.png",
+            "width": 1774,
+            "height": 887,
+            "bytes": 1629677,
+            "sha256": "3f723c85070c564708a0d1b691acfc2e0be8ae17f6dbbf0514599ca7d2be9509"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "0622",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Keep lower back grounded, raise one straight leg while the other hovers low"
+        },
+        {
+          "key": "p2",
+          "caption": "Switch the legs so the opposite straight leg rises while the first stays low"
+        }
+      ],
+      "detail": "LYING SCISSOR KICK, TWO alternating phases. Same SIDE three-quarter view on white floor, head IMAGE LEFT feet IMAGE RIGHT. Lie SUPINE with HEAD/SKULL resting floor, neck relaxed, shoulder blades and LOWER BACK gently grounded. BOTH hands under fully CLOTHED hips/glutes, arms close to sides, no crunch/head lift, ponytail spread flat if any. BOTH legs STRAIGHT with soft knees, toes forward/relaxed, neither foot touches floor. LEFT panel RIGHT NEAR leg raised about35degrees from hip, LEFT FAR leg hovers10cm above floor. RIGHT panel SWITCH: RIGHT NEAR leg now LOW hovering10cm above floor; LEFT FAR leg raises35degrees. Same leg lengths and identity; legs exchange high/low in a VERTICAL scissor plane, NOT horizontal crossing, no knee bend, no pelvis rolling or lumbar arch. Near-side and far-side knee/shoe clearly distinguishable in both phases. Primary ABS only one SOFT DIFFUSE BLURRED RED color tint on intact OPAQUE BLACK abdominal shirt fabric; no six-pack sections, fiber lines, muscle outlines or clothing cutaways. Other anatomy grayscale, shorts fully opaque front/sides/rear/seat/crotch. Both hands/head/feet and full body fit comfortably inside each panel.",
+      "variant": "male",
+      "key": "0622-male-anatomical-white-v2",
+      "prompt": "Edit ONLY the red ABDOMEN highlight in BOTH panels of original project exercise illustration. Restore shirt to FULLY OPAQUE matte BLACK fabric, continuous across chest/abdomen/front/sides/back with broad natural cloth folds. Replace all red muscle sections, fibers and six-pack outlines with ONE faint very SOFT BLURRED DIFFUSE RED tint printed on intact black ABDOMEN fabric. No visible internal lines or anatomy through shirt. Shorts stay opaque wrapping front/sides/rear/seat/crotch and hands under clothed hips. Preserve all fine detailed grayscale EXPOSED muscle anatomy on arms/legs, exact body/pose/proportions, face/head, bench if present, camera, white background and panel dimensions. No text. ALSO correct RIGHT PANEL: raise the OPPOSITE NEAR leg (the bottom/front leg in source, closest viewer) straight to about35degrees and LOWER the FAR leg (upper/back leg in source) to hover10cm above floor. Left panel keeps FAR leg high, NEAR leg low; right panel NEAR high, FAR low. Explicitly swap limb identity, not just repeat same silhouette. Knees straight and unchanged lengths, no leg crossing horizontally. BOTH panels skull/head rests on FLOOR, neck neutral, lower back grounded; no head crunch. If ponytail exists spread it behind head. Hands remain under hips. Preserve pelvis position and all other anatomy.",
+      "inspectionNote": "Correction softens abdominal cloth tint but fails to visibly exchange high/low leg identity or lower head to floor. Straight legs, hands under clothed hips and opaque clothing retained. Scissor alternation and head support remain blocked; original and attempt retained.",
+      "canonicalName": "lying scissor kick",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "abs"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0622-male-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Correction softens abdominal cloth tint but fails to visibly exchange high/low leg identity or lower head to floor. Straight legs, hands under clothed hips and opaque clothing retained. Scissor alternation and head support remain blocked; original and attempt retained.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0622-male-anatomical-white-v2-p1-d3177a9a7776.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 21850,
+          "sha256": "d3177a9a77765282cee49809c93be165c7f56545b62c1cf5a6369c847d980317"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0622-male-anatomical-white-v2-p2-5be913a4fc74.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 21788,
+          "sha256": "5be913a4fc7437979b4044c293fe7b45d971d68ac3b7db01d574fa5adb8d11c8"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0622-male-anatomical-white-v2-thumb-4afafbd407cb.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2498,
+        "sha256": "4afafbd407cbca95af3985baac19930603a822688a8db194db2bfe6e39b5266c"
+      },
+      "processingSignature": "2eed8d76e3054a535c3a56d92cad95693556d7a2b1d6080caa34cd2cc3626501",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0622-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1631444,
+        "sha256": "eef117824da328ae75272b75ce4bb560f8efa7d70eecc20bbb6e59adc1f7c6ac"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0622",
+          "layout": {
+            "columns": 2,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Keep lower back grounded, raise one straight leg while the other hovers low"
+            },
+            {
+              "key": "p2",
+              "caption": "Switch the legs so the opposite straight leg rises while the first stays low"
+            }
+          ],
+          "detail": "LYING SCISSOR KICK, TWO alternating phases. Same SIDE three-quarter view on white floor, head IMAGE LEFT feet IMAGE RIGHT. Lie SUPINE with HEAD/SKULL resting floor, neck relaxed, shoulder blades and LOWER BACK gently grounded. BOTH hands under fully CLOTHED hips/glutes, arms close to sides, no crunch/head lift, ponytail spread flat if any. BOTH legs STRAIGHT with soft knees, toes forward/relaxed, neither foot touches floor. LEFT panel RIGHT NEAR leg raised about35degrees from hip, LEFT FAR leg hovers10cm above floor. RIGHT panel SWITCH: RIGHT NEAR leg now LOW hovering10cm above floor; LEFT FAR leg raises35degrees. Same leg lengths and identity; legs exchange high/low in a VERTICAL scissor plane, NOT horizontal crossing, no knee bend, no pelvis rolling or lumbar arch. Near-side and far-side knee/shoe clearly distinguishable in both phases. Primary ABS only one SOFT DIFFUSE BLURRED RED color tint on intact OPAQUE BLACK abdominal shirt fabric; no six-pack sections, fiber lines, muscle outlines or clothing cutaways. Other anatomy grayscale, shorts fully opaque front/sides/rear/seat/crotch. Both hands/head/feet and full body fit comfortably inside each panel.",
+          "variant": "male",
+          "key": "0622-male-anatomical-white-v1",
+          "prompt": "Original educational exercise illustration. Attached original project image is STYLE reference ONLY, never pose reference. Detailed fine grayscale anatomical fibers on exposed limbs, realistic neutral adult MALE; pure white background. TWO equal side-by-side panels with identical model, dimensions, camera and lighting. FULLY OPAQUE matte BLACK sleeveless shirt continuously wraps torso front/sides/back. Loose BLACK knee-length shorts wrap BOTH upper thighs, seat and crotch fully front/sides/rear, closed hems and seams, broad natural fabric folds. NO bare buttocks, translucent cloth, cutaways, anatomy windows or muscle-fiber patterns on garments. Black trainers. Red PRIMARY muscle highlights only as specified; over clothing use a SOFT DIFFUSE COLOR PATCH on intact BLACK FABRIC without anatomical subdivisions. Whole person, fingers/shoes and ENTIRE machine including frame, lever, pivots, weight stack and base within EACH panel with generous white margins. Same EXACT fixed frame/seat/pad/camera/pivots in both phases; only exercise joints and connected moving lever rotate. No text, arrows, captions, logos or numbers. LYING SCISSOR KICK, TWO alternating phases. Same SIDE three-quarter view on white floor, head IMAGE LEFT feet IMAGE RIGHT. Lie SUPINE with HEAD/SKULL resting floor, neck relaxed, shoulder blades and LOWER BACK gently grounded. BOTH hands under fully CLOTHED hips/glutes, arms close to sides, no crunch/head lift, ponytail spread flat if any. BOTH legs STRAIGHT with soft knees, toes forward/relaxed, neither foot touches floor. LEFT panel RIGHT NEAR leg raised about35degrees from hip, LEFT FAR leg hovers10cm above floor. RIGHT panel SWITCH: RIGHT NEAR leg now LOW hovering10cm above floor; LEFT FAR leg raises35degrees. Same leg lengths and identity; legs exchange high/low in a VERTICAL scissor plane, NOT horizontal crossing, no knee bend, no pelvis rolling or lumbar arch. Near-side and far-side knee/shoe clearly distinguishable in both phases. Primary ABS only one SOFT DIFFUSE BLURRED RED color tint on intact OPAQUE BLACK abdominal shirt fabric; no six-pack sections, fiber lines, muscle outlines or clothing cutaways. Other anatomy grayscale, shorts fully opaque front/sides/rear/seat/crotch. Both hands/head/feet and full body fit comfortably inside each panel.",
+          "inspectionNote": "Two scissor-kick poses with hands under clothed hips and straight legs, but same far leg stays high in both and head is lifted. Abdomen shirt shows segmented red pattern. Correct opposite-leg exchange, skull support and diffuse fabric tint. Human review pending.",
+          "blockingIssues": [
+            "Same far leg is high in both panels; head lifted and shirt highlight segmented."
+          ],
+          "canonicalName": "lying scissor kick",
+          "styleVersion": "white-v1",
+          "equipment": "body weight",
+          "primaryMuscles": [
+            "abs"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Two scissor-kick poses with hands under clothed hips and straight legs, but same far leg stays high in both and head is lifted. Abdomen shirt shows segmented red pattern. Correct opposite-leg exchange, skull support and diffuse fabric tint. Human review pending.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0622-male-anatomical-white-v1-p1-a898d0d2936f.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 24254,
+              "sha256": "a898d0d2936f2f7314dd3cf61dfd8c332661cb53406cac71a3e46de8f796aad6"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0622-male-anatomical-white-v1-p2-d61e835d79ef.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 24336,
+              "sha256": "d61e835d79ef4974ee9ab86ec6d6ce41cb16040f357a0c7d5cdf8a4a4a61ea83"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0622-male-anatomical-white-v1-thumb-c4667230f863.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 2512,
+            "sha256": "c4667230f863a9c465ca04dfc7f4b33da928630f02dae6f3b568bcf9c554e0f6"
+          },
+          "processingSignature": "a5038f9a55ff631408988b716f870356e6c4309b847e77d67e19604c35dcb9a2",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0622-male-anatomical-white-v1.png",
+            "width": 1774,
+            "height": 887,
+            "bytes": 1658345,
+            "sha256": "883b10036ceff84538be22feff601af018b904d5fc98a589300bad9c8fb7ee97"
+          }
+        }
+      ],
+      "blockingIssues": [
+        "Same leg still appears high in both phases and head remains lifted; alternation and skull support require correction."
+      ]
+    },
+    {
+      "exerciseId": "0622",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Keep lower back grounded, raise one straight leg while the other hovers low"
+        },
+        {
+          "key": "p2",
+          "caption": "Switch the legs so the opposite straight leg rises while the first stays low"
+        }
+      ],
+      "detail": "LYING SCISSOR KICK, TWO alternating phases. Same SIDE three-quarter view on white floor, head IMAGE LEFT feet IMAGE RIGHT. Lie SUPINE with HEAD/SKULL resting floor, neck relaxed, shoulder blades and LOWER BACK gently grounded. BOTH hands under fully CLOTHED hips/glutes, arms close to sides, no crunch/head lift, ponytail spread flat if any. BOTH legs STRAIGHT with soft knees, toes forward/relaxed, neither foot touches floor. LEFT panel RIGHT NEAR leg raised about35degrees from hip, LEFT FAR leg hovers10cm above floor. RIGHT panel SWITCH: RIGHT NEAR leg now LOW hovering10cm above floor; LEFT FAR leg raises35degrees. Same leg lengths and identity; legs exchange high/low in a VERTICAL scissor plane, NOT horizontal crossing, no knee bend, no pelvis rolling or lumbar arch. Near-side and far-side knee/shoe clearly distinguishable in both phases. Primary ABS only one SOFT DIFFUSE BLURRED RED color tint on intact OPAQUE BLACK abdominal shirt fabric; no six-pack sections, fiber lines, muscle outlines or clothing cutaways. Other anatomy grayscale, shorts fully opaque front/sides/rear/seat/crotch. Both hands/head/feet and full body fit comfortably inside each panel.",
+      "variant": "female",
+      "key": "0622-female-anatomical-white-v2",
+      "prompt": "Edit ONLY the red ABDOMEN highlight in BOTH panels of original project exercise illustration. Restore shirt to FULLY OPAQUE matte BLACK fabric, continuous across chest/abdomen/front/sides/back with broad natural cloth folds. Replace all red muscle sections, fibers and six-pack outlines with ONE faint very SOFT BLURRED DIFFUSE RED tint printed on intact black ABDOMEN fabric. No visible internal lines or anatomy through shirt. Shorts stay opaque wrapping front/sides/rear/seat/crotch and hands under clothed hips. Preserve all fine detailed grayscale EXPOSED muscle anatomy on arms/legs, exact body/pose/proportions, face/head, bench if present, camera, white background and panel dimensions. No text. ALSO correct RIGHT PANEL: raise the OPPOSITE NEAR leg (the bottom/front leg in source, closest viewer) straight to about35degrees and LOWER the FAR leg (upper/back leg in source) to hover10cm above floor. Left panel keeps FAR leg high, NEAR leg low; right panel NEAR high, FAR low. Explicitly swap limb identity, not just repeat same silhouette. Knees straight and unchanged lengths, no leg crossing horizontally. BOTH panels skull/head rests on FLOOR, neck neutral, lower back grounded; no head crunch. If ponytail exists spread it behind head. Hands remain under hips. Preserve pelvis position and all other anatomy.",
+      "inspectionNote": "Correction softens abdominal fabric tint and lowers skull, but same far leg still appears high in both phases. Alternation remains blocked. Straight knees, hands under clothed hips, opaque coverage and grayscale anatomy retained. Original and attempt preserved; no anatomy approval.",
+      "canonicalName": "lying scissor kick",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "abs"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0622-female-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Correction softens abdominal fabric tint and lowers skull, but same far leg still appears high in both phases. Alternation remains blocked. Straight knees, hands under clothed hips, opaque coverage and grayscale anatomy retained. Original and attempt preserved; no anatomy approval.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0622-female-anatomical-white-v2-p1-785a60453182.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 20516,
+          "sha256": "785a60453182b4ee25ac3d631508f9b157008fc71ebda79d50bbb0ca32c32cc1"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0622-female-anatomical-white-v2-p2-df3d06125134.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 20092,
+          "sha256": "df3d06125134fc41e431ab73fb64fe911799c7b2d44079f583a57dd8eb5bffc4"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0622-female-anatomical-white-v2-thumb-a3ec65590466.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2436,
+        "sha256": "a3ec65590466920ea1565c6a504b1c8f2cb16d099422c52b95d75f4f45b47744"
+      },
+      "processingSignature": "d38e1cbfd76d6dcf45e4f66d887e4267f32a58be38e62b44e92243932860b2cc",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0622-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1582061,
+        "sha256": "624bb1217f016c2439665533011ea10855f7f9c3c5a7fc3a0fee15dbd0180f1a"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0622",
+          "layout": {
+            "columns": 2,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Keep lower back grounded, raise one straight leg while the other hovers low"
+            },
+            {
+              "key": "p2",
+              "caption": "Switch the legs so the opposite straight leg rises while the first stays low"
+            }
+          ],
+          "detail": "LYING SCISSOR KICK, TWO alternating phases. Same SIDE three-quarter view on white floor, head IMAGE LEFT feet IMAGE RIGHT. Lie SUPINE with HEAD/SKULL resting floor, neck relaxed, shoulder blades and LOWER BACK gently grounded. BOTH hands under fully CLOTHED hips/glutes, arms close to sides, no crunch/head lift, ponytail spread flat if any. BOTH legs STRAIGHT with soft knees, toes forward/relaxed, neither foot touches floor. LEFT panel RIGHT NEAR leg raised about35degrees from hip, LEFT FAR leg hovers10cm above floor. RIGHT panel SWITCH: RIGHT NEAR leg now LOW hovering10cm above floor; LEFT FAR leg raises35degrees. Same leg lengths and identity; legs exchange high/low in a VERTICAL scissor plane, NOT horizontal crossing, no knee bend, no pelvis rolling or lumbar arch. Near-side and far-side knee/shoe clearly distinguishable in both phases. Primary ABS only one SOFT DIFFUSE BLURRED RED color tint on intact OPAQUE BLACK abdominal shirt fabric; no six-pack sections, fiber lines, muscle outlines or clothing cutaways. Other anatomy grayscale, shorts fully opaque front/sides/rear/seat/crotch. Both hands/head/feet and full body fit comfortably inside each panel.",
+          "variant": "female",
+          "key": "0622-female-anatomical-white-v1",
+          "prompt": "Original educational exercise illustration. Attached original project image is STYLE reference ONLY, never pose reference. Detailed fine grayscale anatomical fibers on exposed limbs, realistic neutral adult FEMALE; pure white background. TWO equal side-by-side panels with identical model, dimensions, camera and lighting. FULLY OPAQUE matte BLACK sleeveless shirt continuously wraps torso front/sides/back. Loose BLACK knee-length shorts wrap BOTH upper thighs, seat and crotch fully front/sides/rear, closed hems and seams, broad natural fabric folds. NO bare buttocks, translucent cloth, cutaways, anatomy windows or muscle-fiber patterns on garments. Black trainers. Red PRIMARY muscle highlights only as specified; over clothing use a SOFT DIFFUSE COLOR PATCH on intact BLACK FABRIC without anatomical subdivisions. Whole person, fingers/shoes and ENTIRE machine including frame, lever, pivots, weight stack and base within EACH panel with generous white margins. Same EXACT fixed frame/seat/pad/camera/pivots in both phases; only exercise joints and connected moving lever rotate. No text, arrows, captions, logos or numbers. LYING SCISSOR KICK, TWO alternating phases. Same SIDE three-quarter view on white floor, head IMAGE LEFT feet IMAGE RIGHT. Lie SUPINE with HEAD/SKULL resting floor, neck relaxed, shoulder blades and LOWER BACK gently grounded. BOTH hands under fully CLOTHED hips/glutes, arms close to sides, no crunch/head lift, ponytail spread flat if any. BOTH legs STRAIGHT with soft knees, toes forward/relaxed, neither foot touches floor. LEFT panel RIGHT NEAR leg raised about35degrees from hip, LEFT FAR leg hovers10cm above floor. RIGHT panel SWITCH: RIGHT NEAR leg now LOW hovering10cm above floor; LEFT FAR leg raises35degrees. Same leg lengths and identity; legs exchange high/low in a VERTICAL scissor plane, NOT horizontal crossing, no knee bend, no pelvis rolling or lumbar arch. Near-side and far-side knee/shoe clearly distinguishable in both phases. Primary ABS only one SOFT DIFFUSE BLURRED RED color tint on intact OPAQUE BLACK abdominal shirt fabric; no six-pack sections, fiber lines, muscle outlines or clothing cutaways. Other anatomy grayscale, shorts fully opaque front/sides/rear/seat/crotch. Both hands/head/feet and full body fit comfortably inside each panel.",
+          "inspectionNote": "Supine scissor-kick candidate with supported head, hands under clothed hips and straight legs, but far leg stays high in both panels. Shirt red tint segmented. Correct opposite-leg exchange and diffuse fabric overlay. Lumbar contact and proportions need qualified review.",
+          "blockingIssues": [
+            "Same far leg remains high in both panels; opposite-leg exchange missing and abdomen highlight segmented."
+          ],
+          "canonicalName": "lying scissor kick",
+          "styleVersion": "white-v1",
+          "equipment": "body weight",
+          "primaryMuscles": [
+            "abs"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Supine scissor-kick candidate with supported head, hands under clothed hips and straight legs, but far leg stays high in both panels. Shirt red tint segmented. Correct opposite-leg exchange and diffuse fabric overlay. Lumbar contact and proportions need qualified review.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0622-female-anatomical-white-v1-p1-f396edfab0d7.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 24230,
+              "sha256": "f396edfab0d7a02bca9f602193469b6e219572e2e8d8bc4e8880f04831338eb8"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0622-female-anatomical-white-v1-p2-587b6fb5814d.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 23948,
+              "sha256": "587b6fb5814d197386a806bd1f34e0bc856cbc8d694bd30dace1f67a859d62ad"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0622-female-anatomical-white-v1-thumb-c24c7b830809.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 2440,
+            "sha256": "c24c7b8308091c6adeca5085e46356f970364d2babacbbfcceca2d95b08395b9"
+          },
+          "processingSignature": "48e6d6aba1bf43f5238038bdf68acbe186e98bd3bb3d36bc0dfb809c7a453b97",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0622-female-anatomical-white-v1.png",
+            "width": 1774,
+            "height": 887,
+            "bytes": 1672388,
+            "sha256": "49f47a8845aa50c0adc30775454b4b070af19ad8c94b151f9ddb612cefcc4b5f"
+          }
+        }
+      ],
+      "blockingIssues": [
+        "Opposite-leg exchange still missing; same leg appears raised in both panels."
+      ]
+    }
+  ]
+}

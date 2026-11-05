@@ -1,0 +1,68 @@
+{
+  "runId": "52f594f3-afc8-4ef5-8848-163d3a5a6895",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "triggerTimestamp": "2026-11-05T01:05:05.037Z",
+  "batches": [
+    461,
+    462,
+    463,
+    464
+  ],
+  "builtInImageGenAvailable": true,
+  "generatedMasters": 13,
+  "generatedIds": [
+    "5483",
+    "5513",
+    "5606",
+    "5623",
+    "5631",
+    "5632",
+    "5635",
+    "5607",
+    "5636",
+    "5665",
+    "5666",
+    "5667",
+    "5669"
+  ],
+  "blocked": {
+    "5483": [
+      "Heels are level with raised block at start, omitting required lowered-heel stretch. Correct lower end range before approval."
+    ],
+    "5623": [
+      "Last two stages repeat the same leading foot; alternating front-step sequence is missing. Correct leg sequence before approval."
+    ]
+  },
+  "coverageAfter": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1649,
+    "remainingVariants": 9615,
+    "approvedVariants": 0,
+    "blockedVariants": 594,
+    "knownPoseImages": 3329,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 1276,
+      "remainingVariants": 4356,
+      "blockedVariants": 475
+    }
+  },
+  "pipelineTests": "8 passed, 0 failed after each of four batches",
+  "approvedIndexUnchanged": true,
+  "existingUserApprovalsPreserved": 1306,
+  "publication": "none",
+  "anatomyReview": "pending",
+  "paidWorker": "disabled; inventory sync only, zero requests",
+  "stopReason": "Twenty-minute work window reached after thirteen masters; final partial batch checkpoint completed.",
+  "styleReference": "assets/exercise-illustrations/generated/0853-male-anatomical-white-v1.png",
+  "deferred": {
+    "5484": "Prompt saved but ungenerated; deferred after 5483 missed below-step stretch. Revise visual geometry before attempting another calf range depiction.",
+    "5609": "Single handle specified but spread-hands face-pull instruction does not establish attachment type; clarify before guessing."
+  },
+  "nextRunGuidance": "Continue clearly specified missing dynamic male records. Skip registered and blocked masters; preserve saved 5484 prompt without treating it as generated. 5483 needs lowered heel range and 5623 alternate lead-leg sequence. Avoid static holds with two-panel reference until reference strategy corrected. Qualified anatomy review and publication remain separate."
+}

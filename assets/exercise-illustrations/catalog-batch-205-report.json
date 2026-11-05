@@ -1,0 +1,68 @@
+{
+  "batch": 205,
+  "runId": "1baf977e-daf8-4279-82ad-837e55fcce18",
+  "trigger": "2026-11-03T13:30:00.250Z",
+  "completedAt": "2026-11-03T13:37:05.311048+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 2,
+  "generationCalls": 2,
+  "exerciseIds": [
+    "1547"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 724,
+    "remainingVariants": 10540,
+    "approvedVariants": 0,
+    "blockedVariants": 237,
+    "knownPoseImages": 1424,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Two cable standing leg curl candidates, four poses, two built-in calls. Both BLOCKED for working upper-leg movement between poses. Ankle cuff/low pulley continuous cable, heel lift, hamstrings red and support hands retained. Full opaque clothing and detailed exposed grayscale anatomy. Qualified cable occlusion behind support leg, cuff contact, grip, lumbar posture and knee range require human review. Existing 1546 masters skipped before generation. Original project artwork rendering style only, no upstream licensed input. Exact prompts/originals saved. No anatomy or clothing approval or publication. Seven pipeline checks do not establish anatomical accuracy.",
+  "skippedCompletedIds": [
+    "1546"
+  ],
+  "metadataConflictsDeferred": {
+    "1548": "Extended leg seated forward hinge described as quadriceps stretch; movement implies hamstrings."
+  },
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 1138129655,
+  "savedMasters": [
+    {
+      "exerciseId": "1547",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1547-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1442682,
+        "sha256": "2a4f541d6c494c4e9091776e7efcbac619b2b3d8a8a7c3538a64304c4f2a6c3c"
+      }
+    },
+    {
+      "exerciseId": "1547",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1547-female-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1435839,
+        "sha256": "18c1a9aaa5a38daa834a1269872ee41b4de8892254a0f286dbd15966968554c9"
+      }
+    }
+  ]
+}

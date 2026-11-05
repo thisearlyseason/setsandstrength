@@ -1,0 +1,68 @@
+{
+  "batch": 292,
+  "runId": "d27975a7-dfa5-4fd6-b4ce-7a8822835738",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "trigger": "2026-11-04T03:32:27.059Z",
+  "purpose": "batch292 scheduled male continuation",
+  "started": "2026-11-04T03:32:54.736563+00:00",
+  "completedAt": "2026-11-04T03:39:48.530717+00:00",
+  "actualToolName": "image_gen__imagegen",
+  "calls": 4,
+  "newCandidateSets": 4,
+  "exerciseIds": [
+    "2526",
+    "2527",
+    "2555",
+    "2560"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1037,
+    "remainingVariants": 10227,
+    "approvedVariants": 0,
+    "blockedVariants": 352,
+    "knownPoseImages": 1993,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 664,
+      "remainingVariants": 4968,
+      "blockedVariants": 233
+    }
+  },
+  "reviewNotes": {
+    "2526": "Single forearm-plank hold with both forearms on textured platform, elbows beneath shoulders, toes floor, nearly aligned head/hip/heel line. Plain abdominal tint on intact opaque tank/shorts. Qualified review of hip height, cervical alignment, elbow loading, platform size/stability and muscle mapping required. Human anatomy review pending.",
+    "2527": "Fixed split stance with front foot supported on platform and rear toes floor, upright torso lowers to lunge with front knee near ankle and rear knee hovering. Quad tint on intact shorts/exposed distal quad, opaque clothing. Qualified review of full foot support, plate size/stability, knee tracking, leg laterality and depth required. Human anatomy review pending.",
+    "2555": "Banded bridge shows feet flat, knees outward with loop above knees, pelvis down then lifted with head/back shoulders/arms supported. Glute tint retains opaque cloth folds. Qualified review of full head contact, hip/lumbar endpoint, band position and tension, knee spacing and glute mapping required. Human anatomy review pending.",
+    "2560": "Standing in front of bench then hips back into light bench contact, arms forward, feet flat and chest lifted. Quad tint over intact shorts and distal exposed quad. Qualified review of light contact versus seated relaxation, knee tracking, stance/depth, torso angle and bench stability required. Human anatomy review pending."
+  },
+  "blockingIssues": {},
+  "deferred": {
+    "2544": "Behind-neck pulldown requires detailed shoulder-range/neck-clearance planning."
+  },
+  "tests": 7,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "workerSyncResult": {
+    "statuses": {
+      "generated": 1037,
+      "pending": 10227
+    },
+    "remaining": 10227,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 1596029089
+  },
+  "publicationIndexUnchanged": true
+}

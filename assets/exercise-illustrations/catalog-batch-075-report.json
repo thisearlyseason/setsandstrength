@@ -1,0 +1,118 @@
+{
+  "batch": 75,
+  "trigger": "2026-11-01T15:46:47.648Z",
+  "completedAt": "2026-11-01T15:58:38.260544+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 4,
+  "generationCalls": 7,
+  "exerciseIds": [
+    "0498",
+    "0502"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 308,
+    "remainingVariants": 10956,
+    "approvedVariants": 0,
+    "blockedVariants": 132,
+    "knownPoseImages": 634,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Four candidate sets remain pending and unpublished. Both suspension-row revisions now frame the whole rig and show a steeper endpoint torso; both remain blocked because strap length/buckle continuity is inconsistent. Male jackknife shirt revision replaces anatomical segmentation with soft red tint on intact cloth; female jackknife retained opaque clothing and complete supine/V-up phases. Qualified anatomy, grip, technique, lumbar loading and range review remain separate. No approval inferred from pipeline checks. Original project 0493 male master used only for rendering style; no upstream image input. Exact prompts, source masters and three correction histories retained.",
+  "metadataConflictsDeferred": [
+    {
+      "exerciseId": "0494",
+      "issue": "Reverse-grip description says palms face back, while instructions omit grip orientation; requires qualified grip clarification before illustrating."
+    },
+    {
+      "exerciseId": "0495",
+      "issue": "Incline twisting sit-up setup lacks explicit head/feet elevation orientation for anchored feet."
+    },
+    {
+      "exerciseId": "0496",
+      "issue": "Anchored-feet inverse-curl description conflicts with prone free-leg curling instructions."
+    },
+    {
+      "exerciseId": "0497",
+      "issue": "Version 2 distinction needs review before reuse of already generated 0499; preserve stable ID."
+    },
+    {
+      "exerciseId": "0500",
+      "issue": "Arm-wiper chest description conflicts with straight-leg wiper instructions and pectoral target."
+    },
+    {
+      "exerciseId": "0501",
+      "issue": "Jack-burpee description includes jumping jack, but explicit instructions describe plain burpee jump."
+    },
+    {
+      "exerciseId": "0507",
+      "issue": "Jackknife sit-up resembles 0502; preserve ID and clarify variant before reuse."
+    },
+    {
+      "exerciseId": "0508",
+      "issue": "Janda-specific muscle engagement/anchor setup absent from ordinary bent-knee sit-up instructions."
+    }
+  ],
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 499079939,
+  "savedMasters": [
+    {
+      "exerciseId": "0498",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0498-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1577493,
+        "sha256": "36b81bbcd9b2ec4796abdb3f20049f185a754de3931959c3ddc49979b78a8b42"
+      }
+    },
+    {
+      "exerciseId": "0498",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0498-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1624473,
+        "sha256": "435caa1d6ce9b91a2de95675f2b9ab2b67ffc766bdd2d14f1f8cf1150437daa3"
+      }
+    },
+    {
+      "exerciseId": "0502",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0502-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1626489,
+        "sha256": "aa95ffcf6760f22d0badfbef6a2025b361dcbee8c55916b1200724d993d15bd7"
+      }
+    },
+    {
+      "exerciseId": "0502",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0502-female-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1641580,
+        "sha256": "d08923a21010cfbfe881977144d71053e5dfba069a5b70a817b2356da204227f"
+      }
+    }
+  ]
+}

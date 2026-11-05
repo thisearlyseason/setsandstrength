@@ -1,0 +1,76 @@
+{
+  "batch": 308,
+  "runId": "c3b2fffc-96bd-4e30-a6b0-20341984b36e",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "trigger": "2026-11-04T05:46:57.786Z",
+  "purpose": "batch308 scheduled male continuation",
+  "started": "2026-11-04T05:47:29.234719+00:00",
+  "completedAt": "2026-11-04T05:56:42.339202+00:00",
+  "actualToolName": "image_gen__imagegen",
+  "calls": 4,
+  "newCandidateSets": 4,
+  "exerciseIds": [
+    "2848",
+    "2849",
+    "2850",
+    "2852"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1100,
+    "remainingVariants": 10164,
+    "approvedVariants": 0,
+    "blockedVariants": 385,
+    "knownPoseImages": 2121,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 727,
+      "remainingVariants": 4905,
+      "blockedVariants": 266
+    }
+  },
+  "reviewNotes": {
+    "2848": "Palm-supported side plank, top leg lifts while lower foot stays grounded and hips elevated. Oblique highlight contains anatomy-like bands through tank; block cloth overlay correction. Qualified review needed for supporting shoulder/wrist stacking, pelvis stability, leg plane and neck alignment. Human anatomy review pending.",
+    "2849": "High plank plus two leg-lift panels, palms grounded and hips near level, opaque clothing. Last two panels appear to lift same leg instead of opposite legs; block alternating-side correction. Qualified review needed for shoulder stacking, small lift height, neutral neck and abdominal-only tint. Human anatomy review pending.",
+    "2850": "Bent knees rise to vertical thighs and horizontal shins, arms by sides and abdomen wash over opaque tank. Head visibly floats above floor instead of supported supine position; block head support correction. Qualified review of lower-back contact, fixed knee angle, controlled lowering and hip range required. Human anatomy review pending.",
+    "2852": "Side lying with head supported by hand, lower leg on floor and straight top leg lifting; top outer hip wash on opaque shorts. Qualified review needed for stacked pelvis, toes forward versus external rotation, restrained lift range and exact abductor mapping. Human anatomy review pending."
+  },
+  "blockingIssues": {
+    "2848": [
+      "Remove anatomy-like oblique bands through tank; use plain uniform wash over opaque fabric."
+    ],
+    "2849": [
+      "Last two panels show same raised leg; depict opposite leg lifts with clear laterality."
+    ],
+    "2850": [
+      "Head floats above floor; correct to supported neutral head/neck during supine leg raise."
+    ]
+  },
+  "deferred": {},
+  "tests": 7,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "workerSyncResult": {
+    "statuses": {
+      "generated": 1100,
+      "pending": 10164
+    },
+    "remaining": 10164,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 1688324592
+  },
+  "publicationIndexUnchanged": true
+}

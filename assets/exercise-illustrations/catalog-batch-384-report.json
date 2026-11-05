@@ -1,0 +1,60 @@
+{
+  "batch": 384,
+  "runId": "09b17006-0e2c-4e63-8130-e3c268e53ed4",
+  "triggerTimestamp": "2026-11-04T17:32:01.733Z",
+  "builtInImageGenAvailable": true,
+  "anatomyReview": "pending",
+  "publication": "none",
+  "generatedIds": [
+    "3561"
+  ],
+  "failure": "Glute bridge march output repeats the same lifted leg in panels 2 and 3 instead of alternating. Original retained, registered and blocked. Generation stopped.",
+  "deferred": {
+    "3562": "Name says two legs on bench, description says upper back on bench and feet on ground; setup needs clarification.",
+    "3563": "Target lats conflicts with primary muscleMap upper-back; mapping needs review.",
+    "3564": "Prompt saved; not generated after technique failure.",
+    "3565": "Bridge name conflicts with wheel-like hand setup and spine target needs mapping.",
+    "3566": "Not attempted after technique failure.",
+    "3567": "Prompt saved; not generated after technique failure.",
+    "3568": "Prompt saved; not generated after technique failure."
+  },
+  "coverageAfter": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1377,
+    "remainingVariants": 9887,
+    "approvedVariants": 0,
+    "blockedVariants": 531,
+    "knownPoseImages": 2736,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 1004,
+      "remainingVariants": 4628,
+      "blockedVariants": 412
+    }
+  },
+  "paidWorker": {
+    "statuses": {
+      "generated": 1377,
+      "pending": 9887
+    },
+    "remaining": 9887,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 2092855618
+  },
+  "pipelineTests": "7 passed, 0 failed",
+  "approvedIndexUnchanged": true,
+  "existingUserApprovalsPreserved": 1306
+}

@@ -1,0 +1,90 @@
+{
+  "batch": 137,
+  "trigger": "2026-11-03T03:21:25.596Z",
+  "completedAt": "2026-11-03T03:42:57.521012+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 4,
+  "generationCalls": 7,
+  "exerciseIds": [
+    "0831",
+    "0832"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 556,
+    "remainingVariants": 10708,
+    "approvedVariants": 0,
+    "blockedVariants": 209,
+    "knownPoseImages": 1140,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Four weighted-crunch candidates, eight poses, seven built-in calls including three retained corrections. Both male sets show chest plate hold and modest shoulder-blade curl with grounded feet/pelvis; 0831 male red tint smoothed. Both female corrections smooth red tint but hair still obscures direct skull-to-mat support: BLOCKED for head/neck setup repair or human resolution. Full opaque clothing retained visually; no clothing or anatomy approval. Grip, neck, range, limb consistency and primary muscle mapping remain qualified human-review items. Thin cell borders retained where present. Every original and exact prompt retained with correction history. No publication; original project artwork used for style only. Pipeline checks do not establish anatomical accuracy.",
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 898597762,
+  "savedMasters": [
+    {
+      "exerciseId": "0831",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0831-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1409100,
+        "sha256": "3eb79ca6db1285f9307a3e7f82c3e1d8e8fc999c8782ee724dd32abc7b4a9984"
+      }
+    },
+    {
+      "exerciseId": "0831",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0831-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1359213,
+        "sha256": "010621e72f0aeff691c5ccc7c896a1a980b783820b99a0e8dc47baac129803fe"
+      }
+    },
+    {
+      "exerciseId": "0832",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0832-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1736761,
+        "sha256": "d027b9f3cc90126b9b6a26ab60ff91e1714810b6f585fb853b50feb6c0ffc347"
+      }
+    },
+    {
+      "exerciseId": "0832",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0832-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1380878,
+        "sha256": "2a2d2eb1b06000f972e7fff31cde38b6a41afa980d7ecfc39423130c8c4acf60"
+      }
+    }
+  ],
+  "events": [
+    {
+      "type": "local-finalization-parser-error",
+      "message": "AssertionError: expected TAP # pass 7 / # fail 0; Node emitted human-readable pass 7 / fail 0. Tests exited zero. Parser corrected and checks repeated successfully."
+    }
+  ]
+}

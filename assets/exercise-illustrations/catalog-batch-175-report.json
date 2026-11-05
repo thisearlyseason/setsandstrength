@@ -1,0 +1,74 @@
+{
+  "batch": 175,
+  "runId": "9231b928-55ee-49e7-a293-59bb8c3865ba",
+  "trigger": "2026-11-03T09:55:58.696Z",
+  "completedAt": "2026-11-03T10:02:02.623004+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 2,
+  "generationCalls": 2,
+  "exerciseIds": [
+    "1324"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 664,
+    "remainingVariants": 10600,
+    "approvedVariants": 0,
+    "blockedVariants": 225,
+    "knownPoseImages": 1328,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Two cable upper row candidates, four poses, two built-in calls. Forward straight arms to bent elbows and bar toward upper chest, red upper-back tint over opaque shirt and full opaque shorts. BOTH BLOCKED: cable attaches at one end of straight bar rather than center between hands, creating unbalanced apparatus. Qualified far-elbow path, grip, cloth tint/fold interpretation and shoulder symmetry review required. Every original and exact prompt retained for correction; no anatomy/clothing approval or publication. Original project artwork rendering style only, no upstream licensed input. Seven pipeline checks do not establish anatomical accuracy.",
+  "metadataConflictsDeferred": {
+    "1322": "Chest-supported row versus seated forward lean; arms extended while pulling contradictory.",
+    "1323": "Overhand grip versus palms-facing-each-other conflict.",
+    "1325": "Behind-neck title versus front chest instructions; lats versus upper-back primary map.",
+    "1326": "Lats target versus upper-back primary map.",
+    "1327": "Close grip name versus shoulder width instructions; lats versus upper-back map.",
+    "1330": "Reverse grip versus palm-down instruction conflict.",
+    "1332": "Lats target versus front arm raise mechanics.",
+    "1333": "Spine target lacks explicit primary muscle map.",
+    "1334": "Spine target lacks explicit primary muscle map.",
+    "1335": "Spine target lacks explicit primary muscle map."
+  },
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 1052200888,
+  "savedMasters": [
+    {
+      "exerciseId": "1324",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1324-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1435418,
+        "sha256": "397df0a4881828e5976932dc941d5e008c5481eb3a2a47a81981668f9a60bbbe"
+      }
+    },
+    {
+      "exerciseId": "1324",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1324-female-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1452013,
+        "sha256": "387d0b564f05e87bd9a3813380a455e555996c84009d6dc9a88ba6abd0878c1d"
+      }
+    }
+  ]
+}

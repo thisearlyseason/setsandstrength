@@ -1,0 +1,514 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "0691",
+      "variant": "male",
+      "key": "0691-male-anatomical-white-v2",
+      "layout": {
+        "columns": 3,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Sit against the wall with knees bent, feet flat and hands lightly behind the head."
+        },
+        {
+          "key": "p2",
+          "caption": "Lean sideways toward the left hip, keeping the pelvis steady."
+        },
+        {
+          "key": "p3",
+          "caption": "Return through center, then lean toward the right hip and alternate sides."
+        }
+      ],
+      "detail": "SEATED SIDE CRUNCH AGAINST WALL, THREE equal SQUARE panels in one row, SAME fixed frontal view, model/scale/lighting constant. Sit FLOOR with back touching a simple pale gray vertical WALL visible behind, hips planted and knees BENT with both feet FLAT FLOOR hip width, feet/knees/pelvis remain identical in all panels. Fingertips lightly behind ears/head elbows out, do not pull neck. LEFT: tall neutral center trunk. CENTER: LATERALLY SIDE-BEND toward IMAGE LEFT, left elbow moves closer left hip, right side waist lengthens, shoulders tilt LEFT, sternum still faces camera, no torso twist. RIGHT: side bend toward IMAGE RIGHT, right elbow closer right hip, left waist lengthens, shoulders tilt RIGHT, sternum faces camera. Both hips stay grounded floor and back slides along wall, knees and both feet unmoved. Head stays aligned with spine, arms remain behind head. Motion is side-flexion, NOT forward crunch, not elbows toward knees. Primary abdominal region ONE smoothly diffuse BLURRED red tint on intact lower-front shirt abdomen, broad cloth folds only, no rays/fibers/sixpack pattern. Exposed arms and calves fine grayscale anatomy.",
+      "prompt": "Correct original project THREE-panel seated wall side crunch. Keep same center/left-bend/right-bend torso sequence, front view, hands behind ears, opaque black clothes and detailed exposed grayscale muscles. CRITICAL model must SIT with BUTTOCKS resting DIRECTLY on FLOOR at wall base in EVERY panel, not hovering in a wall squat. Lower pelvis fully to floor, thighs slope up from low grounded hips to bent knees, feet flat forward. Clearly show seat/floor contact and wall/floor junction BEHIND at seat height, back against wall. No chair/bench. Keep pelvis/feet identical across panels, torso laterally bends without twist. Replace all abdomen red streaks with ONE smooth diffuse BLURRED red patch over intact opaque black shirt; no rays/fibers/sixpack divisions, broad natural fabric folds only. Recompose as WIDE LANDSCAPE THREE equal SQUARE panels in one row, minimal unused white top/bottom, full heads/elbows/shoes inside cell margins. Preserve fine grayscale exposed muscle fibers, fully opaque torso/front/sides/back and shorts seat/crotch. No text.",
+      "inspectionNote": "Correction grounds buttocks on floor at wall base, knees bent and feet stable across center/opposite lateral bends. Red softened to diffuse teaching tint on opaque shirt with natural folds. Fine exposed grayscale anatomy retained. Qualified wall/back contact, lateral flexion and pelvic stability review pending.",
+      "canonicalName": "seated side crunch (wall)",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "abs"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0691-male-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "status": "generated",
+        "costUSD": null
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Correction grounds buttocks on floor at wall base, knees bent and feet stable across center/opposite lateral bends. Red softened to diffuse teaching tint on opaque shirt with natural folds. Fine exposed grayscale anatomy retained. Qualified wall/back contact, lateral flexion and pelvic stability review pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0691-male-anatomical-white-v2-p1-499ac3a72063.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 30492,
+          "sha256": "499ac3a7206352bdba97fc8a55b41c651c329cd2f01d059bb5ea1d6e7b0361ef"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0691-male-anatomical-white-v2-p2-fd681521f137.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 32442,
+          "sha256": "fd681521f137e76db9af6c27b4ff4deecd71fc0f55dc8bc4bb4b4858c2c8d8cd"
+        },
+        {
+          "pose": "p3",
+          "path": "/workout/illustration-pilot/0691-male-anatomical-white-v2-p3-885da7b9f38a.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 31174,
+          "sha256": "885da7b9f38a53d569e52e5d1d868782878a3725f6feb2a47e9e0aeee3be6c3c"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0691-male-anatomical-white-v2-thumb-cce8466504ea.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 4012,
+        "sha256": "cce8466504eaf565f5b95acc44a4c68ee1718de55478f126f4284e0df63d9fa7"
+      },
+      "processingSignature": "11828b37221b589504a42353f2daaed0e9dddab474d2e9f7732f14982ab0726d",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0691-male-anatomical-white-v2.png",
+        "width": 2172,
+        "height": 724,
+        "bytes": 2141594,
+        "sha256": "356062b43b6b308d6d3cccf629c21f0d779cf6fe01fe2616493f4b3a71d75702"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0691",
+          "variant": "male",
+          "key": "0691-male-anatomical-white-v1",
+          "layout": {
+            "columns": 3,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Sit against the wall with knees bent, feet flat and hands lightly behind the head."
+            },
+            {
+              "key": "p2",
+              "caption": "Lean sideways toward the left hip, keeping the pelvis steady."
+            },
+            {
+              "key": "p3",
+              "caption": "Return through center, then lean toward the right hip and alternate sides."
+            }
+          ],
+          "detail": "SEATED SIDE CRUNCH AGAINST WALL, THREE equal SQUARE panels in one row, SAME fixed frontal view, model/scale/lighting constant. Sit FLOOR with back touching a simple pale gray vertical WALL visible behind, hips planted and knees BENT with both feet FLAT FLOOR hip width, feet/knees/pelvis remain identical in all panels. Fingertips lightly behind ears/head elbows out, do not pull neck. LEFT: tall neutral center trunk. CENTER: LATERALLY SIDE-BEND toward IMAGE LEFT, left elbow moves closer left hip, right side waist lengthens, shoulders tilt LEFT, sternum still faces camera, no torso twist. RIGHT: side bend toward IMAGE RIGHT, right elbow closer right hip, left waist lengthens, shoulders tilt RIGHT, sternum faces camera. Both hips stay grounded floor and back slides along wall, knees and both feet unmoved. Head stays aligned with spine, arms remain behind head. Motion is side-flexion, NOT forward crunch, not elbows toward knees. Primary abdominal region ONE smoothly diffuse BLURRED red tint on intact lower-front shirt abdomen, broad cloth folds only, no rays/fibers/sixpack pattern. Exposed arms and calves fine grayscale anatomy.",
+          "prompt": "Original educational exercise illustration. Attached original project artwork STYLE ONLY never pose/equipment reference. Neutral adult MALE, premium fine detailed grayscale anatomical fibers on EXPOSED muscles, pure white background. Fully OPAQUE matte BLACK sleeveless shirt covers torso front sides back abdomen; loose knee-length BLACK shorts wrap both thighs front sides rear seat crotch, closed seams/hems and broad natural folds. Black trainers. Red PRIMARY only as specified; over cloth ONE smooth diffuse blurred tint without rays/fibers/sixpack divisions. Whole body fingers shoes and equipment within generous white margins. No text/labels/arrows/logos. SEATED SIDE CRUNCH AGAINST WALL, THREE equal SQUARE panels in one row, SAME fixed frontal view, model/scale/lighting constant. Sit FLOOR with back touching a simple pale gray vertical WALL visible behind, hips planted and knees BENT with both feet FLAT FLOOR hip width, feet/knees/pelvis remain identical in all panels. Fingertips lightly behind ears/head elbows out, do not pull neck. LEFT: tall neutral center trunk. CENTER: LATERALLY SIDE-BEND toward IMAGE LEFT, left elbow moves closer left hip, right side waist lengthens, shoulders tilt LEFT, sternum still faces camera, no torso twist. RIGHT: side bend toward IMAGE RIGHT, right elbow closer right hip, left waist lengthens, shoulders tilt RIGHT, sternum faces camera. Both hips stay grounded floor and back slides along wall, knees and both feet unmoved. Head stays aligned with spine, arms remain behind head. Motion is side-flexion, NOT forward crunch, not elbows toward knees. Primary abdominal region ONE smoothly diffuse BLURRED red tint on intact lower-front shirt abdomen, broad cloth folds only, no rays/fibers/sixpack pattern. Exposed arms and calves fine grayscale anatomy.",
+          "inspectionNote": "Frontal center and opposite side bends with hands lightly behind ears, feet and knees stable, clothing opaque. Buttocks appear raised above wall/floor junction like unsupported wall sit rather than floor-seated; correction required. Abdomen tint has streaks requiring smoothing. Qualified side-flexion and pelvic contact review pending.",
+          "canonicalName": "seated side crunch (wall)",
+          "styleVersion": "white-v1",
+          "equipment": "body weight",
+          "primaryMuscles": [
+            "abs"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Frontal center and opposite side bends with hands lightly behind ears, feet and knees stable, clothing opaque. Buttocks appear raised above wall/floor junction like unsupported wall sit rather than floor-seated; correction required. Abdomen tint has streaks requiring smoothing. Qualified side-flexion and pelvic contact review pending.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0691-male-anatomical-white-v1-p1-896926e98300.webp",
+              "width": 724,
+              "height": 724,
+              "bytes": 23810,
+              "sha256": "896926e98300f42a7cee85d35b0e450dd0497759f29da236a1ef27bedd857d00"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0691-male-anatomical-white-v1-p2-06e591249574.webp",
+              "width": 724,
+              "height": 724,
+              "bytes": 25022,
+              "sha256": "06e591249574eb621b7fac353c10190547b55db14f806864f2d986016444725c"
+            },
+            {
+              "pose": "p3",
+              "path": "/workout/illustration-pilot/0691-male-anatomical-white-v1-p3-0409ac2e7142.webp",
+              "width": 724,
+              "height": 724,
+              "bytes": 24502,
+              "sha256": "0409ac2e7142ff2350cc840055f1cf30bb15b4ef0ed71c37d6b44dce650e653e"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0691-male-anatomical-white-v1-thumb-ee7fdcb79669.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 3558,
+            "sha256": "ee7fdcb79669917dcf88c786d783a72f0022c5b0230c5d48ee102a5ab0285702"
+          },
+          "processingSignature": "17f99ab8a601e34cca6685bacbf52dd7ae7dc07693680711ea0df57cc2c8a03c",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0691-male-anatomical-white-v1.png",
+            "width": 2172,
+            "height": 724,
+            "bytes": 1919571,
+            "sha256": "6f850f9cf85c7115c75439e7a0e437c36c1df87ee2f4186ec16929537ec50993"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "0691",
+      "variant": "female",
+      "key": "0691-female-anatomical-white-v2",
+      "layout": {
+        "columns": 3,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Sit against the wall with knees bent, feet flat and hands lightly behind the head."
+        },
+        {
+          "key": "p2",
+          "caption": "Lean sideways toward the left hip, keeping the pelvis steady."
+        },
+        {
+          "key": "p3",
+          "caption": "Return through center, then lean toward the right hip and alternate sides."
+        }
+      ],
+      "detail": "SEATED SIDE CRUNCH AGAINST WALL, THREE equal SQUARE panels in one row, SAME fixed frontal view, model/scale/lighting constant. Sit FLOOR with back touching a simple pale gray vertical WALL visible behind, hips planted and knees BENT with both feet FLAT FLOOR hip width, feet/knees/pelvis remain identical in all panels. Fingertips lightly behind ears/head elbows out, do not pull neck. LEFT: tall neutral center trunk. CENTER: LATERALLY SIDE-BEND toward IMAGE LEFT, left elbow moves closer left hip, right side waist lengthens, shoulders tilt LEFT, sternum still faces camera, no torso twist. RIGHT: side bend toward IMAGE RIGHT, right elbow closer right hip, left waist lengthens, shoulders tilt RIGHT, sternum faces camera. Both hips stay grounded floor and back slides along wall, knees and both feet unmoved. Head stays aligned with spine, arms remain behind head. Motion is side-flexion, NOT forward crunch, not elbows toward knees. Primary abdominal region ONE smoothly diffuse BLURRED red tint on intact lower-front shirt abdomen, broad cloth folds only, no rays/fibers/sixpack pattern. Exposed arms and calves fine grayscale anatomy.",
+      "prompt": "Correct original project THREE-panel seated wall side crunch. Keep same center/left-bend/right-bend torso sequence, front view, hands behind ears, opaque black clothes and detailed exposed grayscale muscles. CRITICAL model must SIT with BUTTOCKS resting DIRECTLY on FLOOR at wall base in EVERY panel, not hovering in a wall squat. Lower pelvis fully to floor, thighs slope up from low grounded hips to bent knees, feet flat forward. Clearly show seat/floor contact and wall/floor junction BEHIND at seat height, back against wall. No chair/bench. Keep pelvis/feet identical across panels, torso laterally bends without twist. Replace all abdomen red streaks with ONE smooth diffuse BLURRED red patch over intact opaque black shirt; no rays/fibers/sixpack divisions, broad natural fabric folds only. Recompose as WIDE LANDSCAPE THREE equal SQUARE panels in one row, minimal unused white top/bottom, full heads/elbows/shoes inside cell margins. Preserve fine grayscale exposed muscle fibers, fully opaque torso/front/sides/back and shorts seat/crotch. No text.",
+      "inspectionNote": "Correction grounds buttocks on floor at wall base and produces three square landscape cells. Knees bent and feet stable across center/opposite side bends; red smoother over opaque shirt with natural broad folds. Fine exposed grayscale anatomy retained. Qualified side-flexion, wall/back contact and pelvic stability review pending.",
+      "canonicalName": "seated side crunch (wall)",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "abs"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0691-female-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "status": "generated",
+        "costUSD": null
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Correction grounds buttocks on floor at wall base and produces three square landscape cells. Knees bent and feet stable across center/opposite side bends; red smoother over opaque shirt with natural broad folds. Fine exposed grayscale anatomy retained. Qualified side-flexion, wall/back contact and pelvic stability review pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0691-female-anatomical-white-v2-p1-d153b839dbdf.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 31696,
+          "sha256": "d153b839dbdfafcae3eb4753b9583aa058a49c93a6f40a08cfd98cb48556c322"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0691-female-anatomical-white-v2-p2-edb085c56bd0.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 33358,
+          "sha256": "edb085c56bd05b9a47cfd4c8af1375645dd46eb1834c16594fced4a641f98a32"
+        },
+        {
+          "pose": "p3",
+          "path": "/workout/illustration-pilot/0691-female-anatomical-white-v2-p3-570df0d02aed.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 32130,
+          "sha256": "570df0d02aed939f85cc1cb2c967b7f1aa1dea4fae91cca36b49ffcf56d2f507"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0691-female-anatomical-white-v2-thumb-8399b93db267.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 3756,
+        "sha256": "8399b93db267a86d7c6f3f92f01d8d3acb97fd44d46a7b9f56ba3f0471d696be"
+      },
+      "processingSignature": "a664ff3a2a88772b7f9a50102ff4a5f349e40b95e0c2a1b690ddc5d6712a833f",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0691-female-anatomical-white-v2.png",
+        "width": 2172,
+        "height": 724,
+        "bytes": 2250333,
+        "sha256": "f205492f9c18bda414116a8ab75b021a4a94a5e072a076474164a26e9660723f"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0691",
+          "variant": "female",
+          "key": "0691-female-anatomical-white-v1",
+          "layout": {
+            "columns": 3,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Sit against the wall with knees bent, feet flat and hands lightly behind the head."
+            },
+            {
+              "key": "p2",
+              "caption": "Lean sideways toward the left hip, keeping the pelvis steady."
+            },
+            {
+              "key": "p3",
+              "caption": "Return through center, then lean toward the right hip and alternate sides."
+            }
+          ],
+          "detail": "SEATED SIDE CRUNCH AGAINST WALL, THREE equal SQUARE panels in one row, SAME fixed frontal view, model/scale/lighting constant. Sit FLOOR with back touching a simple pale gray vertical WALL visible behind, hips planted and knees BENT with both feet FLAT FLOOR hip width, feet/knees/pelvis remain identical in all panels. Fingertips lightly behind ears/head elbows out, do not pull neck. LEFT: tall neutral center trunk. CENTER: LATERALLY SIDE-BEND toward IMAGE LEFT, left elbow moves closer left hip, right side waist lengthens, shoulders tilt LEFT, sternum still faces camera, no torso twist. RIGHT: side bend toward IMAGE RIGHT, right elbow closer right hip, left waist lengthens, shoulders tilt RIGHT, sternum faces camera. Both hips stay grounded floor and back slides along wall, knees and both feet unmoved. Head stays aligned with spine, arms remain behind head. Motion is side-flexion, NOT forward crunch, not elbows toward knees. Primary abdominal region ONE smoothly diffuse BLURRED red tint on intact lower-front shirt abdomen, broad cloth folds only, no rays/fibers/sixpack pattern. Exposed arms and calves fine grayscale anatomy.",
+          "prompt": "Original educational exercise illustration. Attached original project artwork STYLE ONLY never pose/equipment reference. Neutral adult FEMALE, premium fine detailed grayscale anatomical fibers on EXPOSED muscles, pure white background. Fully OPAQUE matte BLACK sleeveless shirt covers torso front sides back abdomen; loose knee-length BLACK shorts wrap both thighs front sides rear seat crotch, closed seams/hems and broad natural folds. Black trainers. Red PRIMARY only as specified; over cloth ONE smooth diffuse blurred tint without rays/fibers/sixpack divisions. Whole body fingers shoes and equipment within generous white margins. No text/labels/arrows/logos. SEATED SIDE CRUNCH AGAINST WALL, THREE equal SQUARE panels in one row, SAME fixed frontal view, model/scale/lighting constant. Sit FLOOR with back touching a simple pale gray vertical WALL visible behind, hips planted and knees BENT with both feet FLAT FLOOR hip width, feet/knees/pelvis remain identical in all panels. Fingertips lightly behind ears/head elbows out, do not pull neck. LEFT: tall neutral center trunk. CENTER: LATERALLY SIDE-BEND toward IMAGE LEFT, left elbow moves closer left hip, right side waist lengthens, shoulders tilt LEFT, sternum still faces camera, no torso twist. RIGHT: side bend toward IMAGE RIGHT, right elbow closer right hip, left waist lengthens, shoulders tilt RIGHT, sternum faces camera. Both hips stay grounded floor and back slides along wall, knees and both feet unmoved. Head stays aligned with spine, arms remain behind head. Motion is side-flexion, NOT forward crunch, not elbows toward knees. Primary abdominal region ONE smoothly diffuse BLURRED red tint on intact lower-front shirt abdomen, broad cloth folds only, no rays/fibers/sixpack pattern. Exposed arms and calves fine grayscale anatomy.",
+          "inspectionNote": "Frontal opposite lateral bends with feet stable and opaque clothing, fine grayscale exposed anatomy. Apparent unsupported wall-sit rather than floor seat, streaked cloth tint and tall master with narrow cells need correction. Human pelvic support and side-flexion review pending.",
+          "canonicalName": "seated side crunch (wall)",
+          "styleVersion": "white-v1",
+          "equipment": "body weight",
+          "primaryMuscles": [
+            "abs"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Frontal opposite lateral bends with feet stable and opaque clothing, fine grayscale exposed anatomy. Apparent unsupported wall-sit rather than floor seat, streaked cloth tint and tall master with narrow cells need correction. Human pelvic support and side-flexion review pending.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0691-female-anatomical-white-v1-p1-4f864c235772.webp",
+              "width": 400,
+              "height": 1200,
+              "bytes": 20862,
+              "sha256": "4f864c23577239f94961371696ba35942191e074ac893d1b3b3e34dd57885704"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0691-female-anatomical-white-v1-p2-987fb6c3fea1.webp",
+              "width": 400,
+              "height": 1200,
+              "bytes": 21798,
+              "sha256": "987fb6c3fea1a87e742d77c8c183dafe7c6387b0d9958c7179b9a8eb54a239c5"
+            },
+            {
+              "pose": "p3",
+              "path": "/workout/illustration-pilot/0691-female-anatomical-white-v1-p3-729a32b95271.webp",
+              "width": 400,
+              "height": 1200,
+              "bytes": 20864,
+              "sha256": "729a32b9527121bd71c99bcc5f93ff9dec91b9f72cf280e0977301cfe608873f"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0691-female-anatomical-white-v1-thumb-28c8f0e36509.webp",
+            "width": 80,
+            "height": 240,
+            "bytes": 1462,
+            "sha256": "28c8f0e3650944da4e799e02240870cab2a18f81d8c5bb043f25031e25077d22"
+          },
+          "processingSignature": "0b7d6e0c110f2350c8ef85bb8e240bb3463791aeefc74b67bfdf4936f3e39722",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0691-female-anatomical-white-v1.png",
+            "width": 1254,
+            "height": 1254,
+            "bytes": 1785588,
+            "sha256": "a16b33881ca669aceb7ff4b66669acae45866608d7b5bdc4930c267e9844cf2b"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "0693",
+      "variant": "male",
+      "key": "0693-male-anatomical-white-v1",
+      "layout": {
+        "columns": 1,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Sit with one leg straight, loop a towel around the ball of the foot and gently pull the toes toward the shin. Hold 20\u201330 seconds, then switch legs."
+        }
+      ],
+      "detail": "SEATED STRAIGHT-LEG CALF STRETCH, ONE static hold full-body SIDE three-quarter view. Sit FLOOR on thin gray mat, ONE near leg extended straight ahead heel on mat KNEE fully straight, shoe toe UP toward shin. Other leg bent relaxed outward, foot near inner thigh. LONG GRAY TOWEL looped around BALL of extended foot (forefoot just behind toes, across sole), BOTH towel ends extend toward TWO hands held in front waist. Gently pull BOTH ends toward torso so forefoot dorsiflexes toes toward shin, heel stays grounded, knee stays straight. Towel is visibly separate continuous textile, no band anchored elsewhere, no bare foot. Spine long neutral, slight hip hinge, shoulders relaxed, neck neutral. Highlight PRIMARY CALF of straight near leg RED with fine anatomical fibers on EXPOSED calf BETWEEN shorts hem and shoe, NO red on thigh/shirt/other muscles. Clothing fully opaque intact black, towel gray. Entire model/towel/shoes inside generous white margins. No text.",
+      "prompt": "Original educational exercise illustration. Attached original project artwork STYLE ONLY never pose/equipment reference. Neutral adult MALE, premium fine detailed grayscale anatomical fibers on EXPOSED muscles, pure white background. Fully OPAQUE matte BLACK sleeveless shirt covers torso front sides back abdomen; loose knee-length BLACK shorts wrap both thighs front sides rear seat crotch, closed seams/hems and broad natural folds. Black trainers. Red PRIMARY only as specified; over cloth ONE smooth diffuse blurred tint without rays/fibers/sixpack divisions. Whole body fingers shoes and equipment within generous white margins. No text/labels/arrows/logos. SEATED STRAIGHT-LEG CALF STRETCH, ONE static hold full-body SIDE three-quarter view. Sit FLOOR on thin gray mat, ONE near leg extended straight ahead heel on mat KNEE fully straight, shoe toe UP toward shin. Other leg bent relaxed outward, foot near inner thigh. LONG GRAY TOWEL looped around BALL of extended foot (forefoot just behind toes, across sole), BOTH towel ends extend toward TWO hands held in front waist. Gently pull BOTH ends toward torso so forefoot dorsiflexes toes toward shin, heel stays grounded, knee stays straight. Towel is visibly separate continuous textile, no band anchored elsewhere, no bare foot. Spine long neutral, slight hip hinge, shoulders relaxed, neck neutral. Highlight PRIMARY CALF of straight near leg RED with fine anatomical fibers on EXPOSED calf BETWEEN shorts hem and shoe, NO red on thigh/shirt/other muscles. Clothing fully opaque intact black, towel gray. Entire model/towel/shoes inside generous white margins. No text.",
+      "inspectionNote": "Single static calf stretch, straight near knee heel grounded toe dorsiflexed, gray towel around forefoot with ends in both hands, other leg bent. Full model/towel contained. Detailed grayscale anatomy and exposed red calf, opaque full shirt/shorts. Qualified calf localization, towel routing and dorsiflexion mechanics review pending.",
+      "canonicalName": "seated straight leg calf stretch",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "calves"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Single static calf stretch, straight near knee heel grounded toe dorsiflexed, gray towel around forefoot with ends in both hands, other leg bent. Full model/towel contained. Detailed grayscale anatomy and exposed red calf, opaque full shirt/shorts. Qualified calf localization, towel routing and dorsiflexion mechanics review pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0693-male-anatomical-white-v1-p1-c2940072c5b2.webp",
+          "width": 1200,
+          "height": 600,
+          "bytes": 32840,
+          "sha256": "c2940072c5b29a4dcd10028be3f6233bc441f47dc6647c3fefd85963915999ba"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0693-male-anatomical-white-v1-thumb-f100e1a58bc5.webp",
+        "width": 240,
+        "height": 120,
+        "bytes": 2262,
+        "sha256": "f100e1a58bc505a1026ca5f45425fcff4e49b0735a57ae65c9bab51a681b3d1a"
+      },
+      "processingSignature": "e5a9ddf46f78d889fe2a593ff687fb0cc6e07143331f57bc335ca4e3c640eb46",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0693-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1494915,
+        "sha256": "7c79c296e60b8740b681b8fafba52676eddc634b04a54e8ec9d0cf8e1cf8fa93"
+      }
+    },
+    {
+      "exerciseId": "0693",
+      "variant": "female",
+      "key": "0693-female-anatomical-white-v1",
+      "layout": {
+        "columns": 1,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Sit with one leg straight, loop a towel around the ball of the foot and gently pull the toes toward the shin. Hold 20\u201330 seconds, then switch legs."
+        }
+      ],
+      "detail": "SEATED STRAIGHT-LEG CALF STRETCH, ONE static hold full-body SIDE three-quarter view. Sit FLOOR on thin gray mat, ONE near leg extended straight ahead heel on mat KNEE fully straight, shoe toe UP toward shin. Other leg bent relaxed outward, foot near inner thigh. LONG GRAY TOWEL looped around BALL of extended foot (forefoot just behind toes, across sole), BOTH towel ends extend toward TWO hands held in front waist. Gently pull BOTH ends toward torso so forefoot dorsiflexes toes toward shin, heel stays grounded, knee stays straight. Towel is visibly separate continuous textile, no band anchored elsewhere, no bare foot. Spine long neutral, slight hip hinge, shoulders relaxed, neck neutral. Highlight PRIMARY CALF of straight near leg RED with fine anatomical fibers on EXPOSED calf BETWEEN shorts hem and shoe, NO red on thigh/shirt/other muscles. Clothing fully opaque intact black, towel gray. Entire model/towel/shoes inside generous white margins. No text.",
+      "prompt": "Original educational exercise illustration. Attached original project artwork STYLE ONLY never pose/equipment reference. Neutral adult FEMALE, premium fine detailed grayscale anatomical fibers on EXPOSED muscles, pure white background. Fully OPAQUE matte BLACK sleeveless shirt covers torso front sides back abdomen; loose knee-length BLACK shorts wrap both thighs front sides rear seat crotch, closed seams/hems and broad natural folds. Black trainers. Red PRIMARY only as specified; over cloth ONE smooth diffuse blurred tint without rays/fibers/sixpack divisions. Whole body fingers shoes and equipment within generous white margins. No text/labels/arrows/logos. SEATED STRAIGHT-LEG CALF STRETCH, ONE static hold full-body SIDE three-quarter view. Sit FLOOR on thin gray mat, ONE near leg extended straight ahead heel on mat KNEE fully straight, shoe toe UP toward shin. Other leg bent relaxed outward, foot near inner thigh. LONG GRAY TOWEL looped around BALL of extended foot (forefoot just behind toes, across sole), BOTH towel ends extend toward TWO hands held in front waist. Gently pull BOTH ends toward torso so forefoot dorsiflexes toes toward shin, heel stays grounded, knee stays straight. Towel is visibly separate continuous textile, no band anchored elsewhere, no bare foot. Spine long neutral, slight hip hinge, shoulders relaxed, neck neutral. Highlight PRIMARY CALF of straight near leg RED with fine anatomical fibers on EXPOSED calf BETWEEN shorts hem and shoe, NO red on thigh/shirt/other muscles. Clothing fully opaque intact black, towel gray. Entire model/towel/shoes inside generous white margins. No text.",
+      "inspectionNote": "Single static calf stretch, knee straight heel grounded toe dorsiflexed, gray towel around forefoot ends in both hands, other leg bent. Model/towel contained with narrow upper head margin. Detailed exposed grayscale muscles and red calf, full opaque shirt/shorts. Qualified calf localization, towel routing and joint mechanics review pending.",
+      "canonicalName": "seated straight leg calf stretch",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "calves"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Single static calf stretch, knee straight heel grounded toe dorsiflexed, gray towel around forefoot ends in both hands, other leg bent. Model/towel contained with narrow upper head margin. Detailed exposed grayscale muscles and red calf, full opaque shirt/shorts. Qualified calf localization, towel routing and joint mechanics review pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0693-female-anatomical-white-v1-p1-fdaf4ce3ee0f.webp",
+          "width": 1200,
+          "height": 600,
+          "bytes": 36052,
+          "sha256": "fdaf4ce3ee0f7d4fe5c328d7e466a1312389e9fb8a811b18eeab31c7477c3f69"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0693-female-anatomical-white-v1-thumb-80e2520fc755.webp",
+        "width": 240,
+        "height": 120,
+        "bytes": 2256,
+        "sha256": "80e2520fc7558716519bc16e6a1608b9916f2a3183d0cf617bcf059af50cc74d"
+      },
+      "processingSignature": "fbb3d54613e648bf02a37859bfc6f7446fb07a8524acc7b5019876efd1620de8",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0693-female-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1536674,
+        "sha256": "51b0411b5c5c88f5932146053bf91d44a4fbcdd43926a131e19b5c95762aba67"
+      }
+    }
+  ]
+}

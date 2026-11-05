@@ -1,0 +1,758 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "0642",
+      "variant": "male",
+      "key": "0642-male-anatomical-white-v2",
+      "layout": {
+        "columns": 3,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Lower into a push-up with both legs straight behind"
+        },
+        {
+          "key": "p2",
+          "caption": "Press up and extend the right leg out to the side"
+        },
+        {
+          "key": "p3",
+          "caption": "After returning and repeating the push-up, extend the left leg to the side"
+        }
+      ],
+      "detail": "OUTSIDE LEG KICK PUSH-UP, THREE phases, whole body overhead-rear three-quarter camera enough to see TWO hips, two legs and all hands/feet. Head image LEFT, feet image RIGHT, mat wide under body. Hands wider than shoulders planted unchanged, fingers forward, core straight. LEFT bottom push-up: elbows bent about90degrees, torso straight low above mat, BOTH legs straight together behind, toes support. MIDDLE press elbows STRAIGHT to high plank and move RIGHT leg STRAIGHT OUT SIDEWAYS away from hip about45degrees (toward BACK/FAR side), right foot lifted clear, LEFT leg stays straight behind with left toes mat, pelvis level. RIGHT after next push-up repetition now high plank and LEFT leg straight out SIDEWAYS (toward FRONT/NEAR side), LEFT foot clear, RIGHT leg straight behind toes mat. Clearly exchange leg origins between two high plank phases, trace every hip-thigh-knee-shoe, no extra leg/no bent knee. Do not lift leg vertically behind; lateral abduction. Primary GLUTES red only SOFT DIFFUSE tint on intact opaque black side/rear hip shorts, no fiber/radial pattern/cutaway. All exposed limbs fine grayscale anatomical fibers, clothing fully opaque wraps whole seat/crotch/front/sides/rear. No red chest/triceps. No text.",
+      "prompt": "Edit original project three-panel FLOOR outside-leg-kick push-up. Keep first bottom push-up and middle high plank, same camera, model, hands planted flat on FLOOR MAT. In RIGHT FINAL panel straighten NEAR/foreground LEFT KNEE fully: draw one continuous STRAIGHT leg from left hip through extended knee/shin to shoe, held OUT SIDEWAYS toward foreground about45degrees, foot off mat. No knee tuck or forward lunge. FAR/right leg remains straight behind with toes mat. Both hands remain floor high plank elbows straight, hips level and trunk straight. Preserve exact TWO legs/arms, detailed fine grayscale anatomical fibers on EXPOSED limbs. ALL panels repaint glute highlights as smoothly blurred diffuse red on continuous OPAQUE matte BLACK shorts, no radial rays/starburst/fibers/muscle divisions through garment. Shorts fully wrap front sides back seat crotch, intact hems, opaque shirt. Whole figure within panel margins, no text.",
+      "inspectionNote": "Final near leg now straighter and lifted, far leg extends behind; floor push-up support retained. Lateral abduction and supporting toe contact need qualified review. Glute cloth retains radial pattern after softening edit and remains blocked. Full opaque garments and detailed exposed grayscale anatomy retained.",
+      "canonicalName": "outside leg kick push-up",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "glutes"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0642-male-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "status": "generated",
+        "costUSD": null
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Final near leg now straighter and lifted, far leg extends behind; floor push-up support retained. Lateral abduction and supporting toe contact need qualified review. Glute cloth retains radial pattern after softening edit and remains blocked. Full opaque garments and detailed exposed grayscale anatomy retained.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0642-male-anatomical-white-v2-p1-8d588c98ca57.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 20260,
+          "sha256": "8d588c98ca5769cd243e075d508f42d953e04eacdc7b96021e79d855246c2b1c"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0642-male-anatomical-white-v2-p2-2e696fe36e2a.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 23276,
+          "sha256": "2e696fe36e2a2060a9d119219312f8bd2648394a6a94c04193cdeffbfa657306"
+        },
+        {
+          "pose": "p3",
+          "path": "/workout/illustration-pilot/0642-male-anatomical-white-v2-p3-7d0fe7362611.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 22912,
+          "sha256": "7d0fe73626117e44f6bed0f7ea2082eb8c5ccf736fd29767374d80f6113867df"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0642-male-anatomical-white-v2-thumb-2f6268c34607.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2942,
+        "sha256": "2f6268c34607215291db5c92a97205de4f8c7255f22c4db4009066204d10588c"
+      },
+      "processingSignature": "a84f9b64adc9763fd0011410500ac6f6eff95df0936f9c9b2ef5b1f234721136",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0642-male-anatomical-white-v2.png",
+        "width": 2172,
+        "height": 724,
+        "bytes": 1785807,
+        "sha256": "aeb10a775c4cc49b5a77c3091fd0858f2331e21cbad6ee0d1fa235cc93e78c6c"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0642",
+          "variant": "male",
+          "key": "0642-male-anatomical-white-v1",
+          "layout": {
+            "columns": 3,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Lower into a push-up with both legs straight behind"
+            },
+            {
+              "key": "p2",
+              "caption": "Press up and extend the right leg out to the side"
+            },
+            {
+              "key": "p3",
+              "caption": "After returning and repeating the push-up, extend the left leg to the side"
+            }
+          ],
+          "detail": "OUTSIDE LEG KICK PUSH-UP, THREE phases, whole body overhead-rear three-quarter camera enough to see TWO hips, two legs and all hands/feet. Head image LEFT, feet image RIGHT, mat wide under body. Hands wider than shoulders planted unchanged, fingers forward, core straight. LEFT bottom push-up: elbows bent about90degrees, torso straight low above mat, BOTH legs straight together behind, toes support. MIDDLE press elbows STRAIGHT to high plank and move RIGHT leg STRAIGHT OUT SIDEWAYS away from hip about45degrees (toward BACK/FAR side), right foot lifted clear, LEFT leg stays straight behind with left toes mat, pelvis level. RIGHT after next push-up repetition now high plank and LEFT leg straight out SIDEWAYS (toward FRONT/NEAR side), LEFT foot clear, RIGHT leg straight behind toes mat. Clearly exchange leg origins between two high plank phases, trace every hip-thigh-knee-shoe, no extra leg/no bent knee. Do not lift leg vertically behind; lateral abduction. Primary GLUTES red only SOFT DIFFUSE tint on intact opaque black side/rear hip shorts, no fiber/radial pattern/cutaway. All exposed limbs fine grayscale anatomical fibers, clothing fully opaque wraps whole seat/crotch/front/sides/rear. No red chest/triceps. No text.",
+          "prompt": "Original educational exercise illustration. Attached original project artwork is STYLE reference ONLY, never pose reference. Detailed fine grayscale anatomical fibers on exposed arms and legs, realistic neutral adult MALE; pure white background. THREE equal side-by-side panels, same exact model, camera and lighting. FULLY OPAQUE matte BLACK sleeveless shirt continuously wraps torso front/sides/back. Loose BLACK knee-length shorts fully wrap both upper thighs, front, sides, rear, seat and crotch with closed hems/seams and natural fabric folds. Never translucent fabric, bare buttocks, anatomy windows, clothing cutaways or muscle-fiber patterns on clothes. Black trainers. Red PRIMARY muscle highlights only as specified, over clothing one soft diffuse blurred tint on intact black fabric, no anatomy divisions or fibers. Entire person, shoes, hands and apparatus fit in EACH panel with generous white margins. No text, arrows, logos or numbers. OUTSIDE LEG KICK PUSH-UP, THREE phases, whole body overhead-rear three-quarter camera enough to see TWO hips, two legs and all hands/feet. Head image LEFT, feet image RIGHT, mat wide under body. Hands wider than shoulders planted unchanged, fingers forward, core straight. LEFT bottom push-up: elbows bent about90degrees, torso straight low above mat, BOTH legs straight together behind, toes support. MIDDLE press elbows STRAIGHT to high plank and move RIGHT leg STRAIGHT OUT SIDEWAYS away from hip about45degrees (toward BACK/FAR side), right foot lifted clear, LEFT leg stays straight behind with left toes mat, pelvis level. RIGHT after next push-up repetition now high plank and LEFT leg straight out SIDEWAYS (toward FRONT/NEAR side), LEFT foot clear, RIGHT leg straight behind toes mat. Clearly exchange leg origins between two high plank phases, trace every hip-thigh-knee-shoe, no extra leg/no bent knee. Do not lift leg vertically behind; lateral abduction. Primary GLUTES red only SOFT DIFFUSE tint on intact opaque black side/rear hip shorts, no fiber/radial pattern/cutaway. All exposed limbs fine grayscale anatomical fibers, clothing fully opaque wraps whole seat/crotch/front/sides/rear. No red chest/triceps. No text.",
+          "inspectionNote": "Three push-up/lateral leg phases show low push-up then high planks with far/near leg movement. Final near knee bends rather than straight lateral kick; red glute tint has radial lines in opaque shorts. Need straight near leg and diffuse cloth correction; body alignment and supporting-toe continuity human review.",
+          "canonicalName": "outside leg kick push-up",
+          "styleVersion": "white-v1",
+          "equipment": "body weight",
+          "primaryMuscles": [
+            "glutes"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Three push-up/lateral leg phases show low push-up then high planks with far/near leg movement. Final near knee bends rather than straight lateral kick; red glute tint has radial lines in opaque shorts. Need straight near leg and diffuse cloth correction; body alignment and supporting-toe continuity human review.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0642-male-anatomical-white-v1-p1-3a0fda4bfa9c.webp",
+              "width": 724,
+              "height": 724,
+              "bytes": 22918,
+              "sha256": "3a0fda4bfa9cbf1311e3f010e112237abf4b0e7801022a26f1931c46e574292f"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0642-male-anatomical-white-v1-p2-96c98dc83e74.webp",
+              "width": 724,
+              "height": 724,
+              "bytes": 25610,
+              "sha256": "96c98dc83e745489f1b418a290f31fa0ad150df907d3747dead5f17100bdf50a"
+            },
+            {
+              "pose": "p3",
+              "path": "/workout/illustration-pilot/0642-male-anatomical-white-v1-p3-c82f277e9e30.webp",
+              "width": 724,
+              "height": 724,
+              "bytes": 24720,
+              "sha256": "c82f277e9e3018b0f3fd4118e984b20a430c6d73d4154bd0973bf867e1bee3bb"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0642-male-anatomical-white-v1-thumb-b51a2fe19a80.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 2924,
+            "sha256": "b51a2fe19a8060813b8445cb46f5e4822eaf62b32cdeef82f4f671db60786a51"
+          },
+          "processingSignature": "b4b567055f4fa98aa15e28299d7bef9766ab001fce0bf5d629fc66fc6abf17ce",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0642-male-anatomical-white-v1.png",
+            "width": 2172,
+            "height": 724,
+            "bytes": 1721208,
+            "sha256": "0c4f933f8455eba722aa3b1a5421c730dcf561837d5d34788504f4f33f877cb3"
+          }
+        }
+      ],
+      "blockingIssues": [
+        "Residual radial glute fabric pattern; supporting-foot contact and lateral kick range require correction/review."
+      ]
+    },
+    {
+      "exerciseId": "0642",
+      "variant": "female",
+      "key": "0642-female-anatomical-white-v2",
+      "layout": {
+        "columns": 3,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Lower into a push-up with both legs straight behind"
+        },
+        {
+          "key": "p2",
+          "caption": "Press up and extend the right leg out to the side"
+        },
+        {
+          "key": "p3",
+          "caption": "After returning and repeating the push-up, extend the left leg to the side"
+        }
+      ],
+      "detail": "OUTSIDE LEG KICK PUSH-UP, THREE phases, whole body overhead-rear three-quarter camera enough to see TWO hips, two legs and all hands/feet. Head image LEFT, feet image RIGHT, mat wide under body. Hands wider than shoulders planted unchanged, fingers forward, core straight. LEFT bottom push-up: elbows bent about90degrees, torso straight low above mat, BOTH legs straight together behind, toes support. MIDDLE press elbows STRAIGHT to high plank and move RIGHT leg STRAIGHT OUT SIDEWAYS away from hip about45degrees (toward BACK/FAR side), right foot lifted clear, LEFT leg stays straight behind with left toes mat, pelvis level. RIGHT after next push-up repetition now high plank and LEFT leg straight out SIDEWAYS (toward FRONT/NEAR side), LEFT foot clear, RIGHT leg straight behind toes mat. Clearly exchange leg origins between two high plank phases, trace every hip-thigh-knee-shoe, no extra leg/no bent knee. Do not lift leg vertically behind; lateral abduction. Primary GLUTES red only SOFT DIFFUSE tint on intact opaque black side/rear hip shorts, no fiber/radial pattern/cutaway. All exposed limbs fine grayscale anatomical fibers, clothing fully opaque wraps whole seat/crotch/front/sides/rear. No red chest/triceps. No text.",
+      "prompt": "Correct original project female outside-leg-kick push-up. REMOVE THE ENTIRE BENCH from ALL THREE panels, replace with flat black thin floor mat. Lower BOTH planted hands onto FLOOR mat and adjust torso to a FLOOR push-up: LEFT low straight plank elbows90degrees, MIDDLE/RIGHT high straight plank arms straight. Feet/toes floor or one lateral kicked foot lifted as follows. MIDDLE: FAR/right leg straight out to FAR SIDE with right foot lifted; NEAR/left leg straight behind toes floor. RIGHT: NEAR/left leg straight out to NEAR SIDE toward foreground with LEFT foot lifted; FAR/right leg straight behind toes floor. Trace exactly TWO continuous legs hip-thigh-knee-shoe, knees fully straight, no extra limb. Camera/model same, hips level, no bench/support apparatus. Red glutes only ONE smooth diffuse blurred tint on continuous opaque black shorts with no radial rays/fiber/anatomy divisions in fabric. Shorts fully wrap front sides back seat crotch, opaque shirt. Preserve fine detailed grayscale fibers on ALL exposed limbs, female proportions. Entire figure within margins, no text.",
+      "inspectionNote": "Bench removed successfully and hands now on floor mat. Both high plank phases still appear to lift same far leg; opposite-leg exchange failed. Red glute radial pattern remains on intact opaque shorts. Detailed grayscale exposed anatomy retained; blocked pending continuity and diffuse cloth correction.",
+      "canonicalName": "outside leg kick push-up",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "glutes"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0642-female-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "status": "generated",
+        "costUSD": null
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Bench removed successfully and hands now on floor mat. Both high plank phases still appear to lift same far leg; opposite-leg exchange failed. Red glute radial pattern remains on intact opaque shorts. Detailed grayscale exposed anatomy retained; blocked pending continuity and diffuse cloth correction.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0642-female-anatomical-white-v2-p1-91d2f2744366.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 20498,
+          "sha256": "91d2f27443662dfe2f4139fcfdc489a1a57230942993142dc8a8251855a61e0a"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0642-female-anatomical-white-v2-p2-b3fc31e75119.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 24318,
+          "sha256": "b3fc31e75119bf66b9c35c9bf866fe3d02ccb0e3c1b4b977836d3a097d9a0ddf"
+        },
+        {
+          "pose": "p3",
+          "path": "/workout/illustration-pilot/0642-female-anatomical-white-v2-p3-488fb0b64e39.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 24776,
+          "sha256": "488fb0b64e39f77364cf39e404b6fcef78a50f33842c24b8c8973026865f0444"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0642-female-anatomical-white-v2-thumb-df65d6062258.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2656,
+        "sha256": "df65d606225862de036cfd15d5c41171de91b13e7ec24b42dc4ea97e6322038b"
+      },
+      "processingSignature": "e89cca5b5ceeed977dd746fc34a0f3862422f3c0124301993199b434e84d96ec",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0642-female-anatomical-white-v2.png",
+        "width": 2172,
+        "height": 724,
+        "bytes": 1804445,
+        "sha256": "e35c3ecebf0e1891bd7e6a8fa4309022aae794600211c2b5257aeee214148949"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0642",
+          "variant": "female",
+          "key": "0642-female-anatomical-white-v1",
+          "layout": {
+            "columns": 3,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Lower into a push-up with both legs straight behind"
+            },
+            {
+              "key": "p2",
+              "caption": "Press up and extend the right leg out to the side"
+            },
+            {
+              "key": "p3",
+              "caption": "After returning and repeating the push-up, extend the left leg to the side"
+            }
+          ],
+          "detail": "OUTSIDE LEG KICK PUSH-UP, THREE phases, whole body overhead-rear three-quarter camera enough to see TWO hips, two legs and all hands/feet. Head image LEFT, feet image RIGHT, mat wide under body. Hands wider than shoulders planted unchanged, fingers forward, core straight. LEFT bottom push-up: elbows bent about90degrees, torso straight low above mat, BOTH legs straight together behind, toes support. MIDDLE press elbows STRAIGHT to high plank and move RIGHT leg STRAIGHT OUT SIDEWAYS away from hip about45degrees (toward BACK/FAR side), right foot lifted clear, LEFT leg stays straight behind with left toes mat, pelvis level. RIGHT after next push-up repetition now high plank and LEFT leg straight out SIDEWAYS (toward FRONT/NEAR side), LEFT foot clear, RIGHT leg straight behind toes mat. Clearly exchange leg origins between two high plank phases, trace every hip-thigh-knee-shoe, no extra leg/no bent knee. Do not lift leg vertically behind; lateral abduction. Primary GLUTES red only SOFT DIFFUSE tint on intact opaque black side/rear hip shorts, no fiber/radial pattern/cutaway. All exposed limbs fine grayscale anatomical fibers, clothing fully opaque wraps whole seat/crotch/front/sides/rear. No red chest/triceps. No text.",
+          "prompt": "Original educational exercise illustration. Attached original project artwork is STYLE reference ONLY, never pose reference. Detailed fine grayscale anatomical fibers on exposed arms and legs, realistic neutral adult FEMALE; pure white background. THREE equal side-by-side panels, same exact model, camera and lighting. FULLY OPAQUE matte BLACK sleeveless shirt continuously wraps torso front/sides/back. Loose BLACK knee-length shorts fully wrap both upper thighs, front, sides, rear, seat and crotch with closed hems/seams and natural fabric folds. Never translucent fabric, bare buttocks, anatomy windows, clothing cutaways or muscle-fiber patterns on clothes. Black trainers. Red PRIMARY muscle highlights only as specified, over clothing one soft diffuse blurred tint on intact black fabric, no anatomy divisions or fibers. Entire person, shoes, hands and apparatus fit in EACH panel with generous white margins. No text, arrows, logos or numbers. OUTSIDE LEG KICK PUSH-UP, THREE phases, whole body overhead-rear three-quarter camera enough to see TWO hips, two legs and all hands/feet. Head image LEFT, feet image RIGHT, mat wide under body. Hands wider than shoulders planted unchanged, fingers forward, core straight. LEFT bottom push-up: elbows bent about90degrees, torso straight low above mat, BOTH legs straight together behind, toes support. MIDDLE press elbows STRAIGHT to high plank and move RIGHT leg STRAIGHT OUT SIDEWAYS away from hip about45degrees (toward BACK/FAR side), right foot lifted clear, LEFT leg stays straight behind with left toes mat, pelvis level. RIGHT after next push-up repetition now high plank and LEFT leg straight out SIDEWAYS (toward FRONT/NEAR side), LEFT foot clear, RIGHT leg straight behind toes mat. Clearly exchange leg origins between two high plank phases, trace every hip-thigh-knee-shoe, no extra leg/no bent knee. Do not lift leg vertically behind; lateral abduction. Primary GLUTES red only SOFT DIFFUSE tint on intact opaque black side/rear hip shorts, no fiber/radial pattern/cutaway. All exposed limbs fine grayscale anatomical fibers, clothing fully opaque wraps whole seat/crotch/front/sides/rear. No red chest/triceps. No text.",
+          "inspectionNote": "Generation incorrectly adds bench incline support, canonical requires floor push-up. Lateral phases repeat far-side lifted leg; red glute fabric patterned. Must remove bench/lower hands to mat and clarify exchanged legs; preserve opaque clothing and detailed exposed grayscale anatomy.",
+          "canonicalName": "outside leg kick push-up",
+          "styleVersion": "white-v1",
+          "equipment": "body weight",
+          "primaryMuscles": [
+            "glutes"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Generation incorrectly adds bench incline support, canonical requires floor push-up. Lateral phases repeat far-side lifted leg; red glute fabric patterned. Must remove bench/lower hands to mat and clarify exchanged legs; preserve opaque clothing and detailed exposed grayscale anatomy.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0642-female-anatomical-white-v1-p1-467df75bd8ea.webp",
+              "width": 724,
+              "height": 724,
+              "bytes": 27358,
+              "sha256": "467df75bd8ea9c684d34011da53f0a41708a6c03cf629af781eef908823793ec"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0642-female-anatomical-white-v1-p2-e98c032b394b.webp",
+              "width": 724,
+              "height": 724,
+              "bytes": 27406,
+              "sha256": "e98c032b394b66d9a4e4ed0eb6cfcf0b3460a4c989e6fbcd4e553422bb6e9a20"
+            },
+            {
+              "pose": "p3",
+              "path": "/workout/illustration-pilot/0642-female-anatomical-white-v1-p3-4df588b60078.webp",
+              "width": 724,
+              "height": 724,
+              "bytes": 27838,
+              "sha256": "4df588b6007860ec524209371b1056710cb8dfce5d084e5fcfb02db51215e1a7"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0642-female-anatomical-white-v1-thumb-1de0c4cb2d5a.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 3728,
+            "sha256": "1de0c4cb2d5a9012efda5ba3beeb5f7dbcbdf872d259013909a94abe915eebdf"
+          },
+          "processingSignature": "ba04f19ce9fdf038c806a9597acc90b6bb6fa7191bc37b953977550c2071ba4d",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0642-female-anatomical-white-v1.png",
+            "width": 2172,
+            "height": 724,
+            "bytes": 1851410,
+            "sha256": "b005c4dc4b2de062656e68ae4a3a8402ec5a9608e99e0e0149cfa9bd805aa9d7"
+          }
+        }
+      ],
+      "blockingIssues": [
+        "Same far leg appears lifted in both high plank phases; radial glute fabric pattern persists."
+      ]
+    },
+    {
+      "exerciseId": "0647",
+      "variant": "male",
+      "key": "0647-male-anatomical-white-v2",
+      "layout": {
+        "columns": 3,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Lower into a wall sit with thighs near parallel"
+        },
+        {
+          "key": "p2",
+          "caption": "Jump upward with both feet clear of the floor"
+        },
+        {
+          "key": "p3",
+          "caption": "Land on both feet with bent knees and lower back into the wall sit"
+        }
+      ],
+      "detail": "PLYO WALL SIT SQUAT JUMP, THREE phases, same model side-front three-quarter camera and floor. Plain white WALL BEHIND back as faint gray edge/contact shadow, wall fixed across panels no full room. Feet shoulder width. LEFT sit low against wall, torso upright back close wall, thighs roughly horizontal, knees about90degrees, shins vertical feet forward. Hands in front chest. MIDDLE jump VERTICALLY UP with BOTH feet visibly AIRBORNE about15cm above floor shadow, hips/knees extended softly, torso upright, back remains close but not pressed to wall, arms by sides natural. RIGHT LAND with BOTH feet flat same shoulder-width floor position, knees BENT to absorb landing, hips lowering into wall squat and chest tall; do not stand with locked knees. Same wall/model/camera/foot positions, no bench. Primary QUADRICEPS red on EXPOSED anterior thighs ABOVE knees and BELOW knee-length shorts hems only where visible, grayscale other muscles. Red on upper thigh covered by shorts only soft diffuse tint on intact opaque BLACK fabric, no anatomy fibers/divisions in shorts. Full opaque shirt and loose black knee-length shorts wrapping front/sides/back/seat/crotch, no cutaway. Fine grayscale muscle fibers on exposed legs/arms. No arrows/text.",
+      "prompt": "Edit this original project three-panel plyometric wall-sit jump. Preserve ALL exact poses, fixed wall, airborne middle phase, floor contact in landing, model, camera and detailed fine grayscale fibers on EXPOSED arms/calves. Preserve red anatomical quadriceps highlights on EXPOSED thighs BELOW black shorts hems. Only repaint RED PATTERNS ON BLACK SHORTS above hem: one smooth soft diffuse BLURRED red color tint over intact opaque matte black fabric, no anatomical fiber lines/radial rays/sixpack/muscle segmentation THROUGH CLOTH. Natural broad garment folds and seams only. Shorts fully opaque wrap front sides rear seat crotch, no cutaways or transparent panels. Opaque black shirt unchanged. No text, keep entire figure shoes/hands within each panel.",
+      "inspectionNote": "Covered-thigh red now diffuse over intact opaque shorts while exposed quadriceps retain red fibers. Wall-sit, airborne jump and bent-knee landing retained, detailed grayscale anatomy elsewhere. Qualified wall clearance, landing mechanics, knee alignment and anatomical review pending.",
+      "canonicalName": "plyo sit squat (wall)",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "quads"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0647-male-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "status": "generated",
+        "costUSD": null
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Covered-thigh red now diffuse over intact opaque shorts while exposed quadriceps retain red fibers. Wall-sit, airborne jump and bent-knee landing retained, detailed grayscale anatomy elsewhere. Qualified wall clearance, landing mechanics, knee alignment and anatomical review pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0647-male-anatomical-white-v2-p1-755539cd9813.webp",
+          "width": 591,
+          "height": 887,
+          "bytes": 23392,
+          "sha256": "755539cd98137bc0f028aab623970983701bc1b376c168adfaa28766adbbec9d"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0647-male-anatomical-white-v2-p2-925fb1453419.webp",
+          "width": 592,
+          "height": 887,
+          "bytes": 23432,
+          "sha256": "925fb1453419bddaa0f312d8ea5f80fdf19e43c52949682910e4fac0f2f64e6e"
+        },
+        {
+          "pose": "p3",
+          "path": "/workout/illustration-pilot/0647-male-anatomical-white-v2-p3-1ba2447ee806.webp",
+          "width": 591,
+          "height": 887,
+          "bytes": 22224,
+          "sha256": "1ba2447ee80638f6eae6eaa489fd0daf49b77c90f8795f9e64c602abf4443903"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0647-male-anatomical-white-v2-thumb-f4bc4f489728.webp",
+        "width": 160,
+        "height": 240,
+        "bytes": 2586,
+        "sha256": "f4bc4f4897289c4ecb108389857594ced1b58fca73c7febb881c02e3caba1c5d"
+      },
+      "processingSignature": "82490ffed669d7d5428a2c20202fa2d102f91d347c7be272f25de22273e15c8b",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0647-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1807979,
+        "sha256": "970bddb5db2cc5ce493f777cd36909fceab730717a7d8d9e842ae6b49fcad2eb"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0647",
+          "variant": "male",
+          "key": "0647-male-anatomical-white-v1",
+          "layout": {
+            "columns": 3,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Lower into a wall sit with thighs near parallel"
+            },
+            {
+              "key": "p2",
+              "caption": "Jump upward with both feet clear of the floor"
+            },
+            {
+              "key": "p3",
+              "caption": "Land on both feet with bent knees and lower back into the wall sit"
+            }
+          ],
+          "detail": "PLYO WALL SIT SQUAT JUMP, THREE phases, same model side-front three-quarter camera and floor. Plain white WALL BEHIND back as faint gray edge/contact shadow, wall fixed across panels no full room. Feet shoulder width. LEFT sit low against wall, torso upright back close wall, thighs roughly horizontal, knees about90degrees, shins vertical feet forward. Hands in front chest. MIDDLE jump VERTICALLY UP with BOTH feet visibly AIRBORNE about15cm above floor shadow, hips/knees extended softly, torso upright, back remains close but not pressed to wall, arms by sides natural. RIGHT LAND with BOTH feet flat same shoulder-width floor position, knees BENT to absorb landing, hips lowering into wall squat and chest tall; do not stand with locked knees. Same wall/model/camera/foot positions, no bench. Primary QUADRICEPS red on EXPOSED anterior thighs ABOVE knees and BELOW knee-length shorts hems only where visible, grayscale other muscles. Red on upper thigh covered by shorts only soft diffuse tint on intact opaque BLACK fabric, no anatomy fibers/divisions in shorts. Full opaque shirt and loose black knee-length shorts wrapping front/sides/back/seat/crotch, no cutaway. Fine grayscale muscle fibers on exposed legs/arms. No arrows/text.",
+          "prompt": "Original educational exercise illustration. Attached original project artwork is STYLE reference ONLY, never pose reference. Detailed fine grayscale anatomical fibers on exposed arms and legs, realistic neutral adult MALE; pure white background. THREE equal side-by-side panels, same exact model, camera and lighting. FULLY OPAQUE matte BLACK sleeveless shirt continuously wraps torso front/sides/back. Loose BLACK knee-length shorts fully wrap both upper thighs, front, sides, rear, seat and crotch with closed hems/seams and natural fabric folds. Never translucent fabric, bare buttocks, anatomy windows, clothing cutaways or muscle-fiber patterns on clothes. Black trainers. Red PRIMARY muscle highlights only as specified, over clothing one soft diffuse blurred tint on intact black fabric, no anatomy divisions or fibers. Entire person, shoes, hands and apparatus fit in EACH panel with generous white margins. No text, arrows, logos or numbers. PLYO WALL SIT SQUAT JUMP, THREE phases, same model side-front three-quarter camera and floor. Plain white WALL BEHIND back as faint gray edge/contact shadow, wall fixed across panels no full room. Feet shoulder width. LEFT sit low against wall, torso upright back close wall, thighs roughly horizontal, knees about90degrees, shins vertical feet forward. Hands in front chest. MIDDLE jump VERTICALLY UP with BOTH feet visibly AIRBORNE about15cm above floor shadow, hips/knees extended softly, torso upright, back remains close but not pressed to wall, arms by sides natural. RIGHT LAND with BOTH feet flat same shoulder-width floor position, knees BENT to absorb landing, hips lowering into wall squat and chest tall; do not stand with locked knees. Same wall/model/camera/foot positions, no bench. Primary QUADRICEPS red on EXPOSED anterior thighs ABOVE knees and BELOW knee-length shorts hems only where visible, grayscale other muscles. Red on upper thigh covered by shorts only soft diffuse tint on intact opaque BLACK fabric, no anatomy fibers/divisions in shorts. Full opaque shirt and loose black knee-length shorts wrapping front/sides/back/seat/crotch, no cutaway. Fine grayscale muscle fibers on exposed legs/arms. No arrows/text.",
+          "inspectionNote": "Wall sit, airborne extension and bent-knee landing phases shown. Head/shoes fully framed and both jump feet clear floor. Red exposed quadriceps visible below shorts; covered upper-thigh tint contains anatomical pattern needing diffuse cloth edit. Opaque clothing covers seat/crotch; qualified landing mechanics, wall clearance and muscle mapping review pending.",
+          "canonicalName": "plyo sit squat (wall)",
+          "styleVersion": "white-v1",
+          "equipment": "body weight",
+          "primaryMuscles": [
+            "quads"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Wall sit, airborne extension and bent-knee landing phases shown. Head/shoes fully framed and both jump feet clear floor. Red exposed quadriceps visible below shorts; covered upper-thigh tint contains anatomical pattern needing diffuse cloth edit. Opaque clothing covers seat/crotch; qualified landing mechanics, wall clearance and muscle mapping review pending.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0647-male-anatomical-white-v1-p1-dc85401e5290.webp",
+              "width": 591,
+              "height": 887,
+              "bytes": 26412,
+              "sha256": "dc85401e52905708ae9798f59ee52567bfd631e0ca2c391e1b7e4942a0c4ce1e"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0647-male-anatomical-white-v1-p2-fe2529b06c21.webp",
+              "width": 592,
+              "height": 887,
+              "bytes": 25838,
+              "sha256": "fe2529b06c2113bead4fac2824bb0dbdfa052a3b3329b4fa85a27d0b3b5f9607"
+            },
+            {
+              "pose": "p3",
+              "path": "/workout/illustration-pilot/0647-male-anatomical-white-v1-p3-75b247a414ad.webp",
+              "width": 591,
+              "height": 887,
+              "bytes": 24844,
+              "sha256": "75b247a414ad7ea1cb24521aae2e956577add8f74db3609e89bdb4d891ade3cf"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0647-male-anatomical-white-v1-thumb-53b4e6281247.webp",
+            "width": 160,
+            "height": 240,
+            "bytes": 2544,
+            "sha256": "53b4e628124750a12824ec121b9c6f2ff0ee74c1bf8009485ea654b2b9e3298a"
+          },
+          "processingSignature": "fbae5be96b459b51db157bfc5f4779d6d241fc7e7b837eccc8e67764fa3e8aaf",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0647-male-anatomical-white-v1.png",
+            "width": 1774,
+            "height": 887,
+            "bytes": 1896415,
+            "sha256": "86ebd0ae219aac00a4b02a5b3128f6356b137fd0c49ee67a786c30efe4cc14ad"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "0647",
+      "variant": "female",
+      "key": "0647-female-anatomical-white-v2",
+      "layout": {
+        "columns": 3,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Lower into a wall sit with thighs near parallel"
+        },
+        {
+          "key": "p2",
+          "caption": "Jump upward with both feet clear of the floor"
+        },
+        {
+          "key": "p3",
+          "caption": "Land on both feet with bent knees and lower back into the wall sit"
+        }
+      ],
+      "detail": "PLYO WALL SIT SQUAT JUMP, THREE phases, same model side-front three-quarter camera and floor. Plain white WALL BEHIND back as faint gray edge/contact shadow, wall fixed across panels no full room. Feet shoulder width. LEFT sit low against wall, torso upright back close wall, thighs roughly horizontal, knees about90degrees, shins vertical feet forward. Hands in front chest. MIDDLE jump VERTICALLY UP with BOTH feet visibly AIRBORNE about15cm above floor shadow, hips/knees extended softly, torso upright, back remains close but not pressed to wall, arms by sides natural. RIGHT LAND with BOTH feet flat same shoulder-width floor position, knees BENT to absorb landing, hips lowering into wall squat and chest tall; do not stand with locked knees. Same wall/model/camera/foot positions, no bench. Primary QUADRICEPS red on EXPOSED anterior thighs ABOVE knees and BELOW knee-length shorts hems only where visible, grayscale other muscles. Red on upper thigh covered by shorts only soft diffuse tint on intact opaque BLACK fabric, no anatomy fibers/divisions in shorts. Full opaque shirt and loose black knee-length shorts wrapping front/sides/back/seat/crotch, no cutaway. Fine grayscale muscle fibers on exposed legs/arms. No arrows/text.",
+      "prompt": "Edit this original project three-panel plyometric wall-sit jump. Preserve ALL exact poses, fixed wall, airborne middle phase, floor contact in landing, model, camera and detailed fine grayscale fibers on EXPOSED arms/calves. Preserve red anatomical quadriceps highlights on EXPOSED thighs BELOW black shorts hems. Only repaint RED PATTERNS ON BLACK SHORTS above hem: one smooth soft diffuse BLURRED red color tint over intact opaque matte black fabric, no anatomical fiber lines/radial rays/sixpack/muscle segmentation THROUGH CLOTH. Natural broad garment folds and seams only. Shorts fully opaque wrap front sides rear seat crotch, no cutaways or transparent panels. Opaque black shirt unchanged. No text, keep entire figure shoes/hands within each panel. Preserve female proportions and equally fine detailed exposed grayscale anatomy.",
+      "inspectionNote": "Red over upper-thigh shorts now diffuse intact opaque cloth; exposed quadriceps retain anatomical red and fine grayscale fibers elsewhere. Airborne jump and bent-knee landing preserved, full clothes wrap seat/crotch. Qualified knee angles, landing mechanics, wall clearance and anatomy review pending.",
+      "canonicalName": "plyo sit squat (wall)",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "quads"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0647-female-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "status": "generated",
+        "costUSD": null
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Red over upper-thigh shorts now diffuse intact opaque cloth; exposed quadriceps retain anatomical red and fine grayscale fibers elsewhere. Airborne jump and bent-knee landing preserved, full clothes wrap seat/crotch. Qualified knee angles, landing mechanics, wall clearance and anatomy review pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0647-female-anatomical-white-v2-p1-8a16e44d1198.webp",
+          "width": 591,
+          "height": 887,
+          "bytes": 20540,
+          "sha256": "8a16e44d1198899b1561b8a5824549b393813917d465151ebec134c59d00ee0c"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0647-female-anatomical-white-v2-p2-a1a8a9c1e9f2.webp",
+          "width": 592,
+          "height": 887,
+          "bytes": 21044,
+          "sha256": "a1a8a9c1e9f2468f3c685f443a6a4773c912346e6d682a14f2c3c10f4c195112"
+        },
+        {
+          "pose": "p3",
+          "path": "/workout/illustration-pilot/0647-female-anatomical-white-v2-p3-fb724f633ec1.webp",
+          "width": 591,
+          "height": 887,
+          "bytes": 20196,
+          "sha256": "fb724f633ec15dce3de04f3350a8e73fdd2f65f30b1cd8505a9e771376a06efe"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0647-female-anatomical-white-v2-thumb-e550611c0301.webp",
+        "width": 160,
+        "height": 240,
+        "bytes": 2382,
+        "sha256": "e550611c03013d09b9c1f5f75c43c2deb14c879e11a4059523841f5b683966c3"
+      },
+      "processingSignature": "ec38a54eaff4c3fb9a4e7706000c3e8c5a2bf903d20bc96388a4320283ea9d5a",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0647-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1675226,
+        "sha256": "bbdc06bb09a4ff7fb00b6752c74de0509838c5d49a22ec5aab29ff20d551cd1f"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0647",
+          "variant": "female",
+          "key": "0647-female-anatomical-white-v1",
+          "layout": {
+            "columns": 3,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Lower into a wall sit with thighs near parallel"
+            },
+            {
+              "key": "p2",
+              "caption": "Jump upward with both feet clear of the floor"
+            },
+            {
+              "key": "p3",
+              "caption": "Land on both feet with bent knees and lower back into the wall sit"
+            }
+          ],
+          "detail": "PLYO WALL SIT SQUAT JUMP, THREE phases, same model side-front three-quarter camera and floor. Plain white WALL BEHIND back as faint gray edge/contact shadow, wall fixed across panels no full room. Feet shoulder width. LEFT sit low against wall, torso upright back close wall, thighs roughly horizontal, knees about90degrees, shins vertical feet forward. Hands in front chest. MIDDLE jump VERTICALLY UP with BOTH feet visibly AIRBORNE about15cm above floor shadow, hips/knees extended softly, torso upright, back remains close but not pressed to wall, arms by sides natural. RIGHT LAND with BOTH feet flat same shoulder-width floor position, knees BENT to absorb landing, hips lowering into wall squat and chest tall; do not stand with locked knees. Same wall/model/camera/foot positions, no bench. Primary QUADRICEPS red on EXPOSED anterior thighs ABOVE knees and BELOW knee-length shorts hems only where visible, grayscale other muscles. Red on upper thigh covered by shorts only soft diffuse tint on intact opaque BLACK fabric, no anatomy fibers/divisions in shorts. Full opaque shirt and loose black knee-length shorts wrapping front/sides/back/seat/crotch, no cutaway. Fine grayscale muscle fibers on exposed legs/arms. No arrows/text.",
+          "prompt": "Original educational exercise illustration. Attached original project artwork is STYLE reference ONLY, never pose reference. Detailed fine grayscale anatomical fibers on exposed arms and legs, realistic neutral adult FEMALE; pure white background. THREE equal side-by-side panels, same exact model, camera and lighting. FULLY OPAQUE matte BLACK sleeveless shirt continuously wraps torso front/sides/back. Loose BLACK knee-length shorts fully wrap both upper thighs, front, sides, rear, seat and crotch with closed hems/seams and natural fabric folds. Never translucent fabric, bare buttocks, anatomy windows, clothing cutaways or muscle-fiber patterns on clothes. Black trainers. Red PRIMARY muscle highlights only as specified, over clothing one soft diffuse blurred tint on intact black fabric, no anatomy divisions or fibers. Entire person, shoes, hands and apparatus fit in EACH panel with generous white margins. No text, arrows, logos or numbers. PLYO WALL SIT SQUAT JUMP, THREE phases, same model side-front three-quarter camera and floor. Plain white WALL BEHIND back as faint gray edge/contact shadow, wall fixed across panels no full room. Feet shoulder width. LEFT sit low against wall, torso upright back close wall, thighs roughly horizontal, knees about90degrees, shins vertical feet forward. Hands in front chest. MIDDLE jump VERTICALLY UP with BOTH feet visibly AIRBORNE about15cm above floor shadow, hips/knees extended softly, torso upright, back remains close but not pressed to wall, arms by sides natural. RIGHT LAND with BOTH feet flat same shoulder-width floor position, knees BENT to absorb landing, hips lowering into wall squat and chest tall; do not stand with locked knees. Same wall/model/camera/foot positions, no bench. Primary QUADRICEPS red on EXPOSED anterior thighs ABOVE knees and BELOW knee-length shorts hems only where visible, grayscale other muscles. Red on upper thigh covered by shorts only soft diffuse tint on intact opaque BLACK fabric, no anatomy fibers/divisions in shorts. Full opaque shirt and loose black knee-length shorts wrapping front/sides/back/seat/crotch, no cutaway. Fine grayscale muscle fibers on exposed legs/arms. No arrows/text.",
+          "inspectionNote": "Wall-sit, airborne extension and bent-knee landing phases with both feet clear in jump. Full opaque clothing and grayscale exposed anatomy, red quadriceps below hems. Covered upper-thigh red has fiber pattern needing diffuse cloth correction. Qualified wall clearance, landing range and knee/hip angles review pending.",
+          "canonicalName": "plyo sit squat (wall)",
+          "styleVersion": "white-v1",
+          "equipment": "body weight",
+          "primaryMuscles": [
+            "quads"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Wall-sit, airborne extension and bent-knee landing phases with both feet clear in jump. Full opaque clothing and grayscale exposed anatomy, red quadriceps below hems. Covered upper-thigh red has fiber pattern needing diffuse cloth correction. Qualified wall clearance, landing range and knee/hip angles review pending.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0647-female-anatomical-white-v1-p1-7c96e10e3586.webp",
+              "width": 591,
+              "height": 887,
+              "bytes": 23348,
+              "sha256": "7c96e10e358650a7d851a69f272ac6362a1cbe0d8131d0aafce24d613d709a2a"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0647-female-anatomical-white-v1-p2-0d00602e24ec.webp",
+              "width": 592,
+              "height": 887,
+              "bytes": 22472,
+              "sha256": "0d00602e24ec6eb128df8a7315c7312f5a735f7e043e8af484845d1cc2a8d3f2"
+            },
+            {
+              "pose": "p3",
+              "path": "/workout/illustration-pilot/0647-female-anatomical-white-v1-p3-6029ec2759f7.webp",
+              "width": 591,
+              "height": 887,
+              "bytes": 22868,
+              "sha256": "6029ec2759f7f1a94f4e4fdb436141ff4a0ae3bbffc96dac492ddb61473bdff2"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0647-female-anatomical-white-v1-thumb-5cc1d32f539e.webp",
+            "width": 160,
+            "height": 240,
+            "bytes": 2330,
+            "sha256": "5cc1d32f539e14404e6704c56107d3ed1b9a78540afae611d90b985f1fb7b8d4"
+          },
+          "processingSignature": "385a25a2eb67f1fcfb9fb7f2bd595f650cdeca7e66bc37cbf5e70315832ed583",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0647-female-anatomical-white-v1.png",
+            "width": 1774,
+            "height": 887,
+            "bytes": 1824765,
+            "sha256": "520ac674dc0e89328ddfae99cf3dbc7afdbded4b6ac9ecd8410a984f58a4b3b7"
+          }
+        }
+      ]
+    }
+  ]
+}

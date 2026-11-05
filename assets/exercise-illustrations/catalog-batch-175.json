@@ -1,0 +1,168 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "1324",
+      "variant": "male",
+      "key": "1324-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Face a chest-height pulley holding a straight bar with an overhand grip slightly wider than the shoulders, arms extended."
+        },
+        {
+          "key": "p2",
+          "caption": "Pull the bar toward the upper chest and draw shoulder blades together, keeping the torso steady; return slowly."
+        }
+      ],
+      "prompt": "Original premium ADULT male detailed anatomical illustration CABLE UPPER ROW canonical1324. TWO equal SQUARE cells side by side wide LANDSCAPE2:1 same model equipment camera proportions scale. Rear three-quarter camera looking at upper BACK both arms visible, model faces LEFT toward CHEST HEIGHT pulley on compact gray stack frame LEFT. Stand TALL upright feet shoulder-width planted knees soft core braced spine neutral no leaning/twisting. BOTH hands OVERHAND palms DOWN grip straight gray bar slightly WIDER than shoulder width, thumbs wrap wrists straight. LEFT START arms EXTENDED FORWARD at shoulder height elbows soft bar shoulder distance in front. RIGHT FINISH pull BAR to UPPER CHEST with BOTH elbows bending symmetrically about90degrees and traveling BACK, upper arms roughly45-60degrees out from ribs elbows slightly below shoulder level, shoulders DOWN retract blades. No upright row upward bar path, no low hip row, no body swing. ONE taut thin steel cable links center bar to fixed chest-height pulley outside body, pays out naturally as bar pulls back with visible raised stack in finish, no penetration. Primary UPPER BACK smooth DIFFUSE RED oval over INTACT BLACK shirt between shoulder blades ONLY, NO rhomboid/trap fibers/grooves through cloth, no arm/shoulder/chest red. Full opaque BLACK TANK wraps front sides back continuous seams broad natural folds, MID-THIGH BLACK shorts cover front sides back seat crotch no cutaway/transparency/anatomical fibers through fabric. Fine detailed grayscale anatomical muscle contours on exposed arms shoulders legs neck realistic hands proportions apparatus. Black shoes. Pure WHITE background soft contact shadows generous12percent margins whole head hands feet bar cable machine within EACH square no crop. Equal male/female quality. Original project reference rendering STYLE ONLY ignore bench pushup/chest red. No labels text captions arrows.",
+      "inspectionNote": "Standing upper row straight forward arms to bent elbows and bar toward chest, red upper back over opaque shirt, full opaque shorts. BLOCKED: cable attaches at one end of straight bar instead of center, creating unbalanced apparatus. Qualified far elbow path, grip, cloth tint and shoulder symmetry review required.",
+      "blockingIssues": [
+        "Cable attachment appears at one bar end rather than centered between both hands; apparatus requires correction."
+      ],
+      "canonicalName": "cable upper row",
+      "styleVersion": "white-v1",
+      "equipment": "cable",
+      "primaryMuscles": [
+        "upper-back"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Standing upper row straight forward arms to bent elbows and bar toward chest, red upper back over opaque shirt, full opaque shorts. BLOCKED: cable attaches at one end of straight bar instead of center, creating unbalanced apparatus. Qualified far elbow path, grip, cloth tint and shoulder symmetry review required.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/1324-male-anatomical-white-v1-p1-ec6006574eeb.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 32590,
+          "sha256": "ec6006574eebaaec9d27a4ebf3a7e70d1611ec4b4fd16f0b38fb081621a226fa"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/1324-male-anatomical-white-v1-p2-04a6f1342af5.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 32876,
+          "sha256": "04a6f1342af5f3b27678b78730dc1b4b975772b87e3d74e4462d54673ba3df02"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-175.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/1324-male-anatomical-white-v1-thumb-46470fb657f4.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 3546,
+        "sha256": "46470fb657f4ee6aaeae626b42d16ab11c19362ef73aedb4be7a8877063580a0"
+      },
+      "processingSignature": "9e30343a21e2b842a7a219a402e7f16541e0f0d20170fd360b06edece71df315",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1324-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1435418,
+        "sha256": "397df0a4881828e5976932dc941d5e008c5481eb3a2a47a81981668f9a60bbbe"
+      }
+    },
+    {
+      "exerciseId": "1324",
+      "variant": "female",
+      "key": "1324-female-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Face a chest-height pulley holding a straight bar with an overhand grip slightly wider than the shoulders, arms extended."
+        },
+        {
+          "key": "p2",
+          "caption": "Pull the bar toward the upper chest and draw shoulder blades together, keeping the torso steady; return slowly."
+        }
+      ],
+      "prompt": "Original premium ADULT female detailed anatomical illustration CABLE UPPER ROW canonical1324. TWO equal SQUARE cells side by side wide LANDSCAPE2:1 same model equipment camera proportions scale. Rear three-quarter camera looking at upper BACK both arms visible, model faces LEFT toward CHEST HEIGHT pulley on compact gray stack frame LEFT. Stand TALL upright feet shoulder-width planted knees soft core braced spine neutral no leaning/twisting. BOTH hands OVERHAND palms DOWN grip straight gray bar slightly WIDER than shoulder width, thumbs wrap wrists straight. LEFT START arms EXTENDED FORWARD at shoulder height elbows soft bar shoulder distance in front. RIGHT FINISH pull BAR to UPPER CHEST with BOTH elbows bending symmetrically about90degrees and traveling BACK, upper arms roughly45-60degrees out from ribs elbows slightly below shoulder level, shoulders DOWN retract blades. No upright row upward bar path, no low hip row, no body swing. ONE taut thin steel cable links center bar to fixed chest-height pulley outside body, pays out naturally as bar pulls back with visible raised stack in finish, no penetration. Primary UPPER BACK smooth DIFFUSE RED oval over INTACT BLACK shirt between shoulder blades ONLY, NO rhomboid/trap fibers/grooves through cloth, no arm/shoulder/chest red. Full opaque BLACK TANK wraps front sides back continuous seams broad natural folds, MID-THIGH BLACK shorts cover front sides back seat crotch no cutaway/transparency/anatomical fibers through fabric. Fine detailed grayscale anatomical muscle contours on exposed arms shoulders legs neck realistic hands proportions apparatus. Black shoes. Pure WHITE background soft contact shadows generous12percent margins whole head hands feet bar cable machine within EACH square no crop. Equal male/female quality. Original project reference rendering STYLE ONLY ignore bench pushup/chest red. No labels text captions arrows.",
+      "inspectionNote": "Standing upper row straight forward arms to bent elbows and bar toward chest, red upper back over opaque shirt, full opaque shorts. BLOCKED: cable attaches at one end of straight bar instead of center, creating unbalanced apparatus. Qualified far elbow path, grip, cloth tint and shoulder symmetry review required.",
+      "blockingIssues": [
+        "Cable attachment appears at one bar end rather than centered between both hands; apparatus requires correction."
+      ],
+      "canonicalName": "cable upper row",
+      "styleVersion": "white-v1",
+      "equipment": "cable",
+      "primaryMuscles": [
+        "upper-back"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Standing upper row straight forward arms to bent elbows and bar toward chest, red upper back over opaque shirt, full opaque shorts. BLOCKED: cable attaches at one end of straight bar instead of center, creating unbalanced apparatus. Qualified far elbow path, grip, cloth tint and shoulder symmetry review required.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/1324-female-anatomical-white-v1-p1-aa39dcc837b3.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 33220,
+          "sha256": "aa39dcc837b392fcb4a7ec21fd4cfe24f7de2113bec50a88975fd2cb7d1c2d55"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/1324-female-anatomical-white-v1-p2-ce9a38d7b75d.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 34032,
+          "sha256": "ce9a38d7b75de5bfd89d8f2ff0cabd422c797142550ba458afd8bd86e2bad310"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-175.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/1324-female-anatomical-white-v1-thumb-b20dddc19529.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 3818,
+        "sha256": "b20dddc1952999cd96986bf08136e8b4a2fbdcabca3844c27b1c7b6a606bead0"
+      },
+      "processingSignature": "9333923f33ef57f97fac9e772513f7791b75e30bd3baff10faba628f584413dc",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1324-female-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1452013,
+        "sha256": "387d0b564f05e87bd9a3813380a455e555996c84009d6dc9a88ba6abd0878c1d"
+      }
+    }
+  ]
+}

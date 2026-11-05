@@ -1,0 +1,65 @@
+{
+  "batch": 160,
+  "runId": "0ce9e27e-b3f3-4622-8b01-c2c0c7a0b9f2",
+  "trigger": "2026-11-03T08:03:27.791Z",
+  "completedAt": "2026-11-03T08:07:43.477167+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 2,
+  "generationCalls": 2,
+  "exerciseIds": [
+    "1123"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 634,
+    "remainingVariants": 10630,
+    "approvedVariants": 0,
+    "blockedVariants": 219,
+    "knownPoseImages": 1280,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Two one-arm suspension biceps curl candidates, four poses, two built-in calls. Extended to flexed working elbow with free hand on hip and exposed working biceps red; full opaque black clothing retained. BOTH BLOCKED: strap appears substantially longer in finish while anchor and feet remain fixed, requiring rigid-body/strap geometry correction. Qualified supination/grip, upper-arm stability, neck and proportions also remain pending. Every original and exact prompt saved; no anatomy/clothing approval or publication. Original project artwork rendering style only, no upstream licensed input. Seven pipeline checks do not establish anatomical accuracy.",
+  "metadataConflictsDeferred": {
+    "1120": "Step forward to ease load conflicts with usual suspension-row leverage; clarify foot progression before generation."
+  },
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 1007198381,
+  "savedMasters": [
+    {
+      "exerciseId": "1123",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1123-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1475951,
+        "sha256": "d84904af6e8f19736ca1f65f8bb9edbc04069c1069ffb951f607c4cd6c11cdca"
+      }
+    },
+    {
+      "exerciseId": "1123",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1123-female-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1441485,
+        "sha256": "06f406ef040e49aa416b633422d6a52525f3da68d325d23ca7b8f913d6a1f8f4"
+      }
+    }
+  ]
+}

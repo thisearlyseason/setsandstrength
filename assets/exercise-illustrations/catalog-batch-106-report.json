@@ -1,0 +1,84 @@
+{
+  "batch": 106,
+  "trigger": "2026-11-02T18:57:50.181Z",
+  "completedAt": "2026-11-02T19:21:18.630306+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 4,
+  "generationCalls": 8,
+  "exerciseIds": [
+    "0675",
+    "0676"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 436,
+    "remainingVariants": 10828,
+    "approvedVariants": 0,
+    "blockedVariants": 182,
+    "knownPoseImages": 902,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Four candidate sets, ten pose images and four retained cloth/framing corrections using eight built-in calls. None approved or published. Ball reverse hyperextensions show pelvis supported on full sphere, palms planted and both straight legs lowered then raised near torso height; qualified lumbar/hip range, ball/pelvis contact and leg alignment review pending. Reverse lunge-kicks show rear lunge, upright swing-through and straight forward kick with hands hips. Same moving-leg identity from rear foot to forward kick and support-foot placement remain for qualified continuity review, not automatically verified. Cloth edits make glute tint diffuse on intact opaque shorts and lunge framing gains margins. Hyperextension raised shoes remain narrowly inside frame. Full opaque clothing wraps torso/front/sides/back/seat/crotch; exposed anatomy fine detailed grayscale. All anatomy/technique review separate. Original PNGs, exact prompts, correction history and hashes retained. Original project artwork used only for style, no upstream media. Pipeline checks are not anatomy approval.",
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 717463246,
+  "savedMasters": [
+    {
+      "exerciseId": "0675",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0675-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1668107,
+        "sha256": "5cf48d78727418befe14ff750d3eb44b0a70fd004b07cca0ebd891b57b5768e4"
+      }
+    },
+    {
+      "exerciseId": "0675",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0675-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1674024,
+        "sha256": "f02f456c40de2c9fc3e2edeec295ec327f74891689441aaa6cc8f543862e24a5"
+      }
+    },
+    {
+      "exerciseId": "0676",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0676-male-anatomical-white-v2.png",
+        "width": 2172,
+        "height": 724,
+        "bytes": 1230789,
+        "sha256": "f744ced82a9c2457556f2028cce669bb279718eb6338be0a1ee978e8cd656575"
+      }
+    },
+    {
+      "exerciseId": "0676",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0676-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1368682,
+        "sha256": "faa717cb79bcc102fd71f6933c2062596a2603a23b2f1b1f624b13a1733ccc1b"
+      }
+    }
+  ]
+}

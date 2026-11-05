@@ -1,0 +1,57 @@
+{
+  "batch": 381,
+  "runId": "793b1edb-d987-4a49-afa3-d7369fc554ff",
+  "builtInImageGenAvailable": true,
+  "anatomyReview": "pending",
+  "publication": "none",
+  "deferred": {
+    "3542": "Incline bench sitting versus chest support setup unclear.",
+    "3544": "Incline name conflicts with floor-forearm setup.",
+    "3545": "Bilateral press instructions versus alternating name need sequencing clarification."
+  },
+  "coverageAfter": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1371,
+    "remainingVariants": 9893,
+    "approvedVariants": 0,
+    "blockedVariants": 529,
+    "knownPoseImages": 2721,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 998,
+      "remainingVariants": 4634,
+      "blockedVariants": 410
+    }
+  },
+  "paidWorker": {
+    "statuses": {
+      "generated": 1371,
+      "pending": 9893
+    },
+    "remaining": 9893,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 2084474258
+  },
+  "pipelineTests": "7 passed, 0 failed",
+  "approvedIndexUnchanged": true,
+  "existingUserApprovalsPreserved": 1306,
+  "generatedIds": [
+    "3543",
+    "3546",
+    "3547",
+    "3548"
+  ]
+}

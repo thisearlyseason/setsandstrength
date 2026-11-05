@@ -1,0 +1,58 @@
+{
+  "runId": "fb54edce-2a72-4bff-b4fe-2449f4700c38",
+  "triggerTimestamp": "2026-11-04T21:49:33.539Z",
+  "builtInImageGenAvailable": true,
+  "batches": [
+    427,
+    428
+  ],
+  "generatedMasters": 8,
+  "generatedIds": [
+    "10043",
+    "10110",
+    "10040",
+    "10038",
+    "3905",
+    "3917",
+    "3939",
+    "3925"
+  ],
+  "blocked": {
+    "10040": [
+      "Working elbow bends about90degrees, resembling cross-body curl instead of slightly bent-arm raise."
+    ],
+    "10038": [
+      "Forearm support and free-hanging hand not correctly depicted."
+    ],
+    "3925": [
+      "Curling elbow loses required inner-thigh support in contracted position."
+    ]
+  },
+  "coverageAfter": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1512,
+    "remainingVariants": 9752,
+    "approvedVariants": 0,
+    "blockedVariants": 575,
+    "knownPoseImages": 3032,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 1139,
+      "remainingVariants": 4493,
+      "blockedVariants": 456
+    }
+  },
+  "pipelineTests": "8 passed, 0 failed after each batch",
+  "approvedIndexUnchanged": true,
+  "existingUserApprovalsPreserved": 1306,
+  "publication": "none",
+  "anatomyReview": "pending",
+  "stopReason": "Repeated canonical support-contact failure:10038 forearm unsupported and3925 elbow leaves thigh. Also10040 cross raise too much elbow flexion.",
+  "styleReference": "assets/exercise-illustrations/generated/0853-male-anatomical-white-v1.png",
+  "nextRunGuidance": "0853 reference and exposed primary targets preserved clothing this run. Continue unbraced simple exposed-target motions; support-dependent curls need contact geometry more explicit. Do not retry blocked originals automatically."
+}

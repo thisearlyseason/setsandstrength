@@ -1,0 +1,124 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "3533",
+      "variant": "male",
+      "key": "3533-male-anatomical-white-v1",
+      "prompt": "TWO equal panels SIDE three-quarter view bodyweight squat canonical exercise named QUADS. Male stands feet shoulder width arms forward for balance. Left upright. Right hips back knees bend thighs parallel floor chest up long back heels flat knees track toes. Primary QUADS small plain red wash intact shorts front thigh only. Premium detailed grayscale anatomical adult MALE illustration white background soft contact shadows realistic muscles joints. Original project reference STYLE ONLY. Same model camera scale clothes equipment all panels. Complete opaque BLACK tank mid-thigh shorts wrap front sides back seat crotch seams folds hems. Red on garments PLAIN UNIFORM wash NO anatomical fibers segments lobes cutaways transparency. All hands feet equipment within own panel no cropping. No text arrows logos labels.",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand shoulder-width."
+        },
+        {
+          "key": "p2",
+          "caption": "Squat to parallel, then stand."
+        }
+      ],
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream media used.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only"
+      },
+      "inspectionNote": "Real output inspected. Standing/parallel squat candidate with intact clothing and quad highlights. Output adds unnecessary bench in front; remove equipment to match bodyweight-only exercise. Qualified depth and knee mechanics review pending. Human anatomy review pending; no approval or publication.",
+      "blockingIssues": [
+        "Remove unrequested bench from bodyweight squat illustration."
+      ]
+    },
+    {
+      "exerciseId": "3534",
+      "variant": "male",
+      "key": "3534-male-anatomical-white-v1",
+      "prompt": "THREE equal panels same SIDE BACK three-quarter view BODYWEIGHT STANDING PULSE CALF RAISE. Male stands feet hip width knees straight one hand holds waist-high stable support beside him. Left heels flat. Center heels rise both feet onto balls toes planted. Right heels lower just a FEW centimeters from top still raised to depict small pulse. Same body alignment all panels, no jump no bent knees. Primary CALVES red visible calf muscles only. Premium detailed grayscale anatomical adult MALE illustration white background soft contact shadows realistic muscles joints. Original project reference STYLE ONLY. Same model camera scale clothes equipment all panels. Complete opaque BLACK tank mid-thigh shorts wrap front sides back seat crotch seams folds hems. Red on garments PLAIN UNIFORM wash NO anatomical fibers segments lobes cutaways transparency. All hands feet equipment within own panel no cropping. No text arrows logos labels.",
+      "layout": {
+        "columns": 3,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand with heels grounded."
+        },
+        {
+          "key": "p2",
+          "caption": "Rise onto balls of feet."
+        },
+        {
+          "key": "p3",
+          "caption": "Pulse slightly down and up near top."
+        }
+      ],
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream media used.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only"
+      },
+      "inspectionNote": "Real output inspected. Flat heels, calf raise and small top-pulse positions with hand support, intact clothes and calf highlights. Qualified forefoot contact, pulse size and ankle alignment review pending. Human anatomy review pending; no approval or publication.",
+      "blockingIssues": []
+    },
+    {
+      "exerciseId": "3535",
+      "variant": "male",
+      "key": "3535-male-anatomical-white-v1",
+      "prompt": "THREE equal panels same SIDE three-quarter view BODYWEIGHT PULSE SQUAT. Male feet shoulder width heels flat arms forward chest up long spine. Left standing. Center squat hips back thighs parallel. Right rise only a few centimeters from same bottom squat knees stay bent, show SMALL pulse not full stand. Same feet all panels. Primary QUADS small plain uniform red wash on intact shorts front thigh only. Premium detailed grayscale anatomical adult MALE illustration white background soft contact shadows realistic muscles joints. Original project reference STYLE ONLY. Same model camera scale clothes equipment all panels. Complete opaque BLACK tank mid-thigh shorts wrap front sides back seat crotch seams folds hems. Red on garments PLAIN UNIFORM wash NO anatomical fibers segments lobes cutaways transparency. All hands feet equipment within own panel no cropping. No text arrows logos labels.",
+      "layout": {
+        "columns": 3,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand tall."
+        },
+        {
+          "key": "p2",
+          "caption": "Lower into parallel squat."
+        },
+        {
+          "key": "p3",
+          "caption": "Pulse upward a few centimeters, then continue."
+        }
+      ],
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream media used.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only"
+      },
+      "inspectionNote": "Real output inspected. Standing and two small squat pulse positions, intact garments and quad wash. Qualified pulse visibility, parallel depth and knee tracking review pending. Human anatomy review pending; no approval or publication.",
+      "blockingIssues": []
+    },
+    {
+      "exerciseId": "3536",
+      "variant": "male",
+      "key": "3536-male-anatomical-white-v1",
+      "prompt": "TWO equal WIDE panels same SIDE BACK three-quarter view ELEVATED INVERTED ROW BETWEEN THREE CHAIRS. TWO stable chairs support a sturdy firmly SECURED horizontal bar at both ends. THIRD stable chair at male FEET supports BOTH heels. Male hangs beneath bar overhand grip shoulder width, trunk hips legs straight horizontal shoulder-to-heel line, heels remain third chair all poses. Left arms straight below bar. Right bend elbows pull chest toward bar maintaining hips high. All THREE separate chairs full bar full body visible each panel generous margins. Primary UPPER BACK small plain uniform red wash intact tank back. Premium detailed grayscale anatomical adult MALE illustration white background soft contact shadows realistic muscles joints. Original project reference STYLE ONLY. Same model camera scale clothes equipment all panels. Complete opaque BLACK tank mid-thigh shorts wrap front sides back seat crotch seams folds hems. Red on garments PLAIN UNIFORM wash NO anatomical fibers segments lobes cutaways transparency. All hands feet equipment within own panel no cropping. No text arrows logos labels.",
+      "layout": {
+        "columns": 1,
+        "rows": 2
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hang with heels on third chair."
+        },
+        {
+          "key": "p2",
+          "caption": "Row chest toward secured bar, then lower."
+        }
+      ],
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream media used.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only"
+      },
+      "inspectionNote": "Real output inspected. Three chairs and secured bar depicted in two horizontal rows; layout recorded as one column two rows. Lower row incorrectly releases one hand to floor instead of two-hand row; correct grip/support. Opaque clothing retained. Human anatomy review pending; no approval or publication.",
+      "blockingIssues": [
+        "Lower row uses one hand on bar and other on floor; requires two-hand overhand row."
+      ]
+    }
+  ]
+}

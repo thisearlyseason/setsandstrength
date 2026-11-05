@@ -1,0 +1,600 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "0794",
+      "variant": "male",
+      "key": "0794-male-anatomical-white-v2",
+      "layout": {
+        "columns": 1,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand with feet shoulder-width and knees soft, arms extended to the sides. Lean gently to one side and hold 15\u201330 seconds, then return and repeat on the other side."
+        }
+      ],
+      "prompt": "Correct original male STATIC STANDING LATERAL STRETCH with arms out to sides. Keep gentle torso bend IMAGE LEFT, hips level and feet grounded, arms straight horizontally out. Set HEAD NEUTRAL ALIGNED TORSO, back of skull centered over spine tilted with torso but NO head rotation, show REAR view not face profile. Red ONLY elongated IMAGE-RIGHT LAT side on opaque BLACK shirt: ONE smooth diffuse BLURRED tint, remove all fine rays/fibers/striations, broad fabric folds only. Full opaque shirt/shorts front sides back seat crotch, fine exposed grayscale anatomy, square canvas generous margins no text.",
+      "inspectionNote": "Head corrected to rear alignment with torso, lat tint softened over opaque shirt with broad folds. Static lateral bend, arms out and grounded feet retained, detailed exposed anatomy and opaque seat/crotch clothes. Qualified lateral-plane bend, hip level and elongated-side lat mapping pending.",
+      "canonicalName": "standing lateral stretch",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "lats"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0794-male-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "status": "generated",
+        "costUSD": null
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Head corrected to rear alignment with torso, lat tint softened over opaque shirt with broad folds. Static lateral bend, arms out and grounded feet retained, detailed exposed anatomy and opaque seat/crotch clothes. Qualified lateral-plane bend, hip level and elongated-side lat mapping pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0794-male-anatomical-white-v2-p1-9a7c47207031.webp",
+          "width": 1200,
+          "height": 1200,
+          "bytes": 32822,
+          "sha256": "9a7c47207031c38bf53562b6311ef93845bc82ccf327f03a9f40e56e2149ef4f"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0794-male-anatomical-white-v2-thumb-c6ea19207ea8.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2686,
+        "sha256": "c6ea19207ea866a9fd57aef4d9692706eededf1b00f9d319c648b18d91136589"
+      },
+      "processingSignature": "03bc7e8176714b6dc6823edf4f4072d85fa4e7dec463902828039dad4b4289b9",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0794-male-anatomical-white-v2.png",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 1290527,
+        "sha256": "ae7c8ad35006fe188c637754ed760819c0603be31e1f3981c07fd96932f7a2ee"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0794",
+          "variant": "male",
+          "key": "0794-male-anatomical-white-v1",
+          "layout": {
+            "columns": 1,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Stand with feet shoulder-width and knees soft, arms extended to the sides. Lean gently to one side and hold 15\u201330 seconds, then return and repeat on the other side."
+            }
+          ],
+          "prompt": "Original premium ADULT male exercise anatomy illustration. ONE STATIC STANDING LATERAL STRETCH pose on SQUARE canvas. Canonical variation ARMS OUT TO SIDES, NOT overhead. REAR three-quarter camera showing back/side torso. Feet shoulder-width full soles flat floor, knees softly bent, hips level stationary. BOTH arms STRAIGHT out at shoulder height forming T, palms down, arms remain parallel HORIZONTAL FLOOR during gentle torso sidebend. Lean upper body15degrees toward IMAGE LEFT without rotating or leaning forward, neck/head aligned torso no neck-only tilt, no hip shift. Stretch RIGHT lat along elongated IMAGE-RIGHT side. Primary LATS teaching overlay ONLY ONE smooth diffuse BLURRED RED tint on elongated RIGHT lateral-back SHIRT below shoulder down side torso, no left compressed-side red, no fiber/ray/anatomy drawn through cloth. No weights/band/support. Fine detailed EXPOSED grayscale muscle anatomy arms/calves, realistic proportions, equal male/female quality. Original project reference ONLY rendering STYLE, never its push-up pose/bench/chest red. Fully opaque BLACK athletic shirt and MID-THIGH shorts continuously wrap FRONT SIDES BACK SEAT CROTCH with seams and BROAD fabric folds, no clothing cutaway/transparency/anatomy through cloth. Black shoes. White background soft grounded shadows. Whole body/limbs/box inside canvas and EACH cell generous margins all sides, no cross-cell overlap. No embedded captions/text/labels/arrows.",
+          "inspectionNote": "Static gentle lateral torso bend with arms out and red on elongated side, heels grounded and opaque clothes. Head turned relative torso and shirt highlight has fine streaks; correction needed. Fine exposed anatomy; qualified lateral-plane, hips and lat localization pending.",
+          "canonicalName": "standing lateral stretch",
+          "styleVersion": "white-v1",
+          "equipment": "body weight",
+          "primaryMuscles": [
+            "lats"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Static gentle lateral torso bend with arms out and red on elongated side, heels grounded and opaque clothes. Head turned relative torso and shirt highlight has fine streaks; correction needed. Fine exposed anatomy; qualified lateral-plane, hips and lat localization pending.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0794-male-anatomical-white-v1-p1-ae82b90bcddf.webp",
+              "width": 1200,
+              "height": 1200,
+              "bytes": 39012,
+              "sha256": "ae82b90bcddfbb7113c8fed79745417edaeb9206326feda7df4e8cb291ca85e5"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0794-male-anatomical-white-v1-thumb-f1f2abce917e.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 2842,
+            "sha256": "f1f2abce917efabca8f99938aebd0eacccdc68ed50010de4b6f585dba2c9197f"
+          },
+          "processingSignature": "3a5b17b8b5bc54099c79a7584444b76f5cbb34119612479b0099b018bde10ec2",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0794-male-anatomical-white-v1.png",
+            "width": 1254,
+            "height": 1254,
+            "bytes": 1315377,
+            "sha256": "3eaf8203f9517c8a6b99eefde637c8edb852c211a9cf387563131bda6a918ace"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "0794",
+      "variant": "female",
+      "key": "0794-female-anatomical-white-v2",
+      "layout": {
+        "columns": 1,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand with feet shoulder-width and knees soft, arms extended to the sides. Lean gently to one side and hold 15\u201330 seconds, then return and repeat on the other side."
+        }
+      ],
+      "prompt": "Correct original female STATIC STANDING LATERAL STRETCH with arms out to sides. Keep gentle torso bend IMAGE LEFT, hips level and feet grounded, arms straight horizontally out. Set HEAD NEUTRAL ALIGNED TORSO, back of skull centered over spine tilted with torso but NO head rotation, show REAR view not face profile. Red ONLY elongated IMAGE-RIGHT LAT side on opaque BLACK shirt: ONE smooth diffuse BLURRED tint, remove all fine rays/fibers/striations, broad fabric folds only. Full opaque shirt/shorts front sides back seat crotch, fine exposed grayscale anatomy, square canvas generous margins no text.",
+      "inspectionNote": "Head corrected to neutral rear torso alignment and lat overlay softened on opaque shirt. Static lateral bend arms out with grounded feet, full opaque back/seat clothes and fine exposed anatomy. Qualified lateral plane, hips, arm level and elongated-side lat localization pending.",
+      "canonicalName": "standing lateral stretch",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "lats"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0794-female-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "status": "generated",
+        "costUSD": null
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Head corrected to neutral rear torso alignment and lat overlay softened on opaque shirt. Static lateral bend arms out with grounded feet, full opaque back/seat clothes and fine exposed anatomy. Qualified lateral plane, hips, arm level and elongated-side lat localization pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0794-female-anatomical-white-v2-p1-ec6ef8940965.webp",
+          "width": 1200,
+          "height": 1200,
+          "bytes": 32166,
+          "sha256": "ec6ef8940965f1550cc03b5cdccda277f47bfe08b451ceb36814ce4ffb5b2cfb"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0794-female-anatomical-white-v2-thumb-8c7dcbaa7811.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2606,
+        "sha256": "8c7dcbaa7811823fc52abd1809b561d0e7abc9e08b6bb58bcdd2c8071cbbf0e4"
+      },
+      "processingSignature": "8dc9c9a258e1adf15462f5fdd32ca5254c6fa525b78e7bfc3762967ecc5d5c1f",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0794-female-anatomical-white-v2.png",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 1277001,
+        "sha256": "98f6050602f5fc18d1dc5ce73929f37d6e687052849635d3a91c1e41c7c260c4"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0794",
+          "variant": "female",
+          "key": "0794-female-anatomical-white-v1",
+          "layout": {
+            "columns": 1,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Stand with feet shoulder-width and knees soft, arms extended to the sides. Lean gently to one side and hold 15\u201330 seconds, then return and repeat on the other side."
+            }
+          ],
+          "prompt": "Original premium ADULT female exercise anatomy illustration. ONE STATIC STANDING LATERAL STRETCH pose on SQUARE canvas. Canonical variation ARMS OUT TO SIDES, NOT overhead. REAR three-quarter camera showing back/side torso. Feet shoulder-width full soles flat floor, knees softly bent, hips level stationary. BOTH arms STRAIGHT out at shoulder height forming T, palms down, arms remain parallel HORIZONTAL FLOOR during gentle torso sidebend. Lean upper body15degrees toward IMAGE LEFT without rotating or leaning forward, neck/head aligned torso no neck-only tilt, no hip shift. Stretch RIGHT lat along elongated IMAGE-RIGHT side. Primary LATS teaching overlay ONLY ONE smooth diffuse BLURRED RED tint on elongated RIGHT lateral-back SHIRT below shoulder down side torso, no left compressed-side red, no fiber/ray/anatomy drawn through cloth. No weights/band/support. Fine detailed EXPOSED grayscale muscle anatomy arms/calves, realistic proportions, equal male/female quality. Original project reference ONLY rendering STYLE, never its push-up pose/bench/chest red. Fully opaque BLACK athletic shirt and MID-THIGH shorts continuously wrap FRONT SIDES BACK SEAT CROTCH with seams and BROAD fabric folds, no clothing cutaway/transparency/anatomy through cloth. Black shoes. White background soft grounded shadows. Whole body/limbs/box inside canvas and EACH cell generous margins all sides, no cross-cell overlap. No embedded captions/text/labels/arrows.",
+          "inspectionNote": "Static lateral torso bend with arms out and red elongated-side shirt, heels down and opaque clothing. Head rotated relative torso and fine red clothing streaks require correction. Detailed exposed anatomy; qualified lateral plane, hip position and lat mapping pending.",
+          "canonicalName": "standing lateral stretch",
+          "styleVersion": "white-v1",
+          "equipment": "body weight",
+          "primaryMuscles": [
+            "lats"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Static lateral torso bend with arms out and red elongated-side shirt, heels down and opaque clothing. Head rotated relative torso and fine red clothing streaks require correction. Detailed exposed anatomy; qualified lateral plane, hip position and lat mapping pending.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0794-female-anatomical-white-v1-p1-330e74bd76f6.webp",
+              "width": 1200,
+              "height": 1200,
+              "bytes": 37886,
+              "sha256": "330e74bd76f63be027650e0f1a3228fc60da18514c0d6712efdce18256ce4c32"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0794-female-anatomical-white-v1-thumb-920ffbcbe8df.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 2794,
+            "sha256": "920ffbcbe8df2f74953235178fafcb9c9b80affe87eaccb01f0d6a8d6a07b6c2"
+          },
+          "processingSignature": "c6500447c1b340fc16399a3d9de7e7883bcafdb5990ae04c5305956ada957936",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0794-female-anatomical-white-v1.png",
+            "width": 1254,
+            "height": 1254,
+            "bytes": 1326632,
+            "sha256": "4e987e66c1ce525f79bae2f75e9b3730ec11c8bacac503cbbeaad3cf8c655dce"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "0801",
+      "variant": "male",
+      "key": "0801-male-anatomical-white-v2",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Place the lead foot fully on a sturdy step while the other foot stays on the floor."
+        },
+        {
+          "key": "p2",
+          "caption": "Press through the lead heel until that leg straightens and the body rises onto the step, then lower slowly. Finish repetitions before switching legs."
+        }
+      ],
+      "prompt": "Correct original male STEP UP TWO-panel framing: increase WHITE TOP MARGIN to at least8percent cell height above standing head. TWO equal SQUARE side-by-side cells WIDE LANDSCAPE, same model/machine scale between phases and generous box/shoe margins. Preserve lead foot fully on same fixed sturdy box position, bent knee start other foot on floor then SAME lead leg straight at finish with trailing foot suspended beside/back, upright torso and relaxed arms. Smooth diffuse red FRONT LEAD THIGH tint on opaque black shorts, no rays/fibers or anatomy through cloth. Full opaque black shirt/shorts front sides back seat crotch, detailed exposed grayscale anatomy, white background no text.",
+      "inspectionNote": "Standing head margin expanded, two equal square landscape cells, thin gray borders introduced. Lead-foot start then lead-leg straight supporting body with trailing foot suspended retained. Opaque clothes, smooth front-thigh tint, detailed exposed anatomy. Qualified same-leg identity, scale, knee alignment and box mechanics pending.",
+      "canonicalName": "step up",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "quads"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0801-male-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "status": "generated",
+        "costUSD": null
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Standing head margin expanded, two equal square landscape cells, thin gray borders introduced. Lead-foot start then lead-leg straight supporting body with trailing foot suspended retained. Opaque clothes, smooth front-thigh tint, detailed exposed anatomy. Qualified same-leg identity, scale, knee alignment and box mechanics pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0801-male-anatomical-white-v2-p1-f149165092d3.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 19616,
+          "sha256": "f149165092d3c93f02a22892efd3c5448c4c69530c067ce0333d3b9d6cd23923"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0801-male-anatomical-white-v2-p2-cfb2a3261591.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 17260,
+          "sha256": "cfb2a3261591c44b59b055bfb8330f589b794960674d9fd96a8e836f79b4b735"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0801-male-anatomical-white-v2-thumb-c88d85f84d9d.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2178,
+        "sha256": "c88d85f84d9d1b197cd7ef8d419ff878af67a30f1e539bd4216e8993f3da25d5"
+      },
+      "processingSignature": "a743e6b0eb54077d500656c283fc5618f611f94ea0f415a199cb147acd6c187f",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0801-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1243311,
+        "sha256": "a695f2990d59a4a2e50cfb8008dc8aa41ea7fdf9ae848071e49e89ed4350323d"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0801",
+          "variant": "male",
+          "key": "0801-male-anatomical-white-v1",
+          "layout": {
+            "columns": 2,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Place the lead foot fully on a sturdy step while the other foot stays on the floor."
+            },
+            {
+              "key": "p2",
+              "caption": "Press through the lead heel until that leg straightens and the body rises onto the step, then lower slowly. Finish repetitions before switching legs."
+            }
+          ],
+          "prompt": "Original premium ADULT male exercise anatomy illustration. TWO equal SQUARE cells side by side WIDE LANDSCAPE. BODYWEIGHT STEP UP. Same sturdy rectangular gray BOX30cm high fixed grounded in both cells, side-front three-quarter camera model faces IMAGE RIGHT same view. LEFT start: NEARER lead foot fully flat on box top, lead knee bent, far trailing foot on FLOOR behind box. RIGHT finish SAME lead foot fixed SAME spot box, lead knee now STRAIGHT supporting body upright above step, trailing foot lifted off floor hanging BESIDE lead leg near box level without overtaking/crossing. Same model scale/limb lengths, box and lead shoe fixed. Arms relaxed not pushing thigh, no weights. Red primary QUADRICEPS ONE smooth diffuse BLURRED tint over intact opaque FRONT LEAD THIGH shorts only, no rays/fibers/striations. No chest/glute/calf red. Fine detailed EXPOSED grayscale muscle anatomy arms/calves, realistic proportions, equal male/female quality. Original project reference ONLY rendering STYLE, never its push-up pose/bench/chest red. Fully opaque BLACK athletic shirt and MID-THIGH shorts continuously wrap FRONT SIDES BACK SEAT CROTCH with seams and BROAD fabric folds, no clothing cutaway/transparency/anatomy through cloth. Black shoes. White background soft grounded shadows. Whole body/limbs/box inside canvas and EACH cell generous margins all sides, no cross-cell overlap. No embedded captions/text/labels/arrows.",
+          "inspectionNote": "Step-up lead foot on box then straight lead leg standing with trailing foot suspended. Opaque clothes with diffuse thigh red and fine exposed anatomy. Standing head close to top edge, framing correction required. Qualified lead-leg identity, relative scale, box stability and knee alignment pending.",
+          "canonicalName": "step up",
+          "styleVersion": "white-v1",
+          "equipment": "body weight",
+          "primaryMuscles": [
+            "quads"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Step-up lead foot on box then straight lead leg standing with trailing foot suspended. Opaque clothes with diffuse thigh red and fine exposed anatomy. Standing head close to top edge, framing correction required. Qualified lead-leg identity, relative scale, box stability and knee alignment pending.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0801-male-anatomical-white-v1-p1-5a56347397d3.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 21074,
+              "sha256": "5a56347397d37b83f4deccc120defef6644e653170a58f6c8bf6af426282bf2f"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0801-male-anatomical-white-v1-p2-71903bcdbb07.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 20076,
+              "sha256": "71903bcdbb076b0f4f74f34e2c68eaabd8444e87e6dfaffda07bf3726bc2fa6f"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0801-male-anatomical-white-v1-thumb-3e8480712c8f.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 2226,
+            "sha256": "3e8480712c8ff5cc00f1f4345ec7d23f8d60584e7405555d6a4a85f1a8b8ba30"
+          },
+          "processingSignature": "c07aedcecdfb614bcf633da065d3cf6dedd37f864a1738db00d752d4e94e4296",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0801-male-anatomical-white-v1.png",
+            "width": 1774,
+            "height": 887,
+            "bytes": 1315684,
+            "sha256": "e28fad3d25864a27ff43b8db47aa8ab93a89b6783b06852f5fbc69133ba19350"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "0801",
+      "variant": "female",
+      "key": "0801-female-anatomical-white-v2",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Place the lead foot fully on a sturdy step while the other foot stays on the floor."
+        },
+        {
+          "key": "p2",
+          "caption": "Press through the lead heel until that leg straightens and the body rises onto the step, then lower slowly. Finish repetitions before switching legs."
+        }
+      ],
+      "prompt": "Correct original female STEP UP TWO-panel framing: increase WHITE TOP MARGIN to at least8percent cell height above standing head. TWO equal SQUARE side-by-side cells WIDE LANDSCAPE, same model/machine scale between phases and generous box/shoe margins. Preserve lead foot fully on same fixed sturdy box position, bent knee start other foot on floor then SAME lead leg straight at finish with trailing foot suspended beside/back, upright torso and relaxed arms. Smooth diffuse red FRONT LEAD THIGH tint on opaque black shorts, no rays/fibers or anatomy through cloth. Full opaque black shirt/shorts front sides back seat crotch, detailed exposed grayscale anatomy, white background no text.",
+      "inspectionNote": "Head margin expanded, equal square landscape cells and thin gray borders. Step-up lead-foot start and lead-leg-straight finish with trailing foot suspended retained, opaque clothes with diffuse thigh tint and fine exposed anatomy. Qualified same-leg identity, scale, knee alignment and box stability pending.",
+      "canonicalName": "step up",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "quads"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0801-female-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "status": "generated",
+        "costUSD": null
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Head margin expanded, equal square landscape cells and thin gray borders. Step-up lead-foot start and lead-leg-straight finish with trailing foot suspended retained, opaque clothes with diffuse thigh tint and fine exposed anatomy. Qualified same-leg identity, scale, knee alignment and box stability pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0801-female-anatomical-white-v2-p1-da4a262f1b43.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 20604,
+          "sha256": "da4a262f1b4338d5c9e05f2258f866abaf5ec8b607ccfd460913b7f06a3ac382"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0801-female-anatomical-white-v2-p2-c65be6f20d2e.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 18656,
+          "sha256": "c65be6f20d2e6619e419ea5460e1ea223449234beae11d307c11c6d306170e21"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0801-female-anatomical-white-v2-thumb-0ccc2891f352.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2322,
+        "sha256": "0ccc2891f3523a2a27306f4b40a19b8275d7723ba5fd1e2bfcbb37a18f6d2dd3"
+      },
+      "processingSignature": "cb47fa1120c5bcf1109511ee64f8ea6fad5130f33bd5b1299adcc384e0c45fc1",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0801-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1258885,
+        "sha256": "1d447f13cbc7b4d6bd104751932c840b69969ca823943d417a7a69267ae6ddab"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0801",
+          "variant": "female",
+          "key": "0801-female-anatomical-white-v1",
+          "layout": {
+            "columns": 2,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Place the lead foot fully on a sturdy step while the other foot stays on the floor."
+            },
+            {
+              "key": "p2",
+              "caption": "Press through the lead heel until that leg straightens and the body rises onto the step, then lower slowly. Finish repetitions before switching legs."
+            }
+          ],
+          "prompt": "Original premium ADULT female exercise anatomy illustration. TWO equal SQUARE cells side by side WIDE LANDSCAPE. BODYWEIGHT STEP UP. Same sturdy rectangular gray BOX30cm high fixed grounded in both cells, side-front three-quarter camera model faces IMAGE RIGHT same view. LEFT start: NEARER lead foot fully flat on box top, lead knee bent, far trailing foot on FLOOR behind box. RIGHT finish SAME lead foot fixed SAME spot box, lead knee now STRAIGHT supporting body upright above step, trailing foot lifted off floor hanging BESIDE lead leg near box level without overtaking/crossing. Same model scale/limb lengths, box and lead shoe fixed. Arms relaxed not pushing thigh, no weights. Red primary QUADRICEPS ONE smooth diffuse BLURRED tint over intact opaque FRONT LEAD THIGH shorts only, no rays/fibers/striations. No chest/glute/calf red. Fine detailed EXPOSED grayscale muscle anatomy arms/calves, realistic proportions, equal male/female quality. Original project reference ONLY rendering STYLE, never its push-up pose/bench/chest red. Fully opaque BLACK athletic shirt and MID-THIGH shorts continuously wrap FRONT SIDES BACK SEAT CROTCH with seams and BROAD fabric folds, no clothing cutaway/transparency/anatomy through cloth. Black shoes. White background soft grounded shadows. Whole body/limbs/box inside canvas and EACH cell generous margins all sides, no cross-cell overlap. No embedded captions/text/labels/arrows.",
+          "inspectionNote": "Step up lead foot on box then lead leg straight and trailing foot suspended, full opaque clothes and fine exposed anatomy. Head too near top edge at finish; framing correction required. Qualified lead identity, scale, knee alignment and box stability pending.",
+          "canonicalName": "step up",
+          "styleVersion": "white-v1",
+          "equipment": "body weight",
+          "primaryMuscles": [
+            "quads"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Step up lead foot on box then lead leg straight and trailing foot suspended, full opaque clothes and fine exposed anatomy. Head too near top edge at finish; framing correction required. Qualified lead identity, scale, knee alignment and box stability pending.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0801-female-anatomical-white-v1-p1-6c1f1ee1bb68.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 24436,
+              "sha256": "6c1f1ee1bb680bbbd769b95419e1a7e6233b22fac47fefa257a411f85044e628"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0801-female-anatomical-white-v1-p2-0ca82a72c2f6.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 22558,
+              "sha256": "0ca82a72c2f65b948cbf4eed99d5505d60f4d1625fc9c0f2a4758dad9075f17d"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0801-female-anatomical-white-v1-thumb-8cb778c4effa.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 2474,
+            "sha256": "8cb778c4effae7bd66a622291042bf3bcde2c1b2446992d4c7d434db0f65bfed"
+          },
+          "processingSignature": "2e7fdf17816c7dae578471fcafe804f4b821a5108b8ba487bc13fa8c47a1cb03",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0801-female-anatomical-white-v1.png",
+            "width": 1774,
+            "height": 887,
+            "bytes": 1358736,
+            "sha256": "583b664cbe6ee16d3f8af4401ad2a99336d76e6164dfadb8bd86afbe4739d94e"
+          }
+        }
+      ]
+    }
+  ]
+}

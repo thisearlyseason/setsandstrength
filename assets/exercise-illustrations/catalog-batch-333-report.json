@@ -1,0 +1,76 @@
+{
+  "batch": 333,
+  "runId": "4efb854b-4427-4a0f-8c9d-36db496f1c1e",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "trigger": "2026-11-04T09:52:30.408Z",
+  "purpose": "batch333 scheduled male continuation",
+  "started": "2026-11-04T09:53:18.103312+00:00",
+  "completedAt": "2026-11-04T10:01:00.214876+00:00",
+  "actualToolName": "image_gen__imagegen",
+  "calls": 3,
+  "newCandidateSets": 3,
+  "exerciseIds": [
+    "3212",
+    "3213",
+    "3214"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1195,
+    "remainingVariants": 10069,
+    "approvedVariants": 0,
+    "blockedVariants": 438,
+    "knownPoseImages": 2336,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 822,
+      "remainingVariants": 4810,
+      "blockedVariants": 319
+    }
+  },
+  "reviewNotes": {
+    "3212": "Standing and hip-hinge toe-reach phases show heels grounded and long back, opaque clothing/plain glute wash. Qualified review of soft knee bend, comfortable reach and neck neutrality pending.",
+    "3213": "Neutral T arms and clearly mirrored same-side foot reaches show lateral bends and planted feet. Abdomen tint includes six-pack segmentation through tank; block fabric overlay correction. Qualified side-bend range and hand anatomy review pending.",
+    "3214": "Neutral start then repeated same support/raised-leg reach instead of alternating; T arms absent at start and requested primary glute highlight absent. Clothing opaque. Block alternation/start/highlight correction."
+  },
+  "blockingIssues": {
+    "3213": [
+      "Replace six-pack anatomical segmentation through tank with plain uniform wash on intact fabric."
+    ],
+    "3214": [
+      "Mirror third pose to opposite supporting leg/hand and raised leg.",
+      "Show start arms extended sideways and add plain uniform primary glute wash over intact shorts."
+    ]
+  },
+  "deferred": {
+    "3215": "Hands clasped behind legs then overhead circular path unclear; clarify.",
+    "3217": "Description pike/dive/lifted chest conflicts with instructed push-up-to-inverted-V flow.",
+    "3218": "Circular hand path unspecified; clarify before additional pose planning."
+  },
+  "tests": 7,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "workerSyncResult": {
+    "statuses": {
+      "generated": 1195,
+      "pending": 10069
+    },
+    "remaining": 10069,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 1827233210
+  },
+  "publicationIndexUnchanged": true
+}

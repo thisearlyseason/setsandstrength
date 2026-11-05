@@ -1,0 +1,83 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "1627",
+      "variant": "male",
+      "key": "1627-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Sit with your upper arms on the preacher pad. Hold the inner angled grips of an EZ bar with palms up and lower under control."
+        },
+        {
+          "key": "p2",
+          "caption": "Keep your upper arms supported and curl the bar toward your shoulders. Pause, then lower slowly."
+        }
+      ],
+      "prompt": "Original premium ADULT male anatomical scientific educational exercise illustration canonical1627 EZ BARBELL CLOSE GRIP PREACHER CURL. TWO equal square panels side by side wide2:1 landscape. Same full body person preacher bench EZbar camera scale. Front three-quarter view. Seated on gray preacher bench feet flat, chest against upper edge of sloped preacher pad BOTH upper arms rest firmly on pad. Short silver EZ CURL BAR distinct shallow zigzag bends, identical bar with two small plates each end, hands CLOSE together about15cm apart on inner angled segments UNDERHAND palms up fingers wrap. LEFT START elbows nearly straight arms slope DOWN along pad, bar below front edge pad. RIGHT FINISH flex BOTH elbows bringing SAME bar toward shoulders keeping upper arms pressed to pad elbows fixed, no shoulder lift or torso lean. Bar level both hands on same continuous bar shaft visible between and outside hands, not machine levers. Both exposed BICEPS RED only. Detailed grayscale exposed anatomical muscles realistic proportions five fingers consistent person and equipment. Full opaque BLACK tank wraps front sides back, BLACK mid-thigh shorts continuous front sides back seat crotch seams hems folds, no cutaways or transparent fabric no muscle fibers through cloth. Black shoes. Pure WHITE background soft contact shadows generous12percent margins full head bar both plate ends feet entire bench uncropped within EACH panel. Equivalent male/female detail quality. Reference original project artwork STYLE ONLY ignore its pushup/chest highlight. No embedded text labels captions arrows extra figures.",
+      "inspectionNote": "Male-first scope authorized by user. One EZ-bar close-grip preacher curl master, two poses, one built-in call. Real output inspected: supported upper arms, close underhand grip, lowered to curled bar, red biceps and opaque full tank/shorts. Qualified human review needed for maintained pad contact, exact EZ grip angle, finger/bar contact and elbow range. Original artwork style only; exact prompt and master retained. No anatomy approval or publication. Ordinary female counterpart deferred under production-policy.json.",
+      "canonicalName": "ez barbell close grip preacher curl",
+      "styleVersion": "white-v1",
+      "equipment": "ez barbell",
+      "primaryMuscles": [
+        "biceps"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Male-first scope authorized by user. One EZ-bar close-grip preacher curl master, two poses, one built-in call. Real output inspected: supported upper arms, close underhand grip, lowered to curled bar, red biceps and opaque full tank/shorts. Qualified human review needed for maintained pad contact, exact EZ grip angle, finger/bar contact and elbow range. Original artwork style only; exact prompt and master retained. No anatomy approval or publication. Ordinary female counterpart deferred under production-policy.json.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/1627-male-anatomical-white-v1-p1-579977b91d2b.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 46948,
+          "sha256": "579977b91d2b22b14d8279d93a47bdc0aaf7e207df43c7a684d079d525bd8c14"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/1627-male-anatomical-white-v1-p2-1cc4a751c768.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 43546,
+          "sha256": "1cc4a751c7684a228595f695b952d8d6f4184d97222e59b0cf3289cb92ff2380"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-217.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/1627-male-anatomical-white-v1-thumb-5e68b7104875.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 4490,
+        "sha256": "5e68b7104875259bb3879ed812a55339eb2d8430075255958becc7598e8cb780"
+      },
+      "processingSignature": "bf9082cca5f3e6dbfac33f3b9fbdc1cc2b21342d249dde059cde636219c4bad5",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1627-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1619558,
+        "sha256": "cbef703e84ddcf2bc466fd803e15c16043f04507b36e2fbe3289945924277b93"
+      }
+    }
+  ]
+}

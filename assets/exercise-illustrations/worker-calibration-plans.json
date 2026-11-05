@@ -1,0 +1,25 @@
+{
+  "note": "Two planned candidates for provider calibration, not anatomical approval. Uses existing canonical exercise 0001. No paid generation authorized.",
+  "jobs": [
+    {
+      "exerciseId": "0001", "variant": "male",
+      "layout": {"columns": 2, "rows": 1},
+      "poses": [
+        {"key":"p1","caption":"Start","description":"Lie supine on mat, knees bent, soles flat, hands resting lightly behind head, elbows comfortably open."},
+        {"key":"p2","caption":"Partial sit-up","description":"Same feet and pelvis position. Raise trunk only to approximately 45 degrees, with controlled spinal flexion. Hands remain light; do not pull head or neck. Do not show a full upright sit-up."}
+      ],
+      "techniqueNotes":"Canonical 3/4 sit-up, not a crunch or full sit-up. Use a side-oblique camera with both knees, heels, pelvis and spine visible. Keep feet grounded, cervical spine comfortable, avoid jerking. Male wears opaque training top, fully enclosed knee-length athletic shorts and shoes in both poses. Qualified review must check catalog terminology and range before publication.",
+      "muscleNotes":"Catalog target is abs. Red rectus-abdominis region overlay on intact opaque top; do not expose fibers through fabric. Hip flexors and lower back are catalog secondary labels, not primary red highlights. Detailed muscle map absent: qualified review pending."
+    },
+    {
+      "exerciseId": "0001", "variant": "female",
+      "layout": {"columns": 2, "rows": 1},
+      "poses": [
+        {"key":"p1","caption":"Start","description":"Lie supine on mat, knees bent, soles flat, hands resting lightly behind head, elbows comfortably open."},
+        {"key":"p2","caption":"Partial sit-up","description":"Same feet and pelvis position. Raise trunk only to approximately 45 degrees, with controlled spinal flexion. Hands remain light; do not pull head or neck. Do not show a full upright sit-up."}
+      ],
+      "techniqueNotes":"Canonical 3/4 sit-up, not a crunch or full sit-up. Use a side-oblique camera with both knees, heels, pelvis and spine visible. Keep feet grounded, cervical spine comfortable, avoid jerking. Female wears opaque fitted athletic top with full chest/side/back coverage, fully enclosed knee-length athletic shorts and shoes in both poses. Equivalent detail to male model. Qualified review must check catalog terminology and range before publication.",
+      "muscleNotes":"Catalog target is abs. Red rectus-abdominis region overlay on intact opaque top; do not expose fibers through fabric. Hip flexors and lower back are catalog secondary labels, not primary red highlights. Detailed muscle map absent: qualified review pending."
+    }
+  ]
+}

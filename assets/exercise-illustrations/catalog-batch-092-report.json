@@ -1,0 +1,85 @@
+{
+  "batch": 92,
+  "trigger": "2026-11-01T20:24:50.773Z",
+  "completedAt": "2026-11-01T20:53:36.900995+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 4,
+  "generationCalls": 9,
+  "exerciseIds": [
+    "0620",
+    "0622"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 380,
+    "remainingVariants": 10884,
+    "approvedVariants": 0,
+    "blockedVariants": 157,
+    "knownPoseImages": 774,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Four candidate sets with eight pose images and five correction masters saved, nine built-in calls. None approved or published. Bench leg raises show both straight legs lifting together, head/back supported and hands under clothed hips; full benches fit with tighter male side margin. Shirt corrections replace segmented abs patterns with diffuse red tint over opaque fabric; additional female correction restores exposed grayscale fiber detail. Both scissor-kick correction attempts soften shirt tint but fail to visibly exchange high/low leg identity; both remain blocked, and male head still lifted. Female head support improved. Qualified review remains for proportions, pelvis/lumbar contact, head support, scissor alternation and range. Full opaque torso/front/sides/back/seat/crotch coverage retained. All original masters, exact prompts, intermediate corrections and hashes retained; intermediate female bench v2 saved without delivery assets and history corrected accordingly. Only original project artwork used for style. Pipeline tests are separate from anatomy approval.",
+  "metadataConflictsDeferred": [],
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 624315878,
+  "savedMasters": [
+    {
+      "exerciseId": "0620",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0620-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1633556,
+        "sha256": "4ac463cff058da2ec7b1a3f7cc4bc75a049ff6cd8ba7020a3717b22ccedc3e42"
+      }
+    },
+    {
+      "exerciseId": "0620",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0620-female-anatomical-white-v3.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1651667,
+        "sha256": "fc98b2e05147105a6b88f84322ee1576bb84c9ffc7036a759e14bc60103223fe"
+      }
+    },
+    {
+      "exerciseId": "0622",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0622-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1631444,
+        "sha256": "eef117824da328ae75272b75ce4bb560f8efa7d70eecc20bbb6e59adc1f7c6ac"
+      }
+    },
+    {
+      "exerciseId": "0622",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0622-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1582061,
+        "sha256": "624bb1217f016c2439665533011ea10855f7f9c3c5a7fc3a0fee15dbd0180f1a"
+      }
+    }
+  ]
+}

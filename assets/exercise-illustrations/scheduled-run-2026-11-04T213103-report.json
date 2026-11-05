@@ -1,0 +1,56 @@
+{
+  "runId": "6432dcde-be12-4ee6-81c2-9860e1669ba3",
+  "triggerTimestamp": "2026-11-04T21:31:03.439Z",
+  "builtInImageGenAvailable": true,
+  "batches": [
+    424,
+    425
+  ],
+  "generatedMasters": 7,
+  "generatedIds": [
+    "3853",
+    "3854",
+    "3861",
+    "3872",
+    "3889",
+    "3893",
+    "3896"
+  ],
+  "blocked": {
+    "3853": [
+      "Red primary target hip highlight placed on support side instead of abducting leg."
+    ],
+    "3893": [
+      "Unrequested torso highlight includes nipple visible through tank."
+    ],
+    "3896": [
+      "Back anatomy fibers visible through tank instead of plain fabric wash."
+    ]
+  },
+  "coverageAfter": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1502,
+    "remainingVariants": 9762,
+    "approvedVariants": 0,
+    "blockedVariants": 570,
+    "knownPoseImages": 3010,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 1129,
+      "remainingVariants": 4503,
+      "blockedVariants": 451
+    }
+  },
+  "pipelineTests": "8 passed, 0 failed after each batch",
+  "approvedIndexUnchanged": true,
+  "existingUserApprovalsPreserved": 1306,
+  "anatomyReview": "pending",
+  "publication": "none",
+  "stopReason": "Repeated clothing overlay anatomy failures on3893 and3896; affected originals saved blocked.",
+  "nextRunGuidance": "Reference0493 chest pattern continues leaking into unrelated subjects. Consider another previously user-style-approved original without clothing anatomy overlay for style only; do not substitute upstream media. Save conservative garment-first red teaching patches and retain detailed exposed anatomy. Remaining prepared3828/3858 have no originals."
+}

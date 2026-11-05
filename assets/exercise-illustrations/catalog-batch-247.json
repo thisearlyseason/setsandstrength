@@ -1,0 +1,275 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "1899",
+      "variant": "male",
+      "key": "1899-male-anatomical-white-v1",
+      "layout": {
+        "columns": 1,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand with your feet wide. Shift your weight to one side and bend that knee, keeping the other leg straight and its foot flat. Keep your chest tall, hold for 20\u201330 seconds and switch sides."
+        }
+      ],
+      "prompt": "SIDE LUNGE ADDUCTOR STRETCH. ONE full-body static FRONT three-quarter pose. Wide stance feetflat toesforward, bend LEFT knee shiftweightleft(imageRIGHT), RIGHT leg straight extendedlaterally(imageLEFT). Chest tall longspine pelvisfacesfront no axialtwist, hands restlightly on bentlegthigh above knee. Straight RIGHT INNER THIGH adductor muscle exposed belowshorthem RED with anatomicalcontourdetail through tint, bentleggray and allother skin gray. No chestred. Fullfeetkneeshand contacts clearlyvisible, knees alignedtoes, no kneecollapse. Hold20-30seconds. Use case: scientific-educational. Premium detailed ADULT MALE grayscale anatomical illustration matching original reference for rendering STYLE ONLY, ignore its pose and highlights. Realistic proportions, crisp exposed grayscale muscle contours, white background soft shadows. Full opaque BLACK athletic tank and mid-thigh shorts wrap front sides back seat crotch, seams hems folds; no transparency cutaways or anatomy visible through fabric. Red highlight over fabric must be a FLAT UNIFORM SOFT RED ELLIPSE teaching tint with no internal lines fibers rays or lobes; fabric folds retained. Black shoes. No text labels arrows captions logos. All limbs fingers feet and equipment entirely in frame with generous margins. Same person camera lighting and scale across poses.",
+      "inspectionNote": "Real output inspected. Side-lunge adductor stretch: wide stance, straight right leg with inner-thigh highlight, bent opposite knee and hands above knee; coherent whole-body orientation. Qualified review needed for knee tracking, heel loading, adductor mapping and intact hem/overlay boundary. Detailed grayscale rendering, white background and full opaque tank/shorts retained. Original project artwork style only, no upstream media. Exact prompt and original saved. Human anatomy review pending; no approval or publication.",
+      "canonicalName": "side lunge adductor stretch",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "adductors"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Side-lunge adductor stretch: wide stance, straight right leg with inner-thigh highlight, bent opposite knee and hands above knee; coherent whole-body orientation. Qualified review needed for knee tracking, heel loading, adductor mapping and intact hem/overlay boundary. Detailed grayscale rendering, white background and full opaque tank/shorts retained. Original project artwork style only, no upstream media. Exact prompt and original saved. Human anatomy review pending; no approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/1899-male-anatomical-white-v1-p1-af05cc688ba5.webp",
+          "width": 1200,
+          "height": 800,
+          "bytes": 30848,
+          "sha256": "af05cc688ba59aee6ecae63f39292ae1e49f7eea6840d21889ec79473a7f635a"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-247.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/1899-male-anatomical-white-v1-thumb-814d294ffc3f.webp",
+        "width": 240,
+        "height": 160,
+        "bytes": 2304,
+        "sha256": "814d294ffc3f9c7445e01154565b543a356031513be63444e29d7d801c92b199"
+      },
+      "processingSignature": "33eb27df5b1fad4bc711d4572dc518245b0b570d600e611a7891662853aa0baa",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1899-male-anatomical-white-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1395034,
+        "sha256": "e21694bc915a70207ea40abd6466862e79e1cdb4a7514fb3f9019da9b534a47e"
+      }
+    },
+    {
+      "exerciseId": "1900",
+      "variant": "male",
+      "key": "1900-male-anatomical-white-v1",
+      "layout": {
+        "columns": 1,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand wide and lower toward one bent knee while keeping the other leg straight. Use a light hand contact above the bent knee to guide it outward. Hold comfortably for 20\u201330 seconds, then switch sides."
+        }
+      ],
+      "prompt": "STANDING BENT KNEE HIP ADDUCTOR STRETCH. ONE full-body static FRONT view coherent face chest pelvis kneesfeet orientation. Feetwide toesmodestlyout, bend RIGHT knee andlower towardRIGHT(imageLEFT), LEFT legstraight extendedtowardimageRIGHT footflat. RIGHT hand gently contacts INNER RIGHT THIGH justABOVE bentknee to cue outward alignment, no force directlyon joint, LEFThand onleft hip. Spine long chesttall mildhiphinge. PRIMARY straight LEFT innerthigh ADDUCTORS RED exposed belowshorthem, rightbentleggrayscale. No chestred no red glutes/quads. Hold20-30secondscomfortable. Use case: scientific-educational. Premium detailed ADULT MALE grayscale anatomical illustration matching original reference for rendering STYLE ONLY, ignore its pose and highlights. Realistic proportions, crisp exposed grayscale muscle contours, white background soft shadows. Full opaque BLACK athletic tank and mid-thigh shorts wrap front sides back seat crotch, seams hems folds; no transparency cutaways or anatomy visible through fabric. Red highlight over fabric must be a FLAT UNIFORM SOFT RED ELLIPSE teaching tint with no internal lines fibers rays or lobes; fabric folds retained. Black shoes. No text labels arrows captions logos. All limbs fingers feet and equipment entirely in frame with generous margins. Same person camera lighting and scale across poses.",
+      "inspectionNote": "Real output inspected. Bent-knee adductor stretch: wide stance with one bent and opposite straight leg. BLOCKED: hand rests on front of bent knee rather than gentle inward-thigh contact guiding knee outward. Correct contact and preserve no joint pressure; review adductor overlay on intact shorts. Detailed grayscale rendering, white background and full opaque tank/shorts retained. Original project artwork style only, no upstream media. Exact prompt and original saved. Human anatomy review pending; no approval or publication.",
+      "blockingIssues": [
+        "Hand rests on front of bent knee rather than gentle inner-thigh contact guiding outward; correct contact without direct joint force."
+      ],
+      "canonicalName": "standing bent knee hip adductor stretch",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "adductors"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Bent-knee adductor stretch: wide stance with one bent and opposite straight leg. BLOCKED: hand rests on front of bent knee rather than gentle inward-thigh contact guiding knee outward. Correct contact and preserve no joint pressure; review adductor overlay on intact shorts. Detailed grayscale rendering, white background and full opaque tank/shorts retained. Original project artwork style only, no upstream media. Exact prompt and original saved. Human anatomy review pending; no approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/1900-male-anatomical-white-v1-p1-c60eafa180bd.webp",
+          "width": 1200,
+          "height": 600,
+          "bytes": 18224,
+          "sha256": "c60eafa180bd6841a80e1ed7cf9c93c1f82f81482e13e926761d49e635fb029b"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-247.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/1900-male-anatomical-white-v1-thumb-33b1699a9a19.webp",
+        "width": 240,
+        "height": 120,
+        "bytes": 1464,
+        "sha256": "33b1699a9a19403b0ea056c911d3ddfb1755534924993a4ad4481a76da50e7e4"
+      },
+      "processingSignature": "47d2ad5b2e46241d5ba4b260bb27335c3a271b66a71db130a2cb0bda68115836",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1900-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1271233,
+        "sha256": "b083627fa2df204c90e5b8c86baf7b63ef376cc7238c65c9a92cfdfe3055875c"
+      }
+    },
+    {
+      "exerciseId": "1902",
+      "variant": "male",
+      "key": "1902-male-anatomical-white-v1",
+      "layout": {
+        "columns": 1,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Sit with your legs spread wide and knees pointing up. Hinge forward from your hips with a long spine and walk your hands forward until you feel a gentle stretch. Hold for 20\u201330 seconds."
+        }
+      ],
+      "prompt": "SITTING WIDE LEG ADDUCTOR STRETCH. ONE full-body static straight-on FRONT three-quarter camera slightlyelevated. Male seated floor in comfortable STRADDLE both legsSTRAIGHT spread60-90degrees, heelsgrounded kneesANDtoespointUP, bothhips grounded. Chestfront pelvisfront BOTHkneecapsfront/up anatomicallycoherent no backfacingtorso. GentlyhingeFORWARD at hips LONGSPINE about20degrees, BOTHpalms onfloor infrontbetweenlegs, headalignednotneckcraned. Exposed BOTH INNER THIGH ADDUCTORS belowmid-thighshorthem RED with detail retained, no red calf chest orfrontquads. Opaque shorts wrap crotchseat innerlegs no cutaways. Fullhands bothfeetheadinsideframe. Hold20-30seconds. Use case: scientific-educational. Premium detailed ADULT MALE grayscale anatomical illustration matching original reference for rendering STYLE ONLY, ignore its pose and highlights. Realistic proportions, crisp exposed grayscale muscle contours, white background soft shadows. Full opaque BLACK athletic tank and mid-thigh shorts wrap front sides back seat crotch, seams hems folds; no transparency cutaways or anatomy visible through fabric. Red highlight over fabric must be a FLAT UNIFORM SOFT RED ELLIPSE teaching tint with no internal lines fibers rays or lobes; fabric folds retained. Black shoes. No text labels arrows captions logos. All limbs fingers feet and equipment entirely in frame with generous margins. Same person camera lighting and scale across poses.",
+      "inspectionNote": "Real output inspected. Seated straddle: both knees/toes upward, separate straight legs, palms forward and coherent front-facing torso/pelvis. Opaque shorts and teaching overlays retained. Qualified review needed for hip hinge versus spine flexion, cervical position, sitting-bone support and adductor mapping. Detailed grayscale rendering, white background and full opaque tank/shorts retained. Original project artwork style only, no upstream media. Exact prompt and original saved. Human anatomy review pending; no approval or publication.",
+      "canonicalName": "sitting wide leg adductor stretch",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "adductors"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Seated straddle: both knees/toes upward, separate straight legs, palms forward and coherent front-facing torso/pelvis. Opaque shorts and teaching overlays retained. Qualified review needed for hip hinge versus spine flexion, cervical position, sitting-bone support and adductor mapping. Detailed grayscale rendering, white background and full opaque tank/shorts retained. Original project artwork style only, no upstream media. Exact prompt and original saved. Human anatomy review pending; no approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/1902-male-anatomical-white-v1-p1-37634a082b06.webp",
+          "width": 1200,
+          "height": 600,
+          "bytes": 36802,
+          "sha256": "37634a082b06eb184d92947abb56c8646ee0dc55f90f041b4feb6d2f533ee42e"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-247.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/1902-male-anatomical-white-v1-thumb-f7136e0ee179.webp",
+        "width": 240,
+        "height": 120,
+        "bytes": 2422,
+        "sha256": "f7136e0ee179b6b84f429540c866191c9b0cf3277157b5640ef53fc97f2783b0"
+      },
+      "processingSignature": "f2d44faee04eb47392cf00dc6532b369208401640e9745d98cf26a39937b276e",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1902-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1527090,
+        "sha256": "133c87c63b1e12036063496aa2f1f4c5b0a73a8b894a59228fb84f3e193b61c9"
+      }
+    },
+    {
+      "exerciseId": "1909",
+      "variant": "male",
+      "key": "1909-male-anatomical-white-v1",
+      "layout": {
+        "columns": 1,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Step one heel forward with the toes raised. Keep that leg straight and the back knee slightly bent. Hinge forward with a flat back, hold for 20\u201330 seconds and switch legs."
+        }
+      ],
+      "prompt": "STANDING TOE UP HAMSTRING STRETCH. ONE full-body static SIDE FRONT three-quartercamera clearnearleg. RIGHT heel onfloor one smallstepFORWARD with rightTOES UP dorsiflexed and rightknee nearlystraight, LEFT supportingknee slightlybent footflat. Hinge torsoforward at HIPS longflatback chestopen headaligned, bothhands lightlyon LEFT supportingthigh above knee, no pressingstraightknee. PRIMARY RIGHT POSTERIOR THIGH HAMSTRINGS RED exposedbelowshorthem backofthigh, frontquadsgray calvesgray, NO chestred. Ifupperhamcovered plainsoftredteachingoverlay onintactshort rear lowerthigh only noanatomythroughfabric. All pelviskneesfeet coherentview, fullfeet hands head margins. Hold20-30seconds. Use case: scientific-educational. Premium detailed ADULT MALE grayscale anatomical illustration matching original reference for rendering STYLE ONLY, ignore its pose and highlights. Realistic proportions, crisp exposed grayscale muscle contours, white background soft shadows. Full opaque BLACK athletic tank and mid-thigh shorts wrap front sides back seat crotch, seams hems folds; no transparency cutaways or anatomy visible through fabric. Red highlight over fabric must be a FLAT UNIFORM SOFT RED ELLIPSE teaching tint with no internal lines fibers rays or lobes; fabric folds retained. Black shoes. No text labels arrows captions logos. All limbs fingers feet and equipment entirely in frame with generous margins. Same person camera lighting and scale across poses.",
+      "inspectionNote": "Real output inspected. Toe-up hamstring stretch: front heel grounded/toes raised, front knee near straight, rear knee soft and torso hinged. Qualified review needed for medial hamstring versus adductor highlight placement, hand pressure near knees, neutral cervical alignment and flat back. Detailed grayscale rendering, white background and full opaque tank/shorts retained. Original project artwork style only, no upstream media. Exact prompt and original saved. Human anatomy review pending; no approval or publication.",
+      "canonicalName": "standing toe up hamstring stretch",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "hamstrings"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Toe-up hamstring stretch: front heel grounded/toes raised, front knee near straight, rear knee soft and torso hinged. Qualified review needed for medial hamstring versus adductor highlight placement, hand pressure near knees, neutral cervical alignment and flat back. Detailed grayscale rendering, white background and full opaque tank/shorts retained. Original project artwork style only, no upstream media. Exact prompt and original saved. Human anatomy review pending; no approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/1909-male-anatomical-white-v1-p1-7bb23a42780b.webp",
+          "width": 1200,
+          "height": 600,
+          "bytes": 20002,
+          "sha256": "7bb23a42780b3f6a745486add4f319246805d3101ca71640062254ebabfc4511"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-247.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/1909-male-anatomical-white-v1-thumb-473a692d7322.webp",
+        "width": 240,
+        "height": 120,
+        "bytes": 1490,
+        "sha256": "473a692d7322342ff461ba754147a17cf86d230d10ba53ae15cdf474f0874338"
+      },
+      "processingSignature": "ff944f9edf0424cc64c90b3010c01171e67b40c7f58076fa2527051ca042113c",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1909-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1297082,
+        "sha256": "c583f195437c5ac7ec1ab1400393b7b12ad38234296450d0600e327dbbef12e9"
+      }
+    }
+  ]
+}

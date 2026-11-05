@@ -1,0 +1,73 @@
+{
+  "batch": 302,
+  "runId": "30cf35d6-d6d4-4b89-a4c6-0b276e7cd8f7",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "trigger": "2026-11-04T04:50:27.440Z",
+  "purpose": "batch302 scheduled male continuation",
+  "started": "2026-11-04T04:50:54.164618+00:00",
+  "completedAt": "2026-11-04T04:56:48.122366+00:00",
+  "actualToolName": "image_gen__imagegen",
+  "calls": 4,
+  "newCandidateSets": 4,
+  "exerciseIds": [
+    "2775",
+    "2776",
+    "2777",
+    "2778"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1076,
+    "remainingVariants": 10188,
+    "approvedVariants": 0,
+    "blockedVariants": 372,
+    "knownPoseImages": 2068,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 703,
+      "remainingVariants": 4929,
+      "blockedVariants": 253
+    }
+  },
+  "reviewNotes": {
+    "2775": "Same arm raises laterally from side to shoulder height, torso upright, opposite arm relaxed, lateral deltoid red and clothing opaque. Qualified review needed for shoulder depression, hand/finger anatomy, elbow softness and frontal-plane alignment. Human anatomy review pending.",
+    "2776": "Same arm lowers from lateral shoulder height to side, torso steady and red lateral back wash on intact opaque tank without exposed fibers. Qualified review needed for working-side laterality, lat placement, shoulder motion and finger anatomy. Human anatomy review pending.",
+    "2777": "Same straight arm moves behind hip from side with torso upright and feet fixed, opaque tank/shorts. Red tint concentrated upper back rather than clearly lateral lat region; block mapping correction. Qualified review needed for extension range, elbow straightness and avoiding trunk compensation. Human anatomy review pending.",
+    "2778": "Same arm raises to shoulder height and torso stays tall, anterior shoulder red and clothing opaque. Endpoint appears lateral rather than forward in sagittal plane; block direction/camera correction. Qualified review needed for arm path, wrist neutrality, rib position and finger anatomy. Human anatomy review pending."
+  },
+  "blockingIssues": {
+    "2777": [
+      "Reposition primary tint from upper-back region to working-side lateral lat region on intact tank."
+    ],
+    "2778": [
+      "Endpoint shows arm out to side; correct to forward shoulder flexion with camera clearly showing sagittal path."
+    ]
+  },
+  "deferred": {},
+  "tests": 7,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "workerSyncResult": {
+    "statuses": {
+      "generated": 1076,
+      "pending": 10188
+    },
+    "remaining": 10188,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 1653479185
+  },
+  "publicationIndexUnchanged": true
+}

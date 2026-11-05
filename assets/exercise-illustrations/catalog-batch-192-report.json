@@ -1,0 +1,65 @@
+{
+  "batch": 192,
+  "runId": "8be70dd3-0a25-4cda-90b1-a99d9756e360",
+  "trigger": "2026-11-03T11:58:29.612Z",
+  "completedAt": "2026-11-03T12:03:31.986500+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 2,
+  "generationCalls": 2,
+  "exerciseIds": [
+    "1456"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 698,
+    "remainingVariants": 10566,
+    "approvedVariants": 0,
+    "blockedVariants": 229,
+    "knownPoseImages": 1378,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Two close-grip standing military press candidates, four poses, two built-in calls. Front shoulder-height bar to overhead with straight arms, narrow pronated grip, flat feet, exposed deltoid red and opaque clothing. Detailed grayscale anatomy retained. Qualified wrist extension, grip spacing, overhead deltoid highlight position near axilla, bar alignment over midfoot, rib/lumbar control, neck posture and tight top plate clearance require human review. Original project artwork rendering style only, no upstream licensed input. Exact prompts and originals retained. No anatomy or clothing approval or publication. Seven pipeline checks do not establish anatomical accuracy.",
+  "metadataConflictsDeferred": {
+    "1451": "Seated lever dip description versus lowering and raising whole body instructions."
+  },
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 1101259012,
+  "savedMasters": [
+    {
+      "exerciseId": "1456",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1456-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1303938,
+        "sha256": "5ef01e839f5579ef6d37c44b73f70da0434698576f8484a4f4e070d1a0f7e3ce"
+      }
+    },
+    {
+      "exerciseId": "1456",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1456-female-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1287837,
+        "sha256": "a42df4a12fa044f377addbcc23d696b2650372f0ec682b5c7985fd7a7e8727fa"
+      }
+    }
+  ]
+}

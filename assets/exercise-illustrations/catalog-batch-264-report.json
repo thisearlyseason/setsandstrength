@@ -1,0 +1,74 @@
+{
+  "batch": 264,
+  "runId": "c7e619a1-54dc-4f6b-84c3-7ee05a8c85a4",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "trigger": "2026-11-03T22:51:24.229Z",
+  "purpose": "batch264 scheduled male continuation",
+  "started": "2026-11-03T22:52:05.003665+00:00",
+  "completedAt": "2026-11-03T22:58:35.446002+00:00",
+  "actualToolName": "image_gen__imagegen",
+  "calls": 4,
+  "newCandidateSets": 4,
+  "exerciseIds": [
+    "2146",
+    "2147",
+    "2148",
+    "2149"
+  ],
+  "variants": [
+    "male"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 929,
+    "remainingVariants": 10335,
+    "approvedVariants": 0,
+    "blockedVariants": 298,
+    "knownPoseImages": 1756,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 556,
+      "remainingVariants": 5076,
+      "blockedVariants": 179
+    }
+  },
+  "reviewNotes": {
+    "2146": "Two distinct lowered and raised hip-thrust positions with feet planted on fixed platform, upper back on pad, hands on handles and belt crossing hips attached to lever. Hip height changes clearly and glute tint on opaque shorts. Qualified review needed for exact torso/thigh alignment at top, back-pad pivot/contact, belt/lever mechanical geometry, chin control and glute mapping.",
+    "2147": "Distinct lowered/raised hips, upper back supported, foot platform and hip belt/lever shown with separate loop band above both knees. Knees remain separated and feet planted; plain glute tint on opaque shorts. Qualified review needed for knee-band tension/contact around both thighs, lever-pivot geometry, top torso alignment, back-pad support and comfortable hip range.",
+    "2148": "One working foot planted and other foot raised in both hip-thrust poses, distinct pelvic heights, belt/lever follows hips, upper back on pad and hand on handle. Red on working-side glute over opaque shorts. Qualified review required for top torso level/hip extension, pelvic level, support-pad height/contact, lever/belt geometry and free-leg position.",
+    "2149": "Two distinct quadruped kickback positions with low front anchor and band looped around working shoe, taut longer diagonal band at top. Working knee stays bent, thigh lifts near horizontal, both palms and opposite knee supported. Glute tint on intact shorts. Qualified review needed for anchor/loop security, band clearance, pelvis level, lumbar/neck control and working-side mapping."
+  },
+  "blockingIssues": {},
+  "tests": 7,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "workerSyncResult": {
+    "statuses": {
+      "generated": 929,
+      "pending": 10335
+    },
+    "remaining": 10335,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 1433092061
+  },
+  "publicationIndexUnchanged": true,
+  "savedMasters": [
+    "assets/exercise-illustrations/generated/2146-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/2147-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/2148-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/2149-male-anatomical-white-v1.png"
+  ]
+}

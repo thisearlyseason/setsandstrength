@@ -1,0 +1,71 @@
+{
+  "batch": 296,
+  "runId": "7b909c74-7ccd-4643-b51c-17f4f71c4c99",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "trigger": "2026-11-04T04:07:27.242Z",
+  "purpose": "batch296 scheduled male continuation",
+  "started": "2026-11-04T04:07:39.350288+00:00",
+  "completedAt": "2026-11-04T04:12:31.439799+00:00",
+  "actualToolName": "image_gen__imagegen",
+  "calls": 4,
+  "newCandidateSets": 4,
+  "exerciseIds": [
+    "2671",
+    "2683",
+    "2689",
+    "2690"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1052,
+    "remainingVariants": 10212,
+    "approvedVariants": 0,
+    "blockedVariants": 362,
+    "knownPoseImages": 2023,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 679,
+      "remainingVariants": 4953,
+      "blockedVariants": 243
+    }
+  },
+  "reviewNotes": {
+    "2671": "Smith guides and raised bar shown with hinged torso, knees soft and red lateral tank wash. End bar appears to run through hips/thighs rather than stay anterior and reach lower ribs; close grip also changes. Block bar/body geometry and grip consistency. Opaque clothing retained. Qualified review of hinge, back position and guided path required. Human anatomy review pending.",
+    "2683": "Seated supported forearms, overhand bar grip and wrists lower then raise bar; feet grounded, opaque clothing and dorsal forearm highlights. Qualified review needed for extent of wrist extension in finish, wrist clearance beyond knees, fixed forearm contact and bar control. Human anatomy review pending.",
+    "2689": "Same arm holds D handle beside thigh then raises forward to shoulder height, upright torso, opposite arm empty and anterior shoulder highlighted. Clothing opaque. Qualified review needed for cable clearance outside leg versus projected overlap, visible stack travel/load engagement, wrist alignment and sagittal-plane path. Human anatomy review pending.",
+    "2690": "Same arm raises one dumbbell laterally to shoulder height, opposite arm empty, upright torso and soft elbow. Primary lateral shoulder red only and full opaque clothing. Qualified review needed for elbow bend, wrist/hand height relative to elbow, shoulder shrug avoidance and exact deltoid location. Human anatomy review pending."
+  },
+  "blockingIssues": {
+    "2671": [
+      "End bar intersects hip/thigh region instead of staying in front of body at lower ribs; correct stance relative to guide path.",
+      "Maintain same narrow grip between poses."
+    ]
+  },
+  "deferred": {},
+  "tests": 7,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "workerSyncResult": {
+    "statuses": {
+      "generated": 1052,
+      "pending": 10212
+    },
+    "remaining": 10212,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 1620170566
+  },
+  "publicationIndexUnchanged": true
+}

@@ -1,0 +1,87 @@
+{
+  "batch": 146,
+  "trigger": "2026-11-03T05:28:26.607Z",
+  "completedAt": "2026-11-03T05:41:32.686200+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 4,
+  "generationCalls": 6,
+  "exerciseIds": [
+    "0934",
+    "0935"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 592,
+    "remainingVariants": 10672,
+    "approvedVariants": 0,
+    "blockedVariants": 213,
+    "knownPoseImages": 1212,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Four candidates, eight poses, six built-in calls including two retained upright-row wrist/grip corrections. Upright row pairs show arms down to elbows-leading chest-height pull; edits add separate handles and improve wrist alignment. External shoulder rotation pairs use far left hand with band anchored elbow height on opposite side, horizontal forearm across belly then outward; working shoulder red. Slight finish elbow displacement remains qualified for pinned-elbow/90degree consistency. All candidates retain fine exposed grayscale anatomy and continuous opaque black clothing visually. Qualified shoulder plane, wrist neutrality, grip/finger anatomy, band anchoring/depth, neck, limb consistency and primary mapping require human review; head/anchor margins modest but uncropped. Every original, exact prompt and correction history saved. No anatomy/clothing approval or publication. Project original artwork for rendering style only, no upstream licensed input. Seven pipeline checks do not establish anatomical accuracy.",
+  "metadataConflictsDeferred": {
+    "0938": "Cardiovascular target lacks primary skeletal-muscle mapping for red highlight."
+  },
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 948299873,
+  "savedMasters": [
+    {
+      "exerciseId": "0934",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0934-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1314266,
+        "sha256": "2b67623201459cc33fa490aabaf7e26956689f1580d0ea5b6878dbc789d4ddfd"
+      }
+    },
+    {
+      "exerciseId": "0934",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0934-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1318803,
+        "sha256": "cb61617aeb1ec03242db9b301c3f7709788efe43a542f6624db311a2594a5682"
+      }
+    },
+    {
+      "exerciseId": "0935",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0935-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1370697,
+        "sha256": "3744b3739343af4f415574598f259c8512034ee4e8fc1952273d7624b602a71a"
+      }
+    },
+    {
+      "exerciseId": "0935",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0935-female-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1344975,
+        "sha256": "c38d4ed58f5e5df96c47cbed0618b373413e70f170263faf9820a1ba1bc314d6"
+      }
+    }
+  ]
+}

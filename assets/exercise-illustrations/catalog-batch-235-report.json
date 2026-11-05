@@ -1,0 +1,37 @@
+{
+  "batch": 235,
+  "runId": "c2450d63-8d52-47ba-8362-5e634d5edc5b",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "trigger": "2026-11-03T18:21:51.846Z",
+  "purpose": "batch235 male-first continuation",
+  "started": 1793730276.8823092,
+  "completedAt": "2026-11-03T18:32:55.128818+00:00",
+  "status": "work-window-elapsed-before-generation",
+  "actualToolName": "image_gen__imagegen",
+  "builtInToolAvailable": true,
+  "calls": 0,
+  "newCandidateSets": 0,
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 813,
+    "remainingVariants": 10451,
+    "approvedVariants": 0,
+    "blockedVariants": 260,
+    "knownPoseImages": 1613,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 440,
+      "remainingVariants": 5192,
+      "blockedVariants": 141
+    }
+  },
+  "note": "Resumed the same interrupted run ownership. No batch specification, prompts or generated masters were created by this run before its six-minute work window elapsed. Finalized without starting generation; queue remains for the next scheduled run.",
+  "paidApiUsed": false,
+  "anatomyReview": "pending",
+  "published": false
+}

@@ -1,0 +1,326 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "2769",
+      "variant": "male",
+      "key": "2769-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand tall holding support with your weight on one leg."
+        },
+        {
+          "key": "p2",
+          "caption": "Move the same mostly straight leg backward without arching the lower back; return slowly."
+        }
+      ],
+      "prompt": "HIP EXTENSION MOBILITY TWOequalpanels SAME SIDErear threequartercamera. Standtall holdsturdypost withLEFT hand, LEFTlegsupport kneeSOFT footplanted SAME RIGHTlegworksbothposes. LEFTSTART rightlegnearlystraight bystandingleg toeslightfloorcontact. RIGHTEND swingRIGHTlegSTRAIGHTBACK about20degrees behindhip footofffloor kneemostlystraight. PELVISlevel neutralspine ribsdown NOlumbararch noforwardlean norotation leftfootstayssamepoint. Primary RIGHTGLUTE onlysmallplainuniformredwash onrearRIGHTseat ofintactshorts BOTHposes allotherregionsgrayblack. Premium detailed adult MALE grayscale anatomical illustration. Approved original project reference STYLE ONLY ignore its pose/highlights. Pure white background soft shadows crisp detailed exposed gray muscle contours realistic proportions. Opaque BLACK tank and black mid-thigh shorts fully wrap front sides back seat crotch normal fabric seams folds hems black shoes. No anatomy through fabric no cutaways. Covered primary highlight SMALL PLAIN UNIFORM soft red COLOR WASH on intact fabric no fibers lobes striations. Only specified primary red all other regions gray/black. Equal cells same person camera equipment whole body in frame generous margins. Exactly two arms hands five fingers two legs feet. No text arrows logos.",
+      "inspectionNote": "Real output inspected. Same mostly straight leg moves backward with support hand and standing foot stable, torso upright and plain glute tint on opaque shorts. Qualified review needed for level pelvis, range without lumbar arch, standing knee softness and exact glute mapping. Human anatomy review pending. No approval or publication.",
+      "canonicalName": "hip extension",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "glutes"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Same mostly straight leg moves backward with support hand and standing foot stable, torso upright and plain glute tint on opaque shorts. Qualified review needed for level pelvis, range without lumbar arch, standing knee softness and exact glute mapping. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2769-male-anatomical-white-v1-p1-e7b7639330c2.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 24284,
+          "sha256": "e7b7639330c27f49f631b22d30c41c317f70af8435ba817b9b70c300a7d0212b"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/2769-male-anatomical-white-v1-p2-e3c3f7b860a6.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 24596,
+          "sha256": "e3c3f7b860a67133f9ff7bce1b8598e97355f94357c72cacf14ce8ad650485a8"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-301.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2769-male-anatomical-white-v1-thumb-e9cecaf06fa0.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2706,
+        "sha256": "e9cecaf06fa08a81cd837c655a12c9b839f282643a6b3e519c2018df0073c049"
+      },
+      "processingSignature": "d332dc9cedbd65380616c4a5504a6af731b62ef3b7e5aaf5b6738f61dabfbb5d",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2769-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1380705,
+        "sha256": "cd3af64a2660295a45066c2e8a60899a21e305d2b3c00af426e6cb078d1b9410"
+      }
+    },
+    {
+      "exerciseId": "2770",
+      "variant": "male",
+      "key": "2770-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand tall holding support with your weight on one leg."
+        },
+        {
+          "key": "p2",
+          "caption": "Lift the same knee forward toward hip height, then lower slowly without rounding your back."
+        }
+      ],
+      "prompt": "HIP FLEXION MOBILITY TWOequalpanels SAME SIDEfrontthreequartercamera. Standtall LEFT handholdssturdypost, LEFTsupportlegsoftknee footplanted. SAME RIGHTlegworksbothposes. LEFTSTART bothlegsupright righttoeslightfloorcontact. RIGHTEND liftRIGHTKNEE FORWARD toHIPheight rightthighhorizontal rightkneebent90 rightfootDOWNbelowknee, leftlegunchanged. Torsotall backneutral pelvislevel ribsdown noleanback norounding. Primary RIGHTQUADS only red exposedanteriorthighjustaboveknee andSMALLPLAINUNIFORMwash onintactrightfrontshorts BOTHposes nofibers. Otherregionsgrayblack. Premium detailed adult MALE grayscale anatomical illustration. Approved original project reference STYLE ONLY ignore its pose/highlights. Pure white background soft shadows crisp detailed exposed gray muscle contours realistic proportions. Opaque BLACK tank and black mid-thigh shorts fully wrap front sides back seat crotch normal fabric seams folds hems black shoes. No anatomy through fabric no cutaways. Covered primary highlight SMALL PLAIN UNIFORM soft red COLOR WASH on intact fabric no fibers lobes striations. Only specified primary red all other regions gray/black. Equal cells same person camera equipment whole body in frame generous margins. Exactly two arms hands five fingers two legs feet. No text arrows logos.",
+      "inspectionNote": "Real output inspected. Same knee lifts forward to hip height, support hand/foot stable and torso upright. Quad overlay has anatomy-like lines through shorts rather than plain wash; block cloth overlay correction. Qualified review of pelvis stability, knee height, foot position and primary mapping required. Human anatomy review pending. No approval or publication.",
+      "blockingIssues": [
+        "Remove anatomy-like lines over shorts and use plain uniform quad color wash on intact fabric."
+      ],
+      "canonicalName": "hip flexion",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "quads"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Same knee lifts forward to hip height, support hand/foot stable and torso upright. Quad overlay has anatomy-like lines through shorts rather than plain wash; block cloth overlay correction. Qualified review of pelvis stability, knee height, foot position and primary mapping required. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2770-male-anatomical-white-v1-p1-f086b43079b0.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 23952,
+          "sha256": "f086b43079b0a32c7a7e516456ef11c76c0dac3c61f8e3991d9496e6fea1b1f4"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/2770-male-anatomical-white-v1-p2-ffad2234a55c.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 22644,
+          "sha256": "ffad2234a55cbda80d27c37bd919938c1e89e7342be091cab313198b5d5fdc63"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-301.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2770-male-anatomical-white-v1-thumb-8227d340092a.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2772,
+        "sha256": "8227d340092ab236e0a314f41bebb005a9b05163fe2d0aa37ce44f1ee6f816b9"
+      },
+      "processingSignature": "409933da3b331bd6bc12b93b7f4f6ec617d5f1c4e1f183e41499852a6b0b54e2",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2770-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1351600,
+        "sha256": "29720b8db84f09263cb6271480ba40c20f000f38af79eed5f65cb923f18ea447"
+      }
+    },
+    {
+      "exerciseId": "2773",
+      "variant": "male",
+      "key": "2773-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Sit tall on a bench with feet off the floor and knees bent."
+        },
+        {
+          "key": "p2",
+          "caption": "Straighten the same knee almost fully while keeping the thigh still; lower slowly."
+        }
+      ],
+      "prompt": "SEATED KNEE EXTENSION MOBILITY TWOequalpanels SAME SIDEfrontthreequartercamera. SitTALL onHIGHbench withBOTHFEET off floor, thighsSUPPORTED horizontal hips90, handsrestbenchsides. SAME RIGHTlegworksbothposes LEFTlegstaysdownverticalkneebent90. LEFTSTART RIGHTkneebent90 shinverticalfootOFFfloor. RIGHTEND keepRIGHTTHIGHstillhorizontal andstraightenRIGHTKNEE untilRIGHTlegnearlyhorizontal footforward toesup, hipandtorsostill noleanback. Primary RIGHTQUADS onlyred exposedanteriorthighaboveknee andsmallPLAINUNIFORMwash onintactrightfrontshorts BOTHposes nofibers otherleggrayblack. Premium detailed adult MALE grayscale anatomical illustration. Approved original project reference STYLE ONLY ignore its pose/highlights. Pure white background soft shadows crisp detailed exposed gray muscle contours realistic proportions. Opaque BLACK tank and black mid-thigh shorts fully wrap front sides back seat crotch normal fabric seams folds hems black shoes. No anatomy through fabric no cutaways. Covered primary highlight SMALL PLAIN UNIFORM soft red COLOR WASH on intact fabric no fibers lobes striations. Only specified primary red all other regions gray/black. Equal cells same person camera equipment whole body in frame generous margins. Exactly two arms hands five fingers two legs feet. No text arrows logos.",
+      "inspectionNote": "Real output inspected. Seated thigh-supported knee extension, same knee straightens with torso tall and feet off floor. Quad wash includes anatomy-like diagonal fibers across shorts; block plain fabric overlay correction. Qualified review needed for knee clearance, thigh immobility, foot elevation and full quad mapping. Human anatomy review pending. No approval or publication.",
+      "blockingIssues": [
+        "Remove fiber-like anatomical lines through shorts; retain normal opaque fabric with plain quad color wash."
+      ],
+      "canonicalName": "knee extension",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "quads"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Seated thigh-supported knee extension, same knee straightens with torso tall and feet off floor. Quad wash includes anatomy-like diagonal fibers across shorts; block plain fabric overlay correction. Qualified review needed for knee clearance, thigh immobility, foot elevation and full quad mapping. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2773-male-anatomical-white-v1-p1-fb9cc52a934f.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 34078,
+          "sha256": "fb9cc52a934fd776f9357d5d76a794f89640659288a747eb58b31189131da2ae"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/2773-male-anatomical-white-v1-p2-6e986e8e923d.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 34064,
+          "sha256": "6e986e8e923dc3272df5e2b115a74f7c007e15aa0b78746bb3dfb3bb942d23d5"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-301.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2773-male-anatomical-white-v1-thumb-1e2d29c745c3.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 3388,
+        "sha256": "1e2d29c745c30a493aeb558348d83b405503ae2a13e98b1e607a065e2d31c1e3"
+      },
+      "processingSignature": "5494b2f669cea9e6126e8894a6f26ab86039b559cbb9be2a0e71dcbf736da754",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2773-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1471235,
+        "sha256": "e8d946ad0fe81fb831111e71ebb027753a101ec01b27e0af4237443bdf1f33f0"
+      }
+    },
+    {
+      "exerciseId": "2774",
+      "variant": "male",
+      "key": "2774-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand tall holding support with thighs side by side."
+        },
+        {
+          "key": "p2",
+          "caption": "Bend the same knee to lift heel toward glutes, keeping thighs still; lower slowly."
+        }
+      ],
+      "prompt": "STANDING KNEE FLEXION MOBILITY TWOequalpanels SAME SIDErear threequartercamera. Standtall LEFT handholdssturdypost LEFTsupportlegfootplanted kneesoft. SAME RIGHTlegworksbothposes. LEFTSTART boththighsverticalsidebyside rightkneestraight toeslightfloorcontact. RIGHTEND keepRIGHTTHIGHvertical STILLbesideLEFTthigh NOhipextension orabduction, bendRIGHTKNEE back90to110degrees heelmovesUPtowardRIGHTGLUTE footbehindbody, kneeSTAYSatSAMElocation underhip. Torsoupright pelvislevel. Primary RIGHTHAMSTRINGS onlyred exposedposteriorrightthighbelowshorts andsmallplainwash coveredposteriorrightthigh BOTHposes allotherregionsgrayblack. Premium detailed adult MALE grayscale anatomical illustration. Approved original project reference STYLE ONLY ignore its pose/highlights. Pure white background soft shadows crisp detailed exposed gray muscle contours realistic proportions. Opaque BLACK tank and black mid-thigh shorts fully wrap front sides back seat crotch normal fabric seams folds hems black shoes. No anatomy through fabric no cutaways. Covered primary highlight SMALL PLAIN UNIFORM soft red COLOR WASH on intact fabric no fibers lobes striations. Only specified primary red all other regions gray/black. Equal cells same person camera equipment whole body in frame generous margins. Exactly two arms hands five fingers two legs feet. No text arrows logos.",
+      "inspectionNote": "Real output inspected. Same knee bends to raise heel behind body, thighs remain close, support hand/foot fixed and torso tall. Hamstring tint over intact shorts. Qualified review needed for fixed knee location, avoiding hip extension, heel path, standing knee softness and posterior-thigh mapping. Human anatomy review pending. No approval or publication.",
+      "canonicalName": "knee flexion",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "hamstrings"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Same knee bends to raise heel behind body, thighs remain close, support hand/foot fixed and torso tall. Hamstring tint over intact shorts. Qualified review needed for fixed knee location, avoiding hip extension, heel path, standing knee softness and posterior-thigh mapping. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2774-male-anatomical-white-v1-p1-9ef90a4acadc.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 21732,
+          "sha256": "9ef90a4acadccc8127a7bd866ddc5ebb7247de1fbfe2ab47bb156cdcdd9214c9"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/2774-male-anatomical-white-v1-p2-432dbfecca70.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 21412,
+          "sha256": "432dbfecca703cb9338f584276c127688ff55d18645241ff73ea8d55e74f24c0"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-301.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2774-male-anatomical-white-v1-thumb-5998e91ea5f7.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2432,
+        "sha256": "5998e91ea5f7533aeffda320c6bac0e1674b4425ba27b258b13940b1025893f9"
+      },
+      "processingSignature": "83b6eaaa4eedc0bf33b281d3248cfee3f04444151d2385571408a00c9445965d",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2774-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1317320,
+        "sha256": "ed921717cd3cc234154b823cbffbe9564022dee1a0aa03d49f736776e536b53d"
+      }
+    }
+  ]
+}

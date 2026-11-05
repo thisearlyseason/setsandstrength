@@ -1,0 +1,280 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "1826",
+      "variant": "male",
+      "key": "1826-male-anatomical-white-v1",
+      "layout": {
+        "columns": 1,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Extend one arm with your palm facing outward. Gently draw the fingers and palm back toward you with your other hand. Hold for 20\u201330 seconds, then switch arms."
+        }
+      ],
+      "prompt": "FINGER FLEXOR STRETCH. ONE full-body standing FRONT three-quarter pose. RIGHT elbow straight arm forward at lower chest height. RIGHT PALM faces OUTWARD away from man toward viewer, fingers point UP, wrist gently EXTENDED back toward man. LEFT hand lightly draws right fingers/palm back toward body, pulling on fingers with gentle pressure, no extreme bend. Clearly show right palm creases and separate fingers, natural two hands. Primary exposed RIGHT PALMAR forearm FLEXOR muscles highlighted RED with fine grayscale muscle contour detail retained UNDER red tint, not a solid sticker. All other skin grayscale. Chest pelvis legs same forward orientation. Hold20-30seconds. Use case: scientific-educational. Premium detailed ADULT MALE grayscale anatomical illustration matching original reference for rendering STYLE ONLY, ignore its pose and highlights. Realistic proportions, crisp exposed grayscale muscle contours, white background soft shadows. Full opaque BLACK athletic tank and mid-thigh shorts wrap front sides back seat crotch, seams hems folds; no transparency cutaways or anatomy visible through fabric. Red highlight over fabric must be a FLAT UNIFORM SOFT RED ELLIPSE teaching tint with no internal lines fibers rays or lobes; fabric folds retained. Black shoes. No text labels arrows captions logos. All limbs fingers feet and equipment entirely in frame with generous margins. Same person camera lighting and scale across poses.",
+      "inspectionNote": "Real output inspected. Finger-flexor stretch BLOCKED: malformed forearm/hand chain with an extra elongated finger-like segment under assisting hand; assisting hand fails to contact the outward-palm fingers coherently. Spurious pectoral highlight. Correct limb anatomy, contact and highlights. Detailed grayscale rendering, white background and full opaque tank/shorts retained. Original project artwork style only, no upstream media. Exact prompt and original saved. Human anatomy review pending; no approval or publication.",
+      "blockingIssues": [
+        "Malformed forearm/hand chain and elongated extra finger-like segment; assisting hand contact incoherent.",
+        "Spurious pectoral red highlight; restrict to working palmar forearm."
+      ],
+      "canonicalName": "finger flexor stretch",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "forearms"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Finger-flexor stretch BLOCKED: malformed forearm/hand chain with an extra elongated finger-like segment under assisting hand; assisting hand fails to contact the outward-palm fingers coherently. Spurious pectoral highlight. Correct limb anatomy, contact and highlights. Detailed grayscale rendering, white background and full opaque tank/shorts retained. Original project artwork style only, no upstream media. Exact prompt and original saved. Human anatomy review pending; no approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/1826-male-anatomical-white-v1-p1-c4aefd342674.webp",
+          "width": 800,
+          "height": 1200,
+          "bytes": 33080,
+          "sha256": "c4aefd342674c7d46d4e16994ec2a7a69eeebb95c325a887c6f3f950e209e087"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-241.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/1826-male-anatomical-white-v1-thumb-56b193880bc1.webp",
+        "width": 160,
+        "height": 240,
+        "bytes": 2472,
+        "sha256": "56b193880bc16548f64553ce02b365ecedcccf05f6c246f35843580df1defe80"
+      },
+      "processingSignature": "a768d9a22248ffa36565a1ad9a00dd96c6a8eba0ee5e8006d861ba8a388a4c99",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1826-male-anatomical-white-v1.png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1363213,
+        "sha256": "c5559769f832f7a801a0923c51abb21c411c80c7087a35542eb18f389ff818a4"
+      }
+    },
+    {
+      "exerciseId": "1827",
+      "variant": "male",
+      "key": "1827-male-anatomical-white-v1",
+      "layout": {
+        "columns": 1,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Extend one arm with your palm facing down. Use your other hand to gently press the hand and fingers down toward you. Hold for 20\u201330 seconds, then switch arms."
+        }
+      ],
+      "prompt": "FINGER EXTENSOR STRETCH. ONE full-body standing FRONT three-quarter pose, same coherent face chest pelvis legs direction. RIGHT elbow straight arm extends in front at chest height PALM DOWN. RIGHT wrist FLEXES so fingers hang DOWN, back of hand faces forward and knuckles visible, palm faces back toward body. LEFT hand gently presses on back of right hand/fingers down and toward man. Not palm-out fingers up. Comfortable mild stretch correct two hands five fingers each no forced rotation. Primary exposed RIGHT DORSAL forearm EXTENSORS highlighted RED following actual muscle contour with detail visible, no solid oval sticker. Rest skin grayscale. Hold20-30seconds. Use case: scientific-educational. Premium detailed ADULT MALE grayscale anatomical illustration matching original reference for rendering STYLE ONLY, ignore its pose and highlights. Realistic proportions, crisp exposed grayscale muscle contours, white background soft shadows. Full opaque BLACK athletic tank and mid-thigh shorts wrap front sides back seat crotch, seams hems folds; no transparency cutaways or anatomy visible through fabric. Red highlight over fabric must be a FLAT UNIFORM SOFT RED ELLIPSE teaching tint with no internal lines fibers rays or lobes; fabric folds retained. Black shoes. No text labels arrows captions logos. All limbs fingers feet and equipment entirely in frame with generous margins. Same person camera lighting and scale across poses.",
+      "inspectionNote": "Real output inspected. Finger-extensor stretch shows palm-down flexed wrist and opposite-hand pressure. BLOCKED: spurious red chest teaching overlay and working elbow visibly bent instead of extended. Correct elbow and restrict highlights to dorsal forearm. Detailed grayscale rendering, white background and full opaque tank/shorts retained. Original project artwork style only, no upstream media. Exact prompt and original saved. Human anatomy review pending; no approval or publication.",
+      "blockingIssues": [
+        "Spurious red pectoral highlight; restrict to working dorsal forearm.",
+        "Working elbow visibly bent instead of extended."
+      ],
+      "canonicalName": "finger extensor stretch",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "forearms"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Finger-extensor stretch shows palm-down flexed wrist and opposite-hand pressure. BLOCKED: spurious red chest teaching overlay and working elbow visibly bent instead of extended. Correct elbow and restrict highlights to dorsal forearm. Detailed grayscale rendering, white background and full opaque tank/shorts retained. Original project artwork style only, no upstream media. Exact prompt and original saved. Human anatomy review pending; no approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/1827-male-anatomical-white-v1-p1-8afcf1f62efa.webp",
+          "width": 800,
+          "height": 1200,
+          "bytes": 31884,
+          "sha256": "8afcf1f62efaac8240c934a781919c70a457d52cc6392b23aef8de49631b1079"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-241.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/1827-male-anatomical-white-v1-thumb-c1ce72b1939b.webp",
+        "width": 160,
+        "height": 240,
+        "bytes": 2202,
+        "sha256": "c1ce72b1939bfac3cdfbea50882bacb88051c13e7ace860e1422d309cc68d2a0"
+      },
+      "processingSignature": "72c340986ad238ce83d3525a10823014f95d7f861ae06f29cf9a0c92953d5b33",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1827-male-anatomical-white-v1.png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1355354,
+        "sha256": "91c849cc7a96016549cf183c61f4e566dfe8ca04f84bffa59c20d36b2876554f"
+      }
+    },
+    {
+      "exerciseId": "1828",
+      "variant": "male",
+      "key": "1828-male-anatomical-white-v1",
+      "layout": {
+        "columns": 1,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Raise one arm overhead, bend the elbow and reach your hand down your upper back. Use your other hand to apply gentle pressure at the elbow. Hold for 20\u201330 seconds, then switch arms."
+        }
+      ],
+      "prompt": "REACHING DOWN TRICEPS STRETCH. ONE full-body standing REAR three-quarter view, entire BODY faces same direction including pelvis and feet. RIGHT upper arm raised overhead almost vertical. RIGHT elbow fully flexed so RIGHT hand reaches DOWN UPPER BACK behind head, palm near upper thoracic back. LEFT hand rests on RIGHT elbow to add light gentle back/down pressure. Show both arms correct shoulder elbow wrist anatomy, no pull on neck. Torso tall neutral ribs down feet grounded. Primary exposed RIGHT posterior upper-arm TRICEPS RED with fine muscle contour detail visible through tint, not solidovalsticker; tank opaque. Other skin grayscale. Hold20-30seconds. Use case: scientific-educational. Premium detailed ADULT MALE grayscale anatomical illustration matching original reference for rendering STYLE ONLY, ignore its pose and highlights. Realistic proportions, crisp exposed grayscale muscle contours, white background soft shadows. Full opaque BLACK athletic tank and mid-thigh shorts wrap front sides back seat crotch, seams hems folds; no transparency cutaways or anatomy visible through fabric. Red highlight over fabric must be a FLAT UNIFORM SOFT RED ELLIPSE teaching tint with no internal lines fibers rays or lobes; fabric folds retained. Black shoes. No text labels arrows captions logos. All limbs fingers feet and equipment entirely in frame with generous margins. Same person camera lighting and scale across poses.",
+      "inspectionNote": "Real output inspected. Overhead triceps stretch shows bent right elbow, hand reaching down upper back and opposite hand contacting elbow, consistent rear torso/pelvis/feet orientation. Qualified review needed for shoulder range, finger anatomy and triceps mapping. Detailed grayscale rendering, white background and full opaque tank/shorts retained. Original project artwork style only, no upstream media. Exact prompt and original saved. Human anatomy review pending; no approval or publication.",
+      "canonicalName": "reaching down triceps stretch",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "triceps"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Overhead triceps stretch shows bent right elbow, hand reaching down upper back and opposite hand contacting elbow, consistent rear torso/pelvis/feet orientation. Qualified review needed for shoulder range, finger anatomy and triceps mapping. Detailed grayscale rendering, white background and full opaque tank/shorts retained. Original project artwork style only, no upstream media. Exact prompt and original saved. Human anatomy review pending; no approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/1828-male-anatomical-white-v1-p1-bb60bc847262.webp",
+          "width": 600,
+          "height": 1200,
+          "bytes": 27422,
+          "sha256": "bb60bc847262baf0d25cdd8b948c6a3872d468e2bdc95e6d93a9e79f47dd6ed0"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-241.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/1828-male-anatomical-white-v1-thumb-6418fe3f1e07.webp",
+        "width": 120,
+        "height": 240,
+        "bytes": 2076,
+        "sha256": "6418fe3f1e07f5294c3e82d99de2666796c299c95404847bf74c10520fa4452e"
+      },
+      "processingSignature": "f57591fb29076a6f7c97b86915f07640c423499cd6ff699d8a8a6e1fe7a7f532",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1828-male-anatomical-white-v1.png",
+        "width": 887,
+        "height": 1774,
+        "bytes": 1373681,
+        "sha256": "72949e94464c962d79a41e334e24c45a9019dc88b0f21b7118f7514f4845c5e6"
+      }
+    },
+    {
+      "exerciseId": "1829",
+      "variant": "male",
+      "key": "1829-male-anatomical-white-v1",
+      "layout": {
+        "columns": 1,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Place your bent elbow against a wall above head height. Gently lean forward and down to stretch the back of your upper arm. Hold for 20\u201330 seconds, then switch sides."
+        }
+      ],
+      "prompt": "TRICEPS STRETCH AGAINST WALL. ONE full-body SIDE three-quarter pose facing a sturdy vertical gray wall. RIGHT ELBOW contacts wall just ABOVE HEAD height. RIGHT elbow bent fully, right hand reaches back behind head toward upper back, right upper arm angled overhead. Gently hinge torso FORWARD and DOWN from hips beneath supported elbow, knees soft, feet flat stable a short distance from wall. Right elbow remains firm wall contact, no hand instead of elbow. LEFT hand relaxed on left thigh, no extra support unless needed. Comfortable small range no shoulder hyperextension. Primary exposed RIGHT posterior upper-arm TRICEPS RED with muscle contours retained through tint, other skin grayscale. Full wall contact hands feet body in frame. Hold20-30seconds. Use case: scientific-educational. Premium detailed ADULT MALE grayscale anatomical illustration matching original reference for rendering STYLE ONLY, ignore its pose and highlights. Realistic proportions, crisp exposed grayscale muscle contours, white background soft shadows. Full opaque BLACK athletic tank and mid-thigh shorts wrap front sides back seat crotch, seams hems folds; no transparency cutaways or anatomy visible through fabric. Red highlight over fabric must be a FLAT UNIFORM SOFT RED ELLIPSE teaching tint with no internal lines fibers rays or lobes; fabric folds retained. Black shoes. No text labels arrows captions logos. All limbs fingers feet and equipment entirely in frame with generous margins. Same person camera lighting and scale across poses.",
+      "inspectionNote": "Real output inspected. Wall triceps stretch shows bent elbow contacting wall above head, hand behind head, forward torso hinge and both feet grounded. Qualified review needed for elbow contact/height, cervical alignment, comfortable shoulder range and triceps mapping. Detailed grayscale rendering, white background and full opaque tank/shorts retained. Original project artwork style only, no upstream media. Exact prompt and original saved. Human anatomy review pending; no approval or publication.",
+      "canonicalName": "triceps stretch against wall",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "triceps"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Wall triceps stretch shows bent elbow contacting wall above head, hand behind head, forward torso hinge and both feet grounded. Qualified review needed for elbow contact/height, cervical alignment, comfortable shoulder range and triceps mapping. Detailed grayscale rendering, white background and full opaque tank/shorts retained. Original project artwork style only, no upstream media. Exact prompt and original saved. Human anatomy review pending; no approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/1829-male-anatomical-white-v1-p1-283abb163e33.webp",
+          "width": 800,
+          "height": 1200,
+          "bytes": 42794,
+          "sha256": "283abb163e33c0be2699aa319d05c62c88666d3e92cd8c9a4bac38687aedd8b2"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-241.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/1829-male-anatomical-white-v1-thumb-6726f0890748.webp",
+        "width": 160,
+        "height": 240,
+        "bytes": 2736,
+        "sha256": "6726f08907487c0a7b999d4ac10ae3a4806097750ce08fd8ca0030d57a7b76ed"
+      },
+      "processingSignature": "b3c7cf688d1352e504f5711907927db7301d48409b9daedf7b3e5f3eb8f059f2",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1829-male-anatomical-white-v1.png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1605535,
+        "sha256": "255c3bd834a67d0fdd6656b2ab9ae6cdd0c82a2cd42d2143393edcbd404ac211"
+      }
+    }
+  ]
+}

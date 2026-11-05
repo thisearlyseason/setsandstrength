@@ -1,0 +1,37 @@
+{
+  "batch": 35,
+  "trigger": "2026-11-01T08:01:43.321Z",
+  "completedAt": "2026-11-01T08:11:40.797920+00:00",
+  "tool": "image_gen.imagegen",
+  "newCandidateSets": 4,
+  "generationCalls": 4,
+  "exerciseIds": [
+    "0388",
+    "2137"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 134,
+    "remainingVariants": 11130,
+    "approvedVariants": 0,
+    "blockedVariants": 53,
+    "knownPoseImages": 270,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "All pending, none published. Three phases each for alternating press and Arnold rotation. Actual outputs inspected for arm order, palm orientation, weights and opaque clothing. Female Arnold middle-pose delivery crop adjusted to include left dumbbell, then rechecked. Qualified movement/anatomy review still mandatory.",
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 219268941
+}

@@ -1,0 +1,667 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "0740",
+      "variant": "male",
+      "key": "0740-male-anatomical-white-v2",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Recline against the pad with feet wider than shoulder width, full soles on the platform and knees bent in line with the toes."
+        },
+        {
+          "key": "p2",
+          "caption": "Press the sled away to extend the legs while keeping heels planted, then bend the knees to return."
+        }
+      ],
+      "prompt": "Correct original male WIDE STANCE45degree sled LEG PRESS. Head must RECLINE with back of SKULL DIRECTLY AGAINST head pad BOTH phases, neck neutral aligned torso, eyes upward diagonal not upright forward, hair moved away from under skull. Preserve same wide stance about1.5shoulder width with full soles/heels on footplate, bent knees then nearly extended, fixed seat/pelvis, hands seat handles, connected carriage/rails. Correct shorts to continuous fully OPAQUE BLACK fabric front sides back seat crotch, broad cloth folds/seams only. Remove ALL red fiber/ray/striations and any anatomy visible through fabric. ONE smooth diffuse BLURRED red tint front/inner thighs and hip-seat over intact cloth ONLY; exposed knees/calves grayscale no red bleed past hem. Detailed exposed grayscale arms/calves. TWO equal SQUARE cells side by side WIDE LANDSCAPE, generous machine/head/foot margins no clipping or overlap, no text.",
+      "inspectionNote": "Head now reclined directly against pad, wide foot stance and leg press phases retained. Shorts remain opaque but red overlay contains many narrow radial streaks/folds, clothing-surface presentation blocked for smoothing before approval. Fine exposed anatomy; qualified knee alignment, carriage and primary mapping pending.",
+      "canonicalName": "sled 45\u00b0 leg wide press",
+      "styleVersion": "white-v1",
+      "equipment": "sled machine",
+      "primaryMuscles": [
+        "quadriceps",
+        "gluteal",
+        "adductors"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0740-male-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "status": "generated",
+        "costUSD": null
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Head now reclined directly against pad, wide foot stance and leg press phases retained. Shorts remain opaque but red overlay contains many narrow radial streaks/folds, clothing-surface presentation blocked for smoothing before approval. Fine exposed anatomy; qualified knee alignment, carriage and primary mapping pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0740-male-anatomical-white-v2-p1-d714dd89439e.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 58906,
+          "sha256": "d714dd89439ee078c4af2f39310d6cb10e1c6d0217f1eb85c6d5e6bf6b4216a3"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0740-male-anatomical-white-v2-p2-e804a203653c.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 62208,
+          "sha256": "e804a203653cc57bbc1106d036d2be17f398158342a6cef78a04c74f397e32e1"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0740-male-anatomical-white-v2-thumb-19636f6429e9.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 6080,
+        "sha256": "19636f6429e9aef9a679b4dd22e47eeba384fd0e2063ab528b7917b1e83ecba8"
+      },
+      "processingSignature": "49792c7e787373d9969771684ef959b52357d4f6fd54ca2812ccc60a94e3f9b9",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0740-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 2006220,
+        "sha256": "6acf95f8766907b40bf04eece0641182003eff4277a581fb642646f8f465c64c"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0740",
+          "variant": "male",
+          "key": "0740-male-anatomical-white-v1",
+          "layout": {
+            "columns": 2,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Recline against the pad with feet wider than shoulder width, full soles on the platform and knees bent in line with the toes."
+            },
+            {
+              "key": "p2",
+              "caption": "Press the sled away to extend the legs while keeping heels planted, then bend the knees to return."
+            }
+          ],
+          "prompt": "Original premium ADULT male exercise anatomy, TWO equal SQUARE cells side by side WIDE LANDSCAPE. WIDE STANCE45degree SLED LEG PRESS. Realistic inclined parallel rails45degrees rising to IMAGE RIGHT, fixed reclined seat lowleft, broad footplate perpendicular rails mounted on weighted sliding carriage. Head/back/pelvis supported padded reclined seat, both hands grip seat side handles. Camera FRONT-SIDE three-quarter from foot end so stance width clearly seen. BOTH feet WIDER THAN SHOULDERS, about1.5 shoulder-width separation, toes slightly out, full soles/heels pressed flush footplate, knees track toes. LEFT knees bent90degrees toward torso without pelvis lifting. RIGHT same WIDE stance, legs almost straight with soft knees, carriage/platform farther away up same rails. Seat/body fixed, only carriage travels, no platform detached. Show BOTH feet spread widely on plate and both knees clearly apart, never narrow stance. Primary QUADRICEPS/GLUTEAL/ADDUCTORS: one smooth diffuse BLURRED red tint on intact front/inner thigh and visible hip-seat SHORTS fabric, no anatomy drawn through cloth, NO red fibers/rays/striations. Broad fabric folds/seams only. No chest/arm/knee/calf red. Reference original project artwork ONLY for fine grayscale exposed muscle rendering, NOT pose/equipment. Fine detailed EXPOSED grayscale arms/calves, realistic proportions, equivalent male/female detail. Full opaque BLACK shirt and MID-THIGH shorts continuously wrap front sides BACK SEAT CROTCH, no clothing cutaways/transparency, black shoes. White background soft grounded shadows. Whole machine and every limb contained with generous margins EACH cell, no cross-cell overlap. No text captions labels numbers arrows.",
+          "inspectionNote": "Wide foot placement and bent-to-extended leg press phases visible, hands on handles and heels on plate. Skull lifted forward off head pad and tight equipment margin need correction. Opaque clothes with red cloth overlay and fine exposed grayscale anatomy; qualified stance, carriage and mapping pending.",
+          "canonicalName": "sled 45\u00b0 leg wide press",
+          "styleVersion": "white-v1",
+          "equipment": "sled machine",
+          "primaryMuscles": [
+            "quadriceps",
+            "gluteal",
+            "adductors"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Wide foot placement and bent-to-extended leg press phases visible, hands on handles and heels on plate. Skull lifted forward off head pad and tight equipment margin need correction. Opaque clothes with red cloth overlay and fine exposed grayscale anatomy; qualified stance, carriage and mapping pending.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0740-male-anatomical-white-v1-p1-e811b4cec48d.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 59578,
+              "sha256": "e811b4cec48d0fbaa01bdd49fcc8ddbb95e5018fe7d22fa39ec9e3dbff86bf03"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0740-male-anatomical-white-v1-p2-efdcc0b65bff.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 63852,
+              "sha256": "efdcc0b65bff925fa2dee682b9ffd84e3ad752b46012fa23dec20bb56397c7ef"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0740-male-anatomical-white-v1-thumb-fef4557e5374.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 6136,
+            "sha256": "fef4557e5374181714b602ab82ba7c1eaba706eb60dfcb47debccb085aa2da2f"
+          },
+          "processingSignature": "a0226b8d085e6ec1db82a2598e358dca42635e8e3a5bdb2c8b4ddbc75d32d93f",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0740-male-anatomical-white-v1.png",
+            "width": 1774,
+            "height": 887,
+            "bytes": 1834598,
+            "sha256": "e836cd14167651ba975d6049ffb1855430faa02f303b6651f9eaef62a154cf22"
+          }
+        }
+      ],
+      "blockingIssues": [
+        "Narrow radial red streaks remain across thigh/seat cloth; replace with diffuse tint and broad fabric folds only."
+      ]
+    },
+    {
+      "exerciseId": "0740",
+      "variant": "female",
+      "key": "0740-female-anatomical-white-v2",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Recline against the pad with feet wider than shoulder width, full soles on the platform and knees bent in line with the toes."
+        },
+        {
+          "key": "p2",
+          "caption": "Press the sled away to extend the legs while keeping heels planted, then bend the knees to return."
+        }
+      ],
+      "prompt": "Correct original female WIDE STANCE45degree sled LEG PRESS. Head must RECLINE with back of SKULL DIRECTLY AGAINST head pad BOTH phases, neck neutral aligned torso, eyes upward diagonal not upright forward, hair moved away from under skull. Preserve same wide stance about1.5shoulder width with full soles/heels on footplate, bent knees then nearly extended, fixed seat/pelvis, hands seat handles, connected carriage/rails. Correct shorts to continuous fully OPAQUE BLACK fabric front sides back seat crotch, broad cloth folds/seams only. Remove ALL red fiber/ray/striations and any anatomy visible through fabric. ONE smooth diffuse BLURRED red tint front/inner thighs and hip-seat over intact cloth ONLY; exposed knees/calves grayscale no red bleed past hem. Detailed exposed grayscale arms/calves. TWO equal SQUARE cells side by side WIDE LANDSCAPE, generous machine/head/foot margins no clipping or overlap, no text.",
+      "inspectionNote": "Head reclined against pad, shorts now opaque with smooth red tint and fabric folds, exposed knee/calf red removed. Wide stance and bent/extended phases retained. Qualified stance width, knee tracking, pelvis/head support, mechanics and primary mapping pending. Fine exposed grayscale anatomy.",
+      "canonicalName": "sled 45\u00b0 leg wide press",
+      "styleVersion": "white-v1",
+      "equipment": "sled machine",
+      "primaryMuscles": [
+        "quadriceps",
+        "gluteal",
+        "adductors"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0740-female-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "status": "generated",
+        "costUSD": null
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Head reclined against pad, shorts now opaque with smooth red tint and fabric folds, exposed knee/calf red removed. Wide stance and bent/extended phases retained. Qualified stance width, knee tracking, pelvis/head support, mechanics and primary mapping pending. Fine exposed grayscale anatomy.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0740-female-anatomical-white-v2-p1-9e0114b17a98.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 55506,
+          "sha256": "9e0114b17a98acb456124485c85730c2e8b4fe4e40eb50257aa6606c38c05127"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0740-female-anatomical-white-v2-p2-f63ad57776a2.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 57386,
+          "sha256": "f63ad57776a2af6581e7cdeda7f655951711bb35b0db07bfbec81d84181ca7a4"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0740-female-anatomical-white-v2-thumb-9ba718b9fccc.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 6370,
+        "sha256": "9ba718b9fccc51b4a3721787d28f93234aa156d9c442a80b2af964b98767947a"
+      },
+      "processingSignature": "328bacfa41f8b5292330f2164607d43f4725e293d20208497b0e1982d40594b2",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0740-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1755329,
+        "sha256": "dd0a4551ef000e8cf28fdba8549c9d310563b9da16c8860a12dedc03e62a42e7"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0740",
+          "variant": "female",
+          "key": "0740-female-anatomical-white-v1",
+          "layout": {
+            "columns": 2,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Recline against the pad with feet wider than shoulder width, full soles on the platform and knees bent in line with the toes."
+            },
+            {
+              "key": "p2",
+              "caption": "Press the sled away to extend the legs while keeping heels planted, then bend the knees to return."
+            }
+          ],
+          "prompt": "Original premium ADULT female exercise anatomy, TWO equal SQUARE cells side by side WIDE LANDSCAPE. WIDE STANCE45degree SLED LEG PRESS. Realistic inclined parallel rails45degrees rising to IMAGE RIGHT, fixed reclined seat lowleft, broad footplate perpendicular rails mounted on weighted sliding carriage. Head/back/pelvis supported padded reclined seat, both hands grip seat side handles. Camera FRONT-SIDE three-quarter from foot end so stance width clearly seen. BOTH feet WIDER THAN SHOULDERS, about1.5 shoulder-width separation, toes slightly out, full soles/heels pressed flush footplate, knees track toes. LEFT knees bent90degrees toward torso without pelvis lifting. RIGHT same WIDE stance, legs almost straight with soft knees, carriage/platform farther away up same rails. Seat/body fixed, only carriage travels, no platform detached. Show BOTH feet spread widely on plate and both knees clearly apart, never narrow stance. Primary QUADRICEPS/GLUTEAL/ADDUCTORS: one smooth diffuse BLURRED red tint on intact front/inner thigh and visible hip-seat SHORTS fabric, no anatomy drawn through cloth, NO red fibers/rays/striations. Broad fabric folds/seams only. No chest/arm/knee/calf red. Reference original project artwork ONLY for fine grayscale exposed muscle rendering, NOT pose/equipment. Fine detailed EXPOSED grayscale arms/calves, realistic proportions, equivalent male/female detail. Full opaque BLACK shirt and MID-THIGH shorts continuously wrap front sides BACK SEAT CROTCH, no clothing cutaways/transparency, black shoes. White background soft grounded shadows. Whole machine and every limb contained with generous margins EACH cell, no cross-cell overlap. No text captions labels numbers arrows.",
+          "inspectionNote": "Wide leg press phases and full feet platform contact. Shorts overlay has muscle fibers and red bleeds past hem onto knees, skull off pad; correction required for full opaque cloth surface, target localization and head support. Detailed exposed anatomy.",
+          "canonicalName": "sled 45\u00b0 leg wide press",
+          "styleVersion": "white-v1",
+          "equipment": "sled machine",
+          "primaryMuscles": [
+            "quadriceps",
+            "gluteal",
+            "adductors"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Wide leg press phases and full feet platform contact. Shorts overlay has muscle fibers and red bleeds past hem onto knees, skull off pad; correction required for full opaque cloth surface, target localization and head support. Detailed exposed anatomy.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0740-female-anatomical-white-v1-p1-5900c0986cd2.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 57320,
+              "sha256": "5900c0986cd23fe5b127a26f1d06030c3130242e36d2637a02d60ddad7971305"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0740-female-anatomical-white-v1-p2-a8bcbd0a49e8.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 59944,
+              "sha256": "a8bcbd0a49e8eef9ad811b4c2212c30a3567523ada99cdc426aec6b044ffb5e1"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0740-female-anatomical-white-v1-thumb-fa2cdfeef0e4.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 6194,
+            "sha256": "fa2cdfeef0e4905a5c57368c31cc71f7e8f0d8927c68fce7efcc56acd1595e7e"
+          },
+          "processingSignature": "4b583251a7820e516529a5a30974aa872237df20afe5dd758d9a818968e26584",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0740-female-anatomical-white-v1.png",
+            "width": 1774,
+            "height": 887,
+            "bytes": 1798577,
+            "sha256": "d4bd07ed37d7a0c95b2abf2387ae746caca24e0ef7dac9de2f1355ece71cddd8"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "0743",
+      "variant": "male",
+      "key": "0743-male-anatomical-white-v2",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand on the hack-squat platform with feet shoulder-width, back against the moving pad and hands gripping the handles."
+        },
+        {
+          "key": "p2",
+          "caption": "Bend knees and hips until the thighs approach parallel to the floor, then press through the heels to rise."
+        }
+      ],
+      "prompt": "Correct original male SLED HACK SQUAT, preserve standing high then thighs-near-horizontal bottom, back against MOVING pad, shoulder pads on shoulders, hands handles, same full foot positions on FIXED platform, connected45degree rails/carriage. Replace all fine red muscle fiber/ray/striations on shorts with ONE smooth diffuse BLURRED red tint over intact opaque BLACK front/inner thigh and hip-seat fabric. Broad folds/seams only, no cutaway or anatomy through clothes, full shorts front sides back seat crotch. Fine exposed grayscale arms/calves, knees grayscale. Critical framing: TWO equal SQUARE cells SIDE BY SIDE in WIDE LANDSCAPE canvas2:1 aspect. Same model and machine scale in both square cells, entire machine/head/feet with at least5percent white margins each cell. No tall narrow cells, no overlap, no text.",
+      "inspectionNote": "Shorts red corrected to diffuse tint over opaque fabric and broad folds. Hack squat standing and bottom phases, shoulder pads, closed handle grips and fixed foot platform retained. Fine exposed grayscale anatomy; qualified heel contact, knee tracking, depth, back/pelvis support and primary mapping pending.",
+      "canonicalName": "sled hack squat",
+      "styleVersion": "white-v1",
+      "equipment": "sled machine",
+      "primaryMuscles": [
+        "quadriceps",
+        "gluteal",
+        "adductors"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0743-male-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "status": "generated",
+        "costUSD": null
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Shorts red corrected to diffuse tint over opaque fabric and broad folds. Hack squat standing and bottom phases, shoulder pads, closed handle grips and fixed foot platform retained. Fine exposed grayscale anatomy; qualified heel contact, knee tracking, depth, back/pelvis support and primary mapping pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0743-male-anatomical-white-v2-p1-7bc48d7869b5.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 50474,
+          "sha256": "7bc48d7869b5203b2ee69e9c7589abbf0a2b50b1927f43a0d0ff69389b8dfcda"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0743-male-anatomical-white-v2-p2-57926d803b36.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 50318,
+          "sha256": "57926d803b3642c568b2a08c2696a97461bcb5de55b666a8353c5638b14f9d83"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0743-male-anatomical-white-v2-thumb-a0b5eb0fc1ee.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 5770,
+        "sha256": "a0b5eb0fc1ee1809d59239130ca327ba5becdfec972ab6bac200d3437500df28"
+      },
+      "processingSignature": "935d64fcf999ee5f886f8af96d37e8661dc8a9dad60e8d33081b6498af79cc5c",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0743-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1678166,
+        "sha256": "a894e64dc42fd8175b87aa0170a915392af9819f12198022a86a6d5c2dd8d047"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0743",
+          "variant": "male",
+          "key": "0743-male-anatomical-white-v1",
+          "layout": {
+            "columns": 2,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Stand on the hack-squat platform with feet shoulder-width, back against the moving pad and hands gripping the handles."
+            },
+            {
+              "key": "p2",
+              "caption": "Bend knees and hips until the thighs approach parallel to the floor, then press through the heels to rise."
+            }
+          ],
+          "prompt": "Original premium ADULT male exercise anatomy, TWO equal SQUARE cells side by side WIDE LANDSCAPE. SLED HACK SQUAT MACHINE, NOT seated leg press. Realistic45degree inclined parallel rails with MOVING padded BACK CARRIAGE, shoulder pads resting on top of shoulders, fixed broad FOOT PLATFORM lowRIGHT at base, resistance plates mounted moving back carriage. Camera SIDE-FRONT three-quarter. Model stands with BACK AGAINST inclined back pad and shoulders UNDER pads, head/neck neutral, hands CLOSED grip handles beside shoulder pads. Feet shoulder-width slightly toes out, full soles/heels on FIXED platform, knees track toes. LEFT standing HIGH: knees nearly straight soft, hips extended, torso supported pad. RIGHT bottom squat: back carriage slides DOWN rails, knees and hips flex, thighs near PARALLEL to HORIZONTAL FLOOR, knees track toes, heels remain platform and back/pelvis against pad. Same fixed foot positions/platform and limb lengths, only pad/body move down rails, no seated chair or hip fold unsupported. Primary QUADRICEPS/GLUTEAL/ADDUCTORS: one smooth diffuse BLURRED red tint on intact front/inner thigh and visible hip-seat SHORTS fabric, no anatomy drawn through cloth, NO red fibers/rays/striations. Broad fabric folds/seams only. No chest/arm/knee/calf red. Reference original project artwork ONLY for fine grayscale exposed muscle rendering, NOT pose/equipment. Fine detailed EXPOSED grayscale arms/calves, realistic proportions, equivalent male/female detail. Full opaque BLACK shirt and MID-THIGH shorts continuously wrap front sides BACK SEAT CROTCH, no clothing cutaways/transparency, black shoes. White background soft grounded shadows. Whole machine and every limb contained with generous margins EACH cell, no cross-cell overlap. No text captions labels numbers arrows.",
+          "inspectionNote": "Hack squat moving back carriage and shoulder pads, fixed foot platform, standing then thigh-near-horizontal bottom present. Detailed exposed anatomy, opaque clothes but red shorts has fiber patterns, correction required. Qualified pad support, heel contact, depth and mapping pending.",
+          "canonicalName": "sled hack squat",
+          "styleVersion": "white-v1",
+          "equipment": "sled machine",
+          "primaryMuscles": [
+            "quadriceps",
+            "gluteal",
+            "adductors"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Hack squat moving back carriage and shoulder pads, fixed foot platform, standing then thigh-near-horizontal bottom present. Detailed exposed anatomy, opaque clothes but red shorts has fiber patterns, correction required. Qualified pad support, heel contact, depth and mapping pending.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0743-male-anatomical-white-v1-p1-c296000293b2.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 56180,
+              "sha256": "c296000293b278e45c8bf9b7a15a615ce32eab25858b916b9e478a1e5bca61b0"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0743-male-anatomical-white-v1-p2-f73ccdb5224b.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 54950,
+              "sha256": "f73ccdb5224b30c991e4e3e602a0a7438e9173a32d59e4d4704601ac71650e5f"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0743-male-anatomical-white-v1-thumb-0f69a51d1896.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 5726,
+            "sha256": "0f69a51d1896aaf5731b56afe2c124b9aaee967ed788e1c4a81da010954623ac"
+          },
+          "processingSignature": "749fe280c463febf5ecbedf2eaacad3fab68b34364ce1ca6b89f99e0b575ecdf",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0743-male-anatomical-white-v1.png",
+            "width": 1774,
+            "height": 887,
+            "bytes": 1763172,
+            "sha256": "aaccceba6bccce583738d18566c97300010b8457cd4277e1c09305bf3e841656"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "0743",
+      "variant": "female",
+      "key": "0743-female-anatomical-white-v2",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand on the hack-squat platform with feet shoulder-width, back against the moving pad and hands gripping the handles."
+        },
+        {
+          "key": "p2",
+          "caption": "Bend knees and hips until the thighs approach parallel to the floor, then press through the heels to rise."
+        }
+      ],
+      "prompt": "Correct original female SLED HACK SQUAT, preserve standing high then thighs-near-horizontal bottom, back against MOVING pad, shoulder pads on shoulders, hands handles, same full foot positions on FIXED platform, connected45degree rails/carriage. Replace all fine red muscle fiber/ray/striations on shorts with ONE smooth diffuse BLURRED red tint over intact opaque BLACK front/inner thigh and hip-seat fabric. Broad folds/seams only, no cutaway or anatomy through clothes, full shorts front sides back seat crotch. Fine exposed grayscale arms/calves, knees grayscale. Critical framing: TWO equal SQUARE cells SIDE BY SIDE in WIDE LANDSCAPE canvas2:1 aspect. Same model and machine scale in both square cells, entire machine/head/feet with at least5percent white margins each cell. No tall narrow cells, no overlap, no text.",
+      "inspectionNote": "Framing corrected to equal square landscape cells with whole machine contained, shorts tint softened over opaque fabric. Hack squat standing then near-horizontal thighs bottom, shoulder pads, grips and fixed foot platform retained. Detailed exposed anatomy; qualified knee tracking, depth, back/pelvis pad contact, heel loading and mapping pending.",
+      "canonicalName": "sled hack squat",
+      "styleVersion": "white-v1",
+      "equipment": "sled machine",
+      "primaryMuscles": [
+        "quadriceps",
+        "gluteal",
+        "adductors"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0743-female-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "status": "generated",
+        "costUSD": null
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Framing corrected to equal square landscape cells with whole machine contained, shorts tint softened over opaque fabric. Hack squat standing then near-horizontal thighs bottom, shoulder pads, grips and fixed foot platform retained. Detailed exposed anatomy; qualified knee tracking, depth, back/pelvis pad contact, heel loading and mapping pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0743-female-anatomical-white-v2-p1-cbf679abc68b.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 38230,
+          "sha256": "cbf679abc68bae5263fc1556ab98b01ae45fc347b0ed74c29b4789c66254fe02"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0743-female-anatomical-white-v2-p2-777e7f44bbfa.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 37826,
+          "sha256": "777e7f44bbfa9a0d3dad90e74488db8ddd7cabe94f7226aced52f87d715a8aef"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0743-female-anatomical-white-v2-thumb-d3e2eb830ce9.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 4768,
+        "sha256": "d3e2eb830ce9fbb47ae506fb592a48dc8a96658e4e9b699b388454fbc0a70f01"
+      },
+      "processingSignature": "5361e4abb85f210f5a16cbdc8aae42a05b4d7fb3d27dff9640e3e10be98d9d4d",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0743-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1566807,
+        "sha256": "c069cc2cfc0ad3015296a0ae86700dd5ab0ef60ca3e6d1014a2b0b6b4ce252a0"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0743",
+          "variant": "female",
+          "key": "0743-female-anatomical-white-v1",
+          "layout": {
+            "columns": 2,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Stand on the hack-squat platform with feet shoulder-width, back against the moving pad and hands gripping the handles."
+            },
+            {
+              "key": "p2",
+              "caption": "Bend knees and hips until the thighs approach parallel to the floor, then press through the heels to rise."
+            }
+          ],
+          "prompt": "Original premium ADULT female exercise anatomy, TWO equal SQUARE cells side by side WIDE LANDSCAPE. SLED HACK SQUAT MACHINE, NOT seated leg press. Realistic45degree inclined parallel rails with MOVING padded BACK CARRIAGE, shoulder pads resting on top of shoulders, fixed broad FOOT PLATFORM lowRIGHT at base, resistance plates mounted moving back carriage. Camera SIDE-FRONT three-quarter. Model stands with BACK AGAINST inclined back pad and shoulders UNDER pads, head/neck neutral, hands CLOSED grip handles beside shoulder pads. Feet shoulder-width slightly toes out, full soles/heels on FIXED platform, knees track toes. LEFT standing HIGH: knees nearly straight soft, hips extended, torso supported pad. RIGHT bottom squat: back carriage slides DOWN rails, knees and hips flex, thighs near PARALLEL to HORIZONTAL FLOOR, knees track toes, heels remain platform and back/pelvis against pad. Same fixed foot positions/platform and limb lengths, only pad/body move down rails, no seated chair or hip fold unsupported. Primary QUADRICEPS/GLUTEAL/ADDUCTORS: one smooth diffuse BLURRED red tint on intact front/inner thigh and visible hip-seat SHORTS fabric, no anatomy drawn through cloth, NO red fibers/rays/striations. Broad fabric folds/seams only. No chest/arm/knee/calf red. Reference original project artwork ONLY for fine grayscale exposed muscle rendering, NOT pose/equipment. Fine detailed EXPOSED grayscale arms/calves, realistic proportions, equivalent male/female detail. Full opaque BLACK shirt and MID-THIGH shorts continuously wrap front sides BACK SEAT CROTCH, no clothing cutaways/transparency, black shoes. White background soft grounded shadows. Whole machine and every limb contained with generous margins EACH cell, no cross-cell overlap. No text captions labels numbers arrows.",
+          "inspectionNote": "Hack squat standing and bottom phases, pads and handles present. Output two tall narrow cells rather than square landscape; framing correction required. Opaque clothes, red tint with residual streaks, detailed exposed anatomy. Qualified depth, pad support and mechanics pending.",
+          "canonicalName": "sled hack squat",
+          "styleVersion": "white-v1",
+          "equipment": "sled machine",
+          "primaryMuscles": [
+            "quadriceps",
+            "gluteal",
+            "adductors"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Hack squat standing and bottom phases, pads and handles present. Output two tall narrow cells rather than square landscape; framing correction required. Opaque clothes, red tint with residual streaks, detailed exposed anatomy. Qualified depth, pad support and mechanics pending.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0743-female-anatomical-white-v1-p1-fc4082666fb9.webp",
+              "width": 600,
+              "height": 1200,
+              "bytes": 40334,
+              "sha256": "fc4082666fb910f4fb6c8f82801e759ff7ce19ea7045d48d4bf15ccc7e248353"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0743-female-anatomical-white-v1-p2-15e31bcd5cb9.webp",
+              "width": 600,
+              "height": 1200,
+              "bytes": 39010,
+              "sha256": "15e31bcd5cb9bfa7e3b5a272899f24de34f48fe029aa0d20d0f7f8cfab6b37cb"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0743-female-anatomical-white-v1-thumb-cfe80b7d8293.webp",
+            "width": 120,
+            "height": 240,
+            "bytes": 3232,
+            "sha256": "cfe80b7d8293924b97791ddd5fa6f01cf242dbce8c4049e1954777abba2ec4d6"
+          },
+          "processingSignature": "a672e035e443c2f2d6b674581b02a866f77ae8b0fec01fcea1745fdedf07ea47",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0743-female-anatomical-white-v1.png",
+            "width": 1254,
+            "height": 1254,
+            "bytes": 1643816,
+            "sha256": "f29b0f24fe915b24291bd9ed61d5d0d627b6fb3441c47935558d89bc4b129600"
+          }
+        }
+      ]
+    }
+  ]
+}

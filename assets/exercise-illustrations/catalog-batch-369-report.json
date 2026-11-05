@@ -1,0 +1,55 @@
+{
+  "batch": 369,
+  "runId": "ae342213-76c0-40b8-bf5a-aa78cf1b49ac",
+  "builtInImageGenAvailable": true,
+  "anatomyReview": "pending",
+  "publication": "none",
+  "deferred": {
+    "3479": "Heel touch and side kick coordination needs more precise technique planning."
+  },
+  "coverageAfter": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1328,
+    "remainingVariants": 9936,
+    "approvedVariants": 0,
+    "blockedVariants": 511,
+    "knownPoseImages": 2624,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 955,
+      "remainingVariants": 4677,
+      "blockedVariants": 392
+    }
+  },
+  "paidWorker": {
+    "statuses": {
+      "generated": 1328,
+      "pending": 9936
+    },
+    "remaining": 9936,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 2021516527
+  },
+  "pipelineTests": "7 passed, 0 failed",
+  "approvedIndexUnchanged": true,
+  "existingUserApprovalsPreserved": 1306,
+  "generatedIds": [
+    "3478",
+    "3480",
+    "3481",
+    "3482"
+  ]
+}

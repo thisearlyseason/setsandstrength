@@ -1,0 +1,89 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "6136",
+      "variant": "male",
+      "key": "6136-male-anatomical-white-v1",
+      "prompt": "DUMBBELL BENT OVER SCAPULA ROW. Two equal side-by-side panels REAR three-quarter. Hinge forward flat back torso near horizontal, soft knees, TWO dumbbells one each hand, palms inward. Both elbows stay STRAIGHT, arms hang vertically below shoulders both poses. Panel1 shoulders relaxed forward and blades apart. Panel2 retract shoulder blades BACK TOGETHER lifting weights only slightly, elbows still straight; no bent elbow rowing or lateral raise. Red upper-back teaching overlay on INTACT opaque tank, fabric seams folds retained, no cutaways or fibers through cloth. Use case: scientific educational exercise illustration. Match approved original 0853 reference only for premium detailed grayscale anatomy rendering, never its exercise, equipment count or panel count. White background, soft contact shadows, realistic muscular adult male, same person, camera and scale in all panels. Fully opaque black tank and mid-thigh black shorts wrap front, sides, back and crotch with seams and folds. No cutaways, transparency or muscle fibers over cloth. Red primary muscle highlights as specified, with intact fabric overlays only where covered. All limbs, hands, feet, weights and equipment fully inside each panel with generous margins. No words, arrows or embedded captions. The two poses must show visible scapular protraction versus retraction while elbows remain straight. Any red on the tank must be a smooth untextured red teaching patch following fabric folds; absolutely no anatomical lines or striations printed through clothing.",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hinge flat back holding dumbbells with arms hanging straight."
+        },
+        {
+          "key": "p2",
+          "caption": "Squeeze shoulder blades together without bending elbows; hold and release slowly."
+        }
+      ],
+      "inspectionNote": "Two hinged straight-arm scapular poses inspected, slightly raised dumbbells with retraction and plain red fabric overlay retaining tank folds. Human anatomy review pending.",
+      "blockingIssues": [],
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream media used.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0853-male-anatomical-white-v1.png",
+        "role": "style only"
+      }
+    },
+    {
+      "exerciseId": "6144",
+      "variant": "male",
+      "key": "6144-male-anatomical-white-v1",
+      "prompt": "DUMBBELL STRAIGHT ARM CRUNCH version2. Two equal side-by-side panels SIDE three-quarter. Lie SUPINE on floor knees bent feet flat. ONE dumbbell securely held in BOTH hands over chest, arms straight upward. Panel1 head and shoulders resting down. Panel2 curl ONLY upper back and shoulder blades off floor reaching dumbbell up toward ceiling, arms stay straight. Lower back and feet stay floor, no full situp, no overhead triceps motion. Red ABS teaching overlay on INTACT opaque tank retaining folds, no fibers through cloth. Use case: scientific educational exercise illustration. Match approved original 0853 reference only for premium detailed grayscale anatomy rendering, never its exercise, equipment count or panel count. White background, soft contact shadows, realistic muscular adult male, same person, camera and scale in all panels. Fully opaque black tank and mid-thigh black shorts wrap front, sides, back and crotch with seams and folds. No cutaways, transparency or muscle fibers over cloth. Red primary muscle highlights as specified, with intact fabric overlays only where covered. All limbs, hands, feet, weights and equipment fully inside each panel with generous margins. No words, arrows or embedded captions.",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Lie on back knees bent, hold a dumbbell over chest with straight arms."
+        },
+        {
+          "key": "p2",
+          "caption": "Curl upper back off floor reaching up, pause and lower; keep lower back down."
+        }
+      ],
+      "inspectionNote": "Crunch mechanics and dumbbell intact, but abdominal muscle divisions are rendered over clothing rather than a plain fabric overlay. Saved blocked.",
+      "blockingIssues": [
+        "Abdominal anatomy rendered over tank instead of plain teaching highlight on intact fabric."
+      ],
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream media used.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0853-male-anatomical-white-v1.png",
+        "role": "style only"
+      }
+    },
+    {
+      "exerciseId": "6162",
+      "variant": "male",
+      "key": "6162-male-anatomical-white-v1",
+      "prompt": "DUMBBELL INCLINE LOW FLY. Two equal side-by-side panels front-side three-quarter. Bench low incline about 25 degrees, head and back supported, feet planted. TWO dumbbells one each hand palms inward. Panel1 arms above chest with SOFT elbows. Panel2 open BOTH arms laterally out and down in broad arc to comfortable chest stretch, hands near chest height, SAME slight elbow bend. Do not bend elbows into press. Red PECTORAL teaching overlay on INTACT black tank fabric preserving folds, no cutaways or exposed fibers. Use case: scientific educational exercise illustration. Match approved original 0853 reference only for premium detailed grayscale anatomy rendering, never its exercise, equipment count or panel count. White background, soft contact shadows, realistic muscular adult male, same person, camera and scale in all panels. Fully opaque black tank and mid-thigh black shorts wrap front, sides, back and crotch with seams and folds. No cutaways, transparency or muscle fibers over cloth. Red primary muscle highlights as specified, with intact fabric overlays only where covered. All limbs, hands, feet, weights and equipment fully inside each panel with generous margins. No words, arrows or embedded captions.",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Lie back on low incline, dumbbells above chest with soft elbows."
+        },
+        {
+          "key": "p2",
+          "caption": "Open arms out and down to comfortable stretch, then bring together with elbow bend constant."
+        }
+      ],
+      "inspectionNote": "Fly positions rendered, but chest highlight includes nipple and muscle striations as though visible through tank. Saved blocked; recurring covered-target failure ends run.",
+      "blockingIssues": [
+        "Chest highlight exposes nipple and anatomical striations through tank; fails opaque clothing requirement."
+      ],
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream media used.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0853-male-anatomical-white-v1.png",
+        "role": "style only"
+      }
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "batch": 222,
+  "runId": "4bc0809c-ff64-4bab-8ca2-3c38bcfbe9ab",
+  "trigger": "2026-11-03T15:35:31.109Z",
+  "completedAt": "2026-11-03T15:41:25.587340+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 4,
+  "calls": 4,
+  "exerciseIds": [
+    "1659",
+    "1661",
+    "1663",
+    "1664"
+  ],
+  "variants": [
+    "male"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 767,
+    "remainingVariants": 10497,
+    "approvedVariants": 0,
+    "blockedVariants": 246,
+    "knownPoseImages": 1510,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 394,
+      "remainingVariants": 5238,
+      "blockedVariants": 127
+    }
+  },
+  "reviewNotes": {
+    "1659": "Ball-seated bilateral hammer curl: neutral grips, lowered to curled arms, planted feet and stable ball. Qualified review needed for wrist/hand anatomy, ball support and upper-arm stillness.",
+    "1661": "Supine bilateral dumbbell curl: supported skull/back, planted feet, arms extended to flexed with supinated grip. Qualified review needed for far-side hand occlusion, bench-edge arm support, elbow axis and weight clearance.",
+    "1663": "One-arm hammer preacher curl: neutral grip, supported upper arm, lowered to curled dumbbell with free hand on opposite thigh. Qualified review needed for fixed elbow contact, grip/finger anatomy and shoulder stillness.",
+    "1664": "Standing high curl: supinated grip lowered to hands near shoulders, no overhead press. Qualified review needed for maximal controlled elbow flexion, upper-arm drift and hand anatomy."
+  },
+  "deferred": [
+    {
+      "exerciseId": "1660",
+      "reason": "Description kneels on ball; instructions kneel on floor with elbows on ball."
+    },
+    {
+      "exerciseId": "1665",
+      "reason": "Incline bench description conflicts with flat bench instructions; grip also unclear between prone and palms-down wording."
+    }
+  ],
+  "tests": 7,
+  "genCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "publicationIndexUnchanged": true,
+  "savedMasters": [
+    "assets/exercise-illustrations/generated/1659-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/1661-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/1663-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/1664-male-anatomical-white-v1.png"
+  ]
+}

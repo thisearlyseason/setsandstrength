@@ -1,0 +1,69 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "3552",
+      "variant": "male",
+      "key": "3552-male-anatomical-white-v1",
+      "prompt": "TWO equal panels same FRONT view QUICK FEET V2. Male upright athletic stance knees soft feet shoulder width arms relaxed sides. Left RIGHT forefoot contacts floor LEFT foot lifted only few centimeters. Right MIRROR LEFT forefoot contacts floor RIGHT foot lifted slightly. Rapid small steps IN PLACE not high knees not jump, weight near balls feet, torso stable. Primary QUADS small plain red wash intact shorts front thighs only. Premium detailed grayscale anatomical adult MALE illustration pure white background soft shadows crisp realistic muscle anatomy joints. Original project reference STYLE ONLY. Same model camera scale garments equipment all panels. Complete opaque BLACK tank mid-thigh shorts wrap front sides back seat crotch seams folds hems. Covered red highlight PLAIN UNIFORM wash NO anatomical fibers segments lobes cutaways transparency. Full body hands feet equipment inside every panel generous margins. No text arrows labels logos numbers.",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Step lightly on right forefoot."
+        },
+        {
+          "key": "p2",
+          "caption": "Switch quickly to left forefoot."
+        }
+      ],
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream media used.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only"
+      },
+      "inspectionNote": "Real output inspected. Two opposite small stepping poses with intact opaque black garments and plain quad highlights. Forefoot placement and footwork timing require qualified review. Human anatomy review pending; no approval or publication.",
+      "blockingIssues": []
+    },
+    {
+      "exerciseId": "3553",
+      "variant": "male",
+      "key": "3553-male-anatomical-white-v1",
+      "prompt": "FOUR equal panels horizontal row ROTATIONAL PUSH UP. Same FRONT three-quarter camera male mat. First high plank palms below shoulders body straight. Second low push-up elbows bent chest near floor. Third press up rotate trunk RIGHT lift RIGHT arm toward ceiling, LEFT palm supports directly under shoulder feet pivot stable side plank. Fourth MIRROR rotate LEFT lift LEFT arm, RIGHT palm supports. Clearly change raised/support hand between last panels, hips aligned, full hand overhead in panel. Primary PECTORALS small plain red wash intact tank chest only. Premium detailed grayscale anatomical adult MALE illustration pure white background soft shadows crisp realistic muscle anatomy joints. Original project reference STYLE ONLY. Same model camera scale garments equipment all panels. Complete opaque BLACK tank mid-thigh shorts wrap front sides back seat crotch seams folds hems. Covered red highlight PLAIN UNIFORM wash NO anatomical fibers segments lobes cutaways transparency. Full body hands feet equipment inside every panel generous margins. No text arrows labels logos numbers.",
+      "layout": {
+        "columns": 4,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hold high plank."
+        },
+        {
+          "key": "p2",
+          "caption": "Lower chest toward floor."
+        },
+        {
+          "key": "p3",
+          "caption": "Press up and rotate right arm upward."
+        },
+        {
+          "key": "p4",
+          "caption": "Return through push-up, then rotate left arm upward."
+        }
+      ],
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream media used.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only"
+      },
+      "inspectionNote": "Real output inspected. Four horizontal panels, but unrequested bench replaces floor setup and final panels repeat the same supporting and raised arm instead of alternating rotation. Opaque clothing retained. Human anatomy review pending; no approval or publication.",
+      "blockingIssues": [
+        "Unrequested bench changes canonical floor push-up setup.",
+        "Final two poses repeat the same rotation instead of alternating arms."
+      ]
+    }
+  ]
+}

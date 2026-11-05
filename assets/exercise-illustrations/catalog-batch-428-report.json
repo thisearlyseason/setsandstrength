@@ -1,0 +1,58 @@
+{
+  "batch": 428,
+  "runId": "fb54edce-2a72-4bff-b4fe-2449f4700c38",
+  "triggerTimestamp": "2026-11-04T21:49:33.539Z",
+  "builtInImageGenAvailable": true,
+  "generatedIds": [
+    "3905",
+    "3917",
+    "3939",
+    "3925"
+  ],
+  "coverageAfter": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1512,
+    "remainingVariants": 9752,
+    "approvedVariants": 0,
+    "blockedVariants": 575,
+    "knownPoseImages": 3032,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 1139,
+      "remainingVariants": 4493,
+      "blockedVariants": 456
+    }
+  },
+  "paidWorker": {
+    "statuses": {
+      "generated": 1512,
+      "pending": 9752
+    },
+    "remaining": 9752,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 2287651027
+  },
+  "pipelineTests": "8 passed, 0 failed",
+  "approvedIndexUnchanged": true,
+  "existingUserApprovalsPreserved": 1306,
+  "anatomyReview": "pending",
+  "publication": "none",
+  "blocked": {
+    "3925": [
+      "Curling elbow loses required inner-thigh support in contracted position."
+    ]
+  }
+}

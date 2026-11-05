@@ -1,0 +1,484 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "0807",
+      "variant": "male",
+      "key": "0807-male-anatomical-white-v2",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hang from a pull-up bar with straight arms and palms facing away. Keep the body controlled."
+        },
+        {
+          "key": "p2",
+          "caption": "Raise the knees toward the chest and curl the pelvis toward the ribcage, then lower slowly without swinging."
+        }
+      ],
+      "prompt": "Correct original male HANGING REVERSE CRUNCH TWO-panel framing and shirt surface. TWO equal SQUARE cells SIDE BY SIDE WIDE LANDSCAPE2:1, whole fixed pull-up frame/hands/head/feet inside EACH cell with5percent white margins top/sides/floor. Same model/frame scale in both cells. Preserve straight-arm closed overhand hang with legs down feet ABOVE floor LEFT; knees toward CHEST with pelvis curling toward ribcage RIGHT, thighs above horizontal, no elbow bend/swing. Red ABS ONE smooth diffuse BLURRED abdominal tint OVER intact opaque BLACK SHIRT, no rays/fiber lines/sixpack anatomy, broad fabric folds only; no chest/arms red. Full opaque shorts front sides back seat crotch and fine exposed grayscale anatomy. No tall narrow panels, no overlap, no text.",
+      "inspectionNote": "Frame margin increased and shirt tint softened with broad cloth folds, equal square landscape panels with dark thin borders introduced. Straight-arm airborne hang and knees-to-chest/pelvic-curl phase retained, full opaque clothes and fine exposed anatomy. Qualified pelvis curl amplitude, grip, shoulder/cervical support and proportions pending.",
+      "canonicalName": "suspended reverse crunch",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "abs"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0807-male-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "status": "generated",
+        "costUSD": null
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Frame margin increased and shirt tint softened with broad cloth folds, equal square landscape panels with dark thin borders introduced. Straight-arm airborne hang and knees-to-chest/pelvic-curl phase retained, full opaque clothes and fine exposed anatomy. Qualified pelvis curl amplitude, grip, shoulder/cervical support and proportions pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0807-male-anatomical-white-v2-p1-cb502cf491bf.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 30464,
+          "sha256": "cb502cf491bf9a35b34b8bd9dcb27914741c83534aefdd1bd2ca20164f121a1a"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0807-male-anatomical-white-v2-p2-3e18df7a403a.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 29750,
+          "sha256": "3e18df7a403a4459bcb49b477450afc66d884cb825c479f8a20f48dfc82070f1"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0807-male-anatomical-white-v2-thumb-37c63bfb5917.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 3962,
+        "sha256": "37c63bfb591778b0a8f93a8deba0f338598a8c9f199cae4281367eb522cbbc1b"
+      },
+      "processingSignature": "95819205d42f5a5deea95accce044ba32fa07f7dd3b17d9b78200130cf67867e",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0807-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1339850,
+        "sha256": "505a614871e33ca2b304cf1e345099357cdb24cf7d73c98b889133e958b031d2"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0807",
+          "variant": "male",
+          "key": "0807-male-anatomical-white-v1",
+          "layout": {
+            "columns": 2,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Hang from a pull-up bar with straight arms and palms facing away. Keep the body controlled."
+            },
+            {
+              "key": "p2",
+              "caption": "Raise the knees toward the chest and curl the pelvis toward the ribcage, then lower slowly without swinging."
+            }
+          ],
+          "prompt": "Original premium ADULT male exercise anatomy, TWO equal SQUARE cells side by side WIDE LANDSCAPE same model scale/limb lengths. HANGING REVERSE CRUNCH from fixed high PULL-UP BAR, no suspension foot straps. Same realistic grounded pull-up frame whole structure visible each cell. FRONT-SIDE three-quarter camera. Both hands CLOSED OVERHAND pronated grip shoulder-width on same bar, palms away thumbs wrapped; arms FULLY STRAIGHT overhead BOTH phases, head neutral. LEFT start body hangs long controlled legs down nearly straight, both feet clearly ABOVE FLOOR. RIGHT BOTH knees bend and lift toward CHEST while pelvis curls UP toward ribcage, thighs above horizontal and tailbone tilts forward/up, rounded lower-ab curl visible, upper body stays under bar. Same grip/arm lengths/head orientation and fixed frame, no pull-up elbow bend/no swinging, feet airborne both phases. Primary ABS ONE smooth diffuse BLURRED red tint over intact opaque abdominal BLACK SHIRT, no fibers/rays/sixpack anatomy through fabric, no chest/arm red. Fine detailed exposed grayscale anatomical muscle contours arms/calves, realistic proportions, equal male/female quality. Reference original project artwork ONLY rendering STYLE, not its push-up/bench pose/chest red. Fully opaque BLACK athletic shirt and MID-THIGH shorts continuously wrap FRONT SIDES BACK SEAT CROTCH with seams and broad folds. No anatomy through clothing, no cutaway/transparency. Black shoes. White background soft grounded shadows. Whole body/every limb/frame or bench contained EACH cell with generous margins, no overlap across center. No embedded text/captions/labels/arrows.",
+          "inspectionNote": "Straight-arm hang then bent knees toward chest and slight pelvic curl, feet airborne, closed overhand grips. Opaque clothes and fine exposed anatomy. Shirt red has fine pattern and frame top margin tight, correction required. Qualified pelvic curl, grip and cervical/shoulder support pending.",
+          "canonicalName": "suspended reverse crunch",
+          "styleVersion": "white-v1",
+          "equipment": "body weight",
+          "primaryMuscles": [
+            "abs"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Straight-arm hang then bent knees toward chest and slight pelvic curl, feet airborne, closed overhand grips. Opaque clothes and fine exposed anatomy. Shirt red has fine pattern and frame top margin tight, correction required. Qualified pelvic curl, grip and cervical/shoulder support pending.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0807-male-anatomical-white-v1-p1-57cd35244493.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 30626,
+              "sha256": "57cd3524449335587b6efe80e005dac0ae2f0688ceee74aa4fccdb1a9d7a2416"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0807-male-anatomical-white-v1-p2-d97b9ba4f8b6.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 29894,
+              "sha256": "d97b9ba4f8b60ff01c3a7c12de0f56356a491366d10f5c8282589a3557ce10fe"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0807-male-anatomical-white-v1-thumb-d5c5b14b0103.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 3714,
+            "sha256": "d5c5b14b0103202030ed49d1450a2b7752ddd3baa8975a2ba1abcf9795e61d0b"
+          },
+          "processingSignature": "4a47c83cac8429d9ea5c767af325eff96f5ce1f18fd09c75c9d2b853d6a21583",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0807-male-anatomical-white-v1.png",
+            "width": 1774,
+            "height": 887,
+            "bytes": 1379668,
+            "sha256": "7e3d59f8f4bc6a77ea13ff2b9056e038d7f860cab5998e18c2556b89c85e403c"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "0807",
+      "variant": "female",
+      "key": "0807-female-anatomical-white-v2",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hang from a pull-up bar with straight arms and palms facing away. Keep the body controlled."
+        },
+        {
+          "key": "p2",
+          "caption": "Raise the knees toward the chest and curl the pelvis toward the ribcage, then lower slowly without swinging."
+        }
+      ],
+      "prompt": "Correct original female HANGING REVERSE CRUNCH TWO-panel framing and shirt surface. TWO equal SQUARE cells SIDE BY SIDE WIDE LANDSCAPE2:1, whole fixed pull-up frame/hands/head/feet inside EACH cell with5percent white margins top/sides/floor. Same model/frame scale in both cells. Preserve straight-arm closed overhand hang with legs down feet ABOVE floor LEFT; knees toward CHEST with pelvis curling toward ribcage RIGHT, thighs above horizontal, no elbow bend/swing. Red ABS ONE smooth diffuse BLURRED abdominal tint OVER intact opaque BLACK SHIRT, no rays/fiber lines/sixpack anatomy, broad fabric folds only; no chest/arms red. Full opaque shorts front sides back seat crotch and fine exposed grayscale anatomy. No tall narrow panels, no overlap, no text.",
+      "inspectionNote": "Framing corrected to equal square landscape cells with whole frame and airborne feet contained; dark panel borders introduced. Straight-arm hang and knees-to-chest/pelvic-curl phase retained, diffuse abdominal tint, full opaque clothes and fine exposed anatomy. Qualified pelvic curl amplitude, grip, shoulder/cervical support and proportions pending.",
+      "canonicalName": "suspended reverse crunch",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "abs"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0807-female-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "status": "generated",
+        "costUSD": null
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Framing corrected to equal square landscape cells with whole frame and airborne feet contained; dark panel borders introduced. Straight-arm hang and knees-to-chest/pelvic-curl phase retained, diffuse abdominal tint, full opaque clothes and fine exposed anatomy. Qualified pelvic curl amplitude, grip, shoulder/cervical support and proportions pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0807-female-anatomical-white-v2-p1-e5e62aa353ca.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 26118,
+          "sha256": "e5e62aa353ca6feb7c135dbfa064bff1276c49a8b1e3e6e45c1a4dcd6aa989ef"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0807-female-anatomical-white-v2-p2-45a392611060.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 25164,
+          "sha256": "45a392611060f4905e97527bfc091de17c7a7f73bd18cf32be9e35c85152880d"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0807-female-anatomical-white-v2-thumb-75f618ee2106.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 3376,
+        "sha256": "75f618ee210659a9e21ffc8bc3a029453d89b64a762a9d00992e439741bac71a"
+      },
+      "processingSignature": "952bfd06523c1f95efa062df66a706340c9698e7acd061a4d34758c212981d3b",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0807-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1253830,
+        "sha256": "6214dedcf2c5199a07abeb786b56c141f91c2316246a9ed59e9804bebb078ebf"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0807",
+          "variant": "female",
+          "key": "0807-female-anatomical-white-v1",
+          "layout": {
+            "columns": 2,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Hang from a pull-up bar with straight arms and palms facing away. Keep the body controlled."
+            },
+            {
+              "key": "p2",
+              "caption": "Raise the knees toward the chest and curl the pelvis toward the ribcage, then lower slowly without swinging."
+            }
+          ],
+          "prompt": "Original premium ADULT female exercise anatomy, TWO equal SQUARE cells side by side WIDE LANDSCAPE same model scale/limb lengths. HANGING REVERSE CRUNCH from fixed high PULL-UP BAR, no suspension foot straps. Same realistic grounded pull-up frame whole structure visible each cell. FRONT-SIDE three-quarter camera. Both hands CLOSED OVERHAND pronated grip shoulder-width on same bar, palms away thumbs wrapped; arms FULLY STRAIGHT overhead BOTH phases, head neutral. LEFT start body hangs long controlled legs down nearly straight, both feet clearly ABOVE FLOOR. RIGHT BOTH knees bend and lift toward CHEST while pelvis curls UP toward ribcage, thighs above horizontal and tailbone tilts forward/up, rounded lower-ab curl visible, upper body stays under bar. Same grip/arm lengths/head orientation and fixed frame, no pull-up elbow bend/no swinging, feet airborne both phases. Primary ABS ONE smooth diffuse BLURRED red tint over intact opaque abdominal BLACK SHIRT, no fibers/rays/sixpack anatomy through fabric, no chest/arm red. Fine detailed exposed grayscale anatomical muscle contours arms/calves, realistic proportions, equal male/female quality. Reference original project artwork ONLY rendering STYLE, not its push-up/bench pose/chest red. Fully opaque BLACK athletic shirt and MID-THIGH shorts continuously wrap FRONT SIDES BACK SEAT CROTCH with seams and broad folds. No anatomy through clothing, no cutaway/transparency. Black shoes. White background soft grounded shadows. Whole body/every limb/frame or bench contained EACH cell with generous margins, no overlap across center. No embedded text/captions/labels/arrows.",
+          "inspectionNote": "Straight arms and knees-to-chest curl, feet airborne, opaque clothes and diffuse abdominal tint. Output tall narrow panels instead of equal square landscape, correction required. Fine exposed anatomy; qualified pelvic curl, grips and limb consistency pending.",
+          "canonicalName": "suspended reverse crunch",
+          "styleVersion": "white-v1",
+          "equipment": "body weight",
+          "primaryMuscles": [
+            "abs"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Straight arms and knees-to-chest curl, feet airborne, opaque clothes and diffuse abdominal tint. Output tall narrow panels instead of equal square landscape, correction required. Fine exposed anatomy; qualified pelvic curl, grips and limb consistency pending.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0807-female-anatomical-white-v1-p1-e4329181f341.webp",
+              "width": 600,
+              "height": 1200,
+              "bytes": 33152,
+              "sha256": "e4329181f341972a706ba95aa209ecb5bd1cf4106adfb151849cbacad236f7c4"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0807-female-anatomical-white-v1-p2-af1c8f520d78.webp",
+              "width": 600,
+              "height": 1200,
+              "bytes": 32306,
+              "sha256": "af1c8f520d78a57a6c6a209f716d0ed23a83cd8ebf48b1e021f1a00a5d8de605"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0807-female-anatomical-white-v1-thumb-0d51ab9ab912.webp",
+            "width": 120,
+            "height": 240,
+            "bytes": 3070,
+            "sha256": "0d51ab9ab912eb4ff1d090e6fbcd2029439d02fb0682b44438abc794f9eed4ec"
+          },
+          "processingSignature": "4dd8b975bcd53fa1b9a00ece3019d4cf59d4c259226c5ab0374f3a18d156ea93",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0807-female-anatomical-white-v1.png",
+            "width": 1254,
+            "height": 1254,
+            "bytes": 1458450,
+            "sha256": "5f043e1d9fdf5c35a3ecc3d63dc7bc0c86ac580eb946edac7b9c1669a1b8f031"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "0814",
+      "variant": "male",
+      "key": "0814-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Grip the bench edge with fingers forward and slide the hips off, supporting the body with straight arms."
+        },
+        {
+          "key": "p2",
+          "caption": "Bend the elbows to lower while keeping the back close to the bench, then press through the palms to straighten the arms."
+        }
+      ],
+      "prompt": "Original premium ADULT male exercise anatomy, TWO equal SQUARE cells side by side WIDE LANDSCAPE same model scale/limb lengths. BENCH TRICEPS DIP bodyweight. Same sturdy gray bench behind body IMAGE LEFT, model faces IMAGE RIGHT, SIDE-FRONT three-quarter camera showing hand contact and elbow angles. Hands shoulder-width grip FRONT bench EDGE just behind hips, palms support surface fingers FORWARD toward feet, wrists supported edge, elbows track backward close torso. HIPS/BUTTOCKS entirely OFF bench just IN FRONT edge in BOTH phases, back CLOSE to bench not resting/sitting. BOTH feet sole flat FLOOR forward, knees bent90degrees, same feet positions each cell. LEFT top arms straight elbows extended, hips suspended upper bench height. RIGHT lower by bending elbows near90degrees, hips lower VERTICALLY with back still close edge, shoulders not excessively below elbows, no shoulder shrug or body twist. Press through palms to rise, no knee/foot reposition. Primary TRICEPS EXPOSED posterior upper arms red ONLY, biceps/shoulders/chest grayscale. No second bench, no weights. Fine detailed exposed grayscale anatomical muscle contours arms/calves, realistic proportions, equal male/female quality. Reference original project artwork ONLY rendering STYLE, not its push-up/bench pose/chest red. Fully opaque BLACK athletic shirt and MID-THIGH shorts continuously wrap FRONT SIDES BACK SEAT CROTCH with seams and broad folds. No anatomy through clothing, no cutaway/transparency. Black shoes. White background soft grounded shadows. Whole body/every limb/frame or bench contained EACH cell with generous margins, no overlap across center. No embedded text/captions/labels/arrows.",
+      "inspectionNote": "Bench dip top straight arms and lowered bent elbows, hips off bench and back close, feet flat. Exposed triceps red, detailed grayscale anatomy and full opaque clothes. Qualified wrist/hand edge support, elbow depth, shoulder position and foot consistency pending.",
+      "canonicalName": "triceps dip",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "triceps"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Bench dip top straight arms and lowered bent elbows, hips off bench and back close, feet flat. Exposed triceps red, detailed grayscale anatomy and full opaque clothes. Qualified wrist/hand edge support, elbow depth, shoulder position and foot consistency pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0814-male-anatomical-white-v1-p1-82872e7d5f73.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 38912,
+          "sha256": "82872e7d5f73928b7711b3ece10aec7596962bc57e4ae493e43d18ae3baaed0f"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0814-male-anatomical-white-v1-p2-3a9034a3abff.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 38392,
+          "sha256": "3a9034a3abff1df11c5f0f28791666c3c4254aae7c8c55424e8c0e19bd272314"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0814-male-anatomical-white-v1-thumb-0c1ad5d8f925.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 3804,
+        "sha256": "0c1ad5d8f9259b1934d71dfe6541f1b2ee5866485a614dd35f39b0fae0d5c649"
+      },
+      "processingSignature": "50f7a2bc50d85039e2d838b1f157262ec1f53672c07544bef3b9797849c19050",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0814-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1521649,
+        "sha256": "5e24c0d4b9f625b717f091a11ae2d415d1294eda78e4786a7921291947245779"
+      }
+    },
+    {
+      "exerciseId": "0814",
+      "variant": "female",
+      "key": "0814-female-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Grip the bench edge with fingers forward and slide the hips off, supporting the body with straight arms."
+        },
+        {
+          "key": "p2",
+          "caption": "Bend the elbows to lower while keeping the back close to the bench, then press through the palms to straighten the arms."
+        }
+      ],
+      "prompt": "Original premium ADULT female exercise anatomy, TWO equal SQUARE cells side by side WIDE LANDSCAPE same model scale/limb lengths. BENCH TRICEPS DIP bodyweight. Same sturdy gray bench behind body IMAGE LEFT, model faces IMAGE RIGHT, SIDE-FRONT three-quarter camera showing hand contact and elbow angles. Hands shoulder-width grip FRONT bench EDGE just behind hips, palms support surface fingers FORWARD toward feet, wrists supported edge, elbows track backward close torso. HIPS/BUTTOCKS entirely OFF bench just IN FRONT edge in BOTH phases, back CLOSE to bench not resting/sitting. BOTH feet sole flat FLOOR forward, knees bent90degrees, same feet positions each cell. LEFT top arms straight elbows extended, hips suspended upper bench height. RIGHT lower by bending elbows near90degrees, hips lower VERTICALLY with back still close edge, shoulders not excessively below elbows, no shoulder shrug or body twist. Press through palms to rise, no knee/foot reposition. Primary TRICEPS EXPOSED posterior upper arms red ONLY, biceps/shoulders/chest grayscale. No second bench, no weights. Fine detailed exposed grayscale anatomical muscle contours arms/calves, realistic proportions, equal male/female quality. Reference original project artwork ONLY rendering STYLE, not its push-up/bench pose/chest red. Fully opaque BLACK athletic shirt and MID-THIGH shorts continuously wrap FRONT SIDES BACK SEAT CROTCH with seams and broad folds. No anatomy through clothing, no cutaway/transparency. Black shoes. White background soft grounded shadows. Whole body/every limb/frame or bench contained EACH cell with generous margins, no overlap across center. No embedded text/captions/labels/arrows.",
+      "inspectionNote": "Bench dip straight-arm top and lowered bent-elbow phase with hips off edge, back close and feet flat. Exposed triceps red, detailed grayscale anatomy and opaque clothes. Qualified wrist/hand edge support, shoulder depth, elbow track and foot consistency pending.",
+      "canonicalName": "triceps dip",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "triceps"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Bench dip straight-arm top and lowered bent-elbow phase with hips off edge, back close and feet flat. Exposed triceps red, detailed grayscale anatomy and opaque clothes. Qualified wrist/hand edge support, shoulder depth, elbow track and foot consistency pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0814-female-anatomical-white-v1-p1-b612b429723f.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 41092,
+          "sha256": "b612b429723f1531cd3c7c93880e8e6efe64195144e961f930a248f1587b9b1a"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0814-female-anatomical-white-v1-p2-96e5be26f559.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 39908,
+          "sha256": "96e5be26f559e62deef41f8af217a933a978eb7d7239beb9a944111d06d37923"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0814-female-anatomical-white-v1-thumb-4f7687e74062.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 4014,
+        "sha256": "4f7687e740624bb260211f3db01e7b7da2ac38327fa2800704897c9b59a48fc8"
+      },
+      "processingSignature": "a8b33affc7197e7cdca85bf39bcd7a7cfba5410dfae146456d3683e73779323e",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0814-female-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1571100,
+        "sha256": "df651d8909a0d95ae8e3b2f006edafe47e00524972009150dad07d8b4024dcb3"
+      }
+    }
+  ]
+}

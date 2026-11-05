@@ -1,0 +1,90 @@
+{
+  "batch": 270,
+  "runId": "63a812e1-d18c-4a3f-8d2b-dc54407a9ca4",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "trigger": "2026-11-03T23:50:24.990Z",
+  "purpose": "batch270 scheduled male continuation",
+  "started": "2026-11-03T23:50:53.652983+00:00",
+  "completedAt": "2026-11-03T23:59:38.878366+00:00",
+  "actualToolName": "image_gen__imagegen",
+  "calls": 4,
+  "newCandidateSets": 4,
+  "exerciseIds": [
+    "2224",
+    "2234",
+    "2249",
+    "2265"
+  ],
+  "variants": [
+    "male"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 953,
+    "remainingVariants": 10311,
+    "approvedVariants": 0,
+    "blockedVariants": 310,
+    "knownPoseImages": 1805,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 580,
+      "remainingVariants": 5052,
+      "blockedVariants": 191
+    }
+  },
+  "reviewNotes": {
+    "2224": "Distinct sled positions on 45-degree rails, feet flat on moving platform, back/pelvis supported and hands on seat handles. Head is lifted forward of head pad instead of flat against it as canonical record requires; block for relaxed head-pad contact. Plain quad tint on intact shorts. Qualified review of 90-degree depth, heel placement, lumbar contact, carriage mechanics and mapping.",
+    "2234": "Distinct standing lateral raise from weights beside thighs to arms near shoulder height, slight elbow bend and upright steady torso. Deltoids highlighted on exposed shoulders, chest black and clothing opaque. Qualified review needed for neutral wrist/thumb angle, avoiding internal rotation or shrug, exact arm plane, finger grip and lateral-deltoid mapping.",
+    "2249": "Two V-bar pushdown positions, high pulley cable taut and attached to bar center, elbows near sides then extended, feet grounded and shoulders steady. Exposed triceps highlight only, full tower and body framed. Qualified review of upper-arm stillness, grip/fingers, elbow lockout, cable/stack linkage and triceps mapping.",
+    "2265": "Distinct chest-supported lever row positions, arms extended then handles pulled near ribs with elbows back, feet on platform and chest at pad. Upper-back red highlights contain radial muscle-fiber-like lines through tank; block for plain teaching tint on intact fabric. Qualified review of shoulder-blade action, lever pivot/load linkage, grip and chest contact."
+  },
+  "blockingIssues": {
+    "2224": [
+      "Head lifted forward of pad; correct relaxed head-pad contact required by canonical instructions."
+    ],
+    "2265": [
+      "Radial muscle-fiber-like lines through tank in upper-back overlay; replace with plain teaching tint on intact fabric."
+    ]
+  },
+  "deferred": {
+    "2205": "Roller under hips and hands on roller while extending hips is unclear.",
+    "2206": "Roller gripped with toes while rolling and lifting legs requires equipment/contact clarification.",
+    "2207": "Standing roller held in hands then rolled toward feet requires contact/path clarification.",
+    "2208": "Primary spine does not identify muscle-highlight mapping.",
+    "2209": "Name single-leg versus instructions both legs extended; primary chest mapping uncertain.",
+    "2258": "Cardiovascular primary requires muscle-highlight mapping.",
+    "2259": "Cardiovascular primary requires muscle-highlight mapping."
+  },
+  "tests": 7,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "workerSyncResult": {
+    "statuses": {
+      "generated": 953,
+      "pending": 10311
+    },
+    "remaining": 10311,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 1469155260
+  },
+  "publicationIndexUnchanged": true,
+  "savedMasters": [
+    "assets/exercise-illustrations/generated/2224-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/2234-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/2249-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/2265-male-anatomical-white-v1.png"
+  ]
+}

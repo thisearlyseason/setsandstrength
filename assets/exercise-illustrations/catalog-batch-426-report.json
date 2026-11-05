@@ -1,0 +1,59 @@
+{
+  "batch": 426,
+  "runId": "eea3f60c-8ae5-43b6-8ec5-417440bc6172",
+  "triggerTimestamp": "2026-11-04T21:43:03.527Z",
+  "builtInImageGenAvailable": true,
+  "generatedIds": [
+    "3828",
+    "3858"
+  ],
+  "coverageAfter": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1504,
+    "remainingVariants": 9760,
+    "approvedVariants": 0,
+    "blockedVariants": 572,
+    "knownPoseImages": 3014,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 1131,
+      "remainingVariants": 4501,
+      "blockedVariants": 453
+    }
+  },
+  "paidWorker": {
+    "statuses": {
+      "generated": 1504,
+      "pending": 9760
+    },
+    "remaining": 9760,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 2276630417
+  },
+  "pipelineTests": "8 passed, 0 failed",
+  "approvedIndexUnchanged": true,
+  "existingUserApprovalsPreserved": 1306,
+  "anatomyReview": "pending",
+  "publication": "none",
+  "blocked": {
+    "3828": [
+      "Side/back tank fabric replaced by exposed red muscle anatomy; full opaque wrapping violated."
+    ],
+    "3858": [
+      "Side/back tank fabric replaced by exposed red muscle anatomy; full opaque wrapping violated."
+    ]
+  }
+}

@@ -7,13 +7,13 @@
 #
 #   ruby frontend/ios/ci/add-asset-downloader.rb
 #
-# App Store Connect needs, before a signed build: the App Group group.ch.opengym.app on both
-# bundle ids, the extension's bundle id ch.opengym.app.AnimationPacksDownloader, and an App Store
+# App Store Connect needs, before a signed build: the App Group group.pro.gamedaysports.setsstrength on both
+# bundle ids, the extension's bundle id pro.gamedaysports.setsstrength.AnimationPacksDownloader, and an App Store
 # provisioning profile for each (docs/MOBILE.md, "Animation packs").
 require 'xcodeproj'
 
 NAME = 'AnimationPacksDownloader'
-BUNDLE_ID = 'ch.opengym.app.AnimationPacksDownloader'
+BUNDLE_ID = 'pro.gamedaysports.setsstrength.AnimationPacksDownloader'
 
 dir = File.expand_path('../App', __dir__)
 proj = Xcodeproj::Project.open(File.join(dir, 'App.xcodeproj'))

@@ -1,0 +1,291 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "3287",
+      "variant": "male",
+      "key": "3287-male-anatomical-white-v1",
+      "prompt": "BENCH DIP two equal side-view panels headLEFT feetRIGHT, single flatbench BEHIND hips at LEFT. Hands firmlygripfrontedge besidehips fingersforward. LegsSTRAIGHT heelsfloor atRIGHT allposes, toesup. LEFTTOP hips justinfrontbench backclosebench armsstraight shouldersdown. RIGHTBOTTOM bendelbowsbackward about90 hipslowered closebench, shouldersnotshrugged notdeepbelowelbow, heelsfixed. PrimaryTRICEPS redonexposedposteriorupperarms ONLY othergrayblack. Premium detailed adult MALE grayscale anatomical illustration, original project reference for STYLE ONLY, not equipment or pose. Pure white background realistic soft contact shadows, exposed gray musculature detailed, realistic proportions. Opaque BLACK athletic tank and mid-thigh shorts fully wrap front sides back seat crotch with seams folds hems. Red primary highlight only; covered highlights SMALL PLAIN UNIFORM wash on intact fabric, NO anatomy fibers lobes sixpack cutaways transparency. Exactly one head, two arms hands, two legs feet per figure; fullbody generous margins. No labels arrows text logos. ",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Support on bench edge with hips in front and straight legs, heels grounded."
+        },
+        {
+          "key": "p2",
+          "caption": "Bend elbows to lower hips close to bench; press up without forcing shoulder range."
+        }
+      ],
+      "inspectionNote": "Real output inspected. Straight-leg bench dip with heels grounded, hips in front of edge and bent-elbow lower phase. Opaque clothing and exposed triceps highlights. Qualified shoulder range, hand contact and bilateral elbow anatomy review pending. Human anatomy review pending. No approval or publication.",
+      "canonicalName": "elbow dips",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "triceps"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Straight-leg bench dip with heels grounded, hips in front of edge and bent-elbow lower phase. Opaque clothing and exposed triceps highlights. Qualified shoulder range, hand contact and bilateral elbow anatomy review pending. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/3287-male-anatomical-white-v1-p1-623700c84448.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 31402,
+          "sha256": "623700c844480b935f51cc70fc2cf129b27612e0ed4a589589b2e55ea02a2d1d"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/3287-male-anatomical-white-v1-p2-e3919b75f257.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 31192,
+          "sha256": "e3919b75f257a6598ae8066fec79a172facbcdb3bd15df7407308684b49cd4c3"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-342.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/3287-male-anatomical-white-v1-thumb-bc2ac92d2085.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 3258,
+        "sha256": "bc2ac92d208598e6d77cbffbb3114837f4f893b66d49ad6a230b9aafe9282062"
+      },
+      "processingSignature": "13ef956af4f83f12c3a23b4e1e58f513765c71b36ac90f401ffbff64dd121774",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/3287-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1444104,
+        "sha256": "ddf94e3d2b0af511ac0a5859e69efbae78d5bf87044d2af1a7055f4e0e153404"
+      }
+    },
+    {
+      "exerciseId": "3296",
+      "variant": "male",
+      "key": "3296-male-anatomical-white-v1",
+      "prompt": "FRONT LEVER STATIC HOLD ONE SINGLE FIGURE SIDEVIEW headLEFT feetRIGHT. One horizontalpullupbar overhead fixedtoframe. BOTH hands overhandgripbar shoulderwidth, BOTHarmsSTRAIGHT reachUPWARD fromshoulders tobar. EntireHEADSHOULDERHIPHEELbodyperfectlyHORIZONTAL parallelfloor suspendedOFFfloor, BACKFACESFLOOR chestFACEUP, straightlegsTOGETHER feethigherneitherheadnorhips. No bendknees noLsit nofootcontact. Primary ABS plainuniformredwash overintactblacktankabdomen only. Premium detailed adult MALE grayscale anatomical illustration, original project reference for STYLE ONLY, not equipment or pose. Pure white background realistic soft contact shadows, exposed gray musculature detailed, realistic proportions. Opaque BLACK athletic tank and mid-thigh shorts fully wrap front sides back seat crotch with seams folds hems. Red primary highlight only; covered highlights SMALL PLAIN UNIFORM wash on intact fabric, NO anatomy fibers lobes sixpack cutaways transparency. Exactly one head, two arms hands, two legs feet per figure; fullbody generous margins. No labels arrows text logos. ",
+      "layout": {
+        "columns": 1,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hold full front lever with straight arms, body horizontal and face up; lower under control to release."
+        }
+      ],
+      "inspectionNote": "Real output inspected. Horizontal face-up suspended front lever, straight arms/legs and opaque clothes. Hands appear mixed rather than matching overhand grip; correction flagged. Qualified shoulder, wrist and full-body alignment review pending. Human anatomy review pending. No approval or publication.",
+      "blockingIssues": [
+        "Correct mixed-looking grip to consistent bilateral overhand grip as canonical record requires."
+      ],
+      "canonicalName": "front lever",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "abs"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Horizontal face-up suspended front lever, straight arms/legs and opaque clothes. Hands appear mixed rather than matching overhand grip; correction flagged. Qualified shoulder, wrist and full-body alignment review pending. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/3296-male-anatomical-white-v1-p1-399ac5ba5d88.webp",
+          "width": 1200,
+          "height": 600,
+          "bytes": 25064,
+          "sha256": "399ac5ba5d88b50762b77763dce4fd2ac55b378c55c6ef76e45ab6e86fb0538e"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-342.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/3296-male-anatomical-white-v1-thumb-478f65b6b679.webp",
+        "width": 240,
+        "height": 120,
+        "bytes": 2050,
+        "sha256": "478f65b6b6797ae89291da372685fa672ba88ffda1cdf7a0722280f17db7f7d4"
+      },
+      "processingSignature": "37c751162e812e12a6f831eaa2e7398debac76898d359c4786025272ec376db1",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/3296-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1331688,
+        "sha256": "e7ff91daa4c6c95837c0b1ab0d1364748add686808694c8897e0e39445e8d80a"
+      }
+    },
+    {
+      "exerciseId": "3299",
+      "variant": "male",
+      "key": "3299-male-anatomical-white-v1",
+      "prompt": "FULL PLANCHE STATIC HOLD ONE SINGLE FIGURE SIDEVIEW headLEFT feetRIGHT. BOTH palms flatONFLOOR fingerspointforward towardheadLEFT shoulderwidth. BOTH armsSTRAIGHT elbowsunbent shouldersFORWARDofwrists towardLEFT. BodyHEADHIPHEELstraightHORIZONTAL parallelfloor faceDOWN. BOTH legsSTRAIGHTTOGETHER feetclearlyAIRBORNE wellabovefloor, onlypalmsfloor. No bench nohandle nofootcontact no pushup. PrimaryABS smallplainuniformredwash intactblacktank abdomen ONLY. Premium detailed adult MALE grayscale anatomical illustration, original project reference for STYLE ONLY, not equipment or pose. Pure white background realistic soft contact shadows, exposed gray musculature detailed, realistic proportions. Opaque BLACK athletic tank and mid-thigh shorts fully wrap front sides back seat crotch with seams folds hems. Red primary highlight only; covered highlights SMALL PLAIN UNIFORM wash on intact fabric, NO anatomy fibers lobes sixpack cutaways transparency. Exactly one head, two arms hands, two legs feet per figure; fullbody generous margins. No labels arrows text logos. ",
+      "layout": {
+        "columns": 1,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Balance full planche on both hands with straight body and feet lifted; lower feet to release."
+        }
+      ],
+      "inspectionNote": "Real output inspected. Single full planche, palms grounded with shoulders ahead of wrists, straight arms and horizontal airborne legs. Opaque clothes/plain abdomen wash. Qualified wrist/finger anatomy, shoulder loading and head alignment review pending. Human anatomy review pending. No approval or publication.",
+      "canonicalName": "full planche",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "abs"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Single full planche, palms grounded with shoulders ahead of wrists, straight arms and horizontal airborne legs. Opaque clothes/plain abdomen wash. Qualified wrist/finger anatomy, shoulder loading and head alignment review pending. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/3299-male-anatomical-white-v1-p1-820ae52f71f3.webp",
+          "width": 1200,
+          "height": 400,
+          "bytes": 20916,
+          "sha256": "820ae52f71f3c5c3d596283e0edc05815d7925849ff0dbda680febd55390fe77"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-342.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/3299-male-anatomical-white-v1-thumb-f702756d8def.webp",
+        "width": 240,
+        "height": 80,
+        "bytes": 1518,
+        "sha256": "f702756d8defaf4ed0141d854308ef808403a26d97c2e449251c4b78843f1ef1"
+      },
+      "processingSignature": "2ff6294448e9755c344786e7f808deaab8e88f78d16b723f8374320712421b48",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/3299-male-anatomical-white-v1.png",
+        "width": 2172,
+        "height": 724,
+        "bytes": 1385627,
+        "sha256": "162573935c4abc9dc0d6f0af885ed3d1b5df9ebcff12806316143493ebbae0c3"
+      }
+    },
+    {
+      "exerciseId": "3300",
+      "variant": "male",
+      "key": "3300-male-anatomical-white-v1",
+      "prompt": "LEAN PLANCHE STATIC HOLD ONE SINGLE FIGURE SIDEVIEW headLEFT feetRIGHT. Highplank BOTHpalmsfloor shoulderwidth fingersforward towardLEFT, BOTHtoesONFLOOR atRIGHT. Leanrigidbodyforward soSHOULDERSclearlyPASTWRISTS towardLEFT, elbowsverySOFTnearstraight, bodyHEADHIPHEELstraightdiagonal. BOTHFEETremainTOESGROUNDED, nofeetairborne, pelvisnotpiked. Onlyhandsandtoesfloor no bench. PrimaryABS smallplainuniformredwashintactblacktank abdomenONLY. Premium detailed adult MALE grayscale anatomical illustration, original project reference for STYLE ONLY, not equipment or pose. Pure white background realistic soft contact shadows, exposed gray musculature detailed, realistic proportions. Opaque BLACK athletic tank and mid-thigh shorts fully wrap front sides back seat crotch with seams folds hems. Red primary highlight only; covered highlights SMALL PLAIN UNIFORM wash on intact fabric, NO anatomy fibers lobes sixpack cutaways transparency. Exactly one head, two arms hands, two legs feet per figure; fullbody generous margins. No labels arrows text logos. ",
+      "layout": {
+        "columns": 1,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hold a forward plank lean with shoulders past wrists, body straight and toes grounded; return slowly."
+        }
+      ],
+      "inspectionNote": "Real output inspected. Single toe-supported plank lean with opaque shorts, but red segmented abdominal anatomy appears through tank and forward shoulder lean is too subtle. Qualified wrist, elbow and neck review pending. Human anatomy review pending. No approval or publication.",
+      "blockingIssues": [
+        "Replace abdominal anatomical segments through tank with plain uniform wash on opaque fabric.",
+        "Make forward shoulder position past wrists clearly visible for lean planche."
+      ],
+      "canonicalName": "lean planche",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "abs"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Single toe-supported plank lean with opaque shorts, but red segmented abdominal anatomy appears through tank and forward shoulder lean is too subtle. Qualified wrist, elbow and neck review pending. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/3300-male-anatomical-white-v1-p1-1af53c2b7d4a.webp",
+          "width": 1200,
+          "height": 600,
+          "bytes": 31706,
+          "sha256": "1af53c2b7d4a324eb080895a1772a4d0555eb50a7f5817616bbc09904b8d5e1b"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-342.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/3300-male-anatomical-white-v1-thumb-e52bbff36248.webp",
+        "width": 240,
+        "height": 120,
+        "bytes": 1974,
+        "sha256": "e52bbff36248aaf938c2e1d90460a0b36671ed69dc1bf0493497f3a2538a248f"
+      },
+      "processingSignature": "f3df7389eeacc2a1deb25270a41ea9bb851dac63ed07226355375057db5bd2c9",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/3300-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1480490,
+        "sha256": "d72ac0f3674faf2241b05abdcdc200fc2fee30caebc9387a0180e85ce905ee82"
+      }
+    }
+  ]
+}

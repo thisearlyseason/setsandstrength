@@ -1,0 +1,325 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "1756",
+      "variant": "male",
+      "key": "1756-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hold a barbell with an overhand grip and balance on your left leg with a soft knee."
+        },
+        {
+          "key": "p2",
+          "caption": "Hinge at the hips as your right leg extends behind. Lower the bar close to your body with a flat back, return to standing and repeat on both sides."
+        }
+      ],
+      "prompt": "BARBELL SINGLE LEG DEADLIFT canonical1756. REAR three-quarter SIDE camera. Straight silver barbell matching small plates eachend OVERHAND shoulderwidth grip bothhands infrontthighs. LEFT START balance LEFT leg soleflat softknee RIGHT foot liftedslightlybehind barupperthighs armsstraight. RIGHT FINISH hinge LEFT hip torso nearlyhorizontal flatback neutralneck RIGHT leg straight extendsBACK horizontal, LEFT soleflat knee softlybent. Bar lowers straightdown nearLEFTshin to midshin height BOTH arms hangVERTICAL under shoulders, samegrip bar closebody notbehindlegs. SAME LEFT workingleg andbarweightbodyproportions eachcell. PRIMARY LEFT glute flatuniformsoftRED ellipse over intactblackshortseat plus LEFT exposedposterior HAMSTRING RED belowhem only. No calf/quadred. Hipspelvislevel. Original premium ADULT MALE detailed grayscale anatomical educational illustration. TWO equal square cells WIDE2:1 landscape SAME full person camera scale equipment throughout. Crisp detailed realistic grayscale anatomical skin five fingers. Full opaque BLACK tank wraps front sides back and BLACK mid-thigh shorts fully cover front sides back seat crotch with seams hems folds. Red over clothing is a FLAT SOFT UNIFORM TRANSLUCENT RED ELLIPSE teaching overlay with NO internal patterns, retaining fabric seams/folds, NO radial rays stripes fibers lobes or muscle shapes through fabric. Never cutaways transparency or anatomy visible through clothes. Black shoes. Pure WHITE background soft shadows generous12percent margins whole head hands both feet barends equipment within EACH square uncropped. Original project artwork STYLE ONLY ignore pushup/chest red. No text labels captions arrows unexpected figures.",
+      "inspectionNote": "Real output inspected. Barbell single-leg deadlift: balance to hinge, free leg extended, overhand bar and plain red glute teaching ellipse plus exposed hamstrings. Qualified review of bar path/occlusion, working side, pelvis/spine control, knee softness and overlay placement required. Detailed grayscale exposed anatomy and full opaque clothing retained; flat red overlays avoid radial fibers through fabric. Original project artwork rendering style only; no upstream media. Exact prompt and original master saved. Human anatomy review pending; no approval or publication.",
+      "canonicalName": "barbell single leg deadlift",
+      "styleVersion": "white-v1",
+      "equipment": "barbell",
+      "primaryMuscles": [
+        "gluteal",
+        "hamstring"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Barbell single-leg deadlift: balance to hinge, free leg extended, overhand bar and plain red glute teaching ellipse plus exposed hamstrings. Qualified review of bar path/occlusion, working side, pelvis/spine control, knee softness and overlay placement required. Detailed grayscale exposed anatomy and full opaque clothing retained; flat red overlays avoid radial fibers through fabric. Original project artwork rendering style only; no upstream media. Exact prompt and original master saved. Human anatomy review pending; no approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/1756-male-anatomical-white-v1-p1-f2417ea20284.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 23702,
+          "sha256": "f2417ea202847ecca1e4ce6879e905ec16d3c1f92725f259e895085513f7b7e3"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/1756-male-anatomical-white-v1-p2-69d1c111dafe.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 27504,
+          "sha256": "69d1c111dafef6107cedcb095f33db1bed150a9c418f31bc0ade9885430cecf6"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-233.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/1756-male-anatomical-white-v1-thumb-1419232f8920.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2596,
+        "sha256": "1419232f8920434dae21f6776216f15ecf2883949cd7a9282681855963607336"
+      },
+      "processingSignature": "a5f9c5bc72e697193b7641f0cb58009ddf311b9683c25f6eea2245fe0de10375",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1756-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1369513,
+        "sha256": "7597f6039d13a0349ca90b93c15df57cffcf32d84a8ec02970cebeffed66d7a7"
+      }
+    },
+    {
+      "exerciseId": "1757",
+      "variant": "male",
+      "key": "1757-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hold one dumbbell in your right hand and balance on your left leg."
+        },
+        {
+          "key": "p2",
+          "caption": "Hinge forward with a flat back as your right leg extends behind. Lower the weight under control, stand again and repeat on both sides."
+        }
+      ],
+      "prompt": "DUMBBELL SINGLE LEG DEADLIFT canonical1757. REAR three-quarter SIDE camera. ONE dumbbell RIGHT hand neutralgrip, freeLEFThandrelaxed forbalance. LEFT START balance LEFT leg soleflat softknee RIGHT footslightlyliftedbehind DBinRIGHT handbesidethigh. RIGHT FINISH LEFT hip hinge torso nearlyhorizontal flatback neutralneck RIGHT legstraightBACK horizontal, LEFT footflat kneeslightlybent. RIGHT handarmhangVERTICAL belowRIGHTshoulder dumbbelllowers towardLEFTankle/midshin withouttorso twisting. LEFT free arm heldsideways forbalance. SAME workingLEFTleg oppositeRIGHTweightedhand bothcells. PRIMARY LEFTglute flatuniformsoftRED ellipse onblackshortseat plus LEFT exposedposteriorHAMSTRING RED belowhem only other skin grayscale. OneDBonly. Original premium ADULT MALE detailed grayscale anatomical educational illustration. TWO equal square cells WIDE2:1 landscape SAME full person camera scale equipment throughout. Crisp detailed realistic grayscale anatomical skin five fingers. Full opaque BLACK tank wraps front sides back and BLACK mid-thigh shorts fully cover front sides back seat crotch with seams hems folds. Red over clothing is a FLAT SOFT UNIFORM TRANSLUCENT RED ELLIPSE teaching overlay with NO internal patterns, retaining fabric seams/folds, NO radial rays stripes fibers lobes or muscle shapes through fabric. Never cutaways transparency or anatomy visible through clothes. Black shoes. Pure WHITE background soft shadows generous12percent margins whole head hands both feet barends equipment within EACH square uncropped. Original project artwork STYLE ONLY ignore pushup/chest red. No text labels captions arrows unexpected figures.",
+      "inspectionNote": "Real output inspected. Dumbbell single-leg deadlift: balance to hinge, free leg extended and plain cloth overlay. BLOCKED: visible loaded hand appears on same side as supporting leg rather than canonical right-hand/left-leg contralateral pairing. Detailed grayscale exposed anatomy and full opaque clothing retained; flat red overlays avoid radial fibers through fabric. Original project artwork rendering style only; no upstream media. Exact prompt and original master saved. Human anatomy review pending; no approval or publication.",
+      "blockingIssues": [
+        "Loaded hand appears ipsilateral to support leg instead of canonical contralateral right-hand/left-leg pairing; correct side mapping."
+      ],
+      "canonicalName": "dumbbell single leg deadlift",
+      "styleVersion": "white-v1",
+      "equipment": "dumbbell",
+      "primaryMuscles": [
+        "gluteal",
+        "hamstring"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Dumbbell single-leg deadlift: balance to hinge, free leg extended and plain cloth overlay. BLOCKED: visible loaded hand appears on same side as supporting leg rather than canonical right-hand/left-leg contralateral pairing. Detailed grayscale exposed anatomy and full opaque clothing retained; flat red overlays avoid radial fibers through fabric. Original project artwork rendering style only; no upstream media. Exact prompt and original master saved. Human anatomy review pending; no approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/1757-male-anatomical-white-v1-p1-500512b2648c.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 25852,
+          "sha256": "500512b2648c3ebf27eb087c684352dbf4ab10a52502cc697b6afdbdd4a32bf0"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/1757-male-anatomical-white-v1-p2-0cb4294f4aab.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 26134,
+          "sha256": "0cb4294f4aaba072e245626197ab01b7d7b2a1e0fcefc432b84150e7012623a9"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-233.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/1757-male-anatomical-white-v1-thumb-22b051674ee5.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2588,
+        "sha256": "22b051674ee5b9886ffe985c70243adffeedb82f707d99df3ad7abbe5ca5dfb8"
+      },
+      "processingSignature": "c289f7578b3bb399a78c716761815439a91f6f73bb74c5e5da744ab60224b1e4",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1757-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1358839,
+        "sha256": "758d915b85d7b521cdb41d73ec9d5ffe5357e0d052b61810611f605c8b0c1b6b"
+      }
+    },
+    {
+      "exerciseId": "1758",
+      "variant": "male",
+      "key": "1758-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Lie on your back with knees bent while a partner gently holds your feet down. Place your hands lightly behind your head."
+        },
+        {
+          "key": "p2",
+          "caption": "Curl your upper body to about 45 degrees without pulling your neck. Pause, then lower slowly."
+        }
+      ],
+      "prompt": "ASSISTED SIT-UP canonical1758. SIDE three-quarter camera. Main ADULTMALE lies FACEUP on thin gray floormat knees90feetflat. ONE ADULT MALE HELPER kneels BEYONDfeet with BOTH hands gentlyholding mainpersons SHOES/ANKLES tofloor, neverpullinglegs; helper wears opaque gray LONGSLEEVE sweatshirt blacklongpants noanatomicalred. MainhandsLIGHTLYbehindhead elbowsopen no neckpull. LEFT START mainbackskullrestmat neutralneck. RIGHT FINISH mainTORSOcurledUP45degrees fromfloor ribsapproachpelvis lumbarflexion kneesfeet samepositions helperholdingfeet sameposture. Mainnotfulluprightsit noarmjerking. MAINprimary ABS flatuniformsoftREDellipse on intactblacktankabdomen NOsixpack patterns other skin grayscale. Twopeopleexactly oneexerciser onehelper consistentbothcells. Original premium ADULT MALE detailed grayscale anatomical educational illustration. TWO equal square cells WIDE2:1 landscape SAME full person camera scale equipment throughout. Crisp detailed realistic grayscale anatomical skin five fingers. Full opaque BLACK tank wraps front sides back and BLACK mid-thigh shorts fully cover front sides back seat crotch with seams hems folds. Red over clothing is a FLAT SOFT UNIFORM TRANSLUCENT RED ELLIPSE teaching overlay with NO internal patterns, retaining fabric seams/folds, NO radial rays stripes fibers lobes or muscle shapes through fabric. Never cutaways transparency or anatomy visible through clothes. Black shoes. Pure WHITE background soft shadows generous12percent margins whole head hands both feet barends equipment within EACH square uncropped. Original project artwork STYLE ONLY ignore pushup/chest red. No text labels captions arrows unexpected figures.",
+      "inspectionNote": "Real output inspected. Assisted sit-up: second adult helper holds shoes/ankles with main exerciser supine to approximately45degree curl, no neck pulling depicted. Qualified review of helper contact, far foot occlusion, neck and lumbar motion required. Diffuse red ellipse retained on intact tank. Detailed grayscale exposed anatomy and full opaque clothing retained; flat red overlays avoid radial fibers through fabric. Original project artwork rendering style only; no upstream media. Exact prompt and original master saved. Human anatomy review pending; no approval or publication.",
+      "canonicalName": "assisted sit-up",
+      "styleVersion": "white-v1",
+      "equipment": "assisted",
+      "primaryMuscles": [
+        "abs"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Assisted sit-up: second adult helper holds shoes/ankles with main exerciser supine to approximately45degree curl, no neck pulling depicted. Qualified review of helper contact, far foot occlusion, neck and lumbar motion required. Diffuse red ellipse retained on intact tank. Detailed grayscale exposed anatomy and full opaque clothing retained; flat red overlays avoid radial fibers through fabric. Original project artwork rendering style only; no upstream media. Exact prompt and original master saved. Human anatomy review pending; no approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/1758-male-anatomical-white-v1-p1-5e5b1b61ae8b.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 33566,
+          "sha256": "5e5b1b61ae8bc44e8b5b09dbf8b4ab2a4b3f77095f9125019d700c033ebe1a7a"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/1758-male-anatomical-white-v1-p2-c96edbacefb5.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 36564,
+          "sha256": "c96edbacefb582ee72359597d8bf35f30d1aa5915a25b5cfe69dbd4727858b54"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-233.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/1758-male-anatomical-white-v1-thumb-98d9992cee50.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 3260,
+        "sha256": "98d9992cee50af837952a83241e5a91216764064ec23735db7394a3e90674fc1"
+      },
+      "processingSignature": "6682beefbd9856031b092d24e1c9a467002335ff4ea5556297377993e739c357",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1758-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1501659,
+        "sha256": "44551e687d2081171fb8229e4c91a0afde4607d8cef8d2deea471fad2103f6fc"
+      }
+    },
+    {
+      "exerciseId": "1759",
+      "variant": "male",
+      "key": "1759-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Balance on your left leg with arms forward and your right leg extended in front."
+        },
+        {
+          "key": "p2",
+          "caption": "Lower into a controlled single-leg squat as far as comfortable, keeping your heel planted. Push back up and repeat on both sides."
+        }
+      ],
+      "prompt": "SINGLE LEG SQUAT PISTOL MALE canonical1759. SIDE three-quarter camera bodyweightnoequipment. Armsstraightforward shoulderheight BOTHcells. LEFT START balanceLEFTleg soleflat kneeslightlysoft RIGHTleg heldSTRAIGHT FORWARD foot20cmabovefloor toesup. RIGHT LOWERED squat onSAMELEFTleg heelflat leftkneealignedfoot leftthighnearparallel neutralback chestup modesthiphinge, RIGHTleg staysstraightforward horizontal raisedfootclearfloor. Armsreachforwardbalance, SAME leftsupport footneverchanges, nofreefootfloorcontact no bench. PRIMARY LEFTGLUTE flatuniformsoftRED ellipse over intactblackshortseat only noanatomicalrays; exposedlegsgrayscale noquad/calfred. Fullraisedfoot armsfitcell. Original premium ADULT MALE detailed grayscale anatomical educational illustration. TWO equal square cells WIDE2:1 landscape SAME full person camera scale equipment throughout. Crisp detailed realistic grayscale anatomical skin five fingers. Full opaque BLACK tank wraps front sides back and BLACK mid-thigh shorts fully cover front sides back seat crotch with seams hems folds. Red over clothing is a FLAT SOFT UNIFORM TRANSLUCENT RED ELLIPSE teaching overlay with NO internal patterns, retaining fabric seams/folds, NO radial rays stripes fibers lobes or muscle shapes through fabric. Never cutaways transparency or anatomy visible through clothes. Black shoes. Pure WHITE background soft shadows generous12percent margins whole head hands both feet barends equipment within EACH square uncropped. Original project artwork STYLE ONLY ignore pushup/chest red. No text labels captions arrows unexpected figures.",
+      "inspectionNote": "Real output inspected. Pistol squat: same support foot planted, free leg held forward, standing to near-parallel squat, plain red glute ellipse on intact shorts. Qualified review of heel loading, knee tracking, hip depth, balance and overlay mapping/style required. Detailed grayscale exposed anatomy and full opaque clothing retained; flat red overlays avoid radial fibers through fabric. Original project artwork rendering style only; no upstream media. Exact prompt and original master saved. Human anatomy review pending; no approval or publication.",
+      "canonicalName": "single leg squat (pistol) male",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "glutes"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Pistol squat: same support foot planted, free leg held forward, standing to near-parallel squat, plain red glute ellipse on intact shorts. Qualified review of heel loading, knee tracking, hip depth, balance and overlay mapping/style required. Detailed grayscale exposed anatomy and full opaque clothing retained; flat red overlays avoid radial fibers through fabric. Original project artwork rendering style only; no upstream media. Exact prompt and original master saved. Human anatomy review pending; no approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/1759-male-anatomical-white-v1-p1-d5bd0be84660.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 25592,
+          "sha256": "d5bd0be846600d9d4cfbe2c9ee67589fad9fa43bcb7446887f12669af978262f"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/1759-male-anatomical-white-v1-p2-48b97149f103.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 24580,
+          "sha256": "48b97149f103d87f99f6cfd6d4588efb68b70931feaed890e0dcd7de3d2b769e"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-233.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/1759-male-anatomical-white-v1-thumb-aa5aa53fb2b5.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2874,
+        "sha256": "aa5aa53fb2b5790e16f09c49efc4bb3a14be8757520baefb863d721d95e68018"
+      },
+      "processingSignature": "d3db35daa0f69dffde2c521701f137e9d9d21f6b9b50a533c0c4987b00ab4cac",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1759-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1357415,
+        "sha256": "067d5dd99d13f56afee89a58fa38ebe2da4309953b6da12f69176ed3c495074c"
+      }
+    }
+  ]
+}

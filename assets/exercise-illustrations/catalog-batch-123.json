@@ -1,0 +1,651 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "0733",
+      "variant": "male",
+      "key": "0733-male-anatomical-white-v2",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Place the lead foot fully on a sturdy step, with the other foot on the floor."
+        },
+        {
+          "key": "p2",
+          "caption": "Press through the lead heel to stand on the step and bring the other foot up. Lower slowly; finish repetitions before switching legs."
+        }
+      ],
+      "prompt": "Correct this original male TWO-panel step-up illustration. Keep poses and fixed box with lead foot fully on box then standing on box with both feet. Increase white top margin so standing head has at least8percent cell height white above it, SAME scale figure between poses; both square cells side-by-side WIDE LANDSCAPE. Replace ALL red rays and fiber streaks with ONE smoothly blurred diffuse red tint over intact opaque black LEAD-thigh shorts each pose. Broad cloth folds/seams only, no anatomy through cloth. Preserve detailed grayscale exposed anatomy, full opaque shirt/shorts front sides back seat crotch and grounded box/feet. No text.",
+      "inspectionNote": "Head margin increased and thigh tint softened over full opaque shorts with broad cloth folds. Two step-up phases retained, lead foot on box then both feet standing on fixed box. Detailed exposed grayscale anatomy. Qualified leg identity, relative scale, knee alignment and muscle mapping pending.",
+      "canonicalName": "single leg step up",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "quads"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0733-male-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "status": "generated",
+        "costUSD": null
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Head margin increased and thigh tint softened over full opaque shorts with broad cloth folds. Two step-up phases retained, lead foot on box then both feet standing on fixed box. Detailed exposed grayscale anatomy. Qualified leg identity, relative scale, knee alignment and muscle mapping pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0733-male-anatomical-white-v2-p1-4d61ad1cb685.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 19406,
+          "sha256": "4d61ad1cb685026753e5d3c1c522ff2415fb9b11104bf4ca0a6e8e21f9b59e51"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0733-male-anatomical-white-v2-p2-5e883fddecbe.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 15772,
+          "sha256": "5e883fddecbe96875fc4adb64f90e1c35980f8f17541ea1c0dfc0b2a4d7dddf5"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0733-male-anatomical-white-v2-thumb-d1ed20c3cbc3.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2250,
+        "sha256": "d1ed20c3cbc334dc9287f3f88353b69c4c3284e526e0688cb6ee60efee4a8e74"
+      },
+      "processingSignature": "6b21f70979e55351773d6066c8448e1748748e53e7b58b3a65df30fe0ebca945",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0733-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1243419,
+        "sha256": "9badf637e6ed3428cb4c31dfcbfc4de9c33cbafa14fd0bae1f05eb0c3884ba17"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0733",
+          "variant": "male",
+          "key": "0733-male-anatomical-white-v1",
+          "layout": {
+            "columns": 2,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Place the lead foot fully on a sturdy step, with the other foot on the floor."
+            },
+            {
+              "key": "p2",
+              "caption": "Press through the lead heel to stand on the step and bring the other foot up. Lower slowly; finish repetitions before switching legs."
+            }
+          ],
+          "prompt": "Original premium male ADULT exercise anatomy instruction, TWO equal SQUARE cells side by side, wide LANDSCAPE canvas. Reference used ONLY for fine grayscale exposed anatomical rendering, not its equipment/pose/red chest. SINGLE LEG STEP UP. Same sturdy plain rectangular gray box 30cm high in both cells, fully visible and grounded. Same model faces IMAGE RIGHT in both cells, SIDE three-quarter camera. LEFT start: nearer lead foot ENTIRE SOLE flat on box top, knee bent; far trailing foot on FLOOR behind box. RIGHT finish: SAME lead foot at SAME spot on box, lead knee now straight, torso upright above box; bring trailing foot onto box BESIDE lead foot, both feet fully on box. Body rises 30cm, box remains fixed, do not reverse leg identities. Arms relaxed naturally, no weights, hands do not assist. Red primary quadriceps: one soft diffuse BLURRED red tint on intact front lead thigh shorts, no red rays/fibers. Fine detailed grayscale exposed arms/calves with realistic proportions and matching male/female quality. Full opaque BLACK athletic shirt and mid-thigh shorts wrap continuously FRONT SIDES BACK SEAT CROTCH, seams and broad folds. No anatomy visible through cloth, no cutaways. Black shoes. White background, soft contact shadows, all limbs/head/equipment fully inside EACH cell with generous margins, no overlap across cell boundary. No text/captions/labels/numbers/arrows.",
+          "inspectionNote": "Step-up start and standing two-foot box finish visible. Opaque clothes and detailed exposed anatomy; red streaks and tight head margin need correction. Qualified same-lead-leg identity and knee alignment pending.",
+          "canonicalName": "single leg step up",
+          "styleVersion": "white-v1",
+          "equipment": "body weight",
+          "primaryMuscles": [
+            "quads"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Step-up start and standing two-foot box finish visible. Opaque clothes and detailed exposed anatomy; red streaks and tight head margin need correction. Qualified same-lead-leg identity and knee alignment pending.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0733-male-anatomical-white-v1-p1-e6d58560cda4.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 21032,
+              "sha256": "e6d58560cda4db2abef554a34ace7205930501e9a7fb9c07c2e17724b4d8d288"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0733-male-anatomical-white-v1-p2-d9fc65fd2257.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 18382,
+              "sha256": "d9fc65fd2257f73fe5ed1ca4bec8122096f4957ba8853e07c2b60c0999867758"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0733-male-anatomical-white-v1-thumb-1540bb931d67.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 2192,
+            "sha256": "1540bb931d67e7984ade2d0851ccf238087cb661182ed1b89ffc6ce38019ab1c"
+          },
+          "processingSignature": "7c659e639860c10c02de7dd104c44b5a24f794216e0b38b060537aad25d15098",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0733-male-anatomical-white-v1.png",
+            "width": 1774,
+            "height": 887,
+            "bytes": 1294251,
+            "sha256": "47667fbe0e9d7a6f92c30290ead96842ab5b62948003c3f1784de51d9532b6e7"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "0733",
+      "variant": "female",
+      "key": "0733-female-anatomical-white-v2",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Place the lead foot fully on a sturdy step, with the other foot on the floor."
+        },
+        {
+          "key": "p2",
+          "caption": "Press through the lead heel to stand on the step and bring the other foot up. Lower slowly; finish repetitions before switching legs."
+        }
+      ],
+      "prompt": "Correct this original female TWO-panel step-up illustration. Keep poses and fixed box with lead foot fully on box then standing on box with both feet. Increase white top margin so standing head has at least8percent cell height white above it, SAME scale figure between poses; both square cells side-by-side WIDE LANDSCAPE. Replace ALL red rays and fiber streaks with ONE smoothly blurred diffuse red tint over intact opaque black LEAD-thigh shorts each pose. Broad cloth folds/seams only, no anatomy through cloth. Preserve detailed grayscale exposed anatomy, full opaque shirt/shorts front sides back seat crotch and grounded box/feet. No text.",
+      "inspectionNote": "Thigh tint corrected to smooth diffuse red, head margin increased. Step-up start and two-foot standing finish retained with fixed sturdy box, full opaque clothes and fine exposed grayscale anatomy. Qualified lead-leg identity, relative scale, knee alignment and muscle mapping pending.",
+      "canonicalName": "single leg step up",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "quads"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0733-female-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "status": "generated",
+        "costUSD": null
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Thigh tint corrected to smooth diffuse red, head margin increased. Step-up start and two-foot standing finish retained with fixed sturdy box, full opaque clothes and fine exposed grayscale anatomy. Qualified lead-leg identity, relative scale, knee alignment and muscle mapping pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0733-female-anatomical-white-v2-p1-ab895fb0d9c0.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 19958,
+          "sha256": "ab895fb0d9c0406c659f7f65030a03a4dc0cd677362ebc7ac2a4fc2e47e8c1ec"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0733-female-anatomical-white-v2-p2-828be05e1805.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 16630,
+          "sha256": "828be05e1805ead3444304319ed29d8a1883056b608fe56edfd2c6da47519f43"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0733-female-anatomical-white-v2-thumb-65a4e540b8ba.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2234,
+        "sha256": "65a4e540b8ba0e0aa1897e9b82f64fc579cd09dbfbd864475f900b6ba7559a0a"
+      },
+      "processingSignature": "7167bdeacecd25c56dd3c47d2d696f6dc8a062029dead5921681dbead484b736",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0733-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1255960,
+        "sha256": "0aedfcd6dff4db8d60f250065c6816c33c3b62451c855d8e47b062692ec61bef"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0733",
+          "variant": "female",
+          "key": "0733-female-anatomical-white-v1",
+          "layout": {
+            "columns": 2,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Place the lead foot fully on a sturdy step, with the other foot on the floor."
+            },
+            {
+              "key": "p2",
+              "caption": "Press through the lead heel to stand on the step and bring the other foot up. Lower slowly; finish repetitions before switching legs."
+            }
+          ],
+          "prompt": "Original premium female ADULT exercise anatomy instruction, TWO equal SQUARE cells side by side, wide LANDSCAPE canvas. Reference used ONLY for fine grayscale exposed anatomical rendering, not its equipment/pose/red chest. SINGLE LEG STEP UP. Same sturdy plain rectangular gray box 30cm high in both cells, fully visible and grounded. Same model faces IMAGE RIGHT in both cells, SIDE three-quarter camera. LEFT start: nearer lead foot ENTIRE SOLE flat on box top, knee bent; far trailing foot on FLOOR behind box. RIGHT finish: SAME lead foot at SAME spot on box, lead knee now straight, torso upright above box; bring trailing foot onto box BESIDE lead foot, both feet fully on box. Body rises 30cm, box remains fixed, do not reverse leg identities. Arms relaxed naturally, no weights, hands do not assist. Red primary quadriceps: one soft diffuse BLURRED red tint on intact front lead thigh shorts, no red rays/fibers. Fine detailed grayscale exposed arms/calves with realistic proportions and matching male/female quality. Full opaque BLACK athletic shirt and mid-thigh shorts wrap continuously FRONT SIDES BACK SEAT CROTCH, seams and broad folds. No anatomy visible through cloth, no cutaways. Black shoes. White background, soft contact shadows, all limbs/head/equipment fully inside EACH cell with generous margins, no overlap across cell boundary. No text/captions/labels/numbers/arrows.",
+          "inspectionNote": "Two step-up phases, start foot on box then both feet on box. Fine exposed grayscale anatomy and opaque clothes. Tight top margin and streaked thigh highlight require correction; qualified lead-leg consistency and knee alignment pending.",
+          "canonicalName": "single leg step up",
+          "styleVersion": "white-v1",
+          "equipment": "body weight",
+          "primaryMuscles": [
+            "quads"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Two step-up phases, start foot on box then both feet on box. Fine exposed grayscale anatomy and opaque clothes. Tight top margin and streaked thigh highlight require correction; qualified lead-leg consistency and knee alignment pending.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0733-female-anatomical-white-v1-p1-0d27789e28c4.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 21760,
+              "sha256": "0d27789e28c41b5240792bd294e31aa1b76bd2d28a76cf305bf471c541aed76e"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0733-female-anatomical-white-v1-p2-1bc63eb86173.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 18258,
+              "sha256": "1bc63eb861738225130c81ecc245e451084cb7b2a829f516d44c9343ae379e41"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0733-female-anatomical-white-v1-thumb-bfec845ee7d6.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 2286,
+            "sha256": "bfec845ee7d6c7105f9afe5065deaa22c44a2d0b8bbc840887a53e6b0983cc31"
+          },
+          "processingSignature": "96ba644cbb11ceec7f68f54b91dba756520a9e6514963b3cc8ecd97c65d89231",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0733-female-anatomical-white-v1.png",
+            "width": 1774,
+            "height": 887,
+            "bytes": 1296589,
+            "sha256": "5ea03a5530f5517a445cb0118d335469783765c80edb499fda8fd7725fb83ce7"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "0736",
+      "variant": "male",
+      "key": "0736-male-anatomical-white-v2",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Lie supine with knees bent, feet flat and arms crossed over the chest."
+        },
+        {
+          "key": "p2",
+          "caption": "Curl the torso up until the chest approaches the thighs, then lower slowly without pulling on the neck."
+        }
+      ],
+      "prompt": "Correct this original male TWO-panel SIT UP. LEFT start must be FULLY SUPINE REST: back of SKULL DIRECTLY touches mat, shoulder blades grounded, eyes look vertically ceiling, neutral neck, no hovering head, hair swept to side OUT FROM UNDER SKULL. Extend mat behind head if needed so skull on mat. RIGHT preserve upright curled torso approaching thighs, arms crossed chest, pelvis grounded. Keep same bent knees and flat feet, fixed pelvis/feet positions and limb proportions. Replace red anatomical-looking abdominal pattern with ONE smooth diffuse BLURRED red tint over continuous opaque BLACK shirt, broad folds only NO rays/fibers/sixpack. Preserve full opaque shirt/shorts all front sides back seat crotch, detailed grayscale EXPOSED anatomy. TWO equal SQUARE cells WIDE LANDSCAPE, generous margins, same scale. No text.",
+      "inspectionNote": "Start corrected with back of skull directly grounded on mat and neutral neck, shirt red softened to diffuse tint. Arms crossed, knees bent, feet flat and upright finish retained. Full opaque clothing and detailed exposed anatomy. Qualified curl range, limb consistency and muscle mapping pending.",
+      "canonicalName": "sit up",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "abs"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0736-male-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "status": "generated",
+        "costUSD": null
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Start corrected with back of skull directly grounded on mat and neutral neck, shirt red softened to diffuse tint. Arms crossed, knees bent, feet flat and upright finish retained. Full opaque clothing and detailed exposed anatomy. Qualified curl range, limb consistency and muscle mapping pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0736-male-anatomical-white-v2-p1-065424ee55bb.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 23252,
+          "sha256": "065424ee55bb81386cd710e2f08b499080dffacd2b535c43e6c994fd10c79b19"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0736-male-anatomical-white-v2-p2-383ab0fd186a.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 26728,
+          "sha256": "383ab0fd186af0f6e72fec2a01e3d9f04cc78086673fe67e53b3e94b435f8746"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0736-male-anatomical-white-v2-thumb-560dd775ee8c.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2366,
+        "sha256": "560dd775ee8cf94a7dd49a93b3e9497881d0f5bb6f4cce6e51d1bd401c24f27e"
+      },
+      "processingSignature": "28148a7b2421183431113247d57d0b46539d4e6aeb055eea8577dccdc66cbe63",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0736-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1368704,
+        "sha256": "149448304e1b176fc9d6aa3eb1cb1ef1dd281dca1349d886a5a8002500641744"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0736",
+          "variant": "male",
+          "key": "0736-male-anatomical-white-v1",
+          "layout": {
+            "columns": 2,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Lie supine with knees bent, feet flat and arms crossed over the chest."
+            },
+            {
+              "key": "p2",
+              "caption": "Curl the torso up until the chest approaches the thighs, then lower slowly without pulling on the neck."
+            }
+          ],
+          "prompt": "Original premium male ADULT exercise anatomy instruction, TWO equal SQUARE cells side by side, wide LANDSCAPE canvas. Reference used ONLY for fine grayscale exposed anatomical rendering, not its equipment/pose/red chest. CLASSIC SIT UP, two poses same SIDE three-quarter camera, head IMAGE LEFT feet IMAGE RIGHT in BOTH cells. Thin gray mat. LEFT: skull, shoulders and pelvis on mat, knees bent90degrees, both feet flat floor, arms CROSS CHEST. RIGHT: SAME feet and pelvis stay fixed grounded, knees same bend; torso curled to nearly upright so CHEST NEARS THIGHS, arms stay crossed chest. Neutral neck chin not pressed chest, do not pull head, no hands behind neck. Same limb lengths/model scale, no change to foot or pelvis orientation. Red primary ABS: one smoothly blurred diffuse red tint over intact abdominal SHIRT, no rays/fibers/sixpack pattern. No ball or bench. Fine detailed grayscale exposed arms/calves with realistic proportions and matching male/female quality. Full opaque BLACK athletic shirt and mid-thigh shorts wrap continuously FRONT SIDES BACK SEAT CROTCH, seams and broad folds. No anatomy visible through cloth, no cutaways. Black shoes. White background, soft contact shadows, all limbs/head/equipment fully inside EACH cell with generous margins, no overlap across cell boundary. No text/captions/labels/numbers/arrows.",
+          "inspectionNote": "Arms crossed, bent knees and upright finish present, but start skull lifted rather than resting mat, red shirt pattern streaked. Correction required; qualified foot stability, curl range and proportions pending.",
+          "canonicalName": "sit up",
+          "styleVersion": "white-v1",
+          "equipment": "body weight",
+          "primaryMuscles": [
+            "abs"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Arms crossed, bent knees and upright finish present, but start skull lifted rather than resting mat, red shirt pattern streaked. Correction required; qualified foot stability, curl range and proportions pending.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0736-male-anatomical-white-v1-p1-dfa33a232cdf.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 26084,
+              "sha256": "dfa33a232cdff78c640c7734b2589ccb6b415555ac4e6d414c2f741b35847f31"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0736-male-anatomical-white-v1-p2-8317508e02a0.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 29336,
+              "sha256": "8317508e02a01b6f112f46baded6ce249f9058ba4a63c0a935e39b1d5113cbe6"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0736-male-anatomical-white-v1-thumb-8ed64647ac43.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 2616,
+            "sha256": "8ed64647ac43f4bdf3d0872c3504887141cb9f7706f542be04bb5ab18bbbeda7"
+          },
+          "processingSignature": "4873152cf4fbac12444c6bffa2d6b6ae93da72c11af30611884d21079b285405",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0736-male-anatomical-white-v1.png",
+            "width": 1774,
+            "height": 887,
+            "bytes": 1391669,
+            "sha256": "3575f3b981d3c9877cd1681cab932cdd9d4bb34928c5903ae23ab74ea58edea4"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "0736",
+      "variant": "female",
+      "key": "0736-female-anatomical-white-v2",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Lie supine with knees bent, feet flat and arms crossed over the chest."
+        },
+        {
+          "key": "p2",
+          "caption": "Curl the torso up until the chest approaches the thighs, then lower slowly without pulling on the neck."
+        }
+      ],
+      "prompt": "Correct this original female TWO-panel SIT UP. LEFT start must be FULLY SUPINE REST: back of SKULL DIRECTLY touches mat, shoulder blades grounded, eyes look vertically ceiling, neutral neck, no hovering head, hair swept to side OUT FROM UNDER SKULL. Extend mat behind head if needed so skull on mat. RIGHT preserve upright curled torso approaching thighs, arms crossed chest, pelvis grounded. Keep same bent knees and flat feet, fixed pelvis/feet positions and limb proportions. Replace red anatomical-looking abdominal pattern with ONE smooth diffuse BLURRED red tint over continuous opaque BLACK shirt, broad folds only NO rays/fibers/sixpack. Preserve full opaque shirt/shorts all front sides back seat crotch, detailed grayscale EXPOSED anatomy. TWO equal SQUARE cells WIDE LANDSCAPE, generous margins, same scale. No text.",
+      "inspectionNote": "Start head lowered and clothing tint softened, arms crossed and upright finish retained. Hair remains piled behind/below skull so direct skull-to-mat contact uncertain; blocked for cervical support correction. Opaque clothes and fine exposed grayscale anatomy. Qualified foot stability, curl range and mapping pending.",
+      "canonicalName": "sit up",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "abs"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0736-female-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "status": "generated",
+        "costUSD": null
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Start head lowered and clothing tint softened, arms crossed and upright finish retained. Hair remains piled behind/below skull so direct skull-to-mat contact uncertain; blocked for cervical support correction. Opaque clothes and fine exposed grayscale anatomy. Qualified foot stability, curl range and mapping pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0736-female-anatomical-white-v2-p1-c37878628e7e.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 21564,
+          "sha256": "c37878628e7e3bc23ca5edd5e2b90b05bd9e1ac5bb117e5f099211edaebf6d2e"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0736-female-anatomical-white-v2-p2-2472625cce83.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 27126,
+          "sha256": "2472625cce83f3f41685746a629798e2939d6bc301b88176ea90a0d96478be9a"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0736-female-anatomical-white-v2-thumb-7997f6aa47eb.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2234,
+        "sha256": "7997f6aa47eb9038c0690b77a7717ad520d8d7aa3ebcdcc1a984b5a9c6830678"
+      },
+      "processingSignature": "64e21a6993ef2a86f44e72ed518d40fe5b7132738406fa4989f35040f3d40fb8",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0736-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1445679,
+        "sha256": "36dfd39c5714376a1cf4001bc6dfca22b21c3c410f3aba2c80c0a9fbe745525f"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0736",
+          "variant": "female",
+          "key": "0736-female-anatomical-white-v1",
+          "layout": {
+            "columns": 2,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Lie supine with knees bent, feet flat and arms crossed over the chest."
+            },
+            {
+              "key": "p2",
+              "caption": "Curl the torso up until the chest approaches the thighs, then lower slowly without pulling on the neck."
+            }
+          ],
+          "prompt": "Original premium female ADULT exercise anatomy instruction, TWO equal SQUARE cells side by side, wide LANDSCAPE canvas. Reference used ONLY for fine grayscale exposed anatomical rendering, not its equipment/pose/red chest. CLASSIC SIT UP, two poses same SIDE three-quarter camera, head IMAGE LEFT feet IMAGE RIGHT in BOTH cells. Thin gray mat. LEFT: skull, shoulders and pelvis on mat, knees bent90degrees, both feet flat floor, arms CROSS CHEST. RIGHT: SAME feet and pelvis stay fixed grounded, knees same bend; torso curled to nearly upright so CHEST NEARS THIGHS, arms stay crossed chest. Neutral neck chin not pressed chest, do not pull head, no hands behind neck. Same limb lengths/model scale, no change to foot or pelvis orientation. Red primary ABS: one smoothly blurred diffuse red tint over intact abdominal SHIRT, no rays/fibers/sixpack pattern. No ball or bench. Fine detailed grayscale exposed arms/calves with realistic proportions and matching male/female quality. Full opaque BLACK athletic shirt and mid-thigh shorts wrap continuously FRONT SIDES BACK SEAT CROTCH, seams and broad folds. No anatomy visible through cloth, no cutaways. Black shoes. White background, soft contact shadows, all limbs/head/equipment fully inside EACH cell with generous margins, no overlap across cell boundary. No text/captions/labels/numbers/arrows.",
+          "inspectionNote": "Bent-knee sit-up with arms crossed and upright finish. Start head suspended on ponytail rather than skull grounded, clothing highlight patterned. Correction required. Qualified foot stability, cervical support, curl range and mapping pending.",
+          "canonicalName": "sit up",
+          "styleVersion": "white-v1",
+          "equipment": "body weight",
+          "primaryMuscles": [
+            "abs"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Bent-knee sit-up with arms crossed and upright finish. Start head suspended on ponytail rather than skull grounded, clothing highlight patterned. Correction required. Qualified foot stability, cervical support, curl range and mapping pending.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0736-female-anatomical-white-v1-p1-1d1cff214e2f.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 26788,
+              "sha256": "1d1cff214e2f12424a143c0529d00d22516f14a898cea41581d2250beb34ca1b"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0736-female-anatomical-white-v1-p2-2c99367dc404.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 30094,
+              "sha256": "2c99367dc4041d75cbcdce073e5390126fb3f535a738c4e434e53d2676c9bc81"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0736-female-anatomical-white-v1-thumb-b30933ff65d9.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 2462,
+            "sha256": "b30933ff65d9b2637c0b5b047c366d94a107b083451ae70e1a8642ce10183974"
+          },
+          "processingSignature": "9a7fb338c1fb57df9eb51446be7df6c8b4f164300db0d8363dea791c95d0c43a",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0736-female-anatomical-white-v1.png",
+            "width": 1774,
+            "height": 887,
+            "bytes": 1439470,
+            "sha256": "340e81c635c155e450f622d632793aaf8a9e926934e6234fdde297a47ef6f176"
+          }
+        }
+      ],
+      "blockingIssues": [
+        "Direct skull contact with mat remains uncertain because piled hair appears below/behind skull; correct cervical support before approval."
+      ]
+    }
+  ]
+}

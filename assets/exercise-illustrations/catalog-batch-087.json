@@ -1,0 +1,502 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "0602",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Sit with chest supported, holding overhand grips with arms reaching forward and elbows softly bent"
+        },
+        {
+          "key": "p2",
+          "caption": "Open arms outward to shoulder level while keeping the same gentle elbow bend"
+        }
+      ],
+      "detail": "LEVER SEATED REVERSE FLY, OVERHAND PRONATED GRIP. REAR three-quarter camera, adult sits facing machine with CHEST against front upright pad, feet flat floor, torso upright stationary. Both hands grip HORIZONTAL handles palms DOWN, thumbs securely wrapped, not vertical neutral grips. LEFT start both upper arms reach FORWARD around chest pad at shoulder level, elbows NEARLY STRAIGHT just15degrees flexion, hands FAR in FRONT of chest, no90degree bent elbows, no rowing. RIGHT spread upper arms OUTWARD/BACK in wide shoulder arcs to sides at shoulder level, SAME15degree elbow bend, shoulder blades retract. Stop upper arms in plane of torso, no excessive extension behind back. No torso rotation, shrug or elbow extension/flexion. Simple machine has two independent rigid levers SAME length rotating around two FIXED VERTICAL axes above/front respective shoulders; both handles always visibly connected to their own steel lever. Fixed frame, pad, seat, weight stack, base remain IDENTICAL across phases. Red exposed POSTERIOR DELTOIDS ONLY on both shoulder caps, back/traps/triceps/forearms grayscale. Entire black shirt/shorts BLACK with no red fabric. Full wide-open arms/handles and machine comfortably inside each panel.",
+      "variant": "male",
+      "key": "0602-male-anatomical-white-v2",
+      "prompt": "Correct LEFT START PANEL ONLY in this original project overhand reverse-fly illustration. Both arms must reach FORWARD toward the machine's chest pad with hands close together directly IN FRONT of chest pad, not spread out to sides. Keep both elbows nearly straight/soft15degrees. Rotate BOTH upper arms forward at shoulders, foreshorten arms as appropriate to rear-three-quarter view; hands should be approximately shoulder width apart in front, not at opposite panel edges. Both hands wrap HORIZONTAL handgrips with palms DOWN in overhand/pronated grip, thumbs opposing fingers; never vertical neutral grips. Move connected machine levers into forward/closed starting position to meet hands, retaining fixed pivots, identical lever lengths and continuous steel connections. RIGHT endpoint remains unchanged, arms open laterally at shoulder level. Same seated model, chest against pad, feet planted, torso still, red posterior deltoids only, detailed grayscale exposed anatomy, continuous opaque black shirt and shorts wrapping seat/crotch/front/sides/back. Whole machine and body within panels. No text.",
+      "inspectionNote": "Start correction moves both handles forward together, but bends elbows too much and changes lever geometry. Endpoint remains open. Original and correction retained with full opaque clothing and posterior deltoid highlights; reverse-fly technique and overhand grip remain blocked for correction.",
+      "canonicalName": "lever seated reverse fly",
+      "styleVersion": "white-v1",
+      "equipment": "leverage machine",
+      "primaryMuscles": [
+        "deltoids"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0602-male-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Start correction moves both handles forward together, but bends elbows too much and changes lever geometry. Endpoint remains open. Original and correction retained with full opaque clothing and posterior deltoid highlights; reverse-fly technique and overhand grip remain blocked for correction.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0602-male-anatomical-white-v2-p1-8fdb54114728.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 45562,
+          "sha256": "8fdb5411472801486d062ba904cccab299de4ad49454268cef6ef323f98f909a"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0602-male-anatomical-white-v2-p2-42257aab910c.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 50650,
+          "sha256": "42257aab910c1c667ed59dbcd74cef57a6074c48aa7b1b7698315ab30ecf2c5a"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0602-male-anatomical-white-v2-thumb-e9b5ac322bb8.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 5036,
+        "sha256": "e9b5ac322bb8745de677bd06f911eddb67f26f8540905f0b7094c5fbe48cbbd8"
+      },
+      "processingSignature": "92624513418caeb747d86d79d056302a069a6a2b2f932ea21dcffd9f9cd8c904",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0602-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1809267,
+        "sha256": "c321e75ef8e036d66009262055207a388e4c8f56e5955da301fd139cdb31b3a7"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0602",
+          "layout": {
+            "columns": 2,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Sit with chest supported, holding overhand grips with arms reaching forward and elbows softly bent"
+            },
+            {
+              "key": "p2",
+              "caption": "Open arms outward to shoulder level while keeping the same gentle elbow bend"
+            }
+          ],
+          "detail": "LEVER SEATED REVERSE FLY, OVERHAND PRONATED GRIP. REAR three-quarter camera, adult sits facing machine with CHEST against front upright pad, feet flat floor, torso upright stationary. Both hands grip HORIZONTAL handles palms DOWN, thumbs securely wrapped, not vertical neutral grips. LEFT start both upper arms reach FORWARD around chest pad at shoulder level, elbows NEARLY STRAIGHT just15degrees flexion, hands FAR in FRONT of chest, no90degree bent elbows, no rowing. RIGHT spread upper arms OUTWARD/BACK in wide shoulder arcs to sides at shoulder level, SAME15degree elbow bend, shoulder blades retract. Stop upper arms in plane of torso, no excessive extension behind back. No torso rotation, shrug or elbow extension/flexion. Simple machine has two independent rigid levers SAME length rotating around two FIXED VERTICAL axes above/front respective shoulders; both handles always visibly connected to their own steel lever. Fixed frame, pad, seat, weight stack, base remain IDENTICAL across phases. Red exposed POSTERIOR DELTOIDS ONLY on both shoulder caps, back/traps/triceps/forearms grayscale. Entire black shirt/shorts BLACK with no red fabric. Full wide-open arms/handles and machine comfortably inside each panel.",
+          "variant": "male",
+          "key": "0602-male-anatomical-white-v1",
+          "prompt": "Original educational exercise illustration. Attached original project image is STYLE reference ONLY, never pose reference. Detailed fine grayscale anatomical fibers on exposed limbs, realistic neutral adult MALE; pure white background. TWO equal side-by-side panels with identical model, dimensions, camera and lighting. FULLY OPAQUE matte BLACK sleeveless shirt continuously wraps torso front/sides/back. Loose BLACK knee-length shorts wrap BOTH upper thighs, seat and crotch fully front/sides/rear, closed hems and seams, broad natural fabric folds. NO bare buttocks, translucent cloth, cutaways, anatomy windows or muscle-fiber patterns on garments. Black trainers. Red PRIMARY muscle highlights only as specified; over clothing use a SOFT DIFFUSE COLOR PATCH on intact BLACK FABRIC without anatomical subdivisions. Whole person, fingers/shoes and ENTIRE machine including frame, lever, pivots, weight stack and base within EACH panel with generous white margins. Same EXACT fixed frame/seat/pad/camera/pivots in both phases; only exercise joints and connected moving lever rotate. No text, arrows, captions, logos or numbers. LEVER SEATED REVERSE FLY, OVERHAND PRONATED GRIP. REAR three-quarter camera, adult sits facing machine with CHEST against front upright pad, feet flat floor, torso upright stationary. Both hands grip HORIZONTAL handles palms DOWN, thumbs securely wrapped, not vertical neutral grips. LEFT start both upper arms reach FORWARD around chest pad at shoulder level, elbows NEARLY STRAIGHT just15degrees flexion, hands FAR in FRONT of chest, no90degree bent elbows, no rowing. RIGHT spread upper arms OUTWARD/BACK in wide shoulder arcs to sides at shoulder level, SAME15degree elbow bend, shoulder blades retract. Stop upper arms in plane of torso, no excessive extension behind back. No torso rotation, shrug or elbow extension/flexion. Simple machine has two independent rigid levers SAME length rotating around two FIXED VERTICAL axes above/front respective shoulders; both handles always visibly connected to their own steel lever. Fixed frame, pad, seat, weight stack, base remain IDENTICAL across phases. Red exposed POSTERIOR DELTOIDS ONLY on both shoulder caps, back/traps/triceps/forearms grayscale. Entire black shirt/shorts BLACK with no red fabric. Full wide-open arms/handles and machine comfortably inside each panel.",
+          "inspectionNote": "Chest-supported reverse fly with softly extended elbows, red posterior deltoids and opaque black garments. Near-side arm/handle appears almost unchanged between phases while far arm opens, and grip orientation is hard to verify. Requires bilateral arc and pronated-grip correction/review.",
+          "blockingIssues": [
+            "Near-side arm and lever show little phase change; verify both arms sweep from forward to open and canonical overhand grip."
+          ],
+          "canonicalName": "lever seated reverse fly",
+          "styleVersion": "white-v1",
+          "equipment": "leverage machine",
+          "primaryMuscles": [
+            "deltoids"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Chest-supported reverse fly with softly extended elbows, red posterior deltoids and opaque black garments. Near-side arm/handle appears almost unchanged between phases while far arm opens, and grip orientation is hard to verify. Requires bilateral arc and pronated-grip correction/review.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0602-male-anatomical-white-v1-p1-5ab85ae0f0b2.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 48898,
+              "sha256": "5ab85ae0f0b2c2499d41e4854ec05c1070d035f0b155142dc331ce4b3796bbad"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0602-male-anatomical-white-v1-p2-a376fbf69272.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 54680,
+              "sha256": "a376fbf69272d0b60abeaa9e03a4636f0000011d86874ba7af664f4c9f087439"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0602-male-anatomical-white-v1-thumb-a53938ada107.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 5218,
+            "sha256": "a53938ada1071218c4012b50515a8b8826d29ea9809db04d0f11b673366718b2"
+          },
+          "processingSignature": "0d9a8bd31dcb86338b7fe962a8245200112ed156f3e1b19ad489c9bd30986fce",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0602-male-anatomical-white-v1.png",
+            "width": 1774,
+            "height": 887,
+            "bytes": 1820020,
+            "sha256": "845e11c8d9e9dc61d0b6f91a944387639e7840200419effd3dc5e2d507a258ac"
+          }
+        }
+      ],
+      "blockingIssues": [
+        "Start correction bends elbows substantially; require constant soft elbow angle, verified overhand grip and fixed lever geometry."
+      ]
+    },
+    {
+      "exerciseId": "0602",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Sit with chest supported, holding overhand grips with arms reaching forward and elbows softly bent"
+        },
+        {
+          "key": "p2",
+          "caption": "Open arms outward to shoulder level while keeping the same gentle elbow bend"
+        }
+      ],
+      "detail": "LEVER SEATED REVERSE FLY, OVERHAND PRONATED GRIP. REAR three-quarter camera, adult sits facing machine with CHEST against front upright pad, feet flat floor, torso upright stationary. Both hands grip HORIZONTAL handles palms DOWN, thumbs securely wrapped, not vertical neutral grips. LEFT start both upper arms reach FORWARD around chest pad at shoulder level, elbows NEARLY STRAIGHT just15degrees flexion, hands FAR in FRONT of chest, no90degree bent elbows, no rowing. RIGHT spread upper arms OUTWARD/BACK in wide shoulder arcs to sides at shoulder level, SAME15degree elbow bend, shoulder blades retract. Stop upper arms in plane of torso, no excessive extension behind back. No torso rotation, shrug or elbow extension/flexion. Simple machine has two independent rigid levers SAME length rotating around two FIXED VERTICAL axes above/front respective shoulders; both handles always visibly connected to their own steel lever. Fixed frame, pad, seat, weight stack, base remain IDENTICAL across phases. Red exposed POSTERIOR DELTOIDS ONLY on both shoulder caps, back/traps/triceps/forearms grayscale. Entire black shirt/shorts BLACK with no red fabric. Full wide-open arms/handles and machine comfortably inside each panel.",
+      "variant": "female",
+      "key": "0602-female-anatomical-white-v2",
+      "prompt": "Correct LEFT START PANEL ONLY in this original project overhand reverse-fly illustration. Both arms must reach FORWARD toward the machine's chest pad with hands close together directly IN FRONT of chest pad, not spread out to sides. Keep both elbows nearly straight/soft15degrees. Rotate BOTH upper arms forward at shoulders, foreshorten arms as appropriate to rear-three-quarter view; hands should be approximately shoulder width apart in front, not at opposite panel edges. Both hands wrap HORIZONTAL handgrips with palms DOWN in overhand/pronated grip, thumbs opposing fingers; never vertical neutral grips. Move connected machine levers into forward/closed starting position to meet hands, retaining fixed pivots, identical lever lengths and continuous steel connections. RIGHT endpoint remains unchanged, arms open laterally at shoulder level. Same seated model, chest against pad, feet planted, torso still, red posterior deltoids only, detailed grayscale exposed anatomy, continuous opaque black shirt and shorts wrapping seat/crotch/front/sides/back. Whole machine and body within panels. No text.",
+      "inspectionNote": "Correction moves both start handles forward with overhand grips, but elbows bend more than endpoint and fixed machine geometry shifts. Opaque clothing, chest support and posterior deltoid highlights retained. Original and correction retained; elbow-angle and mechanical continuity remain blocked.",
+      "canonicalName": "lever seated reverse fly",
+      "styleVersion": "white-v1",
+      "equipment": "leverage machine",
+      "primaryMuscles": [
+        "deltoids"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0602-female-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Correction moves both start handles forward with overhand grips, but elbows bend more than endpoint and fixed machine geometry shifts. Opaque clothing, chest support and posterior deltoid highlights retained. Original and correction retained; elbow-angle and mechanical continuity remain blocked.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0602-female-anatomical-white-v2-p1-a73929ac8103.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 39798,
+          "sha256": "a73929ac81031787b78be7987ae60632c362261b76b3369731b8c5da674f4659"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0602-female-anatomical-white-v2-p2-48e74ea2c082.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 48064,
+          "sha256": "48e74ea2c082c48f8caf948ccfd46eed6805090e62da693fdcd3041aed8658c2"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0602-female-anatomical-white-v2-thumb-3fae5f38f8c9.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 4684,
+        "sha256": "3fae5f38f8c92858261e633dc46352441b7201010506cd539b8ac93b8945551b"
+      },
+      "processingSignature": "01bd76b315fa056ca896f8d0783c038e92e3b0921d9e06ebb3cc0fab3eb344a9",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0602-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1721385,
+        "sha256": "067f9fb91e3667eaeeece244069ea49664900c8045aebfac2fb7e466be547f06"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0602",
+          "layout": {
+            "columns": 2,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Sit with chest supported, holding overhand grips with arms reaching forward and elbows softly bent"
+            },
+            {
+              "key": "p2",
+              "caption": "Open arms outward to shoulder level while keeping the same gentle elbow bend"
+            }
+          ],
+          "detail": "LEVER SEATED REVERSE FLY, OVERHAND PRONATED GRIP. REAR three-quarter camera, adult sits facing machine with CHEST against front upright pad, feet flat floor, torso upright stationary. Both hands grip HORIZONTAL handles palms DOWN, thumbs securely wrapped, not vertical neutral grips. LEFT start both upper arms reach FORWARD around chest pad at shoulder level, elbows NEARLY STRAIGHT just15degrees flexion, hands FAR in FRONT of chest, no90degree bent elbows, no rowing. RIGHT spread upper arms OUTWARD/BACK in wide shoulder arcs to sides at shoulder level, SAME15degree elbow bend, shoulder blades retract. Stop upper arms in plane of torso, no excessive extension behind back. No torso rotation, shrug or elbow extension/flexion. Simple machine has two independent rigid levers SAME length rotating around two FIXED VERTICAL axes above/front respective shoulders; both handles always visibly connected to their own steel lever. Fixed frame, pad, seat, weight stack, base remain IDENTICAL across phases. Red exposed POSTERIOR DELTOIDS ONLY on both shoulder caps, back/traps/triceps/forearms grayscale. Entire black shirt/shorts BLACK with no red fabric. Full wide-open arms/handles and machine comfortably inside each panel.",
+          "variant": "female",
+          "key": "0602-female-anatomical-white-v1",
+          "prompt": "Original educational exercise illustration. Attached original project image is STYLE reference ONLY, never pose reference. Detailed fine grayscale anatomical fibers on exposed limbs, realistic neutral adult FEMALE; pure white background. TWO equal side-by-side panels with identical model, dimensions, camera and lighting. FULLY OPAQUE matte BLACK sleeveless shirt continuously wraps torso front/sides/back. Loose BLACK knee-length shorts wrap BOTH upper thighs, seat and crotch fully front/sides/rear, closed hems and seams, broad natural fabric folds. NO bare buttocks, translucent cloth, cutaways, anatomy windows or muscle-fiber patterns on garments. Black trainers. Red PRIMARY muscle highlights only as specified; over clothing use a SOFT DIFFUSE COLOR PATCH on intact BLACK FABRIC without anatomical subdivisions. Whole person, fingers/shoes and ENTIRE machine including frame, lever, pivots, weight stack and base within EACH panel with generous white margins. Same EXACT fixed frame/seat/pad/camera/pivots in both phases; only exercise joints and connected moving lever rotate. No text, arrows, captions, logos or numbers. LEVER SEATED REVERSE FLY, OVERHAND PRONATED GRIP. REAR three-quarter camera, adult sits facing machine with CHEST against front upright pad, feet flat floor, torso upright stationary. Both hands grip HORIZONTAL handles palms DOWN, thumbs securely wrapped, not vertical neutral grips. LEFT start both upper arms reach FORWARD around chest pad at shoulder level, elbows NEARLY STRAIGHT just15degrees flexion, hands FAR in FRONT of chest, no90degree bent elbows, no rowing. RIGHT spread upper arms OUTWARD/BACK in wide shoulder arcs to sides at shoulder level, SAME15degree elbow bend, shoulder blades retract. Stop upper arms in plane of torso, no excessive extension behind back. No torso rotation, shrug or elbow extension/flexion. Simple machine has two independent rigid levers SAME length rotating around two FIXED VERTICAL axes above/front respective shoulders; both handles always visibly connected to their own steel lever. Fixed frame, pad, seat, weight stack, base remain IDENTICAL across phases. Red exposed POSTERIOR DELTOIDS ONLY on both shoulder caps, back/traps/triceps/forearms grayscale. Entire black shirt/shorts BLACK with no red fabric. Full wide-open arms/handles and machine comfortably inside each panel.",
+          "inspectionNote": "Reverse fly candidate has overhand horizontal grips, chest support and red posterior deltoids with full opaque black clothing. Both phases show open arms rather than a forward-reaching start, and machine lever structure changes. Requires start-pose and equipment continuity correction.",
+          "blockingIssues": [
+            "Both poses show arms open; missing forward-reaching start and machine lever structure changes."
+          ],
+          "canonicalName": "lever seated reverse fly",
+          "styleVersion": "white-v1",
+          "equipment": "leverage machine",
+          "primaryMuscles": [
+            "deltoids"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Reverse fly candidate has overhand horizontal grips, chest support and red posterior deltoids with full opaque black clothing. Both phases show open arms rather than a forward-reaching start, and machine lever structure changes. Requires start-pose and equipment continuity correction.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0602-female-anatomical-white-v1-p1-a3a45baa6063.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 49686,
+              "sha256": "a3a45baa6063243fce9109251e804b4f957e6d774f93475a40127bfaf27849cf"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0602-female-anatomical-white-v1-p2-a35f645aa755.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 54074,
+              "sha256": "a35f645aa755ecb189701f8226dcfcecbd6014a18ea2c48f1ba00e63fa9c6ad7"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0602-female-anatomical-white-v1-thumb-d00f119a1de0.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 5266,
+            "sha256": "d00f119a1de0fc24db8b2cc2a1e258723c14f44ea9c9135c926d8282d594879e"
+          },
+          "processingSignature": "5305c09dde98e2b86529a4f397fe678e9ca924d074b1d1fa876aaa652bfc1c3f",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0602-female-anatomical-white-v1.png",
+            "width": 1774,
+            "height": 887,
+            "bytes": 1840603,
+            "sha256": "9fd667dea867d2a9f6160218c222fd70f74ddc2a32eb823bf8b955131b8907c0"
+          }
+        }
+      ],
+      "blockingIssues": [
+        "Start elbow flexion differs from endpoint and fixed machine geometry changes across phases."
+      ]
+    },
+    {
+      "exerciseId": "0604",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Sit supported with straight arms and overhand side handles, shoulders relaxed"
+        },
+        {
+          "key": "p2",
+          "caption": "Raise both shoulders toward ears while keeping elbows straight and head still"
+        }
+      ],
+      "detail": "LEVER SHRUG performed SEATED exactly as canonical instructions. FRONT three-quarter view; back/pelvis supported against upright backrest, feet flat floor. Hands hold two HORIZONTAL side handles just outside hips with OVERHAND PRONATED grip, thumbs around bars; arms hang STRAIGHT and stay straight through both phases, elbows never curl. Handles connected to two simple rigid load levers with fixed pivots on frame and weight-stack resistance. LEFT shoulders relaxed/depressed away from ears, neck long, head neutral. RIGHT elevate BOTH shoulders STRAIGHT UP toward ears, visibly shortened ear-to-shoulder distance, head stays SAME height/neutral, no neck tilt, no shoulder rolling, no elbow bending, no torso rise/lean. Arms move upward because shoulders rise; handles and connected levers rise a SMALL distance with shoulders, same lever lengths and fixed pivots, stack lifts slightly. Same seat/backrest/feet/body/frame between poses. Primary UPPER TRAPEZIUS ONLY exposed RED on neck-to-shoulder slope BOTH sides. Shirt collar narrow enough to show upper traps but shirt fully covers torso front/sides/back, no exposed chest/abs, black garments intact. Deltoids/arms/forearms grayscale. Whole machine/handles/shoes within margins.",
+      "variant": "male",
+      "key": "0604-male-anatomical-white-v1",
+      "prompt": "Original educational exercise illustration. Attached original project image is STYLE reference ONLY, never pose reference. Detailed fine grayscale anatomical fibers on exposed limbs, realistic neutral adult MALE; pure white background. TWO equal side-by-side panels with identical model, dimensions, camera and lighting. FULLY OPAQUE matte BLACK sleeveless shirt continuously wraps torso front/sides/back. Loose BLACK knee-length shorts wrap BOTH upper thighs, seat and crotch fully front/sides/rear, closed hems and seams, broad natural fabric folds. NO bare buttocks, translucent cloth, cutaways, anatomy windows or muscle-fiber patterns on garments. Black trainers. Red PRIMARY muscle highlights only as specified; over clothing use a SOFT DIFFUSE COLOR PATCH on intact BLACK FABRIC without anatomical subdivisions. Whole person, fingers/shoes and ENTIRE machine including frame, lever, pivots, weight stack and base within EACH panel with generous white margins. Same EXACT fixed frame/seat/pad/camera/pivots in both phases; only exercise joints and connected moving lever rotate. No text, arrows, captions, logos or numbers. LEVER SHRUG performed SEATED exactly as canonical instructions. FRONT three-quarter view; back/pelvis supported against upright backrest, feet flat floor. Hands hold two HORIZONTAL side handles just outside hips with OVERHAND PRONATED grip, thumbs around bars; arms hang STRAIGHT and stay straight through both phases, elbows never curl. Handles connected to two simple rigid load levers with fixed pivots on frame and weight-stack resistance. LEFT shoulders relaxed/depressed away from ears, neck long, head neutral. RIGHT elevate BOTH shoulders STRAIGHT UP toward ears, visibly shortened ear-to-shoulder distance, head stays SAME height/neutral, no neck tilt, no shoulder rolling, no elbow bending, no torso rise/lean. Arms move upward because shoulders rise; handles and connected levers rise a SMALL distance with shoulders, same lever lengths and fixed pivots, stack lifts slightly. Same seat/backrest/feet/body/frame between poses. Primary UPPER TRAPEZIUS ONLY exposed RED on neck-to-shoulder slope BOTH sides. Shirt collar narrow enough to show upper traps but shirt fully covers torso front/sides/back, no exposed chest/abs, black garments intact. Deltoids/arms/forearms grayscale. Whole machine/handles/shoes within margins.",
+      "inspectionNote": "Seated lever shrug with back support, planted feet, straight arms and visible shoulder elevation toward ears while head remains level. Red upper traps, exposed grayscale limbs and fully opaque black garments. Far hand is partly obscured; overhand grip, small lever travel and fixed geometry need qualified human review. No anatomical approval.",
+      "canonicalName": "lever shrug",
+      "styleVersion": "white-v1",
+      "equipment": "leverage machine",
+      "primaryMuscles": [
+        "traps"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Seated lever shrug with back support, planted feet, straight arms and visible shoulder elevation toward ears while head remains level. Red upper traps, exposed grayscale limbs and fully opaque black garments. Far hand is partly obscured; overhand grip, small lever travel and fixed geometry need qualified human review. No anatomical approval.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0604-male-anatomical-white-v1-p1-f856bedf4274.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 51100,
+          "sha256": "f856bedf427474e90195966294d9ecb650b74b5689b921bd3225c49b8a53b1a0"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0604-male-anatomical-white-v1-p2-6077c292a3c2.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 51232,
+          "sha256": "6077c292a3c233ccdf79fbf6154c32c8a63aeb102100fe69528b53adf069e0fe"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0604-male-anatomical-white-v1-thumb-4636373449e3.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 4990,
+        "sha256": "4636373449e3aa5825e37eef73523ec98da69949fc78dfced03dc836981e7e14"
+      },
+      "processingSignature": "ff5ded640d2a6ca5858a4fcd0287435772992ee28708cda468247186d3b7c0db",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0604-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1822829,
+        "sha256": "afdc21a98ccbc8fbdbf716b15699e971afcaceea12364c0c5132b6fee2565abc"
+      }
+    },
+    {
+      "exerciseId": "0604",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Sit supported with straight arms and overhand side handles, shoulders relaxed"
+        },
+        {
+          "key": "p2",
+          "caption": "Raise both shoulders toward ears while keeping elbows straight and head still"
+        }
+      ],
+      "detail": "LEVER SHRUG performed SEATED exactly as canonical instructions. FRONT three-quarter view; back/pelvis supported against upright backrest, feet flat floor. Hands hold two HORIZONTAL side handles just outside hips with OVERHAND PRONATED grip, thumbs around bars; arms hang STRAIGHT and stay straight through both phases, elbows never curl. Handles connected to two simple rigid load levers with fixed pivots on frame and weight-stack resistance. LEFT shoulders relaxed/depressed away from ears, neck long, head neutral. RIGHT elevate BOTH shoulders STRAIGHT UP toward ears, visibly shortened ear-to-shoulder distance, head stays SAME height/neutral, no neck tilt, no shoulder rolling, no elbow bending, no torso rise/lean. Arms move upward because shoulders rise; handles and connected levers rise a SMALL distance with shoulders, same lever lengths and fixed pivots, stack lifts slightly. Same seat/backrest/feet/body/frame between poses. Primary UPPER TRAPEZIUS ONLY exposed RED on neck-to-shoulder slope BOTH sides. Shirt collar narrow enough to show upper traps but shirt fully covers torso front/sides/back, no exposed chest/abs, black garments intact. Deltoids/arms/forearms grayscale. Whole machine/handles/shoes within margins.",
+      "variant": "female",
+      "key": "0604-female-anatomical-white-v1",
+      "prompt": "Original educational exercise illustration. Attached original project image is STYLE reference ONLY, never pose reference. Detailed fine grayscale anatomical fibers on exposed limbs, realistic neutral adult FEMALE; pure white background. TWO equal side-by-side panels with identical model, dimensions, camera and lighting. FULLY OPAQUE matte BLACK sleeveless shirt continuously wraps torso front/sides/back. Loose BLACK knee-length shorts wrap BOTH upper thighs, seat and crotch fully front/sides/rear, closed hems and seams, broad natural fabric folds. NO bare buttocks, translucent cloth, cutaways, anatomy windows or muscle-fiber patterns on garments. Black trainers. Red PRIMARY muscle highlights only as specified; over clothing use a SOFT DIFFUSE COLOR PATCH on intact BLACK FABRIC without anatomical subdivisions. Whole person, fingers/shoes and ENTIRE machine including frame, lever, pivots, weight stack and base within EACH panel with generous white margins. Same EXACT fixed frame/seat/pad/camera/pivots in both phases; only exercise joints and connected moving lever rotate. No text, arrows, captions, logos or numbers. LEVER SHRUG performed SEATED exactly as canonical instructions. FRONT three-quarter view; back/pelvis supported against upright backrest, feet flat floor. Hands hold two HORIZONTAL side handles just outside hips with OVERHAND PRONATED grip, thumbs around bars; arms hang STRAIGHT and stay straight through both phases, elbows never curl. Handles connected to two simple rigid load levers with fixed pivots on frame and weight-stack resistance. LEFT shoulders relaxed/depressed away from ears, neck long, head neutral. RIGHT elevate BOTH shoulders STRAIGHT UP toward ears, visibly shortened ear-to-shoulder distance, head stays SAME height/neutral, no neck tilt, no shoulder rolling, no elbow bending, no torso rise/lean. Arms move upward because shoulders rise; handles and connected levers rise a SMALL distance with shoulders, same lever lengths and fixed pivots, stack lifts slightly. Same seat/backrest/feet/body/frame between poses. Primary UPPER TRAPEZIUS ONLY exposed RED on neck-to-shoulder slope BOTH sides. Shirt collar narrow enough to show upper traps but shirt fully covers torso front/sides/back, no exposed chest/abs, black garments intact. Deltoids/arms/forearms grayscale. Whole machine/handles/shoes within margins.",
+      "inspectionNote": "Seated lever shrug with back support, planted feet and straight elbows. Shoulders visibly elevate toward ears while head remains level; handles rise with shoulders. Red upper traps and opaque black shirt/shorts. Far-hand grip is partially obscured; lever geometry and grip security remain qualified human review items. No anatomy approval.",
+      "canonicalName": "lever shrug",
+      "styleVersion": "white-v1",
+      "equipment": "leverage machine",
+      "primaryMuscles": [
+        "traps"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Seated lever shrug with back support, planted feet and straight elbows. Shoulders visibly elevate toward ears while head remains level; handles rise with shoulders. Red upper traps and opaque black shirt/shorts. Far-hand grip is partially obscured; lever geometry and grip security remain qualified human review items. No anatomy approval.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0604-female-anatomical-white-v1-p1-69dacd670a2b.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 46518,
+          "sha256": "69dacd670a2ba57c6988e4fb4f1fb4a42d60e6ae6aed7811067fe12f6b8ce9f3"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0604-female-anatomical-white-v1-p2-3c50d1b32ce6.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 46294,
+          "sha256": "3c50d1b32ce6be113bcbe4fcd8d1a5f14aba1dda3ab499d8f4568bd67f182835"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0604-female-anatomical-white-v1-thumb-f3aa745188ea.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 4950,
+        "sha256": "f3aa745188ea38d5c669faa16173c92f45d2cf900cbf0a31db9bbe0da8954443"
+      },
+      "processingSignature": "fe6e9fe64e0fb9a70fa146512a750dfc4a3f40d7bc37136dcd56cce832356541",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0604-female-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1779935,
+        "sha256": "b5902bcbb97f4559506b2ce9b90f6c78d3f0c2be17f61b7469676b802ef609df"
+      }
+    }
+  ]
+}

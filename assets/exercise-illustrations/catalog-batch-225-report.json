@@ -1,0 +1,61 @@
+{
+  "batch": 225,
+  "runId": "5e87efb2-4862-48d7-a588-814ba1619819",
+  "trigger": "2026-11-03T15:58:31.158Z",
+  "completedAt": "2026-11-03T16:05:07.196165+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 4,
+  "calls": 4,
+  "exerciseIds": [
+    "1686",
+    "1687",
+    "1688",
+    "1693"
+  ],
+  "variants": [
+    "male"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 779,
+    "remainingVariants": 10485,
+    "approvedVariants": 0,
+    "blockedVariants": 248,
+    "knownPoseImages": 1539,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 406,
+      "remainingVariants": 5226,
+      "blockedVariants": 129
+    }
+  },
+  "reviewNotes": {
+    "1686": "Squat and two overhead reaches with opposite head/shoulder directions; exposed anterior quads red. Qualified review needed for actual torso rotation versus neck-only turning, knee tracking, shoulder/hand anatomy and tight top margins.",
+    "1687": "Posterior step overhead reach with diffuse abdominal cloth tint. BLOCKED: both lunge cells duplicate the same leading leg instead of alternating.",
+    "1688": "Lunge twist with alternating forward legs and abdominal tint. BLOCKED: elbows approach same-side knees rather than the canonical opposite elbow-to-knee rotation; abdominal lobes also visible in tank rendering require correction.",
+    "1693": "Single-leg medicine-ball deadlift: ball at chest to low hinge, same working leg planted and free leg extended behind, red exposed working hamstrings. Qualified review needed for pelvis level, knee softness, spine/neck alignment, ball grip and balance."
+  },
+  "deferred": [
+    {
+      "exerciseId": "1689",
+      "reason": "Push/pull own-resistance description conflicts with repeated push-up lowering instructions without a pull movement."
+    }
+  ],
+  "tests": 7,
+  "genCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "publicationIndexUnchanged": true,
+  "savedMasters": [
+    "assets/exercise-illustrations/generated/1686-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/1687-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/1688-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/1693-male-anatomical-white-v1.png"
+  ]
+}

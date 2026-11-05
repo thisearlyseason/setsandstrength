@@ -1,0 +1,90 @@
+{
+  "batch": 108,
+  "trigger": "2026-11-02T19:33:51.836Z",
+  "completedAt": "2026-11-02T19:43:46.661252+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 4,
+  "generationCalls": 8,
+  "exerciseIds": [
+    "0681",
+    "0687"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 442,
+    "remainingVariants": 10822,
+    "approvedVariants": 0,
+    "blockedVariants": 185,
+    "knownPoseImages": 922,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Four candidate sets, fourteen pose images, eight built-in calls and four retained corrections. Kneeling push-up/rotation shows lower, press-up, front-open and rear-open knee-supported phases; qualified shoulder/hip alignment and opposite support-arm continuity review pending. Russian twists both blocked: male hands remain on same image side in both twist phases after correction; female last panel reverses pelvis/leg orientation, fixed pelvis not established. All four cloth edits remove radial/fiber or sixpack pattern to diffuse smooth red on intact opaque black shirt. Detailed exposed grayscale anatomy retained and full opaque garments wrap front/sides/back/seat/crotch. Exact prompts, originals and correction history preserved. No anatomy approval or publication. Original project artwork is style only, no upstream media. Pipeline checks do not approve anatomy.",
+  "metadataConflictsDeferred": {
+    "0683": "Cardiovascular target without primary muscle mapping: red highlight policy requires clarification.",
+    "0684": "Run equipment name vs bodyweight jogging-in-place instructions, cardiovascular target without primary muscle mapping.",
+    "0685": "Cardiovascular target without primary muscle mapping: red highlight policy requires clarification.",
+    "0686": "Description emphasizes obliques but target abs; primary highlight mapping requires clarification before generating."
+  },
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 727457405,
+  "savedMasters": [
+    {
+      "exerciseId": "0681",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0681-male-anatomical-white-v2.png",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 1688423,
+        "sha256": "a316df6128a274772a451c422b59dc6cf411953edd6f5195e6c1b294ccb09ddc"
+      }
+    },
+    {
+      "exerciseId": "0681",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0681-female-anatomical-white-v2.png",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 1727529,
+        "sha256": "ec2d6a959756c7237cdccb71480dbdc9e8354be65be09c1ca4571fa527bdc3a8"
+      }
+    },
+    {
+      "exerciseId": "0687",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0687-male-anatomical-white-v2.png",
+        "width": 2172,
+        "height": 724,
+        "bytes": 1766891,
+        "sha256": "649ac3beeb3d2cdc8f49d581004de35118a786a2c1fdcc9db3530dea651825f1"
+      }
+    },
+    {
+      "exerciseId": "0687",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0687-female-anatomical-white-v2.png",
+        "width": 2172,
+        "height": 724,
+        "bytes": 1513495,
+        "sha256": "13f5bcbf462354ce92e2c68117cb03745d9dce3ca87d7056d74c5ea93c0e6a1b"
+      }
+    }
+  ]
+}

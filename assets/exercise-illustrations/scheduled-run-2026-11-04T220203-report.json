@@ -1,0 +1,69 @@
+{
+  "runId": "a6a79ea7-e4d1-4e1d-8832-20798087bd11",
+  "triggerTimestamp": "2026-11-04T22:02:03.668Z",
+  "builtInImageGenAvailable": true,
+  "batches": [
+    429,
+    430,
+    431,
+    432
+  ],
+  "generatedMasters": 16,
+  "generatedIds": [
+    "3972",
+    "3973",
+    "3989",
+    "3990",
+    "3960",
+    "3996",
+    "3971",
+    "3980",
+    "3963",
+    "4010",
+    "4014",
+    "3912",
+    "4015",
+    "4024",
+    "4026",
+    "4054"
+  ],
+  "blocked": {
+    "3980": [
+      "Raised-pose outer right dumbbell clipped at image boundary."
+    ],
+    "3912": [
+      "Arm raises forward instead of laterally out to side for rear delt."
+    ]
+  },
+  "coverageAfter": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1528,
+    "remainingVariants": 9736,
+    "approvedVariants": 0,
+    "blockedVariants": 577,
+    "knownPoseImages": 3067,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 1155,
+      "remainingVariants": 4477,
+      "blockedVariants": 458
+    }
+  },
+  "pipelineTests": "8 passed, 0 failed after each batch",
+  "approvedIndexUnchanged": true,
+  "existingUserApprovalsPreserved": 1306,
+  "publication": "none",
+  "anatomyReview": "pending",
+  "stopReason": "Reached authorized16-master run target in4 successive batches with no idle waits.",
+  "styleReference": "assets/exercise-illustrations/generated/0853-male-anatomical-white-v1.png",
+  "nextRunGuidance": "Continue exposed-target canonical exercises and0853 original reference. Clothing held throughout this run. Two isolated blockers retained:3980 clipping and3912 forward instead of lateral raise. Static holds one pose, dynamic correctly planned. Do not auto-publish or auto-approve.",
+  "deferred": {
+    "3967/3968": "Around-the-world descriptions say hips to overhead while instructions start over chest and lower to hips; clarify intended arc before guessing.",
+    "3986": "Wrist rotation direction not specified; defer."
+  }
+}

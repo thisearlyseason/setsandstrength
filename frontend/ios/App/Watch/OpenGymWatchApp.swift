@@ -313,7 +313,7 @@ struct IdleView: View {
                 Text(fresh ? LocalizedStringKey("Not synced yet") : LocalizedStringKey("No workout running"))
                     .font(.headline)
                     .multilineTextAlignment(.center)
-                Text(fresh ? LocalizedStringKey("Open openGym on your iPhone once and your routines show up here.")
+                Text(fresh ? LocalizedStringKey("Open sets&strength on your iPhone once and your routines show up here.")
                      : LocalizedStringKey("Start one on your iPhone and it shows up here."))
                     .font(.footnote)
                     .foregroundStyle(.secondary)

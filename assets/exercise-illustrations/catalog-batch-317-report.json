@@ -1,0 +1,78 @@
+{
+  "batch": 317,
+  "runId": "3f7707ce-7def-4181-b7ee-7388b4281603",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "trigger": "2026-11-04T07:34:58.431Z",
+  "purpose": "batch317 scheduled male continuation",
+  "started": "2026-11-04T07:35:12.243053+00:00",
+  "completedAt": "2026-11-04T07:40:24.672431+00:00",
+  "actualToolName": "image_gen__imagegen",
+  "calls": 4,
+  "newCandidateSets": 4,
+  "exerciseIds": [
+    "2957",
+    "2962",
+    "2964",
+    "2968"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1135,
+    "remainingVariants": 10129,
+    "approvedVariants": 0,
+    "blockedVariants": 402,
+    "knownPoseImages": 2203,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 762,
+      "remainingVariants": 4870,
+      "blockedVariants": 283
+    }
+  },
+  "reviewNotes": {
+    "2957": "Two split-squat phases and front-foot platform present, dumbbells at sides. Quad overlay displays fibers and segmented anatomy through front shorts; correction required before approval. Human technique review pending.",
+    "2962": "Supported seated neutral-grip lever press shown at shoulders and overhead, feet planted, deltoid highlights and opaque clothing. Qualified review of pivot linkage, wrist alignment and press range required; no automatic approval.",
+    "2964": "Floor bridge with bar on hips, both hands on bar, feet planted and pelvis lifted to near shoulder-knee alignment; opaque cloth with plain glute wash. Head/neck floats above floor in both poses and needs correction.",
+    "2968": "Three phases show front rack, squat and overhead press with two normal dumbbells and planted feet. Squat panel shows anatomical quad fibers/segments through shorts; clothing correction required. Human movement review pending."
+  },
+  "blockingIssues": {
+    "2957": [
+      "Replace detailed quadriceps fibers through shorts with a plain uniform wash on intact opaque fabric."
+    ],
+    "2964": [
+      "Rest head and neck comfortably on floor throughout rather than unsupported hovering."
+    ],
+    "2968": [
+      "Remove quad fibers/segments from shorts in squat panel; preserve opaque fabric and use plain uniform red teaching wash only."
+    ]
+  },
+  "deferred": {
+    "2963": "Captain chair record says sit while leg-raise support is unclear; clarify support before generation."
+  },
+  "tests": 7,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "workerSyncResult": {
+    "statuses": {
+      "generated": 1135,
+      "pending": 10129
+    },
+    "remaining": 10129,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 1738903341
+  },
+  "publicationIndexUnchanged": true
+}

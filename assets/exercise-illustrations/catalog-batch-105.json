@@ -1,0 +1,608 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "0669",
+      "variant": "male",
+      "key": "0669-male-anatomical-white-v2",
+      "layout": {
+        "columns": 1,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Extend the right arm across the chest and gently draw the right elbow toward the left shoulder; hold, then switch sides"
+        }
+      ],
+      "detail": "REAR DELTOID CROSS-BODY SHOULDER STRETCH, STATIC ONE POSE. Full-body standing slight REAR/RIGHT three-quarter view to see EXPOSED RIGHT posterior shoulder and both hands across chest. Stand tall feet shoulder width, knees soft neutral. RIGHT ARM extends horizontally ACROSS FRONT CHEST toward LEFT shoulder, right elbow nearly straight, right wrist/hand relaxed beyond left shoulder. LEFT hand gently holds RIGHT ELBOW, drawing right arm toward left shoulder; left elbow bent lower than right elbow. Exactly TWO arms/TWO natural five-finger hands with clear continuous limb paths, no crossed-arm knot/extra elbow. Right shoulder stays down, no shrug, upright torso. Primary RIGHT REAR DELTOID only red anatomical fibers on EXPOSED posterior right shoulder cap (NOT triceps, back or chest). Other exposed muscles fine grayscale anatomy. Entire shirt/shorts full opaque front/sides/back/seat/crotch no cutaways, no red on clothes. Entire shoes/fingers/head fit white margin. One static pose, switch sides later outside image, no text.",
+      "prompt": "Correct original project standing REAR DELTOID STRETCH to make arm clearly CROSS BODY. Change camera to FRONT three-quarter view, whole body and shoes. RIGHT shoulder now viewer IMAGE LEFT, RIGHT arm extends horizontally ACROSS STERNUM/CHEST toward LEFT shoulder on IMAGE RIGHT, not pointing forward away from chest. RIGHT ELBOW nearly straight and drawn toward LEFT shoulder; RIGHT hand relaxed reaches beyond left shoulder IMAGE RIGHT. LEFT hand grasps RIGHT elbow from below drawing it across, LEFT elbow bends down. Exactly TWO arms/hands continuous shoulder-upperarm-elbow-wrist-fingers with no extra elbow. Upright torso, shoulders down. Highlight exposed RIGHT POSTERIOR deltoid only red on shoulder-cap edge, NOT triceps/biceps/chest; all else grayscale fine muscle fibers. Preserve fine detailed exposed anatomy and fully opaque black sleeveless shirt and loose knee shorts wrapping full front sides back seat crotch, no cutaways/transparency. One static pose, no text.",
+      "inspectionNote": "Front three-quarter correction makes right arm visibly cross sternum toward opposite shoulder, opposite hand supports elbow. Rear shoulder red edge, fine grayscale exposed anatomy and full opaque garments retained. Qualified hand contact, shoulder adduction and highlight extent review pending.",
+      "canonicalName": "rear deltoid stretch",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "delts"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0669-male-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "status": "generated",
+        "costUSD": null
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Front three-quarter correction makes right arm visibly cross sternum toward opposite shoulder, opposite hand supports elbow. Rear shoulder red edge, fine grayscale exposed anatomy and full opaque garments retained. Qualified hand contact, shoulder adduction and highlight extent review pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0669-male-anatomical-white-v2-p1-017b569a22cf.webp",
+          "width": 800,
+          "height": 1200,
+          "bytes": 33112,
+          "sha256": "017b569a22cf5a640bb978584c3e5b1922b041b1f849e912771164b8bf5fb7b7"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0669-male-anatomical-white-v2-thumb-ffe326b60f38.webp",
+        "width": 160,
+        "height": 240,
+        "bytes": 2348,
+        "sha256": "ffe326b60f38f1018827afb887a38ddc73a094faa285a2cf10121765192dd1ea"
+      },
+      "processingSignature": "ba72ce76f33c8e1213eb6aebc1e52f29570ec46d34e616771f2dc96ef85915d7",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0669-male-anatomical-white-v2.png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1318436,
+        "sha256": "4f37e6013a2b539687bec48589ee9ea5b87bbc26f74502f7364cd0b4db7dac5c"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0669",
+          "variant": "male",
+          "key": "0669-male-anatomical-white-v1",
+          "layout": {
+            "columns": 1,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Extend the right arm across the chest and gently draw the right elbow toward the left shoulder; hold, then switch sides"
+            }
+          ],
+          "detail": "REAR DELTOID CROSS-BODY SHOULDER STRETCH, STATIC ONE POSE. Full-body standing slight REAR/RIGHT three-quarter view to see EXPOSED RIGHT posterior shoulder and both hands across chest. Stand tall feet shoulder width, knees soft neutral. RIGHT ARM extends horizontally ACROSS FRONT CHEST toward LEFT shoulder, right elbow nearly straight, right wrist/hand relaxed beyond left shoulder. LEFT hand gently holds RIGHT ELBOW, drawing right arm toward left shoulder; left elbow bent lower than right elbow. Exactly TWO arms/TWO natural five-finger hands with clear continuous limb paths, no crossed-arm knot/extra elbow. Right shoulder stays down, no shrug, upright torso. Primary RIGHT REAR DELTOID only red anatomical fibers on EXPOSED posterior right shoulder cap (NOT triceps, back or chest). Other exposed muscles fine grayscale anatomy. Entire shirt/shorts full opaque front/sides/back/seat/crotch no cutaways, no red on clothes. Entire shoes/fingers/head fit white margin. One static pose, switch sides later outside image, no text.",
+          "prompt": "Original educational exercise illustration. Attached original project artwork STYLE ONLY never pose reference. Realistic neutral adult MALE, fine detailed grayscale anatomical fibers on EXPOSED muscles. Pure white background. ONE single full-body pose, identical model/camera/lighting. Full OPAQUE matte BLACK sleeveless shirt wraps torso front/sides/back, loose knee-length BLACK shorts wrap both thighs/front/sides/rear/seat/crotch with closed seams/hems and broad natural folds; black trainers. No bare buttocks, cutaways, transparency, anatomy windows or muscle fibers on clothes. Red primary muscle only as specified; over clothing ONE smooth soft diffuse blurred tint on intact fabric, no anatomical subdivisions. Whole person fingers shoes and relevant equipment within white margins. No labels/text/arrows/logos. REAR DELTOID CROSS-BODY SHOULDER STRETCH, STATIC ONE POSE. Full-body standing slight REAR/RIGHT three-quarter view to see EXPOSED RIGHT posterior shoulder and both hands across chest. Stand tall feet shoulder width, knees soft neutral. RIGHT ARM extends horizontally ACROSS FRONT CHEST toward LEFT shoulder, right elbow nearly straight, right wrist/hand relaxed beyond left shoulder. LEFT hand gently holds RIGHT ELBOW, drawing right arm toward left shoulder; left elbow bent lower than right elbow. Exactly TWO arms/TWO natural five-finger hands with clear continuous limb paths, no crossed-arm knot/extra elbow. Right shoulder stays down, no shrug, upright torso. Primary RIGHT REAR DELTOID only red anatomical fibers on EXPOSED posterior right shoulder cap (NOT triceps, back or chest). Other exposed muscles fine grayscale anatomy. Entire shirt/shorts full opaque front/sides/back/seat/crotch no cutaways, no red on clothes. Entire shoes/fingers/head fit white margin. One static pose, switch sides later outside image, no text.",
+          "inspectionNote": "Single standing shoulder stretch with opposite hand supporting extended elbow, rear shoulder highlighted red and full opaque rear/seat/crotch clothing. Fine exposed grayscale anatomy, whole body framed. Rear-side camera makes exact cross-chest adduction angle less explicit; qualified shoulder/arm path, hand contact and highlight extent review pending.",
+          "canonicalName": "rear deltoid stretch",
+          "styleVersion": "white-v1",
+          "equipment": "body weight",
+          "primaryMuscles": [
+            "delts"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Single standing shoulder stretch with opposite hand supporting extended elbow, rear shoulder highlighted red and full opaque rear/seat/crotch clothing. Fine exposed grayscale anatomy, whole body framed. Rear-side camera makes exact cross-chest adduction angle less explicit; qualified shoulder/arm path, hand contact and highlight extent review pending.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0669-male-anatomical-white-v1-p1-2f69b78dba91.webp",
+              "width": 800,
+              "height": 1200,
+              "bytes": 34698,
+              "sha256": "2f69b78dba9131ebee40eeb446b2031f1877c91bd1ee51d7801cbb0f2287ba48"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0669-male-anatomical-white-v1-thumb-5005c956fe49.webp",
+            "width": 160,
+            "height": 240,
+            "bytes": 2488,
+            "sha256": "5005c956fe4940d430f3276cd88d3d41d58bdb1468bb09274c3aa5ff67e11513"
+          },
+          "processingSignature": "cfe09c48b7bf4c4673214c8d52f3c2af5b74670373d7684ef2110b80b1a5b9ad",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0669-male-anatomical-white-v1.png",
+            "width": 1024,
+            "height": 1536,
+            "bytes": 1378409,
+            "sha256": "b2064017e2ac598ba94c06cf88fa1a260008008f247cefca7e6916fb571d2993"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "0669",
+      "variant": "female",
+      "key": "0669-female-anatomical-white-v2",
+      "layout": {
+        "columns": 1,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Extend the right arm across the chest and gently draw the right elbow toward the left shoulder; hold, then switch sides"
+        }
+      ],
+      "detail": "REAR DELTOID CROSS-BODY SHOULDER STRETCH, STATIC ONE POSE. Full-body standing slight REAR/RIGHT three-quarter view to see EXPOSED RIGHT posterior shoulder and both hands across chest. Stand tall feet shoulder width, knees soft neutral. RIGHT ARM extends horizontally ACROSS FRONT CHEST toward LEFT shoulder, right elbow nearly straight, right wrist/hand relaxed beyond left shoulder. LEFT hand gently holds RIGHT ELBOW, drawing right arm toward left shoulder; left elbow bent lower than right elbow. Exactly TWO arms/TWO natural five-finger hands with clear continuous limb paths, no crossed-arm knot/extra elbow. Right shoulder stays down, no shrug, upright torso. Primary RIGHT REAR DELTOID only red anatomical fibers on EXPOSED posterior right shoulder cap (NOT triceps, back or chest). Other exposed muscles fine grayscale anatomy. Entire shirt/shorts full opaque front/sides/back/seat/crotch no cutaways, no red on clothes. Entire shoes/fingers/head fit white margin. One static pose, switch sides later outside image, no text.",
+      "prompt": "Correct original project standing REAR DELTOID STRETCH to make arm clearly CROSS BODY. Change camera to FRONT three-quarter view, whole body and shoes. RIGHT shoulder now viewer IMAGE LEFT, RIGHT arm extends horizontally ACROSS STERNUM/CHEST toward LEFT shoulder on IMAGE RIGHT, not pointing forward away from chest. RIGHT ELBOW nearly straight and drawn toward LEFT shoulder; RIGHT hand relaxed reaches beyond left shoulder IMAGE RIGHT. LEFT hand grasps RIGHT elbow from below drawing it across, LEFT elbow bends down. Exactly TWO arms/hands continuous shoulder-upperarm-elbow-wrist-fingers with no extra elbow. Upright torso, shoulders down. Highlight exposed RIGHT POSTERIOR deltoid only red on shoulder-cap edge, NOT triceps/biceps/chest; all else grayscale fine muscle fibers. Preserve fine detailed exposed anatomy and fully opaque black sleeveless shirt and loose knee shorts wrapping full front sides back seat crotch, no cutaways/transparency. One static pose, no text. Preserve female proportions and equally fine exposed grayscale anatomical fibers.",
+      "inspectionNote": "Front three-quarter correction shows right arm crossing chest toward left shoulder, left hand supporting elbow. Exposed rear shoulder edge red, fine grayscale muscles and full opaque clothing retained. Qualified hand contact, shoulder adduction, highlight extent and technique review pending.",
+      "canonicalName": "rear deltoid stretch",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "delts"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0669-female-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "status": "generated",
+        "costUSD": null
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Front three-quarter correction shows right arm crossing chest toward left shoulder, left hand supporting elbow. Exposed rear shoulder edge red, fine grayscale muscles and full opaque clothing retained. Qualified hand contact, shoulder adduction, highlight extent and technique review pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0669-female-anatomical-white-v2-p1-ae7a063641be.webp",
+          "width": 800,
+          "height": 1200,
+          "bytes": 33106,
+          "sha256": "ae7a063641be29f8a9a0abeb5b91944cfd7cc30cd040bf5a14669cddcacf60f6"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0669-female-anatomical-white-v2-thumb-7f462d768dde.webp",
+        "width": 160,
+        "height": 240,
+        "bytes": 2250,
+        "sha256": "7f462d768dde0de660b587300c0b9983e05139ee1cf5ae85756483ea0fc671a8"
+      },
+      "processingSignature": "9159084e6aaa58ec9941df8114af0e6b2c8387cbc2532fafbff8d2a4d14c5d93",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0669-female-anatomical-white-v2.png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1368483,
+        "sha256": "bd689f9b537ee6e0d6e52f97a82da315b10a2993d83fde2d5f8378b4685144be"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0669",
+          "variant": "female",
+          "key": "0669-female-anatomical-white-v1",
+          "layout": {
+            "columns": 1,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Extend the right arm across the chest and gently draw the right elbow toward the left shoulder; hold, then switch sides"
+            }
+          ],
+          "detail": "REAR DELTOID CROSS-BODY SHOULDER STRETCH, STATIC ONE POSE. Full-body standing slight REAR/RIGHT three-quarter view to see EXPOSED RIGHT posterior shoulder and both hands across chest. Stand tall feet shoulder width, knees soft neutral. RIGHT ARM extends horizontally ACROSS FRONT CHEST toward LEFT shoulder, right elbow nearly straight, right wrist/hand relaxed beyond left shoulder. LEFT hand gently holds RIGHT ELBOW, drawing right arm toward left shoulder; left elbow bent lower than right elbow. Exactly TWO arms/TWO natural five-finger hands with clear continuous limb paths, no crossed-arm knot/extra elbow. Right shoulder stays down, no shrug, upright torso. Primary RIGHT REAR DELTOID only red anatomical fibers on EXPOSED posterior right shoulder cap (NOT triceps, back or chest). Other exposed muscles fine grayscale anatomy. Entire shirt/shorts full opaque front/sides/back/seat/crotch no cutaways, no red on clothes. Entire shoes/fingers/head fit white margin. One static pose, switch sides later outside image, no text.",
+          "prompt": "Original educational exercise illustration. Attached original project artwork STYLE ONLY never pose reference. Realistic neutral adult FEMALE, fine detailed grayscale anatomical fibers on EXPOSED muscles. Pure white background. ONE single full-body pose, identical model/camera/lighting. Full OPAQUE matte BLACK sleeveless shirt wraps torso front/sides/back, loose knee-length BLACK shorts wrap both thighs/front/sides/rear/seat/crotch with closed seams/hems and broad natural folds; black trainers. No bare buttocks, cutaways, transparency, anatomy windows or muscle fibers on clothes. Red primary muscle only as specified; over clothing ONE smooth soft diffuse blurred tint on intact fabric, no anatomical subdivisions. Whole person fingers shoes and relevant equipment within white margins. No labels/text/arrows/logos. REAR DELTOID CROSS-BODY SHOULDER STRETCH, STATIC ONE POSE. Full-body standing slight REAR/RIGHT three-quarter view to see EXPOSED RIGHT posterior shoulder and both hands across chest. Stand tall feet shoulder width, knees soft neutral. RIGHT ARM extends horizontally ACROSS FRONT CHEST toward LEFT shoulder, right elbow nearly straight, right wrist/hand relaxed beyond left shoulder. LEFT hand gently holds RIGHT ELBOW, drawing right arm toward left shoulder; left elbow bent lower than right elbow. Exactly TWO arms/TWO natural five-finger hands with clear continuous limb paths, no crossed-arm knot/extra elbow. Right shoulder stays down, no shrug, upright torso. Primary RIGHT REAR DELTOID only red anatomical fibers on EXPOSED posterior right shoulder cap (NOT triceps, back or chest). Other exposed muscles fine grayscale anatomy. Entire shirt/shorts full opaque front/sides/back/seat/crotch no cutaways, no red on clothes. Entire shoes/fingers/head fit white margin. One static pose, switch sides later outside image, no text.",
+          "inspectionNote": "Single shoulder stretch with opposite hand holding near elbow, posterior shoulder red and opaque back/seat/crotch garments. Detailed grayscale exposed anatomy. Rear-side view reads as forward arm raise, cross-chest adduction unclear; improve front three-quarter view and across-sternum arm direction.",
+          "canonicalName": "rear deltoid stretch",
+          "styleVersion": "white-v1",
+          "equipment": "body weight",
+          "primaryMuscles": [
+            "delts"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Single shoulder stretch with opposite hand holding near elbow, posterior shoulder red and opaque back/seat/crotch garments. Detailed grayscale exposed anatomy. Rear-side view reads as forward arm raise, cross-chest adduction unclear; improve front three-quarter view and across-sternum arm direction.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0669-female-anatomical-white-v1-p1-b17f01be7f9d.webp",
+              "width": 800,
+              "height": 1200,
+              "bytes": 36718,
+              "sha256": "b17f01be7f9d8112f2d7d4b3ad8fdcc19ca4601050b26851a198f0d532872ecb"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0669-female-anatomical-white-v1-thumb-a6209c6b4c62.webp",
+            "width": 160,
+            "height": 240,
+            "bytes": 2420,
+            "sha256": "a6209c6b4c627e4d5a337b2223ae5bdd5f56fe784ea6211a1654c1defb2e71cf"
+          },
+          "processingSignature": "253c337eeabcb31c98addb19ad3c9cc85cd7d77d2d8cd2500b67cd76fa7109f2",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0669-female-anatomical-white-v1.png",
+            "width": 1024,
+            "height": 1536,
+            "bytes": 1413964,
+            "sha256": "229d55306544ab940452b2ce99d10e4264994f794a8c7812efe236b0c2ced10a"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "0674",
+      "variant": "male",
+      "key": "0674-male-anatomical-white-v2",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hang with both palms facing you and arms extended, feet clear of the floor"
+        },
+        {
+          "key": "p2",
+          "caption": "Pull until the chin clears the bar, keeping the same underhand grip"
+        }
+      ],
+      "detail": "UNDERHAND REVERSE-GRIP PULL-UP (CHIN-UP), TWO phases. Whole person FRONT three-quarter view, same GRAY straight fixed overhead pull-up BAR attached to two short gray wall brackets at top corners, faint white wall background, whole BAR/brackets AND feet inside each panel with generous top/bottom margins. BOTH HANDS shoulder-width UNDERHAND SUPINATED grip: palms face TOWARD MODEL FACE, fingers/thumbs wrap bar securely, same grip never changes. LEFT dead hang BOTH elbows fully extended overhead, torso straight, feet together CLEAR OFF FLOOR, legs straight no kick. RIGHT pull body UP until CHIN clearly ABOVE fixed bar, elbows bend down toward ribs, chest approaches bar, torso vertical neutral, feet hang together, no knee swing. Same exact fixed bar HEIGHT/length/anchors, hand positions and camera; only body rises with elbow flexion, no moving bar or arm length change. Primary LATS only smooth diffuse blurred RED tint on intact opaque BLACK side/back shirt over lateral torso BELOW armpits down toward waist; do NOT highlight biceps/deltoids/upper-back primary. No radial fibers/muscle subdivisions/cutaways on shirt. All exposed limbs fine detailed grayscale anatomy. Full opaque shirt/shorts wrap front sides back seat crotch. No text/arrows.",
+      "prompt": "Edit original project two-panel UNDERHAND pull-up. Preserve EXACT same model/body positions, dead hang then chin above fixed bar, same SUPINATED grip palms face model, hand locations, fixed bar/brackets, feet together suspended and fine detailed grayscale EXPOSED limb fibers. Slightly zoom out whole composition to leave generous WHITE margin above highest head and below lowest shoes, full bar/brackets inside each panel. Repaint only lateral torso LATS shirt tint as smooth soft diffuse BLURRED RED COLOR on intact OPAQUE matte BLACK fabric below armpits toward waist. Remove all internal fiber streaks/radial rays/anatomical subdivisions from cloth; natural broad folds only. No red biceps/deltoids/chest. Full opaque shirt and knee shorts wrap front sides back seat crotch. No cutaways/transparency/text.",
+      "inspectionNote": "Wider framing restores generous head/shoe margins and full fixed bar. Lateral lats cloth tint more diffuse; dead hang and chin-above-bar phases retained with feet airborne and grayscale anatomy. Qualified supinated grip/palm orientation, elbow/shoulder continuity and bar geometry review pending.",
+      "canonicalName": "reverse grip pull-up",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "lats"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0674-male-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "status": "generated",
+        "costUSD": null
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Wider framing restores generous head/shoe margins and full fixed bar. Lateral lats cloth tint more diffuse; dead hang and chin-above-bar phases retained with feet airborne and grayscale anatomy. Qualified supinated grip/palm orientation, elbow/shoulder continuity and bar geometry review pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0674-male-anatomical-white-v2-p1-fd1c8694c9f6.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 14850,
+          "sha256": "fd1c8694c9f632b1a9a7399c0bfd634f19870f0b194836a4bd175005891afcdd"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0674-male-anatomical-white-v2-p2-8dde25df6172.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 13820,
+          "sha256": "8dde25df6172ca7c79cb1d2a6274188f3fe382815641bf808ac997a7a507d978"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0674-male-anatomical-white-v2-thumb-be79b3f29ace.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 1672,
+        "sha256": "be79b3f29ace5fcfa6fcdc604695e7006dec36e38b32be28c531431b9bf763f2"
+      },
+      "processingSignature": "b77bc428059428492e92e62744255d7c458c2f526ebfe9b24490f7e1fe37ae30",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0674-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1162719,
+        "sha256": "fe7b6bb0a9440b09c004bba2308e5be25b59bd284b83faccb85f59710e46a925"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0674",
+          "variant": "male",
+          "key": "0674-male-anatomical-white-v1",
+          "layout": {
+            "columns": 2,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Hang with both palms facing you and arms extended, feet clear of the floor"
+            },
+            {
+              "key": "p2",
+              "caption": "Pull until the chin clears the bar, keeping the same underhand grip"
+            }
+          ],
+          "detail": "UNDERHAND REVERSE-GRIP PULL-UP (CHIN-UP), TWO phases. Whole person FRONT three-quarter view, same GRAY straight fixed overhead pull-up BAR attached to two short gray wall brackets at top corners, faint white wall background, whole BAR/brackets AND feet inside each panel with generous top/bottom margins. BOTH HANDS shoulder-width UNDERHAND SUPINATED grip: palms face TOWARD MODEL FACE, fingers/thumbs wrap bar securely, same grip never changes. LEFT dead hang BOTH elbows fully extended overhead, torso straight, feet together CLEAR OFF FLOOR, legs straight no kick. RIGHT pull body UP until CHIN clearly ABOVE fixed bar, elbows bend down toward ribs, chest approaches bar, torso vertical neutral, feet hang together, no knee swing. Same exact fixed bar HEIGHT/length/anchors, hand positions and camera; only body rises with elbow flexion, no moving bar or arm length change. Primary LATS only smooth diffuse blurred RED tint on intact opaque BLACK side/back shirt over lateral torso BELOW armpits down toward waist; do NOT highlight biceps/deltoids/upper-back primary. No radial fibers/muscle subdivisions/cutaways on shirt. All exposed limbs fine detailed grayscale anatomy. Full opaque shirt/shorts wrap front sides back seat crotch. No text/arrows.",
+          "prompt": "Original educational exercise illustration. Attached original project artwork STYLE ONLY never pose reference. Realistic neutral adult MALE, fine detailed grayscale anatomical fibers on EXPOSED muscles. Pure white background. TWO equal side-by-side panels, identical model/camera/lighting. Full OPAQUE matte BLACK sleeveless shirt wraps torso front/sides/back, loose knee-length BLACK shorts wrap both thighs/front/sides/rear/seat/crotch with closed seams/hems and broad natural folds; black trainers. No bare buttocks, cutaways, transparency, anatomy windows or muscle fibers on clothes. Red primary muscle only as specified; over clothing ONE smooth soft diffuse blurred tint on intact fabric, no anatomical subdivisions. Whole person fingers shoes and relevant equipment within white margins. No labels/text/arrows/logos. UNDERHAND REVERSE-GRIP PULL-UP (CHIN-UP), TWO phases. Whole person FRONT three-quarter view, same GRAY straight fixed overhead pull-up BAR attached to two short gray wall brackets at top corners, faint white wall background, whole BAR/brackets AND feet inside each panel with generous top/bottom margins. BOTH HANDS shoulder-width UNDERHAND SUPINATED grip: palms face TOWARD MODEL FACE, fingers/thumbs wrap bar securely, same grip never changes. LEFT dead hang BOTH elbows fully extended overhead, torso straight, feet together CLEAR OFF FLOOR, legs straight no kick. RIGHT pull body UP until CHIN clearly ABOVE fixed bar, elbows bend down toward ribs, chest approaches bar, torso vertical neutral, feet hang together, no knee swing. Same exact fixed bar HEIGHT/length/anchors, hand positions and camera; only body rises with elbow flexion, no moving bar or arm length change. Primary LATS only smooth diffuse blurred RED tint on intact opaque BLACK side/back shirt over lateral torso BELOW armpits down toward waist; do NOT highlight biceps/deltoids/upper-back primary. No radial fibers/muscle subdivisions/cutaways on shirt. All exposed limbs fine detailed grayscale anatomy. Full opaque shirt/shorts wrap front sides back seat crotch. No text/arrows.",
+          "inspectionNote": "Underhand pull-up shows arms extended then chin above fixed bar, feet together airborne and full bar/brackets framed. Opaque clothes and fine grayscale anatomy; head top margin small. Lateral torso tint internally streaked needing diffuse fabric treatment; qualified palm/grip continuity, wrist/shoulder mechanics and fixed-bar geometry pending.",
+          "canonicalName": "reverse grip pull-up",
+          "styleVersion": "white-v1",
+          "equipment": "body weight",
+          "primaryMuscles": [
+            "lats"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Underhand pull-up shows arms extended then chin above fixed bar, feet together airborne and full bar/brackets framed. Opaque clothes and fine grayscale anatomy; head top margin small. Lateral torso tint internally streaked needing diffuse fabric treatment; qualified palm/grip continuity, wrist/shoulder mechanics and fixed-bar geometry pending.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0674-male-anatomical-white-v1-p1-806281a8cd74.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 19710,
+              "sha256": "806281a8cd74087d9cc06fa8be445b92081d54391e2b98e594bb0e617c0b7e0e"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0674-male-anatomical-white-v1-p2-0031294701ca.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 18452,
+              "sha256": "0031294701caa0669238f0d19eb7ace8ed52c8a22e293475f64f5f8b0aed47c8"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0674-male-anatomical-white-v1-thumb-06a05c849a30.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 2188,
+            "sha256": "06a05c849a30e1a13ca64ad786a23e0b599d0f4109d420637d7ae7bf98f6c70d"
+          },
+          "processingSignature": "2ee5cb6b284506eefc5906a101a2886439dc008f95c9abb4471c2cc1f1884680",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0674-male-anatomical-white-v1.png",
+            "width": 1774,
+            "height": 887,
+            "bytes": 1347654,
+            "sha256": "cf456aa475b3fb9a3bbbe97e1ba97b8ec02ffbe1e69492f718d19c3d40292d96"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "0674",
+      "variant": "female",
+      "key": "0674-female-anatomical-white-v2",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hang with both palms facing you and arms extended, feet clear of the floor"
+        },
+        {
+          "key": "p2",
+          "caption": "Pull until the chin clears the bar, keeping the same underhand grip"
+        }
+      ],
+      "detail": "UNDERHAND REVERSE-GRIP PULL-UP (CHIN-UP), TWO phases. Whole person FRONT three-quarter view, same GRAY straight fixed overhead pull-up BAR attached to two short gray wall brackets at top corners, faint white wall background, whole BAR/brackets AND feet inside each panel with generous top/bottom margins. BOTH HANDS shoulder-width UNDERHAND SUPINATED grip: palms face TOWARD MODEL FACE, fingers/thumbs wrap bar securely, same grip never changes. LEFT dead hang BOTH elbows fully extended overhead, torso straight, feet together CLEAR OFF FLOOR, legs straight no kick. RIGHT pull body UP until CHIN clearly ABOVE fixed bar, elbows bend down toward ribs, chest approaches bar, torso vertical neutral, feet hang together, no knee swing. Same exact fixed bar HEIGHT/length/anchors, hand positions and camera; only body rises with elbow flexion, no moving bar or arm length change. Primary LATS only smooth diffuse blurred RED tint on intact opaque BLACK side/back shirt over lateral torso BELOW armpits down toward waist; do NOT highlight biceps/deltoids/upper-back primary. No radial fibers/muscle subdivisions/cutaways on shirt. All exposed limbs fine detailed grayscale anatomy. Full opaque shirt/shorts wrap front sides back seat crotch. No text/arrows.",
+      "prompt": "Edit original project two-panel UNDERHAND pull-up. Preserve EXACT same model/body positions, dead hang then chin above fixed bar, same SUPINATED grip palms face model, hand locations, fixed bar/brackets, feet together suspended and fine detailed grayscale EXPOSED limb fibers. Slightly zoom out whole composition to leave generous WHITE margin above highest head and below lowest shoes, full bar/brackets inside each panel. Repaint only lateral torso LATS shirt tint as smooth soft diffuse BLURRED RED COLOR on intact OPAQUE matte BLACK fabric below armpits toward waist. Remove all internal fiber streaks/radial rays/anatomical subdivisions from cloth; natural broad folds only. No red biceps/deltoids/chest. Full opaque shirt and knee shorts wrap front sides back seat crotch. No cutaways/transparency/text. Preserve female proportions and equal fine grayscale exposed anatomical detail.",
+      "inspectionNote": "Wider framing gives full head/feet/bar margins and side lats tint now diffuse on opaque shirt. Dead hang and chin-above-bar positions retained with suspended feet and grayscale exposed anatomy. Qualified supinated grip/palm continuity, wrist/shoulder mechanics and bar geometry review pending.",
+      "canonicalName": "reverse grip pull-up",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "lats"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0674-female-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "status": "generated",
+        "costUSD": null
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Wider framing gives full head/feet/bar margins and side lats tint now diffuse on opaque shirt. Dead hang and chin-above-bar positions retained with suspended feet and grayscale exposed anatomy. Qualified supinated grip/palm continuity, wrist/shoulder mechanics and bar geometry review pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0674-female-anatomical-white-v2-p1-be69a3a539cf.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 13980,
+          "sha256": "be69a3a539cf2b64b116b05cee9e3a311846868ab5045e3756c32463675f5f83"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0674-female-anatomical-white-v2-p2-79555cee0df1.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 12868,
+          "sha256": "79555cee0df173da060adc1776b10ded58b8a0c7ca878b52900aed65276ed163"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0674-female-anatomical-white-v2-thumb-670a6b8c543a.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 1658,
+        "sha256": "670a6b8c543aee695b12af463eb3c83fa0963b62a67c314c814f7f5e9cf28dab"
+      },
+      "processingSignature": "de5061320936fcf34683923eff3b875df1e499a8bad2f9aa986298b95a27134d",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0674-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1126079,
+        "sha256": "7db04aa620033c96113fdd2ec38b684657a8fa548fb1176696930d2b9a8a30bf"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0674",
+          "variant": "female",
+          "key": "0674-female-anatomical-white-v1",
+          "layout": {
+            "columns": 2,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Hang with both palms facing you and arms extended, feet clear of the floor"
+            },
+            {
+              "key": "p2",
+              "caption": "Pull until the chin clears the bar, keeping the same underhand grip"
+            }
+          ],
+          "detail": "UNDERHAND REVERSE-GRIP PULL-UP (CHIN-UP), TWO phases. Whole person FRONT three-quarter view, same GRAY straight fixed overhead pull-up BAR attached to two short gray wall brackets at top corners, faint white wall background, whole BAR/brackets AND feet inside each panel with generous top/bottom margins. BOTH HANDS shoulder-width UNDERHAND SUPINATED grip: palms face TOWARD MODEL FACE, fingers/thumbs wrap bar securely, same grip never changes. LEFT dead hang BOTH elbows fully extended overhead, torso straight, feet together CLEAR OFF FLOOR, legs straight no kick. RIGHT pull body UP until CHIN clearly ABOVE fixed bar, elbows bend down toward ribs, chest approaches bar, torso vertical neutral, feet hang together, no knee swing. Same exact fixed bar HEIGHT/length/anchors, hand positions and camera; only body rises with elbow flexion, no moving bar or arm length change. Primary LATS only smooth diffuse blurred RED tint on intact opaque BLACK side/back shirt over lateral torso BELOW armpits down toward waist; do NOT highlight biceps/deltoids/upper-back primary. No radial fibers/muscle subdivisions/cutaways on shirt. All exposed limbs fine detailed grayscale anatomy. Full opaque shirt/shorts wrap front sides back seat crotch. No text/arrows.",
+          "prompt": "Original educational exercise illustration. Attached original project artwork STYLE ONLY never pose reference. Realistic neutral adult FEMALE, fine detailed grayscale anatomical fibers on EXPOSED muscles. Pure white background. TWO equal side-by-side panels, identical model/camera/lighting. Full OPAQUE matte BLACK sleeveless shirt wraps torso front/sides/back, loose knee-length BLACK shorts wrap both thighs/front/sides/rear/seat/crotch with closed seams/hems and broad natural folds; black trainers. No bare buttocks, cutaways, transparency, anatomy windows or muscle fibers on clothes. Red primary muscle only as specified; over clothing ONE smooth soft diffuse blurred tint on intact fabric, no anatomical subdivisions. Whole person fingers shoes and relevant equipment within white margins. No labels/text/arrows/logos. UNDERHAND REVERSE-GRIP PULL-UP (CHIN-UP), TWO phases. Whole person FRONT three-quarter view, same GRAY straight fixed overhead pull-up BAR attached to two short gray wall brackets at top corners, faint white wall background, whole BAR/brackets AND feet inside each panel with generous top/bottom margins. BOTH HANDS shoulder-width UNDERHAND SUPINATED grip: palms face TOWARD MODEL FACE, fingers/thumbs wrap bar securely, same grip never changes. LEFT dead hang BOTH elbows fully extended overhead, torso straight, feet together CLEAR OFF FLOOR, legs straight no kick. RIGHT pull body UP until CHIN clearly ABOVE fixed bar, elbows bend down toward ribs, chest approaches bar, torso vertical neutral, feet hang together, no knee swing. Same exact fixed bar HEIGHT/length/anchors, hand positions and camera; only body rises with elbow flexion, no moving bar or arm length change. Primary LATS only smooth diffuse blurred RED tint on intact opaque BLACK side/back shirt over lateral torso BELOW armpits down toward waist; do NOT highlight biceps/deltoids/upper-back primary. No radial fibers/muscle subdivisions/cutaways on shirt. All exposed limbs fine detailed grayscale anatomy. Full opaque shirt/shorts wrap front sides back seat crotch. No text/arrows.",
+          "inspectionNote": "Two pull-up phases show dead hang and chin above same fixed bar, feet together airborne, full opaque garments and fine grayscale limbs. Side torso red includes internal cloth streaks needing diffuse tint edit; overhead head margin small. Qualified grip/palm orientation, wrist/elbow continuity and bar/body geometry pending.",
+          "canonicalName": "reverse grip pull-up",
+          "styleVersion": "white-v1",
+          "equipment": "body weight",
+          "primaryMuscles": [
+            "lats"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Two pull-up phases show dead hang and chin above same fixed bar, feet together airborne, full opaque garments and fine grayscale limbs. Side torso red includes internal cloth streaks needing diffuse tint edit; overhead head margin small. Qualified grip/palm orientation, wrist/elbow continuity and bar/body geometry pending.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0674-female-anatomical-white-v1-p1-c29e9fe78d84.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 18954,
+              "sha256": "c29e9fe78d840483b200e017e8d0b079cd6526b2cce9a98af124cffa4b2d197f"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0674-female-anatomical-white-v1-p2-0ba898b548d7.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 17826,
+              "sha256": "0ba898b548d7da1bb58b8c80d744ec0c03480fb01d2a35ac09c336ca3aa22880"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0674-female-anatomical-white-v1-thumb-f208a2a0d88a.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 2176,
+            "sha256": "f208a2a0d88a7be7b78819996874155628d8c936b58ab9afd55285d9738ca1eb"
+          },
+          "processingSignature": "6039514b885653f549e9a91a9bb8057e99fd8d5540cdcbffa601f55415569643",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0674-female-anatomical-white-v1.png",
+            "width": 1774,
+            "height": 887,
+            "bytes": 1343140,
+            "sha256": "4f252490e6b189312825f8bc705888916f3d654e8a114cb6930b76801aa0238d"
+          }
+        }
+      ]
+    }
+  ]
+}

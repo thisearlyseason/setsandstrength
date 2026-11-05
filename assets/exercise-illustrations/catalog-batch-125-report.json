@@ -1,0 +1,93 @@
+{
+  "batch": 125,
+  "trigger": "2026-11-02T23:31:23.848Z",
+  "completedAt": "2026-11-02T23:41:16.091132+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 4,
+  "generationCalls": 6,
+  "exerciseIds": [
+    "0746",
+    "0748"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 510,
+    "remainingVariants": 10754,
+    "approvedVariants": 0,
+    "blockedVariants": 199,
+    "knownPoseImages": 1052,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Four candidate sets, eight poses, six built-in calls, two retained corrections. Smith shrug pairs show relaxed then elevated shoulders with small guided front-thigh bar rise and near-straight arms. Upper trapezius highlighted, qualified elbow constancy, grip, movement range and trap localization pending. Smith bench press originals had lifted skulls and ambiguous neck-level lower bars. Side-view edits improved skull bench support and chest-level bar path, but foreground upright partly occludes contact/grip. Female edit spreads red over most shirt including abdomen: BLOCKED for chest-only muscle highlight correction. Male chest tint remains localized. Detailed exposed grayscale anatomy, full opaque shirt/shorts, grounded feet retained. Qualified bar contact, wrist/elbow alignment and equipment geometry pending. All original masters, prompts and correction history saved. No anatomy approval or publication. Original project artwork style only, no upstream media. Pipeline checks do not approve anatomy.",
+  "metadataConflictsDeferred": {
+    "0747": "Instructions mix seat height, standing and stepping back from guided Smith bar; setup conflicts require clarification."
+  },
+  "events": [
+    {
+      "stage": "local registration",
+      "error": "AssertionError: existing master guard rejected accidental original-version save attempt; no files overwritten. Correct versioned correction registration then succeeded."
+    }
+  ],
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 832163310,
+  "savedMasters": [
+    {
+      "exerciseId": "0746",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0746-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1519810,
+        "sha256": "1217c78668d6f2337a3d710e55e7fe18da12d60b58d48f46a53372022b59e935"
+      }
+    },
+    {
+      "exerciseId": "0746",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0746-female-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1558768,
+        "sha256": "2f4942966b3082f9fce8e554cd4712636af2bdba30f87e03d82b5b8c6f67a4b3"
+      }
+    },
+    {
+      "exerciseId": "0748",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0748-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1569439,
+        "sha256": "cfb5665de15a3e4168241d2549153bfb3b433d685e3964c852f8e6354e4d3434"
+      }
+    },
+    {
+      "exerciseId": "0748",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0748-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1563386,
+        "sha256": "726ae1ad399703922b3dff92124b9741f04c78ae1746aad9cc0307a04e2cbc71"
+      }
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "batch": 150,
+  "trigger": "2026-11-03T06:21:56.982Z",
+  "completedAt": "2026-11-03T06:38:20.088214+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 4,
+  "generationCalls": 6,
+  "exerciseIds": [
+    "0979",
+    "0982"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 608,
+    "remainingVariants": 10656,
+    "approvedVariants": 0,
+    "blockedVariants": 213,
+    "knownPoseImages": 1234,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Four candidates, six poses, six built-in calls including two retained clamshell cloth-surface corrections. Pallof pairs use one extended-arm isometric hold with side waist-height anchor, forward chest/pelvis and diffuse abdominal red over intact shirt. Clamshell pairs show stacked bent-knee start to upper-knee opening with feet touching and loop above knees; edits smooth top outer hip tint on opaque shorts. Fine exposed grayscale anatomy and full opaque clothing visually retained. Qualified antirotation alignment, grip/finger overlap, pelvis roll, foot contact, band placement/tension, proportions and primary mapping require human review. Every original, exact prompt and correction history saved. No clothing/anatomy approval or publication. Project original artwork rendering style only, no upstream licensed input. Seven pipeline checks do not establish anatomical accuracy.",
+  "metadataConflictsDeferred": {
+    "0980": "Faces away from ankle anchor while kicking back; band load direction and attachment unclear.",
+    "0981": "Jackknife band anchoring/resistance undefined.",
+    "0984": "Internal-rotation title conflicts with knees-opening external-rotation instructions.",
+    "0986": "Foot-anchored overhead arm curl load direction contradicts resisted biceps curl.",
+    "0987": "Extend leg forward and rest same foot behind on bench conflict; ankle band mechanics undefined."
+  },
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 971069476,
+  "savedMasters": [
+    {
+      "exerciseId": "0979",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0979-male-anatomical-white-v1.png",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 1305913,
+        "sha256": "deaf0397ee4afbc67f779f81f93d70c9117b7ba8508c6356a54bb490b35b18eb"
+      }
+    },
+    {
+      "exerciseId": "0979",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0979-female-anatomical-white-v1.png",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 1392093,
+        "sha256": "6ff7f855ea9656cb47fea6463292ffcd9a0bf6dd166d633cb7bc30521afaaa3c"
+      }
+    },
+    {
+      "exerciseId": "0982",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0982-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1452633,
+        "sha256": "a22058f245b1dace2da11639dc7e11c6858c7492eeb587f5c4e54c4b4396ea2f"
+      }
+    },
+    {
+      "exerciseId": "0982",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0982-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1478683,
+        "sha256": "74504c55e73cf20d1c03327cac4187d7316eed718a0853a140ca86f976c3b359"
+      }
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "batch": 54,
+  "trigger": "2026-11-01T11:24:14.823Z",
+  "completedAt": "2026-11-01T11:37:35.326942+00:00",
+  "tool": "image_gen.imagegen",
+  "newCandidateSets": 4,
+  "generationCalls": 7,
+  "exerciseIds": [
+    "0553",
+    "0541"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 212,
+    "remainingVariants": 11052,
+    "approvedVariants": 0,
+    "blockedVariants": 96,
+    "knownPoseImages": 428,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "All pending, unpublished. Two-arm military presses retain both bell masses behind forearms and opaque clothes. Male row working-arm continuity corrected and original retained. Female row remains blocked for extra-looking far elbow/arm: two subsequent attempts saved with exact prompts/hash and rejected because one switches arms and one introduces extra elbow into start. Rejected renditions excluded from active delivery. Qualified anatomy/technique review remains separate.",
+  "metadataNotes": [
+    "0541 description says row toward hip, instructions toward chest; illustration uses lower ribs and preserves canonical ID, range needs qualified review.",
+    "0535 hang-clean mapping broad and equipment/motion needs multi-step review; not guessed."
+  ],
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 342655705,
+  "savedMasters": [
+    {
+      "exerciseId": "0553",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0553-male-anatomical-white-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1392719,
+        "sha256": "7eb64e5e6f13b0838ed21de557b968fe008efc7c8747be7f16e207ed9f384cca"
+      }
+    },
+    {
+      "exerciseId": "0553",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0553-female-anatomical-white-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1402186,
+        "sha256": "417ed10e6b952f7e810bf3d002f5bb09d71c87900016fcb70f4ce84b616ac619"
+      }
+    },
+    {
+      "exerciseId": "0541",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0541-male-anatomical-white-v2.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1978182,
+        "sha256": "ca8940bb7151a212d85779ac3ff656fcf5f419a61a02210b48bc0055c83b74d5"
+      }
+    },
+    {
+      "exerciseId": "0541",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0541-female-anatomical-white-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1641053,
+        "sha256": "7ece8672dca718cc00c073ba82cb9741264bdcbe3211594351b199508d4016d6"
+      }
+    }
+  ]
+}

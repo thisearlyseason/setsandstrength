@@ -1,0 +1,116 @@
+{
+  "batch": 68,
+  "trigger": "2026-11-01T13:46:16.371Z",
+  "completedAt": "2026-11-01T13:58:12.175067+00:00",
+  "tool": "image_gen.imagegen",
+  "newCandidateSets": 6,
+  "generationCalls": 6,
+  "exerciseIds": [
+    "0410",
+    "0414",
+    "0415"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 270,
+    "remainingVariants": 10994,
+    "approvedVariants": 0,
+    "blockedVariants": 119,
+    "knownPoseImages": 550,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "All pending and unpublished. Split squats inspected for rear-foot support, planted front heel and full opaque clothes. Alternating overhead presses and lateral raises use three clearly alternating phases, stable feet and separate weights. Custom unequal lateral-raise crops visually inspected for both variants to preserve near-gutter weights. Qualified knee tracking/depth, shoulder and wrist alignment, target mapping and cloth-overlay review still required. No anatomical approval inferred from pipeline checks.",
+  "metadataConflictsDeferred": [
+    {
+      "exerciseId": "0418",
+      "issue": "Concentration-curl description elbow against thigh versus instructions omit that contact and specify palm inward; defer grip/setup."
+    },
+    {
+      "exerciseId": "0411",
+      "issue": "Target glutes while quadriceps secondary; preserve metadata and flag qualified mapping review."
+    }
+  ],
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 436758433,
+  "savedMasters": [
+    {
+      "exerciseId": "0410",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0410-male-anatomical-white-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1500390,
+        "sha256": "7e9c624e7034ede44760beed724b1ffd643d4a21c5fa06a1695f934aa13c6d35"
+      }
+    },
+    {
+      "exerciseId": "0410",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0410-female-anatomical-white-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1559723,
+        "sha256": "620dde6da7ad83ea2cf7d92bba409e15ab1aa5f623f4b12ba2804e9e221c27da"
+      }
+    },
+    {
+      "exerciseId": "0414",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0414-male-anatomical-white-v1.png",
+        "width": 1942,
+        "height": 809,
+        "bytes": 1432288,
+        "sha256": "3df86d1d14ace8009e44c09da7c25be20523dd29cadddaf2b7306133637c5f60"
+      }
+    },
+    {
+      "exerciseId": "0414",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0414-female-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1463961,
+        "sha256": "0b3a4e905972ab9c3620b4975d2de9d04ace4d6aa9eb40bf19238979601736fd"
+      }
+    },
+    {
+      "exerciseId": "0415",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0415-male-anatomical-white-v1.png",
+        "width": 1916,
+        "height": 821,
+        "bytes": 1542098,
+        "sha256": "3393e68d7c9d8e3bda698786651059283833d1453cc568ccb6ebfe7ef98335bb"
+      }
+    },
+    {
+      "exerciseId": "0415",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0415-female-anatomical-white-v1.png",
+        "width": 1942,
+        "height": 809,
+        "bytes": 1684289,
+        "sha256": "d17a9c3006da6b7b2cf2120d7556fead2fe23c05036b4794ae354cb42278acf4"
+      }
+    }
+  ]
+}

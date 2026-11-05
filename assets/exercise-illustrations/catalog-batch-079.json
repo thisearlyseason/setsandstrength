@@ -1,0 +1,642 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "0549",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hinge hips back as the kettlebell swings between legs"
+        },
+        {
+          "key": "p2",
+          "caption": "Extend hips to propel the kettlebell to shoulder height with straight arms"
+        }
+      ],
+      "detail": "TWO equal SIDE-BY-SIDE panels KETTLEBELL SWING. Same SIDE three-quarter view, model faces IMAGE LEFT. Feet shoulder-width planted with slight toe turnout, same foot positions. Exactly ONE gray kettlebell gripped with BOTH hands side-by-side securely around arched handle, round bell hangs below handle. LEFT backswing: hinge strongly at hips, hips pushed BACK, knees slightly bent (not deep squat), flat neutral back, head aligned with torso; both long straight arms point down/back BETWEEN upper legs holding bell in backswing behind knees, clear of groin/knees. RIGHT terminal forward swing: stand tall hips/knees extended, ribs stacked over pelvis, no leanback; BOTH arms straight reaching horizontally forward IMAGE LEFT at SHOULDER height, bell fully in frame slightly below hands. Hip-driven swing, no elbow curl or overhead lift. Only primary GLUTEALS red as faint diffuse tint on fully intact BLACK rear/side shorts; arms/thighs/calf muscles gray, no chest/shoulder red. Bell same size/grip, neutral wrists, all anatomy and opaque seat/crotch fully covered.",
+      "variant": "male",
+      "key": "0549-male-anatomical-white-v2",
+      "prompt": "Correct ONLY LEFT backswing pose in this original two-panel male kettlebell swing illustration. RIGHT tall shoulder-height forward swing panel unchanged. LEFT: hinge hips farther BACK with neutral flat back, knees softly bent, torso inclines to about 30 degrees above horizontal. Swing SAME ONE kettlebell HIGH BACK between thighs toward rear (IMAGE RIGHT), behind knee line and closer to groin with safe clearance, not hanging vertically below knees. Both arms straight diagonally backward, upper arms near ribcage, both hands securely grip same handle. Bell may be partially occluded by near thigh naturally; never see through clothes. Keep feet planted same footprint, head aligned to torso no upward neck crane, neutral spine. Preserve man, grayscale fine anatomical detail, whole body/bell inside margins, two panels, white background. Preserve continuous fully OPAQUE BLACK shirt and knee-length shorts wrapping seat/crotch with faint diffuse red glute tint; no cutaways or bare buttocks, no muscle divisions on fabric. No new objects/text.",
+      "inspectionNote": "Backswing revision raises bell behind knee line with stronger hip hinge while retaining forward endpoint and full opaque clothing. Qualified head/neck alignment, elbow extension, grip clearance and swing technique review pending.",
+      "canonicalName": "kettlebell swing",
+      "styleVersion": "white-v1",
+      "equipment": "kettlebell",
+      "primaryMuscles": [
+        "glutes"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Backswing revision raises bell behind knee line with stronger hip hinge while retaining forward endpoint and full opaque clothing. Qualified head/neck alignment, elbow extension, grip clearance and swing technique review pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0549-male-anatomical-white-v2-p1-f9f60f2bd49b.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 23416,
+          "sha256": "f9f60f2bd49b935462903e60f2ab1c6a68126d16c67bbedf604e22ad724f8a48"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0549-male-anatomical-white-v2-p2-92afff9d2fa7.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 22770,
+          "sha256": "92afff9d2fa7668805b48b933f50cc211bdbab0d2d17b7ae67ee47bf08864374"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0549-male-anatomical-white-v2-thumb-9b1114d9d10a.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2712,
+        "sha256": "9b1114d9d10afe3cd78f13eccbe194cd6e65dddf41d6e8e04365f30902333d18"
+      },
+      "processingSignature": "66dd0425e4d0db5f635a9c9db0906fb6382868b8dad2a6fbd089863ebbb605ed",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0549-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1639738,
+        "sha256": "31b0a93c0ebd875d7f0b77ca8b43ff23db39ed665304c27686163b2a4993a597"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0549",
+          "layout": {
+            "columns": 2,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Hinge hips back as the kettlebell swings between legs"
+            },
+            {
+              "key": "p2",
+              "caption": "Extend hips to propel the kettlebell to shoulder height with straight arms"
+            }
+          ],
+          "detail": "TWO equal SIDE-BY-SIDE panels KETTLEBELL SWING. Same SIDE three-quarter view, model faces IMAGE LEFT. Feet shoulder-width planted with slight toe turnout, same foot positions. Exactly ONE gray kettlebell gripped with BOTH hands side-by-side securely around arched handle, round bell hangs below handle. LEFT backswing: hinge strongly at hips, hips pushed BACK, knees slightly bent (not deep squat), flat neutral back, head aligned with torso; both long straight arms point down/back BETWEEN upper legs holding bell in backswing behind knees, clear of groin/knees. RIGHT terminal forward swing: stand tall hips/knees extended, ribs stacked over pelvis, no leanback; BOTH arms straight reaching horizontally forward IMAGE LEFT at SHOULDER height, bell fully in frame slightly below hands. Hip-driven swing, no elbow curl or overhead lift. Only primary GLUTEALS red as faint diffuse tint on fully intact BLACK rear/side shorts; arms/thighs/calf muscles gray, no chest/shoulder red. Bell same size/grip, neutral wrists, all anatomy and opaque seat/crotch fully covered.",
+          "variant": "male",
+          "key": "0549-male-anatomical-white-v1",
+          "prompt": "Scientific-educational ORIGINAL exercise illustration. Attached original project artwork is STYLE REFERENCE ONLY: fine grayscale anatomical exposed muscle fibers/tendons, matte fabric and pure white background. Do NOT copy its bench/poses/chest highlights. Realistic adult MALE, same face/proportions/camera/equipment across phases. Entire exposed arms/legs/face/hands grayscale not flesh-colored. Fully OPAQUE matte BLACK sleeveless shirt wraps torso FRONT SIDES BACK and abdomen; opaque loose BLACK knee-length shorts cover BOTH upper thighs FRONT SIDES REAR SEAT and CROTCH, closed hems, broad fabric folds/stitched seams. NO cutaways, transparent panels, bare buttocks, muscle fibers or anatomical divisions in clothing. Red under clothes is ONLY faint smooth BLURRY red print on black fabric, with black folds crossing tint. Black trainers; soft contact shadows on white background. Full figures, all fingers/feet/bells/mat within each panel, broad white margins and gutters, no objects touching frame. No words/captions/numbers/arrows/logos. TWO equal SIDE-BY-SIDE panels KETTLEBELL SWING. Same SIDE three-quarter view, model faces IMAGE LEFT. Feet shoulder-width planted with slight toe turnout, same foot positions. Exactly ONE gray kettlebell gripped with BOTH hands side-by-side securely around arched handle, round bell hangs below handle. LEFT backswing: hinge strongly at hips, hips pushed BACK, knees slightly bent (not deep squat), flat neutral back, head aligned with torso; both long straight arms point down/back BETWEEN upper legs holding bell in backswing behind knees, clear of groin/knees. RIGHT terminal forward swing: stand tall hips/knees extended, ribs stacked over pelvis, no leanback; BOTH arms straight reaching horizontally forward IMAGE LEFT at SHOULDER height, bell fully in frame slightly below hands. Hip-driven swing, no elbow curl or overhead lift. Only primary GLUTEALS red as faint diffuse tint on fully intact BLACK rear/side shorts; arms/thighs/calf muscles gray, no chest/shoulder red. Bell same size/grip, neutral wrists, all anatomy and opaque seat/crotch fully covered.",
+          "inspectionNote": "Two swing phases retain one bell with bilateral grip, hip hinge, tall forward endpoint, fully opaque clothing and red tint on rear shorts. Initial bell hangs below knees rather than true backswing.",
+          "blockingIssues": [
+            "First panel bell is low vertical hang rather than high backswing between/behind thighs; correct backswing path before publication."
+          ],
+          "canonicalName": "kettlebell swing",
+          "styleVersion": "white-v1",
+          "equipment": "kettlebell",
+          "primaryMuscles": [
+            "glutes"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Two swing phases retain one bell with bilateral grip, hip hinge, tall forward endpoint, fully opaque clothing and red tint on rear shorts. Initial bell hangs below knees rather than true backswing.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0549-male-anatomical-white-v1-p1-74fb8b9dc757.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 26958,
+              "sha256": "74fb8b9dc757f5a4fd4b4fda766f921cc32e4053c118e18bc3b6801f9884b752"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0549-male-anatomical-white-v1-p2-a758f944e682.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 24852,
+              "sha256": "a758f944e68282965b0bfb2180c2b7a4a6de2a2965ff240ee6b0ff09a52f8868"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0549-male-anatomical-white-v1-thumb-9226ac4806a0.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 2766,
+            "sha256": "9226ac4806a0451e8217576f209afb62c51779ad5fdc2d71aa5b4da5d3a87246"
+          },
+          "processingSignature": "d7f34a1267c2953171abbb8e53065cee50568c21d9fb44ced60f98ded6d347bd",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0549-male-anatomical-white-v1.png",
+            "width": 1774,
+            "height": 887,
+            "bytes": 1699155,
+            "sha256": "a49dab44a3bb6d702f349d0e37946a5ceaf0cd8f4b3fe88551cb2f9b3e381a6d"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "0549",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hinge hips back as the kettlebell swings between legs"
+        },
+        {
+          "key": "p2",
+          "caption": "Extend hips to propel the kettlebell to shoulder height with straight arms"
+        }
+      ],
+      "detail": "TWO equal SIDE-BY-SIDE panels KETTLEBELL SWING. Same SIDE three-quarter view, model faces IMAGE LEFT. Feet shoulder-width planted with slight toe turnout, same foot positions. Exactly ONE gray kettlebell gripped with BOTH hands side-by-side securely around arched handle, round bell hangs below handle. LEFT backswing: hinge strongly at hips, hips pushed BACK, knees slightly bent (not deep squat), flat neutral back, head aligned with torso; both long straight arms point down/back BETWEEN upper legs holding bell in backswing behind knees, clear of groin/knees. RIGHT terminal forward swing: stand tall hips/knees extended, ribs stacked over pelvis, no leanback; BOTH arms straight reaching horizontally forward IMAGE LEFT at SHOULDER height, bell fully in frame slightly below hands. Hip-driven swing, no elbow curl or overhead lift. Only primary GLUTEALS red as faint diffuse tint on fully intact BLACK rear/side shorts; arms/thighs/calf muscles gray, no chest/shoulder red. Bell same size/grip, neutral wrists, all anatomy and opaque seat/crotch fully covered.",
+      "variant": "female",
+      "key": "0549-female-anatomical-white-v1",
+      "prompt": "Scientific-educational ORIGINAL exercise illustration. Attached original project artwork is STYLE REFERENCE ONLY: fine grayscale anatomical exposed muscle fibers/tendons, matte fabric and pure white background. Do NOT copy its bench/poses/chest highlights. Realistic adult FEMALE, same face/proportions/camera/equipment across phases. Entire exposed arms/legs/face/hands grayscale not flesh-colored. Fully OPAQUE matte BLACK sleeveless shirt wraps torso FRONT SIDES BACK and abdomen; opaque loose BLACK knee-length shorts cover BOTH upper thighs FRONT SIDES REAR SEAT and CROTCH, closed hems, broad fabric folds/stitched seams. NO cutaways, transparent panels, bare buttocks, muscle fibers or anatomical divisions in clothing. Red under clothes is ONLY faint smooth BLURRY red print on black fabric, with black folds crossing tint. Black trainers; soft contact shadows on white background. Full figures, all fingers/feet/bells/mat within each panel, broad white margins and gutters, no objects touching frame. No words/captions/numbers/arrows/logos. TWO equal SIDE-BY-SIDE panels KETTLEBELL SWING. Same SIDE three-quarter view, model faces IMAGE LEFT. Feet shoulder-width planted with slight toe turnout, same foot positions. Exactly ONE gray kettlebell gripped with BOTH hands side-by-side securely around arched handle, round bell hangs below handle. LEFT backswing: hinge strongly at hips, hips pushed BACK, knees slightly bent (not deep squat), flat neutral back, head aligned with torso; both long straight arms point down/back BETWEEN upper legs holding bell in backswing behind knees, clear of groin/knees. RIGHT terminal forward swing: stand tall hips/knees extended, ribs stacked over pelvis, no leanback; BOTH arms straight reaching horizontally forward IMAGE LEFT at SHOULDER height, bell fully in frame slightly below hands. Hip-driven swing, no elbow curl or overhead lift. Only primary GLUTEALS red as faint diffuse tint on fully intact BLACK rear/side shorts; arms/thighs/calf muscles gray, no chest/shoulder red. Bell same size/grip, neutral wrists, all anatomy and opaque seat/crotch fully covered.",
+      "inspectionNote": "Female swing pair retains straight-arm bilateral grip, bell behind knees at hinge and shoulder-height forward endpoint, opaque black rear/seat/crotch coverage and gluteal tint. Qualified backswing clearance/path, hinge depth, grip and anatomy review pending.",
+      "canonicalName": "kettlebell swing",
+      "styleVersion": "white-v1",
+      "equipment": "kettlebell",
+      "primaryMuscles": [
+        "glutes"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Female swing pair retains straight-arm bilateral grip, bell behind knees at hinge and shoulder-height forward endpoint, opaque black rear/seat/crotch coverage and gluteal tint. Qualified backswing clearance/path, hinge depth, grip and anatomy review pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0549-female-anatomical-white-v1-p1-0ae16e5c7a1f.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 25752,
+          "sha256": "0ae16e5c7a1fdba2b640566b8d4a43bb8f9263d8a5880b686aa39364eff44a0a"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0549-female-anatomical-white-v1-p2-a2ea7a25a928.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 25608,
+          "sha256": "a2ea7a25a92825f4ff7d215c7865537ddcf0ee97e6be582da24396c77d892ba8"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0549-female-anatomical-white-v1-thumb-52f5105e61e0.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2538,
+        "sha256": "52f5105e61e032602083962bcdd99ac74a96742b0e7436180d839bd445217fdb"
+      },
+      "processingSignature": "e372aefaf34adc36bc8955aa604643be37baec89248b9f0f67b44e4ff117193a",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0549-female-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1564448,
+        "sha256": "d942e45a895bae312d147e05ec018d4d847f23f78addb4deee9cd8576e156dc0"
+      }
+    },
+    {
+      "exerciseId": "0550",
+      "layout": {
+        "columns": 3,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand holding one kettlebell at chest with both hands"
+        },
+        {
+          "key": "p2",
+          "caption": "Squat while keeping kettlebell close to chest and heels planted"
+        },
+        {
+          "key": "p3",
+          "caption": "Drive to standing and press the kettlebell overhead"
+        }
+      ],
+      "detail": "THREE equal SIDE-BY-SIDE panels KETTLEBELL THRUSTER. Same FRONT three-quarter view, feet shoulder-width slight toe turnout same planted footprint. Exactly ONE gray kettlebell per panel, BOTH hands hold opposite sides/horns of its arched handle, palms face each other, round mass hangs below handle. LEFT upright goblet rack close to chest elbows bent down. MIDDLE squat hips down/back thighs about parallel, knees track toes, heels flat, chest up/neutral spine, bell remains close to chest SAME bilateral grip. RIGHT drive hips/knees straight to stand and press SAME ONE bell above head with BOTH arms fully extended, neutral ribcage/pelvis, no lumbar arch, no jump/re-dip; palms still face each other holding handle horns. Same bell size; hand-handle contact secure, not two bells. PRIMARY both DELTOID shoulder caps exposed RED only; quadriceps/glutes/arms otherwise gray, shorts black no tint, shirt black. All fingers, overhead bell, shoes and full body inside each own panel.",
+      "variant": "male",
+      "key": "0550-male-anatomical-white-v1",
+      "prompt": "Scientific-educational ORIGINAL exercise illustration. Attached original project artwork is STYLE REFERENCE ONLY: fine grayscale anatomical exposed muscle fibers/tendons, matte fabric and pure white background. Do NOT copy its bench/poses/chest highlights. Realistic adult MALE, same face/proportions/camera/equipment across phases. Entire exposed arms/legs/face/hands grayscale not flesh-colored. Fully OPAQUE matte BLACK sleeveless shirt wraps torso FRONT SIDES BACK and abdomen; opaque loose BLACK knee-length shorts cover BOTH upper thighs FRONT SIDES REAR SEAT and CROTCH, closed hems, broad fabric folds/stitched seams. NO cutaways, transparent panels, bare buttocks, muscle fibers or anatomical divisions in clothing. Red under clothes is ONLY faint smooth BLURRY red print on black fabric, with black folds crossing tint. Black trainers; soft contact shadows on white background. Full figures, all fingers/feet/bells/mat within each panel, broad white margins and gutters, no objects touching frame. No words/captions/numbers/arrows/logos. THREE equal SIDE-BY-SIDE panels KETTLEBELL THRUSTER. Same FRONT three-quarter view, feet shoulder-width slight toe turnout same planted footprint. Exactly ONE gray kettlebell per panel, BOTH hands hold opposite sides/horns of its arched handle, palms face each other, round mass hangs below handle. LEFT upright goblet rack close to chest elbows bent down. MIDDLE squat hips down/back thighs about parallel, knees track toes, heels flat, chest up/neutral spine, bell remains close to chest SAME bilateral grip. RIGHT drive hips/knees straight to stand and press SAME ONE bell above head with BOTH arms fully extended, neutral ribcage/pelvis, no lumbar arch, no jump/re-dip; palms still face each other holding handle horns. Same bell size; hand-handle contact secure, not two bells. PRIMARY both DELTOID shoulder caps exposed RED only; quadriceps/glutes/arms otherwise gray, shorts black no tint, shirt black. All fingers, overhead bell, shoes and full body inside each own panel.",
+      "inspectionNote": "Male thruster shows one-bell bilateral goblet rack, squat and standing overhead press with both deltoids highlighted and opaque torso/seat/crotch coverage. Grip, overhead elbow extension, knee tracking and leg-to-arm sequencing require human review.",
+      "canonicalName": "kettlebell thruster",
+      "styleVersion": "white-v1",
+      "equipment": "kettlebell",
+      "primaryMuscles": [
+        "delts"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Male thruster shows one-bell bilateral goblet rack, squat and standing overhead press with both deltoids highlighted and opaque torso/seat/crotch coverage. Grip, overhead elbow extension, knee tracking and leg-to-arm sequencing require human review.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0550-male-anatomical-white-v1-p1-115c1363498d.webp",
+          "width": 591,
+          "height": 887,
+          "bytes": 22128,
+          "sha256": "115c1363498db78ab9d6f3fa64f95c8b738f6f3edbfead779a687f9e29a9aa82"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0550-male-anatomical-white-v1-p2-9343f6d5135e.webp",
+          "width": 592,
+          "height": 887,
+          "bytes": 21336,
+          "sha256": "9343f6d5135eb928777b21964fe16d855f4a4fad400005c7b58a434fe5249b5d"
+        },
+        {
+          "pose": "p3",
+          "path": "/workout/illustration-pilot/0550-male-anatomical-white-v1-p3-91fbdc605a0f.webp",
+          "width": 591,
+          "height": 887,
+          "bytes": 21606,
+          "sha256": "91fbdc605a0f51bf82e7ce4d9f8a85de9fbbebc3627bd03827a046be5f5c4547"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0550-male-anatomical-white-v1-thumb-63c3d2186180.webp",
+        "width": 160,
+        "height": 240,
+        "bytes": 2384,
+        "sha256": "63c3d218618052364697c69879931cc8583283d31e0ed02fa8fe02c5eef0946b"
+      },
+      "processingSignature": "40dcc453cde9a4f54d93607277f8bec243763dbc2eb35d15be00738d218ebf27",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0550-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1592672,
+        "sha256": "843a65c9f319e13a91f3a32c8b4fb61acc8d8676c3f3c6d47b6fe6d6c6a1d4fb"
+      }
+    },
+    {
+      "exerciseId": "0550",
+      "layout": {
+        "columns": 3,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand holding one kettlebell at chest with both hands"
+        },
+        {
+          "key": "p2",
+          "caption": "Squat while keeping kettlebell close to chest and heels planted"
+        },
+        {
+          "key": "p3",
+          "caption": "Drive to standing and press the kettlebell overhead"
+        }
+      ],
+      "detail": "THREE equal SIDE-BY-SIDE panels KETTLEBELL THRUSTER. Same FRONT three-quarter view, feet shoulder-width slight toe turnout same planted footprint. Exactly ONE gray kettlebell per panel, BOTH hands hold opposite sides/horns of its arched handle, palms face each other, round mass hangs below handle. LEFT upright goblet rack close to chest elbows bent down. MIDDLE squat hips down/back thighs about parallel, knees track toes, heels flat, chest up/neutral spine, bell remains close to chest SAME bilateral grip. RIGHT drive hips/knees straight to stand and press SAME ONE bell above head with BOTH arms fully extended, neutral ribcage/pelvis, no lumbar arch, no jump/re-dip; palms still face each other holding handle horns. Same bell size; hand-handle contact secure, not two bells. PRIMARY both DELTOID shoulder caps exposed RED only; quadriceps/glutes/arms otherwise gray, shorts black no tint, shirt black. All fingers, overhead bell, shoes and full body inside each own panel.",
+      "variant": "female",
+      "key": "0550-female-anatomical-white-v1",
+      "prompt": "Scientific-educational ORIGINAL exercise illustration. Attached original project artwork is STYLE REFERENCE ONLY: fine grayscale anatomical exposed muscle fibers/tendons, matte fabric and pure white background. Do NOT copy its bench/poses/chest highlights. Realistic adult FEMALE, same face/proportions/camera/equipment across phases. Entire exposed arms/legs/face/hands grayscale not flesh-colored. Fully OPAQUE matte BLACK sleeveless shirt wraps torso FRONT SIDES BACK and abdomen; opaque loose BLACK knee-length shorts cover BOTH upper thighs FRONT SIDES REAR SEAT and CROTCH, closed hems, broad fabric folds/stitched seams. NO cutaways, transparent panels, bare buttocks, muscle fibers or anatomical divisions in clothing. Red under clothes is ONLY faint smooth BLURRY red print on black fabric, with black folds crossing tint. Black trainers; soft contact shadows on white background. Full figures, all fingers/feet/bells/mat within each panel, broad white margins and gutters, no objects touching frame. No words/captions/numbers/arrows/logos. THREE equal SIDE-BY-SIDE panels KETTLEBELL THRUSTER. Same FRONT three-quarter view, feet shoulder-width slight toe turnout same planted footprint. Exactly ONE gray kettlebell per panel, BOTH hands hold opposite sides/horns of its arched handle, palms face each other, round mass hangs below handle. LEFT upright goblet rack close to chest elbows bent down. MIDDLE squat hips down/back thighs about parallel, knees track toes, heels flat, chest up/neutral spine, bell remains close to chest SAME bilateral grip. RIGHT drive hips/knees straight to stand and press SAME ONE bell above head with BOTH arms fully extended, neutral ribcage/pelvis, no lumbar arch, no jump/re-dip; palms still face each other holding handle horns. Same bell size; hand-handle contact secure, not two bells. PRIMARY both DELTOID shoulder caps exposed RED only; quadriceps/glutes/arms otherwise gray, shorts black no tint, shirt black. All fingers, overhead bell, shoes and full body inside each own panel.",
+      "inspectionNote": "Female thruster has one-bell bilateral rack/squat/standing-overhead phases with both deltoids red, opaque coverage, whole shoes and bell framed. Human grip, elbow extension, knee tracking, squat depth and leg-drive review pending.",
+      "canonicalName": "kettlebell thruster",
+      "styleVersion": "white-v1",
+      "equipment": "kettlebell",
+      "primaryMuscles": [
+        "delts"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Female thruster has one-bell bilateral rack/squat/standing-overhead phases with both deltoids red, opaque coverage, whole shoes and bell framed. Human grip, elbow extension, knee tracking, squat depth and leg-drive review pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0550-female-anatomical-white-v1-p1-89dcc5c26242.webp",
+          "width": 591,
+          "height": 887,
+          "bytes": 19672,
+          "sha256": "89dcc5c26242e71f6b64d1ec1089abf091b946cfe2abf3bb8ff3b9bd4f989609"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0550-female-anatomical-white-v1-p2-2f85135eae49.webp",
+          "width": 592,
+          "height": 887,
+          "bytes": 20278,
+          "sha256": "2f85135eae491f97d399a2d0db9391f7b1e644e88eef2bf34a5526430bee0ca1"
+        },
+        {
+          "pose": "p3",
+          "path": "/workout/illustration-pilot/0550-female-anatomical-white-v1-p3-10326d443348.webp",
+          "width": 591,
+          "height": 887,
+          "bytes": 18792,
+          "sha256": "10326d443348abb572e776eec10814d1d65385a31c96f889faa42a67cedd5b7a"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0550-female-anatomical-white-v1-thumb-9537de61d168.webp",
+        "width": 160,
+        "height": 240,
+        "bytes": 2178,
+        "sha256": "9537de61d168ab000bb06c33fc6ee9a534d75a4315c91958204c451c81bf864e"
+      },
+      "processingSignature": "0bbf798afcdf1999d1775a15ef409d24fee4374b91d5ad2f8968d115f61bfeec",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0550-female-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1706708,
+        "sha256": "ecf89b0e054bd52f50032e1920c69a07ca6288f8791412e80ff076fb3ffe3c1d"
+      }
+    },
+    {
+      "exerciseId": "0559",
+      "layout": {
+        "columns": 1,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Lie supine and gently draw one knee toward chest while opposite leg rests straight; hold then switch sides"
+        }
+      ],
+      "detail": "ONE single spacious full-body SIDE VIEW of static KNEE TO CHEST STRETCH, bodyweight, thin full gray mat. Model lies SUPINE head IMAGE LEFT supported naturally on mat, shoulders relaxed flat. ONE knee flexed and drawn gently toward chest, BOTH hands clasp together BEHIND that thigh to guide stretch (not compress knee joint). Other leg remains fully STRAIGHT relaxed flat on mat pointing IMAGE RIGHT; heel and calf supported. Pelvis stable, no neck lift or crunch, no torso twist, breathing relaxed. Bent foot relaxed off floor, both knees and both feet distinguishable, no extra limb. Hold posture only, no multiple phases. PRIMARY bent-leg GLUTEAL faint diffuse red PRINT on intact BLACK rear/side shorts; no buttock muscle window or red on knee/abs; exposed limbs gray. Opaque full-length shirt/shorts coverage even across raised thigh and crotch, seams/folds visible. Entire mat/body/hands and long extended foot within ample WHITE margin.",
+      "variant": "male",
+      "key": "0559-male-anatomical-white-v1",
+      "prompt": "Scientific-educational ORIGINAL exercise illustration. Attached original project artwork is STYLE REFERENCE ONLY: fine grayscale anatomical exposed muscle fibers/tendons, matte fabric and pure white background. Do NOT copy its bench/poses/chest highlights. Realistic adult MALE, same face/proportions/camera/equipment across phases. Entire exposed arms/legs/face/hands grayscale not flesh-colored. Fully OPAQUE matte BLACK sleeveless shirt wraps torso FRONT SIDES BACK and abdomen; opaque loose BLACK knee-length shorts cover BOTH upper thighs FRONT SIDES REAR SEAT and CROTCH, closed hems, broad fabric folds/stitched seams. NO cutaways, transparent panels, bare buttocks, muscle fibers or anatomical divisions in clothing. Red under clothes is ONLY faint smooth BLURRY red print on black fabric, with black folds crossing tint. Black trainers; soft contact shadows on white background. Full figures, all fingers/feet/bells/mat within each panel, broad white margins and gutters, no objects touching frame. No words/captions/numbers/arrows/logos. ONE single spacious full-body SIDE VIEW of static KNEE TO CHEST STRETCH, bodyweight, thin full gray mat. Model lies SUPINE head IMAGE LEFT supported naturally on mat, shoulders relaxed flat. ONE knee flexed and drawn gently toward chest, BOTH hands clasp together BEHIND that thigh to guide stretch (not compress knee joint). Other leg remains fully STRAIGHT relaxed flat on mat pointing IMAGE RIGHT; heel and calf supported. Pelvis stable, no neck lift or crunch, no torso twist, breathing relaxed. Bent foot relaxed off floor, both knees and both feet distinguishable, no extra limb. Hold posture only, no multiple phases. PRIMARY bent-leg GLUTEAL faint diffuse red PRINT on intact BLACK rear/side shorts; no buttock muscle window or red on knee/abs; exposed limbs gray. Opaque full-length shirt/shorts coverage even across raised thigh and crotch, seams/folds visible. Entire mat/body/hands and long extended foot within ample WHITE margin.",
+      "inspectionNote": "Single static male knee-to-chest hold: head/shoulders supported, one bent knee guided behind thigh, opposite leg straight on mat, opaque raised-thigh/seat/crotch clothing and glute tint. Hold/switch instruction remains outside image. Human grip, stretch range and anatomy review pending.",
+      "canonicalName": "knee to chest stretch",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "glutes"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Single static male knee-to-chest hold: head/shoulders supported, one bent knee guided behind thigh, opposite leg straight on mat, opaque raised-thigh/seat/crotch clothing and glute tint. Hold/switch instruction remains outside image. Human grip, stretch range and anatomy review pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0559-male-anatomical-white-v1-p1-d00d896c069a.webp",
+          "width": 1200,
+          "height": 600,
+          "bytes": 33396,
+          "sha256": "d00d896c069aa088d1db7ac71d4a327440037d73605d514c06b4e8cbc97ad79d"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0559-male-anatomical-white-v1-thumb-52d1efb382d3.webp",
+        "width": 240,
+        "height": 120,
+        "bytes": 1932,
+        "sha256": "52d1efb382d39f93065fddf16ae86a030a076887b7ea8d391880995c34591ed3"
+      },
+      "processingSignature": "6d3ce42b80062c096dd51c4de1a0a654f4e43d0ae75f5e5aa94b75b18a09e697",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0559-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1824283,
+        "sha256": "a1e9baca57f14035169cddf1ba32a8eaffbb41978a0ef6310f870aaa96a66c4c"
+      }
+    },
+    {
+      "exerciseId": "0559",
+      "layout": {
+        "columns": 1,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Lie supine and gently draw one knee toward chest while opposite leg rests straight; hold then switch sides"
+        }
+      ],
+      "detail": "ONE single spacious full-body SIDE VIEW of static KNEE TO CHEST STRETCH, bodyweight, thin full gray mat. Model lies SUPINE head IMAGE LEFT supported naturally on mat, shoulders relaxed flat. ONE knee flexed and drawn gently toward chest, BOTH hands clasp together BEHIND that thigh to guide stretch (not compress knee joint). Other leg remains fully STRAIGHT relaxed flat on mat pointing IMAGE RIGHT; heel and calf supported. Pelvis stable, no neck lift or crunch, no torso twist, breathing relaxed. Bent foot relaxed off floor, both knees and both feet distinguishable, no extra limb. Hold posture only, no multiple phases. PRIMARY bent-leg GLUTEAL faint diffuse red PRINT on intact BLACK rear/side shorts; no buttock muscle window or red on knee/abs; exposed limbs gray. Opaque full-length shirt/shorts coverage even across raised thigh and crotch, seams/folds visible. Entire mat/body/hands and long extended foot within ample WHITE margin.",
+      "variant": "female",
+      "key": "0559-female-anatomical-white-v2",
+      "prompt": "Correct ONLY head/neck support in this original single-pose female knee-to-chest stretch illustration. Her head currently floats above mat. Lower back of skull/OCCIPUT to rest directly on SAME flat gray mat at same ground plane as shoulders, let neck relax neutrally and gaze naturally toward ceiling. Move/rearrange ponytail sideways onto mat so hair does not prop head up. No pillow or raised support, no crunch or chin-to-chest lift. Keep shoulders/back/pelvis resting, both hands behind bent thigh, same bent leg and other fully straight relaxed leg exactly. Preserve face identity, fine grayscale anatomical detail on exposed limbs, exact fully OPAQUE BLACK shirt and knee-length shorts wrapping front/sides/back/seat/crotch and faint red glute tint, mat, white background, full figure framing. Change only head/neck/hair position needed to create relaxed supported lying posture. No text.",
+      "inspectionNote": "Head lowered and ponytail spread on mat, improving relaxed supported neck posture without altering leg hold or opaque clothing. Qualified occiput support, neck alignment, stretch range and anatomy review still pending.",
+      "canonicalName": "knee to chest stretch",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "glutes"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Head lowered and ponytail spread on mat, improving relaxed supported neck posture without altering leg hold or opaque clothing. Qualified occiput support, neck alignment, stretch range and anatomy review still pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0559-female-anatomical-white-v2-p1-eb3a57b9c281.webp",
+          "width": 1200,
+          "height": 600,
+          "bytes": 28120,
+          "sha256": "eb3a57b9c28151a2cff1f1ed4ab70a563bcbf894ca65df4f37b7c4a4d16c4576"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0559-female-anatomical-white-v2-thumb-0fb423abf743.webp",
+        "width": 240,
+        "height": 120,
+        "bytes": 1978,
+        "sha256": "0fb423abf74376addde3d9e315a32cdd09891cff2a79f41f9a599b6b68dc7fa4"
+      },
+      "processingSignature": "850ca095c946419bc59898f70bad7825833ea21db5e0a59bcf16883e8f5252e4",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0559-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1704952,
+        "sha256": "064ef64cd9ee7367bf85c06d30cff58d202837038f4121b27dced0fc59816d73"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0559",
+          "layout": {
+            "columns": 1,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Lie supine and gently draw one knee toward chest while opposite leg rests straight; hold then switch sides"
+            }
+          ],
+          "detail": "ONE single spacious full-body SIDE VIEW of static KNEE TO CHEST STRETCH, bodyweight, thin full gray mat. Model lies SUPINE head IMAGE LEFT supported naturally on mat, shoulders relaxed flat. ONE knee flexed and drawn gently toward chest, BOTH hands clasp together BEHIND that thigh to guide stretch (not compress knee joint). Other leg remains fully STRAIGHT relaxed flat on mat pointing IMAGE RIGHT; heel and calf supported. Pelvis stable, no neck lift or crunch, no torso twist, breathing relaxed. Bent foot relaxed off floor, both knees and both feet distinguishable, no extra limb. Hold posture only, no multiple phases. PRIMARY bent-leg GLUTEAL faint diffuse red PRINT on intact BLACK rear/side shorts; no buttock muscle window or red on knee/abs; exposed limbs gray. Opaque full-length shirt/shorts coverage even across raised thigh and crotch, seams/folds visible. Entire mat/body/hands and long extended foot within ample WHITE margin.",
+          "variant": "female",
+          "key": "0559-female-anatomical-white-v1",
+          "prompt": "Scientific-educational ORIGINAL exercise illustration. Attached original project artwork is STYLE REFERENCE ONLY: fine grayscale anatomical exposed muscle fibers/tendons, matte fabric and pure white background. Do NOT copy its bench/poses/chest highlights. Realistic adult FEMALE, same face/proportions/camera/equipment across phases. Entire exposed arms/legs/face/hands grayscale not flesh-colored. Fully OPAQUE matte BLACK sleeveless shirt wraps torso FRONT SIDES BACK and abdomen; opaque loose BLACK knee-length shorts cover BOTH upper thighs FRONT SIDES REAR SEAT and CROTCH, closed hems, broad fabric folds/stitched seams. NO cutaways, transparent panels, bare buttocks, muscle fibers or anatomical divisions in clothing. Red under clothes is ONLY faint smooth BLURRY red print on black fabric, with black folds crossing tint. Black trainers; soft contact shadows on white background. Full figures, all fingers/feet/bells/mat within each panel, broad white margins and gutters, no objects touching frame. No words/captions/numbers/arrows/logos. ONE single spacious full-body SIDE VIEW of static KNEE TO CHEST STRETCH, bodyweight, thin full gray mat. Model lies SUPINE head IMAGE LEFT supported naturally on mat, shoulders relaxed flat. ONE knee flexed and drawn gently toward chest, BOTH hands clasp together BEHIND that thigh to guide stretch (not compress knee joint). Other leg remains fully STRAIGHT relaxed flat on mat pointing IMAGE RIGHT; heel and calf supported. Pelvis stable, no neck lift or crunch, no torso twist, breathing relaxed. Bent foot relaxed off floor, both knees and both feet distinguishable, no extra limb. Hold posture only, no multiple phases. PRIMARY bent-leg GLUTEAL faint diffuse red PRINT on intact BLACK rear/side shorts; no buttock muscle window or red on knee/abs; exposed limbs gray. Opaque full-length shirt/shorts coverage even across raised thigh and crotch, seams/folds visible. Entire mat/body/hands and long extended foot within ample WHITE margin.",
+          "inspectionNote": "Single female hold retains behind-thigh support, opposite straight leg, opaque raised-thigh/seat/crotch clothing and gluteal tint. Head appears elevated above mat and needs support correction.",
+          "blockingIssues": [
+            "Head/occiput appears suspended above mat rather than relaxed on mat; correct neutral supported head/neck before publication."
+          ],
+          "canonicalName": "knee to chest stretch",
+          "styleVersion": "white-v1",
+          "equipment": "body weight",
+          "primaryMuscles": [
+            "glutes"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Single female hold retains behind-thigh support, opposite straight leg, opaque raised-thigh/seat/crotch clothing and gluteal tint. Head appears elevated above mat and needs support correction.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0559-female-anatomical-white-v1-p1-a573e4d1d446.webp",
+              "width": 1200,
+              "height": 600,
+              "bytes": 28786,
+              "sha256": "a573e4d1d446ef7ca514e007b0a33f42136d04ee778213f5abea02603d31574e"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0559-female-anatomical-white-v1-thumb-1a0a75d95d62.webp",
+            "width": 240,
+            "height": 120,
+            "bytes": 1990,
+            "sha256": "1a0a75d95d6296568862c39c34fb26fe04eceb1e712c51268142a2a980cd6257"
+          },
+          "processingSignature": "65500178d1c07e2ce7092d9768807933e42aa8d0ef22aadd06b6af89b6c7dfe9",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0559-female-anatomical-white-v1.png",
+            "width": 1774,
+            "height": 887,
+            "bytes": 1772033,
+            "sha256": "cc9d2cfd19753fffafea8cedce447b21ca887a09e910a32f7b7e8d11ffb4eb26"
+          }
+        }
+      ]
+    }
+  ]
+}

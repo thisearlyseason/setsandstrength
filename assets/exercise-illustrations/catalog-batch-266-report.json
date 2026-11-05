@@ -1,0 +1,78 @@
+{
+  "batch": 266,
+  "runId": "2536aa3d-3dd1-498c-b855-ebcd6635e2cf",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "trigger": "2026-11-03T23:08:24.406Z",
+  "purpose": "batch266 scheduled male continuation",
+  "started": "2026-11-03T23:08:50.003639+00:00",
+  "completedAt": "2026-11-03T23:16:13.827839+00:00",
+  "actualToolName": "image_gen__imagegen",
+  "calls": 4,
+  "newCandidateSets": 4,
+  "exerciseIds": [
+    "2154",
+    "2155",
+    "2157",
+    "2158"
+  ],
+  "variants": [
+    "male"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 937,
+    "remainingVariants": 10327,
+    "approvedVariants": 0,
+    "blockedVariants": 300,
+    "knownPoseImages": 1772,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 564,
+      "remainingVariants": 5068,
+      "blockedVariants": 181
+    }
+  },
+  "reviewNotes": {
+    "2154": "Distinct lowered and raised bridge, head and shoulders resting on floor, palms supported and both feet planted. Loop band above knees, knees separated and plain glute tint on opaque shorts. Qualified review of posterior pelvic tilt/no lumbar arch, band pressure/tension, shoulder-hip-knee alignment and muscle mapping.",
+    "2155": "Kneeling side-plank setup with band above knees, support elbow/forearm grounded and opposite hand on hip. Pelvis appears low/near floor rather than lifted into straight knee-hip-head alignment; block for hip lift correction. Top knee slightly open, red abdominal tint on intact tank. Qualified review of lower-knee support, band tension, neck and working-side mapping.",
+    "2157": "Two distinct side-lying straight-leg positions with ankle loop band, top leg abducted against band and lower leg on floor. Head supported on lower hand and top palm grounded. Red on top lateral hip over intact shorts. Qualified review needed for hip stacking, toe direction, no backward roll, band contact/tension and abductor mapping.",
+    "2158": "Two single-leg bridge positions, one planted foot, free foot lifted, band above thighs, head/shoulders floor supported and pelvis raised in second pose. Free-leg knee/thigh alignment is ambiguous at lowered start rather than clearly straight in line; qualified review required for leg tracing, knee extension, band routing, pelvis level, hip range and working-glute mapping. Clothing intact."
+  },
+  "blockingIssues": {
+    "2155": [
+      "Pelvis low/near floor rather than lifted into straight knee-hip-head side-plank alignment; correct hip lift."
+    ]
+  },
+  "tests": 7,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "workerSyncResult": {
+    "statuses": {
+      "generated": 937,
+      "pending": 10327
+    },
+    "remaining": 10327,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 1444425823
+  },
+  "publicationIndexUnchanged": true,
+  "savedMasters": [
+    "assets/exercise-illustrations/generated/2154-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/2155-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/2157-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/2158-male-anatomical-white-v1.png"
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "batch": 84,
+  "trigger": "2026-11-01T18:23:19.452Z",
+  "completedAt": "2026-11-01T18:29:59.415498+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 4,
+  "generationCalls": 6,
+  "exerciseIds": [
+    "0588",
+    "0590"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 348,
+    "remainingVariants": 10916,
+    "approvedVariants": 0,
+    "blockedVariants": 143,
+    "knownPoseImages": 714,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Four candidate sets with exact prompts, original masters and delivery assets; none approved or published. Narrow neutral-grip seated rows use supported feet, steady seated torsos and elbows drawing back. Both shirt corrections replace fiber-shaped highlights with diffuse upper-back tint on continuous opaque fabric; original masters retained. Row linkage geometry still changes across phases and remains blocked. Unilateral shoulder presses use the same right arm, opposite hand resting, back support, planted feet, overhand grips and working deltoid highlights. Fixed-frame/pivot assemblies change between panels and remain blocked. Clothing wraps torso, sides, seat and crotch. Qualified anatomy, mechanical continuity and technique review remain separate; seven pipeline checks are not anatomy approval. Original project artwork only, no licensed upstream media.",
+  "metadataConflictsDeferred": [
+    {
+      "exerciseId": "0589",
+      "issue": "Lever one-arm name/description conflicts with barbell equipment and bilateral barbell instructions."
+    },
+    {
+      "exerciseId": "0591",
+      "issue": "Description uses seated-style handle depression but instructions lower and raise whole body on dip station; clarify machine/body support."
+    },
+    {
+      "exerciseId": "0593",
+      "issue": "Reverse hyperextension instructions leave upper body unsupported with arms crossed; setup needs clarification."
+    }
+  ],
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 569221492,
+  "savedMasters": [
+    {
+      "exerciseId": "0588",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0588-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1748025,
+        "sha256": "5d5dc80ce8cd217a5b9f38e50e5d52899be952b559edf017393cf06298a4fb5c"
+      }
+    },
+    {
+      "exerciseId": "0588",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0588-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1799801,
+        "sha256": "07feac26365c12bc83aacea3e9316b28c5d53378ad5065a0788f8e8158f6ab38"
+      }
+    },
+    {
+      "exerciseId": "0590",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0590-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1779132,
+        "sha256": "43ae4709868725a4df67d1e0ba1fbba9dae6da27a0aa0ec5fd50788075d11409"
+      }
+    },
+    {
+      "exerciseId": "0590",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0590-female-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1844819,
+        "sha256": "d3bb48d0e766f1d0e9dec66b559bb10334227f4b91cba687cb7a8b5c6adc4e3a"
+      }
+    }
+  ]
+}

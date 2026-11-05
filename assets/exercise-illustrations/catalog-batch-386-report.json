@@ -1,0 +1,58 @@
+{
+  "batch": 386,
+  "runId": "e1b8e7e0-4b07-40b5-bd55-7e720811ec60",
+  "triggerTimestamp": "2026-11-04T17:46:01.807Z",
+  "builtInImageGenAvailable": true,
+  "anatomyReview": "pending",
+  "publication": "none",
+  "generatedIds": [
+    "3568"
+  ],
+  "failure": "3568 red overlay on shorts contains fiber-like striations rather than plain uniform surface wash. Retained and blocked; generation stopped.",
+  "deferred": {
+    "3566": "Prompt saved; deferred after clothing-overlay failure.",
+    "3569": "Prompt saved; deferred after clothing-overlay failure.",
+    "3570": "Wall/top-of-shoulder ball position needs clarification.",
+    "3571": "Not attempted this run.",
+    "3572": "Prompt saved; deferred after clothing-overlay failure."
+  },
+  "coverageAfter": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1380,
+    "remainingVariants": 9884,
+    "approvedVariants": 0,
+    "blockedVariants": 533,
+    "knownPoseImages": 2739,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 1007,
+      "remainingVariants": 4625,
+      "blockedVariants": 414
+    }
+  },
+  "paidWorker": {
+    "statuses": {
+      "generated": 1380,
+      "pending": 9884
+    },
+    "remaining": 9884,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 2097429747
+  },
+  "pipelineTests": "7 passed, 0 failed",
+  "approvedIndexUnchanged": true,
+  "existingUserApprovalsPreserved": 1306
+}

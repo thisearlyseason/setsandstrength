@@ -1,0 +1,98 @@
+{
+  "batch": 93,
+  "trigger": "2026-11-01T20:55:51.085Z",
+  "completedAt": "2026-11-01T21:25:31.004286+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 4,
+  "generationCalls": 8,
+  "exerciseIds": [
+    "0621",
+    "0623"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 384,
+    "remainingVariants": 10880,
+    "approvedVariants": 0,
+    "blockedVariants": 160,
+    "knownPoseImages": 784,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Four candidate sets with ten pose images and four correction masters saved; eight built-in calls. None approved or published. Scissor crunches show hands behind head, elbows open and straight low legs; corrections soften abdominal shirt tint and alter final leg overlap, but opposite top-leg crossing remains uncertain/blocked, with male torso curl high. Alternating raises show arms beside torso, supported head and straight high/low legs. Male correction fails leg identity exchange and remains blocked. Female correction visibly changes raised thigh origin to near/foreground side in second panel while opposite leg lowers, improving exchange; qualified limb continuity and low-foot hover review still needed. Opaque garments continuously cover torso/front/sides/back/seat/crotch, red overlays remain on intact cloth, exposed anatomy grayscale. Originals, exact prompts, corrections and hashes retained. Original project artwork used for style only. Pipeline tests do not constitute anatomy approval.",
+  "metadataConflictsDeferred": [
+    {
+      "exerciseId": "0626",
+      "issue": "Alias of 4288; excluded from canonical generation."
+    },
+    {
+      "exerciseId": "0627",
+      "issue": "Mixed-grip name/description conflict with bilateral underhand instructions; lat target conflicts with upper-back primary map."
+    },
+    {
+      "exerciseId": "0628",
+      "issue": "Equipment says body weight but description/instructions require ankle resistance band; clarify equipment record before generation."
+    }
+  ],
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 631041199,
+  "savedMasters": [
+    {
+      "exerciseId": "0621",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0621-male-anatomical-white-v2.png",
+        "width": 2172,
+        "height": 724,
+        "bytes": 1751621,
+        "sha256": "cf9cd647e25f08bc0142065b07e72d6e2b3d456a26f2cbf9c69cdae007f5f768"
+      }
+    },
+    {
+      "exerciseId": "0621",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0621-female-anatomical-white-v2.png",
+        "width": 2172,
+        "height": 724,
+        "bytes": 1705217,
+        "sha256": "7332491718e2bd68d5c4ea3baef87adbe341408101bf1fd535ba0d527d823b90"
+      }
+    },
+    {
+      "exerciseId": "0623",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0623-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1625035,
+        "sha256": "2a4f3a0508d2b703a151c2637431f9a5b31d98a3bd232cafe44328df13b0641e"
+      }
+    },
+    {
+      "exerciseId": "0623",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0623-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1643448,
+        "sha256": "ef2a301dba4bbc42dbe1f3b6f1554947c6e5fe5561f6fcfd3a266092e11ed9f1"
+      }
+    }
+  ]
+}

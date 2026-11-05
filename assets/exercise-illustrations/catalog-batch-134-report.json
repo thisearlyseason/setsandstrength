@@ -1,0 +1,89 @@
+{
+  "batch": 134,
+  "trigger": "2026-11-03T02:12:55.063Z",
+  "completedAt": "2026-11-03T02:36:20.864168+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 4,
+  "generationCalls": 6,
+  "exerciseIds": [
+    "0807",
+    "0814"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 546,
+    "remainingVariants": 10718,
+    "approvedVariants": 0,
+    "blockedVariants": 205,
+    "knownPoseImages": 1122,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Four candidate sets, eight poses, six built-in calls and two retained corrections. Hanging reverse crunch pairs show straight-arm closed overhand hang with feet airborne, then knees toward chest and pelvic curl. Equal square landscape framing corrected, frame margins expanded, abdominal tint softened on opaque shirt; dark panel borders introduced. Bench dip pairs show straight-arm top and bent-elbow lower phase, hips off bench/back close and feet flat, exposed triceps highlighted. Fine exposed grayscale anatomy and full opaque shirt/shorts retained. Qualified pelvic curl amplitude, grip, shoulder/cervical support, dip wrist/hand edge support, elbow depth/track, shoulder position and foot consistency remain pending. All original masters, exact prompts and correction history saved. No anatomy approval or publication. Original project artwork style only, no upstream media. Pipeline checks do not approve anatomy.",
+  "metadataConflictsDeferred": {
+    "0808": "Overhand grip instruction conflicts with palms facing each other; grip needs clarification.",
+    "0809": "Description rear foot suspended conflicts with instruction extending foot forward into cradle.",
+    "0811": "Description inside trap bar conflicts with bar in front/overhand-grip instructions; setup needs clarification."
+  },
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 884380120,
+  "savedMasters": [
+    {
+      "exerciseId": "0807",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0807-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1339850,
+        "sha256": "505a614871e33ca2b304cf1e345099357cdb24cf7d73c98b889133e958b031d2"
+      }
+    },
+    {
+      "exerciseId": "0807",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0807-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1253830,
+        "sha256": "6214dedcf2c5199a07abeb786b56c141f91c2316246a9ed59e9804bebb078ebf"
+      }
+    },
+    {
+      "exerciseId": "0814",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0814-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1521649,
+        "sha256": "5e24c0d4b9f625b717f091a11ae2d415d1294eda78e4786a7921291947245779"
+      }
+    },
+    {
+      "exerciseId": "0814",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0814-female-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1571100,
+        "sha256": "df651d8909a0d95ae8e3b2f006edafe47e00524972009150dad07d8b4024dcb3"
+      }
+    }
+  ]
+}

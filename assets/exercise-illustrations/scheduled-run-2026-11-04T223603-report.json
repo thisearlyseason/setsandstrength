@@ -1,0 +1,70 @@
+{
+  "runId": "ffb24b1c-d97a-4aa5-b6ec-5e16b370c72a",
+  "triggerTimestamp": "2026-11-04T22:36:03.986Z",
+  "builtInImageGenAvailable": true,
+  "batches": [
+    434,
+    435,
+    436,
+    437
+  ],
+  "generatedMasters": 16,
+  "generatedIds": [
+    "4066",
+    "4071",
+    "4086",
+    "4085",
+    "4088",
+    "4092",
+    "4114",
+    "4115",
+    "4139",
+    "4140",
+    "4152",
+    "4155",
+    "4160",
+    "4172",
+    "4175",
+    "4182"
+  ],
+  "blocked": {
+    "4115": [
+      "Extended-pose cable bypasses center bar clip and connects near hand; hardware continuity incorrect."
+    ],
+    "4140": [
+      "Extended-pose fist and handle clip upper image boundary."
+    ]
+  },
+  "coverageAfter": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1548,
+    "remainingVariants": 9716,
+    "approvedVariants": 0,
+    "blockedVariants": 581,
+    "knownPoseImages": 3111,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 1175,
+      "remainingVariants": 4457,
+      "blockedVariants": 462
+    }
+  },
+  "pipelineTests": "8 passed, 0 failed after each batch",
+  "approvedIndexUnchanged": true,
+  "existingUserApprovalsPreserved": 1306,
+  "publication": "none",
+  "anatomyReview": "pending",
+  "stopReason": "Reached16-master run target in4 consecutive batches.",
+  "styleReference": "assets/exercise-illustrations/generated/0853-male-anatomical-white-v1.png",
+  "nextRunGuidance": "Continue exposed-target male canonical queue, no auto-publication. Exact prompts retained. Blocked4115 cable center connection and4140 upper clipping. Avoid known failed Arnold rotations until corrected.",
+  "deferred": {
+    "4151": "Instructions require upperarms remainvertical and also touchfloor when lowering; conflicting floor skullcrusher mechanics.",
+    "4157": "Seated Tate wording palms facing feet and upperarms close versus elbows flared unclear.",
+    "4119": "Sled triceps extension lacks clear setup and contact geometry; defer."
+  }
+}

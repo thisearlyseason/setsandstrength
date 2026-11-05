@@ -1,0 +1,78 @@
+{
+  "batch": 315,
+  "runId": "0c144e48-c093-490c-8419-5fa80506f7c7",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "trigger": "2026-11-04T07:12:58.315Z",
+  "purpose": "batch315 scheduled male continuation",
+  "started": "2026-11-04T07:13:39.591695+00:00",
+  "completedAt": "2026-11-04T07:25:12.122344+00:00",
+  "actualToolName": "image_gen__imagegen",
+  "calls": 4,
+  "newCandidateSets": 4,
+  "exerciseIds": [
+    "2937",
+    "2940",
+    "2941",
+    "2942"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1128,
+    "remainingVariants": 10136,
+    "approvedVariants": 0,
+    "blockedVariants": 399,
+    "knownPoseImages": 2188,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 755,
+      "remainingVariants": 4877,
+      "blockedVariants": 280
+    }
+  },
+  "reviewNotes": {
+    "2937": "Kneeling forearm support on ball extends forward, knees grounded and opaque clothing with abdomen tint. Back appears arched/neutral with pelvis untucked rather than requested rounded rollout; block spinal/pelvic position correction. Qualified review of ball travel, fixed knee contacts and forearm support required. Human anatomy review pending.",
+    "2940": "Prone forehead supported on towel, same thumb-up arm lifts modestly while torso stays down and clothing opaque. Working arm appears lateral T rather than overhead diagonal Y; block arm-angle correction. Qualified review needed for lower/middle trap mapping and scapular depression/retraction without shrug. Human anatomy review pending.",
+    "2941": "Forearms slide up wall with feet stable and slight lean, elbows extend as reach increases. Serratus tint shows sawtooth anatomy through tank; block fabric correction. Qualified review needed for maintained forearm contact, avoiding lumbar arch and exact serratus mapping. Human anatomy review pending.",
+    "2942": "Same normal kettlebell racks then presses up/out diagonally, torso upright and feet stable; deltoid red only and full opaque clothing. Qualified review needed for comfortable diagonal angle, overhead wrist/elbow stacking, grip and ribs down. Human anatomy review pending."
+  },
+  "blockingIssues": {
+    "2937": [
+      "Correct to slightly rounded back and tucked pelvis throughout rollout; avoid lumbar arch/sag."
+    ],
+    "2940": [
+      "Correct working arm from lateral T to overhead diagonal Y while keeping forehead supported."
+    ],
+    "2941": [
+      "Remove serratus sawtooth anatomy through tank; replace with plain uniform lateral rib color wash over opaque fabric."
+    ]
+  },
+  "deferred": {
+    "2938": "Band anchor/routing for alternating arm lowering needs clarification before pose planning."
+  },
+  "tests": 7,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "workerSyncResult": {
+    "statuses": {
+      "generated": 1128,
+      "pending": 10136
+    },
+    "remaining": 10136,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 1727894298
+  },
+  "publicationIndexUnchanged": true
+}

@@ -1,0 +1,80 @@
+{
+  "batch": 344,
+  "runId": "fe4995ac-953f-4a37-9f9c-bc44d354c602",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "trigger": "2026-11-04T11:44:31.913Z",
+  "purpose": "batch344 scheduled male continuation",
+  "started": "2026-11-04T11:44:47.416868+00:00",
+  "completedAt": "2026-11-04T11:50:19.646590+00:00",
+  "actualToolName": "image_gen__imagegen",
+  "calls": 4,
+  "newCandidateSets": 4,
+  "exerciseIds": [
+    "3310",
+    "3319",
+    "3320",
+    "3321"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1234,
+    "remainingVariants": 10030,
+    "approvedVariants": 0,
+    "blockedVariants": 457,
+    "knownPoseImages": 2417,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 861,
+      "remainingVariants": 4771,
+      "blockedVariants": 338
+    }
+  },
+  "reviewNotes": {
+    "3310": "Flat bench, planted feet and supported head visible, but lower bar hovers near upper chest/face instead of reaching mid chest. Small chest overlay remains on opaque fabric. Qualified grip/wrist review pending.",
+    "3319": "Neutral-grip floor press bottom and top with knees bent, grounded feet and opaque clothing. Head visibly hovers above floor in both phases; correction required. Qualified grip orientation and triceps-floor contact review pending.",
+    "3320": "Chest-supported low incline row with hanging then bent elbows toward hips, planted feet and opaque clothes/plain upper-back wash. Qualified neck extension, grip symmetry and bench support/contact review pending.",
+    "3321": "Band pull-apart starts with straight forward arms then opens to shoulder-height T, band between hands, opaque clothes and deltoid-only highlights. Qualified band grip, elbow softness and rear-deltoid mapping review pending."
+  },
+  "blockingIssues": {
+    "3310": [
+      "Correct lower bar position to mid chest with stacked forearms; current faceward path is misleading."
+    ],
+    "3319": [
+      "Rest head and neck on floor throughout press instead of hovering."
+    ]
+  },
+  "deferred": {
+    "3312": "Weighted muscle-up lacks attachment setup.",
+    "3313": "Straight-bar dip name conflicts with parallel-bar instructions and added weight setup omitted.",
+    "3314": "Straddle Maltese support/body orientation unclear in instructions.",
+    "3315": "Ring Maltese description conflicts with standing forward hinge instructions.",
+    "3316": "Complex sequence and primary-muscle mapping unspecified.",
+    "3318": "Cardiovascular target lacks anatomical primary mapping."
+  },
+  "tests": 7,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "workerSyncResult": {
+    "statuses": {
+      "generated": 1234,
+      "pending": 10030
+    },
+    "remaining": 10030,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 1883514948
+  },
+  "publicationIndexUnchanged": true
+}

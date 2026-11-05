@@ -1,0 +1,572 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "0831",
+      "variant": "male",
+      "key": "0831-male-anatomical-white-v2",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Lie on the back with knees bent and feet flat. Hold a weight securely against the chest."
+        },
+        {
+          "key": "p2",
+          "caption": "Curl the shoulders and shoulder blades off the floor while keeping the pelvis and feet grounded, then lower slowly."
+        }
+      ],
+      "prompt": "Correct original male WEIGHTED CRUNCH two panels. Preserve grounded skull in start. RIGHT preserve small shoulder-blade curl, no full sit-up, knees/feet/pelvis fixed grounded. Plate held securely by both hands snug UPPER CHEST below collarbones, no plate movement toward face. Replace ALL red fibers/rays/sixpack pattern on shirt with ONE smooth diffuse BLURRED abdominal tint over continuous opaque BLACK fabric, broad cloth folds only. Full opaque shorts all front sides back seat crotch, fine exposed grayscale anatomy, same limb lengths. TWO equal SQUARE cells WIDE LANDSCAPE generous head/foot margins white background no text.",
+      "inspectionNote": "Correction softens abdominal tint over opaque fabric; skull grounded at start, plate held against upper chest, shoulder-blade curl with feet and pelvis grounded. Fine exposed anatomy softened somewhat; grip, neck and range require human review. Thin cell borders retained.",
+      "canonicalName": "weighted crunch (bent knee)",
+      "styleVersion": "white-v1",
+      "equipment": "weighted",
+      "primaryMuscles": [
+        "abs"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0831-male-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "status": "generated",
+        "costUSD": null
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Correction softens abdominal tint over opaque fabric; skull grounded at start, plate held against upper chest, shoulder-blade curl with feet and pelvis grounded. Fine exposed anatomy softened somewhat; grip, neck and range require human review. Thin cell borders retained.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0831-male-anatomical-white-v2-p1-2cc1ebf7b530.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 24558,
+          "sha256": "2cc1ebf7b530f5f8b6f4d383ff0d1fb05a3be46145e77ea06663c9d4a860eab7"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0831-male-anatomical-white-v2-p2-ed0b37bb4cd4.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 26340,
+          "sha256": "ed0b37bb4cd4c74a5befb639774768201deaa77e9fa39df5b59dd4319de34e3c"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0831-male-anatomical-white-v2-thumb-02a427749261.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2756,
+        "sha256": "02a427749261911bb609350f241f97ad39048569ca4cbf7f9aa9724a94e2c368"
+      },
+      "processingSignature": "feeb8da30317808750edcb07b5fe712f07974cfd25c4e635a724563e8cf40b6a",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0831-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1409100,
+        "sha256": "3eb79ca6db1285f9307a3e7f82c3e1d8e8fc999c8782ee724dd32abc7b4a9984"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0831",
+          "variant": "male",
+          "key": "0831-male-anatomical-white-v1",
+          "layout": {
+            "columns": 2,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Lie on the back with knees bent and feet flat. Hold a weight securely against the chest."
+            },
+            {
+              "key": "p2",
+              "caption": "Curl the shoulders and shoulder blades off the floor while keeping the pelvis and feet grounded, then lower slowly."
+            }
+          ],
+          "prompt": "Original premium ADULT male exercise anatomy, TWO equal SQUARE cells side by side WIDE LANDSCAPE same model scale/limb lengths. WEIGHTED BENT-KNEE CRUNCH, canonical ID0831. SAME SIDE-FRONT three-quarter camera both cells, HEAD IMAGE LEFT feet IMAGE RIGHT. Thin gray mat. Knees bent90degrees and BOTH feet sole flat floor same exact positions both poses, pelvis grounded no hip lift. Hold ONE modest gray circular WEIGHT PLATE snug against UPPER CHEST BELOW COLLARBONES with BOTH hands firmly gripping opposite edges, never neck/face/abdomen. LEFT START fully SUPINE: back of SKULL DIRECTLY ON MAT, shoulders/scapulae rest mat, eyes ceiling neutral neck, hair swept to side from under skull. RIGHT CRUNCH: curl shoulders/scapulae ONLY10\u201315cm OFF MAT with slight upper-spine flexion, lower back/pelvis stay grounded, head follows spine neutral not chin jammed, no full seated sit-up. Plate stays snug chest and arms hold edges unchanged, NO arms extended or plate floating. Feet/knees/pelvis fixed, same model/limb lengths/scale. Primary ABS ONE smooth diffuse BLURRED red tint on intact opaque abdominal BLACK SHIRT BELOW chest plate, no sixpack/rays/fibers/anatomy through fabric. Fine detailed EXPOSED grayscale muscle contours arms/calves, realistic proportions, equal male/female quality. Reference original project artwork ONLY rendering STYLE, never its bench push-up pose/chest red. Full opaque BLACK athletic shirt and MID-THIGH shorts continuously wrap FRONT SIDES BACK SEAT CROTCH with seams and BROAD cloth folds, no cutaway/transparency/anatomy through clothing. Black shoes. White background soft grounded shadows. Whole mat/plate/body/limbs fully contained EACH cell with generous head/shoe margins, no cross-cell overlap. No embedded captions/text/labels/arrows.",
+          "inspectionNote": "Supine skull grounded start then shoulders/scapulae lifted crunch, knees bent feet/pelvis grounded, plate held chest both hands. Opaque clothes but abdominal highlight has fine rays/fibers; correction required. Detailed exposed anatomy; qualified curl range, plate grip and mapping pending.",
+          "canonicalName": "weighted crunch (bent knee)",
+          "styleVersion": "white-v1",
+          "equipment": "weighted",
+          "primaryMuscles": [
+            "abs"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Supine skull grounded start then shoulders/scapulae lifted crunch, knees bent feet/pelvis grounded, plate held chest both hands. Opaque clothes but abdominal highlight has fine rays/fibers; correction required. Detailed exposed anatomy; qualified curl range, plate grip and mapping pending.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0831-male-anatomical-white-v1-p1-db1b5b5cc5d7.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 34282,
+              "sha256": "db1b5b5cc5d74a997eec6c83dd83abebbd0dd7a2bab3c25910f3d6e5cfc850da"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0831-male-anatomical-white-v1-p2-2e86d1f0ccb6.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 36342,
+              "sha256": "2e86d1f0ccb6b72e4b5ed33b767d39a64fb51ca823bd774b92b53fe0db5190d3"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0831-male-anatomical-white-v1-thumb-9011f2049413.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 2906,
+            "sha256": "9011f2049413ccc64ab4bc100f7485b85d3812ad6f74d16b304c6f3c88b48655"
+          },
+          "processingSignature": "31d8c2defad643485e9c9f7b26459a88b74d94cba8b14073423b8d998b1cfd9f",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0831-male-anatomical-white-v1.png",
+            "width": 1774,
+            "height": 887,
+            "bytes": 1562836,
+            "sha256": "22585dfd7388241f9c4e972fb2ec7173f21891c18165e920c1c79f2d49cdf17b"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "0831",
+      "variant": "female",
+      "key": "0831-female-anatomical-white-v2",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Lie on the back with knees bent and feet flat. Hold a weight securely against the chest."
+        },
+        {
+          "key": "p2",
+          "caption": "Curl the shoulders and shoulder blades off the floor while keeping the pelvis and feet grounded, then lower slowly."
+        }
+      ],
+      "prompt": "Correct original female WEIGHTED CRUNCH two panels. LEFT START hair must move to SIDE, entirely OUT FROM UNDER back of SKULL, no piled ponytail/bun as cushion. Back of SKULL DIRECTLY touches flat mat with neutral neck eyes ceiling, shoulders grounded. Extend mat under head if needed. RIGHT preserve small shoulder-blade curl, no full sit-up, knees/feet/pelvis fixed grounded. Plate held securely by both hands snug UPPER CHEST below collarbones, no plate movement toward face. Replace ALL red fibers/rays/sixpack pattern on shirt with ONE smooth diffuse BLURRED abdominal tint over continuous opaque BLACK fabric, broad cloth folds only. Full opaque shorts all front sides back seat crotch, fine exposed grayscale anatomy, same limb lengths. TWO equal SQUARE cells WIDE LANDSCAPE generous head/foot margins white background no text.",
+      "inspectionNote": "Correction smooths abdominal red tint and changes ponytail to loose hair, but hair remains between back of skull and mat; direct neutral skull support remains uncertain. Plate chest hold, modest curl and grounded feet/pelvis retained; human anatomy review pending.",
+      "canonicalName": "weighted crunch (bent knee)",
+      "styleVersion": "white-v1",
+      "equipment": "weighted",
+      "primaryMuscles": [
+        "abs"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0831-female-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "status": "generated",
+        "costUSD": null
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Correction smooths abdominal red tint and changes ponytail to loose hair, but hair remains between back of skull and mat; direct neutral skull support remains uncertain. Plate chest hold, modest curl and grounded feet/pelvis retained; human anatomy review pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0831-female-anatomical-white-v2-p1-9ee87288784f.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 24642,
+          "sha256": "9ee87288784f3420789bf983aedd6cc225b2517c7bed3e7cf730ed926597bfac"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0831-female-anatomical-white-v2-p2-d36db87bfd82.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 27360,
+          "sha256": "d36db87bfd82cd821197489836c7e11d752366e6af60140d3beb6aa28f8a4e62"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0831-female-anatomical-white-v2-thumb-fe4571ebb9da.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2474,
+        "sha256": "fe4571ebb9daa77ce745573fef0438d5e07c6db45536f484cf607ef42034546c"
+      },
+      "processingSignature": "81c7ca86922838a700ba25b387fbb661f244dbf0a92113089615dae70d4e0d68",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0831-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1359213,
+        "sha256": "010621e72f0aeff691c5ccc7c896a1a980b783820b99a0e8dc47baac129803fe"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0831",
+          "variant": "female",
+          "key": "0831-female-anatomical-white-v1",
+          "layout": {
+            "columns": 2,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Lie on the back with knees bent and feet flat. Hold a weight securely against the chest."
+            },
+            {
+              "key": "p2",
+              "caption": "Curl the shoulders and shoulder blades off the floor while keeping the pelvis and feet grounded, then lower slowly."
+            }
+          ],
+          "prompt": "Original premium ADULT female exercise anatomy, TWO equal SQUARE cells side by side WIDE LANDSCAPE same model scale/limb lengths. WEIGHTED BENT-KNEE CRUNCH, canonical ID0831. SAME SIDE-FRONT three-quarter camera both cells, HEAD IMAGE LEFT feet IMAGE RIGHT. Thin gray mat. Knees bent90degrees and BOTH feet sole flat floor same exact positions both poses, pelvis grounded no hip lift. Hold ONE modest gray circular WEIGHT PLATE snug against UPPER CHEST BELOW COLLARBONES with BOTH hands firmly gripping opposite edges, never neck/face/abdomen. LEFT START fully SUPINE: back of SKULL DIRECTLY ON MAT, shoulders/scapulae rest mat, eyes ceiling neutral neck, hair swept to side from under skull. RIGHT CRUNCH: curl shoulders/scapulae ONLY10\u201315cm OFF MAT with slight upper-spine flexion, lower back/pelvis stay grounded, head follows spine neutral not chin jammed, no full seated sit-up. Plate stays snug chest and arms hold edges unchanged, NO arms extended or plate floating. Feet/knees/pelvis fixed, same model/limb lengths/scale. Primary ABS ONE smooth diffuse BLURRED red tint on intact opaque abdominal BLACK SHIRT BELOW chest plate, no sixpack/rays/fibers/anatomy through fabric. Fine detailed EXPOSED grayscale muscle contours arms/calves, realistic proportions, equal male/female quality. Reference original project artwork ONLY rendering STYLE, never its bench push-up pose/chest red. Full opaque BLACK athletic shirt and MID-THIGH shorts continuously wrap FRONT SIDES BACK SEAT CROTCH with seams and BROAD cloth folds, no cutaway/transparency/anatomy through clothing. Black shoes. White background soft grounded shadows. Whole mat/plate/body/limbs fully contained EACH cell with generous head/shoe margins, no cross-cell overlap. No embedded captions/text/labels/arrows.",
+          "inspectionNote": "Plate chest grip and crunch phases visible with feet/pelvis grounded. Start skull rests above piled hair and direct mat contact uncertain; abdominal tint streaked, correction required. Opaque clothes and fine exposed anatomy. Qualified cervical support, curl range and mapping pending.",
+          "canonicalName": "weighted crunch (bent knee)",
+          "styleVersion": "white-v1",
+          "equipment": "weighted",
+          "primaryMuscles": [
+            "abs"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Plate chest grip and crunch phases visible with feet/pelvis grounded. Start skull rests above piled hair and direct mat contact uncertain; abdominal tint streaked, correction required. Opaque clothes and fine exposed anatomy. Qualified cervical support, curl range and mapping pending.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0831-female-anatomical-white-v1-p1-8af268372d0f.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 26828,
+              "sha256": "8af268372d0f44f9a7ec61548321f7be3663f067088d7c19400a49cb6c889eb8"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0831-female-anatomical-white-v1-p2-700281c8ac94.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 29238,
+              "sha256": "700281c8ac9409d28fbd17c03ce3cf9a98d64a63145ba6634d9021e6c36584a3"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0831-female-anatomical-white-v1-thumb-9ca2d829e2ba.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 2508,
+            "sha256": "9ca2d829e2ba8d6e3fe2cef3a1367f04d17a5ac2c56accf1e96cbb5f682816a0"
+          },
+          "processingSignature": "468aed8ba001a3dc639688978e373ba17cb3b992a67d8a2dea506ab72f64e188",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0831-female-anatomical-white-v1.png",
+            "width": 1774,
+            "height": 887,
+            "bytes": 1446361,
+            "sha256": "daad51ab9f1544efde8ec9f63cbfb85d2811d980b2c547c972b55be801a71579"
+          }
+        }
+      ],
+      "blockingIssues": [
+        "Start-pose hair still obscures direct skull-to-mat support after correction; head and neck setup requires repair or human resolution."
+      ]
+    },
+    {
+      "exerciseId": "0832",
+      "variant": "male",
+      "key": "0832-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Lie on the back with knees bent and feet flat. Hold a weight securely against the chest."
+        },
+        {
+          "key": "p2",
+          "caption": "Curl the shoulders and shoulder blades off the floor while keeping the pelvis and feet grounded, then lower slowly."
+        }
+      ],
+      "prompt": "Original premium ADULT male exercise anatomy, TWO equal SQUARE cells side by side WIDE LANDSCAPE same model scale/limb lengths. WEIGHTED CRUNCH, canonical ID0832. SAME SIDE-FRONT three-quarter camera both cells, HEAD IMAGE LEFT feet IMAGE RIGHT. Thin gray mat. Knees bent90degrees and BOTH feet sole flat floor same exact positions both poses, pelvis grounded no hip lift. Hold ONE modest gray circular WEIGHT PLATE snug against UPPER CHEST BELOW COLLARBONES with BOTH hands firmly gripping opposite edges, never neck/face/abdomen. LEFT START fully SUPINE: back of SKULL DIRECTLY ON MAT, shoulders/scapulae rest mat, eyes ceiling neutral neck, hair swept to side from under skull. RIGHT CRUNCH: curl shoulders/scapulae ONLY10\u201315cm OFF MAT with slight upper-spine flexion, lower back/pelvis stay grounded, head follows spine neutral not chin jammed, no full seated sit-up. Plate stays snug chest and arms hold edges unchanged, NO arms extended or plate floating. Feet/knees/pelvis fixed, same model/limb lengths/scale. Primary ABS ONE smooth diffuse BLURRED red tint on intact opaque abdominal BLACK SHIRT BELOW chest plate, no sixpack/rays/fibers/anatomy through fabric. Fine detailed EXPOSED grayscale muscle contours arms/calves, realistic proportions, equal male/female quality. Reference original project artwork ONLY rendering STYLE, never its bench push-up pose/chest red. Full opaque BLACK athletic shirt and MID-THIGH shorts continuously wrap FRONT SIDES BACK SEAT CROTCH with seams and BROAD cloth folds, no cutaway/transparency/anatomy through clothing. Black shoes. White background soft grounded shadows. Whole mat/plate/body/limbs fully contained EACH cell with generous head/shoe margins, no cross-cell overlap. No embedded captions/text/labels/arrows.",
+      "inspectionNote": "Weighted crunch plate held chest, skull grounded start then shoulder blades lifted, knees bent feet/pelvis grounded. Diffuse abdominal tint on opaque shirt, full opaque shorts and fine exposed anatomy. Start skull close to mat edge; qualified cervical support, curl amplitude, grip, limb consistency and mapping pending.",
+      "canonicalName": "weighted crunch",
+      "styleVersion": "white-v1",
+      "equipment": "weighted",
+      "primaryMuscles": [
+        "abs"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Weighted crunch plate held chest, skull grounded start then shoulder blades lifted, knees bent feet/pelvis grounded. Diffuse abdominal tint on opaque shirt, full opaque shorts and fine exposed anatomy. Start skull close to mat edge; qualified cervical support, curl amplitude, grip, limb consistency and mapping pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0832-male-anatomical-white-v1-p1-b68bf4d3bc78.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 28010,
+          "sha256": "b68bf4d3bc783fcf2961b781dfa40f20c4abe2475670c99558c57b022a317667"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0832-male-anatomical-white-v1-p2-a00f6d25f5f5.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 30566,
+          "sha256": "a00f6d25f5f51aa263d70becdbb5adb10aa5c009d62e6e4026fabc75ae79a73d"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0832-male-anatomical-white-v1-thumb-648e0ec7f40c.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2752,
+        "sha256": "648e0ec7f40c30e882b1ff53e6e408d25969f72b16f9c8b21c99b233c033be60"
+      },
+      "processingSignature": "119e324502910c2f2f93ffda36437c67e6a4c22d002349849e0f0455988279c9",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0832-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1736761,
+        "sha256": "d027b9f3cc90126b9b6a26ab60ff91e1714810b6f585fb853b50feb6c0ffc347"
+      }
+    },
+    {
+      "exerciseId": "0832",
+      "variant": "female",
+      "key": "0832-female-anatomical-white-v2",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Lie on the back with knees bent and feet flat. Hold a weight securely against the chest."
+        },
+        {
+          "key": "p2",
+          "caption": "Curl the shoulders and shoulder blades off the floor while keeping the pelvis and feet grounded, then lower slowly."
+        }
+      ],
+      "prompt": "Correct original female WEIGHTED CRUNCH two panels. LEFT START hair must move to SIDE, entirely OUT FROM UNDER back of SKULL, no piled ponytail/bun as cushion. Back of SKULL DIRECTLY touches flat mat with neutral neck eyes ceiling, shoulders grounded. Extend mat under head if needed. RIGHT preserve small shoulder-blade curl, no full sit-up, knees/feet/pelvis fixed grounded. Plate held securely by both hands snug UPPER CHEST below collarbones, no plate movement toward face. Replace ALL red fibers/rays/sixpack pattern on shirt with ONE smooth diffuse BLURRED abdominal tint over continuous opaque BLACK fabric, broad cloth folds only. Full opaque shorts all front sides back seat crotch, fine exposed grayscale anatomy, same limb lengths. TWO equal SQUARE cells WIDE LANDSCAPE generous head/foot margins white background no text.",
+      "inspectionNote": "Correction smooths abdominal tint and loosens hair, but hair still obscures skull support at start. Upper-chest plate hold and modest shoulder-blade curl retained, feet and pelvis grounded. Full opaque clothes; limb proportions, neck and range require human review.",
+      "canonicalName": "weighted crunch",
+      "styleVersion": "white-v1",
+      "equipment": "weighted",
+      "primaryMuscles": [
+        "abs"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0832-female-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "status": "generated",
+        "costUSD": null
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Correction smooths abdominal tint and loosens hair, but hair still obscures skull support at start. Upper-chest plate hold and modest shoulder-blade curl retained, feet and pelvis grounded. Full opaque clothes; limb proportions, neck and range require human review.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0832-female-anatomical-white-v2-p1-e8d6520084b9.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 22884,
+          "sha256": "e8d6520084b95459a0a0fa885e3a249e6527c1f5598bbe67d37c900cc8b0fa1c"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0832-female-anatomical-white-v2-p2-117524be877e.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 25924,
+          "sha256": "117524be877e032e8fbd8b8ffc38e135b36e9e9a3ebcb48cfeb904a2845c0213"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0832-female-anatomical-white-v2-thumb-afd2c9aee432.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2480,
+        "sha256": "afd2c9aee432ddab63d23ab094664fea9681a0e1fe7d59ab656a50f611615e1b"
+      },
+      "processingSignature": "e3dda185a017b2110e6bfb48d14b62d41588a382a614780e6c7ae8885d25218b",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0832-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1380878,
+        "sha256": "2a2d2eb1b06000f972e7fff31cde38b6a41afa980d7ecfc39423130c8c4acf60"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0832",
+          "variant": "female",
+          "key": "0832-female-anatomical-white-v1",
+          "layout": {
+            "columns": 2,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Lie on the back with knees bent and feet flat. Hold a weight securely against the chest."
+            },
+            {
+              "key": "p2",
+              "caption": "Curl the shoulders and shoulder blades off the floor while keeping the pelvis and feet grounded, then lower slowly."
+            }
+          ],
+          "prompt": "Original premium ADULT female exercise anatomy, TWO equal SQUARE cells side by side WIDE LANDSCAPE same model scale/limb lengths. WEIGHTED CRUNCH, canonical ID0832. SAME SIDE-FRONT three-quarter camera both cells, HEAD IMAGE LEFT feet IMAGE RIGHT. Thin gray mat. Knees bent90degrees and BOTH feet sole flat floor same exact positions both poses, pelvis grounded no hip lift. Hold ONE modest gray circular WEIGHT PLATE snug against UPPER CHEST BELOW COLLARBONES with BOTH hands firmly gripping opposite edges, never neck/face/abdomen. LEFT START fully SUPINE: back of SKULL DIRECTLY ON MAT, shoulders/scapulae rest mat, eyes ceiling neutral neck, hair swept to side from under skull. RIGHT CRUNCH: curl shoulders/scapulae ONLY10\u201315cm OFF MAT with slight upper-spine flexion, lower back/pelvis stay grounded, head follows spine neutral not chin jammed, no full seated sit-up. Plate stays snug chest and arms hold edges unchanged, NO arms extended or plate floating. Feet/knees/pelvis fixed, same model/limb lengths/scale. Primary ABS ONE smooth diffuse BLURRED red tint on intact opaque abdominal BLACK SHIRT BELOW chest plate, no sixpack/rays/fibers/anatomy through fabric. Fine detailed EXPOSED grayscale muscle contours arms/calves, realistic proportions, equal male/female quality. Reference original project artwork ONLY rendering STYLE, never its bench push-up pose/chest red. Full opaque BLACK athletic shirt and MID-THIGH shorts continuously wrap FRONT SIDES BACK SEAT CROTCH with seams and BROAD cloth folds, no cutaway/transparency/anatomy through clothing. Black shoes. White background soft grounded shadows. Whole mat/plate/body/limbs fully contained EACH cell with generous head/shoe margins, no cross-cell overlap. No embedded captions/text/labels/arrows.",
+          "inspectionNote": "Chest plate and shoulder-blade crunch phases, feet/pelvis grounded, opaque clothes. Hair piled under/beyond skull start and direct mat contact uncertain; fine red streaks present. Correction required; qualified cervical support, grip, curl amplitude and mapping pending.",
+          "canonicalName": "weighted crunch",
+          "styleVersion": "white-v1",
+          "equipment": "weighted",
+          "primaryMuscles": [
+            "abs"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Chest plate and shoulder-blade crunch phases, feet/pelvis grounded, opaque clothes. Hair piled under/beyond skull start and direct mat contact uncertain; fine red streaks present. Correction required; qualified cervical support, grip, curl amplitude and mapping pending.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0832-female-anatomical-white-v1-p1-11bcf4264075.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 27270,
+              "sha256": "11bcf426407523e6039376f95e15c6d925921daf6a5c14c7b984c435b3344649"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0832-female-anatomical-white-v1-p2-2a78fd77fe21.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 31224,
+              "sha256": "2a78fd77fe21c23298bf83f2fbafad3af1f13ad6e4f4c1f08aaaf74f8d79ae1c"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0832-female-anatomical-white-v1-thumb-2315cbcb97c1.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 2574,
+            "sha256": "2315cbcb97c100f707661360c0890eb8c05d38448a5de1a92aa96da63ea87780"
+          },
+          "processingSignature": "689dbbe0815b5b53e9a6dd59f5fad3644ebf564eb4794ec95e67cf78f4f1ec57",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0832-female-anatomical-white-v1.png",
+            "width": 1774,
+            "height": 887,
+            "bytes": 1457281,
+            "sha256": "507980febf54313319c9c0d7229cc209c77231758880c6f727019a41358bad66"
+          }
+        }
+      ],
+      "blockingIssues": [
+        "Start-pose hair still obscures direct skull-to-mat support after correction; head and neck setup requires repair or human resolution."
+      ]
+    }
+  ]
+}

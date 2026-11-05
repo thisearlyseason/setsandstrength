@@ -1,0 +1,162 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "1558",
+      "variant": "male",
+      "key": "1558-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hold dumbbells at your sides with your back against the wall and feet stepped forward."
+        },
+        {
+          "key": "p2",
+          "caption": "Slide down until your thighs are near parallel, keeping your back supported and knees over your ankles. Press through your feet to slide back up."
+        }
+      ],
+      "prompt": "Use case scientific-educational. Original premium ADULT male detailed anatomical exercise illustration canonical1558 DUMBBELL WALL SQUAT. TWO equal square cells side by side WIDE2:1 landscape same full body model camera scale SIDE-front three-quarter view facing RIGHT. Plain gray WALL vertical behind body LEFT. Back/shoulders pelvis gently resting against wall throughout, FEET stepped about50cm IN FRONT of wall toward RIGHT, feet shoulder width soles FLAT fixed position both poses. Hold ONE matching moderate dumbbell in EACH hand palms inward neutral secure grip arms STRAIGHT hanging outside thighs throughout, dumbbells clear wall/legs/floor no resting or curling. LEFT START near-upright with back against wall, knees slightly bent, feet forward. RIGHT BOTTOM slide BACK STRAIGHT DOWN WALL, torso remains VERTICAL back/shoulders pelvis in contact with wall, BOTH thighs HORIZONTAL parallel floor, knee angles90degrees and KNEES OVER ANKLES shins vertical, feet same position. No free squat lean, hips not floating away from wall. Primary BOTH QUADRICEPS FRONT THIGHS RED ONLY: exposed lower front thigh fine red anatomy; upper covered FRONT thigh soft DIFFUSE red teaching tint on intact BLACK shorts, glutes/calves/hamstrings grayscale. Smooth opaque cloth broad real folds NO radial stars or muscle fibers/lobes THROUGH fabric. Fine detailed grayscale other exposed anatomy realistic fingers proportions. Full opaque BLACK tank wraps FRONT SIDES BACK and BLACK MID-THIGH shorts cover FRONT SIDES BACK SEAT CROTCH continuous hems seams no cutaways/transparency. Black shoes. Pure WHITE background soft contact shadows generous12percent margins full head hands dumbbells both feet wall within EACH SQUARE uncropped. Equal male/female quality. Original project reference rendering STYLE ONLY ignore pushup/chest red. No labels text captions arrows extra people.",
+      "inspectionNote": "Two dumbbell wall squat candidates, four poses, two built-in calls. Near-upright supported start to vertical-torso wall squat near parallel, feet forward and flat, quadriceps red. Full opaque clothes and detailed grayscale exposed anatomy retained. Qualified back/pelvis wall contact, knee-over-ankle alignment, dumbbell-wall clearance especially near hand, far grip and cloth tint require human review. Original project artwork rendering style only, no upstream licensed input. Exact prompts/originals saved. No anatomy or clothing approval or publication. Seven pipeline checks do not establish anatomical accuracy.",
+      "canonicalName": "dumbbell wall squat",
+      "styleVersion": "white-v1",
+      "equipment": "dumbbell",
+      "primaryMuscles": [
+        "quads"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Two dumbbell wall squat candidates, four poses, two built-in calls. Near-upright supported start to vertical-torso wall squat near parallel, feet forward and flat, quadriceps red. Full opaque clothes and detailed grayscale exposed anatomy retained. Qualified back/pelvis wall contact, knee-over-ankle alignment, dumbbell-wall clearance especially near hand, far grip and cloth tint require human review. Original project artwork rendering style only, no upstream licensed input. Exact prompts/originals saved. No anatomy or clothing approval or publication. Seven pipeline checks do not establish anatomical accuracy.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/1558-male-anatomical-white-v1-p1-87d057f75851.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 31596,
+          "sha256": "87d057f758513897a8c1c466eadcfcc621e9420d0759e5ded2fb595345dd1fa9"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/1558-male-anatomical-white-v1-p2-09a78ad6ceed.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 30268,
+          "sha256": "09a78ad6ceed193551983aa1aa4a94bc00e70653a4da238f13656748d71d11d6"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-207.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/1558-male-anatomical-white-v1-thumb-80d981ab6262.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 3046,
+        "sha256": "80d981ab62622c214c0e57f4a3657759a7838441fcd925f3659b31c97d20f688"
+      },
+      "processingSignature": "6a7a0ced55624020dd961320c59823ff38a4e05004569f4aaf2b427a70cf74fb",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1558-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1536460,
+        "sha256": "e8b90c293cb66f90c24b03c9e87b5054cfbfe2a7efbbb0e4b94a04fd8d84cd8b"
+      }
+    },
+    {
+      "exerciseId": "1558",
+      "variant": "female",
+      "key": "1558-female-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hold dumbbells at your sides with your back against the wall and feet stepped forward."
+        },
+        {
+          "key": "p2",
+          "caption": "Slide down until your thighs are near parallel, keeping your back supported and knees over your ankles. Press through your feet to slide back up."
+        }
+      ],
+      "prompt": "Use case scientific-educational. Original premium ADULT female detailed anatomical exercise illustration canonical1558 DUMBBELL WALL SQUAT. TWO equal square cells side by side WIDE2:1 landscape same full body model camera scale SIDE-front three-quarter view facing RIGHT. Plain gray WALL vertical behind body LEFT. Back/shoulders pelvis gently resting against wall throughout, FEET stepped about50cm IN FRONT of wall toward RIGHT, feet shoulder width soles FLAT fixed position both poses. Hold ONE matching moderate dumbbell in EACH hand palms inward neutral secure grip arms STRAIGHT hanging outside thighs throughout, dumbbells clear wall/legs/floor no resting or curling. LEFT START near-upright with back against wall, knees slightly bent, feet forward. RIGHT BOTTOM slide BACK STRAIGHT DOWN WALL, torso remains VERTICAL back/shoulders pelvis in contact with wall, BOTH thighs HORIZONTAL parallel floor, knee angles90degrees and KNEES OVER ANKLES shins vertical, feet same position. No free squat lean, hips not floating away from wall. Primary BOTH QUADRICEPS FRONT THIGHS RED ONLY: exposed lower front thigh fine red anatomy; upper covered FRONT thigh soft DIFFUSE red teaching tint on intact BLACK shorts, glutes/calves/hamstrings grayscale. Smooth opaque cloth broad real folds NO radial stars or muscle fibers/lobes THROUGH fabric. Fine detailed grayscale other exposed anatomy realistic fingers proportions. Full opaque BLACK tank wraps FRONT SIDES BACK and BLACK MID-THIGH shorts cover FRONT SIDES BACK SEAT CROTCH continuous hems seams no cutaways/transparency. Black shoes. Pure WHITE background soft contact shadows generous12percent margins full head hands dumbbells both feet wall within EACH SQUARE uncropped. Equal male/female quality. Original project reference rendering STYLE ONLY ignore pushup/chest red. No labels text captions arrows extra people.",
+      "inspectionNote": "Two dumbbell wall squat candidates, four poses, two built-in calls. Near-upright supported start to vertical-torso wall squat near parallel, feet forward and flat, quadriceps red. Full opaque clothes and detailed grayscale exposed anatomy retained. Qualified back/pelvis wall contact, knee-over-ankle alignment, dumbbell-wall clearance especially near hand, far grip and cloth tint require human review. Original project artwork rendering style only, no upstream licensed input. Exact prompts/originals saved. No anatomy or clothing approval or publication. Seven pipeline checks do not establish anatomical accuracy.",
+      "canonicalName": "dumbbell wall squat",
+      "styleVersion": "white-v1",
+      "equipment": "dumbbell",
+      "primaryMuscles": [
+        "quads"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Two dumbbell wall squat candidates, four poses, two built-in calls. Near-upright supported start to vertical-torso wall squat near parallel, feet forward and flat, quadriceps red. Full opaque clothes and detailed grayscale exposed anatomy retained. Qualified back/pelvis wall contact, knee-over-ankle alignment, dumbbell-wall clearance especially near hand, far grip and cloth tint require human review. Original project artwork rendering style only, no upstream licensed input. Exact prompts/originals saved. No anatomy or clothing approval or publication. Seven pipeline checks do not establish anatomical accuracy.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/1558-female-anatomical-white-v1-p1-7205f77c75b3.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 26698,
+          "sha256": "7205f77c75b377beaf7906faf4a8288bea6eb7ab2c2a644a5dd2aa607f97a586"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/1558-female-anatomical-white-v1-p2-16331d1b90be.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 27108,
+          "sha256": "16331d1b90be3f91465ea3a9d2ee07d9d8f2cb62f6e5d116568e25bc426f8806"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-207.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/1558-female-anatomical-white-v1-thumb-86b2f8ddeaee.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2678,
+        "sha256": "86b2f8ddeaee09b32273653f650f4d65b6ce2ce43c668861873a693719727838"
+      },
+      "processingSignature": "0ff5a311bfa18bfd2e2d5227da39c6c4a5935387995173b949869344bdf8daea",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1558-female-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1495771,
+        "sha256": "f6e1f7ec3badf346b1719f6236404edfdfb06fd92354e68a2d280a10ae12abee"
+      }
+    }
+  ]
+}

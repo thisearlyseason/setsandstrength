@@ -1,0 +1,73 @@
+{
+  "batch": 301,
+  "runId": "bc5a2532-a14b-4be0-9ccb-507beb3e31b4",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "trigger": "2026-11-04T04:42:57.405Z",
+  "purpose": "batch301 scheduled male continuation",
+  "started": "2026-11-04T04:43:18.344638+00:00",
+  "completedAt": "2026-11-04T04:49:44.818473+00:00",
+  "actualToolName": "image_gen__imagegen",
+  "calls": 4,
+  "newCandidateSets": 4,
+  "exerciseIds": [
+    "2769",
+    "2770",
+    "2773",
+    "2774"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1072,
+    "remainingVariants": 10192,
+    "approvedVariants": 0,
+    "blockedVariants": 370,
+    "knownPoseImages": 2060,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 699,
+      "remainingVariants": 4933,
+      "blockedVariants": 251
+    }
+  },
+  "reviewNotes": {
+    "2769": "Same mostly straight leg moves backward with support hand and standing foot stable, torso upright and plain glute tint on opaque shorts. Qualified review needed for level pelvis, range without lumbar arch, standing knee softness and exact glute mapping. Human anatomy review pending.",
+    "2770": "Same knee lifts forward to hip height, support hand/foot stable and torso upright. Quad overlay has anatomy-like lines through shorts rather than plain wash; block cloth overlay correction. Qualified review of pelvis stability, knee height, foot position and primary mapping required. Human anatomy review pending.",
+    "2773": "Seated thigh-supported knee extension, same knee straightens with torso tall and feet off floor. Quad wash includes anatomy-like diagonal fibers across shorts; block plain fabric overlay correction. Qualified review needed for knee clearance, thigh immobility, foot elevation and full quad mapping. Human anatomy review pending.",
+    "2774": "Same knee bends to raise heel behind body, thighs remain close, support hand/foot fixed and torso tall. Hamstring tint over intact shorts. Qualified review needed for fixed knee location, avoiding hip extension, heel path, standing knee softness and posterior-thigh mapping. Human anatomy review pending."
+  },
+  "blockingIssues": {
+    "2770": [
+      "Remove anatomy-like lines over shorts and use plain uniform quad color wash on intact fabric."
+    ],
+    "2773": [
+      "Remove fiber-like anatomical lines through shorts; retain normal opaque fabric with plain quad color wash."
+    ]
+  },
+  "deferred": {},
+  "tests": 7,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "workerSyncResult": {
+    "statuses": {
+      "generated": 1072,
+      "pending": 10192
+    },
+    "remaining": 10192,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 1648259516
+  },
+  "publicationIndexUnchanged": true
+}

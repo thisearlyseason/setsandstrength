@@ -1,0 +1,87 @@
+{
+  "batch": 122,
+  "trigger": "2026-11-02T22:59:23.580Z",
+  "completedAt": "2026-11-02T23:09:51.462476+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 4,
+  "generationCalls": 5,
+  "exerciseIds": [
+    "0731",
+    "0734"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 498,
+    "remainingVariants": 10766,
+    "approvedVariants": 0,
+    "blockedVariants": 195,
+    "knownPoseImages": 1028,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Four static candidate sets for single-leg and two-leg wall sits, one pose each. Five built-in calls, one retained male single-leg clothing correction replacing streaked highlight with diffuse tint. Both variants show back against wall, grounded heels and bent support knees; single-leg pairs show other leg extended forward above floor. Opaque shirt and shorts cover front, sides, seat and crotch; exposed limbs detailed grayscale. Qualified wall contact, knee-foot alignment, proportions and primary quadriceps mapping remain pending. No anatomy approval or publication. Original project reference used only for rendering style; no upstream media input. Pipeline checks do not approve anatomy.",
+  "metadataConflictsDeferred": {
+    "0730": "Description says other leg slides while instructions say foot on platform slides backward; sliding-foot identity conflicts and needs clarification."
+  },
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 813393985,
+  "savedMasters": [
+    {
+      "exerciseId": "0731",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0731-male-anatomical-white-v2.png",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 1740437,
+        "sha256": "b3b6c484e1121a892f780292e8519abcce1438909e304a39f007e26c9be4b7d1"
+      }
+    },
+    {
+      "exerciseId": "0731",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0731-female-anatomical-white-v1.png",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 1403799,
+        "sha256": "304c0a6c71de7284a90536d8624391a3fc11b0cec4caa24d63b9ac5055b62cb4"
+      }
+    },
+    {
+      "exerciseId": "0734",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0734-male-anatomical-white-v1.png",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 1506959,
+        "sha256": "89b1a6aefe1bc7188ff40fa5eb1844f7ecb7bd4394781f6b8216643091de5943"
+      }
+    },
+    {
+      "exerciseId": "0734",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0734-female-anatomical-white-v1.png",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 1479520,
+        "sha256": "a404d1e41b77b26ed5c832c9dcd8c21a990480fd7bad44348fddbb74a1b0ddb3"
+      }
+    }
+  ]
+}

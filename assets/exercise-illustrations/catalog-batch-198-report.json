@@ -1,0 +1,65 @@
+{
+  "batch": 198,
+  "runId": "7308c228-a807-4fd0-9199-acf10f74e6a7",
+  "trigger": "2026-11-03T12:40:29.895Z",
+  "completedAt": "2026-11-03T12:46:13.701925+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 2,
+  "generationCalls": 2,
+  "exerciseIds": [
+    "1494"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 710,
+    "remainingVariants": 10554,
+    "approvedVariants": 0,
+    "blockedVariants": 235,
+    "knownPoseImages": 1396,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Two butterfly yoga pose candidates, one static hold per variant, two built-in calls. Tall seated torso, knees open symmetrically, soles together, both hands hold ankles and inner thighs red. Full tank and continuous crotch fabric retained; red exposed inner-thigh boundaries versus shorts hems require close qualified clothing review before approval. Detailed grayscale anatomy retained. Qualified adductor localization, hip/knee rotation, ankle/sole contact, hand grip and neck posture require human review. Original project artwork rendering style only, no upstream licensed input. Exact prompts/originals saved. No anatomy or clothing approval or publication. Seven pipeline checks do not establish anatomical accuracy.",
+  "metadataConflictsDeferred": {
+    "1493": "Spine target requires specific muscle mapping."
+  },
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 1118194477,
+  "savedMasters": [
+    {
+      "exerciseId": "1494",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1494-male-anatomical-white-v1.png",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 1698229,
+        "sha256": "93651838db728588faaf5805d6603d067f1c3d54bf7ef7c899f4ce104d361076"
+      }
+    },
+    {
+      "exerciseId": "1494",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1494-female-anatomical-white-v1.png",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 1721158,
+        "sha256": "fbf2d0c2c725a6d30768c140d446f00260e3cb61b6668ee89911765f88159aea"
+      }
+    }
+  ]
+}

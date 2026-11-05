@@ -1,0 +1,92 @@
+{
+  "batch": 151,
+  "trigger": "2026-11-03T06:39:27.076Z",
+  "completedAt": "2026-11-03T06:50:28.915673+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 4,
+  "generationCalls": 4,
+  "exerciseIds": [
+    "0993",
+    "0997"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 612,
+    "remainingVariants": 10652,
+    "approvedVariants": 0,
+    "blockedVariants": 213,
+    "knownPoseImages": 1242,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Four candidates, eight poses, four built-in calls. Standing band reverse flies show forward arms to lateral spread, chest-height anchor and rear deltoid red; rear-side camera partly obscures near-arm sweep and front-of-torso band depth, so bilateral shoulder movement and clearance require careful qualified review. Band shoulder press pairs show handles shoulder-height to overhead extension, taut strands under both shoes and upright stance. Fine exposed grayscale anatomy and full opaque clothing visually retained. Qualified grip/wrist, underfoot anchoring, shoulder path/elbow softness, band depth, neck and proportions remain human-review items. Every original and exact prompt saved; no corrections required at this inspection stage, no clothing/anatomy approval or publication. Original project artwork rendering style only, no upstream licensed input. Seven pipeline checks do not establish anatomical accuracy.",
+  "metadataConflictsDeferred": {
+    "0992": "Sit-up band anchor height/direction undefined.",
+    "0994": "Reverse wrist curl band resistance anchor undefined.",
+    "0996": "Internal rotation title conflicts with outward knee rotation instructions.",
+    "0998": "Hand-to-hand side triceps extension band route/load unclear.",
+    "1000": "Reverse calf raise title conflicts with ordinary heel-raise description/instructions.",
+    "1003": "Description rows as standing, instructions row from squat; phase unresolved."
+  },
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 976190246,
+  "savedMasters": [
+    {
+      "exerciseId": "0993",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0993-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1306316,
+        "sha256": "5400d9ebd2201bcd6373907ab3393132a9d6683a3e80c67d55af51212784f11f"
+      }
+    },
+    {
+      "exerciseId": "0993",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0993-female-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1277402,
+        "sha256": "4cb265e4c3fc3a0829908047e00d08dd24abc20d28bc7c3b535b07b9a8e94a82"
+      }
+    },
+    {
+      "exerciseId": "0997",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0997-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1268951,
+        "sha256": "735be45194eeb4de2306a226412fa66f12a08ac79ff2f07f58b56c6316539467"
+      }
+    },
+    {
+      "exerciseId": "0997",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0997-female-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1268101,
+        "sha256": "e690d10f847a257cf8f49e83487a42f9fe67909192a31078c894f34d3415741e"
+      }
+    }
+  ]
+}

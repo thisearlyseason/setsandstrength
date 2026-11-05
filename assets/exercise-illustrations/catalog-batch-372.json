@@ -1,0 +1,121 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "3494",
+      "variant": "male",
+      "key": "3494-male-anatomical-white-v1",
+      "prompt": "TWO equal panels same SIDE view SINGLE LEG HEEL TOUCH SQUAT. Male RIGHT foot planted LEFT foot slightly lifted behind throughout. Left standing balanced right knee soft. Right sit hips BACK bend right knee squat, reach RIGHT hand down toward RIGHT planted heel, other arm forward for balance. Chest as tall as feasible long spine heel down knee tracks toes. No bench. Primary QUADS small plain red wash intact shorts on SUPPORTING RIGHT thigh only. Premium detailed grayscale anatomical adult MALE illustration white background soft contact shadows realistic detailed muscles joints. Original project reference STYLE ONLY. Same model camera scale clothes equipment all panels. Complete opaque BLACK tank and mid-thigh shorts fully wrap front sides back seat crotch with seams folds hems. Red on clothes PLAIN UNIFORM wash NO anatomical fibers segments lobes cutaways transparency. All limbs hands feet towels fit inside each panel generous white margins. No text arrows logos labels numbers.",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Balance on one leg."
+        },
+        {
+          "key": "p2",
+          "caption": "Squat and reach toward standing heel, then rise."
+        }
+      ],
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream media used.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only"
+      },
+      "inspectionNote": "Real output inspected. Single-leg squat/heel reach endpoints with raised nonworking foot and opaque clothes. Qualified balance, knee tracking and working-leg quad highlight review pending. Human anatomy review pending; no approval or publication.",
+      "blockingIssues": []
+    },
+    {
+      "exerciseId": "3496",
+      "variant": "male",
+      "key": "3496-male-anatomical-white-v1",
+      "prompt": "THREE equal panels same elevated FRONT view LYING STRAIGHT LEG MARCHES. Male supine mat head and shoulders resting fully arms alongside palms down. Left both legs extended mat. Center RIGHT straight leg raised toward ceiling LEFT straight leg low just above mat. Right MIRROR LEFT straight leg raised RIGHT leg low. Knees remain straight pelvis stable low back gently grounded no arch. Clearly alternate raised leg. Primary ABS small plain wash intact tank abdomen only chest black. Premium detailed grayscale anatomical adult MALE illustration white background soft contact shadows realistic detailed muscles joints. Original project reference STYLE ONLY. Same model camera scale clothes equipment all panels. Complete opaque BLACK tank and mid-thigh shorts fully wrap front sides back seat crotch with seams folds hems. Red on clothes PLAIN UNIFORM wash NO anatomical fibers segments lobes cutaways transparency. All limbs hands feet towels fit inside each panel generous white margins. No text arrows logos labels numbers.",
+      "layout": {
+        "columns": 3,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Lie on back with legs straight."
+        },
+        {
+          "key": "p2",
+          "caption": "Raise right straight leg."
+        },
+        {
+          "key": "p3",
+          "caption": "Lower right and raise left straight leg."
+        }
+      ],
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream media used.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only"
+      },
+      "inspectionNote": "Real output inspected. Supine start and clearly opposite straight-leg raises with head supported and intact garments. Qualified lumbar control, knee extension and surface-overlay review pending. Human anatomy review pending; no approval or publication.",
+      "blockingIssues": []
+    },
+    {
+      "exerciseId": "3497",
+      "variant": "male",
+      "key": "3497-male-anatomical-white-v1",
+      "prompt": "TWO equal panels elevated BACK three-quarter view SLIDING FLOOR PULLDOWN ON TOWEL. Male lies FACE DOWN on smooth floor, legs relaxed straight, chest close floor neck neutral looking down. Each palm rests on its own SMALL TOWEL. Left arms extended overhead hands on towels. Right pull elbows back toward ribs hands slide towels beside lower ribs/hips, squeeze lats. Body remains prone in same position, towels move with hands. Primary LATS small plain red surface wash over intact tank back sides. Premium detailed grayscale anatomical adult MALE illustration white background soft contact shadows realistic detailed muscles joints. Original project reference STYLE ONLY. Same model camera scale clothes equipment all panels. Complete opaque BLACK tank and mid-thigh shorts fully wrap front sides back seat crotch with seams folds hems. Red on clothes PLAIN UNIFORM wash NO anatomical fibers segments lobes cutaways transparency. All limbs hands feet towels fit inside each panel generous white margins. No text arrows logos labels numbers.",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Lie prone with hands on towels overhead."
+        },
+        {
+          "key": "p2",
+          "caption": "Slide hands toward hips in pulldown, then return."
+        }
+      ],
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream media used.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only"
+      },
+      "inspectionNote": "Real output inspected. Prone overhead-to-pulldown motion with individual towels shown. Lat anatomy/fibers appear through tank instead of plain wash; correction required. Human anatomy review pending; no approval or publication.",
+      "blockingIssues": [
+        "Lat muscle fibers through tank; replace with plain uniform surface wash."
+      ]
+    },
+    {
+      "exerciseId": "3498",
+      "variant": "male",
+      "key": "3498-male-anatomical-white-v1",
+      "prompt": "TWO equal panels SIDE view SLIDING FLOOR BRIDGE CURL ON TOWEL. Male supine smooth floor head and shoulder blades resting, arms alongside. One small towel beneath EACH heel. Left hips lifted bridge knees bent feet near glutes towels under heels. Right hips STAY lifted as heels slide away legs almost straight but not locked, towels under heels, shoulders stay floor. Head supported no neck lift. Primary HAMSTRINGS red on visible posterior thighs; covered portions small plain wash intact shorts. Premium detailed grayscale anatomical adult MALE illustration white background soft contact shadows realistic detailed muscles joints. Original project reference STYLE ONLY. Same model camera scale clothes equipment all panels. Complete opaque BLACK tank and mid-thigh shorts fully wrap front sides back seat crotch with seams folds hems. Red on clothes PLAIN UNIFORM wash NO anatomical fibers segments lobes cutaways transparency. All limbs hands feet towels fit inside each panel generous white margins. No text arrows logos labels numbers.",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Bridge with heels on towels and knees bent."
+        },
+        {
+          "key": "p2",
+          "caption": "Slide heels away, then curl them back."
+        }
+      ],
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream media used.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only"
+      },
+      "inspectionNote": "Real output inspected. Bridge heel slides on towels represented with hips elevated. Non-primary chest red appears and head hovers off floor; correct highlighting and head support. Human anatomy review pending; no approval or publication.",
+      "blockingIssues": [
+        "Remove non-primary chest red highlight.",
+        "Correct head hovering above floor."
+      ]
+    }
+  ]
+}

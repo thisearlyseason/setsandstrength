@@ -1,0 +1,37 @@
+{
+  "batch": 33,
+  "trigger": "2026-11-01T07:45:12.330Z",
+  "completedAt": "2026-11-01T07:52:28.664771+00:00",
+  "tool": "image_gen.imagegen",
+  "newCandidateSets": 4,
+  "generationCalls": 4,
+  "exerciseIds": [
+    "2966",
+    "4343"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 126,
+    "remainingVariants": 11138,
+    "approvedVariants": 0,
+    "blockedVariants": 53,
+    "knownPoseImages": 250,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "All pending, none published. Front squats retain two shoulder-racked weights throughout. One-arm extensions blocked for qualified analysis of changed weight axis/wrist orientation and elbow path; no claim that this is definitively anatomically wrong. Full opaque garments inspected including rear seat.",
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 206692726
+}

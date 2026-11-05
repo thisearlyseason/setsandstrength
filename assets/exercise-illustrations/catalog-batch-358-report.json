@@ -1,0 +1,79 @@
+{
+  "batch": 358,
+  "runId": "77661f2a-c17a-4c54-ae81-c9b0fe1c2a75",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "trigger": "2026-11-04T14:11:34.074Z",
+  "purpose": "batch358 scheduled male continuation",
+  "started": "2026-11-04T14:12:22.884579+00:00",
+  "completedAt": "2026-11-04T14:20:42.513643+00:00",
+  "actualToolName": "image_gen__imagegen",
+  "calls": 4,
+  "newCandidateSets": 4,
+  "exerciseIds": [
+    "3403",
+    "3404",
+    "3405",
+    "3408"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1290,
+    "remainingVariants": 9974,
+    "approvedVariants": 0,
+    "blockedVariants": 492,
+    "knownPoseImages": 2544,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 917,
+      "remainingVariants": 4715,
+      "blockedVariants": 373
+    }
+  },
+  "reviewNotes": {
+    "3403": "Standing Y raise from arms down to diagonal overhead thumbs up, opaque clothes. Small lower-trap wash has anatomical fiber pattern through tank; correction needed. Qualified shoulder depression and lower-trap mapping review pending.",
+    "3404": "Standing straight-arm forward start to open T with steady stance, opaque clothes/plain upper-back wash. Qualified scapular retraction, shoulder height and rib control review pending.",
+    "3405": "Bent-elbow forward start to outward W with elbows low, opaque clothing. Red upper-back anatomical fiber pattern through tank requires correction. Qualified external rotation and shoulder depression review pending.",
+    "3408": "Hands clasped and hips forward, but rotation mostly appears in head/neck rather than thorax. Unrequested pectoral fiber-like red instead of abdominal highlight. Opaque clothes; correction required."
+  },
+  "blockingIssues": {
+    "3403": [
+      "Replace lower-trap anatomical fibers through tank with plain uniform wash."
+    ],
+    "3405": [
+      "Replace upper-back anatomical fiber pattern through tank with plain uniform wash."
+    ],
+    "3408": [
+      "Show clear mirrored thoracic/shoulder rotation while hips stay forward, rather than neck-only turns.",
+      "Remove non-primary pectoral anatomy/red; use localized plain abdomen wash."
+    ]
+  },
+  "deferred": {
+    "3401": "Between-benches name/description conflicts with optional floor or second-bench hand support; exact setup unclear."
+  },
+  "tests": 7,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "workerSyncResult": {
+    "statuses": {
+      "generated": 1290,
+      "pending": 9974
+    },
+    "remaining": 9974,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 1967709188
+  },
+  "publicationIndexUnchanged": true
+}

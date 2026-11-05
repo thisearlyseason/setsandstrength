@@ -1,0 +1,338 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "3356",
+      "variant": "male",
+      "key": "3356-male-anatomical-white-v1",
+      "prompt": "Three equal panels same elevated front three-quarter view. Forward cable lunge facing AWAY from stack behind. ONE low rear pulley attaches cable to ONE double-handed handle held at chest. Panel1 stand tall feet hip width. Panel2 LEFT leg forward front knee90 over ankle, RIGHT rear knee nearly floor rear heel up. Panel3 RIGHT leg forward right knee90 over ankle LEFT rear knee nearly floor. Clearly opposite leading legs, torso upright, cable connected behind model in all phases, no cable through skin. Primary QUADRICEPS red on exposed front thighs plus small plain wash on intact front shorts only; torso black. Premium detailed adult MALE grayscale anatomical illustration on pure white, soft shadows, realistic equipment and detailed exposed gray muscles. Original project reference STYLE ONLY. Black opaque tank and mid-thigh shorts wrap front sides back seat crotch with seams/folds/hems. Covered primary red highlights SMALL PLAIN UNIFORM wash on intact fabric, NO fibers/lobes/segments/cutaways. Exactly one head two arms/hands two legs/feet per figure. Same camera/model/scale all panels; whole body/equipment in frame. No text arrows logos.",
+      "layout": {
+        "columns": 3,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hold low rear cable at chest facing away from stack."
+        },
+        {
+          "key": "p2",
+          "caption": "Step into left forward lunge, then return."
+        },
+        {
+          "key": "p3",
+          "caption": "Step into right forward lunge; alternate with front heel planted."
+        }
+      ],
+      "inspectionNote": "Real output inspected. Rear low cable and chest handle visible, but both lunge panels repeat same leading leg; alternating instruction not depicted. Opaque clothing/plain thigh wash. Qualified cable routing and knee review pending. Human anatomy review pending. No approval or publication.",
+      "blockingIssues": [
+        "Show clearly opposite leading leg in final panel instead of repeating same lunge."
+      ],
+      "canonicalName": "cable forward lunge",
+      "styleVersion": "white-v1",
+      "equipment": "cable",
+      "primaryMuscles": [
+        "quads"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Rear low cable and chest handle visible, but both lunge panels repeat same leading leg; alternating instruction not depicted. Opaque clothing/plain thigh wash. Qualified cable routing and knee review pending. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/3356-male-anatomical-white-v1-p1-30237896e5dd.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 30070,
+          "sha256": "30237896e5dd1225400483d262211d40609150532619a7d2fe3494624dac017f"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/3356-male-anatomical-white-v1-p2-e72e891d40dc.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 30784,
+          "sha256": "e72e891d40dcc29e0538cf7a53457424446d87914b353299872eb12d37d1ac4f"
+        },
+        {
+          "pose": "p3",
+          "path": "/workout/illustration-pilot/3356-male-anatomical-white-v1-p3-906c7713b785.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 30890,
+          "sha256": "906c7713b785423437241400caf6348f59d8567c0a11ea0df4edcfa3958ab5d0"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-351.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/3356-male-anatomical-white-v1-thumb-17c33a1e931d.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 4338,
+        "sha256": "17c33a1e931df897de189ce788b9c0980d7a631fc3c3cfe9430e060369221b45"
+      },
+      "processingSignature": "374277c5382ab7a89943b6b1ab1fd69acf05e8bd06f3931ca5769c311bc79909",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/3356-male-anatomical-white-v1.png",
+        "width": 2172,
+        "height": 724,
+        "bytes": 1557592,
+        "sha256": "746e47a785a3fe155ae423a8a80025481978f77823269a7e601460245f088e71"
+      }
+    },
+    {
+      "exerciseId": "3357",
+      "variant": "male",
+      "key": "3357-male-anatomical-white-v1",
+      "prompt": "Two equal panels same rear-side three-quarter view headLEFT feetLEFT toward stack. Floor seated cable ROPE row. Sit ONFLOOR legs extended forward toward low pulley with knees softly bent heels floor, torso tall. BOTH hands hold two ends of ONE rope attachment visibly connected to LOW FRONT pulley. Panel1 arms extended forward, shoulder blades relaxed no rounded spine. Panel2 pull rope toward LOWER CHEST spreading hands outside ribs elbows backward near sides, shoulder blades together, torso stays tall no lean swing. Primary UPPER BACK small plain uniform red wash on intact black upper-back tank only no scapula or fibers through cloth. Premium detailed adult MALE grayscale anatomical illustration on pure white, soft shadows, realistic equipment and detailed exposed gray muscles. Original project reference STYLE ONLY. Black opaque tank and mid-thigh shorts wrap front sides back seat crotch with seams/folds/hems. Covered primary red highlights SMALL PLAIN UNIFORM wash on intact fabric, NO fibers/lobes/segments/cutaways. Exactly one head two arms/hands two legs/feet per figure. Same camera/model/scale all panels; whole body/equipment in frame. No text arrows logos.",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Sit tall on floor facing low cable with legs extended and rope held forward."
+        },
+        {
+          "key": "p2",
+          "caption": "Row rope to lower chest, spread hands and squeeze shoulder blades; return slowly."
+        }
+      ],
+      "inspectionNote": "Real output inspected. Floor seated rope row with extended legs, tall torso and elbows back. Opaque clothing/plain upper-back wash. Qualified rope grip/separation, lower-chest endpoint and shoulder retraction review pending. Human anatomy review pending. No approval or publication.",
+      "canonicalName": "cable seated on floor row with rope",
+      "styleVersion": "white-v1",
+      "equipment": "cable",
+      "primaryMuscles": [
+        "upper back"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Floor seated rope row with extended legs, tall torso and elbows back. Opaque clothing/plain upper-back wash. Qualified rope grip/separation, lower-chest endpoint and shoulder retraction review pending. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/3357-male-anatomical-white-v1-p1-bdf28ed60f38.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 44894,
+          "sha256": "bdf28ed60f38599f0d67845d56702741f6ab6b551f2e80752cd702351ead8740"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/3357-male-anatomical-white-v1-p2-d0a82fb365d3.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 45542,
+          "sha256": "d0a82fb365d3bd8813015be5d43aa4b0baafddf37025c21ac3cc4febe8ca2299"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-351.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/3357-male-anatomical-white-v1-thumb-397d3ffbb3aa.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 4528,
+        "sha256": "397d3ffbb3aaf43b1792918971a4de40c6a59ce7b5c250c48255c39cd5d79c54"
+      },
+      "processingSignature": "41b825308143a35354835232d524704bcecaa41a87470507642cd806086e2a36",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/3357-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1618449,
+        "sha256": "ab8ccf3e6f25f83e2e0e326332c7eb778406465f92bf215fb611537ee16c0624"
+      }
+    },
+    {
+      "exerciseId": "3358",
+      "variant": "male",
+      "key": "3358-male-anatomical-white-v1",
+      "prompt": "Two equal panels same rear-side three-quarter view headLEFT facing high pulley in frontLEFT. Neutral parallel-grip FLOOR lat pulldown. Model TALLKNEELING bothknees/shinsfloor hipwidth torso slightly leaned back fixed, NO bench. HIGH pulley overhead/front connected ONE compact PARALLEL-GRIP V handle both palms face EACHOTHER. Panel1 botharms fully extended overhead holding handle. Panel2 pull handle to UPPER CHEST elbows DOWN toward ribs, same tall-kneeling lowerbody, chest lifted no arch. Primary LATS small plain uniform redwash on intact black lateral back tank only; no anatomy fibers through cloth. Premium detailed adult MALE grayscale anatomical illustration on pure white, soft shadows, realistic equipment and detailed exposed gray muscles. Original project reference STYLE ONLY. Black opaque tank and mid-thigh shorts wrap front sides back seat crotch with seams/folds/hems. Covered primary red highlights SMALL PLAIN UNIFORM wash on intact fabric, NO fibers/lobes/segments/cutaways. Exactly one head two arms/hands two legs/feet per figure. Same camera/model/scale all panels; whole body/equipment in frame. No text arrows logos.",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Kneel tall under high cable with neutral-grip handle overhead."
+        },
+        {
+          "key": "p2",
+          "caption": "Pull handle to upper chest with elbows down; extend arms slowly."
+        }
+      ],
+      "inspectionNote": "Real output inspected. Tall-kneeling neutral-handle high pulldown with overhead start and upper-chest finish. Lat fiber pattern through tank requires plain-wash correction. Qualified torso lean, grip orientation and knee support review pending. Human anatomy review pending. No approval or publication.",
+      "blockingIssues": [
+        "Replace anatomical lat fiber pattern through tank with plain uniform wash on opaque fabric."
+      ],
+      "canonicalName": "cable parallel grip lat pulldown on floor",
+      "styleVersion": "white-v1",
+      "equipment": "cable",
+      "primaryMuscles": [
+        "lats"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Tall-kneeling neutral-handle high pulldown with overhead start and upper-chest finish. Lat fiber pattern through tank requires plain-wash correction. Qualified torso lean, grip orientation and knee support review pending. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/3358-male-anatomical-white-v1-p1-08d67bea5ddc.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 35888,
+          "sha256": "08d67bea5ddc34a1f62d2ecd6d4c5f8f8bb8cab7312dc35fba63142e61604daa"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/3358-male-anatomical-white-v1-p2-2f387a818265.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 33822,
+          "sha256": "2f387a8182652922087363b5c5b204fa077313e4f44ff99aa6954f479abca20a"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-351.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/3358-male-anatomical-white-v1-thumb-8b442936b6ce.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 3690,
+        "sha256": "8b442936b6ce6ce116884149e845afe90dbe18d590976a5a6ff25955bb276cd2"
+      },
+      "processingSignature": "a2c6c61b60aa9231adfcee655a89b2e3429a40944dcdb9aa8ff057fef600b76a",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/3358-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1465296,
+        "sha256": "0699303c544bc6093141dc8e7781f589e3a0643a6092bcd0a7178e7c84596334"
+      }
+    },
+    {
+      "exerciseId": "3359",
+      "variant": "male",
+      "key": "3359-male-anatomical-white-v1",
+      "prompt": "Two equal panels same front three-quarter view. Standing cable CHEST PRESS. Dual pulleys BEHIND model at CHEST HEIGHT one cable to eachhand handle. SAME split stance all poses feet grounded torso upright. Panel1 handles near chest sides elbows bent about90 and45degrees from torso forearms aligned with cables. Panel2 press BOTHhandles FORWARD together at CHESTHEIGHT armsstraight notoverhead hands nearlymeet. Same machine and visible cables from rear pulleys to handles, no crossed limbs. Primary PECTORALS SMALL PLAIN UNIFORM redwash intact black chest only, no chest lobes nipples fibers. Premium detailed adult MALE grayscale anatomical illustration on pure white, soft shadows, realistic equipment and detailed exposed gray muscles. Original project reference STYLE ONLY. Black opaque tank and mid-thigh shorts wrap front sides back seat crotch with seams/folds/hems. Covered primary red highlights SMALL PLAIN UNIFORM wash on intact fabric, NO fibers/lobes/segments/cutaways. Exactly one head two arms/hands two legs/feet per figure. Same camera/model/scale all panels; whole body/equipment in frame. No text arrows logos.",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand in split stance with chest-height cables behind and handles at chest."
+        },
+        {
+          "key": "p2",
+          "caption": "Press handles forward until arms straight; return under control."
+        }
+      ],
+      "inspectionNote": "Real output inspected. Standing split-stance chest press with chest-height rear pulleys, bent then extended arms and opaque clothing/plain chest wash. Qualified cable clearance, wrist/elbow stack and torso stability review pending. Human anatomy review pending. No approval or publication.",
+      "canonicalName": "cable standing chest press",
+      "styleVersion": "white-v1",
+      "equipment": "cable",
+      "primaryMuscles": [
+        "pectorals"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Standing split-stance chest press with chest-height rear pulleys, bent then extended arms and opaque clothing/plain chest wash. Qualified cable clearance, wrist/elbow stack and torso stability review pending. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/3359-male-anatomical-white-v1-p1-11a06813f922.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 51104,
+          "sha256": "11a06813f92201adb574d48f73b2009edc5ce97dcfd667f56a118fffe5962be2"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/3359-male-anatomical-white-v1-p2-67abbb481bad.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 50566,
+          "sha256": "67abbb481bade859c8343d7aed87f82b4a28090417d4db5598e15bee9dcd2422"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-351.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/3359-male-anatomical-white-v1-thumb-ea1f566e45e0.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 5542,
+        "sha256": "ea1f566e45e0e354c2950a924c0627cee4178792ff3292fde5e8bb4df8e70b0b"
+      },
+      "processingSignature": "889640d6f1f4030ca40e8f9c5ae578e6af723cec20e9ae45a4b8ed36d11534af",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/3359-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1668336,
+        "sha256": "f9c80cec4acaa6e89a3a1cdc6bce3e7436b603ff06233f69747ada90da9e926a"
+      }
+    }
+  ]
+}

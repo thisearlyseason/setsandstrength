@@ -1,0 +1,66 @@
+{
+  "runId": "334e1a2f-2ffc-44ec-8abe-66446c184adb",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "triggerTimestamp": "2026-11-05T00:01:04.672Z",
+  "batches": [
+    450,
+    451,
+    452
+  ],
+  "builtInImageGenAvailable": true,
+  "generatedMasters": 12,
+  "generatedIds": [
+    "4721",
+    "4743",
+    "4760",
+    "4761",
+    "4796",
+    "4832",
+    "4838",
+    "4852",
+    "4866",
+    "4876",
+    "4900",
+    "4910"
+  ],
+  "blocked": {
+    "4876": [
+      "Static hold should contain one pose; original contains unrelated dumbbell artwork and an extra panel copied from the style reference. Must correct before approval."
+    ],
+    "4910": [
+      "Static hold requested as one pose produced two duplicate panels. Repeated single-pose layout failure; stop run and revise reference strategy before retrying."
+    ]
+  },
+  "coverageAfter": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1608,
+    "remainingVariants": 9656,
+    "approvedVariants": 0,
+    "blockedVariants": 589,
+    "knownPoseImages": 3241,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 1235,
+      "remainingVariants": 4397,
+      "blockedVariants": 470
+    }
+  },
+  "pipelineTests": "8 passed, 0 failed after each of three batches",
+  "approvedIndexUnchanged": true,
+  "existingUserApprovalsPreserved": 1306,
+  "publication": "none",
+  "anatomyReview": "pending",
+  "paidWorker": "disabled; inventory sync only, zero requests",
+  "stopReason": "Stopped after repeated systemic single-pose layout failures in 4876 and 4910. Built-in generation ignored explicit single-pose instructions and copied two-panel structure from style reference. 4876 also copied irrelevant dumbbells. Originals retained and blocked. No tool error or usage-limit message occurred.",
+  "styleReference": "assets/exercise-illustrations/generated/0853-male-anatomical-white-v1.png",
+  "deferred": {
+    "4803": "Description allows lying or seated and name high-bar position lacks a unique canonical setup. Clarify before illustrating.",
+    "4871": "Name requires six ways but instructions define only lateral, front and rear raises; remaining variations unspecified."
+  },
+  "nextRunGuidance": "Avoid single-pose static holds with two-panel 0853 style reference until reference strategy is corrected. Select a previously approved original single-pose project artwork if planning holds; inspect it first. Continue clear dynamic male records without duplicating blocked originals. Keep qualified anatomy review and publication separate."
+}

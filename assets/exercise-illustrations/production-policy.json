@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "phase": "male-first",
+  "defaultVariants": [
+    "male"
+  ],
+  "femaleExceptionExerciseIds": [],
+  "femaleExceptionRule": "Generate a female asset now only for a distinct exercise variation requiring female depiction. A femaleVariant alias or ordinary counterpart alone is not an exception. Flag uncertain exceptions for user review.",
+  "preserveExistingFemaleAssets": true,
+  "femaleExpansion": "Deferred until male library is completed, reviewed and separately authorized for publication; do not automatically begin female expansion.",
+  "anatomyReview": "pending",
+  "automaticPublication": false,
+  "requestedAt": "2026-11-03",
+  "basis": "User explicitly requested male only going forward unless there is a female variation; female expansion after male completion and publication."
+}

@@ -1,0 +1,58 @@
+{
+  "batch": 473,
+  "runId": "411784be-86d7-4309-ac48-e7f1e210fdba",
+  "triggerTimestamp": "2026-11-05T02:12:05.479Z",
+  "builtInImageGenAvailable": true,
+  "generatedIds": [
+    "6123",
+    "6141",
+    "6143",
+    "6147"
+  ],
+  "coverageAfter": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1682,
+    "remainingVariants": 9582,
+    "approvedVariants": 0,
+    "blockedVariants": 603,
+    "knownPoseImages": 3408,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 1309,
+      "remainingVariants": 4323,
+      "blockedVariants": 484
+    }
+  },
+  "paidWorker": {
+    "statuses": {
+      "generated": 1682,
+      "pending": 9582
+    },
+    "remaining": 9582,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 2536206276
+  },
+  "pipelineTests": "8 passed, 0 failed",
+  "approvedIndexUnchanged": true,
+  "existingUserApprovalsPreserved": 1306,
+  "anatomyReview": "pending",
+  "publication": "none",
+  "blocked": {
+    "6147": [
+      "Dumbbell orientation changes from vertical at bottom to horizontal at top and wrists supinate rather than retaining neutral hammer grip."
+    ]
+  }
+}

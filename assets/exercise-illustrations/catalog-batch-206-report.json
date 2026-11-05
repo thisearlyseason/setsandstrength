@@ -1,0 +1,65 @@
+{
+  "batch": 206,
+  "runId": "a0e1161a-ed82-4d39-b233-d092d7c6b52c",
+  "trigger": "2026-11-03T13:37:30.299Z",
+  "completedAt": "2026-11-03T13:43:26.163431+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 2,
+  "generationCalls": 2,
+  "exerciseIds": [
+    "1555"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 726,
+    "remainingVariants": 10538,
+    "approvedVariants": 0,
+    "blockedVariants": 238,
+    "knownPoseImages": 1428,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Two dumbbell squat v2 candidates, four poses, two built-in calls. Standing to near-parallel squat with flat feet and straight arms holding weights outside legs, quadriceps red. Male BLOCKED for radial anatomical-looking starburst fibers over shorts front; female diffuse tint retained. Full opaque clothing and exposed detailed grayscale anatomy. Qualified depth, knee tracking, dumbbell clearance, far grip, lumbar/neck alignment and cloth tint require human review. Original project artwork rendering style only, no upstream licensed input. Exact prompts/originals saved. No anatomy or clothing approval or publication. Seven pipeline checks do not establish anatomical accuracy.",
+  "metadataConflictsDeferred": {
+    "1549": "Cardiovascular-system target needs explicit anatomical highlight mapping."
+  },
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 1140809475,
+  "savedMasters": [
+    {
+      "exerciseId": "1555",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1555-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1336668,
+        "sha256": "2999fa61e4ae5a0bc5776830873cc021def895e54436c3d605f1527bd3cd5283"
+      }
+    },
+    {
+      "exerciseId": "1555",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1555-female-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1343152,
+        "sha256": "5d356e555f959a033af1fc7867f96b8fa56f40da9ddb925bbcd6ebe01341034c"
+      }
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "batch": 295,
+  "runId": "1bbbb136-3e20-42db-a3c7-65da1cb334d5",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "trigger": "2026-11-04T03:59:57.248Z",
+  "purpose": "batch295 scheduled male continuation",
+  "started": "2026-11-04T04:00:07.891724+00:00",
+  "completedAt": "2026-11-04T04:04:54.932964+00:00",
+  "actualToolName": "image_gen__imagegen",
+  "calls": 4,
+  "newCandidateSets": 4,
+  "exerciseIds": [
+    "2660",
+    "2661",
+    "2664",
+    "2666"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1048,
+    "remainingVariants": 10216,
+    "approvedVariants": 0,
+    "blockedVariants": 361,
+    "knownPoseImages": 2015,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 675,
+      "remainingVariants": 4957,
+      "blockedVariants": 242
+    }
+  },
+  "reviewNotes": {
+    "2660": "Palms-up curl, supported upper arms, planted feet and exposed biceps highlights. Machine pivot rises substantially with the handle rather than remaining fixed near elbows; block equipment geometry correction. Clothing opaque. Qualified review of elbow contact, wrist stacking and range required. Human anatomy review pending.",
+    "2661": "Neutral close V handle pulled toward lower ribs, upright torso, knees slightly bent and feet supported; taut cable and lifted stack visible. Lat highlight includes fiber-like anatomical lines through tank rather than plain overlay; block clothing overlay correction. Qualified review of handle grip, elbow path and cable/stack mechanics required. Human anatomy review pending.",
+    "2664": "Seated chest-supported row, neutral handles move back with elbows behind torso, feet grounded and pivot roughly stationary. Start lat overlay contains ribbed anatomy-like bands; block plain fabric overlay correction. Qualified review needed for chest-pad contact, handle height, lever arc and shoulder position. Human anatomy review pending.",
+    "2666": "Seated calf raise with forefeet on platform and heels free, knees bent, thigh pad rises as heels rise. Adds unrelated chest red and calf tint appears anterior/lateral rather than clearly posterior calves; block highlight mapping correction. Clothing opaque. Qualified review needed for lower-thigh pad placement above kneecaps, forefoot contact, ankle range and lever geometry. Human anatomy review pending."
+  },
+  "blockingIssues": {
+    "2660": [
+      "Machine pivot/support changes height between poses; retain fixed pivot aligned near elbows and rotate only lever."
+    ],
+    "2661": [
+      "Replace anatomical fiber lines over tank with plain uniform lat color wash on intact fabric."
+    ],
+    "2664": [
+      "Remove ribbed anatomy-like bands from lat overlay; use uniform wash over normal opaque tank."
+    ],
+    "2666": [
+      "Remove unrelated chest highlight and ensure primary red maps posterior calves rather than anterior shins."
+    ]
+  },
+  "deferred": {},
+  "tests": 7,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "workerSyncResult": {
+    "statuses": {
+      "generated": 1048,
+      "pending": 10216
+    },
+    "remaining": 10216,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 1614129996
+  },
+  "publicationIndexUnchanged": true
+}

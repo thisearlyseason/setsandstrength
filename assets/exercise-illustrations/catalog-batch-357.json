@@ -1,0 +1,374 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "3397",
+      "variant": "male",
+      "key": "3397-male-anatomical-white-v1",
+      "prompt": "Three equal panels same SIDE three-quarter view facingLEFT rearhipvisible. TWO-HAND DUMBBELL FULL SWING. ONE compactdumbbell bothhands grip samehandle allposes. Feet shoulderwidthfixedground. Panel1 HIPHINGE hipsBACK kneesSOFT flatback armsstraightweightBETWEENlegsbehindkneeline. Panel2 hipsdrive tallstanding weightFORWARDatCHESTheight armsstraight. Panel3 standTALL ribsdown weightOVERHEAD armsstraight dumbbellaboveMIDFOOT no backarch no overheadsquat. Primary GLUTES smallplainuniformredwash intactblackSEATshortsONLY no chest/shoulder red. Premium detailed adult MALE grayscale anatomical illustration pure white background soft shadows detailed exposed gray muscles realistic equipment. Original project reference STYLE ONLY. Opaque black tank/mid-thigh shorts fully wrap front sides back seat crotch with seams/folds/hems. Covered primary red highlight SMALL PLAIN UNIFORM wash on intact fabric NO fibers/lobes/segments/cutaways. Exactly one head two arms/hands two legs/feet per figure. Same model/camera/scale across panels. Full body/equipment in frame no text arrows logos.",
+      "layout": {
+        "columns": 3,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hinge with dumbbell between legs."
+        },
+        {
+          "key": "p2",
+          "caption": "Drive hips forward as weight passes chest height."
+        },
+        {
+          "key": "p3",
+          "caption": "Finish overhead with controlled alignment; guide weight back into hinge."
+        }
+      ],
+      "inspectionNote": "Real output inspected. Full swing hinge, chest-height passage and overhead endpoint with opaque clothes/local glute wash. Dumbbell orientation and hand placement change between panels; qualified grip continuity and controlled hip-driven swing review required. Human anatomy review pending. No approval or publication.",
+      "blockingIssues": [
+        "Keep a consistent secure two-hand dumbbell grip and orientation across swing phases."
+      ],
+      "canonicalName": "dumbbell full swing",
+      "styleVersion": "white-v1",
+      "equipment": "dumbbell",
+      "primaryMuscles": [
+        "glutes"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Full swing hinge, chest-height passage and overhead endpoint with opaque clothes/local glute wash. Dumbbell orientation and hand placement change between panels; qualified grip continuity and controlled hip-driven swing review required. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/3397-male-anatomical-white-v1-p1-68a18ef4302d.webp",
+          "width": 591,
+          "height": 887,
+          "bytes": 20220,
+          "sha256": "68a18ef4302d77399534c20238d83d8eec5495031c9a36a80b8b3dda7f0ad21f"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/3397-male-anatomical-white-v1-p2-8e326a28cdea.webp",
+          "width": 592,
+          "height": 887,
+          "bytes": 19214,
+          "sha256": "8e326a28cdea63b2e940337c9084f36d2f620741b85cc1d0ff9ca078fe2b322d"
+        },
+        {
+          "pose": "p3",
+          "path": "/workout/illustration-pilot/3397-male-anatomical-white-v1-p3-29c1b5a31c46.webp",
+          "width": 591,
+          "height": 887,
+          "bytes": 18936,
+          "sha256": "29c1b5a31c464e296444afad38c0a9be7892bb34f727f29ea426695bb1b131da"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-357.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/3397-male-anatomical-white-v1-thumb-2f92817d1506.webp",
+        "width": 160,
+        "height": 240,
+        "bytes": 2060,
+        "sha256": "2f92817d1506ef6161793b46f9708be6e9cabc1c79858b0ea6f9725613fca0ab"
+      },
+      "processingSignature": "3b1bf4a993fd249a87aba117109c4b4549cd89a013d67a11d81a6329b1a202b9",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/3397-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1396150,
+        "sha256": "4ae2253210aecb72afd61ceff7558d0394fbe7f1cda2bb1610b9de3f68d26b1d"
+      }
+    },
+    {
+      "exerciseId": "3398",
+      "variant": "male",
+      "key": "3398-male-anatomical-white-v1",
+      "prompt": "Three equal panels SAME straight-on FRONTview. DUMBBELL FRONT RACK LUNGE ONEdumbbellEACHhand atSHOULDERS elbowsforward allposes. Panel1 stand feetHIPwidth. Panel2 MODEL LEFTleg viewerRIGHT stepsFORWARD knee90 overankle, MODEL RIGHTleg viewerLEFT trails rearKNEEnearfloor heelup. Panel3 EXACTOPPOSITE MODEL RIGHTleg viewerLEFT stepsFORWARD knee90, LEFTleg viewerRIGHT trails rearKNEEnearfloor. ClearlyMIRROREDleadinglegs. Chestupright fixedrack no press. Primary QUADRICEPS smallplainuniformredwash intactfrontshorts plus exposedquads only, no clothingfibers torso black. Premium detailed adult MALE grayscale anatomical illustration pure white background soft shadows detailed exposed gray muscles realistic equipment. Original project reference STYLE ONLY. Opaque black tank/mid-thigh shorts fully wrap front sides back seat crotch with seams/folds/hems. Covered primary red highlight SMALL PLAIN UNIFORM wash on intact fabric NO fibers/lobes/segments/cutaways. Exactly one head two arms/hands two legs/feet per figure. Same model/camera/scale across panels. Full body/equipment in frame no text arrows logos.",
+      "layout": {
+        "columns": 3,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand with dumbbells racked at shoulders."
+        },
+        {
+          "key": "p2",
+          "caption": "Step left leg forward into lunge, then return."
+        },
+        {
+          "key": "p3",
+          "caption": "Step right leg forward; alternate while keeping torso upright."
+        }
+      ],
+      "inspectionNote": "Real output inspected. Front-racked dumbbells and clearly opposite forward lunges with upright torso. Shorts fully red instead of black with localized quadriceps mapping; correction required. Qualified knee tracking and rack grip review pending. Human anatomy review pending. No approval or publication.",
+      "blockingIssues": [
+        "Restore black shorts with localized plain quadriceps overlay rather than fully red garment."
+      ],
+      "canonicalName": "dumbbell front rack lunge",
+      "styleVersion": "white-v1",
+      "equipment": "dumbbell",
+      "primaryMuscles": [
+        "quads"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Front-racked dumbbells and clearly opposite forward lunges with upright torso. Shorts fully red instead of black with localized quadriceps mapping; correction required. Qualified knee tracking and rack grip review pending. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/3398-male-anatomical-white-v1-p1-4b6edf602689.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 17806,
+          "sha256": "4b6edf602689b424d9e5333a068366b4d6bf7f41a5680f836320651586af8364"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/3398-male-anatomical-white-v1-p2-ea8295b0d2a7.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 17684,
+          "sha256": "ea8295b0d2a79e7b53f325256dd218ad8a77def87076294bcf84fdbbb748cb95"
+        },
+        {
+          "pose": "p3",
+          "path": "/workout/illustration-pilot/3398-male-anatomical-white-v1-p3-91527506b739.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 17084,
+          "sha256": "91527506b7391999c8ef4cfd16b7836f23eaa0543aa22183af8c16f07a450c01"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-357.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/3398-male-anatomical-white-v1-thumb-e18671fd5831.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2704,
+        "sha256": "e18671fd5831ce868578255f14ae994373c0403cd90aebc233073087faa4ba80"
+      },
+      "processingSignature": "a0c4198ebcffe7e66db6661fee5e86ca19d8054f730cba03cd97819ce3be7d57",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/3398-male-anatomical-white-v1.png",
+        "width": 2172,
+        "height": 724,
+        "bytes": 1307256,
+        "sha256": "adffea543140395045709d8ce42f81b64d6bb3e30c46d5c761282369e2672b60"
+      }
+    },
+    {
+      "exerciseId": "3399",
+      "variant": "male",
+      "key": "3399-male-anatomical-white-v1",
+      "prompt": "Two equal panels same front three-quarter view. BARBELL FRONT RACK LUNGE same loadedbar on FRONTshoulders with clean-grip fingertips and elbowsHIGHFORWARD bothposes. Panel1 stand feetHIPwidth. Panel2 LEFTleg forward frontknee90 overankle RIGHTrearknee justabovefloor rearheelraised. TorsoUPRIGHT rackfixedbarneverbehindneck. Sameweights/bothhands, no press. This image shows one-side reps only; caption instructsswitchafterset. Primary QUADRICEPS smallplainuniformredwash intactfrontshorts plus exposedquads only, no fiberscloth torso black. Premium detailed adult MALE grayscale anatomical illustration pure white background soft shadows detailed exposed gray muscles realistic equipment. Original project reference STYLE ONLY. Opaque black tank/mid-thigh shorts fully wrap front sides back seat crotch with seams/folds/hems. Covered primary red highlight SMALL PLAIN UNIFORM wash on intact fabric NO fibers/lobes/segments/cutaways. Exactly one head two arms/hands two legs/feet per figure. Same model/camera/scale across panels. Full body/equipment in frame no text arrows logos.",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand with bar on front shoulders and elbows high."
+        },
+        {
+          "key": "p2",
+          "caption": "Lunge forward with left leg and push back; finish reps, then switch legs."
+        }
+      ],
+      "inspectionNote": "Real output inspected. Barbell front rack standing and one-side forward lunge, forward elbows and upright torso, opaque clothing/plain thigh wash. Caption permits finishing one side before switching. Qualified rack grip/bar contact, front knee and rear heel review pending. Human anatomy review pending. No approval or publication.",
+      "canonicalName": "barbell front rack lunge",
+      "styleVersion": "white-v1",
+      "equipment": "barbell",
+      "primaryMuscles": [
+        "quads"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Barbell front rack standing and one-side forward lunge, forward elbows and upright torso, opaque clothing/plain thigh wash. Caption permits finishing one side before switching. Qualified rack grip/bar contact, front knee and rear heel review pending. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/3399-male-anatomical-white-v1-p1-1385d8e42122.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 31582,
+          "sha256": "1385d8e421227e84d98e1d798d453b741bc9869e59a6e3f755caea9f42e904c2"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/3399-male-anatomical-white-v1-p2-281a12639c73.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 33966,
+          "sha256": "281a12639c7333b5919540fd1cbb422bb75217ce47ba038ca195e3a537c4763b"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-357.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/3399-male-anatomical-white-v1-thumb-e4e89c7beb4b.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 3320,
+        "sha256": "e4e89c7beb4b1630393983e57b0d1d7f1255415b651593227caa94952988bd6e"
+      },
+      "processingSignature": "e73a506a515b9f2625ed8bf26c2c6b07aa3099587849ff52dea1f524592d5fdd",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/3399-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1464250,
+        "sha256": "2e7156826e59ec4bcda377c83038ff8ec5f845da13f89b45a7e8b68c7eb11f9f"
+      }
+    },
+    {
+      "exerciseId": "3400",
+      "variant": "male",
+      "key": "3400-male-anatomical-white-v1",
+      "prompt": "FOUR equal panels TWO BY TWO same front three-quarter camera. TWO DUMBBELL CLEAN AND PRESS ONEweightEACHhand allposes. TOPLEFT gripweightsRESTFLOOR justoutsidefeet hiphinge kneesbent flatback headneutral. TOPRIGHT explosiveclean CATCHweightsatFRONTshoulders elbowsforward torsoTALL kneesSOFT. BOTTOMLEFT smallKNEEDIP torsoUPRIGHT weightsSTILLshoulders. BOTTOMRIGHT fullystand hipskneesextend BOTHweightsOVERHEAD armsstraight aboveshoulders ribsDOWN noleanback. Feetshoulderwidthfixedallposes. Primary exposed DELTOIDS redONLY torsolegsblackgray. Premium detailed adult MALE grayscale anatomical illustration pure white background soft shadows detailed exposed gray muscles realistic equipment. Original project reference STYLE ONLY. Opaque black tank/mid-thigh shorts fully wrap front sides back seat crotch with seams/folds/hems. Covered primary red highlight SMALL PLAIN UNIFORM wash on intact fabric NO fibers/lobes/segments/cutaways. Exactly one head two arms/hands two legs/feet per figure. Same model/camera/scale across panels. Full body/equipment in frame no text arrows logos.",
+      "layout": {
+        "columns": 2,
+        "rows": 2
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hinge to grip dumbbells on floor with back flat."
+        },
+        {
+          "key": "p2",
+          "caption": "Clean weights close to body and catch at shoulders."
+        },
+        {
+          "key": "p3",
+          "caption": "Dip knees slightly with torso upright."
+        },
+        {
+          "key": "p4",
+          "caption": "Drive up and press overhead; lower to shoulders and floor under control."
+        }
+      ],
+      "inspectionNote": "Real output inspected. Four-cell clean and press: floor grip, shoulder catch, knee dip and overhead extension. Two dumbbells and opaque clothes consistent, deltoid-only highlights. Qualified clean trajectory, dip distinction, rack grip and overhead alignment review pending. Human anatomy review pending. No approval or publication.",
+      "canonicalName": "dumbbell clean and press",
+      "styleVersion": "white-v1",
+      "equipment": "dumbbell",
+      "primaryMuscles": [
+        "delts"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Four-cell clean and press: floor grip, shoulder catch, knee dip and overhead extension. Two dumbbells and opaque clothes consistent, deltoid-only highlights. Qualified clean trajectory, dip distinction, rack grip and overhead alignment review pending. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/3400-male-anatomical-white-v1-p1-af67fd19f38b.webp",
+          "width": 600,
+          "height": 656,
+          "bytes": 17948,
+          "sha256": "af67fd19f38be4a053b91cc075ee24ec4a764931d399f7e9f0af505300f57138"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/3400-male-anatomical-white-v1-p2-67cad82ec2df.webp",
+          "width": 599,
+          "height": 656,
+          "bytes": 17856,
+          "sha256": "67cad82ec2dfa0a92bc051cc7a7f89e45bb3783de2f8bc61c5fbb894e0ab4dc0"
+        },
+        {
+          "pose": "p3",
+          "path": "/workout/illustration-pilot/3400-male-anatomical-white-v1-p3-19f79c41515d.webp",
+          "width": 600,
+          "height": 656,
+          "bytes": 16556,
+          "sha256": "19f79c41515d69807b3884382e084b802ff75546e365abae516a834c11397489"
+        },
+        {
+          "pose": "p4",
+          "path": "/workout/illustration-pilot/3400-male-anatomical-white-v1-p4-276bdc05fda9.webp",
+          "width": 599,
+          "height": 656,
+          "bytes": 15268,
+          "sha256": "276bdc05fda9f8f8fd1480fd17cfdd8e21e31bc7b60d3299a567487ab00cf3de"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-357.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/3400-male-anatomical-white-v1-thumb-a9e52876c814.webp",
+        "width": 220,
+        "height": 240,
+        "bytes": 2752,
+        "sha256": "a9e52876c81427b39e7b2eb2a70787ba6d4dd970b7bc02ad77595a22d72a4be5"
+      },
+      "processingSignature": "624a394240902fa970dbeb63126a880cac957e8d10fcd30cb832d590696dd384",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/3400-male-anatomical-white-v1.png",
+        "width": 1199,
+        "height": 1312,
+        "bytes": 1723829,
+        "sha256": "7eb4638974ce5b454171befbe4eba4cffe62b5821ec901972e632835ba2ed93e"
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "batch": 47,
+  "trigger": "2026-11-01T10:21:14.084Z",
+  "completedAt": "2026-11-01T10:27:04.439305+00:00",
+  "tool": "image_gen.imagegen",
+  "newCandidateSets": 4,
+  "generationCalls": 4,
+  "exerciseIds": [
+    "0360",
+    "0378"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 184,
+    "remainingVariants": 11080,
+    "approvedVariants": 0,
+    "blockedVariants": 79,
+    "knownPoseImages": 370,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "All pending, none published. One-arm presses preserve empty opposite hand, upright trunk and complete weight framing with narrow top margins. Rear-fly variants show both weights and intact rear clothing; end arm plane and hinge depth cannot be established confidently from perspective, explicitly blocked for qualified confirmation or clearer view.",
+  "metadataConflictsDeferred": [
+    {
+      "exerciseId": "0323",
+      "issue": "Incline lateral-raise instructions place upper arm against inside thigh, inconsistent with free lateral raise; deferred rather than guessed."
+    }
+  ],
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 297990851,
+  "savedMasters": [
+    {
+      "exerciseId": "0360",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0360-male-anatomical-white-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1385618,
+        "sha256": "d8330ce9243f245e4ddb1d77a961eb316dbc0dc0ccaca63dae10902a8b0f7acc"
+      }
+    },
+    {
+      "exerciseId": "0360",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0360-female-anatomical-white-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1355529,
+        "sha256": "6627642d87f2b04b8d976f39023401d33d13f86d2ff933b5824aca4c02a4485b"
+      }
+    },
+    {
+      "exerciseId": "0378",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0378-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1555170,
+        "sha256": "e5f345082ef94cba807890cdade1f83b423b1afc6b59e344e91aeb006c2e7ef5"
+      }
+    },
+    {
+      "exerciseId": "0378",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0378-female-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1485441,
+        "sha256": "3cb0bf4eb46cb149fb1fc371dcda654c53e9607f4606d126e9cdc768f40b30e0"
+      }
+    }
+  ]
+}

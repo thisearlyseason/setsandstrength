@@ -1,0 +1,89 @@
+{
+  "batch": 139,
+  "trigger": "2026-11-03T03:51:55.757Z",
+  "completedAt": "2026-11-03T03:57:57.239298+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 4,
+  "generationCalls": 4,
+  "exerciseIds": [
+    "0844",
+    "0853"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 564,
+    "remainingVariants": 10700,
+    "approvedVariants": 0,
+    "blockedVariants": 209,
+    "knownPoseImages": 1156,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Four candidates, eight poses, four built-in calls. Canonical weighted round arm is illustrated as bent-over dumbbell lateral raise: hanging start to arms out at shoulder level with fixed hip hinge and soft knees. Rear/lateral deltoid red on exposed grayscale shoulders. Weighted standing curls show bilateral supinated dumbbells from extended arms to shoulder height, upright torso and elbows near ribs; biceps red only. Full opaque black clothing visually retained. Male reverse-fly gaze is mildly forward/down; qualified cervical alignment, humeral plane, grip, wrist/elbow consistency, proportions and primary mapping remain for human review. Every original master and exact prompt saved; no corrections, anatomy approval or publication. Original project artwork for style only, no upstream licensed media. Seven pipeline checks do not establish anatomical accuracy.",
+  "metadataConflictsDeferred": {
+    "0843": "Weight resting on thighs does not define how it resists adduction; load mechanics unresolved.",
+    "0847": "Single medicine ball cannot hang by both sides as stated; equipment and start instructions conflict.",
+    "0851": "Sissy-squat backward lean and knee travel description conflicts with hip-bending, heel-driven ordinary squat instructions."
+  },
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 909449868,
+  "savedMasters": [
+    {
+      "exerciseId": "0844",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0844-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1475734,
+        "sha256": "fe4cf810372e541ae2ee87eb659291b6ac73b1a71cc893dfec7998559b3a19c2"
+      }
+    },
+    {
+      "exerciseId": "0844",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0844-female-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1486198,
+        "sha256": "7259060935ae1f48e028d5705d1e2374ddb460486f954a391d0ec0ee2ccb0fc0"
+      }
+    },
+    {
+      "exerciseId": "0853",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0853-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1319031,
+        "sha256": "7b9c903145b28684d62d04ae2f752c1fd1eb1d3ec4ad0c9edcae2d8c1e8a3efa"
+      }
+    },
+    {
+      "exerciseId": "0853",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0853-female-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1323424,
+        "sha256": "c91af41ec613d44eb9603a28d91445b123f31e7d562b65e9a75a827360256fa2"
+      }
+    }
+  ]
+}

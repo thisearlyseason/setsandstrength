@@ -1,0 +1,124 @@
+{
+  "batch": 70,
+  "trigger": "2026-11-01T14:13:16.754Z",
+  "completedAt": "2026-11-01T14:29:11.732005+00:00",
+  "tool": "image_gen.imagegen",
+  "newCandidateSets": 6,
+  "generationCalls": 8,
+  "exerciseIds": [
+    "0432",
+    "0433",
+    "0435"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 282,
+    "remainingVariants": 10982,
+    "approvedVariants": 0,
+    "blockedVariants": 120,
+    "knownPoseImages": 574,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "All pending and unpublished. Male hinge camera reversal corrected in v2; male pullover wrong elbow-flexion endpoint corrected to near-straight shoulder arc in v2, originals retained. Pullover custom endpoint crop visually inspected to preserve complete weight/hands. Sumo wall-ball squats maintain ball contact, wide stance and opaque clothes. Qualified grip, spine/knee mechanics, individual range, secure two-hand hold and anatomical mapping review still required. Pipeline pass is not anatomical or movement approval.",
+  "metadataConflictsDeferred": [
+    {
+      "exerciseId": "0434",
+      "issue": "Appears mechanically equivalent to 0432 soft-knee hinge; preserve ID pending variant review."
+    },
+    {
+      "exerciseId": "0436",
+      "issue": "Tate press supine description versus seated shoulder-press/rotation instructions conflict."
+    },
+    {
+      "exerciseId": "0438",
+      "issue": "W-path title not described by generic seated overhead-press instructions."
+    },
+    {
+      "exerciseId": "0432",
+      "issue": "Target glutes only versus dedicated map glutes plus hamstrings; pilot preserves dedicated map without changing canonical records."
+    }
+  ],
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 455437949,
+  "savedMasters": [
+    {
+      "exerciseId": "0432",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0432-male-anatomical-white-v2.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1401400,
+        "sha256": "08d7fb9079bd12a5501bffc9cee121d5462b965b4f9951114e53a690a97cf292"
+      }
+    },
+    {
+      "exerciseId": "0432",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0432-female-anatomical-white-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1435574,
+        "sha256": "04687284a87a259003536013bc460bd0659ef7c24d7c1c4bcfa1ebb55cbb3c60"
+      }
+    },
+    {
+      "exerciseId": "0433",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0433-male-anatomical-white-v2.png",
+        "width": 1957,
+        "height": 804,
+        "bytes": 1707961,
+        "sha256": "00160cf6360a68765fe3bf6d44b1f1d0e9b2f47644c03d1512d4d722e76ef71c"
+      }
+    },
+    {
+      "exerciseId": "0433",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0433-female-anatomical-white-v1.png",
+        "width": 1983,
+        "height": 793,
+        "bytes": 1586750,
+        "sha256": "f69980a6ef33e70be372b33c921f4b294087130936193b6e50187f10601851e5"
+      }
+    },
+    {
+      "exerciseId": "0435",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0435-male-anatomical-white-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1706453,
+        "sha256": "c511e349eef3878c2c3f9c19974704e292d657762e6b8a570d12e4415dddcda4"
+      }
+    },
+    {
+      "exerciseId": "0435",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0435-female-anatomical-white-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1933537,
+        "sha256": "ae480daaa6b1d1bcb8796a984376c660607fb52e72a1b5a29a25d220b0509e63"
+      }
+    }
+  ]
+}

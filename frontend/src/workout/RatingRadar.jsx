@@ -1,0 +1,8 @@
+import { useId } from 'react'
+import './analysis.css'
+
+export default function RatingRadar({ report }) {
+  const id = useId()
+  const point = (i, radius) => { const angle = -Math.PI/2 + i * Math.PI*2/3; return `${150+Math.cos(angle)*radius},${130+Math.sin(angle)*radius}` }
+  return <section className="rating-radar"><h3>Logged rating profile</h3><p>{report.ratedSets} / {report.workingSets} working sets rated ({Math.round(report.ratingCoverage*100)}% coverage). This profile describes your ratings; larger values do not mean better training.</p>{report.radar ? <><svg viewBox="0 0 300 260" role="img" aria-labelledby={id}><title id={id}>Logged rating profile. Axis values and definitions follow in the table.</title>{[25,50,75,100].map(radius=><polygon key={radius} points={[0,1,2].map(i=>point(i,radius)).join(' ')} fill="none" stroke="currentColor" opacity=".2"/>)}<polygon points={report.radar.map((a,i)=>point(i,a.value)).join(' ')} fill="currentColor" fillOpacity=".15" stroke="currentColor" strokeWidth="2"/>{report.radar.map((a,i)=>{ const [x,y]=point(i,116).split(',');return <text key={a.label} x={x} y={y} textAnchor="middle" fontSize="10">{a.label}</text> })}</svg><table><caption>Rating axes, each on a 0–100 scale</caption><thead><tr><th>Axis</th><th>Value</th><th>Definition</th></tr></thead><tbody>{report.radar.map(a=><tr key={a.label}><th scope="row">{a.label}</th><td>{a.value} / 100</td><td>{a.definition}</td></tr>)}</tbody></table></> : <p>At least 5 valid effort ratings and 5 feel ratings in this period are needed to draw the profile. Available: {report.rirSets} effort and {report.feelSets} feel ratings.</p>}</section>
+}

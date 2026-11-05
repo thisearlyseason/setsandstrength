@@ -1,0 +1,118 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "4394",
+      "variant": "male",
+      "key": "4394-male-anatomical-white-v1",
+      "prompt": "Alternating shoulder flexion back to WALL THREE equal side-by-side panels side three-quarter view. Stand with BACK HEAD and HIPS against a vertical wall, feet slightly forward, ribs down. Panel1 both arms at sides. Panel2 RIGHT arm raises forward overhead close to wall without arching, left down. Panel3 LEFT arm raises overhead, right down. Keep head hips back contact throughout, no weight. Exposed deltoids red only. Use case: scientific educational. Match original 0853 reference only in premium detailed grayscale anatomy rendering, never its movement or equipment. White background, subtle floor shadow, realistic muscular adult male. Same person, camera, scale and equipment in both panels. Fully opaque black tank and mid-thigh black shorts wrap front, sides, back and crotch, realistic seams, folds and hems; no clothing cutaways or anatomical fibers over cloth. Red highlights only on exposed target deltoids or triceps as specified. Entire body, hands, feet, weights and equipment fit generously inside each panel. No words, numbers or arrows.",
+      "layout": {
+        "columns": 3,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand with back, head and hips against the wall."
+        },
+        {
+          "key": "p2",
+          "caption": "Raise one arm forward and overhead without arching, then lower."
+        },
+        {
+          "key": "p3",
+          "caption": "Alternate to the other arm while maintaining wall contact."
+        }
+      ],
+      "inspectionNote": "Real output inspected. Wall contact retained through arms-down and alternating overhead reaches. Qualified anatomy review pending; no publication.",
+      "blockingIssues": [],
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream media used.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0853-male-anatomical-white-v1.png",
+        "role": "style only"
+      }
+    },
+    {
+      "exerciseId": "4411",
+      "variant": "male",
+      "key": "4411-male-anatomical-white-v1",
+      "prompt": "Barbell seated high front raise TWO equal side-by-side panels SIDE three-quarter view. Sit upright on flat bench feet planted. Overhand shoulder-width grip on long straight barbell with small symmetric plates. First bar before thighs arms down. Second raise straight arms FORWARD in arc to EYE LEVEL, elbows softly bent and fixed. No curl or overhead press, torso stays upright. Entire bar and plates inside frame. Exposed anterior deltoids red only. Use case: scientific educational. Match original 0853 reference only in premium detailed grayscale anatomy rendering, never its movement or equipment. White background, subtle floor shadow, realistic muscular adult male. Same person, camera, scale and equipment in both panels. Fully opaque black tank and mid-thigh black shorts wrap front, sides, back and crotch, realistic seams, folds and hems; no clothing cutaways or anatomical fibers over cloth. Red highlights only on exposed target deltoids or triceps as specified. Entire body, hands, feet, weights and equipment fit generously inside each panel. No words, numbers or arrows.",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Sit tall holding a barbell in front of thighs with overhand grip."
+        },
+        {
+          "key": "p2",
+          "caption": "Raise forward to eye level, pause, then lower slowly."
+        }
+      ],
+      "inspectionNote": "Real output inspected. Seated overhand front raise and intact bar shown; terminal bar height remains below eye level. Qualified anatomy review pending; no publication.",
+      "blockingIssues": [
+        "High front raise ends below eye level; canonical record requires eye level or higher. Correct end range before approval."
+      ],
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream media used.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0853-male-anatomical-white-v1.png",
+        "role": "style only"
+      }
+    },
+    {
+      "exerciseId": "4412",
+      "variant": "male",
+      "key": "4412-male-anatomical-white-v1",
+      "prompt": "Pronated band pull-apart at90degrees TWO equal side-by-side panels front three-quarter view. Stand holding a continuous resistance band in both hands with OVERHAND grip palms downward. Both arms straight at shoulder height. First hands shoulder-width in front with band lightly taut. Second hands pull WIDE OUT SIDES with arms staying straight until band stretches across chest, shoulder blades together. Same band remains continuous hand to hand. Exposed rear deltoids red only; chest and back fully covered opaque blacktank. Use case: scientific educational. Match original 0853 reference only in premium detailed grayscale anatomy rendering, never its movement or equipment. White background, subtle floor shadow, realistic muscular adult male. Same person, camera, scale and equipment in both panels. Fully opaque black tank and mid-thigh black shorts wrap front, sides, back and crotch, realistic seams, folds and hems; no clothing cutaways or anatomical fibers over cloth. Red highlights only on exposed target deltoids or triceps as specified. Entire body, hands, feet, weights and equipment fit generously inside each panel. No words, numbers or arrows.",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hold band at shoulder height with overhand grip and straight arms."
+        },
+        {
+          "key": "p2",
+          "caption": "Pull hands apart until band reaches chest, squeeze shoulder blades, then return slowly."
+        }
+      ],
+      "inspectionNote": "Real output inspected. Pronated straight-arm pull-apart with continuous band and intact chest clothing. Qualified anatomy review pending; no publication.",
+      "blockingIssues": [],
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream media used.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0853-male-anatomical-white-v1.png",
+        "role": "style only"
+      }
+    },
+    {
+      "exerciseId": "4422",
+      "variant": "male",
+      "key": "4422-male-anatomical-white-v1",
+      "prompt": "EZ-bar drag biceps curl TWO equal side-by-side panels SIDE three-quarter view. Stand holding EZ curved bar with small symmetric plates underhand grip. First bar at thighs arms extended. Second DRAG bar close up torso to lower CHEST by flexing elbows while elbows move BACK BEHIND TORSO. Do not swing bar forward, upper arms angle backward. Full bar and hands visible. Red exposed biceps only. Use case: scientific educational. Match original 0853 reference only in premium detailed grayscale anatomy rendering, never its movement or equipment. White background, subtle floor shadow, realistic muscular adult male. Same person, camera, scale and equipment in both panels. Fully opaque black tank and mid-thigh black shorts wrap front, sides, back and crotch, realistic seams, folds and hems; no clothing cutaways or anatomical fibers over cloth. Red highlights only on exposed target deltoids or triceps as specified. Entire body, hands, feet, weights and equipment fit generously inside each panel. No words, numbers or arrows.",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hold an EZ bar with underhand grip at thighs."
+        },
+        {
+          "key": "p2",
+          "caption": "Drag bar up close to torso while moving elbows behind you, then lower slowly."
+        }
+      ],
+      "inspectionNote": "Real output inspected. EZ drag curl moves elbows behind torso and raises bar close to lower chest. Qualified anatomy review pending; no publication.",
+      "blockingIssues": [],
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream media used.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0853-male-anatomical-white-v1.png",
+        "role": "style only"
+      }
+    }
+  ]
+}

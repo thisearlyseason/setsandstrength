@@ -1,0 +1,74 @@
+{
+  "batch": 326,
+  "runId": "a76a0b35-ee35-4026-b7f7-d13f91854ff3",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "trigger": "2026-11-04T08:41:59.347Z",
+  "purpose": "batch326 scheduled male continuation",
+  "started": "2026-11-04T08:42:25.307344+00:00",
+  "completedAt": "2026-11-04T08:50:18.635080+00:00",
+  "actualToolName": "image_gen__imagegen",
+  "calls": 4,
+  "newCandidateSets": 4,
+  "exerciseIds": [
+    "3114",
+    "3120",
+    "3121",
+    "3126"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1171,
+    "remainingVariants": 10093,
+    "approvedVariants": 0,
+    "blockedVariants": 420,
+    "knownPoseImages": 2284,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 798,
+      "remainingVariants": 4834,
+      "blockedVariants": 301
+    }
+  },
+  "reviewNotes": {
+    "3114": "Straight working leg moves from toe contact behind to hip-height extension, opposite knee grounded and hands support with opaque shorts/glute wash. Qualified review of lumbar neutrality, square pelvis and limb continuity remains pending.",
+    "3120": "Rail-supported calf raise shows heels grounded then clearly lifted bilaterally, tall posture and calf-only highlights with opaque clothes. Qualified review of ankle alignment, forefoot contact and light hand support pending.",
+    "3121": "Seated floor row with legs extended, band around feet and upright torso shows arms extended then pulled to waist. Lat wash includes fiber/segment contour through tank; block fabric overlay correction. Qualified band sole securement and torso review pending.",
+    "3126": "Same straight working leg, heel fixed and band to both hands; foot moves from toes-up to pointed away with calf-only red and opaque clothes. Qualified review of plantarflexion range, band forefoot placement and ankle detail remains pending."
+  },
+  "blockingIssues": {
+    "3121": [
+      "Replace lat anatomical fiber/segment contour through tank with plain uniform wash on intact opaque fabric."
+    ]
+  },
+  "deferred": {
+    "3122": "Seated shoulder press band anchor unspecified; clarify before generation.",
+    "3123": "Seated curl band anchor unspecified; clarify before generation.",
+    "3124": "Seated chest press band anchor unspecified; clarify before generation."
+  },
+  "tests": 7,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "workerSyncResult": {
+    "statuses": {
+      "generated": 1171,
+      "pending": 10093
+    },
+    "remaining": 10093,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 1792341063
+  },
+  "publicationIndexUnchanged": true
+}

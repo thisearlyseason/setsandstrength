@@ -1,0 +1,244 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "1267",
+      "variant": "male",
+      "key": "1267-male-anatomical-white-v2",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Sit upright on the ball with both feet planted and one hand at the hip. Hold the cable handle at chest height with the working elbow bent."
+        },
+        {
+          "key": "p2",
+          "caption": "Press the handle forward while keeping the torso stable, then return slowly; complete both sides."
+        }
+      ],
+      "prompt": "Correct cable routing ONLY in original male two-pose seated-ball one-arm chest press. The WORKING ARM is FAR side: cable must run from rear pulley to handle on FAR SIDE behind torso/arm. REMOVE visible cable line ACROSS FRONT CHEST and through near arm in BOTH panels. Render proper OCCLUSION: rear cable visible between rear machine and torso outer silhouette, then hidden BEHIND torso/working arm, emerging only where needed at handle; no line drawn across shirt or through limbs. Keep taut continuous physically plausible rear resistance connection, same handle/machine and stack travel. Preserve seated upright ball, feet wide planted, free hand on hip, start bent elbow and finish arm forward, smooth red working chest over intact opaque black tank, full opaque shorts front sides back seat crotch, grayscale anatomy white background two equal square cells whole body inside no text.\n",
+      "inspectionNote": "Correction removes cable crossing front shirt; far-side line occluded behind body/arm. Upright ball press retained. Qualified continuity/grip/elbow/ball stability review pending.",
+      "canonicalName": "cable one arm press on exercise ball",
+      "styleVersion": "white-v1",
+      "equipment": "cable",
+      "primaryMuscles": [
+        "pectorals"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/1267-male-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "status": "generated",
+        "costUSD": null
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Correction removes cable crossing front shirt; far-side line occluded behind body/arm. Upright ball press retained. Qualified continuity/grip/elbow/ball stability review pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/1267-male-anatomical-white-v2-p1-16d18fac9b73.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 45808,
+          "sha256": "16d18fac9b73f0661c308f81577450d84ecc62d7a9b83e05db243043d7d0d776"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/1267-male-anatomical-white-v2-p2-7f30c8d89916.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 46908,
+          "sha256": "7f30c8d899162a0738694f8f6d7e4b26098efacd694e0074b9dd219f6aef63c6"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-171.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/1267-male-anatomical-white-v2-thumb-19c659c4dc35.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 4974,
+        "sha256": "19c659c4dc351e0dda665e607775b47717f9328e1662e37a65b3638acda72441"
+      },
+      "processingSignature": "74d5e06697010108a978c976aaf9b9597b5de82727aa7afb9fa412359704a171",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1267-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1808150,
+        "sha256": "aba65953f683dbbda4f900e48438e165d2c579368b15ad426132095521195f64"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "1267",
+          "variant": "male",
+          "key": "1267-male-anatomical-white-v1",
+          "layout": {
+            "columns": 2,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Sit upright on the ball with both feet planted and one hand at the hip. Hold the cable handle at chest height with the working elbow bent."
+            },
+            {
+              "key": "p2",
+              "caption": "Press the handle forward while keeping the torso stable, then return slowly; complete both sides."
+            }
+          ],
+          "prompt": "Original premium ADULT male detailed anatomical exercise illustration CABLE ONE ARM PRESS ON EXERCISE BALL canonical1267. TWO equal SQUARE cells side by side WIDE LANDSCAPE2:1 same model proportions stance apparatus ball camera scale. Side front three-quarter view model faces LEFT seated TALL UPRIGHT on large firm gray stability ball, pelvis supported ball, knees90degrees BOTH feet wide flat grounded for balance, spine neutral core braced no leaning/twisting. Free LEFT hand on left HIP throughout. Working RIGHT hand grips single D handle palm DOWN neutral wrist. Cable stack at RIGHT BEHIND model, pulley at CHEST HEIGHT and slightly outside right shoulder, thin taut steel cable routed OUTSIDE right arm clear body. LEFT START handle next to RIGHT chest, RIGHT elbow bent90degrees slightly BELOW shoulder height tucked30degrees off ribs, forearm points forward. RIGHT FINISH right arm presses FORWARD LEFT to nearly straight shoulder-height arm, handle in front of right shoulder not across body, shoulder down. Cable pays out from fixed rear pulley and weight stack raises, same machine/ball/feet positions. No standing/incline bench/ball bridge, no free arm press. Primary RIGHT PECTORAL smooth DIFFUSE RED tint OVER INTACT RIGHT CHEST SHIRT ONLY, no fibers/striations/pec grooves, no left chest/arm red. Full opaque BLACK athletic tank wraps FRONT SIDES BACK continuous seams broad real cloth folds, MID-THIGH black shorts cover FRONT SIDES BACK SEAT CROTCH no cutaway/transparency/anatomical fibers through cloth. Fine detailed grayscale anatomy on exposed arms shoulders legs neck realistic fingers proportions equipment. Black shoes. Pure WHITE background soft contact shadows generous12percent margins whole head hands feet ball machine inside EACH square. Equal male/female quality. Original project reference rendering STYLE ONLY ignore bench pushup/chest fibers. No labels text captions arrows.",
+          "inspectionNote": "Upright ball-seated one-arm press bent elbow to forward arm, free hand hip, planted feet and red working chest on opaque clothes. Male cable crosses front shirt and needs routing correction; female cable partly occluded behind body. Qualified stability/grip/elbow/line mechanics pending.",
+          "canonicalName": "cable one arm press on exercise ball",
+          "styleVersion": "white-v1",
+          "equipment": "cable",
+          "primaryMuscles": [
+            "pectorals"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Upright ball-seated one-arm press bent elbow to forward arm, free hand hip, planted feet and red working chest on opaque clothes. Male cable crosses front shirt and needs routing correction; female cable partly occluded behind body. Qualified stability/grip/elbow/line mechanics pending.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/1267-male-anatomical-white-v1-p1-8563c108b145.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 50820,
+              "sha256": "8563c108b1451a90e23f79c684a9798495c2be97b410e7746fafe8a7a523d3b8"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/1267-male-anatomical-white-v1-p2-d02d72601a42.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 52316,
+              "sha256": "d02d72601a427e8c489ca338554901d539a9aa5f77a4b0dda3e6b5ad7221b365"
+            }
+          ],
+          "video": null,
+          "batch": "catalog-batch-171.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/1267-male-anatomical-white-v1-thumb-aaa40f45fb37.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 5032,
+            "sha256": "aaa40f45fb37bb15d3caf1fba80dac8589ad375b5eeed264afc66103f1f40b19"
+          },
+          "processingSignature": "45678d69a9203e0a359547457afbb53ec2fb557203c2624f62c122eca9c051d0",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/1267-male-anatomical-white-v1.png",
+            "width": 1774,
+            "height": 887,
+            "bytes": 1704877,
+            "sha256": "3732b64118796f7f5413f3e84e4dd190e33f5d7e0fe8909d9223d8f19411180e"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "1267",
+      "variant": "female",
+      "key": "1267-female-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Sit upright on the ball with both feet planted and one hand at the hip. Hold the cable handle at chest height with the working elbow bent."
+        },
+        {
+          "key": "p2",
+          "caption": "Press the handle forward while keeping the torso stable, then return slowly; complete both sides."
+        }
+      ],
+      "prompt": "Original premium ADULT female detailed anatomical exercise illustration CABLE ONE ARM PRESS ON EXERCISE BALL canonical1267. TWO equal SQUARE cells side by side WIDE LANDSCAPE2:1 same model proportions stance apparatus ball camera scale. Side front three-quarter view model faces LEFT seated TALL UPRIGHT on large firm gray stability ball, pelvis supported ball, knees90degrees BOTH feet wide flat grounded for balance, spine neutral core braced no leaning/twisting. Free LEFT hand on left HIP throughout. Working RIGHT hand grips single D handle palm DOWN neutral wrist. Cable stack at RIGHT BEHIND model, pulley at CHEST HEIGHT and slightly outside right shoulder, thin taut steel cable routed OUTSIDE right arm clear body. LEFT START handle next to RIGHT chest, RIGHT elbow bent90degrees slightly BELOW shoulder height tucked30degrees off ribs, forearm points forward. RIGHT FINISH right arm presses FORWARD LEFT to nearly straight shoulder-height arm, handle in front of right shoulder not across body, shoulder down. Cable pays out from fixed rear pulley and weight stack raises, same machine/ball/feet positions. No standing/incline bench/ball bridge, no free arm press. Primary RIGHT PECTORAL smooth DIFFUSE RED tint OVER INTACT RIGHT CHEST SHIRT ONLY, no fibers/striations/pec grooves, no left chest/arm red. Full opaque BLACK athletic tank wraps FRONT SIDES BACK continuous seams broad real cloth folds, MID-THIGH black shorts cover FRONT SIDES BACK SEAT CROTCH no cutaway/transparency/anatomical fibers through cloth. Fine detailed grayscale anatomy on exposed arms shoulders legs neck realistic fingers proportions equipment. Black shoes. Pure WHITE background soft contact shadows generous12percent margins whole head hands feet ball machine inside EACH square. Equal male/female quality. Original project reference rendering STYLE ONLY ignore bench pushup/chest fibers. No labels text captions arrows.",
+      "inspectionNote": "Upright one-arm ball-seated press bent to forward extended arm, free hand hip and feet planted. Cable partly occluded behind body/arm, smooth working chest tint over intact opaque clothes. Qualified cable continuity, grip/elbow and ball stability pending.",
+      "canonicalName": "cable one arm press on exercise ball",
+      "styleVersion": "white-v1",
+      "equipment": "cable",
+      "primaryMuscles": [
+        "pectorals"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Upright one-arm ball-seated press bent to forward extended arm, free hand hip and feet planted. Cable partly occluded behind body/arm, smooth working chest tint over intact opaque clothes. Qualified cable continuity, grip/elbow and ball stability pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/1267-female-anatomical-white-v1-p1-b71d8891cd80.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 48960,
+          "sha256": "b71d8891cd80d48cedec55bffb979222c297b41e93722f783a4264439e7abca2"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/1267-female-anatomical-white-v1-p2-6bb996f949a5.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 51700,
+          "sha256": "6bb996f949a578824df3a07c70293c576c2b01dcd3c9aba279ddadc08920f05b"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-171.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/1267-female-anatomical-white-v1-thumb-9a5de55c95ec.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 4866,
+        "sha256": "9a5de55c95ec8b26cb687dc4a99ae00b331334df1090cd069cf46c61490abc2f"
+      },
+      "processingSignature": "bac083d503b6c4da09af41a041b7a9c1f2b648255d417a73ad348e9e18472145",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1267-female-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1904802,
+        "sha256": "78083ceb0353309809a5c49fcea588c0812f9ba64e6856a11798dffbd94d5699"
+      }
+    }
+  ]
+}

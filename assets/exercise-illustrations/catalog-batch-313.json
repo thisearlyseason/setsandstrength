@@ -1,0 +1,320 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "2920",
+      "variant": "male",
+      "key": "2920-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand on one leg with arms reaching forward and standing knee soft."
+        },
+        {
+          "key": "p2",
+          "caption": "Hinge as the free leg reaches back, keeping a long flat line; return tall and switch legs after reps."
+        }
+      ],
+      "prompt": "SINGLE LEG BODYWEIGHT DEADLIFT ARMS AND LEG EXTENDED TWOequalpanels SAME SIDEcamera headLEFTfeetRIGHT. LEFTlegstanding footflatfloor kneesoft SAMElegallposes RIGHTfreeleg. BOTHARMS reachSTRAIGHTFORWARD. LEFTSTART tallstandingleftfoot righttoeshoverbehind armsforwardshoulderheight. RIGHTEND HINGEhip torsoflatnearhorizontal, RIGHTstraightlegextendsBACK nearhorizontal, BOTHstraightarmsreachFORWARD inlineTORSO overhead, longlinefingertipsHEADBACKRIGHTHEEL, standingLEFTkneeSOFTslightbend no squat pelvisSQUARE neutralneckgazedown nolookup. Primary LEFTHAMSTRINGS onlyred posteriorstandingthighbelowshorts andsmallplainwash intactposteriorleftshorts bothposes. Premium detailed adult MALE grayscale anatomical illustration; approved original reference STYLE ONLY ignore reference pose/highlights. Pure white background soft shadows detailed exposed gray muscle contours realistic proportions/equipment. Opaque BLACK tank and mid-thigh shorts fully wrap front sides back seat crotch normal seams folds hems black shoes. No anatomy through fabric no cutaways. Covered highlight SMALL PLAIN UNIFORM soft red wash NO fibers lobes striations. Only specified primary red, other regions grayblack. Equal panels same person camera equipment whole body within generous margins. Exactly two arms hands five fingers two legs feet. No text captions labels arrows logos.",
+      "inspectionNote": "Real output inspected. Single planted leg, free leg reaches back as torso/arms extend into long line; posterior standing-thigh tint, opaque clothing. Qualified review needed for soft standing knee, square pelvis, neutral neck and hamstring mapping. Human anatomy review pending. No approval or publication.",
+      "canonicalName": "single leg bodyweight deadlift with arm and leg extended",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "hamstrings"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Single planted leg, free leg reaches back as torso/arms extend into long line; posterior standing-thigh tint, opaque clothing. Qualified review needed for soft standing knee, square pelvis, neutral neck and hamstring mapping. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2920-male-anatomical-white-v1-p1-7d58bd4228fb.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 21974,
+          "sha256": "7d58bd4228fbdfc4c4f3c001d1e1150925729001c8f263e45be2b6ca9be18cd4"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/2920-male-anatomical-white-v1-p2-2ac996b5a8c7.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 21648,
+          "sha256": "2ac996b5a8c70b05a738a34570fbb87b3c881394ef2d51aac7ea9d5d43d3c3e5"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-313.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2920-male-anatomical-white-v1-thumb-14c33a61ab6e.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2364,
+        "sha256": "14c33a61ab6e25cfc216758b22a5f7cc910cd693a778225e22b0813138a19210"
+      },
+      "processingSignature": "bdab8c1d4fcf5b206d0bb0313f1be74759c4d7800c7f241c53ffbd69d34686b6",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2920-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1307668,
+        "sha256": "5001160cc84bdd5c15c110da9aba2ae20b7ca1c5c8da018805bc3bdc5e3702b8"
+      }
+    },
+    {
+      "exerciseId": "2921",
+      "variant": "male",
+      "key": "2921-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Walk feet toward hands into an inverted V with hips high and arms straight."
+        },
+        {
+          "key": "p2",
+          "caption": "Bend elbows to lower head near floor without contact, then press back up."
+        }
+      ],
+      "prompt": "PIKE PUSHUP FLOOR TWOequalpanels SAME SIDEcamera headLEFTfeetRIGHT. BOTHpalmsFLOORshoulderwidth fingersforward BOTHforefeetFLOOR atRIGHT, hipsHIGHinvertedV legsSTRAIGHT backflat. LEFTSTART elbowsSTRAIGHT shoulderstackedabovehands headneckinlinegazedownbetweenhands/feet. RIGHTEND bendBOTHelbowsabout90 pointing45degreesout chest/HEADlowersNEARfloor slightlyAHEADhands WITHOUTcontact hipsSTAYHIGH samefeet/handspositions legsstraight. No bench noheadweightbearing noflatpushup. Primary BOTHDELTOIDS red exposedshouldercaps only bothposes. Premium detailed adult MALE grayscale anatomical illustration; approved original reference STYLE ONLY ignore reference pose/highlights. Pure white background soft shadows detailed exposed gray muscle contours realistic proportions/equipment. Opaque BLACK tank and mid-thigh shorts fully wrap front sides back seat crotch normal seams folds hems black shoes. No anatomy through fabric no cutaways. Covered highlight SMALL PLAIN UNIFORM soft red wash NO fibers lobes striations. Only specified primary red, other regions grayblack. Equal panels same person camera equipment whole body within generous margins. Exactly two arms hands five fingers two legs feet. No text captions labels arrows logos.",
+      "inspectionNote": "Real output inspected. Floor pike with hips high, legs straight and both palms/forefeet grounded; elbows flex to lower head near floor. Exposed shoulder highlights, opaque clothing. Qualified review needed for head clearance/no weight bearing, elbow angle, neutral neck and fixed contact points. Human anatomy review pending. No approval or publication.",
+      "canonicalName": "pike push up",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "delts"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Floor pike with hips high, legs straight and both palms/forefeet grounded; elbows flex to lower head near floor. Exposed shoulder highlights, opaque clothing. Qualified review needed for head clearance/no weight bearing, elbow angle, neutral neck and fixed contact points. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2921-male-anatomical-white-v1-p1-beb9f4ee3591.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 30154,
+          "sha256": "beb9f4ee3591fe14aee7daf9884cec60fa9885273e247f24af87ac36f7b66f2a"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/2921-male-anatomical-white-v1-p2-c7065eb6e2ac.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 28890,
+          "sha256": "c7065eb6e2ac50aac1053dab756b82a4c4e3bcda4ed89c1d637f55eececba20d"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-313.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2921-male-anatomical-white-v1-thumb-f8ad83c49503.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 3164,
+        "sha256": "f8ad83c495037e974cdbba33d4a3af20fc8d0a1a0f53135797a423f7cd3e5477"
+      },
+      "processingSignature": "31607d3cb17ec3c166f59c78e39692b874e4b31e1f7e18e1ad14ea994b916f9f",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2921-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1500816,
+        "sha256": "6abc35e7b9450f436ff583766abe3835c5943702ec98b169ea94038563208c34"
+      }
+    },
+    {
+      "exerciseId": "2927",
+      "variant": "male",
+      "key": "2927-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Kneel tall on both knees, holding kettlebell inverted at shoulder height with wrist straight."
+        },
+        {
+          "key": "p2",
+          "caption": "Press overhead while keeping bell balanced bottoms up; lower slowly and switch arms after reps."
+        }
+      ],
+      "prompt": "TALL KNEELING ONE ARM BOTTOMS UP KETTLEBELL PRESS TWOequalpanels SAME FRONTthreequartercamera. KneelBOTHKNEESfloor hipsEXTENDED torsoTALL notsittingheels toesbehind. SAME LEFTARMholdsONEkettlebellBOTTOMSUP allposes: ROUNDHEAVYBELLBODY is ABOVEclosedhand, HANDLEpointsDOWN withpalmsecurearoundLOWERhandle, bellINVERTED notnormalhang. RIGHTarmemptybyrightside. LEFTSTART lefthandshoulderheight elbowbent90 forearmVERTICAL wriststraight bellbodyABOVEhand besidehead. RIGHTEND PRESSleftarmVERTICALOVERHEAD elbowstraight bicepsnearear bellbodySTILLABOVEhandle/hand balanced noflip wristSTACKEDoverelbowovershoulder. Ribsdown noleanback. Primary LEFTDELTOID onlyred exposedshoulder BOTHposes. Premium detailed adult MALE grayscale anatomical illustration; approved original reference STYLE ONLY ignore reference pose/highlights. Pure white background soft shadows detailed exposed gray muscle contours realistic proportions/equipment. Opaque BLACK tank and mid-thigh shorts fully wrap front sides back seat crotch normal seams folds hems black shoes. No anatomy through fabric no cutaways. Covered highlight SMALL PLAIN UNIFORM soft red wash NO fibers lobes striations. Only specified primary red, other regions grayblack. Equal panels same person camera equipment whole body within generous margins. Exactly two arms hands five fingers two legs feet. No text captions labels arrows logos.",
+      "inspectionNote": "Real output inspected. Tall kneeling both knees, same arm presses inverted kettlebell from shoulder to overhead with bell body above hand and handle down. Exposed deltoid highlight and opaque clothing. Qualified review needed for secure bottoms-up grip, wrist stacking, overhead alignment and rib/pelvis control. Human anatomy review pending. No approval or publication.",
+      "canonicalName": "kettlebell kneeling one arm bottoms up press",
+      "styleVersion": "white-v1",
+      "equipment": "kettlebell",
+      "primaryMuscles": [
+        "delts"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Tall kneeling both knees, same arm presses inverted kettlebell from shoulder to overhead with bell body above hand and handle down. Exposed deltoid highlight and opaque clothing. Qualified review needed for secure bottoms-up grip, wrist stacking, overhead alignment and rib/pelvis control. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2927-male-anatomical-white-v1-p1-763b874b6fb7.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 21404,
+          "sha256": "763b874b6fb7fb14c1558c7cd58ba663c38229ae76cb31503df1753dc6eab5ae"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/2927-male-anatomical-white-v1-p2-cf8d5b83d539.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 21734,
+          "sha256": "cf8d5b83d5392637348493b2029dc1c891d0d87bdc08e2054cd9c7d57cda2c4a"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-313.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2927-male-anatomical-white-v1-thumb-1f794ce4af0e.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2504,
+        "sha256": "1f794ce4af0e3df04309b654304902deee43734c372f9ee8e880393d23d6d771"
+      },
+      "processingSignature": "1923a8b8f78abf96b179a9e0693a8918b58f8118dc42c93e3502040e43794834",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2927-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1328108,
+        "sha256": "befc72af234671917cac373b5750ee12df5049e32d79a8db2724c104ef6264d0"
+      }
+    },
+    {
+      "exerciseId": "2928",
+      "variant": "male",
+      "key": "2928-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hold barbell overhead with wide grip, arms straight and ribs down."
+        },
+        {
+          "key": "p2",
+          "caption": "Shrug shoulders toward ears without bending elbows; lower slowly."
+        }
+      ],
+      "prompt": "BARBELL OVERHEAD SHRUG TWOequalpanels SAME REARthreequartercamera. STANDfeetshoulderwidthkneessoft BOTHhandsWIDEOVERHANDgrip onloadedbarbelllockedOVERHEAD elbowsSTRAIGHT bothposes barHORIZONTAL overmidfoot. LEFTSTART shouldersNEUTRAL/depressed armsstraight baroverhead. RIGHTEND shrugBOTHshouldersUPtowardEARS neckappearsSHORTER scapulaeELEVATE barliftsSLIGHTLY fewcm, ELBOWSstaySTRAIGHT SAMEgrip noelbowpress noleanback ribsdown. Headneutral equipmentidenticalplatesoutsidehands marginsabovebar. Primary BOTHUPPERTRAPEZIUS onlyred exposedupperneck/shouldertop andsmallplainuniformwash coveredupperbacktank NOFIBERS otherregionsgrayblack. Premium detailed adult MALE grayscale anatomical illustration; approved original reference STYLE ONLY ignore reference pose/highlights. Pure white background soft shadows detailed exposed gray muscle contours realistic proportions/equipment. Opaque BLACK tank and mid-thigh shorts fully wrap front sides back seat crotch normal seams folds hems black shoes. No anatomy through fabric no cutaways. Covered highlight SMALL PLAIN UNIFORM soft red wash NO fibers lobes striations. Only specified primary red, other regions grayblack. Equal panels same person camera equipment whole body within generous margins. Exactly two arms hands five fingers two legs feet. No text captions labels arrows logos.",
+      "inspectionNote": "Real output inspected. Wide overhead grip with straight elbows, shoulders visibly rise toward ears and bar slightly higher in finish, feet stable. Upper trapezius tint and opaque clothing. Qualified review needed for true scapular elevation versus arm motion, rib position, bar over mid-foot and grip/wrist alignment. Human anatomy review pending. No approval or publication.",
+      "canonicalName": "barbell overhead shrug",
+      "styleVersion": "white-v1",
+      "equipment": "barbell",
+      "primaryMuscles": [
+        "traps"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Wide overhead grip with straight elbows, shoulders visibly rise toward ears and bar slightly higher in finish, feet stable. Upper trapezius tint and opaque clothing. Qualified review needed for true scapular elevation versus arm motion, rib position, bar over mid-foot and grip/wrist alignment. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2928-male-anatomical-white-v1-p1-3d1008b0f091.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 25034,
+          "sha256": "3d1008b0f0914ec336e8458e2a65520760ee9dfabf3efdc533b867f800227425"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/2928-male-anatomical-white-v1-p2-7fd18109f5a2.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 24578,
+          "sha256": "7fd18109f5a220db80055de30d133395f51cca4f3226dfe39de4bb9e81f5e9b0"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-313.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2928-male-anatomical-white-v1-thumb-a1a52874f822.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2904,
+        "sha256": "a1a52874f822689217d5549bd4bc136b4507c59bb81ee67221fb0ae859fb3536"
+      },
+      "processingSignature": "2ea1cc89ca8952ba22ea5894f4cf41f6eab5efbf5c4723f2e08e4492080f81c2",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2928-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1349238,
+        "sha256": "b5591a68acd5f33efa8e52940a85e45ab89c3c3cf92493da3f4aeaf75eaacda5"
+      }
+    }
+  ]
+}

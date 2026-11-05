@@ -1,0 +1,65 @@
+{
+  "batch": 136,
+  "trigger": "2026-11-03T03:02:25.366Z",
+  "completedAt": "2026-11-03T03:17:53.905431+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 2,
+  "generationCalls": 4,
+  "exerciseIds": [
+    "0820"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 552,
+    "remainingVariants": 10712,
+    "approvedVariants": 0,
+    "blockedVariants": 207,
+    "knownPoseImages": 1132,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Two candidate sets, four poses, four built-in calls and two retained correction attempts for twist side bridge. Both retain raised hips, supporting forearm and stacked straight legs. Male correction loses red abdominal tint entirely and introduces gray anatomical-looking shirt patches: BLOCKED for intact black fabric/red overlay restoration and clear under-torso threading. Female tint smoothed on opaque shirt, but top hand remains near/front underside instead of visibly passing through to far side: BLOCKED for reach/torso-rotation correction. Fine exposed grayscale anatomy retained. Full clothing coverage is not approved; male cloth-surface failure remains explicit. Qualified supporting shoulder, pelvis alignment, torso twist and primary muscle mapping pending. All original masters, exact prompts and correction history saved. No anatomy approval or publication. Original project artwork style only, no upstream media. Pipeline checks do not approve anatomy.",
+  "metadataConflictsDeferred": {
+    "0826": "Parallel-bar hang vs supported setup unresolved; explicit hanging instructions conflict with support equipment.",
+    "0827": "Cardiovascular target lacks primary skeletal-muscle mapping for red highlights."
+  },
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 892711810,
+  "savedMasters": [
+    {
+      "exerciseId": "0820",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0820-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1383347,
+        "sha256": "de6d788d7019e844434c3760b2f53df1ee6792a2318cdbaa2f08a2c86a0a2483"
+      }
+    },
+    {
+      "exerciseId": "0820",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0820-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1428750,
+        "sha256": "40aae5f144a3002151a648fdb2e308c06dc8872594cdb2bde70bdb8d6e9e8606"
+      }
+    }
+  ]
+}

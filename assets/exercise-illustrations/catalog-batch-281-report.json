@@ -1,0 +1,87 @@
+{
+  "batch": 281,
+  "runId": "2a25874e-b445-48f8-8e15-3a93d62ba5ef",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "trigger": "2026-11-04T01:36:25.956Z",
+  "purpose": "batch281 scheduled male continuation",
+  "started": "2026-11-04T01:36:41.605437+00:00",
+  "completedAt": "2026-11-04T01:41:53.745982+00:00",
+  "actualToolName": "image_gen__imagegen",
+  "calls": 4,
+  "newCandidateSets": 4,
+  "exerciseIds": [
+    "2352",
+    "2353",
+    "2354",
+    "2358"
+  ],
+  "variants": [
+    "male"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 997,
+    "remainingVariants": 10267,
+    "approvedVariants": 0,
+    "blockedVariants": 330,
+    "knownPoseImages": 1912,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 624,
+      "remainingVariants": 5008,
+      "blockedVariants": 211
+    }
+  },
+  "reviewNotes": {
+    "2352": "Backward-lean faulty example differs from upright lowered start and curled finish, externally captioned. Dumbbell supinated grips, biceps-only red and opaque clothing. Correct finish shows slight upper-arm forward drift; qualified review needed for elbow pinning, wrist angle, torso stillness and controlled range. Human anatomy review remains pending.",
+    "2353": "Unsupported faulty curl contrasts with lowered and curled braced examples, one working dumbbell and biceps-only red. Correct endpoint appears elbow-on-top-of-knee rather than upper-arm contact against inner thigh; block bracing correction. External captions retained; qualified review of contact point, wrist alignment, working-arm continuity and controlled range required. Opaque clothing. Human anatomy review remains pending.",
+    "2354": "Rounded setup comparison differs from neutral setup and tall lockout; external captions identify fault. Glute tint on opaque shorts and straight arms visible. Lockout bar appears behind thighs rather than against front thighs, suggesting rear-side bar placement; block geometry correction. Qualified review of bar over midfoot, grip occlusion, neutral spine and hip/shoulder sequencing required. Human anatomy review remains pending.",
+    "2358": "Sagged-hip faulty comparison contrasts with more aligned correct forearm plank, forearms/toes grounded and elbows beneath shoulders. Abdominal tint is plain over opaque tank with cloth folds, shorts intact. External captions identify intentional fault. Qualified review of correct hip height, head/heel alignment, lumbar neutrality and shoulder loading remains required. Human anatomy review remains pending."
+  },
+  "blockingIssues": {
+    "2353": [
+      "Correct curl bracing appears on top of knee rather than upper arm against inner thigh; correct contact point."
+    ],
+    "2354": [
+      "Lockout bar appears behind thighs instead of in front against upper thighs; correct bar/body geometry."
+    ]
+  },
+  "deferred": {
+    "2350": "Specific faulty start posture not specified; comparison requires planning.",
+    "2351": "Specific faulty bottom posture not specified; comparison requires planning.",
+    "2355": "Arm slingers name conflicts with fully extended hanging-bar instructions.",
+    "2357": "High-versus-low hip fault and synchronized rising comparison require detailed planning."
+  },
+  "tests": 7,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "workerSyncResult": {
+    "statuses": {
+      "generated": 997,
+      "pending": 10267
+    },
+    "remaining": 10267,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 1536996233
+  },
+  "publicationIndexUnchanged": true,
+  "savedMasters": [
+    "assets/exercise-illustrations/generated/2352-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/2353-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/2354-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/2358-male-anatomical-white-v1.png"
+  ]
+}

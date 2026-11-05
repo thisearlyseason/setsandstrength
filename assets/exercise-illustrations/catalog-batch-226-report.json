@@ -1,0 +1,55 @@
+{
+  "batch": 226,
+  "runId": "27727289-e2f5-437c-a89f-31473abda0a5",
+  "trigger": "2026-11-03T16:07:01.240Z",
+  "completedAt": "2026-11-03T16:14:08.373177+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 4,
+  "calls": 4,
+  "exerciseIds": [
+    "1695",
+    "1698",
+    "1700",
+    "1701"
+  ],
+  "variants": [
+    "male"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 783,
+    "remainingVariants": 10481,
+    "approvedVariants": 0,
+    "blockedVariants": 249,
+    "knownPoseImages": 1549,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 410,
+      "remainingVariants": 5222,
+      "blockedVariants": 130
+    }
+  },
+  "reviewNotes": {
+    "1695": "Ball-supported single-leg wall squat: same free leg elevated and working foot planted, standing to partial squat. Returned square two-panel master; equal half crops retain full bodies. Qualified review needed for depth, knee/foot alignment, ball lumbar contact and balance.",
+    "1698": "Forward hops: preparation, visibly airborne both feet, soft forefoot landing. Qualified review needed for forward displacement, landing mechanics, ankle alignment and hand anatomy.",
+    "1700": "Dumbbell push press: shoulder rack, shallow dip, standing overhead extension. Qualified review needed for dip depth/vertical torso, shoulder/deltoid highlight near axilla, wrist alignment and tight but uncropped top weights.",
+    "1701": "Medicine-ball close-grip push-up: top plank to near-arm bend, connected hands and red triceps. BLOCKED for bottom far elbow appearing substantially more extended than near elbow; bilateral controlled descent not established."
+  },
+  "tests": 7,
+  "genCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "publicationIndexUnchanged": true,
+  "savedMasters": [
+    "assets/exercise-illustrations/generated/1695-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/1698-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/1700-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/1701-male-anatomical-white-v1.png"
+  ]
+}

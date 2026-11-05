@@ -1,0 +1,93 @@
+{
+  "batch": 56,
+  "trigger": "2026-11-01T11:51:15.138Z",
+  "completedAt": "2026-11-01T12:01:30.142758+00:00",
+  "tool": "image_gen.imagegen",
+  "newCandidateSets": 4,
+  "generationCalls": 4,
+  "exerciseIds": [
+    "0735",
+    "0867"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 220,
+    "remainingVariants": 11044,
+    "approvedVariants": 0,
+    "blockedVariants": 98,
+    "knownPoseImages": 442,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "All pending and unpublished. Sit-up v.2 uses two poses with canonical approximate45degree endpoint; both blocked for ambiguous head/neck support in starting pose. Reverse plank static hold uses one pose per variant, hands/heels grounded, fingers toward feet, straight legs and full opaque rear/crotch fabric. Qualified wrist/shoulder/neck and muscle mapping review remains required.",
+  "metadataConflictsDeferred": [
+    {
+      "exerciseId": "0803",
+      "issue": "Superman push-up description lifts opposite limbs at top, instructions lift while lowering; unsafe/unclear sequence deferred."
+    },
+    {
+      "exerciseId": "0730",
+      "issue": "Platform slide description and instructions disagree on stationary versus sliding foot; deferred."
+    }
+  ],
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 355646793,
+  "savedMasters": [
+    {
+      "exerciseId": "0735",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0735-male-anatomical-white-v1.png",
+        "width": 1942,
+        "height": 809,
+        "bytes": 1722977,
+        "sha256": "88071208a94b1b27ac4976e3613f3dcc5fda55d18027213e7242c1402bbdfc6b"
+      }
+    },
+    {
+      "exerciseId": "0735",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0735-female-anatomical-white-v1.png",
+        "width": 1983,
+        "height": 793,
+        "bytes": 1589817,
+        "sha256": "1020e0420ea464e43b6ade63931facaef4ed5705955825f208ed401b76d22517"
+      }
+    },
+    {
+      "exerciseId": "0867",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0867-male-anatomical-white-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1623472,
+        "sha256": "4c0ce7c04253165c2f30ade2b226980ea2ea400399ede0defd0d7189af159daa"
+      }
+    },
+    {
+      "exerciseId": "0867",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0867-female-anatomical-white-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1678809,
+        "sha256": "83827e0c28fac49497904869abf63644084dc96360db123c0cb21a0a66145151"
+      }
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "batch": 170,
+  "runId": "ec17cce2-6c80-4e2f-a80e-565c018d51ec",
+  "trigger": "2026-11-03T09:14:58.298Z",
+  "completedAt": "2026-11-03T09:20:38.982535+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 2,
+  "generationCalls": 2,
+  "exerciseIds": [
+    "1259"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 654,
+    "remainingVariants": 10610,
+    "approvedVariants": 0,
+    "blockedVariants": 221,
+    "knownPoseImages": 1310,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Two single-pose static behind-head chest stretch candidates, two built-in calls. Standing upright, hands behind head and elbows wide, smooth bilateral chest red over intact opaque tank with full opaque shorts. Fine exposed grayscale anatomy retained. Fingers hidden behind head; qualified interlace/contact, scapular retraction, shoulder elevation, rib/pelvis alignment and neck pressure require human review. Head margin tight but uncropped. Every original and exact prompt saved; no anatomy/clothing approval or publication. Original project artwork rendering style only, no upstream licensed input. Seven pipeline checks do not establish anatomical accuracy.",
+  "metadataConflictsDeferred": {
+    "1253": "Donkey calf raise load pad/hip hinge unspecified.",
+    "1254": "Band bench press anchor omitted.",
+    "1260": "Standing instruction versus back on decline bench conflicts.",
+    "1261": "Facing cable versus press-away resistance direction unresolved.",
+    "1264": "Ball seated support combined with incline bench requires clarification."
+  },
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 1036847807,
+  "savedMasters": [
+    {
+      "exerciseId": "1259",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1259-male-anatomical-white-v1.png",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 1321021,
+        "sha256": "07c7016d12c9bf1d386fe8dcf7fce47aa251c3f6c6a974809a9a2b6370dc372c"
+      }
+    },
+    {
+      "exerciseId": "1259",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1259-female-anatomical-white-v1.png",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 1307629,
+        "sha256": "b12dd215e72d642e6ff613b273e6116168d68dbc501c6ea6b396765b342a4ef8"
+      }
+    }
+  ]
+}

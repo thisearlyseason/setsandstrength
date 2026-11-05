@@ -1,0 +1,44 @@
+{
+  "batch": 362,
+  "runId": "27d07bcf-2c17-4e67-a8f8-1e0b28e68c5b",
+  "recovery": "Resumed same owning run after prior turn ended before master copy/inspection/registration. No regeneration.",
+  "anatomyReview": "pending",
+  "coverageAfter": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1303,
+    "remainingVariants": 9961,
+    "approvedVariants": 0,
+    "blockedVariants": 498,
+    "knownPoseImages": 2575,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 930,
+      "remainingVariants": 4702,
+      "blockedVariants": 379
+    }
+  },
+  "pipelineTests": "7 passed",
+  "paidWorker": {
+    "statuses": {
+      "generated": 1303,
+      "pending": 9961
+    },
+    "remaining": 9961,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 1986386251
+  },
+  "approvedIndexUnchanged": true
+}

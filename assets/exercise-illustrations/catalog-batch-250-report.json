@@ -1,0 +1,91 @@
+{
+  "batch": 250,
+  "runId": "66f967e5-5077-4563-a0d2-a92e34340b77",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "trigger": "2026-11-03T20:43:22.940Z",
+  "purpose": "batch250 scheduled male continuation",
+  "started": "2026-11-03T20:44:01.609311+00:00",
+  "completedAt": "2026-11-03T20:53:33.039947+00:00",
+  "actualToolName": "image_gen__imagegen",
+  "calls": 4,
+  "newCandidateSets": 4,
+  "exerciseIds": [
+    "1937",
+    "1941",
+    "1943",
+    "1947"
+  ],
+  "variants": [
+    "male"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 873,
+    "remainingVariants": 10391,
+    "approvedVariants": 0,
+    "blockedVariants": 280,
+    "knownPoseImages": 1685,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 500,
+      "remainingVariants": 5132,
+      "blockedVariants": 161
+    }
+  },
+  "reviewNotes": {
+    "1937": "Seated knee-to-chest: one straight leg, other shin held with both hands, tall torso and coherent leg joints. Qualified review needed for exact glute overlay laterality, sitting-bone support, comfortable hip range and hand anatomy.",
+    "1941": "Standing crossed-leg hip stretch: two feet grounded and coherent front-facing body. BLOCKED: highlighted leg appears to cross in front rather than behind and lateral hip-shift/torso lean is not sufficiently clear. Correct rear-leg relationship and stretch range/laterality.",
+    "1943": "Pigeon stretch: front folded leg and extended rear leg have traceable joints, hands supported and torso tall. BLOCKED: red glute overlay appears on extended/rear-leg hip rather than bent/front-leg hip. Correct highlight laterality and qualified-review hip squareness.",
+    "1947": "Wall-supported outer-hip stretch: wall hand contact, crossed feet grounded and lateral lean. BLOCKED: red overlay appears on front-crossing leg side rather than intended rear-crossed stretching hip. Correct leg crossing/highlight laterality; confirm both feet flat."
+  },
+  "blockingIssues": {
+    "1941": [
+      "Highlighted leg appears to cross in front rather than behind; correct rear-leg/highlight relationship.",
+      "Lateral hip shift and opposite torso lean are insufficiently distinct; correct hold range."
+    ],
+    "1943": [
+      "Glute overlay appears on extended rear-leg hip rather than folded front-leg hip. Correct highlight laterality."
+    ],
+    "1947": [
+      "Front-crossing leg appears highlighted instead of rear-crossed stretching hip; correct crossing/highlight laterality."
+    ]
+  },
+  "deferred": [
+    {
+      "exerciseId": "1946",
+      "reason": "Instruction asks to hold support while simultaneously holding shin and ankle with both hands; clarify support arrangement."
+    }
+  ],
+  "tests": 7,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "workerSyncResult": {
+    "statuses": {
+      "generated": 873,
+      "pending": 10391
+    },
+    "remaining": 10391,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 1352485225
+  },
+  "publicationIndexUnchanged": true,
+  "savedMasters": [
+    "assets/exercise-illustrations/generated/1937-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/1941-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/1943-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/1947-male-anatomical-white-v1.png"
+  ]
+}

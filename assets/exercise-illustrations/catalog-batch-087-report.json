@@ -1,0 +1,90 @@
+{
+  "batch": 87,
+  "trigger": "2026-11-01T18:54:19.817Z",
+  "completedAt": "2026-11-01T19:05:45.950253+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 4,
+  "generationCalls": 6,
+  "exerciseIds": [
+    "0602",
+    "0604"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 360,
+    "remainingVariants": 10904,
+    "approvedVariants": 0,
+    "blockedVariants": 150,
+    "knownPoseImages": 738,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Four candidate sets and two attempted reverse-fly corrections saved; none approved or published. Overhand reverse-fly start corrections move both handles forward but introduce excessive elbow flexion and change fixed machine geometry; both remain blocked. Posterior deltoid highlights, chest support, planted feet and opaque garments retained. Seated lever shrugs show supported backs, straight elbows, planted feet and shoulder elevation toward ears with head level; upper traps red. Far hands partly obscured; overhand grip security, small lever travel and resistance geometry remain qualified human review items. All originals, exact prompts, corrections and hashes retained. Clothing wraps front/sides/back/seat/crotch. Pipeline checks do not constitute anatomy approval; original project artwork only, no upstream licensed media.",
+  "metadataConflictsDeferred": [
+    {
+      "exerciseId": "0607",
+      "issue": "Description presses handles down, but instructions extend in front then bend toward forehead and press back up; clarify intended machine extension arrangement."
+    }
+  ],
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 590498792,
+  "savedMasters": [
+    {
+      "exerciseId": "0602",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0602-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1809267,
+        "sha256": "c321e75ef8e036d66009262055207a388e4c8f56e5955da301fd139cdb31b3a7"
+      }
+    },
+    {
+      "exerciseId": "0602",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0602-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1721385,
+        "sha256": "067f9fb91e3667eaeeece244069ea49664900c8045aebfac2fb7e466be547f06"
+      }
+    },
+    {
+      "exerciseId": "0604",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0604-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1822829,
+        "sha256": "afdc21a98ccbc8fbdbf716b15699e971afcaceea12364c0c5132b6fee2565abc"
+      }
+    },
+    {
+      "exerciseId": "0604",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0604-female-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1779935,
+        "sha256": "b5902bcbb97f4559506b2ce9b90f6c78d3f0c2be17f61b7469676b802ef609df"
+      }
+    }
+  ]
+}

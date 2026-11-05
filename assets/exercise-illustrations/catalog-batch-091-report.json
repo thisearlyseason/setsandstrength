@@ -1,0 +1,85 @@
+{
+  "batch": 91,
+  "trigger": "2026-11-01T19:57:50.456Z",
+  "completedAt": "2026-11-01T20:22:25.816579+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 4,
+  "generationCalls": 9,
+  "exerciseIds": [
+    "0615",
+    "0617"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 376,
+    "remainingVariants": 10888,
+    "approvedVariants": 0,
+    "blockedVariants": 155,
+    "knownPoseImages": 766,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Four candidate sets with six pose images and five correction masters saved, nine built-in calls. None approved or published. Both crossover holds use one static pose with outstretched arms, straight opposite leg and bent knee across midline; corrections lower skulls to floor and soften red glute overlays on intact black shorts. Both side-lying leg raises show softly hovering-to-raised top straight leg, bottom leg grounded and balancing hand on floor. Corrections soften hip tint and rest female head directly on lower arm; another female correction restores exposed grayscale muscle fibers after detail smoothing. Full opaque front/sides/back/seat/crotch clothing retained. Qualified review remains for both shoulder contacts in crossover, gentle pelvis rotation, knee range, toe direction, hip stacking and abduction range. All originals, prompts, intermediate corrections and hashes retained. Intermediate female v2 was saved but not delivered; history reflects its actual master. Original project artwork used for style only; pipeline tests are separate from anatomy approval.",
+  "metadataConflictsDeferred": [],
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 617817150,
+  "savedMasters": [
+    {
+      "exerciseId": "0615",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0615-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1627291,
+        "sha256": "d2c57fdc828849899ca366709c2ec9a3c6ecc9dcf2e79cde2e3c5da7bc78aa51"
+      }
+    },
+    {
+      "exerciseId": "0615",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0615-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1697421,
+        "sha256": "5afdaa6d247dce560a87d1d382cdda5d888471358660c42e58a1b682bd58227d"
+      }
+    },
+    {
+      "exerciseId": "0617",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0617-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1605753,
+        "sha256": "00d67c9d453803d94e4791d2edb3796a2a3cb421f293cc07946acdf62f630a0c"
+      }
+    },
+    {
+      "exerciseId": "0617",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0617-female-anatomical-white-v3.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1640594,
+        "sha256": "303a66666d4669defa3a9b990e2b93cd888e51ed3d6127227cf86672ca136cf8"
+      }
+    }
+  ]
+}

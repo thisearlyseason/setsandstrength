@@ -1,0 +1,276 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "1836",
+      "variant": "male",
+      "key": "1836-male-anatomical-white-v1",
+      "layout": {
+        "columns": 1,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Sit or stand tall with your shoulders relaxed. Rest both hands lightly behind your head and ease your chin toward your chest, letting your elbows drop forward. Hold for 20\u201330 seconds, then release gently."
+        }
+      ],
+      "prompt": "FORWARD FLEXION NECK STRETCH. ONE full-body static hold seated on plain stable gray chair feet flat knees90. SIDE REAR three-quarter view shows posterior neck, BOTH palms lightly behind head, elbows gently dropped forward, chin eases toward chest in mild neck flexion. Torso stays TALL VERTICAL no trunk fold, shoulders DOWN relaxed, no forceful pulling. Both hands clearly anatomically correct fingers lightly overlapping on skull, no extra limbs. Primary posterior/lateral NECK levator scapulae teaching highlight RED ONLY at exposed neck base toward upper medial shoulder, fine muscle contours retained. CHEST TANK SOLID BLACK NO RED anywhere on chest or arms. Entire body chair feet hands in frame. Use case: scientific-educational. Premium detailed ADULT MALE grayscale anatomical illustration matching original reference for rendering STYLE ONLY, ignore its pose and highlights. Realistic proportions, crisp exposed grayscale muscle contours, white background soft shadows. Full opaque BLACK athletic tank and mid-thigh shorts wrap front sides back seat crotch, seams hems folds; no transparency cutaways or anatomy visible through fabric. Red highlight over fabric must be a FLAT UNIFORM SOFT RED ELLIPSE teaching tint with no internal lines fibers rays or lobes; fabric folds retained. Black shoes. No text labels arrows captions logos. All limbs fingers feet and equipment entirely in frame with generous margins. Same person camera lighting and scale across poses.",
+      "inspectionNote": "Real output inspected. Forward neck flexion: seated tall, feet grounded, both hands lightly at rear/crown and chin lowered; posterior neck highlight only. Qualified review needed for exact hand contact, mild pressure depiction, elbow relaxation, cervical range and levator mapping. Detailed grayscale rendering, white background and full opaque tank/shorts retained. Original project artwork style only, no upstream media. Exact prompt and original saved. Human anatomy review pending; no approval or publication.",
+      "canonicalName": "forward flexion neck stretch",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "levator scapulae"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Forward neck flexion: seated tall, feet grounded, both hands lightly at rear/crown and chin lowered; posterior neck highlight only. Qualified review needed for exact hand contact, mild pressure depiction, elbow relaxation, cervical range and levator mapping. Detailed grayscale rendering, white background and full opaque tank/shorts retained. Original project artwork style only, no upstream media. Exact prompt and original saved. Human anatomy review pending; no approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/1836-male-anatomical-white-v1-p1-0bb29f4ddcea.webp",
+          "width": 1200,
+          "height": 600,
+          "bytes": 17602,
+          "sha256": "0bb29f4ddcea532f8f137c5f6f631f594a1e6a030f621b651482a23fcaea7e6a"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-242.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/1836-male-anatomical-white-v1-thumb-cc35086125eb.webp",
+        "width": 240,
+        "height": 120,
+        "bytes": 1430,
+        "sha256": "cc35086125ebe482ee9f6b254168068d605870d31690b5690699ae04f1e28832"
+      },
+      "processingSignature": "6e4dae73f326d9308b531115a0d19d848b6aef6689601655f5a3ff7617c3a20d",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1836-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1258542,
+        "sha256": "ae8120641a0b09804bedf23fa0ad0541fe21300926f18f872451b28b2ed11ec3"
+      }
+    },
+    {
+      "exerciseId": "1837",
+      "variant": "male",
+      "key": "1837-male-anatomical-white-v1",
+      "layout": {
+        "columns": 1,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Sit tall and gently tuck your chin toward your chest. Rest one hand lightly on the back of your head. Hold for 20\u201330 seconds without forcing the stretch, then release slowly."
+        }
+      ],
+      "prompt": "NECK EXTENSOR STRETCH. ONE full-body static seated gray chair SIDE three-quarter view. Sit tall spine vertical feet flat. Gently lower chin toward chest, neck flexion modest comfortable. RIGHT palm rests lightly on BACK OF HEAD with elbow forward/down; LEFT hand rests on thigh. Hand provides very light contact not vigorous pulling, no forceful hunching. Primary posterior NECK levator scapulae near base of neck RED ONLY, detail through tint. CHEST TANK AND ARMS NO RED, plainblacktank. Coherent torso pelvis legs orientation. Show full chair feet hands unclipped. Use case: scientific-educational. Premium detailed ADULT MALE grayscale anatomical illustration matching original reference for rendering STYLE ONLY, ignore its pose and highlights. Realistic proportions, crisp exposed grayscale muscle contours, white background soft shadows. Full opaque BLACK athletic tank and mid-thigh shorts wrap front sides back seat crotch, seams hems folds; no transparency cutaways or anatomy visible through fabric. Red highlight over fabric must be a FLAT UNIFORM SOFT RED ELLIPSE teaching tint with no internal lines fibers rays or lobes; fabric folds retained. Black shoes. No text labels arrows captions logos. All limbs fingers feet and equipment entirely in frame with generous margins. Same person camera lighting and scale across poses.",
+      "inspectionNote": "Real output inspected. Seated neck extensor stretch: one hand at crown/back, other on thigh, chin lowered with upright torso; posterior neck highlight only. Qualified review needed for hand placement, no forced pressure, cervical flexion and muscle mapping. Detailed grayscale rendering, white background and full opaque tank/shorts retained. Original project artwork style only, no upstream media. Exact prompt and original saved. Human anatomy review pending; no approval or publication.",
+      "canonicalName": "neck extensor stretch",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "levator scapulae"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Seated neck extensor stretch: one hand at crown/back, other on thigh, chin lowered with upright torso; posterior neck highlight only. Qualified review needed for hand placement, no forced pressure, cervical flexion and muscle mapping. Detailed grayscale rendering, white background and full opaque tank/shorts retained. Original project artwork style only, no upstream media. Exact prompt and original saved. Human anatomy review pending; no approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/1837-male-anatomical-white-v1-p1-133a8956d556.webp",
+          "width": 1200,
+          "height": 600,
+          "bytes": 21720,
+          "sha256": "133a8956d5567e3b357003093a98263a529f1d738782669c2f8f3b44c887777d"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-242.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/1837-male-anatomical-white-v1-thumb-63c7ca1e280b.webp",
+        "width": 240,
+        "height": 120,
+        "bytes": 1564,
+        "sha256": "63c7ca1e280b0dabe0ed6c60e41581017d41d514b4ae3a1bac7c90b662364ca5"
+      },
+      "processingSignature": "53d696300c32272f9f00c277dd2acbb751fafdf89765369874be45ee86d89995",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1837-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1319604,
+        "sha256": "894dd03016f513db875b1e062f8d9c6ad848d317eec3f10ec55104aeb336c534"
+      }
+    },
+    {
+      "exerciseId": "1838",
+      "variant": "male",
+      "key": "1838-male-anatomical-white-v1",
+      "layout": {
+        "columns": 1,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Sit tall, turn your head about 45 degrees to one side and gently lower your nose toward that armpit. Rest a hand lightly behind your head. Hold for 20\u201330 seconds, then switch sides."
+        }
+      ],
+      "prompt": "NECK EXTENSOR AND ROTATIONAL STRETCH. ONE full-body static seated gray chair REAR RIGHT three-quarter view. Torso pelvis knees all face forward SAME direction; only HEAD gently rotates45degrees LEFT then nods diagonally downward toward LEFT armpit. LEFT hand rests lightly on upper BACK OF HEAD to guide gentle chin-down movement. RIGHT hand relaxed on right thigh. Shoulders remain low level, spine tall no torso twist. Elongated RIGHT posterior-lateral NECK levator scapulae at neck base to medial top of shoulder is RED teaching highlight ONLY; opposite neck and entire tank chest/back and arms NO RED. Correct hands no extra limbs. Hold20-30seconds. Use case: scientific-educational. Premium detailed ADULT MALE grayscale anatomical illustration matching original reference for rendering STYLE ONLY, ignore its pose and highlights. Realistic proportions, crisp exposed grayscale muscle contours, white background soft shadows. Full opaque BLACK athletic tank and mid-thigh shorts wrap front sides back seat crotch, seams hems folds; no transparency cutaways or anatomy visible through fabric. Red highlight over fabric must be a FLAT UNIFORM SOFT RED ELLIPSE teaching tint with no internal lines fibers rays or lobes; fabric folds retained. Black shoes. No text labels arrows captions logos. All limbs fingers feet and equipment entirely in frame with generous margins. Same person camera lighting and scale across poses.",
+      "inspectionNote": "Real output inspected. Neck flexion/rotation: seated with consistent torso/pelvis orientation, head turned and lowered, one guiding hand and posterior-lateral neck overlay. Qualified review needed for actual 45-degree rotation/nose-to-armpit direction, hand laterality and elongated-side muscle mapping. Detailed grayscale rendering, white background and full opaque tank/shorts retained. Original project artwork style only, no upstream media. Exact prompt and original saved. Human anatomy review pending; no approval or publication.",
+      "canonicalName": "neck extensor and rotational stretch",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "levator scapulae"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Neck flexion/rotation: seated with consistent torso/pelvis orientation, head turned and lowered, one guiding hand and posterior-lateral neck overlay. Qualified review needed for actual 45-degree rotation/nose-to-armpit direction, hand laterality and elongated-side muscle mapping. Detailed grayscale rendering, white background and full opaque tank/shorts retained. Original project artwork style only, no upstream media. Exact prompt and original saved. Human anatomy review pending; no approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/1838-male-anatomical-white-v1-p1-07b682cefe45.webp",
+          "width": 1200,
+          "height": 600,
+          "bytes": 20314,
+          "sha256": "07b682cefe454bf065bf88504ee546a50b77d7a55a6ec079f500562f3ab0b731"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-242.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/1838-male-anatomical-white-v1-thumb-552f2c284c81.webp",
+        "width": 240,
+        "height": 120,
+        "bytes": 1596,
+        "sha256": "552f2c284c81117d080822b420954eb11a97a46543cf6c7a441bc87bda37e9bb"
+      },
+      "processingSignature": "1194d3a9fafc80cbf69e3a012f23d5501b36c35908ae064dc5d76ed3c35bae0e",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1838-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1305936,
+        "sha256": "1ba0bf379803149014b083f3429cf2d4a80ae42a11b551502881b3b71ba26c9d"
+      }
+    },
+    {
+      "exerciseId": "1841",
+      "variant": "male",
+      "key": "1841-male-anatomical-white-v1",
+      "layout": {
+        "columns": 1,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Lie on your back with your knees bent and feet flat. Support the back of your head with both hands and gently lift it, easing your chin toward your chest. Hold for 20\u201330 seconds, then lower slowly."
+        }
+      ],
+      "prompt": "LYING NECK EXTENSOR STRETCH. ONE full-body static pose wide landscape2:1 near SIDE REAR three-quarter camera. Supine white floor knees bent90 BOTH feet flat, pelvis upper back SHOULDERS remain supported on floor. BOTH hands cradle BACK OF HEAD with fingers loosely interlaced, gently lift HEAD only several cm and nod chin toward chest mild cervical flexion; NOT situp, torso stays down. Elbows gently forward not hiding neck. Primary posterior NECK levator scapulae base near medial upper shoulder visible from rear side camera is RED highlight ONLY, not sternocleidomastoid on frontneck. ALL BLACK TANK AND ARMS NO RED. Show full body both feet hands in frame. Hold20-30seconds gently. Use case: scientific-educational. Premium detailed ADULT MALE grayscale anatomical illustration matching original reference for rendering STYLE ONLY, ignore its pose and highlights. Realistic proportions, crisp exposed grayscale muscle contours, white background soft shadows. Full opaque BLACK athletic tank and mid-thigh shorts wrap front sides back seat crotch, seams hems folds; no transparency cutaways or anatomy visible through fabric. Red highlight over fabric must be a FLAT UNIFORM SOFT RED ELLIPSE teaching tint with no internal lines fibers rays or lobes; fabric folds retained. Black shoes. No text labels arrows captions logos. All limbs fingers feet and equipment entirely in frame with generous margins. Same person camera lighting and scale across poses.",
+      "inspectionNote": "Real output inspected. Lying neck extensor stretch BLOCKED: shoulders and upper torso lift into a crunch-like posture, with posterior torso view inconsistent with a clearly supported supine setup. Restore coherent supine orientation, shoulders/upper back grounded and only gentle head lift. Detailed grayscale rendering, white background and full opaque tank/shorts retained. Original project artwork style only, no upstream media. Exact prompt and original saved. Human anatomy review pending; no approval or publication.",
+      "blockingIssues": [
+        "Shoulders/upper torso raised into crunch-like posture instead of supported supine head-only lift.",
+        "Posterior torso versus supine leg orientation is visually incoherent; regenerate with clear consistent side view."
+      ],
+      "canonicalName": "lying neck extensor stretch",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "levator scapulae"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Lying neck extensor stretch BLOCKED: shoulders and upper torso lift into a crunch-like posture, with posterior torso view inconsistent with a clearly supported supine setup. Restore coherent supine orientation, shoulders/upper back grounded and only gentle head lift. Detailed grayscale rendering, white background and full opaque tank/shorts retained. Original project artwork style only, no upstream media. Exact prompt and original saved. Human anatomy review pending; no approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/1841-male-anatomical-white-v1-p1-35e03a1af01a.webp",
+          "width": 1200,
+          "height": 600,
+          "bytes": 36876,
+          "sha256": "35e03a1af01a4569949a50ff6b764f6fd47feb2e79e5b9d98604f65c388d7b45"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-242.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/1841-male-anatomical-white-v1-thumb-8e80b42b77f1.webp",
+        "width": 240,
+        "height": 120,
+        "bytes": 2416,
+        "sha256": "8e80b42b77f19d7d5728778e64a171009db5f71ad2d9bced3ef67f7563c932f6"
+      },
+      "processingSignature": "283e6a91cc60fdc3b3c58476dcb685421c47b1408b5ba114b5c53f86eb03e1b4",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1841-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1590129,
+        "sha256": "0cb0a2e2ec10969fb117f7f3d93d97b37b46ee4cc6a032f7750bd251d187391e"
+      }
+    }
+  ]
+}

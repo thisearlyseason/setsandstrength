@@ -1,0 +1,66 @@
+{
+  "batch": 153,
+  "runId": "e94f2462-b2c8-4b5f-8f3f-38f5c67b7633",
+  "trigger": "2026-11-03T07:09:27.322Z",
+  "completedAt": "2026-11-03T07:13:17.251035+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 2,
+  "generationCalls": 2,
+  "exerciseIds": [
+    "1018"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 618,
+    "remainingVariants": 10646,
+    "approvedVariants": 0,
+    "blockedVariants": 213,
+    "knownPoseImages": 1254,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Two band shrug candidates, four poses, two built-in calls. Relaxed shoulders to elevated shoulders with straight arms, upright stance and band under both shoes. Exposed upper trapezius red, fine grayscale anatomy and full opaque black shirt/shorts visually retained. Qualified review of neck posture, shoulder elevation symmetry, grip/handle detail, band security and proportions remains pending. Head margins modest but uncropped. Every original and exact prompt saved; no anatomy/clothing approval or publication. Original project artwork used for rendering style only, no upstream licensed input. Seven pipeline checks do not establish anatomical accuracy.",
+  "metadataConflictsDeferred": {
+    "1017": "Band Y-raise resistance anchor unspecified.",
+    "1023": "Upper-leg band loop versus hand-held deadlift resistance/anchor unresolved."
+  },
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 984391411,
+  "savedMasters": [
+    {
+      "exerciseId": "1018",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1018-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1344854,
+        "sha256": "f3799e60af3528029ac654ca6ead3cb2f1715c77d048c4ec02ec57361d90ec10"
+      }
+    },
+    {
+      "exerciseId": "1018",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1018-female-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1350579,
+        "sha256": "23e056cac36131ea3f940989a2fef2d2541680604344484c3487078fc7dcb781"
+      }
+    }
+  ]
+}

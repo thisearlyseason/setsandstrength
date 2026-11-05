@@ -1,0 +1,70 @@
+{
+  "batch": 176,
+  "runId": "229b7bc2-a205-4578-8176-09f5c9f87acb",
+  "trigger": "2026-11-03T10:02:58.740Z",
+  "completedAt": "2026-11-03T10:09:58.587426+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 2,
+  "generationCalls": 2,
+  "exerciseIds": [
+    "1346"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 666,
+    "remainingVariants": 10598,
+    "approvedVariants": 0,
+    "blockedVariants": 225,
+    "knownPoseImages": 1330,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Two single-pose static kneeling lat stretch candidates, two built-in calls. Tall kneeling with both knees/shins grounded, hips extended and interlaced hands overhead in gentle side bend. Outputs mirror requested side: lean left with right-lat tint; accessible captions describe either side and switching. Full opaque black clothes with red over shirt folds and exposed grayscale anatomy retained. Qualified pelvis stability, neck/shoulder alignment, hand interlace, lat placement and tint/fold interpretation require human review. Every original and exact prompt saved; no anatomy/clothing approval or publication. Original project artwork rendering style only, no upstream licensed input. Seven pipeline checks do not establish anatomical accuracy.",
+  "metadataConflictsDeferred": {
+    "1336": "Spine target lacks explicit primary muscle map.",
+    "1338": "Sitting on ball while hugging same ball ambiguous.",
+    "1340": "Spine target lacks explicit primary muscle map.",
+    "1343": "Toes on ball versus lifting legs off ground geometry unclear; spine mapping absent.",
+    "1347": "Lats target versus upper-back primary map.",
+    "1349": "Reverse grip description versus overhand instruction conflicts."
+  },
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 1054897470,
+  "savedMasters": [
+    {
+      "exerciseId": "1346",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1346-male-anatomical-white-v1.png",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 1333660,
+        "sha256": "3439ea48b13d7a20ad5f1ed6de0057a002aa83c9fb7d0eafca2eb29cb532a92f"
+      }
+    },
+    {
+      "exerciseId": "1346",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1346-female-anatomical-white-v1.png",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 1362922,
+        "sha256": "82cc17b4cebc34a574baec3bf1c8ee8683f39e30df788aab85fe1904a51a69b2"
+      }
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "batch": 118,
+  "trigger": "2026-11-02T21:41:22.771Z",
+  "completedAt": "2026-11-02T21:53:11.700762+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 4,
+  "generationCalls": 6,
+  "exerciseIds": [
+    "0714",
+    "0716"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 482,
+    "remainingVariants": 10782,
+    "approvedVariants": 0,
+    "blockedVariants": 190,
+    "knownPoseImages": 996,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Four static candidate sets, four poses, six built-in calls and two retained cloth corrections. Side plank v2 uses staggered feet allowed by canonical record, straight knees, forearm support, hip gap and top hand hip; corrections remove diagonal rays to smooth diffuse abdominal fabric tint. Qualified support alignment, pelvis and head/hip/heel line review pending. Hand-assisted side neck stretches show face-forward gentle lateral tilt, hand across crown on opposite side, free arm relaxed and red region opposite stretched side stopping at intact neckline. Qualified levator localization, cervical range, shoulder level and gentle hand pressure review pending. Fine exposed grayscale anatomy and full opaque clothes front/sides/back/seat/crotch retained. Original PNGs, exact prompts and correction history saved. No anatomy approval or publication. Original project artwork style only, no upstream media. Pipeline checks do not approve anatomy.",
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 789854474,
+  "savedMasters": [
+    {
+      "exerciseId": "0714",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0714-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1803597,
+        "sha256": "b83b1d362e75d37f31a8a3c36f6661e12f0e2e8a15c68f9ebdd972d908b923c2"
+      }
+    },
+    {
+      "exerciseId": "0714",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0714-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1773373,
+        "sha256": "2dd4d4eb56514d1f0d3afb4ffb06f8910ced73167acf409e6bbbe5d254211d85"
+      }
+    },
+    {
+      "exerciseId": "0716",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0716-male-anatomical-white-v1.png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1372427,
+        "sha256": "9a2b4bb645683080210072015e7cc570bdea990bc8c0172340aaff9a000afc06"
+      }
+    },
+    {
+      "exerciseId": "0716",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0716-female-anatomical-white-v1.png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1375720,
+        "sha256": "b7c69cb03dab8f383ec4e0b8dc31f6c773d8e2a9916244e92b5e6f4b0bd32860"
+      }
+    }
+  ]
+}

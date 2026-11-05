@@ -1,0 +1,58 @@
+{
+  "batch": 397,
+  "runId": "99f2f945-e187-42c7-b0ef-09284ad99fee",
+  "triggerTimestamp": "2026-11-04T19:03:02.261Z",
+  "builtInImageGenAvailable": true,
+  "anatomyReview": "pending",
+  "publication": "none",
+  "generatedIds": [
+    "3643"
+  ],
+  "failure": "3643 red highlight is concentrated on front crotch/inner shorts instead of glute region. Retained and blocked; generation stopped.",
+  "deferred": {
+    "3641": "Kneeling step in name absent from instructions; weight type unclear.",
+    "3642": "Weighted title but no loading instructions.",
+    "3644": "Swing height and weight type need clarification.",
+    "3645": "Exact prompt saved; deferred after highlight failure.",
+    "3650": "Exact prompt saved; deferred after highlight failure."
+  },
+  "coverageAfter": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1406,
+    "remainingVariants": 9858,
+    "approvedVariants": 0,
+    "blockedVariants": 538,
+    "knownPoseImages": 2793,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 1033,
+      "remainingVariants": 4599,
+      "blockedVariants": 419
+    }
+  },
+  "paidWorker": {
+    "statuses": {
+      "generated": 1406,
+      "pending": 9858
+    },
+    "remaining": 9858,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 2134712617
+  },
+  "pipelineTests": "7 passed, 0 failed",
+  "approvedIndexUnchanged": true,
+  "existingUserApprovalsPreserved": 1306
+}

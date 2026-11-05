@@ -1,0 +1,70 @@
+{
+  "batch": 179,
+  "runId": "587cd73d-3bcf-46b4-81dc-0d7a485cce8a",
+  "trigger": "2026-11-03T10:25:58.887Z",
+  "completedAt": "2026-11-03T10:33:56.262889+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 2,
+  "generationCalls": 2,
+  "exerciseIds": [
+    "1387"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 672,
+    "remainingVariants": 10592,
+    "approvedVariants": 0,
+    "blockedVariants": 225,
+    "knownPoseImages": 1338,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Two one-leg floor calf raise candidates, four poses, two built-in calls. Working heel flat to visibly lifted, free foot raised behind throughout, palms on wall for balance and working calf red. Full opaque clothes and exposed grayscale anatomy retained. Working side mirrors prompt; accessible captions cover both sides. Qualified forefoot pressure/toe-tip tendency especially female, ankle roll, hip/neck alignment and hand support require human review. Every original and exact prompt saved; no anatomy/clothing approval or publication. Original project artwork rendering style only, no upstream licensed input. Seven pipeline checks do not establish anatomical accuracy.",
+  "metadataConflictsDeferred": {
+    "1378": "Rope on right forefoot versus rear left calf stretch unclear.",
+    "1381": "Extended lifted foot versus pushing through grounded ball conflicts.",
+    "1386": "Donkey hinge description versus upright calf instructions.",
+    "1388": "Peroneal target stretch direction omitted; instructions generic calf dorsiflexion.",
+    "1389": "Posterior tibialis stretch direction omitted; generic calf dorsiflexion.",
+    "1391": "Calf-only press versus repeated knee bending instructions conflicts."
+  },
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 1063790211,
+  "savedMasters": [
+    {
+      "exerciseId": "1387",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1387-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1481888,
+        "sha256": "9d0bca785683891c9b892d8d282c40b299ca8da4ecec12e64f9d0f8deb210c16"
+      }
+    },
+    {
+      "exerciseId": "1387",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1387-female-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1509607,
+        "sha256": "a3c884063bfbdae43acc9314b64b3f11ef0b8502e352cd90320998886c761594"
+      }
+    }
+  ]
+}

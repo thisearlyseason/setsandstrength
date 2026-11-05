@@ -1,0 +1,168 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "1028",
+      "variant": "male",
+      "key": "1028-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand on the assistance pad holding the fixed parallel handles, arms straight and shoulders lowered."
+        },
+        {
+          "key": "p2",
+          "caption": "Lower smoothly until elbows bend about 90 degrees, keeping elbows close and feet supported; press back up."
+        }
+      ],
+      "prompt": "Original premium ADULT male anatomical exercise illustration, ASSISTED STANDING TRICEPS DIP canonical1028. TWO equal SQUARE cells side by side wide LANDSCAPE 2:1. Same model machine camera scale both poses. Side three-quarter camera showing TWO parallel fixed dip bars at waist height and a rectangular moving counterweighted assistance foot platform below feet, mounted on visible vertical guide rails beside a compact gray weight stack. Model stands BOTH FEET FLAT on assistance platform, legs straight, knees never kneeling. Hands firmly wrap parallel fixed bars beside hips neutral wrists palms inward. LEFT START top arms straight shoulders depressed chest up torso nearly upright. RIGHT BOTTOM body AND platform lower together, elbows bend to90degrees tucked close pointing backward, upper arms near horizontal, shoulders never below elbows, forearms near vertical, no shrug or forward chest dip. Same fixed bars height and machine geometry each panel. Platform under shoes in both phases follows vertical guide. Red PRIMARY exposed TRICEPS backs of upper arms only, no chest red. Fine realistic detailed grayscale exposed anatomy, realistic fingers limbs apparatus. Full OPAQUE BLACK athletic tank shirt and MID-THIGH shorts wrapping front sides back seat crotch continuous seams broad fabric folds no transparency/cutaway/anatomical fibers through cloth. Black shoes. Pure WHITE background soft contact shadows. Entire model head hands feet machine and platform inside EACH square, generous10percent margins, no crops or crossings. Original project reference rendering STYLE ONLY ignore bench pushup/chest highlights. No labels text captions arrows.",
+      "inspectionNote": "Top straight arms to near-elbow bent dip with foot pad lowering. Full opaque clothes and exposed triceps red retained. Far arm remains much straighter than near arm in bottom pose; symmetric bilateral elbow flexion is not established. Blocked for correction/human review; machine linkage/weight-stack travel, shoulder depression and grip also need qualified review.",
+      "blockingIssues": [
+        "Bottom pose far elbow appears substantially straighter than near elbow; bilateral 90-degree flexion not established."
+      ],
+      "canonicalName": "assisted standing triceps dip",
+      "styleVersion": "white-v1",
+      "equipment": "assisted",
+      "primaryMuscles": [
+        "triceps"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Top straight arms to near-elbow bent dip with foot pad lowering. Full opaque clothes and exposed triceps red retained. Far arm remains much straighter than near arm in bottom pose; symmetric bilateral elbow flexion is not established. Blocked for correction/human review; machine linkage/weight-stack travel, shoulder depression and grip also need qualified review.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/1028-male-anatomical-white-v1-p1-76a0d82d5c26.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 35792,
+          "sha256": "76a0d82d5c2624b68a351e394a13b92627ac2d4aa611aea5ce9b4ec8b7697d11"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/1028-male-anatomical-white-v1-p2-eef2e162a3ae.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 35230,
+          "sha256": "eef2e162a3aed6f4dbf587090aec1aa3d7e13ea3d8a2aefb5b99dea74db0ca82"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-154.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/1028-male-anatomical-white-v1-thumb-88b1811b40b5.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 3954,
+        "sha256": "88b1811b40b508cb659f7d0ff6edfdab48b6781affd1025024867939cc3eee63"
+      },
+      "processingSignature": "dd82c753b28e7c5eaae394f31f79984d16a5e056e263266ef26f3800834a8c6a",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1028-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1401168,
+        "sha256": "b743a6ebdbd1b705c82862303e635fdb9190289ae1504284a888a9572385a023"
+      }
+    },
+    {
+      "exerciseId": "1028",
+      "variant": "female",
+      "key": "1028-female-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand on the assistance pad holding the fixed parallel handles, arms straight and shoulders lowered."
+        },
+        {
+          "key": "p2",
+          "caption": "Lower smoothly until elbows bend about 90 degrees, keeping elbows close and feet supported; press back up."
+        }
+      ],
+      "prompt": "Original premium ADULT female anatomical exercise illustration, ASSISTED STANDING TRICEPS DIP canonical1028. TWO equal SQUARE cells side by side wide LANDSCAPE 2:1. Same model machine camera scale both poses. Side three-quarter camera showing TWO parallel fixed dip bars at waist height and a rectangular moving counterweighted assistance foot platform below feet, mounted on visible vertical guide rails beside a compact gray weight stack. Model stands BOTH FEET FLAT on assistance platform, legs straight, knees never kneeling. Hands firmly wrap parallel fixed bars beside hips neutral wrists palms inward. LEFT START top arms straight shoulders depressed chest up torso nearly upright. RIGHT BOTTOM body AND platform lower together, elbows bend to90degrees tucked close pointing backward, upper arms near horizontal, shoulders never below elbows, forearms near vertical, no shrug or forward chest dip. Same fixed bars height and machine geometry each panel. Platform under shoes in both phases follows vertical guide. Red PRIMARY exposed TRICEPS backs of upper arms only, no chest red. Fine realistic detailed grayscale exposed anatomy, realistic fingers limbs apparatus. Full OPAQUE BLACK athletic tank shirt and MID-THIGH shorts wrapping front sides back seat crotch continuous seams broad fabric folds no transparency/cutaway/anatomical fibers through cloth. Black shoes. Pure WHITE background soft contact shadows. Entire model head hands feet machine and platform inside EACH square, generous10percent margins, no crops or crossings. Original project reference rendering STYLE ONLY ignore bench pushup/chest highlights. No labels text captions arrows.",
+      "inspectionNote": "Top straight arms to near-elbow bent dip with foot pad lowering. Full opaque clothes and exposed triceps red retained. Far arm remains much straighter than near arm in bottom pose; symmetric bilateral elbow flexion is not established. Blocked for correction/human review; machine linkage/weight-stack travel, shoulder depression and grip also need qualified review.",
+      "blockingIssues": [
+        "Bottom pose far elbow appears substantially straighter than near elbow; bilateral 90-degree flexion not established."
+      ],
+      "canonicalName": "assisted standing triceps dip",
+      "styleVersion": "white-v1",
+      "equipment": "assisted",
+      "primaryMuscles": [
+        "triceps"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Top straight arms to near-elbow bent dip with foot pad lowering. Full opaque clothes and exposed triceps red retained. Far arm remains much straighter than near arm in bottom pose; symmetric bilateral elbow flexion is not established. Blocked for correction/human review; machine linkage/weight-stack travel, shoulder depression and grip also need qualified review.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/1028-female-anatomical-white-v1-p1-1bc19a553d35.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 34976,
+          "sha256": "1bc19a553d3543063f8235c58e2c7561c3ed6bbc02f9636a2004dcdd2505cd10"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/1028-female-anatomical-white-v1-p2-7c5566fcadbe.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 34436,
+          "sha256": "7c5566fcadbeaf5577b89600f2e21470e224463765667e9a04095ba75fb2147b"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-154.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/1028-female-anatomical-white-v1-thumb-45b659eaca72.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 3830,
+        "sha256": "45b659eaca7261017bd6faa972e787fd88057d479c70ac08353d9677e4a26c09"
+      },
+      "processingSignature": "2482144755641c31609fac8fd093b7b0cf1f39648d2d23c1c58e63383f2195f0",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1028-female-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1396461,
+        "sha256": "603201d960021cf9a306e0f8fad6af0a3948919805a03a0e4a7ac7da7ef3f912"
+      }
+    }
+  ]
+}

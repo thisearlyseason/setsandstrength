@@ -1,0 +1,89 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "6221",
+      "variant": "male",
+      "key": "6221-male-anatomical-white-v1",
+      "prompt": "STANDING FRENCH PRESS. Two equal side-by-side panels SIDE three-quarter. Stand tall braced core no back arch, ONE dumbbell held by BOTH hands cupping the inside of its upper head so dumbbell hangs vertically. Panel1 both arms straight overhead. Panel2 bend ONLY elbows to lower dumbbell BEHIND head, upper arms vertical close to ears and elbows forward. Both hands maintain secure grip, same dumbbell. Red exposed TRICEPS. Use case: scientific educational. Premium detailed grayscale anatomy on white background, soft contact shadows, realistic muscular adult male. Approved original 0853 reference for rendering style ONLY, never movement, grip or equipment. Same person, camera, scale and equipment in all panels. Opaque black tank and mid-thigh black shorts wrap fully front, sides, back and crotch with realistic seams folds and hems. No cutaways, transparency, anatomy or muscle fibers through clothing. Red only on EXPOSED specified muscles; keep all clothing plain black. Entire body, feet, hands, equipment and anchoring points fit fully inside each panel with generous margins. No words, labels or arrows.",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand holding one dumbbell overhead with both hands, core braced."
+        },
+        {
+          "key": "p2",
+          "caption": "Lower behind head with elbows forward, then extend without arching."
+        }
+      ],
+      "inspectionNote": "Two standing French-press poses inspected: one complete dumbbell, overhead lockout and behind-head elbow flexion, opaque clothing. Human anatomy review pending.",
+      "blockingIssues": [],
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream media used.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0853-male-anatomical-white-v1.png",
+        "role": "style only"
+      }
+    },
+    {
+      "exerciseId": "6232",
+      "variant": "male",
+      "key": "6232-male-anatomical-white-v1",
+      "prompt": "SUSPENSION TRAINER BICEPS CURL. Two equal side-by-side panels SIDE three-quarter. TWO separate continuous straps from high fixed crossbeam anchoring to TWO complete triangular handles, one per hand. All beam, anchor, straps and handles visible. Feet planted forward toward anchor, body leans backward as a rigid straight line heels through shoulders. Panel1 arms straight reaching toward anchor at shoulder level, palms up. Panel2 keep elbows HIGH and upper arms at shoulder level, bend elbows to curl handles toward FOREHEAD, body pivots upward slightly as rigid plank, feet stay planted. Do not pull hands to chest like row. Straps taut and connected in both. Red BICEPS. Use case: scientific educational. Premium detailed grayscale anatomy on white background, soft contact shadows, realistic muscular adult male. Approved original 0853 reference for rendering style ONLY, never movement, grip or equipment. Same person, camera, scale and equipment in all panels. Opaque black tank and mid-thigh black shorts wrap fully front, sides, back and crotch with realistic seams folds and hems. No cutaways, transparency, anatomy or muscle fibers through clothing. Red only on EXPOSED specified muscles; keep all clothing plain black. Entire body, feet, hands, equipment and anchoring points fit fully inside each panel with generous margins. No words, labels or arrows.",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hold straps, plant feet and lean back with body straight and arms extended."
+        },
+        {
+          "key": "p2",
+          "caption": "Curl hands toward forehead with elbows high, then lower slowly."
+        }
+      ],
+      "inspectionNote": "Start and curl poses inspected; strap length grows substantially while feet and body angle remain essentially fixed. Saved blocked for mechanically inconsistent suspension geometry.",
+      "blockingIssues": [
+        "Nonelastic suspension straps change length substantially between poses; fixed anchor geometry is mechanically inconsistent."
+      ],
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream media used.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0853-male-anatomical-white-v1.png",
+        "role": "style only"
+      }
+    },
+    {
+      "exerciseId": "6234",
+      "variant": "male",
+      "key": "6234-male-anatomical-white-v1",
+      "prompt": "GYMNASTIC RING ARM CURL. Two equal side-by-side panels SIDE three-quarter. TWO complete ROUND wooden rings, one gripped each hand palms up, TWO continuous taut straps from separate high beam anchors. All equipment and anchors in frame. Feet forward body leans backward as rigid straight line, heels planted. Panel1 elbows extended arms reaching anchor at shoulder level. Panel2 elbows HIGH and upper arms fixed, curl rings toward temples, body pivots more upright without bending hips. Rings do not become triangular handles or dumbbells, straps attach to top of each ring. Red BICEPS. Use case: scientific educational. Premium detailed grayscale anatomy on white background, soft contact shadows, realistic muscular adult male. Approved original 0853 reference for rendering style ONLY, never movement, grip or equipment. Same person, camera, scale and equipment in all panels. Opaque black tank and mid-thigh black shorts wrap fully front, sides, back and crotch with realistic seams folds and hems. No cutaways, transparency, anatomy or muscle fibers through clothing. Red only on EXPOSED specified muscles; keep all clothing plain black. Entire body, feet, hands, equipment and anchoring points fit fully inside each panel with generous margins. No words, labels or arrows.",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hold rings and lean back with arms extended and body straight."
+        },
+        {
+          "key": "p2",
+          "caption": "Curl hands toward head with elbows up, then lower slowly."
+        }
+      ],
+      "inspectionNote": "Ring curl poses inspected; straps shorten dramatically between fixed beam and rings despite unchanged scale. Saved blocked; repeated nonelastic strap length failure ends run.",
+      "blockingIssues": [
+        "Nonelastic suspension straps change length substantially between poses; fixed anchor geometry is mechanically inconsistent."
+      ],
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream media used.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0853-male-anatomical-white-v1.png",
+        "role": "style only"
+      }
+    }
+  ]
+}

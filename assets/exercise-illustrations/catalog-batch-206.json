@@ -1,0 +1,165 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "1555",
+      "variant": "male",
+      "key": "1555-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand with feet shoulder-width apart and a dumbbell in each hand at your sides."
+        },
+        {
+          "key": "p2",
+          "caption": "Bend your hips and knees toward a parallel squat, keeping your chest up, feet flat and weights at your sides. Press through your feet to stand."
+        }
+      ],
+      "prompt": "Use case scientific-educational. Original premium ADULT male detailed anatomical exercise illustration canonical1555 DUMBBELL SQUAT V2. TWO equal square cells side by side WIDE2:1 landscape same full body model camera scale FRONT-SIDE three-quarter view facing RIGHT. Hold ONE matched moderate dumbbell in EACH hand at SIDES palms inward neutral secure wrapped grips arms hang STRAIGHT vertically throughout. Both weights outside legs never between knees or resting on thighs/floor, weights identical size each pose. Feet shoulder-width toes slightly outward soles FLAT same position both poses. LEFT START standing TALL hips/knees extended soft ribs pelvis stacked neutral spine. RIGHT BOTTOM squat hips BACK and DOWN until BOTH thighs roughly PARALLEL floor, knees track over toes, chest up torso modest forward lean neutral long back neck aligned gaze ahead/down, heels stay flat. Dumbbells hang outside knees clear ground, elbows never curl. Primary BOTH QUADRICEPS FRONT thighs RED ONLY: exposed lower front thigh fine red anatomical detail, upper covered FRONT thigh soft DIFFUSE red teaching tint on intact BLACK shorts, glutes/hamstrings/calves grayscale. Fabric opaque smooth broad real cloth folds NO muscle striations/segmented lobes through fabric. Fine detailed grayscale other EXPOSED anatomy realistic fingers limbs proportions. Complete opaque BLACK tank wraps FRONT SIDES BACK and BLACK MID-THIGH shorts cover FRONT SIDES BACK SEAT CROTCH continuous hems seams no cutaways/transparency. Black shoes. Pure WHITE background soft contact shadows generous12percent margins head hands FULL dumbbells both feet inside EACH square uncropped. Equal male/female quality. Original project reference rendering STYLE ONLY ignore pushup/chest red. No labels text captions arrows extra people.",
+      "inspectionNote": "Two dumbbell squat v2 candidates, four poses, two built-in calls. Standing to near-parallel squat with flat feet and straight arms holding weights outside legs, quadriceps red. Male BLOCKED for radial anatomical-looking starburst fibers over shorts front; female diffuse tint retained. Full opaque clothing and exposed detailed grayscale anatomy. Qualified depth, knee tracking, dumbbell clearance, far grip, lumbar/neck alignment and cloth tint require human review. Original project artwork rendering style only, no upstream licensed input. Exact prompts/originals saved. No anatomy or clothing approval or publication. Seven pipeline checks do not establish anatomical accuracy.",
+      "blockingIssues": [
+        "Radial starburst fibers over front shorts highlight instead of plain cloth with diffuse tint."
+      ],
+      "canonicalName": "dumbbell squat v. 2",
+      "styleVersion": "white-v1",
+      "equipment": "dumbbell",
+      "primaryMuscles": [
+        "quads"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Two dumbbell squat v2 candidates, four poses, two built-in calls. Standing to near-parallel squat with flat feet and straight arms holding weights outside legs, quadriceps red. Male BLOCKED for radial anatomical-looking starburst fibers over shorts front; female diffuse tint retained. Full opaque clothing and exposed detailed grayscale anatomy. Qualified depth, knee tracking, dumbbell clearance, far grip, lumbar/neck alignment and cloth tint require human review. Original project artwork rendering style only, no upstream licensed input. Exact prompts/originals saved. No anatomy or clothing approval or publication. Seven pipeline checks do not establish anatomical accuracy.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/1555-male-anatomical-white-v1-p1-4f18f53f505a.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 25456,
+          "sha256": "4f18f53f505ab1fb0f09a24f079ab54b71fcaa85d3adb6689aba5dcd0fea7cf7"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/1555-male-anatomical-white-v1-p2-04fb935f9299.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 24690,
+          "sha256": "04fb935f9299b1e2208361b30fc10c1fa5b518fbf2709c8ca9bde1a76becec4c"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-206.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/1555-male-anatomical-white-v1-thumb-96175a301b96.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2554,
+        "sha256": "96175a301b96957a3b41c9a2b4fb71afcb853ae26b74caa4cc70319f6ff4b43e"
+      },
+      "processingSignature": "4c286251bad3b2a8934cda04599945a6c50cdde96be4e77903bd54b373c8f49f",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1555-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1336668,
+        "sha256": "2999fa61e4ae5a0bc5776830873cc021def895e54436c3d605f1527bd3cd5283"
+      }
+    },
+    {
+      "exerciseId": "1555",
+      "variant": "female",
+      "key": "1555-female-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand with feet shoulder-width apart and a dumbbell in each hand at your sides."
+        },
+        {
+          "key": "p2",
+          "caption": "Bend your hips and knees toward a parallel squat, keeping your chest up, feet flat and weights at your sides. Press through your feet to stand."
+        }
+      ],
+      "prompt": "Use case scientific-educational. Original premium ADULT female detailed anatomical exercise illustration canonical1555 DUMBBELL SQUAT V2. TWO equal square cells side by side WIDE2:1 landscape same full body model camera scale FRONT-SIDE three-quarter view facing RIGHT. Hold ONE matched moderate dumbbell in EACH hand at SIDES palms inward neutral secure wrapped grips arms hang STRAIGHT vertically throughout. Both weights outside legs never between knees or resting on thighs/floor, weights identical size each pose. Feet shoulder-width toes slightly outward soles FLAT same position both poses. LEFT START standing TALL hips/knees extended soft ribs pelvis stacked neutral spine. RIGHT BOTTOM squat hips BACK and DOWN until BOTH thighs roughly PARALLEL floor, knees track over toes, chest up torso modest forward lean neutral long back neck aligned gaze ahead/down, heels stay flat. Dumbbells hang outside knees clear ground, elbows never curl. Primary BOTH QUADRICEPS FRONT thighs RED ONLY: exposed lower front thigh fine red anatomical detail, upper covered FRONT thigh soft DIFFUSE red teaching tint on intact BLACK shorts, glutes/hamstrings/calves grayscale. Fabric opaque smooth broad real cloth folds NO muscle striations/segmented lobes through fabric. Fine detailed grayscale other EXPOSED anatomy realistic fingers limbs proportions. Complete opaque BLACK tank wraps FRONT SIDES BACK and BLACK MID-THIGH shorts cover FRONT SIDES BACK SEAT CROTCH continuous hems seams no cutaways/transparency. Black shoes. Pure WHITE background soft contact shadows generous12percent margins head hands FULL dumbbells both feet inside EACH square uncropped. Equal male/female quality. Original project reference rendering STYLE ONLY ignore pushup/chest red. No labels text captions arrows extra people.",
+      "inspectionNote": "Two dumbbell squat v2 candidates, four poses, two built-in calls. Standing to near-parallel squat with flat feet and straight arms holding weights outside legs, quadriceps red. Male BLOCKED for radial anatomical-looking starburst fibers over shorts front; female diffuse tint retained. Full opaque clothing and exposed detailed grayscale anatomy. Qualified depth, knee tracking, dumbbell clearance, far grip, lumbar/neck alignment and cloth tint require human review. Original project artwork rendering style only, no upstream licensed input. Exact prompts/originals saved. No anatomy or clothing approval or publication. Seven pipeline checks do not establish anatomical accuracy.",
+      "canonicalName": "dumbbell squat v. 2",
+      "styleVersion": "white-v1",
+      "equipment": "dumbbell",
+      "primaryMuscles": [
+        "quads"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Two dumbbell squat v2 candidates, four poses, two built-in calls. Standing to near-parallel squat with flat feet and straight arms holding weights outside legs, quadriceps red. Male BLOCKED for radial anatomical-looking starburst fibers over shorts front; female diffuse tint retained. Full opaque clothing and exposed detailed grayscale anatomy. Qualified depth, knee tracking, dumbbell clearance, far grip, lumbar/neck alignment and cloth tint require human review. Original project artwork rendering style only, no upstream licensed input. Exact prompts/originals saved. No anatomy or clothing approval or publication. Seven pipeline checks do not establish anatomical accuracy.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/1555-female-anatomical-white-v1-p1-d00194e388e4.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 26162,
+          "sha256": "d00194e388e4b1f863cecf67047ca7aff87d1ddb5129b221c949428e068c3557"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/1555-female-anatomical-white-v1-p2-30b3cfb20d3a.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 26126,
+          "sha256": "30b3cfb20d3a7076a6a45e7aa573b5ad68636c29e2b450f7baca1a95997c3a0a"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-206.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/1555-female-anatomical-white-v1-thumb-c803922b7ab8.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2672,
+        "sha256": "c803922b7ab864289221a1c8f2e4665869977ca9451aa2af11bc52817c9105bd"
+      },
+      "processingSignature": "e2cb11e6a1236bbc0353ebf70f298f902abce7f65e7dc875ef811e9798f064a0",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1555-female-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1343152,
+        "sha256": "5d356e555f959a033af1fc7867f96b8fa56f40da9ddb925bbcd6ebe01341034c"
+      }
+    }
+  ]
+}

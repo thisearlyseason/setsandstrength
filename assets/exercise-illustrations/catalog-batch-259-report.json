@@ -1,0 +1,86 @@
+{
+  "batch": 259,
+  "runId": "4b6ca2cf-a8e3-44da-8d80-75e577abb19e",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "trigger": "2026-11-03T22:13:53.905Z",
+  "purpose": "batch259 scheduled male continuation",
+  "started": "2026-11-03T22:14:11.343434+00:00",
+  "completedAt": "2026-11-03T22:19:39.898288+00:00",
+  "actualToolName": "image_gen__imagegen",
+  "calls": 4,
+  "newCandidateSets": 4,
+  "exerciseIds": [
+    "2108",
+    "2109",
+    "2110",
+    "2112"
+  ],
+  "variants": [
+    "male"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 909,
+    "remainingVariants": 10355,
+    "approvedVariants": 0,
+    "blockedVariants": 294,
+    "knownPoseImages": 1726,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 536,
+      "remainingVariants": 5096,
+      "blockedVariants": 175
+    }
+  },
+  "reviewNotes": {
+    "2108": "Single standing gentle backbend, both hands on hips, feet grounded and head upright, plain uniform abdominal teaching tint over intact tank. Coherent torso/pelvis orientation and full opaque shorts. Qualified review needed for comfortable extension magnitude, hip shift, knee softness, hand anatomy and abdominal mapping.",
+    "2109": "Original unexpectedly includes two side-by-side figures; preserve full master and deliver right-half final static hold only. Tall kneeling with hands at lower back, gentle lean, head upright and shins/knees grounded. Red teaching tint on intact abdominal tank retains cloth folds. Qualified review needed for comfortable extension, hip shift, lumbar hand support, chin position and mapping.",
+    "2110": "Feet and pelvis face forward, hands on hips and head turned sideways. Thorax remains mostly front-facing with little visible trunk rotation; block for head-only emphasis rather than clear gentle upper-body rotation. No reversed torso/pelvis anatomy. Uniform abdominal overlay on intact tank; qualified review of rotation range and mapping.",
+    "2112": "Distinct lowered and raised supine bridge positions, arms/palms grounded and both feet planted. Head is visibly lifted off floor in both positions despite required relaxed floor support; block for floating head/neck posture. Uniform glute teaching tint over intact shorts. Qualified review of shoulder-hip-knee alignment, foot spacing, pelvis control and mapping."
+  },
+  "blockingIssues": {
+    "2110": [
+      "Thorax remains mostly forward while head turns; demonstrate gentle upper-body rotation with hips forward."
+    ],
+    "2112": [
+      "Head lifted off floor in both bridge positions; correct to relaxed head and shoulder floor support."
+    ]
+  },
+  "deferred": {
+    "2106": "Canonical primary target spine does not identify a muscle highlight; mapping requires clarification.",
+    "2107": "Canonical primary target spine does not identify a muscle highlight; mapping requires clarification.",
+    "2111": "Rotating prone extension deferred for qualified technique planning before generation."
+  },
+  "tests": 7,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "workerSyncResult": {
+    "statuses": {
+      "generated": 909,
+      "pending": 10355
+    },
+    "remaining": 10355,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 1403530827
+  },
+  "publicationIndexUnchanged": true,
+  "savedMasters": [
+    "assets/exercise-illustrations/generated/2108-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/2109-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/2110-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/2112-male-anatomical-white-v1.png"
+  ]
+}

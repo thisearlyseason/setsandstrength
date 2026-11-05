@@ -1,0 +1,58 @@
+{
+  "batch": 383,
+  "runId": "4673d784-a559-4fe1-b68c-0e10fc8a1e10",
+  "triggerTimestamp": "2026-11-04T17:25:01.691Z",
+  "builtInImageGenAvailable": true,
+  "anatomyReview": "pending",
+  "publication": "none",
+  "generatedIds": [
+    "3554",
+    "3557",
+    "3559"
+  ],
+  "deferred": {
+    "3555": "Push-away upper-back target and reach-back sequence need clarification.",
+    "3556": "Cardiovascular target requires highlight mapping clarification.",
+    "3558": "Self resistance arrangement with towel unclear.",
+    "3560": "Curl to press transition and starting position require clarification."
+  },
+  "coverageAfter": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1376,
+    "remainingVariants": 9888,
+    "approvedVariants": 0,
+    "blockedVariants": 530,
+    "knownPoseImages": 2733,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 1003,
+      "remainingVariants": 4629,
+      "blockedVariants": 411
+    }
+  },
+  "paidWorker": {
+    "statuses": {
+      "generated": 1376,
+      "pending": 9888
+    },
+    "remaining": 9888,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 2091472929
+  },
+  "pipelineTests": "7 passed, 0 failed",
+  "approvedIndexUnchanged": true,
+  "existingUserApprovalsPreserved": 1306
+}

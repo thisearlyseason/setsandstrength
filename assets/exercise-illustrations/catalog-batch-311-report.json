@@ -1,0 +1,79 @@
+{
+  "batch": 311,
+  "runId": "ecbfe5ff-1248-4cb1-b4f5-261ef3223a9a",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "trigger": "2026-11-04T06:20:28.066Z",
+  "purpose": "batch311 scheduled male continuation",
+  "started": "2026-11-04T06:20:59.861801+00:00",
+  "completedAt": "2026-11-04T06:29:45.882426+00:00",
+  "actualToolName": "image_gen__imagegen",
+  "calls": 4,
+  "newCandidateSets": 4,
+  "exerciseIds": [
+    "2899",
+    "2900",
+    "2910",
+    "2895"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1112,
+    "remainingVariants": 10152,
+    "approvedVariants": 0,
+    "blockedVariants": 392,
+    "knownPoseImages": 2152,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 739,
+      "remainingVariants": 4893,
+      "blockedVariants": 273
+    }
+  },
+  "reviewNotes": {
+    "2895": "High plank and visibly opposite arm reaches with supporting palms/toes grounded, feet wider and hips near level. Abdomen red wash on opaque tank. Qualified review needed for resisting torso rotation, neutral neck, hand-under-shoulder alignment and exact abdominal mapping. Human anatomy review pending.",
+    "2899": "Bent-knee forearm side support with knees stacked, upper hand at hip and opaque clothing. Hips appear close to/on floor rather than clear knee-to-head line, and oblique overlay has anatomy-like bands; block support height/cloth correction. Qualified review needed for elbow under shoulder, pelvis stacking and neutral neck. Human anatomy review pending.",
+    "2900": "Standing underhand EZ curl with preacher pad, feet grounded and biceps red only. Elbows shift upward on pad and upper arms lift away from full support in finish; block fixed support correction. Opaque clothing. Qualified review of pad height, grip angle, wrist stacking and endpoint required. Human anatomy review pending.",
+    "2910": "One dumbbell carried at side with upright walking sequence and glute wash over opaque shorts. Final panel has extra empty arm/hand in addition to weight arm and far arm; block anatomy correction. Qualified review of opposite steps, level shoulders and secure grip required. Human anatomy review pending."
+  },
+  "blockingIssues": {
+    "2899": [
+      "Lift hips clearly off floor into straight knee-to-head line.",
+      "Remove anatomy-like oblique bands through tank; use plain uniform wash."
+    ],
+    "2900": [
+      "Keep upper arms fully supported and elbows fixed near lower pad edge throughout curl; finish shifts them upward."
+    ],
+    "2910": [
+      "Final panel has extra arm/hand; correct to exactly two anatomically connected arms/hands."
+    ]
+  },
+  "deferred": {
+    "2904": "Hamstring target conflicts with rear-batwing pulling description; clarify primary mapping."
+  },
+  "tests": 7,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "workerSyncResult": {
+    "statuses": {
+      "generated": 1112,
+      "pending": 10152
+    },
+    "remaining": 10152,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 1705131911
+  },
+  "publicationIndexUnchanged": true
+}

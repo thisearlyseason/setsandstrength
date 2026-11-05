@@ -1,0 +1,65 @@
+{
+  "runId": "addd37a6-f661-4de9-8744-84ed288f9b7d",
+  "triggerTimestamp": "2026-11-04T21:15:33.238Z",
+  "builtInImageGenAvailable": true,
+  "batches": [
+    420,
+    421,
+    422
+  ],
+  "generatedMasters": 11,
+  "generatedIds": [
+    "3783",
+    "3812",
+    "3813",
+    "3821",
+    "3826",
+    "3827",
+    "3829",
+    "3830",
+    "3831",
+    "3855",
+    "3860"
+  ],
+  "blocked": {
+    "3813": [
+      "Contracted pose lifts lower back and torso into seated tuck instead of controlled beginner crunch."
+    ],
+    "3827": [
+      "Lower-back anatomical fibers visible through shirt overlay."
+    ],
+    "3860": [
+      "Tank cutaway exposes highlighted back anatomy; opaque clothing requirement violated."
+    ]
+  },
+  "coverageAfter": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1495,
+    "remainingVariants": 9769,
+    "approvedVariants": 0,
+    "blockedVariants": 567,
+    "knownPoseImages": 2995,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 1122,
+      "remainingVariants": 4510,
+      "blockedVariants": 448
+    }
+  },
+  "pipelineTests": "8 passed, 0 failed after each batch",
+  "approvedIndexUnchanged": true,
+  "existingUserApprovalsPreserved": 1306,
+  "anatomyReview": "pending",
+  "publication": "none",
+  "stopReason": "Repeated covered-back anatomy and cutaway defects on3827 and3860; saved blocked originals.",
+  "nextRunGuidance": "Generate prepared3853 then bodyweight3854/3861; avoid same covered-back wash pattern. Explicit garment silhouette should cover back fully before overlay. Do not lower review quality.",
+  "deferred": {
+    "3853/3828/3854/3861/3858": "Prompts prepared; no original generated after systemic clothing defects stopped run.",
+    "3832-3836": "Hangboard grips require careful finger-technique planning before generation."
+  }
+}

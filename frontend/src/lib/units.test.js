@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest'
-import { convertWeight, convertStateUnit } from './units.js'
+import { convertWeight, convertStateUnit, estimatedLeanMass } from './units.js'
 import { workoutVolume } from './history.js'
 import { inventoryFor, withPlatePairs } from './plates.js'
 
@@ -35,7 +35,7 @@ describe('convertStateUnit', () => {
     const out = convertStateUnit(S, 'lb')
     expect(out.unit).toBe('lb')
     expect(out.targetW).toBe(176.4)                 // body weight keeps its 0.1, see below
-    expect(out.bodyweight[0]).toEqual({ d: '2026-01-01', w: 181.7, t: 1 })
+    expect(out.bodyweight[0]).toMatchObject({ d: '2026-01-01', w: 181.7, t: 1, _weightSource: { kg: 82.4 } })
     expect(out.exWeights['0025'].w).toBe(176.5)
     expect(out.exWeights.legacy).toBe(220.5)
     expect(out.barWeights['0025']).toBe(33)     // a custom 15 kg bar is the 33 lb bar
@@ -142,5 +142,34 @@ describe('convertStateUnit: plate inventories', () => {
     const back = convertStateUnit(kg, 'lb')
     expect(back.plates.lb).toEqual(home)
     expect(back.plates.kg).toMatchObject({ 20: 1, _ts: 60 })
+  })
+})
+
+describe('body metric precision across unit changes', () => {
+  it('preserves an imperial weigh-in through repeated lb/kg round trips', () => {
+    const original = { unit: 'lb', bodyweight: [{ d: '2026-11-04', w: 180.2, t: 10 }] }
+    let current = original
+    for (let i = 0; i < 10; i++) {
+      current = convertStateUnit(convertStateUnit(current, 'kg'), 'lb')
+      expect(current.bodyweight[0].w).toBe(180.2)
+    }
+    expect(original.bodyweight[0]).toEqual({ d: '2026-11-04', w: 180.2, t: 10 })
+  })
+  it('replaces the precision source after an edited reading instead of reviving its old value', () => {
+    const kg = convertStateUnit({ unit: 'lb', bodyweight: [{ d: '2026-11-04', w: 180.2, t: 10 }] }, 'kg')
+    kg.bodyweight[0] = { ...kg.bodyweight[0], w: 82.2, t: 11 }
+    expect(convertStateUnit(convertStateUnit(kg, 'lb'), 'kg').bodyweight[0].w).toBe(82.2)
+  })
+  it('keeps its precise source through an older client unit conversion that preserves unknown metadata', () => {
+    const kg = convertStateUnit({ unit: 'lb', bodyweight: [{ d: '2026-11-04', w: 180.2, t: 10 }] }, 'kg')
+    const legacy = { ...kg, unit: 'lb', bodyweight: kg.bodyweight.map((r) => ({ ...r, w: 180.1 })) }
+    expect(convertStateUnit(convertStateUnit(legacy, 'kg'), 'lb').bodyweight[0].w).toBe(180.2)
+  })
+  it('rounds estimated lean mass once in the requested display unit', () => {
+    expect(estimatedLeanMass({ w: 180.2 }, 18.5, 'lb')).toBe(146.9)
+    const kg = convertStateUnit({ unit: 'lb', bodyweight: [{ w: 180.2, t: 10 }] }, 'kg')
+    expect(estimatedLeanMass(kg.bodyweight[0], 18.5, 'kg')).toBe(66.6)
+    expect(estimatedLeanMass(null, 18.5, 'kg')).toBeNull()
+    expect(estimatedLeanMass({ w: 80 }, null, 'kg')).toBeNull()
   })
 })

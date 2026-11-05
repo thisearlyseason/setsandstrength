@@ -1,0 +1,62 @@
+{
+  "batch": 191,
+  "runId": "e7f320eb-e79e-4ddf-aa4f-dc65aaf9f576",
+  "trigger": "2026-11-03T11:51:29.567Z",
+  "completedAt": "2026-11-03T11:56:58.010504+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 2,
+  "generationCalls": 2,
+  "exerciseIds": [
+    "1445"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 696,
+    "remainingVariants": 10568,
+    "approvedVariants": 0,
+    "blockedVariants": 229,
+    "knownPoseImages": 1374,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Two dumbbell RDL stretch candidates, one static bottom hold per variant, two built-in calls. Hips back and high, soft knees, flat feet, hanging dumbbells near shins, posterior thigh red with diffuse tint over intact shorts. Full opaque clothes and detailed grayscale exposed anatomy retained. Qualified hamstring mapping, hip hinge versus lumbar extension, neck alignment, knee softness, grip and dumbbell clearance require human review. Original project artwork rendering style only, no upstream licensed input. Exact prompts and originals retained. No anatomy or clothing approval or publication. Seven pipeline checks do not establish anatomical accuracy.",
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 1098667237,
+  "savedMasters": [
+    {
+      "exerciseId": "1445",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1445-male-anatomical-white-v1.png",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 1404055,
+        "sha256": "34b451bd1f4ae320cc657ca17d6fd61d54bc9e20ea0e8a3e960484400de2cf17"
+      }
+    },
+    {
+      "exerciseId": "1445",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1445-female-anatomical-white-v1.png",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 1407149,
+        "sha256": "43b53d4e3e9bc2c8d6e512f98d09a9e449f212e36894ec3a339a5d32b5762551"
+      }
+    }
+  ]
+}

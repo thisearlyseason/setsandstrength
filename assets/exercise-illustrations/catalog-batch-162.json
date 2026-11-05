@@ -1,0 +1,208 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "1148",
+      "variant": "male",
+      "key": "1148-male-anatomical-white-v2",
+      "layout": {
+        "columns": 1,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Lie on your back with heels in the straps. Lift the hips into a straight line from shoulders to heels, brace the abs and hold, then lower under control."
+        }
+      ],
+      "prompt": "Correct male supine plank: lower back of SKULL onto mat with NO white gap, neck neutral eyes upward, head supported naturally without pillow. Move smooth diffuse red overlay lower onto ABDOMINAL SHIRT between lower ribs and waistband, not pectoral chest. Preserve continuous opaque black tank and shorts covering front sides back seat crotch, broad real fabric folds no fibers/sixpack grooves/transparency/cutaway. Keep shoulders/upper back and arms grounded, hips raised in straight line shoulders hips knees heels, both straight legs heels secure separate cradles with taut straps/frame unchanged. Single square grayscale anatomy white background whole body within frame.\n",
+      "inspectionNote": "Correction grounds skull on mat and lowers diffuse abdominal red onto opaque shirt; high straight-leg supine plank retained. Qualified hip/lumbar/neck alignment and primary mapping pending.",
+      "canonicalName": "suspender supine plank",
+      "styleVersion": "white-v1",
+      "equipment": "suspension trainer",
+      "primaryMuscles": [
+        "abs"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/1148-male-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "status": "generated",
+        "costUSD": null
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Correction grounds skull on mat and lowers diffuse abdominal red onto opaque shirt; high straight-leg supine plank retained. Qualified hip/lumbar/neck alignment and primary mapping pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/1148-male-anatomical-white-v2-p1-86d6a3cc5780.webp",
+          "width": 1200,
+          "height": 1200,
+          "bytes": 45482,
+          "sha256": "86d6a3cc578011b12ac6aed04207040c09b4899072e96b91124ddb6930b9667f"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-162.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/1148-male-anatomical-white-v2-thumb-692de865415b.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 3134,
+        "sha256": "692de865415bbfa279dec237e9339e37e62f392a7f33c727dbeff8b501321388"
+      },
+      "processingSignature": "7a86698b110ff41424fe7778558af70b34262a534090eb19b1ecd9683734646a",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1148-male-anatomical-white-v2.png",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 1745756,
+        "sha256": "38a0bfb7b8e9a4d0bcea968abb2e459302b7380d41cd1b8b4a9cf8fdc3166c8a"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "1148",
+          "variant": "male",
+          "key": "1148-male-anatomical-white-v1",
+          "layout": {
+            "columns": 1,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Lie on your back with heels in the straps. Lift the hips into a straight line from shoulders to heels, brace the abs and hold, then lower under control."
+            }
+          ],
+          "prompt": "Original premium ADULT male fine detailed anatomical illustration SUSPENDER SUPINE PLANK canonical1148. SINGLE SQUARE full-body ISOMETRIC STATIC HOLD. Side three-quarter full body head LEFT feet RIGHT. Model SUPINE FACE UP on long thin gray floor mat, BACK OF HEAD and BOTH SHOULDERS UPPER BACK supported on mat. Short cropped pixie hair prevents pillow under skull. Both ARMS STRAIGHT resting alongside torso palms DOWN on mat for stability. BOTH HEELS secure in TWO separate black suspension HEEL CRADLES at RIGHT, suspended25cm from floor by taut straps to compact rigid gray anchor FRAME at RIGHT, no foot touches floor. Knees STRAIGHT soft not hyperextended, hips LIFTED in ONE STRAIGHT SLOPING LINE from grounded shoulders through hips knees to elevated HEELS. Pelvis neutral no lumbar arch, neck neutral eyes up, no head hover, no seated/reverse plank on hands, no bent knee bridge. Fine detailed grayscale anatomy on exposed shoulders arms legs neck, realistic proportions fingers equipment. Full opaque BLACK ATHLETIC TANK shirt fully covers chest abdomen front sides back, MID-THIGH BLACK SHORTS wrap pelvis FRONT SIDES BACK SEAT CROTCH continuous real seams broad fabric folds. Primary ABS smooth DIFFUSE SOFT RED OVAL overlay over INTACT abdominal SHIRT front, NO fibers/no six-pack grooves/no transparency/cutaway or anatomical fibers through fabric, no chest/glute red. Black shoes. Pure WHITE background soft contact shadows generous12percent white margins entire head hands feet mat/frame inside square. Equal male/female quality. Original project reference rendering STYLE ONLY ignore bench push-up/chest red. No text captions labels arrows.",
+          "inspectionNote": "Supine straight-leg plank with elevated pelvis, supported arms and heels in cradles. Smooth abdominal tint over intact clothes. Male skull appears hovering, correction required. Qualified primary region/hip line/neck support pending.",
+          "canonicalName": "suspender supine plank",
+          "styleVersion": "white-v1",
+          "equipment": "suspension trainer",
+          "primaryMuscles": [
+            "abs"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Supine straight-leg plank with elevated pelvis, supported arms and heels in cradles. Smooth abdominal tint over intact clothes. Male skull appears hovering, correction required. Qualified primary region/hip line/neck support pending.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/1148-male-anatomical-white-v1-p1-030ee260f324.webp",
+              "width": 1200,
+              "height": 1200,
+              "bytes": 48206,
+              "sha256": "030ee260f324e46e5958b754ba284c2dbc1474980000066b6d8409fb508be3c1"
+            }
+          ],
+          "video": null,
+          "batch": "catalog-batch-162.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/1148-male-anatomical-white-v1-thumb-676b62e27d7a.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 3106,
+            "sha256": "676b62e27d7ae20e67fcfccad835d8568f978e61196945ecac282778009eb7f4"
+          },
+          "processingSignature": "9594bdaffce22393f24290bafd7c16bb1504d00a8876596b298d267deb88c88a",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/1148-male-anatomical-white-v1.png",
+            "width": 1254,
+            "height": 1254,
+            "bytes": 1394975,
+            "sha256": "84d575f1fb7d033955d4fedc9d2e49a1dba8784168ca7d9306541c2582d33f1e"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "1148",
+      "variant": "female",
+      "key": "1148-female-anatomical-white-v1",
+      "layout": {
+        "columns": 1,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Lie on your back with heels in the straps. Lift the hips into a straight line from shoulders to heels, brace the abs and hold, then lower under control."
+        }
+      ],
+      "prompt": "Original premium ADULT female fine detailed anatomical illustration SUSPENDER SUPINE PLANK canonical1148. SINGLE SQUARE full-body ISOMETRIC STATIC HOLD. Side three-quarter full body head LEFT feet RIGHT. Model SUPINE FACE UP on long thin gray floor mat, BACK OF HEAD and BOTH SHOULDERS UPPER BACK supported on mat. Short cropped pixie hair prevents pillow under skull. Both ARMS STRAIGHT resting alongside torso palms DOWN on mat for stability. BOTH HEELS secure in TWO separate black suspension HEEL CRADLES at RIGHT, suspended25cm from floor by taut straps to compact rigid gray anchor FRAME at RIGHT, no foot touches floor. Knees STRAIGHT soft not hyperextended, hips LIFTED in ONE STRAIGHT SLOPING LINE from grounded shoulders through hips knees to elevated HEELS. Pelvis neutral no lumbar arch, neck neutral eyes up, no head hover, no seated/reverse plank on hands, no bent knee bridge. Fine detailed grayscale anatomy on exposed shoulders arms legs neck, realistic proportions fingers equipment. Full opaque BLACK ATHLETIC TANK shirt fully covers chest abdomen front sides back, MID-THIGH BLACK SHORTS wrap pelvis FRONT SIDES BACK SEAT CROTCH continuous real seams broad fabric folds. Primary ABS smooth DIFFUSE SOFT RED OVAL overlay over INTACT abdominal SHIRT front, NO fibers/no six-pack grooves/no transparency/cutaway or anatomical fibers through fabric, no chest/glute red. Black shoes. Pure WHITE background soft contact shadows generous12percent white margins entire head hands feet mat/frame inside square. Equal male/female quality. Original project reference rendering STYLE ONLY ignore bench push-up/chest red. No text captions labels arrows.",
+      "inspectionNote": "Supine straight-leg plank, skull and upper back/arms on mat, heels in separate cradles, smooth red abdominal tint over opaque shirt. Qualified alignment/mapping review pending.",
+      "canonicalName": "suspender supine plank",
+      "styleVersion": "white-v1",
+      "equipment": "suspension trainer",
+      "primaryMuscles": [
+        "abs"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Supine straight-leg plank, skull and upper back/arms on mat, heels in separate cradles, smooth red abdominal tint over opaque shirt. Qualified alignment/mapping review pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/1148-female-anatomical-white-v1-p1-aa66d72c7a25.webp",
+          "width": 1200,
+          "height": 1200,
+          "bytes": 46882,
+          "sha256": "aa66d72c7a25499325d2cb10e5882ec7c322a20b82c53fded453162ca89207c0"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-162.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/1148-female-anatomical-white-v1-thumb-372bf42fcf75.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2824,
+        "sha256": "372bf42fcf75ff3eb487671e4a0d74bd2e7293943757a53971b5854646ecd3b7"
+      },
+      "processingSignature": "d94dae30fe01e009fa614c444ff9edd3391797bf909a6bbc9eae31d5b6877ec5",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1148-female-anatomical-white-v1.png",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 1389004,
+        "sha256": "9ebe8e31ad869b705c916378a85c057e77505bdae368857f8fa67f6d18288d13"
+      }
+    }
+  ]
+}

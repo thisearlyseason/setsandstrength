@@ -1,0 +1,725 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "0621",
+      "layout": {
+        "columns": 3,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hold a gentle crunch with hands supporting head and straight legs hovering low"
+        },
+        {
+          "key": "p2",
+          "caption": "Cross the right straight leg over the left while keeping lower back grounded"
+        },
+        {
+          "key": "p3",
+          "caption": "Uncross and cross the left leg over the right, maintaining the gentle crunch"
+        }
+      ],
+      "detail": "LYING SCISSOR CRUNCH, THREE equal panels. Elevated FRONT THREE-QUARTER view from foot end shows BOTH legs and their crossing clearly, same camera/model. Lie supine on white floor, HANDS BEHIND HEAD lightly supporting skull, elbows OPEN out to sides; gently curl SHOULDER BLADES up, chin neutral away from chest, eyes toward feet, no pulling neck. Lower back/pelvis stay grounded. BOTH legs STRAIGHT and hover a few inches above floor through ALL phases. Panel1 legs uncrossed open a little apart, shoulder crunch held. Panel2 RIGHT leg crosses horizontally OVER LEFT at lower shin/ankle, both legs stay LOW above floor, overlap visible like shallow X; no bicycling or high vertical leg split. Panel3 uncross then LEFT leg crosses OVER RIGHT, same shallow X opposite top leg. Preserve clear right/left identity, equal unchanged lengths, both knees straight, no foot touching floor. Same stable shoulder crunch and hands-behind-head throughout. Primary ABS only ONE soft DIFFUSE BLURRED RED COLOR PATCH over intact BLACK abdomen shirt fabric, no visible abs segments/lines/fibers through shirt; torso fully opaque front/sides/back. Black shorts wrap full front/sides/back/seat/crotch during crossing. Exposed limbs detailed grayscale, no red legs. Entire body, all fingers/elbows/shoes fully inside each panel with white margins.",
+      "variant": "male",
+      "key": "0621-male-anatomical-white-v2",
+      "prompt": "Edit this original project THREE-panel SCISSOR CRUNCH: in RIGHTMOST THIRD panel ONLY uncross shins then reverse crossing so OPPOSITE leg lies on top at ankle/shin intersection, compared with MIDDLE panel. Move foreground shin ABOVE far shin and far shin BELOW foreground, keep hips and knees straight, both feet hover low. First two poses unchanged. Hands remain lightly behind head elbows out, lower back grounded, shoulder blades gently curled, no pulling neck. In ALL THREE panels replace segmented red abs pattern with ONE soft diffuse BLURRED RED tint on continuous OPAQUE BLACK abdomen shirt, no abs lines/fibers/anatomy sections in cloth. Entire torso/front/sides/back and shorts/seat/crotch stay covered. Preserve exposed detailed grayscale muscle fibers, proportions, identity, camera, white background and image dimensions. No text.",
+      "inspectionNote": "Correction replaces segmented abs tint with diffuse patch on opaque fabric and changes final leg overlap. Exact opposite-leg crossing remains difficult to trace and torso curl remains high; both require qualified validation/correction. Hands behind head, straight hovering legs and grayscale anatomy retained; original preserved.",
+      "canonicalName": "lying scissor crunch",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "abs"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0621-male-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Correction replaces segmented abs tint with diffuse patch on opaque fabric and changes final leg overlap. Exact opposite-leg crossing remains difficult to trace and torso curl remains high; both require qualified validation/correction. Hands behind head, straight hovering legs and grayscale anatomy retained; original preserved.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0621-male-anatomical-white-v2-p1-473011fca88e.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 23014,
+          "sha256": "473011fca88ee6f2dc51a126a1d92220e917df4c5398f413d4944239ba63cb53"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0621-male-anatomical-white-v2-p2-4fe06a4b1e49.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 21774,
+          "sha256": "4fe06a4b1e497b41954e696c43c0b950bc1debdc23fb6428b7909e11b4e5b49a"
+        },
+        {
+          "pose": "p3",
+          "path": "/workout/illustration-pilot/0621-male-anatomical-white-v2-p3-6c9e1810da6a.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 20726,
+          "sha256": "6c9e1810da6ab2daae0bdd6704ca221fa3488a3c8307e94bcf30133289049808"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0621-male-anatomical-white-v2-thumb-d3458a6a751b.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 3378,
+        "sha256": "d3458a6a751bf8ad9e224aa1698e4fe7d39d531394ab8c69eda749cea3795f36"
+      },
+      "processingSignature": "a47dec2fa02b5926cc5585ac678ca7c12cbf2c3fed05facaa0c685d625d10e64",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0621-male-anatomical-white-v2.png",
+        "width": 2172,
+        "height": 724,
+        "bytes": 1751621,
+        "sha256": "cf9cd647e25f08bc0142065b07e72d6e2b3d456a26f2cbf9c69cdae007f5f768"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0621",
+          "layout": {
+            "columns": 3,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Hold a gentle crunch with hands supporting head and straight legs hovering low"
+            },
+            {
+              "key": "p2",
+              "caption": "Cross the right straight leg over the left while keeping lower back grounded"
+            },
+            {
+              "key": "p3",
+              "caption": "Uncross and cross the left leg over the right, maintaining the gentle crunch"
+            }
+          ],
+          "detail": "LYING SCISSOR CRUNCH, THREE equal panels. Elevated FRONT THREE-QUARTER view from foot end shows BOTH legs and their crossing clearly, same camera/model. Lie supine on white floor, HANDS BEHIND HEAD lightly supporting skull, elbows OPEN out to sides; gently curl SHOULDER BLADES up, chin neutral away from chest, eyes toward feet, no pulling neck. Lower back/pelvis stay grounded. BOTH legs STRAIGHT and hover a few inches above floor through ALL phases. Panel1 legs uncrossed open a little apart, shoulder crunch held. Panel2 RIGHT leg crosses horizontally OVER LEFT at lower shin/ankle, both legs stay LOW above floor, overlap visible like shallow X; no bicycling or high vertical leg split. Panel3 uncross then LEFT leg crosses OVER RIGHT, same shallow X opposite top leg. Preserve clear right/left identity, equal unchanged lengths, both knees straight, no foot touching floor. Same stable shoulder crunch and hands-behind-head throughout. Primary ABS only ONE soft DIFFUSE BLURRED RED COLOR PATCH over intact BLACK abdomen shirt fabric, no visible abs segments/lines/fibers through shirt; torso fully opaque front/sides/back. Black shorts wrap full front/sides/back/seat/crotch during crossing. Exposed limbs detailed grayscale, no red legs. Entire body, all fingers/elbows/shoes fully inside each panel with white margins.",
+          "variant": "male",
+          "key": "0621-male-anatomical-white-v1",
+          "prompt": "Original educational exercise illustration. Attached original project image is STYLE reference ONLY, never pose reference. Detailed fine grayscale anatomical fibers on exposed limbs, realistic neutral adult MALE; pure white background. THREE equal side-by-side panels with identical model, dimensions, camera and lighting. FULLY OPAQUE matte BLACK sleeveless shirt continuously wraps torso front/sides/back. Loose BLACK knee-length shorts wrap BOTH upper thighs, seat and crotch fully front/sides/rear, closed hems and seams, broad natural fabric folds. NO bare buttocks, translucent cloth, cutaways, anatomy windows or muscle-fiber patterns on garments. Black trainers. Red PRIMARY muscle highlights only as specified; over clothing use a SOFT DIFFUSE COLOR PATCH on intact BLACK FABRIC without anatomical subdivisions. Whole person, fingers/shoes and ENTIRE machine including frame, lever, pivots, weight stack and base within EACH panel with generous white margins. Same EXACT fixed frame/seat/pad/camera/pivots in both phases; only exercise joints and connected moving lever rotate. No text, arrows, captions, logos or numbers. LYING SCISSOR CRUNCH, THREE equal panels. Elevated FRONT THREE-QUARTER view from foot end shows BOTH legs and their crossing clearly, same camera/model. Lie supine on white floor, HANDS BEHIND HEAD lightly supporting skull, elbows OPEN out to sides; gently curl SHOULDER BLADES up, chin neutral away from chest, eyes toward feet, no pulling neck. Lower back/pelvis stay grounded. BOTH legs STRAIGHT and hover a few inches above floor through ALL phases. Panel1 legs uncrossed open a little apart, shoulder crunch held. Panel2 RIGHT leg crosses horizontally OVER LEFT at lower shin/ankle, both legs stay LOW above floor, overlap visible like shallow X; no bicycling or high vertical leg split. Panel3 uncross then LEFT leg crosses OVER RIGHT, same shallow X opposite top leg. Preserve clear right/left identity, equal unchanged lengths, both knees straight, no foot touching floor. Same stable shoulder crunch and hands-behind-head throughout. Primary ABS only ONE soft DIFFUSE BLURRED RED COLOR PATCH over intact BLACK abdomen shirt fabric, no visible abs segments/lines/fibers through shirt; torso fully opaque front/sides/back. Black shorts wrap full front/sides/back/seat/crotch during crossing. Exposed limbs detailed grayscale, no red legs. Entire body, all fingers/elbows/shoes fully inside each panel with white margins.",
+          "inspectionNote": "Three scissor-crunch phases with hands behind head, elbows open, straight hovering legs and opaque clothing. Middle and last panels repeat same top crossed leg instead of switching. Torso curl is high and red shirt has segmented abs pattern. Needs alternate crossing, gentle curl review and diffuse fabric tint.",
+          "blockingIssues": [
+            "Middle and last panels repeat crossing identity; torso curl high and abdominal overlay segmented."
+          ],
+          "canonicalName": "lying scissor crunch",
+          "styleVersion": "white-v1",
+          "equipment": "body weight",
+          "primaryMuscles": [
+            "abs"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Three scissor-crunch phases with hands behind head, elbows open, straight hovering legs and opaque clothing. Middle and last panels repeat same top crossed leg instead of switching. Torso curl is high and red shirt has segmented abs pattern. Needs alternate crossing, gentle curl review and diffuse fabric tint.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0621-male-anatomical-white-v1-p1-ea651d379e8d.webp",
+              "width": 724,
+              "height": 724,
+              "bytes": 25790,
+              "sha256": "ea651d379e8dc25cdb7803894cc8e2f503163d5059e1c104f198672d5104ec1a"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0621-male-anatomical-white-v1-p2-0295cc7ce534.webp",
+              "width": 724,
+              "height": 724,
+              "bytes": 24034,
+              "sha256": "0295cc7ce534df439301ca1f0a61074cc0a38580218ed7da1a610399e571e9d5"
+            },
+            {
+              "pose": "p3",
+              "path": "/workout/illustration-pilot/0621-male-anatomical-white-v1-p3-8af2f26f8c2e.webp",
+              "width": 724,
+              "height": 724,
+              "bytes": 23830,
+              "sha256": "8af2f26f8c2e28dc3c958a36b91629686ca1fa3c0f6b1833978e182dfbeb7161"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0621-male-anatomical-white-v1-thumb-a2a819e538d6.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 3402,
+            "sha256": "a2a819e538d6be041da1db0407cc91c3ae4db1042a82ffe7317b25a21d92ee5f"
+          },
+          "processingSignature": "442e7431bd4a57aeebec0aab1ef3f89e1ef1a0a4b544bf7ffe3ed61a1f66282a",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0621-male-anatomical-white-v1.png",
+            "width": 2172,
+            "height": 724,
+            "bytes": 1816443,
+            "sha256": "843a55119d5e6961b329c69da93104b210c5dc8e055e3c6ca27c61840160bc04"
+          }
+        }
+      ],
+      "blockingIssues": [
+        "Validate opposite top-leg crossing and reduce excessive torso curl to a gentle crunch if confirmed."
+      ]
+    },
+    {
+      "exerciseId": "0621",
+      "layout": {
+        "columns": 3,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hold a gentle crunch with hands supporting head and straight legs hovering low"
+        },
+        {
+          "key": "p2",
+          "caption": "Cross the right straight leg over the left while keeping lower back grounded"
+        },
+        {
+          "key": "p3",
+          "caption": "Uncross and cross the left leg over the right, maintaining the gentle crunch"
+        }
+      ],
+      "detail": "LYING SCISSOR CRUNCH, THREE equal panels. Elevated FRONT THREE-QUARTER view from foot end shows BOTH legs and their crossing clearly, same camera/model. Lie supine on white floor, HANDS BEHIND HEAD lightly supporting skull, elbows OPEN out to sides; gently curl SHOULDER BLADES up, chin neutral away from chest, eyes toward feet, no pulling neck. Lower back/pelvis stay grounded. BOTH legs STRAIGHT and hover a few inches above floor through ALL phases. Panel1 legs uncrossed open a little apart, shoulder crunch held. Panel2 RIGHT leg crosses horizontally OVER LEFT at lower shin/ankle, both legs stay LOW above floor, overlap visible like shallow X; no bicycling or high vertical leg split. Panel3 uncross then LEFT leg crosses OVER RIGHT, same shallow X opposite top leg. Preserve clear right/left identity, equal unchanged lengths, both knees straight, no foot touching floor. Same stable shoulder crunch and hands-behind-head throughout. Primary ABS only ONE soft DIFFUSE BLURRED RED COLOR PATCH over intact BLACK abdomen shirt fabric, no visible abs segments/lines/fibers through shirt; torso fully opaque front/sides/back. Black shorts wrap full front/sides/back/seat/crotch during crossing. Exposed limbs detailed grayscale, no red legs. Entire body, all fingers/elbows/shoes fully inside each panel with white margins.",
+      "variant": "female",
+      "key": "0621-female-anatomical-white-v2",
+      "prompt": "Edit this original project THREE-panel SCISSOR CRUNCH: in RIGHTMOST THIRD panel ONLY uncross shins then reverse crossing so OPPOSITE leg lies on top at ankle/shin intersection, compared with MIDDLE panel. Move foreground shin ABOVE far shin and far shin BELOW foreground, keep hips and knees straight, both feet hover low. First two poses unchanged. Hands remain lightly behind head elbows out, lower back grounded, shoulder blades gently curled, no pulling neck. In ALL THREE panels replace segmented red abs pattern with ONE soft diffuse BLURRED RED tint on continuous OPAQUE BLACK abdomen shirt, no abs lines/fibers/anatomy sections in cloth. Entire torso/front/sides/back and shorts/seat/crotch stay covered. Preserve exposed detailed grayscale muscle fibers, proportions, identity, camera, white background and image dimensions. No text.",
+      "inspectionNote": "Correction softens shirt highlights, retaining opaque cloth and fine grayscale anatomy. Final crossing still appears to repeat middle panel rather than opposite top leg. Hands behind head, open elbows and low straight legs retained. Alternating crossing remains blocked; original and attempted correction preserved.",
+      "canonicalName": "lying scissor crunch",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "abs"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0621-female-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Correction softens shirt highlights, retaining opaque cloth and fine grayscale anatomy. Final crossing still appears to repeat middle panel rather than opposite top leg. Hands behind head, open elbows and low straight legs retained. Alternating crossing remains blocked; original and attempted correction preserved.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0621-female-anatomical-white-v2-p1-8f4f10167520.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 20776,
+          "sha256": "8f4f1016752007fdefa278667fba9b3139e455a65d5ac893a2a35edfaf3669b0"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0621-female-anatomical-white-v2-p2-cdbcdc82f186.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 19060,
+          "sha256": "cdbcdc82f18642b21424ec3c0176acf055a549c3063ac2b561e443a3044c3e0f"
+        },
+        {
+          "pose": "p3",
+          "path": "/workout/illustration-pilot/0621-female-anatomical-white-v2-p3-a61e9c1412ae.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 19658,
+          "sha256": "a61e9c1412aea3ee4a3af488b9b94d886d9e12b268d5aa273fa882022bb502fe"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0621-female-anatomical-white-v2-thumb-b6a8c68a025d.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 3178,
+        "sha256": "b6a8c68a025db70844836bff11ec2dc4da8e347e47bcf9e1d63c4f73fb6b3370"
+      },
+      "processingSignature": "8ecb341860aefd4025e6a9a111b6dee2335707e861bd93df5a7245d78bbb456d",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0621-female-anatomical-white-v2.png",
+        "width": 2172,
+        "height": 724,
+        "bytes": 1705217,
+        "sha256": "7332491718e2bd68d5c4ea3baef87adbe341408101bf1fd535ba0d527d823b90"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0621",
+          "layout": {
+            "columns": 3,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Hold a gentle crunch with hands supporting head and straight legs hovering low"
+            },
+            {
+              "key": "p2",
+              "caption": "Cross the right straight leg over the left while keeping lower back grounded"
+            },
+            {
+              "key": "p3",
+              "caption": "Uncross and cross the left leg over the right, maintaining the gentle crunch"
+            }
+          ],
+          "detail": "LYING SCISSOR CRUNCH, THREE equal panels. Elevated FRONT THREE-QUARTER view from foot end shows BOTH legs and their crossing clearly, same camera/model. Lie supine on white floor, HANDS BEHIND HEAD lightly supporting skull, elbows OPEN out to sides; gently curl SHOULDER BLADES up, chin neutral away from chest, eyes toward feet, no pulling neck. Lower back/pelvis stay grounded. BOTH legs STRAIGHT and hover a few inches above floor through ALL phases. Panel1 legs uncrossed open a little apart, shoulder crunch held. Panel2 RIGHT leg crosses horizontally OVER LEFT at lower shin/ankle, both legs stay LOW above floor, overlap visible like shallow X; no bicycling or high vertical leg split. Panel3 uncross then LEFT leg crosses OVER RIGHT, same shallow X opposite top leg. Preserve clear right/left identity, equal unchanged lengths, both knees straight, no foot touching floor. Same stable shoulder crunch and hands-behind-head throughout. Primary ABS only ONE soft DIFFUSE BLURRED RED COLOR PATCH over intact BLACK abdomen shirt fabric, no visible abs segments/lines/fibers through shirt; torso fully opaque front/sides/back. Black shorts wrap full front/sides/back/seat/crotch during crossing. Exposed limbs detailed grayscale, no red legs. Entire body, all fingers/elbows/shoes fully inside each panel with white margins.",
+          "variant": "female",
+          "key": "0621-female-anatomical-white-v1",
+          "prompt": "Original educational exercise illustration. Attached original project image is STYLE reference ONLY, never pose reference. Detailed fine grayscale anatomical fibers on exposed limbs, realistic neutral adult FEMALE; pure white background. THREE equal side-by-side panels with identical model, dimensions, camera and lighting. FULLY OPAQUE matte BLACK sleeveless shirt continuously wraps torso front/sides/back. Loose BLACK knee-length shorts wrap BOTH upper thighs, seat and crotch fully front/sides/rear, closed hems and seams, broad natural fabric folds. NO bare buttocks, translucent cloth, cutaways, anatomy windows or muscle-fiber patterns on garments. Black trainers. Red PRIMARY muscle highlights only as specified; over clothing use a SOFT DIFFUSE COLOR PATCH on intact BLACK FABRIC without anatomical subdivisions. Whole person, fingers/shoes and ENTIRE machine including frame, lever, pivots, weight stack and base within EACH panel with generous white margins. Same EXACT fixed frame/seat/pad/camera/pivots in both phases; only exercise joints and connected moving lever rotate. No text, arrows, captions, logos or numbers. LYING SCISSOR CRUNCH, THREE equal panels. Elevated FRONT THREE-QUARTER view from foot end shows BOTH legs and their crossing clearly, same camera/model. Lie supine on white floor, HANDS BEHIND HEAD lightly supporting skull, elbows OPEN out to sides; gently curl SHOULDER BLADES up, chin neutral away from chest, eyes toward feet, no pulling neck. Lower back/pelvis stay grounded. BOTH legs STRAIGHT and hover a few inches above floor through ALL phases. Panel1 legs uncrossed open a little apart, shoulder crunch held. Panel2 RIGHT leg crosses horizontally OVER LEFT at lower shin/ankle, both legs stay LOW above floor, overlap visible like shallow X; no bicycling or high vertical leg split. Panel3 uncross then LEFT leg crosses OVER RIGHT, same shallow X opposite top leg. Preserve clear right/left identity, equal unchanged lengths, both knees straight, no foot touching floor. Same stable shoulder crunch and hands-behind-head throughout. Primary ABS only ONE soft DIFFUSE BLURRED RED COLOR PATCH over intact BLACK abdomen shirt fabric, no visible abs segments/lines/fibers through shirt; torso fully opaque front/sides/back. Black shorts wrap full front/sides/back/seat/crotch during crossing. Exposed limbs detailed grayscale, no red legs. Entire body, all fingers/elbows/shoes fully inside each panel with white margins.",
+          "inspectionNote": "Three scissor-crunch poses with hands behind head, open elbows, low straight legs and opaque black garments. Middle and last crossing identity appears repeated. Abdomen overlay has discrete red sections requiring diffuse tint. Neck loading, lower-back contact and crossing need qualified review.",
+          "blockingIssues": [
+            "Opposite top-leg crossing not clearly shown; abdomen highlight segmented on shirt."
+          ],
+          "canonicalName": "lying scissor crunch",
+          "styleVersion": "white-v1",
+          "equipment": "body weight",
+          "primaryMuscles": [
+            "abs"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Three scissor-crunch poses with hands behind head, open elbows, low straight legs and opaque black garments. Middle and last crossing identity appears repeated. Abdomen overlay has discrete red sections requiring diffuse tint. Neck loading, lower-back contact and crossing need qualified review.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0621-female-anatomical-white-v1-p1-e7b3125a3414.webp",
+              "width": 724,
+              "height": 724,
+              "bytes": 23326,
+              "sha256": "e7b3125a3414268dedbc3a93117759e29074dd3bb7ba88aab5ea8568d2323cb4"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0621-female-anatomical-white-v1-p2-4dbf9d490b2a.webp",
+              "width": 724,
+              "height": 724,
+              "bytes": 22092,
+              "sha256": "4dbf9d490b2a144e509586069e226425fac8503fece5b9e3042703a82bfce381"
+            },
+            {
+              "pose": "p3",
+              "path": "/workout/illustration-pilot/0621-female-anatomical-white-v1-p3-4a4ffee8b107.webp",
+              "width": 724,
+              "height": 724,
+              "bytes": 21932,
+              "sha256": "4a4ffee8b107c154feadb3a5694f4591d01c6a5359add403d66ba23c52dd4681"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0621-female-anatomical-white-v1-thumb-ffde6df4bbdf.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 3240,
+            "sha256": "ffde6df4bbdf9fb92ce9e8f5ef449d14ddec7834347f9bf593af4d4383fb8e37"
+          },
+          "processingSignature": "46f07510347e470dd036770c8f7d1915a8bec10babbf27093164598d66a9fe7b",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0621-female-anatomical-white-v1.png",
+            "width": 2172,
+            "height": 724,
+            "bytes": 1784154,
+            "sha256": "f3a2477156c26ae58da51c17190f8832dee1c6a3b2d65ba254842846669d4537"
+          }
+        }
+      ],
+      "blockingIssues": [
+        "Final phase does not clearly reverse which leg crosses on top; alternate crossing still requires correction."
+      ]
+    },
+    {
+      "exerciseId": "0623",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Lie with arms alongside torso, raise one straight leg while the other hovers near floor"
+        },
+        {
+          "key": "p2",
+          "caption": "Switch both legs together so the opposite straight leg rises and the first lowers"
+        }
+      ],
+      "detail": "LYING SIMULTANEOUS ALTERNATING LEG RAISE, TWO opposing leg positions. Elevated FRONT three-quarter view from foot end shows each leg identity clearly, same camera. Lie SUPINE on white floor, HEAD/SKULL relaxed ON floor looking upward, neck neutral, shoulder blades and LOWER BACK/Pelvis grounded. BOTH ARMS lie straight alongside torso on FLOOR, palms down, hands beside hips NOT underneath hips. Both legs mostly STRAIGHT with soft knees. LEFT panel RIGHT leg raises toward ceiling about70degrees from hips, LEFT leg hovers low10cm above floor. RIGHT panel simultaneously SWITCH legs: RIGHT leg lowers to hover10cm above floor, LEFT leg raises70degrees. BOTH knees remain straight; no bicycling, no horizontal crossing, no hip lifting or lumbar arch, no bent elbow/head crunch. Keep actual left/right thigh identity and lengths unchanged; the leg closer viewer must change high/low between phases, not repeat identical silhouette. Primary ABS only ONE faint soft DIFFUSE BLURRED RED COLOR PATCH printed on intact OPAQUE BLACK abdominal shirt fabric; no six-pack outlines, fibers, cutaways or internal muscle boundaries in cloth. Shorts black full seat/crotch/front/sides/rear coverage, limbs exposed fine grayscale. Entire person both hands/head/shoes within each panel with spacious white margins.",
+      "variant": "male",
+      "key": "0623-male-anatomical-white-v2",
+      "prompt": "Correct RIGHT PANEL of original project alternating LEG RAISE: SWAP LEG IDENTITY, not simply same silhouette. The FOREGROUND thigh visible from NEAR shorts opening must now travel UP to high knee/ankle/shoe; BACKGROUND thigh from FAR hip must travel DOWN to low hovering shoe. Trace each hip-knee-ankle as a separate continuous limb; preserve both lengths and straight knees. LEFT panel remains unchanged with opposite leg high. Arms stay straight alongside body on floor, head/skull and lower back grounded, no hip lift. BOTH panels replace red six-pack/abs patterns with ONE soft diffuse BLURRED RED abdominal tint on fully opaque BLACK shirt fabric, no anatomical divisions or lines. Shorts fully wrap front/sides/rear/seat/crotch. Keep exposed fine detailed grayscale anatomy, model, proportions, white background and two-panel dimensions. No text.",
+      "inspectionNote": "Correction softens abdominal tint on opaque black shirt but does not clearly swap raised-leg identity. Arms beside torso, supported head and straight legs retained. Alternation remains blocked; original and attempt retained for qualified review.",
+      "canonicalName": "lying simultaneous alternating leg raise",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "abs"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0623-male-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Correction softens abdominal tint on opaque black shirt but does not clearly swap raised-leg identity. Arms beside torso, supported head and straight legs retained. Alternation remains blocked; original and attempt retained for qualified review.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0623-male-anatomical-white-v2-p1-336bed04925f.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 22848,
+          "sha256": "336bed04925fec0f49bc7b2d373f5352ae70c696d26971a48f9d4fa074fa6f0f"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0623-male-anatomical-white-v2-p2-9d3319a0f6e4.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 22588,
+          "sha256": "9d3319a0f6e419f9f08f886527f9d181d20b4e9ba30f149d7bb5ddc70c37c3c5"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0623-male-anatomical-white-v2-thumb-5c6beac2bcd6.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2510,
+        "sha256": "5c6beac2bcd6eb2a25dd7b40dc2ea2350a296d5b3e159abac6e7477adfd63111"
+      },
+      "processingSignature": "2106920128361b86de6a365d7863131dcf466ecb51ba62d8b61fbd7fd62888d8",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0623-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1625035,
+        "sha256": "2a4f3a0508d2b703a151c2637431f9a5b31d98a3bd232cafe44328df13b0641e"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0623",
+          "layout": {
+            "columns": 2,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Lie with arms alongside torso, raise one straight leg while the other hovers near floor"
+            },
+            {
+              "key": "p2",
+              "caption": "Switch both legs together so the opposite straight leg rises and the first lowers"
+            }
+          ],
+          "detail": "LYING SIMULTANEOUS ALTERNATING LEG RAISE, TWO opposing leg positions. Elevated FRONT three-quarter view from foot end shows each leg identity clearly, same camera. Lie SUPINE on white floor, HEAD/SKULL relaxed ON floor looking upward, neck neutral, shoulder blades and LOWER BACK/Pelvis grounded. BOTH ARMS lie straight alongside torso on FLOOR, palms down, hands beside hips NOT underneath hips. Both legs mostly STRAIGHT with soft knees. LEFT panel RIGHT leg raises toward ceiling about70degrees from hips, LEFT leg hovers low10cm above floor. RIGHT panel simultaneously SWITCH legs: RIGHT leg lowers to hover10cm above floor, LEFT leg raises70degrees. BOTH knees remain straight; no bicycling, no horizontal crossing, no hip lifting or lumbar arch, no bent elbow/head crunch. Keep actual left/right thigh identity and lengths unchanged; the leg closer viewer must change high/low between phases, not repeat identical silhouette. Primary ABS only ONE faint soft DIFFUSE BLURRED RED COLOR PATCH printed on intact OPAQUE BLACK abdominal shirt fabric; no six-pack outlines, fibers, cutaways or internal muscle boundaries in cloth. Shorts black full seat/crotch/front/sides/rear coverage, limbs exposed fine grayscale. Entire person both hands/head/shoes within each panel with spacious white margins.",
+          "variant": "male",
+          "key": "0623-male-anatomical-white-v1",
+          "prompt": "Original educational exercise illustration. Attached original project image is STYLE reference ONLY, never pose reference. Detailed fine grayscale anatomical fibers on exposed limbs, realistic neutral adult MALE; pure white background. TWO equal side-by-side panels with identical model, dimensions, camera and lighting. FULLY OPAQUE matte BLACK sleeveless shirt continuously wraps torso front/sides/back. Loose BLACK knee-length shorts wrap BOTH upper thighs, seat and crotch fully front/sides/rear, closed hems and seams, broad natural fabric folds. NO bare buttocks, translucent cloth, cutaways, anatomy windows or muscle-fiber patterns on garments. Black trainers. Red PRIMARY muscle highlights only as specified; over clothing use a SOFT DIFFUSE COLOR PATCH on intact BLACK FABRIC without anatomical subdivisions. Whole person, fingers/shoes and ENTIRE machine including frame, lever, pivots, weight stack and base within EACH panel with generous white margins. Same EXACT fixed frame/seat/pad/camera/pivots in both phases; only exercise joints and connected moving lever rotate. No text, arrows, captions, logos or numbers. LYING SIMULTANEOUS ALTERNATING LEG RAISE, TWO opposing leg positions. Elevated FRONT three-quarter view from foot end shows each leg identity clearly, same camera. Lie SUPINE on white floor, HEAD/SKULL relaxed ON floor looking upward, neck neutral, shoulder blades and LOWER BACK/Pelvis grounded. BOTH ARMS lie straight alongside torso on FLOOR, palms down, hands beside hips NOT underneath hips. Both legs mostly STRAIGHT with soft knees. LEFT panel RIGHT leg raises toward ceiling about70degrees from hips, LEFT leg hovers low10cm above floor. RIGHT panel simultaneously SWITCH legs: RIGHT leg lowers to hover10cm above floor, LEFT leg raises70degrees. BOTH knees remain straight; no bicycling, no horizontal crossing, no hip lifting or lumbar arch, no bent elbow/head crunch. Keep actual left/right thigh identity and lengths unchanged; the leg closer viewer must change high/low between phases, not repeat identical silhouette. Primary ABS only ONE faint soft DIFFUSE BLURRED RED COLOR PATCH printed on intact OPAQUE BLACK abdominal shirt fabric; no six-pack outlines, fibers, cutaways or internal muscle boundaries in cloth. Shorts black full seat/crotch/front/sides/rear coverage, limbs exposed fine grayscale. Entire person both hands/head/shoes within each panel with spacious white margins.",
+          "inspectionNote": "Supine alternating leg-raise candidate with arms alongside torso, head grounded and straight high/low legs. Both panels repeat same near leg high; alternation missing. Shirt abdomen red segmented. Correct opposite leg and diffuse tint; lumbar contact, low-foot hover and proportions need human review.",
+          "blockingIssues": [
+            "Both panels repeat same raised leg; alternating identity missing and abdomen tint segmented."
+          ],
+          "canonicalName": "lying simultaneous alternating leg raise",
+          "styleVersion": "white-v1",
+          "equipment": "body weight",
+          "primaryMuscles": [
+            "abs"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Supine alternating leg-raise candidate with arms alongside torso, head grounded and straight high/low legs. Both panels repeat same near leg high; alternation missing. Shirt abdomen red segmented. Correct opposite leg and diffuse tint; lumbar contact, low-foot hover and proportions need human review.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0623-male-anatomical-white-v1-p1-0d8dfc2150e9.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 25778,
+              "sha256": "0d8dfc2150e96f3b6ca96017eebbb12a160e79b208a5db49c9daf0201379d46e"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0623-male-anatomical-white-v1-p2-6bb7904ef7db.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 26370,
+              "sha256": "6bb7904ef7db9e8ad15146a10ebedc30e4aff66f23b4b661cf370f701426c0b7"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0623-male-anatomical-white-v1-thumb-252f8d5ec240.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 2464,
+            "sha256": "252f8d5ec2402a26d67368a861be766a9bd0f95430cafb958a13fccc19c49480"
+          },
+          "processingSignature": "f1b46963b34dce838f1ea4e2d9bb9225ead4e9a770dcab3d7ba562bfe2e64aa9",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0623-male-anatomical-white-v1.png",
+            "width": 1774,
+            "height": 887,
+            "bytes": 1675355,
+            "sha256": "b4bd9f039c0134a61d4391335f3044be97ecfbe6abfaa571045aa3025188a2cd"
+          }
+        }
+      ],
+      "blockingIssues": [
+        "Same near leg still appears high in both panels; opposite-leg exchange not achieved."
+      ]
+    },
+    {
+      "exerciseId": "0623",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Lie with arms alongside torso, raise one straight leg while the other hovers near floor"
+        },
+        {
+          "key": "p2",
+          "caption": "Switch both legs together so the opposite straight leg rises and the first lowers"
+        }
+      ],
+      "detail": "LYING SIMULTANEOUS ALTERNATING LEG RAISE, TWO opposing leg positions. Elevated FRONT three-quarter view from foot end shows each leg identity clearly, same camera. Lie SUPINE on white floor, HEAD/SKULL relaxed ON floor looking upward, neck neutral, shoulder blades and LOWER BACK/Pelvis grounded. BOTH ARMS lie straight alongside torso on FLOOR, palms down, hands beside hips NOT underneath hips. Both legs mostly STRAIGHT with soft knees. LEFT panel RIGHT leg raises toward ceiling about70degrees from hips, LEFT leg hovers low10cm above floor. RIGHT panel simultaneously SWITCH legs: RIGHT leg lowers to hover10cm above floor, LEFT leg raises70degrees. BOTH knees remain straight; no bicycling, no horizontal crossing, no hip lifting or lumbar arch, no bent elbow/head crunch. Keep actual left/right thigh identity and lengths unchanged; the leg closer viewer must change high/low between phases, not repeat identical silhouette. Primary ABS only ONE faint soft DIFFUSE BLURRED RED COLOR PATCH printed on intact OPAQUE BLACK abdominal shirt fabric; no six-pack outlines, fibers, cutaways or internal muscle boundaries in cloth. Shorts black full seat/crotch/front/sides/rear coverage, limbs exposed fine grayscale. Entire person both hands/head/shoes within each panel with spacious white margins.",
+      "variant": "female",
+      "key": "0623-female-anatomical-white-v2",
+      "prompt": "Correct RIGHT PANEL of original project alternating LEG RAISE: SWAP LEG IDENTITY, not simply same silhouette. The FOREGROUND thigh visible from NEAR shorts opening must now travel UP to high knee/ankle/shoe; BACKGROUND thigh from FAR hip must travel DOWN to low hovering shoe. Trace each hip-knee-ankle as a separate continuous limb; preserve both lengths and straight knees. LEFT panel remains unchanged with opposite leg high. Arms stay straight alongside body on floor, head/skull and lower back grounded, no hip lift. BOTH panels replace red six-pack/abs patterns with ONE soft diffuse BLURRED RED abdominal tint on fully opaque BLACK shirt fabric, no anatomical divisions or lines. Shorts fully wrap front/sides/rear/seat/crotch. Keep exposed fine detailed grayscale anatomy, model, proportions, white background and two-panel dimensions. No text.",
+      "inspectionNote": "Correction visibly changes raised thigh origin in right panel to foreground/near leg while far leg lowers, improving opposite-leg exchange. Opaque garments, supported head, arms beside torso and grayscale anatomy retained. Red cloth overlay softened but remains localized; limb continuity, low-foot hover and lumbar contact require qualified review. Original retained; no anatomy approval.",
+      "canonicalName": "lying simultaneous alternating leg raise",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "abs"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0623-female-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Correction visibly changes raised thigh origin in right panel to foreground/near leg while far leg lowers, improving opposite-leg exchange. Opaque garments, supported head, arms beside torso and grayscale anatomy retained. Red cloth overlay softened but remains localized; limb continuity, low-foot hover and lumbar contact require qualified review. Original retained; no anatomy approval.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0623-female-anatomical-white-v2-p1-f47fe76694cd.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 25172,
+          "sha256": "f47fe76694cdf1756a840d0f43bdc97510ce37ef0c48a33a8c80018ce1763714"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0623-female-anatomical-white-v2-p2-33ca8804cf6c.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 22400,
+          "sha256": "33ca8804cf6c7b41054a2e991a0530503c36b8a6c99baa7f721d5721f884b6cf"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0623-female-anatomical-white-v2-thumb-ef2944edc095.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2616,
+        "sha256": "ef2944edc09583af2d92e605723a6eeb4ab8811bc6bb99449eaaa22e9d714a4c"
+      },
+      "processingSignature": "4ad3d79ed705a11d4a141ee09436d8f8d204cee57d744c90cdf511b220e0b591",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0623-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1643448,
+        "sha256": "ef2a301dba4bbc42dbe1f3b6f1554947c6e5fe5561f6fcfd3a266092e11ed9f1"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0623",
+          "layout": {
+            "columns": 2,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Lie with arms alongside torso, raise one straight leg while the other hovers near floor"
+            },
+            {
+              "key": "p2",
+              "caption": "Switch both legs together so the opposite straight leg rises and the first lowers"
+            }
+          ],
+          "detail": "LYING SIMULTANEOUS ALTERNATING LEG RAISE, TWO opposing leg positions. Elevated FRONT three-quarter view from foot end shows each leg identity clearly, same camera. Lie SUPINE on white floor, HEAD/SKULL relaxed ON floor looking upward, neck neutral, shoulder blades and LOWER BACK/Pelvis grounded. BOTH ARMS lie straight alongside torso on FLOOR, palms down, hands beside hips NOT underneath hips. Both legs mostly STRAIGHT with soft knees. LEFT panel RIGHT leg raises toward ceiling about70degrees from hips, LEFT leg hovers low10cm above floor. RIGHT panel simultaneously SWITCH legs: RIGHT leg lowers to hover10cm above floor, LEFT leg raises70degrees. BOTH knees remain straight; no bicycling, no horizontal crossing, no hip lifting or lumbar arch, no bent elbow/head crunch. Keep actual left/right thigh identity and lengths unchanged; the leg closer viewer must change high/low between phases, not repeat identical silhouette. Primary ABS only ONE faint soft DIFFUSE BLURRED RED COLOR PATCH printed on intact OPAQUE BLACK abdominal shirt fabric; no six-pack outlines, fibers, cutaways or internal muscle boundaries in cloth. Shorts black full seat/crotch/front/sides/rear coverage, limbs exposed fine grayscale. Entire person both hands/head/shoes within each panel with spacious white margins.",
+          "variant": "female",
+          "key": "0623-female-anatomical-white-v1",
+          "prompt": "Original educational exercise illustration. Attached original project image is STYLE reference ONLY, never pose reference. Detailed fine grayscale anatomical fibers on exposed limbs, realistic neutral adult FEMALE; pure white background. TWO equal side-by-side panels with identical model, dimensions, camera and lighting. FULLY OPAQUE matte BLACK sleeveless shirt continuously wraps torso front/sides/back. Loose BLACK knee-length shorts wrap BOTH upper thighs, seat and crotch fully front/sides/rear, closed hems and seams, broad natural fabric folds. NO bare buttocks, translucent cloth, cutaways, anatomy windows or muscle-fiber patterns on garments. Black trainers. Red PRIMARY muscle highlights only as specified; over clothing use a SOFT DIFFUSE COLOR PATCH on intact BLACK FABRIC without anatomical subdivisions. Whole person, fingers/shoes and ENTIRE machine including frame, lever, pivots, weight stack and base within EACH panel with generous white margins. Same EXACT fixed frame/seat/pad/camera/pivots in both phases; only exercise joints and connected moving lever rotate. No text, arrows, captions, logos or numbers. LYING SIMULTANEOUS ALTERNATING LEG RAISE, TWO opposing leg positions. Elevated FRONT three-quarter view from foot end shows each leg identity clearly, same camera. Lie SUPINE on white floor, HEAD/SKULL relaxed ON floor looking upward, neck neutral, shoulder blades and LOWER BACK/Pelvis grounded. BOTH ARMS lie straight alongside torso on FLOOR, palms down, hands beside hips NOT underneath hips. Both legs mostly STRAIGHT with soft knees. LEFT panel RIGHT leg raises toward ceiling about70degrees from hips, LEFT leg hovers low10cm above floor. RIGHT panel simultaneously SWITCH legs: RIGHT leg lowers to hover10cm above floor, LEFT leg raises70degrees. BOTH knees remain straight; no bicycling, no horizontal crossing, no hip lifting or lumbar arch, no bent elbow/head crunch. Keep actual left/right thigh identity and lengths unchanged; the leg closer viewer must change high/low between phases, not repeat identical silhouette. Primary ABS only ONE faint soft DIFFUSE BLURRED RED COLOR PATCH printed on intact OPAQUE BLACK abdominal shirt fabric; no six-pack outlines, fibers, cutaways or internal muscle boundaries in cloth. Shorts black full seat/crotch/front/sides/rear coverage, limbs exposed fine grayscale. Entire person both hands/head/shoes within each panel with spacious white margins.",
+          "inspectionNote": "Supine leg-raise candidate with straight arms beside body, head supported and high/low straight legs. Same far leg remains high in both panels. Red shirt overlay has internal abs pattern. Needs opposite-leg exchange and diffuse tint; floor contact and anatomical consistency remain review items.",
+          "blockingIssues": [
+            "Same far leg high in both phases; opposite-leg exchange missing and abdominal overlay segmented."
+          ],
+          "canonicalName": "lying simultaneous alternating leg raise",
+          "styleVersion": "white-v1",
+          "equipment": "body weight",
+          "primaryMuscles": [
+            "abs"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Supine leg-raise candidate with straight arms beside body, head supported and high/low straight legs. Same far leg remains high in both panels. Red shirt overlay has internal abs pattern. Needs opposite-leg exchange and diffuse tint; floor contact and anatomical consistency remain review items.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0623-female-anatomical-white-v1-p1-04168f8f28c6.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 25966,
+              "sha256": "04168f8f28c6863fa4501766c5683ec749e9bf899dcd7aff2b9e20dccf1037c4"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0623-female-anatomical-white-v1-p2-9ef0793e8358.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 25320,
+              "sha256": "9ef0793e8358d21a084ee35f55ba65126779db26ffef96ad51015b1403875661"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0623-female-anatomical-white-v1-thumb-eae219f540a5.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 2582,
+            "sha256": "eae219f540a5b8d1e6ce5c1f3ec3b65ab8fb2f7fc438da6869859be3dec4c1c7"
+          },
+          "processingSignature": "094923c9c989a4a702b4c77d4fb00b157cdbf138f33269e6596e92d244c7f887",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0623-female-anatomical-white-v1.png",
+            "width": 1774,
+            "height": 887,
+            "bytes": 1706520,
+            "sha256": "01c5d6cd71f702595fbaa953bf2c1b437cc2cc0fa14b5a89b5993413b054e00e"
+          }
+        }
+      ]
+    }
+  ]
+}

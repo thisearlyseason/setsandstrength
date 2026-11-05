@@ -1,0 +1,354 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "3344",
+      "variant": "male",
+      "key": "3344-male-anatomical-white-v1",
+      "prompt": "Two equal panels, front three-quarter view. Seated lever crossover / chest fly machine with back pad, seat and guided pivoting handles. Both feet flat, back supported and head neutral. Panel 1 arms open to sides at chest height, elbows softly bent about 20 degrees, hands grip handles. Panel 2 sweep arms forward together so handles almost meet in front of chest, maintain same soft elbow bend, no press and no shrug. Same machine geometry in both phases, levers physically connected to handles, no rods through torso. Primary PECTORALS small plain uniform red wash on intact black chest fabric only, no chest lobes. Premium detailed adult MALE grayscale anatomical illustration, pure white with soft shadows, realistic equipment and detailed exposed gray musculature. Reference original project artwork for STYLE ONLY. Black opaque tank and mid-thigh shorts wrap front, sides, back, seat and crotch with fabric folds and seams. Covered highlights are small plain uniform red washes on intact fabric, no fibers/lobes/anatomical segments/cutaways. One head, two arms/hands, two legs/feet per figure. Same camera/model/scale across panels, full body and equipment in frame. No text, arrows or logos.",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Sit supported with handles open at chest height and elbows softly bent."
+        },
+        {
+          "key": "p2",
+          "caption": "Sweep handles together in front of chest; return slowly."
+        }
+      ],
+      "inspectionNote": "Real output inspected. Guided seated fly open and close phases with back support, planted feet and opaque shorts. Red pectoral fiber pattern through tank requires plain-wash correction. Qualified elbow bend, linkage and handle path review pending. Human anatomy review pending. No approval or publication.",
+      "blockingIssues": [
+        "Replace pectoral fiber pattern through tank with plain uniform wash on intact opaque fabric."
+      ],
+      "canonicalName": "lever crossovers",
+      "styleVersion": "white-v1",
+      "equipment": "leverage machine",
+      "primaryMuscles": [
+        "pectorals"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Guided seated fly open and close phases with back support, planted feet and opaque shorts. Red pectoral fiber pattern through tank requires plain-wash correction. Qualified elbow bend, linkage and handle path review pending. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/3344-male-anatomical-white-v1-p1-fd659a43c348.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 51696,
+          "sha256": "fd659a43c3482fdfe160a0a1b299a0d550f826452f9243865e2c5937a9d8fed1"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/3344-male-anatomical-white-v1-p2-243dfba5bc46.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 48090,
+          "sha256": "243dfba5bc460d1d704dcca7c8804f24a959b6ded7afbf3c7b041dde61a5a6ae"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-349.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/3344-male-anatomical-white-v1-thumb-b546697626bb.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 6244,
+        "sha256": "b546697626bbb2d571231a22c3b5c15e925718b473aaf19865d5b9de36c9346d"
+      },
+      "processingSignature": "7fe7f7f7690da0d2bd50d49aa0acb0d89a3fe652dff63c598086dab64c04f7d3",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/3344-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1672312,
+        "sha256": "d0b5269b1ef08702cd1fd17a7daa7c48fcfdd30794511e8dc315887639e0e4f8"
+      }
+    },
+    {
+      "exerciseId": "3347",
+      "variant": "male",
+      "key": "3347-male-anatomical-white-v1",
+      "prompt": "Three equal panels same front three-quarter view. Standing dumbbell curl to overhead press. One dumbbell in EACH hand all panels. Feet hip width fixed, torso tall ribs down. Panel 1 arms straight down beside hips PALMS FORWARD. Panel 2 curl both weights to shoulders elbows near sides palms toward shoulders. Panel 3 rotate wrists to palms forward and press both dumbbells overhead arms straight, weights over shoulders not touching. Primary BICEPS exposed anterior upper arms red ONLY, all shoulders/chest/legs gray or black. No torso red. Premium detailed adult MALE grayscale anatomical illustration, pure white with soft shadows, realistic equipment and detailed exposed gray musculature. Reference original project artwork for STYLE ONLY. Black opaque tank and mid-thigh shorts wrap front, sides, back, seat and crotch with fabric folds and seams. Covered highlights are small plain uniform red washes on intact fabric, no fibers/lobes/anatomical segments/cutaways. One head, two arms/hands, two legs/feet per figure. Same camera/model/scale across panels, full body and equipment in frame. No text, arrows or logos.",
+      "layout": {
+        "columns": 3,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand with dumbbells at sides, palms forward."
+        },
+        {
+          "key": "p2",
+          "caption": "Curl both dumbbells to shoulders without swinging."
+        },
+        {
+          "key": "p3",
+          "caption": "Rotate grip and press overhead; lower through shoulders to start."
+        }
+      ],
+      "inspectionNote": "Real output inspected. Standing supinated start, bilateral curl and overhead press with two dumbbells and stable stance. Opaque black clothing, biceps-only highlights. Qualified wrist rotation, elbow position and rib control review pending. Human anatomy review pending. No approval or publication.",
+      "canonicalName": "dumbbell curl to press",
+      "styleVersion": "white-v1",
+      "equipment": "dumbbell",
+      "primaryMuscles": [
+        "biceps"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Standing supinated start, bilateral curl and overhead press with two dumbbells and stable stance. Opaque black clothing, biceps-only highlights. Qualified wrist rotation, elbow position and rib control review pending. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/3347-male-anatomical-white-v1-p1-9f84cf70e5c0.webp",
+          "width": 591,
+          "height": 887,
+          "bytes": 22122,
+          "sha256": "9f84cf70e5c021f44388a869ac5f24ed2e40f8098492cc39d6384041285cd5a1"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/3347-male-anatomical-white-v1-p2-84798100b43c.webp",
+          "width": 592,
+          "height": 887,
+          "bytes": 19506,
+          "sha256": "84798100b43cef7740ffeddc80a7b661c08fd35466409303663cfda9b0b2a464"
+        },
+        {
+          "pose": "p3",
+          "path": "/workout/illustration-pilot/3347-male-anatomical-white-v1-p3-1633d5e7f7c1.webp",
+          "width": 591,
+          "height": 887,
+          "bytes": 22628,
+          "sha256": "1633d5e7f7c1ec27495d61db8d3c4345bed33ef4a65742370a5b648895c4519b"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-349.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/3347-male-anatomical-white-v1-thumb-c83ae8e3bef4.webp",
+        "width": 160,
+        "height": 240,
+        "bytes": 2368,
+        "sha256": "c83ae8e3bef40bbca84a656d540fcfda5ce1e5ee9787456e6294beb0f846b136"
+      },
+      "processingSignature": "da868efe720bbdd92e7471f3f21f962a2cc23c5ea02905551aff61c932c8d5b2",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/3347-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1436262,
+        "sha256": "2776861db48798fbed387b01c464d102aaaeaffa1d122844e1b6841360876435"
+      }
+    },
+    {
+      "exerciseId": "3348",
+      "variant": "male",
+      "key": "3348-male-anatomical-white-v1",
+      "prompt": "Three equal panels, same elevated FRONT view of INCLINE SHOULDER TAPS. Hands on a sturdy flat bench at front, toes on floor behind, feet a little wide and body head-hip-heel straight diagonal. Panel 1 both palms on bench. Panel 2 LEFT palm stays on bench while RIGHT hand touches LEFT shoulder. Panel 3 RIGHT palm stays on bench while LEFT hand touches RIGHT shoulder. Show clearly opposite supporting arms and opposite taps, pelvis level, no extra hands. Bench only under hands, not torso. Primary PECTORALS small plain uniform red chest wash on intact black tank, no chest anatomy. Premium detailed adult MALE grayscale anatomical illustration, pure white with soft shadows, realistic equipment and detailed exposed gray musculature. Reference original project artwork for STYLE ONLY. Black opaque tank and mid-thigh shorts wrap front, sides, back, seat and crotch with fabric folds and seams. Covered highlights are small plain uniform red washes on intact fabric, no fibers/lobes/anatomical segments/cutaways. One head, two arms/hands, two legs/feet per figure. Same camera/model/scale across panels, full body and equipment in frame. No text, arrows or logos.",
+      "layout": {
+        "columns": 3,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hold incline plank with hands on bench and feet wide."
+        },
+        {
+          "key": "p2",
+          "caption": "Tap left shoulder with right hand, keeping hips level."
+        },
+        {
+          "key": "p3",
+          "caption": "Tap right shoulder with left hand; alternate."
+        }
+      ],
+      "inspectionNote": "Real output inspected. Alternating opposite shoulder taps visible, but duplicate shoes/feet appear under bench in addition to feet behind torso. Pectoral anatomical detail through tank also requires correction. Invalid limb depiction blocked. Human anatomy review pending. No approval or publication.",
+      "blockingIssues": [
+        "Remove duplicate feet/shoes; each figure must have exactly two connected legs and feet.",
+        "Replace anatomical chest pattern through tank with plain uniform wash."
+      ],
+      "canonicalName": "incline shoulder tap",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "pectorals"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Alternating opposite shoulder taps visible, but duplicate shoes/feet appear under bench in addition to feet behind torso. Pectoral anatomical detail through tank also requires correction. Invalid limb depiction blocked. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/3348-male-anatomical-white-v1-p1-3e328a2562f5.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 26110,
+          "sha256": "3e328a2562f5be9e87ab48b5cf22c9fc4b1519386ac71a149fa57aee8ed54d2f"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/3348-male-anatomical-white-v1-p2-75714d6e5a35.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 25792,
+          "sha256": "75714d6e5a351dfea6ec7d95255bf4f60cdff4b2708d4ff17f41d71fb402b8bb"
+        },
+        {
+          "pose": "p3",
+          "path": "/workout/illustration-pilot/3348-male-anatomical-white-v1-p3-c3dc8f6d6d67.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 25200,
+          "sha256": "c3dc8f6d6d671c088e49eee38c7601c85e3bed7e4276e84209551f5b1a333873"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-349.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/3348-male-anatomical-white-v1-thumb-c8794ab3344b.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 3940,
+        "sha256": "c8794ab3344b7fe2f74e3991968c65eb4823ec67d600a6c021f3fe6fe74857c7"
+      },
+      "processingSignature": "dd5e0a414be7e25c48c5782a765eb1231bc52f18382ee7271270e791f240c73d",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/3348-male-anatomical-white-v1.png",
+        "width": 2172,
+        "height": 724,
+        "bytes": 1535575,
+        "sha256": "5ceb5fef94eabc1bf77bfb5b6e734392a8142ff9118722fba25658459f09bb15"
+      }
+    },
+    {
+      "exerciseId": "3349",
+      "variant": "male",
+      "key": "3349-male-anatomical-white-v1",
+      "prompt": "Two equal panels same SIDE three-quarter view. Cable front squat facing a cable stack in FRONT LEFT. One LOW pulley at ankle height, cable visibly runs up to ONE double-handed handle held against CHEST. Model stands back from stack with tension, feet shoulder width. Panel 1 stand tall handle chest both hands. Panel 2 squat until thighs parallel, knees track toes, heels grounded, chest tall; handle stays against chest and same cable connects low front pulley. Same stance and machine. Primary QUADRICEPS red on exposed front thighs and small plain uniform wash on intact front shorts only; torso black. Premium detailed adult MALE grayscale anatomical illustration, pure white with soft shadows, realistic equipment and detailed exposed gray musculature. Reference original project artwork for STYLE ONLY. Black opaque tank and mid-thigh shorts wrap front, sides, back, seat and crotch with fabric folds and seams. Covered highlights are small plain uniform red washes on intact fabric, no fibers/lobes/anatomical segments/cutaways. One head, two arms/hands, two legs/feet per figure. Same camera/model/scale across panels, full body and equipment in frame. No text, arrows or logos.",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hold low cable handle at chest and step back into tension."
+        },
+        {
+          "key": "p2",
+          "caption": "Squat to parallel with chest tall, then stand."
+        }
+      ],
+      "inspectionNote": "Real output inspected. Low front pulley and double-handed chest handle, standing and parallel squat with grounded heels. Front shorts show anatomical quad pattern/unclear intact hem in squat; correction required. Qualified knee tracking and cable tension review pending. Human anatomy review pending. No approval or publication.",
+      "blockingIssues": [
+        "Keep front shorts fully opaque with clear hems and plain uniform red wash, removing quad anatomy through fabric."
+      ],
+      "canonicalName": "cable front squat",
+      "styleVersion": "white-v1",
+      "equipment": "cable",
+      "primaryMuscles": [
+        "quads"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Low front pulley and double-handed chest handle, standing and parallel squat with grounded heels. Front shorts show anatomical quad pattern/unclear intact hem in squat; correction required. Qualified knee tracking and cable tension review pending. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/3349-male-anatomical-white-v1-p1-6eade2d40b7a.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 41020,
+          "sha256": "6eade2d40b7ab8ae2d8cd71cc497cf480bbb9837500a7d77696d6f2998bbc7d5"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/3349-male-anatomical-white-v1-p2-4960c781bc83.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 39360,
+          "sha256": "4960c781bc83a949b2421e54e0bb77c58d60919bba983e534ec96ecee3b6d840"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-349.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/3349-male-anatomical-white-v1-thumb-a36b83732d23.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 4480,
+        "sha256": "a36b83732d23b001694bc7d1851129fdd28d2fdc335bc4b1cd0c37ce05efc3c7"
+      },
+      "processingSignature": "9835deb68b0809c40cb8d3cd8497269250d7594842c9146a51d56ceae5ae2b78",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/3349-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1495490,
+        "sha256": "577bd43cf3f5978cce0b021b32d3275307729efab5e90e810a105b5ff48108bb"
+      }
+    }
+  ]
+}

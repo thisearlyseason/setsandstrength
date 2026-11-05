@@ -1,0 +1,65 @@
+{
+  "batch": 169,
+  "runId": "1e017c54-7e5e-454b-b3a7-ca25521af4c6",
+  "trigger": "2026-11-03T09:07:58.180Z",
+  "completedAt": "2026-11-03T09:13:58.633830+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 2,
+  "generationCalls": 2,
+  "exerciseIds": [
+    "1246"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 652,
+    "remainingVariants": 10612,
+    "approvedVariants": 0,
+    "blockedVariants": 221,
+    "knownPoseImages": 1308,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Two single-pose static hollow hold candidates, two built-in calls. Overhead straight arms, lifted shoulders and straight legs with lower back/pelvis on mat, smooth abdominal tint on continuous opaque shirt and full opaque shorts. Fine exposed grayscale anatomy retained. Qualified posterior pelvic tuck/lumbar contact, neck flexion, limb height and tint/fold interpretation require human review. Hands close to edge but uncropped. Every original and exact prompt saved; no anatomy/clothing approval or publication. Original project artwork rendering style only, no upstream licensed input. Seven pipeline checks do not establish anatomical accuracy.",
+  "metadataConflictsDeferred": {
+    "1241": "Spine target requires explicit primary red muscle mapping clarification."
+  },
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 1034219157,
+  "savedMasters": [
+    {
+      "exerciseId": "1246",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1246-male-anatomical-white-v1.png",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 1379544,
+        "sha256": "f00a18b8782ab53654bf8ccf88b4d6995e3a75ff5809fc54e8915be3c73c1e15"
+      }
+    },
+    {
+      "exerciseId": "1246",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1246-female-anatomical-white-v1.png",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 1339565,
+        "sha256": "0062c6490512226d07ffae9986f048ac4b6ee9332673a898cc71c8c1dc947db3"
+      }
+    }
+  ]
+}

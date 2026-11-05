@@ -1,0 +1,320 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "1666",
+      "variant": "male",
+      "key": "1666-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Lie chest down on a flat bench with one arm hanging beside it. Hold a dumbbell with a neutral hammer grip."
+        },
+        {
+          "key": "p2",
+          "caption": "Keep your upper arm still and curl the dumbbell toward your shoulder. Lower slowly, then repeat on both sides."
+        }
+      ],
+      "prompt": "DUMBBELL ONE ARM PRONE HAMMER CURL canonical1666. Man lies FACE DOWN chest abdomen pelvis thighs supported on long horizontal FLAT gray bench about80cm high. Legs straight supported bench both shoes extend past foot end, neutral neck eyes toward floor head just beyond front edge. Nearer working upper arm hangs VERTICALLY from shoulder beside bench elbow remains fixed below shoulder. ONE dumbbell NEUTRAL HAMMER grip palm toward body/midline thumbs pointing headward throughout. Free forearm rests supported on bench near head not grasping dumbbell. LEFT START elbow nearly straight dumbbell hanging near floor with clear10cm clearance. RIGHT FINISH flex elbow curl same dumbbell toward same-side shoulder while upper arm stays VERTICAL motionless, no elbow lift or torso roll. Same bench supported body feet position both cells. Red only working biceps. Original premium ADULT MALE detailed grayscale anatomical educational illustration. TWO equal square panels side by side WIDE2:1 landscape SAME full person camera scale equipment. Working exposed BICEPS RED ONLY other skin grayscale. Crisp detailed realistic anatomical skin five fingers. Full opaque BLACK tank wraps front sides back and BLACK mid-thigh shorts fully cover front sides back seat crotch with seams hems folds. Never cutaways transparency or anatomy through fabric. Black shoes. Pure WHITE background soft contact shadows generous12percent margins full head hands both feet and whole equipment within EACH square uncropped. Original project reference STYLE ONLY ignore pushup chest red. No text labels captions arrows extra people.",
+      "inspectionNote": "Real output inspected. Prone single-arm hammer curl on flat bench: supported chest/pelvis/legs, hanging arm to flexed elbow. Qualified review needed for maintained neutral grip, neck alignment, shoulder position, dumbbell clearance and free-hand anatomy. Detailed grayscale/red exposed biceps and full opaque tank/shorts retained. Original project artwork rendering style only; no upstream media. Exact prompt and original master saved. Human anatomy review pending; no approval or publication.",
+      "canonicalName": "dumbbell one arm prone hammer curl",
+      "styleVersion": "white-v1",
+      "equipment": "dumbbell",
+      "primaryMuscles": [
+        "biceps"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Prone single-arm hammer curl on flat bench: supported chest/pelvis/legs, hanging arm to flexed elbow. Qualified review needed for maintained neutral grip, neck alignment, shoulder position, dumbbell clearance and free-hand anatomy. Detailed grayscale/red exposed biceps and full opaque tank/shorts retained. Original project artwork rendering style only; no upstream media. Exact prompt and original master saved. Human anatomy review pending; no approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/1666-male-anatomical-white-v1-p1-ca03e9a0648c.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 33796,
+          "sha256": "ca03e9a0648c9e4a69be70c5a478e2f483ad3e59cf49d2c01f0f2ce72119c8de"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/1666-male-anatomical-white-v1-p2-42431e88f0d4.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 32174,
+          "sha256": "42431e88f0d4459e0a26e43fbc80d8c6a7b0064db68b1ef846e838e0fbaf26c6"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-223.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/1666-male-anatomical-white-v1-thumb-86b272379523.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 3480,
+        "sha256": "86b2723795233f718976da4b4da7e62049c04422a160bbc987e570aa893a34f8"
+      },
+      "processingSignature": "7f3925c8b8c43a2ee0d68816b2de56b14f8bca4b1a43444ddc4a3a38f1397c2f",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1666-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1473727,
+        "sha256": "91cadbf87ddafe487aeedf4187f97f7468f1db05f4c5b2542a6701cfa19cc88f"
+      }
+    },
+    {
+      "exerciseId": "1668",
+      "variant": "male",
+      "key": "1668-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Sit upright on an exercise ball with both feet planted. Hold one dumbbell palm up with your arm extended."
+        },
+        {
+          "key": "p2",
+          "caption": "Curl the dumbbell toward your shoulder while keeping your upper arm still. Lower slowly and repeat on both sides."
+        }
+      ],
+      "prompt": "DUMBBELL ONE ARM SEATED BICEP CURL ON EXERCISE BALL canonical1668. Sit upright pelvis supported on large gray spherical stability ball resting floor, both feet flat wide knees90degrees. ONE dumbbell in nearer working hand UNDERHAND SUPINATED palm forward/up. Free hand rests on opposite thigh. Upper arm vertical pinned to side elbow fixed. LEFT START working arm nearly straight dumbbell beside ball. RIGHT FINISH flex working elbow curl dumbbell toward SAME shoulder palm up wrist straight, upper arm torso ball feet unchanged. Red only working biceps. Original premium ADULT MALE detailed grayscale anatomical educational illustration. TWO equal square panels side by side WIDE2:1 landscape SAME full person camera scale equipment. Working exposed BICEPS RED ONLY other skin grayscale. Crisp detailed realistic anatomical skin five fingers. Full opaque BLACK tank wraps front sides back and BLACK mid-thigh shorts fully cover front sides back seat crotch with seams hems folds. Never cutaways transparency or anatomy through fabric. Black shoes. Pure WHITE background soft contact shadows generous12percent margins full head hands both feet and whole equipment within EACH square uncropped. Original project reference STYLE ONLY ignore pushup chest red. No text labels captions arrows extra people.",
+      "inspectionNote": "Real output inspected. Ball-seated single-arm supinated curl: planted feet, supported pelvis, lowered to curled weight. Qualified review needed for upper-arm stillness, supination, wrist/finger anatomy and balance. Detailed grayscale/red exposed biceps and full opaque tank/shorts retained. Original project artwork rendering style only; no upstream media. Exact prompt and original master saved. Human anatomy review pending; no approval or publication.",
+      "canonicalName": "dumbbell one arm seated bicep curl on exercise ball",
+      "styleVersion": "white-v1",
+      "equipment": "dumbbell",
+      "primaryMuscles": [
+        "biceps"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Ball-seated single-arm supinated curl: planted feet, supported pelvis, lowered to curled weight. Qualified review needed for upper-arm stillness, supination, wrist/finger anatomy and balance. Detailed grayscale/red exposed biceps and full opaque tank/shorts retained. Original project artwork rendering style only; no upstream media. Exact prompt and original master saved. Human anatomy review pending; no approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/1668-male-anatomical-white-v1-p1-18cd3bdcaae9.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 37130,
+          "sha256": "18cd3bdcaae9ee0bf4871d1e0e0b64d7ab784b6e2f173ab62729218b542acf6e"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/1668-male-anatomical-white-v1-p2-75505f1a7958.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 36718,
+          "sha256": "75505f1a795879415945be729fce643671ff5cb6f4e7b83d5c103c1da25847dc"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-223.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/1668-male-anatomical-white-v1-thumb-fbcc317aa127.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 3712,
+        "sha256": "fbcc317aa127bd91584e0ce83ef90e37ec2db517dc1f55b59c794077c2c0f8d9"
+      },
+      "processingSignature": "c7e77ecb853d51329d6216e1d710df93a7becf66a19dc642db01e86e6c9031e7",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1668-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1531264,
+        "sha256": "2c4ae749798a7d95373fadd72dcee0e69ff80f52ea87b667f6c1b97c9ac1910b"
+      }
+    },
+    {
+      "exerciseId": "1669",
+      "variant": "male",
+      "key": "1669-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Sit with feet planted and brace your elbow against the inside of your thigh, just above the knee. Hold the dumbbell with a neutral grip."
+        },
+        {
+          "key": "p2",
+          "caption": "Curl the dumbbell toward your shoulder without moving your upper arm. Lower slowly and repeat on both sides."
+        }
+      ],
+      "prompt": "DUMBBELL ONE ARM SEATED HAMMER CURL canonical1669. Sit on flat gray bench feet flat wide knees90degrees torso slightly forward neutral straight back. Nearer working upper arm/elbow BRACED against INSIDE same-side thigh just above knee. ONE dumbbell NEUTRAL HAMMER grip palm toward body/midline thumbUP. Free hand rests opposite thigh. LEFT START working elbow nearly extended dumbbell hanging between knees above floor. RIGHT FINISH flex working elbow curl dumbbell toward same-side shoulder while elbow remains against SAME thigh spot, no torso lean no shoulder swing. Neutral hammer grip unchanged. Working biceps red only. Original premium ADULT MALE detailed grayscale anatomical educational illustration. TWO equal square panels side by side WIDE2:1 landscape SAME full person camera scale equipment. Working exposed BICEPS RED ONLY other skin grayscale. Crisp detailed realistic anatomical skin five fingers. Full opaque BLACK tank wraps front sides back and BLACK mid-thigh shorts fully cover front sides back seat crotch with seams hems folds. Never cutaways transparency or anatomy through fabric. Black shoes. Pure WHITE background soft contact shadows generous12percent margins full head hands both feet and whole equipment within EACH square uncropped. Original project reference STYLE ONLY ignore pushup chest red. No text labels captions arrows extra people.",
+      "inspectionNote": "Real output inspected. Seated single-arm hammer curl with thigh bracing: lowered to curled weight, neutral grip. Qualified review needed for exact continuous elbow/thigh contact and possible elbow drift, posture and finger anatomy. Detailed grayscale/red exposed biceps and full opaque tank/shorts retained. Original project artwork rendering style only; no upstream media. Exact prompt and original master saved. Human anatomy review pending; no approval or publication.",
+      "canonicalName": "dumbbell one arm seated hammer curl",
+      "styleVersion": "white-v1",
+      "equipment": "dumbbell",
+      "primaryMuscles": [
+        "biceps"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Seated single-arm hammer curl with thigh bracing: lowered to curled weight, neutral grip. Qualified review needed for exact continuous elbow/thigh contact and possible elbow drift, posture and finger anatomy. Detailed grayscale/red exposed biceps and full opaque tank/shorts retained. Original project artwork rendering style only; no upstream media. Exact prompt and original master saved. Human anatomy review pending; no approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/1669-male-anatomical-white-v1-p1-ce174e99f669.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 47664,
+          "sha256": "ce174e99f669695e317850703192250891cdd0db415c721283867bdde70c31a1"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/1669-male-anatomical-white-v1-p2-a4cd9f08635d.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 44716,
+          "sha256": "a4cd9f08635d3787a8e65ab264dc559ace4008168acecb5bdacf313294939712"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-223.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/1669-male-anatomical-white-v1-thumb-422c732655d4.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 4636,
+        "sha256": "422c732655d427416aef04da96537f593ded03f58b5d262e5b0b022976103623"
+      },
+      "processingSignature": "f04c7b6d16a343ba7311e216e19e078b2d42b8fa6636c3d71c04eb12f821f3fb",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1669-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1668340,
+        "sha256": "aecec3fa2474a66d2e99b816a1bb074bf9c8cf4e4454e7f0dd58fc6af41d3b64"
+      }
+    },
+    {
+      "exerciseId": "1670",
+      "variant": "male",
+      "key": "1670-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand tall holding one dumbbell with your palm facing forward and arm extended."
+        },
+        {
+          "key": "p2",
+          "caption": "Curl the dumbbell toward your shoulder while keeping your upper arm still. Lower slowly, then repeat on both sides."
+        }
+      ],
+      "prompt": "DUMBBELL ONE ARM STANDING CURL canonical1670. Standing upright feet flat shoulder width knees soft torso still. ONE dumbbell in nearer working hand UNDERHAND SUPINATED palm forward/up throughout. Free arm relaxed at other side empty hand visible. Working upper arm vertical pinned to torso same elbow location both poses. LEFT START working arm almost straight dumbbell beside thigh palm forward. RIGHT FINISH flex elbow curl dumbbell toward SAME shoulder palm up wrist straight, no shoulder lift or body swing. Working biceps red only. No second weight. Original premium ADULT MALE detailed grayscale anatomical educational illustration. TWO equal square panels side by side WIDE2:1 landscape SAME full person camera scale equipment. Working exposed BICEPS RED ONLY other skin grayscale. Crisp detailed realistic anatomical skin five fingers. Full opaque BLACK tank wraps front sides back and BLACK mid-thigh shorts fully cover front sides back seat crotch with seams hems folds. Never cutaways transparency or anatomy through fabric. Black shoes. Pure WHITE background soft contact shadows generous12percent margins full head hands both feet and whole equipment within EACH square uncropped. Original project reference STYLE ONLY ignore pushup chest red. No text labels captions arrows extra people.",
+      "inspectionNote": "Real output inspected. Standing single-arm supinated curl: lowered to curled dumbbell with free hand empty, red working biceps. Qualified review needed for stationary upper arm, grip and elbow range. Detailed grayscale/red exposed biceps and full opaque tank/shorts retained. Original project artwork rendering style only; no upstream media. Exact prompt and original master saved. Human anatomy review pending; no approval or publication.",
+      "canonicalName": "dumbbell one arm standing curl",
+      "styleVersion": "white-v1",
+      "equipment": "dumbbell",
+      "primaryMuscles": [
+        "biceps"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Standing single-arm supinated curl: lowered to curled dumbbell with free hand empty, red working biceps. Qualified review needed for stationary upper arm, grip and elbow range. Detailed grayscale/red exposed biceps and full opaque tank/shorts retained. Original project artwork rendering style only; no upstream media. Exact prompt and original master saved. Human anatomy review pending; no approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/1670-male-anatomical-white-v1-p1-ff56c2220faf.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 25670,
+          "sha256": "ff56c2220faf5aec3ee56589df42d6e58ed2a1eaa92bbd038b8908c55dc7368c"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/1670-male-anatomical-white-v1-p2-fc87c7d0e2c6.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 23962,
+          "sha256": "fc87c7d0e2c620487d99585ca22fd7278b26cd34735bd5589d221b1c050d6a3d"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-223.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/1670-male-anatomical-white-v1-thumb-1d57c275207d.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2690,
+        "sha256": "1d57c275207d0826d3cbeb487687876ff5708270559fd7416d8a71f5b6100af1"
+      },
+      "processingSignature": "4a75ec172eb2d3edfa61aa194b6c9a80d77f6f12471298a2992cc4b66604b69c",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1670-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1342492,
+        "sha256": "56418ae7b9083ebc995f1715c50a17fd4dca809aaf27846417aa977cda8a8aee"
+      }
+    }
+  ]
+}

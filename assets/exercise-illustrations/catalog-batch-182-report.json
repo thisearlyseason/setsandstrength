@@ -1,0 +1,65 @@
+{
+  "batch": 182,
+  "runId": "15598ed8-9d41-4e45-91b8-feeea882522e",
+  "trigger": "2026-11-03T10:48:29.022Z",
+  "completedAt": "2026-11-03T10:52:40.145617+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 2,
+  "generationCalls": 2,
+  "exerciseIds": [
+    "1398"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 678,
+    "remainingVariants": 10586,
+    "approvedVariants": 0,
+    "blockedVariants": 225,
+    "knownPoseImages": 1346,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Both standing wall calf stretch candidates, one static pose per variant, two built-in calls. Rear leg extended with heel grounded, front knee bent, both palms on wall and rear calf red. Full opaque tank and shorts and detailed grayscale exposed anatomy retained. Qualified heel pressure, forward toe orientation, pelvic alignment, neck posture and hand contact require human review. Original project artwork style only, no upstream licensed media inputs. Exact prompts and originals retained. No anatomical approval or publication. Seven pipeline checks do not establish anatomical accuracy.",
+  "metadataConflictsDeferred": {
+    "1401": "Vertical-bar muscle-up description conflicts with hanging pull-up-only instructions."
+  },
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 1072990471,
+  "savedMasters": [
+    {
+      "exerciseId": "1398",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1398-male-anatomical-white-v1.png",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 1542440,
+        "sha256": "1f6d42e53ac1568829e82a568d8dd6993d24786d59f60f375420667659165aa0"
+      }
+    },
+    {
+      "exerciseId": "1398",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1398-female-anatomical-white-v1.png",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 1597262,
+        "sha256": "b52059b5dee58f17a695b6e2ff793c54eef334f2b86c4dd3cafb2516200eef16"
+      }
+    }
+  ]
+}

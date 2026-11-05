@@ -1,0 +1,88 @@
+{
+  "batch": 129,
+  "trigger": "2026-11-03T00:22:24.226Z",
+  "completedAt": "2026-11-03T00:39:02.341668+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 4,
+  "generationCalls": 6,
+  "exerciseIds": [
+    "0774",
+    "0781"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 526,
+    "remainingVariants": 10738,
+    "approvedVariants": 0,
+    "blockedVariants": 204,
+    "knownPoseImages": 1084,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Four candidate sets, eight poses, six built-in calls and two retained clothing corrections. Standing Smith military press pairs show front shoulder-level bar then overhead extension, upright torso, fixed grounded feet, closed overhand grips and guided collars. Exposed deltoids highlighted. Bodyweight split squat pairs show long staggered standing stance then bent knees with rear knee hovering above floor, front heel grounded and hands hips. Both front-thigh overlays smoothed to diffuse tint on opaque shorts. Fine exposed grayscale anatomy and full opaque shirt/shorts retained. Qualified wrist/forearm alignment, knee softness, bar clearance/path, fixed foot positions, knee tracking, proportions and primary muscle localization remain pending. All original masters, exact prompts and correction history saved. No anatomy approval or publication. Original project artwork style only, no upstream media. Pipeline checks do not approve anatomy.",
+  "metadataConflictsDeferred": {
+    "0776": "Snatch pull title/description conflicts with instructions including full overhead catch and stand; requires clarification.",
+    "0777": "Low-to-high description conflicts with instructions only reaching toward opposite foot and returning, upper endpoint undefined."
+  },
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 857649085,
+  "savedMasters": [
+    {
+      "exerciseId": "0774",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0774-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1502575,
+        "sha256": "5d87952e4588e6c39f7d164fd609d415b78b1811828f735b57d86b2865aae9e7"
+      }
+    },
+    {
+      "exerciseId": "0774",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0774-female-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1556470,
+        "sha256": "56ca7e054f03b61034be9b7a3ffb9e2f67abcfe107c20e413b0a5ed0c7af6917"
+      }
+    },
+    {
+      "exerciseId": "0781",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0781-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1330619,
+        "sha256": "01d068e645e717126e2e61d1f8a0760ee7bffbc43f91a0537363bf4751d74a8f"
+      }
+    },
+    {
+      "exerciseId": "0781",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0781-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1352947,
+        "sha256": "cde9807e4aa63768313de95a46b96879266c6bc8642ce2d2baee8c4a4ab83cb7"
+      }
+    }
+  ]
+}

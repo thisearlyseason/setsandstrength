@@ -1,0 +1,101 @@
+{
+  "batch": 63,
+  "trigger": "2026-11-01T13:02:15.957Z",
+  "completedAt": "2026-11-01T13:09:39.178692+00:00",
+  "tool": "image_gen.imagegen",
+  "newCandidateSets": 4,
+  "generationCalls": 5,
+  "exerciseIds": [
+    "0207",
+    "0210"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 248,
+    "remainingVariants": 11016,
+    "approvedVariants": 0,
+    "blockedVariants": 111,
+    "knownPoseImages": 502,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "All pending and unpublished. Reverse-grip pushdowns inspected for underhand grip, central bar attachment and fixed upper arms; qualified anatomy/grip review still required. Male reverse wrist curl corrected for full machine framing but isolated wrist movement and continuous thigh support remain blocked; female wrist-curl rear bench clipped and blocked. Fully opaque rear/crotch clothing retained. Pipeline checks are not movement correctness approval.",
+  "metadataConflictsDeferred": [
+    {
+      "exerciseId": "0205",
+      "issue": "Rear title versus chest-pulldown instructions and lats versus upper-back mapping conflict."
+    },
+    {
+      "exerciseId": "0206",
+      "issue": "Reverse/overhand description versus underhand instructions."
+    },
+    {
+      "exerciseId": "0209",
+      "issue": "Palms-down setup versus underhand-grip instruction."
+    },
+    {
+      "exerciseId": "0210",
+      "issue": "Forearms duplicated as target and secondary; wrists listed as secondary, requires mapping review."
+    }
+  ],
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 400313611,
+  "savedMasters": [
+    {
+      "exerciseId": "0207",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0207-male-anatomical-white-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1515130,
+        "sha256": "e45d2b27cbb19213b09aa96aa71c1d015250ce1d33976e9514030d3b44df0c27"
+      }
+    },
+    {
+      "exerciseId": "0207",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0207-female-anatomical-white-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1545726,
+        "sha256": "857aed6f59f6818fad24acfebdaf8500a2791adb811b5a617e50fae334d7aa10"
+      }
+    },
+    {
+      "exerciseId": "0210",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0210-male-anatomical-white-v2.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1717165,
+        "sha256": "e90bd4d63671c7fb4b416f65caa3a2ea04f6ceb2d6991177386e4688a5982bfe"
+      }
+    },
+    {
+      "exerciseId": "0210",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0210-female-anatomical-white-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1668024,
+        "sha256": "2935e141d53163fb4a71c4daa43c344ce4035c451a240a04aaef411d0f3a55f9"
+      }
+    }
+  ]
+}

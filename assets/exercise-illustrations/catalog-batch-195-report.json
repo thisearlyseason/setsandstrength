@@ -1,0 +1,67 @@
+{
+  "batch": 195,
+  "runId": "829439e7-a2e4-4f7c-a202-cdcdef348357",
+  "trigger": "2026-11-03T12:19:29.778Z",
+  "completedAt": "2026-11-03T12:24:35.874177+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 2,
+  "generationCalls": 2,
+  "exerciseIds": [
+    "1478"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 704,
+    "remainingVariants": 10560,
+    "approvedVariants": 0,
+    "blockedVariants": 233,
+    "knownPoseImages": 1390,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Two jack plank candidates, four poses, two built-in calls. Feet together to wide symmetric landing with same planted hands and extended arms, covered abdominal red tint and full opaque clothes. Exposed grayscale anatomy retained. Qualified lumbar/pelvic level, shoulder over wrist alignment, wide-stance ankle/toe orientation, wrist pressure and cloth tint require human review. Static start/landing artwork and external captions describe jumping; no airborne phase claimed. Original project artwork rendering style only, no upstream licensed input. Exact prompts/originals saved. No anatomical or clothing approval or publication. Seven pipeline checks do not establish anatomical accuracy.",
+  "skippedAliasIds": [
+    "1474",
+    "1475",
+    "1477"
+  ],
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 1109641356,
+  "savedMasters": [
+    {
+      "exerciseId": "1478",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1478-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1471444,
+        "sha256": "2863045c59392ca5ab2710bbbd486d8364f99021e88de848394a1cc4c658dcc4"
+      }
+    },
+    {
+      "exerciseId": "1478",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1478-female-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1401651,
+        "sha256": "113ce2753c3e210ddd8925e11627893fb897b2f1f0aa154036a14a88e178861b"
+      }
+    }
+  ]
+}

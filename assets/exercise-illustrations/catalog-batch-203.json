@@ -1,0 +1,162 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "1532",
+      "variant": "male",
+      "key": "1532-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand on a low stable platform with the bar at your thighs, feet planted and knees soft."
+        },
+        {
+          "key": "p2",
+          "caption": "Push your hips back and lower the bar close to your legs while keeping your back flat. Stop within your controlled range, then drive your hips forward to stand."
+        }
+      ],
+      "prompt": "Use case scientific-educational. Original premium ADULT male detailed anatomical exercise illustration canonical1532 BARBELL ROMANIAN DEADLIFT FROM DEFICIT. TWO equal square cells side by side WIDE2:1 same full body model same camera scale SIDE rear-three-quarter view facing RIGHT. BOTH feet hip-width planted entirely on SINGLE LOW stable rectangular gray platform only8cm HIGH, toes and heels flat on top surface, generous width/depth, no balance board. One straight chrome barbell equal modest round plates held BOTH hands OVERHAND shoulder-width just outside legs, thumbs wrapped, arms straight throughout. LEFT START TALL standing neutral spine pelvis ribs stacked, bar against front mid-thigh. RIGHT BOTTOM HIP HINGE: knees softly bent about15degrees SHINS VERTICAL, HIPS pushed BACK high above knees, back FLAT neutral, torso near horizontal, head aligned looking floor, bar hangs vertically beneath shoulders and remains close front shins at LOWER SHIN HEIGHT ABOVE ankles with plates CLEAR of platform and floor. No squat or rounding; same foot grip positions and bar load both cells. Primary BILATERAL HAMSTRINGS POSTERIOR THIGHS RED ONLY: exposed distal posterior thigh red detail, upper covered posterior thigh only soft diffuse red teaching tint on intact shorts, glutes/calves/quads grayscale. Fabric opaque smooth real broad folds NO muscle fibers/lobes through fabric. Fine detailed grayscale exposed anatomy realistic fingers proportions. Full opaque BLACK tank wraps FRONT SIDES BACK and BLACK MID-THIGH shorts cover FRONT SIDES BACK SEAT CROTCH continuous hems seams no transparency/cutaway. Black flat shoes. Pure WHITE background soft shadows generous12percent margins head full bar plates hands shoes platform fully within EACH SQUARE no crop. Equal male/female quality. Original project reference rendering STYLE ONLY ignore pushup/chest highlight. No labels text captions arrows extra people.",
+      "inspectionNote": "Two deficit barbell Romanian deadlift candidates, four poses, two built-in calls. Standing to high-hip hinge on low stable platform with soft knees, flat feet, bar lowered near shins and posterior hamstrings red. Full opaque clothes and exposed detailed grayscale anatomy retained. Rear view occludes bar shaft/far grip behind legs; qualified review must establish anterior bar path and plate clearance rather than infer from occlusion. Also review hip hinge, lumbar/neck alignment, grip, platform security and hamstring mapping. Original project artwork rendering style only, no upstream licensed input. Exact prompts/originals saved. No anatomy or clothing approval or publication. Seven pipeline checks do not establish anatomical accuracy.",
+      "canonicalName": "barbell romanian deadlift from deficit",
+      "styleVersion": "white-v1",
+      "equipment": "barbell",
+      "primaryMuscles": [
+        "hamstrings"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Two deficit barbell Romanian deadlift candidates, four poses, two built-in calls. Standing to high-hip hinge on low stable platform with soft knees, flat feet, bar lowered near shins and posterior hamstrings red. Full opaque clothes and exposed detailed grayscale anatomy retained. Rear view occludes bar shaft/far grip behind legs; qualified review must establish anterior bar path and plate clearance rather than infer from occlusion. Also review hip hinge, lumbar/neck alignment, grip, platform security and hamstring mapping. Original project artwork rendering style only, no upstream licensed input. Exact prompts/originals saved. No anatomy or clothing approval or publication. Seven pipeline checks do not establish anatomical accuracy.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/1532-male-anatomical-white-v1-p1-1816ed64d1b5.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 25654,
+          "sha256": "1816ed64d1b527c935d2f4afbe58adc1de55750a4829a9f64ea52eb982fb671e"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/1532-male-anatomical-white-v1-p2-a1e88970a0ac.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 26738,
+          "sha256": "a1e88970a0ac3379dd70f0630433b455b52ae9f4bf8ef21248f6509ebe49a3d1"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-203.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/1532-male-anatomical-white-v1-thumb-7d10bfe9d7e5.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2648,
+        "sha256": "7d10bfe9d7e52bf78cb9cab1952284202915ff68c24463e19ae72e24586a0b5b"
+      },
+      "processingSignature": "415ef3268226d09780d3346a2fb20274d0025e7f69133df6f6fcaa54ddbd9acb",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1532-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1371805,
+        "sha256": "a34685a9ac37a5d59e0d07d625e893e9fc74bdbaeffdd05e769b5c11aa1ec8cb"
+      }
+    },
+    {
+      "exerciseId": "1532",
+      "variant": "female",
+      "key": "1532-female-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand on a low stable platform with the bar at your thighs, feet planted and knees soft."
+        },
+        {
+          "key": "p2",
+          "caption": "Push your hips back and lower the bar close to your legs while keeping your back flat. Stop within your controlled range, then drive your hips forward to stand."
+        }
+      ],
+      "prompt": "Use case scientific-educational. Original premium ADULT female detailed anatomical exercise illustration canonical1532 BARBELL ROMANIAN DEADLIFT FROM DEFICIT. TWO equal square cells side by side WIDE2:1 same full body model same camera scale SIDE rear-three-quarter view facing RIGHT. BOTH feet hip-width planted entirely on SINGLE LOW stable rectangular gray platform only8cm HIGH, toes and heels flat on top surface, generous width/depth, no balance board. One straight chrome barbell equal modest round plates held BOTH hands OVERHAND shoulder-width just outside legs, thumbs wrapped, arms straight throughout. LEFT START TALL standing neutral spine pelvis ribs stacked, bar against front mid-thigh. RIGHT BOTTOM HIP HINGE: knees softly bent about15degrees SHINS VERTICAL, HIPS pushed BACK high above knees, back FLAT neutral, torso near horizontal, head aligned looking floor, bar hangs vertically beneath shoulders and remains close front shins at LOWER SHIN HEIGHT ABOVE ankles with plates CLEAR of platform and floor. No squat or rounding; same foot grip positions and bar load both cells. Primary BILATERAL HAMSTRINGS POSTERIOR THIGHS RED ONLY: exposed distal posterior thigh red detail, upper covered posterior thigh only soft diffuse red teaching tint on intact shorts, glutes/calves/quads grayscale. Fabric opaque smooth real broad folds NO muscle fibers/lobes through fabric. Fine detailed grayscale exposed anatomy realistic fingers proportions. Full opaque BLACK tank wraps FRONT SIDES BACK and BLACK MID-THIGH shorts cover FRONT SIDES BACK SEAT CROTCH continuous hems seams no transparency/cutaway. Black flat shoes. Pure WHITE background soft shadows generous12percent margins head full bar plates hands shoes platform fully within EACH SQUARE no crop. Equal male/female quality. Original project reference rendering STYLE ONLY ignore pushup/chest highlight. No labels text captions arrows extra people.",
+      "inspectionNote": "Two deficit barbell Romanian deadlift candidates, four poses, two built-in calls. Standing to high-hip hinge on low stable platform with soft knees, flat feet, bar lowered near shins and posterior hamstrings red. Full opaque clothes and exposed detailed grayscale anatomy retained. Rear view occludes bar shaft/far grip behind legs; qualified review must establish anterior bar path and plate clearance rather than infer from occlusion. Also review hip hinge, lumbar/neck alignment, grip, platform security and hamstring mapping. Original project artwork rendering style only, no upstream licensed input. Exact prompts/originals saved. No anatomy or clothing approval or publication. Seven pipeline checks do not establish anatomical accuracy.",
+      "canonicalName": "barbell romanian deadlift from deficit",
+      "styleVersion": "white-v1",
+      "equipment": "barbell",
+      "primaryMuscles": [
+        "hamstrings"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Two deficit barbell Romanian deadlift candidates, four poses, two built-in calls. Standing to high-hip hinge on low stable platform with soft knees, flat feet, bar lowered near shins and posterior hamstrings red. Full opaque clothes and exposed detailed grayscale anatomy retained. Rear view occludes bar shaft/far grip behind legs; qualified review must establish anterior bar path and plate clearance rather than infer from occlusion. Also review hip hinge, lumbar/neck alignment, grip, platform security and hamstring mapping. Original project artwork rendering style only, no upstream licensed input. Exact prompts/originals saved. No anatomy or clothing approval or publication. Seven pipeline checks do not establish anatomical accuracy.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/1532-female-anatomical-white-v1-p1-7c9301fa9f3e.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 25314,
+          "sha256": "7c9301fa9f3eb6c96b16ba195dfbc55be9b90cc963059b1e8a7d5e8c0145fe21"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/1532-female-anatomical-white-v1-p2-ac0191b95c01.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 25228,
+          "sha256": "ac0191b95c01d1e191c6f271979519d5519037c3ec8f396e33df6e58da8d7c16"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-203.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/1532-female-anatomical-white-v1-thumb-d54a3709f7c5.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2670,
+        "sha256": "d54a3709f7c59b8ac72dccf6037102a5e19cdb388fce45410689afe0790047ed"
+      },
+      "processingSignature": "e2db0d378cba7cd341a7dde66bfab3739fae297c6b4b5b334dacd56097568d23",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1532-female-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1348809,
+        "sha256": "145d4a6e5d5e8ce68f211fa64778e534d8cd4542c8b7d27d921eb9538d32eaa0"
+      }
+    }
+  ]
+}

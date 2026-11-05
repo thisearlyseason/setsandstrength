@@ -1,0 +1,88 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "0320",
+      "variant": "male",
+      "key": "0320-male-anatomical-white-v2",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Arms down with neutral grip"
+        },
+        {
+          "key": "p2",
+          "caption": "Curl both weights, palms inward"
+        }
+      ],
+      "prompt": "Premium grayscale anatomical educational fitness illustration on white, red biceps only, realistic detailed muscle contours. Adult MALE, full opaque black sleeveless shirt and knee-length shorts completely wrap torso and rear/seat/crotch. TWO equal panels, no text. EXACT straight-on FRONTAL SYMMETRIC view, shoulders horizontal square facing camera, both sides equally visible. Seated reclined on 50degree incline bench head/back/pelvis supported, feet planted. Incline HAMMER curl: left BOTH hands down OUTSIDE thighs with neutral grip palms INWARD, both dumbbells entirely visible and CLEAR of narrow seat; right BOTH elbows flex to raise BOTH dumbbells to shoulders simultaneously with palms still INWARD, thumbs UP, neutral wrists. Upper arms hang vertically outside bench, never swing forward. Full body all shoes weights within generous margins. Matching person bench camera scale clothing across panels. No alternating action. No side or three-quarter view.",
+      "inspectionNote": "Incline supported bilateral hammer top pose and opaque clothing. Low-position far hand/weight hidden; block both-hand visibility correction and neutral-grip consistency review."
+    },
+    {
+      "exerciseId": "0320",
+      "variant": "female",
+      "key": "0320-female-anatomical-white-v2",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Arms down with neutral grip"
+        },
+        {
+          "key": "p2",
+          "caption": "Curl both weights, palms inward"
+        }
+      ],
+      "prompt": "Premium grayscale anatomical educational fitness illustration on white, red biceps only, realistic detailed muscle contours. Adult FEMALE, full opaque black sleeveless shirt and knee-length shorts completely wrap torso and rear/seat/crotch. TWO equal panels, no text. EXACT straight-on FRONTAL SYMMETRIC view, shoulders horizontal square facing camera, both sides equally visible. Seated reclined on 50degree incline bench head/back/pelvis supported, feet planted. Incline HAMMER curl: left BOTH hands down OUTSIDE thighs with neutral grip palms INWARD, both dumbbells entirely visible and CLEAR of narrow seat; right BOTH elbows flex to raise BOTH dumbbells to shoulders simultaneously with palms still INWARD, thumbs UP, neutral wrists. Upper arms hang vertically outside bench, never swing forward. Full body all shoes weights within generous margins. Matching person bench camera scale clothing across panels. No alternating action. No side or three-quarter view.",
+      "inspectionNote": "Incline bilateral hammer top pose with intact opaque garments. Far low-position arm/weight hidden; block both-hand visibility correction and qualified neutral-grip/upper-arm path review."
+    },
+    {
+      "exerciseId": "0061",
+      "variant": "male",
+      "key": "0061-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Extend elbows above chest"
+        },
+        {
+          "key": "p2",
+          "caption": "Bend elbows toward forehead"
+        }
+      ],
+      "prompt": "Premium educational anatomical fitness illustration ADULT MALE. Pure white backdrop, realistic detailed neutral GRAYSCALE anatomical contours and proportions, crisp detail soft contact shadows. TWO equal panels broad white gutter, identical adult camera scale clothing equipment across panels. Fully opaque black sleeveless athletic top encloses chest torso sides front BACK; knee-length black shorts fully cover front sides REAR seat crotch, seams folds closed hems, shoes. No transparent clothing or missing backs or muscle cutaways. Red highlights primary target only. Full figures and equipment within frame margins. No text captions numbers arrows logos. Lying BARBELL triceps extension0061. Elevated near SIDE three-quarter camera shows elbow hinge and entire bar. Lie supine along FLAT horizontal bench, head back pelvis supported and feet planted floor. Hold ONE short STRAIGHT barbell with modest symmetric plates, OVERHAND grip hands shoulder width. Left upper arms vertical above chest with elbows extended, bar above shoulders/chest. Right UPPER ARMS remain SAME vertical position, flex BOTH elbows about90degrees so forearms angle back and bar approaches forehead without contact, maintain space above face. Not bench press: do not lower upper arms toward sides of chest. Neutral wrists hands firmly grip bar, no bar through skull or fingers. Red TRICEPS posterior upper arm muscle bellies only, not chest/biceps/shoulders. Same bench feet and equipment.",
+      "inspectionNote": "Full clothing and flat bench visible. Lowered bar appears over chest rather than approaching forehead; upper-arm and wrist geometry uncertain, right shoe clipped at master edge. Block movement direction and framing correction."
+    },
+    {
+      "exerciseId": "0061",
+      "variant": "female",
+      "key": "0061-female-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Extend elbows above chest"
+        },
+        {
+          "key": "p2",
+          "caption": "Bend elbows toward forehead"
+        }
+      ],
+      "prompt": "Premium educational anatomical fitness illustration ADULT FEMALE. Pure white backdrop, realistic detailed neutral GRAYSCALE anatomical contours and proportions, crisp detail soft contact shadows. TWO equal panels broad white gutter, identical adult camera scale clothing equipment across panels. Fully opaque black sleeveless athletic top encloses chest torso sides front BACK; knee-length black shorts fully cover front sides REAR seat crotch, seams folds closed hems, shoes. No transparent clothing or missing backs or muscle cutaways. Red highlights primary target only. Full figures and equipment within frame margins. No text captions numbers arrows logos. Lying BARBELL triceps extension0061. Elevated near SIDE three-quarter camera shows elbow hinge and entire bar. Lie supine along FLAT horizontal bench, head back pelvis supported and feet planted floor. Hold ONE short STRAIGHT barbell with modest symmetric plates, OVERHAND grip hands shoulder width. Left upper arms vertical above chest with elbows extended, bar above shoulders/chest. Right UPPER ARMS remain SAME vertical position, flex BOTH elbows about90degrees so forearms angle back and bar approaches forehead without contact, maintain space above face. Not bench press: do not lower upper arms toward sides of chest. Neutral wrists hands firmly grip bar, no bar through skull or fingers. Red TRICEPS posterior upper arm muscle bellies only, not chest/biceps/shoulders. Same bench feet and equipment.",
+      "inspectionNote": "Flat bench and elbow-hinge poses with full opaque clothing. Far shoe clipped at master edge and lowered-bar clearance/range uncertain; block framing correction and qualified elbow/wrist/bar path review."
+    }
+  ]
+}

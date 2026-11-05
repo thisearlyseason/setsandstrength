@@ -1,0 +1,79 @@
+{
+  "batch": 330,
+  "runId": "a01d69f1-cf30-4fcb-be9a-05a17111a671",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "trigger": "2026-11-04T09:20:29.904Z",
+  "purpose": "batch330 scheduled male continuation",
+  "started": "2026-11-04T09:20:59.858989+00:00",
+  "completedAt": "2026-11-04T09:29:01.810327+00:00",
+  "actualToolName": "image_gen__imagegen",
+  "calls": 4,
+  "newCandidateSets": 4,
+  "exerciseIds": [
+    "3180",
+    "3181",
+    "3182",
+    "3184"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1185,
+    "remainingVariants": 10079,
+    "approvedVariants": 0,
+    "blockedVariants": 431,
+    "knownPoseImages": 2313,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 812,
+      "remainingVariants": 4820,
+      "blockedVariants": 312
+    }
+  },
+  "reviewNotes": {
+    "3180": "Prone incline bench support and two-leg raise visible with hands gripping bench and opaque shorts/glute wash. Endpoint legs appear above torso axis with lumbar arch rather than in line; block extension-range correction.",
+    "3181": "Frog-style knees-open hip lift shows lowered and raised pelvis, opaque shorts/plain glute wash and head supported. Both shoe soles face camera beside each other rather than pressing together; block defining sole-contact correction. Qualified knee/hip alignment review pending.",
+    "3182": "Weighted knees-open bridge shows plate secured on hips and raised/lowered phases with head down and opaque clothing. Feet asymmetric: one sole appears floor-planted rather than both soles pressed together. Block defining frog foot-contact correction.",
+    "3184": "Standing and squat phases with two kettlebells hanging freely from band loops at bar ends, feet planted and opaque clothes. Quad anatomical segments extend over shorts in squat phase; block cloth correction. Qualified band security, load symmetry and squat mechanics pending."
+  },
+  "blockingIssues": {
+    "3180": [
+      "Stop leg raise at torso alignment; avoid lifting above torso axis and lumbar hyperextension."
+    ],
+    "3181": [
+      "Rotate feet so soles press against each other with outer edges grounded; current soles face same direction side by side."
+    ],
+    "3182": [
+      "Show both soles pressed together with symmetric open knees and outer foot edges grounded; avoid one ordinary planted foot."
+    ],
+    "3184": [
+      "Replace quad anatomical segments over shorts with plain uniform wash on intact opaque cloth."
+    ]
+  },
+  "deferred": {},
+  "tests": 7,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "workerSyncResult": {
+    "statuses": {
+      "generated": 1185,
+      "pending": 10079
+    },
+    "remaining": 10079,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 1812966992
+  },
+  "publicationIndexUnchanged": true
+}

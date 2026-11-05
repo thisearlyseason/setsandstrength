@@ -1,0 +1,74 @@
+{
+  "runId": "3c81e6d6-87e7-49bd-b25a-905e32acf9a8",
+  "triggerTimestamp": "2026-11-04T20:13:02.644Z",
+  "batches": [
+    407,
+    408,
+    409,
+    410
+  ],
+  "generatedMasters": 15,
+  "generatedIds": [
+    "3713",
+    "3714",
+    "3715",
+    "3719",
+    "3720",
+    "3721",
+    "3726",
+    "3730",
+    "3723",
+    "3725",
+    "3727",
+    "3728",
+    "3724",
+    "3731",
+    "3729"
+  ],
+  "blocked": {
+    "3713": [
+      "Load appears in same-side hand as standing leg rather than opposite-side requirement."
+    ],
+    "3725": [
+      "Standing-panel overhead weight plate cropped at upper image boundary; regenerate with more headroom."
+    ],
+    "3724": [
+      "Chest highlight includes nipple and pectoral contour through shirt instead of plain fabric wash."
+    ],
+    "3731": [
+      "Red primary-muscle highlight appears on anterior thighs rather than posterior hamstrings."
+    ],
+    "3729": [
+      "Chest highlight again includes nipple and pectoral contour through shirt; repeated clothing-rendering defect."
+    ]
+  },
+  "coverageAfter": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1455,
+    "remainingVariants": 9809,
+    "approvedVariants": 0,
+    "blockedVariants": 552,
+    "knownPoseImages": 2905,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 1082,
+      "remainingVariants": 4550,
+      "blockedVariants": 433
+    }
+  },
+  "pipelineTests": "8 passed, 0 failed after each batch",
+  "existingUserApprovalsPreserved": 1306,
+  "approvedIndexUnchanged": true,
+  "publication": "No new assets published; existing 893 user-authorized variants preserved",
+  "anatomyReview": "pending",
+  "stopReason": "Repeated systemic chest highlight clothing failures; saved and blocked affected originals, ending run.",
+  "deferred": {
+    "3722": "Ambiguous canonical near-straight-arm rear-delt barbell mechanics; needs clarification.",
+    "3716": "Prompt planned, no original generated; deferred when repeated output defects stopped this run."
+  }
+}

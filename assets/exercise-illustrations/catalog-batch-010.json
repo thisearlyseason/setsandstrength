@@ -1,0 +1,52 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "2471",
+      "variant": "male",
+      "key": "2471-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hips down"
+        },
+        {
+          "key": "p2",
+          "caption": "Lift hips"
+        }
+      ],
+      "prompt": "Create premium anatomical exercise illustration for GLUTE BRIDGE TWO LEGS ON FLOOR (catalog2471), adult male. Approved reference provides grayscale anatomical style only; replace wall sit completely. Two equal side-by-side panels with ample white gutter, whole body and mat inside each panel. Low SIDE three-quarter camera to clearly show shoulder-hip-knee line and both feet. Same person, camera, mat, clothing and scale. Left panel: lie supine on thin gray mat, head upper back and pelvis resting on mat, knees bent about90degrees, both soles flat hip-width apart, arms beside body palms down. Right panel: same feet stay planted in same location, pelvis elevated so shoulders hips knees form a straight sloping line. Weight supported by upper back/shoulders and both feet, head remains resting naturally; no neck bridge, no lumbar overextension, knees tracking forward. Arms remain beside torso resting on mat. Full opaque black sleeveless athletic top with continuous torso back chest coverage, fully enclosed knee-length black shorts with complete rear seat crotch front sides, real seams folds and closed leg openings, shoes. Red gluteal-region teaching overlay ON INTACT shorts over buttocks only, never transparent clothing or exposed glute anatomy. Underlying cloth stays visibly opaque; no red on thighs or abs. Crisp detailed grayscale anatomical contours on visible limbs, realistic proportions, white background, soft contact shadows, no flesh-tone photograph. No words labels arrows numbers or logos.",
+      "inspectionNote": "Visual check: two bridge positions, supported head/shoulders and planted soles, intact opaque garments. Overlay appears anterior to gluteal target; qualified boundary review or correction required.",
+      "blockingIssues": [
+        "Confirm or correct red overlay to posterior gluteal region rather than anterior hip."
+      ]
+    },
+    {
+      "exerciseId": "2471",
+      "variant": "female",
+      "key": "2471-female-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hips down"
+        },
+        {
+          "key": "p2",
+          "caption": "Lift hips"
+        }
+      ],
+      "prompt": "Create premium anatomical exercise illustration for GLUTE BRIDGE TWO LEGS ON FLOOR (catalog2471), adult female. Approved reference provides grayscale anatomical style only; replace wall sit completely. Two equal side-by-side panels with ample white gutter, whole body and mat inside each panel. Low SIDE three-quarter camera to clearly show shoulder-hip-knee line and both feet. Same person, camera, mat, clothing and scale. Left panel: lie supine on thin gray mat, head upper back and pelvis resting on mat, knees bent about90degrees, both soles flat hip-width apart, arms beside body palms down. Right panel: same feet stay planted in same location, pelvis elevated so shoulders hips knees form a straight sloping line. Weight supported by upper back/shoulders and both feet, head remains resting naturally; no neck bridge, no lumbar overextension, knees tracking forward. Arms remain beside torso resting on mat. Full opaque black sleeveless athletic top with continuous torso back chest coverage, fully enclosed knee-length black shorts with complete rear seat crotch front sides, real seams folds and closed leg openings, shoes. Red gluteal-region teaching overlay ON INTACT shorts over buttocks only, never transparent clothing or exposed glute anatomy. Underlying cloth stays visibly opaque; no red on thighs or abs. Crisp detailed grayscale anatomical contours on visible limbs, realistic proportions, white background, soft contact shadows, no flesh-tone photograph. No words labels arrows numbers or logos.",
+      "inspectionNote": "Visual check: two bridge positions, supported head/shoulders and planted soles, intact opaque garments. Overlay appears anterior to gluteal target; qualified boundary review or correction required.",
+      "blockingIssues": [
+        "Confirm or correct red overlay to posterior gluteal region rather than anterior hip."
+      ]
+    }
+  ]
+}

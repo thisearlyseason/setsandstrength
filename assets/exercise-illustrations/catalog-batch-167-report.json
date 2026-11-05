@@ -1,0 +1,65 @@
+{
+  "batch": 167,
+  "runId": "085b5cb0-99d8-486a-8cc5-9d1750c2d4dc",
+  "trigger": "2026-11-03T08:52:58.082Z",
+  "completedAt": "2026-11-03T08:58:13.231711+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 2,
+  "generationCalls": 2,
+  "exerciseIds": [
+    "1221"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 648,
+    "remainingVariants": 10616,
+    "approvedVariants": 0,
+    "blockedVariants": 221,
+    "knownPoseImages": 1302,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Two standing lever shrug candidates, four poses, two built-in calls. Relaxed to raised shoulders, straight arms gripping low side handles, exposed upper trapezius red. Fine grayscale anatomy and full opaque clothes retained. Qualified machine pivot/lever/plate travel consistency, shrug symmetry, grip orientation, neck alignment and proportions require human review. Every original and exact prompt saved; no anatomy/clothing approval or publication. Original project artwork rendering style only, no upstream licensed input. Seven pipeline checks do not establish anatomical accuracy.",
+  "metadataConflictsDeferred": {
+    "1220": "Bench-press-style calf machine seat/press plate load mechanism undefined."
+  },
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 1028855081,
+  "savedMasters": [
+    {
+      "exerciseId": "1221",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1221-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1576892,
+        "sha256": "de8df5dc53fe04f265f61dd684d51b37a4becc33aeef907d85af451bc9323eb2"
+      }
+    },
+    {
+      "exerciseId": "1221",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1221-female-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1539528,
+        "sha256": "d588957c4598448e842d6f6d17664efaa9ef1c2e4a8747884513233d6dd87194"
+      }
+    }
+  ]
+}

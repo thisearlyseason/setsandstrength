@@ -1,0 +1,76 @@
+{
+  "batch": 325,
+  "runId": "8c2efd34-76f3-415b-a340-2742a0542ba2",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "trigger": "2026-11-04T08:33:29.227Z",
+  "purpose": "batch325 scheduled male continuation",
+  "started": "2026-11-04T08:33:53.575545+00:00",
+  "completedAt": "2026-11-04T08:40:41.597013+00:00",
+  "actualToolName": "image_gen__imagegen",
+  "calls": 4,
+  "newCandidateSets": 4,
+  "exerciseIds": [
+    "3088",
+    "3092",
+    "3095",
+    "3102"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1167,
+    "remainingVariants": 10097,
+    "approvedVariants": 0,
+    "blockedVariants": 419,
+    "knownPoseImages": 2276,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 794,
+      "remainingVariants": 4838,
+      "blockedVariants": 300
+    }
+  },
+  "reviewNotes": {
+    "3088": "Squat fingertips down, airborne two-foot hop and squat landing visible. Quad fibers/segments extend over shorts in squat phases; block fabric correction. Qualified landing alignment and forward jump trajectory review pending.",
+    "3092": "Squat followed by clearly alternating left/right high knee lifts with opposite support foot grounded. Opaque clothes and smooth quad highlight visible. Qualified review of support-leg alignment, squat mechanics and range pending.",
+    "3095": "Load, airborne lateral leap and opposite-foot landing visible with opaque clothes. First phase highlights non-support hip rather than loaded right glute; unsolicited bench also distracts. Block muscle mapping correction; qualified landing/airborne anatomy review pending.",
+    "3102": "Chest-supported bilateral narrow neutral lever row extended and pulled phases shown, feet on platforms and torso stable. Lat overlays contain clear anatomical fiber shapes through tank; block cloth overlay correction. Qualified machine linkage and chest contact review pending."
+  },
+  "blockingIssues": {
+    "3088": [
+      "Replace quad anatomical fibers through shorts with plain uniform wash on intact opaque fabric."
+    ],
+    "3095": [
+      "Highlight loaded/support right glute in first phase; current red on opposite hip. Remove unrelated bench from bodyweight drill."
+    ],
+    "3102": [
+      "Replace detailed lat fiber shapes through tank with plain uniform wash over intact opaque fabric."
+    ]
+  },
+  "deferred": {},
+  "tests": 7,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "workerSyncResult": {
+    "statuses": {
+      "generated": 1167,
+      "pending": 10097
+    },
+    "remaining": 10097,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 1786554148
+  },
+  "publicationIndexUnchanged": true
+}

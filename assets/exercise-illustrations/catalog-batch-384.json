@@ -1,0 +1,37 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "3561",
+      "variant": "male",
+      "key": "3561-male-anatomical-white-v1",
+      "prompt": "THREE equal panels horizontal row GLUTE BRIDGE MARCH. Same SIDE three-quarter view adult male supine on floor mat, arms palms down beside torso, upper back head stay supported on mat. First both feet flat knees bent hips raised bridge straight shoulders hips knees. Second keep hips level lift RIGHT foot drive RIGHT knee toward chest LEFT foot stays flat. Third mirror LEFT knee toward chest RIGHT foot flat. Distinct alternate legs. Small plain red wash over intact shorts seat for GLUTES only. Premium detailed grayscale anatomical adult MALE illustration pure white background soft shadows crisp realistic muscle anatomy joints. Original project reference STYLE ONLY. Same model camera scale garments equipment all panels. Complete opaque BLACK tank mid-thigh shorts wrap front sides back seat crotch seams folds hems. Covered red highlight PLAIN UNIFORM wash NO anatomical fibers segments lobes cutaways transparency. Full body hands feet equipment inside every panel generous margins. No text arrows labels logos numbers.\n",
+      "layout": {
+        "columns": 3,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hold raised bridge with both feet flat."
+        },
+        {
+          "key": "p2",
+          "caption": "Keep hips level and march right knee toward chest."
+        },
+        {
+          "key": "p3",
+          "caption": "Switch feet and march left knee toward chest."
+        }
+      ],
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream media used.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only"
+      },
+      "inspectionNote": "Real output inspected. Three horizontal panels show raised bridge and a unilateral march, but panels 2 and 3 repeat the same lifted leg. Opaque black tank and shorts with plain red seat wash retained. Human anatomy review pending; no approval or publication.",
+      "blockingIssues": [
+        "Panels 2 and 3 repeat the same lifted leg instead of alternating march."
+      ]
+    }
+  ]
+}

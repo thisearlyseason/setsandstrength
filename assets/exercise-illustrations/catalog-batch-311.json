@@ -1,0 +1,342 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "2899",
+      "variant": "male",
+      "key": "2899-male-anatomical-white-v1",
+      "layout": {
+        "columns": 1,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hold a forearm side plank with knees bent and stacked; keep a straight line from knees to head, then switch sides."
+        }
+      ],
+      "prompt": "BEGINNER BENT KNEE SIDE PLANK STATIC HOLD ONEPOSEONLY. FRONTthreequarter view. LEFTFOREARMflatFLOOR elbowdirectlyUNDERLEFTshoulder elbow90 forearmforward. BOTHKNEESBENT90 stackedonFLOOR lowerLEFTknee/shinCONTACTmat, anklesstackedbehind. LIFTHIPS fromfloor STRAIGHTLINE HEADSHOULDERHIPKNEE, hipspelvisstacked facingcamera nottwisted. RIGHThandonrightHIP neckneutral shoulderdown. Primary ABS/OBLIQUES onlySMALLPLAINUNIFORM softredwash lateralwaist intactblacktank NOmusclebands nofibers allotherregionsgrayblack. Premium detailed adult MALE grayscale anatomical illustration. Approved original project reference STYLE ONLY ignore its pose/highlights. Pure white background soft shadows crisp detailed exposed gray muscle contours realistic proportions equipment. Opaque BLACK tank and black mid-thigh shorts fully wrap front sides back seat crotch normal fabric seams folds hems black shoes. No anatomy through fabric no cutaways. Covered primary highlight SMALL PLAIN UNIFORM soft red COLOR WASH on intact fabric no fibers lobes striations. Only specified primary red all other regions gray/black. Equal cells same person camera equipment whole body in frame generous margins. Exactly two arms hands five fingers two legs feet. No text captions labels arrows logos.",
+      "inspectionNote": "Real output inspected. Bent-knee forearm side support with knees stacked, upper hand at hip and opaque clothing. Hips appear close to/on floor rather than clear knee-to-head line, and oblique overlay has anatomy-like bands; block support height/cloth correction. Qualified review needed for elbow under shoulder, pelvis stacking and neutral neck. Human anatomy review pending. No approval or publication.",
+      "blockingIssues": [
+        "Lift hips clearly off floor into straight knee-to-head line.",
+        "Remove anatomy-like oblique bands through tank; use plain uniform wash."
+      ],
+      "canonicalName": "side plank (beginner)",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "abs"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Bent-knee forearm side support with knees stacked, upper hand at hip and opaque clothing. Hips appear close to/on floor rather than clear knee-to-head line, and oblique overlay has anatomy-like bands; block support height/cloth correction. Qualified review needed for elbow under shoulder, pelvis stacking and neutral neck. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2899-male-anatomical-white-v1-p1-5e8498807ff8.webp",
+          "width": 1200,
+          "height": 600,
+          "bytes": 27842,
+          "sha256": "5e8498807ff85ff339b281b5ef8a02ff2923d9390298bef8565c9461196f0d5a"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-311.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2899-male-anatomical-white-v1-thumb-a1ce41297c8a.webp",
+        "width": 240,
+        "height": 120,
+        "bytes": 1966,
+        "sha256": "a1ce41297c8a06852025574f00d8bbadc689447e3a58ce88a5e84b99de821041"
+      },
+      "processingSignature": "2541fb85a2995b15293c4f9ff056af163d8d8fffa880300e9541fe6382c96a20",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2899-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1477226,
+        "sha256": "7b672ae48d6a78115079f532824bdc0edc03943c6d863648bb5c0ded7b9b9901"
+      }
+    },
+    {
+      "exerciseId": "2900",
+      "variant": "male",
+      "key": "2900-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand facing a preacher pad with upper arms supported, holding the EZ bar underhand."
+        },
+        {
+          "key": "p2",
+          "caption": "Curl toward shoulders without lifting upper arms from pad; lower almost straight."
+        }
+      ],
+      "prompt": "STANDING EZ BAR PREACHER CURL TWOequalpanels SAME SIDEfrontthreequartercamera. StandfeetfloorbehindHIGH PREACHERPAD torsoagainstupperpadedge noseatneeded. BOTHupperarmsrestBACKSURFACESFULLY onslopingpad armpitstoelbows, elbowsatLOWERpadedge fixed. EZbarbothhandsUNDERHAND palmsUP secure angledgrips shoulderwidth. LEFTSTART elbowsnearlystraight forearmsextendDOWNbeyondpadedge barbelowelbows. RIGHTEND CURLelbows barUPtowardshoulders forearmsrotate upperarmsandELBOWSstaySAMEpadcontact no lift, wristsstraight torsofeetunchanged. Barhas2platesoutsidehands normalwavegeometry. Primary BOTHBICEPS onlyred exposedfrontupperarms chesttankBLACK. Premium detailed adult MALE grayscale anatomical illustration. Approved original project reference STYLE ONLY ignore its pose/highlights. Pure white background soft shadows crisp detailed exposed gray muscle contours realistic proportions equipment. Opaque BLACK tank and black mid-thigh shorts fully wrap front sides back seat crotch normal fabric seams folds hems black shoes. No anatomy through fabric no cutaways. Covered primary highlight SMALL PLAIN UNIFORM soft red COLOR WASH on intact fabric no fibers lobes striations. Only specified primary red all other regions gray/black. Equal cells same person camera equipment whole body in frame generous margins. Exactly two arms hands five fingers two legs feet. No text captions labels arrows logos.",
+      "inspectionNote": "Real output inspected. Standing underhand EZ curl with preacher pad, feet grounded and biceps red only. Elbows shift upward on pad and upper arms lift away from full support in finish; block fixed support correction. Opaque clothing. Qualified review of pad height, grip angle, wrist stacking and endpoint required. Human anatomy review pending. No approval or publication.",
+      "blockingIssues": [
+        "Keep upper arms fully supported and elbows fixed near lower pad edge throughout curl; finish shifts them upward."
+      ],
+      "canonicalName": "ez barbell standing preacher curl",
+      "styleVersion": "white-v1",
+      "equipment": "ez barbell",
+      "primaryMuscles": [
+        "biceps"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Standing underhand EZ curl with preacher pad, feet grounded and biceps red only. Elbows shift upward on pad and upper arms lift away from full support in finish; block fixed support correction. Opaque clothing. Qualified review of pad height, grip angle, wrist stacking and endpoint required. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2900-male-anatomical-white-v1-p1-2549ae3f9a25.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 41428,
+          "sha256": "2549ae3f9a25dbad1fe13592788fba63e0905ed2d4d4ff8cd26f5031c126c382"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/2900-male-anatomical-white-v1-p2-4c5098d0223c.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 37876,
+          "sha256": "4c5098d0223c31a9cea328d80a6faafd702828d1c4ee5bd5e4118b9957275a27"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-311.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2900-male-anatomical-white-v1-thumb-443c2ae2e770.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 4426,
+        "sha256": "443c2ae2e770ceafbe758e1c2c94dca21195d4600c932d0d4b39b09e63b2cdab"
+      },
+      "processingSignature": "08487aa6fa6922853dc6f76e224b7a3386446afd101f9412daa92a14e1bd6707",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2900-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1612132,
+        "sha256": "8aa38f26e269534018b45169c7cb5c3fcc8ee06c3d493964ed54e9c86078f864"
+      }
+    },
+    {
+      "exerciseId": "2910",
+      "variant": "male",
+      "key": "2910-male-anatomical-white-v1",
+      "layout": {
+        "columns": 3,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand tall with one dumbbell at your side, shoulders level."
+        },
+        {
+          "key": "p2",
+          "caption": "Walk forward with steady steps without leaning toward the weight."
+        },
+        {
+          "key": "p3",
+          "caption": "Continue with the opposite step, then set down safely and switch hands."
+        }
+      ],
+      "prompt": "DUMBBELL SUITCASE CARRY THREEequalpanels SAME REARthreequartercamera. ONE NORMAL TWOHEADED DUMBBELL inSAME RIGHTHAND byrightside ALLposes armsSTRAIGHT securegrip handlebetweenheads noextraweights. P1 tallfeetfloor ready. P2 LEFTfootforwardmidstride RIGHTfootbehindheelraised. P3 RIGHTfootforwardoppositeMIDSTRIDE LEFTfootbehindheelraised, clearalternationwalkingforward samebodyorientation. ShouldersLEVEL ribsstackedhips torsotall nolean towardweight no shrug. Primary BOTHGLUTES onlySMALLPLAINUNIFORMsoftredwash onSEAT rearofintactblackshorts ALLposes nofibers noanatomythroughfabric otherregionsgrayblack. Premium detailed adult MALE grayscale anatomical illustration. Approved original project reference STYLE ONLY ignore its pose/highlights. Pure white background soft shadows crisp detailed exposed gray muscle contours realistic proportions equipment. Opaque BLACK tank and black mid-thigh shorts fully wrap front sides back seat crotch normal fabric seams folds hems black shoes. No anatomy through fabric no cutaways. Covered primary highlight SMALL PLAIN UNIFORM soft red COLOR WASH on intact fabric no fibers lobes striations. Only specified primary red all other regions gray/black. Equal cells same person camera equipment whole body in frame generous margins. Exactly two arms hands five fingers two legs feet. No text captions labels arrows logos.",
+      "inspectionNote": "Real output inspected. One dumbbell carried at side with upright walking sequence and glute wash over opaque shorts. Final panel has extra empty arm/hand in addition to weight arm and far arm; block anatomy correction. Qualified review of opposite steps, level shoulders and secure grip required. Human anatomy review pending. No approval or publication.",
+      "blockingIssues": [
+        "Final panel has extra arm/hand; correct to exactly two anatomically connected arms/hands."
+      ],
+      "canonicalName": "dumbbell suitcase carry",
+      "styleVersion": "white-v1",
+      "equipment": "dumbbell",
+      "primaryMuscles": [
+        "glutes"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. One dumbbell carried at side with upright walking sequence and glute wash over opaque shorts. Final panel has extra empty arm/hand in addition to weight arm and far arm; block anatomy correction. Qualified review of opposite steps, level shoulders and secure grip required. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2910-male-anatomical-white-v1-p1-58db2a512d4a.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 16528,
+          "sha256": "58db2a512d4afdf04490f19280537f6f6a78c1ddc84214cc2790ad87f74b8005"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/2910-male-anatomical-white-v1-p2-da5c93d9c425.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 19256,
+          "sha256": "da5c93d9c425a89c328884cd8f4e805e07b2e5406e9b3d37d2c85a1fbc29e790"
+        },
+        {
+          "pose": "p3",
+          "path": "/workout/illustration-pilot/2910-male-anatomical-white-v1-p3-437a44fc1c27.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 19806,
+          "sha256": "437a44fc1c27f2c5f731ac5c04a2afc9b83dbeb4cd48df76d2848b794c170494"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-311.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2910-male-anatomical-white-v1-thumb-74d04b5d4464.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2260,
+        "sha256": "74d04b5d4464729a54344ddba5f6d8f0189318ce520dab7c54020601b33c2032"
+      },
+      "processingSignature": "f299cece83611ad76337041c7ace6ccc33889e8012c6f46cb9045d9021ab1b7b",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2910-male-anatomical-white-v1.png",
+        "width": 2172,
+        "height": 724,
+        "bytes": 1306532,
+        "sha256": "bc634239c481e807549e9ab030670f4200f4a14d57b7aef0f857f94248109f52"
+      }
+    },
+    {
+      "exerciseId": "2895",
+      "variant": "male",
+      "key": "2895-male-anatomical-white-v1",
+      "layout": {
+        "columns": 3,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Start in high plank with feet slightly wide and core braced."
+        },
+        {
+          "key": "p2",
+          "caption": "Reach one hand forward without twisting hips, then return it."
+        },
+        {
+          "key": "p3",
+          "caption": "Reach the opposite hand forward, keeping the other palm and both toes grounded."
+        }
+      ],
+      "prompt": "HIGH PLANK ARM LIFT THREEequalpanels SAME SIDEfrontthreequartercamera headLEFTfeetRIGHT. P1 BOTH palmsfloorunder shoulders elbowsstraight feetSLIGHTLYWIDE toesfloor straightheadhipheel. P2 LEFTARMreachesFORWARD horizontal inlineTORSO, RIGHTPALMfloor andBOTHTOESfloor, pelvisLEVEL shoulderssquare notwist. P3 LEFTPALMbackfloor RIGHTARMreachesFORWARD instead, BOTHTOESfloor samepositions, clearlyOPPOSITEhandplanted no duplicates. Neutralneck gazedown no lumbararch. Primary ABS onlysmallPLAINUNIFORMredwash frontabdomen intacttank ALLposes NOsegmentsfibers chestblack otherregionsgrayblack. Premium detailed adult MALE grayscale anatomical illustration. Approved original project reference STYLE ONLY ignore its pose/highlights. Pure white background soft shadows crisp detailed exposed gray muscle contours realistic proportions equipment. Opaque BLACK tank and black mid-thigh shorts fully wrap front sides back seat crotch normal fabric seams folds hems black shoes. No anatomy through fabric no cutaways. Covered primary highlight SMALL PLAIN UNIFORM soft red COLOR WASH on intact fabric no fibers lobes striations. Only specified primary red all other regions gray/black. Equal cells same person camera equipment whole body in frame generous margins. Exactly two arms hands five fingers two legs feet. No text captions labels arrows logos.",
+      "inspectionNote": "Real output inspected. High plank and visibly opposite arm reaches with supporting palms/toes grounded, feet wider and hips near level. Abdomen red wash on opaque tank. Qualified review needed for resisting torso rotation, neutral neck, hand-under-shoulder alignment and exact abdominal mapping. Human anatomy review pending. No approval or publication.",
+      "canonicalName": "front plank with arm lift (push up position)",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "abs"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. High plank and visibly opposite arm reaches with supporting palms/toes grounded, feet wider and hips near level. Abdomen red wash on opaque tank. Qualified review needed for resisting torso rotation, neutral neck, hand-under-shoulder alignment and exact abdominal mapping. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2895-male-anatomical-white-v1-p1-9169180dbdc2.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 20612,
+          "sha256": "9169180dbdc2f308abc6e33a68ff59f252c32d4f07b20ff6c357477f90112607"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/2895-male-anatomical-white-v1-p2-c95e81f9fa0d.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 18642,
+          "sha256": "c95e81f9fa0d61ec4818c56fda8a7bcfe858736078190c1cef9388dd95c13bbd"
+        },
+        {
+          "pose": "p3",
+          "path": "/workout/illustration-pilot/2895-male-anatomical-white-v1-p3-94961bb9f29e.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 18740,
+          "sha256": "94961bb9f29eac761fa0a4b929eec810a9751ede94ee8f161a84054f5e3887d6"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-311.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2895-male-anatomical-white-v1-thumb-362f5d9a336e.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2822,
+        "sha256": "362f5d9a336ea85ae451fb77932cfa857d76d347d407b822abdcf3319ba58070"
+      },
+      "processingSignature": "2487ad278f2a50670bcfe353ba78fbbc4942ea30afa833246f5d2fe0e49af856",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2895-male-anatomical-white-v1.png",
+        "width": 2172,
+        "height": 724,
+        "bytes": 1365707,
+        "sha256": "a6171eea1889e314224c521a5925c546259e79779fe21e64fce8900c45da6ca5"
+      }
+    }
+  ]
+}

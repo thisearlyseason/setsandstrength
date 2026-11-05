@@ -1,0 +1,528 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "0688",
+      "variant": "male",
+      "key": "0688-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hang from the bar with an overhand grip, arms straight and shoulders elevated."
+        },
+        {
+          "key": "p2",
+          "caption": "Keep elbows straight while drawing shoulder blades down and back to lift the body slightly; lower slowly."
+        }
+      ],
+      "detail": "SCAPULAR PULL-UP, TWO square panels, same adult and equipment, REAR three-quarter view so scapulae/neck/back visible. Standalone gray pull-up frame with full top horizontal bar and both vertical uprights contained in each panel, bar safely overhead. BOTH hands wrap bar overhand pronated palms facing AWAY from face, slightly wider shoulder width, closed thumbs. LEFT passive hang: both elbows fully STRAIGHT overhead, shoulders elevated toward ears, body hanging long with feet off floor. RIGHT active scapular depression: arms STILL COMPLETELY STRAIGHT, same hand height on bar, shoulders pull DOWN away from ears, chest/body rises only a few centimeters, feet slightly higher. This is NOT elbow-flexion pullup, chin stays far below bar. Same long body straight legs together and feet off floor, no jump or kneeswing. Shoulder elevation/depression difference visible in neck/shoulder distance, elbows 180 degrees BOTH. Primary lower TRAPEZIUS one soft diffuse blurred red patch on intact upper/mid BACK of black shirt, no lats/biceps highlight, full opaque fabric behind scapulae, no muscle lines through cloth. Fine exposed upper trapezius/neck, delts/arms/calf grayscale detail. No bench.",
+      "prompt": "Original educational exercise illustration. Attached original project artwork STYLE ONLY never pose/equipment reference. Neutral adult MALE, fine detailed grayscale anatomical fibers on EXPOSED muscles, pure white background. Fully OPAQUE matte BLACK sleeveless shirt covers torso front sides back abdomen; loose knee-length BLACK shorts wrap both thighs front sides rear seat crotch, closed seams/hems, natural broad folds. Black trainers. Red primary highlights only as specified; over cloth ONE smooth diffuse blurred tint independent of muscular divisions, no rays/fibers/sixpack lines. Whole body fingers shoes and apparatus inside generous white margins. No embedded text/labels/arrows/logos. SCAPULAR PULL-UP, TWO square panels, same adult and equipment, REAR three-quarter view so scapulae/neck/back visible. Standalone gray pull-up frame with full top horizontal bar and both vertical uprights contained in each panel, bar safely overhead. BOTH hands wrap bar overhand pronated palms facing AWAY from face, slightly wider shoulder width, closed thumbs. LEFT passive hang: both elbows fully STRAIGHT overhead, shoulders elevated toward ears, body hanging long with feet off floor. RIGHT active scapular depression: arms STILL COMPLETELY STRAIGHT, same hand height on bar, shoulders pull DOWN away from ears, chest/body rises only a few centimeters, feet slightly higher. This is NOT elbow-flexion pullup, chin stays far below bar. Same long body straight legs together and feet off floor, no jump or kneeswing. Shoulder elevation/depression difference visible in neck/shoulder distance, elbows 180 degrees BOTH. Primary lower TRAPEZIUS one soft diffuse blurred red patch on intact upper/mid BACK of black shirt, no lats/biceps highlight, full opaque fabric behind scapulae, no muscle lines through cloth. Fine exposed upper trapezius/neck, delts/arms/calf grayscale detail. No bench.",
+      "inspectionNote": "Rear-view hang and small scapular lift with elbows apparently straight, hands fixed and feet off floor. Full frame contained with narrow top/base margins. Diffuse trapezius red on opaque back shirt, exposed grayscale anatomy detailed. Qualified shoulder depression mechanics, overhand grip, elbow extension and identical body scale review pending.",
+      "canonicalName": "scapular pull-up",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "traps"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Rear-view hang and small scapular lift with elbows apparently straight, hands fixed and feet off floor. Full frame contained with narrow top/base margins. Diffuse trapezius red on opaque back shirt, exposed grayscale anatomy detailed. Qualified shoulder depression mechanics, overhand grip, elbow extension and identical body scale review pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0688-male-anatomical-white-v1-p1-45d43691ac98.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 22160,
+          "sha256": "45d43691ac9880d36a92a21a0ce58ff92217a99448829b01dd0c43b0eee47d10"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0688-male-anatomical-white-v1-p2-8522519b5a2d.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 22438,
+          "sha256": "8522519b5a2d24e414cbaf7947f8c38f7c035fc6a37bf55dfb8fc97ffedce742"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0688-male-anatomical-white-v1-thumb-3a6b4aeba386.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2510,
+        "sha256": "3a6b4aeba38685e776b4e33514242179a6861a286f4265c6821a2812c394cb14"
+      },
+      "processingSignature": "9ac097334ad956ea00c164fc1cd53de54ee8ba98a1c2bf9bd8349037d8fb0bfa",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0688-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1299288,
+        "sha256": "0a515db5b4d05a5ab58f2a96fa61040caca490ac810ff40c8a65f5678c0c8e00"
+      }
+    },
+    {
+      "exerciseId": "0688",
+      "variant": "female",
+      "key": "0688-female-anatomical-white-v2",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hang from the bar with an overhand grip, arms straight and shoulders elevated."
+        },
+        {
+          "key": "p2",
+          "caption": "Keep elbows straight while drawing shoulder blades down and back to lift the body slightly; lower slowly."
+        }
+      ],
+      "detail": "SCAPULAR PULL-UP, TWO square panels, same adult and equipment, REAR three-quarter view so scapulae/neck/back visible. Standalone gray pull-up frame with full top horizontal bar and both vertical uprights contained in each panel, bar safely overhead. BOTH hands wrap bar overhand pronated palms facing AWAY from face, slightly wider shoulder width, closed thumbs. LEFT passive hang: both elbows fully STRAIGHT overhead, shoulders elevated toward ears, body hanging long with feet off floor. RIGHT active scapular depression: arms STILL COMPLETELY STRAIGHT, same hand height on bar, shoulders pull DOWN away from ears, chest/body rises only a few centimeters, feet slightly higher. This is NOT elbow-flexion pullup, chin stays far below bar. Same long body straight legs together and feet off floor, no jump or kneeswing. Shoulder elevation/depression difference visible in neck/shoulder distance, elbows 180 degrees BOTH. Primary lower TRAPEZIUS one soft diffuse blurred red patch on intact upper/mid BACK of black shirt, no lats/biceps highlight, full opaque fabric behind scapulae, no muscle lines through cloth. Fine exposed upper trapezius/neck, delts/arms/calf grayscale detail. No bench.",
+      "prompt": "Correct original project TWO-panel female SCAPULAR PULL-UP. Keep identical bar/frame, hand grip positions, straight elbows 180 degrees, body proportions/scale, legs together feet off floor, opaque clothing and grayscale anatomy. LEFT passive hang shoulders clearly SHRUGGED UP toward ears, neck appears short. RIGHT ACTIVE: depress shoulder girdle DOWN away from ears and retract shoulder blades, neck visibly LONGER between ears and shoulders; chest/head/pelvis/feet rise together only 3-5 cm because scapular action while hands FIXED on same bar. Do NOT bend either elbow; hands/bar stay unchanged. Chin remains well below bar. Clearly distinguish passive and active shoulder mechanics without changing model size. Maintain diffuse red lower-trapezius patch on opaque black back shirt, full opaque shorts front sides back seat crotch. Increase white margin around full apparatus. No text.",
+      "inspectionNote": "Shoulder depression clearer: passive shrugged shoulders versus longer neck in active phase, straight elbows and small body lift retained. Full apparatus now wider margins. Correction introduced radial rays in red back-shirt overlay; blocked for cloth correction and qualified mechanics/grip review.",
+      "canonicalName": "scapular pull-up",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "traps"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0688-female-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "status": "generated",
+        "costUSD": null
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Shoulder depression clearer: passive shrugged shoulders versus longer neck in active phase, straight elbows and small body lift retained. Full apparatus now wider margins. Correction introduced radial rays in red back-shirt overlay; blocked for cloth correction and qualified mechanics/grip review.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0688-female-anatomical-white-v2-p1-96fc06293645.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 21944,
+          "sha256": "96fc0629364595cd80e6abf421604d85d744381e206a7bed4ece8faefbf553d8"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0688-female-anatomical-white-v2-p2-b311aac298be.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 22398,
+          "sha256": "b311aac298be8a953bde596e2d0cfa3bb4390e54c218bb5857290f37b8b4a7ec"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0688-female-anatomical-white-v2-thumb-bc9085eaa12c.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2676,
+        "sha256": "bc9085eaa12cb0431ec1ef183c305df2647e1c6e1522f339a1680b01d4b597f6"
+      },
+      "processingSignature": "27fb40de537a9c1ec13cb55477b5799cabe214a59cc5c6b5ea42d6145309ca7f",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0688-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1263977,
+        "sha256": "b4a2b687871c93aab8d30200cfb227b033dc0416c51cade74425bc4b7956c001"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0688",
+          "variant": "female",
+          "key": "0688-female-anatomical-white-v1",
+          "layout": {
+            "columns": 2,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Hang from the bar with an overhand grip, arms straight and shoulders elevated."
+            },
+            {
+              "key": "p2",
+              "caption": "Keep elbows straight while drawing shoulder blades down and back to lift the body slightly; lower slowly."
+            }
+          ],
+          "detail": "SCAPULAR PULL-UP, TWO square panels, same adult and equipment, REAR three-quarter view so scapulae/neck/back visible. Standalone gray pull-up frame with full top horizontal bar and both vertical uprights contained in each panel, bar safely overhead. BOTH hands wrap bar overhand pronated palms facing AWAY from face, slightly wider shoulder width, closed thumbs. LEFT passive hang: both elbows fully STRAIGHT overhead, shoulders elevated toward ears, body hanging long with feet off floor. RIGHT active scapular depression: arms STILL COMPLETELY STRAIGHT, same hand height on bar, shoulders pull DOWN away from ears, chest/body rises only a few centimeters, feet slightly higher. This is NOT elbow-flexion pullup, chin stays far below bar. Same long body straight legs together and feet off floor, no jump or kneeswing. Shoulder elevation/depression difference visible in neck/shoulder distance, elbows 180 degrees BOTH. Primary lower TRAPEZIUS one soft diffuse blurred red patch on intact upper/mid BACK of black shirt, no lats/biceps highlight, full opaque fabric behind scapulae, no muscle lines through cloth. Fine exposed upper trapezius/neck, delts/arms/calf grayscale detail. No bench.",
+          "prompt": "Original educational exercise illustration. Attached original project artwork STYLE ONLY never pose/equipment reference. Neutral adult FEMALE, fine detailed grayscale anatomical fibers on EXPOSED muscles, pure white background. Fully OPAQUE matte BLACK sleeveless shirt covers torso front sides back abdomen; loose knee-length BLACK shorts wrap both thighs front sides rear seat crotch, closed seams/hems, natural broad folds. Black trainers. Red primary highlights only as specified; over cloth ONE smooth diffuse blurred tint independent of muscular divisions, no rays/fibers/sixpack lines. Whole body fingers shoes and apparatus inside generous white margins. No embedded text/labels/arrows/logos. SCAPULAR PULL-UP, TWO square panels, same adult and equipment, REAR three-quarter view so scapulae/neck/back visible. Standalone gray pull-up frame with full top horizontal bar and both vertical uprights contained in each panel, bar safely overhead. BOTH hands wrap bar overhand pronated palms facing AWAY from face, slightly wider shoulder width, closed thumbs. LEFT passive hang: both elbows fully STRAIGHT overhead, shoulders elevated toward ears, body hanging long with feet off floor. RIGHT active scapular depression: arms STILL COMPLETELY STRAIGHT, same hand height on bar, shoulders pull DOWN away from ears, chest/body rises only a few centimeters, feet slightly higher. This is NOT elbow-flexion pullup, chin stays far below bar. Same long body straight legs together and feet off floor, no jump or kneeswing. Shoulder elevation/depression difference visible in neck/shoulder distance, elbows 180 degrees BOTH. Primary lower TRAPEZIUS one soft diffuse blurred red patch on intact upper/mid BACK of black shirt, no lats/biceps highlight, full opaque fabric behind scapulae, no muscle lines through cloth. Fine exposed upper trapezius/neck, delts/arms/calf grayscale detail. No bench.",
+          "inspectionNote": "Rear-view hands on bar, straight elbows, feet off floor and full frame contained. Clothing opaque, red diffuse. Active scapular depression is not clearly distinct from passive hang; correction planned. Qualified grip and scale continuity review pending.",
+          "canonicalName": "scapular pull-up",
+          "styleVersion": "white-v1",
+          "equipment": "body weight",
+          "primaryMuscles": [
+            "traps"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Rear-view hands on bar, straight elbows, feet off floor and full frame contained. Clothing opaque, red diffuse. Active scapular depression is not clearly distinct from passive hang; correction planned. Qualified grip and scale continuity review pending.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0688-female-anatomical-white-v1-p1-156ebf3c448d.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 23446,
+              "sha256": "156ebf3c448d7c42b0fc7e700df8a9697e8c75d41ffe1f76e7e5f62a7b7ba182"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0688-female-anatomical-white-v1-p2-9ce717a4a6c9.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 23376,
+              "sha256": "9ce717a4a6c9450d62199760f25ef0266665780eab06d8dfcaf795a568a1239c"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0688-female-anatomical-white-v1-thumb-9bf04ce5252d.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 2876,
+            "sha256": "9bf04ce5252d9481f415c514731be270cb0308c8a78f492ba0b9bc5d981e3cc0"
+          },
+          "processingSignature": "f5a8c74fe546ab81184c51a28f8b906daf4071e2d33a10134777350b58ed1733",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0688-female-anatomical-white-v1.png",
+            "width": 1774,
+            "height": 887,
+            "bytes": 1291382,
+            "sha256": "925581a22353efbb1bda5f9dc56678cde9e5623b84756b6b33a2116dfe599e8c"
+          }
+        }
+      ],
+      "blockingIssues": [
+        "Radial fiber-like rays introduced on opaque back-shirt highlight in active pose; requires cloth-overlay correction before approval."
+      ]
+    },
+    {
+      "exerciseId": "0692",
+      "variant": "male",
+      "key": "0692-male-anatomical-white-v2",
+      "layout": {
+        "columns": 1,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Sit with one leg straight and the other bent; hinge forward with a long back, hold gently for 20\u201330 seconds, then switch legs."
+        }
+      ],
+      "detail": "SEATED SINGLE-LEG HAMSTRING STRETCH, ONE static full-body pose side three-quarter view. Sit on floor plain thin gray mat. Near leg extended straight ahead with knee straight, heel on floor, toes pointing up; other leg bent outward, its foot resting near inner thigh of straight leg. Hinge gently FORWARD FROM HIPS with LONG straight back, hands reaching toward toes of extended leg, relaxed neutral neck aligned spine, no rounded slumped shoulders, no forced pull. Hands may rest near ankle if toes not reached. All limbs anatomically connected, two legs visible, head hands shoes within margins. Primary HAMSTRINGS highlight: ONE soft diffuse smoothly blurred red patch on POSTERIOR thigh over fully opaque BLACK shorts, no exposed thigh anatomy through fabric. Gray anatomical detail on exposed arms and calf, red nowhere else. Keep broad fabric folds and full opaque shorts rear seat crotch. No equipment or bench.",
+      "prompt": "Edit original project SINGLE static male seated hamstring stretch. Preserve exact pose, straight leg heel grounded toes up, bent opposite leg, hands ankle and long spine/hip hinge, detailed grayscale EXPOSED muscle fibers, full framing. ONLY correct shorts teaching overlay: replace red streaks with ONE smooth diffuse softly BLURRED red oval over posterior thigh on continuous opaque matte black fabric. Erase fiber/radial/diagonal rays and anatomical divisions in garments, broad natural cloth folds/seams only. Full opaque shirt/shorts front sides rear seat crotch. No text.",
+      "inspectionNote": "Thigh overlay now diffuse smooth red on continuous opaque black shorts. Single static seated hinge, straight knee heel down toes up, bent opposite leg and hands ankle retained. Fine exposed grayscale anatomy, full clothing coverage. Qualified hip hinge, posterior hamstring highlight localization and joint alignment review pending.",
+      "canonicalName": "seated single leg hamstring stretch",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "hamstrings"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0692-male-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "status": "generated",
+        "costUSD": null
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Thigh overlay now diffuse smooth red on continuous opaque black shorts. Single static seated hinge, straight knee heel down toes up, bent opposite leg and hands ankle retained. Fine exposed grayscale anatomy, full clothing coverage. Qualified hip hinge, posterior hamstring highlight localization and joint alignment review pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0692-male-anatomical-white-v2-p1-d4f15c686cb3.webp",
+          "width": 1200,
+          "height": 600,
+          "bytes": 38620,
+          "sha256": "d4f15c686cb3d63c8f4b376dcceb78d3feb1f63b925be24334e4fbe8a14d23bf"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0692-male-anatomical-white-v2-thumb-f469b818708a.webp",
+        "width": 240,
+        "height": 120,
+        "bytes": 2516,
+        "sha256": "f469b818708a8f3b7d36d15d4deef8a70a28595e4122237aae787bbf5650ddb2"
+      },
+      "processingSignature": "ea23625dbbd78ea69f5e160520a459dff484f8f70eb0ba3c90634d76f3630b7b",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0692-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1583999,
+        "sha256": "3eae72da84bb2958c9ad73ef981c1f8db2d228a5477310a76050a2e3b93afd23"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0692",
+          "variant": "male",
+          "key": "0692-male-anatomical-white-v1",
+          "layout": {
+            "columns": 1,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Sit with one leg straight and the other bent; hinge forward with a long back, hold gently for 20\u201330 seconds, then switch legs."
+            }
+          ],
+          "detail": "SEATED SINGLE-LEG HAMSTRING STRETCH, ONE static full-body pose side three-quarter view. Sit on floor plain thin gray mat. Near leg extended straight ahead with knee straight, heel on floor, toes pointing up; other leg bent outward, its foot resting near inner thigh of straight leg. Hinge gently FORWARD FROM HIPS with LONG straight back, hands reaching toward toes of extended leg, relaxed neutral neck aligned spine, no rounded slumped shoulders, no forced pull. Hands may rest near ankle if toes not reached. All limbs anatomically connected, two legs visible, head hands shoes within margins. Primary HAMSTRINGS highlight: ONE soft diffuse smoothly blurred red patch on POSTERIOR thigh over fully opaque BLACK shorts, no exposed thigh anatomy through fabric. Gray anatomical detail on exposed arms and calf, red nowhere else. Keep broad fabric folds and full opaque shorts rear seat crotch. No equipment or bench.",
+          "prompt": "Original educational exercise illustration. Attached original project artwork STYLE ONLY never pose/equipment reference. Neutral adult MALE, fine detailed grayscale anatomical fibers on EXPOSED muscles, pure white background. Fully OPAQUE matte BLACK sleeveless shirt covers torso front sides back abdomen; loose knee-length BLACK shorts wrap both thighs front sides rear seat crotch, closed seams/hems, natural broad folds. Black trainers. Red primary highlights only as specified; over cloth ONE smooth diffuse blurred tint independent of muscular divisions, no rays/fibers/sixpack lines. Whole body fingers shoes and apparatus inside generous white margins. No embedded text/labels/arrows/logos. SEATED SINGLE-LEG HAMSTRING STRETCH, ONE static full-body pose side three-quarter view. Sit on floor plain thin gray mat. Near leg extended straight ahead with knee straight, heel on floor, toes pointing up; other leg bent outward, its foot resting near inner thigh of straight leg. Hinge gently FORWARD FROM HIPS with LONG straight back, hands reaching toward toes of extended leg, relaxed neutral neck aligned spine, no rounded slumped shoulders, no forced pull. Hands may rest near ankle if toes not reached. All limbs anatomically connected, two legs visible, head hands shoes within margins. Primary HAMSTRINGS highlight: ONE soft diffuse smoothly blurred red patch on POSTERIOR thigh over fully opaque BLACK shorts, no exposed thigh anatomy through fabric. Gray anatomical detail on exposed arms and calf, red nowhere else. Keep broad fabric folds and full opaque shorts rear seat crotch. No equipment or bench.",
+          "inspectionNote": "Single seated hamstring hold, one knee straight heel down toes up, opposite leg bent, long back and hands reaching ankle. Full opaque clothing and fine grayscale exposed anatomy. Red thigh tint has streaks to soften; qualified posterior hamstring localization and hip hinge review pending.",
+          "canonicalName": "seated single leg hamstring stretch",
+          "styleVersion": "white-v1",
+          "equipment": "body weight",
+          "primaryMuscles": [
+            "hamstrings"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Single seated hamstring hold, one knee straight heel down toes up, opposite leg bent, long back and hands reaching ankle. Full opaque clothing and fine grayscale exposed anatomy. Red thigh tint has streaks to soften; qualified posterior hamstring localization and hip hinge review pending.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0692-male-anatomical-white-v1-p1-f0a25bd2c87b.webp",
+              "width": 1200,
+              "height": 600,
+              "bytes": 41240,
+              "sha256": "f0a25bd2c87b3b48d4c20447614d1348f64081b3b275fe69aee85eda2c5ceff0"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0692-male-anatomical-white-v1-thumb-c09e400e9c0a.webp",
+            "width": 240,
+            "height": 120,
+            "bytes": 2388,
+            "sha256": "c09e400e9c0a0aac48cf8dda52a57e3930144ac691ca718626493e475b5393fd"
+          },
+          "processingSignature": "e600e6af918639f293700942531939fa8d498979fcaed55ef207c0b8195cbd14",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0692-male-anatomical-white-v1.png",
+            "width": 1774,
+            "height": 887,
+            "bytes": 1632705,
+            "sha256": "74cc5711c1b478a1890aa2b4c8889e41676a3914604094f8f5f88aec91dbd4aa"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "0692",
+      "variant": "female",
+      "key": "0692-female-anatomical-white-v2",
+      "layout": {
+        "columns": 1,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Sit with one leg straight and the other bent; hinge forward with a long back, hold gently for 20\u201330 seconds, then switch legs."
+        }
+      ],
+      "detail": "SEATED SINGLE-LEG HAMSTRING STRETCH, ONE static full-body pose side three-quarter view. Sit on floor plain thin gray mat. Near leg extended straight ahead with knee straight, heel on floor, toes pointing up; other leg bent outward, its foot resting near inner thigh of straight leg. Hinge gently FORWARD FROM HIPS with LONG straight back, hands reaching toward toes of extended leg, relaxed neutral neck aligned spine, no rounded slumped shoulders, no forced pull. Hands may rest near ankle if toes not reached. All limbs anatomically connected, two legs visible, head hands shoes within margins. Primary HAMSTRINGS highlight: ONE soft diffuse smoothly blurred red patch on POSTERIOR thigh over fully opaque BLACK shorts, no exposed thigh anatomy through fabric. Gray anatomical detail on exposed arms and calf, red nowhere else. Keep broad fabric folds and full opaque shorts rear seat crotch. No equipment or bench.",
+      "prompt": "Edit original project SINGLE static female seated hamstring stretch. Preserve exact pose, straight leg heel grounded toes up, bent opposite leg, hands ankle and long spine/hip hinge, detailed grayscale EXPOSED muscle fibers, full framing. ONLY correct shorts teaching overlay: replace red streaks with ONE smooth diffuse softly BLURRED red oval over posterior thigh on continuous opaque matte black fabric. Erase fiber/radial/diagonal rays and anatomical divisions in garments, broad natural cloth folds/seams only. Full opaque shirt/shorts front sides rear seat crotch. No text.",
+      "inspectionNote": "Thigh tint softened to diffuse red over continuous opaque black shorts. Single static seated hinge, straight knee heel down toes up, bent opposite leg and hands ankle retained. Fine exposed grayscale anatomy, full clothing coverage. Qualified hip hinge, posterior hamstring localization and joint alignment review pending.",
+      "canonicalName": "seated single leg hamstring stretch",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "hamstrings"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0692-female-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "status": "generated",
+        "costUSD": null
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Thigh tint softened to diffuse red over continuous opaque black shorts. Single static seated hinge, straight knee heel down toes up, bent opposite leg and hands ankle retained. Fine exposed grayscale anatomy, full clothing coverage. Qualified hip hinge, posterior hamstring localization and joint alignment review pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0692-female-anatomical-white-v2-p1-92d9e3ba72b3.webp",
+          "width": 1200,
+          "height": 600,
+          "bytes": 34778,
+          "sha256": "92d9e3ba72b3b3097522a894a3082d9bb18f5cdbf93245f647ff84f65aad4b5d"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0692-female-anatomical-white-v2-thumb-8fe4592406b9.webp",
+        "width": 240,
+        "height": 120,
+        "bytes": 2600,
+        "sha256": "8fe4592406b97b475f829391f4c30d7b5d24364c983c418d96e895525d9aa456"
+      },
+      "processingSignature": "4ac729f309873844d51c70e5dc688adb5f2461e616f9be176c5b9121cbeb1dae",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0692-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1820479,
+        "sha256": "61339fb0fe852a7305edf2dd14de8f9a5ad8877005f7cbc4a2dba0145bc24cd9"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0692",
+          "variant": "female",
+          "key": "0692-female-anatomical-white-v1",
+          "layout": {
+            "columns": 1,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Sit with one leg straight and the other bent; hinge forward with a long back, hold gently for 20\u201330 seconds, then switch legs."
+            }
+          ],
+          "detail": "SEATED SINGLE-LEG HAMSTRING STRETCH, ONE static full-body pose side three-quarter view. Sit on floor plain thin gray mat. Near leg extended straight ahead with knee straight, heel on floor, toes pointing up; other leg bent outward, its foot resting near inner thigh of straight leg. Hinge gently FORWARD FROM HIPS with LONG straight back, hands reaching toward toes of extended leg, relaxed neutral neck aligned spine, no rounded slumped shoulders, no forced pull. Hands may rest near ankle if toes not reached. All limbs anatomically connected, two legs visible, head hands shoes within margins. Primary HAMSTRINGS highlight: ONE soft diffuse smoothly blurred red patch on POSTERIOR thigh over fully opaque BLACK shorts, no exposed thigh anatomy through fabric. Gray anatomical detail on exposed arms and calf, red nowhere else. Keep broad fabric folds and full opaque shorts rear seat crotch. No equipment or bench.",
+          "prompt": "Original educational exercise illustration. Attached original project artwork STYLE ONLY never pose/equipment reference. Neutral adult FEMALE, fine detailed grayscale anatomical fibers on EXPOSED muscles, pure white background. Fully OPAQUE matte BLACK sleeveless shirt covers torso front sides back abdomen; loose knee-length BLACK shorts wrap both thighs front sides rear seat crotch, closed seams/hems, natural broad folds. Black trainers. Red primary highlights only as specified; over cloth ONE smooth diffuse blurred tint independent of muscular divisions, no rays/fibers/sixpack lines. Whole body fingers shoes and apparatus inside generous white margins. No embedded text/labels/arrows/logos. SEATED SINGLE-LEG HAMSTRING STRETCH, ONE static full-body pose side three-quarter view. Sit on floor plain thin gray mat. Near leg extended straight ahead with knee straight, heel on floor, toes pointing up; other leg bent outward, its foot resting near inner thigh of straight leg. Hinge gently FORWARD FROM HIPS with LONG straight back, hands reaching toward toes of extended leg, relaxed neutral neck aligned spine, no rounded slumped shoulders, no forced pull. Hands may rest near ankle if toes not reached. All limbs anatomically connected, two legs visible, head hands shoes within margins. Primary HAMSTRINGS highlight: ONE soft diffuse smoothly blurred red patch on POSTERIOR thigh over fully opaque BLACK shorts, no exposed thigh anatomy through fabric. Gray anatomical detail on exposed arms and calf, red nowhere else. Keep broad fabric folds and full opaque shorts rear seat crotch. No equipment or bench.",
+          "inspectionNote": "Single seated hamstring hold with straight near knee, heel down, toes up, bent opposite leg, hands ankle and long back. Opaque full clothing and fine exposed grayscale anatomy. Red tint has diagonal streaks requiring smoothing; qualified hamstring placement and hip-hinge review pending.",
+          "canonicalName": "seated single leg hamstring stretch",
+          "styleVersion": "white-v1",
+          "equipment": "body weight",
+          "primaryMuscles": [
+            "hamstrings"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Single seated hamstring hold with straight near knee, heel down, toes up, bent opposite leg, hands ankle and long back. Opaque full clothing and fine exposed grayscale anatomy. Red tint has diagonal streaks requiring smoothing; qualified hamstring placement and hip-hinge review pending.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0692-female-anatomical-white-v1-p1-9718d121121b.webp",
+              "width": 1200,
+              "height": 600,
+              "bytes": 35982,
+              "sha256": "9718d121121b87068b8d30f79e108a619393beb79815873ef3f74a4ec53ac460"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0692-female-anatomical-white-v1-thumb-a5207971df4b.webp",
+            "width": 240,
+            "height": 120,
+            "bytes": 2532,
+            "sha256": "a5207971df4b34127b1e7254fdcfb3f36d3cc05861cc51683f2000e5fc2ce9c0"
+          },
+          "processingSignature": "4f7e2803aaa9ea258581356fe2800c553bd861d9b8a6710817b4126439f8093f",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0692-female-anatomical-white-v1.png",
+            "width": 1774,
+            "height": 887,
+            "bytes": 1566249,
+            "sha256": "bb06138cf88d7d8cdb9b3aaaacea5ed62c035eac7269d6421f6f95de6ad07f33"
+          }
+        }
+      ]
+    }
+  ]
+}

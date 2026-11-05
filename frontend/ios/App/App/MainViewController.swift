@@ -27,13 +27,36 @@ class MainViewController: CAPBridgeViewController {
         bridge?.registerPluginInstance(GymReminderPlugin())
         bridge?.registerPluginInstance(WatchBridgePlugin())
         bridge?.registerPluginInstance(AppleHealthPlugin())
+        bridge?.registerPluginInstance(OnDeviceAIPlugin())
         bridge?.registerPluginInstance(WidgetBridgePlugin())
         bridge?.registerPluginInstance(LiveActivityPlugin())
         bridge?.registerPluginInstance(AppIconPlugin())
         WidgetPreview.runIfAsked()
+        if ProcessInfo.processInfo.arguments.contains("-SetsStrengthViewportProbe") {
+            DispatchQueue.main.async { [weak self] in self?.showViewportProbe() }
+        }
         // After loadView has finished: the view is the web view only once it has.
         if ProcessInfo.processInfo.arguments.contains(MainViewController.pendingProbeArgument) {
             DispatchQueue.main.async { [weak self] in self?.showPendingProbe() }
+        }
+    }
+
+    // Native UI tests inspect actual visual zoom; WebKit's accessibility frames remain
+    // layout coordinates even when focus zoom has clipped the screen. No health data is read.
+    private func showViewportProbe() {
+        guard let host = view.window else {
+            DispatchQueue.main.async { [weak self] in self?.showViewportProbe() }
+            return
+        }
+        let label = UILabel(frame: CGRect(x: 0, y: 40, width: 40, height: 12))
+        label.accessibilityIdentifier = "ss-viewport-scale"
+        label.font = .systemFont(ofSize: 8)
+        host.addSubview(label)
+        Timer.scheduledTimer(withTimeInterval: 0.25, repeats: true) { [weak self, weak label] timer in
+            guard let self = self, let label = label else { timer.invalidate(); return }
+            self.webView?.evaluateJavaScript("window.visualViewport ? window.visualViewport.scale : 1") { value, _ in
+                if let scale = value as? NSNumber { label.text = String(format: "%.3f", scale.doubleValue) }
+            }
         }
     }
 

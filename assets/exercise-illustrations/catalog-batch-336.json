@@ -1,0 +1,281 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "3238",
+      "prompt": "KNEELING FOREARM PLANK ONE STATICPOSE SIDEthreequarterview facingLEFT. BOTHFOREARMSfloor elbowsdirectlyUNDERSHOULDERS bent90 palmsdown handsforward. BOTHKNEESfloor hipwidth behindhips lowerlegsrelaxedbehind feetback. HEADSHOULDERSHIPSKNEES ONEstraightdiagonalline coreBRACED pelvisneutral NOhippike/sag headneutral eyesfloor. Bodyweight supportedFOREARMSandKNEES nottoes. Primary ABS smallplainuniformredwash intactblacktank abdomen no sixpack/fibers otherbodygrayblack. Premium detailed adult MALE grayscale anatomical exercise illustration, approved original project artwork STYLE ONLY not pose. Pure white background soft shadows realistic proportions detailed exposed gray muscles. Opaque BLACK tank and mid-thigh shorts fully wrap front sides back seat crotch normal fabric seams hems folds. Primary red ONLY. Covered highlight SMALL PLAIN UNIFORM softwash on INTACT blackfabric NO musclefibers lobes anatomical segments cutaways transparency. Exactly two arms hands and two legs feet. ONE static instructional pose full body generous margins. No text arrows labels logos.",
+      "variant": "male",
+      "key": "3238-male-anatomical-white-v1",
+      "layout": {
+        "columns": 1,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hold forearm plank on knees with elbows under shoulders and head-to-knees aligned; brace core and breathe for 20\u201345 seconds."
+        }
+      ],
+      "inspectionNote": "Real output inspected. Single kneeling forearm plank with elbows below shoulders, knees grounded, neutral gaze and intact opaque clothes/plain abdomen wash. Qualified review of head-to-knees line, pelvic position and elbow placement pending. Human anatomy review pending. No approval or publication.",
+      "canonicalName": "kneeling plank",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "abs"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Single kneeling forearm plank with elbows below shoulders, knees grounded, neutral gaze and intact opaque clothes/plain abdomen wash. Qualified review of head-to-knees line, pelvic position and elbow placement pending. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/3238-male-anatomical-white-v1-p1-19a0b3a33d31.webp",
+          "width": 1200,
+          "height": 600,
+          "bytes": 28036,
+          "sha256": "19a0b3a33d31f8f895f40902346700f42dd8143902e2a4f3300ada4e191caba2"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-336.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/3238-male-anatomical-white-v1-thumb-d6d452f7d995.webp",
+        "width": 240,
+        "height": 120,
+        "bytes": 1962,
+        "sha256": "d6d452f7d995a11036924dc31aaf14c39493fa96dbb88b2fbcc1382b61277519"
+      },
+      "processingSignature": "09163cb4f81e9b875d1dc15c321965f56d8f1169f5c8d038f83fe27d1be27205",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/3238-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1440802,
+        "sha256": "c07362c1750e2a28fece15db52ec40a1756b3d25854b24bf256cef7ed0806bd8"
+      }
+    },
+    {
+      "exerciseId": "3242",
+      "prompt": "LYING LOWER BACK STRETCH BENT KNEE ONE STATICPOSE SIDEfrontthreequarterview facingLEFT. LieSUPINE HEADNECKSHOULDERSRESTFLOOR lowerbackRELAXEDground. RIGHTkneeflexed towardCHEST BOTHHANDSclaspRIGHTUPPERSHIN belowkneecap gentlehug no pullfoot. LEFTkneeremainsBENT LEFTfootFULLSOLEfloor behind workingfoot, clearTWOlegcontinuity. Pelvisfloor no chestcurl headNOTlifted. Primary LOWERBACKEXTENSORS canonicalspinetarget smallplainredwashoverintactblackLUMBARtank visibleonlateral lowerback only noabsred/glutered. Premium detailed adult MALE grayscale anatomical exercise illustration, approved original project artwork STYLE ONLY not pose. Pure white background soft shadows realistic proportions detailed exposed gray muscles. Opaque BLACK tank and mid-thigh shorts fully wrap front sides back seat crotch normal fabric seams hems folds. Primary red ONLY. Covered highlight SMALL PLAIN UNIFORM softwash on INTACT blackfabric NO musclefibers lobes anatomical segments cutaways transparency. Exactly two arms hands and two legs feet. ONE static instructional pose full body generous margins. No text arrows labels logos.",
+      "variant": "male",
+      "key": "3242-male-anatomical-white-v1",
+      "layout": {
+        "columns": 1,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Lie with knees bent, gently draw one knee toward chest with both hands and relax lower back on floor; hold 20\u201330 seconds, then switch."
+        }
+      ],
+      "inspectionNote": "Real output inspected. Single knee drawn toward chest with both hands at shin and opposite foot planted, opaque clothes/plain lumbar tint. Head/neck hover above floor; block relaxed head-support correction. Qualified knee/hip continuity and hand placement review pending. Human anatomy review pending. No approval or publication.",
+      "blockingIssues": [
+        "Rest head and neck on floor instead of unsupported hovering."
+      ],
+      "canonicalName": "lying lower back stretch (bent knee)",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "spine"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Single knee drawn toward chest with both hands at shin and opposite foot planted, opaque clothes/plain lumbar tint. Head/neck hover above floor; block relaxed head-support correction. Qualified knee/hip continuity and hand placement review pending. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/3242-male-anatomical-white-v1-p1-9bb9a71aaa3b.webp",
+          "width": 1200,
+          "height": 600,
+          "bytes": 33670,
+          "sha256": "9bb9a71aaa3bbb954da96dfaac092a7c6206e12938f04250f5c965d5ecee652a"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-336.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/3242-male-anatomical-white-v1-thumb-5f145c6681d7.webp",
+        "width": 240,
+        "height": 120,
+        "bytes": 2268,
+        "sha256": "5f145c6681d7be9f66909b5f09578f4df98a06d4cce53a8a37d7f74a43495018"
+      },
+      "processingSignature": "4a8396efe1a10b379b03dddb68ac59045458c9b93d072d180af5d7000b7013f5",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/3242-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1566338,
+        "sha256": "1ac5b52765da7415516a95f68d18d48504628901cd45f89b5d2526cb51b95d70"
+      }
+    },
+    {
+      "exerciseId": "3243",
+      "prompt": "LYING LOWER BACK STRETCH BOTH KNEES TO CHEST ONE STATICPOSE SIDEfrontthreequartercamera facingLEFT. LieSUPINE HEADNECKSHOULDERSRESTFLOOR nohover. BOTHKNEESdrawTOCHEST bentdeeply BOTHFEETclearFLOOR shinsfold towardhips no crossedlegs. BOTHARMSwraparound BOTHSHINS handsclaspinFRONTknees onecleararm eachside gentlehug, lowerbackrelaxesfloorsmallpelvictuck no forcedroll. Exactlytwolegs fourlimbs. Primary LOWERBACKEXTENSORS canonicalspinetarget smallplainuniformredwashover intactblackLUMBARtank noabsred/glutered. Premium detailed adult MALE grayscale anatomical exercise illustration, approved original project artwork STYLE ONLY not pose. Pure white background soft shadows realistic proportions detailed exposed gray muscles. Opaque BLACK tank and mid-thigh shorts fully wrap front sides back seat crotch normal fabric seams hems folds. Primary red ONLY. Covered highlight SMALL PLAIN UNIFORM softwash on INTACT blackfabric NO musclefibers lobes anatomical segments cutaways transparency. Exactly two arms hands and two legs feet. ONE static instructional pose full body generous margins. No text arrows labels logos.",
+      "variant": "male",
+      "key": "3243-male-anatomical-white-v1",
+      "layout": {
+        "columns": 1,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Lie on back and gently hug both knees toward chest with arms around shins; keep head relaxed on floor, hold 20\u201330 seconds, then release slowly."
+        }
+      ],
+      "inspectionNote": "Real output inspected. Both knees gently hugged toward chest with feet airborne and head resting floor, opaque clothes. Lumbar tint shows fine anatomical fibers through tank; block overlay correction. Qualified hand/shin contact and relaxed pelvic position review pending. Human anatomy review pending. No approval or publication.",
+      "blockingIssues": [
+        "Remove fine anatomical fibers from lumbar highlight through tank; use plain uniform wash over opaque fabric."
+      ],
+      "canonicalName": "lying lower back stretch",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "spine"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Both knees gently hugged toward chest with feet airborne and head resting floor, opaque clothes. Lumbar tint shows fine anatomical fibers through tank; block overlay correction. Qualified hand/shin contact and relaxed pelvic position review pending. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/3243-male-anatomical-white-v1-p1-83d0b5b9b7d5.webp",
+          "width": 1200,
+          "height": 600,
+          "bytes": 28566,
+          "sha256": "83d0b5b9b7d593d6578043be8b7f8172685342ea79a5eadb3d5d84ba9682b678"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-336.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/3243-male-anatomical-white-v1-thumb-512b3c82ff6c.webp",
+        "width": 240,
+        "height": 120,
+        "bytes": 1856,
+        "sha256": "512b3c82ff6cefa594c3584df46d92184fa073d35843ae6dfab90694ffd0a2cd"
+      },
+      "processingSignature": "9b6a943b49a8e172905612f0d46ac277aa505e1a160ca9ca07756fd7dd9325af",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/3243-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1455048,
+        "sha256": "26738b63780c7dbd5f514e47bbe968192165aa5cf95a0edc7165928f37eaee6f"
+      }
+    },
+    {
+      "exerciseId": "3244",
+      "prompt": "ABDOMINAL STRETCH ONE STATICPOSE SIDEthreequartercamera facingLEFT. StartPRONE BOTHHANDSflatFLOOR DIRECTLYUNDERSHOULDERS fingersforward ELBOWSextendedsoft pressCHESTUP. BOTHhips/pelvisFRONT remainFLOOR BOTHLEGSstraightbehind BOTHFEETtopsfloor no plank no thighlift. Comfortablecobra fronttrunkextension lookSTRAIGHTAHEAD perrecord necknotcranked shouldersDOWNawayears noextremearch. Primary ABS smallplainuniformredwashoverintactBLACKFRONTtank abdomen no sixpack/fibers chestgrayblack. Premium detailed adult MALE grayscale anatomical exercise illustration, approved original project artwork STYLE ONLY not pose. Pure white background soft shadows realistic proportions detailed exposed gray muscles. Opaque BLACK tank and mid-thigh shorts fully wrap front sides back seat crotch normal fabric seams hems folds. Primary red ONLY. Covered highlight SMALL PLAIN UNIFORM softwash on INTACT blackfabric NO musclefibers lobes anatomical segments cutaways transparency. Exactly two arms hands and two legs feet. ONE static instructional pose full body generous margins. No text arrows labels logos.",
+      "variant": "male",
+      "key": "3244-male-anatomical-white-v1",
+      "layout": {
+        "columns": 1,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Lie prone with hands under shoulders, gently press chest upward while hips stay on floor and look ahead; hold comfortably for 20\u201330 seconds."
+        }
+      ],
+      "inspectionNote": "Real output inspected. Single prone abdominal stretch with palms under shoulders, chest pressed up, pelvis/legs grounded and forward gaze. Opaque clothing; abdominal red wash contains fine muscle-like fibers rather than uniform tint. Block overlay correction; qualified comfortable extension range review pending. Human anatomy review pending. No approval or publication.",
+      "blockingIssues": [
+        "Remove fine muscle-like fibers from abdomen overlay; use plain uniform wash on intact opaque tank."
+      ],
+      "canonicalName": "abdominal stretch",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "abs"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Single prone abdominal stretch with palms under shoulders, chest pressed up, pelvis/legs grounded and forward gaze. Opaque clothing; abdominal red wash contains fine muscle-like fibers rather than uniform tint. Block overlay correction; qualified comfortable extension range review pending. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/3244-male-anatomical-white-v1-p1-21b79d7c1756.webp",
+          "width": 1200,
+          "height": 600,
+          "bytes": 27544,
+          "sha256": "21b79d7c17564cdc08afc5e8c39850016f352c591b5bcfc20380575afe6aedac"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-336.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/3244-male-anatomical-white-v1-thumb-d4f8ec5985a4.webp",
+        "width": 240,
+        "height": 120,
+        "bytes": 1796,
+        "sha256": "d4f8ec5985a4bd66fa63361786a465d64d0ba80bd37660fc01fd07a84e46c83c"
+      },
+      "processingSignature": "4d6ca18766485ce108ae4c820d44f66ef0bb522b2dbc682ca76c0a05cf4e378c",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/3244-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1414046,
+        "sha256": "b7ae009824d6884494206f1e891dcd07ea2191e6227ee39fa66f80045d446fdb"
+      }
+    }
+  ]
+}

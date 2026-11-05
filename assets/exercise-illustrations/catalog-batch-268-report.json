@@ -1,0 +1,87 @@
+{
+  "batch": 268,
+  "runId": "7429e616-b192-4ed1-8cb9-d6c8f2b44d31",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "trigger": "2026-11-03T23:28:24.695Z",
+  "purpose": "batch268 scheduled male continuation",
+  "started": "2026-11-03T23:28:51.494047+00:00",
+  "completedAt": "2026-11-03T23:37:29.126029+00:00",
+  "actualToolName": "image_gen__imagegen",
+  "calls": 4,
+  "newCandidateSets": 4,
+  "exerciseIds": [
+    "2165",
+    "2166",
+    "2186",
+    "2187"
+  ],
+  "variants": [
+    "male"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 945,
+    "remainingVariants": 10319,
+    "approvedVariants": 0,
+    "blockedVariants": 306,
+    "knownPoseImages": 1789,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 572,
+      "remainingVariants": 5060,
+      "blockedVariants": 187
+    }
+  },
+  "reviewNotes": {
+    "2165": "Three quarter-squat views show narrow-wide-narrow stances with band above knees, hands on hips and plain outer-hip tint. Both feet spread symmetrically in middle rather than clearly showing a fixed trailing foot and lateral progression; block for lead/trailing step clarity. Qualified review of knee alignment, band tension, stance depth and hip-abductor mapping.",
+    "2166": "Bridge held across three views, head and shoulders supported and thigh loop band present. Final pose shows two apparent grounded shoes plus raised shoe and incoherent raised-knee/shin direction; block for extra-foot/leg-tracing anatomy and clear opposite march. Plain glute overlay on intact shorts. Qualified review of bridge height, pelvic control and band tension.",
+    "2186": "EZ-bar triceps extension shows straight and bent elbows, head supported and feet under rollers, triceps-only red on exposed upper arms. Bench appears nearly flat/slightly head-up rather than head lower than feet; block to correct decline orientation. Qualified review of elbow bend/bar forehead clearance, neutral wrists, grip and triceps mapping.",
+    "2187": "Two flat-bench press positions, head/back supported and feet planted, bar and plates framed. Hands appear overhand rather than clearly supinated reverse grip and lower bar path is near upper chest/face rather than lower chest; block to correct grip and path. Qualified review of tucked elbows, stacked wrists, rack geometry and triceps mapping."
+  },
+  "blockingIssues": {
+    "2165": [
+      "Symmetric stance widening/narrowing rather than clear lead/trailing lateral steps; correct step progression."
+    ],
+    "2166": [
+      "Final pose has apparent extra grounded shoe and incoherent knee/shin direction; correct anatomy and opposite march."
+    ],
+    "2186": [
+      "Bench is nearly flat/slightly head-up; correct decline so head is lower than feet."
+    ],
+    "2187": [
+      "Grip appears overhand rather than reverse underhand; correct supinated grip and lower-chest bar path."
+    ]
+  },
+  "tests": 7,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "workerSyncResult": {
+    "statuses": {
+      "generated": 945,
+      "pending": 10319
+    },
+    "remaining": 10319,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 1456493291
+  },
+  "publicationIndexUnchanged": true,
+  "savedMasters": [
+    "assets/exercise-illustrations/generated/2165-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/2166-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/2186-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/2187-male-anatomical-white-v1.png"
+  ]
+}

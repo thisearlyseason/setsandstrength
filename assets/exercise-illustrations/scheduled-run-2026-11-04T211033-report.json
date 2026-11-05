@@ -1,0 +1,46 @@
+{
+  "runId": "0fc37781-6fa7-4a61-b9e7-c016341049ab",
+  "triggerTimestamp": "2026-11-04T21:10:33.196Z",
+  "builtInImageGenAvailable": true,
+  "batches": [
+    419
+  ],
+  "generatedMasters": 3,
+  "blocked": {
+    "3781": [
+      "Start and landing retain same lead leg; canonical leg switch during jump is not depicted."
+    ],
+    "3782": [
+      "Start and landing retain same lead leg; canonical leg switch during jump is not depicted."
+    ]
+  },
+  "coverageAfter": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1484,
+    "remainingVariants": 9780,
+    "approvedVariants": 0,
+    "blockedVariants": 564,
+    "knownPoseImages": 2972,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 1111,
+      "remainingVariants": 4521,
+      "blockedVariants": 445
+    }
+  },
+  "pipelineTests": "8 passed, 0 failed",
+  "approvedIndexUnchanged": true,
+  "existingUserApprovalsPreserved": 1306,
+  "publication": "none",
+  "anatomyReview": "pending",
+  "stopReason": "Repeated failure to depict leg switch during band split/lunge jumps on 3781 and 3782. Originals retained blocked.",
+  "nextRunGuidance": "Skip further alternating jump compounds and Pallof prompts for now. Start prepared 3783 dumbbell archer then clearly specified simpler canonical exercises. For future jump corrections distinguish working limbs with explicit near-camera versus far-camera identity and separate alternating stance poses.",
+  "deferred": {
+    "3783": "Exact prompt prepared, no original generated after systemic jump failure."
+  }
+}

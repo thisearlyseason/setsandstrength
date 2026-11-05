@@ -1,0 +1,89 @@
+{
+  "batch": 144,
+  "trigger": "2026-11-03T04:47:26.250Z",
+  "completedAt": "2026-11-03T05:09:40.909822+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 4,
+  "generationCalls": 6,
+  "exerciseIds": [
+    "0903",
+    "0907"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 584,
+    "remainingVariants": 10680,
+    "approvedVariants": 0,
+    "blockedVariants": 213,
+    "knownPoseImages": 1196,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Four candidates, eight poses, six built-in calls including two retained band-kickback corrections. Both kickback edits reveal finish handles but far upper arm still drops at start and swings back at finish rather than maintaining fixed bilateral elbows; finish shoe routing also unclear: BOTH BLOCKED for technique and band routing repair. Lateral raise pairs show arms at sides to shoulder height with steady upright torso, palms down, taut hand-to-shoe strands and red exposed lateral deltoids. Fine exposed grayscale anatomy and continuous opaque black clothing retained visually; no clothing or anatomy approval. Qualified underfoot anchoring, hand/handle security, wrist/elbow mechanics, neck, shoulder plane and muscle mapping remain for human review. All originals, exact prompts and correction histories saved. No publication, no upstream licensed media; project original artwork for rendering style only. Seven pipeline checks do not establish anatomical accuracy.",
+  "metadataConflictsDeferred": {
+    "0909": "Alternating step-forward lunge does not specify which foot retains secure band anchor across steps.",
+    "0910": "Foot-loop or unspecified anchor fails to define resistance direction for leg/hip raise.",
+    "0912": "Supine forward leg raise instruction conflicts with abductor primary target."
+  },
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 937548924,
+  "savedMasters": [
+    {
+      "exerciseId": "0903",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0903-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1487912,
+        "sha256": "a8bb2e10acff306a82233f1669a795308396ac850fab0abdae3c15bd201c82ff"
+      }
+    },
+    {
+      "exerciseId": "0903",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0903-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1486471,
+        "sha256": "fc315cfb214bd96659ff00641f049111f05f13e809ce54f64f6b93e49b18ecc4"
+      }
+    },
+    {
+      "exerciseId": "0907",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0907-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1375025,
+        "sha256": "a4dfb045a0fbe5a7a6bb8c4b3840320835ac16837bd7285a3b93c72484e247d3"
+      }
+    },
+    {
+      "exerciseId": "0907",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0907-female-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1362180,
+        "sha256": "c966b2a0d58ba524beee848366ed10344d3d132febb5c3afe47fc68f9cbd575b"
+      }
+    }
+  ]
+}

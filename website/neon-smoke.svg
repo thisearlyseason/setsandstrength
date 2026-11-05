@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 600" fill="none">
+<defs>
+ <linearGradient id="v" x1="60" y1="340" x2="1320" y2="200" gradientUnits="userSpaceOnUse"><stop stop-color="#79ff32" stop-opacity="0"/><stop offset=".25" stop-color="#aaff32" stop-opacity=".65"/><stop offset=".55" stop-color="#ddff76"/><stop offset=".8" stop-color="#caff26" stop-opacity=".7"/><stop offset="1" stop-color="#aaff32" stop-opacity="0"/></linearGradient>
+ <filter id="h" x="-30%" y="-100%" width="160%" height="300%"><feGaussianBlur stdDeviation="26"/></filter>
+ <filter id="s" x="-20%" y="-70%" width="140%" height="240%"><feGaussianBlur stdDeviation="8"/></filter>
+</defs>
+<g stroke="url(#v)" stroke-linecap="round">
+<path filter="url(#h)" stroke-width="100" opacity=".5" d="M-80 440C180 470 220 160 430 230S640 450 850 280 1130 90 1480 220"/>
+<g filter="url(#s)" opacity=".65">
+<path stroke-width="28" d="M-80 440C220 500 220 100 460 220S620 450 850 270 1190 80 1480 210"/>
+<path stroke-width="20" d="M-60 430C180 470 340 130 470 250S740 420 850 260 1040 110 1470 230"/>
+<path stroke-width="14" d="M-60 480C250 410 280 220 450 285S680 330 860 230 1110 160 1460 180"/>
+</g>
+<g filter="url(#s)" opacity=".42" stroke-width="5">
+<path d="M-50 450C250 490 220 120 450 195S600 420 850 310 1120 60 1450 185"/>
+<path d="M-50 460C200 440 280 230 460 260S720 440 890 270 1160 110 1450 230"/>
+<path d="M-50 420C240 480 300 140 450 240S650 400 870 235 1160 140 1450 200"/>
+</g></g></svg>

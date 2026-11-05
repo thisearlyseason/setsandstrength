@@ -1,0 +1,62 @@
+{
+  "batch": 184,
+  "runId": "b2b61d06-8971-44e2-af61-0322e3123e75",
+  "trigger": "2026-11-03T11:02:29.152Z",
+  "completedAt": "2026-11-03T11:08:10.947112+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 2,
+  "generationCalls": 3,
+  "exerciseIds": [
+    "1406"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 682,
+    "remainingVariants": 10582,
+    "approvedVariants": 0,
+    "blockedVariants": 225,
+    "knownPoseImages": 1350,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Two lying hamstring stretch candidates, one static pose per variant, three built-in calls including female head-support correction. Raised nearly straight leg supported behind thigh, other leg flat, head and pelvis grounded. Female v1 head/hair obscured mat support; v2 short hair and lowered skull show support. Both originals and exact edit prompt preserved in correction history. Hamstrings red with diffuse tint over intact shorts, full opaque clothing and exposed grayscale anatomy retained. Qualified posterior thigh mapping, support pressure, knee extension, pelvis/back and skull contact require human review. Original project artwork style only, no upstream licensed input. No anatomical approval or publication. Seven pipeline checks do not establish anatomical accuracy.",
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 1078893252,
+  "savedMasters": [
+    {
+      "exerciseId": "1406",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1406-male-anatomical-white-v1.png",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 1356274,
+        "sha256": "02782838b94ae631e73af1835620eddafaa98d274d71ee6e5183696a1c0cda2f"
+      }
+    },
+    {
+      "exerciseId": "1406",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1406-female-anatomical-white-v2.png",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 1678124,
+        "sha256": "72221941f66c39779587a31a8804a5c6eb36679da86eda002bfc7858fdcfb043"
+      }
+    }
+  ]
+}

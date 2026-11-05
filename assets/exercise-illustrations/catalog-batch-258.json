@@ -1,0 +1,279 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "2100",
+      "variant": "male",
+      "key": "2100-male-anatomical-white-v1",
+      "layout": {
+        "columns": 1,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Sit sideways near the edge of a sturdy bench. Bend the hanging knee and hold that ankle, gently bringing the heel toward your glutes. Keep your torso upright and knees close; hold for 20\u201330 seconds, then switch sides."
+        }
+      ],
+      "prompt": "SEATED QUADRICEPS STRETCH. Fullbody SIDE three-quarterview gray sturdy bench. Sit sideways near bench FRONT EDGE leftbuttock supported, LEFT leg bent with LEFT footflatfloor infront. RIGHT thigh drops alongside bench edge, RIGHT knee bends sharply so RIGHT heel travels BACK toward buttocks. RIGHT hand reaches DOWN/BACK holding RIGHT ankle/shoe, gentlyheelcloser. Kneesclose together atsameforwardposition, torso upright pelvisneutral. LEFT hand restsbench forbalance. Keep continuous right hip-thigh-knee-shin-shoe anatomicalchain no extraleg. PRIMARY RIGHT QUADS frontthigh red exposedbelowshorthem, coveredthigh plainredellipse on fabric. No calfglutered. Exactly ONE static full-body adult MALE figure. Premium crisp detailed grayscale anatomy matching original project reference for rendering STYLE ONLY, ignore its pose. White background soft shadows realistic proportions and detailed exposed gray muscle contours. Opaque BLACK tank and mid-thigh shorts wrap front sides back seat crotch, seams folds hems visible. NO anatomy through fabric, no cutaways no transparency. Red on clothing must be plain uniform soft teaching ellipse on intact cloth, NO internal rays lines lobes or muscle fibers; cloth folds retained. Black shoes. Exactly two coherent arms hands legs feet, normal hands five fingers. All body and equipment within frame with margins. No text arrows logos.",
+      "inspectionNote": "Real output inspected. Single seated edge quad stretch, one foot planted, other knee bent with hand holding same shoe, upright torso and opposite hand stabilizing bench. Whole limbs visible and coherent, plain solid red teaching ellipse on intact working-thigh shorts. Qualified review needed for knee alignment, heel-to-glute range, working hip extension, hand/shoe grip and quad mapping; depicted working side is opposite prompt but canonical permits switching sides. Human anatomy review remains pending; no approval or publication.",
+      "canonicalName": "seated quadriceps stretch",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "quads"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Single seated edge quad stretch, one foot planted, other knee bent with hand holding same shoe, upright torso and opposite hand stabilizing bench. Whole limbs visible and coherent, plain solid red teaching ellipse on intact working-thigh shorts. Qualified review needed for knee alignment, heel-to-glute range, working hip extension, hand/shoe grip and quad mapping; depicted working side is opposite prompt but canonical permits switching sides. Human anatomy review remains pending; no approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2100-male-anatomical-white-v1-p1-93554163b997.webp",
+          "width": 1200,
+          "height": 1097,
+          "bytes": 52712,
+          "sha256": "93554163b99759ecee6b2b53064435cf73ce1baa50ffe31890b144d4a041aa88"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-258.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2100-male-anatomical-white-v1-thumb-e9eb634b812d.webp",
+        "width": 240,
+        "height": 219,
+        "bytes": 3630,
+        "sha256": "e9eb634b812d2d369e492a3b99fb80e640868dcb2dc2ae304550c8d748d6c68a"
+      },
+      "processingSignature": "45f19cdc2b9a1f9b628b96c4ba347db9a0b6a0cea929f0599c7e48bab69b1057",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2100-male-anatomical-white-v1.png",
+        "width": 1312,
+        "height": 1199,
+        "bytes": 1506273,
+        "sha256": "dc8c23a32d0d16c8f669a3af3fd61fd4186cf4599713d1ece944152ee4ccd89b"
+      }
+    },
+    {
+      "exerciseId": "2102",
+      "variant": "male",
+      "key": "2102-male-anatomical-white-v1",
+      "layout": {
+        "columns": 1,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Sit with one leg straight in front. Hinge forward to hold the toes or ball of that foot and gently draw them toward your shin. Keep the knee straight and back long; hold for 20\u201330 seconds, then switch sides."
+        }
+      ],
+      "prompt": "SITTING TOE PULL CALF STRETCH. ONE fullbody SIDE three-quarterview. Sit on floor BOTH LEGS STRAIGHT infront separated15cm to prevent tangledknees. RIGHT workingknee straight, heelonfloor RIGHT toespointUP. Hinge FORWARD fromhips longneutralspine to reach RIGHT forefoot; BOTH HANDS cup BALLofRIGHTshoe and gentlypullitback towardshin. Shouldersnotrounded, elbowssoft, torsoforwardenoughtoreachwithoutunrealisticarmstretch. LEFT leg staysstraight footrelaxed. Redonlyposterior RIGHT CALF, anterior shin gray, clothingblack. Bothlegs tracedhipkneeshinanklefoot correct. Exactly ONE static full-body adult MALE figure. Premium crisp detailed grayscale anatomy matching original project reference for rendering STYLE ONLY, ignore its pose. White background soft shadows realistic proportions and detailed exposed gray muscle contours. Opaque BLACK tank and mid-thigh shorts wrap front sides back seat crotch, seams folds hems visible. NO anatomy through fabric, no cutaways no transparency. Red on clothing must be plain uniform soft teaching ellipse on intact cloth, NO internal rays lines lobes or muscle fibers; cloth folds retained. Black shoes. Exactly two coherent arms hands legs feet, normal hands five fingers. All body and equipment within frame with margins. No text arrows logos.",
+      "inspectionNote": "Real output inspected. Both legs straight and separate, hands reach working forefoot, working heel grounded and toes pulled back. Back remains long with modest hip hinge. Block for unrelated red chest highlight copied from style reference; remove chest tint and retain posterior working-calf highlight only. Qualified review of calf versus shin mapping, knee extension and hand/shoe grip. Human anatomy review remains pending; no approval or publication.",
+      "blockingIssues": [
+        "Unrelated chest highlight must be removed; retain working-calf highlight only."
+      ],
+      "canonicalName": "sitting toe pull calf stretch",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "calves"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Both legs straight and separate, hands reach working forefoot, working heel grounded and toes pulled back. Back remains long with modest hip hinge. Block for unrelated red chest highlight copied from style reference; remove chest tint and retain posterior working-calf highlight only. Qualified review of calf versus shin mapping, knee extension and hand/shoe grip. Human anatomy review remains pending; no approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2102-male-anatomical-white-v1-p1-9ddcea112fce.webp",
+          "width": 1200,
+          "height": 600,
+          "bytes": 32672,
+          "sha256": "9ddcea112fceaef66a19e7c17cd934df6dd24f8e2205fa47213c706fd9b2d3bc"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-258.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2102-male-anatomical-white-v1-thumb-0c0702d3bf7d.webp",
+        "width": 240,
+        "height": 120,
+        "bytes": 2168,
+        "sha256": "0c0702d3bf7d1b41aec4913f0a267b061dd479cb3e6e9596cc663e8d201bf0e9"
+      },
+      "processingSignature": "6258e2e5ae8553b2c3b4b5ad541be7923c9484c9e38292ae45eb8223acc7e1e4",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2102-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1506694,
+        "sha256": "6c4351f9e28ad822004992488f50c646b364eb2316a87b3ad98796cf9e2eb7e9"
+      }
+    },
+    {
+      "exerciseId": "2104",
+      "variant": "male",
+      "key": "2104-male-anatomical-white-v1",
+      "layout": {
+        "columns": 1,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Place your hands on a wall and step one foot back. Bend both knees slightly while keeping the rear heel flat and toes forward. Hold a mild stretch low in the rear calf for 20\u201330 seconds, then switch sides."
+        }
+      ],
+      "prompt": "LEANING HEEL BACK ACHILLES STRETCH. ONE fullbody SIDEview graywallonRIGHT. BOTHhandswallchestheight. LEFTfrontfootnearwall RIGHTrearfoot40cmback, BOTH toesforward BOTH HEELS FULLYFLAT. BOTH KNEES VISIBLY BENT, especially RIGHT REAR knee35degreesflexion movingforward overrear toes; rightshin inclinedforward, rightheelremainsgrounded. Torsoleansforward modestly neutralspine, NOT straight rearleg gastrocnemiusstretch. Primary LOW POSTERIOR RIGHT SOLEUS/CALF softred tint on exposedlowercalfaboveAchilles, tendon gray and anterior shin gray. Entirewallcontactsfeetvisible. Exactly ONE static full-body adult MALE figure. Premium crisp detailed grayscale anatomy matching original project reference for rendering STYLE ONLY, ignore its pose. White background soft shadows realistic proportions and detailed exposed gray muscle contours. Opaque BLACK tank and mid-thigh shorts wrap front sides back seat crotch, seams folds hems visible. NO anatomy through fabric, no cutaways no transparency. Red on clothing must be plain uniform soft teaching ellipse on intact cloth, NO internal rays lines lobes or muscle fibers; cloth folds retained. Black shoes. Exactly two coherent arms hands legs feet, normal hands five fingers. All body and equipment within frame with margins. No text arrows logos.",
+      "inspectionNote": "Real output inspected. Both hands on wall and heels grounded, front knee bent. Rear knee remains almost straight rather than visibly bent for soleus/Achilles emphasis, and unrelated chest red is present. Block for rear-knee correction and removal of chest tint. Qualified review needed for low posterior-calf mapping, shin angle, heel contact and stance length. Human anatomy review remains pending; no approval or publication.",
+      "blockingIssues": [
+        "Rear knee is almost straight rather than bent for soleus/Achilles stretch.",
+        "Unrelated chest highlight must be removed."
+      ],
+      "canonicalName": "leaning heel back achilles stretch",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "calves"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Both hands on wall and heels grounded, front knee bent. Rear knee remains almost straight rather than visibly bent for soleus/Achilles emphasis, and unrelated chest red is present. Block for rear-knee correction and removal of chest tint. Qualified review needed for low posterior-calf mapping, shin angle, heel contact and stance length. Human anatomy review remains pending; no approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2104-male-anatomical-white-v1-p1-390e025d2831.webp",
+          "width": 1200,
+          "height": 800,
+          "bytes": 40180,
+          "sha256": "390e025d28315fc39cec07a8456c71927f93b856381c7eb72953c96be6b03a33"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-258.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2104-male-anatomical-white-v1-thumb-4236d6b5c7eb.webp",
+        "width": 240,
+        "height": 160,
+        "bytes": 2340,
+        "sha256": "4236d6b5c7eb1eb2824bd14a35414fc66619a864a65d1e43b7ed958eba84709b"
+      },
+      "processingSignature": "471c3752cdae4dbcca7d2d4d53c048b9cdbd495e262b76bb9feb553194034ff7",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2104-male-anatomical-white-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1628896,
+        "sha256": "c87d9a12f5f892a389e74ca7e8bdcc5a7c37be0872609316efded9a601b2a729"
+      }
+    },
+    {
+      "exerciseId": "2105",
+      "variant": "male",
+      "key": "2105-male-anatomical-white-v1",
+      "layout": {
+        "columns": 1,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Lie face down with hands under your shoulders. Press your chest up gently while keeping your hips on the floor and shoulders relaxed. Hold a comfortable abdominal stretch for 20\u201330 seconds, then lower slowly."
+        }
+      ],
+      "prompt": "LOWER TRUNK FLEXOR STRETCH. ONE fullbody SIDE three-quarterview onfloor PRONEpressup. HandsFLAT under/slightlyforward shoulders fingersforward elbowsnearlystraight. Chest raised in gentlebackextension shouldersDOWNawayears headneutral lookingforwardslightlydown. PELVIS HIPFRONT andBOTH ANTERIOR THIGHS REMAIN CONTACTFLOOR, legsstraightbehind, shoeTOPSfloor no toesplank. No hip floating likeupwarddog, no exaggeratedlumbararch. Primary ABS only softUNIFORM RED ELLIPSE on intact blacktankfrontabdomen, NO internal abssegmentation orfiberlines andchestblack. Fullclothing wrapsbackseatcrotch. Exactly ONE static full-body adult MALE figure. Premium crisp detailed grayscale anatomy matching original project reference for rendering STYLE ONLY, ignore its pose. White background soft shadows realistic proportions and detailed exposed gray muscle contours. Opaque BLACK tank and mid-thigh shorts wrap front sides back seat crotch, seams folds hems visible. NO anatomy through fabric, no cutaways no transparency. Red on clothing must be plain uniform soft teaching ellipse on intact cloth, NO internal rays lines lobes or muscle fibers; cloth folds retained. Black shoes. Exactly two coherent arms hands legs feet, normal hands five fingers. All body and equipment within frame with margins. No text arrows logos.",
+      "inspectionNote": "Real output inspected. Prone press-up static hold, palms grounded, elbows near straight, pelvis and thighs appear floor-supported, head neutral and shoulders lowered. Plain abdominal red teaching tint over intact tank with chest black and all clothing opaque. Qualified review needed for pelvic contact, comfortable lumbar extension, hand position, finger anatomy and abdominal mapping. Human anatomy review remains pending; no approval or publication.",
+      "canonicalName": "lower trunk flexor stretch",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "abs"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Prone press-up static hold, palms grounded, elbows near straight, pelvis and thighs appear floor-supported, head neutral and shoulders lowered. Plain abdominal red teaching tint over intact tank with chest black and all clothing opaque. Qualified review needed for pelvic contact, comfortable lumbar extension, hand position, finger anatomy and abdominal mapping. Human anatomy review remains pending; no approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2105-male-anatomical-white-v1-p1-f722981f8a95.webp",
+          "width": 1200,
+          "height": 600,
+          "bytes": 27148,
+          "sha256": "f722981f8a9597b5dd8ac77bb83612aaaa90d36851ff813edeabf4e38dfd731c"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-258.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2105-male-anatomical-white-v1-thumb-f97aefa6adf9.webp",
+        "width": 240,
+        "height": 120,
+        "bytes": 1892,
+        "sha256": "f97aefa6adf927695d6db012768764a00d2b48b4859ad938687608822af32045"
+      },
+      "processingSignature": "7626c2ba8f7a0005e53869ac30b7a205e84c96203b1d707fe321cb75178656c5",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2105-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1410524,
+        "sha256": "ed26542f7e55260bcea075a0772dc3438be3827d376230cd702464703f33a07c"
+      }
+    }
+  ]
+}

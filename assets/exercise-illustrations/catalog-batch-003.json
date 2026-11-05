@@ -1,0 +1,46 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "0001",
+      "variant": "male",
+      "key": "0001-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Start"
+        },
+        {
+          "key": "p2",
+          "caption": "Partial sit-up"
+        }
+      ],
+      "prompt": "Create a premium educational anatomical illustration of 3/4 SIT-UP, adult MALE variant. Reference image supplies artistic style ONLY; replace squat with the requested sit-up. Pure white background, grayscale detailed realistic anatomical proportions, crisp high-definition detail, subtle contact shadows. Two equal panels side by side with generous white gutter and all bodies fully inside each panel. Left: supine on thin gray mat, knees bent, both soles flat, fingertips lightly behind head and elbows open, trunk resting on mat. Right: same man, feet and pelvis remain in same places, partial sit-up with trunk raised to approximately 45 degrees from floor, controlled spinal flexion, head aligned without chin thrust or pulling neck. Camera near side view with slight oblique angle so both legs and hand positions are understandable. Same camera scale equipment garments lighting. Full opaque black sleeveless athletic shirt and closed knee-length black athletic shorts covering front sides back crotch and both buttocks in both poses; real seams and folds. Shoes. Red abdominal teaching overlay printed on intact shirt fabric; never transparent fabric, cutaway, exposed anatomical fibers through clothing, missing rear shorts, or extra limbs. Red only abdominal region, not chest or hip flexors. No text, labels, captions, arrows, logos or numbers. High quality matching reference. This is two still positions, not a video.",
+      "inspectionNote": "Visual inspection: opaque shirt and shorts cover front/sides/seat; grounded feet, partial trunk rise. Starting head is slightly raised rather than fully resting; verify cervical position and 45-degree endpoint with qualified reviewer. Red abdominal graphic sits over intact shirt. Not anatomy-approved."
+    },
+    {
+      "exerciseId": "0001",
+      "variant": "female",
+      "key": "0001-female-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Start"
+        },
+        {
+          "key": "p2",
+          "caption": "Partial sit-up"
+        }
+      ],
+      "prompt": "Create a premium educational anatomical illustration of 3/4 SIT-UP, adult FEMALE variant. Reference image supplies artistic style ONLY; replace squat with the requested sit-up. Pure white background, grayscale detailed realistic anatomical proportions, crisp high-definition detail, subtle contact shadows. Two equal panels side by side with generous white gutter and all bodies fully inside each panel. Left: head, shoulders and trunk resting fully on mat, supine on thin gray mat, knees bent, both soles flat, fingertips lightly behind head and elbows open, trunk resting on mat. Right: same woman, feet and pelvis remain in same places, partial sit-up with trunk raised to approximately 45 degrees from floor, controlled spinal flexion, head aligned without chin thrust or pulling neck. Camera near side view with slight oblique angle so both legs and hand positions are understandable. Same camera scale equipment garments lighting. Full opaque fitted black sleeveless athletic shirt with full chest side and back coverage and closed knee-length black athletic shorts covering front sides back crotch and both buttocks in both poses; real seams and folds. Shoes. Red abdominal teaching overlay printed on intact shirt fabric; never transparent fabric, cutaway, exposed anatomical fibers through clothing, missing rear shorts, or extra limbs. Red only abdominal region, not chest or hip flexors. No text, labels, captions, arrows, logos or numbers. High quality matching reference. This is two still positions, not a video.",
+      "inspectionNote": "Visual inspection: full opaque top and shorts, grounded soles, start and partial trunk-rise positions. Qualified review must confirm endpoint angle, cervical alignment and target-region graphic; no anatomy approval."
+    }
+  ]
+}

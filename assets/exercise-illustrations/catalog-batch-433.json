@@ -1,0 +1,126 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "4055",
+      "variant": "male",
+      "key": "4055-male-anatomical-white-v1",
+      "prompt": "DUMBBELL SEATED LATERAL RAISE ON STABILITY BALL TWOequalhorizontalpanels FRONTview. SitUPRIGHT centeredonROUNDball feetflatknees90. ONEdumbbell EACHhand. First armsHANGsides. Second raiseBOTHarms OUT TO SIDES shoulderheight elbowsSOFTsameangle nofrontcurl nolean. Exposed lateralDELTOIDSred. Generous width so completebothweights retained. Use case: scientific-educational. Premium detailed grayscale adultmale anatomy purewhitebackground crisp exposed muscles realistic joints softshadow. Original0853 reference STYLEONLY. Samecamera modelscale equipment clothes everypanel. Opaque blacktank mid-thighshorts cover front sides back crotch seamsfoldshems. Red ONLY exposed specified target muscles, no coveredback/chestwash. Fullbody completeequipment weights handsfeet generouslyinframe. No textnumbersarrows.",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Sit upright on ball holding dumbbells at sides."
+        },
+        {
+          "key": "p2",
+          "caption": "Raise arms sideways to shoulder height, then lower slowly."
+        }
+      ],
+      "inspectionNote": "Real output inspected. Ball seated lateral raise with soft elbows and both weights contained; opaque clothes. Qualified anatomy review pending; no publication.",
+      "blockingIssues": [],
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream media used.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0853-male-anatomical-white-v1.png",
+        "role": "style only"
+      }
+    },
+    {
+      "exerciseId": "4063",
+      "variant": "male",
+      "key": "4063-male-anatomical-white-v1",
+      "prompt": "BAND BICEPS CURL TWOequalhorizontalpanels frontview. StandONmiddlecontinuouselasticband BOTHfeet hipwidth, holdONEend eachhand PALMSforward/supinated. First armsstraightbySIDES bandcontinuousfromfeet togrips. Second curlBOTHhands SHOULDERS elbowsSTAYbesideribs wristsneutral nolean. ExposedBICEPSred. Use case: scientific-educational. Premium detailed grayscale adultmale anatomy purewhitebackground crisp exposed muscles realistic joints softshadow. Original0853 reference STYLEONLY. Samecamera modelscale equipment clothes everypanel. Opaque blacktank mid-thighshorts cover front sides back crotch seamsfoldshems. Red ONLY exposed specified target muscles, no coveredback/chestwash. Fullbody completeequipment weights handsfeet generouslyinframe. No textnumbersarrows.",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand on band with palms forward and arms down."
+        },
+        {
+          "key": "p2",
+          "caption": "Curl hands toward shoulders, squeeze and lower slowly."
+        }
+      ],
+      "inspectionNote": "Real output inspected. Continuous band under feet and both complete grips through supinated curl, elbows beside ribs. Qualified anatomy review pending; no publication.",
+      "blockingIssues": [],
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream media used.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0853-male-anatomical-white-v1.png",
+        "role": "style only"
+      }
+    },
+    {
+      "exerciseId": "4065",
+      "variant": "male",
+      "key": "4065-male-anatomical-white-v1",
+      "prompt": "DUMBBELL STANDING ALTERNATE ARNOLD PRESS THREEequalhorizontalpanels frontview. Standtall dumbbellEACHhand. First BOTHweights shoulderheight forearmsinfront chest PALMS TOWARDface. Second RIGHTpressesOVERHEAD rotatespalmFORWARD, LEFTweightstay shoulderpalmin. Third RIGHTreturnsshoulderpalmin LEFTpressesoverheadpalmFORWARD. Torsostill. Exposeddeltoidsred. Use case: scientific-educational. Premium detailed grayscale adultmale anatomy purewhitebackground crisp exposed muscles realistic joints softshadow. Original0853 reference STYLEONLY. Samecamera modelscale equipment clothes everypanel. Opaque blacktank mid-thighshorts cover front sides back crotch seamsfoldshems. Red ONLY exposed specified target muscles, no coveredback/chestwash. Fullbody completeequipment weights handsfeet generouslyinframe. No textnumbersarrows.",
+      "layout": {
+        "columns": 3,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hold dumbbells at shoulders with palms facing you."
+        },
+        {
+          "key": "p2",
+          "caption": "Press right overhead while rotating palm forward, then lower."
+        },
+        {
+          "key": "p3",
+          "caption": "Repeat with left arm, keeping torso steady."
+        }
+      ],
+      "inspectionNote": "Real output inspected. Alternating overhead presses shown but palms stay forward in rack instead of Arnold palms-in rotation; biceps incorrectly highlighted in starting pose. Qualified anatomy review pending; no publication.",
+      "blockingIssues": [
+        "Arnold starting palms-in grip and outward rotation missing.",
+        "Starting primary highlight on biceps rather than deltoids."
+      ],
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream media used.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0853-male-anatomical-white-v1.png",
+        "role": "style only"
+      }
+    },
+    {
+      "exerciseId": "4067",
+      "variant": "male",
+      "key": "4067-male-anatomical-white-v1",
+      "prompt": "DUMBBELL SEATED ALTERNATE ARNOLD PRESS THREEequalhorizontalpanels frontview. SitUPRIGHT backAGAINSTPAD feetflat. BOTHdumbbells atshoulders palmsTOWARDface. Second RIGHTpressesoverheadpalmrotatesFORWARD LEFTstay shoulderpalmin. Third RIGHTreturnsshoulder LEFTpressesoverheadpalmFORWARD. Backremainspad noarch. Exposeddeltoidsred. Use case: scientific-educational. Premium detailed grayscale adultmale anatomy purewhitebackground crisp exposed muscles realistic joints softshadow. Original0853 reference STYLEONLY. Samecamera modelscale equipment clothes everypanel. Opaque blacktank mid-thighshorts cover front sides back crotch seamsfoldshems. Red ONLY exposed specified target muscles, no coveredback/chestwash. Fullbody completeequipment weights handsfeet generouslyinframe. No textnumbersarrows.",
+      "layout": {
+        "columns": 3,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Sit supported with palms facing you at shoulders."
+        },
+        {
+          "key": "p2",
+          "caption": "Press right arm overhead while rotating outward."
+        },
+        {
+          "key": "p3",
+          "caption": "Lower and alternate with left arm."
+        }
+      ],
+      "inspectionNote": "Real output inspected. Alternating seated presses shown but starting palms face forward rather than athlete, so Arnold rotation is not depicted. Qualified anatomy review pending; no publication.",
+      "blockingIssues": [
+        "Arnold starting palms-in grip and outward rotation missing."
+      ],
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream media used.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0853-male-anatomical-white-v1.png",
+        "role": "style only"
+      }
+    }
+  ],
+  "runStopReason": "Repeated Arnold grip-rotation depiction failure in standing4065 and seated4067; stop run."
+}

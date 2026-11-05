@@ -1,0 +1,45 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "0308",
+      "variant": "male",
+      "key": "0308-male-anatomical-white-v3",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Bring dumbbells above chest"
+        },
+        {
+          "key": "p2",
+          "caption": "Open arms in a wide arc"
+        }
+      ],
+      "prompt": "Premium educational anatomical fitness illustration, ADULT MALE, realistic detailed grayscale anatomy and proportions, pure white background subtle contact shadows. Reference for artistic quality only, not pose or highlighted region. TWO equal panels with broad white gutter; same model, camera, equipment, scale, lighting and clothing. Full opaque black sleeveless athletic top covers chest torso sides and back, opaque knee-length shorts completely wrap front sides back seat and crotch with seams folds and closed leg hems, shoes. No cutaways or transparent clothing. Red PECTORALS teaching graphic ON intact shirt chest ONLY; no red thighs or biceps. Elevated three-quarter SIDE view makes BOTH arms and dumbbells legible in each panel. Entire model and equipment inside each panel with generous margins. No text numbers arrows labels logos.  Exercise dumbbell fly, canonical0308. FLAT horizontal padded bench, supine with head upper back and pelvis supported, feet planted on floor. One dumbbell in EACH hand, neutral grip palms facing each other. Left panel: arms raised above mid-chest, dumbbells close but separate, elbows softly bent about20degrees. Right panel: open arms sideways in wide arc, upper arms approximately level with torso, elbows still softly bent same20degrees, dumbbells outside shoulder width, no deep shoulder hyperextension. Shoulder horizontal abduction changes, elbow angle remains nearly constant; NOT a press and NOT a triceps extension. Same bench and body support points, no extra limbs or weights. Use the provided flat bench press drawing as the exact bench/support and clothing reference, but change movement to a FLY: in second panel open arms wide sideways, elbows almost straight only20degrees bent and dumbbells well outside shoulders. Backrest and seat form ONE continuous horizontal pad, parallel floor. Head and hips same height. Do NOT incline bench."
+    },
+    {
+      "exerciseId": "0308",
+      "variant": "female",
+      "key": "0308-female-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Bring dumbbells above chest"
+        },
+        {
+          "key": "p2",
+          "caption": "Open arms in a wide arc"
+        }
+      ],
+      "prompt": "Premium educational anatomical fitness illustration, ADULT FEMALE, realistic detailed grayscale anatomy and proportions, pure white background subtle contact shadows. Reference for artistic quality only, not pose or highlighted region. TWO equal panels with broad white gutter; same model, camera, equipment, scale, lighting and clothing. Full opaque black sleeveless athletic top covers chest torso sides and back, opaque knee-length shorts completely wrap front sides back seat and crotch with seams folds and closed leg hems, shoes. No cutaways or transparent clothing. Red PECTORALS teaching graphic ON intact shirt chest ONLY; no red thighs or biceps. Elevated three-quarter SIDE view makes BOTH arms and dumbbells legible in each panel. Entire model and equipment inside each panel with generous margins. No text numbers arrows labels logos.  Exercise dumbbell fly, canonical0308. FLAT horizontal padded bench, supine with head upper back and pelvis supported, feet planted on floor. One dumbbell in EACH hand, neutral grip palms facing each other. Left panel: arms raised above mid-chest, dumbbells close but separate, elbows softly bent about20degrees. Right panel: open arms sideways in wide arc, upper arms approximately level with torso, elbows still softly bent same20degrees, dumbbells outside shoulder width, no deep shoulder hyperextension. Shoulder horizontal abduction changes, elbow angle remains nearly constant; NOT a press and NOT a triceps extension. Same bench and body support points, no extra limbs or weights. Use the provided flat bench press drawing as the exact bench/support and clothing reference, but change movement to a FLY: in second panel open arms wide sideways, elbows almost straight only20degrees bent and dumbbells well outside shoulders. Backrest and seat form ONE continuous horizontal pad, parallel floor. Head and hips same height. Do NOT incline bench. Female model must have equivalent anatomical detail, full opaque top and shorts. Keep elbows softly bent similarly in both poses.",
+      "inspectionNote": "Opaque clothing and flat bench correct. Movement rejected: second pose bends elbows excessively, resembling a press rather than fly. Block until corrected."
+    }
+  ]
+}

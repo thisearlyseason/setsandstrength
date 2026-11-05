@@ -1,0 +1,98 @@
+{
+  "batch": 95,
+  "trigger": "2026-11-01T21:51:51.838Z",
+  "completedAt": "2026-11-01T22:00:21.737574+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 4,
+  "generationCalls": 8,
+  "exerciseIds": [
+    "0632",
+    "0634"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 392,
+    "remainingVariants": 10872,
+    "approvedVariants": 0,
+    "blockedVariants": 166,
+    "knownPoseImages": 804,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Four candidate sets with eight pose images and four retained correction masters saved using eight built-in calls. None approved or published. Bench bridges show close feet on bench, arms beside body and diagonal raised hips. Male lowered-phase glute tint retains radial lines after correction, female skull remains propped by ponytail after head-rest edit; both blocked. Negative crunches show top-to-bottom lowering with hands behind head and feet flat. Cloth edits reduce sixpack patterns but bottom skull support remains elevated on hands in both variants; female top shirt retains some segmentation. Both blocked. Qualified review of head support, clothing overlays, bench continuity, foot spacing, torso angle and all anatomy/technique remains separate. Full opaque clothing wraps torso/front/sides/back/seat/crotch, exposed anatomy grayscale. Exact prompts, originals, correction history and hashes retained. Original project artwork only as style reference; no upstream media. Pipeline checks are not anatomy approval.",
+  "metadataConflictsDeferred": [
+    {
+      "exerciseId": "0633",
+      "issue": "Prone neck bridge specifies kneeling with head on floor but does not define support geometry and endpoint neck angles for rocking; defer pending precise pose plan."
+    },
+    {
+      "exerciseId": "0636",
+      "issue": "Neutral hammer-curl description conflicts with overhand straight Olympic barbell instructions."
+    },
+    {
+      "exerciseId": "0638",
+      "issue": "One-arm description includes opposite hand assisting wrist in instructions; lats target conflicts with upper-back primary map."
+    }
+  ],
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 644736080,
+  "savedMasters": [
+    {
+      "exerciseId": "0632",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0632-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1659608,
+        "sha256": "77c05441a933c59d74943c2afe4b111906b8a44bf0e6fe95dde8d596a5ff3cd2"
+      }
+    },
+    {
+      "exerciseId": "0632",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0632-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1632351,
+        "sha256": "befdac31e2fab0e8ab6c4a3a98507fda82de23521f9d97cf3bde6cfcc6b28737"
+      }
+    },
+    {
+      "exerciseId": "0634",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0634-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1727847,
+        "sha256": "45c9bee22a70ba2d8a8bb23c02107f307a3ba2656ec15c163ab83bbe2cf4b200"
+      }
+    },
+    {
+      "exerciseId": "0634",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0634-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1698506,
+        "sha256": "6dcedb986b287aa03b77a97516bebb8f84803fa05f3831920df878359be29d30"
+      }
+    }
+  ]
+}

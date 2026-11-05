@@ -1,0 +1,61 @@
+{
+  "batch": 291,
+  "runId": "d987417e-632a-40c4-bd6a-9abd4fe2ac0c",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "trigger": "user retry",
+  "purpose": "batch291 finish unattempted 2515 and 2525",
+  "started": "2026-11-04T03:24:19.163672+00:00",
+  "completedAt": "2026-11-04T03:30:33.209382+00:00",
+  "actualToolName": "image_gen__imagegen",
+  "calls": 2,
+  "newCandidateSets": 2,
+  "exerciseIds": [
+    "2515",
+    "2525"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1033,
+    "remainingVariants": 10231,
+    "approvedVariants": 0,
+    "blockedVariants": 352,
+    "knownPoseImages": 1986,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 660,
+      "remainingVariants": 4972,
+      "blockedVariants": 233
+    }
+  },
+  "reviewNotes": {
+    "2515": "Low pulley behind body, one handle at thigh then forward shoulder-height raise with planted feet, upright torso and off hand on hip. Working anterior deltoid red only, opaque black clothing. Qualified review of cable clearance across/beside hip, grip and wrist, elbow softness, shoulder mapping and arm plane required. Human anatomy review pending.",
+    "2525": "One standing hold on low textured vibration plate, both feet fully supported, knees softly bent, torso tall and arms relaxed. Quad color wash retains fabric seams and folds, opaque clothing. Qualified review of knee softness, balanced stance, platform setup and muscle mapping pending."
+  },
+  "blockingIssues": {},
+  "tests": 7,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "workerSyncResult": {
+    "statuses": {
+      "generated": 1033,
+      "pending": 10231
+    },
+    "remaining": 10231,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 1590462440
+  },
+  "publicationIndexUnchanged": true
+}

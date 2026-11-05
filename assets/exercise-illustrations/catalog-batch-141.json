@@ -1,0 +1,648 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "0869",
+      "variant": "male",
+      "key": "0869-male-anatomical-white-v2",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Sit with the back supported and feet flat; grasp the machine handles with an overhand grip near shoulder height."
+        },
+        {
+          "key": "p2",
+          "caption": "Press the connected handles upward and slightly forward until the arms are nearly straight, then lower slowly."
+        }
+      ],
+      "prompt": "Framing correction ONLY for original male seated lever shoulder press. Keep same two exercise poses, machine connected lever arms and fixed pivots, overhand grips, shoulder start to overhead finish, supported back hips and feet. SHRINK entire subject AND MACHINE uniformly inside EACH cell to give at least8percent white space ABOVE raised hands and below shoes, equally scale BOTH poses. TWO equal SQUARE cells WIDE LANDSCAPE, no crop, generous all-side margins. Preserve detailed exposed grayscale anatomy, shoulder red only, full opaque black shirt/shorts all front sides back seat crotch, white background no text. Do not change technique or machine geometry.",
+      "inspectionNote": "Framing correction adds broad white margins above raised hands and beneath shoes; same connected lever press shoulder-to-overhead poses, supported seat/back and planted feet. Fine exposed anatomy retained at smaller scale, deltoid red and opaque clothes. Qualified pivots, grip and movement path pending human review.",
+      "canonicalName": "lever shoulder press v. 2",
+      "styleVersion": "white-v1",
+      "equipment": "leverage machine",
+      "primaryMuscles": [
+        "deltoids"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0869-male-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "status": "generated",
+        "costUSD": null
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Framing correction adds broad white margins above raised hands and beneath shoes; same connected lever press shoulder-to-overhead poses, supported seat/back and planted feet. Fine exposed anatomy retained at smaller scale, deltoid red and opaque clothes. Qualified pivots, grip and movement path pending human review.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0869-male-anatomical-white-v2-p1-54c2c6bfa53c.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 30038,
+          "sha256": "54c2c6bfa53c36afdc65edaf571fb6d50c8cdf042956982910919131c7b54465"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0869-male-anatomical-white-v2-p2-2535d2b121d4.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 30320,
+          "sha256": "2535d2b121d46a22119881f85918ed1b4fd834f7d37ba44574bf242204cda127"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0869-male-anatomical-white-v2-thumb-59cb597e54b4.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 3606,
+        "sha256": "59cb597e54b47c030c412b535961cbf13a04adcd7c4b234609b3c56b05206464"
+      },
+      "processingSignature": "8a720f306b3c094a54533fa8cee7d7c9ca638d996b17d131b7a5bb1a1968c514",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0869-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1378059,
+        "sha256": "0c395d2d9468791738ef81a18cbd4fe4bf9c56bfaa3b8d1dbefa38b4103ef8fd"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0869",
+          "variant": "male",
+          "key": "0869-male-anatomical-white-v1",
+          "layout": {
+            "columns": 2,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Sit with the back supported and feet flat; grasp the machine handles with an overhand grip near shoulder height."
+            },
+            {
+              "key": "p2",
+              "caption": "Press the connected handles upward and slightly forward until the arms are nearly straight, then lower slowly."
+            }
+          ],
+          "prompt": "Original premium ADULT male anatomical exercise illustration, TWO equal SQUARE cells side by side WIDE LANDSCAPE 2:1, canonical0869 LEVER SHOULDER PRESS v2. Same model scale, proportions, machine and camera both poses. FRONT SIDE three-quarter view of realistic compact seated LEVER SHOULDER PRESS MACHINE with fixed pivoting overhead lever arms, padded upright BACKREST and seat, grounded feet. Sit upright spine supported pad, neutral neck eyes forward, feet flat shoulder width same positions. TWO shoulder-width-plus handles on lever arms gripped OVERHAND palms face FORWARD, closed fingers thumbs wrap, wrists straight. LEFT START handles near shoulder height, elbows bent about90degrees under wrists, upper arms slightly below shoulders. RIGHT FINISH press handles UP and SLIGHTLY FORWARD overhead arms almost extended with soft elbows, NO bar behind head, shoulders not shrugged to ears, back stays pad hips seat no legdrive. Lever arms visibly rotate upward around fixed rear pivots, handles remain connected machine, no floating handles. Primary DELTOIDS RED ONLY exposed shoulder caps, no chest/triceps red. Fine detailed EXPOSED grayscale anatomical contours, realistic equipment and proportions equivalent male/female detail. Opaque BLACK athletic tank shirt and MID-THIGH shorts wrap FRONT SIDES BACK SEAT CROTCH, real seams broad fabric folds no cutaway/transparency/anatomical fibers through cloth. Black shoes. Entire machine, handles, model head/hands/feet within EACH square generous margins pure white background soft shadows. Project original reference for rendering STYLE ONLY ignore bench push-up pose and equipment/chest red. No embedded text/captions/arrows/labels.",
+          "inspectionNote": "Seated lever shoulder press connected pivot arms shoulder-height start to overhead soft extension, overhand grips, back/hips supported feet grounded. Exposed deltoid red, full opaque clothing. Raised hands very near top edge need margin expansion. Qualified pivot consistency, grip and shoulder path pending review.",
+          "canonicalName": "lever shoulder press v. 2",
+          "styleVersion": "white-v1",
+          "equipment": "leverage machine",
+          "primaryMuscles": [
+            "deltoids"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Seated lever shoulder press connected pivot arms shoulder-height start to overhead soft extension, overhand grips, back/hips supported feet grounded. Exposed deltoid red, full opaque clothing. Raised hands very near top edge need margin expansion. Qualified pivot consistency, grip and shoulder path pending review.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0869-male-anatomical-white-v1-p1-4ac6d5d099cd.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 50424,
+              "sha256": "4ac6d5d099cd903a2ee16792b03bdded39239961cfe619f5011350d20fcc76c5"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0869-male-anatomical-white-v1-p2-e1252ccf5c82.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 51020,
+              "sha256": "e1252ccf5c82d4ff7437c54e857f5651a5c608eb418dd3326085943c321cdd74"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0869-male-anatomical-white-v1-thumb-1c832a2c6a36.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 5476,
+            "sha256": "1c832a2c6a3613e45683a0f854d9f4f1d9fb18a857370930895c4ebeb4ade24f"
+          },
+          "processingSignature": "2cf1d96f3f7823b52290fe4401d3a48f1bab870fe0e451d6cd8c7e53634b7526",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0869-male-anatomical-white-v1.png",
+            "width": 1774,
+            "height": 887,
+            "bytes": 1907874,
+            "sha256": "8068e9dd980b1cdbf251414ee91028ffda4f28d364c4d9ce72c7367d436deee3"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "0869",
+      "variant": "female",
+      "key": "0869-female-anatomical-white-v2",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Sit with the back supported and feet flat; grasp the machine handles with an overhand grip near shoulder height."
+        },
+        {
+          "key": "p2",
+          "caption": "Press the connected handles upward and slightly forward until the arms are nearly straight, then lower slowly."
+        }
+      ],
+      "prompt": "Framing correction ONLY for original female seated lever shoulder press. Keep same two exercise poses, machine connected lever arms and fixed pivots, overhand grips, shoulder start to overhead finish, supported back hips and feet. SHRINK entire subject AND MACHINE uniformly inside EACH cell to give at least8percent white space ABOVE raised hands and below shoes, equally scale BOTH poses. TWO equal SQUARE cells WIDE LANDSCAPE, no crop, generous all-side margins. Preserve detailed exposed grayscale anatomy, shoulder red only, full opaque black shirt/shorts all front sides back seat crotch, white background no text. Do not change technique or machine geometry.",
+      "inspectionNote": "Framing correction expands raised-hand and shoe margins while retaining connected lever shoulder press and supported posture. Detailed exposed grayscale anatomy at smaller scale, deltoid red, full opaque clothing. Qualified machine pivots, overhand grip and shoulder path pending human review.",
+      "canonicalName": "lever shoulder press v. 2",
+      "styleVersion": "white-v1",
+      "equipment": "leverage machine",
+      "primaryMuscles": [
+        "deltoids"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0869-female-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "status": "generated",
+        "costUSD": null
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Framing correction expands raised-hand and shoe margins while retaining connected lever shoulder press and supported posture. Detailed exposed grayscale anatomy at smaller scale, deltoid red, full opaque clothing. Qualified machine pivots, overhand grip and shoulder path pending human review.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0869-female-anatomical-white-v2-p1-fbdb87849423.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 24232,
+          "sha256": "fbdb878494232b00858621e3f7768f970fc99c0ba6734ed3beed6fe848c0c496"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0869-female-anatomical-white-v2-p2-11569e08f543.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 25692,
+          "sha256": "11569e08f543d526a77b0a5068fc04525d683fae6ca5e56946812e555dc9690f"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0869-female-anatomical-white-v2-thumb-60dc7b22c0a2.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2916,
+        "sha256": "60dc7b22c0a2e702096add6fc7a1bbf8c291674308f6f673484268728d81a2a5"
+      },
+      "processingSignature": "5d659432152058d24984a15bffce867442afaa9ac01eb218c5319c81df33df66",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0869-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1300050,
+        "sha256": "b0393c391124aa630e663b269ac49bef21788d43f1058076840c25d462abd6fe"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0869",
+          "variant": "female",
+          "key": "0869-female-anatomical-white-v1",
+          "layout": {
+            "columns": 2,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Sit with the back supported and feet flat; grasp the machine handles with an overhand grip near shoulder height."
+            },
+            {
+              "key": "p2",
+              "caption": "Press the connected handles upward and slightly forward until the arms are nearly straight, then lower slowly."
+            }
+          ],
+          "prompt": "Original premium ADULT female anatomical exercise illustration, TWO equal SQUARE cells side by side WIDE LANDSCAPE 2:1, canonical0869 LEVER SHOULDER PRESS v2. Same model scale, proportions, machine and camera both poses. FRONT SIDE three-quarter view of realistic compact seated LEVER SHOULDER PRESS MACHINE with fixed pivoting overhead lever arms, padded upright BACKREST and seat, grounded feet. Sit upright spine supported pad, neutral neck eyes forward, feet flat shoulder width same positions. TWO shoulder-width-plus handles on lever arms gripped OVERHAND palms face FORWARD, closed fingers thumbs wrap, wrists straight. LEFT START handles near shoulder height, elbows bent about90degrees under wrists, upper arms slightly below shoulders. RIGHT FINISH press handles UP and SLIGHTLY FORWARD overhead arms almost extended with soft elbows, NO bar behind head, shoulders not shrugged to ears, back stays pad hips seat no legdrive. Lever arms visibly rotate upward around fixed rear pivots, handles remain connected machine, no floating handles. Primary DELTOIDS RED ONLY exposed shoulder caps, no chest/triceps red. Fine detailed EXPOSED grayscale anatomical contours, realistic equipment and proportions equivalent male/female detail. Opaque BLACK athletic tank shirt and MID-THIGH shorts wrap FRONT SIDES BACK SEAT CROTCH, real seams broad fabric folds no cutaway/transparency/anatomical fibers through cloth. Black shoes. Entire machine, handles, model head/hands/feet within EACH square generous margins pure white background soft shadows. Project original reference for rendering STYLE ONLY ignore bench push-up pose and equipment/chest red. No embedded text/captions/arrows/labels.",
+          "inspectionNote": "Lever shoulder press shoulder-height bent arms to overhead extension, connected handles and supported back/hips, planted feet. Deltoid red on exposed anatomy, opaque clothes. Top hand/lever margin narrow; planned framing correction. Qualified pivot geometry, grip and path pending review.",
+          "canonicalName": "lever shoulder press v. 2",
+          "styleVersion": "white-v1",
+          "equipment": "leverage machine",
+          "primaryMuscles": [
+            "deltoids"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Lever shoulder press shoulder-height bent arms to overhead extension, connected handles and supported back/hips, planted feet. Deltoid red on exposed anatomy, opaque clothes. Top hand/lever margin narrow; planned framing correction. Qualified pivot geometry, grip and path pending review.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0869-female-anatomical-white-v1-p1-9393e30a2ce5.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 40762,
+              "sha256": "9393e30a2ce5e9bdef06f611c3ba8e94c2236d40ce6202398d0d2097bce4502f"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0869-female-anatomical-white-v1-p2-3853dc94ebaa.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 42626,
+              "sha256": "3853dc94ebaa86422d0bb3ced0b57ff0c694f6675b51f35debb2685f1c5e217b"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0869-female-anatomical-white-v1-thumb-444259d6844a.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 4646,
+            "sha256": "444259d6844aecd8f0f692697438f966e104dd3ab3828fc7fc1b99d6c3c05f04"
+          },
+          "processingSignature": "85cb61d7c26d2ce491f0e294f64371d206c6221855ead9e4a7a2696c1727fa3d",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0869-female-anatomical-white-v1.png",
+            "width": 1774,
+            "height": 887,
+            "bytes": 1556611,
+            "sha256": "f9c086d7a0a06fbf1028310a79d72621c694182025eec56565ecf6fcd9be5cdc"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "0872",
+      "variant": "male",
+      "key": "0872-male-anatomical-white-v2",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Lie on the back with arms by the sides, knees bent and feet lifted so the thighs are vertical."
+        },
+        {
+          "key": "p2",
+          "caption": "Curl the pelvis a small distance off the mat, bringing the bent knees toward the chest while the upper back and head remain supported; lower with control."
+        }
+      ],
+      "prompt": "Correct original male REVERSE CRUNCH. Keep bent-knee vertical-thigh start and small pelvis-up finish, head and scapulae grounded, arms palms mat, same limbs. Smooth abdominal red into ONE diffuse BLURRED tint OVER continuous opaque BLACK shirt with broad fabric folds, remove ALL fine red streaks/rays/fibers/anatomical grooves through cloth. Preserve full opaque shorts front sides back seat crotch including lifted underside, detailed exposed grayscale anatomy. Extend mat behind skull with generous margins, neutral neck eyes ceiling and skull directly supported. TWO equal square cells wide landscape white background no text.",
+      "inspectionNote": "Correction extends mat behind skull and softens abdominal overlay with broad cloth folds. Vertical-thigh bent-knee start then pelvic curl, head/upper back and arms supported, opaque shirt/shorts retained. Qualified pelvic range, knee angle, abdominal cloth surface and mapping pending human review.",
+      "canonicalName": "reverse crunch",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "abs"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0872-male-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "status": "generated",
+        "costUSD": null
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Correction extends mat behind skull and softens abdominal overlay with broad cloth folds. Vertical-thigh bent-knee start then pelvic curl, head/upper back and arms supported, opaque shirt/shorts retained. Qualified pelvic range, knee angle, abdominal cloth surface and mapping pending human review.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0872-male-anatomical-white-v2-p1-ef53e621dd94.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 24554,
+          "sha256": "ef53e621dd94f0bb9fecd42b5dadd4b5238062f33c95915c7893375f6a0295c9"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0872-male-anatomical-white-v2-p2-5260fdade5d0.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 23736,
+          "sha256": "5260fdade5d0e5bee1f53523e0421ad35999112aa61dd1f2381ce3df7b2d9989"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0872-male-anatomical-white-v2-thumb-acd12c9d8a97.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2302,
+        "sha256": "acd12c9d8a975fb5452fe4891577334bd49fcc70bcf09cb2e42783fdb069dcdd"
+      },
+      "processingSignature": "2fbefafc272ad4c838dd16a370c63fcf5a999a56d837e28a6f92e9b9bffe8cba",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0872-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1663442,
+        "sha256": "3eddab618d10282153f1e16e4ddc8853d05ab3a5d1a8732bfd681182f69d904c"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0872",
+          "variant": "male",
+          "key": "0872-male-anatomical-white-v1",
+          "layout": {
+            "columns": 2,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Lie on the back with arms by the sides, knees bent and feet lifted so the thighs are vertical."
+            },
+            {
+              "key": "p2",
+              "caption": "Curl the pelvis a small distance off the mat, bringing the bent knees toward the chest while the upper back and head remain supported; lower with control."
+            }
+          ],
+          "prompt": "Original premium ADULT male anatomical exercise illustration, TWO equal SQUARE cells side by side WIDE LANDSCAPE 2:1, canonical0872 REVERSE CRUNCH. Same model scale, limb lengths, camera and mat both poses. SIDE FRONT three-quarter camera HEAD IMAGE LEFT FEET RIGHT. Lie SUPINE gray mat, back of SKULL DIRECTLY rests flat MAT neutral neck eyes ceiling; HAIR swept TO SIDE away from under skull no ponytail/bun pillow. Arms straight alongside torso palms DOWN mat support. BOTH knees bent90degrees and stay bent same angle. LEFT START pelvis and lumbar region grounded, THIGHS VERTICAL perpendicular floor, shins horizontal feet off floor. RIGHT FINISH curl PELVIS UP only5-10cm off mat, lower spine gently rounds, knees move toward chest, thighs tilt toward torso, bent feet remain OFF floor, upper back/scapulae/skull/arms remain grounded. No shoulder crunch, no full sit-up, no straight legs, no legs thrown over face, controlled small posterior pelvic curl. Primary ABS ONE smooth diffuse BLURRED RED patch over continuous opaque BLACK abdominal SHIRT, no sixpack/fibers/rays/anatomical grooves through fabric, broad natural cloth folds only. Fine detailed EXPOSED grayscale muscle contours with realistic proportions, equal male/female quality. Full opaque BLACK tank shirt and MID-THIGH shorts wrap FRONT SIDES BACK SEAT CROTCH including lifted-pelvis underside, no cutaways or transparency. Black shoes. Whole mat/head/hands/feet within EACH square with generous margins pure white background soft shadows. Project original style reference RENDERING STYLE ONLY ignore bench push-up/chest red/equipment. No text/captions/arrows/labels.",
+          "inspectionNote": "Reverse crunch vertical-thigh bent-knee start then small pelvic lift with upper back/head and arms grounded. Full opaque black clothing; abdominal overlay fine streaks require smoothing. Skull near mat edge but contact visible. Qualified curl range, knee angle, limb consistency and mapping pending review.",
+          "canonicalName": "reverse crunch",
+          "styleVersion": "white-v1",
+          "equipment": "body weight",
+          "primaryMuscles": [
+            "abs"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Reverse crunch vertical-thigh bent-knee start then small pelvic lift with upper back/head and arms grounded. Full opaque black clothing; abdominal overlay fine streaks require smoothing. Skull near mat edge but contact visible. Qualified curl range, knee angle, limb consistency and mapping pending review.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0872-male-anatomical-white-v1-p1-926b7d314011.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 26420,
+              "sha256": "926b7d3140111b6f09196cd7df5b89311d3012d1b26907b8a3d46d75d88c14ea"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0872-male-anatomical-white-v1-p2-cb758ee827d9.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 25426,
+              "sha256": "cb758ee827d9f444c2635f50b21c11adc0c4b1bd2689057a4fb99f75868cffae"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0872-male-anatomical-white-v1-thumb-3c0202898a18.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 2316,
+            "sha256": "3c0202898a18b8b677cacdc01fbbc9228d0f7063c9e5349c5d6c359a139e2bd8"
+          },
+          "processingSignature": "8a3e96d0ea5960f655dc569076a5b1fb4291395dd2b88e22b59facde6fd12242",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0872-male-anatomical-white-v1.png",
+            "width": 1774,
+            "height": 887,
+            "bytes": 1370236,
+            "sha256": "1f238bbbcbed66c36bd055d055f4471f44d2ca4149707a3f308aec42fe423d10"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "0872",
+      "variant": "female",
+      "key": "0872-female-anatomical-white-v2",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Lie on the back with arms by the sides, knees bent and feet lifted so the thighs are vertical."
+        },
+        {
+          "key": "p2",
+          "caption": "Curl the pelvis a small distance off the mat, bringing the bent knees toward the chest while the upper back and head remain supported; lower with control."
+        }
+      ],
+      "prompt": "Correct original female REVERSE CRUNCH. Change hairstyle to SHORT CROPPED PIXIE hair in BOTH poses, absolutely NO long hair/bun/ponytail under skull. Back of SKULL directly contacts flat mat, neutral neck eyes ceiling, upper back/scapulae grounded. Preserve bent-knee vertical-thigh start and SMALL pelvis-up curl finish, palms mat, same limb lengths. Replace all red abdominal fibers/rays/grooves with ONE soft diffuse BLURRED red tint on intact opaque BLACK shirt, broad cloth folds only. Full opaque shorts front sides back seat crotch including lifted underside, detailed exposed grayscale anatomy. TWO equal SQUARE cells wide landscape generous margins white background no text.",
+      "inspectionNote": "Correction changes to short cropped hair, clears visible direct skull-to-mat support, softens abdominal red over cloth folds. Bent-knee vertical-thigh start then small pelvic curl with head/upper back/palms grounded. Full opaque clothing; qualified neck, pelvic range, knee angle, cloth surface and mapping pending human review.",
+      "canonicalName": "reverse crunch",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "abs"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0872-female-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "status": "generated",
+        "costUSD": null
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Correction changes to short cropped hair, clears visible direct skull-to-mat support, softens abdominal red over cloth folds. Bent-knee vertical-thigh start then small pelvic curl with head/upper back/palms grounded. Full opaque clothing; qualified neck, pelvic range, knee angle, cloth surface and mapping pending human review.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0872-female-anatomical-white-v2-p1-378ce570111f.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 22876,
+          "sha256": "378ce570111f9319da0752e7dd0fb4ae124cfa1130d53c7e136975ccd44a83ee"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0872-female-anatomical-white-v2-p2-fb02be32a6a1.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 22720,
+          "sha256": "fb02be32a6a1e6a9709b0574abaefccfb516dd1ad32fe69cd9e722ee2355a79f"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0872-female-anatomical-white-v2-thumb-8682a786c2c7.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2470,
+        "sha256": "8682a786c2c73b7675f654883a2c108c4759658f6e35d39f7453d317e5173a58"
+      },
+      "processingSignature": "f2b99c6262e489f48a85e1095ce1286de84352ccbde48ce20ed2e44166526d0e",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0872-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1332974,
+        "sha256": "8fa4117581fb888f89162f31485e3d5489c9c5b1400c691bb06c58b29da2d7a1"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0872",
+          "variant": "female",
+          "key": "0872-female-anatomical-white-v1",
+          "layout": {
+            "columns": 2,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Lie on the back with arms by the sides, knees bent and feet lifted so the thighs are vertical."
+            },
+            {
+              "key": "p2",
+              "caption": "Curl the pelvis a small distance off the mat, bringing the bent knees toward the chest while the upper back and head remain supported; lower with control."
+            }
+          ],
+          "prompt": "Original premium ADULT female anatomical exercise illustration, TWO equal SQUARE cells side by side WIDE LANDSCAPE 2:1, canonical0872 REVERSE CRUNCH. Same model scale, limb lengths, camera and mat both poses. SIDE FRONT three-quarter camera HEAD IMAGE LEFT FEET RIGHT. Lie SUPINE gray mat, back of SKULL DIRECTLY rests flat MAT neutral neck eyes ceiling; HAIR swept TO SIDE away from under skull no ponytail/bun pillow. Arms straight alongside torso palms DOWN mat support. BOTH knees bent90degrees and stay bent same angle. LEFT START pelvis and lumbar region grounded, THIGHS VERTICAL perpendicular floor, shins horizontal feet off floor. RIGHT FINISH curl PELVIS UP only5-10cm off mat, lower spine gently rounds, knees move toward chest, thighs tilt toward torso, bent feet remain OFF floor, upper back/scapulae/skull/arms remain grounded. No shoulder crunch, no full sit-up, no straight legs, no legs thrown over face, controlled small posterior pelvic curl. Primary ABS ONE smooth diffuse BLURRED RED patch over continuous opaque BLACK abdominal SHIRT, no sixpack/fibers/rays/anatomical grooves through fabric, broad natural cloth folds only. Fine detailed EXPOSED grayscale muscle contours with realistic proportions, equal male/female quality. Full opaque BLACK tank shirt and MID-THIGH shorts wrap FRONT SIDES BACK SEAT CROTCH including lifted-pelvis underside, no cutaways or transparency. Black shoes. Whole mat/head/hands/feet within EACH square with generous margins pure white background soft shadows. Project original style reference RENDERING STYLE ONLY ignore bench push-up/chest red/equipment. No text/captions/arrows/labels.",
+          "inspectionNote": "Reverse crunch bent-knee start and modest pelvic curl with arms/upper back grounded. Hair under skull obscures neutral head support, abdominal red has fine streaks. Full opaque clothing. Planned head support and cloth overlay correction; qualified pelvis lift, knee angle and proportions pending.",
+          "canonicalName": "reverse crunch",
+          "styleVersion": "white-v1",
+          "equipment": "body weight",
+          "primaryMuscles": [
+            "abs"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Reverse crunch bent-knee start and modest pelvic curl with arms/upper back grounded. Hair under skull obscures neutral head support, abdominal red has fine streaks. Full opaque clothing. Planned head support and cloth overlay correction; qualified pelvis lift, knee angle and proportions pending.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0872-female-anatomical-white-v1-p1-86b531f4e9e5.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 24824,
+              "sha256": "86b531f4e9e579d074619431af6e6400b8f94a8f3ecfd71be1ff9856db02082f"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0872-female-anatomical-white-v1-p2-2310ac6cab7e.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 24694,
+              "sha256": "2310ac6cab7ecdf22d10bd7d1dce080731e484f12a8c3f3b07a997d2ea70504b"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0872-female-anatomical-white-v1-thumb-1b3ca2c08596.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 2466,
+            "sha256": "1b3ca2c08596319ca63158ea2e387e4834e97aa790038a3f0aa5633701b0e382"
+          },
+          "processingSignature": "27f1118cbeb31e37603a113b7c3c4d3f8eec9db6b3ab4bbfdab5359162d896b7",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0872-female-anatomical-white-v1.png",
+            "width": 1774,
+            "height": 887,
+            "bytes": 1354144,
+            "sha256": "ff97e9785c780665bc0d38eb941f9357e806cb278af1078add6d7e4f57ce97f8"
+          }
+        }
+      ]
+    }
+  ]
+}

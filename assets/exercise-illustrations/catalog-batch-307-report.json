@@ -1,0 +1,70 @@
+{
+  "batch": 307,
+  "runId": "d94cf35c-eae8-471b-888e-02d369811da8",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "trigger": "2026-11-04T05:36:57.735Z",
+  "purpose": "batch307 scheduled male continuation",
+  "started": "2026-11-04T05:37:26.353144+00:00",
+  "completedAt": "2026-11-04T05:45:23.686864+00:00",
+  "actualToolName": "image_gen__imagegen",
+  "calls": 4,
+  "newCandidateSets": 4,
+  "exerciseIds": [
+    "2831",
+    "2835",
+    "2836",
+    "2844"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1096,
+    "remainingVariants": 10168,
+    "approvedVariants": 0,
+    "blockedVariants": 382,
+    "knownPoseImages": 2112,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 723,
+      "remainingVariants": 4909,
+      "blockedVariants": 263
+    }
+  },
+  "reviewNotes": {
+    "2831": "Feet on bench, palms floor, hips high and legs straight; elbows bend as head lowers near floor without contact. Shoulder highlights and full opaque clothing. Qualified review needed for neutral neck versus forward gaze, shoulder-over-hand position, elbow angle near 45 degrees and load distribution. Human anatomy review pending.",
+    "2835": "Close feet planted, seated-to-standing with handle at chest and cable taut to low pulley, chair retained behind. Quad highlights contain radiating muscle-like lines over shorts; block overlay correction. Qualified review of weight-stack engagement, slight forward lean and controlled sit-to-stand needed. Human anatomy review pending.",
+    "2836": "Both feet remain on step, nearly straight knees and hip hinge lower handle toward shins; taut low cable, posterior thigh red and opaque clothing. Qualified review needed for weight stack travel under resistance, neutral neck versus forward gaze, knee softness, cable clearance and hamstring mapping. Human anatomy review pending.",
+    "2844": "Prone start and modest simultaneous arm/chest/leg lift with pelvis grounded, neck directed down, opaque clothing and paired lumbar tint. Qualified review needed for lumbar erector placement, restrained extension range, chest clearance and neck alignment. Human anatomy review pending."
+  },
+  "blockingIssues": {
+    "2835": [
+      "Remove radiating anatomical lines over shorts; use plain uniform quad color wash over opaque fabric."
+    ]
+  },
+  "deferred": {},
+  "tests": 7,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "workerSyncResult": {
+    "statuses": {
+      "generated": 1096,
+      "pending": 10168
+    },
+    "remaining": 10168,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 1682524040
+  },
+  "publicationIndexUnchanged": true
+}

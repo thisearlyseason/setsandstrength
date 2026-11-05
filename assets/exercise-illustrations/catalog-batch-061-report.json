@@ -1,0 +1,101 @@
+{
+  "batch": 61,
+  "trigger": "2026-11-01T12:47:45.806Z",
+  "completedAt": "2026-11-01T12:54:40.439631+00:00",
+  "tool": "image_gen.imagegen",
+  "newCandidateSets": 4,
+  "generationCalls": 6,
+  "exerciseIds": [
+    "0003",
+    "0190"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 240,
+    "remainingVariants": 11024,
+    "approvedVariants": 0,
+    "blockedVariants": 107,
+    "knownPoseImages": 486,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "All pending and unpublished. Air-bike three-phase candidates failed clear contralateral alternation; two correction attempts retained with originals, clothing tint improved but movement still blocked. Male curl tower cropped and blocked. Female curl full body/equipment and opaque clothing inspected; grip and anatomy remain for qualified review. Pipeline success does not establish movement accuracy.",
+  "metadataConflictsDeferred": [
+    {
+      "exerciseId": "0007",
+      "issue": "Alternating description versus simultaneous pull instructions; target lats versus primary upper-back mapping."
+    },
+    {
+      "exerciseId": "0010",
+      "issue": "Controlled drop description versus explosive throw/swing instructions."
+    },
+    {
+      "exerciseId": "0011",
+      "issue": "Assistance method absent from instructions; avoid inventing equipment."
+    },
+    {
+      "exerciseId": "0191",
+      "issue": "Pectoral target conflicts with rear-shoulder/upper-back lateral raise description."
+    }
+  ],
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 387651611,
+  "savedMasters": [
+    {
+      "exerciseId": "0003",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0003-male-anatomical-white-v2.png",
+        "width": 2172,
+        "height": 724,
+        "bytes": 1843384,
+        "sha256": "c42a89bbd57718d781ab79e9da5cf419a8c68da266a24eae3fabdea57e9a099b"
+      }
+    },
+    {
+      "exerciseId": "0003",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0003-female-anatomical-white-v2.png",
+        "width": 2172,
+        "height": 724,
+        "bytes": 1538869,
+        "sha256": "4acd8ee3381906e604c0e82b500cd79d20bf11464f660179309ab9585f317ce9"
+      }
+    },
+    {
+      "exerciseId": "0190",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0190-male-anatomical-white-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1556776,
+        "sha256": "b3733ae26b260e2b00a8f4ace2fc0efc13e8abbd21d760a60bd78d8fb8f2ea7f"
+      }
+    },
+    {
+      "exerciseId": "0190",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0190-female-anatomical-white-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1496638,
+        "sha256": "c1da1191ee7f81e786a1bf2c82dd97511596991ea8e7849dda09bbc7ab98f028"
+      }
+    }
+  ]
+}

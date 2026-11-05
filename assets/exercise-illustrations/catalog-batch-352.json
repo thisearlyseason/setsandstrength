@@ -1,0 +1,329 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "3363",
+      "variant": "male",
+      "key": "3363-male-anatomical-white-v1",
+      "prompt": "Two equal panels, same SIDE three-quarter camera facingRIGHT. Standing CLOSE-GRIP cable press, ONE pulley BEHIND at chest height LEFT attached to ONE short close-grip handle held with BOTH hands. Fixed split stance torso upright. Panel1 handle near sternum elbows bent and TUCKED near ribs, cable routes beside torso to handle. Panel2 press both hands forward to chest height arms straight, elbows still narrow, torso fixed. Primary exposed TRICEPS red only, tank and shoulders gray/black. No chest red. Premium detailed adult MALE grayscale anatomical illustration on pure white with soft shadows. Realistic equipment and detailed exposed gray muscles. Original project reference STYLE ONLY. Opaque black tank and mid-thigh shorts wrap front sides back seat crotch with fabric seams/folds/hems. Covered red highlight is SMALL PLAIN UNIFORM wash on intact fabric, NO anatomical fibers/lobes/segments/cutaways. One head, two arms/hands, two legs/feet per figure. Same model camera scale across panels. Full body/equipment in frame, no text arrows logos.",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand in split stance with close-grip handle at chest and cable behind."
+        },
+        {
+          "key": "p2",
+          "caption": "Press forward with elbows tucked; return slowly."
+        }
+      ],
+      "inspectionNote": "Real output inspected. Standing narrow-handle press with tucked elbows, split stance and triceps-only highlight. Opaque black clothes. Qualified cable clearance around torso/arm, hand anatomy and elbow path review pending. Human anatomy review pending. No approval or publication.",
+      "canonicalName": "cable standing close press",
+      "styleVersion": "white-v1",
+      "equipment": "cable",
+      "primaryMuscles": [
+        "triceps"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Standing narrow-handle press with tucked elbows, split stance and triceps-only highlight. Opaque black clothes. Qualified cable clearance around torso/arm, hand anatomy and elbow path review pending. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/3363-male-anatomical-white-v1-p1-03d3a6a08b65.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 38886,
+          "sha256": "03d3a6a08b652016c7c359e00ae9210cded4f56c6d1dcc1e8bf8e67545ed4406"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/3363-male-anatomical-white-v1-p2-6d782282674e.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 39650,
+          "sha256": "6d782282674e99ba7471556f4e9c51ee4114c0b1164fc27dbc1c604336e86825"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-352.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/3363-male-anatomical-white-v1-thumb-8b2b7e5d4a5d.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 4268,
+        "sha256": "8b2b7e5d4a5de3addefa2ce0ffbc1a00bdb5036ce2bb27ec352e21677e381a02"
+      },
+      "processingSignature": "2c1d6ea4992a6e46cf61a89077c6c1ac1b6f13fee1626e844750788e97d306f5",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/3363-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1516409,
+        "sha256": "9a5653bf5c4055bdc2b810a06e98b4a24b4f86444d32d5f9c55b863c3393001e"
+      }
+    },
+    {
+      "exerciseId": "3364",
+      "variant": "male",
+      "key": "3364-male-anatomical-white-v1",
+      "prompt": "Two equal panels, same SIDE three-quarter view facingRIGHT. SEATED CLOSE-GRIP cable press, model sits on upright bench back against vertical back pad both feet flat floor. One cable pulley BEHIND at chest height LEFT, cable routes beside torso to ONE short close-grip handle in BOTH hands. Panel1 handle at sternum elbows bent TUCKED close ribs. Panel2 both arms straighten FORWARD at chest height with narrow elbows; back stays against pad. No overhead press. Primary exposed TRICEPS red only, no chest/shoulder red. Premium detailed adult MALE grayscale anatomical illustration on pure white with soft shadows. Realistic equipment and detailed exposed gray muscles. Original project reference STYLE ONLY. Opaque black tank and mid-thigh shorts wrap front sides back seat crotch with fabric seams/folds/hems. Covered red highlight is SMALL PLAIN UNIFORM wash on intact fabric, NO anatomical fibers/lobes/segments/cutaways. One head, two arms/hands, two legs/feet per figure. Same model camera scale across panels. Full body/equipment in frame, no text arrows logos.",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Sit supported facing away from chest-height cable, handle near chest."
+        },
+        {
+          "key": "p2",
+          "caption": "Press forward with tucked elbows; return under control."
+        }
+      ],
+      "inspectionNote": "Real output inspected. Seated narrow-handle press with back pad, planted feet, tucked elbows and triceps-only highlights. Cable visibly crosses upper arm/back-pad line in bent phase; require clear unobstructed routing. Opaque clothes. Human anatomy review pending. No approval or publication.",
+      "blockingIssues": [
+        "Route cable visibly beside bench and arm without intersecting body or back pad."
+      ],
+      "canonicalName": "cable seating close press",
+      "styleVersion": "white-v1",
+      "equipment": "cable",
+      "primaryMuscles": [
+        "triceps"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Seated narrow-handle press with back pad, planted feet, tucked elbows and triceps-only highlights. Cable visibly crosses upper arm/back-pad line in bent phase; require clear unobstructed routing. Opaque clothes. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/3364-male-anatomical-white-v1-p1-34cd4640f12f.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 44766,
+          "sha256": "34cd4640f12ffd1241002f4008ff1500dcf54082bff3b7b2a6438b366bcd0697"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/3364-male-anatomical-white-v1-p2-74b303b02490.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 46974,
+          "sha256": "74b303b024904d91c81e3a14c89d105a59387571adde580c3adb6106d17bd214"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-352.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/3364-male-anatomical-white-v1-thumb-9ace88fba333.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 4978,
+        "sha256": "9ace88fba333776df98591e07b138e38517edda3660fb299bab16dcbaf6027c4"
+      },
+      "processingSignature": "a4085dd3cb298be40280e8def9dcbe39a520484759a183a2ee4a92b3435fa8c1",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/3364-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1754607,
+        "sha256": "32a6aa483f51ac797f61ce7a5cef67fea6510d785ab7667bc4d78990be421dd3"
+      }
+    },
+    {
+      "exerciseId": "3366",
+      "variant": "male",
+      "key": "3366-male-anatomical-white-v1",
+      "prompt": "Two equal panels same SIDE three-quarter camera headLEFT. SHRIMP SQUAT. Same LEFT leg supports foot flat floor. RIGHT knee bent behind and RIGHT hand holds RIGHT foot behind buttock BOTH poses. LEFT free arm reaches FORWARD towardLEFT for balance. Panel1 stand tall on LEFT foot right foot held behind. Panel2 squat on LEFT leg hips back chest inclined slightly, RIGHT knee lightly touches floor BEHIND left heel while RIGHT foot still held, right shin angled upward to hand. LEFT heel stays down. Exactly two arms no extra feet, no bench. Primary LEFT QUADRICEPS red exposed front thigh plus SMALL PLAIN uniform wash on intact LEFT front shorts only. Premium detailed adult MALE grayscale anatomical illustration on pure white with soft shadows. Realistic equipment and detailed exposed gray muscles. Original project reference STYLE ONLY. Opaque black tank and mid-thigh shorts wrap front sides back seat crotch with fabric seams/folds/hems. Covered red highlight is SMALL PLAIN UNIFORM wash on intact fabric, NO anatomical fibers/lobes/segments/cutaways. One head, two arms/hands, two legs/feet per figure. Same model camera scale across panels. Full body/equipment in frame, no text arrows logos.",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand on left leg holding right foot behind with right hand, left arm forward."
+        },
+        {
+          "key": "p2",
+          "caption": "Lower until back knee lightly touches floor; stand and switch after reps."
+        }
+      ],
+      "inspectionNote": "Real output inspected. Shrimp squat with held rear foot, free arm forward and rear knee lowered near floor. Red quad fibers extend through front shorts rather than plain fabric overlay; correction required. Qualified foot-holding hand, balance and knee review pending. Human anatomy review pending. No approval or publication.",
+      "blockingIssues": [
+        "Remove quad fibers through shorts and keep intact opaque front fabric with plain red wash."
+      ],
+      "canonicalName": "shrimp squat",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "quads"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Shrimp squat with held rear foot, free arm forward and rear knee lowered near floor. Red quad fibers extend through front shorts rather than plain fabric overlay; correction required. Qualified foot-holding hand, balance and knee review pending. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/3366-male-anatomical-white-v1-p1-07f8a8c8967a.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 24920,
+          "sha256": "07f8a8c8967a0bf4aa6bfc1649d2fa21ea44b2a64d65a9d9f5d3dd09e2d9fc18"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/3366-male-anatomical-white-v1-p2-46c3abfa1f56.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 25636,
+          "sha256": "46c3abfa1f563c66dd8f643a5834f13b9db1002e3a3205239da08baad7217ae8"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-352.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/3366-male-anatomical-white-v1-thumb-bc5bb48a041d.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2678,
+        "sha256": "bc5bb48a041df1f3bc424398290a9a15a3762a2035851d535c8d6e5588ccdc08"
+      },
+      "processingSignature": "a8076b752ed9f571f415a47e0d4d956b0098c12953b2e8097232a8cf36083681",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/3366-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1385214,
+        "sha256": "d51c40d27806586ff81071af076266b4222f4910fcf314ac4d03fdf4c952e8b3"
+      }
+    },
+    {
+      "exerciseId": "3367",
+      "variant": "male",
+      "key": "3367-male-anatomical-white-v1",
+      "prompt": "Two equal panels same SIDE three-quarter view headLEFT. SKATER SQUAT single LEFT support leg. RIGHT knee bent behind, RIGHT foot lifted unheld ALL poses. BOTH arms extend FORWARD towardLEFT for balance. Panel1 stand tall LEFT foot flat right knee bent right foot behind. Panel2 bend LEFT knee and hips into single-leg squat chest slightly forward, RIGHT knee lightly taps floor just behindLEFTheel, RIGHTfoot remainsAIRBORNE behind right knee. No hand holds foot, no cross-over lunge. LEFTheel remainsfloor. Primary LEFT QUADRICEPS red exposed front thigh plus SMALLplainuniformwash on intact LEFTfrontshorts only. Premium detailed adult MALE grayscale anatomical illustration on pure white with soft shadows. Realistic equipment and detailed exposed gray muscles. Original project reference STYLE ONLY. Opaque black tank and mid-thigh shorts wrap front sides back seat crotch with fabric seams/folds/hems. Covered red highlight is SMALL PLAIN UNIFORM wash on intact fabric, NO anatomical fibers/lobes/segments/cutaways. One head, two arms/hands, two legs/feet per figure. Same model camera scale across panels. Full body/equipment in frame, no text arrows logos.",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand on left leg with right knee bent behind and arms forward."
+        },
+        {
+          "key": "p2",
+          "caption": "Squat until back knee taps near floor, then stand; switch after reps."
+        }
+      ],
+      "inspectionNote": "Real output inspected. Single-leg skater squat with both arms forward, unheld rear foot raised and rear knee near floor. Quad fibers extend through front shorts; clothing correction required. Qualified heel contact, hip balance and knee tracking review pending. Human anatomy review pending. No approval or publication.",
+      "blockingIssues": [
+        "Remove quad fibers through shorts and keep fully opaque front fabric with plain red wash."
+      ],
+      "canonicalName": "skater squat",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "quads"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Single-leg skater squat with both arms forward, unheld rear foot raised and rear knee near floor. Quad fibers extend through front shorts; clothing correction required. Qualified heel contact, hip balance and knee tracking review pending. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/3367-male-anatomical-white-v1-p1-affc6a67c5c7.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 26274,
+          "sha256": "affc6a67c5c7d8d5e989581234d2c8892bfa3a67d1b5dc780723456767cef4e0"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/3367-male-anatomical-white-v1-p2-0b92ecaf21d3.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 29984,
+          "sha256": "0b92ecaf21d305aabbb7b63e583e043b41e93397bf47429cfe0c5403f0886f9d"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-352.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/3367-male-anatomical-white-v1-thumb-c8e52a2239c9.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2694,
+        "sha256": "c8e52a2239c9d7fdd32570332dac62d874e9f5af411ee09cfa4ffeab05f989fa"
+      },
+      "processingSignature": "f5a902d9174d25c9bf9b2292857fbee602afe86da9dd9d4de6dbc4d5e0b07f4f",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/3367-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1405031,
+        "sha256": "50a033707982f1e58268a83152e23c38137533743e51d9d960619563f9510b8d"
+      }
+    }
+  ]
+}

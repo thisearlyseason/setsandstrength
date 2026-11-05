@@ -1,0 +1,89 @@
+{
+  "batch": 128,
+  "trigger": "2026-11-03T00:13:24.143Z",
+  "completedAt": "2026-11-03T00:21:31.335875+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 4,
+  "generationCalls": 4,
+  "exerciseIds": [
+    "0767",
+    "0773"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 522,
+    "remainingVariants": 10742,
+    "approvedVariants": 0,
+    "blockedVariants": 204,
+    "knownPoseImages": 1076,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Four candidate sets, eight poses, four built-in calls, no corrections required at initial visual inspection. Smith shrug pairs show relaxed then elevated shoulders, small bar rise, near-straight elbows, fixed stance and exposed upper-trapezius red. Standing calf raise pairs show full soles grounded then raised heels with forefoot/toe floor contact, near-straight legs and body/bar rising along guides; bar across upper shoulders and closed grips. Detailed exposed grayscale anatomy and full opaque shirt/shorts retained. Qualified shrug/elbow constancy, grip, bilateral heel clearance, ankle range, bar placement and muscle localization remain pending. All original masters and exact prompts saved. No anatomy approval or publication. Original project artwork style only, no upstream media. Pipeline checks do not approve anatomy.",
+  "metadataConflictsDeferred": {
+    "0770": "Smith guided squat includes stepping back to clear rack; setup instruction conflicts with fixed bar guides.",
+    "0771": "Behind-body wrist-curl description conflicts with facing machine/overhand setup and undefined wrist geometry.",
+    "0772": "Standing title mixes seat-height and stepping back while guided; setup requires clarification."
+  },
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 851906474,
+  "savedMasters": [
+    {
+      "exerciseId": "0767",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0767-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1583313,
+        "sha256": "52768d716e95b1e06f1401699a0eff60bcfe84ac58fe6d3adb8b0ea044b6e625"
+      }
+    },
+    {
+      "exerciseId": "0767",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0767-female-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1516958,
+        "sha256": "aef718b8c25688efa8007e0a2540df0ca2b9c646db5a826317a5a8100e03c72a"
+      }
+    },
+    {
+      "exerciseId": "0773",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0773-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1582958,
+        "sha256": "7a6d591b693523ecfdc126aa1e6ff1988a7fdf81a8ade92e3793930071a94dbd"
+      }
+    },
+    {
+      "exerciseId": "0773",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0773-female-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1526932,
+        "sha256": "6c7314233feef922af6574379edfa0685582888323da812365e2306b1aae7f5e"
+      }
+    }
+  ]
+}

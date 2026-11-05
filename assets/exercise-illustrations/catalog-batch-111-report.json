@@ -1,0 +1,87 @@
+{
+  "batch": 111,
+  "trigger": "2026-11-02T20:04:52.056Z",
+  "completedAt": "2026-11-02T20:12:09.096875+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 4,
+  "generationCalls": 4,
+  "exerciseIds": [
+    "0694",
+    "0698"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 454,
+    "remainingVariants": 10810,
+    "approvedVariants": 0,
+    "blockedVariants": 186,
+    "knownPoseImages": 946,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Four candidate sets, ten poses, four built-in calls. Stability-ball seated twists show neutral and opposite shoulder/head rotations with frontal pelvis/knees/feet and full ball; qualified hip fixation, torso rotation versus arm swing, ball contact and model scale review pending. Band shoulder presses show bent-elbow shoulder-height start and straight-arm overhead finish, upright torso and continuous gray band from under shoes to both hands; exposed deltoids red. Qualified grip, underfoot band routing, shoulder range and lumbar alignment review pending. Both exercise sets have narrow but contained head/shoe/overhead-fist margins. Detailed exposed grayscale anatomy, smooth diffuse abdominal tint over ball-twist shirts and opaque garments front/sides/back/seat/crotch retained. No anatomy approval or publication. All originals and exact prompts saved, no corrections this batch. Original project artwork used for style only, no upstream media. Pipeline checks do not approve anatomy.",
+  "metadataConflictsDeferred": {
+    "0697": "Inverse leg curl title/hamstrings target versus instructions lifting thighs toward chest and lowering legs; movement type needs clarification before generating."
+  },
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 746349851,
+  "savedMasters": [
+    {
+      "exerciseId": "0694",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0694-male-anatomical-white-v1.png",
+        "width": 2172,
+        "height": 724,
+        "bytes": 1467998,
+        "sha256": "805a93c0e6fcc4a2fec8cb4cf0488f456dd358749000031e7af8c908c565ad46"
+      }
+    },
+    {
+      "exerciseId": "0694",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0694-female-anatomical-white-v1.png",
+        "width": 2172,
+        "height": 724,
+        "bytes": 1421481,
+        "sha256": "55d035fd5fb35afd890a617d911889dbb2892f94171bace91f1571507fa54fcc"
+      }
+    },
+    {
+      "exerciseId": "0698",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0698-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1301776,
+        "sha256": "e71b0d7ac4796eb52896cb47743416dbd77e5e3619859a97c8ae7b703e00d2df"
+      }
+    },
+    {
+      "exerciseId": "0698",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0698-female-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1309932,
+        "sha256": "0c13520e22a2e63751028c5b7992746a3faf392983ba289103056b3dafce75c0"
+      }
+    }
+  ]
+}

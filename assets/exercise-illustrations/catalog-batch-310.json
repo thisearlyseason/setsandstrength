@@ -1,0 +1,335 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "2873",
+      "variant": "male",
+      "key": "2873-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Sit tall with legs extended hip-width, feet flexed and arms forward."
+        },
+        {
+          "key": "p2",
+          "caption": "Curl forward over an imaginary ball, then roll back to tall sitting with control."
+        }
+      ],
+      "prompt": "SPINE STRETCH FORWARD v2 TWOequalpanels SAME SIDErear threequartercamera headLEFTfeetRIGHT. SITfloor BOTHlegsSTRAIGHT extendedhipwidth feetFLEXtoesup heelsfloor samelegpositionsBOTHposes. LEFTSTART TALLSPINE pelvisupright armsSTRAIGHTFORWARD shoulderheight parallellegs handsoverlegs notgrabbingfeet. RIGHTEND gentlyCURLSPINEforward Ccurve overIMAGINARYBALL reachhandsFORWARD, chinsofttuck bellydrawnin pelvisstable kneesstraight nohiptwist noextremefold. Primary SPINALERECTORS onlysmallPLAINUNIFORMredstrips flankingLUMBARSPINE onintactblackbacktank BOTHposes NOsegmentedanatomy nofibers. Premium detailed adult MALE grayscale anatomical illustration. Approved original project reference STYLE ONLY ignore its pose/highlights. Pure white background soft shadows crisp detailed exposed gray muscle contours realistic proportions. Opaque BLACK tank and black mid-thigh shorts fully wrap front sides back seat crotch normal fabric seams folds hems black shoes. No anatomy through fabric no cutaways. Covered primary highlight SMALL PLAIN UNIFORM soft red COLOR WASH on intact fabric no fibers lobes striations. Only specified primary red all other regions gray/black. Equal cells same person camera whole body in frame generous margins. Exactly two arms hands five fingers two legs feet. No text captions labels arrows logos.",
+      "inspectionNote": "Real output inspected. Tall seated start and controlled C-curve forward reach, long legs/heels grounded and feet flexed. Paired lumbar wash on opaque tank. Qualified review needed for sequential spinal flexion rather than hip collapse, comfortable reach, pelvis stability and lumbar mapping. Human anatomy review pending. No approval or publication.",
+      "canonicalName": "spine stretch forward v. 2",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "spine"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Tall seated start and controlled C-curve forward reach, long legs/heels grounded and feet flexed. Paired lumbar wash on opaque tank. Qualified review needed for sequential spinal flexion rather than hip collapse, comfortable reach, pelvis stability and lumbar mapping. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2873-male-anatomical-white-v1-p1-9cfbb6d0b494.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 28828,
+          "sha256": "9cfbb6d0b494c331e811fcdbd12fe2a88ba825c65c3c6fcf78e7f4be95a4c3db"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/2873-male-anatomical-white-v1-p2-6250876c816c.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 29948,
+          "sha256": "6250876c816ca08e6ebb21f7999bd54aae057a3882073424163c36334abc0f89"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-310.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2873-male-anatomical-white-v1-thumb-eb4071cebaf0.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2834,
+        "sha256": "eb4071cebaf0eb217a8acbd37880a7ac9cda91c01c4ef260c71950919a7d92ec"
+      },
+      "processingSignature": "37c8197a7c4947cfa37afe50d87e32fe5386d5e3717e74aa3df8a4a2d49a8d6e",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2873-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1453860,
+        "sha256": "757e6fec54aa3e7e3c572bef4cb60d244119bae7ef97306aad162d4300610e5b"
+      }
+    },
+    {
+      "exerciseId": "2878",
+      "variant": "male",
+      "key": "2878-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Lie face down with hands beside chest and legs together, pelvis grounded."
+        },
+        {
+          "key": "p2",
+          "caption": "Press through hands to lift chest gently with shoulders down and neck long; lower slowly."
+        }
+      ],
+      "prompt": "PRONE PRESS SWAN TWOequalpanels SAME SIDEcamera headLEFTfeetRIGHT. PRONElegsLONGTOGETHERfloortoespointback. BOTHpalmsfloorBESIDECHEST elbowsbenttucked. LEFTSTART chestandpelvisfloor headneutralgazedown. RIGHTEND pressPALMS liftCHEST gentlethoracic/spinalextension elbowssoftnotlocked, PUBICBONE/P ELVISandlegsSTAYFLOOR, shouldersDOWNawayears neckLONG headinlinewithupperback gazeforward/down nothyperextended. Noarmsfloat noleglift. Primary SPINALERECTORS onlysmallplainuniformredstrips lumbarback overintacttank BOTHposes NOanatomicalfibers otherregionsgrayblack. Premium detailed adult MALE grayscale anatomical illustration. Approved original project reference STYLE ONLY ignore its pose/highlights. Pure white background soft shadows crisp detailed exposed gray muscle contours realistic proportions. Opaque BLACK tank and black mid-thigh shorts fully wrap front sides back seat crotch normal fabric seams folds hems black shoes. No anatomy through fabric no cutaways. Covered primary highlight SMALL PLAIN UNIFORM soft red COLOR WASH on intact fabric no fibers lobes striations. Only specified primary red all other regions gray/black. Equal cells same person camera whole body in frame generous margins. Exactly two arms hands five fingers two legs feet. No text captions labels arrows logos.",
+      "inspectionNote": "Real output inspected. Prone press with palms beside chest, elbows remain soft as chest lifts; pelvis/legs grounded, opaque clothing and lumbar tint. Qualified review needed for long neutral neck versus forward gaze, shoulder depression, comfortable spinal range and pubic-bone contact. Human anatomy review pending. No approval or publication.",
+      "canonicalName": "prone press swan",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "spine"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Prone press with palms beside chest, elbows remain soft as chest lifts; pelvis/legs grounded, opaque clothing and lumbar tint. Qualified review needed for long neutral neck versus forward gaze, shoulder depression, comfortable spinal range and pubic-bone contact. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2878-male-anatomical-white-v1-p1-034565841637.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 18170,
+          "sha256": "034565841637408a9ba922a9793e3ae48af76f2f1bad6c675fe012e479aa4713"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/2878-male-anatomical-white-v1-p2-f79ab54676d1.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 18582,
+          "sha256": "f79ab54676d1eaa82d26401286d63129a318a27dd6759348ac91e2f96151a6f6"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-310.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2878-male-anatomical-white-v1-thumb-78d92ba86a34.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 1796,
+        "sha256": "78d92ba86a342cc249b59d3f60d5d14a9cb02be6bf751adfe4d9de5217cdc92c"
+      },
+      "processingSignature": "b1ab56692508137f00c301f259003afe44238713001b7ac03c600b476ce627be",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2878-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1236529,
+        "sha256": "813696af68d0e2024cbf1d7d7c9bf7ef05a672316779f05e59b61da191431b81"
+      }
+    },
+    {
+      "exerciseId": "2879",
+      "variant": "male",
+      "key": "2879-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Sit tall with legs folded comfortably to one side and one hand on the floor."
+        },
+        {
+          "key": "p2",
+          "caption": "Reach the other arm overhead into a gentle side bend, then return tall and switch sides."
+        }
+      ],
+      "prompt": "SEATED MERMAID SIDE STRETCH TWOequalpanels SAME FRONTthreequartercamera. SamecoherentlyorientedtorsoPELVISLEGS bothposes nofrontlegsbacktorso. SitSIDEFOLDED Zsit BOTHKNEESbent legsfoldedTORIGHT side comfortable, shinsfeetclearlyconnected noextraankles. LEFTPALMfloorLEFTbesidehip forsupport. LEFTSTART torsoTALL RIGHTarmrelaxedbyrightside. RIGHTEND RIGHTARM reachesOVERHEAD curvesLEFT with gentleLEFTSIDEbend towardLEFTsupporthand, LEFTelbowsoft headinline gazeFORWARD chestpelvisstillFORWARD noaxialtwist, SITBONESgrounded. Primary RIGHTOBLIQUES onlySMALLPLAINUNIFORMredwash onRIGHTLATERALWAIST intacttank BOTHposes nofibers. Premium detailed adult MALE grayscale anatomical illustration. Approved original project reference STYLE ONLY ignore its pose/highlights. Pure white background soft shadows crisp detailed exposed gray muscle contours realistic proportions. Opaque BLACK tank and black mid-thigh shorts fully wrap front sides back seat crotch normal fabric seams folds hems black shoes. No anatomy through fabric no cutaways. Covered primary highlight SMALL PLAIN UNIFORM soft red COLOR WASH on intact fabric no fibers lobes striations. Only specified primary red all other regions gray/black. Equal cells same person camera whole body in frame generous margins. Exactly two arms hands five fingers two legs feet. No text captions labels arrows logos.",
+      "inspectionNote": "Real output inspected. Front-facing torso and pelvis with both bent legs folded to one side, support palm grounded and opposite arm overhead in side bend. Opaque clothing and lateral waist tint. Folded shin/knee/ankle continuity is uncertain and needs correction review before use; block lower-limb anatomy verification. Qualified review of comfortable seated position, sit-bone contact, neck alignment and oblique mapping required. Human anatomy review pending. No approval or publication.",
+      "blockingIssues": [
+        "Folded shin/knee/ankle continuity unclear; verify and correct lower-limb anatomy before use."
+      ],
+      "canonicalName": "mermaid",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "abs"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Front-facing torso and pelvis with both bent legs folded to one side, support palm grounded and opposite arm overhead in side bend. Opaque clothing and lateral waist tint. Folded shin/knee/ankle continuity is uncertain and needs correction review before use; block lower-limb anatomy verification. Qualified review of comfortable seated position, sit-bone contact, neck alignment and oblique mapping required. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2879-male-anatomical-white-v1-p1-71fa3f39b4ad.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 31492,
+          "sha256": "71fa3f39b4ad40d0f348f4ea02d527bcf5a52fdfe70c8f9fef4bf0a37d665adc"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/2879-male-anatomical-white-v1-p2-f1ee975ed309.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 32318,
+          "sha256": "f1ee975ed3099122fe936640a62cc369f3f6ab05d769e2e12288b41b22c874a1"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-310.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2879-male-anatomical-white-v1-thumb-492bf6c22726.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 3492,
+        "sha256": "492bf6c22726c54baa7ab815ae0a408c078a0511b2803c361ad12a6ecc2e88e9"
+      },
+      "processingSignature": "63f5e80670e30e0decdc5a0474ad9e405217e8b06b4937507805fd0b680f753f",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2879-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1522708,
+        "sha256": "b0298826493a7a09053d208d41c9d987febfd10ddd1e18ed10b196c5206b5a7f"
+      }
+    },
+    {
+      "exerciseId": "2880",
+      "variant": "male",
+      "key": "2880-male-anatomical-white-v1",
+      "layout": {
+        "columns": 3,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Start on all fours, hands under shoulders and knees under hips."
+        },
+        {
+          "key": "p2",
+          "caption": "Reach one arm forward and the opposite leg back, making small controlled pulses."
+        },
+        {
+          "key": "p3",
+          "caption": "Return and switch to the opposite arm and leg, keeping spine neutral and hips level."
+        }
+      ],
+      "prompt": "ALL FOURS SWIMMING BIRD DOG THREEequalpanels SAME SIDErear threequartercamera headLEFTfeetRIGHT. P1 QUADRUPEDbothpalmsfloorunder shoulders bothkneesfloorunderhips neutralspine gazeDOWN. P2 LEFTARMforwardSTRAIGHT andOPPOSITERIGHTLEGbackSTRAIGHT atTORSOheight, RIGHTPALM andLEFTKNEEfloor clearthreepoint? twofloorcontacts handknee plusfootrest, pelvisLEVEL noarch. P3 SWITCH: RIGHTARMforward LEFTLEGback straight, LEFTPALM RIGHTKNEEfloor. Lasttwo MUSTclearlyshowOPPOSITEraisedARM/LEG pairs notduplicates; tinycontrolledpulses inextension noembeddedarrows. Primary SPINALERECTORS onlysmallPLAINUNIFORMredstrips lumbarback onintacttank ALLposes nofibers allotherregionsgrayblack. Premium detailed adult MALE grayscale anatomical illustration. Approved original project reference STYLE ONLY ignore its pose/highlights. Pure white background soft shadows crisp detailed exposed gray muscle contours realistic proportions. Opaque BLACK tank and black mid-thigh shorts fully wrap front sides back seat crotch normal fabric seams folds hems black shoes. No anatomy through fabric no cutaways. Covered primary highlight SMALL PLAIN UNIFORM soft red COLOR WASH on intact fabric no fibers lobes striations. Only specified primary red all other regions gray/black. Equal cells same person camera whole body in frame generous margins. Exactly two arms hands five fingers two legs feet. No text captions labels arrows logos.",
+      "inspectionNote": "Real output inspected. Quadruped start followed by distinct visible alternating arm/leg supports, long reaches near torso height and lumbar wash on opaque tank. Qualified review needed to verify contralateral pairing, neutral neck/back, level pelvis, hand/knee stacking and small pulse amplitude. Human anatomy review pending. No approval or publication.",
+      "canonicalName": "swimming all fours",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "spine"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Quadruped start followed by distinct visible alternating arm/leg supports, long reaches near torso height and lumbar wash on opaque tank. Qualified review needed to verify contralateral pairing, neutral neck/back, level pelvis, hand/knee stacking and small pulse amplitude. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2880-male-anatomical-white-v1-p1-31174daed0d3.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 17868,
+          "sha256": "31174daed0d38c888b12f201992e6be132b32ecfbd29a7db9c1e05b9eaba720e"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/2880-male-anatomical-white-v1-p2-6960a4bc871f.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 18822,
+          "sha256": "6960a4bc871f216acc9190338dacdfd3174a10c967458e1182042a229ea2de8d"
+        },
+        {
+          "pose": "p3",
+          "path": "/workout/illustration-pilot/2880-male-anatomical-white-v1-p3-e8499f1fe09c.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 19488,
+          "sha256": "e8499f1fe09ccf8eeaae95c3f5bbb669a7c9dba68465cd4e77cc7abddcb9970a"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-310.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2880-male-anatomical-white-v1-thumb-05ebff4ae336.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2448,
+        "sha256": "05ebff4ae3368a020ce8709944ab6763555e2b5d4c24efba4899f8939fd1a8f5"
+      },
+      "processingSignature": "c4fc386a43fd0317f9d7c469be8748fa3ba667eb81a84b5563fc57848f037933",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2880-male-anatomical-white-v1.png",
+        "width": 2172,
+        "height": 724,
+        "bytes": 1322717,
+        "sha256": "a5fd1012a80eca263e577a68e3e2794189cd2a6ec25a0979c9412dcb29564309"
+      }
+    }
+  ]
+}

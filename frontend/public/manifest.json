@@ -1,18 +1,24 @@
 {
-  "name": "Workout",
-  "short_name": "Workout",
+  "name": "Sets & Strength",
+  "short_name": "Sets & Strength",
   "description": "Personal gym & body weight tracker",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
   "orientation": "portrait",
-  "background_color": "#f7f8f5",
-  "theme_color": "#253a2f",
+  "background_color": "#090c0a",
+  "theme_color": "#090c0a",
   "icons": [
     {
-      "src": "/workout/icon.svg",
-      "sizes": "any",
-      "type": "image/svg+xml",
+      "src": "/workout/brand/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/workout/brand/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
       "purpose": "any maskable"
     }
   ]

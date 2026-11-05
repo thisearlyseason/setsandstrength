@@ -1,0 +1,326 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "2130",
+      "variant": "male",
+      "key": "2130-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hook your feet under the pads of a decline bench and hold a weight against your chest. Rest your back and head on the bench."
+        },
+        {
+          "key": "p2",
+          "caption": "Curl your upper body up by contracting your abs, keeping the weight at your chest and your neck relaxed. Pause, then lower under control."
+        }
+      ],
+      "prompt": "WEIGHTED DECLINE CRUNCH. TWO equal cells SIDE BY SIDE sameSIDE three-quarter camera. Gray declinedabbench HEADENDLOW LEFT andFOOTENDHIGH RIGHT angle20degrees, paddedwholebenchlongenoughtosupportentireHEADinLEFTstart. Male liesSUPINE ankleSHINSunderpaddedrollers elevatedendkneesbent, pelvisstaysbench. BOTHhandsholdsmallgrayPLATEagainstCHEST neverbehindhead. LEFTstartbackheadSUPPORTEDpad bodyreclined. RIGHT CURLUPupperbackonly30degrees shoulderslift10cm withspineflexion chinneutral nofullsitup pelvisstayssamepoint, platechest. Primary ABS only plainsoftREDellipse on intactblacktankfrontabdomen; chestblack. Premium detailed adult MALE grayscale anatomical illustration matching original project reference rendering STYLE ONLY, ignore reference pose. White background soft contact shadows realistic proportions crisp exposed gray muscle contours. Opaque BLACK tank and mid-thigh shorts fully wrap front sides back seat crotch with seams folds hems. NO anatomy visible through cloth no cutaways or transparency. Red over clothing must be plain UNIFORM SOFT teaching ellipse NO internal muscle fibers rays lobes segmentation; retain normal fabric folds. Only stated primary muscles red, no unrelated highlights. Black shoes. Normal two arms two hands five fingers two legs two feet, equipment realistic. Whole body hands feet and all equipment inside each cell with generous margins. No text arrows logos.",
+      "inspectionNote": "Real output inspected. Two distinct decline crunch positions, feet secured under rollers, plate held at chest and pelvis supported. Starting head/neck extend beyond pad and float unsupported instead of resting on bench; block for bench/head placement correction. Abdominal overlay plain on opaque tank, chest unhighlighted. Qualified review of decline angle, roller fit, crunch range, neck alignment and hand grip. Human anatomy review remains pending; no approval or publication.",
+      "blockingIssues": [
+        "Starting head and neck extend beyond bench pad unsupported; correct bench/head placement."
+      ],
+      "canonicalName": "weighted decline crunch",
+      "styleVersion": "white-v1",
+      "equipment": "weighted",
+      "primaryMuscles": [
+        "abs"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Two distinct decline crunch positions, feet secured under rollers, plate held at chest and pelvis supported. Starting head/neck extend beyond pad and float unsupported instead of resting on bench; block for bench/head placement correction. Abdominal overlay plain on opaque tank, chest unhighlighted. Qualified review of decline angle, roller fit, crunch range, neck alignment and hand grip. Human anatomy review remains pending; no approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2130-male-anatomical-white-v1-p1-776b0df99d4e.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 31978,
+          "sha256": "776b0df99d4e64b152aed7b9f858c08b4e327c06ab95f88879972c3da60fc855"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/2130-male-anatomical-white-v1-p2-4ac0845c88ba.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 34250,
+          "sha256": "4ac0845c88ba48ab1d87375fe2cb83d3b3ea30518c69877403f34e87a8a51d6b"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-263.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2130-male-anatomical-white-v1-thumb-c9c59f3b510c.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 3622,
+        "sha256": "c9c59f3b510ca60ef53a5469c1ec99c3d2ab4ccdddb1e551e7a652806cbefd03"
+      },
+      "processingSignature": "1a62572edb004a7a6f1885fdff3f8f9ab360391880c55da84ef66604d88e5941",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2130-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1484287,
+        "sha256": "380cd650d11bb252adb60d2425c27ab8d4a0ac4e5060addeb4c8e65041efd137"
+      }
+    },
+    {
+      "exerciseId": "2133",
+      "variant": "male",
+      "key": "2133-male-anatomical-white-v1",
+      "layout": {
+        "columns": 3,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand tall with one dumbbell in each hand, palms facing your sides."
+        },
+        {
+          "key": "p2",
+          "caption": "Take a small controlled step, keeping the weights steady and torso upright."
+        },
+        {
+          "key": "p3",
+          "caption": "Continue with the opposite leg, maintaining steady steps and level shoulders. Stop before lowering the weights."
+        }
+      ],
+      "prompt": "FARMERS WALK. THREE equal cells side by side WIDE3:1 SAME FRONT three-quartercamera SCALEpersonconsistent. One grayDUMBBELL EACH HAND neutralgrip palmsfacingthighs armsstraightbysides, shoulderslevel torsoUPRIGHT spinebraced, dumbbellsstaybesidethighs notswing. LEFTcellstandingstartfeetflatHIPWIDTH. MIDDLEcellsmallwalkingSTEP RIGHTfootFORWARDheelcontact LEFTfootbehindtoecontact, kneesnaturallysoft. RIGHTcelloppositeSTEP LEFTfootFORWARDheelcontact RIGHTbehindtoecontact. Showopposite stridepositionsdistinct, no lungedeepkneebend. PRIMARYQUADS only softuniformREDellipse on intactshorts frontthighs bothlegs, exposedgraylowerthigh redtint permitted belowhem no anatomycutaway. Chestgrayblack. Premium detailed adult MALE grayscale anatomical illustration matching original project reference rendering STYLE ONLY, ignore reference pose. White background soft contact shadows realistic proportions crisp exposed gray muscle contours. Opaque BLACK tank and mid-thigh shorts fully wrap front sides back seat crotch with seams folds hems. NO anatomy visible through cloth no cutaways or transparency. Red over clothing must be plain UNIFORM SOFT teaching ellipse NO internal muscle fibers rays lobes segmentation; retain normal fabric folds. Only stated primary muscles red, no unrelated highlights. Black shoes. Normal two arms two hands five fingers two legs two feet, equipment realistic. Whole body hands feet and all equipment inside each cell with generous margins. No text arrows logos.",
+      "inspectionNote": "Real output inspected. Three positions show standing carry and two strides with dumbbells at sides and upright torso. Final stride crosses legs across midline instead of a normal small forward step; block for gait correction and clear opposite leg progression. Quad tint on opaque shorts, all weights and feet framed. Qualified review of neutral grip, level shoulders, stride width and primary quad mapping. Human anatomy review remains pending; no approval or publication.",
+      "blockingIssues": [
+        "Final stride crosses legs across midline; correct to normal opposite forward step with appropriate stride width."
+      ],
+      "canonicalName": "farmers walk",
+      "styleVersion": "white-v1",
+      "equipment": "dumbbell",
+      "primaryMuscles": [
+        "quads"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Three positions show standing carry and two strides with dumbbells at sides and upright torso. Final stride crosses legs across midline instead of a normal small forward step; block for gait correction and clear opposite leg progression. Quad tint on opaque shorts, all weights and feet framed. Qualified review of neutral grip, level shoulders, stride width and primary quad mapping. Human anatomy review remains pending; no approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2133-male-anatomical-white-v1-p1-bdacd0196dfe.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 16788,
+          "sha256": "bdacd0196dfe36b4249e353df32467da953abca5df0bf39b57d71f72155a4511"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/2133-male-anatomical-white-v1-p2-fe8e694c97e6.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 17620,
+          "sha256": "fe8e694c97e68eade4673b2ff7219ae67f84ed280bd0c22c4cb3f335a047d6a4"
+        },
+        {
+          "pose": "p3",
+          "path": "/workout/illustration-pilot/2133-male-anatomical-white-v1-p3-cb4eb1f4ba2d.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 16776,
+          "sha256": "cb4eb1f4ba2d57fc8531308fe5c85b2155ce832170f40d6a9b6d309cb5133905"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-263.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2133-male-anatomical-white-v1-thumb-00a70c24f541.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2670,
+        "sha256": "00a70c24f5410aeaf0625ae83811d66f165248014eab2537ec5eb953a70c82c1"
+      },
+      "processingSignature": "73ca67e868df1139d9d0ece4cc9ab884389368107507f885643648b37f40f433",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2133-male-anatomical-white-v1.png",
+        "width": 2172,
+        "height": 724,
+        "bytes": 1311517,
+        "sha256": "37a5c749234b2031136efb259d414630e58623583937207a19888ccf80ffadba"
+      }
+    },
+    {
+      "exerciseId": "2135",
+      "variant": "male",
+      "key": "2135-male-anatomical-white-v1",
+      "layout": {
+        "columns": 1,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hold a forearm plank with elbows under your shoulders and body aligned from head to heels. With added weight securely positioned on your back, brace your core and hold without letting your hips sag."
+        }
+      ],
+      "prompt": "WEIGHTED FRONT PLANK. ONE static SIDE three-quarterfigure. Male forearmPLANK elbowsunderSHOULDERS BOTHforearmsfloor palmsdown, legsstraightbehind toesgrounded hipwidth. HEADneckbackpelvisheelsstraightLINE no sag/pike. ONE modestsmallgrayWEIGHTPLATE restsFLAT securely centeredUPPERMIDBACK acrossscapulararea ABOVE lumbar region notneck, horizontalagainstback no floating, armsstaygrounded. Primary ABS only smalluniformsoftREDellipse on intactblacktank lateralabdomen, chestblack shouldersgray. Fullclothingincludingbackunderplate remainsopaque. Premium detailed adult MALE grayscale anatomical illustration matching original project reference rendering STYLE ONLY, ignore reference pose. White background soft contact shadows realistic proportions crisp exposed gray muscle contours. Opaque BLACK tank and mid-thigh shorts fully wrap front sides back seat crotch with seams folds hems. NO anatomy visible through cloth no cutaways or transparency. Red over clothing must be plain UNIFORM SOFT teaching ellipse NO internal muscle fibers rays lobes segmentation; retain normal fabric folds. Only stated primary muscles red, no unrelated highlights. Black shoes. Normal two arms two hands five fingers two legs two feet, equipment realistic. Whole body hands feet and all equipment inside each cell with generous margins. No text arrows logos.",
+      "inspectionNote": "Real output inspected. Static forearm plank with elbows near shoulders, toes grounded, plate resting across upper-mid back on intact tank and body near straight. Uniform lateral abdominal tint, full opaque shorts. Qualified review needed for gaze/neck extension, elbow placement, plate stability and load position, pelvis alignment and abdominal mapping. Human anatomy review remains pending; no approval or publication.",
+      "canonicalName": "weighted front plank",
+      "styleVersion": "white-v1",
+      "equipment": "weighted",
+      "primaryMuscles": [
+        "abs"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Static forearm plank with elbows near shoulders, toes grounded, plate resting across upper-mid back on intact tank and body near straight. Uniform lateral abdominal tint, full opaque shorts. Qualified review needed for gaze/neck extension, elbow placement, plate stability and load position, pelvis alignment and abdominal mapping. Human anatomy review remains pending; no approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2135-male-anatomical-white-v1-p1-bc7f8b81bed2.webp",
+          "width": 1200,
+          "height": 600,
+          "bytes": 32590,
+          "sha256": "bc7f8b81bed2a1fb6546cab46ed7220444a5728a4268a33370e0856d4e5fd2e3"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-263.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2135-male-anatomical-white-v1-thumb-72e2b8517ed6.webp",
+        "width": 240,
+        "height": 120,
+        "bytes": 2240,
+        "sha256": "72e2b8517ed634bcae4fc7e8397e6f8530306578df9a9e9d968b5e493591ba72"
+      },
+      "processingSignature": "370e403f18e4c0395995de8e0f4fa826c02628fbbddb11b4f5d204ef44da1004",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2135-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1442261,
+        "sha256": "0711103b845f4d174bad2e439ac6114f29d721736455740824e75ece9712627d"
+      }
+    },
+    {
+      "exerciseId": "2144",
+      "variant": "male",
+      "key": "2144-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Sit upright with feet flat and hold the cable handles at shoulder height with an overhand grip."
+        },
+        {
+          "key": "p2",
+          "caption": "Press the handles forward until your arms extend, keeping shoulders relaxed. Pause, then bring them back under control."
+        }
+      ],
+      "prompt": "CABLE SEATED CHEST PRESS. TWO equalcells sidebyside sameSIDEfrontthreequartercamera. Male seateduprightgrayBENCH withbackrestfeetFLATfloor. TWIN CABLE TOWERS BEHINDleft/right atSHOULDERHEIGHT withseparategrayDhandles attachedtautCABLESeachfromhandleBACKtoitsownrearPULLEY. LEFTstarthandlesbesideCHEST overhandgrippalmsDOWN elbowsbent90 upperarms45fromtorso shouldersdown. RIGHTpressbothhandlesFORWARD atchestheight elbowsalmoststraight wristsneutral, backandfeetstayfixed. cablesfromrearshoulderheightpulleystoforwardhandlesvisiblytaut NOTbarbell/leveragearms. Primary CHEST only TWO plainuniformsoftREDteachingellipses on intactblacktankpecareas, armsgrayscale abdomenblack. Entiretowersbenchweightsstacksandcablesframe. Premium detailed adult MALE grayscale anatomical illustration matching original project reference rendering STYLE ONLY, ignore reference pose. White background soft contact shadows realistic proportions crisp exposed gray muscle contours. Opaque BLACK tank and mid-thigh shorts fully wrap front sides back seat crotch with seams folds hems. NO anatomy visible through cloth no cutaways or transparency. Red over clothing must be plain UNIFORM SOFT teaching ellipse NO internal muscle fibers rays lobes segmentation; retain normal fabric folds. Only stated primary muscles red, no unrelated highlights. Black shoes. Normal two arms two hands five fingers two legs two feet, equipment realistic. Whole body hands feet and all equipment inside each cell with generous margins. No text arrows logos.",
+      "inspectionNote": "Real output inspected. Two seated cable press positions with handles retracted then extended forward, cables visibly attached to separate rear pulleys, back supported and both feet flat. Chest highlights plain on intact tank and all machine parts framed. Handles are below shoulder height, so qualified review needed for canonical setup height, elbow path, grip, cable loading geometry and chest mapping. Human anatomy review remains pending; no approval or publication.",
+      "canonicalName": "cable seated chest press",
+      "styleVersion": "white-v1",
+      "equipment": "cable",
+      "primaryMuscles": [
+        "chest"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Two seated cable press positions with handles retracted then extended forward, cables visibly attached to separate rear pulleys, back supported and both feet flat. Chest highlights plain on intact tank and all machine parts framed. Handles are below shoulder height, so qualified review needed for canonical setup height, elbow path, grip, cable loading geometry and chest mapping. Human anatomy review remains pending; no approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2144-male-anatomical-white-v1-p1-b7758397c6ee.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 61844,
+          "sha256": "b7758397c6ee0d493fe807e9ab5fbf957a914ef466386ceed2fa00e5691b3055"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/2144-male-anatomical-white-v1-p2-ecc98eeb1032.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 60444,
+          "sha256": "ecc98eeb10329c4bf063d068058aa771a5d4e064e29847147d90aae2e4703f09"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-263.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2144-male-anatomical-white-v1-thumb-f9e5bf960259.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 6420,
+        "sha256": "f9e5bf96025972df28051cd825c254a602513a8d02d0397b21bf5057f7fb96cd"
+      },
+      "processingSignature": "e8ec8d3a5ec6af1f8f81a59d6e8229231fa822b0716afb3fbcaf31dee81c5bf0",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2144-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1809993,
+        "sha256": "290dd66743cb52457f7c63fb652c0952126bbc83555615e4654807303789817f"
+      }
+    }
+  ]
+}

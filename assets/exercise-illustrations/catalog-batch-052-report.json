@@ -1,0 +1,97 @@
+{
+  "batch": 52,
+  "trigger": "2026-11-01T11:03:14.654Z",
+  "completedAt": "2026-11-01T11:13:25.031414+00:00",
+  "tool": "image_gen.imagegen",
+  "newCandidateSets": 4,
+  "generationCalls": 5,
+  "exerciseIds": [
+    "0791",
+    "0499"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 204,
+    "remainingVariants": 11060,
+    "approvedVariants": 0,
+    "blockedVariants": 93,
+    "knownPoseImages": 410,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "All pending, unpublished. Standing hip abduction uses side-neutral captions matching canonical either-leg instruction because generated pose mirrored prompt; opaque shorts/crotch and lateral leg motion inspected, chair partly cropped. Inverted-row male fixed-bar mounting height corrected with original retained; qualified grip/heel alignment review pending. Female row blocked for rack/bar continuity and back-overlay uncertainty.",
+  "metadataConflictsDeferred": [
+    {
+      "exerciseId": "0652",
+      "issue": "Target says lats but dedicated muscleMap says upper-back; qualified mapping review needed."
+    },
+    {
+      "exerciseId": "0630",
+      "issue": "Target cardiovascular system is not a muscle region; no primary-muscle highlight guessed."
+    },
+    {
+      "exerciseId": "0756",
+      "issue": "Target abs conflicts with hip-thrust glute/hamstring description; deferred."
+    }
+  ],
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 330357027,
+  "savedMasters": [
+    {
+      "exerciseId": "0791",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0791-male-anatomical-white-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1532872,
+        "sha256": "48d47deb088b736ed565908fb93aac31b6c9fef76e5326d21b200df16df423e5"
+      }
+    },
+    {
+      "exerciseId": "0791",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0791-female-anatomical-white-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1864870,
+        "sha256": "ec9780db302424722f353baf68a9ab0e8778228dc8e46ed7b3a904f4b9551a35"
+      }
+    },
+    {
+      "exerciseId": "0499",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0499-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1735732,
+        "sha256": "d458a11bad4d6d5bc8049f7aea755c2359e4017dfcc36e2ede4e3febfdbc02a9"
+      }
+    },
+    {
+      "exerciseId": "0499",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0499-female-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1595435,
+        "sha256": "956bbf3dff90ad01135eac89d9ffdb4089eb2df8784000f874d56ee63cbc3305"
+      }
+    }
+  ]
+}

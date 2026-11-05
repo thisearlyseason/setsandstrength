@@ -7,7 +7,7 @@ android {
         buildConfig = true
     }
     defaultConfig {
-        applicationId "ch.duartesantos.opengym"
+        applicationId "pro.gamedaysports.setsstrength"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 28
@@ -72,6 +72,10 @@ dependencies {
     // Writing workouts and weigh-ins to Health Connect (#200, HealthConnectPlugin). Off until the
     // user turns it on.
     implementation "androidx.health.connect:connect-client:$healthConnectVersion"
+    // On-device Gemini Nano via AICore. The plugin checks runtime/API availability first;
+    // minSdk remains unchanged and devices below API 26 stay in deterministic local mode.
+    implementation "com.google.mlkit:genai-prompt:1.0.0-beta4"
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.11.0"
     // The sharper animations as Play asset packs (AnimationPacksPlugin in src/play): the Play
     // build only. The sideloaded APK has no Play Store behind it and keeps its built-in ones.
     playImplementation "com.google.android.play:asset-delivery:$assetDeliveryVersion"

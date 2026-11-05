@@ -1,0 +1,38 @@
+{
+  "batch": 29,
+  "trigger": "2026-11-01T07:10:11.915Z",
+  "completedAt": "2026-11-01T07:18:05.785697+00:00",
+  "tool": "image_gen.imagegen",
+  "newCandidateSets": 6,
+  "generationCalls": 7,
+  "exerciseIds": [
+    "0789",
+    "1059",
+    "2960"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 110,
+    "remainingVariants": 11154,
+    "approvedVariants": 0,
+    "blockedVariants": 46,
+    "knownPoseImages": 222,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "All pending, none published. Static stretches use one pose; split squat uses two. Male hamstring overlay corrected to remain within opaque shorts, v1 retained. Quad stretches blocked for knee alignment; split squats blocked for obscured far hand/weight. All garments visibly cover back and seat.",
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 181389420
+}

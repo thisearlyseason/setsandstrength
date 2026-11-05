@@ -1,0 +1,84 @@
+{
+  "batch": 117,
+  "trigger": "2026-11-02T21:25:52.679Z",
+  "completedAt": "2026-11-02T21:39:49.490947+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 4,
+  "generationCalls": 7,
+  "exerciseIds": [
+    "0712",
+    "0713"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 478,
+    "remainingVariants": 10786,
+    "approvedVariants": 0,
+    "blockedVariants": 190,
+    "knownPoseImages": 992,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Four candidate sets, six poses, seven built-in calls and three retained corrections. Side-lying feet raise shows both straight stacked legs grounded then feet lifted, head hand-supported and pelvis low. Male output is vertical, grid corrected to one column/two rows before processing; female horizontal, rays corrected to diffuse adductor tint. Qualified simultaneous lift, knee extension, pelvic contact and adductor localization review pending. Static neck stretch originals rotated head; corrections front view establish lateral head tilt, face forward and level relaxed shoulders. Male output tilts opposite prompt image direction but red lies opposite tilted side, compatible generic caption. Female red remains on compressed side rather than stretched side, BLOCKED for mapping correction. Qualified levator localization and cervical range review pending for both. Fine exposed grayscale anatomy and full opaque clothes front/sides/back/seat/crotch retained. Originals, exact prompts and correction history saved. No anatomy approval or publication. Original project artwork style only, no upstream media. Pipeline checks do not approve anatomy.",
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 783529357,
+  "savedMasters": [
+    {
+      "exerciseId": "0712",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0712-male-anatomical-white-v1.png",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 1618567,
+        "sha256": "0f4517483cd8ca4fb6a620e48acf5a5cc2d58b20c8e66fea199950c5a72ded2d"
+      }
+    },
+    {
+      "exerciseId": "0712",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0712-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1647072,
+        "sha256": "c6220fb75803787024e84e0351617785090d2f408e35472f9c913bf466a9b125"
+      }
+    },
+    {
+      "exerciseId": "0713",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0713-male-anatomical-white-v2.png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1738886,
+        "sha256": "5ac6885cbf773c59fdc177048ec4691c605e6ad8d5f63499639261358ef356f4"
+      }
+    },
+    {
+      "exerciseId": "0713",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0713-female-anatomical-white-v2.png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1309601,
+        "sha256": "951502acaeafc45868e146cbf1ca35c2d6b95edcbfe5fc0fb5056aa5a9a3b01a"
+      }
+    }
+  ]
+}

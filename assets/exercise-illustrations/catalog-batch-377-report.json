@@ -1,0 +1,55 @@
+{
+  "batch": 377,
+  "runId": "63c98546-c948-415f-bbb9-e377523d9143",
+  "builtInImageGenAvailable": true,
+  "anatomyReview": "pending",
+  "publication": "none",
+  "deferred": {
+    "3523": "Bench placement/name and shoulder-support instructions need reconciliation.",
+    "3526": "Spine primary muscle mapping unresolved."
+  },
+  "coverageAfter": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1359,
+    "remainingVariants": 9905,
+    "approvedVariants": 0,
+    "blockedVariants": 524,
+    "knownPoseImages": 2690,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 986,
+      "remainingVariants": 4646,
+      "blockedVariants": 405
+    }
+  },
+  "paidWorker": {
+    "statuses": {
+      "generated": 1359,
+      "pending": 9905
+    },
+    "remaining": 9905,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 2066610657
+  },
+  "pipelineTests": "7 passed, 0 failed",
+  "approvedIndexUnchanged": true,
+  "existingUserApprovalsPreserved": 1306,
+  "generatedIds": [
+    "3522",
+    "3524",
+    "3525"
+  ]
+}

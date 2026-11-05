@@ -1,0 +1,469 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "0708",
+      "variant": "male",
+      "key": "0708-male-anatomical-white-v2",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Lie supine with bent knees tilted together to one side and hands lightly behind the head."
+        },
+        {
+          "key": "p2",
+          "caption": "Curl the shoulders upward, squeeze the side of the waist, then lower slowly; finish repetitions and switch sides."
+        }
+      ],
+      "detail": "SUPINE SIDE CRUNCH WITH KNEES TILTED, TWO equal SQUARE panels side by side SAME high front three-quarter camera showing torso and both legs, head IMAGE LEFT feet RIGHT. Lie on BACK on thin gray mat, pelvis grounded, BOTH knees bent about90degrees and TILTED TOGETHER toward model LEFT side, knees/feet rest sideways near floor in same fixed positions BOTH phases. Upper back/chest faces ceiling, not lying fully on side. BOTH hands lightly behind head/ears elbows open, no neck pulling. LEFT lower: shoulder blades/upper back resting MAT, head aligned neutral. RIGHT crunch: gently curl upper back/shoulder blades UP toward ceiling about15cm, chest/face remains ceiling, ribs approach pelvis, head follows torso neck neutral, BOTH elbows remain open, hands light. Knees stay tilted and grounded; neither legs nor feet lift, pelvis fixed, no bicycle/sideplank/twisting movement between poses. Primary abdominal red only ONE smooth diffuse BLURRED tint over side/front intact BLACK shirt, broad cloth folds only no fibers/rays. Fine exposed grayscale arms/calves. Opaque clothing fully wraps seat/crotch, full model within margins.",
+      "prompt": "Edit original project TWO-panel supine side crunch with knees tilted together. Preserve EXACT lower/shoulder-curl poses, fixed bent knees and feet grounded sideways, pelvis low, hands lightly behind head, ceiling-oriented chest/face, fine detailed EXPOSED grayscale muscle fibers. Only replace all red abdominal shirt streaks/fiber rays with ONE smooth diffuse BLURRED red teaching tint on intact continuous opaque matte BLACK fabric. No rays/muscle divisions/sixpack lines on garment; broad natural cloth folds only. Full opaque clothes front sides back seat crotch, same full framing, two square side-by-side panels. No text.",
+      "inspectionNote": "Two supine side-crunch phases retained with tilted grounded knees and shoulder lift. Shirt tint softened but repeated diagonal fiber-like streaks remain after edit, blocked for cloth correction. Full opaque clothes and detailed exposed grayscale muscles retained; qualified spinal curl, neck support and knee/pelvis continuity review pending.",
+      "canonicalName": "side crunch",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "abs"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0708-male-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "status": "generated",
+        "costUSD": null
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Two supine side-crunch phases retained with tilted grounded knees and shoulder lift. Shirt tint softened but repeated diagonal fiber-like streaks remain after edit, blocked for cloth correction. Full opaque clothes and detailed exposed grayscale muscles retained; qualified spinal curl, neck support and knee/pelvis continuity review pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0708-male-anatomical-white-v2-p1-2d3257f0d67e.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 23668,
+          "sha256": "2d3257f0d67e6d5dc64b56f402a2f69c8ad9b8ddf6aed1ccc323b928e8e93fb8"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0708-male-anatomical-white-v2-p2-a63bc80a1451.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 25922,
+          "sha256": "a63bc80a145108ab98eb0fc65ced22a9fda4b3bfa9a593d473a26b9a1ef20651"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0708-male-anatomical-white-v2-thumb-6311c226bcc0.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2420,
+        "sha256": "6311c226bcc0bfd841dfc096d444e5d66b07ef1fb1d83d3f53506e4d962f5a6f"
+      },
+      "processingSignature": "68a348488e5728576eeb3a22eb385c6291fae74c857cab508776e024c7b7a985",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0708-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1710702,
+        "sha256": "2b88d86bbc1ac44422f6e76837a6ae2c576ccbaf1e9f3276416d657e1c60d3e3"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0708",
+          "variant": "male",
+          "key": "0708-male-anatomical-white-v1",
+          "layout": {
+            "columns": 2,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Lie supine with bent knees tilted together to one side and hands lightly behind the head."
+            },
+            {
+              "key": "p2",
+              "caption": "Curl the shoulders upward, squeeze the side of the waist, then lower slowly; finish repetitions and switch sides."
+            }
+          ],
+          "detail": "SUPINE SIDE CRUNCH WITH KNEES TILTED, TWO equal SQUARE panels side by side SAME high front three-quarter camera showing torso and both legs, head IMAGE LEFT feet RIGHT. Lie on BACK on thin gray mat, pelvis grounded, BOTH knees bent about90degrees and TILTED TOGETHER toward model LEFT side, knees/feet rest sideways near floor in same fixed positions BOTH phases. Upper back/chest faces ceiling, not lying fully on side. BOTH hands lightly behind head/ears elbows open, no neck pulling. LEFT lower: shoulder blades/upper back resting MAT, head aligned neutral. RIGHT crunch: gently curl upper back/shoulder blades UP toward ceiling about15cm, chest/face remains ceiling, ribs approach pelvis, head follows torso neck neutral, BOTH elbows remain open, hands light. Knees stay tilted and grounded; neither legs nor feet lift, pelvis fixed, no bicycle/sideplank/twisting movement between poses. Primary abdominal red only ONE smooth diffuse BLURRED tint over side/front intact BLACK shirt, broad cloth folds only no fibers/rays. Fine exposed grayscale arms/calves. Opaque clothing fully wraps seat/crotch, full model within margins.",
+          "prompt": "Original educational exercise illustration. Attached original project artwork STYLE ONLY never pose/equipment reference. Neutral adult MALE, premium fine detailed grayscale anatomical fibers on EXPOSED muscles, pure white background. Fully OPAQUE matte BLACK sleeveless shirt covers torso front sides back abdomen; loose knee-length BLACK shorts wrap both thighs front sides rear seat crotch, closed seams/hems and broad natural folds. Black trainers. Red PRIMARY only as specified; over cloth ONE smooth diffuse blurred tint independent of muscle divisions, no rays/fibers/sixpack lines. Whole body fingers shoes inside generous white margins. No text/labels/arrows/logos. SUPINE SIDE CRUNCH WITH KNEES TILTED, TWO equal SQUARE panels side by side SAME high front three-quarter camera showing torso and both legs, head IMAGE LEFT feet RIGHT. Lie on BACK on thin gray mat, pelvis grounded, BOTH knees bent about90degrees and TILTED TOGETHER toward model LEFT side, knees/feet rest sideways near floor in same fixed positions BOTH phases. Upper back/chest faces ceiling, not lying fully on side. BOTH hands lightly behind head/ears elbows open, no neck pulling. LEFT lower: shoulder blades/upper back resting MAT, head aligned neutral. RIGHT crunch: gently curl upper back/shoulder blades UP toward ceiling about15cm, chest/face remains ceiling, ribs approach pelvis, head follows torso neck neutral, BOTH elbows remain open, hands light. Knees stay tilted and grounded; neither legs nor feet lift, pelvis fixed, no bicycle/sideplank/twisting movement between poses. Primary abdominal red only ONE smooth diffuse BLURRED tint over side/front intact BLACK shirt, broad cloth folds only no fibers/rays. Fine exposed grayscale arms/calves. Opaque clothing fully wraps seat/crotch, full model within margins.",
+          "inspectionNote": "Two supine shoulder-curl phases with knees bent tilted together and grounded, hands behind head. Chest/face oriented upward with shoulders higher in contraction, pelvis remains low. Shirt tint has streaks to soften; qualified knee orientation, spinal curl, neck support and hip continuity review pending. Full opaque clothes and detailed exposed muscles retained.",
+          "canonicalName": "side crunch",
+          "styleVersion": "white-v1",
+          "equipment": "body weight",
+          "primaryMuscles": [
+            "abs"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Two supine shoulder-curl phases with knees bent tilted together and grounded, hands behind head. Chest/face oriented upward with shoulders higher in contraction, pelvis remains low. Shirt tint has streaks to soften; qualified knee orientation, spinal curl, neck support and hip continuity review pending. Full opaque clothes and detailed exposed muscles retained.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0708-male-anatomical-white-v1-p1-b4700558ecd1.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 27192,
+              "sha256": "b4700558ecd1e139462084d9d2a5f60350726063a92587fe8e69e0035f8b9aeb"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0708-male-anatomical-white-v1-p2-43ddd6acd1d9.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 29336,
+              "sha256": "43ddd6acd1d9058f74b5386a46334fa3e059cb504aeb86556bc601163cf71e27"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0708-male-anatomical-white-v1-thumb-fcd9147c19d5.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 2420,
+            "sha256": "fcd9147c19d52e0ef5cfe622a531537b8963597e248a4ffd043a773e8b897ef8"
+          },
+          "processingSignature": "aa122ee2106e16022169ce4b8ea2312cd61e25e13cd148844a6599e972005e2d",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0708-male-anatomical-white-v1.png",
+            "width": 1774,
+            "height": 887,
+            "bytes": 1413554,
+            "sha256": "974549c720229534a6a787031e4971705148da34eff2eb98798663975e9fd48a"
+          }
+        }
+      ],
+      "blockingIssues": [
+        "Repeated diagonal fiber-like streaks remain on abdominal shirt overlay after correction; requires cloth-pattern review/correction."
+      ]
+    },
+    {
+      "exerciseId": "0708",
+      "variant": "female",
+      "key": "0708-female-anatomical-white-v2",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Lie supine with bent knees tilted together to one side and hands lightly behind the head."
+        },
+        {
+          "key": "p2",
+          "caption": "Curl the shoulders upward, squeeze the side of the waist, then lower slowly; finish repetitions and switch sides."
+        }
+      ],
+      "detail": "SUPINE SIDE CRUNCH WITH KNEES TILTED, TWO equal SQUARE panels side by side SAME high front three-quarter camera showing torso and both legs, head IMAGE LEFT feet RIGHT. Lie on BACK on thin gray mat, pelvis grounded, BOTH knees bent about90degrees and TILTED TOGETHER toward model LEFT side, knees/feet rest sideways near floor in same fixed positions BOTH phases. Upper back/chest faces ceiling, not lying fully on side. BOTH hands lightly behind head/ears elbows open, no neck pulling. LEFT lower: shoulder blades/upper back resting MAT, head aligned neutral. RIGHT crunch: gently curl upper back/shoulder blades UP toward ceiling about15cm, chest/face remains ceiling, ribs approach pelvis, head follows torso neck neutral, BOTH elbows remain open, hands light. Knees stay tilted and grounded; neither legs nor feet lift, pelvis fixed, no bicycle/sideplank/twisting movement between poses. Primary abdominal red only ONE smooth diffuse BLURRED tint over side/front intact BLACK shirt, broad cloth folds only no fibers/rays. Fine exposed grayscale arms/calves. Opaque clothing fully wraps seat/crotch, full model within margins.",
+      "prompt": "Edit original project TWO-panel supine side crunch with knees tilted together. Preserve EXACT lower/shoulder-curl poses, fixed bent knees and feet grounded sideways, pelvis low, hands lightly behind head, ceiling-oriented chest/face, fine detailed EXPOSED grayscale muscle fibers. Only replace all red abdominal shirt streaks/fiber rays with ONE smooth diffuse BLURRED red teaching tint on intact continuous opaque matte BLACK fabric. No rays/muscle divisions/sixpack lines on garment; broad natural cloth folds only. Full opaque clothes front sides back seat crotch, same full framing, two square side-by-side panels. No text.",
+      "inspectionNote": "Successful built-in retry after recorded transient network error. Shirt streaks softened to diffuse red, lower/curl phases with grounded tilted knees and shoulders lifted retained. Full opaque clothes and fine exposed grayscale muscles. Qualified spinal curl, neck support and pelvis/knee continuity review pending.",
+      "canonicalName": "side crunch",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "abs"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0708-female-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "status": "generated",
+        "costUSD": null
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Successful built-in retry after recorded transient network error. Shirt streaks softened to diffuse red, lower/curl phases with grounded tilted knees and shoulders lifted retained. Full opaque clothes and fine exposed grayscale muscles. Qualified spinal curl, neck support and pelvis/knee continuity review pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0708-female-anatomical-white-v2-p1-97aafb572068.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 26482,
+          "sha256": "97aafb57206843f36df0c2d5af1c11bf307f82c0a3bf292720b7a05d0740bfcb"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0708-female-anatomical-white-v2-p2-f5f422ffa8c1.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 28370,
+          "sha256": "f5f422ffa8c12d119e55473c3727261bd06da39f11c55987d5f3fe123ce8a78b"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0708-female-anatomical-white-v2-thumb-1b453159bdef.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2544,
+        "sha256": "1b453159bdef76d298c2af78277999cc1e0caf7a16d32d6cbf73aa0810193842"
+      },
+      "processingSignature": "7016cc32ba2dff053713e4259ddc143f8014a21fef8b744b5bd9379c28c569fc",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0708-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1774346,
+        "sha256": "ed37932590bd0705345dcdea77ef58c93d736c4572f830deeee01e8a2628fcc3"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0708",
+          "variant": "female",
+          "key": "0708-female-anatomical-white-v1",
+          "layout": {
+            "columns": 2,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Lie supine with bent knees tilted together to one side and hands lightly behind the head."
+            },
+            {
+              "key": "p2",
+              "caption": "Curl the shoulders upward, squeeze the side of the waist, then lower slowly; finish repetitions and switch sides."
+            }
+          ],
+          "detail": "SUPINE SIDE CRUNCH WITH KNEES TILTED, TWO equal SQUARE panels side by side SAME high front three-quarter camera showing torso and both legs, head IMAGE LEFT feet RIGHT. Lie on BACK on thin gray mat, pelvis grounded, BOTH knees bent about90degrees and TILTED TOGETHER toward model LEFT side, knees/feet rest sideways near floor in same fixed positions BOTH phases. Upper back/chest faces ceiling, not lying fully on side. BOTH hands lightly behind head/ears elbows open, no neck pulling. LEFT lower: shoulder blades/upper back resting MAT, head aligned neutral. RIGHT crunch: gently curl upper back/shoulder blades UP toward ceiling about15cm, chest/face remains ceiling, ribs approach pelvis, head follows torso neck neutral, BOTH elbows remain open, hands light. Knees stay tilted and grounded; neither legs nor feet lift, pelvis fixed, no bicycle/sideplank/twisting movement between poses. Primary abdominal red only ONE smooth diffuse BLURRED tint over side/front intact BLACK shirt, broad cloth folds only no fibers/rays. Fine exposed grayscale arms/calves. Opaque clothing fully wraps seat/crotch, full model within margins.",
+          "prompt": "Original educational exercise illustration. Attached original project artwork STYLE ONLY never pose/equipment reference. Neutral adult FEMALE, premium fine detailed grayscale anatomical fibers on EXPOSED muscles, pure white background. Fully OPAQUE matte BLACK sleeveless shirt covers torso front sides back abdomen; loose knee-length BLACK shorts wrap both thighs front sides rear seat crotch, closed seams/hems and broad natural folds. Black trainers. Red PRIMARY only as specified; over cloth ONE smooth diffuse blurred tint independent of muscle divisions, no rays/fibers/sixpack lines. Whole body fingers shoes inside generous white margins. No text/labels/arrows/logos. SUPINE SIDE CRUNCH WITH KNEES TILTED, TWO equal SQUARE panels side by side SAME high front three-quarter camera showing torso and both legs, head IMAGE LEFT feet RIGHT. Lie on BACK on thin gray mat, pelvis grounded, BOTH knees bent about90degrees and TILTED TOGETHER toward model LEFT side, knees/feet rest sideways near floor in same fixed positions BOTH phases. Upper back/chest faces ceiling, not lying fully on side. BOTH hands lightly behind head/ears elbows open, no neck pulling. LEFT lower: shoulder blades/upper back resting MAT, head aligned neutral. RIGHT crunch: gently curl upper back/shoulder blades UP toward ceiling about15cm, chest/face remains ceiling, ribs approach pelvis, head follows torso neck neutral, BOTH elbows remain open, hands light. Knees stay tilted and grounded; neither legs nor feet lift, pelvis fixed, no bicycle/sideplank/twisting movement between poses. Primary abdominal red only ONE smooth diffuse BLURRED tint over side/front intact BLACK shirt, broad cloth folds only no fibers/rays. Fine exposed grayscale arms/calves. Opaque clothing fully wraps seat/crotch, full model within margins.",
+          "inspectionNote": "Two supine shoulder-curl phases, knees tilted together and feet grounded, chest/face ceiling, shoulders elevated in contraction. Hands behind head, opaque full garments and fine exposed muscles. Abdominal red has fiber-like streaks requiring correction. Qualified upper-back curl, neck support, knee/pelvis continuity review pending.",
+          "canonicalName": "side crunch",
+          "styleVersion": "white-v1",
+          "equipment": "body weight",
+          "primaryMuscles": [
+            "abs"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Two supine shoulder-curl phases, knees tilted together and feet grounded, chest/face ceiling, shoulders elevated in contraction. Hands behind head, opaque full garments and fine exposed muscles. Abdominal red has fiber-like streaks requiring correction. Qualified upper-back curl, neck support, knee/pelvis continuity review pending.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0708-female-anatomical-white-v1-p1-0f14455b15d7.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 31422,
+              "sha256": "0f14455b15d7ef019f76836397a25359341e9ed0aa9f9df2e0218ebf51ce018a"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0708-female-anatomical-white-v1-p2-846950e74f33.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 34088,
+              "sha256": "846950e74f333ed1d86fe35f60da602c468f3355cb50a72ec2cf4b2150af8af0"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0708-female-anatomical-white-v1-thumb-aa9bcdd59a3f.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 2578,
+            "sha256": "aa9bcdd59a3fac6e5028bf39e882c54133b728326c2af17db0d2230a9a6c9e3c"
+          },
+          "processingSignature": "14f330d6d71bf2db6558e99d1c6ee724814a13b693f869ec54e5eb81f96c688d",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0708-female-anatomical-white-v1.png",
+            "width": 1774,
+            "height": 887,
+            "bytes": 1442848,
+            "sha256": "5af96cb878a3934515e611370a3e2d5b650a11d4c626de1eb2393941d1735ffd"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "0711",
+      "variant": "male",
+      "key": "0711-male-anatomical-white-v1",
+      "layout": {
+        "columns": 1,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Take a wide stance, bend one knee and shift the hips back while keeping the other leg straight and chest up. Hold 20\u201330 seconds, then switch sides."
+        }
+      ],
+      "detail": "SIDE LUNGE ADDUCTOR STRETCH, ONE static full-body hold FRONT three-quarter view. Wide stance, toes generally forward. Shift body/pelvis to IMAGE LEFT over deeply bent LEFT knee, left knee tracks left shoe, heel flat. RIGHT leg extends sideways to IMAGE RIGHT with knee STRAIGHT and right shoe flat floor, both heels stay down. Hips back/down, chest UP long neutral spine, head neutral, no twisting. Both hands rest lightly on bent left thigh above knee for balance, no pushing joint, no equipment. Primary ADDUCTORS of STRAIGHT RIGHT LEG ONE soft diffuse BLURRED red patch over INNER UPPER THIGH on fully opaque BLACK shorts near inner seam, not outer hip, no red kneecap/calf. No muscle rays/fibers/anatomical divisions on cloth, broad natural seams/folds only. Fine grayscale exposed arms/calves. Full shirt/shorts wraps front sides rear seat crotch, no fabric opening or cutaway. Entire body shoes/hands/head within generous white margins.",
+      "prompt": "Original educational exercise illustration. Attached original project artwork STYLE ONLY never pose/equipment reference. Neutral adult MALE, premium fine detailed grayscale anatomical fibers on EXPOSED muscles, pure white background. Fully OPAQUE matte BLACK sleeveless shirt covers torso front sides back abdomen; loose knee-length BLACK shorts wrap both thighs front sides rear seat crotch, closed seams/hems and broad natural folds. Black trainers. Red PRIMARY only as specified; over cloth ONE smooth diffuse blurred tint independent of muscle divisions, no rays/fibers/sixpack lines. Whole body fingers shoes inside generous white margins. No text/labels/arrows/logos. SIDE LUNGE ADDUCTOR STRETCH, ONE static full-body hold FRONT three-quarter view. Wide stance, toes generally forward. Shift body/pelvis to IMAGE LEFT over deeply bent LEFT knee, left knee tracks left shoe, heel flat. RIGHT leg extends sideways to IMAGE RIGHT with knee STRAIGHT and right shoe flat floor, both heels stay down. Hips back/down, chest UP long neutral spine, head neutral, no twisting. Both hands rest lightly on bent left thigh above knee for balance, no pushing joint, no equipment. Primary ADDUCTORS of STRAIGHT RIGHT LEG ONE soft diffuse BLURRED red patch over INNER UPPER THIGH on fully opaque BLACK shorts near inner seam, not outer hip, no red kneecap/calf. No muscle rays/fibers/anatomical divisions on cloth, broad natural seams/folds only. Fine grayscale exposed arms/calves. Full shirt/shorts wraps front sides rear seat crotch, no fabric opening or cutaway. Entire body shoes/hands/head within generous white margins.",
+      "inspectionNote": "Single side-lunge stretch shows bent supporting knee, straight opposite leg and both shoes grounded, chest upright. Diffuse inner straight-thigh tint on fully opaque shorts and fine grayscale exposed anatomy. Hands near bent knee; qualified no joint pressure, knee/shoe tracking, heel contact and adductor localization review pending.",
+      "canonicalName": "side lunge stretch",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "adductors"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Single side-lunge stretch shows bent supporting knee, straight opposite leg and both shoes grounded, chest upright. Diffuse inner straight-thigh tint on fully opaque shorts and fine grayscale exposed anatomy. Hands near bent knee; qualified no joint pressure, knee/shoe tracking, heel contact and adductor localization review pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0711-male-anatomical-white-v1-p1-f5fe576d7be4.webp",
+          "width": 1200,
+          "height": 800,
+          "bytes": 31436,
+          "sha256": "f5fe576d7be41ef3b1f4ef03d8a9b09c87cf2db6a58181bac5272716294f34ab"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0711-male-anatomical-white-v1-thumb-184514a97ca4.webp",
+        "width": 240,
+        "height": 160,
+        "bytes": 2270,
+        "sha256": "184514a97ca46f4d5f7aef353a8ea5074455f2c0de54bede1cf91f40fc6f5327"
+      },
+      "processingSignature": "776c159ed1ebbada2bd25ad8d8643a366ba63363328ca5e8e9a662f4bf7b02f1",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0711-male-anatomical-white-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1411685,
+        "sha256": "40bfa31e6169a6f99389ef166d932bad45405613075c0d6e31b4c39f6331a1d4"
+      }
+    },
+    {
+      "exerciseId": "0711",
+      "variant": "female",
+      "key": "0711-female-anatomical-white-v1",
+      "layout": {
+        "columns": 1,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Take a wide stance, bend one knee and shift the hips back while keeping the other leg straight and chest up. Hold 20\u201330 seconds, then switch sides."
+        }
+      ],
+      "detail": "SIDE LUNGE ADDUCTOR STRETCH, ONE static full-body hold FRONT three-quarter view. Wide stance, toes generally forward. Shift body/pelvis to IMAGE LEFT over deeply bent LEFT knee, left knee tracks left shoe, heel flat. RIGHT leg extends sideways to IMAGE RIGHT with knee STRAIGHT and right shoe flat floor, both heels stay down. Hips back/down, chest UP long neutral spine, head neutral, no twisting. Both hands rest lightly on bent left thigh above knee for balance, no pushing joint, no equipment. Primary ADDUCTORS of STRAIGHT RIGHT LEG ONE soft diffuse BLURRED red patch over INNER UPPER THIGH on fully opaque BLACK shorts near inner seam, not outer hip, no red kneecap/calf. No muscle rays/fibers/anatomical divisions on cloth, broad natural seams/folds only. Fine grayscale exposed arms/calves. Full shirt/shorts wraps front sides rear seat crotch, no fabric opening or cutaway. Entire body shoes/hands/head within generous white margins.",
+      "prompt": "Original educational exercise illustration. Attached original project artwork STYLE ONLY never pose/equipment reference. Neutral adult FEMALE, premium fine detailed grayscale anatomical fibers on EXPOSED muscles, pure white background. Fully OPAQUE matte BLACK sleeveless shirt covers torso front sides back abdomen; loose knee-length BLACK shorts wrap both thighs front sides rear seat crotch, closed seams/hems and broad natural folds. Black trainers. Red PRIMARY only as specified; over cloth ONE smooth diffuse blurred tint independent of muscle divisions, no rays/fibers/sixpack lines. Whole body fingers shoes inside generous white margins. No text/labels/arrows/logos. SIDE LUNGE ADDUCTOR STRETCH, ONE static full-body hold FRONT three-quarter view. Wide stance, toes generally forward. Shift body/pelvis to IMAGE LEFT over deeply bent LEFT knee, left knee tracks left shoe, heel flat. RIGHT leg extends sideways to IMAGE RIGHT with knee STRAIGHT and right shoe flat floor, both heels stay down. Hips back/down, chest UP long neutral spine, head neutral, no twisting. Both hands rest lightly on bent left thigh above knee for balance, no pushing joint, no equipment. Primary ADDUCTORS of STRAIGHT RIGHT LEG ONE soft diffuse BLURRED red patch over INNER UPPER THIGH on fully opaque BLACK shorts near inner seam, not outer hip, no red kneecap/calf. No muscle rays/fibers/anatomical divisions on cloth, broad natural seams/folds only. Fine grayscale exposed arms/calves. Full shirt/shorts wraps front sides rear seat crotch, no fabric opening or cutaway. Entire body shoes/hands/head within generous white margins.",
+      "inspectionNote": "Single side-lunge hold shows bent supporting knee, opposite leg straight, both shoes grounded and chest upright. Smooth diffuse adductor teaching tint on intact inner-thigh shorts, full opaque clothes and detailed exposed grayscale anatomy. Hands near knee; qualified no joint pressure, knee tracking, heel contact and muscle localization review pending.",
+      "canonicalName": "side lunge stretch",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "adductors"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Single side-lunge hold shows bent supporting knee, opposite leg straight, both shoes grounded and chest upright. Smooth diffuse adductor teaching tint on intact inner-thigh shorts, full opaque clothes and detailed exposed grayscale anatomy. Hands near knee; qualified no joint pressure, knee tracking, heel contact and muscle localization review pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0711-female-anatomical-white-v1-p1-19817fd08984.webp",
+          "width": 1200,
+          "height": 800,
+          "bytes": 29948,
+          "sha256": "19817fd089841af8d6be06890ad62042af5bf0edbadb07a7322e88c965286866"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0711-female-anatomical-white-v1-thumb-031b01832c24.webp",
+        "width": 240,
+        "height": 160,
+        "bytes": 2106,
+        "sha256": "031b01832c24e123ca80d7fc8bfb38127cbe39559314120cbc8ee5dd2fb596ac"
+      },
+      "processingSignature": "19ca70503001d8a12a3eb9f705d7e75b4b39f70d53e15a91cf57bca539c7fa0d",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0711-female-anatomical-white-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1376460,
+        "sha256": "def4ee8ddde18292b7c59f25492ae327db5d186da28e2a6df9c5bdcfb9e36e0b"
+      }
+    }
+  ]
+}

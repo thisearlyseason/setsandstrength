@@ -1,0 +1,205 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "1406",
+      "variant": "male",
+      "key": "1406-male-anatomical-white-v1",
+      "layout": {
+        "columns": 1,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Lie on your back with one leg flat. Support the raised leg behind the thigh and gently straighten its knee. Keep your head and pelvis relaxed on the mat; hold 20\u201330 seconds and switch legs."
+        }
+      ],
+      "prompt": "Use case scientific-educational. Premium original ADULT male detailed anatomical exercise illustration canonical1406 HAMSTRING LYING STRETCH. ONE STATIC HOLD, exactly one full body person supine on thin gray mat, side three-quarter view head LEFT feet RIGHT. Back of skull shoulders pelvis relaxed resting on mat, head NEVER lifted. LEFT nonworking leg fully extended flat on mat to RIGHT with heel grounded. RIGHT working leg lifted upward about75degrees from floor, knee nearly straight slight softness, working foot above hips, ankle neutral. Both hands clasp gently behind raised RIGHT thigh BELOW buttock and ABOVE knee, fingers wrap sides of thigh, elbows bent not pulling neck. Keep pelvis grounded neutral back. Primary raised RIGHT hamstrings at BACK of thigh RED: distal exposed posterior thigh red muscle detail; upper covered hamstring only diffuse red educational tint on intact black shorts cloth, NO muscle contours/striations visible through shorts. All other anatomy grayscale. Fully opaque BLACK athletic tank wraps FRONT SIDES BACK, BLACK MID-THIGH shorts cover FRONT SIDES BACK SEAT CROTCH including raised leg with continuous hems seams broad real cloth folds no transparency/cutaways. Detailed fine grayscale EXPOSED limb muscle contours realistic fingers feet proportions. Black shoes. Pure WHITE background soft contact shadows generous12percent margins whole head both feet hands mat within square. Reference original project rendering STYLE ONLY ignore pushup chest red. Equal male/female quality. No text captions labels arrows extra panels.",
+      "canonicalName": "hamstring lying stretch",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "hamstrings"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Two lying hamstring stretch candidates, one static pose per variant, three built-in calls including female head-support correction. Raised nearly straight leg supported behind thigh, other leg flat, head and pelvis grounded. Female v1 head/hair obscured mat support; v2 short hair and lowered skull show support. Both originals and exact edit prompt preserved in correction history. Hamstrings red with diffuse tint over intact shorts, full opaque clothing and exposed grayscale anatomy retained. Qualified posterior thigh mapping, support pressure, knee extension, pelvis/back and skull contact require human review. Original project artwork style only, no upstream licensed input. No anatomical approval or publication. Seven pipeline checks do not establish anatomical accuracy.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/1406-male-anatomical-white-v1-p1-4e193eb47125.webp",
+          "width": 1200,
+          "height": 1200,
+          "bytes": 42044,
+          "sha256": "4e193eb471256d151055eeee19173ea7958e3f877d2b266dac8029c5f6c6cb36"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-184.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/1406-male-anatomical-white-v1-thumb-d7d472304d52.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2414,
+        "sha256": "d7d472304d52b20c26614b0aae069da9f0fff529df99a1c7e25804721529d0c0"
+      },
+      "processingSignature": "10f4ec47d4695a4f581c3f24db9996d0ece91b32eeedfce4c7a3517851db61fa",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1406-male-anatomical-white-v1.png",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 1356274,
+        "sha256": "02782838b94ae631e73af1835620eddafaa98d274d71ee6e5183696a1c0cda2f"
+      },
+      "inspectionNote": "Two lying hamstring stretch candidates, one static pose per variant, three built-in calls including female head-support correction. Raised nearly straight leg supported behind thigh, other leg flat, head and pelvis grounded. Female v1 head/hair obscured mat support; v2 short hair and lowered skull show support. Both originals and exact edit prompt preserved in correction history. Hamstrings red with diffuse tint over intact shorts, full opaque clothing and exposed grayscale anatomy retained. Qualified posterior thigh mapping, support pressure, knee extension, pelvis/back and skull contact require human review. Original project artwork style only, no upstream licensed input. No anatomical approval or publication. Seven pipeline checks do not establish anatomical accuracy."
+    },
+    {
+      "exerciseId": "1406",
+      "variant": "female",
+      "key": "1406-female-anatomical-white-v2",
+      "layout": {
+        "columns": 1,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Lie on your back with one leg flat. Support the raised leg behind the thigh and gently straighten its knee. Keep your head and pelvis relaxed on the mat; hold 20\u201330 seconds and switch legs."
+        }
+      ],
+      "prompt": "Edit only the female hamstring stretch image. Lower and relax her head so the back of SKULL clearly rests directly on mat, face points naturally upward, neck relaxed no forward curl. Use short cropped pixie hair so skull-mat contact visible. Preserve EXACT same pose limbs clothing intact black tank/shorts diffuse red hamstrings grayscale exposed anatomy hand support mat shoes framing single female. Do not change leg heights hand placement or muscle highlights. No text.",
+      "canonicalName": "hamstring lying stretch",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "hamstrings"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/1406-female-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Two lying hamstring stretch candidates, one static pose per variant, three built-in calls including female head-support correction. Raised nearly straight leg supported behind thigh, other leg flat, head and pelvis grounded. Female v1 head/hair obscured mat support; v2 short hair and lowered skull show support. Both originals and exact edit prompt preserved in correction history. Hamstrings red with diffuse tint over intact shorts, full opaque clothing and exposed grayscale anatomy retained. Qualified posterior thigh mapping, support pressure, knee extension, pelvis/back and skull contact require human review. Original project artwork style only, no upstream licensed input. No anatomical approval or publication. Seven pipeline checks do not establish anatomical accuracy.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/1406-female-anatomical-white-v2-p1-91434ac8977c.webp",
+          "width": 1200,
+          "height": 1200,
+          "bytes": 34756,
+          "sha256": "91434ac8977c89362374294cbc741d4f44c7b67357a0311337f411bab1c13619"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-184.json",
+      "correctionHistory": [
+        {
+          "exerciseId": "1406",
+          "variant": "female",
+          "key": "1406-female-anatomical-white-v1",
+          "layout": {
+            "columns": 1,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Lie on your back with one leg flat. Support the raised leg behind the thigh and gently straighten its knee. Keep your head and pelvis relaxed on the mat; hold 20\u201330 seconds and switch legs."
+            }
+          ],
+          "prompt": "Use case scientific-educational. Premium original ADULT female detailed anatomical exercise illustration canonical1406 HAMSTRING LYING STRETCH. ONE STATIC HOLD, exactly one full body person supine on thin gray mat, side three-quarter view head LEFT feet RIGHT. Back of skull shoulders pelvis relaxed resting on mat, head NEVER lifted. LEFT nonworking leg fully extended flat on mat to RIGHT with heel grounded. RIGHT working leg lifted upward about75degrees from floor, knee nearly straight slight softness, working foot above hips, ankle neutral. Both hands clasp gently behind raised RIGHT thigh BELOW buttock and ABOVE knee, fingers wrap sides of thigh, elbows bent not pulling neck. Keep pelvis grounded neutral back. Primary raised RIGHT hamstrings at BACK of thigh RED: distal exposed posterior thigh red muscle detail; upper covered hamstring only diffuse red educational tint on intact black shorts cloth, NO muscle contours/striations visible through shorts. All other anatomy grayscale. Fully opaque BLACK athletic tank wraps FRONT SIDES BACK, BLACK MID-THIGH shorts cover FRONT SIDES BACK SEAT CROTCH including raised leg with continuous hems seams broad real cloth folds no transparency/cutaways. Detailed fine grayscale EXPOSED limb muscle contours realistic fingers feet proportions. Black shoes. Pure WHITE background soft contact shadows generous12percent margins whole head both feet hands mat within square. Reference original project rendering STYLE ONLY ignore pushup chest red. Equal male/female quality. No text captions labels arrows extra panels.",
+          "canonicalName": "hamstring lying stretch",
+          "styleVersion": "white-v1",
+          "equipment": "body weight",
+          "primaryMuscles": [
+            "hamstrings"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original generation from exercise metadata and user-selected style. No upstream image input."
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Head raised or mat support obscured by hair; corrected in v2.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/1406-female-anatomical-white-v1-p1-c37dbb28b056.webp",
+              "width": 1200,
+              "height": 1200,
+              "bytes": 41016,
+              "sha256": "c37dbb28b0562741ea3685079f93b8de0b6a0d25a5f1c3a96a6f7216a89a87fb"
+            }
+          ],
+          "video": null,
+          "batch": "catalog-batch-184.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/1406-female-anatomical-white-v1-thumb-8032bc1bbdc1.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 2410,
+            "sha256": "8032bc1bbdc1892559f3bbfd142d73d000e26bce5fe63cb56fc9e83d976d9b37"
+          },
+          "processingSignature": "39ad9505cd42f017102d85a5dfb0511b0631d77c3ca4c657fc3df2b1ebb7e0d4",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/1406-female-anatomical-white-v1.png",
+            "width": 1254,
+            "height": 1254,
+            "bytes": 1345128,
+            "sha256": "f237921dd3e22d9f7ce58789aba84c715bf9dafa49a26cb952fcb3f4f0ce49a5"
+          }
+        }
+      ],
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/1406-female-anatomical-white-v2-thumb-2a500f9a08e4.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2420,
+        "sha256": "2a500f9a08e4aa27d36ce4c762313ed90cc6def74baaf026e40b5e809b892368"
+      },
+      "processingSignature": "e82f0ddbc7af7f7d6cdbb691736b1c01d3984ef9002452e6d12331e7fe50184d",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1406-female-anatomical-white-v2.png",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 1678124,
+        "sha256": "72221941f66c39779587a31a8804a5c6eb36679da86eda002bfc7858fdcfb043"
+      },
+      "inspectionNote": "Two lying hamstring stretch candidates, one static pose per variant, three built-in calls including female head-support correction. Raised nearly straight leg supported behind thigh, other leg flat, head and pelvis grounded. Female v1 head/hair obscured mat support; v2 short hair and lowered skull show support. Both originals and exact edit prompt preserved in correction history. Hamstrings red with diffuse tint over intact shorts, full opaque clothing and exposed grayscale anatomy retained. Qualified posterior thigh mapping, support pressure, knee extension, pelvis/back and skull contact require human review. Original project artwork style only, no upstream licensed input. No anatomical approval or publication. Seven pipeline checks do not establish anatomical accuracy."
+    }
+  ]
+}

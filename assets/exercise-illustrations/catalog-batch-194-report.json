@@ -1,0 +1,66 @@
+{
+  "batch": 194,
+  "runId": "37d4c60a-6eb6-4c7b-85fc-971d86d25ec2",
+  "trigger": "2026-11-03T12:12:29.721Z",
+  "completedAt": "2026-11-03T12:18:06.239745+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 2,
+  "generationCalls": 2,
+  "exerciseIds": [
+    "1469"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 702,
+    "remainingVariants": 10562,
+    "approvedVariants": 0,
+    "blockedVariants": 233,
+    "knownPoseImages": 1386,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Two bent-knee side plank candidates, one static pose per variant, two built-in calls. Both BLOCKED for insufficient clear thigh/hip elevation above knee support. Forearm support, bent stacked legs, upper hand on hip and red abdominal tint over intact tank retained. Full opaque clothes and detailed exposed grayscale anatomy. Qualified elbow under shoulder, pelvis stacking, neck alignment and cloth tint need human review. Original project artwork rendering style only, no upstream licensed input. Exact prompts/originals retained. No anatomy or clothing approval or publication. Seven pipeline checks do not establish anatomical accuracy.",
+  "metadataConflictsDeferred": {
+    "1465": "Spine target requires specific muscle mapping.",
+    "1467": "Forearm grounded start versus further elbow flexion movement mechanically unclear."
+  },
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 1106768261,
+  "savedMasters": [
+    {
+      "exerciseId": "1469",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1469-male-anatomical-white-v1.png",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 1437413,
+        "sha256": "ab394c1457b8f94ad6b5e5021bb898051f55dcc90e67eb28a1c0328f759cf154"
+      }
+    },
+    {
+      "exerciseId": "1469",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1469-female-anatomical-white-v1.png",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 1422391,
+        "sha256": "0d5873fc8cb0e581ca5382c744c3103de8df9dcfb4d39b27cab0decee4e42f7d"
+      }
+    }
+  ]
+}

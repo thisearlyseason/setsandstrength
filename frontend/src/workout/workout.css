@@ -18,7 +18,8 @@ body {
 }
 button,
 input,
-select {
+select,
+textarea {
   font: inherit;
 }
 button,
@@ -2440,3 +2441,42 @@ label select {
 .anatomy-review .illustration-viewer { max-width:1100px; margin:auto; }
 .anatomy-review .illustration-viewer > svg { height:min(58vh,680px); }
 @media(max-width:600px){.illustration-viewer > svg{height:310px}.illustration-controls{gap:6px}.illustration-heading{padding:14px 14px 0;font-size:8px}.illustration-caption{padding:0 16px 12px}}
+
+/* Anatomical pilot: captions remain accessible text; no simulated motion. */
+.pilot-review{max-width:1200px;margin:auto;padding:32px 24px;color:#202823;background:#fff;min-height:100vh}.pilot-review h1{font-size:clamp(28px,5vw,48px)}.pilot-review label,.pilot-media label{display:grid;gap:8px;margin:12px 0}.pilot-review select,.pilot-review input:not([type=checkbox]),.pilot-review textarea,.pilot-media select{max-width:100%;padding:12px;border:1px solid #ccd4cd;border-radius:10px;font:inherit}.pilot-review fieldset{border:1px solid #ccd4cd;border-radius:16px;padding:20px;margin:24px 0}.pilot-toolbar{display:flex;align-items:center;gap:16px;flex-wrap:wrap}.pilot-poses{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;background:white;color:#202823}.pilot-poses figure{margin:0;min-width:0}.pilot-poses img{width:100%;height:auto;display:block;object-fit:contain}.pilot-poses figcaption{padding:12px;font-size:15px;font-weight:600}.pilot-thumb{height:100%;width:100%;object-fit:contain;background:white}.pilot-existing{width:180px;height:180px;object-fit:contain}.pilot-review pre{white-space:pre-wrap;overflow-wrap:anywhere;font:14px/1.6 monospace}.pilot-media{background:#fff;border-radius:20px;padding:16px}.pilot-media video{width:100%}.pilot-review button:disabled{opacity:.45;cursor:not-allowed}@media(max-width:540px){.pilot-review{padding:20px 12px}.pilot-poses{grid-template-columns:1fr}.pilot-toolbar{align-items:stretch;flex-direction:column}.pilot-review fieldset{padding:12px}}
+@media(prefers-reduced-motion:reduce){.pilot-media *,.pilot-review *{animation:none!important;transition:none!important}}
+
+/* Local builder, coaching and training analysis */
+.builder-panel,.interval-panel,.coach-answer,.coach-capability{display:grid;gap:18px}
+.builder-prompt,.coach-input,.builder-fields label{display:grid;gap:8px}
+.builder-prompt textarea,.builder-fields input,.builder-fields select,.coach-input input{width:100%;min-height:46px;padding:12px 14px;border:1px solid var(--border);border-radius:12px;background:var(--surface,#fff);color:inherit}
+.builder-prompt textarea{resize:vertical;min-height:84px}
+.builder-fields{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.builder-actions,.coach-prompts{display:flex;flex-wrap:wrap;gap:10px;margin-top:18px}
+.builder-actions button,.builder-actions a,.coach-prompts button{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:44px;padding:10px 14px}
+.builder-list{display:grid;gap:8px;padding:0;list-style:none}
+.builder-list li{display:flex;align-items:center;gap:12px;padding:14px;border:1px solid var(--border);border-radius:14px}
+.builder-list li>div{display:grid;gap:4px;flex:1;min-width:0}.builder-list small{color:var(--muted)}
+.builder-adjust,.coach-capability{padding:14px;border-radius:12px;background:rgba(196,238,101,.2);background:color-mix(in srgb,var(--lime) 20%,transparent)}
+.coach-input{margin-top:22px}.coach-input>div{display:flex;gap:8px}.coach-input input{flex:1;min-width:0}.coach-input button{display:flex;align-items:center;gap:6px;padding:10px 16px}
+.coach-answer{margin-top:18px;padding:16px;border:1px solid var(--border);border-radius:14px}
+.coach-sources{display:grid;gap:8px}.coach-sources a{display:flex;align-items:center;justify-content:space-between;gap:8px;padding:10px;border-radius:10px;background:rgba(196,238,101,.18);background:color-mix(in srgb,var(--lime) 18%,transparent)}
+.coverage-table{display:grid;gap:1px}.coverage-head,.coverage-row{display:grid;grid-template-columns:1fr .8fr 1fr 1.5fr 1.5fr;align-items:center;gap:8px;padding:10px 6px;border-bottom:1px solid var(--border)}.coverage-head{font-size:12px;color:var(--muted);font-weight:700}.coverage-row select{min-width:52px;padding:5px;border:1px solid var(--border);border-radius:8px;background:var(--surface,#fff);color:inherit}.coverage-row>span:last-child{font-size:13px}
+.interval-panel{text-align:center;justify-items:center}.interval-panel .builder-fields{width:100%;text-align:start}.interval-panel .timer-readout{font-size:clamp(56px,12vw,100px);font-variant-numeric:tabular-nums;line-height:1.1}
+.home-shortcuts{margin-bottom:24px}
+@media(max-width:680px){.builder-fields{grid-template-columns:1fr}.coverage-head{position:absolute;display:grid;width:1px;height:1px;padding:0;border:0;overflow:hidden;clip-path:inset(50%);white-space:nowrap}.coverage-row{grid-template-columns:1fr 1fr;gap:8px}.coverage-row>span:last-child{grid-column:2}.builder-actions>*{flex:1 1 100%}.coach-input>div{flex-wrap:wrap}.coach-input input{flex-basis:100%}.metric-row{flex-wrap:wrap}}
+.getting-started ul{list-style:none;margin:16px 0 0;padding:0;display:grid;gap:10px}.getting-started li{display:flex;align-items:center;gap:10px}.getting-started li>span{width:26px;height:26px;display:grid;place-items:center;border-radius:50%;background:rgba(196,238,101,.2)}.target-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px}.target-grid .metric{min-width:0}.photo-pick{display:inline-flex;align-items:center;gap:8px;padding:12px 16px;position:relative;overflow:hidden}.photo-pick input{position:absolute;inset:0;opacity:0;width:100%;cursor:pointer}.photo-grid,.photo-compare{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:14px;margin-top:18px;align-items:start}.photo-grid figure,.photo-compare figure{margin:0;min-width:0;border:1px solid var(--border);border-radius:14px;overflow:hidden}.photo-grid img,.photo-compare img{width:100%;height:260px;object-fit:contain;background:#101411}.photo-grid figcaption,.photo-compare figcaption{display:flex;align-items:center;justify-content:space-between;gap:8px;padding:10px;font-size:13px}.photo-compare{grid-template-columns:1fr auto 1fr;align-items:center}.photo-compare svg{justify-self:center}@media(max-width:680px){.target-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.photo-compare{grid-template-columns:repeat(2,minmax(0,1fr));align-items:start}.photo-compare>svg{display:none}}
+
+.set-rating{padding:4px 10px 8px 42px;color:var(--muted)}.set-rating summary{cursor:pointer;font-size:12px}.set-rating>div{display:flex;gap:12px;flex-wrap:wrap;padding:8px 0}.set-rating label{display:flex;align-items:center;gap:6px;font-size:12px}.set-rating select{padding:5px;border:1px solid var(--border);border-radius:8px;background:var(--surface,#fff);color:inherit}
+
+.builder-list li>img{width:56px;height:56px;object-fit:cover;border-radius:10px;background:var(--surface,#fff)}.builder-list details summary{font-size:12px;color:var(--muted);cursor:pointer}.builder-list details p{font-size:13px;margin:6px 0 0}
+
+.merge-preview{margin-top:20px;padding:16px;border:1px solid var(--border);border-radius:14px}.merge-preview ul{padding-left:22px}.merge-preview li{margin:6px 0}.weekly-day{border-bottom:1px solid var(--border);padding:10px 4px}.weekly-day summary{cursor:pointer;font-weight:700}.weekly-day ul{padding-left:24px}
+.history-chart{margin:20px 0;padding:14px;border:1px solid var(--border);border-radius:12px}.history-chart svg{width:100%;max-height:230px;color:var(--text);display:block}.history-chart label{display:flex;align-items:center;gap:10px}.chart-values{max-height:240px;overflow:auto}.chart-values table{width:100%;text-align:left}.chart-values td,.chart-values th{padding:6px}.history-chart summary{cursor:pointer}
+.activity-heatmap{display:grid;grid-template-columns:repeat(10,1fr);gap:6px}.activity-heatmap button{padding:10px 3px;background:var(--surface,#fff);color:inherit;border:1px solid var(--border);border-radius:6px}.activity-heatmap .active-day{background:#d0ef78;color:#172414}.activity-heatmap [aria-pressed=true]{outline:2px solid currentColor;outline-offset:1px}.guidance-actions{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px}
+
+/* Keep focused phone controls at a readable size so iOS does not zoom and clip the
+   fixed navigation. Pinch zoom remains available through the normal viewport. */
+@media (max-width: 900px) {
+  .workout-app :is(input, select, textarea) { font-size: max(1rem, 16px); }
+}

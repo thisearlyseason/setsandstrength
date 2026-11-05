@@ -1,0 +1,89 @@
+{
+  "batch": 50,
+  "trigger": "2026-11-01T10:43:14.428Z",
+  "completedAt": "2026-11-01T10:52:49.663864+00:00",
+  "tool": "image_gen.imagegen",
+  "newCandidateSets": 4,
+  "generationCalls": 6,
+  "exerciseIds": [
+    "0108",
+    "0073"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 196,
+    "remainingVariants": 11068,
+    "approvedVariants": 0,
+    "blockedVariants": 88,
+    "knownPoseImages": 394,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "All pending, unpublished. Calf raises show heel-down/heel-up contact, complete opaque rear clothes, both grips and bar plates. Pullover stacked originals cropped top plates; two side-by-side correction renditions preserved original history and exact prompts, but remain blocked: male detail weaker and lowered far grip/plate occluded; female red lat looks cutaway and shoe touches frame. These are generated candidates, not accepted final illustrations.",
+  "metadataConflictsDeferred": [
+    {
+      "exerciseId": "0112",
+      "issue": "Description puts bar on shoulders, instructions in front of chest; pivot feet/hips while stable lower body ambiguous. Deferred."
+    }
+  ],
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 316213893,
+  "savedMasters": [
+    {
+      "exerciseId": "0108",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0108-male-anatomical-white-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1519004,
+        "sha256": "01b1ed2eed5eb75d6bd7ce712a6af33e4a7115fc31ac7d512331d56b3f4baa53"
+      }
+    },
+    {
+      "exerciseId": "0108",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0108-female-anatomical-white-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1500958,
+        "sha256": "64d4761f9f7aff6bf9265dab1b5b4d9bc1538121b0dfb845ce415124ad540fce"
+      }
+    },
+    {
+      "exerciseId": "0073",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0073-male-anatomical-white-v2.png",
+        "width": 2172,
+        "height": 724,
+        "bytes": 1261086,
+        "sha256": "a69db79377b956b53ffcca9da42d60482417f23bc461aa8c3f09c817319be681"
+      }
+    },
+    {
+      "exerciseId": "0073",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0073-female-anatomical-white-v2.png",
+        "width": 1942,
+        "height": 809,
+        "bytes": 1513276,
+        "sha256": "7bb8964ea2dc927050507928d405ca7c32837ced1aa5d5bb2cb455724dd95b5c"
+      }
+    }
+  ]
+}

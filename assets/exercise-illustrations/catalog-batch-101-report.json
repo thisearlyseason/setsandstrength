@@ -1,0 +1,84 @@
+{
+  "batch": 101,
+  "trigger": "2026-11-01T23:13:52.760Z",
+  "completedAt": "2026-11-01T23:31:11.617974+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 4,
+  "generationCalls": 8,
+  "exerciseIds": [
+    "0657",
+    "0658"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 416,
+    "remainingVariants": 10848,
+    "approvedVariants": 0,
+    "blockedVariants": 178,
+    "knownPoseImages": 862,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Four candidate sets with eight pose images and four retained corrections using eight built-in calls. None approved or published. One-hand-on-ball push-ups retain ball-side and floor-side support across phases. Correction visibly bends floor-side elbow and lowers chest but raises ball-side elbow high behind head with unclear shoulder mechanics; both sets blocked for support geometry review, male residual shirt pattern also flagged. Wall push-up corrections plant soles/heels on floor and soften cloth tint but top elbows remain flexed and range limited; both sets blocked for trajectory/range review. Full opaque clothes wrap torso/front/sides/back/seat/crotch; exposed anatomy fine grayscale. Qualified wrist/hand contact, ball continuity, shoulder mechanics, wall distance, elbow trajectory and all anatomy/technique review remain separate. Originals, exact prompts, correction history and hashes retained; original project artwork style-only, no upstream media. Pipeline checks are not anatomy approval.",
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 685939150,
+  "savedMasters": [
+    {
+      "exerciseId": "0657",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0657-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1693543,
+        "sha256": "f2b559cf2f2fbfb8537b235fe38489919ba27ad73b51bfb6cf0b95c7c9a44d15"
+      }
+    },
+    {
+      "exerciseId": "0657",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0657-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1667411,
+        "sha256": "ca4f5bdc972784cd8cad31cd51c3d18ac3f4fae0ca409c3b3837569865836893"
+      }
+    },
+    {
+      "exerciseId": "0658",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0658-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1689762,
+        "sha256": "a25415f0e620af4c2cd059f2e0f57f5399f47738e073e00b5ef7b68db509350f"
+      }
+    },
+    {
+      "exerciseId": "0658",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0658-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1648280,
+        "sha256": "1f0693396e18c393c13f08ac9c862b0d511923dcd75912c884bcd289e8f19737"
+      }
+    }
+  ]
+}

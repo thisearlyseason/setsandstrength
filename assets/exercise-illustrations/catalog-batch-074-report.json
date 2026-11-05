@@ -1,0 +1,137 @@
+{
+  "batch": 74,
+  "trigger": "2026-11-01T15:28:17.462Z",
+  "completedAt": "2026-11-01T15:46:09.406017+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 6,
+  "generationCalls": 10,
+  "exerciseIds": [
+    "0479",
+    "0482",
+    "0493"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 304,
+    "remainingVariants": 10960,
+    "approvedVariants": 0,
+    "blockedVariants": 130,
+    "knownPoseImages": 626,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "All six candidate sets remain pending and unpublished. Step-up male revision improves rear shorts coverage but still blocked for thigh coverage/red placement and lead-leg continuity; original cutaway retained in correction history. Female step-up blocked for leg identity and initial facing/step mismatch. Male hip crunch fabric edit softens red but faint abdominal segmentation remains blocked. Female hip crunch endpoint corrected toward chest with rounded pelvic curl, head and shoulders supported. Female incline push-up reframed with complete bench feet; male/female push-ups retain opaque clothing. All require qualified human anatomy/technique review; passing pipeline checks does not approve anatomy.",
+  "metadataConflictsDeferred": [
+    {
+      "exerciseId": "0480/0481",
+      "issue": "Cardiovascular system target supplies no primary anatomical muscle localization; do not invent red heart/muscle map."
+    },
+    {
+      "exerciseId": "0485",
+      "issue": "Hip bridge v2 resembles already generated 0486; preserve ID and clarify variation before reuse."
+    },
+    {
+      "exerciseId": "0487",
+      "issue": "Hip raise crunch resembles 0482; preserve ID and require variant review before reuse."
+    },
+    {
+      "exerciseId": "0488/0489",
+      "issue": "Target spine names a structure rather than a muscle; qualified primary muscle mapping required."
+    },
+    {
+      "exerciseId": "0490",
+      "issue": "Close-grip title conflicts with slightly-wider-than-shoulders hand instructions."
+    },
+    {
+      "exerciseId": "0491",
+      "issue": "Hip-raise title versus leg-only movement instructions and unclear inclined setup."
+    },
+    {
+      "exerciseId": "0492",
+      "issue": "Depth-jump description versus jump-off-surface instruction after incline push-up is ambiguous."
+    }
+  ],
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 492609904,
+  "savedMasters": [
+    {
+      "exerciseId": "0479",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0479-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1740332,
+        "sha256": "98bfdcc843eb03dbb2c6daceaf5f5b1e7c47a125f4e1550e55ae2d06ce53f9ea"
+      }
+    },
+    {
+      "exerciseId": "0479",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0479-female-anatomical-white-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1503676,
+        "sha256": "5be1530e2063c096ed5842d23a322d3e3f69ea384c8c5d553a1c24e90359f949"
+      }
+    },
+    {
+      "exerciseId": "0482",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0482-male-anatomical-white-v2.png",
+        "width": 1942,
+        "height": 809,
+        "bytes": 1760002,
+        "sha256": "9750ac6a9a74bae5ffc48e68ee15e86188915f744ecc7874b3428e82841ed042"
+      }
+    },
+    {
+      "exerciseId": "0482",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0482-female-anatomical-white-v2.png",
+        "width": 1942,
+        "height": 809,
+        "bytes": 1704891,
+        "sha256": "88513c64d121b9e18a1a84b46989626c11423c9592a7ebe726001652b24e5caa"
+      }
+    },
+    {
+      "exerciseId": "0493",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1550035,
+        "sha256": "8687fa896cb124fdbd05b9c6257872c0515b462f67f525c99ecc3b7fe7f75034"
+      }
+    },
+    {
+      "exerciseId": "0493",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0493-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1434450,
+        "sha256": "890f90e279ce3ebebd96041d5513a4d1fad700af51b3f9af9e7d4e0ace5fa1b9"
+      }
+    }
+  ]
+}

@@ -1,0 +1,668 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "0657",
+      "variant": "male",
+      "key": "0657-male-anatomical-white-v2",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hold a braced plank with the right hand on the ball and left hand on the floor"
+        },
+        {
+          "key": "p2",
+          "caption": "Bend both elbows to lower the chest, keeping each hand on its support; switch ball hand after the set"
+        }
+      ],
+      "detail": "ONE HAND ON STABILITY BALL PUSH-UP, TWO phases, full body FRONT SIDE three-quarter camera head LEFT feet RIGHT. One round gray FULL SPHERE stability ball on floor at FAR/RIGHT shoulder side, no platform/bench. RIGHT hand palm on TOP/upper side of ball; LEFT hand palm flat on FLOOR at near side beneath LEFT shoulder. Both hands clearly visible in unequal height positions. Both feet wider than hips toes FLOOR behind, knees straight and core braced straight shoulder-hip-heel line. LEFT upper position floor-side LEFT elbow extended, ball-side RIGHT elbow flexed as needed for unequal hand height; palm contacts ball securely, no floating hand. RIGHT lower chest toward floor by flexing BOTH elbows while keeping torso/hips level, no rotation or sag, right palm remains ball and left floor at EXACT same locations, ball shape/size unchanged. Hands do NOT switch sides between phases; opposite-hand set performed later outside image. EXACTLY TWO arms/legs, whole sphere/person/hands/shoes in frame. Primary CHEST only smooth soft diffuse BLURRED red tint on opaque BLACK chest shirt; no anatomical fibers/radial lines/pectoral divisions in clothing. Fine grayscale exposed limb anatomy. Full opaque shirt/shorts wrap front sides back seat crotch. No text.",
+      "prompt": "Edit original project one-hand-ball/one-hand-floor push-up. Preserve LEFT upper phase and exactly two hands with RIGHT/far hand on full stability-ball upper surface and LEFT/near hand floor. Correct RIGHT LOWER panel: BEND FLOOR-SIDE LEFT ELBOW to about90degrees, elbow moves back near ribs, left FOREARM roughly vertical over unchanged planted left palm. Lower LEFT SHOULDER and CHEST toward FLOOR to height about20cm while keeping legs/trunk straight and toes floor. RIGHT/far elbow also bends with right palm remaining on ball; same ball position/size and hand positions, no arm switch. Both hands securely contact supports, no extra limbs. All panels replace red chest radial fibers with smooth diffuse BLURRED tint on intact OPAQUE BLACK shirt. No anatomy through clothes. Full opaque shirt/shorts wrap front sides back seat crotch. Preserve fine detailed grayscale fibers on ALL EXPOSED limbs and exact model/camera. No text.",
+      "inspectionNote": "Floor-side lower elbow now flexes and chest lowers; ball-side elbow now rises above head with unclear shoulder mechanics, blocked. Chest fabric tint still internally streaked in top phase. Full opaque garments and fine exposed grayscale anatomy retained; qualified unequal support geometry and technique review needed.",
+      "canonicalName": "push up (one arm on stability ball)",
+      "styleVersion": "white-v1",
+      "equipment": "stability ball",
+      "primaryMuscles": [
+        "pectorals"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0657-male-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "status": "generated",
+        "costUSD": null
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Floor-side lower elbow now flexes and chest lowers; ball-side elbow now rises above head with unclear shoulder mechanics, blocked. Chest fabric tint still internally streaked in top phase. Full opaque garments and fine exposed grayscale anatomy retained; qualified unequal support geometry and technique review needed.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0657-male-anatomical-white-v2-p1-49ad10630388.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 30986,
+          "sha256": "49ad1063038897fef8ace75c2716468ec95849765bcbccde194bed6376e9e941"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0657-male-anatomical-white-v2-p2-3d3fd8a42a03.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 26560,
+          "sha256": "3d3fd8a42a0341060c0f7d147d02820dfff0b88d0806505f0987d2cce91417ce"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0657-male-anatomical-white-v2-thumb-d92900e723d1.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 3388,
+        "sha256": "d92900e723d1c4048578cfdd7bdf7611ceb8d986bd83e4d861220baae7fee3b7"
+      },
+      "processingSignature": "6ee10611916baf3f2ed7b1f0311ee18ec2139987ebab7295db5b309297c51426",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0657-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1693543,
+        "sha256": "f2b559cf2f2fbfb8537b235fe38489919ba27ad73b51bfb6cf0b95c7c9a44d15"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0657",
+          "variant": "male",
+          "key": "0657-male-anatomical-white-v1",
+          "layout": {
+            "columns": 2,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Hold a braced plank with the right hand on the ball and left hand on the floor"
+            },
+            {
+              "key": "p2",
+              "caption": "Bend both elbows to lower the chest, keeping each hand on its support; switch ball hand after the set"
+            }
+          ],
+          "detail": "ONE HAND ON STABILITY BALL PUSH-UP, TWO phases, full body FRONT SIDE three-quarter camera head LEFT feet RIGHT. One round gray FULL SPHERE stability ball on floor at FAR/RIGHT shoulder side, no platform/bench. RIGHT hand palm on TOP/upper side of ball; LEFT hand palm flat on FLOOR at near side beneath LEFT shoulder. Both hands clearly visible in unequal height positions. Both feet wider than hips toes FLOOR behind, knees straight and core braced straight shoulder-hip-heel line. LEFT upper position floor-side LEFT elbow extended, ball-side RIGHT elbow flexed as needed for unequal hand height; palm contacts ball securely, no floating hand. RIGHT lower chest toward floor by flexing BOTH elbows while keeping torso/hips level, no rotation or sag, right palm remains ball and left floor at EXACT same locations, ball shape/size unchanged. Hands do NOT switch sides between phases; opposite-hand set performed later outside image. EXACTLY TWO arms/legs, whole sphere/person/hands/shoes in frame. Primary CHEST only smooth soft diffuse BLURRED red tint on opaque BLACK chest shirt; no anatomical fibers/radial lines/pectoral divisions in clothing. Fine grayscale exposed limb anatomy. Full opaque shirt/shorts wrap front sides back seat crotch. No text.",
+          "prompt": "Original educational exercise illustration. Attached original project artwork is STYLE reference ONLY, never pose reference. Detailed fine grayscale anatomical fibers on exposed arms and legs, realistic neutral adult MALE; pure white background. TWO equal side-by-side panels, same exact model, camera and lighting. FULLY OPAQUE matte BLACK sleeveless shirt continuously wraps torso front/sides/back. Loose BLACK knee-length shorts fully wrap both upper thighs, front, sides, rear, seat and crotch with closed hems/seams and natural fabric folds. Never translucent fabric, bare buttocks, anatomy windows, clothing cutaways or muscle-fiber patterns on clothes. Black trainers. Red PRIMARY muscle highlights only as specified, over clothing one soft diffuse blurred tint on intact black fabric, no anatomy divisions or fibers. Entire person, shoes, hands and apparatus fit in EACH panel with generous white margins. No text, arrows, logos or numbers. ONE HAND ON STABILITY BALL PUSH-UP, TWO phases, full body FRONT SIDE three-quarter camera head LEFT feet RIGHT. One round gray FULL SPHERE stability ball on floor at FAR/RIGHT shoulder side, no platform/bench. RIGHT hand palm on TOP/upper side of ball; LEFT hand palm flat on FLOOR at near side beneath LEFT shoulder. Both hands clearly visible in unequal height positions. Both feet wider than hips toes FLOOR behind, knees straight and core braced straight shoulder-hip-heel line. LEFT upper position floor-side LEFT elbow extended, ball-side RIGHT elbow flexed as needed for unequal hand height; palm contacts ball securely, no floating hand. RIGHT lower chest toward floor by flexing BOTH elbows while keeping torso/hips level, no rotation or sag, right palm remains ball and left floor at EXACT same locations, ball shape/size unchanged. Hands do NOT switch sides between phases; opposite-hand set performed later outside image. EXACTLY TWO arms/legs, whole sphere/person/hands/shoes in frame. Primary CHEST only smooth soft diffuse BLURRED red tint on opaque BLACK chest shirt; no anatomical fibers/radial lines/pectoral divisions in clothing. Fine grayscale exposed limb anatomy. Full opaque shirt/shorts wrap front sides back seat crotch. No text.",
+          "inspectionNote": "One hand ball and other floor support preserved in both phases, body low in second. Floor-side elbow remains nearly extended so push-up lowering incomplete. Chest fabric has radial tint. Need bend floor-side elbow/lower chest and soften cloth tint; opaque clothes and grayscale anatomy retained.",
+          "canonicalName": "push up (one arm on stability ball)",
+          "styleVersion": "white-v1",
+          "equipment": "stability ball",
+          "primaryMuscles": [
+            "pectorals"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "One hand ball and other floor support preserved in both phases, body low in second. Floor-side elbow remains nearly extended so push-up lowering incomplete. Chest fabric has radial tint. Need bend floor-side elbow/lower chest and soften cloth tint; opaque clothes and grayscale anatomy retained.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0657-male-anatomical-white-v1-p1-56f2ae418585.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 33394,
+              "sha256": "56f2ae4185850019a4af8fd695cb549c8c4bd2479ea2116896755122448c7651"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0657-male-anatomical-white-v1-p2-141538f5517c.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 29826,
+              "sha256": "141538f5517cd9b13494113b4ded32fba066ad675ee30e1ef4de859b6da32d8b"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0657-male-anatomical-white-v1-thumb-d82bb1b7dc9b.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 3308,
+            "sha256": "d82bb1b7dc9bf4ca22f76cae1da4e3d1fe367efca79da4689ad268bdaf02d7e3"
+          },
+          "processingSignature": "6b9d0f4ba0dca0622191afa1c8f61e6efe2a424a83b1d25869399f093051693f",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0657-male-anatomical-white-v1.png",
+            "width": 1774,
+            "height": 887,
+            "bytes": 1719621,
+            "sha256": "9984a55a9ab8d8652b6c44a7687097339d411e62f6c310fb47e1039a02c586c3"
+          }
+        }
+      ],
+      "blockingIssues": [
+        "Lowered ball-side arm/shoulder geometry unclear; residual patterned chest fabric."
+      ]
+    },
+    {
+      "exerciseId": "0657",
+      "variant": "female",
+      "key": "0657-female-anatomical-white-v2",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hold a braced plank with the right hand on the ball and left hand on the floor"
+        },
+        {
+          "key": "p2",
+          "caption": "Bend both elbows to lower the chest, keeping each hand on its support; switch ball hand after the set"
+        }
+      ],
+      "detail": "ONE HAND ON STABILITY BALL PUSH-UP, TWO phases, full body FRONT SIDE three-quarter camera head LEFT feet RIGHT. One round gray FULL SPHERE stability ball on floor at FAR/RIGHT shoulder side, no platform/bench. RIGHT hand palm on TOP/upper side of ball; LEFT hand palm flat on FLOOR at near side beneath LEFT shoulder. Both hands clearly visible in unequal height positions. Both feet wider than hips toes FLOOR behind, knees straight and core braced straight shoulder-hip-heel line. LEFT upper position floor-side LEFT elbow extended, ball-side RIGHT elbow flexed as needed for unequal hand height; palm contacts ball securely, no floating hand. RIGHT lower chest toward floor by flexing BOTH elbows while keeping torso/hips level, no rotation or sag, right palm remains ball and left floor at EXACT same locations, ball shape/size unchanged. Hands do NOT switch sides between phases; opposite-hand set performed later outside image. EXACTLY TWO arms/legs, whole sphere/person/hands/shoes in frame. Primary CHEST only smooth soft diffuse BLURRED red tint on opaque BLACK chest shirt; no anatomical fibers/radial lines/pectoral divisions in clothing. Fine grayscale exposed limb anatomy. Full opaque shirt/shorts wrap front sides back seat crotch. No text.",
+      "prompt": "Edit original project one-hand-ball/one-hand-floor push-up. Preserve LEFT upper phase and exactly two hands with RIGHT/far hand on full stability-ball upper surface and LEFT/near hand floor. Correct RIGHT LOWER panel: BEND FLOOR-SIDE LEFT ELBOW to about90degrees, elbow moves back near ribs, left FOREARM roughly vertical over unchanged planted left palm. Lower LEFT SHOULDER and CHEST toward FLOOR to height about20cm while keeping legs/trunk straight and toes floor. RIGHT/far elbow also bends with right palm remaining on ball; same ball position/size and hand positions, no arm switch. Both hands securely contact supports, no extra limbs. All panels replace red chest radial fibers with smooth diffuse BLURRED tint on intact OPAQUE BLACK shirt. No anatomy through clothes. Full opaque shirt/shorts wrap front sides back seat crotch. Preserve fine detailed grayscale fibers on ALL EXPOSED limbs and exact model/camera. No text. Female proportions and fine grayscale exposed anatomy retained equally.",
+      "inspectionNote": "Floor-side elbow flexion and chest lowering improved, diffuse chest tint on opaque shirt. Ball-side elbow now high behind head, shoulder mechanics unclear and blocked for qualified unequal-support geometry review. Full opaque garments and fine detailed exposed grayscale anatomy retained.",
+      "canonicalName": "push up (one arm on stability ball)",
+      "styleVersion": "white-v1",
+      "equipment": "stability ball",
+      "primaryMuscles": [
+        "pectorals"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0657-female-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "status": "generated",
+        "costUSD": null
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Floor-side elbow flexion and chest lowering improved, diffuse chest tint on opaque shirt. Ball-side elbow now high behind head, shoulder mechanics unclear and blocked for qualified unequal-support geometry review. Full opaque garments and fine detailed exposed grayscale anatomy retained.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0657-female-anatomical-white-v2-p1-46d18d55be24.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 30540,
+          "sha256": "46d18d55be24f0286aa428265c18eb98c6fda3c68d9314426c64fcdeffa7a8b4"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0657-female-anatomical-white-v2-p2-86348df38663.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 24124,
+          "sha256": "86348df386631b6c4f7645c6ae08f9eee621a08a63d99bc52352b4d437baefab"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0657-female-anatomical-white-v2-thumb-726608d405a9.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 3226,
+        "sha256": "726608d405a914889739a8ce7003c0f492a03d685351d00efe610e91a5e5468a"
+      },
+      "processingSignature": "c9bb9492bf7181726499c66e999ae67be513ba4bc2259c65a82341e70e49bac8",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0657-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1667411,
+        "sha256": "ca4f5bdc972784cd8cad31cd51c3d18ac3f4fae0ca409c3b3837569865836893"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0657",
+          "variant": "female",
+          "key": "0657-female-anatomical-white-v1",
+          "layout": {
+            "columns": 2,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Hold a braced plank with the right hand on the ball and left hand on the floor"
+            },
+            {
+              "key": "p2",
+              "caption": "Bend both elbows to lower the chest, keeping each hand on its support; switch ball hand after the set"
+            }
+          ],
+          "detail": "ONE HAND ON STABILITY BALL PUSH-UP, TWO phases, full body FRONT SIDE three-quarter camera head LEFT feet RIGHT. One round gray FULL SPHERE stability ball on floor at FAR/RIGHT shoulder side, no platform/bench. RIGHT hand palm on TOP/upper side of ball; LEFT hand palm flat on FLOOR at near side beneath LEFT shoulder. Both hands clearly visible in unequal height positions. Both feet wider than hips toes FLOOR behind, knees straight and core braced straight shoulder-hip-heel line. LEFT upper position floor-side LEFT elbow extended, ball-side RIGHT elbow flexed as needed for unequal hand height; palm contacts ball securely, no floating hand. RIGHT lower chest toward floor by flexing BOTH elbows while keeping torso/hips level, no rotation or sag, right palm remains ball and left floor at EXACT same locations, ball shape/size unchanged. Hands do NOT switch sides between phases; opposite-hand set performed later outside image. EXACTLY TWO arms/legs, whole sphere/person/hands/shoes in frame. Primary CHEST only smooth soft diffuse BLURRED red tint on opaque BLACK chest shirt; no anatomical fibers/radial lines/pectoral divisions in clothing. Fine grayscale exposed limb anatomy. Full opaque shirt/shorts wrap front sides back seat crotch. No text.",
+          "prompt": "Original educational exercise illustration. Attached original project artwork is STYLE reference ONLY, never pose reference. Detailed fine grayscale anatomical fibers on exposed arms and legs, realistic neutral adult FEMALE; pure white background. TWO equal side-by-side panels, same exact model, camera and lighting. FULLY OPAQUE matte BLACK sleeveless shirt continuously wraps torso front/sides/back. Loose BLACK knee-length shorts fully wrap both upper thighs, front, sides, rear, seat and crotch with closed hems/seams and natural fabric folds. Never translucent fabric, bare buttocks, anatomy windows, clothing cutaways or muscle-fiber patterns on clothes. Black trainers. Red PRIMARY muscle highlights only as specified, over clothing one soft diffuse blurred tint on intact black fabric, no anatomy divisions or fibers. Entire person, shoes, hands and apparatus fit in EACH panel with generous white margins. No text, arrows, logos or numbers. ONE HAND ON STABILITY BALL PUSH-UP, TWO phases, full body FRONT SIDE three-quarter camera head LEFT feet RIGHT. One round gray FULL SPHERE stability ball on floor at FAR/RIGHT shoulder side, no platform/bench. RIGHT hand palm on TOP/upper side of ball; LEFT hand palm flat on FLOOR at near side beneath LEFT shoulder. Both hands clearly visible in unequal height positions. Both feet wider than hips toes FLOOR behind, knees straight and core braced straight shoulder-hip-heel line. LEFT upper position floor-side LEFT elbow extended, ball-side RIGHT elbow flexed as needed for unequal hand height; palm contacts ball securely, no floating hand. RIGHT lower chest toward floor by flexing BOTH elbows while keeping torso/hips level, no rotation or sag, right palm remains ball and left floor at EXACT same locations, ball shape/size unchanged. Hands do NOT switch sides between phases; opposite-hand set performed later outside image. EXACTLY TWO arms/legs, whole sphere/person/hands/shoes in frame. Primary CHEST only smooth soft diffuse BLURRED red tint on opaque BLACK chest shirt; no anatomical fibers/radial lines/pectoral divisions in clothing. Fine grayscale exposed limb anatomy. Full opaque shirt/shorts wrap front sides back seat crotch. No text.",
+          "inspectionNote": "Two phases retain one ball hand and one floor hand with straight trunk/toes floor. Floor-side elbow barely bends in lower phase; need clear flexion and chest lowering. Red shirt tint has radial pattern needing diffuse cloth correction. Full opaque clothes and fine exposed anatomy retained.",
+          "canonicalName": "push up (one arm on stability ball)",
+          "styleVersion": "white-v1",
+          "equipment": "stability ball",
+          "primaryMuscles": [
+            "pectorals"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Two phases retain one ball hand and one floor hand with straight trunk/toes floor. Floor-side elbow barely bends in lower phase; need clear flexion and chest lowering. Red shirt tint has radial pattern needing diffuse cloth correction. Full opaque clothes and fine exposed anatomy retained.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0657-female-anatomical-white-v1-p1-637bb49ded86.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 33294,
+              "sha256": "637bb49ded8604d36e3b6bfa308426b2c4fbfe6916d0b480d6674752e32532a3"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0657-female-anatomical-white-v1-p2-6169f034b0e4.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 29548,
+              "sha256": "6169f034b0e4b40dff56f3dd3d86cc466b4f034952b67f7f456706cdd51ff086"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0657-female-anatomical-white-v1-thumb-721b292f2739.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 3152,
+            "sha256": "721b292f27395e61c38f90a253c4cf967d752187609a77a5185d666a634ec4c0"
+          },
+          "processingSignature": "0326c448529f5ab20e1867072ca8a6ee872792e7ac8f18b8a3952968778bc276",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0657-female-anatomical-white-v1.png",
+            "width": 1774,
+            "height": 887,
+            "bytes": 1736874,
+            "sha256": "492e18ad26ce7347b12bd8827bfe909666634eaea8e7af75b5a4ae1bc687077e"
+          }
+        }
+      ],
+      "blockingIssues": [
+        "Lowered ball-side shoulder/arm geometry unclear with elbow high behind head."
+      ]
+    },
+    {
+      "exerciseId": "0658",
+      "variant": "male",
+      "key": "0658-male-anatomical-white-v2",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Place both palms on the wall at shoulder height and hold the body straight"
+        },
+        {
+          "key": "p2",
+          "caption": "Bend elbows to bring the straight body toward the wall, then press away"
+        }
+      ],
+      "detail": "WALL PUSH-UP, TWO phases. Full body side three-quarter FRONT view, plain vertical WHITE WALL on IMAGE LEFT with faint gray edge/shadow, model facing wall IMAGE LEFT, feet IMAGE RIGHT. BOTH palms flat on vertical wall at shoulder HEIGHT, slightly wider than shoulders, fingers point UP. Feet hip width BOTH soles flat on FLOOR about arm-length from wall, heels stay planted, knees straight. LEFT top: elbows nearly straight, body one straight inclined line head-hips-heels. RIGHT bottom: bend elbows about90degrees and lean entire STRAIGHT body toward wall, chest close to wall but no collision, hands at exact same wall position, feet exact same floor position. Only elbows/shoulders/ankles move appropriately, no hip bend, no bench/ball. Whole person, palms, feet and wall contact fit EACH panel with white margins. Primary CHEST only soft diffuse BLURRED RED tint over intact opaque BLACK shirt, no anatomical muscle fibers/divisions/radial starburst on fabric. Fine detailed grayscale exposed arms/legs; full opaque shirt and loose knee shorts wrap torso/front/sides/back/seat/crotch. No text/arrows.",
+      "prompt": "Correct original project two-panel WALL PUSH-UP. Preserve hands on vertical wall, same palm locations, body facing wall, model and camera. In BOTH panels place BOTH entire shoe SOLES including HEELS flat on horizontal FLOOR, no lifted heel/tiptoe; feet hip width same locations about arm length from wall, ankle dorsiflexion appropriate. Adjust foot distance slightly closer only if needed to keep heels grounded. LEFT TOP panel fully extend elbows to nearly straight ARMS from shoulders to unchanged wall palms; whole body stays straight head-hips-heels, not hips bent. RIGHT LOWER panel bend elbows about90degrees, chest approaches wall, whole body straight with flat feet. No head/wall collision. Smooth diffuse BLURRED RED chest tint on continuous OPAQUE BLACK SHIRT, no radial fibers or anatomical muscle divisions in fabric. Keep opaque shirt/shorts wrap full front sides back seat crotch and fine detailed grayscale anatomical fibers on exposed limbs. Full body/shoes/hands frame, no text.",
+      "inspectionNote": "Heel correction now places shoe soles on floor. Top elbows remain flexed and movement range between panels limited; chest radial tint persists, blocked. Straight inclined trunk, wall palms and opaque clothes retained, fine exposed grayscale anatomy. Qualified wall distance, elbow range and cloth review needed.",
+      "canonicalName": "push-up (wall) v. 2",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "pectorals"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0658-male-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "status": "generated",
+        "costUSD": null
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Heel correction now places shoe soles on floor. Top elbows remain flexed and movement range between panels limited; chest radial tint persists, blocked. Straight inclined trunk, wall palms and opaque clothes retained, fine exposed grayscale anatomy. Qualified wall distance, elbow range and cloth review needed.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0658-male-anatomical-white-v2-p1-3cc786d37497.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 24510,
+          "sha256": "3cc786d3749781b7f9727a7460ce40eeeaf2c32ed27afbb401e15fb5d672a983"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0658-male-anatomical-white-v2-p2-734015c0e9bf.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 23296,
+          "sha256": "734015c0e9bff0a72b70ce49b17c4d4e6f78476de7e91792fcda0a65323d2ced"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0658-male-anatomical-white-v2-thumb-35fe33b58c67.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2652,
+        "sha256": "35fe33b58c67e3cc0c45a497179ff1d7ba938c230069baca994ff5ed8c2ae80c"
+      },
+      "processingSignature": "5f6deebc16573bf66c1866f1b37d857f57627b57d93040b83de88c9535c1512b",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0658-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1689762,
+        "sha256": "a25415f0e620af4c2cd059f2e0f57f5399f47738e073e00b5ef7b68db509350f"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0658",
+          "variant": "male",
+          "key": "0658-male-anatomical-white-v1",
+          "layout": {
+            "columns": 2,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Place both palms on the wall at shoulder height and hold the body straight"
+            },
+            {
+              "key": "p2",
+              "caption": "Bend elbows to bring the straight body toward the wall, then press away"
+            }
+          ],
+          "detail": "WALL PUSH-UP, TWO phases. Full body side three-quarter FRONT view, plain vertical WHITE WALL on IMAGE LEFT with faint gray edge/shadow, model facing wall IMAGE LEFT, feet IMAGE RIGHT. BOTH palms flat on vertical wall at shoulder HEIGHT, slightly wider than shoulders, fingers point UP. Feet hip width BOTH soles flat on FLOOR about arm-length from wall, heels stay planted, knees straight. LEFT top: elbows nearly straight, body one straight inclined line head-hips-heels. RIGHT bottom: bend elbows about90degrees and lean entire STRAIGHT body toward wall, chest close to wall but no collision, hands at exact same wall position, feet exact same floor position. Only elbows/shoulders/ankles move appropriately, no hip bend, no bench/ball. Whole person, palms, feet and wall contact fit EACH panel with white margins. Primary CHEST only soft diffuse BLURRED RED tint over intact opaque BLACK shirt, no anatomical muscle fibers/divisions/radial starburst on fabric. Fine detailed grayscale exposed arms/legs; full opaque shirt and loose knee shorts wrap torso/front/sides/back/seat/crotch. No text/arrows.",
+          "prompt": "Original educational exercise illustration. Attached original project artwork is STYLE reference ONLY, never pose reference. Detailed fine grayscale anatomical fibers on exposed arms and legs, realistic neutral adult MALE; pure white background. TWO equal side-by-side panels, same exact model, camera and lighting. FULLY OPAQUE matte BLACK sleeveless shirt continuously wraps torso front/sides/back. Loose BLACK knee-length shorts fully wrap both upper thighs, front, sides, rear, seat and crotch with closed hems/seams and natural fabric folds. Never translucent fabric, bare buttocks, anatomy windows, clothing cutaways or muscle-fiber patterns on clothes. Black trainers. Red PRIMARY muscle highlights only as specified, over clothing one soft diffuse blurred tint on intact black fabric, no anatomy divisions or fibers. Entire person, shoes, hands and apparatus fit in EACH panel with generous white margins. No text, arrows, logos or numbers. WALL PUSH-UP, TWO phases. Full body side three-quarter FRONT view, plain vertical WHITE WALL on IMAGE LEFT with faint gray edge/shadow, model facing wall IMAGE LEFT, feet IMAGE RIGHT. BOTH palms flat on vertical wall at shoulder HEIGHT, slightly wider than shoulders, fingers point UP. Feet hip width BOTH soles flat on FLOOR about arm-length from wall, heels stay planted, knees straight. LEFT top: elbows nearly straight, body one straight inclined line head-hips-heels. RIGHT bottom: bend elbows about90degrees and lean entire STRAIGHT body toward wall, chest close to wall but no collision, hands at exact same wall position, feet exact same floor position. Only elbows/shoulders/ankles move appropriately, no hip bend, no bench/ball. Whole person, palms, feet and wall contact fit EACH panel with white margins. Primary CHEST only soft diffuse BLURRED RED tint over intact opaque BLACK shirt, no anatomical muscle fibers/divisions/radial starburst on fabric. Fine detailed grayscale exposed arms/legs; full opaque shirt and loose knee shorts wrap torso/front/sides/back/seat/crotch. No text/arrows.",
+          "inspectionNote": "Wall push-up phases show palms vertical wall and straight body incline. Top elbows not fully extended and heels lifted rather than planted; need heel-floor contact and top extension correction. Chest tint has radial pattern needing diffuse fabric edit. Full opaque clothes and fine exposed grayscale anatomy retained.",
+          "canonicalName": "push-up (wall) v. 2",
+          "styleVersion": "white-v1",
+          "equipment": "body weight",
+          "primaryMuscles": [
+            "pectorals"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Wall push-up phases show palms vertical wall and straight body incline. Top elbows not fully extended and heels lifted rather than planted; need heel-floor contact and top extension correction. Chest tint has radial pattern needing diffuse fabric edit. Full opaque clothes and fine exposed grayscale anatomy retained.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0658-male-anatomical-white-v1-p1-75b561f50a9c.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 26552,
+              "sha256": "75b561f50a9c2a6c60d19ecd29aed882707876248fb23d22f4b431e17990e894"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0658-male-anatomical-white-v1-p2-38b7e139e1b0.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 26124,
+              "sha256": "38b7e139e1b06b355362a1cf2b060269460b3a8dcb093d02c4cba846b04d3942"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0658-male-anatomical-white-v1-thumb-acc5a917f9ea.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 2632,
+            "sha256": "acc5a917f9eae97452483a6a501e7a271c639f639ef309bad91ec56fdebc149f"
+          },
+          "processingSignature": "83133f4f07f014139193c35dd8bb88b7127c58793b248878aedffb160da4b680",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0658-male-anatomical-white-v1.png",
+            "width": 1774,
+            "height": 887,
+            "bytes": 1724463,
+            "sha256": "ececc93fefccd6cf063b6c820335ff458c99bac09b0da154b36a5bb35901f5be"
+          }
+        }
+      ],
+      "blockingIssues": [
+        "Top elbows remain bent; limited clear extension/lowering range and residual radial chest fabric pattern."
+      ]
+    },
+    {
+      "exerciseId": "0658",
+      "variant": "female",
+      "key": "0658-female-anatomical-white-v2",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Place both palms on the wall at shoulder height and hold the body straight"
+        },
+        {
+          "key": "p2",
+          "caption": "Bend elbows to bring the straight body toward the wall, then press away"
+        }
+      ],
+      "detail": "WALL PUSH-UP, TWO phases. Full body side three-quarter FRONT view, plain vertical WHITE WALL on IMAGE LEFT with faint gray edge/shadow, model facing wall IMAGE LEFT, feet IMAGE RIGHT. BOTH palms flat on vertical wall at shoulder HEIGHT, slightly wider than shoulders, fingers point UP. Feet hip width BOTH soles flat on FLOOR about arm-length from wall, heels stay planted, knees straight. LEFT top: elbows nearly straight, body one straight inclined line head-hips-heels. RIGHT bottom: bend elbows about90degrees and lean entire STRAIGHT body toward wall, chest close to wall but no collision, hands at exact same wall position, feet exact same floor position. Only elbows/shoulders/ankles move appropriately, no hip bend, no bench/ball. Whole person, palms, feet and wall contact fit EACH panel with white margins. Primary CHEST only soft diffuse BLURRED RED tint over intact opaque BLACK shirt, no anatomical muscle fibers/divisions/radial starburst on fabric. Fine detailed grayscale exposed arms/legs; full opaque shirt and loose knee shorts wrap torso/front/sides/back/seat/crotch. No text/arrows.",
+      "prompt": "Correct original project two-panel WALL PUSH-UP. Preserve hands on vertical wall, same palm locations, body facing wall, model and camera. In BOTH panels place BOTH entire shoe SOLES including HEELS flat on horizontal FLOOR, no lifted heel/tiptoe; feet hip width same locations about arm length from wall, ankle dorsiflexion appropriate. Adjust foot distance slightly closer only if needed to keep heels grounded. LEFT TOP panel fully extend elbows to nearly straight ARMS from shoulders to unchanged wall palms; whole body stays straight head-hips-heels, not hips bent. RIGHT LOWER panel bend elbows about90degrees, chest approaches wall, whole body straight with flat feet. No head/wall collision. Smooth diffuse BLURRED RED chest tint on continuous OPAQUE BLACK SHIRT, no radial fibers or anatomical muscle divisions in fabric. Keep opaque shirt/shorts wrap full front sides back seat crotch and fine detailed grayscale anatomical fibers on exposed limbs. Full body/shoes/hands frame, no text. Preserve female proportions and fine exposed grayscale muscle detail equally.",
+      "inspectionNote": "Soles/heels now planted and chest tint more diffuse. Top elbows still flexed rather than nearly straight; range distinction remains limited, blocked for qualified elbow/shoulder trajectory review. Straight body incline, full opaque garments and detailed exposed grayscale anatomy retained.",
+      "canonicalName": "push-up (wall) v. 2",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "pectorals"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0658-female-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "status": "generated",
+        "costUSD": null
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Soles/heels now planted and chest tint more diffuse. Top elbows still flexed rather than nearly straight; range distinction remains limited, blocked for qualified elbow/shoulder trajectory review. Straight body incline, full opaque garments and detailed exposed grayscale anatomy retained.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0658-female-anatomical-white-v2-p1-8b5907f0beba.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 21990,
+          "sha256": "8b5907f0beba8d17c7200ebbc03d304b29ca63cb4040f54032337dd91df3bb6f"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0658-female-anatomical-white-v2-p2-8a333bd4a03b.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 21102,
+          "sha256": "8a333bd4a03bbddfbe98ab023bfdada47df10ca549ab8913d4714599533310de"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0658-female-anatomical-white-v2-thumb-eb5f7703d993.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2540,
+        "sha256": "eb5f7703d993c4d899192ee7a39e40e767e4288e8d424d83a4957c56c233bf6e"
+      },
+      "processingSignature": "18bcdada8222e7711c00567b289563d31ea2c470efe8e6ff3d55abd6a6c30b63",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0658-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1648280,
+        "sha256": "1f0693396e18c393c13f08ac9c862b0d511923dcd75912c884bcd289e8f19737"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0658",
+          "variant": "female",
+          "key": "0658-female-anatomical-white-v1",
+          "layout": {
+            "columns": 2,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Place both palms on the wall at shoulder height and hold the body straight"
+            },
+            {
+              "key": "p2",
+              "caption": "Bend elbows to bring the straight body toward the wall, then press away"
+            }
+          ],
+          "detail": "WALL PUSH-UP, TWO phases. Full body side three-quarter FRONT view, plain vertical WHITE WALL on IMAGE LEFT with faint gray edge/shadow, model facing wall IMAGE LEFT, feet IMAGE RIGHT. BOTH palms flat on vertical wall at shoulder HEIGHT, slightly wider than shoulders, fingers point UP. Feet hip width BOTH soles flat on FLOOR about arm-length from wall, heels stay planted, knees straight. LEFT top: elbows nearly straight, body one straight inclined line head-hips-heels. RIGHT bottom: bend elbows about90degrees and lean entire STRAIGHT body toward wall, chest close to wall but no collision, hands at exact same wall position, feet exact same floor position. Only elbows/shoulders/ankles move appropriately, no hip bend, no bench/ball. Whole person, palms, feet and wall contact fit EACH panel with white margins. Primary CHEST only soft diffuse BLURRED RED tint over intact opaque BLACK shirt, no anatomical muscle fibers/divisions/radial starburst on fabric. Fine detailed grayscale exposed arms/legs; full opaque shirt and loose knee shorts wrap torso/front/sides/back/seat/crotch. No text/arrows.",
+          "prompt": "Original educational exercise illustration. Attached original project artwork is STYLE reference ONLY, never pose reference. Detailed fine grayscale anatomical fibers on exposed arms and legs, realistic neutral adult FEMALE; pure white background. TWO equal side-by-side panels, same exact model, camera and lighting. FULLY OPAQUE matte BLACK sleeveless shirt continuously wraps torso front/sides/back. Loose BLACK knee-length shorts fully wrap both upper thighs, front, sides, rear, seat and crotch with closed hems/seams and natural fabric folds. Never translucent fabric, bare buttocks, anatomy windows, clothing cutaways or muscle-fiber patterns on clothes. Black trainers. Red PRIMARY muscle highlights only as specified, over clothing one soft diffuse blurred tint on intact black fabric, no anatomy divisions or fibers. Entire person, shoes, hands and apparatus fit in EACH panel with generous white margins. No text, arrows, logos or numbers. WALL PUSH-UP, TWO phases. Full body side three-quarter FRONT view, plain vertical WHITE WALL on IMAGE LEFT with faint gray edge/shadow, model facing wall IMAGE LEFT, feet IMAGE RIGHT. BOTH palms flat on vertical wall at shoulder HEIGHT, slightly wider than shoulders, fingers point UP. Feet hip width BOTH soles flat on FLOOR about arm-length from wall, heels stay planted, knees straight. LEFT top: elbows nearly straight, body one straight inclined line head-hips-heels. RIGHT bottom: bend elbows about90degrees and lean entire STRAIGHT body toward wall, chest close to wall but no collision, hands at exact same wall position, feet exact same floor position. Only elbows/shoulders/ankles move appropriately, no hip bend, no bench/ball. Whole person, palms, feet and wall contact fit EACH panel with white margins. Primary CHEST only soft diffuse BLURRED RED tint over intact opaque BLACK shirt, no anatomical muscle fibers/divisions/radial starburst on fabric. Fine detailed grayscale exposed arms/legs; full opaque shirt and loose knee shorts wrap torso/front/sides/back/seat/crotch. No text/arrows.",
+          "inspectionNote": "Two wall-supported inclined body phases show wall palms and extended knees, but heels lifted and top elbows bent. Need planted heels, clearer top extension and diffuse chest fabric tint. Opaque clothes and fine detailed exposed grayscale anatomy retained; technique review pending.",
+          "canonicalName": "push-up (wall) v. 2",
+          "styleVersion": "white-v1",
+          "equipment": "body weight",
+          "primaryMuscles": [
+            "pectorals"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Two wall-supported inclined body phases show wall palms and extended knees, but heels lifted and top elbows bent. Need planted heels, clearer top extension and diffuse chest fabric tint. Opaque clothes and fine detailed exposed grayscale anatomy retained; technique review pending.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0658-female-anatomical-white-v1-p1-030bf801942f.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 24276,
+              "sha256": "030bf801942fda66e8955afff7c15ca109324d4a86d1795e69a9dd91390a3b7d"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0658-female-anatomical-white-v1-p2-f552c1893c72.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 23204,
+              "sha256": "f552c1893c72f3757e0059d88bb0de850354b2a5747ba65fcaedf7d8046263c2"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0658-female-anatomical-white-v1-thumb-0af295f8a8aa.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 2504,
+            "sha256": "0af295f8a8aa4f12de786d2a8c092ea9a634ae0b50c5394fbe1833ea0037e517"
+          },
+          "processingSignature": "e65e16fc5fca0148692e38b938d802ffa686d97aa674a07ef5669bed00c64bd3",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0658-female-anatomical-white-v1.png",
+            "width": 1774,
+            "height": 887,
+            "bytes": 1674407,
+            "sha256": "f3f7b61eb9c85d577393b482f584b1429d27004ffe62f60b118fca2001ff7b25"
+          }
+        }
+      ],
+      "blockingIssues": [
+        "Top-phase elbow extension incomplete; movement range needs correction/review."
+      ]
+    }
+  ]
+}

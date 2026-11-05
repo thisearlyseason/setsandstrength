@@ -1,0 +1,61 @@
+{
+  "batch": 425,
+  "runId": "6432dcde-be12-4ee6-81c2-9860e1669ba3",
+  "triggerTimestamp": "2026-11-04T21:31:03.439Z",
+  "builtInImageGenAvailable": true,
+  "generatedIds": [
+    "3872",
+    "3889",
+    "3893",
+    "3896"
+  ],
+  "coverageAfter": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1502,
+    "remainingVariants": 9762,
+    "approvedVariants": 0,
+    "blockedVariants": 570,
+    "knownPoseImages": 3010,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 1129,
+      "remainingVariants": 4503,
+      "blockedVariants": 451
+    }
+  },
+  "paidWorker": {
+    "statuses": {
+      "generated": 1502,
+      "pending": 9762
+    },
+    "remaining": 9762,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 2273796958
+  },
+  "pipelineTests": "8 passed, 0 failed",
+  "approvedIndexUnchanged": true,
+  "existingUserApprovalsPreserved": 1306,
+  "anatomyReview": "pending",
+  "publication": "none",
+  "blocked": {
+    "3893": [
+      "Unrequested torso highlight includes nipple visible through tank."
+    ],
+    "3896": [
+      "Back anatomy fibers visible through tank instead of plain fabric wash."
+    ]
+  }
+}

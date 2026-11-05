@@ -1,0 +1,707 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "0663",
+      "variant": "male",
+      "key": "0663-male-anatomical-white-v2",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hold a straight plank with both hands on the medicine ball"
+        },
+        {
+          "key": "p2",
+          "caption": "Bend elbows to lower the chest toward the ball, then press up"
+        }
+      ],
+      "detail": "MEDICINE BALL PUSH-UP, TWO phases. Whole body front side three-quarter view head LEFT feet RIGHT. ONE small round DARK GRAY medicine ball about30-35cm diameter on FLOOR under BOTH palms, NOT large stability ball/Bosu/bench. BOTH hands on opposite upper-sides of SAME ball, near shoulder-width as ball permits, fingers spread over sphere, wrists continuous. Feet hip width toes FLOOR behind, legs/knees STRAIGHT. LEFT high plank arms extended, body straight shoulder-hip-heels. RIGHT lower chest toward ball by bending elbows90degrees, chest above sphere not intersecting, hips stay in line. Ball size/position and hand contacts unchanged, no moving or duplicated ball. Whole person/fingers/shoes/ball inside panel white margins. Primary CHEST only soft diffuse BLURRED RED patches on intact OPAQUE BLACK shirt; NO fiber rays/anatomical pectoral divisions in fabric. All exposed arms/legs fine grayscale anatomical fibers. Fully opaque black sleeveless shirt wraps front sides back and loose knee shorts wrap front sides rear seat crotch, no transparent/cutaways. No text.",
+      "prompt": "Edit original project two-panel medicine-ball push-up. Preserve both exact poses, model/camera, hands on same SMALL medicine-ball sphere, toes floor and straight trunk, detailed fine grayscale fibers on ALL EXPOSED arms/legs. Repaint ONLY red chest highlights into smooth soft diffuse BLURRED red tint on continuous intact OPAQUE matte BLACK SHIRT fabric. Erase radial rays/starburst/fiber streaks and anatomical pectoral subdivisions from clothes; broad natural fabric folds only. Full opaque shirt and knee shorts wrap front sides back seat crotch, no cutaways/transparency. Entire person/ball/hands/shoes within same white margins. No text or other changes.",
+      "inspectionNote": "Chest red now diffuse on intact opaque fabric, high/low medicine-ball push-up and detailed grayscale exposed anatomy retained. Qualified ball size/position, hand contacts, wrists and body alignment review pending; no anatomy approval.",
+      "canonicalName": "push-up medicine ball",
+      "styleVersion": "white-v1",
+      "equipment": "medicine ball",
+      "primaryMuscles": [
+        "pectorals"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0663-male-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "status": "generated",
+        "costUSD": null
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Chest red now diffuse on intact opaque fabric, high/low medicine-ball push-up and detailed grayscale exposed anatomy retained. Qualified ball size/position, hand contacts, wrists and body alignment review pending; no anatomy approval.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0663-male-anatomical-white-v2-p1-f413798368d0.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 34004,
+          "sha256": "f413798368d0d08f8384dba24fc6a602817d76ffc65ab5a0dd51556a75b3cfb5"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0663-male-anatomical-white-v2-p2-d5d4a22bbde8.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 29702,
+          "sha256": "d5d4a22bbde86e80ad60d681d2e78f12591e278035239400bfb38c9b5e567cdb"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0663-male-anatomical-white-v2-thumb-06da13a50894.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 3620,
+        "sha256": "06da13a5089401970bfbe51d54f0126b6f7d646009ec3e8cfe699b06fa63e215"
+      },
+      "processingSignature": "1c889d60891e9c54a1ea5f2ebc91dd8cb87156f256a0cff051c8d269cd4d7f32",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0663-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1718105,
+        "sha256": "89d04273b953c3078b04140b520b09b28173f25f7688f3e17dbd896d2e7cea42"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0663",
+          "variant": "male",
+          "key": "0663-male-anatomical-white-v1",
+          "layout": {
+            "columns": 2,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Hold a straight plank with both hands on the medicine ball"
+            },
+            {
+              "key": "p2",
+              "caption": "Bend elbows to lower the chest toward the ball, then press up"
+            }
+          ],
+          "detail": "MEDICINE BALL PUSH-UP, TWO phases. Whole body front side three-quarter view head LEFT feet RIGHT. ONE small round DARK GRAY medicine ball about30-35cm diameter on FLOOR under BOTH palms, NOT large stability ball/Bosu/bench. BOTH hands on opposite upper-sides of SAME ball, near shoulder-width as ball permits, fingers spread over sphere, wrists continuous. Feet hip width toes FLOOR behind, legs/knees STRAIGHT. LEFT high plank arms extended, body straight shoulder-hip-heels. RIGHT lower chest toward ball by bending elbows90degrees, chest above sphere not intersecting, hips stay in line. Ball size/position and hand contacts unchanged, no moving or duplicated ball. Whole person/fingers/shoes/ball inside panel white margins. Primary CHEST only soft diffuse BLURRED RED patches on intact OPAQUE BLACK shirt; NO fiber rays/anatomical pectoral divisions in fabric. All exposed arms/legs fine grayscale anatomical fibers. Fully opaque black sleeveless shirt wraps front sides back and loose knee shorts wrap front sides rear seat crotch, no transparent/cutaways. No text.",
+          "prompt": "Original educational exercise illustration. Attached original project artwork is STYLE reference ONLY, never pose reference. Detailed fine grayscale anatomical fibers on exposed arms and legs, realistic neutral adult MALE; pure white background. TWO equal side-by-side panels, same exact model, camera and lighting. FULLY OPAQUE matte BLACK sleeveless shirt continuously wraps torso front/sides/back. Loose BLACK knee-length shorts fully wrap both upper thighs, front, sides, rear, seat and crotch with closed hems/seams and natural fabric folds. Never translucent fabric, bare buttocks, anatomy windows, clothing cutaways or muscle-fiber patterns on clothes. Black trainers. Red PRIMARY muscle highlights only as specified, over clothing one soft diffuse blurred tint on intact black fabric, no anatomy divisions or fibers. Entire person, shoes, hands and apparatus fit in EACH panel with generous white margins. No text, arrows, logos or numbers. MEDICINE BALL PUSH-UP, TWO phases. Whole body front side three-quarter view head LEFT feet RIGHT. ONE small round DARK GRAY medicine ball about30-35cm diameter on FLOOR under BOTH palms, NOT large stability ball/Bosu/bench. BOTH hands on opposite upper-sides of SAME ball, near shoulder-width as ball permits, fingers spread over sphere, wrists continuous. Feet hip width toes FLOOR behind, legs/knees STRAIGHT. LEFT high plank arms extended, body straight shoulder-hip-heels. RIGHT lower chest toward ball by bending elbows90degrees, chest above sphere not intersecting, hips stay in line. Ball size/position and hand contacts unchanged, no moving or duplicated ball. Whole person/fingers/shoes/ball inside panel white margins. Primary CHEST only soft diffuse BLURRED RED patches on intact OPAQUE BLACK shirt; NO fiber rays/anatomical pectoral divisions in fabric. All exposed arms/legs fine grayscale anatomical fibers. Fully opaque black sleeveless shirt wraps front sides back and loose knee shorts wrap front sides rear seat crotch, no transparent/cutaways. No text.",
+          "inspectionNote": "Two medicine-ball push-up phases show both hands on one small sphere, toes floor and straight body with elbows extended/bent. Opaque clothes and detailed grayscale limbs. Chest fabric red has radial fibers needing diffuse cloth edit. Qualified ball/hand continuity, grip/wrists and alignment review pending.",
+          "canonicalName": "push-up medicine ball",
+          "styleVersion": "white-v1",
+          "equipment": "medicine ball",
+          "primaryMuscles": [
+            "pectorals"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Two medicine-ball push-up phases show both hands on one small sphere, toes floor and straight body with elbows extended/bent. Opaque clothes and detailed grayscale limbs. Chest fabric red has radial fibers needing diffuse cloth edit. Qualified ball/hand continuity, grip/wrists and alignment review pending.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0663-male-anatomical-white-v1-p1-8223c0d4683f.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 38700,
+              "sha256": "8223c0d4683f8b49bf6ce68a68aed4ea22b5b3d17d4eab5591b14e7a95ad5254"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0663-male-anatomical-white-v1-p2-74966edb064c.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 33708,
+              "sha256": "74966edb064c1bb6c6ac8f2e7d59a814790b4475f3ecb98b8cc083d081aa4ced"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0663-male-anatomical-white-v1-thumb-b051baff0ad4.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 3646,
+            "sha256": "b051baff0ad41ab5c120a90b3ddd7a1b863f58464a688290e26ce0395f1b8623"
+          },
+          "processingSignature": "4baf445591bbe679aac21009868371fd189a6561e01cf543489d7aa0d7bcdb64",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0663-male-anatomical-white-v1.png",
+            "width": 1774,
+            "height": 887,
+            "bytes": 1776287,
+            "sha256": "dd84b6636d8d7e8ad2bbfd65268e9bbd2e9ca81fc7b1a9026f43d91cd83c2ca9"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "0663",
+      "variant": "female",
+      "key": "0663-female-anatomical-white-v2",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hold a straight plank with both hands on the medicine ball"
+        },
+        {
+          "key": "p2",
+          "caption": "Bend elbows to lower the chest toward the ball, then press up"
+        }
+      ],
+      "detail": "MEDICINE BALL PUSH-UP, TWO phases. Whole body front side three-quarter view head LEFT feet RIGHT. ONE small round DARK GRAY medicine ball about30-35cm diameter on FLOOR under BOTH palms, NOT large stability ball/Bosu/bench. BOTH hands on opposite upper-sides of SAME ball, near shoulder-width as ball permits, fingers spread over sphere, wrists continuous. Feet hip width toes FLOOR behind, legs/knees STRAIGHT. LEFT high plank arms extended, body straight shoulder-hip-heels. RIGHT lower chest toward ball by bending elbows90degrees, chest above sphere not intersecting, hips stay in line. Ball size/position and hand contacts unchanged, no moving or duplicated ball. Whole person/fingers/shoes/ball inside panel white margins. Primary CHEST only soft diffuse BLURRED RED patches on intact OPAQUE BLACK shirt; NO fiber rays/anatomical pectoral divisions in fabric. All exposed arms/legs fine grayscale anatomical fibers. Fully opaque black sleeveless shirt wraps front sides back and loose knee shorts wrap front sides rear seat crotch, no transparent/cutaways. No text.",
+      "prompt": "Edit original project two-panel medicine-ball push-up. Preserve both exact poses, model/camera, hands on same SMALL medicine-ball sphere, toes floor and straight trunk, detailed fine grayscale fibers on ALL EXPOSED arms/legs. Repaint ONLY red chest highlights into smooth soft diffuse BLURRED red tint on continuous intact OPAQUE matte BLACK SHIRT fabric. Erase radial rays/starburst/fiber streaks and anatomical pectoral subdivisions from clothes; broad natural fabric folds only. Full opaque shirt and knee shorts wrap front sides back seat crotch, no cutaways/transparency. Entire person/ball/hands/shoes within same white margins. No text or other changes. Preserve female proportions and equally fine grayscale exposed anatomical fibers.",
+      "inspectionNote": "Chest overlay now diffuse intact opaque shirt, hands on same small medicine ball and high/low body phases retained. Fine grayscale exposed muscles and full clothes. Qualified ball/hand continuity, wrists, shoulder loading and technique review pending.",
+      "canonicalName": "push-up medicine ball",
+      "styleVersion": "white-v1",
+      "equipment": "medicine ball",
+      "primaryMuscles": [
+        "pectorals"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0663-female-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "status": "generated",
+        "costUSD": null
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Chest overlay now diffuse intact opaque shirt, hands on same small medicine ball and high/low body phases retained. Fine grayscale exposed muscles and full clothes. Qualified ball/hand continuity, wrists, shoulder loading and technique review pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0663-female-anatomical-white-v2-p1-3d57d16b06d0.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 34760,
+          "sha256": "3d57d16b06d0cc005a06572729cd4b78989371f8b1bbc04ef475fb20a11949cc"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0663-female-anatomical-white-v2-p2-53409ceb69d7.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 29656,
+          "sha256": "53409ceb69d773671483dd7fc60a3e990245fab61fc736cae136f204a790bf0c"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0663-female-anatomical-white-v2-thumb-805cec285e42.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 3738,
+        "sha256": "805cec285e429534a891b05f11fc2b896569d4a6329899ffdcc8b27cee54cfbf"
+      },
+      "processingSignature": "65a961889632b768200770992b0f4e7465c36b0a1af75570548dd26f008cf667",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0663-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1767924,
+        "sha256": "959d073da76fe55cedfc1b263e892fe4eeb593330409d4e13c2f9371c7ade32f"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0663",
+          "variant": "female",
+          "key": "0663-female-anatomical-white-v1",
+          "layout": {
+            "columns": 2,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Hold a straight plank with both hands on the medicine ball"
+            },
+            {
+              "key": "p2",
+              "caption": "Bend elbows to lower the chest toward the ball, then press up"
+            }
+          ],
+          "detail": "MEDICINE BALL PUSH-UP, TWO phases. Whole body front side three-quarter view head LEFT feet RIGHT. ONE small round DARK GRAY medicine ball about30-35cm diameter on FLOOR under BOTH palms, NOT large stability ball/Bosu/bench. BOTH hands on opposite upper-sides of SAME ball, near shoulder-width as ball permits, fingers spread over sphere, wrists continuous. Feet hip width toes FLOOR behind, legs/knees STRAIGHT. LEFT high plank arms extended, body straight shoulder-hip-heels. RIGHT lower chest toward ball by bending elbows90degrees, chest above sphere not intersecting, hips stay in line. Ball size/position and hand contacts unchanged, no moving or duplicated ball. Whole person/fingers/shoes/ball inside panel white margins. Primary CHEST only soft diffuse BLURRED RED patches on intact OPAQUE BLACK shirt; NO fiber rays/anatomical pectoral divisions in fabric. All exposed arms/legs fine grayscale anatomical fibers. Fully opaque black sleeveless shirt wraps front sides back and loose knee shorts wrap front sides rear seat crotch, no transparent/cutaways. No text.",
+          "prompt": "Original educational exercise illustration. Attached original project artwork is STYLE reference ONLY, never pose reference. Detailed fine grayscale anatomical fibers on exposed arms and legs, realistic neutral adult FEMALE; pure white background. TWO equal side-by-side panels, same exact model, camera and lighting. FULLY OPAQUE matte BLACK sleeveless shirt continuously wraps torso front/sides/back. Loose BLACK knee-length shorts fully wrap both upper thighs, front, sides, rear, seat and crotch with closed hems/seams and natural fabric folds. Never translucent fabric, bare buttocks, anatomy windows, clothing cutaways or muscle-fiber patterns on clothes. Black trainers. Red PRIMARY muscle highlights only as specified, over clothing one soft diffuse blurred tint on intact black fabric, no anatomy divisions or fibers. Entire person, shoes, hands and apparatus fit in EACH panel with generous white margins. No text, arrows, logos or numbers. MEDICINE BALL PUSH-UP, TWO phases. Whole body front side three-quarter view head LEFT feet RIGHT. ONE small round DARK GRAY medicine ball about30-35cm diameter on FLOOR under BOTH palms, NOT large stability ball/Bosu/bench. BOTH hands on opposite upper-sides of SAME ball, near shoulder-width as ball permits, fingers spread over sphere, wrists continuous. Feet hip width toes FLOOR behind, legs/knees STRAIGHT. LEFT high plank arms extended, body straight shoulder-hip-heels. RIGHT lower chest toward ball by bending elbows90degrees, chest above sphere not intersecting, hips stay in line. Ball size/position and hand contacts unchanged, no moving or duplicated ball. Whole person/fingers/shoes/ball inside panel white margins. Primary CHEST only soft diffuse BLURRED RED patches on intact OPAQUE BLACK shirt; NO fiber rays/anatomical pectoral divisions in fabric. All exposed arms/legs fine grayscale anatomical fibers. Fully opaque black sleeveless shirt wraps front sides back and loose knee shorts wrap front sides rear seat crotch, no transparent/cutaways. No text.",
+          "inspectionNote": "High/low medicine-ball push-up with both hands around small sphere, toes floor, aligned trunk. Opaque full clothes and fine detailed exposed anatomy. Red chest fiber pattern requires diffuse cloth edit; qualified sphere/hand continuity, wrists and technique review pending.",
+          "canonicalName": "push-up medicine ball",
+          "styleVersion": "white-v1",
+          "equipment": "medicine ball",
+          "primaryMuscles": [
+            "pectorals"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "High/low medicine-ball push-up with both hands around small sphere, toes floor, aligned trunk. Opaque full clothes and fine detailed exposed anatomy. Red chest fiber pattern requires diffuse cloth edit; qualified sphere/hand continuity, wrists and technique review pending.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0663-female-anatomical-white-v1-p1-3a97055bb597.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 38028,
+              "sha256": "3a97055bb597e78d8d1ba2bb1b1d0bc285d87342ec9f23b95d86d81715bbb57f"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0663-female-anatomical-white-v1-p2-fe935702f574.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 33416,
+              "sha256": "fe935702f5749ce4538e2ac7d68b0df971db55e6e2a93ce8b44bf08482a85caf"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0663-female-anatomical-white-v1-thumb-46dbd3c68b8a.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 3626,
+            "sha256": "46dbd3c68b8a2f8319bfb4f648fd9a5606b6347bc7ca223191b371911b217c86"
+          },
+          "processingSignature": "85fecc5969e1c6cec38e040e2267f566bbeed4531f9b035a5cf1b380e2004ad3",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0663-female-anatomical-white-v1.png",
+            "width": 1774,
+            "height": 887,
+            "bytes": 1770897,
+            "sha256": "50301ada6b919101c20821e7e46cea90beff5b633a658a79fd91daf3370fedd2"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "0664",
+      "variant": "male",
+      "key": "0664-male-anatomical-white-v2",
+      "layout": {
+        "columns": 3,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Lower into a push-up with both hands planted"
+        },
+        {
+          "key": "p2",
+          "caption": "Press up and rotate onto the left hand, raising the right arm"
+        },
+        {
+          "key": "p3",
+          "caption": "After the next push-up, rotate onto the right hand and raise the left arm"
+        }
+      ],
+      "detail": "PUSH-UP TO ALTERNATING SIDE PLANK, THREE phases on FLOOR MAT, whole body same side three-quarter camera head LEFT feet RIGHT, no equipment. LEFT LOW PUSH-UP both palms shoulder width mat elbows90degrees, torso straight and both toes support legs together. MIDDLE after press-up rotate onto LEFT hand/outer LEFT foot, LEFT elbow straight directly UNDER left shoulder, legs STRAIGHT feet stacked, hips elevated head-hips-feet straight sideways line. Torso/front chest faces VIEWER, RIGHT arm straight VERTICALLY UP from right shoulder, right open hand fingers extended, shoulders stacked. RIGHT after next push-up rotate OPPOSITE onto RIGHT hand/outer RIGHT foot, RIGHT elbow straight UNDER right shoulder, legs straight feet stacked, hips lifted; BACK of shirt faces VIEWER, LEFT arm straight vertically UP from left shoulder. Clearly opposite support/raised-arm roles and front/back torso change, exactly2arms2legs each, no limb intersection. Floor hand stays planted, raised hand clear overhead, all fingers/shoes fit margins. Primary ABS only soft diffuse red tint over intact opaque BLACK abdominal shirt front/side when visible; back shirt stays BLACK, no red spine/triceps/shoulders. No anatomical subdivisions/fibers/radial rays through clothes. Shirt/loose knee shorts fully opaque around torso/front/sides/back/seat/crotch. Fine grayscale exposed muscles. No text/arrows.",
+      "prompt": "Edit original project THREE-panel push-up to alternating side plank. Preserve EXACT all poses, first low push-up, middle FRONT chest facing viewer LEFT-hand support/right arm UP, last BACK facing viewer RIGHT-hand support/left arm UP, straight legs and stacked feet, hand/shoulder geometry, raised fingers within frame, fine grayscale EXPOSED limb fibers. Correct highlight ONLY: Remove ALL RED from CHEST/pectoral area. Primary ABS: one soft diffuse BLURRED RED color patch on BLACK shirt ABDOMEN BETWEEN LOWER RIBS AND WAIST in first and middle poses only, not chest. Erase ALL sixpack anatomical subdivisions, radial lines/starburst or fiber streaks from fabric; smooth ordinary continuous opaque matte BLACK shirt with broad natural folds. Last BACK-facing shirt stays completely black, no red back. Full opaque shirt wraps front sides back and shorts fully wrap front sides rear seat crotch; no cutaways/transparency. Do not change anatomy or poses, no text.",
+      "inspectionNote": "Chest red removed and red shifted to abdomen, front/back side-plank role switch and fine exposed anatomy preserved. Abdominal cloth tint softened but still shows internal sixpack divisions in middle pose, blocked for diffuse fabric correction. Full opaque clothes and black back shirt retained; qualified shoulder/foot continuity and technique review pending.",
+      "canonicalName": "push-up to side plank",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "abs"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0664-male-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "status": "generated",
+        "costUSD": null
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Chest red removed and red shifted to abdomen, front/back side-plank role switch and fine exposed anatomy preserved. Abdominal cloth tint softened but still shows internal sixpack divisions in middle pose, blocked for diffuse fabric correction. Full opaque clothes and black back shirt retained; qualified shoulder/foot continuity and technique review pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0664-male-anatomical-white-v2-p1-6ff1319c1dc4.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 17442,
+          "sha256": "6ff1319c1dc46b064f944c51546f44f1950a51163c92f75560f29357cce56b94"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0664-male-anatomical-white-v2-p2-a3ff9eaac886.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 19718,
+          "sha256": "a3ff9eaac886092ecf2253ffb64ca7fc15185b784fa1a75841cad48a56671407"
+        },
+        {
+          "pose": "p3",
+          "path": "/workout/illustration-pilot/0664-male-anatomical-white-v2-p3-cb4e9d5a9936.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 18324,
+          "sha256": "cb4e9d5a9936f55666ebfe6cb539921e466c5876df2fcec2329119cadd4e0eea"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0664-male-anatomical-white-v2-thumb-4580cfec5d50.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2646,
+        "sha256": "4580cfec5d50e5aa5101dd2c1cf12e650ae135682f7842fd787395423091c05f"
+      },
+      "processingSignature": "b75774efcd05f2d0e919111db75e3a3f683ff59cfa10c07d6508593ae17cddc4",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0664-male-anatomical-white-v2.png",
+        "width": 2172,
+        "height": 724,
+        "bytes": 1652852,
+        "sha256": "7ef13829412dcc1b98cfb7b5ad807ee8c9e05a6d43809d4dd502a979869aeeec"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0664",
+          "variant": "male",
+          "key": "0664-male-anatomical-white-v1",
+          "layout": {
+            "columns": 3,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Lower into a push-up with both hands planted"
+            },
+            {
+              "key": "p2",
+              "caption": "Press up and rotate onto the left hand, raising the right arm"
+            },
+            {
+              "key": "p3",
+              "caption": "After the next push-up, rotate onto the right hand and raise the left arm"
+            }
+          ],
+          "detail": "PUSH-UP TO ALTERNATING SIDE PLANK, THREE phases on FLOOR MAT, whole body same side three-quarter camera head LEFT feet RIGHT, no equipment. LEFT LOW PUSH-UP both palms shoulder width mat elbows90degrees, torso straight and both toes support legs together. MIDDLE after press-up rotate onto LEFT hand/outer LEFT foot, LEFT elbow straight directly UNDER left shoulder, legs STRAIGHT feet stacked, hips elevated head-hips-feet straight sideways line. Torso/front chest faces VIEWER, RIGHT arm straight VERTICALLY UP from right shoulder, right open hand fingers extended, shoulders stacked. RIGHT after next push-up rotate OPPOSITE onto RIGHT hand/outer RIGHT foot, RIGHT elbow straight UNDER right shoulder, legs straight feet stacked, hips lifted; BACK of shirt faces VIEWER, LEFT arm straight vertically UP from left shoulder. Clearly opposite support/raised-arm roles and front/back torso change, exactly2arms2legs each, no limb intersection. Floor hand stays planted, raised hand clear overhead, all fingers/shoes fit margins. Primary ABS only soft diffuse red tint over intact opaque BLACK abdominal shirt front/side when visible; back shirt stays BLACK, no red spine/triceps/shoulders. No anatomical subdivisions/fibers/radial rays through clothes. Shirt/loose knee shorts fully opaque around torso/front/sides/back/seat/crotch. Fine grayscale exposed muscles. No text/arrows.",
+          "prompt": "Original educational exercise illustration. Attached original project artwork is STYLE reference ONLY, never pose reference. Detailed fine grayscale anatomical fibers on exposed arms and legs, realistic neutral adult MALE; pure white background. THREE equal side-by-side panels, same exact model, camera and lighting. FULLY OPAQUE matte BLACK sleeveless shirt continuously wraps torso front/sides/back. Loose BLACK knee-length shorts fully wrap both upper thighs, front, sides, rear, seat and crotch with closed hems/seams and natural fabric folds. Never translucent fabric, bare buttocks, anatomy windows, clothing cutaways or muscle-fiber patterns on clothes. Black trainers. Red PRIMARY muscle highlights only as specified, over clothing one soft diffuse blurred tint on intact black fabric, no anatomy divisions or fibers. Entire person, shoes, hands and apparatus fit in EACH panel with generous white margins. No text, arrows, logos or numbers. PUSH-UP TO ALTERNATING SIDE PLANK, THREE phases on FLOOR MAT, whole body same side three-quarter camera head LEFT feet RIGHT, no equipment. LEFT LOW PUSH-UP both palms shoulder width mat elbows90degrees, torso straight and both toes support legs together. MIDDLE after press-up rotate onto LEFT hand/outer LEFT foot, LEFT elbow straight directly UNDER left shoulder, legs STRAIGHT feet stacked, hips elevated head-hips-feet straight sideways line. Torso/front chest faces VIEWER, RIGHT arm straight VERTICALLY UP from right shoulder, right open hand fingers extended, shoulders stacked. RIGHT after next push-up rotate OPPOSITE onto RIGHT hand/outer RIGHT foot, RIGHT elbow straight UNDER right shoulder, legs straight feet stacked, hips lifted; BACK of shirt faces VIEWER, LEFT arm straight vertically UP from left shoulder. Clearly opposite support/raised-arm roles and front/back torso change, exactly2arms2legs each, no limb intersection. Floor hand stays planted, raised hand clear overhead, all fingers/shoes fit margins. Primary ABS only soft diffuse red tint over intact opaque BLACK abdominal shirt front/side when visible; back shirt stays BLACK, no red spine/triceps/shoulders. No anatomical subdivisions/fibers/radial rays through clothes. Shirt/loose knee shorts fully opaque around torso/front/sides/back/seat/crotch. Fine grayscale exposed muscles. No text/arrows.",
+          "inspectionNote": "Push-up then front-facing and back-facing side planks show opposite supporting/raised arms, straight legs and overhead hand in frame. Shirt red extends over chest with sixpack/radial pattern rather than diffuse abs; need abdominal-only cloth correction. Full opaque garments and fine grayscale exposed anatomy. Qualified shoulder stacking, foot/hand continuity and technique pending.",
+          "canonicalName": "push-up to side plank",
+          "styleVersion": "white-v1",
+          "equipment": "body weight",
+          "primaryMuscles": [
+            "abs"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Push-up then front-facing and back-facing side planks show opposite supporting/raised arms, straight legs and overhead hand in frame. Shirt red extends over chest with sixpack/radial pattern rather than diffuse abs; need abdominal-only cloth correction. Full opaque garments and fine grayscale exposed anatomy. Qualified shoulder stacking, foot/hand continuity and technique pending.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0664-male-anatomical-white-v1-p1-08d4182646fc.webp",
+              "width": 724,
+              "height": 724,
+              "bytes": 18858,
+              "sha256": "08d4182646fc302889ce377847f5549990f2da0354cb9aaf4e860ac985d5bbba"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0664-male-anatomical-white-v1-p2-125480b7bbad.webp",
+              "width": 724,
+              "height": 724,
+              "bytes": 21722,
+              "sha256": "125480b7bbadeecb27045ec5b8ec5e050d6c9b47bd0a01809521b081cdc74e19"
+            },
+            {
+              "pose": "p3",
+              "path": "/workout/illustration-pilot/0664-male-anatomical-white-v1-p3-06a4482acdf4.webp",
+              "width": 724,
+              "height": 724,
+              "bytes": 20276,
+              "sha256": "06a4482acdf484a9564ca2f8ebadcaabda0df14ad6cd410454317ab5a0f22180"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0664-male-anatomical-white-v1-thumb-ecde20da8983.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 2618,
+            "sha256": "ecde20da8983a5328edc7f751399a771afa62bddb91bb5add283718cfe964854"
+          },
+          "processingSignature": "fadf8f7fa74fd3247836182e0fa26f92ffa86e8673ef68387f98d0070758a8b0",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0664-male-anatomical-white-v1.png",
+            "width": 2172,
+            "height": 724,
+            "bytes": 1748419,
+            "sha256": "fa2e2ea2e213d5f8833e7bff63728e61429f9cee7d7840aa00aa4b36adf1867c"
+          }
+        }
+      ],
+      "blockingIssues": [
+        "Middle abdominal shirt highlight retains internal sixpack pattern after correction."
+      ]
+    },
+    {
+      "exerciseId": "0664",
+      "variant": "female",
+      "key": "0664-female-anatomical-white-v2",
+      "layout": {
+        "columns": 3,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Lower into a push-up with both hands planted"
+        },
+        {
+          "key": "p2",
+          "caption": "Press up and rotate onto the left hand, raising the right arm"
+        },
+        {
+          "key": "p3",
+          "caption": "After the next push-up, rotate onto the right hand and raise the left arm"
+        }
+      ],
+      "detail": "PUSH-UP TO ALTERNATING SIDE PLANK, THREE phases on FLOOR MAT, whole body same side three-quarter camera head LEFT feet RIGHT, no equipment. LEFT LOW PUSH-UP both palms shoulder width mat elbows90degrees, torso straight and both toes support legs together. MIDDLE after press-up rotate onto LEFT hand/outer LEFT foot, LEFT elbow straight directly UNDER left shoulder, legs STRAIGHT feet stacked, hips elevated head-hips-feet straight sideways line. Torso/front chest faces VIEWER, RIGHT arm straight VERTICALLY UP from right shoulder, right open hand fingers extended, shoulders stacked. RIGHT after next push-up rotate OPPOSITE onto RIGHT hand/outer RIGHT foot, RIGHT elbow straight UNDER right shoulder, legs straight feet stacked, hips lifted; BACK of shirt faces VIEWER, LEFT arm straight vertically UP from left shoulder. Clearly opposite support/raised-arm roles and front/back torso change, exactly2arms2legs each, no limb intersection. Floor hand stays planted, raised hand clear overhead, all fingers/shoes fit margins. Primary ABS only soft diffuse red tint over intact opaque BLACK abdominal shirt front/side when visible; back shirt stays BLACK, no red spine/triceps/shoulders. No anatomical subdivisions/fibers/radial rays through clothes. Shirt/loose knee shorts fully opaque around torso/front/sides/back/seat/crotch. Fine grayscale exposed muscles. No text/arrows.",
+      "prompt": "Edit original project THREE-panel push-up to alternating side plank. Preserve EXACT all poses, first low push-up, middle FRONT chest facing viewer LEFT-hand support/right arm UP, last BACK facing viewer RIGHT-hand support/left arm UP, straight legs and stacked feet, hand/shoulder geometry, raised fingers within frame, fine grayscale EXPOSED limb fibers. Correct highlight ONLY: Remove ALL RED from CHEST/pectoral area. Primary ABS: one soft diffuse BLURRED RED color patch on BLACK shirt ABDOMEN BETWEEN LOWER RIBS AND WAIST in first and middle poses only, not chest. Erase ALL sixpack anatomical subdivisions, radial lines/starburst or fiber streaks from fabric; smooth ordinary continuous opaque matte BLACK shirt with broad natural folds. Last BACK-facing shirt stays completely black, no red back. Full opaque shirt wraps front sides back and shorts fully wrap front sides rear seat crotch; no cutaways/transparency. Do not change anatomy or poses, no text. Preserve female proportions and equally fine detailed exposed grayscale anatomy.",
+      "inspectionNote": "Abdominal tint now diffuse on intact opaque shirt, chest red reduced and last back black. Low push-up and front/back side-plank roles retained with raised hands inside frame. Fine grayscale exposed anatomy and full seat/crotch clothing. Qualified highlight location in low pose, shoulder stacking, feet/hand continuity and technique review pending.",
+      "canonicalName": "push-up to side plank",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "abs"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0664-female-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "status": "generated",
+        "costUSD": null
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Abdominal tint now diffuse on intact opaque shirt, chest red reduced and last back black. Low push-up and front/back side-plank roles retained with raised hands inside frame. Fine grayscale exposed anatomy and full seat/crotch clothing. Qualified highlight location in low pose, shoulder stacking, feet/hand continuity and technique review pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0664-female-anatomical-white-v2-p1-1b26d77149d3.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 18668,
+          "sha256": "1b26d77149d3ba350d5286147929eba06b0d5229b2b4650b5ea3f92112349fcf"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0664-female-anatomical-white-v2-p2-c4a374395394.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 21176,
+          "sha256": "c4a37439539493860ec7a61687e874f9d3ecdb6ce8818bf7cd71034a00906a59"
+        },
+        {
+          "pose": "p3",
+          "path": "/workout/illustration-pilot/0664-female-anatomical-white-v2-p3-72b0c72fee1d.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 20624,
+          "sha256": "72b0c72fee1ddc3028247931d73ffa4d9b41feeb12c4713172ecca8a0d565173"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0664-female-anatomical-white-v2-thumb-4a2699857d27.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2814,
+        "sha256": "4a2699857d27f31b3029fc4e1d551d0e0d0350858a977b3b9c30a80aa50f68b5"
+      },
+      "processingSignature": "69eeb262defa961c637092b43525aa20d6d3080e3794f7e69647fb7a9dbbc811",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0664-female-anatomical-white-v2.png",
+        "width": 2172,
+        "height": 724,
+        "bytes": 1660472,
+        "sha256": "fae908dea72a0353f2fb02eb3067a2ba1bbf622f20c29c863eae10af705cae7a"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0664",
+          "variant": "female",
+          "key": "0664-female-anatomical-white-v1",
+          "layout": {
+            "columns": 3,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Lower into a push-up with both hands planted"
+            },
+            {
+              "key": "p2",
+              "caption": "Press up and rotate onto the left hand, raising the right arm"
+            },
+            {
+              "key": "p3",
+              "caption": "After the next push-up, rotate onto the right hand and raise the left arm"
+            }
+          ],
+          "detail": "PUSH-UP TO ALTERNATING SIDE PLANK, THREE phases on FLOOR MAT, whole body same side three-quarter camera head LEFT feet RIGHT, no equipment. LEFT LOW PUSH-UP both palms shoulder width mat elbows90degrees, torso straight and both toes support legs together. MIDDLE after press-up rotate onto LEFT hand/outer LEFT foot, LEFT elbow straight directly UNDER left shoulder, legs STRAIGHT feet stacked, hips elevated head-hips-feet straight sideways line. Torso/front chest faces VIEWER, RIGHT arm straight VERTICALLY UP from right shoulder, right open hand fingers extended, shoulders stacked. RIGHT after next push-up rotate OPPOSITE onto RIGHT hand/outer RIGHT foot, RIGHT elbow straight UNDER right shoulder, legs straight feet stacked, hips lifted; BACK of shirt faces VIEWER, LEFT arm straight vertically UP from left shoulder. Clearly opposite support/raised-arm roles and front/back torso change, exactly2arms2legs each, no limb intersection. Floor hand stays planted, raised hand clear overhead, all fingers/shoes fit margins. Primary ABS only soft diffuse red tint over intact opaque BLACK abdominal shirt front/side when visible; back shirt stays BLACK, no red spine/triceps/shoulders. No anatomical subdivisions/fibers/radial rays through clothes. Shirt/loose knee shorts fully opaque around torso/front/sides/back/seat/crotch. Fine grayscale exposed muscles. No text/arrows.",
+          "prompt": "Original educational exercise illustration. Attached original project artwork is STYLE reference ONLY, never pose reference. Detailed fine grayscale anatomical fibers on exposed arms and legs, realistic neutral adult FEMALE; pure white background. THREE equal side-by-side panels, same exact model, camera and lighting. FULLY OPAQUE matte BLACK sleeveless shirt continuously wraps torso front/sides/back. Loose BLACK knee-length shorts fully wrap both upper thighs, front, sides, rear, seat and crotch with closed hems/seams and natural fabric folds. Never translucent fabric, bare buttocks, anatomy windows, clothing cutaways or muscle-fiber patterns on clothes. Black trainers. Red PRIMARY muscle highlights only as specified, over clothing one soft diffuse blurred tint on intact black fabric, no anatomy divisions or fibers. Entire person, shoes, hands and apparatus fit in EACH panel with generous white margins. No text, arrows, logos or numbers. PUSH-UP TO ALTERNATING SIDE PLANK, THREE phases on FLOOR MAT, whole body same side three-quarter camera head LEFT feet RIGHT, no equipment. LEFT LOW PUSH-UP both palms shoulder width mat elbows90degrees, torso straight and both toes support legs together. MIDDLE after press-up rotate onto LEFT hand/outer LEFT foot, LEFT elbow straight directly UNDER left shoulder, legs STRAIGHT feet stacked, hips elevated head-hips-feet straight sideways line. Torso/front chest faces VIEWER, RIGHT arm straight VERTICALLY UP from right shoulder, right open hand fingers extended, shoulders stacked. RIGHT after next push-up rotate OPPOSITE onto RIGHT hand/outer RIGHT foot, RIGHT elbow straight UNDER right shoulder, legs straight feet stacked, hips lifted; BACK of shirt faces VIEWER, LEFT arm straight vertically UP from left shoulder. Clearly opposite support/raised-arm roles and front/back torso change, exactly2arms2legs each, no limb intersection. Floor hand stays planted, raised hand clear overhead, all fingers/shoes fit margins. Primary ABS only soft diffuse red tint over intact opaque BLACK abdominal shirt front/side when visible; back shirt stays BLACK, no red spine/triceps/shoulders. No anatomical subdivisions/fibers/radial rays through clothes. Shirt/loose knee shorts fully opaque around torso/front/sides/back/seat/crotch. Fine grayscale exposed muscles. No text/arrows.",
+          "inspectionNote": "Low push-up then front/back side planks show opposing arm roles, stacked feet and raised hands within frame. Red abdominal shirt has sixpack/radial pattern needing diffuse cloth treatment, first red appears near chest. Full opaque clothes and detailed exposed anatomy retained; qualified shoulder/foot continuity and technique review pending.",
+          "canonicalName": "push-up to side plank",
+          "styleVersion": "white-v1",
+          "equipment": "body weight",
+          "primaryMuscles": [
+            "abs"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Low push-up then front/back side planks show opposing arm roles, stacked feet and raised hands within frame. Red abdominal shirt has sixpack/radial pattern needing diffuse cloth treatment, first red appears near chest. Full opaque clothes and detailed exposed anatomy retained; qualified shoulder/foot continuity and technique review pending.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0664-female-anatomical-white-v1-p1-58e4f90adf11.webp",
+              "width": 724,
+              "height": 724,
+              "bytes": 21032,
+              "sha256": "58e4f90adf115483a6beb4f029be52108a1ac81fe88dbc9d9416712128f3bb96"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0664-female-anatomical-white-v1-p2-83b532b1e5dc.webp",
+              "width": 724,
+              "height": 724,
+              "bytes": 24728,
+              "sha256": "83b532b1e5dca41d7d1c43b55be6f183664fbe9888a7a56f4eadbf422b153971"
+            },
+            {
+              "pose": "p3",
+              "path": "/workout/illustration-pilot/0664-female-anatomical-white-v1-p3-4f2f99680239.webp",
+              "width": 724,
+              "height": 724,
+              "bytes": 24066,
+              "sha256": "4f2f9968023967c1378f52ce0a28e7a22801f21e45d5c3c0bffc9f2dd03f1ace"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0664-female-anatomical-white-v1-thumb-8642ca5d9d87.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 2804,
+            "sha256": "8642ca5d9d87c2b7ebc6ecaa49d0bf667118cd305afb6536775aec2ab82f5223"
+          },
+          "processingSignature": "f826081d0b73f6395500d1859b307aeffbf5dd3790bc8a122a6e9903af73b7d8",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0664-female-anatomical-white-v1.png",
+            "width": 2172,
+            "height": 724,
+            "bytes": 1731777,
+            "sha256": "e941c405ac8bd85cd44d6d44737f0183cbd934bbebf38727cc9012db6194b1d8"
+          }
+        }
+      ]
+    }
+  ]
+}

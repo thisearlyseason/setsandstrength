@@ -1,0 +1,290 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "2714",
+      "variant": "male",
+      "key": "2714-male-anatomical-white-v1",
+      "layout": {
+        "columns": 1,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand tall holding one grip plate in each hand, arms out at shoulder height; keep shoulders down and core braced."
+        }
+      ],
+      "prompt": "STRONGMAN ICELAND CROSS STATIC HOLD, ONEPOSE only. FRONTthreequarter view. Standingfeetshoulderwidth kneessoft torsotall neutralneck. Hold ONE GRIP WEIGHTPLATE in EACHhand by integralovalhandle, plate hangsVERTICALLY BELOWhand OUTSIDEeachwrist. BOTHarms extend OUTTOSIDES at SHOULDERheight nearlystraight softelbows, wristsstraight, shouldersDOWN no shrug. Two plates distinct fullyvisible fingers securelywraphandles, palmsdown slightlyinward. Primary BOTH LATERAL DELTOIDS only red exposedshouldercaps, chesttankBLACK. Hold steady balanced no leaning. Premium detailed adult MALE grayscale anatomical illustration, approved original project reference STYLE ONLY ignore reference pose/highlights. White background soft contact shadows, crisp detailed exposed gray anatomical contours realistic proportions. Opaque BLACK tank and black mid-thigh shorts fully wrap front sides back seat crotch, normal fabric seams hems folds, black shoes. No cutaways or anatomy through fabric. Red over covered target ONLY small plain UNIFORM softcolorwash on normal fabric, no anatomy fibers lobes or striations. Only specified primary red, all other regions grayscale. Whole body equipment in frame generous margins, twoarms hands fivefingers twolegs feet. No text logos arrows.",
+      "inspectionNote": "Real output inspected. One static hold with plates hanging from integral hand grips, arms lateral at shoulder height, upright stance and exposed shoulder highlights only. Opaque clothing fully wraps body. Qualified review needed for wrist flexion versus neutral alignment, grip security, elbow softness and shoulder depression. Human anatomy review pending. No approval or publication.",
+      "canonicalName": "strongman iceland cross",
+      "styleVersion": "white-v1",
+      "equipment": "weight plate",
+      "primaryMuscles": [
+        "delts"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. One static hold with plates hanging from integral hand grips, arms lateral at shoulder height, upright stance and exposed shoulder highlights only. Opaque clothing fully wraps body. Qualified review needed for wrist flexion versus neutral alignment, grip security, elbow softness and shoulder depression. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2714-male-anatomical-white-v1-p1-02d656456c2c.webp",
+          "width": 1200,
+          "height": 800,
+          "bytes": 28436,
+          "sha256": "02d656456c2cfbf86795d0d1ab792865ece864ce17fb1efbecc64a15a16f900c"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-297.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2714-male-anatomical-white-v1-thumb-6891f46dfb9e.webp",
+        "width": 240,
+        "height": 160,
+        "bytes": 2218,
+        "sha256": "6891f46dfb9e1bc1b737fb5b43f089af0900be1d8f4ea405d3b3952d3d825c71"
+      },
+      "processingSignature": "22d3954dc49c55a83772abda71dd2a8c08a8e8e929975492ac22377f9db4a5a9",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2714-male-anatomical-white-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1361965,
+        "sha256": "c1940ebf8b35420984a4ec8a17f6cdd3a17361546cc65783ecbcd9552c210804"
+      }
+    },
+    {
+      "exerciseId": "2717",
+      "variant": "male",
+      "key": "2717-male-anatomical-white-v1",
+      "layout": {
+        "columns": 1,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hold one grip plate in each hand with arms out at shoulder height; keep wrists straight, shoulders down, and core braced."
+        }
+      ],
+      "prompt": "STRONGMAN CRUCIFIX STATIC HOLD, ONEPOSEonly. FRONT view balanced symmetrical. Standingfeetshoulderwidth torsoupright neutralhead. Eachhand holdsONE grip WEIGHTPLATE viaintegralhandle, plates hangVERTICAL BELOWhand. BOTHarmsOUTTOSIDES horizontalshoulderheight softnearlystraightelbows wristsstraight, shoulderbladesneutral shouldersdown noshrug. Fingerssecurehandles, noattachedstraps. Primary BOTH LATERAL DELTOIDS red exposedshouldercaps ONLY, alltankblack. Fullbody andbothplates visible. Premium detailed adult MALE grayscale anatomical illustration, approved original project reference STYLE ONLY ignore reference pose/highlights. White background soft contact shadows, crisp detailed exposed gray anatomical contours realistic proportions. Opaque BLACK tank and black mid-thigh shorts fully wrap front sides back seat crotch, normal fabric seams hems folds, black shoes. No cutaways or anatomy through fabric. Red over covered target ONLY small plain UNIFORM softcolorwash on normal fabric, no anatomy fibers lobes or striations. Only specified primary red, all other regions grayscale. Whole body equipment in frame generous margins, twoarms hands fivefingers twolegs feet. No text logos arrows.",
+      "inspectionNote": "Real output inspected. Single symmetrical crucifix hold, plates below hands, arms lateral at shoulder height and opaque clothing. Wrists visibly bend down instead of straight canonical alignment; block wrist correction. Qualified review of grip, elbow softness, shoulder position and highlight mapping required. Human anatomy review pending. No approval or publication.",
+      "blockingIssues": [
+        "Wrists bend down; correct to straight wrist alignment while securely gripping plate handles."
+      ],
+      "canonicalName": "strongman crucifix hold",
+      "styleVersion": "white-v1",
+      "equipment": "weight plate",
+      "primaryMuscles": [
+        "delts"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Single symmetrical crucifix hold, plates below hands, arms lateral at shoulder height and opaque clothing. Wrists visibly bend down instead of straight canonical alignment; block wrist correction. Qualified review of grip, elbow softness, shoulder position and highlight mapping required. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2717-male-anatomical-white-v1-p1-46c6af57c4e7.webp",
+          "width": 1200,
+          "height": 800,
+          "bytes": 29232,
+          "sha256": "46c6af57c4e707fd5467e20ccb84f007b0e1e74bf2901e23435a154f70b02f84"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-297.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2717-male-anatomical-white-v1-thumb-85ee609a30ef.webp",
+        "width": 240,
+        "height": 160,
+        "bytes": 2372,
+        "sha256": "85ee609a30efd327d18be0d29fcdb613756cf25f476f7f8ccdeb03b38ae56183"
+      },
+      "processingSignature": "91bacbac34c0635e27874a201034473a88516e3b1177d57bfee80936715f31fb",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2717-male-anatomical-white-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1353397,
+        "sha256": "6cdf4cf4bf162a60d25a6bec71720e7bd22a6e2eff83cd0d1f79c0e9d2d51934"
+      }
+    },
+    {
+      "exerciseId": "2718",
+      "variant": "male",
+      "key": "2718-male-anatomical-white-v1",
+      "layout": {
+        "columns": 1,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hold the plates forward at shoulder height with a braced core; keep shoulders down and avoid leaning back."
+        }
+      ],
+      "prompt": "STRONGMAN FRONT STATIC HOLD, ONEPOSEonly. SIDEthreequarter camera showing BOTHarms. Standtallfeetshoulderwidth kneesunlocked neutralpelvis noleanback. BOTHarms extend FORWARD to SHOULDERheight parallel toground elbowssoftnearlystraight. EachhandsecurelygraspsintegralhandleofONEgripWEIGHTPLATE, plates hangVERTICAL beloweachhand separated shoulderwidth, palmsinward wristsstraight. Shouldersdown neutralneck. Primary BOTH ANTERIOR DELTOIDS onlyred exposedfrontshouldercaps, chesttankBLACK nootherred. Premium detailed adult MALE grayscale anatomical illustration, approved original project reference STYLE ONLY ignore reference pose/highlights. White background soft contact shadows, crisp detailed exposed gray anatomical contours realistic proportions. Opaque BLACK tank and black mid-thigh shorts fully wrap front sides back seat crotch, normal fabric seams hems folds, black shoes. No cutaways or anatomy through fabric. Red over covered target ONLY small plain UNIFORM softcolorwash on normal fabric, no anatomy fibers lobes or striations. Only specified primary red, all other regions grayscale. Whole body equipment in frame generous margins, twoarms hands fivefingers twolegs feet. No text logos arrows.",
+      "inspectionNote": "Real output inspected. Single forward hold with separated plates below hands, arms near shoulder height and upright posture; anterior shoulders red and clothing opaque. Qualified review needed for wrist alignment, plate handle grip security, shoulder depression and avoiding lumbar extension. Human anatomy review pending. No approval or publication.",
+      "canonicalName": "strongman front hold",
+      "styleVersion": "white-v1",
+      "equipment": "weight plate",
+      "primaryMuscles": [
+        "delts"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Single forward hold with separated plates below hands, arms near shoulder height and upright posture; anterior shoulders red and clothing opaque. Qualified review needed for wrist alignment, plate handle grip security, shoulder depression and avoiding lumbar extension. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2718-male-anatomical-white-v1-p1-2790c136af1d.webp",
+          "width": 800,
+          "height": 1200,
+          "bytes": 41238,
+          "sha256": "2790c136af1d111a78d15ed5e8bfcb8295bb313a1ebd645afe1d0d369c2a28ba"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-297.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2718-male-anatomical-white-v1-thumb-9d861ba652a4.webp",
+        "width": 160,
+        "height": 240,
+        "bytes": 3068,
+        "sha256": "9d861ba652a4c1505694d87af489f47d5752616b69b1ce3caa005c598182b036"
+      },
+      "processingSignature": "ea2613b537a289012854135872ab3e2937fe1f85c7a66e17349d3e9dc1285060",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2718-male-anatomical-white-v1.png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1426138,
+        "sha256": "65060a4377f5f0424c89cbae64e3cb4172a2efe75bafb73a4d17c89524c20cd2"
+      }
+    },
+    {
+      "exerciseId": "2729",
+      "variant": "male",
+      "key": "2729-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Set the bar over mid-foot, hinge with a neutral back, and grip just outside knees."
+        },
+        {
+          "key": "p2",
+          "caption": "Drive through the floor to stand tall, keeping the bar close and arms straight; lower under control."
+        }
+      ],
+      "prompt": "STRONGMAN BARBELL DEADLIFT TWO equalcells SAME SIDErear threequarter camera. Standardstraightloadedbarbell noaxle nootherimplements. LEFT setup barONFLOOR overMIDFOOT inFRONTofshins, feethipwidth handsjustOUTSIDEknees DOUBLEOVERHAND, hipsback kneesbent chestup flatneutralback armsstraight shouldersslightlyaheadbar. RIGHT fullySTANDupright hipskneesextended neutralback noleanback, barhangsINFRONT ofTHIGHS handsoutsidelegs, armsstraight, barNEVERintersectsthighsorhips. Samefeet/barlength/loadperspective, platesoutsidehands. Primary GLUTES only smallplainuniformredwash on REAR/SIDESEAT of intactblackshorts, nofibers noexposedbuttock; allotherregionsgray/black. Premium detailed adult MALE grayscale anatomical illustration, approved original project reference STYLE ONLY ignore reference pose/highlights. White background soft contact shadows, crisp detailed exposed gray anatomical contours realistic proportions. Opaque BLACK tank and black mid-thigh shorts fully wrap front sides back seat crotch, normal fabric seams hems folds, black shoes. No cutaways or anatomy through fabric. Red over covered target ONLY small plain UNIFORM softcolorwash on normal fabric, no anatomy fibers lobes or striations. Only specified primary red, all other regions grayscale. Whole body equipment in frame generous margins, twoarms hands fivefingers twolegs feet. No text logos arrows.",
+      "inspectionNote": "Real output inspected. Floor-to-standing sequence with straight arms and plain red glute wash on opaque shorts. Bar appears behind shins and thighs instead of anterior over mid-foot; block bar/body geometry correction. Qualified review needed for neutral neck, hip height, grip clearance and lockout. Human anatomy review pending. No approval or publication.",
+      "blockingIssues": [
+        "Bar runs behind legs; correct to anterior shins at setup and in front of thighs at lockout."
+      ],
+      "canonicalName": "strongman deadlift",
+      "styleVersion": "white-v1",
+      "equipment": "barbell",
+      "primaryMuscles": [
+        "glutes"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Floor-to-standing sequence with straight arms and plain red glute wash on opaque shorts. Bar appears behind shins and thighs instead of anterior over mid-foot; block bar/body geometry correction. Qualified review needed for neutral neck, hip height, grip clearance and lockout. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2729-male-anatomical-white-v1-p1-3909d9ff30f5.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 36540,
+          "sha256": "3909d9ff30f5216bcaa50f4027523295be8e3d273c671fb03a2124e02057484f"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/2729-male-anatomical-white-v1-p2-aa2c27a4b21c.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 33594,
+          "sha256": "aa2c27a4b21c30a910e193eb2e58dfc6b0305390dbcaeccaa1e63b273b73e881"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-297.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2729-male-anatomical-white-v1-thumb-84c54bc8d37d.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 3532,
+        "sha256": "84c54bc8d37d0663e71dc65499ca595a2c3d777325612697a05021226bea37e7"
+      },
+      "processingSignature": "e0048aee2eecc5073c22bb314add96f94e6c96c13f29bde729cf0c574dae00b5",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2729-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1842448,
+        "sha256": "b6c43fa53d83490a90c42534230f01de72175c49719a8ec28a90a602867e92d8"
+      }
+    }
+  ]
+}

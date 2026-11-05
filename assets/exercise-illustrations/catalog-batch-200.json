@@ -1,0 +1,190 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "1508",
+      "variant": "male",
+      "key": "1508-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand on the middle of the band and hold its ends at your sides, with elbows slightly bent."
+        },
+        {
+          "key": "p2",
+          "caption": "Raise both arms out to shoulder height without shrugging, pause, then lower slowly."
+        }
+      ],
+      "prompt": "Use case scientific-educational. Original premium ADULT male detailed anatomical exercise illustration canonical1508 BAND LATERAL RAISE V2. TWO equal square cells side by side wide2:1 landscape same full body model camera scale FRONT three-quarter view. Feet hip-width soles planted fixed floor, knees soft torso tall neutral spine ribs down neck relaxed shoulders DOWN. ONE long flat GRAY elastic band middle secured UNDER BOTH shoe soles, each end held in corresponding hand palms inward at start thumbs wrap handles/ends. LEFT START arms down beside outer thighs softly bent elbows, each band strand taut from outside shoe to hand same side. RIGHT FINISH raise BOTH arms out LATERALLY to SIDES at SHOULDER HEIGHT forming T, elbows still soft 10degrees same bend, wrists neutral hands level slightly below elbows, no shrug or torso lean. Two visible continuous gray band strands elongate diagonally from under SAME shoe soles UP to SAME-side hands, no crossing or passing through body. Band same thickness material and anchor positioning both cells, no extra ropes. Primary exposed BOTH DELTOID shoulder caps RED ONLY, traps/biceps/triceps/chest forearms grayscale. Fine detailed grayscale exposed anatomical contours realistic hands fingers proportions. Full opaque BLACK tank wraps FRONT SIDES BACK and BLACK MID-THIGH shorts cover FRONT SIDES BACK SEAT CROTCH seams broad cloth folds no cutaways/transparency/fibers through fabric. Black shoes. Pure WHITE background soft floor shadows generous12percent margins FULL outstretched arms hands bands head both feet inside EACH SQUARE no crop. Equal male/female detailed quality. Original project reference rendering STYLE ONLY ignore pushup/chest red. No text labels captions arrows extra people.",
+      "inspectionNote": "Two band lateral raise candidates, four poses, two built-in calls. Arms down to shoulder-height lateral raise with band under both soles, bilateral deltoids red, full opaque clothes and detailed grayscale anatomy. Tool returned square masters with unequal-width pose regions; explicit cropBounds preserve each complete pose instead of equal halves. Qualified shoulder height/shrug, elbow softness, wrist/hand grip, underfoot band security and tension require human review. Original project artwork rendering style only, no upstream licensed input. Exact prompts/originals saved. No anatomy or clothing approval or publication. Seven pipeline checks do not establish anatomical accuracy.",
+      "cropBounds": [
+        [
+          0,
+          0,
+          0.36,
+          1
+        ],
+        [
+          0.375,
+          0,
+          1,
+          1
+        ]
+      ],
+      "canonicalName": "band lateral raise v. 2",
+      "styleVersion": "white-v1",
+      "equipment": "band",
+      "primaryMuscles": [
+        "delts"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Two band lateral raise candidates, four poses, two built-in calls. Arms down to shoulder-height lateral raise with band under both soles, bilateral deltoids red, full opaque clothes and detailed grayscale anatomy. Tool returned square masters with unequal-width pose regions; explicit cropBounds preserve each complete pose instead of equal halves. Qualified shoulder height/shrug, elbow softness, wrist/hand grip, underfoot band security and tension require human review. Original project artwork rendering style only, no upstream licensed input. Exact prompts/originals saved. No anatomy or clothing approval or publication. Seven pipeline checks do not establish anatomical accuracy.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/1508-male-anatomical-white-v1-p1-e6c83be20f28.webp",
+          "width": 432,
+          "height": 1200,
+          "bytes": 27154,
+          "sha256": "e6c83be20f28dda1e8366c4d1eb8fc3024e9479d85e0b6a8b05d494709608ebc"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/1508-male-anatomical-white-v1-p2-27af49089512.webp",
+          "width": 750,
+          "height": 1200,
+          "bytes": 31570,
+          "sha256": "27af49089512be94f278633c94420c448d54a96253d6a57325d37e4dec246862"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-200.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/1508-male-anatomical-white-v1-thumb-f97541626a59.webp",
+        "width": 86,
+        "height": 240,
+        "bytes": 2160,
+        "sha256": "f97541626a593582cb5754ff86f1fec0a1008c85ad56b0a1a784284653530fbd"
+      },
+      "processingSignature": "a59a866a972c3800b194887c8a6bedf7b08e528ebef2daf92d0f5d2c68c86a7a",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1508-male-anatomical-white-v1.png",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 1433242,
+        "sha256": "cf7c0fc8d31bb4b8b0cb8410999bf2a7dbda94c81090d4c21ab66bf5a28f23b6"
+      }
+    },
+    {
+      "exerciseId": "1508",
+      "variant": "female",
+      "key": "1508-female-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand on the middle of the band and hold its ends at your sides, with elbows slightly bent."
+        },
+        {
+          "key": "p2",
+          "caption": "Raise both arms out to shoulder height without shrugging, pause, then lower slowly."
+        }
+      ],
+      "prompt": "Use case scientific-educational. Original premium ADULT female detailed anatomical exercise illustration canonical1508 BAND LATERAL RAISE V2. TWO equal square cells side by side wide2:1 landscape same full body model camera scale FRONT three-quarter view. Feet hip-width soles planted fixed floor, knees soft torso tall neutral spine ribs down neck relaxed shoulders DOWN. ONE long flat GRAY elastic band middle secured UNDER BOTH shoe soles, each end held in corresponding hand palms inward at start thumbs wrap handles/ends. LEFT START arms down beside outer thighs softly bent elbows, each band strand taut from outside shoe to hand same side. RIGHT FINISH raise BOTH arms out LATERALLY to SIDES at SHOULDER HEIGHT forming T, elbows still soft 10degrees same bend, wrists neutral hands level slightly below elbows, no shrug or torso lean. Two visible continuous gray band strands elongate diagonally from under SAME shoe soles UP to SAME-side hands, no crossing or passing through body. Band same thickness material and anchor positioning both cells, no extra ropes. Primary exposed BOTH DELTOID shoulder caps RED ONLY, traps/biceps/triceps/chest forearms grayscale. Fine detailed grayscale exposed anatomical contours realistic hands fingers proportions. Full opaque BLACK tank wraps FRONT SIDES BACK and BLACK MID-THIGH shorts cover FRONT SIDES BACK SEAT CROTCH seams broad cloth folds no cutaways/transparency/fibers through fabric. Black shoes. Pure WHITE background soft floor shadows generous12percent margins FULL outstretched arms hands bands head both feet inside EACH SQUARE no crop. Equal male/female detailed quality. Original project reference rendering STYLE ONLY ignore pushup/chest red. No text labels captions arrows extra people.",
+      "inspectionNote": "Two band lateral raise candidates, four poses, two built-in calls. Arms down to shoulder-height lateral raise with band under both soles, bilateral deltoids red, full opaque clothes and detailed grayscale anatomy. Tool returned square masters with unequal-width pose regions; explicit cropBounds preserve each complete pose instead of equal halves. Qualified shoulder height/shrug, elbow softness, wrist/hand grip, underfoot band security and tension require human review. Original project artwork rendering style only, no upstream licensed input. Exact prompts/originals saved. No anatomy or clothing approval or publication. Seven pipeline checks do not establish anatomical accuracy.",
+      "cropBounds": [
+        [
+          0,
+          0,
+          0.39,
+          1
+        ],
+        [
+          0.4,
+          0,
+          1,
+          1
+        ]
+      ],
+      "canonicalName": "band lateral raise v. 2",
+      "styleVersion": "white-v1",
+      "equipment": "band",
+      "primaryMuscles": [
+        "delts"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Two band lateral raise candidates, four poses, two built-in calls. Arms down to shoulder-height lateral raise with band under both soles, bilateral deltoids red, full opaque clothes and detailed grayscale anatomy. Tool returned square masters with unequal-width pose regions; explicit cropBounds preserve each complete pose instead of equal halves. Qualified shoulder height/shrug, elbow softness, wrist/hand grip, underfoot band security and tension require human review. Original project artwork rendering style only, no upstream licensed input. Exact prompts/originals saved. No anatomy or clothing approval or publication. Seven pipeline checks do not establish anatomical accuracy.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/1508-female-anatomical-white-v1-p1-78b764495d20.webp",
+          "width": 468,
+          "height": 1200,
+          "bytes": 31732,
+          "sha256": "78b764495d20eeaf525f395a45ad421ca9f1c36a6f691c043c898c15ab65b0c1"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/1508-female-anatomical-white-v1-p2-057aa887d5d8.webp",
+          "width": 720,
+          "height": 1200,
+          "bytes": 35578,
+          "sha256": "057aa887d5d823d23792caedf864d4a9ecb81317e29f49126b15d772d2c158a2"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-200.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/1508-female-anatomical-white-v1-thumb-4f362c88c14f.webp",
+        "width": 94,
+        "height": 240,
+        "bytes": 2326,
+        "sha256": "4f362c88c14f487ab042864de5b3ab548fde72dd56a22a0a5e92902c3f6d2de4"
+      },
+      "processingSignature": "23c2531db9900b120f2cdd4305bf8f1f16e22c4e42b4cfb516174f8b4069a7ad",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1508-female-anatomical-white-v1.png",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 1515306,
+        "sha256": "7aaead8050aed34d0848ee814dc475e0599aa3e3cd42ee0c8d54e1d2f9b52ce6"
+      }
+    }
+  ]
+}

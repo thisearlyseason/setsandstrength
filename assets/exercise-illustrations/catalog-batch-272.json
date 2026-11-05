@@ -1,0 +1,359 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "2273",
+      "variant": "male",
+      "key": "2273-male-anatomical-white-v1",
+      "layout": {
+        "columns": 3,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand in guard with left foot forward and right foot back, hands at your chin."
+        },
+        {
+          "key": "p2",
+          "caption": "Drive from the back foot and turn the hips and shoulders to send the right hand straight toward the target. Keep the left hand guarding."
+        },
+        {
+          "key": "p3",
+          "caption": "Retract the right hand along the same line and return to guard."
+        }
+      ],
+      "prompt": " THREEequalcells sidebyside WIDE3:1 SAME SIDEfrontthreequartercamera facingTARGETimageLEFT inALLposes. MaleORTHODOX LEFTfootLEAD towardimageLEFT RIGHTfootREARtowardimageRIGHT kneesSOFT handsUPguardchin. Keepstancefeetidentityconsistent no reversed limbs. BOXING RIGHT CROSS. LEFTguardBOTHfistsCHIN elbowsdown chinTUCKED. MIDDLEpushRIGHTrearFOOTBALL pivotheelup rotateRIGHTHIPandSHOULDERFORWARD towardtargetimageLEFT, RIGHTREARarmextendsSTRAIGHT toIMAGELEFT atshoulderheight wristSTRAIGHT palmDOWN, LEFTleadFISTSTAYSleftCHEEKguard, no sidehook no elbowlock. RIGHTcellRIGHTfistreturnsCHINguard feetandgazeSTILLimageLEFT. PrimaryRIGHTexposedANTERIORDELTOID redonly allcells, chestblack. Premium detailed adult MALE grayscale anatomical illustration matching original project reference rendering STYLE ONLY, ignore reference exercise/highlights. Pure white background soft shadows realistic proportions crisp detailed exposed gray muscle contours. Opaque BLACK tank and mid-thigh shorts fully wrap front sides back seat crotch with seams hems folds. NO cutaways transparency or anatomy through fabric. Red over clothing plain UNIFORM SOFT teaching ellipse NO internal fibers rays lobes segmentation, ordinary fabric folds retained. Only specified primary red, all other muscles gray. Black shoes. Two coherent arms hands five fingers two legs feet, normal closed fists with thumbs outside fingers. Whole body equipment hands feet within each cell margins. No text arrows logos.",
+      "inspectionNote": "Real output inspected. Three poses show consistent image-left target, guard, straight rear-hand punch with rear heel pivot, and return. Red shoulder laterality switches between guard and punch instead of consistently marking working right deltoid; block for highlight consistency. Qualified review of lead-hand guard, hip rotation, wrist pronation, stance and fist anatomy. Human anatomy review remains pending; no approval or publication.",
+      "blockingIssues": [
+        "Shoulder highlight switches laterality between guard and punch; consistently mark working right deltoid."
+      ],
+      "canonicalName": "boxing right cross",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "delts"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Three poses show consistent image-left target, guard, straight rear-hand punch with rear heel pivot, and return. Red shoulder laterality switches between guard and punch instead of consistently marking working right deltoid; block for highlight consistency. Qualified review of lead-hand guard, hip rotation, wrist pronation, stance and fist anatomy. Human anatomy review remains pending; no approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2273-male-anatomical-white-v1-p1-accac90a506b.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 21040,
+          "sha256": "accac90a506b690de67400c6dc05ba63118c487e8f801f17bad36a6a6950ac4e"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/2273-male-anatomical-white-v1-p2-0ef69e8eb83e.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 23018,
+          "sha256": "0ef69e8eb83e7533fd9ec98998ce6361ef31e2d1894339201bfd4e8b9a0fa5f9"
+        },
+        {
+          "pose": "p3",
+          "path": "/workout/illustration-pilot/2273-male-anatomical-white-v1-p3-ff4567596ae5.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 21064,
+          "sha256": "ff4567596ae511f67aef7c5b94330b21b9e6708755355d4cc116548ef5141b8e"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-272.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2273-male-anatomical-white-v1-thumb-acf1ea5eb121.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2970,
+        "sha256": "acf1ea5eb121c2773f7530018f22b14d3ba5ab04e8387efd5ac99a1ed2e83816"
+      },
+      "processingSignature": "9d0224c63f104f2620b0b7d24af3cfb01d44de598cb3138c3015a40d4c02c34c",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2273-male-anatomical-white-v1.png",
+        "width": 2172,
+        "height": 724,
+        "bytes": 1457266,
+        "sha256": "c01f067da203e8a3104940f5bd3ff4f414e6593a42966a24a8ba69350a0b2d11"
+      }
+    },
+    {
+      "exerciseId": "2274",
+      "variant": "male",
+      "key": "2274-male-anatomical-white-v1",
+      "layout": {
+        "columns": 3,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand in guard, bend your knees slightly and dip the right side. Keep the left hand at your chin."
+        },
+        {
+          "key": "p2",
+          "caption": "Drive upward through your legs and hip turn, sending the bent right arm upward with palm facing you."
+        },
+        {
+          "key": "p3",
+          "caption": "Return the right hand to guard and reset your stance."
+        }
+      ],
+      "prompt": " THREEequalcells sidebyside WIDE3:1 SAME SIDEfrontthreequartercamera facingTARGETimageLEFT inALLposes. MaleORTHODOX LEFTfootLEAD towardimageLEFT RIGHTfootREARtowardimageRIGHT kneesSOFT handsUPguardchin. Keepstancefeetidentityconsistent no reversed limbs. BOXING RIGHT UPPERCUT. LEFTsetupguard withkneesDIPslightly RIGHTsideDOWN rightfistnearRIGHTLOWERRIB ready, LEFTfistLEFTCHEEKguard. MIDDLElegdriveUP rotateRIGHTHIPtowardimageLEFT, RIGHTelbowBENT90 closeRIBS rightFISTrisesUPinfrontCHIN toTARGETimageLEFT PALMFACEStheMODEL chest, notstraightjabnot overhand, LEFTfistSTAYSCHEEK. RIGHTcellBOTHfistsreturnCHINguard stanceunchanged. PrimaryRIGHTexposedANTERIORDELTOID redonly allcells chestblack. Premium detailed adult MALE grayscale anatomical illustration matching original project reference rendering STYLE ONLY, ignore reference exercise/highlights. Pure white background soft shadows realistic proportions crisp detailed exposed gray muscle contours. Opaque BLACK tank and mid-thigh shorts fully wrap front sides back seat crotch with seams hems folds. NO cutaways transparency or anatomy through fabric. Red over clothing plain UNIFORM SOFT teaching ellipse NO internal fibers rays lobes segmentation, ordinary fabric folds retained. Only specified primary red, all other muscles gray. Black shoes. Two coherent arms hands five fingers two legs feet, normal closed fists with thumbs outside fingers. Whole body equipment hands feet within each cell margins. No text arrows logos.",
+      "inspectionNote": "Real output inspected. Three positions show right-side dip, bent-arm rising right fist and return to guard, opposite hand near chin and consistent stance/target. Red remains working right shoulder, clothing opaque and fists framed. Qualified review needed for uppercut palm orientation, leg/hip drive, punch range, shoulder mapping and normal fist/thumb anatomy. Human anatomy review remains pending; no approval or publication.",
+      "canonicalName": "boxing right uppercut",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "delts"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Three positions show right-side dip, bent-arm rising right fist and return to guard, opposite hand near chin and consistent stance/target. Red remains working right shoulder, clothing opaque and fists framed. Qualified review needed for uppercut palm orientation, leg/hip drive, punch range, shoulder mapping and normal fist/thumb anatomy. Human anatomy review remains pending; no approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2274-male-anatomical-white-v1-p1-c5cd1d18c834.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 22704,
+          "sha256": "c5cd1d18c8346cd6b8582f7c4f0561a8b17aa0569df369ec01a93202e64304c4"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/2274-male-anatomical-white-v1-p2-3b5b192beb13.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 23224,
+          "sha256": "3b5b192beb1326b1b67ee554cb2e9a0b366057e2889b10afcdab41860b35a36a"
+        },
+        {
+          "pose": "p3",
+          "path": "/workout/illustration-pilot/2274-male-anatomical-white-v1-p3-a46a58676eaa.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 21512,
+          "sha256": "a46a58676eaaca51b9dbac9ea6e3ca81f24fcf02de76fc8340949f0f32c1ea8c"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-272.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2274-male-anatomical-white-v1-thumb-b88f3be99695.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 3118,
+        "sha256": "b88f3be99695610144bf42f8c58a9deae5429f7e0e3112e0a77ff0402311a42b"
+      },
+      "processingSignature": "3f212efa59231a658e2d798b3bb560110ba72772e4362815129cb3184faf8eca",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2274-male-anatomical-white-v1.png",
+        "width": 2172,
+        "height": 724,
+        "bytes": 1467968,
+        "sha256": "b33bdfc0ca101a5c8d8bd80877cc9dfe0bd89625c49ee93dd05b3756f04f3bdb"
+      }
+    },
+    {
+      "exerciseId": "2275",
+      "variant": "male",
+      "key": "2275-male-anatomical-white-v1",
+      "layout": {
+        "columns": 3,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand in guard, bend your knees slightly and dip the left side while the right hand guards your chin."
+        },
+        {
+          "key": "p2",
+          "caption": "Drive upward through your legs and hip turn, sending the bent left arm upward with palm facing you."
+        },
+        {
+          "key": "p3",
+          "caption": "Return the left hand to guard and reset your stance."
+        }
+      ],
+      "prompt": " THREEequalcells sidebyside WIDE3:1 SAME SIDEfrontthreequartercamera facingTARGETimageLEFT inALLposes. MaleORTHODOX LEFTfootLEAD towardimageLEFT RIGHTfootREARtowardimageRIGHT kneesSOFT handsUPguardchin. Keepstancefeetidentityconsistent no reversed limbs. BOXING LEFT UPPERCUT. LEFTsetupguard kneesDIPslightly LEFTsideDOWN LEFTfistnearLEFTLOWERRIB ready RIGHTfistRIGHTCHEEKguard. MIDDLElegdriveUP rotateLEFTHIPtowardTARGETimageLEFT, LEFTelbowBENT90 closeRIBS LEFTFISTrisesUPinfrontCHIN towardimageLEFT palmFACEStheMODEL chest, no straightjabno overhand. RIGHTfistSTAYSCHEEK. RIGHTcellBOTHfistsreturnCHINguard feetunchanged. PrimaryLEFTexposedANTERIORDELTOID redonly allcells chestblack. Premium detailed adult MALE grayscale anatomical illustration matching original project reference rendering STYLE ONLY, ignore reference exercise/highlights. Pure white background soft shadows realistic proportions crisp detailed exposed gray muscle contours. Opaque BLACK tank and mid-thigh shorts fully wrap front sides back seat crotch with seams hems folds. NO cutaways transparency or anatomy through fabric. Red over clothing plain UNIFORM SOFT teaching ellipse NO internal fibers rays lobes segmentation, ordinary fabric folds retained. Only specified primary red, all other muscles gray. Black shoes. Two coherent arms hands five fingers two legs feet, normal closed fists with thumbs outside fingers. Whole body equipment hands feet within each cell margins. No text arrows logos.",
+      "inspectionNote": "Real output inspected. Three poses show left-side dip with fist low, bent left fist raised in front of torso and return to guard, opposite right fist maintained near face. Left deltoid red consistent, clothing opaque. Qualified review needed for clear upward punch range versus merely returning to guard, palm orientation, leg/hip drive, target trajectory and fist anatomy. Human anatomy review remains pending; no approval or publication.",
+      "canonicalName": "boxing left uppercut",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "delts"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Three poses show left-side dip with fist low, bent left fist raised in front of torso and return to guard, opposite right fist maintained near face. Left deltoid red consistent, clothing opaque. Qualified review needed for clear upward punch range versus merely returning to guard, palm orientation, leg/hip drive, target trajectory and fist anatomy. Human anatomy review remains pending; no approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2275-male-anatomical-white-v1-p1-201580d3d149.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 22118,
+          "sha256": "201580d3d149152341ac07b6b231bcdddce89bf411081f10a9d119476842affa"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/2275-male-anatomical-white-v1-p2-f248bcb3fe4e.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 21168,
+          "sha256": "f248bcb3fe4e40b5cad58cfb4bb04bd50978fbec58e376401158cc3af7ce55b8"
+        },
+        {
+          "pose": "p3",
+          "path": "/workout/illustration-pilot/2275-male-anatomical-white-v1-p3-b8cafbc1bb27.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 21182,
+          "sha256": "b8cafbc1bb274443730ab49041c32731a747c5012020eee6dd6809fff7b99b04"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-272.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2275-male-anatomical-white-v1-thumb-b9fb589c12d3.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 3160,
+        "sha256": "b9fb589c12d3ffb3dff92d3bdaa25ab4634caa46b17111f71fd2d9300294e2e2"
+      },
+      "processingSignature": "03f93c9157423110086e6f30add9de4ab90054ffe6a33ef8d8007d8c7c50aee5",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2275-male-anatomical-white-v1.png",
+        "width": 2172,
+        "height": 724,
+        "bytes": 1433462,
+        "sha256": "73454f450e6036ec7d9c32f9af33923803a7801e2905cea9237d55f3e0b8f9d4"
+      }
+    },
+    {
+      "exerciseId": "2277",
+      "variant": "male",
+      "key": "2277-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Sit with the handles at mid-chest height, back supported and shoulder blades gently drawn together."
+        },
+        {
+          "key": "p2",
+          "caption": "Press the handles forward until the arms are almost straight without locking the elbows. Return slowly under control."
+        }
+      ],
+      "prompt": "LEVER CHEST PRESS V4. TWOequalcells sidebyside sameFRONT SIDEthreequartercamera. RealisticGRAYPLATELOADEDCHESTPRESSmachine stableBASESEATBACKPAD, TWOindependentMOVINGLEVERARMS connectedfixedpivots side/rear andmodestplatehorns, pairedneutralgripHANDLES atMIDCHESTheight. MaleBACKpadshoulderbladesgentlyretracted feetFLATfloor pelvisseatfixed. LEFTstartelbowsBENT90 slightlybelowshoulderheight handlesMIDCHESTbesidetorso. RIGHTpressHANDLESFORWARD alongmachinearc armsalmostSTRAIGHT elbowsSOFTnotlocked, handsstayMIDCHESTlevel shoulderDOWN notshrug. MachineBASESEATBACKPADunchanged leverarmsrotatepivots notcables. PrimaryCHEST only TWOplainuniformsoftREDellipses on intacttankPECareas nointernalfibers. Entireplatesmachinehandsfeetframe. Premium detailed adult MALE grayscale anatomical illustration matching original project reference rendering STYLE ONLY, ignore reference exercise/highlights. Pure white background soft shadows realistic proportions crisp detailed exposed gray muscle contours. Opaque BLACK tank and mid-thigh shorts fully wrap front sides back seat crotch with seams hems folds. NO cutaways transparency or anatomy through fabric. Red over clothing plain UNIFORM SOFT teaching ellipse NO internal fibers rays lobes segmentation, ordinary fabric folds retained. Only specified primary red, all other muscles gray. Black shoes. Two coherent arms hands five fingers two legs feet, normal closed fists with thumbs outside fingers. Whole body equipment hands feet within each cell margins. No text arrows logos.",
+      "inspectionNote": "Real output inspected. Two plate-loaded chest-press positions, handles retracted then forward with elbows nearly straight, back supported and feet planted. Machine levers rotate and plain chest teaching ellipses remain on intact tank. Qualified review of handle mid-chest height, soft lockout, shoulder-blade position, lever/pivot loading geometry, grip and chest mapping. Human anatomy review remains pending; no approval or publication.",
+      "canonicalName": "lever chest press v. 4",
+      "styleVersion": "white-v1",
+      "equipment": "leverage machine",
+      "primaryMuscles": [
+        "pectorals"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Two plate-loaded chest-press positions, handles retracted then forward with elbows nearly straight, back supported and feet planted. Machine levers rotate and plain chest teaching ellipses remain on intact tank. Qualified review of handle mid-chest height, soft lockout, shoulder-blade position, lever/pivot loading geometry, grip and chest mapping. Human anatomy review remains pending; no approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2277-male-anatomical-white-v1-p1-85c03f8ca37c.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 61882,
+          "sha256": "85c03f8ca37cbd81f9568adb0c4c221c8cccf2a6352477ac0bcc4272e7d45ea2"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/2277-male-anatomical-white-v1-p2-040db77f29c9.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 63440,
+          "sha256": "040db77f29c9dca0a814520f34a5e9f37032f40755405e03319d1f9c9131c175"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-272.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2277-male-anatomical-white-v1-thumb-919ad7edcdff.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 6644,
+        "sha256": "919ad7edcdff50d514054ca684f104e438fb66900b9a1c2f369256f22b96063c"
+      },
+      "processingSignature": "b8cc1b302c383f9771f98bf72d4568e2fb626a4f8c5197d03a8e536912219d28",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2277-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1869940,
+        "sha256": "81e5706796cc250461d9c9195e325f406bb3acbc5ae5872e3f63ce99523f34c4"
+      }
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "batch": 214,
+  "runId": "6dd3fac0-f7ac-4863-a0c5-9d429b2e465f",
+  "trigger": "2026-11-03T14:40:00.766Z",
+  "completedAt": "2026-11-03T14:47:24.945538+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 2,
+  "calls": 2,
+  "exerciseIds": [
+    "1609"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 742,
+    "remainingVariants": 10522,
+    "approvedVariants": 0,
+    "blockedVariants": 243,
+    "knownPoseImages": 1456,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Two cable one-arm side pushdown candidates, four poses, two built-in calls. Real outputs inspected: male nearer arm bends to extension with taut cable and red exposed triceps. Female uses farther arm across torso and is BLOCKED for canonical side/arm mismatch. Opaque tank and shorts retained; hands, elbow stability, cable geometry and triceps mapping need qualified human review. Original artwork style only, no upstream media. Exact prompts and masters retained. No anatomical approval or publication.",
+  "tests": 7,
+  "genCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 1163312446,
+  "savedMasters": [
+    "assets/exercise-illustrations/generated/1609-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/1609-female-anatomical-white-v1.png"
+  ]
+}

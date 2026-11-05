@@ -1,0 +1,65 @@
+{
+  "batch": 199,
+  "runId": "7f32deb5-0dc4-4be5-8673-446bd0c19deb",
+  "trigger": "2026-11-03T12:47:29.937Z",
+  "completedAt": "2026-11-03T12:53:07.323830+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 2,
+  "generationCalls": 2,
+  "exerciseIds": [
+    "1502"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 712,
+    "remainingVariants": 10552,
+    "approvedVariants": 0,
+    "blockedVariants": 235,
+    "knownPoseImages": 1400,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Two high-anchor band pushdown candidates, four poses, two built-in calls. Bent elbows to straight arms beside thighs, continuous taut bands from fixed high anchor and exposed triceps red. Full opaque clothes and detailed grayscale anatomy retained. Qualified band grip/anchor security, elbow drift, wrist alignment, torso position and far-arm muscle mapping require human review. Original project artwork rendering style only, no upstream licensed input. Exact prompts/originals saved. No anatomy or clothing approval or publication. Seven pipeline checks do not establish anatomical accuracy.",
+  "metadataConflictsDeferred": {
+    "1505": "Band anchor/load route unspecified."
+  },
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 1121096306,
+  "savedMasters": [
+    {
+      "exerciseId": "1502",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1502-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1457349,
+        "sha256": "2685cbbf37d26d3d67290a64b8c1cc69dfc3e426efd090f33f13884b2dfbe703"
+      }
+    },
+    {
+      "exerciseId": "1502",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1502-female-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1444480,
+        "sha256": "4a33374b649b9ef1cddfd2390fc1e877131e246795b589fb39bdb1f203ec3761"
+      }
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "batch": 345,
+  "runId": "675176de-a7df-4f45-9cb5-8447a550006d",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "trigger": "2026-11-04T11:51:32.013Z",
+  "purpose": "batch345 scheduled male continuation",
+  "started": "2026-11-04T11:51:48.470567+00:00",
+  "completedAt": "2026-11-04T11:56:58.426764+00:00",
+  "actualToolName": "image_gen__imagegen",
+  "calls": 4,
+  "newCandidateSets": 4,
+  "exerciseIds": [
+    "3322",
+    "3323",
+    "3324",
+    "3325"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1238,
+    "remainingVariants": 10026,
+    "approvedVariants": 0,
+    "blockedVariants": 460,
+    "knownPoseImages": 2428,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 865,
+      "remainingVariants": 4767,
+      "blockedVariants": 341
+    }
+  },
+  "reviewNotes": {
+    "3322": "Single kettlebell between feet at floor then standing, both hands on handle, opaque clothing/plain glute wash. Qualified hinge-versus-squat depth, hand anatomy, neck alignment and bell path review pending.",
+    "3323": "Supine, elbow-supported and hand-supported half-get-up phases visible with opaque clothes, but supine bent knee appears opposite bell arm and leg arrangement changes between panels. Correction needed for consistent same-side knee/loaded arm.",
+    "3324": "Low rear anchor and alternating upward press arms visible with steady split stance. Red pectoral lobes through tank require plain-wash correction. Qualified torso rotation, band continuity and hand grip review pending.",
+    "3325": "Low front anchor and row sequence visible with opaque clothing, but second/third panels repeat same rowing arm. Red upper-back anatomical segmentation through tank also needs plain-wash correction."
+  },
+  "blockingIssues": {
+    "3323": [
+      "Keep bent knee on same side as kettlebell arm and preserve the same leg arrangement in all phases."
+    ],
+    "3324": [
+      "Replace anatomical pectoral lobes through tank with plain uniform wash on intact opaque fabric."
+    ],
+    "3325": [
+      "Show opposite rowing arm in final panel instead of repeating same arm.",
+      "Replace upper-back anatomical segmentation through tank with plain uniform wash."
+    ]
+  },
+  "deferred": {},
+  "tests": 7,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "workerSyncResult": {
+    "statuses": {
+      "generated": 1238,
+      "pending": 10026
+    },
+    "remaining": 10026,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 1889828671
+  },
+  "publicationIndexUnchanged": true
+}

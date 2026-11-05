@@ -1,0 +1,42 @@
+{
+  "batch": 26,
+  "trigger": "2026-11-01T06:49:11.672Z",
+  "completedAt": "2026-11-01T06:54:18.319962+00:00",
+  "tool": "image_gen.imagegen",
+  "newCandidateSets": 4,
+  "generationCalls": 5,
+  "exerciseIds": [
+    "1372",
+    "5555"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 96,
+    "remainingVariants": 11168,
+    "approvedVariants": 0,
+    "blockedVariants": 38,
+    "knownPoseImages": 198,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "All pending, none published. Calf raise opaque clothing, posterior highlights and heel lift visually inspected. Both good-morning variants blocked for qualified lumbar/neck alignment review; female warm-skin v1 retained and corrected to grayscale v2.",
+  "metadataConflictFlag": {
+    "exerciseId": "0313",
+    "issue": "Hammer curl description says neutral palms; instructions rotate palms forward. Skipped rather than guessing; qualified record review required."
+  },
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 158957933,
+  "deliveryBytes": 6959774
+}

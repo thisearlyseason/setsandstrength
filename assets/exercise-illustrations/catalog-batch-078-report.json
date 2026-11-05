@@ -1,0 +1,110 @@
+{
+  "batch": 78,
+  "trigger": "2026-11-01T16:28:48.153Z",
+  "completedAt": "2026-11-01T16:41:45.581850+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 4,
+  "generationCalls": 6,
+  "exerciseIds": [
+    "0540",
+    "0546"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 320,
+    "remainingVariants": 10944,
+    "approvedVariants": 0,
+    "blockedVariants": 133,
+    "knownPoseImages": 664,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Four pending candidate sets, none approved or published. One-arm push presses show rack, shallow dip and standing overhead with same loaded right arm and empty left hand. Male correction places red on loaded shoulder consistently. Female correction removes unloaded shoulder red but places red on forearm in rack/dip phases; remains explicitly blocked for target localization. Both corrections and originals retained. Seated male/female presses show two bells, supported hips, planted feet, complete bench and overhead lockout with opaque wrapping clothing; female overhead WebP crop visually checked. Qualified human anatomy, grip, wrist/load alignment, shoulder mapping, leg drive and support review remain mandatory. Pipeline checks do not approve anatomy. Original 0493 male project artwork used only as rendering style reference, no upstream media.",
+  "metadataConflictsDeferred": [
+    {
+      "exerciseId": "0537",
+      "issue": "Clean-and-jerk title/description versus continuous shoulder-to-overhead punch instruction without rack/dip; primary muscle map also differs from target."
+    },
+    {
+      "exerciseId": "0538",
+      "issue": "Jerk description implies leg-led drive while instructions order arm press before dip; qualified sequence review needed."
+    },
+    {
+      "exerciseId": "0539",
+      "issue": "To-the-side title/description lacks explicit lateral path in generic overhead press instructions."
+    },
+    {
+      "exerciseId": "0542",
+      "issue": "Deltoid target versus supplied multi-muscle primary map needs qualified localization review."
+    },
+    {
+      "exerciseId": "0543",
+      "issue": "Pirate supper legs description hinge/carry conflicts with overhead press instructions."
+    },
+    {
+      "exerciseId": "0547",
+      "issue": "Seesaw simultaneous opposing movement is distinct from 0520 alternating press; preserve ID and clarify transition pose before reuse."
+    }
+  ],
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 519547385,
+  "savedMasters": [
+    {
+      "exerciseId": "0540",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0540-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1692212,
+        "sha256": "b2f9f76dc35e65fdd7679e9c87304867634ae6f936726146bafa754029f1d964"
+      }
+    },
+    {
+      "exerciseId": "0540",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0540-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1681902,
+        "sha256": "786c5381ff30e6b7356973a984b06781cc6b110fe8c93bd9cb0dd21ec78bfcf4"
+      }
+    },
+    {
+      "exerciseId": "0546",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0546-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1773689,
+        "sha256": "6e73e4af1dedd629c33ea9141f8f331f6f319c322c8dbba3da00f090c2e1451c"
+      }
+    },
+    {
+      "exerciseId": "0546",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0546-female-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1759247,
+        "sha256": "040113de788a2776732b0f82436a6d99ba1719e7095509d615d2874ec75d0d15"
+      }
+    }
+  ]
+}

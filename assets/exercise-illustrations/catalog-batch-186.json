@@ -1,0 +1,168 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "1412",
+      "variant": "male",
+      "key": "1412-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Support both forearms on the bench with palms up and wrists beyond the edge. Hold the bar securely and lower your hands through the wrists."
+        },
+        {
+          "key": "p2",
+          "caption": "Curl both wrists upward while keeping your forearms and elbows still, pause, then lower slowly."
+        }
+      ],
+      "prompt": "Use case scientific-educational. Premium original ADULT male detailed anatomical illustration canonical1412 BARBELL PALMS UP WRIST CURL OVER BENCH. TWO equal square cells side by side wide2:1 landscape, same person camera scale. Front-side three-quarter full body view. Seated on stable low seat behind separate narrow flat padded gray bench extending toward viewer. BOTH forearms rest along top of bench palms UP, elbows bent90 stationary, forearms horizontal parallel, wrists just beyond NEAR bench edge, hands unsupported. Hold one LIGHT straight chrome BARBELL with small equal plates, shoulder-width UNDERHAND supinated grasp, both palms visibly upward, fingers wrapped bar thumbs opposed. Bar oriented horizontally left-right perpendicular forearms, clear of bench. LEFT START wrists EXTENDED hands tilted DOWN below forearm line, bar lower. RIGHT FINISH wrists FLEX upward, palms curl toward forearms bar rises several centimeters, forearms elbows body remain identically supported stationary; NOT biceps elbow curl. Show real wrist articulation and credible finger grip in BOTH poses, bar same mass/length and plane. Torso slight forward hip hinge neutral spine, feet flat floor knees bent stable. Primary exposed inner/front forearm FLEXOR muscles RED BOTH arms ONLY, not biceps or hands. Detailed fine grayscale other exposed muscle contours realistic anatomy fingers feet proportions. Full opaque BLACK tank wraps front sides back and BLACK mid-thigh shorts cover front sides back seat crotch with seams broad real cloth folds no cutaways/transparency/fibers through fabric. Black shoes. White background subtle contact shadows generous12percent margins whole head plates hands bench feet within EACH square no crop. Original project reference rendering STYLE ONLY ignore pushup chest red. Equal male/female quality. No text captions arrows extra people.",
+      "inspectionNote": "Two palms-up barbell wrist curl candidates, four poses, two built-in calls. Both BLOCKED: Finish wrists and hands move back over padded bench rather than remaining unsupported beyond edge; forearms shift, so isolated wrist articulation and unchanged support are not established. Red forearm flexors and opaque tank/shorts retained with detailed grayscale exposed anatomy. Qualified grip, wrist range, forearm pressure and elbow stability need review. Original project artwork style only, no upstream licensed input. Exact prompts and originals saved. No anatomy/clothing approval or publication. Seven pipeline checks do not establish anatomical accuracy.",
+      "blockingIssues": [
+        "Finish wrists and hands move back over padded bench rather than remaining unsupported beyond edge; forearms shift, so isolated wrist articulation and unchanged support are not established."
+      ],
+      "canonicalName": "barbell palms up wrist curl over a bench",
+      "styleVersion": "white-v1",
+      "equipment": "barbell",
+      "primaryMuscles": [
+        "forearms"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Two palms-up barbell wrist curl candidates, four poses, two built-in calls. Both BLOCKED: Finish wrists and hands move back over padded bench rather than remaining unsupported beyond edge; forearms shift, so isolated wrist articulation and unchanged support are not established. Red forearm flexors and opaque tank/shorts retained with detailed grayscale exposed anatomy. Qualified grip, wrist range, forearm pressure and elbow stability need review. Original project artwork style only, no upstream licensed input. Exact prompts and originals saved. No anatomy/clothing approval or publication. Seven pipeline checks do not establish anatomical accuracy.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/1412-male-anatomical-white-v1-p1-cfd96b2a012b.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 52266,
+          "sha256": "cfd96b2a012be440e0755955a0776ab629e8e29fa9c05303bdb179a0bf36fdff"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/1412-male-anatomical-white-v1-p2-5392655d8e17.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 46692,
+          "sha256": "5392655d8e1736b8f276dcec0c23bb6fbf2cf99032e8a9863dd5ded16bc4fef5"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-186.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/1412-male-anatomical-white-v1-thumb-ccb0698514b6.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 4792,
+        "sha256": "ccb0698514b62b65c6a11ab4ee09bb327add1f6b5a50190a12d918ed72c7608f"
+      },
+      "processingSignature": "fd40bc2c99a4eb3d370ed1f99217c3daedb379e097c88945780b5e35bae3b5cc",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1412-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1685771,
+        "sha256": "aabc20db827673ab40cdd2055113759dc6bbd572aba5f40c633a32dafab10c3f"
+      }
+    },
+    {
+      "exerciseId": "1412",
+      "variant": "female",
+      "key": "1412-female-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Support both forearms on the bench with palms up and wrists beyond the edge. Hold the bar securely and lower your hands through the wrists."
+        },
+        {
+          "key": "p2",
+          "caption": "Curl both wrists upward while keeping your forearms and elbows still, pause, then lower slowly."
+        }
+      ],
+      "prompt": "Use case scientific-educational. Premium original ADULT female detailed anatomical illustration canonical1412 BARBELL PALMS UP WRIST CURL OVER BENCH. TWO equal square cells side by side wide2:1 landscape, same person camera scale. Front-side three-quarter full body view. Seated on stable low seat behind separate narrow flat padded gray bench extending toward viewer. BOTH forearms rest along top of bench palms UP, elbows bent90 stationary, forearms horizontal parallel, wrists just beyond NEAR bench edge, hands unsupported. Hold one LIGHT straight chrome BARBELL with small equal plates, shoulder-width UNDERHAND supinated grasp, both palms visibly upward, fingers wrapped bar thumbs opposed. Bar oriented horizontally left-right perpendicular forearms, clear of bench. LEFT START wrists EXTENDED hands tilted DOWN below forearm line, bar lower. RIGHT FINISH wrists FLEX upward, palms curl toward forearms bar rises several centimeters, forearms elbows body remain identically supported stationary; NOT biceps elbow curl. Show real wrist articulation and credible finger grip in BOTH poses, bar same mass/length and plane. Torso slight forward hip hinge neutral spine, feet flat floor knees bent stable. Primary exposed inner/front forearm FLEXOR muscles RED BOTH arms ONLY, not biceps or hands. Detailed fine grayscale other exposed muscle contours realistic anatomy fingers feet proportions. Full opaque BLACK tank wraps front sides back and BLACK mid-thigh shorts cover front sides back seat crotch with seams broad real cloth folds no cutaways/transparency/fibers through fabric. Black shoes. White background subtle contact shadows generous12percent margins whole head plates hands bench feet within EACH square no crop. Original project reference rendering STYLE ONLY ignore pushup chest red. Equal male/female quality. No text captions arrows extra people.",
+      "inspectionNote": "Two palms-up barbell wrist curl candidates, four poses, two built-in calls. Both BLOCKED: Finish wrists and hands move back over padded bench rather than remaining unsupported beyond edge; forearms shift, so isolated wrist articulation and unchanged support are not established. Red forearm flexors and opaque tank/shorts retained with detailed grayscale exposed anatomy. Qualified grip, wrist range, forearm pressure and elbow stability need review. Original project artwork style only, no upstream licensed input. Exact prompts and originals saved. No anatomy/clothing approval or publication. Seven pipeline checks do not establish anatomical accuracy.",
+      "blockingIssues": [
+        "Finish wrists and hands move back over padded bench rather than remaining unsupported beyond edge; forearms shift, so isolated wrist articulation and unchanged support are not established."
+      ],
+      "canonicalName": "barbell palms up wrist curl over a bench",
+      "styleVersion": "white-v1",
+      "equipment": "barbell",
+      "primaryMuscles": [
+        "forearms"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Two palms-up barbell wrist curl candidates, four poses, two built-in calls. Both BLOCKED: Finish wrists and hands move back over padded bench rather than remaining unsupported beyond edge; forearms shift, so isolated wrist articulation and unchanged support are not established. Red forearm flexors and opaque tank/shorts retained with detailed grayscale exposed anatomy. Qualified grip, wrist range, forearm pressure and elbow stability need review. Original project artwork style only, no upstream licensed input. Exact prompts and originals saved. No anatomy/clothing approval or publication. Seven pipeline checks do not establish anatomical accuracy.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/1412-female-anatomical-white-v1-p1-4fa1c44e5726.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 47114,
+          "sha256": "4fa1c44e5726e45db379a8960001014fcf18734be4b4da350fc5d4f2fc79912d"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/1412-female-anatomical-white-v1-p2-25997d491d74.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 45000,
+          "sha256": "25997d491d745705ef2ec3f33cf2a9002640376c5b7c79cbe429dbf4253156ec"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-186.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/1412-female-anatomical-white-v1-thumb-dde7d8ef11fc.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 4636,
+        "sha256": "dde7d8ef11fc847c07c141d83ed344c73fcfb43ed1a024d392b5aa9d4261a4f3"
+      },
+      "processingSignature": "df0030b5f4849d8a73f5ae3d1eefe7d77ada1f66f82107decf0fc88b1fe942d2",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1412-female-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1619049,
+        "sha256": "f050410761ff2d7e53cd9285ec077a68bc8c17d5ed3dc99a220010d48b378357"
+      }
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "batch": 183,
+  "runId": "924a1532-6d13-4f8e-ad21-b00c2963cb2b",
+  "trigger": "2026-11-03T10:55:29.068Z",
+  "completedAt": "2026-11-03T10:59:51.119905+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 2,
+  "generationCalls": 2,
+  "exerciseIds": [
+    "1402"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 680,
+    "remainingVariants": 10584,
+    "approvedVariants": 0,
+    "blockedVariants": 225,
+    "knownPoseImages": 1348,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Two L-sit candidates, one static pose per variant, two built-in calls. Straight arms grasp two grounded parallettes, pelvis and straight horizontal legs suspended, lower abdominal diffuse red tint on intact tank. Full opaque tank and shorts and detailed exposed grayscale anatomy retained. Qualified shoulder depression, elbow extension, thumb/grip contact, wrist alignment and hip/knee level require human review. Original project artwork style only, no upstream licensed media inputs. Exact prompts and originals retained. No anatomical approval or publication. Seven pipeline checks do not establish anatomical accuracy.",
+  "metadataConflictsDeferred": {
+    "1405": "Arms behind in description versus forward crossed arms instructions."
+  },
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 1075858854,
+  "savedMasters": [
+    {
+      "exerciseId": "1402",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1402-male-anatomical-white-v1.png",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 1437040,
+        "sha256": "f84f7b3b58db2e3871a6497af08004f05960c2e201f6fade2eabf8c075d31336"
+      }
+    },
+    {
+      "exerciseId": "1402",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1402-female-anatomical-white-v1.png",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 1431343,
+        "sha256": "ddd1a20601f5c1f6c478d521db365b00f03c8e312c79a19dc7e067f6c0d382b6"
+      }
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "batch": 357,
+  "runId": "556460b3-fdb4-43cd-a1ba-007301396162",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "trigger": "2026-11-04T13:59:03.920Z",
+  "purpose": "batch357 scheduled male continuation",
+  "started": "2026-11-04T13:59:35.041644+00:00",
+  "completedAt": "2026-11-04T14:08:46.340632+00:00",
+  "actualToolName": "image_gen__imagegen",
+  "calls": 4,
+  "newCandidateSets": 4,
+  "exerciseIds": [
+    "3397",
+    "3398",
+    "3399",
+    "3400"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1286,
+    "remainingVariants": 9978,
+    "approvedVariants": 0,
+    "blockedVariants": 489,
+    "knownPoseImages": 2535,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 913,
+      "remainingVariants": 4719,
+      "blockedVariants": 370
+    }
+  },
+  "reviewNotes": {
+    "3397": "Full swing hinge, chest-height passage and overhead endpoint with opaque clothes/local glute wash. Dumbbell orientation and hand placement change between panels; qualified grip continuity and controlled hip-driven swing review required.",
+    "3398": "Front-racked dumbbells and clearly opposite forward lunges with upright torso. Shorts fully red instead of black with localized quadriceps mapping; correction required. Qualified knee tracking and rack grip review pending.",
+    "3399": "Barbell front rack standing and one-side forward lunge, forward elbows and upright torso, opaque clothing/plain thigh wash. Caption permits finishing one side before switching. Qualified rack grip/bar contact, front knee and rear heel review pending.",
+    "3400": "Four-cell clean and press: floor grip, shoulder catch, knee dip and overhead extension. Two dumbbells and opaque clothes consistent, deltoid-only highlights. Qualified clean trajectory, dip distinction, rack grip and overhead alignment review pending."
+  },
+  "blockingIssues": {
+    "3397": [
+      "Keep a consistent secure two-hand dumbbell grip and orientation across swing phases."
+    ],
+    "3398": [
+      "Restore black shorts with localized plain quadriceps overlay rather than fully red garment."
+    ]
+  },
+  "deferred": {},
+  "tests": 7,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "workerSyncResult": {
+    "statuses": {
+      "generated": 1286,
+      "pending": 9978
+    },
+    "remaining": 9978,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 1962310682
+  },
+  "publicationIndexUnchanged": true
+}

@@ -1,0 +1,86 @@
+{
+  "batch": 255,
+  "runId": "9bfaa9d1-7bec-4a99-8070-376843fbbf55",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "trigger": "2026-11-03T21:45:53.654Z",
+  "purpose": "batch255 scheduled male continuation",
+  "started": "2026-11-03T21:46:02.847539+00:00",
+  "completedAt": "2026-11-03T21:50:58.020358+00:00",
+  "actualToolName": "image_gen__imagegen",
+  "calls": 4,
+  "newCandidateSets": 4,
+  "exerciseIds": [
+    "2071",
+    "2072",
+    "2087",
+    "2088"
+  ],
+  "variants": [
+    "male"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 893,
+    "remainingVariants": 10371,
+    "approvedVariants": 0,
+    "blockedVariants": 286,
+    "knownPoseImages": 1709,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 520,
+      "remainingVariants": 5112,
+      "blockedVariants": 167
+    }
+  },
+  "reviewNotes": {
+    "2071": "Two distinct single-leg hip-thrust positions, working foot planted and free knee lifted; pelvis rises to near shoulder-hip-knee alignment. Upper back/shoulder support is visually ambiguous: forearms appear to carry support on bench with shoulders forward of edge. Red overlay has subtle radiating internal lines through shorts. Correct shoulder contact and plain fabric tint; qualified review of hip range, planted knee and neck.",
+    "2072": "Distinct lowered and lifted bilateral hip thrust, both feet planted, hips reach approximately level torso and thighs. Bench appears to support forearms rather than clearly contacting upper back; red glute overlay contains radial fibers through shorts. Correct upper-back support and plain teaching tint. Qualified review of shin angle, pelvis level and lumbar control.",
+    "2087": "Single coherent standing figure with extended working arm, but assisting hand is near shoulder rather than just above elbow, and arm projects forward rather than clearly drawing across chest. Required slight upper-back rounding is not evident. Correct guiding contact and cross-body position; qualified review of posterior-deltoid mapping and relaxed neck.",
+    "2088": "Single rear-view towel stretch with coherent upper overhead arm and lower behind-back arm, both hands holding towel, head upright and pelvis/feet consistent with rear view. Red is confined to upper working shoulder area. Qualified review needed for deltoid versus triceps/axillary mapping, comfortable shoulder range, hand anatomy and downward pull direction."
+  },
+  "blockingIssues": {
+    "2071": [
+      "Upper-back contact with bench is not clear; bench appears to support forearms instead.",
+      "Radial muscle-like lines in glute overlay through shorts; replace with plain teaching tint."
+    ],
+    "2072": [
+      "Upper back is not clearly contacting bench; forearms appear to provide support.",
+      "Radial muscle-like lines in glute overlay through shorts; replace with plain teaching tint."
+    ],
+    "2087": [
+      "Assisting hand contacts near shoulder rather than just above elbow, and working arm is not clearly drawn across chest; correct pose and slight upper-back rounding."
+    ]
+  },
+  "tests": 7,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "workerSyncResult": {
+    "statuses": {
+      "generated": 893,
+      "pending": 10371
+    },
+    "remaining": 10371,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 1380798045
+  },
+  "publicationIndexUnchanged": true,
+  "savedMasters": [
+    "assets/exercise-illustrations/generated/2071-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/2072-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/2087-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/2088-male-anatomical-white-v1.png"
+  ]
+}

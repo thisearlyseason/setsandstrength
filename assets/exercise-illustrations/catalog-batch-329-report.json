@@ -1,0 +1,82 @@
+{
+  "batch": 329,
+  "runId": "8b772629-aa1f-4f5c-87a3-1bcf7d8a98dc",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "trigger": "2026-11-04T09:09:29.840Z",
+  "purpose": "batch329 scheduled male continuation",
+  "started": "2026-11-04T09:09:55.679859+00:00",
+  "completedAt": "2026-11-04T09:18:36.068264+00:00",
+  "actualToolName": "image_gen__imagegen",
+  "calls": 4,
+  "newCandidateSets": 4,
+  "exerciseIds": [
+    "3171",
+    "3174",
+    "3175",
+    "3176"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1181,
+    "remainingVariants": 10083,
+    "approvedVariants": 0,
+    "blockedVariants": 427,
+    "knownPoseImages": 2305,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 808,
+      "remainingVariants": 4824,
+      "blockedVariants": 308
+    }
+  },
+  "reviewNotes": {
+    "3171": "Guard and bent-elbow right hook visible with left hand guarding and rear-foot pivot, deltoid-only highlight and opaque clothes. Unrelated bench copied into scene needs removal. Qualified hook path, stance and hip rotation review pending.",
+    "3174": "Bench press top and lowered phases with feet airborne and supported head/back. Knees/hips do not maintain requested 90-degree tabletop: thighs angled and shins slope downward. Block defining leg-position correction. Qualified bar descent and grip review pending.",
+    "3175": "Dumbbell fly closes above chest then opens wide with soft elbows and supported head/back. Lifted legs have sloped shins rather than 90-degree tabletop. Block defining leg-position correction; qualified fly shoulder range and grip review pending.",
+    "3176": "Single normal dumbbell held both hands above chest then behind head, arms nearly straight, knees near tabletop and opaque clothes/plain chest wash. Head/neck appear unsupported hovering above bench and stray hair-shaped artifact appears near forehead at endpoint; block support/artifact correction. Qualified grip and shoulder range review pending."
+  },
+  "blockingIssues": {
+    "3171": [
+      "Remove unrelated bench from boxing illustration."
+    ],
+    "3174": [
+      "Set thighs vertical and shins horizontal with hips/knees 90 degrees in both poses; maintain feet clear."
+    ],
+    "3175": [
+      "Maintain hips/knees 90 degrees with thighs vertical and shins horizontal; current shins slope down."
+    ],
+    "3176": [
+      "Rest head/neck on bench and remove stray hair-shaped artifact near forehead in endpoint."
+    ]
+  },
+  "deferred": {
+    "3167": "Towel squat row resistance/anchor unspecified.",
+    "3178": "Hands on floor versus holding bench/ball support instructions conflict."
+  },
+  "tests": 7,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "workerSyncResult": {
+    "statuses": {
+      "generated": 1181,
+      "pending": 10083
+    },
+    "remaining": 10083,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 1807166269
+  },
+  "publicationIndexUnchanged": true
+}

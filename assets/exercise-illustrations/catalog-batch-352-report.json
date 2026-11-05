@@ -1,0 +1,79 @@
+{
+  "batch": 352,
+  "runId": "ba0490e4-f5c1-470a-a991-54d268bed817",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "trigger": "2026-11-04T12:46:03.462Z",
+  "purpose": "batch352 scheduled male continuation",
+  "started": "2026-11-04T12:46:29.070580+00:00",
+  "completedAt": "2026-11-04T12:54:02.932441+00:00",
+  "actualToolName": "image_gen__imagegen",
+  "calls": 4,
+  "newCandidateSets": 4,
+  "exerciseIds": [
+    "3363",
+    "3364",
+    "3366",
+    "3367"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1266,
+    "remainingVariants": 9998,
+    "approvedVariants": 0,
+    "blockedVariants": 478,
+    "knownPoseImages": 2488,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 893,
+      "remainingVariants": 4739,
+      "blockedVariants": 359
+    }
+  },
+  "reviewNotes": {
+    "3363": "Standing narrow-handle press with tucked elbows, split stance and triceps-only highlight. Opaque black clothes. Qualified cable clearance around torso/arm, hand anatomy and elbow path review pending.",
+    "3364": "Seated narrow-handle press with back pad, planted feet, tucked elbows and triceps-only highlights. Cable visibly crosses upper arm/back-pad line in bent phase; require clear unobstructed routing. Opaque clothes.",
+    "3366": "Shrimp squat with held rear foot, free arm forward and rear knee lowered near floor. Red quad fibers extend through front shorts rather than plain fabric overlay; correction required. Qualified foot-holding hand, balance and knee review pending.",
+    "3367": "Single-leg skater squat with both arms forward, unheld rear foot raised and rear knee near floor. Quad fibers extend through front shorts; clothing correction required. Qualified heel contact, hip balance and knee tracking review pending."
+  },
+  "blockingIssues": {
+    "3364": [
+      "Route cable visibly beside bench and arm without intersecting body or back pad."
+    ],
+    "3366": [
+      "Remove quad fibers through shorts and keep intact opaque front fabric with plain red wash."
+    ],
+    "3367": [
+      "Remove quad fibers through shorts and keep fully opaque front fabric with plain red wash."
+    ]
+  },
+  "deferred": {
+    "3362": "Lying cable close press pulley height unspecified.",
+    "3365": "Hawaiian squat name lacks distinct technique matching generic wide deep squat instructions."
+  },
+  "tests": 7,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "workerSyncResult": {
+    "statuses": {
+      "generated": 1266,
+      "pending": 9998
+    },
+    "remaining": 9998,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 1932052782
+  },
+  "publicationIndexUnchanged": true
+}

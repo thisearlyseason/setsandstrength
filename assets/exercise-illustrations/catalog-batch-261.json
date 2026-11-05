@@ -1,0 +1,275 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "2118",
+      "variant": "male",
+      "key": "2118-male-anatomical-white-v1",
+      "layout": {
+        "columns": 1,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Sit with both hips grounded. Reach one arm overhead and bend away from it, resting the other hand on the floor for support. Keep your chest forward; hold for 20\u201330 seconds, then switch sides."
+        }
+      ],
+      "prompt": "SITTING LATERAL SIDE STRETCH. FRONTVIEW fullbody male sitscrossleggedfloor bothSITBONES grounded. BOTHKNEES andCHESTandPELVIS shareFRONT orientation no backtorsofrontlegsflip. RIGHT armOVERHEADreachesLEFT asTORSOSIDEBENDSLEFT15degrees, LEFT palmflatfloorbesideLEFThip supportinggently. Keepchestopenforward no rotation orforwardfold. Two traceablecrossedlegs withfeetfront notextraankles. Primary ABS ONLY elongatedRIGHT lateralwaist uniformREDellipse on intacttankrightside; LEFTcompressedsideblack. Exactly ONE static full-body adult MALE. Premium detailed grayscale anatomical rendering matching original project reference STYLE ONLY, ignore its exercise and highlights. Pure white background soft shadows realistic proportions crisp exposed gray muscle contours. Opaque BLACK tank and mid-thigh shorts wrap front sides back seat crotch with seams hems folds. No cutaways transparency or anatomy through fabric. Red over clothing is a plain uniform soft teaching ellipse, NO internal muscle lines rays lobes or segmentation; retain ordinary fabric folds. No red chest shoulders arms legs. Black shoes. Two coherent arms hands five fingers two legs two feet. All limbs equipment inside frame with margins. No text arrows logos.",
+      "inspectionNote": "Real output inspected. Front-facing seated cross-legged side bend with coherent torso/pelvis/leg orientation, supporting palm grounded and opposite arm overhead. Elongated right waist highlighted over intact tank with fabric folds; all clothing opaque. Qualified review needed for both sit bones remaining grounded, crossed-ankle anatomy, hand anatomy, comfortable lateral range and abdominal versus lat mapping. Human anatomy review remains pending; no approval or publication.",
+      "canonicalName": "sitting lateral side stretch",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "abs"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Front-facing seated cross-legged side bend with coherent torso/pelvis/leg orientation, supporting palm grounded and opposite arm overhead. Elongated right waist highlighted over intact tank with fabric folds; all clothing opaque. Qualified review needed for both sit bones remaining grounded, crossed-ankle anatomy, hand anatomy, comfortable lateral range and abdominal versus lat mapping. Human anatomy review remains pending; no approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2118-male-anatomical-white-v1-p1-de1ed3486de8.webp",
+          "width": 1097,
+          "height": 1200,
+          "bytes": 51726,
+          "sha256": "de1ed3486de8da6e38b3843b87a19601657d504040179bf747d66ccff6338310"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-261.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2118-male-anatomical-white-v1-thumb-8415ba982822.webp",
+        "width": 219,
+        "height": 240,
+        "bytes": 3552,
+        "sha256": "8415ba9828226aabf8b33f02179fa88de20c3e4ada3ca04b8934eb8565b6456c"
+      },
+      "processingSignature": "cc5084b61146ed222af5b7cbbb3f13a855b9b3a605e5aed0bdab5255ed2c55a6",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2118-male-anatomical-white-v1.png",
+        "width": 1199,
+        "height": 1312,
+        "bytes": 1516481,
+        "sha256": "c49285a6aee3cdd5753a05c660179c244d3eef3d4e02307f31ccdaf8920380fa"
+      }
+    },
+    {
+      "exerciseId": "2119",
+      "variant": "male",
+      "key": "2119-male-anatomical-white-v1",
+      "layout": {
+        "columns": 1,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand with feet hip-width apart. Raise one arm overhead, palm inward, and bend away from that arm. Keep your hips level and chest forward; hold for 20\u201330 seconds, then switch sides."
+        }
+      ],
+      "prompt": "STANDING SIDE STRETCH. FRONTVIEW fullbody feetHIPWIDTHflatfloor, pelvisLEVEL kneecapsandchestFACEFRONT. RIGHTarmOVERHEADpalminward reachingLEFT, elbownearlystraight. LEFTarmhangsrelaxednearleftthigh. TORSOSIDEBENDSLEFT15degrees ONLY chestforward no twisting noforwardlean. Hipssteady. Primary ABS RIGHT elongatedOUTERWAIST only softuniformREDellipse on intactblacktankRIGHT side, compressedleftsideblack nochestlatarmred. Exactly ONE static full-body adult MALE. Premium detailed grayscale anatomical rendering matching original project reference STYLE ONLY, ignore its exercise and highlights. Pure white background soft shadows realistic proportions crisp exposed gray muscle contours. Opaque BLACK tank and mid-thigh shorts wrap front sides back seat crotch with seams hems folds. No cutaways transparency or anatomy through fabric. Red over clothing is a plain uniform soft teaching ellipse, NO internal muscle lines rays lobes or segmentation; retain ordinary fabric folds. No red chest shoulders arms legs. Black shoes. Two coherent arms hands five fingers two legs two feet. All limbs equipment inside frame with margins. No text arrows logos.",
+      "inspectionNote": "Real output inspected. Standing front-view lateral bend, raised right arm reaches left, opposite arm relaxed, both feet grounded and hip/torso orientation coherent. Right elongated waist teaching tint on intact tank. Qualified review needed for hip level, palm orientation, side-bend range, finger anatomy and abdominal mapping. Human anatomy review remains pending; no approval or publication.",
+      "canonicalName": "standing side stretch",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "abs"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Standing front-view lateral bend, raised right arm reaches left, opposite arm relaxed, both feet grounded and hip/torso orientation coherent. Right elongated waist teaching tint on intact tank. Qualified review needed for hip level, palm orientation, side-bend range, finger anatomy and abdominal mapping. Human anatomy review remains pending; no approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2119-male-anatomical-white-v1-p1-3441b6ea1339.webp",
+          "width": 800,
+          "height": 1200,
+          "bytes": 26404,
+          "sha256": "3441b6ea13399117e37d77569238ee8febc0fe9ab56627a43776f8e699a5afb7"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-261.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2119-male-anatomical-white-v1-thumb-51a5c146da78.webp",
+        "width": 160,
+        "height": 240,
+        "bytes": 2104,
+        "sha256": "51a5c146da788703908d0d7d54c2a7690546936844e760dd6b877601ad000528"
+      },
+      "processingSignature": "13b3a85bbc2a6db63159e96e77807d1a32c9dc53877c1d101f9894e0ccdf8953",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2119-male-anatomical-white-v1.png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1257848,
+        "sha256": "19c0e717cb17f7631572362404fe7e072ee4a2196b2d8c5f4d31b807c40eb2e2"
+      }
+    },
+    {
+      "exerciseId": "2120",
+      "variant": "male",
+      "key": "2120-male-anatomical-white-v1",
+      "layout": {
+        "columns": 1,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hold a stick overhead with both arms straight and feet shoulder-width apart. Gently bend sideways without twisting, keeping your hips steady. Hold for 20\u201330 seconds, then return and switch sides."
+        }
+      ],
+      "prompt": "STANDING SIDE STRETCH WITH STICK. ONE FRONTVIEWfullbody. StandfeetSHOULDERWIDTHflat kneesandpelvisFRONT. BOTH HANDS gripgraystraightDOWEL overheadwidegrip widerthanshoulders BOTH ELBOWSSTRAIGHT. TORSOSIDEBENDSLEFT15degrees withsticktiltingwithshoulderline, bodyandstickremainFRONTAL plane no twisting. Hipssteady level no forwardslean. Handswrapdowel normalfivefingers each. Primary ABS RIGHT elongatedlateralWAIST only uniformsoftREDellipse on intactblacktank, compressedleftwaistblack no chestarmred. ENTIRE STICKendsmarginsinsideframe. Exactly ONE static full-body adult MALE. Premium detailed grayscale anatomical rendering matching original project reference STYLE ONLY, ignore its exercise and highlights. Pure white background soft shadows realistic proportions crisp exposed gray muscle contours. Opaque BLACK tank and mid-thigh shorts wrap front sides back seat crotch with seams hems folds. No cutaways transparency or anatomy through fabric. Red over clothing is a plain uniform soft teaching ellipse, NO internal muscle lines rays lobes or segmentation; retain ordinary fabric folds. No red chest shoulders arms legs. Black shoes. Two coherent arms hands five fingers two legs two feet. All limbs equipment inside frame with margins. No text arrows logos.",
+      "inspectionNote": "Real output inspected. Both hands grip full overhead stick, elbows near straight, feet grounded, coherent front body. Actual bend is toward subject right (image left) while red is on compressed right waist rather than opposite elongated left waist. Block for highlight laterality correction. Qualified review of stance width, dowel grip, hip steadiness and comfortable lateral range. Human anatomy review remains pending; no approval or publication.",
+      "blockingIssues": [
+        "Actual bend is toward subject right while highlight is on compressed right waist; move highlight to opposite elongated waist."
+      ],
+      "canonicalName": "standing side stretch with stick",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "abs"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Both hands grip full overhead stick, elbows near straight, feet grounded, coherent front body. Actual bend is toward subject right (image left) while red is on compressed right waist rather than opposite elongated left waist. Block for highlight laterality correction. Qualified review of stance width, dowel grip, hip steadiness and comfortable lateral range. Human anatomy review remains pending; no approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2120-male-anatomical-white-v1-p1-3d02d01c8b8a.webp",
+          "width": 800,
+          "height": 1200,
+          "bytes": 30866,
+          "sha256": "3d02d01c8b8a479bac512c167fb6febfcb5beae89d099411d269bdce40f21a72"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-261.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2120-male-anatomical-white-v1-thumb-57a8fc8948b5.webp",
+        "width": 160,
+        "height": 240,
+        "bytes": 2500,
+        "sha256": "57a8fc8948b522e6ca7190ad114ec33730bb296e6d353cc5229ea526e5f2369a"
+      },
+      "processingSignature": "11f323c3b890772f9fb542d375a4733a06d21a0947c11b5199d62415f7c6d291",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2120-male-anatomical-white-v1.png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1304972,
+        "sha256": "b24a33bc29b3f479d6af952d3e2c06c9ce1f7daa2b1b40e991273737163d0926"
+      }
+    },
+    {
+      "exerciseId": "2121",
+      "variant": "male",
+      "key": "2121-male-anatomical-white-v1",
+      "layout": {
+        "columns": 1,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Lie on your back with legs together and arms overhead. Slide your hands and feet to the same side to form a gentle arc, keeping shoulders and hips on the floor. Hold for 20\u201330 seconds, then return and switch sides."
+        }
+      ],
+      "prompt": "LATERAL BEND LYING DOWN. ONE static TOPDOWN overheadcamera fullbody SUPINE onwhitefloor, headatTOPfeetBOTTOM. ArmsSTRAIGHTOVERHEADextendedbeyondhead, legsTOGETHERstraight. BOTH HANDSandBOTH FEET slideto imageRIGHT soentirebodyforms gentleBANANAARC withwaistapexLEFT. ShouldershipsHEADallremainfloor, torsofaceUPnotrollingonside, no crunchor knee bend. Cameraoverheadshowsplausiblegradualcurve fromhandsthroughheadtorsohipslegsfeet. Primary ABS LEFT elongatedCONVEXOUTERwaist only uniformsoftREDellipse on intacttankLEFTside, rightcompressedsideblack. Allfingertipsandshoetipsinsideframe. Exactly ONE static full-body adult MALE. Premium detailed grayscale anatomical rendering matching original project reference STYLE ONLY, ignore its exercise and highlights. Pure white background soft shadows realistic proportions crisp exposed gray muscle contours. Opaque BLACK tank and mid-thigh shorts wrap front sides back seat crotch with seams hems folds. No cutaways transparency or anatomy through fabric. Red over clothing is a plain uniform soft teaching ellipse, NO internal muscle lines rays lobes or segmentation; retain ordinary fabric folds. No red chest shoulders arms legs. Black shoes. Two coherent arms hands five fingers two legs two feet. All limbs equipment inside frame with margins. No text arrows logos.",
+      "inspectionNote": "Real output inspected. Overhead supine banana curve, both hands and feet displaced to image right, legs together and body face up. Red follows convex elongated image-left waist on intact tank. Qualified review needed for shoulder/hip floor contact, neutral head, comfortable side arc, finger anatomy and abdominal mapping. Full opaque clothing and all fingertips/shoes in frame. Human anatomy review remains pending; no approval or publication.",
+      "canonicalName": "lateral bend lying down",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "abs"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Overhead supine banana curve, both hands and feet displaced to image right, legs together and body face up. Red follows convex elongated image-left waist on intact tank. Qualified review needed for shoulder/hip floor contact, neutral head, comfortable side arc, finger anatomy and abdominal mapping. Full opaque clothing and all fingertips/shoes in frame. Human anatomy review remains pending; no approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2121-male-anatomical-white-v1-p1-2f5016e9afdf.webp",
+          "width": 800,
+          "height": 1200,
+          "bytes": 27328,
+          "sha256": "2f5016e9afdf7ac9b9ab822d726fdc8217f5aba8fcb5ecaf3cf0c2e116a114a7"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-261.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2121-male-anatomical-white-v1-thumb-fccdc2a62ea3.webp",
+        "width": 160,
+        "height": 240,
+        "bytes": 1938,
+        "sha256": "fccdc2a62ea3bafa42d5c40d1670f295a05cc7f4700fba95807bf8e7a9bbb15c"
+      },
+      "processingSignature": "72ced03417cafd8cf517e23ac684c802d6df01519d218e09787a50ace7020cb3",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2121-male-anatomical-white-v1.png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1383248,
+        "sha256": "2f1eabef007a3690e78d1ab212be501bd1966662b5b3ab5c0322713f5ba9d078"
+      }
+    }
+  ]
+}

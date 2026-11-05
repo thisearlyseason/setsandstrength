@@ -1,0 +1,282 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "1937",
+      "variant": "male",
+      "key": "1937-male-anatomical-white-v1",
+      "layout": {
+        "columns": 1,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Sit tall with your legs in front. Bend one knee and gently draw it toward your chest with both hands while keeping your back long. Hold for 20\u201330 seconds, then switch legs."
+        }
+      ],
+      "prompt": "SEATED BENT KNEE TO CHEST BUTTOCK STRETCH. ONE full-body static FRONT-SIDE three-quarterview. Sit tallwhitefloor LEFTleg fullySTRAIGHTforward heelgrounded. RIGHTknee bends and lifts towardchest, BOTHhands gentlyhugRIGHTupperSHIN belowknee, RIGHTfoot hangsrelaxed infrontofhip visiblyconnectedtokneeviafullshin. Notcrossedleg ankleatoppositehip, not figure4. Spinevertical chesttall pelvisgrounded no rounding. RIGHTgluteonly plainsoftuniformREDellipse onintactblackshorts rightseat/outerposteriorhip, notleftglute notthigh. Allothermusclesgray tankallblack. Eachleg clearlytraceablehipkneeanklefoot, noextrasegments, fullbodyhandsfeetframe. Hold20-30seconds. Use case: scientific-educational. Premium detailed ADULT MALE grayscale anatomical illustration matching original reference for rendering STYLE ONLY, ignore its pose and highlights. Realistic proportions, crisp exposed grayscale muscle contours, white background soft shadows. Full opaque BLACK athletic tank and mid-thigh shorts wrap front sides back seat crotch, seams hems folds; no transparency cutaways or anatomy visible through fabric. Red highlight over fabric must be a FLAT UNIFORM SOFT RED ELLIPSE teaching tint with no internal lines fibers rays or lobes; fabric folds retained. Black shoes. No text labels arrows captions logos. All limbs fingers feet and equipment entirely in frame with generous margins. Same person camera lighting and scale across poses.",
+      "inspectionNote": "Real output inspected. Seated knee-to-chest: one straight leg, other shin held with both hands, tall torso and coherent leg joints. Qualified review needed for exact glute overlay laterality, sitting-bone support, comfortable hip range and hand anatomy. Detailed grayscale rendering, white background and full opaque tank/shorts retained. Original project artwork style only, no upstream media. Exact prompt and original saved. Human anatomy review pending; no approval or publication.",
+      "canonicalName": "seated bent knee to chest buttock stretch",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "glutes"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Seated knee-to-chest: one straight leg, other shin held with both hands, tall torso and coherent leg joints. Qualified review needed for exact glute overlay laterality, sitting-bone support, comfortable hip range and hand anatomy. Detailed grayscale rendering, white background and full opaque tank/shorts retained. Original project artwork style only, no upstream media. Exact prompt and original saved. Human anatomy review pending; no approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/1937-male-anatomical-white-v1-p1-358a0bc38754.webp",
+          "width": 1200,
+          "height": 600,
+          "bytes": 26230,
+          "sha256": "358a0bc3875411cd1c129ab8741f600855f27e039ca5881bcde18d935dd987df"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-250.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/1937-male-anatomical-white-v1-thumb-7fc0649fc0c7.webp",
+        "width": 240,
+        "height": 120,
+        "bytes": 1816,
+        "sha256": "7fc0649fc0c71f4752fe0e9442b6f6c52aae4f75cff251a852a65f77f18cb501"
+      },
+      "processingSignature": "b3db802b718a9b88e7bc86f18a14db52657707ef47a71dde25a0db22f72e7fe8",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1937-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1398453,
+        "sha256": "a96983ce2cf3846b6fe1e227ee71ee5f8b381a239ab94819e43a85434351f374"
+      }
+    },
+    {
+      "exerciseId": "1941",
+      "variant": "male",
+      "key": "1941-male-anatomical-white-v1",
+      "layout": {
+        "columns": 1,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Cross one leg behind the other with both feet flat. Gently push that hip outward and lean your torso away from it. Hold for 20\u201330 seconds, then switch sides."
+        }
+      ],
+      "prompt": "STANDING HIP ADDUCTION STRETCH. ONE full-body static FRONT three-quarterview. Stand tall RIGHTleg crossesBEHIND LEFTleg, bothfeet remainflat closetogether buteachfootdistinct. Push RIGHThip gentlyRIGHT (imageLEFT), lean torso gentlyLEFT (imageRIGHT) AWAYfrom crossedBACKleg, feetstationary no twist. BOTHhands onhips, knees soft, spine long. Primary RIGHTOUTERHIP abductors aboveBACK/CROSSEDLEG only uniformsoftREDteachingellipse onintactshorts rightlateralhip; allothermusclesgrayscale, tankblackNOred. Chestpelviskneesfeet allcoherentfrontorientation. Bothfeet clearlysupportfloor no impossibleankletwist. Hold20-30seconds. Use case: scientific-educational. Premium detailed ADULT MALE grayscale anatomical illustration matching original reference for rendering STYLE ONLY, ignore its pose and highlights. Realistic proportions, crisp exposed grayscale muscle contours, white background soft shadows. Full opaque BLACK athletic tank and mid-thigh shorts wrap front sides back seat crotch, seams hems folds; no transparency cutaways or anatomy visible through fabric. Red highlight over fabric must be a FLAT UNIFORM SOFT RED ELLIPSE teaching tint with no internal lines fibers rays or lobes; fabric folds retained. Black shoes. No text labels arrows captions logos. All limbs fingers feet and equipment entirely in frame with generous margins. Same person camera lighting and scale across poses.",
+      "inspectionNote": "Real output inspected. Standing crossed-leg hip stretch: two feet grounded and coherent front-facing body. BLOCKED: highlighted leg appears to cross in front rather than behind and lateral hip-shift/torso lean is not sufficiently clear. Correct rear-leg relationship and stretch range/laterality. Detailed grayscale rendering, white background and full opaque tank/shorts retained. Original project artwork style only, no upstream media. Exact prompt and original saved. Human anatomy review pending; no approval or publication.",
+      "blockingIssues": [
+        "Highlighted leg appears to cross in front rather than behind; correct rear-leg/highlight relationship.",
+        "Lateral hip shift and opposite torso lean are insufficiently distinct; correct hold range."
+      ],
+      "canonicalName": "standing hip adduction stretch",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "abductors"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Standing crossed-leg hip stretch: two feet grounded and coherent front-facing body. BLOCKED: highlighted leg appears to cross in front rather than behind and lateral hip-shift/torso lean is not sufficiently clear. Correct rear-leg relationship and stretch range/laterality. Detailed grayscale rendering, white background and full opaque tank/shorts retained. Original project artwork style only, no upstream media. Exact prompt and original saved. Human anatomy review pending; no approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/1941-male-anatomical-white-v1-p1-16f35023fc65.webp",
+          "width": 800,
+          "height": 1200,
+          "bytes": 31786,
+          "sha256": "16f35023fc65016bea19434f78f0e3c565517ebcc34224ad8acc9694a2a45e77"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-250.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/1941-male-anatomical-white-v1-thumb-8a3f111eb314.webp",
+        "width": 160,
+        "height": 240,
+        "bytes": 2378,
+        "sha256": "8a3f111eb314dbcae4c5674bd06230f083e5e1d27cbab05b799103f2713c8543"
+      },
+      "processingSignature": "51adb8814bbf3933a5261ef97b66ec3fb0a91773c1658f3eb03362a07fb57760",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1941-male-anatomical-white-v1.png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1364427,
+        "sha256": "cdd58c0f607086f4d48e835949b577d2f75b153a0a4ac001289bcf65ea6d2419"
+      }
+    },
+    {
+      "exerciseId": "1943",
+      "variant": "male",
+      "key": "1943-male-anatomical-white-v1",
+      "layout": {
+        "columns": 1,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "From hands and knees, bring one knee forward and extend the other leg behind you. Lower your hips comfortably and keep your chest tall, using your hands for support. Hold for 20\u201330 seconds, then switch sides."
+        }
+      ],
+      "prompt": "PIGEON HIP STRETCH. ONE full-body static SIDE FRONT three-quarterview. Adultmale onwhitefloor RIGHTleg foldedINFRONT: rightknee forward beside righthand, rightshin anglesbacktowardLEFT hip, rightanklevisible INFRONTofpelvis withnormalshinconnection. LEFTleg fullySTRAIGHTextendsBACKalongfloor leftkneecaptopandskinshin restingfloor toespointback. Pelvis squaredforward loweredcomfortably nearfloor, chestTALL uprightlongspine BOTHpalmsfloor besidehips forsupport. Frontthighhipexternallyrotatednatural, no forcing shinparallel, nofoldedheelattachedwronghip. Primary frontRIGHTGLUTE softflatuniformRED teachingellipse onintactshorts outerposteriorrightseat only. NOred leftbackleg orfrontknee chest. Allbodyorientationcoherent hipkneeankle connectionsclear, opaqueclotheswrapcrotchseat, fullbodybothfeet handsframe. Hold20-30seconds. Use case: scientific-educational. Premium detailed ADULT MALE grayscale anatomical illustration matching original reference for rendering STYLE ONLY, ignore its pose and highlights. Realistic proportions, crisp exposed grayscale muscle contours, white background soft shadows. Full opaque BLACK athletic tank and mid-thigh shorts wrap front sides back seat crotch, seams hems folds; no transparency cutaways or anatomy visible through fabric. Red highlight over fabric must be a FLAT UNIFORM SOFT RED ELLIPSE teaching tint with no internal lines fibers rays or lobes; fabric folds retained. Black shoes. No text labels arrows captions logos. All limbs fingers feet and equipment entirely in frame with generous margins. Same person camera lighting and scale across poses.",
+      "inspectionNote": "Real output inspected. Pigeon stretch: front folded leg and extended rear leg have traceable joints, hands supported and torso tall. BLOCKED: red glute overlay appears on extended/rear-leg hip rather than bent/front-leg hip. Correct highlight laterality and qualified-review hip squareness. Detailed grayscale rendering, white background and full opaque tank/shorts retained. Original project artwork style only, no upstream media. Exact prompt and original saved. Human anatomy review pending; no approval or publication.",
+      "blockingIssues": [
+        "Glute overlay appears on extended rear-leg hip rather than folded front-leg hip. Correct highlight laterality."
+      ],
+      "canonicalName": "pigeon hip stretch",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "glutes"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Pigeon stretch: front folded leg and extended rear leg have traceable joints, hands supported and torso tall. BLOCKED: red glute overlay appears on extended/rear-leg hip rather than bent/front-leg hip. Correct highlight laterality and qualified-review hip squareness. Detailed grayscale rendering, white background and full opaque tank/shorts retained. Original project artwork style only, no upstream media. Exact prompt and original saved. Human anatomy review pending; no approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/1943-male-anatomical-white-v1-p1-319b07a903c1.webp",
+          "width": 1200,
+          "height": 600,
+          "bytes": 27520,
+          "sha256": "319b07a903c1fe5e587f6c572cd543d469f3da72992993747e75610af944c36b"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-250.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/1943-male-anatomical-white-v1-thumb-16a6bf050417.webp",
+        "width": 240,
+        "height": 120,
+        "bytes": 1874,
+        "sha256": "16a6bf050417a168078c9982dec648162373e97acaca730f42e0b85b3efc3a49"
+      },
+      "processingSignature": "bb299d53d2f0cf45120653439a76ef5cea24600802785c41ea48be003f19d016",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1943-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1431310,
+        "sha256": "74eff2da4278fe738f03e0d6366c14ec9f0d4f5e505d4d5d82ace035cfec072c"
+      }
+    },
+    {
+      "exerciseId": "1947",
+      "variant": "male",
+      "key": "1947-male-anatomical-white-v1",
+      "layout": {
+        "columns": 1,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand beside a wall and cross one leg behind the other. Move your hips gently toward the wall and lean your upper body away, keeping both feet flat. Hold for 20\u201330 seconds, then switch sides."
+        }
+      ],
+      "prompt": "STANDING OUTER HIP STRETCH. ONE full-body static FRONT-SIDE three-quarterview. Graywall atimageLEFT nexttoRIGHT side ofmale. RIGHT palm lightlywall forbalance, LEFThand onleft hip. RIGHTleg crossesBEHIND LEFTleg bothfeetflat individuallyvisible. Push RIGHTHIP towardwall(imageLEFT), gentlyleanTORSO AWAYfromhips(imageRIGHT), shouldersremainlevelcomfortable no axialtwist. PRIMARYRIGHTOUTERHIP abductor softplainREDteachingellipse onintactblackshorts lateralrighthipovercrossedbackleg ONLY. No redleft hip ortank. Right andleftlegs eachcoherenttraceable nottwistedfeet, chestpelviskneesface samegeneralforwarddirection. Fullbodyhandwallbothfeetcontactswithinframe. Hold20-30seconds. Use case: scientific-educational. Premium detailed ADULT MALE grayscale anatomical illustration matching original reference for rendering STYLE ONLY, ignore its pose and highlights. Realistic proportions, crisp exposed grayscale muscle contours, white background soft shadows. Full opaque BLACK athletic tank and mid-thigh shorts wrap front sides back seat crotch, seams hems folds; no transparency cutaways or anatomy visible through fabric. Red highlight over fabric must be a FLAT UNIFORM SOFT RED ELLIPSE teaching tint with no internal lines fibers rays or lobes; fabric folds retained. Black shoes. No text labels arrows captions logos. All limbs fingers feet and equipment entirely in frame with generous margins. Same person camera lighting and scale across poses.",
+      "inspectionNote": "Real output inspected. Wall-supported outer-hip stretch: wall hand contact, crossed feet grounded and lateral lean. BLOCKED: red overlay appears on front-crossing leg side rather than intended rear-crossed stretching hip. Correct leg crossing/highlight laterality; confirm both feet flat. Detailed grayscale rendering, white background and full opaque tank/shorts retained. Original project artwork style only, no upstream media. Exact prompt and original saved. Human anatomy review pending; no approval or publication.",
+      "blockingIssues": [
+        "Front-crossing leg appears highlighted instead of rear-crossed stretching hip; correct crossing/highlight laterality."
+      ],
+      "canonicalName": "standing outer hip stretch",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "abductors"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Wall-supported outer-hip stretch: wall hand contact, crossed feet grounded and lateral lean. BLOCKED: red overlay appears on front-crossing leg side rather than intended rear-crossed stretching hip. Correct leg crossing/highlight laterality; confirm both feet flat. Detailed grayscale rendering, white background and full opaque tank/shorts retained. Original project artwork style only, no upstream media. Exact prompt and original saved. Human anatomy review pending; no approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/1947-male-anatomical-white-v1-p1-04b703018765.webp",
+          "width": 800,
+          "height": 1200,
+          "bytes": 39710,
+          "sha256": "04b703018765e7e7e4b50b1871b889da9fdab0d4e10dc73716620c45364b8ef0"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-250.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/1947-male-anatomical-white-v1-thumb-a459452c171d.webp",
+        "width": 160,
+        "height": 240,
+        "bytes": 2664,
+        "sha256": "a459452c171dc61217af149f7add766342bb979bf6dfb03a4dda0f3fc4395793"
+      },
+      "processingSignature": "aa17bc3354055ffe0ea89b0f9a21dd517968edc58c43bf06ef231f6a747ceea2",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1947-male-anatomical-white-v1.png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1524291,
+        "sha256": "5d2762dfad3f2b097575958a6def5236d2a90912a765954c3b8b0fd4f8971920"
+      }
+    }
+  ]
+}

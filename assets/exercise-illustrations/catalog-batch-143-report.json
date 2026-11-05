@@ -1,0 +1,87 @@
+{
+  "batch": 143,
+  "trigger": "2026-11-03T04:37:56.151Z",
+  "completedAt": "2026-11-03T04:46:29.768587+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 4,
+  "generationCalls": 4,
+  "exerciseIds": [
+    "0893",
+    "0897"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 580,
+    "remainingVariants": 10684,
+    "approvedVariants": 0,
+    "blockedVariants": 211,
+    "knownPoseImages": 1188,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Four candidates, eight poses, four built-in calls. Band bent-over rear lateral raises show hanging start to arms spread beside shoulders with stable hinge/soft knees, exposed rear shoulder red and visibly longer hand-to-shoe strands. Band hammer curls retain neutral palms-in/thumbs-up grip, red exposed biceps, upright posture and shoe-to-hand strands. Band middle visible across floor under soles. All sets retain detailed exposed grayscale anatomy and continuous opaque black clothing. Qualified underfoot anchoring, elastic tension, hand/handle security, shoulder plane, neck, wrist/elbow consistency and primary mapping remain for human review; female curl slight forward elbow position and curl head margins modest. No corrections required at this inspection stage, no clothing/anatomy approval or publication. Every original and exact prompt saved. Original project artwork used for rendering style only, no upstream licensed input. Seven pipeline checks do not establish anatomical accuracy.",
+  "metadataConflictsDeferred": {
+    "0891": "Band anchor location and body support geometry undefined for across-upper-back extension; pose planning deferred."
+  },
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 931837336,
+  "savedMasters": [
+    {
+      "exerciseId": "0893",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0893-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1537889,
+        "sha256": "3cff361934b7ec991b61f0e73e4a1bb39b35edda30f154f205562b252b7531dc"
+      }
+    },
+    {
+      "exerciseId": "0893",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0893-female-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1491960,
+        "sha256": "90af4c627f4f2c93d2befd57401981dcb0b10b831f64deb60acf060f1d8c6540"
+      }
+    },
+    {
+      "exerciseId": "0897",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0897-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1320814,
+        "sha256": "b13fba13a7b042687ee06d67cbc77a9cb2fe8b74ddabec1c3307e674804771f6"
+      }
+    },
+    {
+      "exerciseId": "0897",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0897-female-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1331485,
+        "sha256": "2df74bcdbde4fb89b14515cfbee2e874f35f3dea5f4df493813961ca40ba9029"
+      }
+    }
+  ]
+}

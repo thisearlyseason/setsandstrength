@@ -1,0 +1,121 @@
+{
+  "batch": 79,
+  "trigger": "2026-11-01T16:42:48.262Z",
+  "completedAt": "2026-11-01T17:00:21.516231+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 6,
+  "generationCalls": 8,
+  "exerciseIds": [
+    "0549",
+    "0550",
+    "0559"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 326,
+    "remainingVariants": 10938,
+    "approvedVariants": 0,
+    "blockedVariants": 133,
+    "knownPoseImages": 676,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Six candidate sets remain pending and unpublished. Kettlebell swings have bilateral grip, opaque gluteal-tinted shorts and shoulder-height forward endpoint; male revision improves bell backswing behind knee line and hip hinge, all swing clearance/neck/elbow technique still needs qualified review. Thrusters show one-bell two-hand rack, squat and standing overhead, with both deltoids highlighted. Static knee-to-chest stretches use one pose each with behind-thigh hand support and opposite leg straight; female head/ponytail revision improves head support and neck relaxation, actual contact still requires human review. Male static hold WebP crop visually checked. All retain grayscale anatomical rendering and opaque torso/seat/crotch clothing. Original masters, exact prompts, SHA-256 and two correction attempts retained. Qualified human anatomy, grip, load/neck alignment, support, muscle boundaries and range approval remain separate; pipeline checks do not approve anatomy. Original project artwork 0493 male used only as rendering style reference.",
+  "metadataConflictsDeferred": [
+    {
+      "exerciseId": "0551",
+      "issue": "Squat-style title conflicts with kneeling get-up instructions, and bridge/support order needs qualified movement review."
+    },
+    {
+      "exerciseId": "0552",
+      "issue": "Single bell held with both hands versus forearm rack wording is ambiguous; deltoid target conflicts with full-body primary map."
+    },
+    {
+      "exerciseId": "0555",
+      "issue": "Core/hip-flexor description versus hamstring target and engagement instruction require qualified muscle mapping review."
+    }
+  ],
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 529580186,
+  "savedMasters": [
+    {
+      "exerciseId": "0549",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0549-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1639738,
+        "sha256": "31b0a93c0ebd875d7f0b77ca8b43ff23db39ed665304c27686163b2a4993a597"
+      }
+    },
+    {
+      "exerciseId": "0549",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0549-female-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1564448,
+        "sha256": "d942e45a895bae312d147e05ec018d4d847f23f78addb4deee9cd8576e156dc0"
+      }
+    },
+    {
+      "exerciseId": "0550",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0550-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1592672,
+        "sha256": "843a65c9f319e13a91f3a32c8b4fb61acc8d8676c3f3c6d47b6fe6d6c6a1d4fb"
+      }
+    },
+    {
+      "exerciseId": "0550",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0550-female-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1706708,
+        "sha256": "ecf89b0e054bd52f50032e1920c69a07ca6288f8791412e80ff076fb3ffe3c1d"
+      }
+    },
+    {
+      "exerciseId": "0559",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0559-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1824283,
+        "sha256": "a1e9baca57f14035169cddf1ba32a8eaffbb41978a0ef6310f870aaa96a66c4c"
+      }
+    },
+    {
+      "exerciseId": "0559",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0559-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1704952,
+        "sha256": "064ef64cd9ee7367bf85c06d30cff58d202837038f4121b27dced0fc59816d73"
+      }
+    }
+  ]
+}

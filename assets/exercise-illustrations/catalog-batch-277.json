@@ -1,0 +1,320 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "2318",
+      "variant": "male",
+      "key": "2318-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Sit against the machine backrest with feet flat and grip the handles overhand, slightly wider than shoulder width."
+        },
+        {
+          "key": "p2",
+          "caption": "Press upward and slightly forward until arms are extended without locking; lower slowly."
+        }
+      ],
+      "prompt": "MACHINE SHOULDER PRESS. Two equal cells side by side, same front three-quarter view. Seated on realistic plate-loaded leverage shoulder press with tall inclined backrest supporting pelvis, back and head; feet flat. Twin pivoting overhead lever arms and horizontal handles. LEFT hands at shoulder level, palms facing forward OVERHAND, elbows bent under wrists. RIGHT same machine and seated posture, handles pressed UP and slightly FORWARD overhead, arms almost straight without locked elbows. Hands remain overhand, no dumbbells. Primary DELTOIDS only red on exposed shoulder caps; all chest and triceps gray, tank entirely black. Premium detailed adult MALE grayscale anatomical illustration matching the approved original project reference for rendering STYLE ONLY; ignore its pose and muscle highlights. Pure white background, soft contact shadows, crisp detailed exposed gray anatomy, realistic proportions and equipment. Wear an opaque black tank and black mid-thigh shorts fully wrapping front, sides, back, seat and crotch, with normal seams hems and folds; black shoes. Never expose internal anatomy through cloth. Red over clothing must be a smooth uniform soft teaching tint on intact fabric, without muscle fibers, lobes or cutaways. Highlight ONLY specified primary muscles. Normal two arms, two hands with five fingers, two legs, two feet. Equal cells, same camera and person throughout. Full body and equipment within each cell with generous margins. No text arrows logos.",
+      "inspectionNote": "Real output inspected. Seated leverage shoulder press with back/head support, planted feet, overhand handles at shoulder height then overhead extension, red exposed deltoids and opaque clothing. Qualified review needed for machine pivot/plate geometry, upward-forward path, wrist stacking and elbow softness. Human anatomy review remains pending. No approval or publication.",
+      "canonicalName": "lever shoulder press v. 3",
+      "styleVersion": "white-v1",
+      "equipment": "leverage machine",
+      "primaryMuscles": [
+        "deltoids"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Seated leverage shoulder press with back/head support, planted feet, overhand handles at shoulder height then overhead extension, red exposed deltoids and opaque clothing. Qualified review needed for machine pivot/plate geometry, upward-forward path, wrist stacking and elbow softness. Human anatomy review remains pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2318-male-anatomical-white-v1-p1-c5910e1c3088.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 46494,
+          "sha256": "c5910e1c3088d49a6b60109ba431a0650467eccfa7c9df79ad155b544df40315"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/2318-male-anatomical-white-v1-p2-4fb6088776b7.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 47558,
+          "sha256": "4fb6088776b73cbe92cfe927b7a81802d4c4ca12123cfa721ee4845da8d3fc94"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-277.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2318-male-anatomical-white-v1-thumb-4087d76021b0.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 5742,
+        "sha256": "4087d76021b0565d6cec08567e1afbffc1085f6a972bded248e2523ada9542c3"
+      },
+      "processingSignature": "5f18d3e5e155256a1a0f3618a7f212321d925071036be458e5b62b1910bf3ce8",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2318-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1635195,
+        "sha256": "b151168ec4a192f7f1aa269bfcc7bdf940169ee47552253a326197127c8b6367"
+      }
+    },
+    {
+      "exerciseId": "2321",
+      "variant": "male",
+      "key": "2321-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand tall holding dumbbells at your sides with palms facing your torso."
+        },
+        {
+          "key": "p2",
+          "caption": "Rotate palms forward and curl both dumbbells toward your shoulders, keeping upper arms still; lower under control."
+        }
+      ],
+      "prompt": "STANDING DUMBBELL INNER BICEPS CURL v2. Two equal cells side by side, same front three-quarter camera. Feet hip width planted, tall still torso, dumbbell each hand. LEFT arms down along sides, palms facing torso neutral grip. RIGHT elbows flexed dumbbells near shoulders, palms turned UP toward shoulders/face from supination, upper arms remain vertical against ribs. No elbows swinging forward, no torso lean. Same two dumbbells. Primary BICEPS only red exposed anterior upper arms, all forearms gray and chest black. Premium detailed adult MALE grayscale anatomical illustration matching the approved original project reference for rendering STYLE ONLY; ignore its pose and muscle highlights. Pure white background, soft contact shadows, crisp detailed exposed gray anatomy, realistic proportions and equipment. Wear an opaque black tank and black mid-thigh shorts fully wrapping front, sides, back, seat and crotch, with normal seams hems and folds; black shoes. Never expose internal anatomy through cloth. Red over clothing must be a smooth uniform soft teaching tint on intact fabric, without muscle fibers, lobes or cutaways. Highlight ONLY specified primary muscles. Normal two arms, two hands with five fingers, two legs, two feet. Equal cells, same camera and person throughout. Full body and equipment within each cell with generous margins. No text arrows logos.",
+      "inspectionNote": "Real output inspected. Standing neutral-grip lowered dumbbells then supinated curls near shoulders, torso still and upper arms close to ribs. Biceps-only red, opaque clothing and full body in frame. Qualified review needed for supination timing, elbow drift, wrist alignment and endpoint. Human anatomy review remains pending. No approval or publication.",
+      "canonicalName": "dumbbell standing inner biceps curl v. 2",
+      "styleVersion": "white-v1",
+      "equipment": "dumbbell",
+      "primaryMuscles": [
+        "biceps"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Standing neutral-grip lowered dumbbells then supinated curls near shoulders, torso still and upper arms close to ribs. Biceps-only red, opaque clothing and full body in frame. Qualified review needed for supination timing, elbow drift, wrist alignment and endpoint. Human anatomy review remains pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2321-male-anatomical-white-v1-p1-28e30f99dfe1.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 22042,
+          "sha256": "28e30f99dfe195ccf0af233bf40f8475601d0cfca9e33b33e334f0db8de9dc33"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/2321-male-anatomical-white-v1-p2-392238460eb5.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 21662,
+          "sha256": "392238460eb5756368b89a28b5ad9d7139a3c45f5e71ff96f5f572c90bb594da"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-277.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2321-male-anatomical-white-v1-thumb-61baeb0a6fd6.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2432,
+        "sha256": "61baeb0a6fd6b0b2e27b143344784b88efcbb299e87335295040d23c1a213199"
+      },
+      "processingSignature": "98054a334863e2c417599b2f95fe7288232ed731b3e07295bd500bce6ee53553",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2321-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1304219,
+        "sha256": "6412e2d7e6a29b363a66690cca07b78abdeb95ed646d3ac79dce210a6bc50ad0"
+      }
+    },
+    {
+      "exerciseId": "2323",
+      "variant": "male",
+      "key": "2323-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand wider than shoulder width with toes turned out, holding one dumbbell vertically with both hands in front."
+        },
+        {
+          "key": "p2",
+          "caption": "Sit your hips down and back until thighs are about parallel, knees tracking toes; press through heels to stand."
+        }
+      ],
+      "prompt": "DUMBBELL SUMO SQUAT. Two equal cells side by side same REAR three-quarter camera clearly showing hips, pelvis, back of both thighs and shoes. LEFT upright wide stance toes outward30 degrees, both hands gripping ONE dumbbell upper head vertically hanging in front between thighs. RIGHT squat hips down and back, thighs approximately parallel floor, knees aligned outward over toes, heels grounded, chest up neutral spine. Same fixed wide stance and one dumbbell, arms hang between knees. Primary GLUTES only as smooth uniform soft red patches over opaque shorts covering buttocks; no fibers or exposed seat/crotch. Entire tank back black, no thigh red. Premium detailed adult MALE grayscale anatomical illustration matching the approved original project reference for rendering STYLE ONLY; ignore its pose and muscle highlights. Pure white background, soft contact shadows, crisp detailed exposed gray anatomy, realistic proportions and equipment. Wear an opaque black tank and black mid-thigh shorts fully wrapping front, sides, back, seat and crotch, with normal seams hems and folds; black shoes. Never expose internal anatomy through cloth. Red over clothing must be a smooth uniform soft teaching tint on intact fabric, without muscle fibers, lobes or cutaways. Highlight ONLY specified primary muscles. Normal two arms, two hands with five fingers, two legs, two feet. Equal cells, same camera and person throughout. Full body and equipment within each cell with generous margins. No text arrows logos.",
+      "inspectionNote": "Real output inspected. Wide toes-out stance then parallel-thigh squat, heels grounded, one vertical dumbbell held with both hands between legs. Rear oblique view shows intact shorts with glute teaching tint and ordinary cloth folds. Qualified review needed for arm/hand occlusion and whether dumbbell remains in front of pelvis, knee tracking, depth, stance width and hip alignment. Human anatomy review remains pending. No approval or publication.",
+      "canonicalName": "dumbbells sumo squat",
+      "styleVersion": "white-v1",
+      "equipment": "dumbbell",
+      "primaryMuscles": [
+        "glutes"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Wide toes-out stance then parallel-thigh squat, heels grounded, one vertical dumbbell held with both hands between legs. Rear oblique view shows intact shorts with glute teaching tint and ordinary cloth folds. Qualified review needed for arm/hand occlusion and whether dumbbell remains in front of pelvis, knee tracking, depth, stance width and hip alignment. Human anatomy review remains pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2323-male-anatomical-white-v1-p1-f49dff95de06.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 23772,
+          "sha256": "f49dff95de0650f2b1dbcc56374eeb2fb70f8e611728e1a1e2bf9c8a5e557815"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/2323-male-anatomical-white-v1-p2-e9d384ff3621.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 24000,
+          "sha256": "e9d384ff3621dae3c4064f29b9f47b468e79f9450b10bc4eb766d4bc06bc3238"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-277.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2323-male-anatomical-white-v1-thumb-c84bcdc83452.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2802,
+        "sha256": "c84bcdc8345251223f388cdf6455bcb09476bd7e9f8a350f4d466c4b0af8ecce"
+      },
+      "processingSignature": "512e0d89a752aa00a393adbe768d71a645a8fb94522528506878edf38004852b",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2323-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1339852,
+        "sha256": "2277fb5adc09eee3c3b2986bf707e1c2d53f559273435f1e40817de22d5e2cb5"
+      }
+    },
+    {
+      "exerciseId": "2324",
+      "variant": "male",
+      "key": "2324-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Face away from a low cable stack and hold the rope between your legs with nearly straight knees."
+        },
+        {
+          "key": "p2",
+          "caption": "Hinge at the hips, then drive hips forward to stand tall while keeping arms long and spine neutral."
+        }
+      ],
+      "prompt": "CABLE STRAIGHT-LEG ROPE PULL THROUGH. Two equal cells side by side same SIDE REAR three-quarter view, machine BEHIND subject at IMAGE LEFT, subject faces IMAGE RIGHT. Real low pulley near floor behind him, cable runs forward between legs to rope gripped both hands. LEFT hinge hips BACK toward stack, torso inclines forward with neutral flat spine, knees only slightly bent, arms straight down between thighs; rope and cable visibly trace between legs back to low pulley. RIGHT stand tall hip extension, arms still straight hands in front upper thighs with rope between legs, cable taut to SAME low pulley behind. No squat, no arm row, no leaning backward. Primary GLUTES only smooth uniform red tint over intact black shorts on buttocks; no muscle fibers through fabric, tank remains black. Premium detailed adult MALE grayscale anatomical illustration matching the approved original project reference for rendering STYLE ONLY; ignore its pose and muscle highlights. Pure white background, soft contact shadows, crisp detailed exposed gray anatomy, realistic proportions and equipment. Wear an opaque black tank and black mid-thigh shorts fully wrapping front, sides, back, seat and crotch, with normal seams hems and folds; black shoes. Never expose internal anatomy through cloth. Red over clothing must be a smooth uniform soft teaching tint on intact fabric, without muscle fibers, lobes or cutaways. Highlight ONLY specified primary muscles. Normal two arms, two hands with five fingers, two legs, two feet. Equal cells, same camera and person throughout. Full body and equipment within each cell with generous margins. No text arrows logos.",
+      "inspectionNote": "Real output inspected. Hip hinge then tall hip extension facing away from low pulley, nearly straight knees, long arms, rope held between legs and cable trailing behind. Smooth glute tint on opaque shorts, tank intact. Qualified review needed for cable/rope clearance between legs, grip occlusion, knee softness, neutral lumbar posture and hip endpoint. Human anatomy review remains pending. No approval or publication.",
+      "canonicalName": "cable straight legs pull through (with rope)",
+      "styleVersion": "white-v1",
+      "equipment": "cable",
+      "primaryMuscles": [
+        "glutes"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Hip hinge then tall hip extension facing away from low pulley, nearly straight knees, long arms, rope held between legs and cable trailing behind. Smooth glute tint on opaque shorts, tank intact. Qualified review needed for cable/rope clearance between legs, grip occlusion, knee softness, neutral lumbar posture and hip endpoint. Human anatomy review remains pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2324-male-anatomical-white-v1-p1-d7a10a31b937.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 37086,
+          "sha256": "d7a10a31b93799909158baa12964c5f32cd01bb9182f8cdcd0da19a28d5f1ea7"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/2324-male-anatomical-white-v1-p2-046230fd36cc.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 34972,
+          "sha256": "046230fd36ccac40f4bdadeb115920a8f61a2dd89f72edaaa9b1995557982729"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-277.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2324-male-anatomical-white-v1-thumb-67a79dff9c24.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 3722,
+        "sha256": "67a79dff9c245dd691c99183681e5fa61a9406446362685bf4155029c8cd614f"
+      },
+      "processingSignature": "c75a488c175d1d18854b23ffca58109ebb6e8a4fd6f11c9813050d2032e1881e",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2324-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1748994,
+        "sha256": "31ccec6a6057dae60ae19bd1e9b0ae38452c71ffd5e77c9ca5aedb11c605fa59"
+      }
+    }
+  ]
+}

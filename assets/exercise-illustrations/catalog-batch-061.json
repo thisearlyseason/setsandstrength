@@ -1,0 +1,421 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "0003",
+      "variant": "male",
+      "key": "0003-male-anatomical-white-v2",
+      "layout": {
+        "columns": 3,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Start with hips and knees bent, hands supporting head lightly"
+        },
+        {
+          "key": "p2",
+          "caption": "Rotate toward the bent knee while extending the opposite leg"
+        },
+        {
+          "key": "p3",
+          "caption": "Alternate rotation and leg extension to the other side"
+        }
+      ],
+      "prompt": "Edit original project male air-bike anatomical illustration. Preserve THREE side-by-side panels, grayscale exposed anatomy striations, white background, full opaque black knee-length shorts wrapping rear/crotch and shoes. The middle and last panels currently repeat the same position: FIX last panel ONLY so it unmistakably demonstrates the OPPOSITE bicycle-crunch phase: swap which leg is bent and which extended, rotate torso in opposite direction so his face turns AWAY from viewer and opposite elbow approaches bent knee. Middle panel face turned TOWARD viewer; last face should show more back/side of head facing away. Contralateral shoulder approaches bent knee, not same-side elbow. Pelvis/lumbar supported, neck neutral, hands lightly behind head, don't pull neck. First panel retains both knees bent. ALSO in ALL panels fix shirt: entire abdominal area is continuous opaque black fabric with real folds. Remove red naked-muscle fiber shapes/cutaway illusion. Use ONLY soft diffuse muted red surface tint on fabric; folds run over red tint. No exposed abdominal muscle strip windows. Maintain full limbs/mats in their own thirds with generous white gutters, no text.",
+      "inspectionNote": "Detailed anatomy and opaque rear/crotch clothing. Second and third poses repeat the same leg and rotation rather than alternating; abdominal tint looks like exposed fiber cutaway. Requires correction.",
+      "blockingIssues": [
+        "Correction changes torso direction but third phase appears excessively rotated; bent-leg identity and contralateral elbow-knee sequence still uncertain. Qualified correction required, do not approve. Garment overlay improved but requires fabric review."
+      ],
+      "canonicalName": "air bike",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "abs"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original generation from exercise metadata and user-selected style. No upstream image input."
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Correction changes torso direction but third phase appears excessively rotated; bent-leg identity and contralateral elbow-knee sequence still uncertain. Qualified correction required, do not approve. Garment overlay improved but requires fabric review.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0003-male-anatomical-white-v1-p1-314ed0bff9d4.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 31098,
+          "sha256": "314ed0bff9d48a8c90b0c5ef732172506ac22854f7c4fe99b4bbe7999f477e0f"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0003-male-anatomical-white-v1-p2-b56d3c3b7275.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 35812,
+          "sha256": "b56d3c3b727588467b8af5480ee572a618a6412ab75fcf2f199f90a5151e4721"
+        },
+        {
+          "pose": "p3",
+          "path": "/workout/illustration-pilot/0003-male-anatomical-white-v1-p3-f3bbc3fce9b7.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 35482,
+          "sha256": "f3bbc3fce9b73785ced3bc4a85335681de6498ceeeb7f71889448ebc5cbe7018"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0003-male-anatomical-white-v1-thumb-b150094c5d9c.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 3528,
+        "sha256": "b150094c5d9cd733ea235a3e8e27be5249f721c5fe423ef5f5346cbf3fab81d3"
+      },
+      "processingSignature": "d153cb9fcce1950b00b2e3c4b9837bcc9b0271f9f3afd8a9382f032257e4ea38",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0003-male-anatomical-white-v1.png",
+        "width": 2172,
+        "height": 724,
+        "bytes": 1662001,
+        "sha256": "85f612f6f9a4ecb8adf511e58b671b0786d921325498e9d6d4bb9d2805b320d5"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0003",
+          "variant": "male",
+          "key": "0003-male-anatomical-white-v1",
+          "layout": {
+            "columns": 3,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Start with hips and knees bent, hands supporting head lightly"
+            },
+            {
+              "key": "p2",
+              "caption": "Rotate toward the bent knee while extending the opposite leg"
+            },
+            {
+              "key": "p3",
+              "caption": "Alternate rotation and leg extension to the other side"
+            }
+          ],
+          "prompt": "Premium medical anatomical fitness illustration, not a photograph or cartoon. Realistic adult MALE proportions. Pure white background, subtle soft contact shadows, neutral GRAYSCALE exposed anatomy with crisp muscle fiber STRIATIONS and tendons on exposed arms thighs calves, no flesh-color skin. Only primary target muscles red. Fully OPAQUE BLACK athletic sleeveless shirt completely covers chest torso abdomen BACK and sides; opaque knee-length black shorts fully wrap front sides rear SEAT and CROTCH with real seams folds closed hems, black shoes. No cutaways, transparent fabric or missing clothing panels. Red muscles UNDER clothing are represented ONLY by soft diffuse red teaching tint ON intact black fabric, with fabric folds crossing the tint; do not depict naked red muscle strips through clothing. Same model clothing equipment camera lighting and scale across poses. No text numbers captions arrows logos. Leave generous white margins around all limbs/equipment and a wide white gutter BETWEEN each position. AIR BIKE (bicycle crunch). THREE equal side-by-side panels in a very WIDE landscape composition, each figure isolated entirely within its third with white gutter. Elevated front-oblique camera clearly shows both elbows and both knees. Adult supine on a thin light gray exercise mat, pelvis and lower back supported, hands lightly touching behind head without pulling neck, elbows open. PANEL1 both hips and knees about90degrees, shins parallel floor, upper back gently lifted with neck neutral. PANEL2 one knee draws toward chest, OPPOSITE shoulder rotates toward that knee and opposite elbow approaches it without yanking head; other leg extends diagonally forward above floor without locking knee. PANEL3 alternate opposite shoulder-to-knee rotation with the other leg extended. Panel2 and3 must clearly swap bent versus straight legs and opposing shoulder rotation, never same-side elbow-to-knee. Head chest and elbows rotate together, lumbar region supported, hands stay behind head all phases. Primary abs red only as diffuse overlay on continuous opaque black shirt, obliques secondary not bright red. No bicycle equipment. Side-neutral captions will be accessible text outside images.",
+          "inspectionNote": "Detailed anatomy and opaque rear/crotch clothing. Second and third poses repeat the same leg and rotation rather than alternating; abdominal tint looks like exposed fiber cutaway. Requires correction.",
+          "blockingIssues": [
+            "Air bike phases repeat same leg; correct alternate contralateral shoulder-knee movement and cloth overlay."
+          ],
+          "canonicalName": "air bike",
+          "styleVersion": "white-v1",
+          "equipment": "body weight",
+          "primaryMuscles": [
+            "abs"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original generation from exercise metadata and user-selected style. No upstream image input."
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Detailed anatomy and opaque rear/crotch clothing. Second and third poses repeat the same leg and rotation rather than alternating; abdominal tint looks like exposed fiber cutaway. Requires correction.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0003-male-anatomical-white-v1-p1-314ed0bff9d4.webp",
+              "width": 724,
+              "height": 724,
+              "bytes": 31098,
+              "sha256": "314ed0bff9d48a8c90b0c5ef732172506ac22854f7c4fe99b4bbe7999f477e0f"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0003-male-anatomical-white-v1-p2-b56d3c3b7275.webp",
+              "width": 724,
+              "height": 724,
+              "bytes": 35812,
+              "sha256": "b56d3c3b727588467b8af5480ee572a618a6412ab75fcf2f199f90a5151e4721"
+            },
+            {
+              "pose": "p3",
+              "path": "/workout/illustration-pilot/0003-male-anatomical-white-v1-p3-f3bbc3fce9b7.webp",
+              "width": 724,
+              "height": 724,
+              "bytes": 35482,
+              "sha256": "f3bbc3fce9b73785ced3bc4a85335681de6498ceeeb7f71889448ebc5cbe7018"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0003-male-anatomical-white-v1-thumb-b150094c5d9c.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 3528,
+            "sha256": "b150094c5d9cd733ea235a3e8e27be5249f721c5fe423ef5f5346cbf3fab81d3"
+          },
+          "processingSignature": "d153cb9fcce1950b00b2e3c4b9837bcc9b0271f9f3afd8a9382f032257e4ea38",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0003-male-anatomical-white-v1.png",
+            "width": 2172,
+            "height": 724,
+            "bytes": 1662001,
+            "sha256": "85f612f6f9a4ecb8adf511e58b671b0786d921325498e9d6d4bb9d2805b320d5"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "0003",
+      "variant": "female",
+      "key": "0003-female-anatomical-white-v2",
+      "layout": {
+        "columns": 3,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Start with hips and knees bent, hands supporting head lightly"
+        },
+        {
+          "key": "p2",
+          "caption": "Rotate toward the bent knee while extending the opposite leg"
+        },
+        {
+          "key": "p3",
+          "caption": "Alternate rotation and leg extension to the other side"
+        }
+      ],
+      "prompt": "Correct this original female air-bike illustration. Keep 3 side-by-side poses, same camera, detailed silver grayscale anatomy, fully opaque black shirt and knee-length shorts covering front sides seat crotch, white background. Critical last panel: SWITCH legs so the leg nearest camera is BENT toward chest and the leg farthest camera extends straight diagonally out. Middle panel nearest leg is straight; last MUST visibly alternate. Rotate chest MODESTLY opposite direction from middle panel, bringing far shoulder toward near bent knee, not rolling onto side and not turning entire back toward viewer. Lumbar and pelvis stay on mat, shoulderblades slightly elevated, neutral neck, hands lightly behind head. First neutral and middle phase unchanged. Fix shirt in all panels: no red muscle fiber shapes on abdomen. Entire abdominal area is uninterrupted opaque BLACK folded fabric, with faint diffuse red PRINT on surface only. All model limbs and mat inside own panel, white gutters; no text.",
+      "inspectionNote": "Detailed grayscale anatomy and full rear/crotch clothes. Alternation failed: second and third poses repeat bent/straight leg and torso rotation; abdominal overlay still resembles muscle cutaway.",
+      "blockingIssues": [
+        "Shirt opacity and muted surface tint improved; final pose still repeats the same leg/rotation rather than clear contralateral alternation. Must correct movement before approval."
+      ],
+      "canonicalName": "air bike",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "abs"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original generation from exercise metadata and user-selected style. No upstream image input."
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Shirt opacity and muted surface tint improved; final pose still repeats the same leg/rotation rather than clear contralateral alternation. Must correct movement before approval.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0003-female-anatomical-white-v1-p1-202a3ab28c22.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 31492,
+          "sha256": "202a3ab28c226bb27749f9dbd6d9c16dbce55cf137172af05a9415d24bf0b98d"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0003-female-anatomical-white-v1-p2-ca4a1ae82375.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 33164,
+          "sha256": "ca4a1ae8237531732925a123761871dc54bdc939f2fc28a36132b8990dd2a2b8"
+        },
+        {
+          "pose": "p3",
+          "path": "/workout/illustration-pilot/0003-female-anatomical-white-v1-p3-6c7709e1591f.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 33498,
+          "sha256": "6c7709e1591f7308c43691d087ce921afbd21a2315b20990df9d3fd6390aac7f"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0003-female-anatomical-white-v1-thumb-40b23a2c1e3d.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 3566,
+        "sha256": "40b23a2c1e3d4aacfac4eded04e5a1ce0c5a2fd4ab971a683f59459a7b3f35bb"
+      },
+      "processingSignature": "a635b30971af13a7b3e657627bceeb996e8972bede959091e99afbc978f5caf6",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0003-female-anatomical-white-v1.png",
+        "width": 2172,
+        "height": 724,
+        "bytes": 1641344,
+        "sha256": "fefb241608de9a48e2c3eb95fea94de1e6f79bf2de0b1a483fd9c7698009ff5c"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0003",
+          "variant": "female",
+          "key": "0003-female-anatomical-white-v1",
+          "layout": {
+            "columns": 3,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Start with hips and knees bent, hands supporting head lightly"
+            },
+            {
+              "key": "p2",
+              "caption": "Rotate toward the bent knee while extending the opposite leg"
+            },
+            {
+              "key": "p3",
+              "caption": "Alternate rotation and leg extension to the other side"
+            }
+          ],
+          "prompt": "Premium medical anatomical fitness illustration, not a photograph or cartoon. Realistic adult FEMALE proportions. Pure white background, subtle soft contact shadows, neutral GRAYSCALE exposed anatomy with crisp muscle fiber STRIATIONS and tendons on exposed arms thighs calves, no flesh-color skin. Only primary target muscles red. Fully OPAQUE BLACK athletic sleeveless shirt completely covers chest torso abdomen BACK and sides; opaque knee-length black shorts fully wrap front sides rear SEAT and CROTCH with real seams folds closed hems, black shoes. No cutaways, transparent fabric or missing clothing panels. Red muscles UNDER clothing are represented ONLY by soft diffuse red teaching tint ON intact black fabric, with fabric folds crossing the tint; do not depict naked red muscle strips through clothing. Same model clothing equipment camera lighting and scale across poses. No text numbers captions arrows logos. Leave generous white margins around all limbs/equipment and a wide white gutter BETWEEN each position. AIR BIKE (bicycle crunch). THREE equal side-by-side panels in a very WIDE landscape composition, each figure isolated entirely within its third with white gutter. Elevated front-oblique camera clearly shows both elbows and both knees. Adult supine on a thin light gray exercise mat, pelvis and lower back supported, hands lightly touching behind head without pulling neck, elbows open. PANEL1 both hips and knees about90degrees, shins parallel floor, upper back gently lifted with neck neutral. PANEL2 one knee draws toward chest, OPPOSITE shoulder rotates toward that knee and opposite elbow approaches it without yanking head; other leg extends diagonally forward above floor without locking knee. PANEL3 alternate opposite shoulder-to-knee rotation with the other leg extended. Panel2 and3 must clearly swap bent versus straight legs and opposing shoulder rotation, never same-side elbow-to-knee. Head chest and elbows rotate together, lumbar region supported, hands stay behind head all phases. Primary abs red only as diffuse overlay on continuous opaque black shirt, obliques secondary not bright red. No bicycle equipment. Side-neutral captions will be accessible text outside images. CRITICAL alternating identity: middle panel NEAR leg BENT and FAR leg STRAIGHT; last panel NEAR leg STRAIGHT and FAR leg BENT, with opposing shoulder twisting forward. Do not repeat the middle pose. Shirt must remain visibly BLACK fabric over abdomen, only diffuse flat red tint without muscle fiber shapes on garment.",
+          "inspectionNote": "Detailed grayscale anatomy and full rear/crotch clothes. Alternation failed: second and third poses repeat bent/straight leg and torso rotation; abdominal overlay still resembles muscle cutaway.",
+          "blockingIssues": [
+            "Correct repeated leg phases and contralateral rotation; preserve opaque abdominal fabric with surface tint only."
+          ],
+          "canonicalName": "air bike",
+          "styleVersion": "white-v1",
+          "equipment": "body weight",
+          "primaryMuscles": [
+            "abs"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original generation from exercise metadata and user-selected style. No upstream image input."
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Detailed grayscale anatomy and full rear/crotch clothes. Alternation failed: second and third poses repeat bent/straight leg and torso rotation; abdominal overlay still resembles muscle cutaway.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0003-female-anatomical-white-v1-p1-202a3ab28c22.webp",
+              "width": 724,
+              "height": 724,
+              "bytes": 31492,
+              "sha256": "202a3ab28c226bb27749f9dbd6d9c16dbce55cf137172af05a9415d24bf0b98d"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0003-female-anatomical-white-v1-p2-ca4a1ae82375.webp",
+              "width": 724,
+              "height": 724,
+              "bytes": 33164,
+              "sha256": "ca4a1ae8237531732925a123761871dc54bdc939f2fc28a36132b8990dd2a2b8"
+            },
+            {
+              "pose": "p3",
+              "path": "/workout/illustration-pilot/0003-female-anatomical-white-v1-p3-6c7709e1591f.webp",
+              "width": 724,
+              "height": 724,
+              "bytes": 33498,
+              "sha256": "6c7709e1591f7308c43691d087ce921afbd21a2315b20990df9d3fd6390aac7f"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0003-female-anatomical-white-v1-thumb-40b23a2c1e3d.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 3566,
+            "sha256": "40b23a2c1e3d4aacfac4eded04e5a1ce0c5a2fd4ab971a683f59459a7b3f35bb"
+          },
+          "processingSignature": "a635b30971af13a7b3e657627bceeb996e8972bede959091e99afbc978f5caf6",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0003-female-anatomical-white-v1.png",
+            "width": 2172,
+            "height": 724,
+            "bytes": 1641344,
+            "sha256": "fefb241608de9a48e2c3eb95fea94de1e6f79bf2de0b1a483fd9c7698009ff5c"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "0190",
+      "variant": "male",
+      "key": "0190-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand facing low pulley with palm up and arm lowered"
+        },
+        {
+          "key": "p2",
+          "caption": "Curl handle toward shoulder while keeping elbow by side"
+        }
+      ],
+      "prompt": "Premium medical anatomical fitness illustration, not a photograph or cartoon. Realistic adult MALE proportions. Pure white background, subtle soft contact shadows, neutral GRAYSCALE exposed anatomy with crisp muscle fiber STRIATIONS and tendons on exposed arms thighs calves, no flesh-color skin. Only primary target muscles red. Fully OPAQUE BLACK athletic sleeveless shirt completely covers chest torso abdomen BACK and sides; opaque knee-length black shorts fully wrap front sides rear SEAT and CROTCH with real seams folds closed hems, black shoes. No cutaways, transparent fabric or missing clothing panels. Red muscles UNDER clothing are represented ONLY by soft diffuse red teaching tint ON intact black fabric, with fabric folds crossing the tint; do not depict naked red muscle strips through clothing. Same model clothing equipment camera lighting and scale across poses. No text numbers captions arrows logos. Leave generous white margins around all limbs/equipment and a wide white gutter BETWEEN each position. STANDING ONE ARM CABLE CURL. TWO equal SIDE-BY-SIDE poses, front-side three-quarter camera makes working biceps, palm-up grip and full cable route visible. Same adult stands facing a cable tower with feet shoulder width, torso upright, one hand holds ONE D-shaped stirrup handle with UNDERHAND SUPINATED palm-up grip, other arm relaxed at side. ONE taut cable connects center swivel of handle to LOW pulley in front of feet; central connector not hand or wrist. PANEL1 working arm down near side, elbow softly extended and upper arm beside ribcage, wrist straight. PANEL2 flex SAME elbow to bring handle toward shoulder, upper arm remains vertical pinned beside ribs, elbow does NOT move forward, shoulder remains neutral no shrug, no torso swing. Same grip and fingers closed around same handle bar throughout, no switching arms. Primary biceps on working arm RED; triceps and forearms neutral silvergray. Full cable tower top and base included with WHITE margins, full both shoes and feet visible, cable clear of body and legs with physically continuous route and weight stack.",
+      "inspectionNote": "One-arm curl progression, elbow by side, continuous single low cable and opaque full clothes. Tower top cropped; qualified palm orientation and shoulder stability review required.",
+      "blockingIssues": [
+        "Restore tower top within frame before approval."
+      ]
+    },
+    {
+      "exerciseId": "0190",
+      "variant": "female",
+      "key": "0190-female-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand facing low pulley with palm up and arm lowered"
+        },
+        {
+          "key": "p2",
+          "caption": "Curl handle toward shoulder while keeping elbow by side"
+        }
+      ],
+      "prompt": "Premium medical anatomical fitness illustration, not a photograph or cartoon. Realistic adult FEMALE proportions. Pure white background, subtle soft contact shadows, neutral GRAYSCALE exposed anatomy with crisp muscle fiber STRIATIONS and tendons on exposed arms thighs calves, no flesh-color skin. Only primary target muscles red. Fully OPAQUE BLACK athletic sleeveless shirt completely covers chest torso abdomen BACK and sides; opaque knee-length black shorts fully wrap front sides rear SEAT and CROTCH with real seams folds closed hems, black shoes. No cutaways, transparent fabric or missing clothing panels. Red muscles UNDER clothing are represented ONLY by soft diffuse red teaching tint ON intact black fabric, with fabric folds crossing the tint; do not depict naked red muscle strips through clothing. Same model clothing equipment camera lighting and scale across poses. No text numbers captions arrows logos. Leave generous white margins around all limbs/equipment and a wide white gutter BETWEEN each position. STANDING ONE ARM CABLE CURL. TWO equal SIDE-BY-SIDE poses, front-side three-quarter camera makes working biceps, palm-up grip and full cable route visible. Same adult stands facing a cable tower with feet shoulder width, torso upright, one hand holds ONE D-shaped stirrup handle with UNDERHAND SUPINATED palm-up grip, other arm relaxed at side. ONE taut cable connects center swivel of handle to LOW pulley in front of feet; central connector not hand or wrist. PANEL1 working arm down near side, elbow softly extended and upper arm beside ribcage, wrist straight. PANEL2 flex SAME elbow to bring handle toward shoulder, upper arm remains vertical pinned beside ribs, elbow does NOT move forward, shoulder remains neutral no shrug, no torso swing. Same grip and fingers closed around same handle bar throughout, no switching arms. Primary biceps on working arm RED; triceps and forearms neutral silvergray. Full cable tower top and base included with WHITE margins, full both shoes and feet visible, cable clear of body and legs with physically continuous route and weight stack. Composition priority: machine full top with white margin is essential. Reduce entire machine and figure scale sufficiently, do not crop top. Keep handle at same side body across both phases.",
+      "inspectionNote": "Single low cable to stirrup, working elbow by side and bent-to-extended sequence, full black opaque clothing and full tower/body framing visible. Neutral wrist, supination and muscle detail remain pending qualified review."
+    }
+  ]
+}

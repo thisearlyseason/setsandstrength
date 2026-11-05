@@ -1,0 +1,80 @@
+{
+  "batch": 319,
+  "runId": "24f034ca-13e3-452e-8098-c43457d65be4",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "trigger": "2026-11-04T07:48:58.513Z",
+  "purpose": "batch319 scheduled male continuation",
+  "started": "2026-11-04T07:49:14.837456+00:00",
+  "completedAt": "2026-11-04T07:54:00.949017+00:00",
+  "actualToolName": "image_gen__imagegen",
+  "calls": 4,
+  "newCandidateSets": 4,
+  "exerciseIds": [
+    "2976",
+    "2980",
+    "2982",
+    "2984"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1143,
+    "remainingVariants": 10121,
+    "approvedVariants": 0,
+    "blockedVariants": 407,
+    "knownPoseImages": 2225,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 770,
+      "remainingVariants": 4862,
+      "blockedVariants": 288
+    }
+  },
+  "reviewNotes": {
+    "2976": "Landmine rack/squat/diagonal press visible with fixed floor pivot and two-hand grip. Unrequested chest highlight and quad anatomy extending across shorts in squat require correction. Qualified review of bar arc and foot contacts pending.",
+    "2980": "High plank followed by two repeated same-arm rows; opposite arm never rows. Lateral tank wash retained but alternation incorrect. Block phase correction; qualified anti-rotation and limb-contact review pending.",
+    "2982": "Supine floor press shows both arms raised, then clearly alternating lowered upper arms; head floor and feet planted. Chest highlight renders anatomical pectoral lobes/nipple through tank; block clothing overlay correction. Qualified joint/weight alignment review pending.",
+    "2984": "Same support foot stays planted while opposite leg stays extended; hips touch box at bottom and arms forward. Unrequested red chest highlight requires removal. Qualified review of support-knee tracking, box depth and balance pending."
+  },
+  "blockingIssues": {
+    "2976": [
+      "Remove unrequested pectoral highlight; quadriceps only.",
+      "Remove quad anatomical fibers through shorts; retain opaque fabric with plain wash only."
+    ],
+    "2980": [
+      "Third panel must row opposite arm with other hand grounded; current second and third panels repeat same arm."
+    ],
+    "2982": [
+      "Replace anatomically shaped pectoral lobes/nipple through tank with plain uniform wash over intact opaque fabric."
+    ],
+    "2984": [
+      "Remove unrequested red pectoral highlight; working quadriceps only."
+    ]
+  },
+  "deferred": {},
+  "tests": 7,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "workerSyncResult": {
+    "statuses": {
+      "generated": 1143,
+      "pending": 10121
+    },
+    "remaining": 10121,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 1750984494
+  },
+  "publicationIndexUnchanged": true
+}

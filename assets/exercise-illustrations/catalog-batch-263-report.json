@@ -1,0 +1,90 @@
+{
+  "batch": 263,
+  "runId": "600cd5ae-5135-4071-8595-a66225ffc505",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "trigger": "2026-11-03T22:43:24.230Z",
+  "purpose": "batch263 scheduled male continuation",
+  "started": "2026-11-03T22:43:44.111923+00:00",
+  "completedAt": "2026-11-03T22:50:13.888711+00:00",
+  "actualToolName": "image_gen__imagegen",
+  "calls": 4,
+  "newCandidateSets": 4,
+  "exerciseIds": [
+    "2130",
+    "2133",
+    "2135",
+    "2144"
+  ],
+  "variants": [
+    "male"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 925,
+    "remainingVariants": 10339,
+    "approvedVariants": 0,
+    "blockedVariants": 298,
+    "knownPoseImages": 1748,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 552,
+      "remainingVariants": 5080,
+      "blockedVariants": 179
+    }
+  },
+  "reviewNotes": {
+    "2130": "Two distinct decline crunch positions, feet secured under rollers, plate held at chest and pelvis supported. Starting head/neck extend beyond pad and float unsupported instead of resting on bench; block for bench/head placement correction. Abdominal overlay plain on opaque tank, chest unhighlighted. Qualified review of decline angle, roller fit, crunch range, neck alignment and hand grip.",
+    "2133": "Three positions show standing carry and two strides with dumbbells at sides and upright torso. Final stride crosses legs across midline instead of a normal small forward step; block for gait correction and clear opposite leg progression. Quad tint on opaque shorts, all weights and feet framed. Qualified review of neutral grip, level shoulders, stride width and primary quad mapping.",
+    "2135": "Static forearm plank with elbows near shoulders, toes grounded, plate resting across upper-mid back on intact tank and body near straight. Uniform lateral abdominal tint, full opaque shorts. Qualified review needed for gaze/neck extension, elbow placement, plate stability and load position, pelvis alignment and abdominal mapping.",
+    "2144": "Two seated cable press positions with handles retracted then extended forward, cables visibly attached to separate rear pulleys, back supported and both feet flat. Chest highlights plain on intact tank and all machine parts framed. Handles are below shoulder height, so qualified review needed for canonical setup height, elbow path, grip, cable loading geometry and chest mapping."
+  },
+  "blockingIssues": {
+    "2130": [
+      "Starting head and neck extend beyond bench pad unsupported; correct bench/head placement."
+    ],
+    "2133": [
+      "Final stride crosses legs across midline; correct to normal opposite forward step with appropriate stride width."
+    ]
+  },
+  "deferred": {
+    "2136": "Cuban press wrist/palm directions require technique clarification.",
+    "2138": "Cardiovascular primary does not identify a muscle highlight.",
+    "2139": "Upper-body ergometer instruction places feet on pedals; equipment/contact clarification needed.",
+    "2140": "Cardiovascular primary requires muscle-highlight mapping.",
+    "2141": "Cardiovascular primary requires muscle-highlight mapping.",
+    "2142": "SkiErg description versus seated pushdown instructions conflict.",
+    "2143": "Around-world circular path and palm orientation require technique planning."
+  },
+  "tests": 7,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "workerSyncResult": {
+    "statuses": {
+      "generated": 925,
+      "pending": 10339
+    },
+    "remaining": 10339,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 1426443088
+  },
+  "publicationIndexUnchanged": true,
+  "savedMasters": [
+    "assets/exercise-illustrations/generated/2130-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/2133-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/2135-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/2144-male-anatomical-white-v1.png"
+  ]
+}

@@ -1,0 +1,8 @@
+import { useEffect, useRef, useState } from 'react'
+import { nativeStepAdapter, readLocalSteps } from './local-steps.js'
+export default function LocalSteps() {
+ const [result,setResult]=useState({state:'disconnected',count:null}),[busy,setBusy]=useState(false),alive=useRef(true)
+ useEffect(()=>{alive.current=true;return()=>{alive.current=false}},[])
+ async function read(){setBusy(true);const next=await readLocalSteps({adapter:await nativeStepAdapter().catch(()=>null),enabled:true,request:true});if(alive.current){setResult(next);setBusy(false)}}
+ return <section className="history-panel"><div className="section-head"><h2>{result.at ? `Steps for ${new Date(result.at).toLocaleDateString()}` : 'Steps today'}</h2><button className="outline compact" disabled={busy} onClick={read}>{busy?'Reading steps…':result.state==='ready'?'Refresh local steps':'Read local steps'}</button></div><strong role="status">{result.count == null ? 'Not available' : result.count.toLocaleString()}</strong><p className="muted-copy">{result.count != null ? `${result.source} · local midnight to ${new Date(result.at).toLocaleTimeString()}.` : result.state==='permission'?'Step access is not allowed. You can change it in your health settings.':result.state==='no-data'?'No readable step samples. This may mean no records or denied read access; it does not mean zero steps.':result.state==='disconnected'?'Choose Read local steps to request access to today’s steps from this device’s health store.':'A local step source is unavailable on this device.'} Step readings stay on this screen and are not synced to your account.</p></section>
+}

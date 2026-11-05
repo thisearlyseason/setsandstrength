@@ -1,0 +1,64 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "3591",
+      "variant": "male",
+      "key": "3591-male-anatomical-white-v1",
+      "prompt": "TWO equal panels FRONT three-quarter view STANDING BAND TWIST. Band securely ANCHORED at CHEST HEIGHT to fixed vertical post on image LEFT, post and anchor visible. Male stands SIDEWAYS to anchor feet shoulder width, holds ONE band handle BOTH hands, arms extended chestheight slight elbows soft. Left arms reach toward anchor side starting torso angle. Right rotate TORSO AWAY from anchor toward image RIGHT arms remain in front chest rotate together, feet stable knees soft. Band taut connects anchor directly handle BOTH panels. No loose free band ends. ABS small flat PLAIN uniform red wash intact tank abdomen only no fibers no sixpack shapes. Premium detailed grayscale anatomical adult MALE illustration pure white background soft shadows crisp realistic muscle anatomy joints. Original project reference STYLE ONLY. Same model camera scale garments equipment all panels. Complete opaque BLACK tank mid-thigh shorts wrap front sides back seat crotch seams folds hems. Covered red highlight PLAIN UNIFORM wash NO anatomical fibers segments lobes cutaways transparency. Full body hands feet equipment inside every panel generous margins. No text arrows labels logos numbers.\n",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hold band handle with both hands, standing sideways to chest-height anchor."
+        },
+        {
+          "key": "p2",
+          "caption": "Rotate torso away from anchor, return slowly and switch sides after set."
+        }
+      ],
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream media used.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only"
+      },
+      "inspectionNote": "Real output inspected. Two standing band twist poses show fixed post anchor, taut resistance and torso rotation with both hands on handle. Intact clothing with plain abdomen wash. Qualified review should check exact anchor height and torso/pelvis mechanics. Human anatomy review pending; no approval or publication.",
+      "blockingIssues": []
+    },
+    {
+      "exerciseId": "3590",
+      "variant": "male",
+      "key": "3590-male-anatomical-white-v1",
+      "prompt": "THREE equal panels FRONT FOOT-END three-quarter view ALTERNATE LYING FLOOR LEG RAISE. Male SUPINE flat on mat head and shoulders RESTING on mat arms straight at sides palms down, legs STRAIGHT knees unbent throughout. First BOTH legs flat floor. Second RIGHT leg raised straight toward ceiling90degrees LEFT leg stays flat. Third LEFT leg raised straight toward ceiling90degrees RIGHT stays flat. MUST alternate raised leg, use FRONT FOOT-END camera so side difference obvious. Head must touch mat, no crunch. Lower back pressed mat. ABS small flat PLAIN red wash intact tank abdomen only no fibers no cutaway no sixpack shapes. Premium detailed grayscale anatomical adult MALE illustration pure white background soft shadows crisp realistic muscle anatomy joints. Original project reference STYLE ONLY. Same model camera scale garments equipment all panels. Complete opaque BLACK tank mid-thigh shorts wrap front sides back seat crotch seams folds hems. Covered red highlight PLAIN UNIFORM wash NO anatomical fibers segments lobes cutaways transparency. Full body hands feet equipment inside every panel generous margins. No text arrows labels logos numbers.\n",
+      "layout": {
+        "columns": 3,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Lie flat with straight legs and arms at sides."
+        },
+        {
+          "key": "p2",
+          "caption": "Raise right leg toward vertical, keeping back supported."
+        },
+        {
+          "key": "p3",
+          "caption": "Lower right leg and raise left; continue alternating."
+        }
+      ],
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream media used.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only"
+      },
+      "inspectionNote": "Real output inspected. Three leg raise poses show flat start and vertical leg raise, but final two panels repeat the same raised leg. Opaque clothing retained. Human anatomy review pending; no approval or publication.",
+      "blockingIssues": [
+        "Final two panels repeat the same raised leg instead of alternating."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,332 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "2563",
+      "variant": "male",
+      "key": "2563-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand facing the loaded sled with knees soft, holding the attached rope handles and back flat."
+        },
+        {
+          "key": "p2",
+          "caption": "Row the handles toward your torso to pull the sled closer; squeeze shoulder blades and reset under control."
+        }
+      ],
+      "prompt": "POWER SLED PULL ROW. TWO equal cells SAME SIDE threequarter camera facingRIGHT. Real low steel sled on FLOOR IMAGE RIGHT with centralpost smallweightplates, two equal gray ropes attached sledFRONTtowardman. Male stands IMAGE LEFT feetshoulderwidth kneessoft hinge20degrees neutralback. LEFT armsstraight hands grip ropeendhandles palmsin, ropesTAUT sled1.5m away. RIGHT elbowsbend90 pullhandles LOWER RIBS elbowsback, torsoSAMEanglefeetSAMEplace, sledslides CLOSER30cm towardman, ropesremainingTAUT noextralimbs. Primary LATS only smalluniformredwash lateralbacktank, restclothblack. Entire sledropesbodyvisible. Premium detailed adult MALE grayscale anatomical illustration matching approved original reference rendering STYLE ONLY, ignore its pose/highlights. Pure white background soft shadows, realistic proportions/equipment and crisp exposed gray muscle detail. Opaque BLACK tank and mid-thigh shorts fully wrap front sides back seat crotch with seams hems ordinary folds, black shoes. No anatomy through fabric. Primary highlights on cloth SMALL PLAIN UNIFORM soft red color wash, no fibers lobes striations cutaways. Only named primary red every pose. Two arms hands five fingers two legs feet. Whole body/equipment in equal cells with generous margins. No text arrows logos.",
+      "inspectionNote": "Real output inspected. Soft-knee hinged stance with extended arms then row to lower ribs, two ropes and weighted floor sled, opaque clothing and lateral lat tint. Sled remains similar distance despite row, ropes lengthen rather than pulling sled closer; block resistance geometry correction. Qualified review of neutral back, grip and actual sled travel required. Human anatomy review pending. No approval or publication.",
+      "blockingIssues": [
+        "Sled stays stationary while ropes appear to lengthen; correct fixed rope length and sled movement toward athlete."
+      ],
+      "canonicalName": "power sled pull row",
+      "styleVersion": "white-v1",
+      "equipment": "sled machine",
+      "primaryMuscles": [
+        "lats"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Soft-knee hinged stance with extended arms then row to lower ribs, two ropes and weighted floor sled, opaque clothing and lateral lat tint. Sled remains similar distance despite row, ropes lengthen rather than pulling sled closer; block resistance geometry correction. Qualified review of neutral back, grip and actual sled travel required. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2563-male-anatomical-white-v1-p1-eb598a8eb22b.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 31114,
+          "sha256": "eb598a8eb22bc2e78995c7062b93eb1bdba0138eddfb8a3ba66eb27cc8fd993b"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/2563-male-anatomical-white-v1-p2-f0f57ab879e6.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 30626,
+          "sha256": "f0f57ab879e68ef6f4ec1b8070bda95b3d19a952e6639dd315b78b28c5c8ae17"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-293.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2563-male-anatomical-white-v1-thumb-ac8fe269e44c.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 3426,
+        "sha256": "ac8fe269e44cbdbd6b130041ef7238e737e0a28c5db6cc202302ded2f5abead4"
+      },
+      "processingSignature": "6a9ed9991956f8e981af7fedaf2cf0f0fe4143d95aa8291d05b83e20e7b64c91",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2563-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1421671,
+        "sha256": "dd9bd94e0d8f77c5f4ab555f77a3a82baa3f84858de4856c89594c09a6bfec09"
+      }
+    },
+    {
+      "exerciseId": "2566",
+      "variant": "male",
+      "key": "2566-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Lie on the bench with knees bent and feet flat, holding one dumbbell above your chest with elbows softly bent."
+        },
+        {
+          "key": "p2",
+          "caption": "Keep that elbow angle fixed as you lower behind your head, then return over your chest without arching your back."
+        }
+      ],
+      "prompt": "BENT ARM DUMBBELL PULLOVER KNEES BENT. TWO equalcells SAME SIDE threequarter headLEFTfeetRIGHT. Longflatbench supports FULL HEAD upperbackhips, kneesbent feetfloor. BOTH hands securely CUP UNDERSIDE of upperhead of ONE vertical dumbbell, palmsunderweight notrestingontop, thumbswrapped aroundhandle. LEFT dumbbellabovechest elbowsbent25degrees. RIGHT lowerone dumbbell inarc BEHIND HEAD untilupperarmsnearears, SAME25degreebend fixed, no triceps extension, ribsdown neutralback headfullysupported nofloat. Primary PECTORALS only smallplainuniformredoval on intactfrontchesttank, nofibersegments. Nootherred. Premium detailed adult MALE grayscale anatomical illustration matching approved original reference rendering STYLE ONLY, ignore its pose/highlights. Pure white background soft shadows, realistic proportions/equipment and crisp exposed gray muscle detail. Opaque BLACK tank and mid-thigh shorts fully wrap front sides back seat crotch with seams hems ordinary folds, black shoes. No anatomy through fabric. Primary highlights on cloth SMALL PLAIN UNIFORM soft red color wash, no fibers lobes striations cutaways. Only named primary red every pose. Two arms hands five fingers two legs feet. Whole body/equipment in equal cells with generous margins. No text arrows logos.",
+      "inspectionNote": "Real output inspected. Supported bench posture, feet flat, one dumbbell held under head with both hands and plain chest tint. End elbows flex markedly while upper arms stay mostly upright, resembling triceps extension instead of fixed-angle pullover arc; block movement correction. Qualified review of grip, shoulder range and rib/lumbar position required. Human anatomy review pending. No approval or publication.",
+      "blockingIssues": [
+        "Elbows flex substantially instead of retaining angle during shoulder pullover; correct movement path."
+      ],
+      "canonicalName": "dumbbell bent arm pullover with knees bent",
+      "styleVersion": "white-v1",
+      "equipment": "dumbbell",
+      "primaryMuscles": [
+        "pectorals"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Supported bench posture, feet flat, one dumbbell held under head with both hands and plain chest tint. End elbows flex markedly while upper arms stay mostly upright, resembling triceps extension instead of fixed-angle pullover arc; block movement correction. Qualified review of grip, shoulder range and rib/lumbar position required. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2566-male-anatomical-white-v1-p1-62700a7ae078.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 38190,
+          "sha256": "62700a7ae0782a5a1b6e4d689f8b7cd29b42fc9dc62c3c19f2b2b1c59fb6b2ad"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/2566-male-anatomical-white-v1-p2-012fca6cd3ed.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 35640,
+          "sha256": "012fca6cd3ede5b701a68896b73e8dc9249112d388fd72998b42fb5255d35074"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-293.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2566-male-anatomical-white-v1-thumb-202f78fb261b.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 4062,
+        "sha256": "202f78fb261b365d31e6b4c341b6cdeb2fb68a23db99c54b2475d7be59f07a4d"
+      },
+      "processingSignature": "e542bf20cb1be499af3dff65330ddb6201739a66dee696bbf8a73f321f7236dd",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2566-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1681359,
+        "sha256": "54fa2aa80a72a1e1d862f523a27ff3fe88b47afa1fdcf64b6711b842dca8547a"
+      }
+    },
+    {
+      "exerciseId": "2567",
+      "variant": "male",
+      "key": "2567-male-anatomical-white-v1",
+      "layout": {
+        "columns": 1,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Sit with left leg extended and right foot crossed outside the left knee. Place left elbow outside the right knee and gently rotate right. Hold 20\u201330 seconds, then switch sides."
+        }
+      ],
+      "prompt": "SEATED PIRIFORMIS STRETCH. ONE fullbody STATIC pose rear-threequartercamera. Male sitsground LEFT leg extendsstraightforward heelground, RIGHT knee bentup and RIGHT FOOTflat onfloor OUTSIDE LEFT KNEE. LEFT elbow contacts OUTSIDE RIGHT KNEE gently, leftforearmup, RIGHT handflatfloor BEHIND pelvis supports. Torso gently rotates RIGHT coherentpelvis, shouldersmoderate30degreerotationnotreversedbody, neckfollows. Bothbuttocksgrounded, exactlytwolegsfeet clear. Primary RIGHT GLUTE only smalluniformsoftredwash on intactRIGHTseatshorts, leftleggray, no anatomyundercloth. Wholebodyhandsfeetvisible. Premium detailed adult MALE grayscale anatomical illustration matching approved original reference rendering STYLE ONLY, ignore its pose/highlights. Pure white background soft shadows, realistic proportions/equipment and crisp exposed gray muscle detail. Opaque BLACK tank and mid-thigh shorts fully wrap front sides back seat crotch with seams hems ordinary folds, black shoes. No anatomy through fabric. Primary highlights on cloth SMALL PLAIN UNIFORM soft red color wash, no fibers lobes striations cutaways. Only named primary red every pose. Two arms hands five fingers two legs feet. Whole body/equipment in equal cells with generous margins. No text arrows logos.",
+      "inspectionNote": "Real output inspected. Seated crossed bent leg with opposite leg extended, hand behind supports torso and glute tint on intact shorts. Elbow/knee contact appears same-side rather than opposite elbow outside crossed knee; block laterality/contact correction. Qualified review of foot outside opposite knee, grounded pelvis, rotation direction and comfortable range required. Human anatomy review pending. No approval or publication.",
+      "blockingIssues": [
+        "Elbow appears same-side as bent knee instead of opposite elbow outside knee; correct arm/leg laterality and contact."
+      ],
+      "canonicalName": "seated piriformis stretch",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "glutes"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Seated crossed bent leg with opposite leg extended, hand behind supports torso and glute tint on intact shorts. Elbow/knee contact appears same-side rather than opposite elbow outside crossed knee; block laterality/contact correction. Qualified review of foot outside opposite knee, grounded pelvis, rotation direction and comfortable range required. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2567-male-anatomical-white-v1-p1-7b8c96ab9e95.webp",
+          "width": 1200,
+          "height": 600,
+          "bytes": 29940,
+          "sha256": "7b8c96ab9e95e61eabc9123c7be7aceb1d981bdc9d28e2e27a547a8278a3d454"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-293.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2567-male-anatomical-white-v1-thumb-63056c8d1000.webp",
+        "width": 240,
+        "height": 120,
+        "bytes": 2072,
+        "sha256": "63056c8d1000008acfe60b8bcd6bbb4b16db825a2ea6c7593939b64ce94060f5"
+      },
+      "processingSignature": "eada007a9f788596e6fe5ab4390c8ce323d48d556f4c1b2f105a028a6d1e167c",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2567-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1424220,
+        "sha256": "52d81d1b471b16502206226937823284b9d3835236e2152b760cb3523653f3f6"
+      }
+    },
+    {
+      "exerciseId": "2569",
+      "variant": "male",
+      "key": "2569-male-anatomical-white-v1",
+      "layout": {
+        "columns": 3,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand wide with toes slightly outward."
+        },
+        {
+          "key": "p2",
+          "caption": "Shift right and lower onto the bent right leg, keeping the left leg straight with heel down and toes up."
+        },
+        {
+          "key": "p3",
+          "caption": "Push through center and repeat toward the left, keeping chest tall and the opposite leg straight."
+        }
+      ],
+      "prompt": "BODYWEIGHT COSSACK SQUAT. THREE equalcells SAME FRONT threequartercamera. MalefeetVERY WIDE stance heelsstaysAMEpositions. Handsclaspedfrontchest. LEFT centerstand tallfeetwide toesout15degrees kneessoft. CENTER shiftRIGHT bendRIGHTknee deep sitRIGHT hip down/back heelground kneeovertoes; LEFT legSTRAIGHT outSIDE leftheelground toesUP. RIGHT shiftLEFT bendLEFTknee deep sitLEFThip down/back heelground; RIGHT legSTRAIGHT outSIDE rightheelground toesUP. Torsotall modestforwardincline neutralspine, clearoppositelaterality notsamepose. Primary GLUTES only smalluniformredwash on intactouterhip/seatshorts relevantworkinghip, notquads. Bothfeetvisible. Premium detailed adult MALE grayscale anatomical illustration matching approved original reference rendering STYLE ONLY, ignore its pose/highlights. Pure white background soft shadows, realistic proportions/equipment and crisp exposed gray muscle detail. Opaque BLACK tank and mid-thigh shorts fully wrap front sides back seat crotch with seams hems ordinary folds, black shoes. No anatomy through fabric. Primary highlights on cloth SMALL PLAIN UNIFORM soft red color wash, no fibers lobes striations cutaways. Only named primary red every pose. Two arms hands five fingers two legs feet. Whole body/equipment in equal cells with generous margins. No text arrows logos.",
+      "inspectionNote": "Real output inspected. Wide stance then distinct opposite-side Cossack squats with straight-leg heel grounded/toes raised, bent-leg heel planted and chest tall. Start lacks primary highlights and endpoint tint appears near anterior hip rather than clearly gluteal region; block mapping consistency/location correction. Opaque clothing retained. Qualified review of depth, knee alignment, foot spacing and hip range required. Human anatomy review pending. No approval or publication.",
+      "blockingIssues": [
+        "Start lacks primary highlight; endpoint tint location needs gluteal rather than anterior-hip correction."
+      ],
+      "canonicalName": "cossack squats",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "glutes"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Wide stance then distinct opposite-side Cossack squats with straight-leg heel grounded/toes raised, bent-leg heel planted and chest tall. Start lacks primary highlights and endpoint tint appears near anterior hip rather than clearly gluteal region; block mapping consistency/location correction. Opaque clothing retained. Qualified review of depth, knee alignment, foot spacing and hip range required. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2569-male-anatomical-white-v1-p1-72a6c8b61ad6.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 19208,
+          "sha256": "72a6c8b61ad64b0f1be65b37e13c31aa560e35216b75bee9aa241c683d5d4e78"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/2569-male-anatomical-white-v1-p2-1d6a01aff636.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 20192,
+          "sha256": "1d6a01aff636a56f134f62ccdf0aac636c0832df96608c5c9edb7a3b6aff9c09"
+        },
+        {
+          "pose": "p3",
+          "path": "/workout/illustration-pilot/2569-male-anatomical-white-v1-p3-646a49ca97ab.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 20288,
+          "sha256": "646a49ca97ab1f078a329a3e7f18e54afc7913825f23ed003fe0db0a6961281c"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-293.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2569-male-anatomical-white-v1-thumb-1f71d749e928.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2860,
+        "sha256": "1f71d749e92864c7287cc6bbff397bcad3477607c0fb93b752f7982ff8caffb4"
+      },
+      "processingSignature": "a1d3ac217a8688d4f9668a72f08c9214dc23395f6b3a2e07e180f72d706af535",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2569-male-anatomical-white-v1.png",
+        "width": 2172,
+        "height": 724,
+        "bytes": 1611759,
+        "sha256": "da6e81c538ede5690ed47412b5f0ee9cc7257a072f0909d10946c66aaade2520"
+      }
+    }
+  ]
+}

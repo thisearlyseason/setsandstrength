@@ -1,0 +1,806 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "0681",
+      "variant": "male",
+      "key": "0681-male-anatomical-white-v2",
+      "layout": {
+        "columns": 2,
+        "rows": 2
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Lower the chest from a knee-supported push-up position."
+        },
+        {
+          "key": "p2",
+          "caption": "Press up, keeping shoulders, hips and knees aligned."
+        },
+        {
+          "key": "p3",
+          "caption": "Rotate open, supporting on the left hand and bent knee while the right arm reaches upward."
+        },
+        {
+          "key": "p4",
+          "caption": "Return through the push-up position and rotate to the opposite side with the left arm raised."
+        }
+      ],
+      "detail": "KNEELING PUSH-UP WITH TORSO ROTATION. FOUR square panels 2x2. Plain thin gray floor mat only, no bench. TOP LEFT: kneeling pushup LOWER, both knees grounded behind hips, straight line knees-hips-shoulders, palms flat shoulder width directly on FLOOR, elbows bent chest just above mat. TOP RIGHT: same kneeling pushup TOP, both knees grounded, hips extended same shoulder-hip-knee line, elbows fully extended hands floor. BOTTOM LEFT: rotate torso open to CAMERA, support LEFT hand on mat under left shoulder, LEFT knee and shin grounded, both knees stay bent; RIGHT arm straight reaches vertically ceiling, gaze raised hand. BOTTOM RIGHT: open torso AWAY from camera, RIGHT palm supports on mat under right shoulder, RIGHT knee/shin grounded; LEFT arm reaches ceiling. Clear opposite support arms, 3D rear view in last panel, elbow/hand continuity. Knee-supported side plank rotations, no full toe plank, no seated twist. Pectoral primary red soft blurred on chest shirt front only, back fabric stays black. Exposed anatomy detailed, clothing opaque all surfaces.",
+      "prompt": "Edit original project FOUR-panel kneeling push-up/rotation male illustration. Preserve every pose and full-body framing: kneeling lower, kneeling top, front-open rotation and back-open opposite rotation. Preserve exposed detailed grayscale muscles. On ALL front chest shirt surfaces, erase EVERY radial ray, muscle-fiber line, pectoral division and bright radial burst. Replace with ONE large smooth soft BLURRED diffuse red oval tint centered on opaque matte black chest fabric, its smooth gradient completely independent of muscular divisions. Broad soft fabric folds/seams only. Back shirt stays black. Full opaque torso/shorts wraps front sides rear seat crotch. No text.",
+      "inspectionNote": "Chest fabric rays removed, now diffuse red over continuous opaque black shirt. Kneeling lower/top and front/back rotations retained with fine exposed grayscale anatomy. Qualified shoulder/hip alignment, support-hand identity and opposite rotation continuity review pending.",
+      "canonicalName": "rotate push up (on knees)",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "pectorals"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0681-male-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "status": "generated",
+        "costUSD": null
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Chest fabric rays removed, now diffuse red over continuous opaque black shirt. Kneeling lower/top and front/back rotations retained with fine exposed grayscale anatomy. Qualified shoulder/hip alignment, support-hand identity and opposite rotation continuity review pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0681-male-anatomical-white-v2-p1-a9d8432e63f3.webp",
+          "width": 627,
+          "height": 627,
+          "bytes": 14418,
+          "sha256": "a9d8432e63f3c9bf8a1e918673a121d7119da9766b7fe3fddaa15ec40c2f6d72"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0681-male-anatomical-white-v2-p2-1edb5be294fd.webp",
+          "width": 627,
+          "height": 627,
+          "bytes": 16764,
+          "sha256": "1edb5be294fd23ac748e9ebff0da5e19ae42cbcbb10460716b14f9ffaac1cb30"
+        },
+        {
+          "pose": "p3",
+          "path": "/workout/illustration-pilot/0681-male-anatomical-white-v2-p3-48cafd72ca99.webp",
+          "width": 627,
+          "height": 627,
+          "bytes": 16458,
+          "sha256": "48cafd72ca99eb73db36f52c30d49550f07604fd244ab257a9b0412b2ffc4898"
+        },
+        {
+          "pose": "p4",
+          "path": "/workout/illustration-pilot/0681-male-anatomical-white-v2-p4-a43b1e931582.webp",
+          "width": 627,
+          "height": 627,
+          "bytes": 15866,
+          "sha256": "a43b1e931582f42878248aa92b12d928031877769322f36ceecad720e86a714f"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0681-male-anatomical-white-v2-thumb-a99aaa1219cf.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2588,
+        "sha256": "a99aaa1219cfd87fb06bc9a2c1ea48d9c7fb167f92d9bb45fe82b44e04e42560"
+      },
+      "processingSignature": "8d64e8b9f11b6b8867dc0d2779fba5590851f0b3dea3419847fef77c20e83094",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0681-male-anatomical-white-v2.png",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 1688423,
+        "sha256": "a316df6128a274772a451c422b59dc6cf411953edd6f5195e6c1b294ccb09ddc"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0681",
+          "variant": "male",
+          "key": "0681-male-anatomical-white-v1",
+          "layout": {
+            "columns": 2,
+            "rows": 2
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Lower the chest from a knee-supported push-up position."
+            },
+            {
+              "key": "p2",
+              "caption": "Press up, keeping shoulders, hips and knees aligned."
+            },
+            {
+              "key": "p3",
+              "caption": "Rotate open, supporting on the left hand and bent knee while the right arm reaches upward."
+            },
+            {
+              "key": "p4",
+              "caption": "Return through the push-up position and rotate to the opposite side with the left arm raised."
+            }
+          ],
+          "detail": "KNEELING PUSH-UP WITH TORSO ROTATION. FOUR square panels 2x2. Plain thin gray floor mat only, no bench. TOP LEFT: kneeling pushup LOWER, both knees grounded behind hips, straight line knees-hips-shoulders, palms flat shoulder width directly on FLOOR, elbows bent chest just above mat. TOP RIGHT: same kneeling pushup TOP, both knees grounded, hips extended same shoulder-hip-knee line, elbows fully extended hands floor. BOTTOM LEFT: rotate torso open to CAMERA, support LEFT hand on mat under left shoulder, LEFT knee and shin grounded, both knees stay bent; RIGHT arm straight reaches vertically ceiling, gaze raised hand. BOTTOM RIGHT: open torso AWAY from camera, RIGHT palm supports on mat under right shoulder, RIGHT knee/shin grounded; LEFT arm reaches ceiling. Clear opposite support arms, 3D rear view in last panel, elbow/hand continuity. Knee-supported side plank rotations, no full toe plank, no seated twist. Pectoral primary red soft blurred on chest shirt front only, back fabric stays black. Exposed anatomy detailed, clothing opaque all surfaces.",
+          "prompt": "Original educational exercise illustration, attached original project artwork STYLE ONLY, never copy pose/equipment. Neutral adult MALE. Pure white background, realistic proportions, fine detailed grayscale anatomical contours and fibers on EXPOSED arms and calves. OPAQUE matte BLACK sleeveless athletic shirt fully covers torso front sides back abdomen; loose BLACK knee-length shorts wrap both thighs front sides rear seat crotch with closed seams/hems. Natural broad fabric folds only, no fibers/rays/anatomical divisions on fabric. Black trainers. Red PRIMARY highlight only one soft smoothly blurred diffuse tint over intact shirt at specified muscle area. No cutaways/transparency/bare torso. Whole body/fingers/shoes inside generous white margins in each equal SQUARE cell. No text/labels/arrows/logos. Same model/lighting/camera scale across poses. KNEELING PUSH-UP WITH TORSO ROTATION. FOUR square panels 2x2. Plain thin gray floor mat only, no bench. TOP LEFT: kneeling pushup LOWER, both knees grounded behind hips, straight line knees-hips-shoulders, palms flat shoulder width directly on FLOOR, elbows bent chest just above mat. TOP RIGHT: same kneeling pushup TOP, both knees grounded, hips extended same shoulder-hip-knee line, elbows fully extended hands floor. BOTTOM LEFT: rotate torso open to CAMERA, support LEFT hand on mat under left shoulder, LEFT knee and shin grounded, both knees stay bent; RIGHT arm straight reaches vertically ceiling, gaze raised hand. BOTTOM RIGHT: open torso AWAY from camera, RIGHT palm supports on mat under right shoulder, RIGHT knee/shin grounded; LEFT arm reaches ceiling. Clear opposite support arms, 3D rear view in last panel, elbow/hand continuity. Knee-supported side plank rotations, no full toe plank, no seated twist. Pectoral primary red soft blurred on chest shirt front only, back fabric stays black. Exposed anatomy detailed, clothing opaque all surfaces.",
+          "inspectionNote": "Four knee-supported phases show lowering, press-up and front/back torso rotations. Opposite support arm geometry needs qualified continuity review. Chest tint has radial fiber-like divisions on opaque shirt; correction required. Exposed grayscale muscles detailed, all limbs in frame.",
+          "canonicalName": "rotate push up (on knees)",
+          "styleVersion": "white-v1",
+          "equipment": "body weight",
+          "primaryMuscles": [
+            "pectorals"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Four knee-supported phases show lowering, press-up and front/back torso rotations. Opposite support arm geometry needs qualified continuity review. Chest tint has radial fiber-like divisions on opaque shirt; correction required. Exposed grayscale muscles detailed, all limbs in frame.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0681-male-anatomical-white-v1-p1-286a77d13b3f.webp",
+              "width": 627,
+              "height": 627,
+              "bytes": 14914,
+              "sha256": "286a77d13b3f49727cdf74b3604f64f966a062a9c8899ef97bde57d3a2ded524"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0681-male-anatomical-white-v1-p2-4a87485b2528.webp",
+              "width": 627,
+              "height": 627,
+              "bytes": 17354,
+              "sha256": "4a87485b252804f9026bdf6ab4db6f838955913bfe7a1046385397bb109de9ee"
+            },
+            {
+              "pose": "p3",
+              "path": "/workout/illustration-pilot/0681-male-anatomical-white-v1-p3-7eb79778d250.webp",
+              "width": 627,
+              "height": 627,
+              "bytes": 17530,
+              "sha256": "7eb79778d2506994f64e82367269f018ed7add40ad4af75e178389b88ff3e0f1"
+            },
+            {
+              "pose": "p4",
+              "path": "/workout/illustration-pilot/0681-male-anatomical-white-v1-p4-6cb67eda27ac.webp",
+              "width": 627,
+              "height": 627,
+              "bytes": 17128,
+              "sha256": "6cb67eda27ac992ff505fb97d984d28cbd551e3fcffdfb50b067b1cdb40497b4"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0681-male-anatomical-white-v1-thumb-c81e1563a476.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 2564,
+            "sha256": "c81e1563a47675be0406433e1ad62ccce6de9edeb8bcdd23794a98076feff7d1"
+          },
+          "processingSignature": "89e965ffee05fbe57cfbf2edf047bb82dc6cf73c6c41c684caac8f86806dbfee",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0681-male-anatomical-white-v1.png",
+            "width": 1254,
+            "height": 1254,
+            "bytes": 1445623,
+            "sha256": "499e310f529fe69b62ad79bc3b4432d2c9fe90adc090c35db6717373b3bbbe6a"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "0681",
+      "variant": "female",
+      "key": "0681-female-anatomical-white-v2",
+      "layout": {
+        "columns": 2,
+        "rows": 2
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Lower the chest from a knee-supported push-up position."
+        },
+        {
+          "key": "p2",
+          "caption": "Press up, keeping shoulders, hips and knees aligned."
+        },
+        {
+          "key": "p3",
+          "caption": "Rotate open, supporting on the left hand and bent knee while the right arm reaches upward."
+        },
+        {
+          "key": "p4",
+          "caption": "Return through the push-up position and rotate to the opposite side with the left arm raised."
+        }
+      ],
+      "detail": "KNEELING PUSH-UP WITH TORSO ROTATION. FOUR square panels 2x2. Plain thin gray floor mat only, no bench. TOP LEFT: kneeling pushup LOWER, both knees grounded behind hips, straight line knees-hips-shoulders, palms flat shoulder width directly on FLOOR, elbows bent chest just above mat. TOP RIGHT: same kneeling pushup TOP, both knees grounded, hips extended same shoulder-hip-knee line, elbows fully extended hands floor. BOTTOM LEFT: rotate torso open to CAMERA, support LEFT hand on mat under left shoulder, LEFT knee and shin grounded, both knees stay bent; RIGHT arm straight reaches vertically ceiling, gaze raised hand. BOTTOM RIGHT: open torso AWAY from camera, RIGHT palm supports on mat under right shoulder, RIGHT knee/shin grounded; LEFT arm reaches ceiling. Clear opposite support arms, 3D rear view in last panel, elbow/hand continuity. Knee-supported side plank rotations, no full toe plank, no seated twist. Pectoral primary red soft blurred on chest shirt front only, back fabric stays black. Exposed anatomy detailed, clothing opaque all surfaces.",
+      "prompt": "Edit original project FOUR-panel kneeling push-up/rotation female illustration. Preserve every pose and full-body framing: kneeling lower, kneeling top, front-open rotation and back-open opposite rotation. Preserve exposed detailed grayscale muscles. On ALL front chest shirt surfaces, erase EVERY radial ray, muscle-fiber line, pectoral division and bright radial burst. Replace with ONE large smooth soft BLURRED diffuse red oval tint centered on opaque matte black chest fabric, its smooth gradient completely independent of muscular divisions. Broad soft fabric folds/seams only. Back shirt stays black. Full opaque torso/shorts wraps front sides rear seat crotch. No text.",
+      "inspectionNote": "Chest fabric rays removed, now diffuse red over continuous opaque black shirt. Kneeling lower/top and front/back rotations retained with fine exposed grayscale anatomy. Qualified shoulder/hip alignment, support-hand identity and opposite rotation continuity review pending.",
+      "canonicalName": "rotate push up (on knees)",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "pectorals"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0681-female-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "status": "generated",
+        "costUSD": null
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Chest fabric rays removed, now diffuse red over continuous opaque black shirt. Kneeling lower/top and front/back rotations retained with fine exposed grayscale anatomy. Qualified shoulder/hip alignment, support-hand identity and opposite rotation continuity review pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0681-female-anatomical-white-v2-p1-8e5d71f84615.webp",
+          "width": 627,
+          "height": 627,
+          "bytes": 14650,
+          "sha256": "8e5d71f846157dfd3524427c98aaf923f01b2947fd1b5ea05dac47e585e6339d"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0681-female-anatomical-white-v2-p2-fb27c9d24b5b.webp",
+          "width": 627,
+          "height": 627,
+          "bytes": 17258,
+          "sha256": "fb27c9d24b5bfe14b0eaba2c3007083513b0f7b10adb780670bcc4a21c958960"
+        },
+        {
+          "pose": "p3",
+          "path": "/workout/illustration-pilot/0681-female-anatomical-white-v2-p3-0aed8c67a773.webp",
+          "width": 627,
+          "height": 627,
+          "bytes": 17122,
+          "sha256": "0aed8c67a7738eade1b6677520b852cdca3a0c26eb492234c13db42a0e8b50e9"
+        },
+        {
+          "pose": "p4",
+          "path": "/workout/illustration-pilot/0681-female-anatomical-white-v2-p4-5d82ad82c098.webp",
+          "width": 627,
+          "height": 627,
+          "bytes": 17694,
+          "sha256": "5d82ad82c098ae8422c3e9defc8703f70b4e9973e419eef78d744be2b0bbda8d"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0681-female-anatomical-white-v2-thumb-591889a7f481.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2586,
+        "sha256": "591889a7f481a6856729c70d4b101e10cda43d8177208eec306ec3fcd92aadbc"
+      },
+      "processingSignature": "3586cf0757f8d3bbfd085421aab78f427f77f7f279ed1040d040435ffe343639",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0681-female-anatomical-white-v2.png",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 1727529,
+        "sha256": "ec2d6a959756c7237cdccb71480dbdc9e8354be65be09c1ca4571fa527bdc3a8"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0681",
+          "variant": "female",
+          "key": "0681-female-anatomical-white-v1",
+          "layout": {
+            "columns": 2,
+            "rows": 2
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Lower the chest from a knee-supported push-up position."
+            },
+            {
+              "key": "p2",
+              "caption": "Press up, keeping shoulders, hips and knees aligned."
+            },
+            {
+              "key": "p3",
+              "caption": "Rotate open, supporting on the left hand and bent knee while the right arm reaches upward."
+            },
+            {
+              "key": "p4",
+              "caption": "Return through the push-up position and rotate to the opposite side with the left arm raised."
+            }
+          ],
+          "detail": "KNEELING PUSH-UP WITH TORSO ROTATION. FOUR square panels 2x2. Plain thin gray floor mat only, no bench. TOP LEFT: kneeling pushup LOWER, both knees grounded behind hips, straight line knees-hips-shoulders, palms flat shoulder width directly on FLOOR, elbows bent chest just above mat. TOP RIGHT: same kneeling pushup TOP, both knees grounded, hips extended same shoulder-hip-knee line, elbows fully extended hands floor. BOTTOM LEFT: rotate torso open to CAMERA, support LEFT hand on mat under left shoulder, LEFT knee and shin grounded, both knees stay bent; RIGHT arm straight reaches vertically ceiling, gaze raised hand. BOTTOM RIGHT: open torso AWAY from camera, RIGHT palm supports on mat under right shoulder, RIGHT knee/shin grounded; LEFT arm reaches ceiling. Clear opposite support arms, 3D rear view in last panel, elbow/hand continuity. Knee-supported side plank rotations, no full toe plank, no seated twist. Pectoral primary red soft blurred on chest shirt front only, back fabric stays black. Exposed anatomy detailed, clothing opaque all surfaces.",
+          "prompt": "Original educational exercise illustration, attached original project artwork STYLE ONLY, never copy pose/equipment. Neutral adult FEMALE. Pure white background, realistic proportions, fine detailed grayscale anatomical contours and fibers on EXPOSED arms and calves. OPAQUE matte BLACK sleeveless athletic shirt fully covers torso front sides back abdomen; loose BLACK knee-length shorts wrap both thighs front sides rear seat crotch with closed seams/hems. Natural broad fabric folds only, no fibers/rays/anatomical divisions on fabric. Black trainers. Red PRIMARY highlight only one soft smoothly blurred diffuse tint over intact shirt at specified muscle area. No cutaways/transparency/bare torso. Whole body/fingers/shoes inside generous white margins in each equal SQUARE cell. No text/labels/arrows/logos. Same model/lighting/camera scale across poses. KNEELING PUSH-UP WITH TORSO ROTATION. FOUR square panels 2x2. Plain thin gray floor mat only, no bench. TOP LEFT: kneeling pushup LOWER, both knees grounded behind hips, straight line knees-hips-shoulders, palms flat shoulder width directly on FLOOR, elbows bent chest just above mat. TOP RIGHT: same kneeling pushup TOP, both knees grounded, hips extended same shoulder-hip-knee line, elbows fully extended hands floor. BOTTOM LEFT: rotate torso open to CAMERA, support LEFT hand on mat under left shoulder, LEFT knee and shin grounded, both knees stay bent; RIGHT arm straight reaches vertically ceiling, gaze raised hand. BOTTOM RIGHT: open torso AWAY from camera, RIGHT palm supports on mat under right shoulder, RIGHT knee/shin grounded; LEFT arm reaches ceiling. Clear opposite support arms, 3D rear view in last panel, elbow/hand continuity. Knee-supported side plank rotations, no full toe plank, no seated twist. Pectoral primary red soft blurred on chest shirt front only, back fabric stays black. Exposed anatomy detailed, clothing opaque all surfaces.",
+          "inspectionNote": "Four knee-supported phases show lower, press-up, front and rear torso rotation. Chest tint has radial divisions on opaque fabric requiring correction. Exposed anatomy detailed; qualified shoulder alignment, hip extension and opposite arm continuity review pending.",
+          "canonicalName": "rotate push up (on knees)",
+          "styleVersion": "white-v1",
+          "equipment": "body weight",
+          "primaryMuscles": [
+            "pectorals"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Four knee-supported phases show lower, press-up, front and rear torso rotation. Chest tint has radial divisions on opaque fabric requiring correction. Exposed anatomy detailed; qualified shoulder alignment, hip extension and opposite arm continuity review pending.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0681-female-anatomical-white-v1-p1-0e82f208bff7.webp",
+              "width": 627,
+              "height": 627,
+              "bytes": 15950,
+              "sha256": "0e82f208bff7138f6a319d0a357bb0601de2d9de07e50f21f8d5347fd603b142"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0681-female-anatomical-white-v1-p2-97a9a54875dd.webp",
+              "width": 627,
+              "height": 627,
+              "bytes": 18788,
+              "sha256": "97a9a54875dd4fa9eec0a1b63220264fb169173b7554f7db854a719890e6082e"
+            },
+            {
+              "pose": "p3",
+              "path": "/workout/illustration-pilot/0681-female-anatomical-white-v1-p3-7d613aeb628d.webp",
+              "width": 627,
+              "height": 627,
+              "bytes": 18852,
+              "sha256": "7d613aeb628d90d59036c35c63a682c3e8b477988b284ee3b778cca7bb9baf47"
+            },
+            {
+              "pose": "p4",
+              "path": "/workout/illustration-pilot/0681-female-anatomical-white-v1-p4-d82ea2bd732a.webp",
+              "width": 627,
+              "height": 627,
+              "bytes": 19586,
+              "sha256": "d82ea2bd732a698b81c56b30976ae33ca1d29bcceb2f5a8d32f593de03918666"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0681-female-anatomical-white-v1-thumb-c0bb53a28ef2.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 2650,
+            "sha256": "c0bb53a28ef2541d53c1c42237cdf51ce71e8f5de9a4cdb4ae3a02068a72bcf9"
+          },
+          "processingSignature": "b5a989b2191643179defb1c360cc3acf75c7a7c526f8d77f8cac7ca8b2f90e44",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0681-female-anatomical-white-v1.png",
+            "width": 1254,
+            "height": 1254,
+            "bytes": 1480331,
+            "sha256": "5bacef060fba91285e236a4c41034ebe64f3b88ccaa05579816ec80c19710ce9"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "0687",
+      "variant": "male",
+      "key": "0687-male-anatomical-white-v2",
+      "layout": {
+        "columns": 3,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Balance on the sit bones with knees bent, feet lifted and hands clasped."
+        },
+        {
+          "key": "p2",
+          "caption": "Rotate the torso toward the right while keeping the pelvis steady."
+        },
+        {
+          "key": "p3",
+          "caption": "Rotate toward the left, keeping feet lifted and alternating sides."
+        }
+      ],
+      "detail": "BODYWEIGHT SEATED RUSSIAN TWIST, THREE equal square panels side by side. Front three-quarter view showing both legs. Sit on floor thin gray mat, balance on sit bones, knees bent, BOTH FEET LIFTED visibly off floor throughout. Torso leans back slightly with neutral long spine, hips/pelvis and bent legs stay facing forward and unchanged. Hands CLASPED together in front of chest, no weight/no ball/no equipment. LEFT: center position hands together in front of sternum. CENTER: rotate SHOULDERS and chest toward MODEL RIGHT, clasped hands travel together beside right hip, head follows chest, pelvis stays facing forward. RIGHT: rotate shoulders/chest clearly opposite toward MODEL LEFT, clasped hands together beside left hip. Arms move with torso, not isolated arm swing; visible opposite chest/shoulder rotations, identical legs floating in all panels. Primary ABS only one smooth diffuse blurred red tint on intact abdominal shirt, no sixpack lines/fiber rays. Exposed grayscale arms/calves detailed. Full opaque shirt and shorts front sides back seat crotch.",
+      "prompt": "Correct original project THREE-panel male bodyweight Russian twist. Preserve exact CENTERED SEATED LOWER BODY, pelvis orientation, bent knees and floating feet of FIRST panel in ALL THREE panels; same camera. Keep first neutral torso/hands at sternum. MIDDLE panel torso/shoulders rotate toward IMAGE LEFT with BOTH CLASPED HANDS visibly together beside IMAGE-LEFT HIP, outside torso silhouette on LEFT, head follows LEFT. LAST panel torso/shoulders rotate toward IMAGE RIGHT, BOTH clasped hands beside IMAGE-RIGHT HIP on RIGHT, head follows RIGHT. No mirrored legs or entire body turn, only shoulders/ribcage rotate on fixed pelvis. Two distinct opposite shoulder rotations. Opaque black shirt abdomen ONE soft smooth BLURRED red tint, erase every sixpack line/radial fiber. Preserve detailed exposed grayscale anatomy and full opaque clothing front sides back seat crotch. No text.",
+      "inspectionNote": "Diffuse abdominal cloth tint corrected and seated legs remain lifted. Opposite-side correction failed: hands still on image-right in both twist phases and shoulder/head rotation is not a clear pair. Detailed exposed anatomy and opaque clothing retained; blocked for qualified movement review.",
+      "canonicalName": "russian twist",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "abs"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0687-male-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "status": "generated",
+        "costUSD": null
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Diffuse abdominal cloth tint corrected and seated legs remain lifted. Opposite-side correction failed: hands still on image-right in both twist phases and shoulder/head rotation is not a clear pair. Detailed exposed anatomy and opaque clothing retained; blocked for qualified movement review.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0687-male-anatomical-white-v2-p1-e20796496780.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 23914,
+          "sha256": "e20796496780120153b736183742b606e101623cc88b5888f58462284a7ea7f5"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0687-male-anatomical-white-v2-p2-aa2401854e75.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 26004,
+          "sha256": "aa2401854e75374de6c5255f5267c3e3a80683130452b583add441b2f1fa9358"
+        },
+        {
+          "pose": "p3",
+          "path": "/workout/illustration-pilot/0687-male-anatomical-white-v2-p3-fb68e1c44ab9.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 24740,
+          "sha256": "fb68e1c44ab9ea7bb69bbd63f72ab1ef0329755c8477bfe89cc4a1410f9067a2"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0687-male-anatomical-white-v2-thumb-2ba18611adaf.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 3820,
+        "sha256": "2ba18611adaf15cb692b07f682e58838c4a0d3060dfd8efdedf05a42be329060"
+      },
+      "processingSignature": "5e2ee68d1a8987b386e92b73ca45ea2ff1437819487599e8836ca950be26c2e5",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0687-male-anatomical-white-v2.png",
+        "width": 2172,
+        "height": 724,
+        "bytes": 1766891,
+        "sha256": "649ac3beeb3d2cdc8f49d581004de35118a786a2c1fdcc9db3530dea651825f1"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0687",
+          "variant": "male",
+          "key": "0687-male-anatomical-white-v1",
+          "layout": {
+            "columns": 3,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Balance on the sit bones with knees bent, feet lifted and hands clasped."
+            },
+            {
+              "key": "p2",
+              "caption": "Rotate the torso toward the right while keeping the pelvis steady."
+            },
+            {
+              "key": "p3",
+              "caption": "Rotate toward the left, keeping feet lifted and alternating sides."
+            }
+          ],
+          "detail": "BODYWEIGHT SEATED RUSSIAN TWIST, THREE equal square panels side by side. Front three-quarter view showing both legs. Sit on floor thin gray mat, balance on sit bones, knees bent, BOTH FEET LIFTED visibly off floor throughout. Torso leans back slightly with neutral long spine, hips/pelvis and bent legs stay facing forward and unchanged. Hands CLASPED together in front of chest, no weight/no ball/no equipment. LEFT: center position hands together in front of sternum. CENTER: rotate SHOULDERS and chest toward MODEL RIGHT, clasped hands travel together beside right hip, head follows chest, pelvis stays facing forward. RIGHT: rotate shoulders/chest clearly opposite toward MODEL LEFT, clasped hands together beside left hip. Arms move with torso, not isolated arm swing; visible opposite chest/shoulder rotations, identical legs floating in all panels. Primary ABS only one smooth diffuse blurred red tint on intact abdominal shirt, no sixpack lines/fiber rays. Exposed grayscale arms/calves detailed. Full opaque shirt and shorts front sides back seat crotch.",
+          "prompt": "Original educational exercise illustration, attached original project artwork STYLE ONLY, never copy pose/equipment. Neutral adult MALE. Pure white background, realistic proportions, fine detailed grayscale anatomical contours and fibers on EXPOSED arms and calves. OPAQUE matte BLACK sleeveless athletic shirt fully covers torso front sides back abdomen; loose BLACK knee-length shorts wrap both thighs front sides rear seat crotch with closed seams/hems. Natural broad fabric folds only, no fibers/rays/anatomical divisions on fabric. Black trainers. Red PRIMARY highlight only one soft smoothly blurred diffuse tint over intact shirt at specified muscle area. No cutaways/transparency/bare torso. Whole body/fingers/shoes inside generous white margins in each equal SQUARE cell. No text/labels/arrows/logos. Same model/lighting/camera scale across poses. BODYWEIGHT SEATED RUSSIAN TWIST, THREE equal square panels side by side. Front three-quarter view showing both legs. Sit on floor thin gray mat, balance on sit bones, knees bent, BOTH FEET LIFTED visibly off floor throughout. Torso leans back slightly with neutral long spine, hips/pelvis and bent legs stay facing forward and unchanged. Hands CLASPED together in front of chest, no weight/no ball/no equipment. LEFT: center position hands together in front of sternum. CENTER: rotate SHOULDERS and chest toward MODEL RIGHT, clasped hands travel together beside right hip, head follows chest, pelvis stays facing forward. RIGHT: rotate shoulders/chest clearly opposite toward MODEL LEFT, clasped hands together beside left hip. Arms move with torso, not isolated arm swing; visible opposite chest/shoulder rotations, identical legs floating in all panels. Primary ABS only one smooth diffuse blurred red tint on intact abdominal shirt, no sixpack lines/fiber rays. Exposed grayscale arms/calves detailed. Full opaque shirt and shorts front sides back seat crotch.",
+          "inspectionNote": "Seated balance with feet lifted retained. Both twist panels place hands on same image side rather than opposite torso rotations; correction required. Shirt abdominal tint also has streaks. Detailed exposed muscles and opaque full clothing present.",
+          "canonicalName": "russian twist",
+          "styleVersion": "white-v1",
+          "equipment": "body weight",
+          "primaryMuscles": [
+            "abs"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Seated balance with feet lifted retained. Both twist panels place hands on same image side rather than opposite torso rotations; correction required. Shirt abdominal tint also has streaks. Detailed exposed muscles and opaque full clothing present.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0687-male-anatomical-white-v1-p1-519db9edb90c.webp",
+              "width": 724,
+              "height": 724,
+              "bytes": 25122,
+              "sha256": "519db9edb90cdeb0f4c69ccea452032869ed0f5f482d5d83175c40c4ef5cac02"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0687-male-anatomical-white-v1-p2-9d21db9620e0.webp",
+              "width": 724,
+              "height": 724,
+              "bytes": 26768,
+              "sha256": "9d21db9620e07bbcd06ab0cf8b3e63da5f0f41e5855e0af8a7f4ffa480c86f93"
+            },
+            {
+              "pose": "p3",
+              "path": "/workout/illustration-pilot/0687-male-anatomical-white-v1-p3-48b0086eada3.webp",
+              "width": 724,
+              "height": 724,
+              "bytes": 26178,
+              "sha256": "48b0086eada3c07c510fefec4e0d5bca4effa3bf5ae4c05e77b8c9602ff901d2"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0687-male-anatomical-white-v1-thumb-fee19d7a804b.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 3834,
+            "sha256": "fee19d7a804b7b478c2a64f2ab5edbc8c2332d9a9aecd7f6047a5115b7316dad"
+          },
+          "processingSignature": "3f9ed90780f965a23f64c9a5b0a97b9d491715ae59b28d147a859af356df9860",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0687-male-anatomical-white-v1.png",
+            "width": 2172,
+            "height": 724,
+            "bytes": 1589237,
+            "sha256": "44b23b4adf78e3aa8fb26529aeb04e54677236bfc228ca58408be3891c57fd3c"
+          }
+        }
+      ],
+      "blockingIssues": [
+        "Both twist panels retain hands on same image side; required opposite torso rotation not established after correction."
+      ]
+    },
+    {
+      "exerciseId": "0687",
+      "variant": "female",
+      "key": "0687-female-anatomical-white-v2",
+      "layout": {
+        "columns": 3,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Balance on the sit bones with knees bent, feet lifted and hands clasped."
+        },
+        {
+          "key": "p2",
+          "caption": "Rotate the torso toward the right while keeping the pelvis steady."
+        },
+        {
+          "key": "p3",
+          "caption": "Rotate toward the left, keeping feet lifted and alternating sides."
+        }
+      ],
+      "detail": "BODYWEIGHT SEATED RUSSIAN TWIST, THREE equal square panels side by side. Front three-quarter view showing both legs. Sit on floor thin gray mat, balance on sit bones, knees bent, BOTH FEET LIFTED visibly off floor throughout. Torso leans back slightly with neutral long spine, hips/pelvis and bent legs stay facing forward and unchanged. Hands CLASPED together in front of chest, no weight/no ball/no equipment. LEFT: center position hands together in front of sternum. CENTER: rotate SHOULDERS and chest toward MODEL RIGHT, clasped hands travel together beside right hip, head follows chest, pelvis stays facing forward. RIGHT: rotate shoulders/chest clearly opposite toward MODEL LEFT, clasped hands together beside left hip. Arms move with torso, not isolated arm swing; visible opposite chest/shoulder rotations, identical legs floating in all panels. Primary ABS only one smooth diffuse blurred red tint on intact abdominal shirt, no sixpack lines/fiber rays. Exposed grayscale arms/calves detailed. Full opaque shirt and shorts front sides back seat crotch.",
+      "prompt": "Correct original project THREE-panel female bodyweight Russian twist. Preserve exact CENTERED SEATED LOWER BODY, pelvis orientation, bent knees and floating feet of FIRST panel in ALL THREE panels; same camera. Keep first neutral torso/hands at sternum. MIDDLE panel torso/shoulders rotate toward IMAGE LEFT with BOTH CLASPED HANDS visibly together beside IMAGE-LEFT HIP, head follows LEFT. LAST panel torso/shoulders rotate toward IMAGE RIGHT, BOTH clasped hands beside IMAGE-RIGHT HIP, head follows RIGHT. Last panel MUST have exactly same pelvis/thigh/knee/shoe arrangement and direction as first and middle; NO mirrored lower body or entire body turn. Only ribcage/shoulders rotate on fixed pelvis. Opaque black shirt abdomen ONE soft smooth BLURRED red tint, erase every sixpack line/radial fiber. Preserve detailed exposed grayscale anatomy and full opaque clothing front sides back seat crotch. No text.",
+      "inspectionNote": "Diffuse abdominal fabric tint corrected. Opposite hand placements retained, but last panel lower body still reverses orientation rather than maintaining fixed pelvis; shoulder rotation direction also requires qualified review. Full opaque clothing and detailed grayscale exposed anatomy retained, blocked for continuity review.",
+      "canonicalName": "russian twist",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "abs"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0687-female-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "status": "generated",
+        "costUSD": null
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Diffuse abdominal fabric tint corrected. Opposite hand placements retained, but last panel lower body still reverses orientation rather than maintaining fixed pelvis; shoulder rotation direction also requires qualified review. Full opaque clothing and detailed grayscale exposed anatomy retained, blocked for continuity review.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0687-female-anatomical-white-v2-p1-aa47b1aedf9b.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 22454,
+          "sha256": "aa47b1aedf9b78e67c08e82d088a321c60731edd6c66bacfb00111954423b670"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0687-female-anatomical-white-v2-p2-5ff10bd85ae2.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 24194,
+          "sha256": "5ff10bd85ae235dbdfd20bc0458e324aa94b5ba1f181819c31e86ae8554e7e45"
+        },
+        {
+          "pose": "p3",
+          "path": "/workout/illustration-pilot/0687-female-anatomical-white-v2-p3-5ef6ced43a61.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 23516,
+          "sha256": "5ef6ced43a61c3e783a46db1fd06e814f3b0c58acde71037da8424d6774b8c9d"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0687-female-anatomical-white-v2-thumb-4762f2478962.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 3488,
+        "sha256": "4762f24789626b31c10419ce363894213a3591c2ce69a90db0d10c2c1e62be4b"
+      },
+      "processingSignature": "58b6f7c9aa9561bbc05be460c641b7e4930dd2f7ecdaf09d33c33f1a13d49e34",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0687-female-anatomical-white-v2.png",
+        "width": 2172,
+        "height": 724,
+        "bytes": 1513495,
+        "sha256": "13f5bcbf462354ce92e2c68117cb03745d9dce3ca87d7056d74c5ea93c0e6a1b"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0687",
+          "variant": "female",
+          "key": "0687-female-anatomical-white-v1",
+          "layout": {
+            "columns": 3,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Balance on the sit bones with knees bent, feet lifted and hands clasped."
+            },
+            {
+              "key": "p2",
+              "caption": "Rotate the torso toward the right while keeping the pelvis steady."
+            },
+            {
+              "key": "p3",
+              "caption": "Rotate toward the left, keeping feet lifted and alternating sides."
+            }
+          ],
+          "detail": "BODYWEIGHT SEATED RUSSIAN TWIST, THREE equal square panels side by side. Front three-quarter view showing both legs. Sit on floor thin gray mat, balance on sit bones, knees bent, BOTH FEET LIFTED visibly off floor throughout. Torso leans back slightly with neutral long spine, hips/pelvis and bent legs stay facing forward and unchanged. Hands CLASPED together in front of chest, no weight/no ball/no equipment. LEFT: center position hands together in front of sternum. CENTER: rotate SHOULDERS and chest toward MODEL RIGHT, clasped hands travel together beside right hip, head follows chest, pelvis stays facing forward. RIGHT: rotate shoulders/chest clearly opposite toward MODEL LEFT, clasped hands together beside left hip. Arms move with torso, not isolated arm swing; visible opposite chest/shoulder rotations, identical legs floating in all panels. Primary ABS only one smooth diffuse blurred red tint on intact abdominal shirt, no sixpack lines/fiber rays. Exposed grayscale arms/calves detailed. Full opaque shirt and shorts front sides back seat crotch.",
+          "prompt": "Original educational exercise illustration, attached original project artwork STYLE ONLY, never copy pose/equipment. Neutral adult FEMALE. Pure white background, realistic proportions, fine detailed grayscale anatomical contours and fibers on EXPOSED arms and calves. OPAQUE matte BLACK sleeveless athletic shirt fully covers torso front sides back abdomen; loose BLACK knee-length shorts wrap both thighs front sides rear seat crotch with closed seams/hems. Natural broad fabric folds only, no fibers/rays/anatomical divisions on fabric. Black trainers. Red PRIMARY highlight only one soft smoothly blurred diffuse tint over intact shirt at specified muscle area. No cutaways/transparency/bare torso. Whole body/fingers/shoes inside generous white margins in each equal SQUARE cell. No text/labels/arrows/logos. Same model/lighting/camera scale across poses. BODYWEIGHT SEATED RUSSIAN TWIST, THREE equal square panels side by side. Front three-quarter view showing both legs. Sit on floor thin gray mat, balance on sit bones, knees bent, BOTH FEET LIFTED visibly off floor throughout. Torso leans back slightly with neutral long spine, hips/pelvis and bent legs stay facing forward and unchanged. Hands CLASPED together in front of chest, no weight/no ball/no equipment. LEFT: center position hands together in front of sternum. CENTER: rotate SHOULDERS and chest toward MODEL RIGHT, clasped hands travel together beside right hip, head follows chest, pelvis stays facing forward. RIGHT: rotate shoulders/chest clearly opposite toward MODEL LEFT, clasped hands together beside left hip. Arms move with torso, not isolated arm swing; visible opposite chest/shoulder rotations, identical legs floating in all panels. Primary ABS only one smooth diffuse blurred red tint on intact abdominal shirt, no sixpack lines/fiber rays. Exposed grayscale arms/calves detailed. Full opaque shirt and shorts front sides back seat crotch.",
+          "inspectionNote": "Clasped hands appear on opposite sides and feet lifted, but pelvis and legs change viewing direction in final panel; fixed pelvis continuity not established. Abdomen red has sixpack-like divisions requiring correction. Detailed exposed grayscale muscles and full opaque clothing retained.",
+          "canonicalName": "russian twist",
+          "styleVersion": "white-v1",
+          "equipment": "body weight",
+          "primaryMuscles": [
+            "abs"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Clasped hands appear on opposite sides and feet lifted, but pelvis and legs change viewing direction in final panel; fixed pelvis continuity not established. Abdomen red has sixpack-like divisions requiring correction. Detailed exposed grayscale muscles and full opaque clothing retained.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0687-female-anatomical-white-v1-p1-432b00fc0d77.webp",
+              "width": 724,
+              "height": 724,
+              "bytes": 26538,
+              "sha256": "432b00fc0d77efffe9cd594a73e980e1aa7b2359a803e8e81e246f78a1d2be26"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0687-female-anatomical-white-v1-p2-a82b05b33de0.webp",
+              "width": 724,
+              "height": 724,
+              "bytes": 28786,
+              "sha256": "a82b05b33de0db2d5d488705e5a2a47b5e58ded6884b0388e7dd16275f38bb7e"
+            },
+            {
+              "pose": "p3",
+              "path": "/workout/illustration-pilot/0687-female-anatomical-white-v1-p3-536b268b4feb.webp",
+              "width": 724,
+              "height": 724,
+              "bytes": 27158,
+              "sha256": "536b268b4feb99bf025e6d948a36d252613c7b734c52e5b2244432092b422034"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0687-female-anatomical-white-v1-thumb-91e238c27c36.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 3600,
+            "sha256": "91e238c27c36c526e0befa1383dc3d56dcea43a7c51a6b41d301dc448d4cd706"
+          },
+          "processingSignature": "5b3059b9a2287b5dc610281e959db4b395fe32c282fca41cf81949b1fd220622",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0687-female-anatomical-white-v1.png",
+            "width": 2172,
+            "height": 724,
+            "bytes": 1606227,
+            "sha256": "c3cc3d240b83025951ef40113a6339f2b4d507a6e96ad93e8ff42fafa25c4106"
+          }
+        }
+      ],
+      "blockingIssues": [
+        "Final twist panel changes pelvis/leg orientation despite fixed-pelvis correction; opposite torso rotation continuity unresolved."
+      ]
+    }
+  ]
+}

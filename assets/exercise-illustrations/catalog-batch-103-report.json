@@ -1,0 +1,87 @@
+{
+  "batch": 103,
+  "trigger": "2026-11-01T23:48:53.204Z",
+  "completedAt": "2026-11-02T00:10:00.069449+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 4,
+  "generationCalls": 8,
+  "exerciseIds": [
+    "0663",
+    "0664"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 424,
+    "remainingVariants": 10840,
+    "approvedVariants": 0,
+    "blockedVariants": 181,
+    "knownPoseImages": 880,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Four candidate sets, ten pose images and four retained corrections using eight built-in calls. None approved or published. Medicine-ball push-ups show high/low plank with both hands on one small sphere and toes floor; cloth corrections replace chest fiber pattern with diffuse tint. Push-up-to-side-plank sequences show low push-up followed by front-facing then back-facing side planks, visibly exchanging raised/supporting arm roles. Red shifted off chest toward abdomen and black back shirt retained; male middle abdomen retains sixpack cloth divisions and remains blocked, female diffuse tint improved. Qualified hand/ball continuity, grip/wrists, shoulder stacking, foot support, low-pose highlight location and all anatomy/technique review remain separate. Full opaque clothes wrap torso/front/sides/back/seat/crotch; exposed anatomy fine grayscale. Original PNGs, exact prompts, corrections and hashes retained; original project artwork style-only, no upstream media. Pipeline checks are not anatomy approval.",
+  "completedSkipped": [
+    "0662 male/female already generated; no duplicate generation"
+  ],
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 699501614,
+  "savedMasters": [
+    {
+      "exerciseId": "0663",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0663-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1718105,
+        "sha256": "89d04273b953c3078b04140b520b09b28173f25f7688f3e17dbd896d2e7cea42"
+      }
+    },
+    {
+      "exerciseId": "0663",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0663-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1767924,
+        "sha256": "959d073da76fe55cedfc1b263e892fe4eeb593330409d4e13c2f9371c7ade32f"
+      }
+    },
+    {
+      "exerciseId": "0664",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0664-male-anatomical-white-v2.png",
+        "width": 2172,
+        "height": 724,
+        "bytes": 1652852,
+        "sha256": "7ef13829412dcc1b98cfb7b5ad807ee8c9e05a6d43809d4dd502a979869aeeec"
+      }
+    },
+    {
+      "exerciseId": "0664",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0664-female-anatomical-white-v2.png",
+        "width": 2172,
+        "height": 724,
+        "bytes": 1660472,
+        "sha256": "fae908dea72a0353f2fb02eb3067a2ba1bbf622f20c29c863eae10af705cae7a"
+      }
+    }
+  ]
+}

@@ -1,0 +1,278 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "1782",
+      "variant": "male",
+      "key": "1782-male-anatomical-white-v1",
+      "layout": {
+        "columns": 1,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand tall and clasp your hands behind your back with straight arms. Gently lift your hands away from your body, open your chest and hold for 20\u201330 seconds without arching your back."
+        }
+      ],
+      "prompt": "REVERSE CHEST STRETCH. One full-body adult male centered square canvas SIDE-FRONT three-quarter view. Stand tall feet hip width, spine neutral knees soft chest gently open. Both straight arms extend modestly BEHIND pelvis, hands clasped together behind back and lifted slightly away from buttocks. Show both upper arms and elbows straight, fingers clasped anatomically, comfortable shoulder extension without forced range or lumbar arch. Hold20-30seconds. Only pectorals highlighted by two soft red teaching ellipses on intact tank chest; all other muscles grayscale. Camera clearly shows space between clasped hands and pelvis. Use case: scientific-educational. Premium detailed ADULT MALE grayscale anatomical illustration matching original reference for rendering STYLE ONLY, ignore its pose and highlights. Realistic proportions, crisp exposed grayscale muscle contours, white background soft shadows. Full opaque BLACK athletic tank and mid-thigh shorts wrap front sides back seat crotch, seams hems folds; no transparency cutaways or anatomy visible through fabric. Red highlight over fabric must be a FLAT UNIFORM SOFT RED ELLIPSE teaching tint with no internal lines fibers rays or lobes; fabric folds retained. Black shoes. No text labels arrows captions logos. All limbs fingers feet and equipment entirely in frame with generous margins. Same person camera lighting and scale across poses.",
+      "inspectionNote": "Real output inspected. Reverse chest stretch: tall stance, straight arms extended behind torso and clasped hands separated from pelvis. Qualified review needed for interlaced finger anatomy, relaxed shoulder range, pectoral mapping and neutral lumbar posture. Detailed grayscale rendering, white background and full opaque clothing retained. Original project artwork for style only, no upstream media. Exact prompt and master saved. Human anatomy review pending; no approval or publication.",
+      "canonicalName": "reverse chest stretch",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "pectorals"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Reverse chest stretch: tall stance, straight arms extended behind torso and clasped hands separated from pelvis. Qualified review needed for interlaced finger anatomy, relaxed shoulder range, pectoral mapping and neutral lumbar posture. Detailed grayscale rendering, white background and full opaque clothing retained. Original project artwork for style only, no upstream media. Exact prompt and master saved. Human anatomy review pending; no approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/1782-male-anatomical-white-v1-p1-f9a5a331a531.webp",
+          "width": 1200,
+          "height": 1200,
+          "bytes": 32538,
+          "sha256": "f9a5a331a531f3379b9283c4c1f28ab685f2f7c11685d2d65fe596827b921f58"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-237.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/1782-male-anatomical-white-v1-thumb-64769007d62a.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2410,
+        "sha256": "64769007d62ab0926b225b047a5be2d742857adbd07f6923bcb41b4a39418a48"
+      },
+      "processingSignature": "4e46960c7a91cda50ac7fb5fc0e3a9b0ef4c3ef2dbc442ce1ea925c3a9bf26e9",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1782-male-anatomical-white-v1.png",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 1272838,
+        "sha256": "295fb5bd42e081761bbec87d1c2a4f9faba2246520f91c821bef293269590fe5"
+      }
+    },
+    {
+      "exerciseId": "1785",
+      "variant": "male",
+      "key": "1785-male-anatomical-white-v1",
+      "layout": {
+        "columns": 1,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Kneel in front of a sturdy bench and place your hands on it. Sit your hips back and let your chest lower gently. Breathe steadily and hold for 20\u201330 seconds."
+        }
+      ],
+      "prompt": "KNEELING CHEST STRETCH. ONE full-body SIDE three-quarter pose square canvas. Kneel on floor in front of sturdy flat gray bench, both knees and shins supported. Both straight arms reach forward/up to bench, palms rest flat on bench top shoulder width apart. Hips sit back toward heels; hinge at hips and let chest gently sink toward floor below arm level, spine long neutral, head aligned between upper arms. Arms upperbody and bench contacts clearly visible, relaxed stretch no forced arch. Hold20-30seconds. Only pectorals shown with soft red teaching overlay on intact tank side/front chest visible to camera, all other muscles gray. Full bench legs feet hands and body uncropped. Use case: scientific-educational. Premium detailed ADULT MALE grayscale anatomical illustration matching original reference for rendering STYLE ONLY, ignore its pose and highlights. Realistic proportions, crisp exposed grayscale muscle contours, white background soft shadows. Full opaque BLACK athletic tank and mid-thigh shorts wrap front sides back seat crotch, seams hems folds; no transparency cutaways or anatomy visible through fabric. Red highlight over fabric must be a FLAT UNIFORM SOFT RED ELLIPSE teaching tint with no internal lines fibers rays or lobes; fabric folds retained. Black shoes. No text labels arrows captions logos. All limbs fingers feet and equipment entirely in frame with generous margins. Same person camera lighting and scale across poses.",
+      "inspectionNote": "Real output inspected. Kneeling chest stretch: hands contact bench and knees/shins grounded, but chest stays high and head lifts into extension rather than dropping chest below arms with neutral neck. Correction required before approval. Detailed grayscale rendering, white background and full opaque clothing retained. Original project artwork for style only, no upstream media. Exact prompt and master saved. Human anatomy review pending; no approval or publication.",
+      "blockingIssues": [
+        "Chest does not lower sufficiently below arms; head lifts into extension. Correct chest drop and neutral cervical alignment."
+      ],
+      "canonicalName": "kneeling chest stretch",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "pectorals"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Kneeling chest stretch: hands contact bench and knees/shins grounded, but chest stays high and head lifts into extension rather than dropping chest below arms with neutral neck. Correction required before approval. Detailed grayscale rendering, white background and full opaque clothing retained. Original project artwork for style only, no upstream media. Exact prompt and master saved. Human anatomy review pending; no approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/1785-male-anatomical-white-v1-p1-2528a9bea6f2.webp",
+          "width": 1200,
+          "height": 1200,
+          "bytes": 48024,
+          "sha256": "2528a9bea6f213244a828537497db67415e801526878e1b2add878bc565b9efa"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-237.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/1785-male-anatomical-white-v1-thumb-d06b2a15e78e.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 3294,
+        "sha256": "d06b2a15e78edd9f90829bb9fac16c5dd5cbef875e418ac274b211c625805a59"
+      },
+      "processingSignature": "7e7cef2f96e9b9e6b30a96693932891104f3b83762ec95897406d935df715dae",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1785-male-anatomical-white-v1.png",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 1412275,
+        "sha256": "16cb53dd34b1143d550c5646014e524d9f145aba14c6a96405ac6027737cf76d"
+      }
+    },
+    {
+      "exerciseId": "1791",
+      "variant": "male",
+      "key": "1791-male-anatomical-white-v1",
+      "layout": {
+        "columns": 1,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Sit tall and hold the seat edge with one hand to anchor that shoulder. Gently tilt your head toward the opposite shoulder. Hold for 20\u201330 seconds, then switch sides."
+        }
+      ],
+      "prompt": "TRAP AND NECK STRETCH. ONE full-body male seated tall on stable plain gray stool feet flat knees90. Camera front three-quarter with enough view of right neck and shoulder. RIGHT hand holds seat edge beside right hip to anchor right shoulder down. Left hand relaxed on left thigh, NO hand pulls head. Gently tilt head to LEFT shoulder, right ear moves away from right shoulder, no twisting, shoulders level relaxed and torso vertical. Hold20-30seconds then switch. ONLY exposed RIGHT UPPER TRAPEZIUS and right lateral base of neck have detailed red primary-muscle highlight. Left neck and all other skin/fabric grayscale. Tank covers chest torso but shoulder/uppertrap exposed naturally at neckline. No unsafe extreme head angle. Use case: scientific-educational. Premium detailed ADULT MALE grayscale anatomical illustration matching original reference for rendering STYLE ONLY, ignore its pose and highlights. Realistic proportions, crisp exposed grayscale muscle contours, white background soft shadows. Full opaque BLACK athletic tank and mid-thigh shorts wrap front sides back seat crotch, seams hems folds; no transparency cutaways or anatomy visible through fabric. Red highlight over fabric must be a FLAT UNIFORM SOFT RED ELLIPSE teaching tint with no internal lines fibers rays or lobes; fabric folds retained. Black shoes. No text labels arrows captions logos. All limbs fingers feet and equipment entirely in frame with generous margins. Same person camera lighting and scale across poses.",
+      "inspectionNote": "Real output inspected. Seated trap/neck stretch: right hand anchors seat and right upper trap is red, but head tilts toward the anchored right shoulder rather than away. Direction/laterality correction required before approval. Detailed grayscale rendering, white background and full opaque clothing retained. Original project artwork for style only, no upstream media. Exact prompt and master saved. Human anatomy review pending; no approval or publication.",
+      "blockingIssues": [
+        "Head tilts toward anchored/highlighted shoulder instead of away. Correct head tilt and right/left stretch laterality."
+      ],
+      "canonicalName": "trap and neck stretch",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "traps"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Seated trap/neck stretch: right hand anchors seat and right upper trap is red, but head tilts toward the anchored right shoulder rather than away. Direction/laterality correction required before approval. Detailed grayscale rendering, white background and full opaque clothing retained. Original project artwork for style only, no upstream media. Exact prompt and master saved. Human anatomy review pending; no approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/1791-male-anatomical-white-v1-p1-b2ee90cec8c9.webp",
+          "width": 800,
+          "height": 1200,
+          "bytes": 47872,
+          "sha256": "b2ee90cec8c96a851390a36f17c4c57fbd0ca48e72e2db8be8d7962a5ec25d66"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-237.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/1791-male-anatomical-white-v1-thumb-07953bb5915d.webp",
+        "width": 160,
+        "height": 240,
+        "bytes": 3584,
+        "sha256": "07953bb5915d92960b92abe2a0769c3ad40678ce886b47cde9d8a120d84afc2c"
+      },
+      "processingSignature": "435048542c2ab8201bebc7b953a66e0adc15158afc56309331f7b14b6081b7f2",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1791-male-anatomical-white-v1.png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1603185,
+        "sha256": "4a3a0b4e0456e4455677303eb5d0d702f22907287f82044c883d95392a72f02f"
+      }
+    },
+    {
+      "exerciseId": "1792",
+      "variant": "male",
+      "key": "1792-male-anatomical-white-v1",
+      "layout": {
+        "columns": 1,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Bring one arm across your chest at shoulder height. Hook it with the other forearm and gently draw it closer. Keep your shoulders relaxed, hold for 20\u201330 seconds and switch sides."
+        }
+      ],
+      "prompt": "WRAP AROUND SHOULDER STRETCH. ONE full-body male standing feet hip width spine neutral. Front-left three-quarter view. RIGHT arm reaches horizontally ACROSS CHEST toward his LEFT side at shoulder height, right elbow slightly soft. LEFT forearm hooks under RIGHT upper arm just above right elbow, left hand points upward, gently bringing right arm closer to chest. No pressure directly on elbow joint, shoulders relaxed not shrugged, head neutral. Hold20-30seconds. ONLY exposed RIGHT POSTERIOR DELTOID at shoulder is detailed RED primary muscle highlight, rest skin grayscale and tank/shorts black opaque. Correct two arms two hands with five fingers, no merged hands or extra limbs. Use case: scientific-educational. Premium detailed ADULT MALE grayscale anatomical illustration matching original reference for rendering STYLE ONLY, ignore its pose and highlights. Realistic proportions, crisp exposed grayscale muscle contours, white background soft shadows. Full opaque BLACK athletic tank and mid-thigh shorts wrap front sides back seat crotch, seams hems folds; no transparency cutaways or anatomy visible through fabric. Red highlight over fabric must be a FLAT UNIFORM SOFT RED ELLIPSE teaching tint with no internal lines fibers rays or lobes; fabric folds retained. Black shoes. No text labels arrows captions logos. All limbs fingers feet and equipment entirely in frame with generous margins. Same person camera lighting and scale across poses.",
+      "inspectionNote": "Real output inspected. Cross-body shoulder stretch: right arm crosses chest, opposite hand supports upper arm, opaque tank and shorts retained. Qualified review needed for forearm-hook versus hand-pull technique, relaxed shoulder position, finger anatomy and posterior deltoid highlight placement. Detailed grayscale rendering, white background and full opaque clothing retained. Original project artwork for style only, no upstream media. Exact prompt and master saved. Human anatomy review pending; no approval or publication.",
+      "canonicalName": "wrap around shoulder stretch",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "delts"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Cross-body shoulder stretch: right arm crosses chest, opposite hand supports upper arm, opaque tank and shorts retained. Qualified review needed for forearm-hook versus hand-pull technique, relaxed shoulder position, finger anatomy and posterior deltoid highlight placement. Detailed grayscale rendering, white background and full opaque clothing retained. Original project artwork for style only, no upstream media. Exact prompt and master saved. Human anatomy review pending; no approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/1792-male-anatomical-white-v1-p1-7d26af4148b7.webp",
+          "width": 800,
+          "height": 1200,
+          "bytes": 34056,
+          "sha256": "7d26af4148b7bd84e4658ebb0e68e1b05d85779263778297272ffedefca9ffa8"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-237.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/1792-male-anatomical-white-v1-thumb-5cc00fd39b21.webp",
+        "width": 160,
+        "height": 240,
+        "bytes": 2340,
+        "sha256": "5cc00fd39b217c48e0c97e54d82e1ad2b6eefe11a871936c150bc5c3128379ed"
+      },
+      "processingSignature": "ed92c6c939d8ae2cc657ed85c630e58413c7d77cc95a66790137d567e306eea8",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1792-male-anatomical-white-v1.png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1368946,
+        "sha256": "872d3dd7a53db3abbc7144567171a889f1397025359010476c87b53d8e52de11"
+      }
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "batch": 320,
+  "runId": "70c058a3-67fc-4d1d-800b-c9a6ce3b1e9c",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "trigger": "2026-11-04T07:55:58.549Z",
+  "purpose": "batch320 scheduled male continuation",
+  "started": "2026-11-04T07:56:14.284214+00:00",
+  "completedAt": "2026-11-04T08:01:58.202920+00:00",
+  "actualToolName": "image_gen__imagegen",
+  "calls": 4,
+  "newCandidateSets": 4,
+  "exerciseIds": [
+    "2986",
+    "2992",
+    "2996",
+    "3000"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1147,
+    "remainingVariants": 10117,
+    "approvedVariants": 0,
+    "blockedVariants": 409,
+    "knownPoseImages": 2232,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 774,
+      "remainingVariants": 4858,
+      "blockedVariants": 290
+    }
+  },
+  "reviewNotes": {
+    "2986": "Weighted neutral pull-up hang and elevated position visible, chain/plate clear of legs and opaque clothing. Grips appear vertical rather than horizontal parallel hammer handles and back tint contains anatomical fiber shapes through tank; corrections required. Qualified cage stability, chin clearance and belt attachment review pending.",
+    "2992": "Supported floor seated calf roll shown over horizontal small-plate barbell, opposite knee bent foot planted and clothing opaque. Heel appears grounded and second phase contact on shaft unclear; block unsupported calf-contact depiction until corrected.",
+    "2996": "Same right arm shoulder-to-overhead band press, same foot anchor, nonworking hand at thigh, upright torso and deltoid-only highlight with opaque clothing. Qualified review of band securement, wrist stacking and overhead range remains pending.",
+    "3000": "Single static forward calf stretch shows front heel grounded/toes raised, band looped on forefoot to both hands, rear support foot planted and opaque clothing. Qualified review of calf highlight location, ankle angle and band tension required; no automatic approval."
+  },
+  "blockingIssues": {
+    "2986": [
+      "Use clear horizontal parallel neutral handles with palms facing each other, not vertical rods.",
+      "Replace lat fiber shapes through tank with plain uniform wash on intact opaque fabric."
+    ],
+    "2992": [
+      "Show posterior calf bearing on shaft with heel clear of floor in both phases and clear contact progression; avoid apparent floating calf/grounded heel."
+    ]
+  },
+  "deferred": {
+    "2987": "Parallel bars versus underhand chin-up grip conflict; clarify suitable overhead cage attachment.",
+    "2994": "Anterior shin rolling conflicts with calves primary target; clarify mapping.",
+    "2998": "Plantarflexion anterior ankle stretch conflicts with calf primary target; clarify mapping."
+  },
+  "tests": 7,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "workerSyncResult": {
+    "statuses": {
+      "generated": 1147,
+      "pending": 10117
+    },
+    "remaining": 10117,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 1756849197
+  },
+  "publicationIndexUnchanged": true
+}

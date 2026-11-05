@@ -1,0 +1,65 @@
+{
+  "batch": 165,
+  "runId": "a23cd6fd-38ec-470d-9e4e-7c8c12dfce99",
+  "trigger": "2026-11-03T08:38:57.975Z",
+  "completedAt": "2026-11-03T08:44:19.484812+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 2,
+  "generationCalls": 2,
+  "exerciseIds": [
+    "1193"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 644,
+    "remainingVariants": 10620,
+    "approvedVariants": 0,
+    "blockedVariants": 221,
+    "knownPoseImages": 1294,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Two single-pose static iron cross plank candidates, two built-in calls. Wide X/star layout with straight soft-elbow arms and legs spread, grounded palms/toes, diffuse abdominal flank tint over intact shirt and full opaque shorts. Fine exposed grayscale anatomy retained. Qualified hand/toe pressure, shoulder loading, hip/neck alignment and tint placement require human review. Female far palm partly beyond mat on floor; body uncropped. Every original and exact prompt saved; no anatomy/clothing approval or publication. Original project artwork rendering style only, no upstream licensed input. Seven pipeline checks do not establish anatomical accuracy.",
+  "metadataConflictsDeferred": {
+    "1183": "Facing Smith bar versus rear sole under bar geometry unresolved."
+  },
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 1022720140,
+  "savedMasters": [
+    {
+      "exerciseId": "1193",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1193-male-anatomical-white-v1.png",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 1873243,
+        "sha256": "0195620c9f7968a64576ed269523e6360b1e416c50bf3dd751175d7268003d08"
+      }
+    },
+    {
+      "exerciseId": "1193",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1193-female-anatomical-white-v1.png",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 1792854,
+        "sha256": "f5b9b59d2b8206a6d80d63a7fcbfb628a4d82a5120ca5867f3276187962c80e7"
+      }
+    }
+  ]
+}

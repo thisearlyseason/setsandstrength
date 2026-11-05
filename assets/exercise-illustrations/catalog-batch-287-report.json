@@ -1,0 +1,93 @@
+{
+  "batch": 287,
+  "runId": "ae6304a6-137e-4808-85ff-82b08da08535",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "trigger": "2026-11-04T02:30:56.493Z",
+  "purpose": "batch287 scheduled male continuation",
+  "started": "2026-11-04T02:31:24.137508+00:00",
+  "completedAt": "2026-11-04T02:38:57.078522+00:00",
+  "actualToolName": "image_gen__imagegen",
+  "calls": 4,
+  "newCandidateSets": 4,
+  "exerciseIds": [
+    "2425",
+    "2431",
+    "2432",
+    "2461"
+  ],
+  "variants": [
+    "male"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1021,
+    "remainingVariants": 10243,
+    "approvedVariants": 0,
+    "blockedVariants": 346,
+    "knownPoseImages": 1963,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 648,
+      "remainingVariants": 4984,
+      "blockedVariants": 227
+    }
+  },
+  "reviewNotes": {
+    "2425": "Standing heels-down then bilateral heel raise, hands hold band ends near shoulders, exposed calves consistently red and clothing opaque. Band visibly routes near/under heels rather than clearly under balls of feet; block anchoring correction. Qualified review of plantar flexion, forefoot contact, knee softness and band tension required. Human anatomy review remains pending.",
+    "2431": "Feet remain on separate benches with wide stance, squat lowers hips into gap and opaque shorts show plain glute tint. Dumbbell/hands appear behind pelvis rather than canonical in front, with hands resting atop head rather than clearly supporting underside; block grip/position correction. Qualified review of bench stability, knee tracking, depth and foot contact required. Human anatomy review remains pending.",
+    "2432": "Supported flat-bench EZ press shows narrow grip near-straight-arm start then tucked-elbow descent, feet flat and head/hips supported. Exposed triceps red, clothing opaque black. Lowered bar lies near upper chest/neck rather than intended mid-chest; block bar-path correction. Qualified review of overhand angled grip, width, wrist stacking and elbow clearance required. Human anatomy review remains pending.",
+    "2461": "Side-lying closed knees then top-knee opens while feet remain together, bottom knee grounded and top hip red tint retained over intact shorts. Head supported by bent arm/hand, other hand floor in front. Qualified review of pelvic stacking versus rollback, hip-abductor tint placement, knee angle and head support required. Human anatomy review remains pending."
+  },
+  "blockingIssues": {
+    "2425": [
+      "Band anchoring appears at heels rather than under balls of feet; correct forefoot routing."
+    ],
+    "2431": [
+      "Dumbbell/hands appear behind pelvis rather than in front; correct positioning and secure two-hand grip."
+    ],
+    "2432": [
+      "Lowered bar near upper chest/neck rather than mid-chest; correct bar path."
+    ]
+  },
+  "deferred": {
+    "2420": "Alternating bicycle pose/band routing requires detailed planning.",
+    "2423": "Spine target lacks specific primary muscle mapping; anchor configuration unclear.",
+    "2424": "Alternating lunge band-anchor progression requires detailed planning.",
+    "2429": "Frog-crunch name conflicts with ordinary feet-flat crunch instructions.",
+    "2434": "Side-to-side cable twist requires pulley-direction planning.",
+    "2458": "Wall-ball flight/catch sequence requires detailed planning.",
+    "2459": "Tire lift/flip hand transition requires detailed planning."
+  },
+  "tests": 7,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "workerSyncResult": {
+    "statuses": {
+      "generated": 1021,
+      "pending": 10243
+    },
+    "remaining": 10243,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 1571798527
+  },
+  "publicationIndexUnchanged": true,
+  "savedMasters": [
+    "assets/exercise-illustrations/generated/2425-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/2431-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/2432-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/2461-male-anatomical-white-v1.png"
+  ]
+}

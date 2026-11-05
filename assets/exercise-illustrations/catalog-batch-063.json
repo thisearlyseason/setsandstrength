@@ -1,0 +1,232 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "0207",
+      "variant": "male",
+      "key": "0207-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hold high-cable bar with palms up and elbows bent"
+        },
+        {
+          "key": "p2",
+          "caption": "Extend elbows downward while keeping upper arms still"
+        }
+      ],
+      "prompt": "Premium scientific anatomical fitness illustration. Realistic adult MALE, detailed exposed arms and legs with crisp SILVER muscle fiber STRIATIONS and tendons, face hands neutral grayscale too, zero flesh tone. Pure white background, soft contact shadows. TWO equal SIDE-BY-SIDE poses in wide composition; SAME model clothes camera scale and equipment geometry both panels. All limbs and FULL MACHINE TOP AND BASE inside own half with generous WHITE margins above steel tower and around feet, wide white gutter. Opaque BLACK sleeveless athletic shirt fully wraps torso front BACK sides; opaque black knee-length athletic shorts fully cover front sides REAR SEAT CROTCH, realistic folds seams closed hems, black trainers. No clothing cutaways, transparency or holes, no exposed red muscle windows. Primary target muscles RED, all other muscles silvergray. No text logos numbers captions arrows. REVERSE-GRIP CABLE TRICEPS PUSHDOWN. Side-front three-quarter view shows grips and triceps posterior arms. Stand FACING tower feet shoulder width torso upright stable. One SHORT STRAIGHT BAR connected via CENTRAL ring/carabiner MIDWAY between both hands to ONE cable from HIGH pulley. Both hands SHOULDER WIDTH SUPINATED UNDERHAND grip, PALMS UP, NOT pronated; fingers CLOSED around bar and thumbs secure it, wrists neutral. Left panel elbows bent about90degrees and forearms approximately horizontal, upper arms vertical beside ribs. Right panel extend BOTH elbows to lower bar near front thighs; upper arms remain vertical beside ribs, no shoulder movement, no torso tilt; SAME underhand grip at bottom, no grip reversal. Cable stays taut between HIGH pulley and CENTRAL bar connector, never bar end, hands never touch cable. Both TRICEPS red, biceps/forearms/delts gray. Same full single-stack tower. Do not use rope or dumbbells.",
+      "inspectionNote": "Underhand-looking grips maintained at start/end, central bar attachment and taut high cable, near-fixed upper arms, full body/tower and opaque rear/crotch clothing. Qualified grip orientation, wrist position and triceps review pending; no anatomy approval."
+    },
+    {
+      "exerciseId": "0207",
+      "variant": "female",
+      "key": "0207-female-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hold high-cable bar with palms up and elbows bent"
+        },
+        {
+          "key": "p2",
+          "caption": "Extend elbows downward while keeping upper arms still"
+        }
+      ],
+      "prompt": "Premium scientific anatomical fitness illustration. Realistic adult FEMALE, detailed exposed arms and legs with crisp SILVER muscle fiber STRIATIONS and tendons, face hands neutral grayscale too, zero flesh tone. Pure white background, soft contact shadows. TWO equal SIDE-BY-SIDE poses in wide composition; SAME model clothes camera scale and equipment geometry both panels. All limbs and FULL MACHINE TOP AND BASE inside own half with generous WHITE margins above steel tower and around feet, wide white gutter. Opaque BLACK sleeveless athletic shirt fully wraps torso front BACK sides; opaque black knee-length athletic shorts fully cover front sides REAR SEAT CROTCH, realistic folds seams closed hems, black trainers. No clothing cutaways, transparency or holes, no exposed red muscle windows. Primary target muscles RED, all other muscles silvergray. No text logos numbers captions arrows. REVERSE-GRIP CABLE TRICEPS PUSHDOWN. Side-front three-quarter view shows grips and triceps posterior arms. Stand FACING tower feet shoulder width torso upright stable. One SHORT STRAIGHT BAR connected via CENTRAL ring/carabiner MIDWAY between both hands to ONE cable from HIGH pulley. Both hands SHOULDER WIDTH SUPINATED UNDERHAND grip, PALMS UP, NOT pronated; fingers CLOSED around bar and thumbs secure it, wrists neutral. Left panel elbows bent about90degrees and forearms approximately horizontal, upper arms vertical beside ribs. Right panel extend BOTH elbows to lower bar near front thighs; upper arms remain vertical beside ribs, no shoulder movement, no torso tilt; SAME underhand grip at bottom, no grip reversal. Cable stays taut between HIGH pulley and CENTRAL bar connector, never bar end, hands never touch cable. Both TRICEPS red, biceps/forearms/delts gray. Same full single-stack tower. Do not use rope or dumbbells.",
+      "inspectionNote": "Underhand grip and central high-cable bar connection appear consistent, elbow extension with upper arms by side. Fully opaque shirt/shorts and entire body/tower visible. Qualified wrist/technique/anatomy review remains pending."
+    },
+    {
+      "exerciseId": "0210",
+      "variant": "male",
+      "key": "0210-male-anatomical-white-v2",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Rest forearms on thighs with wrists lowered beyond knees"
+        },
+        {
+          "key": "p2",
+          "caption": "Lift the backs of the hands by extending only the wrists"
+        }
+      ],
+      "prompt": "Correct this original male seated cable reverse wrist curl illustration. Preserve silver grayscale detailed anatomy, red dorsal FOREARM wrist extensors, fully opaque black shirt and knee-length shorts wrapping all rear/crotch areas, pronated palm-DOWN short straight bar with central cable attachment, white background, two side-by-side poses. FIX technique: BOTH FOREARMS lie FLAT along tops of thighs from elbows near hips to wrists just beyond knees in BOTH positions. Hinge torso forward sufficiently so forearms truly touch thighs over whole length. Do NOT float elbows/forearms above knees. Same elbow angle and forearm/thigh contact both poses. Only wrists move a SMALL amount: left hands gently hang down past knees; right backs of hands lift modestly by wrist extension, bar only few centimeters higher. No biceps curl or forearm lift. Cable clear of shins to low pulley ahead. FIX framing: zoom out uniformly so entire low-pulley tower TOP/BOTTOM, complete bench rear and base, all shoes are inside each panel with broad white margins and gutter. No text.",
+      "inspectionNote": "Pronated bar and red forearm extensors visible, opaque clothes intact. Forearms appear lifted rather than fully supported by thighs, and bar rise includes elbow motion; machine top cropped. Requires technique/framing correction.",
+      "blockingIssues": [
+        "Verify continuous forearm-thigh support and eliminate elbow-driven bar lift; current correction does not establish correct isolated wrist movement."
+      ],
+      "canonicalName": "cable reverse wrist curl",
+      "styleVersion": "white-v1",
+      "equipment": "cable",
+      "primaryMuscles": [
+        "forearms"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original generation from exercise metadata and user-selected style. No upstream image input."
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Full tower/bench framing improved. Forearm support along thighs and isolation of wrist extension remain uncertain, still blocked for qualified correction. Full opaque clothing retained; original master preserved.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0210-male-anatomical-white-v1-p1-277ce6531714.webp",
+          "width": 768,
+          "height": 1024,
+          "bytes": 59262,
+          "sha256": "277ce6531714c521eb4ee95803b701bf5afa720c69b9a82705bbe0a0f38a5205"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0210-male-anatomical-white-v1-p2-2a46664c26b0.webp",
+          "width": 768,
+          "height": 1024,
+          "bytes": 58418,
+          "sha256": "2a46664c26b08e98065c1c7732ac91cb8623ac6f64a66f0f6b455bc7e7ca8719"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0210-male-anatomical-white-v1-thumb-1c9814939e17.webp",
+        "width": 180,
+        "height": 240,
+        "bytes": 4224,
+        "sha256": "1c9814939e17fc2010e8262e83ff98ec439034c3d275d2e1c808382fdd7f1430"
+      },
+      "processingSignature": "9b1a511c32b3851e1503d4108d5eac42123c70b1ad43e3d817400570f984d6be",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0210-male-anatomical-white-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1751544,
+        "sha256": "7c56feb42c4f9a156a6b6c6909862e9380dc54bd7ab8dc2cfc0d11c9bfcea0e8"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0210",
+          "variant": "male",
+          "key": "0210-male-anatomical-white-v1",
+          "layout": {
+            "columns": 2,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Rest forearms on thighs with wrists lowered beyond knees"
+            },
+            {
+              "key": "p2",
+              "caption": "Lift the backs of the hands by extending only the wrists"
+            }
+          ],
+          "prompt": "Premium scientific anatomical fitness illustration. Realistic adult MALE, detailed exposed arms and legs with crisp SILVER muscle fiber STRIATIONS and tendons, face hands neutral grayscale too, zero flesh tone. Pure white background, soft contact shadows. TWO equal SIDE-BY-SIDE poses in wide composition; SAME model clothes camera scale and equipment geometry both panels. All limbs and FULL MACHINE TOP AND BASE inside own half with generous WHITE margins above steel tower and around feet, wide white gutter. Opaque BLACK sleeveless athletic shirt fully wraps torso front BACK sides; opaque black knee-length athletic shorts fully cover front sides REAR SEAT CROTCH, realistic folds seams closed hems, black trainers. No clothing cutaways, transparency or holes, no exposed red muscle windows. Primary target muscles RED, all other muscles silvergray. No text logos numbers captions arrows. SEATED CABLE REVERSE WRIST CURL. Side-front three-quarter camera close enough to see both wrists, still full body/bench/low-cable tower. Sit on flat bench FACING low pulley, knees about90degrees feet flat apart, spine stable slight forward hip hinge. BOTH forearms rest securely on tops of thighs throughout, wrists extend just past KNEES and are free to move. Hold SHORT STRAIGHT BAR with both hands pronated OVERHAND PALMS DOWN, shoulder-width, fingers closed. ONE taut cable from CENTRAL BAR RING midway between hands down/forward to LOW pulley ahead of knees, clear of shins. LEFT panel wrists flex gently down beyond thighs, backs of hands angle downward, bar below knee-height slightly; elbows and forearms stay planted. RIGHT panel extend WRISTS ONLY to raise BACKS OF HANDS and bar modestly above neutral; no elbow flexion curl, no lifting forearms off thighs, same forearm/thigh contact. Movement only small wrist excursion, not biceps curl. RED dorsal wrist EXTENSOR muscle bellies on back/top of BOTH FOREARMS only; biceps and upper arms gray, hands and wrists gray. Show true pronated grip with fingernails/knuckles on upper surfaces and thumb wrap. Full opaque shorts remain between thighs and forearms, no missing cloth. One full low pulley tower and single weight stack; center attachment between hands, never at bar end.",
+          "inspectionNote": "Pronated bar and red forearm extensors visible, opaque clothes intact. Forearms appear lifted rather than fully supported by thighs, and bar rise includes elbow motion; machine top cropped. Requires technique/framing correction.",
+          "blockingIssues": [
+            "Support both forearms along thighs and isolate wrist extension; restore machine top framing."
+          ],
+          "canonicalName": "cable reverse wrist curl",
+          "styleVersion": "white-v1",
+          "equipment": "cable",
+          "primaryMuscles": [
+            "forearms"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original generation from exercise metadata and user-selected style. No upstream image input."
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Pronated bar and red forearm extensors visible, opaque clothes intact. Forearms appear lifted rather than fully supported by thighs, and bar rise includes elbow motion; machine top cropped. Requires technique/framing correction.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0210-male-anatomical-white-v1-p1-277ce6531714.webp",
+              "width": 768,
+              "height": 1024,
+              "bytes": 59262,
+              "sha256": "277ce6531714c521eb4ee95803b701bf5afa720c69b9a82705bbe0a0f38a5205"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0210-male-anatomical-white-v1-p2-2a46664c26b0.webp",
+              "width": 768,
+              "height": 1024,
+              "bytes": 58418,
+              "sha256": "2a46664c26b08e98065c1c7732ac91cb8623ac6f64a66f0f6b455bc7e7ca8719"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0210-male-anatomical-white-v1-thumb-1c9814939e17.webp",
+            "width": 180,
+            "height": 240,
+            "bytes": 4224,
+            "sha256": "1c9814939e17fc2010e8262e83ff98ec439034c3d275d2e1c808382fdd7f1430"
+          },
+          "processingSignature": "9b1a511c32b3851e1503d4108d5eac42123c70b1ad43e3d817400570f984d6be",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0210-male-anatomical-white-v1.png",
+            "width": 1536,
+            "height": 1024,
+            "bytes": 1751544,
+            "sha256": "7c56feb42c4f9a156a6b6c6909862e9380dc54bd7ab8dc2cfc0d11c9bfcea0e8"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "0210",
+      "variant": "female",
+      "key": "0210-female-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Rest forearms on thighs with wrists lowered beyond knees"
+        },
+        {
+          "key": "p2",
+          "caption": "Lift the backs of the hands by extending only the wrists"
+        }
+      ],
+      "prompt": "Premium scientific anatomical fitness illustration. Realistic adult FEMALE, detailed exposed arms and legs with crisp SILVER muscle fiber STRIATIONS and tendons, face hands neutral grayscale too, zero flesh tone. Pure white background, soft contact shadows. TWO equal SIDE-BY-SIDE poses in wide composition; SAME model clothes camera scale and equipment geometry both panels. All limbs and FULL MACHINE TOP AND BASE inside own half with generous WHITE margins above steel tower and around feet, wide white gutter. Opaque BLACK sleeveless athletic shirt fully wraps torso front BACK sides; opaque black knee-length athletic shorts fully cover front sides REAR SEAT CROTCH, realistic folds seams closed hems, black trainers. No clothing cutaways, transparency or holes, no exposed red muscle windows. Primary target muscles RED, all other muscles silvergray. No text logos numbers captions arrows. SEATED CABLE REVERSE WRIST CURL. Side-front three-quarter camera close enough to see both wrists, still full body/bench/low-cable tower. Sit on flat bench FACING low pulley, knees about90degrees feet flat apart, spine stable slight forward hip hinge. BOTH forearms rest securely on tops of thighs throughout, wrists extend just past KNEES and are free to move. Hold SHORT STRAIGHT BAR with both hands pronated OVERHAND PALMS DOWN, shoulder-width, fingers closed. ONE taut cable from CENTRAL BAR RING midway between hands down/forward to LOW pulley ahead of knees, clear of shins. LEFT panel wrists flex gently down beyond thighs, backs of hands angle downward, bar below knee-height slightly; elbows and forearms stay planted. RIGHT panel extend WRISTS ONLY to raise BACKS OF HANDS and bar modestly above neutral; no elbow flexion curl, no lifting forearms off thighs, same forearm/thigh contact. Movement only small wrist excursion, not biceps curl. RED dorsal wrist EXTENSOR muscle bellies on back/top of BOTH FOREARMS only; biceps and upper arms gray, hands and wrists gray. Show true pronated grip with fingernails/knuckles on upper surfaces and thumb wrap. Full opaque shorts remain between thighs and forearms, no missing cloth. One full low pulley tower and single weight stack; center attachment between hands, never at bar end. CRITICAL SUPPORT: use true SIDE camera showing forearms resting FLAT ALONG THE THIGHS from elbows to just before wrists in BOTH poses. Thighs horizontal, torso leaned forward enough, elbows near hips and wrists beyond knees. Forearms cannot float above thighs. Wrist motion is VERY SMALL: bar shifts only a few centimeters, same elbow angle and forearm position both panels. Full tower top white margin essential.",
+      "inspectionNote": "Forearms supported along thighs and small wrist excursion, pronated grip and central bar cable connection, full opaque clothes. Rear bench edge clipped at panel boundary; qualified wrist-extensor localization and range review pending.",
+      "blockingIssues": [
+        "Restore full bench and panel margin without clipping."
+      ]
+    }
+  ]
+}

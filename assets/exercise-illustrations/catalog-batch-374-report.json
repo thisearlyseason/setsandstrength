@@ -1,0 +1,55 @@
+{
+  "batch": 374,
+  "runId": "56041a5f-e0bb-43f9-ac48-fe4d8631b4ab",
+  "builtInImageGenAvailable": true,
+  "anatomyReview": "pending",
+  "publication": "none",
+  "deferred": {
+    "3507": "Nordic ankle anchoring setup needs explicit plan."
+  },
+  "coverageAfter": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1348,
+    "remainingVariants": 9916,
+    "approvedVariants": 0,
+    "blockedVariants": 520,
+    "knownPoseImages": 2667,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 975,
+      "remainingVariants": 4657,
+      "blockedVariants": 401
+    }
+  },
+  "paidWorker": {
+    "statuses": {
+      "generated": 1348,
+      "pending": 9916
+    },
+    "remaining": 9916,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 2050820161
+  },
+  "pipelineTests": "7 passed, 0 failed",
+  "approvedIndexUnchanged": true,
+  "existingUserApprovalsPreserved": 1306,
+  "generatedIds": [
+    "3504",
+    "3505",
+    "3506",
+    "3508"
+  ]
+}

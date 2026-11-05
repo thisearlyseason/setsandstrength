@@ -1,0 +1,81 @@
+{
+  "batch": 239,
+  "runId": "7230b1f7-a285-4e51-9a85-d00d9669805b",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "trigger": "2026-11-03T18:52:22.062Z",
+  "purpose": "batch239 scheduled male continuation",
+  "started": "2026-11-03T18:52:37.153431+00:00",
+  "completedAt": "2026-11-03T18:57:17.308645+00:00",
+  "actualToolName": "image_gen__imagegen",
+  "calls": 4,
+  "newCandidateSets": 4,
+  "exerciseIds": [
+    "1802",
+    "1806",
+    "1810",
+    "1811"
+  ],
+  "variants": [
+    "male"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 829,
+    "remainingVariants": 10435,
+    "approvedVariants": 0,
+    "blockedVariants": 264,
+    "knownPoseImages": 1631,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 456,
+      "remainingVariants": 5176,
+      "blockedVariants": 145
+    }
+  },
+  "reviewNotes": {
+    "1802": "Standing side lat stretch: feet grounded and unilateral overhead reach with lateral bend. BLOCKED: red lat overlay is on the compressed/down-arm side instead of the elongated raised-arm side. Correct highlight laterality.",
+    "1806": "Seated cross-legged side reach: support palm grounded, opposite arm overhead, lateral trunk bend and red overlay on elongated side. Qualified review needed for coherent pelvic/leg orientation relative to rear torso view, sitting-bone contact, shoulder range and muscle mapping.",
+    "1810": "Supine single knee-to-chest: straight opposite leg grounded, both hands hold upper shin, intact shorts glute overlay. BLOCKED: head floats above floor with cervical flexion; restore supported head and comfortable neutral neck.",
+    "1811": "Standing knee-to-chest: tall single-leg stance, opposite knee flexed toward chest, hands on upper shin and opaque shorts glute overlay. Qualified review needed for raised-leg/glute laterality, hand anatomy, balance and hip flexion range."
+  },
+  "blockingIssues": {
+    "1802": [
+      "Red lat highlight appears on compressed/down-arm side instead of elongated raised-arm side. Correct muscle-overlay laterality."
+    ],
+    "1810": [
+      "Head is lifted off floor instead of supported. Correct cervical position and head support."
+    ]
+  },
+  "tests": 7,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "workerSyncResult": {
+    "statuses": {
+      "generated": 829,
+      "pending": 10435
+    },
+    "remaining": 10435,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 1290168327
+  },
+  "publicationIndexUnchanged": true,
+  "savedMasters": [
+    "assets/exercise-illustrations/generated/1802-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/1806-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/1810-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/1811-male-anatomical-white-v1.png"
+  ]
+}

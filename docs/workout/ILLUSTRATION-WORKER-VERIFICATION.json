@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-31",
+  "canonicalExercises": 5632,
+  "aliasesExcluded": 922,
+  "requiredSets": 11264,
+  "generatedSets": 30,
+  "remainingSets": 11234,
+  "readyCalibrationSets": 2,
+  "awaitingPosePlanningSets": 11232,
+  "approvedSets": 0,
+  "blockedExistingSets": 8,
+  "activeMasterBytes": 47919903,
+  "activeDeliveryBytes": 2288222,
+  "workerTestsPassed": 10,
+  "existingPipelineTestsPassed": 7,
+  "detachedFixture": {
+    "pid": 77077,
+    "generatedTestSets": 2,
+    "firstObservedHeartbeat": "1793500720.5260391",
+    "laterObservedHeartbeat": "1793500792.05481",
+    "cleanStopVerified": true,
+    "provider": "offline replay of existing artwork; no API requests",
+    "testFilesRemoved": true
+  },
+  "realQueuePaused": true,
+  "liveAPIRequests": 0,
+  "liveWorkerRunning": false,
+  "actualLegacyCostUSD": null,
+  "configuredPaidBudgetUSD": 0
+}

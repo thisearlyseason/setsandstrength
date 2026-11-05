@@ -1,0 +1,69 @@
+{
+  "batch": 173,
+  "runId": "8653557d-885d-4f86-9441-87e46d08b847",
+  "trigger": "2026-11-03T09:41:58.588Z",
+  "completedAt": "2026-11-03T09:48:00.841507+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 2,
+  "generationCalls": 2,
+  "exerciseIds": [
+    "1297"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 660,
+    "remainingVariants": 10604,
+    "approvedVariants": 0,
+    "blockedVariants": 221,
+    "knownPoseImages": 1320,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Two single-pose static isometric chest squeeze candidates, two built-in calls. Arms extended forward at shoulder height with palms together and upright stance. Smooth bilateral chest tint on intact opaque shirt with full opaque shorts; exposed grayscale anatomy retained. Qualified far-elbow extension/perspective, wrist/palm contact, shoulder position, chest activation and proportions require human review. Every original and exact prompt saved; no anatomy/clothing approval or publication. Original project artwork rendering style only, no upstream licensed input. Seven pipeline checks do not establish anatomical accuracy.",
+  "metadataConflictsDeferred": {
+    "1294": "Ball supported hip position versus separate hips-off-floor instruction unresolved.",
+    "1295": "Pullover description lying but instructions remain seated.",
+    "1303": "Three point title versus two hand/foot plank contact and ball push mechanics unclear.",
+    "1304": "Released chest pass description versus slow held-ball return instructions.",
+    "1305": "Explosive single response description versus slow held-ball return instructions."
+  },
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 1046255617,
+  "savedMasters": [
+    {
+      "exerciseId": "1297",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1297-male-anatomical-white-v1.png",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 1272856,
+        "sha256": "d73c45556f7f717e3766ea6f11380fe8f6e683883fd6a6eaa09a3e1c2054e0c0"
+      }
+    },
+    {
+      "exerciseId": "1297",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1297-female-anatomical-white-v1.png",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 1296953,
+        "sha256": "b4b450bd9066f257d2bc267622d0d09fae3982ee97c390820fa126bdc0f75d93"
+      }
+    }
+  ]
+}

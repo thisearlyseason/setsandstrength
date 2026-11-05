@@ -1,0 +1,77 @@
+{
+  "batch": 351,
+  "runId": "800c0aa6-1721-4af6-be4d-9d168e60d638",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "trigger": "2026-11-04T12:36:33.444Z",
+  "purpose": "batch351 scheduled male continuation",
+  "started": "2026-11-04T12:37:03.769442+00:00",
+  "completedAt": "2026-11-04T12:44:19.504506+00:00",
+  "actualToolName": "image_gen__imagegen",
+  "calls": 4,
+  "newCandidateSets": 4,
+  "exerciseIds": [
+    "3356",
+    "3357",
+    "3358",
+    "3359"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1262,
+    "remainingVariants": 10002,
+    "approvedVariants": 0,
+    "blockedVariants": 475,
+    "knownPoseImages": 2480,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 889,
+      "remainingVariants": 4743,
+      "blockedVariants": 356
+    }
+  },
+  "reviewNotes": {
+    "3356": "Rear low cable and chest handle visible, but both lunge panels repeat same leading leg; alternating instruction not depicted. Opaque clothing/plain thigh wash. Qualified cable routing and knee review pending.",
+    "3357": "Floor seated rope row with extended legs, tall torso and elbows back. Opaque clothing/plain upper-back wash. Qualified rope grip/separation, lower-chest endpoint and shoulder retraction review pending.",
+    "3358": "Tall-kneeling neutral-handle high pulldown with overhead start and upper-chest finish. Lat fiber pattern through tank requires plain-wash correction. Qualified torso lean, grip orientation and knee support review pending.",
+    "3359": "Standing split-stance chest press with chest-height rear pulleys, bent then extended arms and opaque clothing/plain chest wash. Qualified cable clearance, wrist/elbow stack and torso stability review pending."
+  },
+  "blockingIssues": {
+    "3356": [
+      "Show clearly opposite leading leg in final panel instead of repeating same lunge."
+    ],
+    "3358": [
+      "Replace anatomical lat fiber pattern through tank with plain uniform wash on opaque fabric."
+    ]
+  },
+  "deferred": {
+    "3355": "Cable lateral lunge variant pulley height unspecified.",
+    "3360": "Cardiovascular target lacks anatomical primary mapping.",
+    "3361": "Cardiovascular target lacks anatomical primary mapping."
+  },
+  "tests": 7,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "workerSyncResult": {
+    "statuses": {
+      "generated": 1262,
+      "pending": 10002
+    },
+    "remaining": 10002,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 1925991521
+  },
+  "publicationIndexUnchanged": true
+}

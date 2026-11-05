@@ -1,0 +1,79 @@
+{
+  "batch": 244,
+  "runId": "f39696ed-03a8-4232-a94c-af55ddeeec51",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "trigger": "2026-11-03T19:31:22.447Z",
+  "purpose": "batch244 scheduled male continuation",
+  "started": "2026-11-03T19:31:44.725051+00:00",
+  "completedAt": "2026-11-03T19:38:43.390683+00:00",
+  "actualToolName": "image_gen__imagegen",
+  "calls": 4,
+  "newCandidateSets": 4,
+  "exerciseIds": [
+    "1864",
+    "1865",
+    "1868",
+    "1873"
+  ],
+  "variants": [
+    "male"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 849,
+    "remainingVariants": 10415,
+    "approvedVariants": 0,
+    "blockedVariants": 269,
+    "knownPoseImages": 1660,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 476,
+      "remainingVariants": 5156,
+      "blockedVariants": 150
+    }
+  },
+  "reviewNotes": {
+    "1864": "Decline sit-up shows secured feet, crossed arms and torso curl with consistent bench. BLOCKED: lowered head extends beyond the bench without support; bench angle also appears shallower than extra-decline intent. Correct head support and verify steep angle.",
+    "1865": "Neutral-grip dip-cage pull-up: straight-arm airborne hang to bent-elbow top, separate parallel handles and coherent body orientation. Qualified review needed for actual neutral palms, chin clearance relative to grip height, scapular motion and lat mapping.",
+    "1868": "Low-bar squat with rack: standing to near-parallel squat, heels grounded and bar supported across rear shoulders. Qualified review needed for exact low-bar posterior-deltoid placement versus traps, wrist/grip, forward torso angle, knee tracking and glute overlay mapping.",
+    "1873": "Plate-loaded leg extension: bent knees to near-straight legs with back supported, hands on handles and moving shin roller/loading arm. Qualified review needed for realistic lever/pivot linkage, knee-axis alignment, full knee extension, pad location and quads teaching overlay on intact shorts."
+  },
+  "blockingIssues": {
+    "1864": [
+      "Lowered head extends beyond bench without support. Correct bench/head relationship.",
+      "Bench appears shallower than extra-decline intent; verify required steep angle."
+    ]
+  },
+  "tests": 7,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "workerSyncResult": {
+    "statuses": {
+      "generated": 849,
+      "pending": 10415
+    },
+    "remaining": 10415,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 1318375051
+  },
+  "publicationIndexUnchanged": true,
+  "savedMasters": [
+    "assets/exercise-illustrations/generated/1864-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/1865-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/1868-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/1873-male-anatomical-white-v1.png"
+  ]
+}

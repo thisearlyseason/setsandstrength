@@ -1,0 +1,73 @@
+{
+  "batch": 221,
+  "runId": "c4e3e455-814f-4bc1-864f-dbc514faf8ce",
+  "trigger": "2026-11-03T15:28:31.068Z",
+  "completedAt": "2026-11-03T15:34:18.319483+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 4,
+  "calls": 4,
+  "exerciseIds": [
+    "1650",
+    "1652",
+    "1654",
+    "1658"
+  ],
+  "variants": [
+    "male"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 763,
+    "remainingVariants": 10501,
+    "approvedVariants": 0,
+    "blockedVariants": 246,
+    "knownPoseImages": 1502,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 390,
+      "remainingVariants": 5242,
+      "blockedVariants": 127
+    }
+  },
+  "reviewNotes": {
+    "1650": "Alternating ball-seated dumbbell curl: both lowered, right curl, left curl with visibly opposite lead arms and both feet planted. Qualified review of grip rotation, fingers, ball support and elbow stillness required.",
+    "1652": "Ball-seated bilateral curl with same leg raised throughout and opposite foot planted. Qualified review of balance, raised-leg clearance, pelvis support, wrist alignment and elbow stability required.",
+    "1654": "Standing reverse dumbbell curl shows pronated overhand grip lowered to flexed elbows without palm-up rotation. Qualified review of exact wrist orientation, forearm anatomy and elbow range required.",
+    "1658": "Lunge with curl shows standing start and distinct right/left forward legs with bilateral curled dumbbells. Qualified review of knee tracking, rear knee depth, foot loading, torso stillness and hand anatomy required."
+  },
+  "deferred": [
+    {
+      "exerciseId": "1649",
+      "reason": "Seated ball description conflicts with standing foot-on-ball instructions."
+    },
+    {
+      "exerciseId": "1653",
+      "reason": "Single-leg stork stance description conflicts with rear toes bearing weight."
+    },
+    {
+      "exerciseId": "1655",
+      "reason": "Squat title/description but no squat in instructions."
+    },
+    {
+      "exerciseId": "1656",
+      "reason": "V-sit description conflicts with feet planted knees90degree instructions."
+    }
+  ],
+  "tests": 7,
+  "genCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "publicationIndexUnchanged": true,
+  "savedMasters": [
+    "assets/exercise-illustrations/generated/1650-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/1652-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/1654-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/1658-male-anatomical-white-v1.png"
+  ]
+}

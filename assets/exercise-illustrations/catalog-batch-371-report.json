@@ -1,0 +1,56 @@
+{
+  "batch": 371,
+  "runId": "47f3b033-a4a8-4d4e-8c03-a159ea119055",
+  "builtInImageGenAvailable": true,
+  "anatomyReview": "pending",
+  "publication": "none",
+  "deferred": {
+    "3487": "Grip and assisted pulling geometry need explicit plan.",
+    "3490": "Decline name conflicts with hands-elevated kneeling instructions."
+  },
+  "coverageAfter": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1336,
+    "remainingVariants": 9928,
+    "approvedVariants": 0,
+    "blockedVariants": 515,
+    "knownPoseImages": 2644,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 963,
+      "remainingVariants": 4669,
+      "blockedVariants": 396
+    }
+  },
+  "paidWorker": {
+    "statuses": {
+      "generated": 1336,
+      "pending": 9928
+    },
+    "remaining": 9928,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 2033078543
+  },
+  "pipelineTests": "7 passed, 0 failed",
+  "approvedIndexUnchanged": true,
+  "existingUserApprovalsPreserved": 1306,
+  "generatedIds": [
+    "3488",
+    "3489",
+    "3491",
+    "3493"
+  ]
+}

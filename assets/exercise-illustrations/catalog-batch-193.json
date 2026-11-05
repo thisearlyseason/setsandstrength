@@ -1,0 +1,192 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "1460",
+      "variant": "male",
+      "key": "1460-male-anatomical-white-v1",
+      "layout": {
+        "columns": 3,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand tall with feet shoulder-width apart."
+        },
+        {
+          "key": "p2",
+          "caption": "Step forward into a lunge, keeping the front foot flat and knee aligned above the ankle."
+        },
+        {
+          "key": "p3",
+          "caption": "Push through the front foot and step the other leg forward into the next lunge. Continue alternating with an upright torso."
+        }
+      ],
+      "prompt": "Use case scientific-educational. Original premium ADULT male detailed anatomical illustration canonical1460 WALKING LUNGE. THREE equal SQUARE cells in one wide3:1 horizontal row. Exactly SAME full body person camera scale in EACH cell, SIDE three-quarter view facing RIGHT throughout, clear nonambiguous lower-limb placement. BODYWEIGHT no equipment, hands on hips elbows relaxed torso upright neutral spine pelvis level, eyes forward. CELL1 LEFT standing feet hip width BOTH feet flat under hips. CELL2 MIDDLE step RIGHT foot forward toward RIGHT into lunge: RIGHT front knee about90deg over right ankle, front sole fully flat, LEFT rear knee bends down close to floor WITHOUT touching, LEFT rear heel raised toes support, thighs separated naturally in walking stance. CELL3 RIGHT after step-through LEFT foot now FORWARD toward RIGHT in next lunge: LEFT front knee90 over ankle flat sole, RIGHT leg BEHIND bent rear knee just above floor, right heel raised toes support. This is WALKING forward: limbs SWITCH, do not duplicate same lead leg. All figures stay centered each cell but same facing direction. Primary GLUTES only diffuse soft RED teaching tint over intact shorts BACK/SEAT upper outer hip, NOT thigh or calf. Smooth opaque fabric real broad folds NO anatomical fibers or muscle lobes through shorts. Detailed fine grayscale EXPOSED anatomy realistic hands limbs proportions. Full opaque BLACK tank wraps FRONT SIDES BACK and BLACK MID-THIGH shorts cover FRONT SIDES BACK SEAT CROTCH continuous seams hems broad cloth folds no cutaway/transparency. Black shoes. Pure WHITE background soft contact shadows generous12percent margins head hands both feet inside EACH square uncropped. Equal male/female detailed quality. Original project rendering STYLE ONLY ignore pushup/chest red. No text captions labels arrows extra figures.",
+      "inspectionNote": "Two walking lunge candidates, six poses, two built-in calls. Both BLOCKED because lunge cells repeat same leading leg rather than switching. Standing and split lunges retain front flat sole, rear heel raised, upright torso and red glute tint on intact shorts. Full opaque clothes and grayscale anatomy retained. Qualified knee/ankle alignment, rear knee clearance, alternating limb identity and fabric tint require review. Existing 1459 masters skipped before generation. Original project artwork style only, no upstream licensed input. Exact prompts/originals saved. No anatomical approval or publication. Seven pipeline checks do not establish anatomical accuracy.",
+      "blockingIssues": [
+        "Second and third cells repeat the same visible leading leg instead of demonstrating an alternating walking step-through."
+      ],
+      "canonicalName": "walking lunge",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "glutes"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Two walking lunge candidates, six poses, two built-in calls. Both BLOCKED because lunge cells repeat same leading leg rather than switching. Standing and split lunges retain front flat sole, rear heel raised, upright torso and red glute tint on intact shorts. Full opaque clothes and grayscale anatomy retained. Qualified knee/ankle alignment, rear knee clearance, alternating limb identity and fabric tint require review. Existing 1459 masters skipped before generation. Original project artwork style only, no upstream licensed input. Exact prompts/originals saved. No anatomical approval or publication. Seven pipeline checks do not establish anatomical accuracy.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/1460-male-anatomical-white-v1-p1-6a1dd5149047.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 16430,
+          "sha256": "6a1dd51490471d74b8a62fdecc4a7621f6c80c711064696742eda04a3eb9416a"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/1460-male-anatomical-white-v1-p2-ec1d87e6f1a3.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 19234,
+          "sha256": "ec1d87e6f1a3ad1e438fbcc9aaa1fec2d2f8c4a519794f6c95930f2dcac49e35"
+        },
+        {
+          "pose": "p3",
+          "path": "/workout/illustration-pilot/1460-male-anatomical-white-v1-p3-692618d3a327.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 18704,
+          "sha256": "692618d3a32700b199b3ef41ae74c1c5245d4b0cd89777e6322fd971a958182f"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-193.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/1460-male-anatomical-white-v1-thumb-ffa264083751.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2250,
+        "sha256": "ffa26408375176f9d4e367254f377cd353be2d62701a269c34133fa0c37e101f"
+      },
+      "processingSignature": "9f3b6b13910b6e8b67fa8705837bd7ff793f8a023b4ce2f9fa0aed7b7e62a632",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1460-male-anatomical-white-v1.png",
+        "width": 2172,
+        "height": 724,
+        "bytes": 1336537,
+        "sha256": "5b77bc97cf4076fa752faf37e0428967656f5c193707f61c0565bfd314f301a9"
+      }
+    },
+    {
+      "exerciseId": "1460",
+      "variant": "female",
+      "key": "1460-female-anatomical-white-v1",
+      "layout": {
+        "columns": 3,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand tall with feet shoulder-width apart."
+        },
+        {
+          "key": "p2",
+          "caption": "Step forward into a lunge, keeping the front foot flat and knee aligned above the ankle."
+        },
+        {
+          "key": "p3",
+          "caption": "Push through the front foot and step the other leg forward into the next lunge. Continue alternating with an upright torso."
+        }
+      ],
+      "prompt": "Use case scientific-educational. Original premium ADULT female detailed anatomical illustration canonical1460 WALKING LUNGE. THREE equal SQUARE cells in one wide3:1 horizontal row. Exactly SAME full body person camera scale in EACH cell, SIDE three-quarter view facing RIGHT throughout, clear nonambiguous lower-limb placement. BODYWEIGHT no equipment, hands on hips elbows relaxed torso upright neutral spine pelvis level, eyes forward. CELL1 LEFT standing feet hip width BOTH feet flat under hips. CELL2 MIDDLE step RIGHT foot forward toward RIGHT into lunge: RIGHT front knee about90deg over right ankle, front sole fully flat, LEFT rear knee bends down close to floor WITHOUT touching, LEFT rear heel raised toes support, thighs separated naturally in walking stance. CELL3 RIGHT after step-through LEFT foot now FORWARD toward RIGHT in next lunge: LEFT front knee90 over ankle flat sole, RIGHT leg BEHIND bent rear knee just above floor, right heel raised toes support. This is WALKING forward: limbs SWITCH, do not duplicate same lead leg. All figures stay centered each cell but same facing direction. Primary GLUTES only diffuse soft RED teaching tint over intact shorts BACK/SEAT upper outer hip, NOT thigh or calf. Smooth opaque fabric real broad folds NO anatomical fibers or muscle lobes through shorts. Detailed fine grayscale EXPOSED anatomy realistic hands limbs proportions. Full opaque BLACK tank wraps FRONT SIDES BACK and BLACK MID-THIGH shorts cover FRONT SIDES BACK SEAT CROTCH continuous seams hems broad cloth folds no cutaway/transparency. Black shoes. Pure WHITE background soft contact shadows generous12percent margins head hands both feet inside EACH square uncropped. Equal male/female detailed quality. Original project rendering STYLE ONLY ignore pushup/chest red. No text captions labels arrows extra figures.",
+      "inspectionNote": "Two walking lunge candidates, six poses, two built-in calls. Both BLOCKED because lunge cells repeat same leading leg rather than switching. Standing and split lunges retain front flat sole, rear heel raised, upright torso and red glute tint on intact shorts. Full opaque clothes and grayscale anatomy retained. Qualified knee/ankle alignment, rear knee clearance, alternating limb identity and fabric tint require review. Existing 1459 masters skipped before generation. Original project artwork style only, no upstream licensed input. Exact prompts/originals saved. No anatomical approval or publication. Seven pipeline checks do not establish anatomical accuracy.",
+      "blockingIssues": [
+        "Second and third cells repeat the same visible leading leg instead of demonstrating an alternating walking step-through."
+      ],
+      "canonicalName": "walking lunge",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "glutes"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Two walking lunge candidates, six poses, two built-in calls. Both BLOCKED because lunge cells repeat same leading leg rather than switching. Standing and split lunges retain front flat sole, rear heel raised, upright torso and red glute tint on intact shorts. Full opaque clothes and grayscale anatomy retained. Qualified knee/ankle alignment, rear knee clearance, alternating limb identity and fabric tint require review. Existing 1459 masters skipped before generation. Original project artwork style only, no upstream licensed input. Exact prompts/originals saved. No anatomical approval or publication. Seven pipeline checks do not establish anatomical accuracy.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/1460-female-anatomical-white-v1-p1-dcb9743c0d4f.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 17340,
+          "sha256": "dcb9743c0d4f1d3f4077e75059872992e958f798997cc530dbcac636c456383a"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/1460-female-anatomical-white-v1-p2-40e2dd19fa02.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 19808,
+          "sha256": "40e2dd19fa0236da13546b216fd336c3ea0c5c56ec11b31533d2fc8d8203605f"
+        },
+        {
+          "pose": "p3",
+          "path": "/workout/illustration-pilot/1460-female-anatomical-white-v1-p3-4c425d7cfde9.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 19806,
+          "sha256": "4c425d7cfde904a96e0a21e1add1b4293ea401c3478bba6e74f869e9cd6c6144"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-193.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/1460-female-anatomical-white-v1-thumb-6b0baefba261.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2464,
+        "sha256": "6b0baefba261db97b0fbbe5aa5c332dc7fc1ae86310aee6811f7d9d0a7c98cb4"
+      },
+      "processingSignature": "86fcd9193f959bf55c9e8ad3d61795c87d73b86306930d558f4bd26e73fd1845",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1460-female-anatomical-white-v1.png",
+        "width": 2172,
+        "height": 724,
+        "bytes": 1312908,
+        "sha256": "3d0b11e38b0d521012b292ce7109e724d8965af309d8700f6feca988b1f2f40f"
+      }
+    }
+  ]
+}

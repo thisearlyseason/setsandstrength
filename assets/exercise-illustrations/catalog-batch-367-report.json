@@ -1,0 +1,55 @@
+{
+  "batch": 367,
+  "runId": "b60d56bc-9b7a-4faa-8aac-8ae9c359b8b7",
+  "builtInImageGenAvailable": true,
+  "anatomyReview": "pending",
+  "publication": "none",
+  "deferred": {
+    "3471": "Warrior variation/arm orientation unspecified."
+  },
+  "coverageAfter": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1320,
+    "remainingVariants": 9944,
+    "approvedVariants": 0,
+    "blockedVariants": 507,
+    "knownPoseImages": 2613,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 947,
+      "remainingVariants": 4685,
+      "blockedVariants": 388
+    }
+  },
+  "paidWorker": {
+    "statuses": {
+      "generated": 1320,
+      "pending": 9944
+    },
+    "remaining": 9944,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 2009885600
+  },
+  "pipelineTests": "7 passed, 0 failed",
+  "approvedIndexUnchanged": true,
+  "existingUserApprovalsPreserved": 1306,
+  "generatedIds": [
+    "3468",
+    "3469",
+    "3470",
+    "3472"
+  ]
+}

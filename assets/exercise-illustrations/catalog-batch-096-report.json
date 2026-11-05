@@ -1,0 +1,88 @@
+{
+  "batch": 96,
+  "trigger": "2026-11-01T22:00:51.950Z",
+  "coalescedTriggers": [
+    "2026-11-01T22:07:51.964Z",
+    "2026-11-01T22:14:52.060Z"
+  ],
+  "completedAt": "2026-11-01T22:20:40.310672+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 4,
+  "generationCalls": 8,
+  "exerciseIds": [
+    "0635",
+    "0637"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 396,
+    "remainingVariants": 10868,
+    "approvedVariants": 0,
+    "blockedVariants": 170,
+    "knownPoseImages": 814,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Four candidate sets with ten pose images and four retained correction masters saved using eight built-in calls. None approved or published. Oblique crunches use canonical crossed-arm option, three phases, bent knees and flat feet. Edits lower initial heads and soften patterned shirt tint, but final torso rotation remains same direction or ambiguous in both variants; both blocked, female residual cloth pattern requires review. Standing barbell extensions show elbow flexion/extension with exposed red triceps. Framing edits restore full bar/plates inside image. Both lowered bars remain at/above crown without clear behind-head upper-neck depth, blocked. Qualified grip, elbow, bar continuity, torso rotation, neck support and all anatomy/technique review remain separate. Fully opaque black clothing covers torso/front/sides/back/seat/crotch and exposed anatomy grayscale. Exact prompts, original PNGs, correction history and hashes retained. Original project artwork used only for style, no upstream licensed media. Seven pipeline checks are not anatomy approval.",
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 651430360,
+  "savedMasters": [
+    {
+      "exerciseId": "0635",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0635-male-anatomical-white-v2.png",
+        "width": 2172,
+        "height": 724,
+        "bytes": 1702765,
+        "sha256": "321536792f0248bfeaac0889a4ff0cea85229e799cf3dc48a85f8f73ca8dc592"
+      }
+    },
+    {
+      "exerciseId": "0635",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0635-female-anatomical-white-v2.png",
+        "width": 2172,
+        "height": 724,
+        "bytes": 1788689,
+        "sha256": "29ec0afff197601995bfc448236e0867cb26920f8450bf18909b1c13aab7c4a5"
+      }
+    },
+    {
+      "exerciseId": "0637",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0637-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1574033,
+        "sha256": "436156b3d57c774dd3331d7153a6a255629f82ade2461b2bbb14663cd9f37e59"
+      }
+    },
+    {
+      "exerciseId": "0637",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0637-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1628793,
+        "sha256": "2ec734e8c6d19d0109cd54a2252b9ad8af8f35cd4ec91fe8a549ab40d2691340"
+      }
+    }
+  ]
+}

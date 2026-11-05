@@ -1,0 +1,70 @@
+{
+  "batch": 299,
+  "runId": "f37780bd-220d-42c3-8b5f-c26ca79db5dc",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "trigger": "2026-11-04T04:28:27.333Z",
+  "purpose": "batch299 scheduled male continuation",
+  "started": "2026-11-04T04:28:46.555960+00:00",
+  "completedAt": "2026-11-04T04:34:45.745828+00:00",
+  "actualToolName": "image_gen__imagegen",
+  "calls": 4,
+  "newCandidateSets": 4,
+  "exerciseIds": [
+    "2750",
+    "2752",
+    "2763",
+    "2764"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1064,
+    "remainingVariants": 10200,
+    "approvedVariants": 0,
+    "blockedVariants": 366,
+    "knownPoseImages": 2044,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 691,
+      "remainingVariants": 4941,
+      "blockedVariants": 247
+    }
+  },
+  "reviewNotes": {
+    "2750": "Wall support, single planted leg, free leg extends behind as torso hinges and dumbbell lowers beside standing shin. Full opaque clothing, posterior standing-thigh red. Qualified review needed for neutral neck versus forward gaze, square pelvis, soft standing knee, full hamstring mapping and hand/leg laterality. Human anatomy review pending.",
+    "2752": "Same forward leg and staggered foot positions, rear heel raised, rear knee lowers near floor and torso stays tall. Red quad overlay contains fiber-like lines on shorts rather than plain wash; block overlay correction. Qualified review needed for knee/ankle alignment, stance width and exact mapping. Human anatomy review pending.",
+    "2763": "Same elbow moves from bent to nearly straight, upper arm remains by side and shoulder relaxed; opposite arm empty and triceps red only. Full opaque clothing. Qualified review needed for elbow fixed position, wrist neutrality, range and finger anatomy. Human anatomy review pending.",
+    "2764": "Same arm moves from palm-forward at side to elbow flexion hand toward shoulder, upper arm near side, opposite arm relaxed. Biceps highlight only, opaque clothing. Qualified review needed for elbow stationary position, palm/forearm rotation, finger proportions and shoulder relaxation. Human anatomy review pending."
+  },
+  "blockingIssues": {
+    "2752": [
+      "Remove anatomy-like fiber lines over shorts; preserve opaque fabric with plain uniform quad wash."
+    ]
+  },
+  "deferred": {},
+  "tests": 7,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "workerSyncResult": {
+    "statuses": {
+      "generated": 1064,
+      "pending": 10200
+    },
+    "remaining": 10200,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 1637299831
+  },
+  "publicationIndexUnchanged": true
+}

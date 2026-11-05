@@ -1,0 +1,68 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "0005",
+      "variant": "male",
+      "key": "0005-male-anatomical-white-v1",
+      "layout": {
+        "columns": 3,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Start"
+        },
+        {
+          "key": "p2",
+          "caption": "Right curl"
+        },
+        {
+          "key": "p3",
+          "caption": "Left curl"
+        }
+      ],
+      "prompt": "Create one premium anatomical educational exercise illustration master for BAND ALTERNATE BICEPS CURL, canonical 0005, adult male. Match reference artistic style only. Three EQUAL panels in a single horizontal row, pure white background, all figures full body head to shoes with generous margins and white gutters. SAME man/equipment/clothing/camera in all panels. Camera front three-quarter near frontal so both hands and both elastic strands are visible. Panel1: stand upright feet hip-width on midpoint of ONE resistance tube with a handle at each end, arms nearly straight alongside torso, palms facing forward, elbows next to ribs. Tube runs from left hand down outside left leg under feet and up outside right leg to right hand, continuous plausible anchoring beneath shoes. Panel2: RIGHT elbow flexed about 110 degrees, right handle near right shoulder, right palm supinated; right upper arm stays vertical beside ribs, left arm down holding its handle. Right tube strand taut from under right shoe to raised right handle. Panel3: mirror action LEFT elbow flexed, left handle near left shoulder, right arm down. No torso lean or moving upper arms, shoulders neutral, wrists straight. Grayscale realistic anatomical muscle detail, primary BICEPS on front of both upper arms highlighted red, everything else grayscale. Full opaque black sleeveless athletic top, knee-length black shorts wrapping front sides back seat crotch with normal seams/folds, shoes. No transparent clothing or anatomy through fabric, no missing shorts backs. Real proportions, no extra limbs or detached equipment. Soft shadows crisp HD premium fitness illustration. No text/labels/arrows/numbers/logos. All three panels equally wide for cropping. Reference squat poses must NOT be copied.",
+      "inspectionNote": "Awaiting visual inspection and qualified anatomy/movement review."
+    },
+    {
+      "exerciseId": "0005",
+      "variant": "female",
+      "key": "0005-female-anatomical-white-v2",
+      "layout": {
+        "columns": 3,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Start"
+        },
+        {
+          "key": "p2",
+          "caption": "Right curl"
+        },
+        {
+          "key": "p3",
+          "caption": "Left curl"
+        }
+      ],
+      "prompt": "Edit this three-panel female band-curl illustration. Retain same woman, premium grayscale anatomy, full opaque sleeveless top and closed shorts, lighting, white background, scale and crisp detail. FIX middle panel: raise the arm on VIEWER LEFT (woman's RIGHT), elbow flexed with handle near shoulder; arm on VIEWER RIGHT must hang down with handle by thigh. Final panel remains opposite: VIEWER RIGHT arm curled, VIEWER LEFT arm down. First panel both arms down. Thus middle and final show opposite sides, not duplicate poses. Keep upper arms beside ribs, forearms supinated, neutral wrists. Tube runs continuously from each handle to under the corresponding shoe, then across beneath feet. Change ALL elastic tube to BLACK in all panels, never red. Red highlights only the anatomical biceps on the front of upper arms. All garments opaque covering front back sides seat crotch with seams and folds. No missing fabric or muscle cutaways. No text or labels. Three equal panels with white gutters.",
+      "inspectionNote": "Corrected duplicated side: middle now right curl, final left curl. Black tube, full opaque top/shorts and grounded feet visible. Handle connection behind raised forearm is occluded: qualified grip/equipment review pending.",
+      "history": [
+        {
+          "key": "0005-female-anatomical-white-v1",
+          "generation": {
+            "status": "generated",
+            "provider": "built-in image_gen",
+            "costUSD": null
+          },
+          "review": {
+            "status": "rejected",
+            "notes": "Middle and right panels repeat left-arm curl; must alternate sides. Red equipment conflicts with muscle-only highlight convention."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "batch": 475,
+  "runId": "411784be-86d7-4309-ac48-e7f1e210fdba",
+  "triggerTimestamp": "2026-11-05T02:12:05.479Z",
+  "builtInImageGenAvailable": true,
+  "generatedIds": [
+    "6159",
+    "6194",
+    "6108",
+    "6137"
+  ],
+  "coverageAfter": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1690,
+    "remainingVariants": 9574,
+    "approvedVariants": 0,
+    "blockedVariants": 604,
+    "knownPoseImages": 3425,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 1317,
+      "remainingVariants": 4315,
+      "blockedVariants": 485
+    }
+  },
+  "paidWorker": {
+    "statuses": {
+      "generated": 1690,
+      "pending": 9574
+    },
+    "remaining": 9574,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 2548175847
+  },
+  "pipelineTests": "8 passed, 0 failed",
+  "approvedIndexUnchanged": true,
+  "existingUserApprovalsPreserved": 1306,
+  "anatomyReview": "pending",
+  "publication": "none",
+  "blocked": {
+    "6137": [
+      "Scapular movement insufficiently clear between poses; highlight has muscle-like striations over clothing rather than a plain teaching overlay."
+    ]
+  }
+}

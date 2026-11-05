@@ -1,0 +1,323 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "3001",
+      "prompt": "BODYWEIGHT SQUAT KNEE POSITION TWO equalpanels same FRONTthreequarter camera clearlyshowkneesandtoes. StandfeetSHOULDERWIDTH toesoutslightly BOTHfullsolesfloor samepoints. LEFTSTART tallstand handslooselyclaspedchest. RIGHTEND squat hipsdown/back chestup neutralspine thighsnearparallel, BOTHKNEES trackOUT oversecond/thirdtoes ratherthancollapsein, heelsgrounded. Primary BOTHQUADS red onlyexposedaboveknees BELOWshortshems, keepallshortsBLACK noanatomyabovehem. No chestred. Premium detailed adult MALE grayscale anatomical exercise illustration, approved original reference STYLE ONLY not pose. Pure white background soft shadows detailed exposed gray muscles realistic proportions. Fully opaque BLACK tank and mid-thigh shorts covering front sides back seat crotch seams folds hems. Primary red ONLY. Exposed highlights detailed. Over clothing use SMALL PLAIN UNIFORM RED WASH with NO musclefibers lobes anatomicalsegments cutaways or transparency; preserve real black fabric. Exactly two arms/hands and two legs/feet per person. Same person camera scale equipment in everypanel full body margins. No text arrows logos.",
+      "variant": "male",
+      "key": "3001-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand shoulder-width with toes slightly out and chest lifted."
+        },
+        {
+          "key": "p2",
+          "caption": "Squat with heels down and knees following toes; drive through whole feet to stand."
+        }
+      ],
+      "inspectionNote": "Real output inspected. Standing and squat phases visible, heels planted and knees directed over toes with black opaque shorts/tank and exposed quad highlights. Qualified review of tracking, stance width and squat depth pending. Human anatomy review pending. No approval or publication.",
+      "canonicalName": "squats knee position",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "quads"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Standing and squat phases visible, heels planted and knees directed over toes with black opaque shorts/tank and exposed quad highlights. Qualified review of tracking, stance width and squat depth pending. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/3001-male-anatomical-white-v1-p1-242f5dde9fd1.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 20398,
+          "sha256": "242f5dde9fd17c1f5bb060cd6f6b919fa2465c84dee9130eec62273adce9d253"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/3001-male-anatomical-white-v1-p2-c8b86d2af3e9.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 20510,
+          "sha256": "c8b86d2af3e9ed5230749f5a417b34e3602454338c9e9093e2b59179eac84a00"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-321.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/3001-male-anatomical-white-v1-thumb-e566e736c7e0.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2406,
+        "sha256": "e566e736c7e0bfd8dddb6c830c79519786e47bff0945d86670b37b7358b5588c"
+      },
+      "processingSignature": "ac824b8dd4ae1236b817065bb5f2c847c9998bfc340ba509a16feaa9a61ce098",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/3001-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1308483,
+        "sha256": "32b578b901a53a302e7f041a0471c98ea9cb206de3af33522108f55bce2a0485"
+      }
+    },
+    {
+      "exerciseId": "3002",
+      "prompt": "SINGLE ARM PUSHUP ON KNEES TWOequalpanels same elevated FRONTthreequarter view facingLEFT. SAME RIGHTPALM flatfloor directlyunderRIGHTshoulder, LEFTARM bendsBEHINDBACK left handonlowback bothpanels. BOTHKNEESfloor WIDE forbalance, lowerlegsrelaxedbehind. Body straightHEADSHOULDERSHIPSKNEES nohiphinge no twist. LEFTSTART RIGHTelbowstraight supportingbody. RIGHTEND RIGHTelbowbent lowerCHESTtowardfloor withstraightbodyfromheadtoknees, kneesandrightpalmsamecontactpoints, lefthandstillbehindback. Exactlytwoarms nohiddenextra supporthand. Primary RIGHTPECTORAL smallplainUNIFORMredwash overintactblacktank no lobes/fibers, otherbodygrayblack. Premium detailed adult MALE grayscale anatomical exercise illustration, approved original reference STYLE ONLY not pose. Pure white background soft shadows detailed exposed gray muscles realistic proportions. Fully opaque BLACK tank and mid-thigh shorts covering front sides back seat crotch seams folds hems. Primary red ONLY. Exposed highlights detailed. Over clothing use SMALL PLAIN UNIFORM RED WASH with NO musclefibers lobes anatomicalsegments cutaways or transparency; preserve real black fabric. Exactly two arms/hands and two legs/feet per person. Same person camera scale equipment in everypanel full body margins. No text arrows logos.",
+      "variant": "male",
+      "key": "3002-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Kneel with knees wide, right hand under shoulder and left hand behind back; keep head-to-knees aligned."
+        },
+        {
+          "key": "p2",
+          "caption": "Bend right elbow to lower chest, then press up without twisting; switch after reps."
+        }
+      ],
+      "inspectionNote": "Real output inspected. Same right palm supports kneeling push-up, opposite hand behind back, wide knees on floor and bent-elbow lowering shown. Opaque clothing and soft chest wash present. Qualified review of head-to-knees alignment, antirotation and palm/elbow position pending. Human anatomy review pending. No approval or publication.",
+      "canonicalName": "single arm push up (on knees)",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "pectorals"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Same right palm supports kneeling push-up, opposite hand behind back, wide knees on floor and bent-elbow lowering shown. Opaque clothing and soft chest wash present. Qualified review of head-to-knees alignment, antirotation and palm/elbow position pending. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/3002-male-anatomical-white-v1-p1-006d490c9682.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 29696,
+          "sha256": "006d490c9682eb36f1583c52ded00ced28eb882909aa467fcb36732101025384"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/3002-male-anatomical-white-v1-p2-6d53d1ea73f5.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 27506,
+          "sha256": "6d53d1ea73f5fb244a2c2e4867f73d31aabc8cfbcfae0d2054548190f412eaaf"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-321.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/3002-male-anatomical-white-v1-thumb-354be8c661a4.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2888,
+        "sha256": "354be8c661a40468f925899a9fb6a7b0f486e22071f7c554e77cfe5b95e42c50"
+      },
+      "processingSignature": "6f3b843cba1d580c5c47ec72db5e9e152096d78197227dc3a7d783721574ad85",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/3002-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1440132,
+        "sha256": "d97ea3d9824a2dab14126bd988e6fc490ec382fe1fdab3907ddec5bf5acb116e"
+      }
+    },
+    {
+      "exerciseId": "3006",
+      "prompt": "RESISTANCE BAND SEATED HIP ABDUCTION TWOequalpanels same FRONTthreequarter camera. Sit upright onstableflatBENCH handsgripsides, hipsandkneesabout90, BOTHfeetfullsolesfloor. Thickelastic LOOPBAND aroundBOTH LOWERTHIGHS justABOVEKNEES clearlyOUTSIDE opaque shorts, noanchor. LEFTSTART kneeshipwidth bandlighttaut. RIGHTEND moveBOTHKNEESOUTWARD apartagainstband kneestrackfeet feetrotateoutslightlybutstaysolesfloor, pelvisstaysseat torsoupright handsunchanged. Primary HIPABDUCTORS/gluteusmedius smallplainredwash bilateralUPPEROUTERHIP onintactblackshorts NO quadorhamstringred nofibers. Sameband loopstretcheswiderbutremainsabovebothknees. Premium detailed adult MALE grayscale anatomical exercise illustration, approved original reference STYLE ONLY not pose. Pure white background soft shadows detailed exposed gray muscles realistic proportions. Fully opaque BLACK tank and mid-thigh shorts covering front sides back seat crotch seams folds hems. Primary red ONLY. Exposed highlights detailed. Over clothing use SMALL PLAIN UNIFORM RED WASH with NO musclefibers lobes anatomicalsegments cutaways or transparency; preserve real black fabric. Exactly two arms/hands and two legs/feet per person. Same person camera scale equipment in everypanel full body margins. No text arrows logos.",
+      "variant": "male",
+      "key": "3006-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Sit upright with feet flat and loop band just above knees; hold bench sides."
+        },
+        {
+          "key": "p2",
+          "caption": "Push knees apart against band, pause, then return slowly while keeping pelvis stable."
+        }
+      ],
+      "inspectionNote": "Real output inspected. Seated knees move apart against loop above knees, hands support bench and feet grounded. Outer hip wash on intact shorts. Qualified review of band placement, knee motion and exact gluteus medius mapping pending. Human anatomy review pending. No approval or publication.",
+      "canonicalName": "resistance band seated hip abduction",
+      "styleVersion": "white-v1",
+      "equipment": "resistance band",
+      "primaryMuscles": [
+        "abductors"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Seated knees move apart against loop above knees, hands support bench and feet grounded. Outer hip wash on intact shorts. Qualified review of band placement, knee motion and exact gluteus medius mapping pending. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/3006-male-anatomical-white-v1-p1-70c99ad8320b.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 35680,
+          "sha256": "70c99ad8320bd3ab4f376ed7bb859c58834cec5c1e5b1e83f8aea251caf1a103"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/3006-male-anatomical-white-v1-p2-615a8fa36acd.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 36044,
+          "sha256": "615a8fa36acd5b7043752fad3866f89f77b2ef49c47bd651f2ddc3a5a2fe69d2"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-321.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/3006-male-anatomical-white-v1-thumb-f66feecd36b3.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 3786,
+        "sha256": "f66feecd36b3b62644cbd719748e67813ede410a7adf0b0fcc3ceeef780e8638"
+      },
+      "processingSignature": "6fc5d85440a41da5ca96a4b777539b59663a7b1ab1566a2bf4514fc8cd0a3f07",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/3006-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1515769,
+        "sha256": "00533443a0b2bec5befc62cbd7af36b957733e9de69cff3df32307a3c2385c40"
+      }
+    },
+    {
+      "exerciseId": "3013",
+      "prompt": "LOW GLUTE BRIDGE ON FLOOR TWOequalpanels same SIDEthreequarter camera facingLEFT. LieSUPINE HEADNECKSHOULDERS RESTONFLOOR bothpanels, kneesbent feetHIPWIDTH FULLSOLESfloor samecontactpoints. BOTHarmsstraightBYSIDES palmsfloor noextraarms. LEFTSTART hipsrestfloor kneesbent. RIGHTEND liftPELVIS tostraightDIAGONALSHOULDERSHIPSKNEES, ribsdown no lumbararch shinsnearvertical. HeadNOThovering. Primary GLUTES SMALL PLAINUNIFORM redwashoverintactBLACKrear/sideshorts nofiberssegments nohamstringred otherbodygrayblack. Premium detailed adult MALE grayscale anatomical exercise illustration, approved original reference STYLE ONLY not pose. Pure white background soft shadows detailed exposed gray muscles realistic proportions. Fully opaque BLACK tank and mid-thigh shorts covering front sides back seat crotch seams folds hems. Primary red ONLY. Exposed highlights detailed. Over clothing use SMALL PLAIN UNIFORM RED WASH with NO musclefibers lobes anatomicalsegments cutaways or transparency; preserve real black fabric. Exactly two arms/hands and two legs/feet per person. Same person camera scale equipment in everypanel full body margins. No text arrows logos.",
+      "variant": "male",
+      "key": "3013-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Lie on back with knees bent, feet planted and palms down at sides."
+        },
+        {
+          "key": "p2",
+          "caption": "Lift hips until shoulders, hips and knees align, squeeze glutes, then lower slowly."
+        }
+      ],
+      "inspectionNote": "Real output inspected. Floor bridge lowered and elevated phases show palms down, planted feet and opaque shorts with glute wash. Head/neck visibly hover above floor rather than resting; block head support correction. Qualified pelvic alignment review pending. Human anatomy review pending. No approval or publication.",
+      "blockingIssues": [
+        "Place head and neck comfortably on floor in both bridge phases; remove unsupported hovering."
+      ],
+      "canonicalName": "low glute bridge on floor",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "glutes"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Floor bridge lowered and elevated phases show palms down, planted feet and opaque shorts with glute wash. Head/neck visibly hover above floor rather than resting; block head support correction. Qualified pelvic alignment review pending. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/3013-male-anatomical-white-v1-p1-0abee8d989eb.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 26208,
+          "sha256": "0abee8d989eb28e8457fc60f039d28d59315a4d94ceb6a97033a502d09268c38"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/3013-male-anatomical-white-v1-p2-505093b69eca.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 27312,
+          "sha256": "505093b69eca13783fc2bced6ae7266192db9cd1d18b46fbbf990c5c1840e8d3"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-321.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/3013-male-anatomical-white-v1-thumb-5e7b3bc8c749.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2420,
+        "sha256": "5e7b3bc8c7495d38c429357e7d8ad5c41cc0a3a1ef749b20cc47b0593042c3f9"
+      },
+      "processingSignature": "63bdbd6a58ce7aa89aebed36569015fa8c6a53b3824d098cbc1c59586b289a30",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/3013-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1372389,
+        "sha256": "0d2edf4c76c1175bbe098294762050cc17323a940ecf51fb9c784682136a0371"
+      }
+    }
+  ]
+}

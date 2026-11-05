@@ -1,0 +1,327 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "2783",
+      "variant": "male",
+      "key": "2783-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hold one arm forward at shoulder height."
+        },
+        {
+          "key": "p2",
+          "caption": "Move that same arm back and out to the side, keeping it level and torso still."
+        }
+      ],
+      "prompt": "SHOULDER TRANSVERSE EXTENSION MOBILITY TWO equalpanels SAME LEFTSIDEthreequartercamera. Standtallfeetfixed noequipment SAME LEFTarmworks BOTHposes RIGHTarmrelaxeddownrightside. LEFTSTART LEFTarmSTRAIGHT FORWARD shoulderheight horizontal, handaheadleftshoulder palmneutral. RIGHTEND SAMELEFTarmSWEEPS OUTLEFTSIDE andBACK horizontal atshoulderheight, comfortable end slightlybehindfrontalplane, elbowsoftnearlystraight. RIGHTarmstaysDOWN BOTHposes doNOTswitcharms. Torsohipsheadfeet SAMEorientation nostrunkrotation. Primary LEFTPOSTERIORDELTOID onlyred exposedrearleftshoulder BOTHposes allotherregionsgrayblack. Premium detailed adult MALE grayscale anatomical illustration. Approved original project reference STYLE ONLY ignore its pose/highlights. Pure white background soft shadows crisp detailed exposed gray muscle contours realistic proportions. Opaque BLACK tank and black mid-thigh shorts fully wrap front sides back seat crotch normal fabric seams folds hems black shoes. No anatomy through fabric no cutaways. Covered primary highlight SMALL PLAIN UNIFORM soft red COLOR WASH on intact fabric no fibers lobes striations. Only specified primary red all other regions gray/black. Equal cells same person camera equipment whole body in frame generous margins. Exactly two arms hands five fingers two legs feet. No text arrows logos.",
+      "inspectionNote": "Real output inspected. Same arm moves from forward to lateral/back at shoulder height, opposite arm down and torso steady. Exposed posterior shoulder tint and opaque clothing. Qualified review needed for sagittal start versus cross-body projection, comfortable horizontal extension endpoint, fixed trunk and exact posterior deltoid mapping. Human anatomy review pending. No approval or publication.",
+      "canonicalName": "shoulder transverse extension",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "delts"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Same arm moves from forward to lateral/back at shoulder height, opposite arm down and torso steady. Exposed posterior shoulder tint and opaque clothing. Qualified review needed for sagittal start versus cross-body projection, comfortable horizontal extension endpoint, fixed trunk and exact posterior deltoid mapping. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2783-male-anatomical-white-v1-p1-7a414e08e6b7.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 22102,
+          "sha256": "7a414e08e6b78db23ab75d8a9b94dc49ee25d30e64dc60a2d45eaa5bc939c541"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/2783-male-anatomical-white-v1-p2-0bafbcbb2cfa.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 22926,
+          "sha256": "0bafbcbb2cfa8edf67f4a870c8cab6b88f1a523cb0d1bd209ca7c2a77abe2039"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-304.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2783-male-anatomical-white-v1-thumb-4ceae7cfbbe0.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2316,
+        "sha256": "4ceae7cfbbe0589a33228d35d4647ef0033bfaef740a99ee66bd5e669c035767"
+      },
+      "processingSignature": "79678fe90c2c5d335ccd4e9932fd36ef446ff14bbc3770b98cf05bda77da016c",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2783-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1307917,
+        "sha256": "0e52c903adfb43d0a4d5e8d4cb35ba43dd63d8edb588eae7a7b07b628c855b60"
+      }
+    },
+    {
+      "exerciseId": "2784",
+      "variant": "male",
+      "key": "2784-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Start with one arm out to the side at shoulder height."
+        },
+        {
+          "key": "p2",
+          "caption": "Bring that same arm forward in front of your chest, keeping it level; return slowly."
+        }
+      ],
+      "prompt": "SHOULDER TRANSVERSE FLEXION MOBILITY TWO equalpanels SAME LEFTSIDEfrontthreequartercamera toshowforwardvsoutward. Standtallfeetfixed noequipment SAME LEFTarmworks BOTHposes RIGHTarmrelaxeddownrightside. LEFTSTART LEFTarmSTRAIGHT OUTLEFTSIDE shoulderheight FRONTALplane. RIGHTEND SAMELEFTarmSWEEPSFORWARD untilhandSTRAIGHTINFRONTOFLEFTSHOULDER shoulderheight sagittalplane, NOTstillouttoside NOTcrosstoright, elbowsoftnearlystraight. RIGHTarmDOWNbothposes noswitch. Torsohipsfeetunchanged. Primary LEFTPECTORAL onlySMALLPLAINUNIFORM redwash onleftchest ofintacttank BOTHposes nofibers nostriations noanatomicaloutline. Premium detailed adult MALE grayscale anatomical illustration. Approved original project reference STYLE ONLY ignore its pose/highlights. Pure white background soft shadows crisp detailed exposed gray muscle contours realistic proportions. Opaque BLACK tank and black mid-thigh shorts fully wrap front sides back seat crotch normal fabric seams folds hems black shoes. No anatomy through fabric no cutaways. Covered primary highlight SMALL PLAIN UNIFORM soft red COLOR WASH on intact fabric no fibers lobes striations. Only specified primary red all other regions gray/black. Equal cells same person camera equipment whole body in frame generous margins. Exactly two arms hands five fingers two legs feet. No text arrows logos.",
+      "inspectionNote": "Real output inspected. Same arm moves from lateral to forward at shoulder height, torso steady and other arm down. Plain chest color wash on opaque tank. Qualified review needed for endpoint directly in front of shoulder versus cross-body angle, hand anatomy, shoulder stability and exact pectoral mapping. Human anatomy review pending. No approval or publication.",
+      "canonicalName": "shoulder transverse flexion",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "pectorals"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Same arm moves from lateral to forward at shoulder height, torso steady and other arm down. Plain chest color wash on opaque tank. Qualified review needed for endpoint directly in front of shoulder versus cross-body angle, hand anatomy, shoulder stability and exact pectoral mapping. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2784-male-anatomical-white-v1-p1-6bade9b6f1d0.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 23378,
+          "sha256": "6bade9b6f1d05391989232873c70fbecdb7f658dc4a446fb6d8818e173661b8a"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/2784-male-anatomical-white-v1-p2-cf89b2cfa023.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 21680,
+          "sha256": "cf89b2cfa0237570e7874b6785f7fbc7ca4e3b2ddb7f39f186a5b1a6d8db6a46"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-304.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2784-male-anatomical-white-v1-thumb-0a3784322040.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2470,
+        "sha256": "0a37843220402159d1c9ffc559257f28e5196a6ebb38c101cff29ec332dfd789"
+      },
+      "processingSignature": "5eff9dca9911e2fe1b3ffc319b62aa1d32af073a54cc9c3c049b21a7b5e06c11",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2784-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1309626,
+        "sha256": "a84fbb1df72012837dc7c73ed26c7aea18cefa2f4495fe6d879bd297141960c0"
+      }
+    },
+    {
+      "exerciseId": "2789",
+      "variant": "male",
+      "key": "2789-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Rest forearm on a table with hand beyond the edge, thumb up."
+        },
+        {
+          "key": "p2",
+          "caption": "Tilt that hand toward the little-finger side while keeping forearm still; return to neutral."
+        }
+      ],
+      "prompt": "WRIST ADDUCTION ULNAR DEVIATION MOBILITY TWO equalpanels SAME SIDEfrontthreequartercamera. Seatedtallchairfeetfloor nearTABLE. SAME LEFTFOREARM supportedFLAT alongTABLE fromelbow towr ist handHANGSBEYONDEDGE thumbUP wristneutral, elbowbent90. RIGHThandrelaxedlap. LEFTSTART LEFTforearmhorizontal thumbUP fingersforwardhandinlineforearm. RIGHTEND ONLYLEFTWRIST bendsDOWN towardLITTLEFINGER side ulnardeviation about25degrees, THUMBstaysUP palmstillvertical inward, fingersrelaxedstraightasunit notfist. Forearmelbow SAMEfixedcontact noforearmrotation. Primary LEFTFOREARM ulnarside onlyred exposedforearm BOTHposes otherregionsgrayblack. Premium detailed adult MALE grayscale anatomical illustration. Approved original project reference STYLE ONLY ignore its pose/highlights. Pure white background soft shadows crisp detailed exposed gray muscle contours realistic proportions. Opaque BLACK tank and black mid-thigh shorts fully wrap front sides back seat crotch normal fabric seams folds hems black shoes. No anatomy through fabric no cutaways. Covered primary highlight SMALL PLAIN UNIFORM soft red COLOR WASH on intact fabric no fibers lobes striations. Only specified primary red all other regions gray/black. Equal cells same person camera equipment whole body in frame generous margins. Exactly two arms hands five fingers two legs feet. No text arrows logos.",
+      "inspectionNote": "Real output inspected. Thumb-up hand tilts toward little-finger side with forearm supported, seated posture and opaque clothing. Wrist/hand remain over tabletop rather than clearly beyond edge, obstructing canonical movement clearance; block support placement correction. Qualified review of true ulnar deviation versus flexion, mapping and hand anatomy required. Human anatomy review pending. No approval or publication.",
+      "blockingIssues": [
+        "Move wrist/hand clearly beyond table edge while keeping forearm supported to allow unobstructed ulnar deviation."
+      ],
+      "canonicalName": "wrist adduction",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "forearms"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Thumb-up hand tilts toward little-finger side with forearm supported, seated posture and opaque clothing. Wrist/hand remain over tabletop rather than clearly beyond edge, obstructing canonical movement clearance; block support placement correction. Qualified review of true ulnar deviation versus flexion, mapping and hand anatomy required. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2789-male-anatomical-white-v1-p1-4b5f3f6dce8a.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 40032,
+          "sha256": "4b5f3f6dce8a6e80a133c3a27ff9aaf9ab21929002f0fc0ba55ba285824490cd"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/2789-male-anatomical-white-v1-p2-b6b4f5cacc25.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 41094,
+          "sha256": "b6b4f5cacc259140b03496b8248667b889438b1f311827a14bee442c9af26c7a"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-304.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2789-male-anatomical-white-v1-thumb-d62383d16e8d.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 4432,
+        "sha256": "d62383d16e8dc979fb8de5e5cd7862be8b93957da02ce9a63975f6a7b14de954"
+      },
+      "processingSignature": "8ae968742b28e8d6796a4a036338ebff1c0a115f9dcf7acdd5aeaae767545db8",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2789-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1554836,
+        "sha256": "39995b89f3cbbe99c49bf247a116f563865fc281e072360f35b2f38f6198fabe"
+      }
+    },
+    {
+      "exerciseId": "2790",
+      "variant": "male",
+      "key": "2790-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Rest forearm on a table, hand beyond the edge and palm down."
+        },
+        {
+          "key": "p2",
+          "caption": "Raise the hand by extending the wrist while keeping forearm still; lower slowly."
+        }
+      ],
+      "prompt": "WRIST EXTENSION MOBILITY TWO equalpanels SAME SIDEfrontthreequartercamera. Seatedtallchairfeetfloor nearTABLE. SAME LEFTFOREARM supportedFLAT onTABLE fromelbow tonearwrist, lefthandBEYONDEDGE PALMDOWN fingersforward, elbow90. RIGHThandrelaxedlap. LEFTSTART lefthandNEUTRAL inlinehorizontalforearm palmdown. RIGHTEND ONLYLEFTWRIST EXTENDS liftingBACKOFHANDup about40degrees fingersrelaxedtogetherstraightasunit pointingforward/up, palmturnsforward/down noforearmrotation. ForearmandELBOWstaySAMEfixedtablecontact noelbowcurl. Primary LEFTDORSALFOREARMEXTENSORS onlyred exposedforearm BOTHposes allotherregionsgrayblack. Premium detailed adult MALE grayscale anatomical illustration. Approved original project reference STYLE ONLY ignore its pose/highlights. Pure white background soft shadows crisp detailed exposed gray muscle contours realistic proportions. Opaque BLACK tank and black mid-thigh shorts fully wrap front sides back seat crotch normal fabric seams folds hems black shoes. No anatomy through fabric no cutaways. Covered primary highlight SMALL PLAIN UNIFORM soft red COLOR WASH on intact fabric no fibers lobes striations. Only specified primary red all other regions gray/black. Equal cells same person camera equipment whole body in frame generous margins. Exactly two arms hands five fingers two legs feet. No text arrows logos.",
+      "inspectionNote": "Real output inspected. Palm-down hand raises in wrist extension with supported forearm and torso steady, opaque clothing. Adds unrelated chest red and wrist sits over tabletop instead of clearly beyond edge; block mapping/support-placement correction. Qualified review needed for extension range without forearm lifting, dorsal extensor mapping and finger anatomy. Human anatomy review pending. No approval or publication.",
+      "blockingIssues": [
+        "Remove unrelated chest red; highlight dorsal forearm extensors only.",
+        "Position wrist/hand beyond table edge with forearm fixed and supported."
+      ],
+      "canonicalName": "wrist extension",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "forearms"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Palm-down hand raises in wrist extension with supported forearm and torso steady, opaque clothing. Adds unrelated chest red and wrist sits over tabletop instead of clearly beyond edge; block mapping/support-placement correction. Qualified review needed for extension range without forearm lifting, dorsal extensor mapping and finger anatomy. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2790-male-anatomical-white-v1-p1-491aabe16456.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 35450,
+          "sha256": "491aabe1645696a223947153b89e24a8535a6f2be11fa275d698fff3a2479c79"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/2790-male-anatomical-white-v1-p2-f3211c882020.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 35414,
+          "sha256": "f3211c882020ffe08b5346eab3e460389595b202b7ff6034391f2d36ff0bcccc"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-304.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2790-male-anatomical-white-v1-thumb-efa07afc25fa.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 4120,
+        "sha256": "efa07afc25faf03f5c000e64184c3133d11fa6acaef459bdbb7d894536c39cf1"
+      },
+      "processingSignature": "a73df072b678c51b0a3816ef79c4065f3494f6358c3c8724e45b29d1c38e5975",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2790-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1474661,
+        "sha256": "0744bb3dd0e34127d057e1ecc283bdfdaa5b5f69272a6fc9b3ca67b73da5260d"
+      }
+    }
+  ]
+}

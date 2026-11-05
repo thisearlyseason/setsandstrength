@@ -1,0 +1,70 @@
+{
+  "batch": 310,
+  "runId": "b913aaf3-1598-4d26-82ba-ae1cb1b02aaa",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "trigger": "2026-11-04T06:09:27.960Z",
+  "purpose": "batch310 scheduled male continuation",
+  "started": "2026-11-04T06:10:04.941402+00:00",
+  "completedAt": "2026-11-04T06:18:32.938986+00:00",
+  "actualToolName": "image_gen__imagegen",
+  "calls": 4,
+  "newCandidateSets": 4,
+  "exerciseIds": [
+    "2873",
+    "2878",
+    "2879",
+    "2880"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1108,
+    "remainingVariants": 10156,
+    "approvedVariants": 0,
+    "blockedVariants": 389,
+    "knownPoseImages": 2143,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 735,
+      "remainingVariants": 4897,
+      "blockedVariants": 270
+    }
+  },
+  "reviewNotes": {
+    "2873": "Tall seated start and controlled C-curve forward reach, long legs/heels grounded and feet flexed. Paired lumbar wash on opaque tank. Qualified review needed for sequential spinal flexion rather than hip collapse, comfortable reach, pelvis stability and lumbar mapping. Human anatomy review pending.",
+    "2878": "Prone press with palms beside chest, elbows remain soft as chest lifts; pelvis/legs grounded, opaque clothing and lumbar tint. Qualified review needed for long neutral neck versus forward gaze, shoulder depression, comfortable spinal range and pubic-bone contact. Human anatomy review pending.",
+    "2879": "Front-facing torso and pelvis with both bent legs folded to one side, support palm grounded and opposite arm overhead in side bend. Opaque clothing and lateral waist tint. Folded shin/knee/ankle continuity is uncertain and needs correction review before use; block lower-limb anatomy verification. Qualified review of comfortable seated position, sit-bone contact, neck alignment and oblique mapping required. Human anatomy review pending.",
+    "2880": "Quadruped start followed by distinct visible alternating arm/leg supports, long reaches near torso height and lumbar wash on opaque tank. Qualified review needed to verify contralateral pairing, neutral neck/back, level pelvis, hand/knee stacking and small pulse amplitude. Human anatomy review pending."
+  },
+  "blockingIssues": {
+    "2879": [
+      "Folded shin/knee/ankle continuity unclear; verify and correct lower-limb anatomy before use."
+    ]
+  },
+  "deferred": {},
+  "tests": 7,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "workerSyncResult": {
+    "statuses": {
+      "generated": 1108,
+      "pending": 10156
+    },
+    "remaining": 10156,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 1699370314
+  },
+  "publicationIndexUnchanged": true
+}

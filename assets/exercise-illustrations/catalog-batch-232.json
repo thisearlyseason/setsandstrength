@@ -1,0 +1,338 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "1744",
+      "variant": "male",
+      "key": "1744-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Place both hands on a stability ball beside your hips, fingers forward, with feet planted. Press through your hands to lift your body clear of the ball."
+        },
+        {
+          "key": "p2",
+          "caption": "Bend both elbows close to your sides to lower under control. Press back up while keeping the ball steady."
+        }
+      ],
+      "prompt": "EXERCISE BALL DIP canonical1744. TWO equal square cells WIDE2:1 landscape SIDE three-quarter view showing BOTH elbows. ONE stable large gray stabilityball about60cm diameter firmlyfloor BEHIND hips. BOTH palms on ball beside hips fingers pointFORWARD, handsmaintain securecontact samepoints BOTHcells. Feet flatfloor infront knees90degrees. LEFT TOP botharmsstraight shouldersdepressed body lifted offball pelvis justINFRONTball withclearance, kneesbent feetplanted. RIGHT BOTTOM bend BOTH elbows90degrees tuckedbesidetorso, pelvislowers INFRONTball clearfloor NOTsitontopball, backcloseball hipsnotrestingball. Samefeetballpositionbodyorientation allcells. Far elbow must also visiblybend, no one-arm support. Original premium ADULT MALE detailed grayscale anatomical educational illustration. Same full body camera scale equipment throughout cells. Primary exposed TRICEPS RED ONLY other skin grayscale not chest/biceps/delts. Crisp detailed realistic anatomical skin five fingers. Full opaque BLACK tank wraps front sides back and BLACK mid-thigh shorts cover front sides back seat crotch intact seams hems folds. No cutaways transparency or muscle anatomy through fabric. Black shoes. Pure WHITE background soft contact shadows generous12percent margins head hands both feet all equipment/barends/ball within EACH square uncropped. Original project artwork STYLE ONLY ignore pushup/chest red. No text labels captions arrows extra people.",
+      "inspectionNote": "Real output inspected. Stability-ball dip: pelvis lifted in front of ball, hands supported and feet planted. BLOCKED for far elbow staying nearly straight while near elbow bends in lowered pose; bilateral dip mechanics are inconsistent. Detailed grayscale/red exposed triceps and full opaque tank/shorts retained. Original project artwork rendering style only; no upstream media. Exact prompt and original master saved. Human anatomy review pending; no approval or publication.",
+      "blockingIssues": [
+        "Far elbow remains nearly straight during near-arm lowering; matched bilateral elbow flexion needs correction."
+      ],
+      "canonicalName": "exercise ball dip",
+      "styleVersion": "white-v1",
+      "equipment": "stability ball",
+      "primaryMuscles": [
+        "triceps"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Stability-ball dip: pelvis lifted in front of ball, hands supported and feet planted. BLOCKED for far elbow staying nearly straight while near elbow bends in lowered pose; bilateral dip mechanics are inconsistent. Detailed grayscale/red exposed triceps and full opaque tank/shorts retained. Original project artwork rendering style only; no upstream media. Exact prompt and original master saved. Human anatomy review pending; no approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/1744-male-anatomical-white-v1-p1-562cfd4ff3c3.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 35088,
+          "sha256": "562cfd4ff3c368b869c9c7879cc1a951ab06ad97ad98163a59ffef5f9630f74f"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/1744-male-anatomical-white-v1-p2-ad84c55e1382.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 33434,
+          "sha256": "ad84c55e138299b65f252bf4d9588dd9b3a6ad02f3d4224e25f264b9a519d65f"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-232.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/1744-male-anatomical-white-v1-thumb-98c775c49546.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 3436,
+        "sha256": "98c775c49546164b2fd216dd5bbec018d76b5f915689bb8ace8c9657761a9769"
+      },
+      "processingSignature": "b7bbe241c02faf0599539bb14d57144a94503d0920e95a7fe7fa842d6ed42499",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1744-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1471715,
+        "sha256": "556aa724c592bb9445131c9d5f5ac900661bb40f642c143aa6d9a1ba7b409e90"
+      }
+    },
+    {
+      "exerciseId": "1747",
+      "variant": "male",
+      "key": "1747-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Sit tall on an exercise ball with feet planted. Hold an EZ bar overhead with an overhand grip and elbows near your head."
+        },
+        {
+          "key": "p2",
+          "caption": "Keep your upper arms still and bend both elbows to lower the bar behind your head. Extend your arms to return."
+        }
+      ],
+      "prompt": "EZ BAR FRENCH PRESS ON EXERCISE BALL canonical1747. TWO equal square cells WIDE2:1 landscape REAR three-quarter SIDE camera. Sit upright pelvis supported on large gray stabilityball feetflatwide knees90degrees nolean. SHORT silver EZ CURL BAR shallowzigzag bends smallmatchingplates eachend overhandgrip shoulderwidth palmsforwardattop. BOTH upperarmsVERTICALbesideears elbowsSAMEhighfixedposition bothcells. LEFT TOP botharmsstraight overhead baraboveskull. RIGHT LOWERED flex BOTH elbows100degrees forearmsrotateBACK so SAMEbar descends FULLY BEHIND skull at upperneckheight withclearance, NOTaboveCROWN, upperarmsstillvertical elbowsclosehead. Samebodyballfeet barlengthplatesgrip bothcells. Original premium ADULT MALE detailed grayscale anatomical educational illustration. Same full body camera scale equipment throughout cells. Primary exposed TRICEPS RED ONLY other skin grayscale not chest/biceps/delts. Crisp detailed realistic anatomical skin five fingers. Full opaque BLACK tank wraps front sides back and BLACK mid-thigh shorts cover front sides back seat crotch intact seams hems folds. No cutaways transparency or muscle anatomy through fabric. Black shoes. Pure WHITE background soft contact shadows generous12percent margins head hands both feet all equipment/barends/ball within EACH square uncropped. Original project artwork STYLE ONLY ignore pushup/chest red. No text labels captions arrows extra people.",
+      "inspectionNote": "Real output inspected. Ball-seated EZ French press: extended to bar behind head with seated pelvis support. Qualified review needed for far foot occlusion, elbow stability, bar/skull clearance and grip. Detailed grayscale/red exposed triceps and full opaque tank/shorts retained. Original project artwork rendering style only; no upstream media. Exact prompt and original master saved. Human anatomy review pending; no approval or publication.",
+      "canonicalName": "ez bar french press on exercise ball",
+      "styleVersion": "white-v1",
+      "equipment": "ez barbell",
+      "primaryMuscles": [
+        "triceps"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Ball-seated EZ French press: extended to bar behind head with seated pelvis support. Qualified review needed for far foot occlusion, elbow stability, bar/skull clearance and grip. Detailed grayscale/red exposed triceps and full opaque tank/shorts retained. Original project artwork rendering style only; no upstream media. Exact prompt and original master saved. Human anatomy review pending; no approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/1747-male-anatomical-white-v1-p1-2271c9b431e8.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 31436,
+          "sha256": "2271c9b431e8f77371db02374c25e68cb189ce9b2e9910c0c7c7be07fb94e1b2"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/1747-male-anatomical-white-v1-p2-619541c67b41.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 28112,
+          "sha256": "619541c67b4184b9690cff15bf20987a8068e5f9dd17918c19739a22affd5062"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-232.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/1747-male-anatomical-white-v1-thumb-ec67102ffd70.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2996,
+        "sha256": "ec67102ffd70a6741bac7560cff22ecd36ec4260fdc2b2e1ce935958b127efea"
+      },
+      "processingSignature": "66d57e495064c6a59fb2e55dab0f051a2435d2b6e59175680d0ad2f44eafec2d",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1747-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1452264,
+        "sha256": "c520fffeb0ec4ef2d73f6f2bf813c3daf4c9bb0c28fa74a219b1370f28a06344"
+      }
+    },
+    {
+      "exerciseId": "1749",
+      "variant": "male",
+      "key": "1749-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand tall holding an EZ bar overhead with an overhand grip. Keep your upper arms close to your head."
+        },
+        {
+          "key": "p2",
+          "caption": "Bend both elbows to lower the bar behind your head under control. Extend your arms to return without arching your back."
+        }
+      ],
+      "prompt": "EZ BAR STANDING FRENCH PRESS canonical1749. TWO equal square cells WIDE2:1 landscape REAR three-quarter SIDEcamera. Stand tall feetflatshoulderwidth kneessoft ribsstacked nolean. SHORT silver EZ CURL BAR shallowzigzag bends matching smallplates eachend overhandgrip shoulderwidth palmsforwardattop. BOTH upperarmsVERTICALbesideears elbowsSAMEhighfixedlocation bothcells. LEFT TOP botharmsstraight overhead baraboveskull. RIGHT LOWERED flex BOTH elbows100degrees forearmsrotateBACK SAMEbar descends FULLY BEHIND skull towardupperneck clear ofhead NOTaboveCROWN. Upperarmsstayvertical elbowsclosehead no flaringorbackbend. Samebodyfeetbargripplates eachcell. Original premium ADULT MALE detailed grayscale anatomical educational illustration. Same full body camera scale equipment throughout cells. Primary exposed TRICEPS RED ONLY other skin grayscale not chest/biceps/delts. Crisp detailed realistic anatomical skin five fingers. Full opaque BLACK tank wraps front sides back and BLACK mid-thigh shorts cover front sides back seat crotch intact seams hems folds. No cutaways transparency or muscle anatomy through fabric. Black shoes. Pure WHITE background soft contact shadows generous12percent margins head hands both feet all equipment/barends/ball within EACH square uncropped. Original project artwork STYLE ONLY ignore pushup/chest red. No text labels captions arrows extra people.",
+      "inspectionNote": "Real output inspected. Standing EZ French press: overhead to behind-head bar path with bent elbows. Qualified review needed for exact bar/skull clearance from rear view, upper-arm stability, grip and torso control. Detailed grayscale/red exposed triceps and full opaque tank/shorts retained. Original project artwork rendering style only; no upstream media. Exact prompt and original master saved. Human anatomy review pending; no approval or publication.",
+      "canonicalName": "ez bar standing french press",
+      "styleVersion": "white-v1",
+      "equipment": "ez barbell",
+      "primaryMuscles": [
+        "triceps"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Standing EZ French press: overhead to behind-head bar path with bent elbows. Qualified review needed for exact bar/skull clearance from rear view, upper-arm stability, grip and torso control. Detailed grayscale/red exposed triceps and full opaque tank/shorts retained. Original project artwork rendering style only; no upstream media. Exact prompt and original master saved. Human anatomy review pending; no approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/1749-male-anatomical-white-v1-p1-e17274b08862.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 21172,
+          "sha256": "e17274b088620732e33fa5bc8c6847888707842ce1860ce1b02c908ea29f9282"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/1749-male-anatomical-white-v1-p2-523b6051c93e.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 19674,
+          "sha256": "523b6051c93e786fffb896869049fb12027fbb003f9405c2346e5bdb072d62d4"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-232.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/1749-male-anatomical-white-v1-thumb-c526c33fc11c.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2404,
+        "sha256": "c526c33fc11c9825f5fee2b1518378a2a17a97e925e6c02674f90653af0ca21d"
+      },
+      "processingSignature": "514949cb89a515f24f8fdedf56357f31c2af3b5bdffc98b4d3492f36cc5df9aa",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1749-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1277935,
+        "sha256": "7de5475424b869552025ec342211ca800b478a7f5b3da7f4f5ab8b82d6a6187e"
+      }
+    },
+    {
+      "exerciseId": "1750",
+      "variant": "male",
+      "key": "1750-male-anatomical-white-v1",
+      "layout": {
+        "columns": 3,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Lie on a bench with feet planted and hold a medicine ball at your chest, elbows close to your body."
+        },
+        {
+          "key": "p2",
+          "caption": "Push explosively through both arms to release the ball upward."
+        },
+        {
+          "key": "p3",
+          "caption": "Catch the ball with both hands, soften your elbows and lower it under control before repeating."
+        }
+      ],
+      "prompt": "MEDICINE BALL SUPINE CHEST THROW canonical1750. THREE equal square cells WIDE3:1 landscape SIDE three-quarter view. LieFACEUP grayflatbench skullbackpelvissupported knees90feetflatfloor ALLcells. ONE gray medicineball SAMEdiameter25cm. LEFT LOAD holdball atCHEST bothhands elbowsbenttucked. MIDDLE RELEASE botharmsfullyextended straightUP overchest handsopen fingersspread ball VISIBLYAIRBORNE40cm ABOVE fingertips withwhitegap nohandcontact. RIGHT CATCH ball back IN BOTH hands abovechest elbowsslightlybent toabsorb downwardball, fingerswrapsides secure. Samebodybenchballscale camera eachcell, no armthroughball extraweights or partners. Generousheadroom entireflightballuncropped. Frame preservesneutralneck supportedhead notsitup. Original premium ADULT MALE detailed grayscale anatomical educational illustration. Same full body camera scale equipment throughout cells. Primary exposed TRICEPS RED ONLY other skin grayscale not chest/biceps/delts. Crisp detailed realistic anatomical skin five fingers. Full opaque BLACK tank wraps front sides back and BLACK mid-thigh shorts cover front sides back seat crotch intact seams hems folds. No cutaways transparency or muscle anatomy through fabric. Black shoes. Pure WHITE background soft contact shadows generous12percent margins head hands both feet all equipment/barends/ball within EACH square uncropped. Original project artwork STYLE ONLY ignore pushup/chest red. No text labels captions arrows extra people.",
+      "inspectionNote": "Real output inspected. Supine medicine-ball chest throw: chest load, visibly airborne ball release, two-hand catch. BLOCKED because skull floats beyond/above bench rather than resting supported; head/neck positioning requires correction. Detailed grayscale/red exposed triceps and full opaque tank/shorts retained. Original project artwork rendering style only; no upstream media. Exact prompt and original master saved. Human anatomy review pending; no approval or publication.",
+      "blockingIssues": [
+        "Skull is elevated beyond/above bench support in all poses; correct supine head/neck support."
+      ],
+      "canonicalName": "medicine ball supine chest throw",
+      "styleVersion": "white-v1",
+      "equipment": "medicine ball",
+      "primaryMuscles": [
+        "triceps"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Supine medicine-ball chest throw: chest load, visibly airborne ball release, two-hand catch. BLOCKED because skull floats beyond/above bench rather than resting supported; head/neck positioning requires correction. Detailed grayscale/red exposed triceps and full opaque tank/shorts retained. Original project artwork rendering style only; no upstream media. Exact prompt and original master saved. Human anatomy review pending; no approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/1750-male-anatomical-white-v1-p1-5013604d9e98.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 21924,
+          "sha256": "5013604d9e98a9c2f3ee938a7e2b9afeb8b589e8a0699f4a5cb452027a81df9f"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/1750-male-anatomical-white-v1-p2-4cd155af7b28.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 25582,
+          "sha256": "4cd155af7b2829a5b75e73cd07d526afd314c6f70882b764025844066d6f8b3e"
+        },
+        {
+          "pose": "p3",
+          "path": "/workout/illustration-pilot/1750-male-anatomical-white-v1-p3-4ab0dbfe4edc.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 24596,
+          "sha256": "4ab0dbfe4edc3d4021951157be63509e39f405d18bc9769941d0f77c40273a66"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-232.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/1750-male-anatomical-white-v1-thumb-10a819580678.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 3208,
+        "sha256": "10a819580678713b61ad28ea2f39d02a1862c273d9b49edd59fae2084176f806"
+      },
+      "processingSignature": "49d60b7847b1ec965e0225531ccdc36c035b6a0722f8c57b9dfb6c571682136b",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1750-male-anatomical-white-v1.png",
+        "width": 2172,
+        "height": 724,
+        "bytes": 1450164,
+        "sha256": "1d245d09a31677c37696fb6a6cd6cc59ebb525cc5550f52ef6898df9232ebc2a"
+      }
+    }
+  ]
+}

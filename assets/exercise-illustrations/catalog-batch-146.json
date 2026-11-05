@@ -1,0 +1,484 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "0934",
+      "variant": "male",
+      "key": "0934-male-anatomical-white-v2",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand on the band with feet hip-width apart and hold its ends in front of the thighs with slight tension."
+        },
+        {
+          "key": "p2",
+          "caption": "Lead with the elbows to pull the hands along the body to chest height, keeping shoulders down; lower with control."
+        }
+      ],
+      "prompt": "Correct original male BAND UPRIGHT ROW raised pose wrists. Both WRISTS must stay STRAIGHT NEUTRAL aligned with FOREARMS, do not droop/bend hands downward at wrists. Use TWO compact SEPARATE band HANDLES one securely in each closed fist, OVERHAND grip, no horizontal bar or connector between fists. At RIGHT FINISH fists slightly wider hip-width in front MID CHEST, elbows lead OUT at shoulder height above hands, forearms slope inward/down, HANDS in same line as forearm with straight wrists, fingers/thumbs correctly wrap handles. LEFT START preserve arms down in front thighs and straight wrists. Gray band middle securely under both shoes, separate taut strand from each shoe to same-side handle, no crossing. Upright body/head and planted feet unchanged, exposed deltoid red only, fine exposed grayscale anatomy. Full opaque black shirt/shorts front sides back seat crotch, TWO equal square cells wide landscape with generous head/shoe margins white background no text.",
+      "inspectionNote": "Correction adds separate secure handles and improves wrist alignment with sloping forearms. Upright row elbows lead above chest-height hands, deltoid red exposed and opaque clothing. Qualified wrist neutrality, hand anatomy, shoulder plane/shrug control and underfoot anchoring pending review.",
+      "canonicalName": "band upright row",
+      "styleVersion": "white-v1",
+      "equipment": "band",
+      "primaryMuscles": [
+        "delts"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0934-male-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "status": "generated",
+        "costUSD": null
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Correction adds separate secure handles and improves wrist alignment with sloping forearms. Upright row elbows lead above chest-height hands, deltoid red exposed and opaque clothing. Qualified wrist neutrality, hand anatomy, shoulder plane/shrug control and underfoot anchoring pending review.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0934-male-anatomical-white-v2-p1-b7cf56d4a496.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 22982,
+          "sha256": "b7cf56d4a49640c545865f114f4854047395c9a4614b3942d61044261b83234b"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0934-male-anatomical-white-v2-p2-ab2d4280533f.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 24534,
+          "sha256": "ab2d4280533f654d2c4e679dbbd010a974fc03426f351149f01c013bc7d8780e"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0934-male-anatomical-white-v2-thumb-de3926498386.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2628,
+        "sha256": "de39264983861344bd3dd59c32fe89373a832b9582297e0d12f3abd0b38088b3"
+      },
+      "processingSignature": "5f02a4e8f48dfea27cf4e5d0bf51900fdd648ae69981c2df44d5a25b3aed7d4f",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0934-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1314266,
+        "sha256": "2b67623201459cc33fa490aabaf7e26956689f1580d0ea5b6878dbc789d4ddfd"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0934",
+          "variant": "male",
+          "key": "0934-male-anatomical-white-v1",
+          "layout": {
+            "columns": 2,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Stand on the band with feet hip-width apart and hold its ends in front of the thighs with slight tension."
+            },
+            {
+              "key": "p2",
+              "caption": "Lead with the elbows to pull the hands along the body to chest height, keeping shoulders down; lower with control."
+            }
+          ],
+          "prompt": "Original premium ADULT male anatomical exercise illustration, TWO equal SQUARE cells side by side WIDE LANDSCAPE 2:1, same model/scale/proportions, limbs, camera and band both poses. BAND UPRIGHT ROW canonical0934. FRONT SIDE three-quarter camera, upright torso neutral neck eyes forward, feet HIP WIDTH flat floor knees soft. ONE gray elastic band middle securely UNDER BOTH shoe soles, same-side strand rises to corresponding closed hand gripping ends or handles OVERHAND palm back/down. LEFT START arms down IN FRONT OF THIGHS, hands hip-width, band slightly taut. RIGHT FINISH pull hands UP close IN FRONT OF BODY to MID CHEST, elbows LEAD OUT/up each side at SHOULDER HEIGHT but NOT above shoulder height, elbows HIGHER than hands, forearms slope inward/down to hands in front sternum, wrists near straight. Shoulder blades down no shrug, torso/feet fixed, no biceps curl with elbows low and no lateral raise arms straight. Taut band strands stretch from fixed shoes to raised hands, no crossing/body penetration. Primary DELTOID exposed outer shoulder caps RED ONLY, no chest/biceps/traps red. Fine detailed EXPOSED grayscale muscle contours realistic proportions equal male/female quality. Full opaque BLACK athletic tank shirt and MID-THIGH shorts wrap FRONT SIDES BACK SEAT CROTCH, continuous real fabric seams/broad folds, no cutaways/transparency/anatomical fibers through fabric. Black shoes. Entire model/head/hands/feet and all band/anchor within EACH square with generous white margins, no crossing panels. Pure white background soft contact shadows. Project original artwork rendering STYLE ONLY ignore bench push-up/chest red/equipment. No embedded text/captions/arrows/labels.",
+          "inspectionNote": "Upright row arms down to elbows-leading chest-level hands, fixed upright stance, exposed deltoid red and opaque clothes. Raised wrists visibly flex downward, planned neutral wrist correction. Band connected hand-to-shoe with middle under soles; qualified anchoring, shoulder height and grip pending review.",
+          "canonicalName": "band upright row",
+          "styleVersion": "white-v1",
+          "equipment": "band",
+          "primaryMuscles": [
+            "delts"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Upright row arms down to elbows-leading chest-level hands, fixed upright stance, exposed deltoid red and opaque clothes. Raised wrists visibly flex downward, planned neutral wrist correction. Band connected hand-to-shoe with middle under soles; qualified anchoring, shoulder height and grip pending review.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0934-male-anatomical-white-v1-p1-0c7e425adbc4.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 23244,
+              "sha256": "0c7e425adbc42b6bae52fbbc37e338d9e823d0c49157e08196741911846254e6"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0934-male-anatomical-white-v1-p2-01bd03dc282d.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 23224,
+              "sha256": "01bd03dc282d033ac49f44276ea168187ec30e8d846ebe9c808b9c34653789d6"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0934-male-anatomical-white-v1-thumb-85535d4a6d4c.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 2500,
+            "sha256": "85535d4a6d4c68ff9f4cca73956c0df75e52e6dfcbba9ad7966fc7dcd07979e9"
+          },
+          "processingSignature": "ccffe1d502273c0220671b18e16d593fc546fc3bd737ec9317ebc4aa3c0e8c2a",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0934-male-anatomical-white-v1.png",
+            "width": 1774,
+            "height": 887,
+            "bytes": 1314513,
+            "sha256": "bd6d79092ef8401115030b1104a7e94a42a7da40e98bc83f89d20b9a6f4b4109"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "0934",
+      "variant": "female",
+      "key": "0934-female-anatomical-white-v2",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand on the band with feet hip-width apart and hold its ends in front of the thighs with slight tension."
+        },
+        {
+          "key": "p2",
+          "caption": "Lead with the elbows to pull the hands along the body to chest height, keeping shoulders down; lower with control."
+        }
+      ],
+      "prompt": "Correct original female BAND UPRIGHT ROW raised pose wrists. Both WRISTS must stay STRAIGHT NEUTRAL aligned with FOREARMS, do not droop/bend hands downward at wrists. Use TWO compact SEPARATE band HANDLES one securely in each closed fist, OVERHAND grip, no horizontal bar or connector between fists. At RIGHT FINISH fists slightly wider hip-width in front MID CHEST, elbows lead OUT at shoulder height above hands, forearms slope inward/down, HANDS in same line as forearm with straight wrists, fingers/thumbs correctly wrap handles. LEFT START preserve arms down in front thighs and straight wrists. Gray band middle securely under both shoes, separate taut strand from each shoe to same-side handle, no crossing. Upright body/head and planted feet unchanged, exposed deltoid red only, fine exposed grayscale anatomy. Full opaque black shirt/shorts front sides back seat crotch, TWO equal square cells wide landscape with generous head/shoe margins white background no text.",
+      "inspectionNote": "Correction replaces connector with separate handles and improves wrist alignment along forearms. Upright row chest-height fists/elbows leading retained, red exposed deltoids and opaque clothes. Qualified wrist neutrality, finger grip, shoulder height and anchoring pending review.",
+      "canonicalName": "band upright row",
+      "styleVersion": "white-v1",
+      "equipment": "band",
+      "primaryMuscles": [
+        "delts"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0934-female-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "status": "generated",
+        "costUSD": null
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Correction replaces connector with separate handles and improves wrist alignment along forearms. Upright row chest-height fists/elbows leading retained, red exposed deltoids and opaque clothes. Qualified wrist neutrality, finger grip, shoulder height and anchoring pending review.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0934-female-anatomical-white-v2-p1-d318d5b92f61.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 23632,
+          "sha256": "d318d5b92f614dc99cc2482ffd3ad303d2dfabddca326e063df368afc3b4aba2"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0934-female-anatomical-white-v2-p2-31dcab6d7ad3.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 24994,
+          "sha256": "31dcab6d7ad30d2f1585c5c051a767533cd0b21ebee6e7a45105d8cd341a6f9b"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0934-female-anatomical-white-v2-thumb-790b316734f2.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2798,
+        "sha256": "790b316734f2684328f58b284aade1b4a77422e96b6729d251c22c63dda3062a"
+      },
+      "processingSignature": "ab41779b7a74b441148bdd598ef22f16a643869bb9e87300db2c6a4a5ea9f457",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0934-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1318803,
+        "sha256": "cb61617aeb1ec03242db9b301c3f7709788efe43a542f6624db311a2594a5682"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0934",
+          "variant": "female",
+          "key": "0934-female-anatomical-white-v1",
+          "layout": {
+            "columns": 2,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Stand on the band with feet hip-width apart and hold its ends in front of the thighs with slight tension."
+            },
+            {
+              "key": "p2",
+              "caption": "Lead with the elbows to pull the hands along the body to chest height, keeping shoulders down; lower with control."
+            }
+          ],
+          "prompt": "Original premium ADULT female anatomical exercise illustration, TWO equal SQUARE cells side by side WIDE LANDSCAPE 2:1, same model/scale/proportions, limbs, camera and band both poses. BAND UPRIGHT ROW canonical0934. FRONT SIDE three-quarter camera, upright torso neutral neck eyes forward, feet HIP WIDTH flat floor knees soft. ONE gray elastic band middle securely UNDER BOTH shoe soles, same-side strand rises to corresponding closed hand gripping ends or handles OVERHAND palm back/down. LEFT START arms down IN FRONT OF THIGHS, hands hip-width, band slightly taut. RIGHT FINISH pull hands UP close IN FRONT OF BODY to MID CHEST, elbows LEAD OUT/up each side at SHOULDER HEIGHT but NOT above shoulder height, elbows HIGHER than hands, forearms slope inward/down to hands in front sternum, wrists near straight. Shoulder blades down no shrug, torso/feet fixed, no biceps curl with elbows low and no lateral raise arms straight. Taut band strands stretch from fixed shoes to raised hands, no crossing/body penetration. Primary DELTOID exposed outer shoulder caps RED ONLY, no chest/biceps/traps red. Fine detailed EXPOSED grayscale muscle contours realistic proportions equal male/female quality. Full opaque BLACK athletic tank shirt and MID-THIGH shorts wrap FRONT SIDES BACK SEAT CROTCH, continuous real fabric seams/broad folds, no cutaways/transparency/anatomical fibers through fabric. Black shoes. Entire model/head/hands/feet and all band/anchor within EACH square with generous white margins, no crossing panels. Pure white background soft contact shadows. Project original artwork rendering STYLE ONLY ignore bench push-up/chest red/equipment. No embedded text/captions/arrows/labels.",
+          "inspectionNote": "Band upright row upright body/feet, chest-height pull with elbows higher than hands, exposed deltoid red and opaque clothes. Raised wrists flexed and horizontal connector appears between fists; planned wrist/grip correction. Qualified anchoring, shoulder plane and hand anatomy pending review.",
+          "canonicalName": "band upright row",
+          "styleVersion": "white-v1",
+          "equipment": "band",
+          "primaryMuscles": [
+            "delts"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Band upright row upright body/feet, chest-height pull with elbows higher than hands, exposed deltoid red and opaque clothes. Raised wrists flexed and horizontal connector appears between fists; planned wrist/grip correction. Qualified anchoring, shoulder plane and hand anatomy pending review.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0934-female-anatomical-white-v1-p1-645fa681cc4d.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 23668,
+              "sha256": "645fa681cc4d39e031066481a06915c835eefa6c720e3982efe27358e701c513"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0934-female-anatomical-white-v1-p2-3ba53dd76508.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 24936,
+              "sha256": "3ba53dd765089df11afc035949db994df5965f964a532fd2b7d8ff15b5d971ce"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0934-female-anatomical-white-v1-thumb-64dfe3a35c61.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 2658,
+            "sha256": "64dfe3a35c6191fc8c23fe6ce7bf4e7fc4666abc401e5032601ee418404f7259"
+          },
+          "processingSignature": "24363ba6f07e0d17ccfbf095ce5081bf087db24ed1ebbadc4b279b63fbdfbfbd",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0934-female-anatomical-white-v1.png",
+            "width": 1774,
+            "height": 887,
+            "bytes": 1320824,
+            "sha256": "b9e674d7ae1d41d43f7fa5996aa62421847ad439a02965717d7955fb9562d61c"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "0935",
+      "variant": "male",
+      "key": "0935-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand sideways to an elbow-height band anchor and hold the handle with the far hand, elbow bent to 90 degrees and tucked against the side."
+        },
+        {
+          "key": "p2",
+          "caption": "Rotate the forearm outward while keeping the elbow pinned in place, then return slowly; switch sides after the set."
+        }
+      ],
+      "prompt": "Original premium ADULT male anatomical exercise illustration, TWO equal SQUARE cells side by side WIDE LANDSCAPE 2:1, same model/scale/proportions, limbs, camera and band both poses. BAND UPRIGHT SHOULDER EXTERNAL ROTATION canonical0935. FRONT three-quarter camera, model FACE toward camera. Gray fixed band anchor post at IMAGE LEFT model anatomical RIGHT side, anchor at ELBOW HEIGHT, BOTH panels fully visible. WORKING FAR HAND is anatomical LEFT HAND image RIGHT away from anchor. Gray band from fixed LEFT-IMAGE anchor across IN FRONT OF abdomen to LEFT working hand at RIGHT IMAGE, taut and no body penetration. Working LEFT UPPER ARM VERTICAL PINNED against LEFT ribs, elbow90degrees and FIXED same position both poses. LEFT PANEL START working forearm HORIZONTAL across front BELLY toward anchor/imageLEFT, fist near navel, closed neutral grip thumb UP. RIGHT PANEL FINISH rotate LEFT HUMERUS EXTERNALLY ONLY, forearm swings OUT toward imageRIGHT while staying HORIZONTAL and ELBOW stays PINNED ribs at90degrees, fist ends slightly OUTWARD beside torso. No elbow lifting, no wrist bending, no lateral raise or biceps curl. Band visibly stretches LONGER anchor-to-working-fist finish. Nonworking RIGHT hand rests own hip away band. Upright torso pelvis shoulders/feet hip-width fixed, neutral neck eyes forward. RED primary working LEFT exposed posterior/lateral DELTOID cap ONLY, no biceps/triceps/chest red, highlight same LEFT arm holding band. Fine detailed EXPOSED grayscale muscle contours realistic proportions equal male/female quality. Full opaque BLACK athletic tank shirt and MID-THIGH shorts wrap FRONT SIDES BACK SEAT CROTCH, continuous real fabric seams/broad folds, no cutaways/transparency/anatomical fibers through fabric. Black shoes. Entire model/head/hands/feet and all band/anchor within EACH square with generous white margins, no crossing panels. Pure white background soft contact shadows. Project original artwork rendering STYLE ONLY ignore bench push-up/chest red/equipment. No embedded text/captions/arrows/labels.",
+      "inspectionNote": "Far left-hand band rotation from forearm across belly to outward near-horizontal forearm; high anchor connected band in front abdomen, thumb-up fist and red working shoulder. Upright stance and opaque clothing. Elbow appears slightly away ribs at finish, qualified pinned-elbow/90degree consistency, band depth, grip and mapping pending review.",
+      "canonicalName": "band upright shoulder external rotation",
+      "styleVersion": "white-v1",
+      "equipment": "band",
+      "primaryMuscles": [
+        "delts"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Far left-hand band rotation from forearm across belly to outward near-horizontal forearm; high anchor connected band in front abdomen, thumb-up fist and red working shoulder. Upright stance and opaque clothing. Elbow appears slightly away ribs at finish, qualified pinned-elbow/90degree consistency, band depth, grip and mapping pending review.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0935-male-anatomical-white-v1-p1-850756d4b398.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 26620,
+          "sha256": "850756d4b39850ddb6eb54863efd2a093455974bff16f4c5dbbb0f8cfa58afec"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0935-male-anatomical-white-v1-p2-7be6b44d1fb9.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 26992,
+          "sha256": "7be6b44d1fb9a261fafc920649686335a79bfe8d9df3eb5b6fe41879babb975a"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0935-male-anatomical-white-v1-thumb-13461e5d7e23.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 3080,
+        "sha256": "13461e5d7e23bae19ef9ac2e29d3e8219d5dfab18d251505cf2f281461bcb1b8"
+      },
+      "processingSignature": "5e57ab6329c101b70f48e224dbfb14ed3d0759b1310fea78799d63094aa98438",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0935-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1370697,
+        "sha256": "3744b3739343af4f415574598f259c8512034ee4e8fc1952273d7624b602a71a"
+      }
+    },
+    {
+      "exerciseId": "0935",
+      "variant": "female",
+      "key": "0935-female-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand sideways to an elbow-height band anchor and hold the handle with the far hand, elbow bent to 90 degrees and tucked against the side."
+        },
+        {
+          "key": "p2",
+          "caption": "Rotate the forearm outward while keeping the elbow pinned in place, then return slowly; switch sides after the set."
+        }
+      ],
+      "prompt": "Original premium ADULT female anatomical exercise illustration, TWO equal SQUARE cells side by side WIDE LANDSCAPE 2:1, same model/scale/proportions, limbs, camera and band both poses. BAND UPRIGHT SHOULDER EXTERNAL ROTATION canonical0935. FRONT three-quarter camera, model FACE toward camera. Gray fixed band anchor post at IMAGE LEFT model anatomical RIGHT side, anchor at ELBOW HEIGHT, BOTH panels fully visible. WORKING FAR HAND is anatomical LEFT HAND image RIGHT away from anchor. Gray band from fixed LEFT-IMAGE anchor across IN FRONT OF abdomen to LEFT working hand at RIGHT IMAGE, taut and no body penetration. Working LEFT UPPER ARM VERTICAL PINNED against LEFT ribs, elbow90degrees and FIXED same position both poses. LEFT PANEL START working forearm HORIZONTAL across front BELLY toward anchor/imageLEFT, fist near navel, closed neutral grip thumb UP. RIGHT PANEL FINISH rotate LEFT HUMERUS EXTERNALLY ONLY, forearm swings OUT toward imageRIGHT while staying HORIZONTAL and ELBOW stays PINNED ribs at90degrees, fist ends slightly OUTWARD beside torso. No elbow lifting, no wrist bending, no lateral raise or biceps curl. Band visibly stretches LONGER anchor-to-working-fist finish. Nonworking RIGHT hand rests own hip away band. Upright torso pelvis shoulders/feet hip-width fixed, neutral neck eyes forward. RED primary working LEFT exposed posterior/lateral DELTOID cap ONLY, no biceps/triceps/chest red, highlight same LEFT arm holding band. Fine detailed EXPOSED grayscale muscle contours realistic proportions equal male/female quality. Full opaque BLACK athletic tank shirt and MID-THIGH shorts wrap FRONT SIDES BACK SEAT CROTCH, continuous real fabric seams/broad folds, no cutaways/transparency/anatomical fibers through fabric. Black shoes. Entire model/head/hands/feet and all band/anchor within EACH square with generous white margins, no crossing panels. Pure white background soft contact shadows. Project original artwork rendering STYLE ONLY ignore bench push-up/chest red/equipment. No embedded text/captions/arrows/labels.",
+      "inspectionNote": "Far left hand rotates horizontal forearm from across belly outward, elbow-height anchored band connected in front torso, exposed working shoulder red. Upper arm beside ribs with slight elbow displacement possible; opaque clothes. Qualified pinned-elbow90degree consistency, band depth/grip and mapping pending review; anchor top margin narrow but uncropped.",
+      "canonicalName": "band upright shoulder external rotation",
+      "styleVersion": "white-v1",
+      "equipment": "band",
+      "primaryMuscles": [
+        "delts"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Far left hand rotates horizontal forearm from across belly outward, elbow-height anchored band connected in front torso, exposed working shoulder red. Upper arm beside ribs with slight elbow displacement possible; opaque clothes. Qualified pinned-elbow90degree consistency, band depth/grip and mapping pending review; anchor top margin narrow but uncropped.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0935-female-anatomical-white-v1-p1-c7ae0e026136.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 24826,
+          "sha256": "c7ae0e026136a66abbc9ef7677e8744ad83ae9ada494e16421a15abe81756c14"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0935-female-anatomical-white-v1-p2-2064e06d4dee.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 25614,
+          "sha256": "2064e06d4deeee0d30bca377cdace1b4d78fed2b9d20634698c664f16871670c"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0935-female-anatomical-white-v1-thumb-784984611a47.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2880,
+        "sha256": "784984611a47d944cec34f078352cd9ed292e903b74e2515c419b750198d2770"
+      },
+      "processingSignature": "73332507d32dc907bfeb36d926dc26b7f9269a47fe06f21a169b7dc928584d71",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0935-female-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1344975,
+        "sha256": "c38d4ed58f5e5df96c47cbed0618b373413e70f170263faf9820a1ba1bc314d6"
+      }
+    }
+  ]
+}

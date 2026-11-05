@@ -1,0 +1,150 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "2515",
+      "variant": "male",
+      "key": "2515-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Face away from the low pulley, holding the handle in front of your thigh."
+        },
+        {
+          "key": "p2",
+          "caption": "Raise your arm forward to shoulder height without leaning, then lower slowly."
+        }
+      ],
+      "prompt": "SINGLE ARM CABLE FRONT RAISE v2. TWO equal cells SAME SIDE three-quarter view facing RIGHT. Lowpulley machine BEHIND man at IMAGE LEFT, pulleyfloorheight. One gray D handle held RIGHT hand overhandpalmback/down, cable runs from lowpulley BEHIND throughclearspace BESIDE RIGHT HIP tohandleinfrontthigh, neverthroughbody. LEFT rightarmdownhandleinfrontRIGHTthigh slight15degreeelbowbend. RIGHT raise RIGHT arm FORWARD toward IMAGE RIGHT shoulderheighthorizontal SAME15degreebend palmDOWN, cable tautdiagonal lowbehindtohand. TorsoUPRIGHTneutral nolean, LEFT handonhip feetplantedSAME. Primary RIGHT ANTERIOR DELTOID only red exposedfrontshouldercap bothposes, tankentirelyblack. Premium detailed adult MALE grayscale anatomical illustration matching approved original reference for rendering STYLE ONLY; ignore reference exercise/highlight placement. White background soft shadows, realistic proportions/equipment, crisp detailed exposed gray anatomy. Opaque BLACK tank and black mid-thigh shorts fully cover front sides back seat crotch with seams hems ordinary folds, black shoes. No anatomy through fabric. Primary highlights over clothing are small PLAIN UNIFORM SOFT RED COLOR WASH on normal opaque cloth, no fibers lobes striations rays or cutaways. Only named primary red consistently each pose. Exactly two arms hands five fingers two legs feet. Entire body/equipment inside frame generous margins. No text arrows logos.",
+      "inspectionNote": "Real output inspected. Low pulley behind body, one handle at thigh then forward shoulder-height raise with planted feet, upright torso and off hand on hip. Working anterior deltoid red only, opaque black clothing. Qualified review of cable clearance across/beside hip, grip and wrist, elbow softness, shoulder mapping and arm plane required. Human anatomy review pending. Human anatomy review pending; no approval or publication.",
+      "canonicalName": "cable front raise v. 2",
+      "styleVersion": "white-v1",
+      "equipment": "cable",
+      "primaryMuscles": [
+        "delts"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Low pulley behind body, one handle at thigh then forward shoulder-height raise with planted feet, upright torso and off hand on hip. Working anterior deltoid red only, opaque black clothing. Qualified review of cable clearance across/beside hip, grip and wrist, elbow softness, shoulder mapping and arm plane required. Human anatomy review pending. Human anatomy review pending; no approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2515-male-anatomical-white-v1-p1-b195f09d78ab.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 39422,
+          "sha256": "b195f09d78abaff4b198694375f08b00bd8a9943a8596f114ff2e67e42ac59a1"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/2515-male-anatomical-white-v1-p2-5ab6b4512043.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 40834,
+          "sha256": "5ab6b451204343605c9b0648348c96f1b5654769524b3a0a5ba1c914d9fe38f7"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-291.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2515-male-anatomical-white-v1-thumb-b19ee3fe8cc8.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 4112,
+        "sha256": "b19ee3fe8cc836e89c11b26f6763a1e1732887e6e87dd2ed3f10bb3d2abe051b"
+      },
+      "processingSignature": "c89905b4c51d39c4b4b88486040cbb9977ffa2f08481b573ed14031cf915ea11",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2515-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1778743,
+        "sha256": "dfa594aab1e8707fb2ad0364efbac184172867344dc052499b7e8202a81fbab0"
+      }
+    },
+    {
+      "exerciseId": "2525",
+      "variant": "male",
+      "key": "2525-male-anatomical-white-v1",
+      "layout": {
+        "columns": 1,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand balanced on the vibrating platform with knees slightly bent, core braced and feet shoulder width. Hold 30\u201360 seconds."
+        }
+      ],
+      "prompt": "VIBRATION PLATE STANDING STATIC HOLD. ONE FULL BODY POSE only. Adult male stands uprightbalanced BOTH FEET fullyonTOP lowrealistic vibrating fitnessplatform gray rectangularbase with roundedcorners texturedblackdeck, no handles required. Feet shoulderwidth parallel, KNEES slightlybent15degrees, torso tallneutral corebraced arms relaxedbysides, gaze ahead. No squat no weights jumping or movement lines. Primary BOTH QUADS only SMALL smooth uniform RED COLOR WASH on intactfrontthighshorts plus red exposeddistalquads. Fabricpanels/hem clearlyvisible no musclefibers undercloth. Whitebackgroundwholeplatformheadfeetvisible. Premium detailed adult MALE grayscale anatomical illustration matching approved original reference for rendering STYLE ONLY; ignore reference exercise/highlight placement. White background soft shadows, realistic proportions/equipment, crisp detailed exposed gray anatomy. Opaque BLACK tank and black mid-thigh shorts fully cover front sides back seat crotch with seams hems ordinary folds, black shoes. No anatomy through fabric. Primary highlights over clothing are small PLAIN UNIFORM SOFT RED COLOR WASH on normal opaque cloth, no fibers lobes striations rays or cutaways. Only named primary red consistently each pose. Exactly two arms hands five fingers two legs feet. Entire body/equipment inside frame generous margins. No text arrows logos.",
+      "inspectionNote": "Real output inspected. One standing hold on low textured vibration plate, both feet fully supported, knees softly bent, torso tall and arms relaxed. Quad color wash retains fabric seams and folds, opaque clothing. Qualified review of knee softness, balanced stance, platform setup and muscle mapping pending. Human anatomy review pending; no approval or publication.",
+      "canonicalName": "vibrate plate standing",
+      "styleVersion": "white-v1",
+      "equipment": "weighted",
+      "primaryMuscles": [
+        "quads"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. One standing hold on low textured vibration plate, both feet fully supported, knees softly bent, torso tall and arms relaxed. Quad color wash retains fabric seams and folds, opaque clothing. Qualified review of knee softness, balanced stance, platform setup and muscle mapping pending. Human anatomy review pending; no approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2525-male-anatomical-white-v1-p1-7a41e2e7cd23.webp",
+          "width": 800,
+          "height": 1200,
+          "bytes": 38168,
+          "sha256": "7a41e2e7cd2337a1e1584501f4c5ed13279929031b590ec4550b2ab8c8c1d2ed"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-291.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2525-male-anatomical-white-v1-thumb-eba08e9423be.webp",
+        "width": 160,
+        "height": 240,
+        "bytes": 2532,
+        "sha256": "eba08e9423bec94d8a4240c5874b6b7818f0a2417fe85a0b0151433587f3a959"
+      },
+      "processingSignature": "341cbfec7841bc00d9e6b69c5fd2d5cd9fb84c7413f5df2446ecf0dd7dc596a3",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2525-male-anatomical-white-v1.png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1419337,
+        "sha256": "d92c0f2b6959ce6231eff7bc0152d835e0e2f572e1322e47ca6e7b2b759427f7"
+      }
+    }
+  ]
+}

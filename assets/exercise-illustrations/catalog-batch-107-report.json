@@ -1,0 +1,66 @@
+{
+  "batch": 107,
+  "trigger": "2026-11-02T19:24:51.747Z",
+  "completedAt": "2026-11-02T19:33:36.860138+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 2,
+  "generationCalls": 4,
+  "exerciseIds": [
+    "0679"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 438,
+    "remainingVariants": 10826,
+    "approvedVariants": 0,
+    "blockedVariants": 183,
+    "knownPoseImages": 908,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Two rolling-bridge candidate sets, six poses, four built-in calls with two retained corrections. Progressive pelvic elevation, planted feet and detailed exposed grayscale anatomy retained. Cloth tints softened over continuous opaque black garments front/sides/back/seat/crotch. Female hair bun removed but direct skull/mat contact and neutral cervical support remain uncertain, blocked for human review. Male head appears grounded. Spinal segmentation, range, joint alignment and bilateral limb continuity require qualified anatomy/technique review for both. No approval or publication. All original PNGs, exact prompts and correction history retained. Original project artwork used for style only; no upstream media. Pipeline checks are not anatomical approval.",
+  "metadataConflictsDeferred": {
+    "0677": "Ring-dip start says hanging arms fully extended but lowering shoulders below elbows implies supported above rings. Support direction needs clarification before generating.",
+    "0678": "Rocky pull-up pulldown description mixes movements but instructions only define ordinary overhand pull-up; named variant needs clarification.",
+    "0680": "Leg assistance specified but rope foot-lock technique and sequence undefined; defer rather than invent foot grip."
+  },
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 720761067,
+  "savedMasters": [
+    {
+      "exerciseId": "0679",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0679-male-anatomical-white-v2.png",
+        "width": 2172,
+        "height": 724,
+        "bytes": 1653850,
+        "sha256": "8c3178d720473f8c4791b6264a1ff4aa20fe2081c339bce4c9822f7507c2ae99"
+      }
+    },
+    {
+      "exerciseId": "0679",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0679-female-anatomical-white-v2.png",
+        "width": 2172,
+        "height": 724,
+        "bytes": 1643971,
+        "sha256": "7b2cceb6d2c8cee3a3ac48f98a0845af7e9d0026a79a5f1070c8743e271dbda2"
+      }
+    }
+  ]
+}

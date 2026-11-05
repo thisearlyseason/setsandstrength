@@ -1,0 +1,710 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "0723",
+      "variant": "male",
+      "key": "0723-male-anatomical-white-v2",
+      "layout": {
+        "columns": 3,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Lie supine with both straight legs pointing upward and arms by the sides."
+        },
+        {
+          "key": "p2",
+          "caption": "Lift the hips slightly and tilt the straight legs gently toward one side."
+        },
+        {
+          "key": "p3",
+          "caption": "Lower with control, then repeat toward the opposite side while keeping upper shoulders and head supported."
+        }
+      ],
+      "detail": "SUPINE VERTICAL STRAIGHT-LEG SIDEWAYS HIP LIFT, THREE equal SQUARE cells side by side WIDE LANDSCAPE, same high FRONT three-quarter view from foot end so both straight legs and torso visible. Lie BACK on thin gray mat, skull and upper shoulders grounded, eyes ceiling neutral neck, hair flat away from under skull. Arms straight by sides palms flat mat. BOTH legs STRAIGHT together knees fully extended, shoes above hips pointing ceiling. LEFT start: pelvis grounded mat, both legs vertical upward. CENTER: lift pelvis only a few centimeters by curling lower abdomen, upper back/skull stay grounded, tilt BOTH STRAIGHT legs together slightly toward IMAGE LEFT about10degrees, not lower to floor, not knee bend. RIGHT: after lowering and returning center repeat hip lift with BOTH straight legs tilted together IMAGE RIGHT about10degrees. Body/head/arms fixed, no whole body rotation, no head/shoulderstand or hand under hips, no lumbar overarch. Both legs close together all phases, slight lateral lean clearly opposite center/right, same limb lengths/model scale. Primary ABS ONE smooth diffuse BLURRED red tint over intact abdominal shirt, no fibers/rays/sixpack lines. Fine exposed grayscale arms/calves.",
+      "prompt": "Correct original project THREE-panel male vertical straight-leg sideways HIP LIFT. Use LOWER SIDE-FRONT three-quarter camera in all cells so pelvis-floor gap clearly visible. LEFT start pelvis/BUTTOCKS directly rest mat, legs vertical straight together. CENTER buttocks/pelvis lifted ONLY5cm clear small airgap mat, legs still straight nearly vertical tilted10degrees IMAGE LEFT. RIGHT same small pelvic lift with legs tilted10degrees IMAGE RIGHT. Upper back shoulders and skull rest mat ALL phases, no shoulderstand/no lumbar arch/no hands under hips, palms mat at sides. Same model/scale/limb lengths and fixed head/shoulder positions. Replace red sixpack/fiber pattern with ONE smooth diffuse BLURRED abdominal shirt tint on continuous opaque black fabric, broad folds only. Fine grayscale EXPOSED muscles, full opaque shirt/shorts seat/crotch. Three equal SQUARE landscape cells, generous shoe/head/hand margins. No text.",
+      "inspectionNote": "Camera lowered and tint softened, straight vertical legs with opposite slight tilts and head/shoulders grounded retained. Required small hip lift still not visibly distinct from grounded start; blocked for movement correction. Fine exposed grayscale anatomy and full opaque clothes. Qualified pelvis support, tilt and abdominal mapping review pending.",
+      "canonicalName": "sideways lifts vertical (straight legs)",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "abs"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0723-male-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "status": "generated",
+        "costUSD": null
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Camera lowered and tint softened, straight vertical legs with opposite slight tilts and head/shoulders grounded retained. Required small hip lift still not visibly distinct from grounded start; blocked for movement correction. Fine exposed grayscale anatomy and full opaque clothes. Qualified pelvis support, tilt and abdominal mapping review pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0723-male-anatomical-white-v2-p1-4c56ec2e7a82.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 20236,
+          "sha256": "4c56ec2e7a8288ffb7c051eae1d093ff240e539717ca6163ed544e0d3eeb38d8"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0723-male-anatomical-white-v2-p2-ea5712b1683d.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 20762,
+          "sha256": "ea5712b1683d99f5d778686682fa3285d0f3f41765fa82706797736bd90ee4c3"
+        },
+        {
+          "pose": "p3",
+          "path": "/workout/illustration-pilot/0723-male-anatomical-white-v2-p3-9ce4c2b32abb.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 21486,
+          "sha256": "9ce4c2b32abb35f4001c19d85bbcd2b3895080681a4aaf88a15ddf13985bf6f7"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0723-male-anatomical-white-v2-thumb-58eb737a5864.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 3060,
+        "sha256": "58eb737a58645445846e9377ae0d881f0264c099c79f495003d22b8cee5db18d"
+      },
+      "processingSignature": "5ca452405d9fb06452b12690a744ad1f3df65ce6deaf3c93e481552b88e647c1",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0723-male-anatomical-white-v2.png",
+        "width": 2172,
+        "height": 724,
+        "bytes": 1442821,
+        "sha256": "2e1418e98913429df0b37af12d6d35a8d72f155d196d2706bc4dee54fa1a8b64"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0723",
+          "variant": "male",
+          "key": "0723-male-anatomical-white-v1",
+          "layout": {
+            "columns": 3,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Lie supine with both straight legs pointing upward and arms by the sides."
+            },
+            {
+              "key": "p2",
+              "caption": "Lift the hips slightly and tilt the straight legs gently toward one side."
+            },
+            {
+              "key": "p3",
+              "caption": "Lower with control, then repeat toward the opposite side while keeping upper shoulders and head supported."
+            }
+          ],
+          "detail": "SUPINE VERTICAL STRAIGHT-LEG SIDEWAYS HIP LIFT, THREE equal SQUARE cells side by side WIDE LANDSCAPE, same high FRONT three-quarter view from foot end so both straight legs and torso visible. Lie BACK on thin gray mat, skull and upper shoulders grounded, eyes ceiling neutral neck, hair flat away from under skull. Arms straight by sides palms flat mat. BOTH legs STRAIGHT together knees fully extended, shoes above hips pointing ceiling. LEFT start: pelvis grounded mat, both legs vertical upward. CENTER: lift pelvis only a few centimeters by curling lower abdomen, upper back/skull stay grounded, tilt BOTH STRAIGHT legs together slightly toward IMAGE LEFT about10degrees, not lower to floor, not knee bend. RIGHT: after lowering and returning center repeat hip lift with BOTH straight legs tilted together IMAGE RIGHT about10degrees. Body/head/arms fixed, no whole body rotation, no head/shoulderstand or hand under hips, no lumbar overarch. Both legs close together all phases, slight lateral lean clearly opposite center/right, same limb lengths/model scale. Primary ABS ONE smooth diffuse BLURRED red tint over intact abdominal shirt, no fibers/rays/sixpack lines. Fine exposed grayscale arms/calves.",
+          "prompt": "Original educational exercise illustration. Attached original project artwork STYLE ONLY never pose/equipment reference. Neutral adult MALE. Pure white background, fine detailed grayscale anatomical fibers on EXPOSED muscles. Fully OPAQUE matte BLACK sleeveless shirt covers torso front sides back abdomen; loose knee-length BLACK shorts wrap thighs front sides rear seat crotch with closed seams/hems, broad natural folds. Black trainers. Red primary over cloth ONE smooth diffuse BLURRED tint without rays/fibers/anatomical divisions. Whole body fingers shoes and apparatus inside generous white margins, no text/labels/arrows/logos. SUPINE VERTICAL STRAIGHT-LEG SIDEWAYS HIP LIFT, THREE equal SQUARE cells side by side WIDE LANDSCAPE, same high FRONT three-quarter view from foot end so both straight legs and torso visible. Lie BACK on thin gray mat, skull and upper shoulders grounded, eyes ceiling neutral neck, hair flat away from under skull. Arms straight by sides palms flat mat. BOTH legs STRAIGHT together knees fully extended, shoes above hips pointing ceiling. LEFT start: pelvis grounded mat, both legs vertical upward. CENTER: lift pelvis only a few centimeters by curling lower abdomen, upper back/skull stay grounded, tilt BOTH STRAIGHT legs together slightly toward IMAGE LEFT about10degrees, not lower to floor, not knee bend. RIGHT: after lowering and returning center repeat hip lift with BOTH straight legs tilted together IMAGE RIGHT about10degrees. Body/head/arms fixed, no whole body rotation, no head/shoulderstand or hand under hips, no lumbar overarch. Both legs close together all phases, slight lateral lean clearly opposite center/right, same limb lengths/model scale. Primary ABS ONE smooth diffuse BLURRED red tint over intact abdominal shirt, no fibers/rays/sixpack lines. Fine exposed grayscale arms/calves.",
+          "inspectionNote": "Three supine vertical-leg phases show opposite slight lateral tilts, arms/head supported, straight knees and full opaque clothes. Hip lift is not visibly distinct from grounded start in high view; correction required. Red shirt has sixpack-like divisions. Qualified pelvis lift, leg tilt, head/shoulder support review pending.",
+          "canonicalName": "sideways lifts vertical (straight legs)",
+          "styleVersion": "white-v1",
+          "equipment": "body weight",
+          "primaryMuscles": [
+            "abs"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Three supine vertical-leg phases show opposite slight lateral tilts, arms/head supported, straight knees and full opaque clothes. Hip lift is not visibly distinct from grounded start in high view; correction required. Red shirt has sixpack-like divisions. Qualified pelvis lift, leg tilt, head/shoulder support review pending.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0723-male-anatomical-white-v1-p1-6b2870ddf5d1.webp",
+              "width": 724,
+              "height": 724,
+              "bytes": 21590,
+              "sha256": "6b2870ddf5d140fb370c1d2a1ab6f4bc50f1ce1384e798e6d3138dd41b6d0efd"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0723-male-anatomical-white-v1-p2-9c5b0cdc53d5.webp",
+              "width": 724,
+              "height": 724,
+              "bytes": 21664,
+              "sha256": "9c5b0cdc53d5746e6bed543b85cb926f22b94d1eccf482a76ab212fa1ae5045d"
+            },
+            {
+              "pose": "p3",
+              "path": "/workout/illustration-pilot/0723-male-anatomical-white-v1-p3-3852a3a4eba9.webp",
+              "width": 724,
+              "height": 724,
+              "bytes": 21716,
+              "sha256": "3852a3a4eba93cc46cffde30f2c19cc5765e0f47c8bd477bc70b23819047cdfe"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0723-male-anatomical-white-v1-thumb-5c86abddfbad.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 3000,
+            "sha256": "5c86abddfbadf726f23ca8c24652b77a1ac885179211419e41ce0f580c5578a6"
+          },
+          "processingSignature": "6133ce32303c6c40b07d80b0c0d0d734619ae2b1fb3224da889bfd89ee2e359d",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0723-male-anatomical-white-v1.png",
+            "width": 2172,
+            "height": 724,
+            "bytes": 1473973,
+            "sha256": "3b16e41085cb57e2d0be5e7f3e5ed5d893f0a78e919cd1862682485e056e7dc0"
+          }
+        }
+      ],
+      "blockingIssues": [
+        "Distinct grounded-start versus raised pelvis not established after correction; required hip-lift phase unclear."
+      ]
+    },
+    {
+      "exerciseId": "0723",
+      "variant": "female",
+      "key": "0723-female-anatomical-white-v2",
+      "layout": {
+        "columns": 3,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Lie supine with both straight legs pointing upward and arms by the sides."
+        },
+        {
+          "key": "p2",
+          "caption": "Lift the hips slightly and tilt the straight legs gently toward one side."
+        },
+        {
+          "key": "p3",
+          "caption": "Lower with control, then repeat toward the opposite side while keeping upper shoulders and head supported."
+        }
+      ],
+      "detail": "SUPINE VERTICAL STRAIGHT-LEG SIDEWAYS HIP LIFT, THREE equal SQUARE cells side by side WIDE LANDSCAPE, same high FRONT three-quarter view from foot end so both straight legs and torso visible. Lie BACK on thin gray mat, skull and upper shoulders grounded, eyes ceiling neutral neck, hair flat away from under skull. Arms straight by sides palms flat mat. BOTH legs STRAIGHT together knees fully extended, shoes above hips pointing ceiling. LEFT start: pelvis grounded mat, both legs vertical upward. CENTER: lift pelvis only a few centimeters by curling lower abdomen, upper back/skull stay grounded, tilt BOTH STRAIGHT legs together slightly toward IMAGE LEFT about10degrees, not lower to floor, not knee bend. RIGHT: after lowering and returning center repeat hip lift with BOTH straight legs tilted together IMAGE RIGHT about10degrees. Body/head/arms fixed, no whole body rotation, no head/shoulderstand or hand under hips, no lumbar overarch. Both legs close together all phases, slight lateral lean clearly opposite center/right, same limb lengths/model scale. Primary ABS ONE smooth diffuse BLURRED red tint over intact abdominal shirt, no fibers/rays/sixpack lines. Fine exposed grayscale arms/calves.",
+      "prompt": "Correct original project THREE-panel female vertical straight-leg sideways HIP LIFT. Use LOWER SIDE-FRONT three-quarter camera in all cells so pelvis-floor gap clearly visible. LEFT start pelvis/BUTTOCKS directly rest mat, legs vertical straight together. CENTER buttocks/pelvis lifted ONLY5cm clear small airgap mat, legs still straight nearly vertical tilted10degrees IMAGE LEFT. RIGHT same small pelvic lift with legs tilted10degrees IMAGE RIGHT. Upper back shoulders and skull rest mat ALL phases, no shoulderstand/no lumbar arch/no hands under hips, palms mat at sides, hair out from under skull. Same model/scale/limb lengths and fixed head/shoulder positions. Replace red sixpack/fiber pattern with ONE smooth diffuse BLURRED abdominal shirt tint on continuous opaque black fabric, broad folds only. Fine grayscale EXPOSED muscles, full opaque shirt/shorts seat/crotch. Three equal SQUARE landscape cells, generous shoe/head/hand margins. No text.",
+      "inspectionNote": "Pelvic lift now has visible gap but center/right introduce gray rounded anatomical-looking seat surfaces beneath shirt/shorts, opaque seat coverage cannot be established. Blocked for clothing correction and qualified pelvis/leg tilt/cervical review. Abdominal tint diffuse, exposed limbs fine grayscale. No clothing approval.",
+      "canonicalName": "sideways lifts vertical (straight legs)",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "abs"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0723-female-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "status": "generated",
+        "costUSD": null
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Pelvic lift now has visible gap but center/right introduce gray rounded anatomical-looking seat surfaces beneath shirt/shorts, opaque seat coverage cannot be established. Blocked for clothing correction and qualified pelvis/leg tilt/cervical review. Abdominal tint diffuse, exposed limbs fine grayscale. No clothing approval.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0723-female-anatomical-white-v2-p1-f2f881520e9e.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 21544,
+          "sha256": "f2f881520e9ed09db9a175abb339864ebb49bcbcd2d6686411c7c243e8934be1"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0723-female-anatomical-white-v2-p2-2955e18790b1.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 22196,
+          "sha256": "2955e18790b155d3f920a9035f16574d70329d518957b563960538d0e22ab903"
+        },
+        {
+          "pose": "p3",
+          "path": "/workout/illustration-pilot/0723-female-anatomical-white-v2-p3-1dc02cb624fc.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 22836,
+          "sha256": "1dc02cb624fc8a292ee176e1462f549743c7b4e5c2659f5f0fb5c94c5f147956"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0723-female-anatomical-white-v2-thumb-1fac07ed41e9.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 3202,
+        "sha256": "1fac07ed41e9714598038e744b655fd31bbefe485c316eae4023ee38a9a6b82e"
+      },
+      "processingSignature": "3c56742a9068962c110788b8d6cb569b5d1d90ae747c6abac7085355a424f984",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0723-female-anatomical-white-v2.png",
+        "width": 2172,
+        "height": 724,
+        "bytes": 1433452,
+        "sha256": "621ddfb728ab7a2b495782be0a4e22afc44a02bfb7c7d11e474df27f7f68bfe1"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0723",
+          "variant": "female",
+          "key": "0723-female-anatomical-white-v1",
+          "layout": {
+            "columns": 3,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Lie supine with both straight legs pointing upward and arms by the sides."
+            },
+            {
+              "key": "p2",
+              "caption": "Lift the hips slightly and tilt the straight legs gently toward one side."
+            },
+            {
+              "key": "p3",
+              "caption": "Lower with control, then repeat toward the opposite side while keeping upper shoulders and head supported."
+            }
+          ],
+          "detail": "SUPINE VERTICAL STRAIGHT-LEG SIDEWAYS HIP LIFT, THREE equal SQUARE cells side by side WIDE LANDSCAPE, same high FRONT three-quarter view from foot end so both straight legs and torso visible. Lie BACK on thin gray mat, skull and upper shoulders grounded, eyes ceiling neutral neck, hair flat away from under skull. Arms straight by sides palms flat mat. BOTH legs STRAIGHT together knees fully extended, shoes above hips pointing ceiling. LEFT start: pelvis grounded mat, both legs vertical upward. CENTER: lift pelvis only a few centimeters by curling lower abdomen, upper back/skull stay grounded, tilt BOTH STRAIGHT legs together slightly toward IMAGE LEFT about10degrees, not lower to floor, not knee bend. RIGHT: after lowering and returning center repeat hip lift with BOTH straight legs tilted together IMAGE RIGHT about10degrees. Body/head/arms fixed, no whole body rotation, no head/shoulderstand or hand under hips, no lumbar overarch. Both legs close together all phases, slight lateral lean clearly opposite center/right, same limb lengths/model scale. Primary ABS ONE smooth diffuse BLURRED red tint over intact abdominal shirt, no fibers/rays/sixpack lines. Fine exposed grayscale arms/calves.",
+          "prompt": "Original educational exercise illustration. Attached original project artwork STYLE ONLY never pose/equipment reference. Neutral adult FEMALE. Pure white background, fine detailed grayscale anatomical fibers on EXPOSED muscles. Fully OPAQUE matte BLACK sleeveless shirt covers torso front sides back abdomen; loose knee-length BLACK shorts wrap thighs front sides rear seat crotch with closed seams/hems, broad natural folds. Black trainers. Red primary over cloth ONE smooth diffuse BLURRED tint without rays/fibers/anatomical divisions. Whole body fingers shoes and apparatus inside generous white margins, no text/labels/arrows/logos. SUPINE VERTICAL STRAIGHT-LEG SIDEWAYS HIP LIFT, THREE equal SQUARE cells side by side WIDE LANDSCAPE, same high FRONT three-quarter view from foot end so both straight legs and torso visible. Lie BACK on thin gray mat, skull and upper shoulders grounded, eyes ceiling neutral neck, hair flat away from under skull. Arms straight by sides palms flat mat. BOTH legs STRAIGHT together knees fully extended, shoes above hips pointing ceiling. LEFT start: pelvis grounded mat, both legs vertical upward. CENTER: lift pelvis only a few centimeters by curling lower abdomen, upper back/skull stay grounded, tilt BOTH STRAIGHT legs together slightly toward IMAGE LEFT about10degrees, not lower to floor, not knee bend. RIGHT: after lowering and returning center repeat hip lift with BOTH straight legs tilted together IMAGE RIGHT about10degrees. Body/head/arms fixed, no whole body rotation, no head/shoulderstand or hand under hips, no lumbar overarch. Both legs close together all phases, slight lateral lean clearly opposite center/right, same limb lengths/model scale. Primary ABS ONE smooth diffuse BLURRED red tint over intact abdominal shirt, no fibers/rays/sixpack lines. Fine exposed grayscale arms/calves.",
+          "inspectionNote": "Vertical straight legs and opposite slight tilt shown with head/upper shoulders/arms supported, opaque clothes and fine grayscale muscles. Pelvis appears elevated similarly in all three phases rather than grounded then lifted, requiring correction. Abdominal tint has residual rays. Qualified pelvic lift and cervical support review pending.",
+          "canonicalName": "sideways lifts vertical (straight legs)",
+          "styleVersion": "white-v1",
+          "equipment": "body weight",
+          "primaryMuscles": [
+            "abs"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Vertical straight legs and opposite slight tilt shown with head/upper shoulders/arms supported, opaque clothes and fine grayscale muscles. Pelvis appears elevated similarly in all three phases rather than grounded then lifted, requiring correction. Abdominal tint has residual rays. Qualified pelvic lift and cervical support review pending.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0723-female-anatomical-white-v1-p1-3337ed5f1e40.webp",
+              "width": 724,
+              "height": 724,
+              "bytes": 22216,
+              "sha256": "3337ed5f1e40660b0e2b27966e6394c439ecbcc11a6403e24df7e72c7c5f91e0"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0723-female-anatomical-white-v1-p2-487186eb402b.webp",
+              "width": 724,
+              "height": 724,
+              "bytes": 22232,
+              "sha256": "487186eb402b2cdf89511770093657af1dad85b6a2c32f082a5003847c983370"
+            },
+            {
+              "pose": "p3",
+              "path": "/workout/illustration-pilot/0723-female-anatomical-white-v1-p3-f17fb9635bf0.webp",
+              "width": 724,
+              "height": 724,
+              "bytes": 22706,
+              "sha256": "f17fb9635bf0ee43b1319b3064c3af7359d854db2ac617c90f54bee7ac109f8d"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0723-female-anatomical-white-v1-thumb-b3103b39d3c2.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 3130,
+            "sha256": "b3103b39d3c2f58c011b48d54abca090fa4cba7a30020dbb708d8e0c0bdee20b"
+          },
+          "processingSignature": "83100995b278dcde2f4f654fe24c7f36ddddda3dadf3efb7c5d99afe810473ea",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0723-female-anatomical-white-v1.png",
+            "width": 2172,
+            "height": 724,
+            "bytes": 1474175,
+            "sha256": "01bffc15d076c265bd276722fda9f7e543ae9f39e418260cbe56dbca538e3294"
+          }
+        }
+      ],
+      "blockingIssues": [
+        "Center/right lifted pelvis has anatomical-looking gray seat areas; complete opaque shorts seat/crotch coverage not established, requires correction."
+      ]
+    },
+    {
+      "exerciseId": "0728",
+      "variant": "male",
+      "key": "0728-male-anatomical-white-v2",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Sit tall on the stability ball with both feet flat and knees bent."
+        },
+        {
+          "key": "p2",
+          "caption": "Straighten one knee until the leg extends forward, pause briefly, then lower; finish repetitions and switch legs."
+        }
+      ],
+      "detail": "SEATED SINGLE-LEG KNEE EXTENSION ON STABILITY BALL, TWO equal SQUARE cells SIDE BY SIDE same FRONT three-quarter camera/model/scale. Sit upright on full large gray stability ball with hips and knees near90degrees, chest tall neutral back, hands on hips for balance, no weight/equipment other than ball. LEFT start: BOTH shoes flat FLOOR hip width, knees bent90. RIGHT extend: LEFT support shoe remains FLAT FLOOR same location knee bent90, RIGHT thigh stays near horizontal on ball while RIGHT KNEE straightens, right lower leg extends FORWARD until knee straight and right shoe off floor at knee height. Same right leg identity, left foot/ball/pelvis unchanged, no lifted whole thigh/hip flexion, no leaning back, no standing. Primary RIGHT QUADRICEPS ONE smooth diffuse BLURRED red tint over front of fully opaque black shorts on extending thigh, no red other muscles, no cutaway fibers under cloth. Exposed arms/calves fine grayscale anatomy. Full ball/body/hands/shoes within white margins, full opaque shorts rear seat crotch.",
+      "prompt": "Recompose original project male TWO-phase stability-ball single-leg knee extension into WIDE LANDSCAPE TWO EQUAL SQUARE cells SIDE BY SIDE with central white divider. Each complete model and ball fully inside own cell without overlap, full heads/hands/shoes and white margins. LEFT both feet down knees bent, RIGHT same one knee straight extended forward at knee height, opposite support foot planted. Preserve upright torso, hands hips, fine detailed EXPOSED grayscale muscle fibers, opaque clothes front sides back seat crotch. Red only ONE diffuse BLURRED patch over front extending thigh on intact black shorts; no other muscles highlighted/no fibers in cloth. No text.",
+      "inspectionNote": "Recomposed two separate square landscape cells without model overlap. Ball-seated both feet down then same one knee straight extended, opposite foot grounded, torso upright. Diffuse front-thigh red on opaque shorts, detailed grayscale exposed anatomy and full clothes. Qualified leg identity, knee extension versus hip lift and ball contact review pending.",
+      "canonicalName": "single leg extension (on stability ball)",
+      "styleVersion": "white-v1",
+      "equipment": "stability ball",
+      "primaryMuscles": [
+        "quads"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0728-male-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "status": "generated",
+        "costUSD": null
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Recomposed two separate square landscape cells without model overlap. Ball-seated both feet down then same one knee straight extended, opposite foot grounded, torso upright. Diffuse front-thigh red on opaque shorts, detailed grayscale exposed anatomy and full clothes. Qualified leg identity, knee extension versus hip lift and ball contact review pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0728-male-anatomical-white-v2-p1-58f410f554f0.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 32874,
+          "sha256": "58f410f554f07ad78cb5880c536441b1eb573cfbd1b93c30f31ab3da8bc98028"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0728-male-anatomical-white-v2-p2-7e67cb4d2da9.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 32820,
+          "sha256": "7e67cb4d2da972b06e37a68b58bbe45d8ab9ffe1ead2eabf31cd710c1d032a0f"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0728-male-anatomical-white-v2-thumb-319ab69f790c.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 3376,
+        "sha256": "319ab69f790c426596c0afbcd186a1b203f54f0aa92076c2f0cd94b88554632d"
+      },
+      "processingSignature": "e298e5bdcea3b6b22ef50b61890632cea1ac96ae289c0b2ee5f1a152e5065940",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0728-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1495595,
+        "sha256": "b481ba2fd223d53812a1ae8adb8e22348e6650bef6baad1e078a04e1db1c51a9"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0728",
+          "variant": "male",
+          "key": "0728-male-anatomical-white-v1",
+          "layout": {
+            "columns": 2,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Sit tall on the stability ball with both feet flat and knees bent."
+            },
+            {
+              "key": "p2",
+              "caption": "Straighten one knee until the leg extends forward, pause briefly, then lower; finish repetitions and switch legs."
+            }
+          ],
+          "detail": "SEATED SINGLE-LEG KNEE EXTENSION ON STABILITY BALL, TWO equal SQUARE cells SIDE BY SIDE same FRONT three-quarter camera/model/scale. Sit upright on full large gray stability ball with hips and knees near90degrees, chest tall neutral back, hands on hips for balance, no weight/equipment other than ball. LEFT start: BOTH shoes flat FLOOR hip width, knees bent90. RIGHT extend: LEFT support shoe remains FLAT FLOOR same location knee bent90, RIGHT thigh stays near horizontal on ball while RIGHT KNEE straightens, right lower leg extends FORWARD until knee straight and right shoe off floor at knee height. Same right leg identity, left foot/ball/pelvis unchanged, no lifted whole thigh/hip flexion, no leaning back, no standing. Primary RIGHT QUADRICEPS ONE smooth diffuse BLURRED red tint over front of fully opaque black shorts on extending thigh, no red other muscles, no cutaway fibers under cloth. Exposed arms/calves fine grayscale anatomy. Full ball/body/hands/shoes within white margins, full opaque shorts rear seat crotch.",
+          "prompt": "Original educational exercise illustration. Attached original project artwork STYLE ONLY never pose/equipment reference. Neutral adult MALE. Pure white background, fine detailed grayscale anatomical fibers on EXPOSED muscles. Fully OPAQUE matte BLACK sleeveless shirt covers torso front sides back abdomen; loose knee-length BLACK shorts wrap thighs front sides rear seat crotch with closed seams/hems, broad natural folds. Black trainers. Red primary over cloth ONE smooth diffuse BLURRED tint without rays/fibers/anatomical divisions. Whole body fingers shoes and apparatus inside generous white margins, no text/labels/arrows/logos. SEATED SINGLE-LEG KNEE EXTENSION ON STABILITY BALL, TWO equal SQUARE cells SIDE BY SIDE same FRONT three-quarter camera/model/scale. Sit upright on full large gray stability ball with hips and knees near90degrees, chest tall neutral back, hands on hips for balance, no weight/equipment other than ball. LEFT start: BOTH shoes flat FLOOR hip width, knees bent90. RIGHT extend: LEFT support shoe remains FLAT FLOOR same location knee bent90, RIGHT thigh stays near horizontal on ball while RIGHT KNEE straightens, right lower leg extends FORWARD until knee straight and right shoe off floor at knee height. Same right leg identity, left foot/ball/pelvis unchanged, no lifted whole thigh/hip flexion, no leaning back, no standing. Primary RIGHT QUADRICEPS ONE smooth diffuse BLURRED red tint over front of fully opaque black shorts on extending thigh, no red other muscles, no cutaway fibers under cloth. Exposed arms/calves fine grayscale anatomy. Full ball/body/hands/shoes within white margins, full opaque shorts rear seat crotch.",
+          "inspectionNote": "Ball-seated start then one knee extended forward, opposite shoe grounded and torso upright. Fine grayscale exposed anatomy, opaque full clothes and diffuse quadriceps tint active phase. Tall overlapping composition crosses intended cell boundary; correction required before delivery. Qualified leg identity, knee-only extension and ball stability review pending.",
+          "canonicalName": "single leg extension (on stability ball)",
+          "styleVersion": "white-v1",
+          "equipment": "stability ball",
+          "primaryMuscles": [
+            "quads"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Ball-seated start then one knee extended forward, opposite shoe grounded and torso upright. Fine grayscale exposed anatomy, opaque full clothes and diffuse quadriceps tint active phase. Tall overlapping composition crosses intended cell boundary; correction required before delivery. Qualified leg identity, knee-only extension and ball stability review pending.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0728-male-anatomical-white-v1-p1-4ed0061ea68f.webp",
+              "width": 600,
+              "height": 1200,
+              "bytes": 36564,
+              "sha256": "4ed0061ea68fc8c098423e662d9ec170dc75c187a8b8075f432a59461cea1122"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0728-male-anatomical-white-v1-p2-766ac093a2fb.webp",
+              "width": 600,
+              "height": 1200,
+              "bytes": 31182,
+              "sha256": "766ac093a2fbb9886f652f4fc52779708b5cac68372d6a982432e3930efdf722"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0728-male-anatomical-white-v1-thumb-cd5cffe07b5c.webp",
+            "width": 120,
+            "height": 240,
+            "bytes": 2518,
+            "sha256": "cd5cffe07b5cc4018d4ec4deb1e911a16ac7ca45014d73e36c9a5d1e7e2b9485"
+          },
+          "processingSignature": "3298e2a800712f34ede2b86e0efc54c79809687bddef77ed5af50ea8064601c5",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0728-male-anatomical-white-v1.png",
+            "width": 1254,
+            "height": 1254,
+            "bytes": 1600643,
+            "sha256": "f27af653e98b59c6fcf489282630f9991ed12a69879aedb164cadf319b16cdee"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "0728",
+      "variant": "female",
+      "key": "0728-female-anatomical-white-v2",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Sit tall on the stability ball with both feet flat and knees bent."
+        },
+        {
+          "key": "p2",
+          "caption": "Straighten one knee until the leg extends forward, pause briefly, then lower; finish repetitions and switch legs."
+        }
+      ],
+      "detail": "SEATED SINGLE-LEG KNEE EXTENSION ON STABILITY BALL, TWO equal SQUARE cells SIDE BY SIDE same FRONT three-quarter camera/model/scale. Sit upright on full large gray stability ball with hips and knees near90degrees, chest tall neutral back, hands on hips for balance, no weight/equipment other than ball. LEFT start: BOTH shoes flat FLOOR hip width, knees bent90. RIGHT extend: LEFT support shoe remains FLAT FLOOR same location knee bent90, RIGHT thigh stays near horizontal on ball while RIGHT KNEE straightens, right lower leg extends FORWARD until knee straight and right shoe off floor at knee height. Same right leg identity, left foot/ball/pelvis unchanged, no lifted whole thigh/hip flexion, no leaning back, no standing. Primary RIGHT QUADRICEPS ONE smooth diffuse BLURRED red tint over front of fully opaque black shorts on extending thigh, no red other muscles, no cutaway fibers under cloth. Exposed arms/calves fine grayscale anatomy. Full ball/body/hands/shoes within white margins, full opaque shorts rear seat crotch.",
+      "prompt": "Correct original project female TWO-phase stability-ball single-leg knee extension. REMOVE ALL RED from chest/shirt, shirt entirely opaque matte BLACK. ONLY primary QUADS red ONE smooth diffuse BLURRED tint over front extending thigh on intact black shorts, no rays/fibers/divisions on fabric. Recompose WIDE LANDSCAPE TWO EQUAL SQUARE cells SIDE BY SIDE with central white divider; complete models/balls inside own square, no overlap, whole heads/hands/shoes with white margins. LEFT both feet down knees bent, RIGHT same one knee straight extended forward at knee height, opposite foot planted. Upright torso/hands hips, same model/scale/leg identity. Fine detailed EXPOSED grayscale muscles and full opaque front sides back seat crotch. No text.",
+      "inspectionNote": "Chest red removed, shirt black, quadriceps tint diffuse on front extending-thigh shorts. Recomputed two separate square landscape cells, ball/body contained, upright torso and opposite foot planted. Fine exposed grayscale muscles and full opaque clothes. Qualified same-leg identity, knee-only extension and ball stability review pending.",
+      "canonicalName": "single leg extension (on stability ball)",
+      "styleVersion": "white-v1",
+      "equipment": "stability ball",
+      "primaryMuscles": [
+        "quads"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0728-female-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "status": "generated",
+        "costUSD": null
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Chest red removed, shirt black, quadriceps tint diffuse on front extending-thigh shorts. Recomputed two separate square landscape cells, ball/body contained, upright torso and opposite foot planted. Fine exposed grayscale muscles and full opaque clothes. Qualified same-leg identity, knee-only extension and ball stability review pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0728-female-anatomical-white-v2-p1-44b6d96a65e8.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 33808,
+          "sha256": "44b6d96a65e8e343110648eda203fa6de4ee084fc3ec52573b5c861decb56df3"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0728-female-anatomical-white-v2-p2-59d1e2d92d4c.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 34062,
+          "sha256": "59d1e2d92d4c61845150f87ab92dfd0fce598fb4a891e2394d6835bcff5c4b98"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0728-female-anatomical-white-v2-thumb-e2676c7331e6.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 3386,
+        "sha256": "e2676c7331e6daacbb6010c64f02dea95830f922019126e04a7e945a89dbb5d4"
+      },
+      "processingSignature": "5c8fe4043999f11ceabee5c0f724b48bb72f2e7896ea5dd5b795e0850fb67648",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0728-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1503650,
+        "sha256": "186ee838bd021f583a65edaae2a37f62a757c8d659f409c295c27c8925677678"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0728",
+          "variant": "female",
+          "key": "0728-female-anatomical-white-v1",
+          "layout": {
+            "columns": 2,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Sit tall on the stability ball with both feet flat and knees bent."
+            },
+            {
+              "key": "p2",
+              "caption": "Straighten one knee until the leg extends forward, pause briefly, then lower; finish repetitions and switch legs."
+            }
+          ],
+          "detail": "SEATED SINGLE-LEG KNEE EXTENSION ON STABILITY BALL, TWO equal SQUARE cells SIDE BY SIDE same FRONT three-quarter camera/model/scale. Sit upright on full large gray stability ball with hips and knees near90degrees, chest tall neutral back, hands on hips for balance, no weight/equipment other than ball. LEFT start: BOTH shoes flat FLOOR hip width, knees bent90. RIGHT extend: LEFT support shoe remains FLAT FLOOR same location knee bent90, RIGHT thigh stays near horizontal on ball while RIGHT KNEE straightens, right lower leg extends FORWARD until knee straight and right shoe off floor at knee height. Same right leg identity, left foot/ball/pelvis unchanged, no lifted whole thigh/hip flexion, no leaning back, no standing. Primary RIGHT QUADRICEPS ONE smooth diffuse BLURRED red tint over front of fully opaque black shorts on extending thigh, no red other muscles, no cutaway fibers under cloth. Exposed arms/calves fine grayscale anatomy. Full ball/body/hands/shoes within white margins, full opaque shorts rear seat crotch.",
+          "prompt": "Original educational exercise illustration. Attached original project artwork STYLE ONLY never pose/equipment reference. Neutral adult FEMALE. Pure white background, fine detailed grayscale anatomical fibers on EXPOSED muscles. Fully OPAQUE matte BLACK sleeveless shirt covers torso front sides back abdomen; loose knee-length BLACK shorts wrap thighs front sides rear seat crotch with closed seams/hems, broad natural folds. Black trainers. Red primary over cloth ONE smooth diffuse BLURRED tint without rays/fibers/anatomical divisions. Whole body fingers shoes and apparatus inside generous white margins, no text/labels/arrows/logos. SEATED SINGLE-LEG KNEE EXTENSION ON STABILITY BALL, TWO equal SQUARE cells SIDE BY SIDE same FRONT three-quarter camera/model/scale. Sit upright on full large gray stability ball with hips and knees near90degrees, chest tall neutral back, hands on hips for balance, no weight/equipment other than ball. LEFT start: BOTH shoes flat FLOOR hip width, knees bent90. RIGHT extend: LEFT support shoe remains FLAT FLOOR same location knee bent90, RIGHT thigh stays near horizontal on ball while RIGHT KNEE straightens, right lower leg extends FORWARD until knee straight and right shoe off floor at knee height. Same right leg identity, left foot/ball/pelvis unchanged, no lifted whole thigh/hip flexion, no leaning back, no standing. Primary RIGHT QUADRICEPS ONE smooth diffuse BLURRED red tint over front of fully opaque black shorts on extending thigh, no red other muscles, no cutaway fibers under cloth. Exposed arms/calves fine grayscale anatomy. Full ball/body/hands/shoes within white margins, full opaque shorts rear seat crotch.",
+          "inspectionNote": "Ball-seated start then one knee extended, opposite foot planted, upright torso and opaque clothes, detailed exposed anatomy. Incorrect chest red copied from style and overlapping tall composition require correction. Qualified same-leg identity, knee-only extension, quadriceps placement and ball contact review pending.",
+          "canonicalName": "single leg extension (on stability ball)",
+          "styleVersion": "white-v1",
+          "equipment": "stability ball",
+          "primaryMuscles": [
+            "quads"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Ball-seated start then one knee extended, opposite foot planted, upright torso and opaque clothes, detailed exposed anatomy. Incorrect chest red copied from style and overlapping tall composition require correction. Qualified same-leg identity, knee-only extension, quadriceps placement and ball contact review pending.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0728-female-anatomical-white-v1-p1-3918ba19466f.webp",
+              "width": 600,
+              "height": 1200,
+              "bytes": 32504,
+              "sha256": "3918ba19466f23da0ae47ec0209e6a1d5e11b66390e41f0f8cbaa43f32977632"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0728-female-anatomical-white-v1-p2-25738548569b.webp",
+              "width": 600,
+              "height": 1200,
+              "bytes": 29680,
+              "sha256": "25738548569b78fccb9e87ecbb75c0dd8ea7d9ec98dde05206e2b6f7f4a13497"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0728-female-anatomical-white-v1-thumb-4be3ea38b8b7.webp",
+            "width": 120,
+            "height": 240,
+            "bytes": 2320,
+            "sha256": "4be3ea38b8b730304dbc1e7237f54ab9df4a14fbc4394ec98e20c711d1e8b38f"
+          },
+          "processingSignature": "143554030edb83c10e9e4836d189a74e6464527e8ccfde72b59a0a193038673c",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0728-female-anatomical-white-v1.png",
+            "width": 1254,
+            "height": 1254,
+            "bytes": 1487701,
+            "sha256": "d7a5ff93521fa511b13e33247bd9d0b9674328a8fa8632c0fa287625715c990e"
+          }
+        }
+      ]
+    }
+  ]
+}

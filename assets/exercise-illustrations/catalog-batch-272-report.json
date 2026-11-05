@@ -1,0 +1,81 @@
+{
+  "batch": 272,
+  "runId": "1400f64e-c38d-4323-9bfb-3a59eb1b9c03",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "trigger": "2026-11-04T00:12:25.209Z",
+  "purpose": "batch272 scheduled male continuation",
+  "started": "2026-11-04T00:12:56.888637+00:00",
+  "completedAt": "2026-11-04T00:21:42.648510+00:00",
+  "actualToolName": "image_gen__imagegen",
+  "calls": 4,
+  "newCandidateSets": 4,
+  "exerciseIds": [
+    "2273",
+    "2274",
+    "2275",
+    "2277"
+  ],
+  "variants": [
+    "male"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 961,
+    "remainingVariants": 10303,
+    "approvedVariants": 0,
+    "blockedVariants": 314,
+    "knownPoseImages": 1825,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 588,
+      "remainingVariants": 5044,
+      "blockedVariants": 195
+    }
+  },
+  "reviewNotes": {
+    "2273": "Three poses show consistent image-left target, guard, straight rear-hand punch with rear heel pivot, and return. Red shoulder laterality switches between guard and punch instead of consistently marking working right deltoid; block for highlight consistency. Qualified review of lead-hand guard, hip rotation, wrist pronation, stance and fist anatomy.",
+    "2274": "Three positions show right-side dip, bent-arm rising right fist and return to guard, opposite hand near chin and consistent stance/target. Red remains working right shoulder, clothing opaque and fists framed. Qualified review needed for uppercut palm orientation, leg/hip drive, punch range, shoulder mapping and normal fist/thumb anatomy.",
+    "2275": "Three poses show left-side dip with fist low, bent left fist raised in front of torso and return to guard, opposite right fist maintained near face. Left deltoid red consistent, clothing opaque. Qualified review needed for clear upward punch range versus merely returning to guard, palm orientation, leg/hip drive, target trajectory and fist anatomy.",
+    "2277": "Two plate-loaded chest-press positions, handles retracted then forward with elbows nearly straight, back supported and feet planted. Machine levers rotate and plain chest teaching ellipses remain on intact tank. Qualified review of handle mid-chest height, soft lockout, shoulder-blade position, lever/pivot loading geometry, grip and chest mapping."
+  },
+  "blockingIssues": {
+    "2273": [
+      "Shoulder highlight switches laterality between guard and punch; consistently mark working right deltoid."
+    ]
+  },
+  "deferred": {
+    "2276": "Machine-specific hand/arm support unspecified; technique/equipment planning requires clarification."
+  },
+  "tests": 7,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "workerSyncResult": {
+    "statuses": {
+      "generated": 961,
+      "pending": 10303
+    },
+    "remaining": 10303,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 1482220085
+  },
+  "publicationIndexUnchanged": true,
+  "savedMasters": [
+    "assets/exercise-illustrations/generated/2273-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/2274-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/2275-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/2277-male-anatomical-white-v1.png"
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "1580",
+      "variant": "male",
+      "key": "1580-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand with feet shoulder-width apart and hands gently behind your head. Keep elbows back and chest open."
+        },
+        {
+          "key": "p2",
+          "caption": "Bend your hips and knees until thighs are near parallel, keeping your feet flat and knees aligned with toes. Stand back up without pulling your neck."
+        }
+      ],
+      "prompt": "Use case scientific-educational. Original premium ADULT male detailed anatomical exercise illustration canonical1580 PRISONER SQUAT. TWO equal square cells side by side WIDE2:1 landscape same full body person camera scale FRONT-SIDE three-quarter view facing RIGHT. BODYWEIGHT NO equipment. BOTH hands gently behind HEAD fingers lightly touching/interlaced behind occiput, elbows spread outward/back chest open, no neck pulling. Same hands/elbows/head alignment BOTH poses. Feet SHOULDER width toes slightly outward full soles flat same position. LEFT START tall standing hips/knees extended soft ribs/pelvis stacked neutral spine. RIGHT BOTTOM squat hips BACK/DOWN thighs approximately PARALLEL FLOOR, both knees track toes, chest lifted torso moderate forward lean neutral long back neck aligned, heels planted. PRIMARY BOTH QUADRICEPS FRONT thighs RED ONLY: exposed lower front thigh fine red anatomy, upper covered FRONT thigh only soft DIFFUSE red tint over INTACT black shorts. No glute/hamstring/calf red. Plain fabric broad real folds NO radial stars or fibers/muscle lobes through fabric. Detailed fine grayscale other exposed anatomy realistic hands fingers proportions. Full opaque BLACK tank wraps FRONT SIDES BACK and BLACK MID-THIGH shorts cover FRONT SIDES BACK SEAT CROTCH continuous hems seams no cutaways/transparency. Black shoes. Pure WHITE background soft shadows generous12percent margins full head outspread elbows hands and feet within EACH SQUARE uncropped. Equal male/female quality. Original project reference rendering STYLE ONLY ignore bench pushup/chest red. No text labels captions arrows extra people.",
+      "inspectionNote": "Two prisoner squat candidates, four poses, two built-in calls. Hands behind head with elbows out, standing to near-parallel squat, flat feet and quadriceps red. Full opaque clothes and detailed grayscale exposed anatomy retained. Qualified hand/neck pressure, finger contact hidden behind head, depth, torso/neck alignment, knee tracking and cloth tint require human review. Original project artwork rendering style only, no upstream licensed input. Exact prompts/originals saved. No anatomy or clothing approval or publication. Seven pipeline checks do not establish anatomical accuracy.",
+      "canonicalName": "prisoner squat",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "quads"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Two prisoner squat candidates, four poses, two built-in calls. Hands behind head with elbows out, standing to near-parallel squat, flat feet and quadriceps red. Full opaque clothes and detailed grayscale exposed anatomy retained. Qualified hand/neck pressure, finger contact hidden behind head, depth, torso/neck alignment, knee tracking and cloth tint require human review. Original project artwork rendering style only, no upstream licensed input. Exact prompts/originals saved. No anatomy or clothing approval or publication. Seven pipeline checks do not establish anatomical accuracy.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/1580-male-anatomical-white-v1-p1-51485eb34416.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 23758,
+          "sha256": "51485eb344169b3e291bece02e951a0b1cfc6c3ccfc229a4bfe0c37965f1fc00"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/1580-male-anatomical-white-v1-p2-640c015a6574.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 25356,
+          "sha256": "640c015a65743e5c27c56c2481945e6c551888fb1fec221f3c232a67c110324c"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-210.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/1580-male-anatomical-white-v1-thumb-950d1827a221.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2532,
+        "sha256": "950d1827a2215a111ceefed30efaf0960a01409a36f1df15509cb387e33d22bd"
+      },
+      "processingSignature": "e1076e779b3bdc118515712baee02ebf6e737a66707099e41ee503f527fcd15e",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1580-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1356762,
+        "sha256": "e2843d4e2ca19ff1c13590b41e5e1a7a772b6028e40f7b3e95c0bc5c274e0380"
+      }
+    },
+    {
+      "exerciseId": "1580",
+      "variant": "female",
+      "key": "1580-female-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand with feet shoulder-width apart and hands gently behind your head. Keep elbows back and chest open."
+        },
+        {
+          "key": "p2",
+          "caption": "Bend your hips and knees until thighs are near parallel, keeping your feet flat and knees aligned with toes. Stand back up without pulling your neck."
+        }
+      ],
+      "prompt": "Use case scientific-educational. Original premium ADULT female detailed anatomical exercise illustration canonical1580 PRISONER SQUAT. TWO equal square cells side by side WIDE2:1 landscape same full body person camera scale FRONT-SIDE three-quarter view facing RIGHT. BODYWEIGHT NO equipment. BOTH hands gently behind HEAD fingers lightly touching/interlaced behind occiput, elbows spread outward/back chest open, no neck pulling. Same hands/elbows/head alignment BOTH poses. Feet SHOULDER width toes slightly outward full soles flat same position. LEFT START tall standing hips/knees extended soft ribs/pelvis stacked neutral spine. RIGHT BOTTOM squat hips BACK/DOWN thighs approximately PARALLEL FLOOR, both knees track toes, chest lifted torso moderate forward lean neutral long back neck aligned, heels planted. PRIMARY BOTH QUADRICEPS FRONT thighs RED ONLY: exposed lower front thigh fine red anatomy, upper covered FRONT thigh only soft DIFFUSE red tint over INTACT black shorts. No glute/hamstring/calf red. Plain fabric broad real folds NO radial stars or fibers/muscle lobes through fabric. Detailed fine grayscale other exposed anatomy realistic hands fingers proportions. Full opaque BLACK tank wraps FRONT SIDES BACK and BLACK MID-THIGH shorts cover FRONT SIDES BACK SEAT CROTCH continuous hems seams no cutaways/transparency. Black shoes. Pure WHITE background soft shadows generous12percent margins full head outspread elbows hands and feet within EACH SQUARE uncropped. Equal male/female quality. Original project reference rendering STYLE ONLY ignore bench pushup/chest red. No text labels captions arrows extra people.",
+      "inspectionNote": "Two prisoner squat candidates, four poses, two built-in calls. Hands behind head with elbows out, standing to near-parallel squat, flat feet and quadriceps red. Full opaque clothes and detailed grayscale exposed anatomy retained. Qualified hand/neck pressure, finger contact hidden behind head, depth, torso/neck alignment, knee tracking and cloth tint require human review. Original project artwork rendering style only, no upstream licensed input. Exact prompts/originals saved. No anatomy or clothing approval or publication. Seven pipeline checks do not establish anatomical accuracy.",
+      "canonicalName": "prisoner squat",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "quads"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Two prisoner squat candidates, four poses, two built-in calls. Hands behind head with elbows out, standing to near-parallel squat, flat feet and quadriceps red. Full opaque clothes and detailed grayscale exposed anatomy retained. Qualified hand/neck pressure, finger contact hidden behind head, depth, torso/neck alignment, knee tracking and cloth tint require human review. Original project artwork rendering style only, no upstream licensed input. Exact prompts/originals saved. No anatomy or clothing approval or publication. Seven pipeline checks do not establish anatomical accuracy.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/1580-female-anatomical-white-v1-p1-966f92c5acf9.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 22306,
+          "sha256": "966f92c5acf94558e83759c87e25fb2189099dc72a6da715e8cbe103e4d615c5"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/1580-female-anatomical-white-v1-p2-248f158a9daf.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 21604,
+          "sha256": "248f158a9daf6eff2510eedec8429db89cc7245b8336bfbe78fbc732b4c9d686"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-210.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/1580-female-anatomical-white-v1-thumb-3de6e229d085.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2488,
+        "sha256": "3de6e229d085d88950165b682ff3d0be22f8ff7af5599cd5c4387ef848dda911"
+      },
+      "processingSignature": "b72712fa64dcfb63adb876e5fc11a9b4909aaed734feaec0c0690caa6091a82d",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1580-female-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1271522,
+        "sha256": "a2ad26f321b42d9ca9d4cc9651fc2861a38ffee84e7f77e182c42eb4cb8169b6"
+      }
+    }
+  ]
+}

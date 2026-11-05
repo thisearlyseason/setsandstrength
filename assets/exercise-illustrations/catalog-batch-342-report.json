@@ -1,0 +1,82 @@
+{
+  "batch": 342,
+  "runId": "903ced18-9f40-476f-816b-382b342d6d45",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "trigger": "2026-11-04T11:30:31.752Z",
+  "purpose": "batch342 scheduled male continuation",
+  "started": "2026-11-04T11:30:46.298424+00:00",
+  "completedAt": "2026-11-04T11:35:27.174585+00:00",
+  "actualToolName": "image_gen__imagegen",
+  "calls": 4,
+  "newCandidateSets": 4,
+  "exerciseIds": [
+    "3287",
+    "3296",
+    "3299",
+    "3300"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1226,
+    "remainingVariants": 10038,
+    "approvedVariants": 0,
+    "blockedVariants": 452,
+    "knownPoseImages": 2401,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 853,
+      "remainingVariants": 4779,
+      "blockedVariants": 333
+    }
+  },
+  "reviewNotes": {
+    "3287": "Straight-leg bench dip with heels grounded, hips in front of edge and bent-elbow lower phase. Opaque clothing and exposed triceps highlights. Qualified shoulder range, hand contact and bilateral elbow anatomy review pending.",
+    "3296": "Horizontal face-up suspended front lever, straight arms/legs and opaque clothes. Hands appear mixed rather than matching overhand grip; correction flagged. Qualified shoulder, wrist and full-body alignment review pending.",
+    "3299": "Single full planche, palms grounded with shoulders ahead of wrists, straight arms and horizontal airborne legs. Opaque clothes/plain abdomen wash. Qualified wrist/finger anatomy, shoulder loading and head alignment review pending.",
+    "3300": "Single toe-supported plank lean with opaque shorts, but red segmented abdominal anatomy appears through tank and forward shoulder lean is too subtle. Qualified wrist, elbow and neck review pending."
+  },
+  "blockingIssues": {
+    "3296": [
+      "Correct mixed-looking grip to consistent bilateral overhand grip as canonical record requires."
+    ],
+    "3300": [
+      "Replace abdominal anatomical segments through tank with plain uniform wash on opaque fabric.",
+      "Make forward shoulder position past wrists clearly visible for lean planche."
+    ]
+  },
+  "deferred": {
+    "3290": "One-arm weighted pull-up description lacks weight attachment setup and instruction uses width grip with one hand.",
+    "3291": "Stalder gymnastics name/description conflicts with standing squat instructions.",
+    "3292": "Elevator name and upper-back primary mapping uncertain for described hip hinge.",
+    "3294": "Archer push-up description conflicts with arm extended parallel to ground instruction.",
+    "3295": "Front lever description conflicts with leg-only horizontal lift.",
+    "3297": "Back lever description conflicts with forward leg lift without rotation instructions.",
+    "3298": "Straddle planche hold conflicts with grounded push-up instructions."
+  },
+  "tests": 7,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "workerSyncResult": {
+    "statuses": {
+      "generated": 1226,
+      "pending": 10038
+    },
+    "remaining": 10038,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 1871528801
+  },
+  "publicationIndexUnchanged": true
+}

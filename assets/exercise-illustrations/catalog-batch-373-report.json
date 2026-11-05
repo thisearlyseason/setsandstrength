@@ -1,0 +1,55 @@
+{
+  "batch": 373,
+  "runId": "d8492adf-8cc2-422e-ae72-cb6f35993ff6",
+  "builtInImageGenAvailable": true,
+  "anatomyReview": "pending",
+  "publication": "none",
+  "deferred": {
+    "3499": "Foot-assisted torso-over-bar pullover range/geometry needs clarification."
+  },
+  "coverageAfter": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1344,
+    "remainingVariants": 9920,
+    "approvedVariants": 0,
+    "blockedVariants": 520,
+    "knownPoseImages": 2661,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 971,
+      "remainingVariants": 4661,
+      "blockedVariants": 401
+    }
+  },
+  "paidWorker": {
+    "statuses": {
+      "generated": 1344,
+      "pending": 9920
+    },
+    "remaining": 9920,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 2045188640
+  },
+  "pipelineTests": "7 passed, 0 failed",
+  "approvedIndexUnchanged": true,
+  "existingUserApprovalsPreserved": 1306,
+  "generatedIds": [
+    "3500",
+    "3501",
+    "3502",
+    "3503"
+  ]
+}

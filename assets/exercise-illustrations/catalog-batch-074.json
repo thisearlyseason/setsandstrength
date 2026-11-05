@@ -1,0 +1,839 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "0479",
+      "variant": "male",
+      "key": "0479-male-anatomical-white-v2",
+      "layout": {
+        "columns": 3,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand in front of a sturdy step"
+        },
+        {
+          "key": "p2",
+          "caption": "Place one whole foot on the step"
+        },
+        {
+          "key": "p3",
+          "caption": "Step up and drive the other knee high"
+        }
+      ],
+      "prompt": "Correct this original three-panel male high-knee step-up illustration. Maintain same grayscale anatomical exposed arms/calves, man, white background, full step apparatus, view facing IMAGE LEFT, and three sequential panels. Critical continuity: in middle panel the NEAR leg (closest camera) is lead foot fully on step. In RIGHT panel that SAME NEAR leg must be straight supporting body with its whole foot on step; FAR leg is the lifted trailing knee, bent high toward chest. DO NOT lift near leg in right panel. Keep upright torso, level pelvis, free balancing arms. Repaint ALL shorts in ALL THREE panels as fully opaque BLACK loose knee-length athletic shorts wrapping BOTH thighs, FRONT, SIDES, REAR, SEAT and CROTCH without any muscle windows or openings. Broad cloth wrinkles and stitched seams only. No buttock anatomy, thigh muscles, cutaway, translucent panels or anatomical silhouettes inside shorts. Hem ends just above knees even on raised thigh. Shirt fully opaque black on front/back/sides. Red highlight ONLY a soft diffuse blurry patch PRINTED ON BLACK shorts at the SUPPORTING/LEAD quadriceps: near bent lead thigh middle panel; same near straight support thigh right panel. No red on lifted far leg in last panel, no red on exposed skin. Keep all figures and steps within evenly spaced panel areas, with ample margin above heads and below step. No text.",
+      "inspectionNote": "Three opaque-clothed phases saved; lead-leg identity and endpoint support-thigh highlight need correction and human review.",
+      "canonicalName": "high knee step up",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "quads"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original generation from exercise metadata and user-selected style. No upstream image input."
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Three opaque-clothed phases saved; lead-leg identity and endpoint support-thigh highlight need correction and human review.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0479-male-anatomical-white-v2-p1-61e7abf82fb7.webp",
+          "width": 591,
+          "height": 887,
+          "bytes": 20804,
+          "sha256": "61e7abf82fb7abe956f713f57290f52f7c180c001de14feb818dd43deef25c82"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0479-male-anatomical-white-v2-p2-0939caa24920.webp",
+          "width": 592,
+          "height": 887,
+          "bytes": 23256,
+          "sha256": "0939caa24920f40e52f22627a515591bdd3c8455ef54ff3144b0c4399b2d4f75"
+        },
+        {
+          "pose": "p3",
+          "path": "/workout/illustration-pilot/0479-male-anatomical-white-v2-p3-4c378cc80004.webp",
+          "width": 591,
+          "height": 887,
+          "bytes": 22764,
+          "sha256": "4c378cc800043b3f2d2da2eb3eff0e2980654fe8c99e24866df2582a827fe74b"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0479-male-anatomical-white-v2-thumb-846c0371a5c0.webp",
+        "width": 160,
+        "height": 240,
+        "bytes": 2306,
+        "sha256": "846c0371a5c0c805ea2af70bb42e2d39f22e3ae6b4063fed37dade57bc2b7cbc"
+      },
+      "processingSignature": "ef5bd2780ae7fb4ebe36ee283383ed3222afb5ddb0ad90fdd6e97fab16f732d7",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0479-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1740332,
+        "sha256": "98bfdcc843eb03dbb2c6daceaf5f5b1e7c47a125f4e1550e55ae2d06ce53f9ea"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0479",
+          "variant": "male",
+          "key": "0479-male-anatomical-white-v1",
+          "layout": {
+            "columns": 3,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Stand in front of a sturdy step"
+            },
+            {
+              "key": "p2",
+              "caption": "Place one whole foot on the step"
+            },
+            {
+              "key": "p3",
+              "caption": "Step up and drive the other knee high"
+            }
+          ],
+          "prompt": "Premium detailed scientific anatomical fitness illustration. Realistic adult MALE. Silver neutral GRAYSCALE exposed anatomy with fine muscle-fiber STRIATIONS and tendons on arms legs, face/hands monochrome not flesh colored. Pure white background soft shadows, SAME model/body proportions clothing camera light/scale/equipment across phases. Full head fingertips feet and entire mat/bench inside each panel, broad WHITE margins/gutters. OPAQUE BLACK sleeveless shirt fully covers chest abdomen BACK sides; opaque knee-length black shorts completely cover FRONT SIDES REAR SEAT CROTCH with closed hems seams realistic fabric folds; black trainers. No cutaway/transparent clothing or naked muscle windows. Under-clothes target highlight ONLY faint BLURRY RED surface tint on intact BLACK FABRIC with BLACK FOLDS crossing tint; NO muscle divisions or bellybutton on garment. Red primary muscles only, secondary gray. No text numbers captions labels arrows logos. THREE equal SIDE-BY-SIDE panels extra-WIDE landscape. HIGH KNEE STEP UP, bodyweight. Side-front three-quarter view shows entire sturdy low rectangular exercise STEP/BOX, same step shape and position each panel, no weights. Same model faces IMAGE LEFT in all phases. PANEL1 stand upright in front of step with both feet on floor. PANEL2 place one ENTIRE lead foot on top of step, trailing foot remains on floor, lead knee bent. PANEL3 drive through lead foot and extend lead hip/knee to stand ABOVE step, SAME entire lead foot planted on same step top; TRAILING leg knee lifts toward hip/chest height in front without foot touching step, not kick backward. Arms counterbalance naturally, upright torso, stable lead knee tracks toes, no floating lead foot. Same lead leg identity panel2/3 and same camera; hip-width lateral spacing not tightrope. Primary QUADRICEPS on supporting lead thigh red only as diffuse print on full opaque black SHORTS, no exposed upper thigh window; glutes/hamstrings secondary gray. Both hands empty, whole step and all feet inside margins.",
+          "inspectionNote": "Three opaque-clothed phases saved; lead-leg identity and endpoint support-thigh highlight need correction and human review.",
+          "blockingIssues": [
+            "Step-up lead/support leg appears to switch between second and third panels; red endpoint highlight is on lifted thigh instead of supporting quadriceps."
+          ],
+          "canonicalName": "high knee step up",
+          "styleVersion": "white-v1",
+          "equipment": "body weight",
+          "primaryMuscles": [
+            "quads"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original generation from exercise metadata and user-selected style. No upstream image input."
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Three opaque-clothed phases saved; lead-leg identity and endpoint support-thigh highlight need correction and human review.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0479-male-anatomical-white-v1-p1-6899eeabb753.webp",
+              "width": 591,
+              "height": 887,
+              "bytes": 23906,
+              "sha256": "6899eeabb753f19019689541131bfb1484315d38a980c02d0f132de7cade0def"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0479-male-anatomical-white-v1-p2-ec50fc0f6e35.webp",
+              "width": 592,
+              "height": 887,
+              "bytes": 27616,
+              "sha256": "ec50fc0f6e3598f6a03fc91bc87c93fff16f4570e3db847626c00025f9e26286"
+            },
+            {
+              "pose": "p3",
+              "path": "/workout/illustration-pilot/0479-male-anatomical-white-v1-p3-a64cd9be04e9.webp",
+              "width": 591,
+              "height": 887,
+              "bytes": 27270,
+              "sha256": "a64cd9be04e9cababd4216b58b05986806b37cbb445ce70650b299a26ed84322"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0479-male-anatomical-white-v1-thumb-7ef1aac4b924.webp",
+            "width": 160,
+            "height": 240,
+            "bytes": 2264,
+            "sha256": "7ef1aac4b924445c43ab5edf2ecf36b2dfc458620c87b70c48a9402dc5615ab4"
+          },
+          "processingSignature": "784af3b41f00bdcb9470cca9e50b260c21b361a3acc5d4f3725daa939ec8561c",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0479-male-anatomical-white-v1.png",
+            "width": 1774,
+            "height": 887,
+            "bytes": 1541017,
+            "sha256": "a093e525cd824c985af62ba8a820c089688c983c030d29fa6b468fedfa4b1a94"
+          }
+        }
+      ],
+      "blockingIssues": [
+        "Lead/support leg still appears to switch between phases; exposed upper-thigh muscle and red highlight at shorts hem remain. Correct full opaque thigh coverage and support-leg continuity before publication."
+      ]
+    },
+    {
+      "exerciseId": "0479",
+      "variant": "female",
+      "key": "0479-female-anatomical-white-v1",
+      "layout": {
+        "columns": 3,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand in front of a sturdy step"
+        },
+        {
+          "key": "p2",
+          "caption": "Place one whole foot on the step"
+        },
+        {
+          "key": "p3",
+          "caption": "Step up and drive the other knee high"
+        }
+      ],
+      "prompt": "Premium detailed scientific anatomical fitness illustration. Realistic adult FEMALE. Silver neutral GRAYSCALE exposed anatomy with fine muscle-fiber STRIATIONS and tendons on arms legs, face/hands monochrome not flesh colored. Pure white background soft shadows, SAME model/body proportions clothing camera light/scale/equipment across phases. Full head fingertips feet and entire mat/bench inside each panel, broad WHITE margins/gutters. OPAQUE BLACK sleeveless shirt fully covers chest abdomen BACK sides; opaque knee-length black shorts completely cover FRONT SIDES REAR SEAT CROTCH with closed hems seams realistic fabric folds; black trainers. No cutaway/transparent clothing or naked muscle windows. Under-clothes target highlight ONLY faint BLURRY RED surface tint on intact BLACK FABRIC with BLACK FOLDS crossing tint; NO muscle divisions or bellybutton on garment. Red primary muscles only, secondary gray. No text numbers captions labels arrows logos. THREE equal SIDE-BY-SIDE panels extra-WIDE landscape. HIGH KNEE STEP UP, bodyweight. Side-front three-quarter view shows entire sturdy low rectangular exercise STEP/BOX, same step shape and position each panel, no weights. Same model faces IMAGE LEFT in all phases. PANEL1 stand upright in front of step with both feet on floor. PANEL2 place one ENTIRE lead foot on top of step, trailing foot remains on floor, lead knee bent. PANEL3 drive through lead foot and extend lead hip/knee to stand ABOVE step, SAME entire lead foot planted on same step top; TRAILING leg knee lifts toward hip/chest height in front without foot touching step, not kick backward. Arms counterbalance naturally, upright torso, stable lead knee tracks toes, no floating lead foot. Same lead leg identity panel2/3 and same camera; hip-width lateral spacing not tightrope. Primary QUADRICEPS on supporting lead thigh red only as diffuse print on full opaque black SHORTS, no exposed upper thigh window; glutes/hamstrings secondary gray. Both hands empty, whole step and all feet inside margins.",
+      "inspectionNote": "Three phases with fully opaque clothing; supporting quadriceps is red at endpoint, but leg identity and initial orientation need review.",
+      "blockingIssues": [
+        "Lead leg appears to switch between second and third panels; first standing panel faces away from its step. Correct continuity before publication."
+      ],
+      "canonicalName": "high knee step up",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "quads"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original generation from exercise metadata and user-selected style. No upstream image input."
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Three phases with fully opaque clothing; supporting quadriceps is red at endpoint, but leg identity and initial orientation need review.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0479-female-anatomical-white-v1-p1-347eccec40e5.webp",
+          "width": 512,
+          "height": 1024,
+          "bytes": 23202,
+          "sha256": "347eccec40e567004b8f2eb34464a6959bc39839fb8ed9712e70539385748f66"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0479-female-anatomical-white-v1-p2-f15991657f72.webp",
+          "width": 512,
+          "height": 1024,
+          "bytes": 25260,
+          "sha256": "f15991657f72f7e3ad4ca7cd7b8581d715d3facaceea7f2a2234526fa0f3d39a"
+        },
+        {
+          "pose": "p3",
+          "path": "/workout/illustration-pilot/0479-female-anatomical-white-v1-p3-706aae459380.webp",
+          "width": 512,
+          "height": 1024,
+          "bytes": 26832,
+          "sha256": "706aae4593808c406eed91c1ab9579803c1da9b63118439e8ce474c3d52ddb28"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0479-female-anatomical-white-v1-thumb-7d0e5b02e387.webp",
+        "width": 120,
+        "height": 240,
+        "bytes": 1902,
+        "sha256": "7d0e5b02e3878ee7a8ac370d4a0f826be46514e4834e27fb8c41052795a273e7"
+      },
+      "processingSignature": "1db84cc46da3130d791a344802b56236c08a300fb8a1d12bcaeb324446bfc9d4",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0479-female-anatomical-white-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1503676,
+        "sha256": "5be1530e2063c096ed5842d23a322d3e3f69ea384c8c5d553a1c24e90359f949"
+      }
+    },
+    {
+      "exerciseId": "0482",
+      "variant": "male",
+      "key": "0482-male-anatomical-white-v2",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Lie supported with knees bent above hips"
+        },
+        {
+          "key": "p2",
+          "caption": "Curl pelvis slightly off floor, bringing knees toward chest"
+        }
+      ],
+      "prompt": "Edit this original project two-panel hip crunch illustration. Preserve both poses, head/shoulders on mat, limbs, face, camera, shoes, shorts, white background and panel layout exactly. Repaint ONLY the entire sleeveless shirt as continuous fully OPAQUE matte BLACK sports cloth, closed and wrapping torso front, sides and back, with natural broad cloth wrinkles and seams. Remove every abdominal muscle segment, six-pack, navel, skin/anatomical window, translucent effect and muscle fiber from the shirt. Instead apply a very faint broad blurry red spray-painted patch on BLACK fabric across abdomen, with no anatomical outlines, no stripes or segmented areas. Exposed arms/legs retain existing grayscale anatomical detail. Keep image text-free.",
+      "inspectionNote": "Two supine phases retain head and shoulders on mat with posterior pelvic curl; clothing is continuous but abdominal surface is over-rendered.",
+      "canonicalName": "hip crunch (knees bent)",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "abs"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original generation from exercise metadata and user-selected style. No upstream image input."
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Two supine phases retain head and shoulders on mat with posterior pelvic curl; clothing is continuous but abdominal surface is over-rendered.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0482-male-anatomical-white-v2-p1-d6039f32f309.webp",
+          "width": 971,
+          "height": 809,
+          "bytes": 31964,
+          "sha256": "d6039f32f309052b496983026d01cf8847c7bfb13c5c365f8e9c7a221a282fba"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0482-male-anatomical-white-v2-p2-bce37a461c56.webp",
+          "width": 971,
+          "height": 809,
+          "bytes": 32394,
+          "sha256": "bce37a461c562a78b61d70e85bc195b8be45aed750dd0dfb8f4f7edb9d528fd1"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0482-male-anatomical-white-v2-thumb-05f7fc5aa72b.webp",
+        "width": 240,
+        "height": 200,
+        "bytes": 2646,
+        "sha256": "05f7fc5aa72bc84fcae3f9e3b1e372901be0cb5f5a85dc075e72935482d86ea5"
+      },
+      "processingSignature": "03a09c62e4254130a7d2fdcc81604dabadadaa7459568c6f51b202db4150d4f7",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0482-male-anatomical-white-v2.png",
+        "width": 1942,
+        "height": 809,
+        "bytes": 1760002,
+        "sha256": "9750ac6a9a74bae5ffc48e68ee15e86188915f744ecc7874b3428e82841ed042"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0482",
+          "variant": "male",
+          "key": "0482-male-anatomical-white-v1",
+          "layout": {
+            "columns": 2,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Lie supported with knees bent above hips"
+            },
+            {
+              "key": "p2",
+              "caption": "Curl pelvis slightly off floor, bringing knees toward chest"
+            }
+          ],
+          "prompt": "Premium detailed scientific anatomical fitness illustration. Realistic adult MALE. Silver neutral GRAYSCALE exposed anatomy with fine muscle-fiber STRIATIONS and tendons on arms legs, face/hands monochrome not flesh colored. Pure white background soft shadows, SAME model/body proportions clothing camera light/scale/equipment across phases. Full head fingertips feet and entire mat/bench inside each panel, broad WHITE margins/gutters. OPAQUE BLACK sleeveless shirt fully covers chest abdomen BACK sides; opaque knee-length black shorts completely cover FRONT SIDES REAR SEAT CROTCH with closed hems seams realistic fabric folds; black trainers. No cutaway/transparent clothing or naked muscle windows. Under-clothes target highlight ONLY faint BLURRY RED surface tint on intact BLACK FABRIC with BLACK FOLDS crossing tint; NO muscle divisions or bellybutton on garment. Red primary muscles only, secondary gray. No text numbers captions labels arrows logos. TWO equal SIDE-BY-SIDE poses. HIP CRUNCH KNEES BENT, controlled REVERSE CRUNCH. Consistent SIDE camera, same facing IMAGE LEFT both panels, full thin gray mat. Adult supine, arms straight by sides with palms on mat, head/shoulder blades REST on floor both phases. LEFT hips/knees about90degrees legs lifted above hips, shins parallel floor, pelvis/lower back supported. RIGHT curl PELVIS slightly off mat by posterior pelvic tilt bringing bent knees toward chest, hips rise only small distance, shoulders and head remain supported, NO shoulderstand, neck loading or hand pulling head. Knees remain bent with similar angle and feet together, motion is pelvic curl not legs kicking overhead. Arms/head position unchanged, palms remain grounded, controlled modest arc not momentum. Red abs only faint diffuse tint printed on opaque black shirt with normal cloth folds; no six-pack/navel windows. Full rear/crotch shorts intact through hip flexion.",
+          "inspectionNote": "Two supine phases retain head and shoulders on mat with posterior pelvic curl; clothing is continuous but abdominal surface is over-rendered.",
+          "blockingIssues": [
+            "Abdominal muscle divisions appear through shirt; replace with continuous opaque black fabric and diffuse red tint without muscle cutaway."
+          ],
+          "canonicalName": "hip crunch (knees bent)",
+          "styleVersion": "white-v1",
+          "equipment": "body weight",
+          "primaryMuscles": [
+            "abs"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original generation from exercise metadata and user-selected style. No upstream image input."
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Two supine phases retain head and shoulders on mat with posterior pelvic curl; clothing is continuous but abdominal surface is over-rendered.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0482-male-anatomical-white-v1-p1-a4832c221a7d.webp",
+              "width": 971,
+              "height": 809,
+              "bytes": 37064,
+              "sha256": "a4832c221a7d2835e129ac18229c12b1eaace8ca41c8ff11ea522d691f240a8a"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0482-male-anatomical-white-v1-p2-23968c751e81.webp",
+              "width": 971,
+              "height": 809,
+              "bytes": 37856,
+              "sha256": "23968c751e819a6720b8ddd28dbe687ac26312f2096314389a5fe744aba884eb"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0482-male-anatomical-white-v1-thumb-0193fbc94281.webp",
+            "width": 240,
+            "height": 200,
+            "bytes": 2596,
+            "sha256": "0193fbc942818048504c22da9acc9bd79bc7b4cfed4f6e1791ad27c65aa4b7da"
+          },
+          "processingSignature": "25242635ebabe637faac2a7c2141b1336223b8881e04bc01a67a022cad0adbb1",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0482-male-anatomical-white-v1.png",
+            "width": 1942,
+            "height": 809,
+            "bytes": 1497612,
+            "sha256": "3d37091e20738484bfea3ea1f2221023385e9633e70cc9cd45e17aed1d182198"
+          }
+        }
+      ],
+      "blockingIssues": [
+        "Faint abdominal segmentation remains within shirt tint; confirm fully opaque fabric treatment before publication."
+      ]
+    },
+    {
+      "exerciseId": "0482",
+      "variant": "female",
+      "key": "0482-female-anatomical-white-v2",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Lie supported with knees bent above hips"
+        },
+        {
+          "key": "p2",
+          "caption": "Curl pelvis slightly off floor, bringing knees toward chest"
+        }
+      ],
+      "prompt": "Edit this original project two-panel female hip crunch illustration. Preserve left/start panel unchanged. Correct RIGHT/end panel to show a small controlled reverse crunch: head and both shoulder blades stay on mat, arms straight on mat palms down, curl pelvis posteriorly so tailbone rises a few centimeters, lower back rounds into mat, and BOTH bent knees move distinctly toward her CHEST (toward IMAGE LEFT), above lower abdomen rather than above hips. Thighs tilt up-left from pelvis to knees, shins roughly horizontal extending right; keep knee flexion about 90 degrees and shoes paired. No bridge, no lumbar arch, no shoulderstand. Keep fully opaque continuous black shirt and knee-length black shorts wrapping seat and crotch, gray anatomical exposed limbs, same woman/scale/camera/white background. Shirt muscle highlight is a diffuse blurred RED patch ON black cloth without six-pack, navel, anatomical cutaway or exposed torso. Preserve two-panel layout with all mat and shoes in frame. No text.",
+      "inspectionNote": "Two supine views with continuous opaque clothing and head/shoulders resting; endpoint pelvic curl direction requires correction.",
+      "canonicalName": "hip crunch (knees bent)",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "abs"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original generation from exercise metadata and user-selected style. No upstream image input."
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Two supine views with continuous opaque clothing and head/shoulders resting; endpoint pelvic curl direction requires correction.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0482-female-anatomical-white-v2-p1-658844ba2d4e.webp",
+          "width": 971,
+          "height": 809,
+          "bytes": 28198,
+          "sha256": "658844ba2d4e1add3a4adb45e37c84b6b790bb5af7b3e2baa9ecbceb81bda87c"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0482-female-anatomical-white-v2-p2-b9ed9df8bf4d.webp",
+          "width": 971,
+          "height": 809,
+          "bytes": 27796,
+          "sha256": "b9ed9df8bf4d5d8cd8f5af2de477d0a57eef79ce4579d9617a2c63cc97656fea"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0482-female-anatomical-white-v2-thumb-399aecff8488.webp",
+        "width": 240,
+        "height": 200,
+        "bytes": 2420,
+        "sha256": "399aecff8488d5c4dfe3e3c3dacf92098fd369e3eeca7bbb81d6fc5a69b04fd5"
+      },
+      "processingSignature": "f69b5113edf59553c475ecf382860b0c9b47d65844cd145a5f62ac59e398811d",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0482-female-anatomical-white-v2.png",
+        "width": 1942,
+        "height": 809,
+        "bytes": 1704891,
+        "sha256": "88513c64d121b9e18a1a84b46989626c11423c9592a7ebe726001652b24e5caa"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0482",
+          "variant": "female",
+          "key": "0482-female-anatomical-white-v1",
+          "layout": {
+            "columns": 2,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Lie supported with knees bent above hips"
+            },
+            {
+              "key": "p2",
+              "caption": "Curl pelvis slightly off floor, bringing knees toward chest"
+            }
+          ],
+          "prompt": "Premium detailed scientific anatomical fitness illustration. Realistic adult FEMALE. Silver neutral GRAYSCALE exposed anatomy with fine muscle-fiber STRIATIONS and tendons on arms legs, face/hands monochrome not flesh colored. Pure white background soft shadows, SAME model/body proportions clothing camera light/scale/equipment across phases. Full head fingertips feet and entire mat/bench inside each panel, broad WHITE margins/gutters. OPAQUE BLACK sleeveless shirt fully covers chest abdomen BACK sides; opaque knee-length black shorts completely cover FRONT SIDES REAR SEAT CROTCH with closed hems seams realistic fabric folds; black trainers. No cutaway/transparent clothing or naked muscle windows. Under-clothes target highlight ONLY faint BLURRY RED surface tint on intact BLACK FABRIC with BLACK FOLDS crossing tint; NO muscle divisions or bellybutton on garment. Red primary muscles only, secondary gray. No text numbers captions labels arrows logos. TWO equal SIDE-BY-SIDE poses. HIP CRUNCH KNEES BENT, controlled REVERSE CRUNCH. Consistent SIDE camera, same facing IMAGE LEFT both panels, full thin gray mat. Adult supine, arms straight by sides with palms on mat, head/shoulder blades REST on floor both phases. LEFT hips/knees about90degrees legs lifted above hips, shins parallel floor, pelvis/lower back supported. RIGHT curl PELVIS slightly off mat by posterior pelvic tilt bringing bent knees toward chest, hips rise only small distance, shoulders and head remain supported, NO shoulderstand, neck loading or hand pulling head. Knees remain bent with similar angle and feet together, motion is pelvic curl not legs kicking overhead. Arms/head position unchanged, palms remain grounded, controlled modest arc not momentum. Red abs only faint diffuse tint printed on opaque black shirt with normal cloth folds; no six-pack/navel windows. Full rear/crotch shorts intact through hip flexion.",
+          "inspectionNote": "Two supine views with continuous opaque clothing and head/shoulders resting; endpoint pelvic curl direction requires correction.",
+          "blockingIssues": [
+            "Endpoint knees remain away from chest and lumbar shape suggests hip lift rather than controlled posterior pelvic curl; verify and correct movement before publication."
+          ],
+          "canonicalName": "hip crunch (knees bent)",
+          "styleVersion": "white-v1",
+          "equipment": "body weight",
+          "primaryMuscles": [
+            "abs"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original generation from exercise metadata and user-selected style. No upstream image input."
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Two supine views with continuous opaque clothing and head/shoulders resting; endpoint pelvic curl direction requires correction.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0482-female-anatomical-white-v1-p1-49eac8f97fc5.webp",
+              "width": 971,
+              "height": 809,
+              "bytes": 31752,
+              "sha256": "49eac8f97fc5291567b7c7858e10ef77dbc0c18f9f65ca56cf8c118d26299999"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0482-female-anatomical-white-v1-p2-2ca68d5912d0.webp",
+              "width": 971,
+              "height": 809,
+              "bytes": 34210,
+              "sha256": "2ca68d5912d048db1c335a322b0bd522673eb53d9a9dc8f21bb02cf9dd0aa419"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0482-female-anatomical-white-v1-thumb-4aea07777d50.webp",
+            "width": 240,
+            "height": 200,
+            "bytes": 2478,
+            "sha256": "4aea07777d504b3ec770f2320e743cfc88ad4989cc47de22b1eca8c51f3d0ec9"
+          },
+          "processingSignature": "bb0d8b9600ca0ebd13cd7dc9c4ecf23ab3eb5c58cbb941c90ab50493679c3d2d",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0482-female-anatomical-white-v1.png",
+            "width": 1942,
+            "height": 809,
+            "bytes": 1467266,
+            "sha256": "cc477c036e88347042f74ce6306bdb26aabe1e05b364acb3ae131266bb3adad7"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "0493",
+      "variant": "male",
+      "key": "0493-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hold straight-body plank with hands on elevated bench"
+        },
+        {
+          "key": "p2",
+          "caption": "Bend elbows to lower chest toward bench edge"
+        }
+      ],
+      "prompt": "Premium detailed scientific anatomical fitness illustration. Realistic adult MALE. Silver neutral GRAYSCALE exposed anatomy with fine muscle-fiber STRIATIONS and tendons on arms legs, face/hands monochrome not flesh colored. Pure white background soft shadows, SAME model/body proportions clothing camera light/scale/equipment across phases. Full head fingertips feet and entire mat/bench inside each panel, broad WHITE margins/gutters. OPAQUE BLACK sleeveless shirt fully covers chest abdomen BACK sides; opaque knee-length black shorts completely cover FRONT SIDES REAR SEAT CROTCH with closed hems seams realistic fabric folds; black trainers. No cutaway/transparent clothing or naked muscle windows. Under-clothes target highlight ONLY faint BLURRY RED surface tint on intact BLACK FABRIC with BLACK FOLDS crossing tint; NO muscle divisions or bellybutton on garment. Red primary muscles only, secondary gray. No text numbers captions labels arrows logos. TWO equal SIDE-BY-SIDE poses. INCLINE PUSH-UP, slightly wider than shoulder-width hand placement. Same SIDE-front three-quarter camera, person faces IMAGE LEFT both panels, sturdy horizontal flat BENCH fully visible. BOTH palms flat on bench near edge just wider than shoulders, fingers/thumbs secure surface; feet on balls/toes on floor behind, hip width. LEFT elbows extended soft, straight diagonal line head-shoulders-hips-heels, head neutral. RIGHT bend both elbows to lower chest toward SAME bench edge, elbows track about30-45degrees from torso not flared90, whole body stays rigid diagonal no hip sag/pike; head clear of bench and no head-forward chin reach. Same hand and toe locations, no kneeling; bench does not move or change height. RED primary PECTORALS only faint diffuse tint on intact BLACK chest shirt with folds, delts/triceps gray. Full opaque back/seat/crotch clothes and all bench supports, hands, feet within margins.",
+      "inspectionNote": "Two bench-supported incline push-up phases, full equipment and opaque shirt/shorts retained. Straight-body descent and hand contact visually plausible; chest tint on fabric. Qualified anatomy and technique review pending.",
+      "canonicalName": "incline push-up",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "pectorals"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original generation from exercise metadata and user-selected style. No upstream image input."
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Two bench-supported incline push-up phases, full equipment and opaque shirt/shorts retained. Straight-body descent and hand contact visually plausible; chest tint on fabric. Qualified anatomy and technique review pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0493-male-anatomical-white-v1-p1-328cdbeb5d72.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 41136,
+          "sha256": "328cdbeb5d72b5ffc7aeabaf0e95ad9e8425d23cbe571d833774e2fba2936d3b"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0493-male-anatomical-white-v1-p2-ac2b279bca6f.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 35586,
+          "sha256": "ac2b279bca6f78097b37fec29f310182f65a51ff47c84ceb27a3edef5dad8375"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0493-male-anatomical-white-v1-thumb-4e943a7c92cf.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 4064,
+        "sha256": "4e943a7c92cf1882150e01367ffb8a9fedabcc42526dc9607588d3f6fdc73cbc"
+      },
+      "processingSignature": "59cc2a6a772c483571c0519f74a724c2b336f3a777319399c413ff841dc493a4",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1550035,
+        "sha256": "8687fa896cb124fdbd05b9c6257872c0515b462f67f525c99ecc3b7fe7f75034"
+      }
+    },
+    {
+      "exerciseId": "0493",
+      "variant": "female",
+      "key": "0493-female-anatomical-white-v2",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hold straight-body plank with hands on elevated bench"
+        },
+        {
+          "key": "p2",
+          "caption": "Bend elbows to lower chest toward bench edge"
+        }
+      ],
+      "prompt": "Reframe this original two-panel female incline push-up illustration with slightly more white margin around EVERY panel. Preserve the exact woman, fully opaque black shirt/shorts and fabric red chest tint, grayscale anatomical exposed arms/legs, same two exercise phases, hand/toe contacts, body line, bench height, view and equipment. Scale the complete scene in each panel down about ten percent, so the ENTIRE bench including the leftmost end of BOTH support feet, whole bench pad, all hands, head, ponytail and shoes are inside their own panel with ample white clearance. Complete the left bench support foot currently cut off by image boundary, preserving sensible sturdy bench geometry. No text, no other objects, keep equal side-by-side panels.",
+      "inspectionNote": "Two incline push-up phases retain opaque clothing and supported hand/toe contacts; candidate anatomy pending. Outer bench foot meets image edge and should be reframed.",
+      "canonicalName": "incline push-up",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "pectorals"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original generation from exercise metadata and user-selected style. No upstream image input."
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Two incline push-up phases retain opaque clothing and supported hand/toe contacts; candidate anatomy pending. Outer bench foot meets image edge and should be reframed.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0493-female-anatomical-white-v2-p1-9bfb2e07b043.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 31180,
+          "sha256": "9bfb2e07b04330d95ed7825c3ca001118a3d4f67e8e4f68875409e4b7d37cd61"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0493-female-anatomical-white-v2-p2-1f9603f979af.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 28528,
+          "sha256": "1f9603f979afebe4cd7b06ae707c2eb51624471308dd49ecfbcdecc593c8bb05"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0493-female-anatomical-white-v2-thumb-474e6b8590f7.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 3416,
+        "sha256": "474e6b8590f7dcb383561c6e551fedc333411d460853f2812ff3de4e64fc03cb"
+      },
+      "processingSignature": "1dc60e3ffe919dc1b9d567f823f36cf2dc1f1dee9d580cbb732067a90562676f",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0493-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1434450,
+        "sha256": "890f90e279ce3ebebd96041d5513a4d1fad700af51b3f9af9e7d4e0ace5fa1b9"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0493",
+          "variant": "female",
+          "key": "0493-female-anatomical-white-v1",
+          "layout": {
+            "columns": 2,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Hold straight-body plank with hands on elevated bench"
+            },
+            {
+              "key": "p2",
+              "caption": "Bend elbows to lower chest toward bench edge"
+            }
+          ],
+          "prompt": "Premium detailed scientific anatomical fitness illustration. Realistic adult FEMALE. Silver neutral GRAYSCALE exposed anatomy with fine muscle-fiber STRIATIONS and tendons on arms legs, face/hands monochrome not flesh colored. Pure white background soft shadows, SAME model/body proportions clothing camera light/scale/equipment across phases. Full head fingertips feet and entire mat/bench inside each panel, broad WHITE margins/gutters. OPAQUE BLACK sleeveless shirt fully covers chest abdomen BACK sides; opaque knee-length black shorts completely cover FRONT SIDES REAR SEAT CROTCH with closed hems seams realistic fabric folds; black trainers. No cutaway/transparent clothing or naked muscle windows. Under-clothes target highlight ONLY faint BLURRY RED surface tint on intact BLACK FABRIC with BLACK FOLDS crossing tint; NO muscle divisions or bellybutton on garment. Red primary muscles only, secondary gray. No text numbers captions labels arrows logos. TWO equal SIDE-BY-SIDE poses. INCLINE PUSH-UP, slightly wider than shoulder-width hand placement. Same SIDE-front three-quarter camera, person faces IMAGE LEFT both panels, sturdy horizontal flat BENCH fully visible. BOTH palms flat on bench near edge just wider than shoulders, fingers/thumbs secure surface; feet on balls/toes on floor behind, hip width. LEFT elbows extended soft, straight diagonal line head-shoulders-hips-heels, head neutral. RIGHT bend both elbows to lower chest toward SAME bench edge, elbows track about30-45degrees from torso not flared90, whole body stays rigid diagonal no hip sag/pike; head clear of bench and no head-forward chin reach. Same hand and toe locations, no kneeling; bench does not move or change height. RED primary PECTORALS only faint diffuse tint on intact BLACK chest shirt with folds, delts/triceps gray. Full opaque back/seat/crotch clothes and all bench supports, hands, feet within margins.",
+          "inspectionNote": "Two incline push-up phases retain opaque clothing and supported hand/toe contacts; candidate anatomy pending. Outer bench foot meets image edge and should be reframed.",
+          "blockingIssues": [
+            "Outer bench support foot is clipped at left edge in source master; reframe whole apparatus before publication."
+          ],
+          "canonicalName": "incline push-up",
+          "styleVersion": "white-v1",
+          "equipment": "body weight",
+          "primaryMuscles": [
+            "pectorals"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original generation from exercise metadata and user-selected style. No upstream image input."
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Two incline push-up phases retain opaque clothing and supported hand/toe contacts; candidate anatomy pending. Outer bench foot meets image edge and should be reframed.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0493-female-anatomical-white-v1-p1-7951428d5859.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 39086,
+              "sha256": "7951428d58591e8acc52d18602d83c340b212f3032fc1874714cd9236ba61e89"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0493-female-anatomical-white-v1-p2-3dde3b42276b.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 35454,
+              "sha256": "3dde3b42276b6e0417a5eb7fdc76c38c2bd5883b9f9a73eab490c132e6e47e61"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0493-female-anatomical-white-v1-thumb-17cfc7106f64.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 4066,
+            "sha256": "17cfc7106f64b2cbce6b8bfad7ab3272f327143657ea6b0d0755b87be5cba2ce"
+          },
+          "processingSignature": "666e57fe4a9a87e8d413a0517829a6ee1980beffee5035140c87eeb1b7138adb",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0493-female-anatomical-white-v1.png",
+            "width": 1774,
+            "height": 887,
+            "bytes": 1537760,
+            "sha256": "ae95f1078c3119db4c52c7482fb1940955402633290ed66184112ca7467354a0"
+          }
+        }
+      ]
+    }
+  ]
+}

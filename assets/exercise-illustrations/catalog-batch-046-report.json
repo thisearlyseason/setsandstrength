@@ -1,0 +1,89 @@
+{
+  "batch": 46,
+  "trigger": "2026-11-01T10:13:13.987Z",
+  "completedAt": "2026-11-01T10:20:59.718392+00:00",
+  "tool": "image_gen.imagegen",
+  "newCandidateSets": 4,
+  "generationCalls": 6,
+  "exerciseIds": [
+    "0398",
+    "0416"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 180,
+    "remainingVariants": 11084,
+    "approvedVariants": 0,
+    "blockedVariants": 77,
+    "knownPoseImages": 362,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "All pending, none published. Standing curls have detailed neutral grayscale anatomy and full opaque garments; male flesh-tint rendition corrected with history retained. Seated kickback male upper-arm correction retained; both seated variants blocked for canonical hinge range and grip-axis consistency needing qualified review.",
+  "metadataConflictsDeferred": [
+    {
+      "exerciseId": "0312",
+      "issue": "Hammer curl description says neutral grip; instructions rotate palms forward. Deferred rather than guessed."
+    }
+  ],
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 292209093,
+  "savedMasters": [
+    {
+      "exerciseId": "0398",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0398-male-anatomical-white-v2.png",
+        "width": 1919,
+        "height": 820,
+        "bytes": 1644820,
+        "sha256": "f661a21a38d6495c98a7a0f6d8895909c8fff20cab4cac8961d61a8726f399a5"
+      }
+    },
+    {
+      "exerciseId": "0398",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0398-female-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1770631,
+        "sha256": "d2bca9d6595cd152c826ecc6ad7355d7a9d0ba91e32aae6e55492e039963c719"
+      }
+    },
+    {
+      "exerciseId": "0416",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0416-male-anatomical-white-v2.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1470830,
+        "sha256": "c612d5f5ce03ad9f27ae2ffe94a27f9028de59b1422a93eb24a11a6df0e7d305"
+      }
+    },
+    {
+      "exerciseId": "0416",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0416-female-anatomical-white-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1779120,
+        "sha256": "ecac439f7665668665568963198c5b97379831e3bfc181f265dc07648c761b95"
+      }
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "batch": 113,
+  "trigger": "2026-11-02T20:24:52.294Z",
+  "completedAt": "2026-11-02T20:38:18.115825+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 4,
+  "generationCalls": 7,
+  "exerciseIds": [
+    "0699",
+    "0703"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 462,
+    "remainingVariants": 10802,
+    "approvedVariants": 0,
+    "blockedVariants": 186,
+    "knownPoseImages": 966,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Four candidate sets, twelve pose images, seven built-in calls and three retained corrections. Shoulder-tap push-ups show lowered/top phases and apparent opposite cross-body shoulder taps with one supporting palm and planted toes; male chest rays corrected to diffuse shirt tint. Qualified hand/shoulder identity, exact contact, pelvic stability and joint range review pending for both. Forearm side bridge hip abduction shows stacked then raised straight top leg, forearm/bottom shoe supports and top hand on hip. Male correction raises pelvis and establishes clear air gap under hips/shorts; female correction removes hip-overlay rays. Qualified support identity, shoulder/hip/heel alignment and abduction range review pending. Fine exposed grayscale anatomy and full opaque garments front/sides/back/seat/crotch retained. Original PNGs, exact prompts and correction history saved. No anatomy approval or publication. Original project artwork style only, no upstream media. Pipeline checks do not approve anatomy.",
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 758173416,
+  "savedMasters": [
+    {
+      "exerciseId": "0699",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0699-male-anatomical-white-v2.png",
+        "width": 1247,
+        "height": 1261,
+        "bytes": 1826183,
+        "sha256": "49120a6008e2632fb227e3ccd3fa63b36c80cca5111daac7b02a615dc358cfb1"
+      }
+    },
+    {
+      "exerciseId": "0699",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0699-female-anatomical-white-v1.png",
+        "width": 1263,
+        "height": 1246,
+        "bytes": 1553597,
+        "sha256": "322b5dd698a094d75a232ae8319b3dea0cb1a2da4c02785c33f6e801b5edd032"
+      }
+    },
+    {
+      "exerciseId": "0703",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0703-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1393442,
+        "sha256": "d70906372fd069c52d2bfd3e3132d3ca1404a0ec4384e907948c809fbda6709b"
+      }
+    },
+    {
+      "exerciseId": "0703",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0703-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1745827,
+        "sha256": "71dee74a5b126bd9818dd9dc713a0c040b2a19ce748a511f60cde31974309147"
+      }
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "runId": "cb6f85bf-1c2b-4159-94ec-62368290c7be",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "triggerTimestamp": "2026-11-04T23:41:04.582Z",
+  "batches": [
+    446,
+    447,
+    448,
+    449
+  ],
+  "builtInImageGenAvailable": true,
+  "generatedMasters": 16,
+  "generatedIds": [
+    "4568",
+    "4577",
+    "4581",
+    "4582",
+    "4583",
+    "4584",
+    "4607",
+    "4611",
+    "4612",
+    "4613",
+    "4619",
+    "4665",
+    "4680",
+    "4682",
+    "4687",
+    "4719"
+  ],
+  "blocked": {
+    "4584": [
+      "Right-hook end pose has an overly open elbow and reads as a short cross; correct curved punch with approximately ninety-degree elbow before approval."
+    ],
+    "4682": [
+      "Band topology changes: two strands from each hand in starting pose become one strand per hand in raised pose. Correct equipment consistency before approval."
+    ],
+    "4687": [
+      "Starting handles are held with palms up, rotating to neutral at the top; hammer curl requires palms facing inward throughout. Correct starting grip."
+    ]
+  },
+  "coverageAfter": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1596,
+    "remainingVariants": 9668,
+    "approvedVariants": 0,
+    "blockedVariants": 587,
+    "knownPoseImages": 3216,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 1223,
+      "remainingVariants": 4409,
+      "blockedVariants": 468
+    }
+  },
+  "pipelineTests": "8 passed, 0 failed after each of four batches",
+  "approvedIndexUnchanged": true,
+  "existingUserApprovalsPreserved": 1306,
+  "publication": "none",
+  "anatomyReview": "pending",
+  "paidWorker": "disabled; inventory sync only, zero requests",
+  "stopReason": "Reached sixteen-master run target within twenty-minute window.",
+  "styleReference": "assets/exercise-illustrations/generated/0853-male-anatomical-white-v1.png",
+  "deferred": {
+    "4602": "Rigid-pipe bilateral hold with pinned elbows and alternating external rotation has underspecified hand/pipe movement; skip rather than invent technique."
+  },
+  "nextRunGuidance": "Continue missing canonical male sets one at a time. Preserve all originals and blocked masters. 4584 needs clear right-hook elbow geometry, 4682 consistent band strands, 4687 neutral starting grip. Qualified anatomy review and publication remain separate. Avoid automatic retries of blocked originals. Successive batches should preserve connection integrity and wrist orientation."
+}

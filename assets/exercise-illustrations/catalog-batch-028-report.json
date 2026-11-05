@@ -1,0 +1,37 @@
+{
+  "batch": 28,
+  "trigger": "2026-11-01T07:03:11.847Z",
+  "completedAt": "2026-11-01T07:09:28.683989+00:00",
+  "tool": "image_gen.imagegen",
+  "newCandidateSets": 4,
+  "generationCalls": 6,
+  "exerciseIds": [
+    "0391",
+    "0126"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 104,
+    "remainingVariants": 11160,
+    "approvedVariants": 0,
+    "blockedVariants": 42,
+    "knownPoseImages": 214,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "All pending, no publication. Seated-curl front-view v2 corrections reveal both hands/weights and improve seat clearance; v1 retained. Both wrist-curl variants blocked for uncertain forearm support and isolated wrist versus elbow movement. Full opaque clothing visible in all candidates.",
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 172354106
+}

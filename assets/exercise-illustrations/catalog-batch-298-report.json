@@ -1,0 +1,72 @@
+{
+  "batch": 298,
+  "runId": "0a92b84e-9457-482e-b9de-3fea211592eb",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "trigger": "2026-11-04T04:21:27.292Z",
+  "purpose": "batch298 scheduled male continuation",
+  "started": "2026-11-04T04:21:44.330572+00:00",
+  "completedAt": "2026-11-04T04:26:55.840631+00:00",
+  "actualToolName": "image_gen__imagegen",
+  "calls": 4,
+  "newCandidateSets": 4,
+  "exerciseIds": [
+    "2737",
+    "2738",
+    "2740",
+    "2741"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1060,
+    "remainingVariants": 10204,
+    "approvedVariants": 0,
+    "blockedVariants": 365,
+    "knownPoseImages": 2036,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 687,
+      "remainingVariants": 4945,
+      "blockedVariants": 246
+    }
+  },
+  "reviewNotes": {
+    "2737": "Same straight leg extends backward with support hand fixed and standing foot planted; torso upright and plain glute wash over fully opaque shorts. Qualified review needed for modest hip range without lumbar extension, level pelvis, standing knee softness and exact glute mapping. Human anatomy review pending.",
+    "2738": "Head/back/hips supported on floor, knees bent and feet planted; upper arms near vertical while elbows flex. Dumbbells remain above forehead rather than lowering beside head near floor as canonical endpoint requires; block range/clearance correction. Opaque clothing and triceps highlight retained. Qualified review of neutral grip, elbow tracking and safe clearance required. Human anatomy review pending.",
+    "2740": "Wide hands flat on wall, elbows extend then flex, feet grounded and inclined shoulder/hip/ankle line maintained. Opaque clothing; chest highlight mostly obscured by rear camera. Qualified review needed for actual hand width, elbow path, chest distance, fixed contact positions and pectoral mapping visibility. Human anatomy review pending.",
+    "2741": "Wide supinated outer EZ-bar grip, upright stance and bilateral curl with upper arms near sides; exposed biceps red and clothing opaque. Qualified review needed for grip width relative to shoulders, wrist angle on EZ bends, fixed elbow position and complete endpoint. Human anatomy review pending."
+  },
+  "blockingIssues": {
+    "2738": [
+      "End dumbbells remain above forehead; correct endpoint beside head near floor without contact and retain upper-arm alignment."
+    ]
+  },
+  "deferred": {
+    "2736": "Reverse-grip name conflicts with overhand grip instructions; clarify."
+  },
+  "tests": 7,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "workerSyncResult": {
+    "statuses": {
+      "generated": 1060,
+      "pending": 10204
+    },
+    "remaining": 10204,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 1631833641
+  },
+  "publicationIndexUnchanged": true
+}

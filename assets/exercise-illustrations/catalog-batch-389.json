@@ -1,0 +1,33 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "3576",
+      "variant": "male",
+      "key": "3576-male-anatomical-white-v1",
+      "prompt": "TWO equal panels SIDE three-quarter KETTLEBELL FARMERS CARRY. Male walks carrying TWO matching kettlebells one in each hand arms STRAIGHT at sides bells clear of legs. Torso upright level shoulders no lean. Left RIGHT FOOT forward heel touching floor LEFT foot behind toe touching. Right LEFT FOOT forward heel touching RIGHT foot behind toe touching. MUST alternate which foot leads, do not duplicate walking pose. Neutral wrists tight handle grips, exposed FOREARMS red only. Premium detailed grayscale anatomical adult MALE illustration pure white background soft shadows crisp realistic muscle anatomy joints. Original project reference STYLE ONLY. Same model camera scale garments equipment all panels. Complete opaque BLACK tank mid-thigh shorts wrap front sides back seat crotch seams folds hems. Covered red highlight PLAIN UNIFORM wash NO anatomical fibers segments lobes cutaways transparency. Full body hands feet equipment inside every panel generous margins. No text arrows labels logos numbers.\n",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Walk tall with kettlebells at sides, taking a short right step."
+        },
+        {
+          "key": "p2",
+          "caption": "Take a short left step and continue controlled walking."
+        }
+      ],
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream media used.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only"
+      },
+      "inspectionNote": "Real output inspected. Two panels show upright loaded walking with matching bells and forearm highlights, opaque garments intact. Both repeat the same leading foot rather than alternating short steps. Human anatomy review pending; no approval or publication.",
+      "blockingIssues": [
+        "Both walking panels repeat the same leading foot; alternating gait is not shown."
+      ]
+    }
+  ]
+}

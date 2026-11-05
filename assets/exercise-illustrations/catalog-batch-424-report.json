@@ -1,0 +1,57 @@
+{
+  "batch": 424,
+  "runId": "6432dcde-be12-4ee6-81c2-9860e1669ba3",
+  "triggerTimestamp": "2026-11-04T21:31:03.439Z",
+  "builtInImageGenAvailable": true,
+  "generatedIds": [
+    "3853",
+    "3854",
+    "3861"
+  ],
+  "coverageAfter": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1498,
+    "remainingVariants": 9766,
+    "approvedVariants": 0,
+    "blockedVariants": 568,
+    "knownPoseImages": 3002,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 1125,
+      "remainingVariants": 4507,
+      "blockedVariants": 449
+    }
+  },
+  "paidWorker": {
+    "statuses": {
+      "generated": 1498,
+      "pending": 9766
+    },
+    "remaining": 9766,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 2267223927
+  },
+  "pipelineTests": "8 passed, 0 failed",
+  "approvedIndexUnchanged": true,
+  "existingUserApprovalsPreserved": 1306,
+  "anatomyReview": "pending",
+  "publication": "none",
+  "blocked": {
+    "3853": [
+      "Red primary target hip highlight placed on support side instead of abducting leg."
+    ]
+  }
+}

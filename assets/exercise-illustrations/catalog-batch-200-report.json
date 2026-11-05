@@ -1,0 +1,65 @@
+{
+  "batch": 200,
+  "runId": "1ce5590c-d724-4be3-b75e-bb11f65a19df",
+  "trigger": "2026-11-03T12:54:29.957Z",
+  "completedAt": "2026-11-03T13:00:29.847340+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 2,
+  "generationCalls": 2,
+  "exerciseIds": [
+    "1508"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 714,
+    "remainingVariants": 10550,
+    "approvedVariants": 0,
+    "blockedVariants": 235,
+    "knownPoseImages": 1404,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Two band lateral raise candidates, four poses, two built-in calls. Arms down to shoulder-height lateral raise with band under both soles, bilateral deltoids red, full opaque clothes and detailed grayscale anatomy. Tool returned square masters with unequal-width pose regions; explicit cropBounds preserve each complete pose instead of equal halves. Qualified shoulder height/shrug, elbow softness, wrist/hand grip, underfoot band security and tension require human review. Original project artwork rendering style only, no upstream licensed input. Exact prompts/originals saved. No anatomy or clothing approval or publication. Seven pipeline checks do not establish anatomical accuracy.",
+  "metadataConflictsDeferred": {
+    "1512": "Pull foot toward glutes description versus extended yet bent leg and hip lowering instructions."
+  },
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 1124044854,
+  "savedMasters": [
+    {
+      "exerciseId": "1508",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1508-male-anatomical-white-v1.png",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 1433242,
+        "sha256": "cf7c0fc8d31bb4b8b0cb8410999bf2a7dbda94c81090d4c21ab66bf5a28f23b6"
+      }
+    },
+    {
+      "exerciseId": "1508",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1508-female-anatomical-white-v1.png",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 1515306,
+        "sha256": "7aaead8050aed34d0848ee814dc475e0599aa3e3cd42ee0c8d54e1d2f9b52ce6"
+      }
+    }
+  ]
+}

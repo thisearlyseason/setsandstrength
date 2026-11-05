@@ -1,0 +1,66 @@
+{
+  "batch": 158,
+  "runId": "56b3c18b-0997-47ff-844d-df0efc14debd",
+  "trigger": "2026-11-03T07:49:27.677Z",
+  "completedAt": "2026-11-03T07:54:18.140379+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 2,
+  "generationCalls": 2,
+  "exerciseIds": [
+    "1090"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 630,
+    "remainingVariants": 10634,
+    "approvedVariants": 0,
+    "blockedVariants": 217,
+    "knownPoseImages": 1274,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Two suspension reverse fly candidates, four poses, two built-in calls. Extended forward arms to wide spread, exposed rear deltoid red and full opaque clothes visually retained. BOTH candidates BLOCKED: finish far suspension strap appears to cross neck/upper back and lengthen substantially, with asymmetric front-versus-lateral arm path. Needs geometry correction and qualified technique review, including shoulder position, body alignment, grip and fixed-length strap mechanics. Every original and exact prompt retained; no anatomy/clothing approval or publication. Original project artwork rendering style only, no upstream licensed input. Seven pipeline checks do not establish anatomical accuracy.",
+  "metadataConflictsDeferred": {
+    "1087": "Fixed-length suspension pull-through resistance geometry unclear.",
+    "1096": "Elbows by sides conflicts with outward-and-upward external rotation path."
+  },
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 1001513354,
+  "savedMasters": [
+    {
+      "exerciseId": "1090",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1090-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1415276,
+        "sha256": "c35803dae0722d7c729ea1f95c9764716331a4bfe02f8da39a1b156c77e52eb0"
+      }
+    },
+    {
+      "exerciseId": "1090",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1090-female-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1385248,
+        "sha256": "ddc93eb4d3928d5e1836257ac273b03fae4f22593fea20ae114b2a3331f5406c"
+      }
+    }
+  ]
+}

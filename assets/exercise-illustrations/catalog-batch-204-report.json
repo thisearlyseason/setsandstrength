@@ -1,0 +1,62 @@
+{
+  "batch": 204,
+  "runId": "d944a721-e7a7-4767-995a-a425b82360b2",
+  "trigger": "2026-11-03T13:23:00.158Z",
+  "completedAt": "2026-11-03T13:28:52.175156+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 2,
+  "generationCalls": 2,
+  "exerciseIds": [
+    "1535"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 722,
+    "remainingVariants": 10542,
+    "approvedVariants": 0,
+    "blockedVariants": 235,
+    "knownPoseImages": 1420,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Two snatch-grip barbell deadlift candidates, four poses, two built-in calls. Grounded plate setup to upright standing with straight wide arms and anterior thigh-height bar, glute red tint on intact shorts. Full opaque clothes and exposed detailed grayscale anatomy retained. Qualified snatch grip width, shoulder-over-bar setup, bar proximity/midfoot, spine/neck alignment, plate scale and cloth tint require human review. No overhead catch claimed. Original project artwork rendering style only, no upstream licensed input. Exact prompts/originals saved. No anatomy or clothing approval or publication. Seven pipeline checks do not establish anatomical accuracy.",
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 1135251134,
+  "savedMasters": [
+    {
+      "exerciseId": "1535",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1535-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1461429,
+        "sha256": "3670fa2cce20bd7426497cd3ee1adce7618455beab1701f23499e7c523cabe9e"
+      }
+    },
+    {
+      "exerciseId": "1535",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1535-female-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1392705,
+        "sha256": "c05ec3ce74b8419ad9ed78cbd75420aa28e9458bae640562c60487d9c887c4b3"
+      }
+    }
+  ]
+}

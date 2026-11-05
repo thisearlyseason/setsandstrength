@@ -1,0 +1,84 @@
+{
+  "batch": 100,
+  "trigger": "2026-11-01T22:57:52.578Z",
+  "completedAt": "2026-11-01T23:12:35.912261+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 4,
+  "generationCalls": 8,
+  "exerciseIds": [
+    "0655",
+    "0656"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 412,
+    "remainingVariants": 10852,
+    "approvedVariants": 0,
+    "blockedVariants": 174,
+    "knownPoseImages": 854,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Four candidate sets with eight pose images and four retained cloth corrections using eight built-in calls. Canonical IDs 0655 and 0656 contain the same named hands-on-stability-ball exercise and remain separate canonical records; both IDs preserved, no alias inferred. Both male/female sets show high and low push-up with hands on full sphere, straight legs and toes floor. Chest cloth corrections soften radial muscle patterns to diffuse red on intact opaque shirt. Qualified ball size/roll continuity, hand/wrist/finger contact, shoulder loading, trunk alignment and all anatomy/technique review remain separate. Full opaque shirt/shorts wrap torso/front/sides/back/seat/crotch; exposed muscle anatomy fine grayscale. None approved or published. Exact prompts, original PNGs, correction history and hashes retained. Original project artwork style-only, no upstream licensed media inputs. Pipeline checks are not anatomy approval.",
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 679240154,
+  "savedMasters": [
+    {
+      "exerciseId": "0655",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0655-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1750180,
+        "sha256": "57c45b8327a533528b16f18ec9835d872dbf2199a5b114cf2f7a0944690a8fa2"
+      }
+    },
+    {
+      "exerciseId": "0655",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0655-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1723154,
+        "sha256": "ddac4526bfb2225e33bfe8f819d831cb6145cb2ebb43aac1adc20af72f09721b"
+      }
+    },
+    {
+      "exerciseId": "0656",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0656-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1777300,
+        "sha256": "9a1ad35a742d4a793a6933ec1c12cd243c8ba864763c77a4c6c3c0a877e867ab"
+      }
+    },
+    {
+      "exerciseId": "0656",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0656-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1734786,
+        "sha256": "90b0739819c19e016557e0834eb9d3f23ab0f9565d2286b30e1e5309fc7dd173"
+      }
+    }
+  ]
+}

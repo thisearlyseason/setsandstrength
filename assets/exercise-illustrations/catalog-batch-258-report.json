@@ -1,0 +1,86 @@
+{
+  "batch": 258,
+  "runId": "e77ff7bb-c1c3-4cc2-af7e-ddd5ae0819b4",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "trigger": "2026-11-03T22:06:53.908Z",
+  "purpose": "batch258 scheduled male continuation",
+  "started": "2026-11-03T22:07:10.255443+00:00",
+  "completedAt": "2026-11-03T22:12:40.594852+00:00",
+  "actualToolName": "image_gen__imagegen",
+  "calls": 4,
+  "newCandidateSets": 4,
+  "exerciseIds": [
+    "2100",
+    "2102",
+    "2104",
+    "2105"
+  ],
+  "variants": [
+    "male"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 905,
+    "remainingVariants": 10359,
+    "approvedVariants": 0,
+    "blockedVariants": 292,
+    "knownPoseImages": 1721,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 532,
+      "remainingVariants": 5100,
+      "blockedVariants": 173
+    }
+  },
+  "reviewNotes": {
+    "2100": "Single seated edge quad stretch, one foot planted, other knee bent with hand holding same shoe, upright torso and opposite hand stabilizing bench. Whole limbs visible and coherent, plain solid red teaching ellipse on intact working-thigh shorts. Qualified review needed for knee alignment, heel-to-glute range, working hip extension, hand/shoe grip and quad mapping; depicted working side is opposite prompt but canonical permits switching sides.",
+    "2102": "Both legs straight and separate, hands reach working forefoot, working heel grounded and toes pulled back. Back remains long with modest hip hinge. Block for unrelated red chest highlight copied from style reference; remove chest tint and retain posterior working-calf highlight only. Qualified review of calf versus shin mapping, knee extension and hand/shoe grip.",
+    "2104": "Both hands on wall and heels grounded, front knee bent. Rear knee remains almost straight rather than visibly bent for soleus/Achilles emphasis, and unrelated chest red is present. Block for rear-knee correction and removal of chest tint. Qualified review needed for low posterior-calf mapping, shin angle, heel contact and stance length.",
+    "2105": "Prone press-up static hold, palms grounded, elbows near straight, pelvis and thighs appear floor-supported, head neutral and shoulders lowered. Plain abdominal red teaching tint over intact tank with chest black and all clothing opaque. Qualified review needed for pelvic contact, comfortable lumbar extension, hand position, finger anatomy and abdominal mapping."
+  },
+  "blockingIssues": {
+    "2102": [
+      "Unrelated chest highlight must be removed; retain working-calf highlight only."
+    ],
+    "2104": [
+      "Rear knee is almost straight rather than bent for soleus/Achilles stretch.",
+      "Unrelated chest highlight must be removed."
+    ]
+  },
+  "deferred": {
+    "2101": "Front shin stretch description conflicts with calves primary mapping.",
+    "2103": "Toe spreading/intrinsic foot exercise conflicts with calves primary mapping."
+  },
+  "tests": 7,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "workerSyncResult": {
+    "statuses": {
+      "generated": 905,
+      "pending": 10359
+    },
+    "remaining": 10359,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 1398144281
+  },
+  "publicationIndexUnchanged": true,
+  "savedMasters": [
+    "assets/exercise-illustrations/generated/2100-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/2102-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/2104-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/2105-male-anatomical-white-v1.png"
+  ]
+}

@@ -1,0 +1,323 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "1762",
+      "variant": "male",
+      "key": "1762-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hold a sturdy support and balance on one leg with the other leg extended forward."
+        },
+        {
+          "key": "p2",
+          "caption": "Sit your hips back into a controlled single-leg squat, keeping your heel down. Use the support as needed, stand again and repeat on both sides."
+        }
+      ],
+      "prompt": "SINGLE LEG SQUAT WITH SUPPORT PISTOL canonical1762. SIDE three-quartercamera bodyweight. Sturdy gray VERTICAL SUPPORT POST boltedfloor besidefrontLEFT side ofsubject, LEFThandgrips at fixed standingwaistheight about1meter, RIGHTarm forward shoulderheight forbalance. LEFT START balanceLEFTleg soleflat softknee RIGHTlegstraightforward foot20cmabovefloor handusespostlightly. RIGHT LOWERED squat SAMELEFTleg thighnearparallel heelplanted kneealignedtoes, RIGHTlegstraightforward horizontal footclearfloor, torso modestforwardhinge flatback. LEFThandmaintains SAMEpostgripheight now armreachesforward/up tosupport no detachedhand. Primary QUADS RED exposed anterior workingLEFTthigh belowshorthem ONLY allother skin grayscale. Samepost bodyfootpositions bothcells. Original premium ADULT MALE detailed grayscale anatomical educational illustration. TWO equal square cells side by side WIDE2:1 landscape SAME full person camera scale equipment. Crisp detailed realistic grayscale anatomical skin five fingers. Full opaque BLACK tank wraps front sides back and BLACK mid-thigh shorts fully cover front sides back seat crotch seams hems folds. Any red cloth overlay is a FLAT UNIFORM SOFT RED ELLIPSE teaching tint with no internal lines, rays, lobes or muscle fibers, plain fabric seams/folds retained. No cutaways transparency or anatomy through fabric. Black shoes. Pure WHITE background soft shadows generous12percent margins full head hands both feet fullbar equipment within EACH square uncropped. Original project artwork STYLE ONLY ignore pushup/chest red. No text captions labels arrows extra people.",
+      "inspectionNote": "Real output inspected. Supported pistol squat: fixed post grip, same supporting foot and raised forward leg, tall to near-parallel squat. Qualified review needed for post support loading, knee tracking, heel contact, grip and balance. Detailed grayscale/red primary highlights and full opaque tank/shorts retained. Original project artwork rendering style only; no upstream media. Exact prompt and original master saved. Human anatomy review pending; no approval or publication.",
+      "canonicalName": "single leg squat with support (pistol)",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "quads"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Supported pistol squat: fixed post grip, same supporting foot and raised forward leg, tall to near-parallel squat. Qualified review needed for post support loading, knee tracking, heel contact, grip and balance. Detailed grayscale/red primary highlights and full opaque tank/shorts retained. Original project artwork rendering style only; no upstream media. Exact prompt and original master saved. Human anatomy review pending; no approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/1762-male-anatomical-white-v1-p1-794bb780a4c1.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 28536,
+          "sha256": "794bb780a4c12da506e4f8c6d621a3e95c121a5b68664edef10add1d8b28d223"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/1762-male-anatomical-white-v1-p2-ef232fd52f20.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 27378,
+          "sha256": "ef232fd52f2038ed7da97d4b4e0b6f5b92818f5379de325cdc209179fbae7a6d"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-234.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/1762-male-anatomical-white-v1-thumb-ad0ba86c3bda.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 3088,
+        "sha256": "ad0ba86c3bdac51bc6009020a98b1af7686e04be2b112fbd19c09e261c7f3603"
+      },
+      "processingSignature": "f95cf07b1cda98a017ff41b9b5c5caf3105f6b1a1b4e70ef3f6f94f76313dd65",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1762-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1740512,
+        "sha256": "1cb5e22a9942428a1cf36dd8619ed38e30f4635878f73fff8def7093a42a2b6a"
+      }
+    },
+    {
+      "exerciseId": "1763",
+      "variant": "male",
+      "key": "1763-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hang freely from a pull-up bar with an overhand grip about shoulder width."
+        },
+        {
+          "key": "p2",
+          "caption": "Pull upward until your chin clears the bar without craning your neck. Lower slowly to full arm extension."
+        }
+      ],
+      "prompt": "SHOULDER GRIP PULL-UP canonical1763. REAR three-quartercamera. Full gray freestanding pullupframe highhorizontalbar overhead, hands EXACT SHOULDERWIDTH OVERHAND pronated palmsAWAY thumbswrapped, samegriplocation bothcells. LEFT DEADHANG armsfullyextended shoulderscontrolled bodyhangs free feetclearlyOFFfloor kneesbentsoft shoesbehind no footsupport. RIGHT TOP pullBODYUP BOTH elbowsbenddownback until CHIN clearly ABOVEbar, chestnearsbar no neckcraning, kneesfeetstillair. SAMEframebarheight bodycamera scale gripwidth. Primary LATS flatuniformsoftRED ellipse teaching tint on intactBLACKtank posteriorlateral flanks BOTH sides only no shoulder/bicepsred. Wholebar bothpostsgroundbases fit bothcells. Original premium ADULT MALE detailed grayscale anatomical educational illustration. TWO equal square cells side by side WIDE2:1 landscape SAME full person camera scale equipment. Crisp detailed realistic grayscale anatomical skin five fingers. Full opaque BLACK tank wraps front sides back and BLACK mid-thigh shorts fully cover front sides back seat crotch seams hems folds. Any red cloth overlay is a FLAT UNIFORM SOFT RED ELLIPSE teaching tint with no internal lines, rays, lobes or muscle fibers, plain fabric seams/folds retained. No cutaways transparency or anatomy through fabric. Black shoes. Pure WHITE background soft shadows generous12percent margins full head hands both feet fullbar equipment within EACH square uncropped. Original project artwork STYLE ONLY ignore pushup/chest red. No text captions labels arrows extra people.",
+      "inspectionNote": "Real output inspected. Shoulder-width pull-up: dead hang to bent elbows with both feet airborne and diffuse lat cloth overlay. BLOCKED: top chin does not clearly clear bar and neck cranes upward; correct top range and neutral neck. Detailed grayscale/red primary highlights and full opaque tank/shorts retained. Original project artwork rendering style only; no upstream media. Exact prompt and original master saved. Human anatomy review pending; no approval or publication.",
+      "blockingIssues": [
+        "Top chin does not clearly clear the bar and neck cranes upward; correct pull-up finish height and neck position."
+      ],
+      "canonicalName": "shoulder grip pull-up",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "lats"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Shoulder-width pull-up: dead hang to bent elbows with both feet airborne and diffuse lat cloth overlay. BLOCKED: top chin does not clearly clear bar and neck cranes upward; correct top range and neutral neck. Detailed grayscale/red primary highlights and full opaque tank/shorts retained. Original project artwork rendering style only; no upstream media. Exact prompt and original master saved. Human anatomy review pending; no approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/1763-male-anatomical-white-v1-p1-625607e6b43c.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 27666,
+          "sha256": "625607e6b43caa0484e93c5b1ad6cdcb0deab74f7c3c05ad02de4d7b5779106d"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/1763-male-anatomical-white-v1-p2-bab34dd73a82.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 27252,
+          "sha256": "bab34dd73a82137d8be6c0797e47c0653ea5fad8f4b6f41b0de65899d78d6e07"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-234.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/1763-male-anatomical-white-v1-thumb-ec4d82b045c9.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 3452,
+        "sha256": "ec4d82b045c96bc7b3e07a3ee3b12a6f283c42d23ac4a787b3d66a8a2aadc035"
+      },
+      "processingSignature": "0b96c5cbc7e451141f3b47db034f69aa83122efc8ff532b48a8a38dea8f254cb",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1763-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1366443,
+        "sha256": "74deb440c280c0b54608f7907e0577bf3467c9e86db0542a976b29aa36fee322"
+      }
+    },
+    {
+      "exerciseId": "1764",
+      "variant": "male",
+      "key": "1764-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hang from a pull-up bar with arms extended and palms facing away."
+        },
+        {
+          "key": "p2",
+          "caption": "Raise both knees until your thighs are parallel to the floor, adding a small controlled hip curl. Pause and lower slowly without swinging."
+        }
+      ],
+      "prompt": "HANGING LEG HIP RAISE canonical1764. FRONT three-quartercamera. Gray freestanding pullupframe highhorizontalbar overhead, shoulderwidth OVERHAND pronated palmsaway botharmsSTRAIGHT BOTHcells handsfixedbarpositions. LEFT START deadhang bodyvertical legsnearlystraight feetclearlyOFFfloor. RIGHT RAISE flexBOTHhipsANDknees to90degrees so THIGHSparallelfloor kneesinfrontbody shinsverticalfeetbelowknees, pelviscurlsUPslightly posteriorpelvictuck ribsstacked, no swinging leanback or elbowbend. Sameequipmentgripcamera body scale bothcells, no supportunderfeet. Primary ABS flatuniformsoftRED ellipse teaching tint on intactBLACKtankabdomen only NOsixpack fibers lobes underfabric. Wholebarpostsbasealllimbsfit. Original premium ADULT MALE detailed grayscale anatomical educational illustration. TWO equal square cells side by side WIDE2:1 landscape SAME full person camera scale equipment. Crisp detailed realistic grayscale anatomical skin five fingers. Full opaque BLACK tank wraps front sides back and BLACK mid-thigh shorts fully cover front sides back seat crotch seams hems folds. Any red cloth overlay is a FLAT UNIFORM SOFT RED ELLIPSE teaching tint with no internal lines, rays, lobes or muscle fibers, plain fabric seams/folds retained. No cutaways transparency or anatomy through fabric. Black shoes. Pure WHITE background soft shadows generous12percent margins full head hands both feet fullbar equipment within EACH square uncropped. Original project artwork STYLE ONLY ignore pushup/chest red. No text captions labels arrows extra people.",
+      "inspectionNote": "Real output inspected. Hanging leg/hip raise: straight-arm dead hang to bent knees/thighs near parallel, small hip curl, supported grip and feet off floor. Qualified review needed for exact posterior pelvic tilt, grip, shoulder loading and swing control. Detailed grayscale/red primary highlights and full opaque tank/shorts retained. Original project artwork rendering style only; no upstream media. Exact prompt and original master saved. Human anatomy review pending; no approval or publication.",
+      "canonicalName": "hanging leg hip raise",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "abs"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Hanging leg/hip raise: straight-arm dead hang to bent knees/thighs near parallel, small hip curl, supported grip and feet off floor. Qualified review needed for exact posterior pelvic tilt, grip, shoulder loading and swing control. Detailed grayscale/red primary highlights and full opaque tank/shorts retained. Original project artwork rendering style only; no upstream media. Exact prompt and original master saved. Human anatomy review pending; no approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/1764-male-anatomical-white-v1-p1-31e957358fe7.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 26874,
+          "sha256": "31e957358fe74bb9e41f74faa3c117541733d0cde3f79adc6329b5fbeb1a0433"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/1764-male-anatomical-white-v1-p2-ce75406e8fe0.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 26258,
+          "sha256": "ce75406e8fe0fcfd37141f67b5a50a9311809e56b7b7a7335870484117c52a7f"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-234.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/1764-male-anatomical-white-v1-thumb-84da36002ed8.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 3342,
+        "sha256": "84da36002ed842f5406fb37bda2fa9ac6c2c2d5ed572c7f777817cbdf4a7acd4"
+      },
+      "processingSignature": "f64d1b737dc78bb55508ecb60b35a0662ce86c16de0cd0448a786e2b54be1046",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1764-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1312189,
+        "sha256": "953ec9c69f22753617a6f37b150c801dd7702b4a850c8ebfe1fe97fb17e5521e"
+      }
+    },
+    {
+      "exerciseId": "1765",
+      "variant": "male",
+      "key": "1765-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand holding both dumbbells in front of your thighs with an overhand grip."
+        },
+        {
+          "key": "p2",
+          "caption": "Lead with your elbows to raise the dumbbells toward shoulder height. Keep your back straight, pause and lower slowly."
+        }
+      ],
+      "prompt": "DUMBBELL UPRIGHT ROW BACK POV canonical1765. STRICT REARview camera showback ofperson samebothpanels. Stand tallfeetflatshoulderwidth softknees torso still. TWO identical dumbbells OVERHAND grip palmsbody/pronated. LEFT START botharmsstraight weightsinfrontthighs maypartlyoccludebybody but handsvisibleoutsidehips. RIGHT FINISH liftTWOdumbbells towardshoulderheight leading BOTH elbows UPandOUT toSIDES, elbowsHIGHERthanwrists elbowsroughlyshoulderheight, forearmsangledinward weightsnearupperchest partlyoccludedfromrear. Samegrip dumbbellshapes shouldersnotshrug neckneutral wristsstraight. BOTH exposed DELTOIDS RED only lats/trapsbicepsgray. No overheadpress no lateralraisearmsstraight. Original premium ADULT MALE detailed grayscale anatomical educational illustration. TWO equal square cells side by side WIDE2:1 landscape SAME full person camera scale equipment. Crisp detailed realistic grayscale anatomical skin five fingers. Full opaque BLACK tank wraps front sides back and BLACK mid-thigh shorts fully cover front sides back seat crotch seams hems folds. Any red cloth overlay is a FLAT UNIFORM SOFT RED ELLIPSE teaching tint with no internal lines, rays, lobes or muscle fibers, plain fabric seams/folds retained. No cutaways transparency or anatomy through fabric. Black shoes. Pure WHITE background soft shadows generous12percent margins full head hands both feet fullbar equipment within EACH square uncropped. Original project artwork STYLE ONLY ignore pushup/chest red. No text captions labels arrows extra people.",
+      "inspectionNote": "Real output inspected. Rear-POV upright dumbbell row: lowered arms to high elbows/outward arms with weights partially occluded at upper ribs. Qualified review needed for exact weight height/path, overhand wrists, deltoid highlight placement and elbow symmetry. Detailed grayscale/red primary highlights and full opaque tank/shorts retained. Original project artwork rendering style only; no upstream media. Exact prompt and original master saved. Human anatomy review pending; no approval or publication.",
+      "canonicalName": "dumbbell upright row (back pov)",
+      "styleVersion": "white-v1",
+      "equipment": "dumbbell",
+      "primaryMuscles": [
+        "delts"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Rear-POV upright dumbbell row: lowered arms to high elbows/outward arms with weights partially occluded at upper ribs. Qualified review needed for exact weight height/path, overhand wrists, deltoid highlight placement and elbow symmetry. Detailed grayscale/red primary highlights and full opaque tank/shorts retained. Original project artwork rendering style only; no upstream media. Exact prompt and original master saved. Human anatomy review pending; no approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/1765-male-anatomical-white-v1-p1-9dda23b41c1e.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 23468,
+          "sha256": "9dda23b41c1ed68fc72bb30638bbdf271b15bf84ddd4b79f446e5ef6b466ab75"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/1765-male-anatomical-white-v1-p2-0d3a180a514c.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 22994,
+          "sha256": "0d3a180a514c8a9fc8478d37d1935dc43dcffeeb0c8408748631dae8197568f7"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-234.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/1765-male-anatomical-white-v1-thumb-e76afa1fbae0.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2574,
+        "sha256": "e76afa1fbae0fe59597317f6e1d94c1a1b1ed00ba21d2949115e64b3483d3805"
+      },
+      "processingSignature": "a6ded0c829454ef5a802905c70ea099f76c69943d09432976300b2596280791d",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1765-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1342586,
+        "sha256": "9e8443f3fed08a1ef0316503b74108f011d6f7d39d478be7beca0db00a2ad030"
+      }
+    }
+  ]
+}

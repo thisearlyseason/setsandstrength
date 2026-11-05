@@ -1,0 +1,342 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "0731",
+      "variant": "male",
+      "key": "0731-male-anatomical-white-v2",
+      "layout": {
+        "columns": 1,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hold a single-leg wall sit with back against the wall, supporting knee over ankle and the other leg extended forward. Hold 10\u201330 seconds, rest, then switch sides."
+        }
+      ],
+      "prompt": "Edit ONLY the red patch on the bent supporting thigh shorts: remove ALL fine red parallel streaks, rays and muscle-fiber lines. Replace with a single smoothly blurred diffuse red oval tint on continuous opaque BLACK shorts cloth, keep visible broad fabric folds and seams. Preserve exact single-leg wall sit pose, suspended straight other leg, grounded supporting foot, wall contact, male face, detailed grayscale EXPOSED arms/calves, full clothing front sides seat and crotch. No transparent anatomy, no new objects, no text. Same square composition and margins.",
+      "inspectionNote": "Supporting-thigh red corrected to smooth diffuse tint over continuous opaque shorts. Single static wall sit retains suspended straight other leg and grounded supporting heel, back against wall. Fine exposed grayscale anatomy and full opaque clothes. Qualified wall contact, load alignment and muscle mapping review pending.",
+      "canonicalName": "single leg sit (wall)",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "quads"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0731-male-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "status": "generated",
+        "costUSD": null
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Supporting-thigh red corrected to smooth diffuse tint over continuous opaque shorts. Single static wall sit retains suspended straight other leg and grounded supporting heel, back against wall. Fine exposed grayscale anatomy and full opaque clothes. Qualified wall contact, load alignment and muscle mapping review pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0731-male-anatomical-white-v2-p1-33349351e562.webp",
+          "width": 1200,
+          "height": 1200,
+          "bytes": 40536,
+          "sha256": "33349351e5624f802bbde28c037ec6134c170cdb29bcaa664dbe92fd6513476d"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0731-male-anatomical-white-v2-thumb-3277d79438cc.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2982,
+        "sha256": "3277d79438cc36ffe48a65d2dbb16ce6ee24da1b85c4108955639d844d0f1cf1"
+      },
+      "processingSignature": "ae0bc1b12113ff153e819f890c97ddb91653a2517658b25818eb0e764c90c2dd",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0731-male-anatomical-white-v2.png",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 1740437,
+        "sha256": "b3b6c484e1121a892f780292e8519abcce1438909e304a39f007e26c9be4b7d1"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0731",
+          "variant": "male",
+          "key": "0731-male-anatomical-white-v1",
+          "layout": {
+            "columns": 1,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Hold a single-leg wall sit with back against the wall, supporting knee over ankle and the other leg extended forward. Hold 10\u201330 seconds, rest, then switch sides."
+            }
+          ],
+          "prompt": "Create original premium exercise anatomy illustration, ADULT MALE athletic model. Use reference ONLY for grayscale anatomical rendering quality, NOT its pose, equipment or chest highlight. ONE static SINGLE LEG WALL SIT. Back and pelvis contact a plain vertical light-gray wall. Supporting thigh horizontal, knee bent90degrees and directly above ankle; supporting shoe sole flat floor. OTHER leg lifted and knee fully straight, entire leg extended forward horizontally level with supporting thigh, shoe suspended well above floor. Both thighs parallel, one knee straight one bent. Torso upright, no imaginary chair. Hands rest loosely beside hips, no pushing thigh. Side-front three-quarter camera so wall/back contact, bent knee angle and both feet clearly visible without occlusion. One centered full-body pose, generous margins around head and feet, square white canvas. EXPOSED arms and calves fine detailed grayscale anatomy, realistic proportions, no flesh-color photography. Fully opaque BLACK athletic shirt and mid-thigh shorts wrap FRONT SIDES BACK SEAT AND CROTCH with seams and broad fabric folds. Never exposed anatomy under fabric or transparent cutaway. Primary quadriceps teaching overlay: ONE smooth diffuse blurred RED tint on FRONT supporting thigh fabric ONLY; lifted thigh no red. NO red muscle fibers, rays, streaks or striations through shorts. No chest/abdominal red. Black shoes. Plain white background with faint gray wall plane and soft floor contact shadow. No chair/bench/weights/ball. No captions, labels, words or arrows. Equal male/female anatomical detail.",
+          "inspectionNote": "Single hold wall contact, bent supporting knee and straight suspended leg visible. Full opaque clothes present but red highlight has fiber-like streaks; correction required. Qualified technique and mapping pending.",
+          "canonicalName": "single leg sit (wall)",
+          "styleVersion": "white-v1",
+          "equipment": "body weight",
+          "primaryMuscles": [
+            "quads"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Single hold wall contact, bent supporting knee and straight suspended leg visible. Full opaque clothes present but red highlight has fiber-like streaks; correction required. Qualified technique and mapping pending.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0731-male-anatomical-white-v1-p1-ac84a14c9cee.webp",
+              "width": 1200,
+              "height": 1200,
+              "bytes": 44978,
+              "sha256": "ac84a14c9cee733c832f252d54504d16a7a33a72e5f5cb75003fb740e1f2c8f9"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0731-male-anatomical-white-v1-thumb-1c666554fa43.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 2972,
+            "sha256": "1c666554fa43f4667e8bcdfaadfc516647bc283c510727856ca04fee31c5bcb4"
+          },
+          "processingSignature": "699ba418b26e08a42defeeda4c76b51968cf5f9d934370def8846621a4b89ae1",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0731-male-anatomical-white-v1.png",
+            "width": 1254,
+            "height": 1254,
+            "bytes": 1449630,
+            "sha256": "547e445139672336bec6657499bb53ea85bb2cb9699123cbf98589a150567e46"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "0731",
+      "variant": "female",
+      "key": "0731-female-anatomical-white-v1",
+      "layout": {
+        "columns": 1,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hold a single-leg wall sit with back against the wall, supporting knee over ankle and the other leg extended forward. Hold 10\u201330 seconds, rest, then switch sides."
+        }
+      ],
+      "prompt": "Create original premium exercise anatomy illustration, ADULT FEMALE athletic model. Use reference ONLY for grayscale anatomical rendering quality, NOT its pose, equipment or chest highlight. ONE static SINGLE LEG WALL SIT. Back and pelvis contact a plain vertical light-gray wall. Supporting thigh horizontal, knee bent90degrees and directly above ankle; supporting shoe sole flat floor. OTHER leg lifted and knee fully straight, entire leg extended forward horizontally level with supporting thigh, shoe suspended well above floor. Both thighs parallel, one knee straight one bent. Torso upright, no imaginary chair. Hands rest loosely beside hips, no pushing thigh. Side-front three-quarter camera so wall/back contact, bent knee angle and both feet clearly visible without occlusion. One centered full-body pose, generous margins around head and feet, square white canvas. EXPOSED arms and calves fine detailed grayscale anatomy, realistic proportions, no flesh-color photography. Fully opaque BLACK athletic shirt and mid-thigh shorts wrap FRONT SIDES BACK SEAT AND CROTCH with seams and broad fabric folds. Never exposed anatomy under fabric or transparent cutaway. Primary quadriceps teaching overlay: ONE smooth diffuse blurred RED tint on FRONT supporting thigh fabric ONLY; lifted thigh no red. NO red muscle fibers, rays, streaks or striations through shorts. No chest/abdominal red. Black shoes. Plain white background with faint gray wall plane and soft floor contact shadow. No chair/bench/weights/ball. No captions, labels, words or arrows. Equal male/female anatomical detail.",
+      "inspectionNote": "Single static wall sit with one straight leg suspended, supporting heel down, near right-angle knee, torso against wall. Detailed exposed anatomy and opaque shirt/shorts with smooth diffuse supporting-thigh overlay. Qualified load alignment, wall contact and muscle mapping review pending.",
+      "canonicalName": "single leg sit (wall)",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "quads"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Single static wall sit with one straight leg suspended, supporting heel down, near right-angle knee, torso against wall. Detailed exposed anatomy and opaque shirt/shorts with smooth diffuse supporting-thigh overlay. Qualified load alignment, wall contact and muscle mapping review pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0731-female-anatomical-white-v1-p1-7fb29023a6e5.webp",
+          "width": 1200,
+          "height": 1200,
+          "bytes": 43380,
+          "sha256": "7fb29023a6e54ca2b99d6c0432e762e2fba10d518954c21d16ae815a147f0868"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0731-female-anatomical-white-v1-thumb-8d21bca1619c.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2812,
+        "sha256": "8d21bca1619c75bc914e500af3068585a17bca3a0e4ed7aa58d0d403d9753bda"
+      },
+      "processingSignature": "7ebb8bfa3b86bd8272924721bef1ccb6aa0bfe09481cf17b8eaca57db825847c",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0731-female-anatomical-white-v1.png",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 1403799,
+        "sha256": "304c0a6c71de7284a90536d8624391a3fc11b0cec4caa24d63b9ac5055b62cb4"
+      }
+    },
+    {
+      "exerciseId": "0734",
+      "variant": "male",
+      "key": "0734-male-anatomical-white-v1",
+      "layout": {
+        "columns": 1,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hold a wall sit with back against the wall, knees near 90 degrees and both heels grounded. Breathe steadily for 20\u201360 seconds."
+        }
+      ],
+      "prompt": "Create original premium exercise anatomy illustration, ADULT MALE athletic model. Use reference ONLY for grayscale anatomical rendering quality, NOT its pose, equipment or chest highlight. ONE static TWO LEG WALL SIT. Back and pelvis contact a plain vertical light-gray wall. Both thighs horizontal, both knees bent90degrees directly over respective ankles. Both feet hip-width, soles and heels flat floor forward of wall. Torso upright, no chair. Hands rest loosely beside hips, no pushing knees. Side-front three-quarter camera so wall/back contact, bent knee angle and both feet clearly visible without occlusion. One centered full-body pose, generous margins around head and feet, square white canvas. EXPOSED arms and calves fine detailed grayscale anatomy, realistic proportions, no flesh-color photography. Fully opaque BLACK athletic shirt and mid-thigh shorts wrap FRONT SIDES BACK SEAT AND CROTCH with seams and broad fabric folds. Never exposed anatomy under fabric or transparent cutaway. Primary quadriceps teaching overlay: ONE smooth diffuse blurred RED tint on FRONT supporting thigh fabric on BOTH thighs. NO red muscle fibers, rays, streaks or striations through shorts. No chest/abdominal red. Black shoes. Plain white background with faint gray wall plane and soft floor contact shadow. No chair/bench/weights/ball. No captions, labels, words or arrows. Equal male/female anatomical detail.",
+      "inspectionNote": "Static wall sit with both feet grounded, thighs near horizontal and back against wall. Detailed exposed grayscale anatomy, opaque clothes, diffuse quadriceps red. Qualified wall contact, knee alignment and mapping review pending.",
+      "canonicalName": "sit (wall)",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "quads"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Static wall sit with both feet grounded, thighs near horizontal and back against wall. Detailed exposed grayscale anatomy, opaque clothes, diffuse quadriceps red. Qualified wall contact, knee alignment and mapping review pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0734-male-anatomical-white-v1-p1-d9e8e621041d.webp",
+          "width": 1200,
+          "height": 1200,
+          "bytes": 43628,
+          "sha256": "d9e8e621041d243411eba6c9efd7c3822e7c42e832a19d89546482497c418b02"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0734-male-anatomical-white-v1-thumb-4c07f6673506.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2834,
+        "sha256": "4c07f667350605194111ecbc166f9bc92cde3f6faed94b86534d4e7c7849f378"
+      },
+      "processingSignature": "45313eb76acc6a2acb2b69f9ad649795da32afeb236b05c08395e723991127d2",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0734-male-anatomical-white-v1.png",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 1506959,
+        "sha256": "89b1a6aefe1bc7188ff40fa5eb1844f7ecb7bd4394781f6b8216643091de5943"
+      }
+    },
+    {
+      "exerciseId": "0734",
+      "variant": "female",
+      "key": "0734-female-anatomical-white-v1",
+      "layout": {
+        "columns": 1,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hold a wall sit with back against the wall, knees near 90 degrees and both heels grounded. Breathe steadily for 20\u201360 seconds."
+        }
+      ],
+      "prompt": "Create original premium exercise anatomy illustration, ADULT FEMALE athletic model. Use reference ONLY for grayscale anatomical rendering quality, NOT its pose, equipment or chest highlight. ONE static TWO LEG WALL SIT. Back and pelvis contact a plain vertical light-gray wall. Both thighs horizontal, both knees bent90degrees directly over respective ankles. Both feet hip-width, soles and heels flat floor forward of wall. Torso upright, no chair. Hands rest loosely beside hips, no pushing knees. Side-front three-quarter camera so wall/back contact, bent knee angle and both feet clearly visible without occlusion. One centered full-body pose, generous margins around head and feet, square white canvas. EXPOSED arms and calves fine detailed grayscale anatomy, realistic proportions, no flesh-color photography. Fully opaque BLACK athletic shirt and mid-thigh shorts wrap FRONT SIDES BACK SEAT AND CROTCH with seams and broad fabric folds. Never exposed anatomy under fabric or transparent cutaway. Primary quadriceps teaching overlay: ONE smooth diffuse blurred RED tint on FRONT supporting thigh fabric on BOTH thighs. NO red muscle fibers, rays, streaks or striations through shorts. No chest/abdominal red. Black shoes. Plain white background with faint gray wall plane and soft floor contact shadow. No chair/bench/weights/ball. No captions, labels, words or arrows. Equal male/female anatomical detail.",
+      "inspectionNote": "Static wall sit, both heels grounded and knees near right angles, back/seat supported against wall. Detailed exposed grayscale anatomy, opaque clothes with diffuse front thigh red. Qualified knee-foot alignment, wall contact and muscle mapping review pending.",
+      "canonicalName": "sit (wall)",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "quads"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Static wall sit, both heels grounded and knees near right angles, back/seat supported against wall. Detailed exposed grayscale anatomy, opaque clothes with diffuse front thigh red. Qualified knee-foot alignment, wall contact and muscle mapping review pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0734-female-anatomical-white-v1-p1-6980cd831775.webp",
+          "width": 1200,
+          "height": 1200,
+          "bytes": 45226,
+          "sha256": "6980cd831775b1205c1d806ec7caa19a9b8315248f94acbe9275596ae86803e3"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0734-female-anatomical-white-v1-thumb-a3decbc13f78.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2752,
+        "sha256": "a3decbc13f78c7d4c1f37c60c2eee485b86411f47a97678478c25f6d5861e50d"
+      },
+      "processingSignature": "f3904eb047a0f55c9f3419410e6c29cf27ceabb64078334f0d1b275723f90336",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0734-female-anatomical-white-v1.png",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 1479520,
+        "sha256": "a404d1e41b77b26ed5c832c9dcd8c21a990480fd7bad44348fddbb74a1b0ddb3"
+      }
+    }
+  ]
+}

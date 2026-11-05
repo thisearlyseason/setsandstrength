@@ -1,0 +1,87 @@
+{
+  "batch": 45,
+  "trigger": "2026-11-01T10:06:13.943Z",
+  "completedAt": "2026-11-01T10:12:19.556819+00:00",
+  "tool": "image_gen.imagegen",
+  "newCandidateSets": 4,
+  "generationCalls": 5,
+  "exerciseIds": [
+    "0354",
+    "0311"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 176,
+    "remainingVariants": 11088,
+    "approvedVariants": 0,
+    "blockedVariants": 75,
+    "knownPoseImages": 354,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "All pending and unpublished. Kickback male corrected to fixed upper-arm position with neutral gaze; original retained. Full-can raise uses thumbs-up vertical dumbbell axes rather than palms down. Continuous opaque clothing inspected. Optimized female full-can end crop inspected: weights and hands fully included, narrow margin. Qualified joint alignment, shoulder plane and muscle mapping review remains required.",
+  "metadataNotes": [
+    "0311 description explicitly specifies thumbs-up full-can orientation; generic instructions omit that detail, preserved description-specific orientation.",
+    "0418 describes elbow against inner thigh but generic standing instructions omit support; deferred pending qualified clarification."
+  ],
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 285543692,
+  "savedMasters": [
+    {
+      "exerciseId": "0354",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0354-male-anatomical-white-v2.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1581112,
+        "sha256": "0a9a9a124fe1089f614e5cb6a14717ec6622879d591084ef2f265b918d4d194f"
+      }
+    },
+    {
+      "exerciseId": "0354",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0354-female-anatomical-white-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1620214,
+        "sha256": "da01227a704a819345d51f3011c2deb29a78f428fbac1fd22a39823a3e58074a"
+      }
+    },
+    {
+      "exerciseId": "0311",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0311-male-anatomical-white-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1464756,
+        "sha256": "4e107444f36bf3c03e5a25af5e4b3abac73dd058a39f5f525c04a2fadffd18a2"
+      }
+    },
+    {
+      "exerciseId": "0311",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0311-female-anatomical-white-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1446489,
+        "sha256": "f45604f4cb3bacf8035d3749761ebc2ccb687ce3147dae5d120e81af94948b85"
+      }
+    }
+  ]
+}

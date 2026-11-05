@@ -1,0 +1,55 @@
+{
+  "batch": 376,
+  "runId": "956d701c-853d-4604-86bd-4fe936a4c8bd",
+  "builtInImageGenAvailable": true,
+  "anatomyReview": "pending",
+  "publication": "none",
+  "deferred": {
+    "3517": "Spine target requires explicit anatomical primary-muscle mapping."
+  },
+  "coverageAfter": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1356,
+    "remainingVariants": 9908,
+    "approvedVariants": 0,
+    "blockedVariants": 521,
+    "knownPoseImages": 2682,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 983,
+      "remainingVariants": 4649,
+      "blockedVariants": 402
+    }
+  },
+  "paidWorker": {
+    "statuses": {
+      "generated": 1356,
+      "pending": 9908
+    },
+    "remaining": 9908,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 2062225296
+  },
+  "pipelineTests": "7 passed, 0 failed",
+  "approvedIndexUnchanged": true,
+  "existingUserApprovalsPreserved": 1306,
+  "generatedIds": [
+    "3514",
+    "3515",
+    "3516",
+    "3518"
+  ]
+}

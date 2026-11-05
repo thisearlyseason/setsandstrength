@@ -1,0 +1,37 @@
+{
+  "batch": 42,
+  "trigger": "2026-11-01T09:38:43.618Z",
+  "completedAt": "2026-11-01T09:50:01.292305+00:00",
+  "tool": "image_gen.imagegen",
+  "newCandidateSets": 4,
+  "generationCalls": 5,
+  "exerciseIds": [
+    "0355",
+    "3913"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 164,
+    "remainingVariants": 11100,
+    "approvedVariants": 0,
+    "blockedVariants": 70,
+    "knownPoseImages": 332,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "All pending, none published. One-arm lateral and front raises show the opposite arm down and empty, shoulder-height endpoints and opaque full clothing. Male lateral grayscale correction replaces warm-colored first rendition, with v1 retained. Qualified anatomy and technique review still required.",
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 266109178
+}

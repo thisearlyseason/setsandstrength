@@ -1,0 +1,81 @@
+{
+  "batch": 312,
+  "runId": "186a7380-de79-46ee-a66c-54377257ce23",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "trigger": "2026-11-04T06:32:28.082Z",
+  "purpose": "batch312 scheduled male continuation",
+  "started": "2026-11-04T06:33:06.860764+00:00",
+  "completedAt": "2026-11-04T06:44:00.236359+00:00",
+  "actualToolName": "image_gen__imagegen",
+  "calls": 4,
+  "newCandidateSets": 4,
+  "exerciseIds": [
+    "2912",
+    "2913",
+    "2916",
+    "2917"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1116,
+    "remainingVariants": 10148,
+    "approvedVariants": 0,
+    "blockedVariants": 396,
+    "knownPoseImages": 2164,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 743,
+      "remainingVariants": 4889,
+      "blockedVariants": 277
+    }
+  },
+  "reviewNotes": {
+    "2912": "Athlete inside loaded trap bar with neutral side handles, arms down and level frame; trapezius red, opaque clothing. Last two walking panels repeat same stride rather than opposite steps; block gait sequence correction. Qualified review needed for frame/leg clearance, grip and weight balance. Human anatomy review pending.",
+    "2913": "Same arm holds two-headed dumbbell overhead with straight elbow and biceps near ear, torso tall and clothing opaque. Last two walking panels repeat same stride; block gait sequence correction. Qualified review needed for wrist/elbow/shoulder stacking, rib position and shoulder mapping. Human anatomy review pending.",
+    "2916": "Kettlebell held near chest by horns, elbows tucked and torso upright; plain glute wash on opaque shorts. Last two walking panels repeat same stride; block gait alternation correction. Qualified review needed for both-hand horn grip visibility, rib position and weight stability. Human anatomy review pending.",
+    "2917": "Two dumbbells at sides with straight arms, forearm highlights and opaque clothing. Last walking panels repeat same forward leg and appear crossed/narrow rather than clear alternating steps; block gait sequence correction. Qualified review needed for grip, shoulder depression, stride spacing and equipment clearance. Human anatomy review pending."
+  },
+  "blockingIssues": {
+    "2912": [
+      "Walking panels repeat same stride; depict clearly opposite forward leg on final panel."
+    ],
+    "2913": [
+      "Walking panels repeat same stride; show opposite forward leg in final panel."
+    ],
+    "2916": [
+      "Walking panels repeat same stride; depict opposite forward leg in final panel."
+    ],
+    "2917": [
+      "Last walking panels repeat same forward leg; show opposite step with natural uncrossed stride."
+    ]
+  },
+  "deferred": {
+    "2919": "Smith hex press optional plate-between-palms instruction conflicts with bar grip; clarify."
+  },
+  "tests": 7,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "workerSyncResult": {
+    "statuses": {
+      "generated": 1116,
+      "pending": 10148
+    },
+    "remaining": 10148,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 1711038947
+  },
+  "publicationIndexUnchanged": true
+}

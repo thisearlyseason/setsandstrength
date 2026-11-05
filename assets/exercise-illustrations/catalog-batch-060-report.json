@@ -1,0 +1,97 @@
+{
+  "batch": 60,
+  "trigger": "2026-11-01T12:35:45.635Z",
+  "completedAt": "2026-11-01T12:47:03.117931+00:00",
+  "tool": "image_gen.imagegen",
+  "newCandidateSets": 4,
+  "generationCalls": 5,
+  "exerciseIds": [
+    "0180",
+    "0186"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 236,
+    "remainingVariants": 11028,
+    "approvedVariants": 0,
+    "blockedVariants": 104,
+    "knownPoseImages": 476,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "All pending and unpublished. Row cable connections at bar end require correction; female back garment and full tower improved in v2 with v1 retained. Triceps rope poses and opaque clothes inspected; machine/body framing and gutter crop issues blocked in both variants. Qualified anatomy, grip and exact upper-arm/rope continuity review remains separate. These candidates are not verified demonstrations.",
+  "metadataConflictsDeferred": [
+    {
+      "exerciseId": "0182",
+      "issue": "Close-grip title conflicts with shoulder-width instructions."
+    },
+    {
+      "exerciseId": "0183",
+      "issue": "Low-cable lying-curl description versus head-facing pulley/overhead geometry unclear."
+    },
+    {
+      "exerciseId": "0185",
+      "issue": "Secondary upper-back/traps mapping conflicts with described delts/triceps involvement."
+    }
+  ],
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 381215944,
+  "savedMasters": [
+    {
+      "exerciseId": "0180",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0180-male-anatomical-white-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1729784,
+        "sha256": "34b376f7c6bde0927aac87fbb2ee19e76fdbe47efe19e4cd0c5deb5155312abc"
+      }
+    },
+    {
+      "exerciseId": "0180",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0180-female-anatomical-white-v2.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1748119,
+        "sha256": "44476d0b36d70d975bf452ad54f35693679dbce183fb98fe0d8f7caa2e05dc29"
+      }
+    },
+    {
+      "exerciseId": "0186",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0186-male-anatomical-white-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1654599,
+        "sha256": "88fe03e1a7ac5d9b06851918d37d40990aeffbb260a09b00682f639e1895867f"
+      }
+    },
+    {
+      "exerciseId": "0186",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0186-female-anatomical-white-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1518033,
+        "sha256": "589daf878a52bd508207c2b620fcbe8b0d081c1ffafc642430889a7c2fc8eda8"
+      }
+    }
+  ]
+}

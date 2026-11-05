@@ -1,0 +1,90 @@
+{
+  "batch": 102,
+  "trigger": "2026-11-01T23:32:52.969Z",
+  "completedAt": "2026-11-01T23:46:42.038350+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 4,
+  "generationCalls": 6,
+  "exerciseIds": [
+    "0659",
+    "0660"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 420,
+    "remainingVariants": 10844,
+    "approvedVariants": 0,
+    "blockedVariants": 180,
+    "knownPoseImages": 870,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Four candidate sets, eight pose images, two retained wall-push-up corrections and six built-in calls. None approved or published. Wall push-ups show nearly straight upper-phase arms and lower-phase elbow flexion; both heel edits now plant soles on floor. Male lowered head remains too close to wall; both chest fabric highlights retain radial patterns after correction requests and remain blocked. Female head clearance improved. Close-grip dumbbell push-ups show two hex dumbbells on floor, neutral closed handles, straight body and tucked lower elbows, exposed red triceps only. Qualified grip/wrist, dumbbell spacing/stability, wall clearance, palm continuity, elbow trajectory and all anatomy/technique review remain separate. Full opaque clothing wraps torso/front/sides/back/seat/crotch; exposed anatomy fine grayscale. Exact prompts, originals, correction history and hashes retained. Original project artwork style-only, no upstream media. Pipeline checks are not anatomy approval.",
+  "metadataConflictsDeferred": [
+    {
+      "exerciseId": "0661",
+      "issue": "Inside/inward leg kick title and description conflict with out-to-side instruction; clarify direction before generating."
+    }
+  ],
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 692702261,
+  "savedMasters": [
+    {
+      "exerciseId": "0659",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0659-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1665277,
+        "sha256": "5967e508925e067d7740936a682f22faf9b8abde28077fc9302bd6c9997dc4cd"
+      }
+    },
+    {
+      "exerciseId": "0659",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0659-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1667650,
+        "sha256": "e41608d60e5accc7d4d59a722454d0f1ee9186b5d498f5e89a6cc4adfcddfc35"
+      }
+    },
+    {
+      "exerciseId": "0660",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0660-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1716648,
+        "sha256": "a622de5d4cb24f07898a2219f6d84e245634584c42abe71c2de79e193756c4cd"
+      }
+    },
+    {
+      "exerciseId": "0660",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0660-female-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1713536,
+        "sha256": "0c432ef6f9e316e2daef1a650b88797eefc46543967f67af71ee24224cfb0593"
+      }
+    }
+  ]
+}

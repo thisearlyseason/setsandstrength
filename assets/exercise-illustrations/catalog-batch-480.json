@@ -1,0 +1,118 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "7449",
+      "variant": "male",
+      "key": "7449-male-anatomical-white-v1",
+      "prompt": "STANDING FRONT AND LATERAL RAISE. Three equal side-by-side panels front three-quarter with forward direction clear. TWO dumbbells. Panel1 arms lowered beside hips. Panel2 BOTH arms raised straight FORWARD to shoulder height, soft elbows. Panel3 after lowering raise BOTH arms OUT TO SIDES to shoulder height, soft elbows. Same stance and upright torso, no swings. Red DELTOIDS. Use case: scientific educational exercise illustration. Approved original 0853 reference is for premium detailed grayscale anatomy rendering ONLY, never its movement, pose, grip or equipment count. White background, subtle floor shadows, realistic muscular adult male. Identical person, camera, scale, equipment throughout. Fully opaque black tank and mid-thigh black shorts wrap front, sides, back and crotch with realistic seams, folds and hems. Red only on EXPOSED specified primary muscles. Keep all fabric solid plain black; no anatomical lines, nipples or muscle fibers on or through cloth, no cutaways. Entire body, feet, hands, weights and equipment fully inside each panel with generous margins. No words, numbers or arrows.",
+      "layout": {
+        "columns": 3,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hold dumbbells at sides."
+        },
+        {
+          "key": "p2",
+          "caption": "Raise both forward to shoulder height, then lower."
+        },
+        {
+          "key": "p3",
+          "caption": "Raise both sideways to shoulder height, then lower and repeat."
+        }
+      ],
+      "inspectionNote": "Inspected original: Three poses show lowered arms, forward shoulder-height raise and lateral shoulder-height raise, upright stance. Opaque clothing; human anatomy review pending.",
+      "blockingIssues": [],
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream media used.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0853-male-anatomical-white-v1.png",
+        "role": "style only"
+      }
+    },
+    {
+      "exerciseId": "7625",
+      "variant": "male",
+      "key": "7625-male-anatomical-white-v1",
+      "prompt": "BENT OVER DUMBBELL CURL. Two equal side-by-side panels SIDE three-quarter. Hold TWO dumbbells, hinge at hips with flat back, soft knees, torso near horizontal. Panel1 arms hang straight downward under shoulders, palms forward toward head. Panel2 curl BOTH weights toward shoulders by bending elbows only, upper arms remain fixed hanging VERTICALLY, elbows do NOT pull back toward ribs. Hinge unchanged, no rowing. Red BICEPS. Use case: scientific educational exercise illustration. Approved original 0853 reference is for premium detailed grayscale anatomy rendering ONLY, never its movement, pose, grip or equipment count. White background, subtle floor shadows, realistic muscular adult male. Identical person, camera, scale, equipment throughout. Fully opaque black tank and mid-thigh black shorts wrap front, sides, back and crotch with realistic seams, folds and hems. Red only on EXPOSED specified primary muscles. Keep all fabric solid plain black; no anatomical lines, nipples or muscle fibers on or through cloth, no cutaways. Entire body, feet, hands, weights and equipment fully inside each panel with generous margins. No words, numbers or arrows.",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hinge forward flat back holding dumbbells, arms hanging straight."
+        },
+        {
+          "key": "p2",
+          "caption": "Curl toward shoulders with elbows fixed, squeeze and lower to straight arms."
+        }
+      ],
+      "inspectionNote": "Inspected original: Two hinged curl poses with supinated grips and upper arms hanging rather than rowing. Opaque clothing; human anatomy review pending.",
+      "blockingIssues": [],
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream media used.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0853-male-anatomical-white-v1.png",
+        "role": "style only"
+      }
+    },
+    {
+      "exerciseId": "7879",
+      "variant": "male",
+      "key": "7879-male-anatomical-white-v1",
+      "prompt": "INCLINE DUMBBELL TRICEPS KICKBACK. Two equal side-by-side panels SIDE three-quarter. Lie chest down on incline bench about30 degrees with feet planted, TWO dumbbells one each hand. Upper arms pinned along torso fixed all poses. Panel1 elbows bent90, forearms hang DOWN under elbows, weights near bench sides. Panel2 straighten BOTH elbows to send weights BACK behind hips along line of torso. Chest supported, no rowing or shoulder motion. Red exposed TRICEPS. Use case: scientific educational exercise illustration. Approved original 0853 reference is for premium detailed grayscale anatomy rendering ONLY, never its movement, pose, grip or equipment count. White background, subtle floor shadows, realistic muscular adult male. Identical person, camera, scale, equipment throughout. Fully opaque black tank and mid-thigh black shorts wrap front, sides, back and crotch with realistic seams, folds and hems. Red only on EXPOSED specified primary muscles. Keep all fabric solid plain black; no anatomical lines, nipples or muscle fibers on or through cloth, no cutaways. Entire body, feet, hands, weights and equipment fully inside each panel with generous margins. No words, numbers or arrows.",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Lie chest down on incline bench, dumbbells in hands and upper arms pinned at sides."
+        },
+        {
+          "key": "p2",
+          "caption": "Extend elbows kicking weights back, squeeze triceps and return slowly."
+        }
+      ],
+      "inspectionNote": "Inspected original: Saved supported kickback original; near arm extends behind but far arm stays lowered instead of bilateral elbow extension. Opaque clothing; human anatomy review pending.",
+      "blockingIssues": [
+        "Far arm remains lowered in finish instead of both elbows extending behind as specified."
+      ],
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream media used.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0853-male-anatomical-white-v1.png",
+        "role": "style only"
+      }
+    },
+    {
+      "exerciseId": "7880",
+      "variant": "male",
+      "key": "7880-male-anatomical-white-v1",
+      "prompt": "KNEELING DUMBBELL TRICEPS KICKBACK supported on bench. Two equal side-by-side panels RIGHT SIDE three-quarter. LEFT knee and LEFT hand on flat bench, RIGHT foot planted on floor, torso flat near horizontal. ONE dumbbell RIGHT hand, right upper arm fixed along torso. Panel1 right elbow bent90 forearm hangs down. Panel2 extend ONLY right elbow sending weight BACK behind hip, straight arm parallel torso. Left support unchanged. Red RIGHT TRICEPS. Use case: scientific educational exercise illustration. Approved original 0853 reference is for premium detailed grayscale anatomy rendering ONLY, never its movement, pose, grip or equipment count. White background, subtle floor shadows, realistic muscular adult male. Identical person, camera, scale, equipment throughout. Fully opaque black tank and mid-thigh black shorts wrap front, sides, back and crotch with realistic seams, folds and hems. Red only on EXPOSED specified primary muscles. Keep all fabric solid plain black; no anatomical lines, nipples or muscle fibers on or through cloth, no cutaways. Entire body, feet, hands, weights and equipment fully inside each panel with generous margins. No words, numbers or arrows.",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Support left hand and left knee on bench, right dumbbell held with upper arm beside torso."
+        },
+        {
+          "key": "p2",
+          "caption": "Extend right elbow to kick weight back, squeeze and lower; switch after reps."
+        }
+      ],
+      "inspectionNote": "Inspected original: Right single-arm kickback shows elbow flexion then extension with left knee and hand on bench, right foot planted and torso supported. Opaque clothing; human anatomy review pending.",
+      "blockingIssues": [],
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream media used.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0853-male-anatomical-white-v1.png",
+        "role": "style only"
+      }
+    }
+  ]
+}

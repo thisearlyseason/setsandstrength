@@ -1,0 +1,979 @@
+{
+  "schemaVersion": 1,
+  "styleVersion": "anatomical-white-v1",
+  "jobs": [
+    {
+      "key": "3948-male-anatomical-white-v1",
+      "exerciseId": "3948",
+      "canonicalName": "air squat",
+      "variant": "male",
+      "styleVersion": "anatomical-white-v1",
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand"
+        },
+        {
+          "key": "p2",
+          "caption": "Squat"
+        }
+      ],
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "quads"
+      ],
+      "metadataReview": "Detailed muscle map absent; review target-to-anatomy mapping.",
+      "prompt": "Use case: scientific-educational. Create a premium anatomical exercise illustration master, 2 equally sized panels in one horizontal row, separated by white gutters. Exercise: air squat (3948). Adult male model. Same person, camera, scale, equipment and lighting in every panel. Poses left to right: Stand; Squat. Instructions: Stand with feet shoulder-width apart. Reach your arms forward for balance. Sit your hips back and down until your thighs are parallel. Keep your chest up. Drive through your feet to stand. Equipment: body weight. Primary muscle metadata: quads; detailed primary map: not provided; requires qualified review. User-approved reference supplies style only: clean white background, grayscale anatomical detail, realistic proportions, red primary muscles, crisp detail and subtle shadows. Black shorts and shoes; female wears fitted sports bra, equal anatomical detail on visible muscle regions. Keep entire body and equipment visible. Correct joints, grips, cable routing and contact points. No text, captions, numbers, watermark, labels or decorative graphics. This is a sequence of still positions, not a movement video. For leg extension use a selectorized stack machine, knee pivot aligned, shin roller above ankle (catalog wording footpad needs review).",
+      "reference": {
+        "path": ".codex-attachments/2a25511d-6187-4051-944f-3bfcad230b73/97613625-9eb8-4ac5-8701-9647255d489f/10610.png",
+        "rights": "User confirmed ownership / permission for AI reference use in chat on 2026-10-31. No upstream media used as generation input."
+      },
+      "generation": {
+        "status": "pending",
+        "attempts": 0
+      },
+      "review": {
+        "status": "pending",
+        "notes": "",
+        "reviewer": ""
+      },
+      "assets": [],
+      "video": null
+    },
+    {
+      "key": "3948-female-anatomical-white-v1",
+      "exerciseId": "3948",
+      "canonicalName": "air squat",
+      "variant": "female",
+      "styleVersion": "anatomical-white-v1",
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand"
+        },
+        {
+          "key": "p2",
+          "caption": "Squat"
+        }
+      ],
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "quads"
+      ],
+      "metadataReview": "Detailed muscle map absent; review target-to-anatomy mapping.",
+      "prompt": "Use case: scientific-educational. Create a premium anatomical exercise illustration master, 2 equally sized panels in one horizontal row, separated by white gutters. Exercise: air squat (3948). Adult female model. Same person, camera, scale, equipment and lighting in every panel. Poses left to right: Stand; Squat. Instructions: Stand with feet shoulder-width apart. Reach your arms forward for balance. Sit your hips back and down until your thighs are parallel. Keep your chest up. Drive through your feet to stand. Equipment: body weight. Primary muscle metadata: quads; detailed primary map: not provided; requires qualified review. User-approved reference supplies style only: clean white background, grayscale anatomical detail, realistic proportions, red primary muscles, crisp detail and subtle shadows. Black shorts and shoes; female wears fitted sports bra, equal anatomical detail on visible muscle regions. Keep entire body and equipment visible. Correct joints, grips, cable routing and contact points. No text, captions, numbers, watermark, labels or decorative graphics. This is a sequence of still positions, not a movement video. For leg extension use a selectorized stack machine, knee pivot aligned, shin roller above ankle (catalog wording footpad needs review).",
+      "reference": {
+        "path": ".codex-attachments/2a25511d-6187-4051-944f-3bfcad230b73/97613625-9eb8-4ac5-8701-9647255d489f/10610.png",
+        "rights": "User confirmed ownership / permission for AI reference use in chat on 2026-10-31. No upstream media used as generation input."
+      },
+      "generation": {
+        "status": "pending",
+        "attempts": 0
+      },
+      "review": {
+        "status": "pending",
+        "notes": "",
+        "reviewer": ""
+      },
+      "assets": [],
+      "video": null
+    },
+    {
+      "key": "0868-male-anatomical-white-v1",
+      "exerciseId": "0868",
+      "canonicalName": "cable curl",
+      "variant": "male",
+      "styleVersion": "anatomical-white-v1",
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Start"
+        },
+        {
+          "key": "p2",
+          "caption": "Curl"
+        }
+      ],
+      "equipment": "cable",
+      "primaryMuscles": [
+        "biceps"
+      ],
+      "metadataReview": "Detailed muscle map absent; review target-to-anatomy mapping.",
+      "prompt": "Use case: scientific-educational. Create a premium anatomical exercise illustration master, 2 equally sized panels in one horizontal row, separated by white gutters. Exercise: cable curl (0868). Adult male model. Same person, camera, scale, equipment and lighting in every panel. Poses left to right: Start; Curl. Instructions: Stand facing the cable machine with your feet shoulder-width apart. Grasp the cable attachment with an underhand grip, palms facing up. Keep your elbows close to your sides and your upper arms stationary. Exhale and curl the cable attachment towards your shoulders, contracting your biceps. Pause for a moment at the top of the movement, squeezing your biceps. Inhale and slowly lower the cable attachment back to the starting position. Repeat for the desired number of repetitions. Equipment: cable. Primary muscle metadata: biceps; detailed primary map: not provided; requires qualified review. User-approved reference supplies style only: clean white background, grayscale anatomical detail, realistic proportions, red primary muscles, crisp detail and subtle shadows. Black shorts and shoes; female wears fitted sports bra, equal anatomical detail on visible muscle regions. Keep entire body and equipment visible. Correct joints, grips, cable routing and contact points. No text, captions, numbers, watermark, labels or decorative graphics. This is a sequence of still positions, not a movement video. For leg extension use a selectorized stack machine, knee pivot aligned, shin roller above ankle (catalog wording footpad needs review).",
+      "reference": {
+        "path": ".codex-attachments/2a25511d-6187-4051-944f-3bfcad230b73/97613625-9eb8-4ac5-8701-9647255d489f/10610.png",
+        "rights": "User confirmed ownership / permission for AI reference use in chat on 2026-10-31. No upstream media used as generation input."
+      },
+      "generation": {
+        "status": "generated",
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Generated draft; anatomy, equipment, panel boundaries and technique require human review.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0868-male-anatomical-white-v1-p1-4465d2c26956.webp",
+          "width": 768,
+          "height": 1024,
+          "bytes": 46528,
+          "sha256": "8f3c7d512545c99b56f7b297f682075cc65f82c2bfc34587d6291f1d5a5b42c8"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0868-male-anatomical-white-v1-p2-4465d2c26956.webp",
+          "width": 768,
+          "height": 1024,
+          "bytes": 46548,
+          "sha256": "cfe7a562a86ec0091cb6d656d8457c20e5a2380391c28be9d6b0b0e525ffadbd"
+        }
+      ],
+      "video": null,
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0868-male-anatomical-white-v1-thumb-4465d2c26956.webp",
+        "width": 180,
+        "height": 240,
+        "bytes": 4048,
+        "sha256": "33674aef08d9f7d1b27b7f9d4f265413c20c6a3e7959cfe3050857c403b65dfa"
+      },
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0868-male-anatomical-white-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1499881,
+        "sha256": "4465d2c269569fa19d419a41e38bfb24a0ba6142c1352cd8872c7b9a3e66fb45"
+      }
+    },
+    {
+      "key": "0868-female-anatomical-white-v1",
+      "exerciseId": "0868",
+      "canonicalName": "cable curl",
+      "variant": "female",
+      "styleVersion": "anatomical-white-v1",
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Start"
+        },
+        {
+          "key": "p2",
+          "caption": "Curl"
+        }
+      ],
+      "equipment": "cable",
+      "primaryMuscles": [
+        "biceps"
+      ],
+      "metadataReview": "Detailed muscle map absent; review target-to-anatomy mapping.",
+      "prompt": "Use case: scientific-educational. Create a premium anatomical exercise illustration master, 2 equally sized panels in one horizontal row, separated by white gutters. Exercise: cable curl (0868). Adult female model. Same person, camera, scale, equipment and lighting in every panel. Poses left to right: Start; Curl. Instructions: Stand facing the cable machine with your feet shoulder-width apart. Grasp the cable attachment with an underhand grip, palms facing up. Keep your elbows close to your sides and your upper arms stationary. Exhale and curl the cable attachment towards your shoulders, contracting your biceps. Pause for a moment at the top of the movement, squeezing your biceps. Inhale and slowly lower the cable attachment back to the starting position. Repeat for the desired number of repetitions. Equipment: cable. Primary muscle metadata: biceps; detailed primary map: not provided; requires qualified review. User-approved reference supplies style only: clean white background, grayscale anatomical detail, realistic proportions, red primary muscles, crisp detail and subtle shadows. Black shorts and shoes; female wears fitted sports bra, equal anatomical detail on visible muscle regions. Keep entire body and equipment visible. Correct joints, grips, cable routing and contact points. No text, captions, numbers, watermark, labels or decorative graphics. This is a sequence of still positions, not a movement video. For leg extension use a selectorized stack machine, knee pivot aligned, shin roller above ankle (catalog wording footpad needs review).",
+      "reference": {
+        "path": ".codex-attachments/2a25511d-6187-4051-944f-3bfcad230b73/97613625-9eb8-4ac5-8701-9647255d489f/10610.png",
+        "rights": "User confirmed ownership / permission for AI reference use in chat on 2026-10-31. No upstream media used as generation input."
+      },
+      "generation": {
+        "status": "pending",
+        "attempts": 0
+      },
+      "review": {
+        "status": "pending",
+        "notes": "",
+        "reviewer": ""
+      },
+      "assets": [],
+      "video": null
+    },
+    {
+      "key": "0294-male-anatomical-white-v1",
+      "exerciseId": "0294",
+      "canonicalName": "dumbbell biceps curl",
+      "variant": "male",
+      "styleVersion": "anatomical-white-v1",
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Start"
+        },
+        {
+          "key": "p2",
+          "caption": "Curl"
+        }
+      ],
+      "equipment": "dumbbell",
+      "primaryMuscles": [
+        "biceps"
+      ],
+      "metadataReview": "Detailed muscle map absent; review target-to-anatomy mapping.",
+      "prompt": "Use case: scientific-educational. Create a premium anatomical exercise illustration master, 2 equally sized panels in one horizontal row, separated by white gutters. Exercise: dumbbell biceps curl (0294). Adult male model. Same person, camera, scale, equipment and lighting in every panel. Poses left to right: Start; Curl. Instructions: Stand up straight with a dumbbell in each hand, palms facing forward and arms fully extended. Keeping your upper arms stationary, exhale and curl the weights while contracting your biceps. Continue to raise the weights until your biceps are fully contracted and the dumbbells are at shoulder level. Hold the contracted position for a brief pause as you squeeze your biceps. Inhale and slowly begin to lower the dumbbells back to the starting position. Repeat for the desired number of repetitions. Equipment: dumbbell. Primary muscle metadata: biceps; detailed primary map: not provided; requires qualified review. User-approved reference supplies style only: clean white background, grayscale anatomical detail, realistic proportions, red primary muscles, crisp detail and subtle shadows. Black shorts and shoes; female wears fitted sports bra, equal anatomical detail on visible muscle regions. Keep entire body and equipment visible. Correct joints, grips, cable routing and contact points. No text, captions, numbers, watermark, labels or decorative graphics. This is a sequence of still positions, not a movement video. For leg extension use a selectorized stack machine, knee pivot aligned, shin roller above ankle (catalog wording footpad needs review).",
+      "reference": {
+        "path": ".codex-attachments/2a25511d-6187-4051-944f-3bfcad230b73/97613625-9eb8-4ac5-8701-9647255d489f/10610.png",
+        "rights": "User confirmed ownership / permission for AI reference use in chat on 2026-10-31. No upstream media used as generation input."
+      },
+      "generation": {
+        "status": "pending",
+        "attempts": 0
+      },
+      "review": {
+        "status": "pending",
+        "notes": "",
+        "reviewer": ""
+      },
+      "assets": [],
+      "video": null
+    },
+    {
+      "key": "0294-female-anatomical-white-v1",
+      "exerciseId": "0294",
+      "canonicalName": "dumbbell biceps curl",
+      "variant": "female",
+      "styleVersion": "anatomical-white-v1",
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Start"
+        },
+        {
+          "key": "p2",
+          "caption": "Curl"
+        }
+      ],
+      "equipment": "dumbbell",
+      "primaryMuscles": [
+        "biceps"
+      ],
+      "metadataReview": "Detailed muscle map absent; review target-to-anatomy mapping.",
+      "prompt": "Use case: scientific-educational. Create a premium anatomical exercise illustration master, 2 equally sized panels in one horizontal row, separated by white gutters. Exercise: dumbbell biceps curl (0294). Adult female model. Same person, camera, scale, equipment and lighting in every panel. Poses left to right: Start; Curl. Instructions: Stand up straight with a dumbbell in each hand, palms facing forward and arms fully extended. Keeping your upper arms stationary, exhale and curl the weights while contracting your biceps. Continue to raise the weights until your biceps are fully contracted and the dumbbells are at shoulder level. Hold the contracted position for a brief pause as you squeeze your biceps. Inhale and slowly begin to lower the dumbbells back to the starting position. Repeat for the desired number of repetitions. Equipment: dumbbell. Primary muscle metadata: biceps; detailed primary map: not provided; requires qualified review. User-approved reference supplies style only: clean white background, grayscale anatomical detail, realistic proportions, red primary muscles, crisp detail and subtle shadows. Black shorts and shoes; female wears fitted sports bra, equal anatomical detail on visible muscle regions. Keep entire body and equipment visible. Correct joints, grips, cable routing and contact points. No text, captions, numbers, watermark, labels or decorative graphics. This is a sequence of still positions, not a movement video. For leg extension use a selectorized stack machine, knee pivot aligned, shin roller above ankle (catalog wording footpad needs review).",
+      "reference": {
+        "path": ".codex-attachments/2a25511d-6187-4051-944f-3bfcad230b73/97613625-9eb8-4ac5-8701-9647255d489f/10610.png",
+        "rights": "User confirmed ownership / permission for AI reference use in chat on 2026-10-31. No upstream media used as generation input."
+      },
+      "generation": {
+        "status": "pending",
+        "attempts": 0
+      },
+      "review": {
+        "status": "pending",
+        "notes": "",
+        "reviewer": ""
+      },
+      "assets": [],
+      "video": null
+    },
+    {
+      "key": "0025-male-anatomical-white-v1",
+      "exerciseId": "0025",
+      "canonicalName": "barbell bench press",
+      "variant": "male",
+      "styleVersion": "anatomical-white-v1",
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Arms extended"
+        },
+        {
+          "key": "p2",
+          "caption": "Lower to chest"
+        }
+      ],
+      "equipment": "barbell",
+      "primaryMuscles": [
+        "chest"
+      ],
+      "metadataReview": "Verify mapped regions and technique.",
+      "prompt": "Use case: scientific-educational. Create a premium anatomical exercise illustration master, 2 equally sized panels in one horizontal row, separated by white gutters. Exercise: barbell bench press (0025). Adult male model. Same person, camera, scale, equipment and lighting in every panel. Poses left to right: Arms extended; Lower to chest. Instructions: Lie flat on a bench with your feet flat on the ground and your back pressed against the bench. Grasp the barbell with an overhand grip slightly wider than shoulder-width apart. Lift the barbell off the rack and hold it directly above your chest with your arms fully extended. Lower the barbell slowly towards your chest, keeping your elbows tucked in. Pause for a moment when the barbell touches your chest. Push the barbell back up to the starting position by extending your arms. Repeat for the desired number of repetitions. Equipment: barbell. Primary muscle metadata: pectorals; detailed primary map: chest. User-approved reference supplies style only: clean white background, grayscale anatomical detail, realistic proportions, red primary muscles, crisp detail and subtle shadows. Black shorts and shoes; female wears fitted sports bra, equal anatomical detail on visible muscle regions. Keep entire body and equipment visible. Correct joints, grips, cable routing and contact points. No text, captions, numbers, watermark, labels or decorative graphics. This is a sequence of still positions, not a movement video. For leg extension use a selectorized stack machine, knee pivot aligned, shin roller above ankle (catalog wording footpad needs review).",
+      "reference": {
+        "path": ".codex-attachments/2a25511d-6187-4051-944f-3bfcad230b73/97613625-9eb8-4ac5-8701-9647255d489f/10610.png",
+        "rights": "User confirmed ownership / permission for AI reference use in chat on 2026-10-31. No upstream media used as generation input."
+      },
+      "generation": {
+        "status": "pending",
+        "attempts": 0
+      },
+      "review": {
+        "status": "pending",
+        "notes": "",
+        "reviewer": ""
+      },
+      "assets": [],
+      "video": null
+    },
+    {
+      "key": "0025-female-anatomical-white-v1",
+      "exerciseId": "0025",
+      "canonicalName": "barbell bench press",
+      "variant": "female",
+      "styleVersion": "anatomical-white-v1",
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Arms extended"
+        },
+        {
+          "key": "p2",
+          "caption": "Lower to chest"
+        }
+      ],
+      "equipment": "barbell",
+      "primaryMuscles": [
+        "chest"
+      ],
+      "metadataReview": "Verify mapped regions and technique.",
+      "prompt": "Use case: scientific-educational. Create a premium anatomical exercise illustration master, 2 equally sized panels in one horizontal row, separated by white gutters. Exercise: barbell bench press (0025). Adult female model. Same person, camera, scale, equipment and lighting in every panel. Poses left to right: Arms extended; Lower to chest. Instructions: Lie flat on a bench with your feet flat on the ground and your back pressed against the bench. Grasp the barbell with an overhand grip slightly wider than shoulder-width apart. Lift the barbell off the rack and hold it directly above your chest with your arms fully extended. Lower the barbell slowly towards your chest, keeping your elbows tucked in. Pause for a moment when the barbell touches your chest. Push the barbell back up to the starting position by extending your arms. Repeat for the desired number of repetitions. Equipment: barbell. Primary muscle metadata: pectorals; detailed primary map: chest. User-approved reference supplies style only: clean white background, grayscale anatomical detail, realistic proportions, red primary muscles, crisp detail and subtle shadows. Black shorts and shoes; female wears fitted sports bra, equal anatomical detail on visible muscle regions. Keep entire body and equipment visible. Correct joints, grips, cable routing and contact points. No text, captions, numbers, watermark, labels or decorative graphics. This is a sequence of still positions, not a movement video. For leg extension use a selectorized stack machine, knee pivot aligned, shin roller above ankle (catalog wording footpad needs review).",
+      "reference": {
+        "path": ".codex-attachments/2a25511d-6187-4051-944f-3bfcad230b73/97613625-9eb8-4ac5-8701-9647255d489f/10610.png",
+        "rights": "User confirmed ownership / permission for AI reference use in chat on 2026-10-31. No upstream media used as generation input."
+      },
+      "generation": {
+        "status": "pending",
+        "attempts": 0
+      },
+      "review": {
+        "status": "pending",
+        "notes": "",
+        "reviewer": ""
+      },
+      "assets": [],
+      "video": null
+    },
+    {
+      "key": "0032-male-anatomical-white-v1",
+      "exerciseId": "0032",
+      "canonicalName": "barbell deadlift",
+      "variant": "male",
+      "styleVersion": "anatomical-white-v1",
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Floor setup"
+        },
+        {
+          "key": "p2",
+          "caption": "Standing"
+        }
+      ],
+      "equipment": "barbell",
+      "primaryMuscles": [
+        "gluteal",
+        "hamstring",
+        "lower-back"
+      ],
+      "metadataReview": "Verify mapped regions and technique.",
+      "prompt": "Use case: scientific-educational. Create a premium anatomical exercise illustration master, 2 equally sized panels in one horizontal row, separated by white gutters. Exercise: barbell deadlift (0032). Adult male model. Same person, camera, scale, equipment and lighting in every panel. Poses left to right: Floor setup; Standing. Instructions: Stand with your feet shoulder-width apart and the barbell on the ground in front of you. Bend your knees and hinge at the hips to lower your torso and grip the barbell with an overhand grip, hands slightly wider than shoulder-width apart. Keep your back straight and chest lifted as you drive through your heels to lift the barbell off the ground, extending your hips and knees. As you stand up straight, squeeze your glutes and keep your core engaged. Lower the barbell back down to the ground by bending at the hips and knees, keeping your back straight. Repeat for the desired number of repetitions. Equipment: barbell. Primary muscle metadata: glutes; detailed primary map: gluteal, hamstring, lower-back. User-approved reference supplies style only: clean white background, grayscale anatomical detail, realistic proportions, red primary muscles, crisp detail and subtle shadows. Black shorts and shoes; female wears fitted sports bra, equal anatomical detail on visible muscle regions. Keep entire body and equipment visible. Correct joints, grips, cable routing and contact points. No text, captions, numbers, watermark, labels or decorative graphics. This is a sequence of still positions, not a movement video. For leg extension use a selectorized stack machine, knee pivot aligned, shin roller above ankle (catalog wording footpad needs review).",
+      "reference": {
+        "path": ".codex-attachments/2a25511d-6187-4051-944f-3bfcad230b73/97613625-9eb8-4ac5-8701-9647255d489f/10610.png",
+        "rights": "User confirmed ownership / permission for AI reference use in chat on 2026-10-31. No upstream media used as generation input."
+      },
+      "generation": {
+        "status": "pending",
+        "attempts": 0
+      },
+      "review": {
+        "status": "pending",
+        "notes": "",
+        "reviewer": ""
+      },
+      "assets": [],
+      "video": null
+    },
+    {
+      "key": "0032-female-anatomical-white-v1",
+      "exerciseId": "0032",
+      "canonicalName": "barbell deadlift",
+      "variant": "female",
+      "styleVersion": "anatomical-white-v1",
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Floor setup"
+        },
+        {
+          "key": "p2",
+          "caption": "Standing"
+        }
+      ],
+      "equipment": "barbell",
+      "primaryMuscles": [
+        "gluteal",
+        "hamstring",
+        "lower-back"
+      ],
+      "metadataReview": "Verify mapped regions and technique.",
+      "prompt": "Use case: scientific-educational. Create a premium anatomical exercise illustration master, 2 equally sized panels in one horizontal row, separated by white gutters. Exercise: barbell deadlift (0032). Adult female model. Same person, camera, scale, equipment and lighting in every panel. Poses left to right: Floor setup; Standing. Instructions: Stand with your feet shoulder-width apart and the barbell on the ground in front of you. Bend your knees and hinge at the hips to lower your torso and grip the barbell with an overhand grip, hands slightly wider than shoulder-width apart. Keep your back straight and chest lifted as you drive through your heels to lift the barbell off the ground, extending your hips and knees. As you stand up straight, squeeze your glutes and keep your core engaged. Lower the barbell back down to the ground by bending at the hips and knees, keeping your back straight. Repeat for the desired number of repetitions. Equipment: barbell. Primary muscle metadata: glutes; detailed primary map: gluteal, hamstring, lower-back. User-approved reference supplies style only: clean white background, grayscale anatomical detail, realistic proportions, red primary muscles, crisp detail and subtle shadows. Black shorts and shoes; female wears fitted sports bra, equal anatomical detail on visible muscle regions. Keep entire body and equipment visible. Correct joints, grips, cable routing and contact points. No text, captions, numbers, watermark, labels or decorative graphics. This is a sequence of still positions, not a movement video. For leg extension use a selectorized stack machine, knee pivot aligned, shin roller above ankle (catalog wording footpad needs review).",
+      "reference": {
+        "path": ".codex-attachments/2a25511d-6187-4051-944f-3bfcad230b73/97613625-9eb8-4ac5-8701-9647255d489f/10610.png",
+        "rights": "User confirmed ownership / permission for AI reference use in chat on 2026-10-31. No upstream media used as generation input."
+      },
+      "generation": {
+        "status": "pending",
+        "attempts": 0
+      },
+      "review": {
+        "status": "pending",
+        "notes": "",
+        "reviewer": ""
+      },
+      "assets": [],
+      "video": null
+    },
+    {
+      "key": "0585-male-anatomical-white-v1",
+      "exerciseId": "0585",
+      "canonicalName": "lever leg extension",
+      "variant": "male",
+      "styleVersion": "anatomical-white-v1",
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Knees bent"
+        },
+        {
+          "key": "p2",
+          "caption": "Extend knees"
+        }
+      ],
+      "equipment": "leverage machine",
+      "primaryMuscles": [
+        "quadriceps"
+      ],
+      "metadataReview": "Footpad wording ambiguous; verify selectorized machine setup.",
+      "prompt": "Use case: scientific-educational. Create a premium anatomical exercise illustration master, 2 equally sized panels in one horizontal row, separated by white gutters. Exercise: lever leg extension (0585). Adult male model. Same person, camera, scale, equipment and lighting in every panel. Poses left to right: Knees bent; Extend knees. Instructions: Adjust the seat height and backrest of the machine to fit your body. Sit on the machine with your back against the backrest and your feet on the footpad. Grasp the handles or sidebars for stability. Extend your legs forward by straightening your knees, lifting the weight. Pause for a moment at the top, then slowly lower the weight back to the starting position. Repeat for the desired number of repetitions. Equipment: leverage machine. Primary muscle metadata: quads; detailed primary map: quadriceps. User-approved reference supplies style only: clean white background, grayscale anatomical detail, realistic proportions, red primary muscles, crisp detail and subtle shadows. Black shorts and shoes; female wears fitted sports bra, equal anatomical detail on visible muscle regions. Keep entire body and equipment visible. Correct joints, grips, cable routing and contact points. No text, captions, numbers, watermark, labels or decorative graphics. This is a sequence of still positions, not a movement video. For leg extension use a selectorized stack machine, knee pivot aligned, shin roller above ankle (catalog wording footpad needs review).",
+      "reference": {
+        "path": ".codex-attachments/2a25511d-6187-4051-944f-3bfcad230b73/97613625-9eb8-4ac5-8701-9647255d489f/10610.png",
+        "rights": "User confirmed ownership / permission for AI reference use in chat on 2026-10-31. No upstream media used as generation input."
+      },
+      "generation": {
+        "status": "pending",
+        "attempts": 0
+      },
+      "review": {
+        "status": "pending",
+        "notes": "",
+        "reviewer": ""
+      },
+      "assets": [],
+      "video": null
+    },
+    {
+      "key": "0585-female-anatomical-white-v1",
+      "exerciseId": "0585",
+      "canonicalName": "lever leg extension",
+      "variant": "female",
+      "styleVersion": "anatomical-white-v1",
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Knees bent"
+        },
+        {
+          "key": "p2",
+          "caption": "Extend knees"
+        }
+      ],
+      "equipment": "leverage machine",
+      "primaryMuscles": [
+        "quadriceps"
+      ],
+      "metadataReview": "Footpad wording ambiguous; verify selectorized machine setup.",
+      "prompt": "Use case: scientific-educational. Create a premium anatomical exercise illustration master, 2 equally sized panels in one horizontal row, separated by white gutters. Exercise: lever leg extension (0585). Adult female model. Same person, camera, scale, equipment and lighting in every panel. Poses left to right: Knees bent; Extend knees. Instructions: Adjust the seat height and backrest of the machine to fit your body. Sit on the machine with your back against the backrest and your feet on the footpad. Grasp the handles or sidebars for stability. Extend your legs forward by straightening your knees, lifting the weight. Pause for a moment at the top, then slowly lower the weight back to the starting position. Repeat for the desired number of repetitions. Equipment: leverage machine. Primary muscle metadata: quads; detailed primary map: quadriceps. User-approved reference supplies style only: clean white background, grayscale anatomical detail, realistic proportions, red primary muscles, crisp detail and subtle shadows. Black shorts and shoes; female wears fitted sports bra, equal anatomical detail on visible muscle regions. Keep entire body and equipment visible. Correct joints, grips, cable routing and contact points. No text, captions, numbers, watermark, labels or decorative graphics. This is a sequence of still positions, not a movement video. For leg extension use a selectorized stack machine, knee pivot aligned, shin roller above ankle (catalog wording footpad needs review).",
+      "reference": {
+        "path": ".codex-attachments/2a25511d-6187-4051-944f-3bfcad230b73/97613625-9eb8-4ac5-8701-9647255d489f/10610.png",
+        "rights": "User confirmed ownership / permission for AI reference use in chat on 2026-10-31. No upstream media used as generation input."
+      },
+      "generation": {
+        "status": "pending",
+        "attempts": 0
+      },
+      "review": {
+        "status": "pending",
+        "notes": "",
+        "reviewer": ""
+      },
+      "assets": [],
+      "video": null
+    },
+    {
+      "key": "0662-male-anatomical-white-v1",
+      "exerciseId": "0662",
+      "canonicalName": "push-up",
+      "variant": "male",
+      "styleVersion": "anatomical-white-v1",
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "High plank"
+        },
+        {
+          "key": "p2",
+          "caption": "Lower"
+        }
+      ],
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "pectorals"
+      ],
+      "metadataReview": "Detailed muscle map absent; review target-to-anatomy mapping.",
+      "prompt": "Use case: scientific-educational. Create a premium anatomical exercise illustration master, 2 equally sized panels in one horizontal row, separated by white gutters. Exercise: push-up (0662). Adult male model. Same person, camera, scale, equipment and lighting in every panel. Poses left to right: High plank; Lower. Instructions: Start in a high plank position with your hands slightly wider than shoulder-width apart and your feet together. Engage your core and lower your body towards the ground by bending your elbows, keeping your body in a straight line. Pause for a moment when your chest is just above the ground, then push yourself back up to the starting position by straightening your arms. Repeat for the desired number of repetitions. Equipment: body weight. Primary muscle metadata: pectorals; detailed primary map: not provided; requires qualified review. User-approved reference supplies style only: clean white background, grayscale anatomical detail, realistic proportions, red primary muscles, crisp detail and subtle shadows. Black shorts and shoes; female wears fitted sports bra, equal anatomical detail on visible muscle regions. Keep entire body and equipment visible. Correct joints, grips, cable routing and contact points. No text, captions, numbers, watermark, labels or decorative graphics. This is a sequence of still positions, not a movement video. For leg extension use a selectorized stack machine, knee pivot aligned, shin roller above ankle (catalog wording footpad needs review).",
+      "reference": {
+        "path": ".codex-attachments/2a25511d-6187-4051-944f-3bfcad230b73/97613625-9eb8-4ac5-8701-9647255d489f/10610.png",
+        "rights": "User confirmed ownership / permission for AI reference use in chat on 2026-10-31. No upstream media used as generation input."
+      },
+      "generation": {
+        "status": "pending",
+        "attempts": 0
+      },
+      "review": {
+        "status": "pending",
+        "notes": "",
+        "reviewer": ""
+      },
+      "assets": [],
+      "video": null
+    },
+    {
+      "key": "0662-female-anatomical-white-v1",
+      "exerciseId": "0662",
+      "canonicalName": "push-up",
+      "variant": "female",
+      "styleVersion": "anatomical-white-v1",
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "High plank"
+        },
+        {
+          "key": "p2",
+          "caption": "Lower"
+        }
+      ],
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "pectorals"
+      ],
+      "metadataReview": "Detailed muscle map absent; review target-to-anatomy mapping.",
+      "prompt": "Use case: scientific-educational. Create a premium anatomical exercise illustration master, 2 equally sized panels in one horizontal row, separated by white gutters. Exercise: push-up (0662). Adult female model. Same person, camera, scale, equipment and lighting in every panel. Poses left to right: High plank; Lower. Instructions: Start in a high plank position with your hands slightly wider than shoulder-width apart and your feet together. Engage your core and lower your body towards the ground by bending your elbows, keeping your body in a straight line. Pause for a moment when your chest is just above the ground, then push yourself back up to the starting position by straightening your arms. Repeat for the desired number of repetitions. Equipment: body weight. Primary muscle metadata: pectorals; detailed primary map: not provided; requires qualified review. User-approved reference supplies style only: clean white background, grayscale anatomical detail, realistic proportions, red primary muscles, crisp detail and subtle shadows. Black shorts and shoes; female wears fitted sports bra, equal anatomical detail on visible muscle regions. Keep entire body and equipment visible. Correct joints, grips, cable routing and contact points. No text, captions, numbers, watermark, labels or decorative graphics. This is a sequence of still positions, not a movement video. For leg extension use a selectorized stack machine, knee pivot aligned, shin roller above ankle (catalog wording footpad needs review).",
+      "reference": {
+        "path": ".codex-attachments/2a25511d-6187-4051-944f-3bfcad230b73/97613625-9eb8-4ac5-8701-9647255d489f/10610.png",
+        "rights": "User confirmed ownership / permission for AI reference use in chat on 2026-10-31. No upstream media used as generation input."
+      },
+      "generation": {
+        "status": "pending",
+        "attempts": 0
+      },
+      "review": {
+        "status": "pending",
+        "notes": "",
+        "reviewer": ""
+      },
+      "assets": [],
+      "video": null
+    },
+    {
+      "key": "0276-male-anatomical-white-v1",
+      "exerciseId": "0276",
+      "canonicalName": "dead bug",
+      "variant": "male",
+      "styleVersion": "anatomical-white-v1",
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Tabletop"
+        },
+        {
+          "key": "p2",
+          "caption": "Right arm and left leg extend"
+        },
+        {
+          "key": "p3",
+          "caption": "Return to tabletop"
+        },
+        {
+          "key": "p4",
+          "caption": "Left arm and right leg extend"
+        }
+      ],
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "abs"
+      ],
+      "metadataReview": "Detailed muscle map absent; review target-to-anatomy mapping.",
+      "prompt": "Use case: scientific-educational. Create a premium anatomical exercise illustration master, 4 equally sized panels in one horizontal row, separated by white gutters. Exercise: dead bug (0276). Adult male model. Same person, camera, scale, equipment and lighting in every panel. Poses left to right: Tabletop; Right arm and left leg extend; Return to tabletop; Left arm and right leg extend. Instructions: Lie flat on your back with your arms extended towards the ceiling. Bend your knees and lift your legs off the ground, creating a 90-degree angle at your hips and knees. Engage your core and lower back to press your lower back into the ground. Slowly lower your right arm and left leg towards the ground, keeping them straight and hovering just above the floor. Pause for a moment, then return to the starting position. Repeat the movement with your left arm and right leg. Continue alternating sides for the desired number of repetitions. Equipment: body weight. Primary muscle metadata: abs; detailed primary map: not provided; requires qualified review. User-approved reference supplies style only: clean white background, grayscale anatomical detail, realistic proportions, red primary muscles, crisp detail and subtle shadows. Black shorts and shoes; female wears fitted sports bra, equal anatomical detail on visible muscle regions. Keep entire body and equipment visible. Correct joints, grips, cable routing and contact points. No text, captions, numbers, watermark, labels or decorative graphics. This is a sequence of still positions, not a movement video. For leg extension use a selectorized stack machine, knee pivot aligned, shin roller above ankle (catalog wording footpad needs review).",
+      "reference": {
+        "path": ".codex-attachments/2a25511d-6187-4051-944f-3bfcad230b73/97613625-9eb8-4ac5-8701-9647255d489f/10610.png",
+        "rights": "User confirmed ownership / permission for AI reference use in chat on 2026-10-31. No upstream media used as generation input."
+      },
+      "generation": {
+        "status": "pending",
+        "attempts": 0
+      },
+      "review": {
+        "status": "pending",
+        "notes": "",
+        "reviewer": ""
+      },
+      "assets": [],
+      "video": null
+    },
+    {
+      "key": "0276-female-anatomical-white-v1",
+      "exerciseId": "0276",
+      "canonicalName": "dead bug",
+      "variant": "female",
+      "styleVersion": "anatomical-white-v1",
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Tabletop"
+        },
+        {
+          "key": "p2",
+          "caption": "Right arm and left leg extend"
+        },
+        {
+          "key": "p3",
+          "caption": "Return to tabletop"
+        },
+        {
+          "key": "p4",
+          "caption": "Left arm and right leg extend"
+        }
+      ],
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "abs"
+      ],
+      "metadataReview": "Detailed muscle map absent; review target-to-anatomy mapping.",
+      "prompt": "Use case: scientific-educational. Create a premium anatomical exercise illustration master, 4 equally sized panels in one horizontal row, separated by white gutters. Exercise: dead bug (0276). Adult female model. Same person, camera, scale, equipment and lighting in every panel. Poses left to right: Tabletop; Right arm and left leg extend; Return to tabletop; Left arm and right leg extend. Instructions: Lie flat on your back with your arms extended towards the ceiling. Bend your knees and lift your legs off the ground, creating a 90-degree angle at your hips and knees. Engage your core and lower back to press your lower back into the ground. Slowly lower your right arm and left leg towards the ground, keeping them straight and hovering just above the floor. Pause for a moment, then return to the starting position. Repeat the movement with your left arm and right leg. Continue alternating sides for the desired number of repetitions. Equipment: body weight. Primary muscle metadata: abs; detailed primary map: not provided; requires qualified review. User-approved reference supplies style only: clean white background, grayscale anatomical detail, realistic proportions, red primary muscles, crisp detail and subtle shadows. Black shorts and shoes; female wears fitted sports bra, equal anatomical detail on visible muscle regions. Keep entire body and equipment visible. Correct joints, grips, cable routing and contact points. No text, captions, numbers, watermark, labels or decorative graphics. This is a sequence of still positions, not a movement video. For leg extension use a selectorized stack machine, knee pivot aligned, shin roller above ankle (catalog wording footpad needs review).",
+      "reference": {
+        "path": ".codex-attachments/2a25511d-6187-4051-944f-3bfcad230b73/97613625-9eb8-4ac5-8701-9647255d489f/10610.png",
+        "rights": "User confirmed ownership / permission for AI reference use in chat on 2026-10-31. No upstream media used as generation input."
+      },
+      "generation": {
+        "status": "pending",
+        "attempts": 0
+      },
+      "review": {
+        "status": "pending",
+        "notes": "",
+        "reviewer": ""
+      },
+      "assets": [],
+      "video": null
+    },
+    {
+      "key": "0336-male-anatomical-white-v1",
+      "exerciseId": "0336",
+      "canonicalName": "dumbbell lunge",
+      "variant": "male",
+      "styleVersion": "anatomical-white-v1",
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand"
+        },
+        {
+          "key": "p2",
+          "caption": "Right lunge"
+        },
+        {
+          "key": "p3",
+          "caption": "Return"
+        },
+        {
+          "key": "p4",
+          "caption": "Left lunge"
+        }
+      ],
+      "equipment": "dumbbell",
+      "primaryMuscles": [
+        "glutes"
+      ],
+      "metadataReview": "Detailed muscle map absent; review target-to-anatomy mapping.",
+      "prompt": "Use case: scientific-educational. Create a premium anatomical exercise illustration master, 4 equally sized panels in one horizontal row, separated by white gutters. Exercise: dumbbell lunge (0336). Adult male model. Same person, camera, scale, equipment and lighting in every panel. Poses left to right: Stand; Right lunge; Return; Left lunge. Instructions: Stand with your feet shoulder-width apart, holding a dumbbell in each hand. Take a step forward with your right foot, lowering your body into a lunge position. Keep your back straight and your chest up as you lower your body. Push through your right heel to return to the starting position. Repeat with your left leg. Alternate legs for the desired number of repetitions. Equipment: dumbbell. Primary muscle metadata: glutes; detailed primary map: not provided; requires qualified review. User-approved reference supplies style only: clean white background, grayscale anatomical detail, realistic proportions, red primary muscles, crisp detail and subtle shadows. Black shorts and shoes; female wears fitted sports bra, equal anatomical detail on visible muscle regions. Keep entire body and equipment visible. Correct joints, grips, cable routing and contact points. No text, captions, numbers, watermark, labels or decorative graphics. This is a sequence of still positions, not a movement video. For leg extension use a selectorized stack machine, knee pivot aligned, shin roller above ankle (catalog wording footpad needs review).",
+      "reference": {
+        "path": ".codex-attachments/2a25511d-6187-4051-944f-3bfcad230b73/97613625-9eb8-4ac5-8701-9647255d489f/10610.png",
+        "rights": "User confirmed ownership / permission for AI reference use in chat on 2026-10-31. No upstream media used as generation input."
+      },
+      "generation": {
+        "status": "pending",
+        "attempts": 0
+      },
+      "review": {
+        "status": "pending",
+        "notes": "",
+        "reviewer": ""
+      },
+      "assets": [],
+      "video": null
+    },
+    {
+      "key": "0336-female-anatomical-white-v1",
+      "exerciseId": "0336",
+      "canonicalName": "dumbbell lunge",
+      "variant": "female",
+      "styleVersion": "anatomical-white-v1",
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand"
+        },
+        {
+          "key": "p2",
+          "caption": "Right lunge"
+        },
+        {
+          "key": "p3",
+          "caption": "Return"
+        },
+        {
+          "key": "p4",
+          "caption": "Left lunge"
+        }
+      ],
+      "equipment": "dumbbell",
+      "primaryMuscles": [
+        "glutes"
+      ],
+      "metadataReview": "Detailed muscle map absent; review target-to-anatomy mapping.",
+      "prompt": "Use case: scientific-educational. Create a premium anatomical exercise illustration master, 4 equally sized panels in one horizontal row, separated by white gutters. Exercise: dumbbell lunge (0336). Adult female model. Same person, camera, scale, equipment and lighting in every panel. Poses left to right: Stand; Right lunge; Return; Left lunge. Instructions: Stand with your feet shoulder-width apart, holding a dumbbell in each hand. Take a step forward with your right foot, lowering your body into a lunge position. Keep your back straight and your chest up as you lower your body. Push through your right heel to return to the starting position. Repeat with your left leg. Alternate legs for the desired number of repetitions. Equipment: dumbbell. Primary muscle metadata: glutes; detailed primary map: not provided; requires qualified review. User-approved reference supplies style only: clean white background, grayscale anatomical detail, realistic proportions, red primary muscles, crisp detail and subtle shadows. Black shorts and shoes; female wears fitted sports bra, equal anatomical detail on visible muscle regions. Keep entire body and equipment visible. Correct joints, grips, cable routing and contact points. No text, captions, numbers, watermark, labels or decorative graphics. This is a sequence of still positions, not a movement video. For leg extension use a selectorized stack machine, knee pivot aligned, shin roller above ankle (catalog wording footpad needs review).",
+      "reference": {
+        "path": ".codex-attachments/2a25511d-6187-4051-944f-3bfcad230b73/97613625-9eb8-4ac5-8701-9647255d489f/10610.png",
+        "rights": "User confirmed ownership / permission for AI reference use in chat on 2026-10-31. No upstream media used as generation input."
+      },
+      "generation": {
+        "status": "pending",
+        "attempts": 0
+      },
+      "review": {
+        "status": "pending",
+        "notes": "",
+        "reviewer": ""
+      },
+      "assets": [],
+      "video": null
+    },
+    {
+      "key": "0463-male-anatomical-white-v1",
+      "exerciseId": "0463",
+      "canonicalName": "front plank",
+      "variant": "male",
+      "styleVersion": "anatomical-white-v1",
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hold"
+        }
+      ],
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "abs"
+      ],
+      "metadataReview": "Detailed muscle map absent; review target-to-anatomy mapping.",
+      "prompt": "Use case: scientific-educational. Create a premium anatomical exercise illustration master, 1 equally sized panels in one horizontal row, separated by white gutters. Exercise: front plank (0463). Adult male model. Same person, camera, scale, equipment and lighting in every panel. Poses left to right: Hold. Instructions: Lie face down and prop yourself on your forearms, elbows under your shoulders. Lift your hips and knees off the floor, resting on your toes. Keep your body in a straight line from head to heels. Squeeze your abs and glutes. Hold for 20-60 seconds while breathing steadily. Don't let your hips sag or pike up. Equipment: body weight. Primary muscle metadata: abs; detailed primary map: not provided; requires qualified review. User-approved reference supplies style only: clean white background, grayscale anatomical detail, realistic proportions, red primary muscles, crisp detail and subtle shadows. Black shorts and shoes; female wears fitted sports bra, equal anatomical detail on visible muscle regions. Keep entire body and equipment visible. Correct joints, grips, cable routing and contact points. No text, captions, numbers, watermark, labels or decorative graphics. This is a sequence of still positions, not a movement video. For leg extension use a selectorized stack machine, knee pivot aligned, shin roller above ankle (catalog wording footpad needs review).",
+      "reference": {
+        "path": ".codex-attachments/2a25511d-6187-4051-944f-3bfcad230b73/97613625-9eb8-4ac5-8701-9647255d489f/10610.png",
+        "rights": "User confirmed ownership / permission for AI reference use in chat on 2026-10-31. No upstream media used as generation input."
+      },
+      "generation": {
+        "status": "pending",
+        "attempts": 0
+      },
+      "review": {
+        "status": "pending",
+        "notes": "",
+        "reviewer": ""
+      },
+      "assets": [],
+      "video": null
+    },
+    {
+      "key": "0463-female-anatomical-white-v1",
+      "exerciseId": "0463",
+      "canonicalName": "front plank",
+      "variant": "female",
+      "styleVersion": "anatomical-white-v1",
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hold"
+        }
+      ],
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "abs"
+      ],
+      "metadataReview": "Detailed muscle map absent; review target-to-anatomy mapping.",
+      "prompt": "Use case: scientific-educational. Create a premium anatomical exercise illustration master, 1 equally sized panels in one horizontal row, separated by white gutters. Exercise: front plank (0463). Adult female model. Same person, camera, scale, equipment and lighting in every panel. Poses left to right: Hold. Instructions: Lie face down and prop yourself on your forearms, elbows under your shoulders. Lift your hips and knees off the floor, resting on your toes. Keep your body in a straight line from head to heels. Squeeze your abs and glutes. Hold for 20-60 seconds while breathing steadily. Don't let your hips sag or pike up. Equipment: body weight. Primary muscle metadata: abs; detailed primary map: not provided; requires qualified review. User-approved reference supplies style only: clean white background, grayscale anatomical detail, realistic proportions, red primary muscles, crisp detail and subtle shadows. Black shorts and shoes; female wears fitted sports bra, equal anatomical detail on visible muscle regions. Keep entire body and equipment visible. Correct joints, grips, cable routing and contact points. No text, captions, numbers, watermark, labels or decorative graphics. This is a sequence of still positions, not a movement video. For leg extension use a selectorized stack machine, knee pivot aligned, shin roller above ankle (catalog wording footpad needs review).",
+      "reference": {
+        "path": ".codex-attachments/2a25511d-6187-4051-944f-3bfcad230b73/97613625-9eb8-4ac5-8701-9647255d489f/10610.png",
+        "rights": "User confirmed ownership / permission for AI reference use in chat on 2026-10-31. No upstream media used as generation input."
+      },
+      "generation": {
+        "status": "pending",
+        "attempts": 0
+      },
+      "review": {
+        "status": "pending",
+        "notes": "",
+        "reviewer": ""
+      },
+      "assets": [],
+      "video": null
+    },
+    {
+      "key": "0334-male-anatomical-white-v1",
+      "exerciseId": "0334",
+      "canonicalName": "dumbbell lateral raise",
+      "variant": "male",
+      "styleVersion": "anatomical-white-v1",
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Start"
+        },
+        {
+          "key": "p2",
+          "caption": "Raise"
+        }
+      ],
+      "equipment": "dumbbell",
+      "primaryMuscles": [
+        "delts"
+      ],
+      "metadataReview": "Detailed muscle map absent; review target-to-anatomy mapping.",
+      "prompt": "Use case: scientific-educational. Create a premium anatomical exercise illustration master, 2 equally sized panels in one horizontal row, separated by white gutters. Exercise: dumbbell lateral raise (0334). Adult male model. Same person, camera, scale, equipment and lighting in every panel. Poses left to right: Start; Raise. Instructions: Stand with your feet shoulder-width apart and hold a dumbbell in each hand, palms facing your body. Keep your back straight and engage your core. Raise your arms out to the sides until they are parallel to the floor, keeping a slight bend in your elbows. Pause for a moment at the top, then slowly lower your arms back down to the starting position. Repeat for the desired number of repetitions. Equipment: dumbbell. Primary muscle metadata: delts; detailed primary map: not provided; requires qualified review. User-approved reference supplies style only: clean white background, grayscale anatomical detail, realistic proportions, red primary muscles, crisp detail and subtle shadows. Black shorts and shoes; female wears fitted sports bra, equal anatomical detail on visible muscle regions. Keep entire body and equipment visible. Correct joints, grips, cable routing and contact points. No text, captions, numbers, watermark, labels or decorative graphics. This is a sequence of still positions, not a movement video. For leg extension use a selectorized stack machine, knee pivot aligned, shin roller above ankle (catalog wording footpad needs review).",
+      "reference": {
+        "path": ".codex-attachments/2a25511d-6187-4051-944f-3bfcad230b73/97613625-9eb8-4ac5-8701-9647255d489f/10610.png",
+        "rights": "User confirmed ownership / permission for AI reference use in chat on 2026-10-31. No upstream media used as generation input."
+      },
+      "generation": {
+        "status": "pending",
+        "attempts": 0
+      },
+      "review": {
+        "status": "pending",
+        "notes": "",
+        "reviewer": ""
+      },
+      "assets": [],
+      "video": null
+    },
+    {
+      "key": "0334-female-anatomical-white-v1",
+      "exerciseId": "0334",
+      "canonicalName": "dumbbell lateral raise",
+      "variant": "female",
+      "styleVersion": "anatomical-white-v1",
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Start"
+        },
+        {
+          "key": "p2",
+          "caption": "Raise"
+        }
+      ],
+      "equipment": "dumbbell",
+      "primaryMuscles": [
+        "delts"
+      ],
+      "metadataReview": "Detailed muscle map absent; review target-to-anatomy mapping.",
+      "prompt": "Use case: scientific-educational. Create a premium anatomical exercise illustration master, 2 equally sized panels in one horizontal row, separated by white gutters. Exercise: dumbbell lateral raise (0334). Adult female model. Same person, camera, scale, equipment and lighting in every panel. Poses left to right: Start; Raise. Instructions: Stand with your feet shoulder-width apart and hold a dumbbell in each hand, palms facing your body. Keep your back straight and engage your core. Raise your arms out to the sides until they are parallel to the floor, keeping a slight bend in your elbows. Pause for a moment at the top, then slowly lower your arms back down to the starting position. Repeat for the desired number of repetitions. Equipment: dumbbell. Primary muscle metadata: delts; detailed primary map: not provided; requires qualified review. User-approved reference supplies style only: clean white background, grayscale anatomical detail, realistic proportions, red primary muscles, crisp detail and subtle shadows. Black shorts and shoes; female wears fitted sports bra, equal anatomical detail on visible muscle regions. Keep entire body and equipment visible. Correct joints, grips, cable routing and contact points. No text, captions, numbers, watermark, labels or decorative graphics. This is a sequence of still positions, not a movement video. For leg extension use a selectorized stack machine, knee pivot aligned, shin roller above ankle (catalog wording footpad needs review).",
+      "reference": {
+        "path": ".codex-attachments/2a25511d-6187-4051-944f-3bfcad230b73/97613625-9eb8-4ac5-8701-9647255d489f/10610.png",
+        "rights": "User confirmed ownership / permission for AI reference use in chat on 2026-10-31. No upstream media used as generation input."
+      },
+      "generation": {
+        "status": "pending",
+        "attempts": 0
+      },
+      "review": {
+        "status": "pending",
+        "notes": "",
+        "reviewer": ""
+      },
+      "assets": [],
+      "video": null
+    },
+    {
+      "key": "0201-male-anatomical-white-v1",
+      "exerciseId": "0201",
+      "canonicalName": "cable pushdown",
+      "variant": "male",
+      "styleVersion": "anatomical-white-v1",
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Elbows bent"
+        },
+        {
+          "key": "p2",
+          "caption": "Extend elbows"
+        }
+      ],
+      "equipment": "cable",
+      "primaryMuscles": [
+        "triceps"
+      ],
+      "metadataReview": "Detailed muscle map absent; review target-to-anatomy mapping.",
+      "prompt": "Use case: scientific-educational. Create a premium anatomical exercise illustration master, 2 equally sized panels in one horizontal row, separated by white gutters. Exercise: cable pushdown (0201). Adult male model. Same person, camera, scale, equipment and lighting in every panel. Poses left to right: Elbows bent; Extend elbows. Instructions: Attach a straight bar to a high pulley cable machine. Stand facing the machine with your feet shoulder-width apart and a slight bend in your knees. Grasp the bar with an overhand grip, hands shoulder-width apart. Keep your elbows close to your sides and your upper arms stationary. Exhale and push the bar down until your elbows are fully extended. Pause for a moment, then inhale and slowly return the bar to the starting position. Repeat for the desired number of repetitions. Equipment: cable. Primary muscle metadata: triceps; detailed primary map: not provided; requires qualified review. User-approved reference supplies style only: clean white background, grayscale anatomical detail, realistic proportions, red primary muscles, crisp detail and subtle shadows. Black shorts and shoes; female wears fitted sports bra, equal anatomical detail on visible muscle regions. Keep entire body and equipment visible. Correct joints, grips, cable routing and contact points. No text, captions, numbers, watermark, labels or decorative graphics. This is a sequence of still positions, not a movement video. For leg extension use a selectorized stack machine, knee pivot aligned, shin roller above ankle (catalog wording footpad needs review).",
+      "reference": {
+        "path": ".codex-attachments/2a25511d-6187-4051-944f-3bfcad230b73/97613625-9eb8-4ac5-8701-9647255d489f/10610.png",
+        "rights": "User confirmed ownership / permission for AI reference use in chat on 2026-10-31. No upstream media used as generation input."
+      },
+      "generation": {
+        "status": "pending",
+        "attempts": 0
+      },
+      "review": {
+        "status": "pending",
+        "notes": "",
+        "reviewer": ""
+      },
+      "assets": [],
+      "video": null
+    },
+    {
+      "key": "0201-female-anatomical-white-v1",
+      "exerciseId": "0201",
+      "canonicalName": "cable pushdown",
+      "variant": "female",
+      "styleVersion": "anatomical-white-v1",
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Elbows bent"
+        },
+        {
+          "key": "p2",
+          "caption": "Extend elbows"
+        }
+      ],
+      "equipment": "cable",
+      "primaryMuscles": [
+        "triceps"
+      ],
+      "metadataReview": "Detailed muscle map absent; review target-to-anatomy mapping.",
+      "prompt": "Use case: scientific-educational. Create a premium anatomical exercise illustration master, 2 equally sized panels in one horizontal row, separated by white gutters. Exercise: cable pushdown (0201). Adult female model. Same person, camera, scale, equipment and lighting in every panel. Poses left to right: Elbows bent; Extend elbows. Instructions: Attach a straight bar to a high pulley cable machine. Stand facing the machine with your feet shoulder-width apart and a slight bend in your knees. Grasp the bar with an overhand grip, hands shoulder-width apart. Keep your elbows close to your sides and your upper arms stationary. Exhale and push the bar down until your elbows are fully extended. Pause for a moment, then inhale and slowly return the bar to the starting position. Repeat for the desired number of repetitions. Equipment: cable. Primary muscle metadata: triceps; detailed primary map: not provided; requires qualified review. User-approved reference supplies style only: clean white background, grayscale anatomical detail, realistic proportions, red primary muscles, crisp detail and subtle shadows. Black shorts and shoes; female wears fitted sports bra, equal anatomical detail on visible muscle regions. Keep entire body and equipment visible. Correct joints, grips, cable routing and contact points. No text, captions, numbers, watermark, labels or decorative graphics. This is a sequence of still positions, not a movement video. For leg extension use a selectorized stack machine, knee pivot aligned, shin roller above ankle (catalog wording footpad needs review).",
+      "reference": {
+        "path": ".codex-attachments/2a25511d-6187-4051-944f-3bfcad230b73/97613625-9eb8-4ac5-8701-9647255d489f/10610.png",
+        "rights": "User confirmed ownership / permission for AI reference use in chat on 2026-10-31. No upstream media used as generation input."
+      },
+      "generation": {
+        "status": "pending",
+        "attempts": 0
+      },
+      "review": {
+        "status": "pending",
+        "notes": "",
+        "reviewer": ""
+      },
+      "assets": [],
+      "video": null
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "batch": 274,
+  "runId": "6d415937-053f-4e79-b2f6-6f26dc9ca544",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "trigger": "2026-11-04T00:37:25.453Z",
+  "purpose": "batch274 scheduled male continuation",
+  "started": "2026-11-04T00:38:00.386094+00:00",
+  "completedAt": "2026-11-04T00:47:08.033820+00:00",
+  "actualToolName": "image_gen__imagegen",
+  "calls": 4,
+  "newCandidateSets": 4,
+  "exerciseIds": [
+    "2292",
+    "2293",
+    "2294",
+    "2296"
+  ],
+  "variants": [
+    "male"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 969,
+    "remainingVariants": 10295,
+    "approvedVariants": 0,
+    "blockedVariants": 317,
+    "knownPoseImages": 1843,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 596,
+      "remainingVariants": 5036,
+      "blockedVariants": 198
+    }
+  },
+  "reviewNotes": {
+    "2292": "Two bent-over rear-delt raise positions with torso held near horizontal, knees soft and dumbbells moving from hanging to wide lateral position. Posterior shoulders red, tank/shorts intact opaque. Qualified review needed for parallel upper-arm height, elbow bend, neck alignment, wrist position, hip hinge stability and posterior-deltoid mapping.",
+    "2293": "Three standing preacher curl views show low supinated start, raised supinated curl and top pronated grip. Upper arms appear supported on pad, feet grounded and biceps red only. Qualified review needed for upper-arm contact across all stages, wrist pronation versus flexion, elbow range, grip/fingers and biceps mapping.",
+    "2294": "Three seated preacher curl positions with feet grounded, upper arms supported, low palms-up start, top curl and top palms-down rotation. Biceps-only red and full opaque clothing. Qualified review needed for pronation/wrist neutrality, elbow range, hand/finger grip, stable pad contact and biceps mapping.",
+    "2296": "Kneeling rollout shows ball farther forward and body extending from knees. Only hands/wrists visibly contact ball rather than forearms required by canonical record; block for correct forearm support. Abdominal tint on opaque tank. Qualified review of knee-hip-head alignment, lumbar control, ball travel, neck and mapping."
+  },
+  "blockingIssues": {
+    "2296": [
+      "Hands/wrists rather than forearms contact stability ball; correct forearm-supported rollout."
+    ]
+  },
+  "tests": 7,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "workerSyncResult": {
+    "statuses": {
+      "generated": 969,
+      "pending": 10295
+    },
+    "remaining": 10295,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 1494991338
+  },
+  "publicationIndexUnchanged": true,
+  "savedMasters": [
+    "assets/exercise-illustrations/generated/2292-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/2293-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/2294-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/2296-male-anatomical-white-v1.png"
+  ]
+}

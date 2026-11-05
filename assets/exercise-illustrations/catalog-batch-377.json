@@ -1,0 +1,99 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "3522",
+      "variant": "male",
+      "key": "3522-male-anatomical-white-v1",
+      "prompt": "THREE equal panels same SIDE view KETTLEBELL SINGLE LEG GLUTE BRIDGE PULLOVER. Male supine mat head and shoulder blades supported, RIGHT foot flat knee bent LEFT leg raised straight vertically throughout. Hips lifted steady bridge all panels. BOTH hands grip kettlebell HORNS handle sides. Left kettlebell above chest arms nearly straight. Center lower SAME kettlebell in controlled overhead arc behind head arms slightly bent no floor collision, hips stay up. Right return kettlebell above chest same bridge. Primary GLUTES plain red wash intact shorts seat only, chest grayscale. Premium detailed grayscale anatomical adult MALE illustration pure white background soft contact shadows crisp realistic muscles joints. Original project reference STYLE ONLY. Same model camera scale garments equipment all panels. Opaque BLACK tank mid-thigh shorts fully wrap front sides back seat crotch with seams folds hems. Covered red highlights PLAIN UNIFORM wash NO anatomical fibers lobes segments cutaways transparency. All limbs hands feet equipment inside own panel generous margins. No text arrows labels logos numbers.",
+      "layout": {
+        "columns": 3,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Set single-leg bridge holding kettlebell above chest."
+        },
+        {
+          "key": "p2",
+          "caption": "Lower kettlebell overhead while holding bridge."
+        },
+        {
+          "key": "p3",
+          "caption": "Return kettlebell above chest, then lower hips."
+        }
+      ],
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream media used.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only"
+      },
+      "inspectionNote": "Real output inspected. Single-leg bridge and kettlebell return positions represented with intact garments. Overhead phase uses large elbow bend resembling triceps extension; pullover shoulder arc and kettlebell horn grip need correction/review. Human anatomy review pending; no approval or publication.",
+      "blockingIssues": [
+        "Overhead motion dominated by elbow bend; verify/correct pullover arc and kettlebell orientation."
+      ]
+    },
+    {
+      "exerciseId": "3524",
+      "variant": "male",
+      "key": "3524-male-anatomical-white-v1",
+      "prompt": "THREE equal panels FRONT three-quarter view BAND HORIZONTAL PALLOF PRESS WITH SQUAT. Male body faces FRONT, band anchor fixed chest-height post on his RIGHT side viewer LEFT, lateral force across body. Both hands hold band at sternum. Left squat hips back knees track toes heels down hands chest. Center stand tall hands at chest. Right standing press BOTH hands straight forward in front of sternum arms straight, band stretches diagonal to SAME lateral anchor, torso square no rotation. Primary QUADS small plain red wash intact shorts front thighs only. Entire anchor band body inside every panel. Premium detailed grayscale anatomical adult MALE illustration pure white background soft contact shadows crisp realistic muscles joints. Original project reference STYLE ONLY. Same model camera scale garments equipment all panels. Opaque BLACK tank mid-thigh shorts fully wrap front sides back seat crotch with seams folds hems. Covered red highlights PLAIN UNIFORM wash NO anatomical fibers lobes segments cutaways transparency. All limbs hands feet equipment inside own panel generous margins. No text arrows labels logos numbers.",
+      "layout": {
+        "columns": 3,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hold band at chest and squat."
+        },
+        {
+          "key": "p2",
+          "caption": "Stand while holding band at chest."
+        },
+        {
+          "key": "p3",
+          "caption": "Press straight forward, resisting rotation."
+        }
+      ],
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream media used.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only"
+      },
+      "inspectionNote": "Real output inspected. Squat, stand and forward Pallof press shown with band and opaque clothes. Anchor attachment height changes between squat and standing panels instead of remaining fixed; correction required. Human anatomy review pending; no approval or publication.",
+      "blockingIssues": [
+        "Band anchor attachment height changes between panels."
+      ]
+    },
+    {
+      "exerciseId": "3525",
+      "variant": "male",
+      "key": "3525-male-anatomical-white-v1",
+      "prompt": "TWO equal panels SIDE three-quarter view LANDMINE KNEELING ONE ARM SHOULDER PRESS. Male BOTH knees on pad shins floor torso upright, facing end of long barbell anchored in real pivot on floor IN FRONT of him. RIGHT hand grips free sleeve end at RIGHT shoulder left hand rests abdomen. Left elbow bent bar end shoulder height, bar runs forward/down to floor pivot. Right press same free end UP and FORWARD right arm straight, bar rotates around SAME anchored pivot, torso stays upright. Whole bar pivot weight plate and male visible. Primary DELTOID working right shoulder red only. Premium detailed grayscale anatomical adult MALE illustration pure white background soft contact shadows crisp realistic muscles joints. Original project reference STYLE ONLY. Same model camera scale garments equipment all panels. Opaque BLACK tank mid-thigh shorts fully wrap front sides back seat crotch with seams folds hems. Covered red highlights PLAIN UNIFORM wash NO anatomical fibers lobes segments cutaways transparency. All limbs hands feet equipment inside own panel generous margins. No text arrows labels logos numbers.",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Kneel holding landmine end at shoulder."
+        },
+        {
+          "key": "p2",
+          "caption": "Press up and forward, then lower."
+        }
+      ],
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream media used.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only"
+      },
+      "inspectionNote": "Real output inspected. Kneeling one-arm press endpoints and landmine pivot visible with intact clothes. Weight plate shown near anchored end instead of free loaded sleeve; equipment loading needs correction. Human anatomy review pending; no approval or publication.",
+      "blockingIssues": [
+        "Weight plate placed at pivot end rather than free loaded landmine sleeve."
+      ]
+    }
+  ]
+}

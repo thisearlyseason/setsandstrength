@@ -1,0 +1,80 @@
+{
+  "batch": 224,
+  "runId": "bbe2fbe7-3a9b-49bb-9208-b5156eb1e7d7",
+  "trigger": "2026-11-03T15:50:31.110Z",
+  "completedAt": "2026-11-03T15:57:10.325429+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 4,
+  "calls": 4,
+  "exerciseIds": [
+    "1674",
+    "1676",
+    "1677",
+    "1685"
+  ],
+  "variants": [
+    "male"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 775,
+    "remainingVariants": 10489,
+    "approvedVariants": 0,
+    "blockedVariants": 246,
+    "knownPoseImages": 1528,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 402,
+      "remainingVariants": 5230,
+      "blockedVariants": 127
+    }
+  },
+  "reviewNotes": {
+    "1674": "Prone incline bilateral hammer curl: chest supported, hanging arms to flexed elbows. Qualified review needed for exact neutral grip in start pose, elbow/shoulder stability, neck angle and bench support.",
+    "1676": "Alternating ball-seated hammer curl: both down, right curl, left curl with visibly opposite leading arms. Qualified review needed for grip consistency, ball stability, fingers and torso stillness.",
+    "1677": "Seated bilateral supinated dumbbell curl: planted feet, arms lowered to curled. Qualified review needed for supination, elbow drift, finger anatomy and range.",
+    "1685": "Squat to overhead reach: standing, near-parallel squat, tall overhead reach. Opaque black shorts and red exposed anterior thighs retained. Qualified review needed for squat depth, knees/feet alignment, shoulder elevation, hand anatomy and tight but uncropped top fingertips."
+  },
+  "deferred": [
+    {
+      "exerciseId": "1675",
+      "reason": "Chest-down reverse spider description conflicts with standing palms-in instructions."
+    },
+    {
+      "exerciseId": "1679",
+      "reason": "Leg-raised title conflicts with both feet planted throughout instructions."
+    },
+    {
+      "exerciseId": "1680",
+      "reason": "Chest-over-incline description conflicts with standing free-arm curl/other-hand-support instructions."
+    },
+    {
+      "exerciseId": "1682",
+      "reason": "EZ bar close-grip bilateral exercise described with singular braced elbow; support plan ambiguous."
+    },
+    {
+      "exerciseId": "1683",
+      "reason": "Fixed vertical Smith bar path and stationary upper arms require technique clarification."
+    }
+  ],
+  "skippedCompleted": [
+    "1678"
+  ],
+  "tests": 7,
+  "genCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "publicationIndexUnchanged": true,
+  "savedMasters": [
+    "assets/exercise-illustrations/generated/1674-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/1676-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/1677-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/1685-male-anatomical-white-v1.png"
+  ]
+}

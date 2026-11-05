@@ -1,0 +1,151 @@
+{
+  "batch": 360,
+  "runId": "2a3f0b3a-8690-4dc3-a8eb-6a2b0136aad2",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "triggerTimestamp": "2026-11-04T14:36:34.457Z",
+  "builtInImageGenAvailable": true,
+  "generated": [
+    {
+      "exerciseId": "0006",
+      "key": "0006-male-anatomical-white-v1",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0006-male-anatomical-white-v1.png",
+        "width": 2172,
+        "height": 724,
+        "bytes": 1439990,
+        "sha256": "329a2d220bbd8b74157fa0b73a09a778c0b6f5b7fc97ea54e9b999509151001c"
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Centered start"
+        },
+        {
+          "key": "p2",
+          "caption": "Reach right heel"
+        },
+        {
+          "key": "p3",
+          "caption": "Reach left heel"
+        }
+      ],
+      "reviewStatus": "pending",
+      "inspectionNote": "Real output inspected. Opaque black clothing and red target-region overlay are present. The two reaching panels appear to repeat the same-side reach instead of alternating, and the starting arm placement differs from the canonical arms-out position. Technique review required; no approval or publication.",
+      "blockingIssues": [
+        "Duplicate/same-side reach appears in both alternating reach panels; starting arm placement also needs correction."
+      ],
+      "promptPath": "assets/exercise-illustrations/generated/0006-male-anatomical-white-v1.prompt.txt"
+    },
+    {
+      "exerciseId": "0009",
+      "key": "0009-male-anatomical-white-v1",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0009-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1553073,
+        "sha256": "09ebc3aa6f06cb713fdf1d5e979e3d1448f57876bb28d71325abf9be59701ff8"
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Top position"
+        },
+        {
+          "key": "p2",
+          "caption": "Lowered position"
+        }
+      ],
+      "reviewStatus": "pending",
+      "inspectionNote": "Real output inspected. Machine, handles and knee pad are visible; kneeling support and top-to-lowered elbow bend are represented. Opaque clothing coverage and chest surface highlight look intact. Qualified machine setup, grip, elbow depth and movement review pending; no approval or publication.",
+      "blockingIssues": [],
+      "promptPath": "assets/exercise-illustrations/generated/0009-male-anatomical-white-v1.prompt.txt"
+    },
+    {
+      "exerciseId": "0014",
+      "key": "0014-male-anatomical-white-v1",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0014-male-anatomical-white-v1.png",
+        "width": 2172,
+        "height": 724,
+        "bytes": 1654083,
+        "sha256": "8a31150a2e35c203c8a4977db1e8318cd98da26fd0503636764de553cce55c56"
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Center"
+        },
+        {
+          "key": "p2",
+          "caption": "Twist right"
+        },
+        {
+          "key": "p3",
+          "caption": "Twist left"
+        }
+      ],
+      "reviewStatus": "pending",
+      "inspectionNote": "Real output inspected. Medicine ball, mat, seated stance and bilateral trunk-rotation sequence are visible. The abdominal region is rendered as exposed segmented anatomy through the tank rather than a plain overlay on opaque fabric. Human clothing/anatomy correction and qualified technique review required; no approval or publication.",
+      "blockingIssues": [
+        "Abdominal anatomy/cutaway appears through the tank; replace with intact opaque fabric and a plain uniform surface highlight."
+      ],
+      "promptPath": "assets/exercise-illustrations/generated/0014-male-anatomical-white-v1.prompt.txt"
+    },
+    {
+      "exerciseId": "0015",
+      "key": "0015-male-anatomical-white-v1",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0015-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1403269,
+        "sha256": "7078b101c546e447375abfa740305b9cb425c0ce1e1122b99e16387698b01c18"
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Arms extended"
+        },
+        {
+          "key": "p2",
+          "caption": "Pull-up top"
+        }
+      ],
+      "reviewStatus": "pending",
+      "inspectionNote": "Real output inspected. Assisted machine, close neutral parallel handles, extended start and chin-above-handle finish are depicted; clothing remains opaque with lateral red highlight. Canonical muscleMap identifies upper-back as primary while target field says lats; muscle mapping and machine fit need qualified review. No approval or publication.",
+      "blockingIssues": [],
+      "promptPath": "assets/exercise-illustrations/generated/0015-male-anatomical-white-v1.prompt.txt"
+    }
+  ],
+  "coverageAfter": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1298,
+    "remainingVariants": 9966,
+    "approvedVariants": 0,
+    "blockedVariants": 497,
+    "knownPoseImages": 2565,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 925,
+      "remainingVariants": 4707,
+      "blockedVariants": 378
+    }
+  },
+  "pipeline": {
+    "intakeRegistered": 4,
+    "processCompleted": true,
+    "catalogQueueUpdated": true,
+    "workerSync": "paused; 0 requests; pid null",
+    "pipelineTests": "7 passed, 0 failed",
+    "approvedIndexSha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+  },
+  "publication": "none",
+  "anatomyReview": "pending; no approvals made",
+  "paidApiWorker": "disabled"
+}

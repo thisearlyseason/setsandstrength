@@ -1,0 +1,326 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "2375",
+      "variant": "male",
+      "key": "2375-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hold a sturdy support lightly and lift the free foot in front of you."
+        },
+        {
+          "key": "p2",
+          "caption": "Sit hips back into a controlled single-leg squat, keeping the working heel grounded and knee tracking toes; rise, then switch legs after your reps."
+        }
+      ],
+      "prompt": "SUPPORTED SINGLE-LEG SQUAT. TWO equal cells SAME side-front three-quarter view. Fixed sturdy vertical gray support post bolted to floor at man's LEFT side, LEFT hand grips post lightly at waist height, RIGHT hand on hip. Same RIGHT working leg throughout, right foot fully grounded toes forward. LEFT free foot lifted forward OFF floor, knee slightly bent. LEFT cell upright on right leg, free left foot forward5cm clearance. RIGHT cell sit hips back bend RIGHT knee about80degrees, torso mildly inclines neutral spine, free left leg extends forward to clear floor, BOTH feet remain separate coherent, only right foot bears weight, left hand samepost. Primary RIGHT QUADS only plain uniform red COLOR WASH on intact FRONT right thigh shorts and red exposed distal quads. Shorts hem seam must remain visible; no anatomy through cloth. Premium detailed adult MALE grayscale anatomical illustration matching approved original project reference for rendering STYLE ONLY, ignore its exercise/highlights. Pure white background, soft shadows, realistic proportions and equipment, crisp detailed grayscale muscle anatomy ONLY on exposed skin. Opaque BLACK tank and black mid-thigh shorts fully wrap front sides back seat crotch, normal visible seams hems fabric folds; black shoes. Cloth-covered areas have NO anatomical muscle contours. Primary highlight on cloth is a plain uniform soft RED COLOR WASH applied to normal fabric, as if dyed fabric; NEVER draw internal fibers, striations, muscle lobes or cutaways under red cloth. Preserve garment panels. Exactly two arms hands five fingers, two legs feet. Equal cells same camera/person/equipment proportions. Whole body equipment within each cell generous margins. No text arrows logos.",
+      "inspectionNote": "Real output inspected. One hand holds fixed post while same working leg supports upright then lowered single-leg squat, free leg lifted forward. Uniform red color wash retains opaque thigh fabric/hem with normal folds, other cloth black. Qualified review of free-foot clearance from post, working-knee tracking, balance, squat depth and hand force required. Human anatomy review remains pending. No approval or publication.",
+      "canonicalName": "single leg squat with support",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "quads"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. One hand holds fixed post while same working leg supports upright then lowered single-leg squat, free leg lifted forward. Uniform red color wash retains opaque thigh fabric/hem with normal folds, other cloth black. Qualified review of free-foot clearance from post, working-knee tracking, balance, squat depth and hand force required. Human anatomy review remains pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2375-male-anatomical-white-v1-p1-f186840a44cf.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 22420,
+          "sha256": "f186840a44cffe7c369d1d4c9acd33ca02b4cff3c5491786b0880cc104905655"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/2375-male-anatomical-white-v1-p2-7189a6f17af4.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 22738,
+          "sha256": "7189a6f17af4390673df47e8e171672981315bee0b9de1ffa24daae0d7d914e1"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-284.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2375-male-anatomical-white-v1-thumb-6b02d75a3424.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2700,
+        "sha256": "6b02d75a3424231301936d5a43c17b688265d1d76697ff76eef52d22e0ca8af7"
+      },
+      "processingSignature": "46ed16afe8b155843200cde33cbed3eb4a058006e397be50c7b984634bfc2571",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2375-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1314113,
+        "sha256": "8292c431824ecc7559aadaa65165d2886fd1b63cbf343bb54308131dc4daeece"
+      }
+    },
+    {
+      "exerciseId": "2381",
+      "variant": "male",
+      "key": "2381-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand tall with one dumbbell at shoulder height, palm facing forward."
+        },
+        {
+          "key": "p2",
+          "caption": "Press overhead without leaning sideways, then lower slowly to the shoulder; finish your reps before switching arms."
+        }
+      ],
+      "prompt": "STANDING ONE-ARM DUMBBELL SHOULDER PRESS v3. TWO equal cells SAME front three-quarter camera. Feet hipwidth flat, torso tall neutral no side lean, LEFT hand on hip. Only RIGHT hand holds ONE dumbbell. LEFT cell right dumbbell at shoulder height, elbow bent90 forearm vertical, PALM FACING FORWARD, wrist straight. RIGHT cell press RIGHT dumbbell overhead until arm nearly straight, biceps near ear, elbow soft no lock, SAME forward palm. Left arm remains handonhip, samefeet. Primary RIGHT DELTOID ONLY red exposed shoulder cap, left shoulder and triceps gray, all cloth black. Premium detailed adult MALE grayscale anatomical illustration matching approved original project reference for rendering STYLE ONLY, ignore its exercise/highlights. Pure white background, soft shadows, realistic proportions and equipment, crisp detailed grayscale muscle anatomy ONLY on exposed skin. Opaque BLACK tank and black mid-thigh shorts fully wrap front sides back seat crotch, normal visible seams hems fabric folds; black shoes. Cloth-covered areas have NO anatomical muscle contours. Primary highlight on cloth is a plain uniform soft RED COLOR WASH applied to normal fabric, as if dyed fabric; NEVER draw internal fibers, striations, muscle lobes or cutaways under red cloth. Preserve garment panels. Exactly two arms hands five fingers, two legs feet. Equal cells same camera/person/equipment proportions. Whole body equipment within each cell generous margins. No text arrows logos.",
+      "inspectionNote": "Real output inspected. Standing one-arm press from shoulder level to overhead, off hand on hip, feet planted and torso upright, forward grip. Working deltoid red but entire tank is red as well, obscuring primary-only mapping and black-clothing style; block tank/highlight correction. Qualified review of wrist stacking, overhead range and elbow softness required. Human anatomy review remains pending. No approval or publication.",
+      "blockingIssues": [
+        "Entire tank rendered red; restore black tank and restrict red to working deltoid."
+      ],
+      "canonicalName": "dumbbell one arm shoulder press v. 3",
+      "styleVersion": "white-v1",
+      "equipment": "dumbbell",
+      "primaryMuscles": [
+        "delts"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Standing one-arm press from shoulder level to overhead, off hand on hip, feet planted and torso upright, forward grip. Working deltoid red but entire tank is red as well, obscuring primary-only mapping and black-clothing style; block tank/highlight correction. Qualified review of wrist stacking, overhead range and elbow softness required. Human anatomy review remains pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2381-male-anatomical-white-v1-p1-4f186f191c6b.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 23762,
+          "sha256": "4f186f191c6b9a6a7e1350f3c82550d710b4981e99c55a389cbf8cb2724dd08a"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/2381-male-anatomical-white-v1-p2-65d48b3ba166.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 23958,
+          "sha256": "65d48b3ba1660057b9ea18f91f433a8884e34afd17bd66e19a51c5d7c4cf942a"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-284.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2381-male-anatomical-white-v1-thumb-2d6e1d8f4211.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2724,
+        "sha256": "2d6e1d8f4211ff027d28f667ce01ecb0d0815d61490603e7fae1a209b8c664a5"
+      },
+      "processingSignature": "a28e3f0acba067197b10f090b66d05681c2e08464d03e3e5bf7717712e1ad543",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2381-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1320377,
+        "sha256": "2aa4f60483bcad68a441caeb1539c9fd0efa90fc85bf49b4a1591e25d82b8c16"
+      }
+    },
+    {
+      "exerciseId": "2393",
+      "variant": "male",
+      "key": "2393-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hinge with a flat back and support one hand on the bench, letting the other arm hang with a dumbbell."
+        },
+        {
+          "key": "p2",
+          "caption": "Pull toward your hip with elbow close, keeping torso still; lower slowly and switch arms after your reps."
+        }
+      ],
+      "prompt": "ONE ARM BENT OVER DUMBBELL ROW. TWO equal cells SAME rear-side three-quarter camera. Male feet hipwidth on FLOOR knees soft, hips hinged45degrees long neutral flat back, LEFT hand planted on flat bench in front left for support, both feet stay floor, NO knee on bench. RIGHT hand holds ONE dumbbell with neutral palm toward torso. LEFT cell right arm hangs straight below shoulder. RIGHT cell row dumbbell toward RIGHT HIP lower ribs, elbow bends90 and moves backward close to ribs, right upper arm alongside torso, shoulder blade retracts without torso rotation. SAME spine angle and support contact both. Primary RIGHT LAT only small plain uniform red COLOR WASH on intact lateral back tank, not muscle anatomy; shoulderblade and chest black. Premium detailed adult MALE grayscale anatomical illustration matching approved original project reference for rendering STYLE ONLY, ignore its exercise/highlights. Pure white background, soft shadows, realistic proportions and equipment, crisp detailed grayscale muscle anatomy ONLY on exposed skin. Opaque BLACK tank and black mid-thigh shorts fully wrap front sides back seat crotch, normal visible seams hems fabric folds; black shoes. Cloth-covered areas have NO anatomical muscle contours. Primary highlight on cloth is a plain uniform soft RED COLOR WASH applied to normal fabric, as if dyed fabric; NEVER draw internal fibers, striations, muscle lobes or cutaways under red cloth. Preserve garment panels. Exactly two arms hands five fingers, two legs feet. Equal cells same camera/person/equipment proportions. Whole body equipment within each cell generous margins. No text arrows logos.",
+      "inspectionNote": "Real output inspected. One hand supported on bench, both feet floor, stable hip hinge, working dumbbell hangs then rows near hip/lower ribs with elbow tucked. Red lateral tank panel retains cloth folds and coverage. Qualified review of actual neutral grip, torso rotation, shoulder retraction, wrist alignment and fixed hinge angle required. Human anatomy review remains pending. No approval or publication.",
+      "canonicalName": "dumbbell one arm bent over row",
+      "styleVersion": "white-v1",
+      "equipment": "dumbbell",
+      "primaryMuscles": [
+        "lats"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. One hand supported on bench, both feet floor, stable hip hinge, working dumbbell hangs then rows near hip/lower ribs with elbow tucked. Red lateral tank panel retains cloth folds and coverage. Qualified review of actual neutral grip, torso rotation, shoulder retraction, wrist alignment and fixed hinge angle required. Human anatomy review remains pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2393-male-anatomical-white-v1-p1-2cb21fd0c7ff.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 39714,
+          "sha256": "2cb21fd0c7ffbad7a9d1e9423f59bb3b90eaf198a0207cf2bb7d4231b80ffb61"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/2393-male-anatomical-white-v1-p2-29703d619416.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 36938,
+          "sha256": "29703d619416b35da5cb77aa574d094b6d72ae41ab9663a41766ebc3184c5b17"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-284.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2393-male-anatomical-white-v1-thumb-5a65f6d99acf.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 4280,
+        "sha256": "5a65f6d99acfbfeebcde4a1718ffedacffc814b6cdbe57f157274280531ccb40"
+      },
+      "processingSignature": "3985df6d06b757aecb795f5ae07289c77c15fcf303aad2c7d72ada79ce8ee9c2",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2393-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1568764,
+        "sha256": "fa71b4c0dcc2ed3f55db4c5b41e4d30bb7ec637abafe82e747805480af57309e"
+      }
+    },
+    {
+      "exerciseId": "2394",
+      "variant": "male",
+      "key": "2394-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Lie face down with arms extended and neck neutral."
+        },
+        {
+          "key": "p2",
+          "caption": "Squeeze glutes and lift chest and legs slightly, keeping your gaze down; pause and lower without forcing a large arch."
+        }
+      ],
+      "prompt": "FLOOR HYPEREXTENSION PRONE BODYWEIGHT. TWO equal cells SAME SIDE REAR three-quarter camera head at IMAGE LEFT feet RIGHT. Arms extend forward overhead hands separated shoulderwidth palms floor. LEFT start lies FACE DOWN chest pelvis thighs on floor, legs straight parallel hipwidth, neck neutral eyes down. RIGHT gently lift CHEST and BOTH STRAIGHT LEGS about5-10cm off floor while PELVIS remains grounded; arms lift with chest small range, no excessive spinal arch, neck aligned eyes floor, normal twolegs. NO bench no equipment. Primary GLUTES only plain uniform soft red COLOR WASH on intact shorts covering buttocks; clothing has normal seams folds without internal anatomy. Back tank black. Premium detailed adult MALE grayscale anatomical illustration matching approved original project reference for rendering STYLE ONLY, ignore its exercise/highlights. Pure white background, soft shadows, realistic proportions and equipment, crisp detailed grayscale muscle anatomy ONLY on exposed skin. Opaque BLACK tank and black mid-thigh shorts fully wrap front sides back seat crotch, normal visible seams hems fabric folds; black shoes. Cloth-covered areas have NO anatomical muscle contours. Primary highlight on cloth is a plain uniform soft RED COLOR WASH applied to normal fabric, as if dyed fabric; NEVER draw internal fibers, striations, muscle lobes or cutaways under red cloth. Preserve garment panels. Exactly two arms hands five fingers, two legs feet. Equal cells same camera/person/equipment proportions. Whole body equipment within each cell generous margins. No text arrows logos.",
+      "inspectionNote": "Real output inspected. Prone floor start then small chest/arm/leg lift with pelvis grounded, opaque shorts and glute color wash on normal fabric. Head lifted with gaze forward rather than neck neutral looking floor; block cervical alignment correction. Qualified review of lift amplitude, lumbar arch, bilateral leg clearance and glute placement required. Human anatomy review remains pending. No approval or publication.",
+      "blockingIssues": [
+        "Head/neck extended with forward gaze; correct neutral neck and downward gaze."
+      ],
+      "canonicalName": "floor hyperextension",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "glutes"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Prone floor start then small chest/arm/leg lift with pelvis grounded, opaque shorts and glute color wash on normal fabric. Head lifted with gaze forward rather than neck neutral looking floor; block cervical alignment correction. Qualified review of lift amplitude, lumbar arch, bilateral leg clearance and glute placement required. Human anatomy review remains pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2394-male-anatomical-white-v1-p1-c99ae194e97e.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 17712,
+          "sha256": "c99ae194e97e71958e8bffe3a342e3c4f470ce34da874f5f5b655fa5dd1d52a8"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/2394-male-anatomical-white-v1-p2-bb8cd6cf2a47.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 18508,
+          "sha256": "bb8cd6cf2a4764cf883d35e2d07806b75c6a3cf65040522ebcb4589875d34439"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-284.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2394-male-anatomical-white-v1-thumb-b9be79b1c9f5.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 1696,
+        "sha256": "b9be79b1c9f528cd80aed161a15ad1b35a6e947a40715a16141ee2e685dbd8c0"
+      },
+      "processingSignature": "8356b5c7d6ccc28ca1ddb2776447bc247e8a659a834c7ef8ecc875038efef362",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2394-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1225449,
+        "sha256": "6f4cfa521d8743a11e77628e6a3a5e5e043d556988688e5d76db1e4e552e7cfe"
+      }
+    }
+  ]
+}

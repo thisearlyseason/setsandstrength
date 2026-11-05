@@ -1,0 +1,78 @@
+{
+  "batch": 249,
+  "runId": "42409528-48f3-4257-83e2-9742fd4bfe46",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "trigger": "2026-11-03T20:30:52.731Z",
+  "purpose": "batch249 scheduled male continuation",
+  "started": "2026-11-03T20:31:26.894720+00:00",
+  "completedAt": "2026-11-03T20:40:37.009280+00:00",
+  "actualToolName": "image_gen__imagegen",
+  "calls": 4,
+  "newCandidateSets": 4,
+  "exerciseIds": [
+    "1924",
+    "1928",
+    "1929",
+    "1931"
+  ],
+  "variants": [
+    "male"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 869,
+    "remainingVariants": 10395,
+    "approvedVariants": 0,
+    "blockedVariants": 277,
+    "knownPoseImages": 1681,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 496,
+      "remainingVariants": 5136,
+      "blockedVariants": 158
+    }
+  },
+  "reviewNotes": {
+    "1924": "Toe-up calf stretch: forward forefoot against wall, heel at floor, leg straight, palms support and red posterior calf rather than shin. Qualified review needed for exact heel contact, dorsiflexion range, hip alignment and calf/Achilles mapping.",
+    "1928": "Wall-bar ankle stretch: hand grips above, forefoot against low rung with heel at floor, red posterior calf and coherent limb orientation. Qualified review needed for firm forefoot/rung contact, knee extension, comfortable ankle range and mapping.",
+    "1929": "Semi-flexed-knee calf stretch BLOCKED: working rear knee remains essentially straight despite explicit bent-knee cue. Correct visible rear-knee flexion, keeping heel grounded and posterior lower-calf mapping.",
+    "1931": "Deep squatting hip stretch: heels grounded, hips low, hands together and elbow/knee contact, intact shorts with plain glute overlays and coherent rear body view. Qualified review needed for bilateral inner-knee elbow contact, hip/knee tracking, comfortable depth and glute mapping."
+  },
+  "blockingIssues": {
+    "1929": [
+      "Working rear knee remains essentially straight rather than visibly semi-flexed. Correct knee angle while keeping heel down."
+    ]
+  },
+  "tests": 7,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "workerSyncResult": {
+    "statuses": {
+      "generated": 869,
+      "pending": 10395
+    },
+    "remaining": 10395,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 1346766744
+  },
+  "publicationIndexUnchanged": true,
+  "savedMasters": [
+    "assets/exercise-illustrations/generated/1924-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/1928-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/1929-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/1931-male-anatomical-white-v1.png"
+  ]
+}

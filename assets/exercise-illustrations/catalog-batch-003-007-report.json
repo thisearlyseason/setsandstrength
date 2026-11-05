@@ -1,0 +1,28 @@
+{
+  "provider": "built-in image_gen only",
+  "paidAPIRequests": 0,
+  "creditPurchases": 0,
+  "newExerciseIds": [
+    "0001",
+    "0005",
+    "1373",
+    "7559",
+    "0405"
+  ],
+  "newVariantSets": 10,
+  "newPoseImages": 20,
+  "generationCalls": 12,
+  "correctionCalls": 2,
+  "totalGeneratedSets": 40,
+  "remainingSets": 11224,
+  "totalPoseImages": 86,
+  "approvedSets": 0,
+  "checks": {
+    "pipelineTestsPassed": 7,
+    "servedManifestSets": 40,
+    "newPoseURLsHTTP200": 20
+  },
+  "reviewNotes": "Female band curl repeated side corrected. Male sit-up cervical starting position and both shoulder-press deltoid boundaries remain blocked for qualified review. All candidates retain full opaque clothing; no anatomy approval granted.",
+  "metadataIssue": "0313 hammer curl palm-direction conflict logged; generation deferred.",
+  "backgroundGenerationRunning": false
+}

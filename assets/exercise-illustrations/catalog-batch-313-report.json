@@ -1,0 +1,68 @@
+{
+  "batch": 313,
+  "runId": "fc73132d-de5e-44ab-8741-cfa373d77e90",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "trigger": "2026-11-04T06:45:58.176Z",
+  "purpose": "batch313 scheduled male continuation",
+  "started": "2026-11-04T06:46:41.414478+00:00",
+  "completedAt": "2026-11-04T06:56:26.992152+00:00",
+  "actualToolName": "image_gen__imagegen",
+  "calls": 4,
+  "newCandidateSets": 4,
+  "exerciseIds": [
+    "2920",
+    "2921",
+    "2927",
+    "2928"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1120,
+    "remainingVariants": 10144,
+    "approvedVariants": 0,
+    "blockedVariants": 396,
+    "knownPoseImages": 2172,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 747,
+      "remainingVariants": 4885,
+      "blockedVariants": 277
+    }
+  },
+  "reviewNotes": {
+    "2920": "Single planted leg, free leg reaches back as torso/arms extend into long line; posterior standing-thigh tint, opaque clothing. Qualified review needed for soft standing knee, square pelvis, neutral neck and hamstring mapping. Human anatomy review pending.",
+    "2921": "Floor pike with hips high, legs straight and both palms/forefeet grounded; elbows flex to lower head near floor. Exposed shoulder highlights, opaque clothing. Qualified review needed for head clearance/no weight bearing, elbow angle, neutral neck and fixed contact points. Human anatomy review pending.",
+    "2927": "Tall kneeling both knees, same arm presses inverted kettlebell from shoulder to overhead with bell body above hand and handle down. Exposed deltoid highlight and opaque clothing. Qualified review needed for secure bottoms-up grip, wrist stacking, overhead alignment and rib/pelvis control. Human anatomy review pending.",
+    "2928": "Wide overhead grip with straight elbows, shoulders visibly rise toward ears and bar slightly higher in finish, feet stable. Upper trapezius tint and opaque clothing. Qualified review needed for true scapular elevation versus arm motion, rib position, bar over mid-foot and grip/wrist alignment. Human anatomy review pending."
+  },
+  "blockingIssues": {},
+  "deferred": {
+    "2922": "Hand-under-wrist instruction conflicts with downward resistance direction; clarify hand contact before illustration."
+  },
+  "tests": 7,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "workerSyncResult": {
+    "statuses": {
+      "generated": 1120,
+      "pending": 10144
+    },
+    "remaining": 10144,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 1716524777
+  },
+  "publicationIndexUnchanged": true
+}

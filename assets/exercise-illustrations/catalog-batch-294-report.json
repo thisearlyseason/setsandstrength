@@ -1,0 +1,75 @@
+{
+  "batch": 294,
+  "runId": "3dca34c1-c834-4590-83df-4fde3d836c11",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "trigger": "2026-11-04T03:50:27.256Z",
+  "purpose": "batch294 scheduled male continuation",
+  "started": "2026-11-04T03:50:58.934948+00:00",
+  "completedAt": "2026-11-04T03:59:14.602480+00:00",
+  "actualToolName": "image_gen__imagegen",
+  "calls": 3,
+  "newCandidateSets": 3,
+  "exerciseIds": [
+    "2589",
+    "2656",
+    "2659"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1044,
+    "remainingVariants": 10220,
+    "approvedVariants": 0,
+    "blockedVariants": 357,
+    "knownPoseImages": 2007,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 671,
+      "remainingVariants": 4961,
+      "blockedVariants": 238
+    }
+  },
+  "reviewNotes": {
+    "2589": "Supported bench posture, head/back/hips on pad and feet grounded; upper arms near vertical as elbows bend weights near head. Exposed triceps red only and opaque clothing. Qualified review needed for neutral-grip consistency, elbow tracking, dumbbell clearance beside ears rather than forehead contact, and fixed shoulder position. Human anatomy review pending.",
+    "2656": "Low cable D handle moves from thigh to shoulder underhand, upright torso and planted feet. Working arm switches between start and finish, start highlight on non-working arm, and unrelated chest red added; block laterality/mapping correction. Opaque clothing retained. Qualified review of cable routing, elbow pinning and wrist stacking required. Human anatomy review pending.",
+    "2659": "Incline machine bench supports head, back and hips; planted feet and paired handles move from chest level to extended forward/upward arms. Clothing opaque with uniform chest highlight. Qualified review needed for lever pivot geometry, shoulder alignment, elbow tracking and endpoint range. Human anatomy review pending."
+  },
+  "blockingIssues": {
+    "2656": [
+      "Working arm switches between poses; retain same arm.",
+      "Start highlights non-working arm and unrelated chest tint; correct primary biceps mapping."
+    ]
+  },
+  "deferred": {
+    "2611": "One-leg name conflicts with both-feet instructions and primary mapping.",
+    "2612": "Cardio primary highlight mapping needs clarification.",
+    "2616": "Target lats versus upper-back mapping and V-bar overhand wording need clarification.",
+    "2658": "Cardio primary highlight mapping needs clarification.",
+    "2660": "Exact prompt saved; generation unattempted because six-minute work window elapsed."
+  },
+  "tests": 7,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "workerSyncResult": {
+    "statuses": {
+      "generated": 1044,
+      "pending": 10220
+    },
+    "remaining": 10220,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 1607361722
+  },
+  "publicationIndexUnchanged": true
+}

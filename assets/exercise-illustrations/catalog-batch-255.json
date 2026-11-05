@@ -1,0 +1,307 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "2071",
+      "variant": "male",
+      "key": "2071-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Rest your upper back against a stable bench. Plant one foot flat and lift the other leg."
+        },
+        {
+          "key": "p2",
+          "caption": "Drive through the planted heel to lift your hips until the torso and working thigh align. Lower slowly, then switch legs."
+        }
+      ],
+      "prompt": "SINGLE LEG HIP THRUST. Two equal cells side by side same SIDE camera. Stable low padded bench behind shoulders. LEFT: upper back against bench edge, hips lowered close to floor, RIGHT working foot flat floor knee bent, LEFT free leg lifted off floor with knee bent. RIGHT: same right foot fixed flat, shoulders pivot on same bench edge, hips LIFTED until torso and RIGHT THIGH horizontal in line from shoulder to knee; right shin vertical, left free leg remains raised, pelvis level. Hands lightly on bench for balance, neck neutral chin slightly tucked no hyperextension. Only glute area soft uniform red overlay on intact black shorts. Legs entirely coherent and distinct, no extra feet. Scientific educational premium detailed adult MALE grayscale anatomy, matching original reference rendering STYLE ONLY, ignore reference exercise. Pure white background, soft contact shadows, realistic proportions and detailed exposed gray muscle contours. Opaque BLACK tank and mid-thigh shorts fully wrap front, sides, back, seat and crotch with seams, hems and folds. NO cutaways, transparency or internal muscle fibers through fabric. Red over clothing is a simple soft uniform teaching tint on intact fabric, no internal rays or lines. Black shoes. Entire body, fingers, feet and equipment inside each cell with margins. No text, arrows or logos.",
+      "inspectionNote": "Real output inspected. Two distinct single-leg hip-thrust positions, working foot planted and free knee lifted; pelvis rises to near shoulder-hip-knee alignment. Upper back/shoulder support is visually ambiguous: forearms appear to carry support on bench with shoulders forward of edge. Red overlay has subtle radiating internal lines through shorts. Correct shoulder contact and plain fabric tint; qualified review of hip range, planted knee and neck. Human anatomy review remains pending; no approval or publication.",
+      "blockingIssues": [
+        "Upper-back contact with bench is not clear; bench appears to support forearms instead.",
+        "Radial muscle-like lines in glute overlay through shorts; replace with plain teaching tint."
+      ],
+      "canonicalName": "single leg hip thrusts",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "glutes"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Two distinct single-leg hip-thrust positions, working foot planted and free knee lifted; pelvis rises to near shoulder-hip-knee alignment. Upper back/shoulder support is visually ambiguous: forearms appear to carry support on bench with shoulders forward of edge. Red overlay has subtle radiating internal lines through shorts. Correct shoulder contact and plain fabric tint; qualified review of hip range, planted knee and neck. Human anatomy review remains pending; no approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2071-male-anatomical-white-v1-p1-486bae2ec1be.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 31204,
+          "sha256": "486bae2ec1bee1c2034d0fba3ad18243b1ba5383cf973470289a8a9bf2b07271"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/2071-male-anatomical-white-v1-p2-392192e766e3.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 30448,
+          "sha256": "392192e766e3746d952bf4737937c7428040a228fbb988310254475577fe928b"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-255.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2071-male-anatomical-white-v1-thumb-fbf7e1e01d8d.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 3472,
+        "sha256": "fbf7e1e01d8d4d434de082a31b3a5548ef7b617cb406a381f8f481bea19f8c77"
+      },
+      "processingSignature": "8b9e531da52d66f6f35d5dfedeb27d3efd985eeed9d6f5e1ef6782c82f2dce13",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2071-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1427473,
+        "sha256": "86904673c8fe6919cb13fc345fda547d29f78f85b471dd4901fd0e85fdf7e8b6"
+      }
+    },
+    {
+      "exerciseId": "2072",
+      "variant": "male",
+      "key": "2072-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Rest your upper back against a bench and plant both feet hip-width apart."
+        },
+        {
+          "key": "p2",
+          "caption": "Press through your heels to raise the hips until your torso is level. Squeeze your glutes, then lower under control."
+        }
+      ],
+      "prompt": "BODYWEIGHT HIP THRUST. Two equal cells side by side same SIDE three-quarter camera. Stable low padded bench behind shoulders. LEFT upper back against bench edge, hips lowered near floor, BOTH knees bent and BOTH feet planted hip width. RIGHT shoulders pivot on bench edge, hips lifted until torso and thighs horizontal shoulder-hip-knee straight line; both shins near vertical, both heels flat same foot positions. Neck neutral chin gently tucked, no lumbar arch. Both arms relaxed along bench. Primary glutes only red SOFT UNIFORM tint over intact shorts, other anatomy gray. Exactly two coherent legs and two feet per pose. Scientific educational premium detailed adult MALE grayscale anatomy, matching original reference rendering STYLE ONLY, ignore reference exercise. Pure white background, soft contact shadows, realistic proportions and detailed exposed gray muscle contours. Opaque BLACK tank and mid-thigh shorts fully wrap front, sides, back, seat and crotch with seams, hems and folds. NO cutaways, transparency or internal muscle fibers through fabric. Red over clothing is a simple soft uniform teaching tint on intact fabric, no internal rays or lines. Black shoes. Entire body, fingers, feet and equipment inside each cell with margins. No text, arrows or logos.",
+      "inspectionNote": "Real output inspected. Distinct lowered and lifted bilateral hip thrust, both feet planted, hips reach approximately level torso and thighs. Bench appears to support forearms rather than clearly contacting upper back; red glute overlay contains radial fibers through shorts. Correct upper-back support and plain teaching tint. Qualified review of shin angle, pelvis level and lumbar control. Human anatomy review remains pending; no approval or publication.",
+      "blockingIssues": [
+        "Upper back is not clearly contacting bench; forearms appear to provide support.",
+        "Radial muscle-like lines in glute overlay through shorts; replace with plain teaching tint."
+      ],
+      "canonicalName": "hip thrusts",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "glutes"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Distinct lowered and lifted bilateral hip thrust, both feet planted, hips reach approximately level torso and thighs. Bench appears to support forearms rather than clearly contacting upper back; red glute overlay contains radial fibers through shorts. Correct upper-back support and plain teaching tint. Qualified review of shin angle, pelvis level and lumbar control. Human anatomy review remains pending; no approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2072-male-anatomical-white-v1-p1-4cf6a0714890.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 35596,
+          "sha256": "4cf6a0714890bf2c096171cec521d0e10d71f95e9ae2472f3d6a9a71910ce411"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/2072-male-anatomical-white-v1-p2-2a151ed5f036.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 30450,
+          "sha256": "2a151ed5f03636cffcd069748c26151443362232916b448a5fdad8c4f2527fe1"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-255.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2072-male-anatomical-white-v1-thumb-4448abbf50d0.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 3404,
+        "sha256": "4448abbf50d0b919b7dd70875a88ccb8773c2126e55128ae6202bffb5f8e6251"
+      },
+      "processingSignature": "e87f11c67f78c36d6ba1f2997257b068a3ad8384b076d6c240fcf0e002da5320",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2072-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1477887,
+        "sha256": "cd1691faa18b55e078bff29194d23db0fa4244a07b94dbfe494500667b75fa1b"
+      }
+    },
+    {
+      "exerciseId": "2087",
+      "variant": "male",
+      "key": "2087-male-anatomical-white-v1",
+      "layout": {
+        "columns": 1,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Bring one arm across your chest and support it just above the elbow. Gently draw it closer while rounding the upper back slightly. Keep your neck relaxed and hold for 20\u201330 seconds, then switch sides."
+        }
+      ],
+      "prompt": "SHOULDER ADDUCTOR PROTRACTOR AND ELEVATOR STRETCH. ONE static pose full-body front three-quarter camera. Standing tall feet flat, RIGHT working arm straight across chest toward left, LEFT forearm cradles right upper arm just above elbow, left hand resting gently on upper arm. Round upper back SLIGHTLY forward to protract shoulder blades, neck relaxed neutral. Right shoulder low relaxed no shrug. Primary RIGHT posterior deltoid only red on exposed shoulder, all other areas grayscale, tank black. Both arms anatomically continuous with normal hands and five fingers. Scientific educational premium detailed adult MALE grayscale anatomy, matching original reference rendering STYLE ONLY, ignore reference exercise. Pure white background, soft contact shadows, realistic proportions and detailed exposed gray muscle contours. Opaque BLACK tank and mid-thigh shorts fully wrap front, sides, back, seat and crotch with seams, hems and folds. NO cutaways, transparency or internal muscle fibers through fabric. Red over clothing is a simple soft uniform teaching tint on intact fabric, no internal rays or lines. Black shoes. Entire body, fingers, feet and equipment inside each cell with margins. No text, arrows or logos.",
+      "inspectionNote": "Real output inspected. Single coherent standing figure with extended working arm, but assisting hand is near shoulder rather than just above elbow, and arm projects forward rather than clearly drawing across chest. Required slight upper-back rounding is not evident. Correct guiding contact and cross-body position; qualified review of posterior-deltoid mapping and relaxed neck. Human anatomy review remains pending; no approval or publication.",
+      "blockingIssues": [
+        "Assisting hand contacts near shoulder rather than just above elbow, and working arm is not clearly drawn across chest; correct pose and slight upper-back rounding."
+      ],
+      "canonicalName": "shoulder adductor protractor and elevator stretch",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "delts"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Single coherent standing figure with extended working arm, but assisting hand is near shoulder rather than just above elbow, and arm projects forward rather than clearly drawing across chest. Required slight upper-back rounding is not evident. Correct guiding contact and cross-body position; qualified review of posterior-deltoid mapping and relaxed neck. Human anatomy review remains pending; no approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2087-male-anatomical-white-v1-p1-e6d474fc0c7e.webp",
+          "width": 800,
+          "height": 1200,
+          "bytes": 31904,
+          "sha256": "e6d474fc0c7e0d627e55929b854c83dfe890dc1aa453de5bb2ece6b88e165fe9"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-255.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2087-male-anatomical-white-v1-thumb-5032b9961fc4.webp",
+        "width": 160,
+        "height": 240,
+        "bytes": 2320,
+        "sha256": "5032b9961fc4cb874a4928fc3b5432759a88371fae83f7b81ac641baf579a6ad"
+      },
+      "processingSignature": "b89b5a1fb99f669a69502b507206baf4a2a94b98f677db818794f39515a7e007",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2087-male-anatomical-white-v1.png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1330066,
+        "sha256": "11d34e772e6b53b863ac91c68bfc28dd4ed90792987755a3c220c1cc8b6300ee"
+      }
+    },
+    {
+      "exerciseId": "2088",
+      "variant": "male",
+      "key": "2088-male-anatomical-white-v1",
+      "layout": {
+        "columns": 1,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hold a towel overhead with one hand and reach behind your back to grasp it with the other. Gently pull down with the lower hand, keeping your head upright. Hold for 20\u201330 seconds, then switch sides."
+        }
+      ],
+      "prompt": "SHOULDER STRETCH WITH TOWEL BEHIND BACK. ONE SINGLE static figure only REAR three-quarter view full body. RIGHT arm overhead bent elbow, RIGHT hand behind upper neck holds TOP END of vertical gray towel. LEFT arm reaches behind lower back, LEFT hand holds LOWER END towel around lumbar height. LOWER LEFT HAND gently pulls towel DOWN to stretch upper right shoulder; modest comfortable range. Head upright shoulders relaxed, spine neutral, feet flat. Correct right elbow upper arm and forearm continuous; left elbow points downward. Primary right posterior shoulder DELTOID red only, no red on left shoulder/back/triceps. Whole torso pelvis knees feet share coherent rear perspective. Scientific educational premium detailed adult MALE grayscale anatomy, matching original reference rendering STYLE ONLY, ignore reference exercise. Pure white background, soft contact shadows, realistic proportions and detailed exposed gray muscle contours. Opaque BLACK tank and mid-thigh shorts fully wrap front, sides, back, seat and crotch with seams, hems and folds. NO cutaways, transparency or internal muscle fibers through fabric. Red over clothing is a simple soft uniform teaching tint on intact fabric, no internal rays or lines. Black shoes. Entire body, fingers, feet and equipment inside each cell with margins. No text, arrows or logos.",
+      "inspectionNote": "Real output inspected. Single rear-view towel stretch with coherent upper overhead arm and lower behind-back arm, both hands holding towel, head upright and pelvis/feet consistent with rear view. Red is confined to upper working shoulder area. Qualified review needed for deltoid versus triceps/axillary mapping, comfortable shoulder range, hand anatomy and downward pull direction. Human anatomy review remains pending; no approval or publication.",
+      "canonicalName": "shoulder stretch with towel behind the back",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "delts"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Single rear-view towel stretch with coherent upper overhead arm and lower behind-back arm, both hands holding towel, head upright and pelvis/feet consistent with rear view. Red is confined to upper working shoulder area. Qualified review needed for deltoid versus triceps/axillary mapping, comfortable shoulder range, hand anatomy and downward pull direction. Human anatomy review remains pending; no approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2088-male-anatomical-white-v1-p1-2b7cb8bc356b.webp",
+          "width": 600,
+          "height": 1200,
+          "bytes": 35630,
+          "sha256": "2b7cb8bc356b74ba057b43ccf80ad50ef925f15d5f1189742d29f9aa4f610df9"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-255.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2088-male-anatomical-white-v1-thumb-d7513d55f82c.webp",
+        "width": 120,
+        "height": 240,
+        "bytes": 2338,
+        "sha256": "d7513d55f82c2c188f73f67246a099f0e75f5d50d485ae8b96c57ee6e262f7eb"
+      },
+      "processingSignature": "3445665886f966988ffc1bf729d017341a1bfb985c584155882127f22bff8bf2",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2088-male-anatomical-white-v1.png",
+        "width": 887,
+        "height": 1774,
+        "bytes": 1462119,
+        "sha256": "8d5f58b9d4d1eac1937f322d44e011a82da2535ecd51414db7c1c0d0c09a56d1"
+      }
+    }
+  ]
+}

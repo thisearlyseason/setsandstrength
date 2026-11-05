@@ -1,0 +1,78 @@
+{
+  "batch": 256,
+  "runId": "a6af9824-8920-4c6b-9192-b2aefce02b56",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "trigger": "2026-11-03T21:52:53.749Z",
+  "purpose": "batch256 scheduled male continuation",
+  "started": "2026-11-03T21:53:06.534237+00:00",
+  "completedAt": "2026-11-03T21:58:03.516873+00:00",
+  "actualToolName": "image_gen__imagegen",
+  "calls": 4,
+  "newCandidateSets": 4,
+  "exerciseIds": [
+    "2089",
+    "2090",
+    "2091",
+    "2092"
+  ],
+  "variants": [
+    "male"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 897,
+    "remainingVariants": 10367,
+    "approvedVariants": 0,
+    "blockedVariants": 287,
+    "knownPoseImages": 1713,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 524,
+      "remainingVariants": 5108,
+      "blockedVariants": 168
+    }
+  },
+  "reviewNotes": {
+    "2089": "Single coherent standing figure, working elbow nearly straight and opposite hand cups fingertips without an extra limb. Wrist appears drooped with palm facing viewer; flexor-stretch extension versus flexion and forearm supination are unclear. Blocking qualified correction/review required for wrist direction and red flexor versus dorsal extensor mapping. Clothing fully opaque and chest unhighlighted.",
+    "2090": "Both arms extended with outward-facing palms and interlaced fingers, red restricted to exposed forearms. Full opaque clothing and coherent standing body. Qualified review needed for interlaced finger count/contact, wrist extension, elbow comfort and flexor mapping on both forearms.",
+    "2091": "Working arm straight, pronated forearm and wrist flexed fingers down, opposite hand contacts back of hand. Red restricted to dorsal working forearm, clothing opaque. Qualified review needed for finger count/overlap, gentle wrist pressure, exact extensor mapping and comfortable range.",
+    "2092": "Single full-body wall stretch, straight working arm with fingers pointing down at wall, opposite arm relaxed and coherent rear three-quarter body. Qualified review needed for palm versus dorsum wall contact, wrist extension versus flexion, forearm rotation and flexor mapping; wall partially obscures contact. Opaque clothing intact."
+  },
+  "blockingIssues": {
+    "2089": [
+      "Wrist direction and forearm rotation do not clearly demonstrate a finger/flexor stretch; qualified correction needed to resolve flexion versus extension and flexor versus extensor highlight."
+    ]
+  },
+  "tests": 7,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "workerSyncResult": {
+    "statuses": {
+      "generated": 897,
+      "pending": 10367
+    },
+    "remaining": 10367,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 1386410428
+  },
+  "publicationIndexUnchanged": true,
+  "savedMasters": [
+    "assets/exercise-illustrations/generated/2089-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/2090-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/2091-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/2092-male-anatomical-white-v1.png"
+  ]
+}

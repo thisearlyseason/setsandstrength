@@ -1,0 +1,93 @@
+{
+  "batch": 64,
+  "trigger": "2026-11-01T13:10:16.071Z",
+  "completedAt": "2026-11-01T13:17:30.427338+00:00",
+  "tool": "image_gen.imagegen",
+  "newCandidateSets": 4,
+  "generationCalls": 5,
+  "exerciseIds": [
+    "0218",
+    "0220"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 252,
+    "remainingVariants": 11012,
+    "approvedVariants": 0,
+    "blockedVariants": 115,
+    "knownPoseImages": 510,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "All pending, blocked and unpublished. Wide rows show central attachment and wide grips but male incorrect chest highlight and female ambiguous lateral-chest highlight require correction. Male rear-view correction saved in history as rejected: one arm remained extended while the other rows. Shrugs show shoulder elevation and full opaque clothes but overhand grip and handles in front of thighs are obscured; female tower cropped. Qualified review and correction required. Pipeline pass is not anatomy correctness.",
+  "metadataConflictsDeferred": [
+    {
+      "exerciseId": "0216",
+      "issue": "Internal rotation versus extended-arm inward movement instructions ambiguous; delts versus rotator cuff target needs review."
+    },
+    {
+      "exerciseId": "0221",
+      "issue": "Bosu-ball title versus floor-standing instructions omit Bosu."
+    }
+  ],
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 406888931,
+  "savedMasters": [
+    {
+      "exerciseId": "0218",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0218-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1726492,
+        "sha256": "5204b88474ef0983a90a380f98136ed23942b96135e1a2977f5bd8d28827cb9f"
+      }
+    },
+    {
+      "exerciseId": "0218",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0218-female-anatomical-white-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1613985,
+        "sha256": "889632dd221624ea0f5cb810691a1b0923b316792e06d8183f15777d1567119b"
+      }
+    },
+    {
+      "exerciseId": "0220",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0220-male-anatomical-white-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1567291,
+        "sha256": "1aff31d32d88fcccedab29d5192c84eef0f816e11680e6a1695e1262048f9888"
+      }
+    },
+    {
+      "exerciseId": "0220",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0220-female-anatomical-white-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1667552,
+        "sha256": "517db20aa5c32d05081a55ec1878097d75f12d6e938a17de6606daf1f386a32c"
+      }
+    }
+  ]
+}

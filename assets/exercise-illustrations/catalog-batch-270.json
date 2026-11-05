@@ -1,0 +1,326 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "2224",
+      "variant": "male",
+      "key": "2224-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Sit with your back and head against the pad and feet shoulder-width apart in the middle of the platform. Extend the legs without locking the knees."
+        },
+        {
+          "key": "p2",
+          "caption": "Lower the sled until the knees bend to about 90 degrees, keeping the lower back supported and whole feet planted. Press smoothly back up."
+        }
+      ],
+      "prompt": "SLED 45 DEGREE LEG PRESS. TWOequalcells sidebyside SAME SIDEthreequartercamera. Realisticgray45degreeLEG PRESS machine withFIXEDlowreclinedSEATBACKREST atLEFTbottom andMOVINGlargeFOOTPLATFORM atRIGHTabovebody riding45degreeRAILS, modestplatesonplatformloadinghorns. MaleBACKandHEAD FULLYCONTACTpad throughout notfloating, bothhandsSEATsidehandles, bothFEETshoulderwidthFLATonMIDDLEplatform toesoutslight. LEFTstartLEGSnearSTRAIGHTSOFTknees platformHIGHFARonrails. RIGHTlowerplatformNEARbody kneesBENT90 hipsbent butpelvisandlowBACKremainpad, heelsflatplatform. FeetandplatformmoveTOGETHER raildirection no toesdangle. PrimaryQUADS softuniformREDellipse intactshortsfrontthigh bothlegs. Fullmachineplatesrailsheadfeetframe. Premium detailed adult MALE grayscale anatomical illustration matching original project reference rendering STYLE ONLY, ignore reference pose/red chest. Pure white background soft shadows realistic proportions detailed exposed gray muscle contours. Opaque BLACK tank and mid-thigh shorts fully wrap front sides back seat crotch with seams folds hems. No cutaways transparency or anatomy through fabric. Red over clothing PLAIN UNIFORM SOFT teaching ellipse NO internal fibers rays lobes segmentation, fabric folds retained. ONLY specified primary red no chest. Black shoes. Two coherent arms hands five fingers two legs feet, all equipment body hands feet in each cell generous margins. No text arrows logos.",
+      "inspectionNote": "Real output inspected. Distinct sled positions on 45-degree rails, feet flat on moving platform, back/pelvis supported and hands on seat handles. Head is lifted forward of head pad instead of flat against it as canonical record requires; block for relaxed head-pad contact. Plain quad tint on intact shorts. Qualified review of 90-degree depth, heel placement, lumbar contact, carriage mechanics and mapping. Human anatomy review remains pending; no approval or publication.",
+      "blockingIssues": [
+        "Head lifted forward of pad; correct relaxed head-pad contact required by canonical instructions."
+      ],
+      "canonicalName": "sled 45 degrees leg press",
+      "styleVersion": "white-v1",
+      "equipment": "sled machine",
+      "primaryMuscles": [
+        "quads"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Distinct sled positions on 45-degree rails, feet flat on moving platform, back/pelvis supported and hands on seat handles. Head is lifted forward of head pad instead of flat against it as canonical record requires; block for relaxed head-pad contact. Plain quad tint on intact shorts. Qualified review of 90-degree depth, heel placement, lumbar contact, carriage mechanics and mapping. Human anatomy review remains pending; no approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2224-male-anatomical-white-v1-p1-d4e5b8bb4606.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 65286,
+          "sha256": "d4e5b8bb46069c4ad1e3bd8924dcdfa6954c3f51179cc450add683007b03b7b9"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/2224-male-anatomical-white-v1-p2-60bb495cc0f5.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 61560,
+          "sha256": "60bb495cc0f5fbfddc13d2c5eda873b4e36e9188c6aedbfadb74e6fd916fc6b3"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-270.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2224-male-anatomical-white-v1-thumb-0785fd961780.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 6894,
+        "sha256": "0785fd9617806c3d5b96caab7c2a911d6086bc9dd7033133e2a36057ae1c5ad8"
+      },
+      "processingSignature": "452fe6d7c938b49ffd97d3d2b288dd43205c2109c299ad590632217ff323fd2b",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2224-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1851885,
+        "sha256": "372bdb0ff08c41ce5dc10b238bc396d794071ac33758410733569a204fadd72e"
+      }
+    },
+    {
+      "exerciseId": "2234",
+      "variant": "male",
+      "key": "2234-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand tall with dumbbells at your sides, palms inward, and a slight bend in the elbows."
+        },
+        {
+          "key": "p2",
+          "caption": "Raise both arms out to shoulder height without shrugging or swinging. Pause briefly, then lower slowly."
+        }
+      ],
+      "prompt": "DUMBBELL STANDING LATERAL RAISE. TWOequalcells sidebyside SAME FRONTthreequartercamera. MaleTALLfeetHIPWIDTHflat torsoverticalno lean. ONEGRAYDUMBBELLeachHAND palmsIN neutralgripatstart. LEFTstartARMSbysides weightsbesidethighs slightelbowbend. RIGHTraiseBOTH armsOUTSIDES toSHOULDERHEIGHT sameelbowsoft15degrees, upperarmsnearlyhorizontal inSCAPULARplane slightlyforward, dumbbellsnotaboveelbows wristsneutral palmsDOWNatend thumbsneutralnotpouring. SHOULDERSDOWNnoshrug no torsoheave. PrimaryBOTH exposedLATERALDELTOIDSRED only upperarmschestgrayblack. Entireweightsheadfeetframe. Premium detailed adult MALE grayscale anatomical illustration matching original project reference rendering STYLE ONLY, ignore reference pose/red chest. Pure white background soft shadows realistic proportions detailed exposed gray muscle contours. Opaque BLACK tank and mid-thigh shorts fully wrap front sides back seat crotch with seams folds hems. No cutaways transparency or anatomy through fabric. Red over clothing PLAIN UNIFORM SOFT teaching ellipse NO internal fibers rays lobes segmentation, fabric folds retained. ONLY specified primary red no chest. Black shoes. Two coherent arms hands five fingers two legs feet, all equipment body hands feet in each cell generous margins. No text arrows logos.",
+      "inspectionNote": "Real output inspected. Distinct standing lateral raise from weights beside thighs to arms near shoulder height, slight elbow bend and upright steady torso. Deltoids highlighted on exposed shoulders, chest black and clothing opaque. Qualified review needed for neutral wrist/thumb angle, avoiding internal rotation or shrug, exact arm plane, finger grip and lateral-deltoid mapping. Human anatomy review remains pending; no approval or publication.",
+      "canonicalName": "dumbbell standing lateral raise",
+      "styleVersion": "white-v1",
+      "equipment": "dumbbell",
+      "primaryMuscles": [
+        "delts"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Distinct standing lateral raise from weights beside thighs to arms near shoulder height, slight elbow bend and upright steady torso. Deltoids highlighted on exposed shoulders, chest black and clothing opaque. Qualified review needed for neutral wrist/thumb angle, avoiding internal rotation or shrug, exact arm plane, finger grip and lateral-deltoid mapping. Human anatomy review remains pending; no approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2234-male-anatomical-white-v1-p1-5f92dbcea6e3.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 22224,
+          "sha256": "5f92dbcea6e3336e1cf2e7f900dff78ee6636a669eb33f7edfaafcfa93324d13"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/2234-male-anatomical-white-v1-p2-f8ceb12b5f1a.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 23268,
+          "sha256": "f8ceb12b5f1af5ca10ae8b7ff1e0886ea178542af8ca32c529da7c6a3eeddace"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-270.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2234-male-anatomical-white-v1-thumb-283708c83aca.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2594,
+        "sha256": "283708c83acac9b946b2e264a9747bec6d2a558ab0a875755e9fb33255aea826"
+      },
+      "processingSignature": "492b0e7f2888507f9cbe0352620ced4e7989769d06aff8b6c1bfeb58d9e76bcb",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2234-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1326802,
+        "sha256": "147cd8266fb490d36581e5601da0c584e6f5d70a09d66f328b8e8d67d4efc0e0"
+      }
+    },
+    {
+      "exerciseId": "2249",
+      "variant": "male",
+      "key": "2249-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Face a high pulley with a V bar attached. Grip both handles and keep your elbows pinned to your sides."
+        },
+        {
+          "key": "p2",
+          "caption": "Push the bar down until your arms straighten, keeping upper arms still. Squeeze your triceps, then let the bar rise under control."
+        }
+      ],
+      "prompt": "CABLE TRICEPS PUSHDOWN V BAR. TWOequalcells sidebyside SAME SIDEfrontthreequartercamera. GrayCABLETOWER inFRONTmodel LEFTframe withTOPPULLEY ABOVEHEAD. ONE cablefromTOPpulley verticallyDOWNtoCENTERofGRAYVbar twoANGLEDshortgrips thumbsWRAPbothhandsneutralangledgrip. MaleSTANDfeetflat kneesSOFT torsoTALLmodesthinge, BOTHUPPERARMSfixedverticalbySIDES ELBOWSTUCKED. LEFTstartELBOWSbent100degrees barnearLOWERCHEST forearmsjustpastparallel. RIGHTPUSHDOWN elbowsSTRAIGHT nearlylock barnearTHIGHS cabletautLONGER, shouldersfixednotmovingback no wristscurl. PrimaryEXPOSEDBOTH TRICEPS RED backofupperarms only tankblack. FulltowerstackpulleyVbarbodyframe. Premium detailed adult MALE grayscale anatomical illustration matching original project reference rendering STYLE ONLY, ignore reference pose/red chest. Pure white background soft shadows realistic proportions detailed exposed gray muscle contours. Opaque BLACK tank and mid-thigh shorts fully wrap front sides back seat crotch with seams folds hems. No cutaways transparency or anatomy through fabric. Red over clothing PLAIN UNIFORM SOFT teaching ellipse NO internal fibers rays lobes segmentation, fabric folds retained. ONLY specified primary red no chest. Black shoes. Two coherent arms hands five fingers two legs feet, all equipment body hands feet in each cell generous margins. No text arrows logos.",
+      "inspectionNote": "Real output inspected. Two V-bar pushdown positions, high pulley cable taut and attached to bar center, elbows near sides then extended, feet grounded and shoulders steady. Exposed triceps highlight only, full tower and body framed. Qualified review of upper-arm stillness, grip/fingers, elbow lockout, cable/stack linkage and triceps mapping. Human anatomy review remains pending; no approval or publication.",
+      "canonicalName": "cable triceps pushdown (v bar)",
+      "styleVersion": "white-v1",
+      "equipment": "cable",
+      "primaryMuscles": [
+        "triceps"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Two V-bar pushdown positions, high pulley cable taut and attached to bar center, elbows near sides then extended, feet grounded and shoulders steady. Exposed triceps highlight only, full tower and body framed. Qualified review of upper-arm stillness, grip/fingers, elbow lockout, cable/stack linkage and triceps mapping. Human anatomy review remains pending; no approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2249-male-anatomical-white-v1-p1-79f886f299f8.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 38774,
+          "sha256": "79f886f299f890f6c7df7f2b9084263b6049185aae24be4a3f3462c509381b1e"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/2249-male-anatomical-white-v1-p2-d0ccfdb6de30.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 40574,
+          "sha256": "d0ccfdb6de30e360cf6cb1a57bc4aa462a4d964aae0eff13653e6f93ac3a9bf9"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-270.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2249-male-anatomical-white-v1-thumb-a281d6a6878d.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 4278,
+        "sha256": "a281d6a6878d6fbbba67f36467ebe4b9f97340ea019ea48f4923395a3bfe7905"
+      },
+      "processingSignature": "3fa3d3fe7277c1c95a45925314fa3fb8cfedf4c7d9a1a7c20dad571947227b0a",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2249-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1529220,
+        "sha256": "7ea36e0f14d488a7b85429ad386b04854731112a28231a40b702a078a383eaff"
+      }
+    },
+    {
+      "exerciseId": "2265",
+      "variant": "male",
+      "key": "2265-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Sit with your chest against the pad, feet supported and arms extended to grip the handles."
+        },
+        {
+          "key": "p2",
+          "caption": "Drive your elbows back to pull the handles toward your torso and squeeze the shoulder blades. Keep chest contact, then return slowly."
+        }
+      ],
+      "prompt": "LEVER SEATED ROW V2. TWOequalcells sidebyside SAME REAR SIDEthreequartercamera soUPPERBACKvisible. RealisticGRAYplate-loadedROWmachine fixedSEAT paddedCHESTSUPPORT inFRONTofmodelcenter, feetfixedplatform. TwoindependentpivotedLEVERARMS connectedpairedplatehorns withHANDLES infront. MaleCHESTagainstpad BOTHposes spineNEUTRAL. LEFTstartBOTHARMSextended forward grippinghandles palmsINneutralgrip shoulderbladesprotractedslightly. RIGHTPULLHANDLEStowardLOWERRIBS elbowsBENTdrivenBACKbesidetorso shoulderbladessqueeze, chestSTAYSpad torsoNOleanback. Leversrotatearoundfixedpivots machinebaseunchanged. PrimaryUPPERBACK two softuniformREDteachingellipses on intactblacktank betweenSCAPULAE, notlowerlatsnoarmsred. Allmachineplatesbodyfeetframe. Premium detailed adult MALE grayscale anatomical illustration matching original project reference rendering STYLE ONLY, ignore reference pose/red chest. Pure white background soft shadows realistic proportions detailed exposed gray muscle contours. Opaque BLACK tank and mid-thigh shorts fully wrap front sides back seat crotch with seams folds hems. No cutaways transparency or anatomy through fabric. Red over clothing PLAIN UNIFORM SOFT teaching ellipse NO internal fibers rays lobes segmentation, fabric folds retained. ONLY specified primary red no chest. Black shoes. Two coherent arms hands five fingers two legs feet, all equipment body hands feet in each cell generous margins. No text arrows logos.",
+      "inspectionNote": "Real output inspected. Distinct chest-supported lever row positions, arms extended then handles pulled near ribs with elbows back, feet on platform and chest at pad. Upper-back red highlights contain radial muscle-fiber-like lines through tank; block for plain teaching tint on intact fabric. Qualified review of shoulder-blade action, lever pivot/load linkage, grip and chest contact. Human anatomy review remains pending; no approval or publication.",
+      "blockingIssues": [
+        "Radial muscle-fiber-like lines through tank in upper-back overlay; replace with plain teaching tint on intact fabric."
+      ],
+      "canonicalName": "lever seated row v. 2",
+      "styleVersion": "white-v1",
+      "equipment": "leverage machine",
+      "primaryMuscles": [
+        "upper back"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Distinct chest-supported lever row positions, arms extended then handles pulled near ribs with elbows back, feet on platform and chest at pad. Upper-back red highlights contain radial muscle-fiber-like lines through tank; block for plain teaching tint on intact fabric. Qualified review of shoulder-blade action, lever pivot/load linkage, grip and chest contact. Human anatomy review remains pending; no approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2265-male-anatomical-white-v1-p1-d3cbc5542b32.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 49014,
+          "sha256": "d3cbc5542b3239ce8e4eb07eff7e1d3608d1ece4d6076c052346bad41a6686a0"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/2265-male-anatomical-white-v1-p2-2ba15e3f3ae6.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 50320,
+          "sha256": "2ba15e3f3ae63a8130a702a29257c6c94b15db0e936262bb8d00e0d6588d3813"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-270.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2265-male-anatomical-white-v1-thumb-6d4cc37d5a50.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 5358,
+        "sha256": "6d4cc37d5a50eed69ca20f9c4336e157add21114fb9108488bc479b0612605aa"
+      },
+      "processingSignature": "3fcdf5ac53c8dddaa7dbe697aed28928a7087f00b8525b88ea5cc4d297810231",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2265-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1695616,
+        "sha256": "8e9eb41d14b5c24812dfe8e4c73e51d1b6aec3bb13bf589247937ca1ce1c6991"
+      }
+    }
+  ]
+}

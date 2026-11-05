@@ -1,0 +1,344 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "1650",
+      "variant": "male",
+      "key": "1650-male-anatomical-white-v1",
+      "layout": {
+        "columns": 3,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Sit upright on an exercise ball with both feet planted. Hold both dumbbells with palms facing forward."
+        },
+        {
+          "key": "p2",
+          "caption": "Curl the right dumbbell toward your shoulder without moving your upper arm. Lower slowly."
+        },
+        {
+          "key": "p3",
+          "caption": "Curl the left dumbbell while keeping your torso and ball steady. Continue alternating."
+        }
+      ],
+      "prompt": "DUMBBELL ALTERNATING SEATED BICEP CURL ON EXERCISE BALL canonical1650. THREE equal square cells side by side WIDE3:1 landscape front three-quarter camera. Sit upright pelvis supported on SAME large gray spherical stability ball, feet flat wide knees90degrees, torso still ball rests floor. TWO identical dumbbells SUPINATED palms forward/up throughout curl. Upper arms vertical at sides elbows fixed. LEFT START both arms straight down beside ball, palms forward. MIDDLE curl anatomical RIGHT hand viewerLEFT toward RIGHT shoulder, LEFT arm viewerRIGHT stays straight down. RIGHT curl anatomical LEFT hand viewerRIGHT toward LEFT shoulder, RIGHT arm viewerLEFT lowered straight again. CLEAR OPPOSITE leading arms middle/right not duplicate side. No hammer grip no ball deformation or foot lift. Original premium ADULT MALE detailed grayscale anatomical educational illustration. Same full body person camera scale equipment throughout cells. Exposed BICEPS RED only other skin grayscale. Detailed crisp realistic anatomical skin five fingers. Full opaque BLACK tank wraps front sides back and BLACK mid-thigh shorts fully cover front sides back seat crotch intact seams hems folds. No cutaways transparency or anatomical fibers through fabric. Black shoes. Pure WHITE background soft shadows generous12percent margins full head hands both feet whole equipment fit EACH cell uncropped. Original artwork STYLE ONLY ignore pushup pose chest red. No embedded text labels captions arrows extra people.",
+      "inspectionNote": "Real output inspected. Alternating ball-seated dumbbell curl: both lowered, right curl, left curl with visibly opposite lead arms and both feet planted. Qualified review of grip rotation, fingers, ball support and elbow stillness required. Detailed grayscale/red exposed biceps and full opaque tank/shorts retained. Original project artwork rendering style only; no upstream media. Exact prompt and original master saved. Human anatomy review pending; no approval or publication.",
+      "canonicalName": "dumbbell alternating seated bicep curl on exercise ball",
+      "styleVersion": "white-v1",
+      "equipment": "dumbbell",
+      "primaryMuscles": [
+        "biceps"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Alternating ball-seated dumbbell curl: both lowered, right curl, left curl with visibly opposite lead arms and both feet planted. Qualified review of grip rotation, fingers, ball support and elbow stillness required. Detailed grayscale/red exposed biceps and full opaque tank/shorts retained. Original project artwork rendering style only; no upstream media. Exact prompt and original master saved. Human anatomy review pending; no approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/1650-male-anatomical-white-v1-p1-4356b3d7e55c.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 26244,
+          "sha256": "4356b3d7e55c1169c09b9de59d74ff404ef398ad995e91c934b14035da7d0cc3"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/1650-male-anatomical-white-v1-p2-3e7d930f80e5.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 26958,
+          "sha256": "3e7d930f80e54d2717de05470633440055df741a333e3811e009330abe69bad7"
+        },
+        {
+          "pose": "p3",
+          "path": "/workout/illustration-pilot/1650-male-anatomical-white-v1-p3-d5f8d5765143.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 25340,
+          "sha256": "d5f8d57651436892c55896c2d8e65ee98a23fe020fecb7b4bae88e30898359d3"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-221.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/1650-male-anatomical-white-v1-thumb-9266106faa98.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 3678,
+        "sha256": "9266106faa9879edafd1732de1cd4d99ad3be7b15e2a46a432be9a5419fb1dd1"
+      },
+      "processingSignature": "f745940d7c820b53b8f9ce107445fd44afb88a7b5d71b6ae6bd17d46992a2ba1",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1650-male-anatomical-white-v1.png",
+        "width": 2172,
+        "height": 724,
+        "bytes": 1565385,
+        "sha256": "b035194ec9a32867c83ece4e6ab285b447262a804185e89b73664c9d3dfffb26"
+      }
+    },
+    {
+      "exerciseId": "1652",
+      "variant": "male",
+      "key": "1652-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Sit tall on an exercise ball and lift one foot off the ground. Hold both dumbbells palms forward with arms extended."
+        },
+        {
+          "key": "p2",
+          "caption": "Keep the leg raised and curl both dumbbells toward your shoulders. Lower slowly, then repeat with the other leg raised."
+        }
+      ],
+      "prompt": "DUMBBELL BICEP CURL ON EXERCISE BALL WITH LEG RAISED canonical1652. TWO equal square cells side by side WIDE2:1 landscape FRONT three-quarter camera. Sit upright pelvis centered supported on large gray spherical stability ball firmly floor. LEFT foot flat floor knee90degrees supports balance. RIGHT leg held lifted forward with knee slightly bent heel clearly20cm ABOVE floor entire BOTH poses; SAME raised leg throughout. TWO identical dumbbells underhand palms forward/up. Upper arms vertical pinned at sides. LEFT START both elbows nearly straight dumbbells hang beside ball. RIGHT FINISH curl BOTH dumbbells toward corresponding shoulders elbows fixed torso still. Right leg remains elevated not resting on ball or floor. Both biceps red only. Original premium ADULT MALE detailed grayscale anatomical educational illustration. Same full body person camera scale equipment throughout cells. Exposed BICEPS RED only other skin grayscale. Detailed crisp realistic anatomical skin five fingers. Full opaque BLACK tank wraps front sides back and BLACK mid-thigh shorts fully cover front sides back seat crotch intact seams hems folds. No cutaways transparency or anatomical fibers through fabric. Black shoes. Pure WHITE background soft shadows generous12percent margins full head hands both feet whole equipment fit EACH cell uncropped. Original artwork STYLE ONLY ignore pushup pose chest red. No embedded text labels captions arrows extra people.",
+      "inspectionNote": "Real output inspected. Ball-seated bilateral curl with same leg raised throughout and opposite foot planted. Qualified review of balance, raised-leg clearance, pelvis support, wrist alignment and elbow stability required. Detailed grayscale/red exposed biceps and full opaque tank/shorts retained. Original project artwork rendering style only; no upstream media. Exact prompt and original master saved. Human anatomy review pending; no approval or publication.",
+      "canonicalName": "dumbbell bicep curl on exercise ball with leg raised",
+      "styleVersion": "white-v1",
+      "equipment": "dumbbell",
+      "primaryMuscles": [
+        "biceps"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Ball-seated bilateral curl with same leg raised throughout and opposite foot planted. Qualified review of balance, raised-leg clearance, pelvis support, wrist alignment and elbow stability required. Detailed grayscale/red exposed biceps and full opaque tank/shorts retained. Original project artwork rendering style only; no upstream media. Exact prompt and original master saved. Human anatomy review pending; no approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/1652-male-anatomical-white-v1-p1-60f8269230b2.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 37064,
+          "sha256": "60f8269230b2c4941cb86d40f0f57da59c4969151aa4fbc660a3398daa569d3e"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/1652-male-anatomical-white-v1-p2-1776735c417c.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 35826,
+          "sha256": "1776735c417c658dc6f9e2241edac5dae020b681fe140e4d7abc4e2121ec11e1"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-221.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/1652-male-anatomical-white-v1-thumb-ba911a436e2f.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 3666,
+        "sha256": "ba911a436e2ffc7f8ab59ce90c8b1be64413a507bffb0210f404b0ab1d7a05f6"
+      },
+      "processingSignature": "4737f8ffc45a732338f01d234c91b3b7857f8fa690b7975a0fdef1e57c67b9af",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1652-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1525346,
+        "sha256": "f1e0e75b658e121835de29457542861f363e9ddc633058b216a33ce95da5e0b3"
+      }
+    },
+    {
+      "exerciseId": "1654",
+      "variant": "male",
+      "key": "1654-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand tall holding both dumbbells with an overhand grip. Keep your upper arms close to your torso."
+        },
+        {
+          "key": "p2",
+          "caption": "Curl the dumbbells without turning your palms upward. Keep wrists straight, then lower slowly."
+        }
+      ],
+      "prompt": "DUMBBELL BICEPS CURL REVERSE canonical1654. TWO equal square cells WIDE2:1 landscape FRONT three-quarter camera. Standing tall feet flat shoulder width knees soft torso still. TWO identical dumbbells PRONATED OVERHAND grip throughout: LEFT START palms face BACKWARD knuckles forward arms straight beside hips; RIGHT FINISH palms face DOWN toward floor backs of hands face UP, both elbows flex90to110degrees hands near front shoulders forearms rising. NO supination no hammer grip. Upper arms vertical pinned beside torso both poses wrists straight not curled. Dumbbell shafts run left-right horizontally same orientation both. Exposed biceps red only forearms grayscale. Original premium ADULT MALE detailed grayscale anatomical educational illustration. Same full body person camera scale equipment throughout cells. Exposed BICEPS RED only other skin grayscale. Detailed crisp realistic anatomical skin five fingers. Full opaque BLACK tank wraps front sides back and BLACK mid-thigh shorts fully cover front sides back seat crotch intact seams hems folds. No cutaways transparency or anatomical fibers through fabric. Black shoes. Pure WHITE background soft shadows generous12percent margins full head hands both feet whole equipment fit EACH cell uncropped. Original artwork STYLE ONLY ignore pushup pose chest red. No embedded text labels captions arrows extra people.",
+      "inspectionNote": "Real output inspected. Standing reverse dumbbell curl shows pronated overhand grip lowered to flexed elbows without palm-up rotation. Qualified review of exact wrist orientation, forearm anatomy and elbow range required. Detailed grayscale/red exposed biceps and full opaque tank/shorts retained. Original project artwork rendering style only; no upstream media. Exact prompt and original master saved. Human anatomy review pending; no approval or publication.",
+      "canonicalName": "dumbbell biceps curl reverse",
+      "styleVersion": "white-v1",
+      "equipment": "dumbbell",
+      "primaryMuscles": [
+        "biceps"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Standing reverse dumbbell curl shows pronated overhand grip lowered to flexed elbows without palm-up rotation. Qualified review of exact wrist orientation, forearm anatomy and elbow range required. Detailed grayscale/red exposed biceps and full opaque tank/shorts retained. Original project artwork rendering style only; no upstream media. Exact prompt and original master saved. Human anatomy review pending; no approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/1654-male-anatomical-white-v1-p1-633aace20ec7.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 25870,
+          "sha256": "633aace20ec799da63f0ca3d81261f22d76b3899f47a116721e737e960d8da70"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/1654-male-anatomical-white-v1-p2-f52068b44891.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 24008,
+          "sha256": "f52068b44891b6f04020709b1f827cff8778b9a8c5ef53c435b807088995b22f"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-221.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/1654-male-anatomical-white-v1-thumb-59b0cae23c61.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2792,
+        "sha256": "59b0cae23c61a882b9920779a0153a423f51dd6634c541ac276690f6659166d3"
+      },
+      "processingSignature": "0aa9618025063104e381a00d5c3fbde164cf478a6e7c99091a86ed74bbbd70dd",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1654-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1357253,
+        "sha256": "ae9abe7fdba89ea55cb4cf7ec1817c854c4474b9572f331947fd52d7603fc575"
+      }
+    },
+    {
+      "exerciseId": "1658",
+      "variant": "male",
+      "key": "1658-male-anatomical-white-v1",
+      "layout": {
+        "columns": 3,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand with feet shoulder width and hold both dumbbells palms forward."
+        },
+        {
+          "key": "p2",
+          "caption": "Step forward with the right leg into a controlled lunge while curling both dumbbells. Return to standing and lower the weights."
+        },
+        {
+          "key": "p3",
+          "caption": "Repeat with the left leg forward. Keep your torso tall and alternate sides."
+        }
+      ],
+      "prompt": "DUMBBELL LUNGE WITH BICEP CURL canonical1658. THREE equal square cells side by side WIDE3:1 landscape FRONT three-quarter camera fixed scale. TWO dumbbells underhand palms forward/up, biceps red only legs grayscale. LEFT START standing feet shoulder width both arms straight down at sides. MIDDLE RIGHT FORWARD LUNGE anatomical RIGHT leg viewerLEFT steps FORWARD toward camera, right entire sole flat floor knee90degrees aligned foot, LEFT leg viewerRIGHT extended behind with rear heel raised left knee just above floor. BOTH dumbbells curled near corresponding shoulders elbows beside torso. RIGHT LEFT FORWARD LUNGE anatomical LEFT leg viewerRIGHT now forward same90degree knee full sole, RIGHT leg viewerLEFT behind rear heel up knee hovering; both dumbbells curled same. CLEAR OPPOSITE leading legs in middle/right, not duplicates. Torso tall neutral no twisting, both hips knees fit full cell, weights stay underhand. Return-standing phase described outside image, no arrows. Original premium ADULT MALE detailed grayscale anatomical educational illustration. Same full body person camera scale equipment throughout cells. Exposed BICEPS RED only other skin grayscale. Detailed crisp realistic anatomical skin five fingers. Full opaque BLACK tank wraps front sides back and BLACK mid-thigh shorts fully cover front sides back seat crotch intact seams hems folds. No cutaways transparency or anatomical fibers through fabric. Black shoes. Pure WHITE background soft shadows generous12percent margins full head hands both feet whole equipment fit EACH cell uncropped. Original artwork STYLE ONLY ignore pushup pose chest red. No embedded text labels captions arrows extra people.",
+      "inspectionNote": "Real output inspected. Lunge with curl shows standing start and distinct right/left forward legs with bilateral curled dumbbells. Qualified review of knee tracking, rear knee depth, foot loading, torso stillness and hand anatomy required. Detailed grayscale/red exposed biceps and full opaque tank/shorts retained. Original project artwork rendering style only; no upstream media. Exact prompt and original master saved. Human anatomy review pending; no approval or publication.",
+      "canonicalName": "dumbbell lunge with bicep curl",
+      "styleVersion": "white-v1",
+      "equipment": "dumbbell",
+      "primaryMuscles": [
+        "biceps"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Lunge with curl shows standing start and distinct right/left forward legs with bilateral curled dumbbells. Qualified review of knee tracking, rear knee depth, foot loading, torso stillness and hand anatomy required. Detailed grayscale/red exposed biceps and full opaque tank/shorts retained. Original project artwork rendering style only; no upstream media. Exact prompt and original master saved. Human anatomy review pending; no approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/1658-male-anatomical-white-v1-p1-35d4f4db1ccf.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 19714,
+          "sha256": "35d4f4db1ccf401cd5dd3bde11cbbf7403d414077f648a23917eb4064b76f47a"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/1658-male-anatomical-white-v1-p2-51236d2e38ac.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 21556,
+          "sha256": "51236d2e38ac2b3d69c6528319c37d9078519943b84eb54071eae7ab411c864e"
+        },
+        {
+          "pose": "p3",
+          "path": "/workout/illustration-pilot/1658-male-anatomical-white-v1-p3-ffde1b670537.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 19260,
+          "sha256": "ffde1b670537a801baa13dad139486eb957630570de5fcbfff2efc9547c08fad"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-221.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/1658-male-anatomical-white-v1-thumb-53d8c2e95b46.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2766,
+        "sha256": "53d8c2e95b46007c6cdeee101ee20a2d7e8242b9e193ef536bd5103c0b4b4d1d"
+      },
+      "processingSignature": "9460060c5ac1500577dc503ee9aee90b688fe14ee923f5830280d6d5a9567143",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1658-male-anatomical-white-v1.png",
+        "width": 2172,
+        "height": 724,
+        "bytes": 1374603,
+        "sha256": "bbc79a4e242e0d73c777b1cdfd332aaff4f79d84906a7aa9409b463532ef6639"
+      }
+    }
+  ]
+}

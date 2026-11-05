@@ -1,0 +1,347 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "3339",
+      "variant": "male",
+      "key": "3339-male-anatomical-white-v1",
+      "prompt": "Three equal panels, same elevated front view. One-arm dumbbell forward lunge. Same RIGHT hand holds ONE dumbbell beside right hip throughout; left hand rests on hip. Panel 1 stand tall feet hip width. Panel 2 LEFT foot forward, left knee bent about 90 over ankle, RIGHT knee near floor, right heel raised. Panel 3 RIGHT foot forward, right knee bent about 90 over ankle, LEFT knee near floor, left heel raised. Show clearly opposite leading legs with upright torso and fixed right-hand load. Primary QUADRICEPS red on exposed front thighs, small plain red wash over intact front shorts only; all torso gray/black. Premium detailed male grayscale anatomical exercise illustration on pure white with soft shadows. Match original project reference for rendering style only. Black opaque tank and mid-thigh shorts cover front, sides, back, seat and crotch, with seams and fabric folds. Red only on primary muscles: on covered areas use a small plain uniform wash on intact fabric, never anatomical fibers, lobes, segments or cutaways. Each figure has one head, two arms/hands and two legs/feet. Consistent camera, model and scale. Full body and equipment in frame. No text, arrows or logos.",
+      "layout": {
+        "columns": 3,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand tall with one dumbbell at side."
+        },
+        {
+          "key": "p2",
+          "caption": "Lunge forward with left leg, then return."
+        },
+        {
+          "key": "p3",
+          "caption": "Lunge forward with right leg; alternate and switch holding hand halfway."
+        }
+      ],
+      "inspectionNote": "Real output inspected. One-hand load stays consistent, standing and two lunges visible with opaque clothes. Both lunge panels appear to repeat same front leg rather than unambiguous alternation; correction required. Qualified knee tracking and clothing overlay review pending. Human anatomy review pending. No approval or publication.",
+      "blockingIssues": [
+        "Make final lunge clearly use opposite leading leg rather than repeating same-leg pose."
+      ],
+      "canonicalName": "dumbbell one arm lunge",
+      "styleVersion": "white-v1",
+      "equipment": "dumbbell",
+      "primaryMuscles": [
+        "quads"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. One-hand load stays consistent, standing and two lunges visible with opaque clothes. Both lunge panels appear to repeat same front leg rather than unambiguous alternation; correction required. Qualified knee tracking and clothing overlay review pending. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/3339-male-anatomical-white-v1-p1-28f513f4eab0.webp",
+          "width": 591,
+          "height": 887,
+          "bytes": 23950,
+          "sha256": "28f513f4eab0db3123284c1d96b9017246243edf755080945b9fea5f78226fa9"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/3339-male-anatomical-white-v1-p2-30e15ff81f07.webp",
+          "width": 592,
+          "height": 887,
+          "bytes": 23728,
+          "sha256": "30e15ff81f0700e73c539d69e5fec32d0fffe8732f505632fe575ff20bab5c2b"
+        },
+        {
+          "pose": "p3",
+          "path": "/workout/illustration-pilot/3339-male-anatomical-white-v1-p3-8fe89cc2a57d.webp",
+          "width": 591,
+          "height": 887,
+          "bytes": 23830,
+          "sha256": "8fe89cc2a57d4ca05510712caa64eb67ee047b6e7f289971fcd7a07b4ac5727b"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-348.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/3339-male-anatomical-white-v1-thumb-719bf14b2530.webp",
+        "width": 160,
+        "height": 240,
+        "bytes": 2714,
+        "sha256": "719bf14b2530b6b7e640db49df974a81d232cb5f3ea09f069de634e35420df9e"
+      },
+      "processingSignature": "81bff9ca155fdefb85eb4b8bc14b6df505f062294bffa8271ff344ff7bc21fb1",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/3339-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1503201,
+        "sha256": "2f04b8b198053072769e6504b051b19ab90258f0f8db24b3bbdb575fd8dcd5f7"
+      }
+    },
+    {
+      "exerciseId": "3341",
+      "variant": "male",
+      "key": "3341-male-anatomical-white-v1",
+      "prompt": "Three equal panels same elevated front view. Two-dumbbell forward lunge. One dumbbell in EACH hand hanging beside hips in every panel. Panel 1 stand tall feet hip width. Panel 2 LEFT foot steps forward, LEFT knee about 90 over ankle, RIGHT knee nearly floor and right heel lifted. Panel 3 RIGHT foot forward, RIGHT knee about 90 over ankle, LEFT knee nearly floor and left heel lifted. Clearly opposite front legs, torso upright. Primary QUADRICEPS red on exposed front thighs and small plain wash intact front shorts only; torso black/gray. Premium detailed male grayscale anatomical exercise illustration on pure white with soft shadows. Match original project reference for rendering style only. Black opaque tank and mid-thigh shorts cover front, sides, back, seat and crotch, with seams and fabric folds. Red only on primary muscles: on covered areas use a small plain uniform wash on intact fabric, never anatomical fibers, lobes, segments or cutaways. Each figure has one head, two arms/hands and two legs/feet. Consistent camera, model and scale. Full body and equipment in frame. No text, arrows or logos.",
+      "layout": {
+        "columns": 3,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand tall holding dumbbells at sides."
+        },
+        {
+          "key": "p2",
+          "caption": "Lunge forward with left leg, then push back."
+        },
+        {
+          "key": "p3",
+          "caption": "Repeat with right leg; alternate under control."
+        }
+      ],
+      "inspectionNote": "Real output inspected. Standing then clearly opposite leading-leg lunges, dumbbells at both sides, upright torso, opaque clothes and plain front-thigh wash. Qualified knee/ankle tracking, rear heel contact and quadriceps highlight coverage review pending. Human anatomy review pending. No approval or publication.",
+      "canonicalName": "dumbbell lunge v. 2",
+      "styleVersion": "white-v1",
+      "equipment": "dumbbell",
+      "primaryMuscles": [
+        "quads"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Standing then clearly opposite leading-leg lunges, dumbbells at both sides, upright torso, opaque clothes and plain front-thigh wash. Qualified knee/ankle tracking, rear heel contact and quadriceps highlight coverage review pending. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/3341-male-anatomical-white-v1-p1-116044d76317.webp",
+          "width": 591,
+          "height": 887,
+          "bytes": 22992,
+          "sha256": "116044d7631756a41c8b24f3d53562c86c756950a7ea0bd26b62a1e086d166d8"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/3341-male-anatomical-white-v1-p2-92d451d1a8dc.webp",
+          "width": 592,
+          "height": 887,
+          "bytes": 22960,
+          "sha256": "92d451d1a8dc39a065a96233e03d5e43a0c89df3149755749c8586c08588015a"
+        },
+        {
+          "pose": "p3",
+          "path": "/workout/illustration-pilot/3341-male-anatomical-white-v1-p3-1c854e50b964.webp",
+          "width": 591,
+          "height": 887,
+          "bytes": 22712,
+          "sha256": "1c854e50b9644f3ead66dcdfef080c6afcdaa6bbfb752c03706998db2f54241b"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-348.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/3341-male-anatomical-white-v1-thumb-10fa2e2d2b10.webp",
+        "width": 160,
+        "height": 240,
+        "bytes": 2624,
+        "sha256": "10fa2e2d2b10ed68e1a2c6361158ad419049a8286197eccf7fe067c5f83e98a3"
+      },
+      "processingSignature": "597d9f9994ea02d1800584742b044784de4175130a28be0fadaa90b074491cd3",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/3341-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1487620,
+        "sha256": "798ba3974edecebce327f7be8159e1b7e44eeba6f883fd9b9138d93c18c2b230"
+      }
+    },
+    {
+      "exerciseId": "3342",
+      "variant": "male",
+      "key": "3342-male-anatomical-white-v1",
+      "prompt": "Two equal panels same front three-quarter camera. Cable Y raise using dual LOW pulleys at left/right bottom of cable frame. Each hand holds OPPOSITE pulley handle so cables cross in front of body. Panel 1 stand with slight torso forward lean, hands low crossed near front hips, arms long elbows soft, feet shoulder width. Panel 2 raise both almost-straight arms up and out into Y above shoulder level, thumbs UP, shoulders down; hands still hold opposite cables visibly attached to low pulleys. Same machine and feet. Primary DELTOIDS red on exposed shoulder caps only, tank remains black. Premium detailed male grayscale anatomical exercise illustration on pure white with soft shadows. Match original project reference for rendering style only. Black opaque tank and mid-thigh shorts cover front, sides, back, seat and crotch, with seams and fabric folds. Red only on primary muscles: on covered areas use a small plain uniform wash on intact fabric, never anatomical fibers, lobes, segments or cutaways. Each figure has one head, two arms/hands and two legs/feet. Consistent camera, model and scale. Full body and equipment in frame. No text, arrows or logos.",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hold opposite low cable handles with arms crossed in front."
+        },
+        {
+          "key": "p2",
+          "caption": "Raise arms up and out into Y with thumbs up; lower slowly."
+        }
+      ],
+      "inspectionNote": "Real output inspected. Low dual pulleys, crossed cable routing and Y finish with thumbs up visible. Opaque clothes and deltoid-only highlights. Qualified low-hand crossing, cable-to-handle continuity, shoulder range and torso lean review pending. Human anatomy review pending. No approval or publication.",
+      "canonicalName": "cable y raise",
+      "styleVersion": "white-v1",
+      "equipment": "cable",
+      "primaryMuscles": [
+        "delts"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Low dual pulleys, crossed cable routing and Y finish with thumbs up visible. Opaque clothes and deltoid-only highlights. Qualified low-hand crossing, cable-to-handle continuity, shoulder range and torso lean review pending. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/3342-male-anatomical-white-v1-p1-5b040fee7786.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 40740,
+          "sha256": "5b040fee7786269b6da0e563329c353470652022d396e0f87b465dd61b2192fa"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/3342-male-anatomical-white-v1-p2-71513b5179ff.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 46314,
+          "sha256": "71513b5179ff64c3090f0e322bcfb5cf9597d42dfe3f073730b96179ee505e34"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-348.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/3342-male-anatomical-white-v1-thumb-9badb846a96c.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 4728,
+        "sha256": "9badb846a96c9f4bb1419edb1f13babd4c1d48334affad1a58a57bb972d4520d"
+      },
+      "processingSignature": "4739a440a143586736fb9713cde1bb02b4bda44598032b83faf50487371518e2",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/3342-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1557713,
+        "sha256": "3d38d639cb3151ae95eee7eef52ca71ce1d4722d96b072b73b9d943638343753"
+      }
+    },
+    {
+      "exerciseId": "3343",
+      "variant": "male",
+      "key": "3343-male-anatomical-white-v1",
+      "prompt": "Two equal panels same front three-quarter view. Seated machine lateral raise on realistic guided lever machine. Back supported upright, both feet flat, seat adjusted so shoulders align with machine pivots. BOTH elbows bent about 90 and outer upper arms rest against padded lever rollers just above elbows; hands hold short handles. Panel 1 upper arms low near sides, rollers low. Panel 2 BOTH upper arms raised out sideways to shoulder height with same bent elbows and pad contacts; machine levers rotate around shoulder-height pivots, no extra rods through body. Primary exposed lateral DELTOIDS red only; clothes black. Premium detailed male grayscale anatomical exercise illustration on pure white with soft shadows. Match original project reference for rendering style only. Black opaque tank and mid-thigh shorts cover front, sides, back, seat and crotch, with seams and fabric folds. Red only on primary muscles: on covered areas use a small plain uniform wash on intact fabric, never anatomical fibers, lobes, segments or cutaways. Each figure has one head, two arms/hands and two legs/feet. Consistent camera, model and scale. Full body and equipment in frame. No text, arrows or logos.",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Sit upright with arms against pads and shoulders aligned to pivots."
+        },
+        {
+          "key": "p2",
+          "caption": "Raise upper arms sideways to shoulder height; lower under control."
+        }
+      ],
+      "inspectionNote": "Real output inspected. Seated guided lateral raise low and shoulder-height phases, upper-arm pads, bent elbows, planted feet and opaque clothes. Deltoid-only highlights. Qualified machine pivot/linkage, pad contact and hand anatomy review pending. Human anatomy review pending. No approval or publication.",
+      "canonicalName": "lever lateral raise v. 2",
+      "styleVersion": "white-v1",
+      "equipment": "leverage machine",
+      "primaryMuscles": [
+        "delts"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Seated guided lateral raise low and shoulder-height phases, upper-arm pads, bent elbows, planted feet and opaque clothes. Deltoid-only highlights. Qualified machine pivot/linkage, pad contact and hand anatomy review pending. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/3343-male-anatomical-white-v1-p1-948159a4fe9c.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 48452,
+          "sha256": "948159a4fe9c2fbcecc7f517d5521d08a6fb467d02cf3b0fec0a430715b92a09"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/3343-male-anatomical-white-v1-p2-da16bbd41a52.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 48424,
+          "sha256": "da16bbd41a52a0d81b579ad00125acedcfc51e11217fa1f4e7797e7cb7deea1f"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-348.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/3343-male-anatomical-white-v1-thumb-0b6b81c2ddb3.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 5570,
+        "sha256": "0b6b81c2ddb3e837327a7c5d99bff6c6ca8c27d5ad83488c00de00f342c7362a"
+      },
+      "processingSignature": "b293f6be7c14de0a3b924d53cf98104f3ca97371bbad7a65574c524152c6e3ea",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/3343-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1666980,
+        "sha256": "e39d29934d092b4123f2b45c73f3206169fa83523a531045f9bc1b8f705d39ec"
+      }
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "batch": 350,
+  "runId": "bc9d8e59-ac5d-44a6-8b8d-5e84fe6d8c67",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "trigger": "2026-11-04T12:28:32.497Z",
+  "purpose": "batch350 scheduled male continuation",
+  "started": "2026-11-04T12:28:56.868906+00:00",
+  "completedAt": "2026-11-04T12:35:34.122106+00:00",
+  "actualToolName": "image_gen__imagegen",
+  "calls": 4,
+  "newCandidateSets": 4,
+  "exerciseIds": [
+    "3350",
+    "3352",
+    "3353",
+    "3354"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1258,
+    "remainingVariants": 10006,
+    "approvedVariants": 0,
+    "blockedVariants": 473,
+    "knownPoseImages": 2471,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 885,
+      "remainingVariants": 4747,
+      "blockedVariants": 354
+    }
+  },
+  "reviewNotes": {
+    "3350": "Low cable chest handle and side step visible, but stance faces toward stack instead of clearly side-on; red wash appears on straight-leg-side hip rather than loaded bent-leg glute. Opaque clothing. Correction required.",
+    "3352": "Kneeling hinge then tall kneeling with low rear cable and rope between legs, opaque shorts/plain glute wash. Qualified hidden cable routing, hip hinge depth, knee contact and neck alignment review pending.",
+    "3353": "Single-arm high-pulley overhead extension with split stance and triceps-only highlight. Upper arm shifts forward between bent and extended poses instead of staying fixed; correction flagged. Opaque clothing; qualified grip and elbow review pending.",
+    "3354": "Low front cable chest handle standing and deep squat, heels grounded. Red anatomical quad details appear through shorts near front hem in squat, requiring correction; qualified depth, knees and grip review pending."
+  },
+  "blockingIssues": {
+    "3350": [
+      "Show torso clearly sideways to stack and bent-leg-side loaded glute highlight consistently."
+    ],
+    "3353": [
+      "Keep upper arm fixed at same forward/upward angle while only elbow extends."
+    ],
+    "3354": [
+      "Preserve fully opaque front shorts with clear hems and plain red wash, removing anatomical quad pattern through fabric."
+    ]
+  },
+  "deferred": {
+    "3351": "Cable lunge pulley height and facing direction unspecified."
+  },
+  "tests": 7,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "workerSyncResult": {
+    "statuses": {
+      "generated": 1258,
+      "pending": 10006
+    },
+    "remaining": 10006,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 1919681848
+  },
+  "publicationIndexUnchanged": true
+}

@@ -1,0 +1,64 @@
+{
+  "batch": 472,
+  "runId": "6b270245-6408-4abd-89f6-7675458805da",
+  "triggerTimestamp": "2026-11-05T01:54:05.411Z",
+  "builtInImageGenAvailable": true,
+  "generatedIds": [
+    "5983",
+    "6035",
+    "6077",
+    "6097"
+  ],
+  "coverageAfter": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1678,
+    "remainingVariants": 9586,
+    "approvedVariants": 0,
+    "blockedVariants": 602,
+    "knownPoseImages": 3398,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 1305,
+      "remainingVariants": 4327,
+      "blockedVariants": 483
+    }
+  },
+  "paidWorker": {
+    "statuses": {
+      "generated": 1678,
+      "pending": 9586
+    },
+    "remaining": 9586,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 2529887748
+  },
+  "pipelineTests": "8 passed, 0 failed",
+  "approvedIndexUnchanged": true,
+  "existingUserApprovalsPreserved": 1306,
+  "anatomyReview": "pending",
+  "publication": "none",
+  "blocked": {
+    "5983": [
+      "Upward-dog step rests thighs on floor instead of supporting lifted thighs on hands and tops of feet."
+    ],
+    "6077": [
+      "Behind-head halo step lacks clear maintained two-hand bottle contact and does not show bottle passing behind the head."
+    ],
+    "6097": [
+      "Second and third panels repeat the same trailing leg; trailing toe remains grounded rather than showing alternating back kicks."
+    ]
+  }
+}

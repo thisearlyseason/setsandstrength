@@ -1,0 +1,37 @@
+{
+  "batch": 34,
+  "trigger": "2026-11-01T07:53:12.430Z",
+  "completedAt": "2026-11-01T08:01:04.001739+00:00",
+  "tool": "image_gen.imagegen",
+  "newCandidateSets": 4,
+  "generationCalls": 4,
+  "exerciseIds": [
+    "0091",
+    "1162"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 130,
+    "remainingVariants": 11134,
+    "approvedVariants": 0,
+    "blockedVariants": 53,
+    "knownPoseImages": 258,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "All pending, none published. Seated and standing barbell overhead presses visually inspected for paired equipment, opaque garments, low/overhead poses and planted feet. Male seated low bar near chin rather than collarbone flagged in notes. Qualified bar path, alignment, range and delt mapping review remains mandatory.",
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 212678302
+}

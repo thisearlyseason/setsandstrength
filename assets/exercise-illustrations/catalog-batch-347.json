@@ -1,0 +1,317 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "3336",
+      "variant": "male",
+      "key": "3336-male-anatomical-white-v1",
+      "prompt": "DUMBBELL VUP TWOequalpanels SIDEcamera headLEFT feetRIGHT. ONEsmallDBheldhorizontalwithBOTHhands grippingends allposes. LEFTSTART liesFLATbackheadfloor legsSTRAIGHTTOGETHER heelsfloor, BOTHarmsSTRAIGHToverhead towardLEFT belljustabovefloor BEYONDhead. RIGHTVUP balanceONSEAT hipsfloor torsoANDlegsraised formV BOTHlegsSTRAIGHTTOGETHER45degrees, BOTHarmsreachforward DBnearSHINS notknees, headneckalignedwithtorso. No bench noextralegs. PrimaryABSplainuniformredwash intactblackabdomenONLY. Premium detailed adult MALE grayscale anatomy illustration pureWHITE background softshadows detailed exposedgraymusculature realisticproportions. Originalprojectreference STYLEONLY not pose/equipment. OPAQUEBLACKtankandmidthighshorts fullywrapfrontsidesbackseatcrotch seamsfoldshems. Coveredredhighlight SMALLPLAINUNIFORMwash onintactfabric NO fibers/lobes/segments/cutaways/transparency. Exactlyoneheadtwoarms/twohands/twolegs/twofeetperfigure. Same modelcamera scale fullbodyequipmentinframe no textarrowslogos. ",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Lie flat with straight legs and dumbbell held overhead in both hands."
+        },
+        {
+          "key": "p2",
+          "caption": "Raise torso and legs into a V, bringing dumbbell near shins; lower slowly."
+        }
+      ],
+      "inspectionNote": "Real output inspected. Flat overhead start and V-up with two-hand dumbbell visible. Clothing is fully red rather than black with localized abdominal highlight; needs style/muscle mapping correction. Qualified balance and neck alignment review pending. Human anatomy review pending. No approval or publication.",
+      "blockingIssues": [
+        "Restore opaque black tank/shorts; use only localized plain abdominal red highlight."
+      ],
+      "canonicalName": "dumbbell v up",
+      "styleVersion": "white-v1",
+      "equipment": "dumbbell",
+      "primaryMuscles": [
+        "abs"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Flat overhead start and V-up with two-hand dumbbell visible. Clothing is fully red rather than black with localized abdominal highlight; needs style/muscle mapping correction. Qualified balance and neck alignment review pending. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/3336-male-anatomical-white-v1-p1-cc8c96001202.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 17676,
+          "sha256": "cc8c96001202667389433473e6036ec69038cf24589485560ce5c0d7622beb4b"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/3336-male-anatomical-white-v1-p2-4c09635a7ef6.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 27646,
+          "sha256": "4c09635a7ef69a26959ff592a4e14b09d8d70c5bc1e4081b568198e5ba8690ae"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-347.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/3336-male-anatomical-white-v1-thumb-ed080e199627.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 1864,
+        "sha256": "ed080e199627780ec07cb45ccad1c93323b0c8673a856d1d91393699389919f8"
+      },
+      "processingSignature": "d5021d5962a8b5f8b3797756065b3012590c4fdb3bc200bfe28defefff20586f",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/3336-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1267506,
+        "sha256": "519242bcd3e14f764d065475a55e26cbdea8a28ca9a1d3e152c07321b2f15f7c"
+      }
+    },
+    {
+      "exerciseId": "3337",
+      "variant": "male",
+      "key": "3337-male-anatomical-white-v1",
+      "prompt": "WEIGHTED SIDE BRIDGE STATIC HOLD ONEfigure FRONT-SIDEview headLEFT feetRIGHT. LieonLEFTside LEFTFOREARMflatfloor elbowdirectlyUNDERLEFTshoulder forearmperpendiculartorso. LegsSTRAIGHTSTACKED RIGHTfootonLEFTfoot LEFTouterfootedgefloor, HIPSRAISED bodyHEADHIPHEELstraight. RIGHTHAND steadiesONEdumbbellhorizontalONRIGHTTOPHIP intactshorts, NOTheldoverhead. ONLYleftforearmandouterleftfootfloor NO hipfloor no bench. PrimaryABSsmallPLAINuniformredwash leftlateralabdomenintacttankONLY. Premium detailed adult MALE grayscale anatomy illustration pureWHITE background softshadows detailed exposedgraymusculature realisticproportions. Originalprojectreference STYLEONLY not pose/equipment. OPAQUEBLACKtankandmidthighshorts fullywrapfrontsidesbackseatcrotch seamsfoldshems. Coveredredhighlight SMALLPLAINUNIFORMwash onintactfabric NO fibers/lobes/segments/cutaways/transparency. Exactlyoneheadtwoarms/twohands/twolegs/twofeetperfigure. Same modelcamera scale fullbodyequipmentinframe no textarrowslogos. ",
+      "layout": {
+        "columns": 1,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hold left forearm side plank with dumbbell steadied on top hip; lower and repeat on other side."
+        }
+      ],
+      "inspectionNote": "Real output inspected. Forearm side bridge with stacked legs and dumbbell steadied on top hip, opaque shorts. Oblique fiber-like red anatomy through tank needs plain-wash correction. Qualified elbow-under-shoulder alignment, hips and grip review pending. Human anatomy review pending. No approval or publication.",
+      "blockingIssues": [
+        "Replace oblique fiber-like red anatomy through tank with plain uniform wash on intact fabric."
+      ],
+      "canonicalName": "dumbbell side bridge",
+      "styleVersion": "white-v1",
+      "equipment": "dumbbell",
+      "primaryMuscles": [
+        "abs"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Forearm side bridge with stacked legs and dumbbell steadied on top hip, opaque shorts. Oblique fiber-like red anatomy through tank needs plain-wash correction. Qualified elbow-under-shoulder alignment, hips and grip review pending. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/3337-male-anatomical-white-v1-p1-16fceb7e1977.webp",
+          "width": 1200,
+          "height": 600,
+          "bytes": 34258,
+          "sha256": "16fceb7e1977978333e941c5d1fb3a8aa65a59a507281271179e590cedc73baf"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-347.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/3337-male-anatomical-white-v1-thumb-a912944e5ead.webp",
+        "width": 240,
+        "height": 120,
+        "bytes": 2506,
+        "sha256": "a912944e5eadd13b1aedd29f4dadeda71e49b21fd0eaa0b144ffc2bfd3bd4c66"
+      },
+      "processingSignature": "f8fb8b25bc09d044e5700c8d43de97da7715b5e67f70de326d0fe7fa991cd701",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/3337-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1549390,
+        "sha256": "6d142f83229f37bffde61b3d9d52484f854787c1a58000341fa62e2e232a4c32"
+      }
+    },
+    {
+      "exerciseId": "3338",
+      "variant": "male",
+      "key": "3338-male-anatomical-white-v1",
+      "prompt": "SINGLE LEG DUMBBELL STIFFLEGDEADLIFT TWOequalpanels SAME SIDEthreequartercamera headLEFT. SAME LEFTlegSUPPORTfloor LEFTkneeSOFTthroughout, ONEdumbbellinRIGHToppositeHAND hangingvertical. LEFThandRESTSonLEFTHIP allposes. LEFTSTART standtall LEFTfootfloor RIGHTfootunweightedjustofffloorbesideLEFT. RIGHTHINGE LEFTfootfloor LEFTkneesoft HIPSback TORSOnearHORIZONTAL headneckaligned, RIGHTfreelegextendsSTRAIGHTBACKtowardRIGHT inLINEwithtorso. RIGHTarmhangsSTRAIGHTDOWN weightbelowRIGHTshouldernearLEFTshin, no kneehinge squat no rounding nohandchanges. PrimaryHAMSTRINGS redexposedposteriorLEFTthighbelowshorthem plus SMALLplainuniformwashintactblackposteriorLEFTshorts ONLY. Premium detailed adult MALE grayscale anatomy illustration pureWHITE background softshadows detailed exposedgraymusculature realisticproportions. Originalprojectreference STYLEONLY not pose/equipment. OPAQUEBLACKtankandmidthighshorts fullywrapfrontsidesbackseatcrotch seamsfoldshems. Coveredredhighlight SMALLPLAINUNIFORMwash onintactfabric NO fibers/lobes/segments/cutaways/transparency. Exactlyoneheadtwoarms/twohands/twolegs/twofeetperfigure. Same modelcamera scale fullbodyequipmentinframe no textarrowslogos. ",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand on left leg holding dumbbell in right hand with a soft standing knee."
+        },
+        {
+          "key": "p2",
+          "caption": "Hinge as right leg extends behind; keep back flat, then return and switch sides."
+        }
+      ],
+      "inspectionNote": "Real output inspected. Contralateral dumbbell single-leg hinge with free hand on hip and rear leg raised, opaque clothes. Non-primary red chest and glute overlays need removal; hamstring mapping inconsistent between panels. Qualified stance/neck/grip review pending. Human anatomy review pending. No approval or publication.",
+      "blockingIssues": [
+        "Remove non-primary chest/glute red overlays and consistently highlight supporting hamstring only."
+      ],
+      "canonicalName": "dumbbell single stiff leg deadlift",
+      "styleVersion": "white-v1",
+      "equipment": "dumbbell",
+      "primaryMuscles": [
+        "hamstrings"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Contralateral dumbbell single-leg hinge with free hand on hip and rear leg raised, opaque clothes. Non-primary red chest and glute overlays need removal; hamstring mapping inconsistent between panels. Qualified stance/neck/grip review pending. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/3338-male-anatomical-white-v1-p1-c9eae1755495.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 24342,
+          "sha256": "c9eae1755495bd0cf9cb731678843299de2f71980c709a043bed0d9c76d97518"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/3338-male-anatomical-white-v1-p2-6ce0c5efcc4b.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 26038,
+          "sha256": "6ce0c5efcc4b1a476aeb677e5c65b50dcae6bd183776827802af0dc8505e2743"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-347.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/3338-male-anatomical-white-v1-thumb-18a94862717d.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2520,
+        "sha256": "18a94862717de70d4771fcec1d14b54d859b9350da9ecb9512694e6c8d13b94c"
+      },
+      "processingSignature": "2b59e82041a8989a567385f83e32eb2423d10c88263537730c02ee64896072fe",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/3338-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1364157,
+        "sha256": "246cb7e355e00657a561345b253f279aac481e19870990a6fe86c2e9b5f104c6"
+      }
+    },
+    {
+      "exerciseId": "3340",
+      "variant": "male",
+      "key": "3340-male-anatomical-white-v1",
+      "prompt": "TWO DUMBBELL STIFF LEG DEADLIFT TWOequalpanels SAME SIDEthreequartercamera headLEFT feetRIGHT rearthighvisible. OneDBEACHhand armsSTRAIGHT allposes BOTHclosedgrips weightsINFRONTOFlegs. LEFTSTART standtall feetHIPwidth neutralspine kneesSOFT. RIGHTHINGE pushHIPSBACK kneesremainSLIGHTLYbent notsquat, torsonearHORIZONTAL headneckaligned weightsSLIDECLOSEdownFRONTofshins halfwaydownshins, backFLAT. BOTHfeetplanted SAMEposition. PrimaryHAMSTRINGS redexposedposteriorthighbelowhem plusSMALLplainuniformredwash intactblackPOSTERIORshortsONLY NO clothingfibers. Premium detailed adult MALE grayscale anatomy illustration pureWHITE background softshadows detailed exposedgraymusculature realisticproportions. Originalprojectreference STYLEONLY not pose/equipment. OPAQUEBLACKtankandmidthighshorts fullywrapfrontsidesbackseatcrotch seamsfoldshems. Coveredredhighlight SMALLPLAINUNIFORMwash onintactfabric NO fibers/lobes/segments/cutaways/transparency. Exactlyoneheadtwoarms/twohands/twolegs/twofeetperfigure. Same modelcamera scale fullbodyequipmentinframe no textarrowslogos. ",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand with dumbbells in front of thighs and knees slightly bent."
+        },
+        {
+          "key": "p2",
+          "caption": "Hinge hips back with flat back, lower weights close to legs, then stand."
+        }
+      ],
+      "inspectionNote": "Real output inspected. Standing and soft-knee hip hinge with two dumbbells close in front of shins, flat-looking back and opaque clothing/plain posterior shorts wash. Qualified hamstring-versus-glute overlay boundary, neck alignment, grip and knee softness review pending. Human anatomy review pending. No approval or publication.",
+      "canonicalName": "dumbbell stiff leg deadlift v. 2",
+      "styleVersion": "white-v1",
+      "equipment": "dumbbell",
+      "primaryMuscles": [
+        "hamstrings"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Standing and soft-knee hip hinge with two dumbbells close in front of shins, flat-looking back and opaque clothing/plain posterior shorts wash. Qualified hamstring-versus-glute overlay boundary, neck alignment, grip and knee softness review pending. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/3340-male-anatomical-white-v1-p1-b217b8e247fc.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 24890,
+          "sha256": "b217b8e247fce9d3a1a44a02c4e77ef6d125bd007ec69665579cea61bf5f0d4d"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/3340-male-anatomical-white-v1-p2-52aaf40ed899.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 27134,
+          "sha256": "52aaf40ed89908e296e4e74cc962d15a0478791dd9332a20bf3670e52a63d78e"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-347.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/3340-male-anatomical-white-v1-thumb-d8fa9b98bf13.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2656,
+        "sha256": "d8fa9b98bf133c4fab05004f23c132e28227246b81e57f6d85811a2482f46ec5"
+      },
+      "processingSignature": "0ba6730936529699f34b2ae740799202c74ad819deaab4e199369512e2adebec",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/3340-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1356207,
+        "sha256": "b95dfb4ab4d54ef5ed95afa93b62b5279b2b6b42e871330a174256874dfcf374"
+      }
+    }
+  ]
+}

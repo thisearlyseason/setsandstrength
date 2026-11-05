@@ -1,0 +1,53 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "1379",
+      "variant": "male",
+      "key": "1379-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Lower heels"
+        },
+        {
+          "key": "p2",
+          "caption": "Raise heels"
+        }
+      ],
+      "prompt": "Premium educational anatomical fitness illustration of DUMBBELL SEATED CALF RAISE, canonical1379, ADULT MALE. Reference artistic style ONLY; not wall sit. Two equal side-by-side panels on white background, same person/camera/equipment/scale with white margins. Near side-rear three-quarter view so calf backs, heels, foot block and weight support are readable. Sit on horizontal padded bench, hips stay seated in both poses, knees bent approximately90degrees, upright torso. ONE dumbbell lies horizontally across lower thighs just above knees, BOTH hands stabilize it. Balls of BOTH feet rest securely on the front edge of a low sturdy rectangular step, heels project behind the step unsupported, toes point forward. Left panel: heels lowered below top of step, forefeet remain on step. Right panel: raise BOTH heels high while forefeet remain on same step, knees/thighs lift slightly with dumbbell, seat never leaves bench, no standing calf raise. Show a visible heel-height difference. Same dumbbell/step in both panels. Highlight calf region red, especially lower posterior/side soleus region rather than shins; no red Achilles tendon or bones. Grayscale anatomical contours with realistic proportions and crisp detail on exposed limbs. Fully opaque black sleeveless athletic top covering torso back chest sides, knee-length black shorts with complete rear seat crotch sides/front and normal seams/folds, shoes. Never transparent fabric or missing back panels. Soft shadows, clean white background, entire body/equipment inside frame. No labels, numbers, text or arrows. Keep instructional quality equivalent for male/female.",
+      "inspectionNote": "Concurrent submission succeeded. Full opaque rear/front clothing and two seated poses visible. Qualified review required for soleus highlight boundary, dumbbell support and forefoot position.",
+      "blockingIssues": [
+        "Verify or correct soleus highlight: may extend toward Achilles region.",
+        "Raised pose appears to shift foot farther onto step rather than keeping fixed forefoot contact; correct before approval."
+      ]
+    },
+    {
+      "exerciseId": "1379",
+      "variant": "female",
+      "key": "1379-female-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Lower heels"
+        },
+        {
+          "key": "p2",
+          "caption": "Raise heels"
+        }
+      ],
+      "prompt": "Premium educational anatomical fitness illustration of DUMBBELL SEATED CALF RAISE, canonical1379, ADULT FEMALE. Reference artistic style ONLY; not wall sit. Two equal side-by-side panels on white background, same person/camera/equipment/scale with white margins. Near side-rear three-quarter view so calf backs, heels, foot block and weight support are readable. Sit on horizontal padded bench, hips stay seated in both poses, knees bent approximately90degrees, upright torso. ONE dumbbell lies horizontally across lower thighs just above knees, BOTH hands stabilize it. Balls of BOTH feet rest securely on the front edge of a low sturdy rectangular step, heels project behind the step unsupported, toes point forward. Left panel: heels lowered below top of step, forefeet remain on step. Right panel: raise BOTH heels high while forefeet remain on same step, knees/thighs lift slightly with dumbbell, seat never leaves bench, no standing calf raise. Show a visible heel-height difference. Same dumbbell/step in both panels. Highlight calf region red, especially lower posterior/side soleus region rather than shins; no red Achilles tendon or bones. Grayscale anatomical contours with realistic proportions and crisp detail on exposed limbs. Fully opaque black sleeveless athletic top covering torso back chest sides, knee-length black shorts with complete rear seat crotch sides/front and normal seams/folds, shoes. Never transparent fabric or missing back panels. Soft shadows, clean white background, entire body/equipment inside frame. No labels, numbers, text or arrows. Keep instructional quality equivalent for male/female.",
+      "inspectionNote": "Concurrent submission succeeded. Full opaque rear/front clothing and two seated poses visible. Qualified review required for soleus highlight boundary, dumbbell support and forefoot position.",
+      "blockingIssues": [
+        "Verify or correct soleus highlight: may extend toward Achilles region."
+      ]
+    }
+  ]
+}

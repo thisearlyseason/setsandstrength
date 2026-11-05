@@ -1,0 +1,55 @@
+{
+  "batch": 379,
+  "runId": "d8c906ba-2221-4b8b-b062-8855cc440db0",
+  "builtInImageGenAvailable": true,
+  "anatomyReview": "pending",
+  "publication": "none",
+  "deferred": {
+    "3532": "Cardiovascular primary highlighting not anatomically mapped."
+  },
+  "coverageAfter": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1365,
+    "remainingVariants": 9899,
+    "approvedVariants": 0,
+    "blockedVariants": 527,
+    "knownPoseImages": 2706,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 992,
+      "remainingVariants": 4640,
+      "blockedVariants": 408
+    }
+  },
+  "paidWorker": {
+    "statuses": {
+      "generated": 1365,
+      "pending": 9899
+    },
+    "remaining": 9899,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 2075646687
+  },
+  "pipelineTests": "7 passed, 0 failed",
+  "approvedIndexUnchanged": true,
+  "existingUserApprovalsPreserved": 1306,
+  "generatedIds": [
+    "3533",
+    "3534",
+    "3535",
+    "3536"
+  ]
+}

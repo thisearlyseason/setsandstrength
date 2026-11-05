@@ -1,0 +1,77 @@
+{
+  "batch": 355,
+  "runId": "5cbaea47-b343-4f62-bc26-247b836a31d1",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "trigger": "2026-11-04T13:20:33.895Z",
+  "purpose": "batch355 scheduled male continuation",
+  "started": "2026-11-04T13:21:14.864700+00:00",
+  "completedAt": "2026-11-04T13:30:41.535918+00:00",
+  "actualToolName": "image_gen__imagegen",
+  "calls": 4,
+  "newCandidateSets": 4,
+  "exerciseIds": [
+    "3389",
+    "3390",
+    "3391",
+    "3392"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1278,
+    "remainingVariants": 9986,
+    "approvedVariants": 0,
+    "blockedVariants": 484,
+    "knownPoseImages": 2514,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 905,
+      "remainingVariants": 4727,
+      "blockedVariants": 365
+    }
+  },
+  "reviewNotes": {
+    "3389": "Chair-supported sit-up with crossed arms, but start head/shoulders already lifted and abdominal anatomical segments appear through tank. Opaque shorts, lower-leg chair contact visible. Correction required.",
+    "3390": "Chair-supported calf raise with step and calf highlights, opaque clothing. Start heels remain at step height instead of hanging below edge, missing deficit stretch. Correction required.",
+    "3391": "Wide stance hinge with T start and mirrored opposite hand-to-foot rotations. Opaque clothing with small abdomen wash. Qualified hip stability, neck alignment, soft knees and controlled rotation range review pending.",
+    "3392": "Narrow heel-elevated squat standing and deep phases with arms forward, opaque shorts/plain front-thigh wash and black tank. Qualified heel-platform contact, knee tracking, balance and depth review pending."
+  },
+  "blockingIssues": {
+    "3389": [
+      "Rest head and shoulders on floor in start.",
+      "Replace abdominal anatomical segments through tank with plain uniform wash."
+    ],
+    "3390": [
+      "Place forefeet at step edge with heels clearly lowered below step top in start, keeping same forefoot contact at raised endpoint."
+    ]
+  },
+  "deferred": {
+    "3387": "Facing chairs and wall bracing leave seat grip and body/leg placement unclear.",
+    "3388": "Support between chairs unspecified bar versus table; precise supported setup needs clarification."
+  },
+  "tests": 7,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "workerSyncResult": {
+    "statuses": {
+      "generated": 1278,
+      "pending": 9986
+    },
+    "remaining": 9986,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 1950861313
+  },
+  "publicationIndexUnchanged": true
+}

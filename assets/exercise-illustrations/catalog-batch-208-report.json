@@ -1,0 +1,62 @@
+{
+  "batch": 208,
+  "runId": "36405489-e7c3-4a61-86be-bd0df73f345d",
+  "trigger": "2026-11-03T13:53:00.393Z",
+  "completedAt": "2026-11-03T13:59:54.255374+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 2,
+  "generationCalls": 2,
+  "exerciseIds": [
+    "1564"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 730,
+    "remainingVariants": 10534,
+    "approvedVariants": 0,
+    "blockedVariants": 240,
+    "knownPoseImages": 1434,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Two rope-assisted standing quad stretch candidates, one static pose per variant, two built-in calls. Bent working knee with rope loop around ankle connected to same-side hand, other hand on support, quadriceps red. Both BLOCKED for anatomical-looking striation/radial lines within overcloth shorts highlight instead of diffuse tint on plain fabric. Full opaque clothing and exposed grayscale anatomy retained. Qualified knee/hip alignment, pelvic tuck, rope loop pressure and support stability need human review. Original project artwork rendering style only, no upstream licensed input. Exact prompts/originals saved. No anatomy or clothing approval or publication. Seven pipeline checks do not establish anatomical accuracy.",
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 1146526566,
+  "savedMasters": [
+    {
+      "exerciseId": "1564",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1564-male-anatomical-white-v1.png",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 1336029,
+        "sha256": "81404cac180b9785e30ff49476aec857ffada2704a522b0ce953fcded6481912"
+      }
+    },
+    {
+      "exerciseId": "1564",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1564-female-anatomical-white-v1.png",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 1348831,
+        "sha256": "ea9851c8d51fbe4b68f84bf30de8d3f48d4363e6ba96196a544ac1238dd02841"
+      }
+    }
+  ]
+}

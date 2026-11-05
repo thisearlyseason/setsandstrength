@@ -1,0 +1,91 @@
+{
+  "batch": 252,
+  "runId": "c181a170-6a35-495f-8ea9-d7323563eaa7",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "trigger": "2026-11-03T21:06:23.247Z",
+  "purpose": "batch252 scheduled male continuation",
+  "started": "2026-11-03T21:07:04.508694+00:00",
+  "completedAt": "2026-11-03T21:16:08.652353+00:00",
+  "actualToolName": "image_gen__imagegen",
+  "calls": 4,
+  "newCandidateSets": 4,
+  "exerciseIds": [
+    "1968",
+    "1969",
+    "1970",
+    "1972"
+  ],
+  "variants": [
+    "male"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 881,
+    "remainingVariants": 10383,
+    "approvedVariants": 0,
+    "blockedVariants": 281,
+    "knownPoseImages": 1694,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 508,
+      "remainingVariants": 5124,
+      "blockedVariants": 162
+    }
+  },
+  "reviewNotes": {
+    "1968": "Standing toe-flexor stretch: forefoot against wall, heel grounded, posterior calf red and palms supported. Qualified review needed for heel pressure, actual toe extension within shoe, comfortable dorsiflexion and calf/plantar mapping.",
+    "1969": "Ankle mobilization: two distinct knee positions, front foot flat and knee glides toward wall with heel grounded. Qualified review needed for stationary feet between steps, comfortable knee tracking, ankle range and soleus mapping.",
+    "1970": "Upright shoulder stretch: straight arms and clasped hands behind pelvis, torso tall and anterior-deltoid red only. Qualified review needed for interlaced finger anatomy, comfortable shoulder extension, relaxed neck and exact deltoid mapping.",
+    "1972": "Bench shoulder stretch: fingers point back, elbows straight, feet grounded and anterior-deltoid highlights. BLOCKED: hips remain substantially seated on bench rather than moved forward off edge and gently lowered into the instructed hold. Correct hip/bench relationship and mild range."
+  },
+  "blockingIssues": {
+    "1972": [
+      "Hips remain substantially seated instead of moved forward off bench and gently lowered. Correct hold position."
+    ]
+  },
+  "deferred": [
+    {
+      "exerciseIds": [
+        "1962",
+        "1963",
+        "1964",
+        "1965",
+        "1966",
+        "1967"
+      ],
+      "reason": "Toe extensor/flexor foot-local stretch descriptions versus calves primary target require mapping clarification before illustration."
+    }
+  ],
+  "tests": 7,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "workerSyncResult": {
+    "statuses": {
+      "generated": 881,
+      "pending": 10383
+    },
+    "remaining": 10383,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 1363838301
+  },
+  "publicationIndexUnchanged": true,
+  "savedMasters": [
+    "assets/exercise-illustrations/generated/1968-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/1969-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/1970-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/1972-male-anatomical-white-v1.png"
+  ]
+}

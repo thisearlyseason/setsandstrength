@@ -1,0 +1,67 @@
+{
+  "batch": 339,
+  "runId": "c0c4d952-ea12-4ab3-b4e2-95e2480668c0",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "trigger": "2026-11-04T11:06:31.648Z",
+  "purpose": "batch339 scheduled male continuation",
+  "started": "2026-11-04T11:07:34.607696+00:00",
+  "completedAt": "2026-11-04T11:16:05.461979+00:00",
+  "actualToolName": "image_gen__imagegen",
+  "calls": 2,
+  "newCandidateSets": 2,
+  "exerciseIds": [
+    "3264",
+    "3265"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1216,
+    "remainingVariants": 10048,
+    "approvedVariants": 0,
+    "blockedVariants": 446,
+    "knownPoseImages": 2379,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 843,
+      "remainingVariants": 4789,
+      "blockedVariants": 327
+    }
+  },
+  "reviewNotes": {
+    "3264": "Forearm side plank with hips lifted and top straight leg stacked then raised, upper hand on hip and opaque shorts/plain outer-hip wash. Qualified review of supporting elbow alignment, pelvic stacking and toe orientation pending.",
+    "3265": "Knee push-up top/bottom and child pose visible with grounded knees and opaque clothes. Red pectoral anatomical lobes through tank require plain-wash correction. Qualified head-to-knees alignment and knee/heel folding review pending."
+  },
+  "blockingIssues": {
+    "3265": [
+      "Replace anatomical pectoral lobes through tank with plain uniform wash on intact opaque cloth."
+    ]
+  },
+  "deferred": {},
+  "stopReason": "Six-minute generation window elapsed after two masters; 3266 and 3268 prompts retained for a later run.",
+  "tests": 7,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "workerSyncResult": {
+    "statuses": {
+      "generated": 1216,
+      "pending": 10048
+    },
+    "remaining": 10048,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 1857055157
+  },
+  "publicationIndexUnchanged": true
+}

@@ -1,0 +1,62 @@
+{
+  "batch": 405,
+  "runId": "1c9dfbb1-02cd-48b2-9744-461f26012b87",
+  "triggerTimestamp": "2026-11-04T19:38:02.431Z",
+  "builtInImageGenAvailable": true,
+  "generatedIds": [
+    "3696",
+    "3697",
+    "3698",
+    "3699"
+  ],
+  "coverageAfter": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1436,
+    "remainingVariants": 9828,
+    "approvedVariants": 0,
+    "blockedVariants": 547,
+    "knownPoseImages": 2866,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 1063,
+      "remainingVariants": 4569,
+      "blockedVariants": 428
+    }
+  },
+  "paidWorker": {
+    "statuses": {
+      "generated": 1436,
+      "pending": 9828
+    },
+    "remaining": 9828,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 2178557025
+  },
+  "pipelineTests": "7 passed, 0 failed",
+  "approvedIndexUnchanged": true,
+  "existingUserApprovalsPreserved": 1306,
+  "anatomyReview": "pending",
+  "publication": "none",
+  "blocked": {
+    "3696": [
+      "Raised fly poses bend elbows substantially into row-like movement."
+    ],
+    "3699": [
+      "Primary abs highlight is displaced onto upper chest; revise mapping.",
+      "Exposed-toe footwear rendering needs correction or qualified verification."
+    ]
+  }
+}

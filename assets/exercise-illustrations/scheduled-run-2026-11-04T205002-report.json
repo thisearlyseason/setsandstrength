@@ -1,0 +1,68 @@
+{
+  "runId": "7a3f90aa-dfae-4264-afef-680068e919f5",
+  "triggerTimestamp": "2026-11-04T20:50:02.890Z",
+  "builtInImageGenAvailable": true,
+  "batches": [
+    414,
+    415,
+    416
+  ],
+  "generatedMasters": 9,
+  "generatedIds": [
+    "3749",
+    "3750",
+    "3751",
+    "3752",
+    "3748",
+    "3761",
+    "3764",
+    "3767",
+    "3765"
+  ],
+  "blocked": {
+    "3749": [
+      "Hip bend breaks straight-body row alignment.",
+      "Lats anatomy fibers visible through tank overlay."
+    ],
+    "3750": [
+      "Hands incorrectly placed on bench instead of floor high plank."
+    ],
+    "3765": [
+      "Unrequested red torso highlight includes nipple/pectoral anatomy through tank despite cardiovascular primary and no isolated highlight plan."
+    ]
+  },
+  "coverageAfter": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1475,
+    "remainingVariants": 9789,
+    "approvedVariants": 0,
+    "blockedVariants": 558,
+    "knownPoseImages": 2948,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 1102,
+      "remainingVariants": 4530,
+      "blockedVariants": 439
+    }
+  },
+  "pipelineTests": "8 passed, 0 failed after each batch",
+  "existingUserApprovalsPreserved": 1306,
+  "approvedIndexUnchanged": true,
+  "anatomyReview": "pending",
+  "publication": "none",
+  "stopReason": "Repeated anatomy-through-clothing highlights on 3749 and 3765; saved blocked originals and stopped run.",
+  "deferred": {
+    "3758": "Standing exercise name versus seated instruction conflict.",
+    "3770/3772/3773/3774/3775/3776/3779": "Prompts prepared, no masters generated; run stopped for repeated output defects."
+  },
+  "qualityLessons": [
+    "Review complete cable/handle chain in every pose, per user correction3719.",
+    "Check equipment scale, plate size and limb proportions per user correction3723.",
+    "Style reference appears to leak bench and chest overlay into unrelated exercise output; strengthen reference isolation next run."
+  ]
+}

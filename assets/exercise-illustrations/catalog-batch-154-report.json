@@ -1,0 +1,62 @@
+{
+  "batch": 154,
+  "runId": "8314e411-f21e-483c-8098-7488b8aff536",
+  "trigger": "2026-11-03T07:16:27.364Z",
+  "completedAt": "2026-11-03T07:20:28.960989+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 2,
+  "generationCalls": 2,
+  "exerciseIds": [
+    "1028"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 620,
+    "remainingVariants": 10644,
+    "approvedVariants": 0,
+    "blockedVariants": 215,
+    "knownPoseImages": 1258,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Two assisted standing triceps dip candidates, four poses, two built-in calls. Both feet stand on moving assistance pad; top straight arms to near elbow bent bottom. Full opaque clothes and exposed triceps red visually retained. BOTH candidates BLOCKED: far arm remains substantially straighter than near arm in bottom pose, so symmetric bilateral elbow flexion is not established. Machine linkage/weight-stack travel, shoulder depression, grip, proportions and pad contact also require qualified review. Every original and exact prompt retained for correction; no anatomy/clothing approval or publication. Original project artwork rendering style only, no upstream licensed input. Seven pipeline checks do not establish anatomical accuracy.",
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 987189040,
+  "savedMasters": [
+    {
+      "exerciseId": "1028",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1028-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1401168,
+        "sha256": "b743a6ebdbd1b705c82862303e635fdb9190289ae1504284a888a9572385a023"
+      }
+    },
+    {
+      "exerciseId": "1028",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1028-female-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1396461,
+        "sha256": "603201d960021cf9a306e0f8fad6af0a3948919805a03a0e4a7ac7da7ef3f912"
+      }
+    }
+  ]
+}

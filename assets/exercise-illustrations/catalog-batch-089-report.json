@@ -1,0 +1,85 @@
+{
+  "batch": 89,
+  "trigger": "2026-11-01T19:18:20.091Z",
+  "completedAt": "2026-11-01T19:35:46.186559+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 4,
+  "generationCalls": 9,
+  "exerciseIds": [
+    "0612",
+    "0613"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 368,
+    "remainingVariants": 10896,
+    "approvedVariants": 0,
+    "blockedVariants": 154,
+    "knownPoseImages": 752,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Four candidate sets with six pose images and five correction masters saved; nine built-in calls, no paid API use. None approved or published. Lunges show standing-to-forward-step lowering with upright torsos, hands on hips, front knees above ankles and rear heels lifted. Both shorts corrections remove anatomical lines from red overlays. Female clothing edit smoothed exposed detail; second correction restores fine grayscale muscle fibers on arms/lower legs. Side-lying quadriceps stretches each use one static pose, straight bottom leg, flexed top knee and same-side hand at ankle. Both stretch shorts corrections soften red patches over opaque fabric. All garments wrap torso/front/sides/back/seat/crotch continuously. Qualified anatomy, rear-knee depth, stance width, same-leg continuity, neck support, hip/knee stacking and ankle grip review remains separate. All originals, exact prompts, intermediate correction masters and hashes retained. Intermediate female v2 had no delivery assets; history metadata records its actual saved master. Original project artwork only for style; pipeline checks do not constitute anatomical approval.",
+  "metadataConflictsDeferred": [],
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 604563574,
+  "savedMasters": [
+    {
+      "exerciseId": "0612",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0612-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1633487,
+        "sha256": "821aba6455091dedcbafd998e41787052e1fdae8e0c747bc801646cdccacb4d8"
+      }
+    },
+    {
+      "exerciseId": "0612",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0612-female-anatomical-white-v3.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1684243,
+        "sha256": "b81a75ae93758660332baa7eed8156da3f602ffbe108815554280587ef4d9f68"
+      }
+    },
+    {
+      "exerciseId": "0613",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0613-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1684294,
+        "sha256": "cd79c2239b71c22a47e8b3735979d3932e1192685246981bd51fa2f5bc602cae"
+      }
+    },
+    {
+      "exerciseId": "0613",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0613-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1729522,
+        "sha256": "1f61c9f89b627e997102e5635a65ef3496e2fe800bb3b982fde10c17f3c7a008"
+      }
+    }
+  ]
+}

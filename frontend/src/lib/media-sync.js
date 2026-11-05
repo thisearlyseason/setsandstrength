@@ -18,7 +18,7 @@
  * It also keeps the local store tidy (localMediaGc) and makes the plan's custom media local ahead
  * of time (startCustomMediaPrefetch), so a workout opened without a network still shows them.
  */
-import { referencedHashes, referencedFiles, MEDIA_MIMES } from './media-refs.js'
+import { localReferencedHashes, referencedHashes, referencedFiles, MEDIA_MIMES } from './media-refs.js'
 import { sniffKind } from './media-sniff.js'
 import { sha256Hex } from './sha256.js'
 import { mediaStore as sharedStore } from './media-store.js'
@@ -285,23 +285,32 @@ export function createMediaSync(deps = {}) {
     gcWaiting = false
     await withLock('opengym-media', async () => {
       const st = store.getState()
-      const live = referencedHashes(st.S)
+      const live = localReferencedHashes(st.S)
+      const localOnly = new Set()
+      const protectPhotos = state => { for (const hash of localReferencedHashes({ progressPhotos: state?.progressPhotos })) { live.add(hash); localOnly.add(hash) } }
+      protectPhotos(st.S)
       try {
         const raw = d.storage?.getItem(PERSISTED_KEY)
-        if (raw) for (const h of referencedHashes(JSON.parse(raw))) live.add(h)
+        if (raw) { const saved = JSON.parse(raw); for (const h of localReferencedHashes(saved)) live.add(h); protectPhotos(saved) }
       } catch { /* an unreadable copy keeps nothing extra */ }
       try {
-        if (typeof st.stashedMediaHashes === 'function') for (const h of await st.stashedMediaHashes()) live.add(h)
+        if (typeof st.stashedMediaHashes === 'function') {
+          for (const h of await st.stashedMediaHashes()) live.add(h)
+          for (const h of await st.stashedMediaHashes({ localOnly: true })) { live.add(h); localOnly.add(h) }
+        }
       } catch { return }   // the stash could not be read: delete nothing rather than guess
       // A second guard on a phone: the mirror is read even after boot, since a copy that failed
       // to reach localStorage lives only there and in memory, and memory may already have moved on.
       try {
-        if (d.nativeLoad) { const saved = await d.nativeLoad(); if (saved) for (const h of referencedHashes(saved)) live.add(h) }
+        if (d.nativeLoad) { const saved = await d.nativeLoad(); if (saved) { for (const h of localReferencedHashes(saved)) live.add(h); protectPhotos(saved) } }
       } catch { return }   // the mirror could not be read: delete nothing rather than guess
       // A file an open editor holds as its draft is live too, however long the editor has been open.
       const held = r => typeof d.media.isHeld === 'function' && d.media.isHeld(r.hash)
       const cutoff = d.now() - LOCAL_GC_GRACE_MS
       const all = await d.media.list()
+      // The profile may have switched while the stash or native mirror was being read.
+      for (const hash of localReferencedHashes(store.getState().S)) live.add(hash)
+      protectPhotos(store.getState().S)
       for (const r of all) if (!live.has(r.hash) && !held(r) && (r.putAt || 0) < cutoff) await d.media.remove(r.hash)
       if (!st.user) return
       const left = (await d.media.list()).filter(r => live.has(r.hash) || held(r) || (r.putAt || 0) >= cutoff)
@@ -311,7 +320,7 @@ export function createMediaSync(deps = {}) {
       const posters = new Set(refs.filter(f => f.poster).map(f => f.hash))
       const inState = new Set(refs.map(f => f.hash))
       const candidates = left
-        .filter(r => !r.pending && !posters.has(r.hash) && !held(r) && (r.putAt || 0) < cutoff)
+        .filter(r => !r.pending && !localOnly.has(r.hash) && !posters.has(r.hash) && !held(r) && (r.putAt || 0) < cutoff)
         .sort((a, b) => (inState.has(a.hash) - inState.has(b.hash)) || ((a.shownAt || 0) - (b.shownAt || 0)))
       for (const r of candidates) {
         if (bytes <= LOCAL_CACHE_MAX_MB * MB) break

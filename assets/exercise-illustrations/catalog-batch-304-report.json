@@ -1,0 +1,74 @@
+{
+  "batch": 304,
+  "runId": "8e861203-2636-493b-8b76-bedebb55fcc1",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "trigger": "2026-11-04T05:05:57.581Z",
+  "purpose": "batch304 scheduled male continuation",
+  "started": "2026-11-04T05:06:22.528138+00:00",
+  "completedAt": "2026-11-04T05:13:39.585098+00:00",
+  "actualToolName": "image_gen__imagegen",
+  "calls": 4,
+  "newCandidateSets": 4,
+  "exerciseIds": [
+    "2783",
+    "2784",
+    "2789",
+    "2790"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1084,
+    "remainingVariants": 10180,
+    "approvedVariants": 0,
+    "blockedVariants": 376,
+    "knownPoseImages": 2084,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 711,
+      "remainingVariants": 4921,
+      "blockedVariants": 257
+    }
+  },
+  "reviewNotes": {
+    "2783": "Same arm moves from forward to lateral/back at shoulder height, opposite arm down and torso steady. Exposed posterior shoulder tint and opaque clothing. Qualified review needed for sagittal start versus cross-body projection, comfortable horizontal extension endpoint, fixed trunk and exact posterior deltoid mapping. Human anatomy review pending.",
+    "2784": "Same arm moves from lateral to forward at shoulder height, torso steady and other arm down. Plain chest color wash on opaque tank. Qualified review needed for endpoint directly in front of shoulder versus cross-body angle, hand anatomy, shoulder stability and exact pectoral mapping. Human anatomy review pending.",
+    "2789": "Thumb-up hand tilts toward little-finger side with forearm supported, seated posture and opaque clothing. Wrist/hand remain over tabletop rather than clearly beyond edge, obstructing canonical movement clearance; block support placement correction. Qualified review of true ulnar deviation versus flexion, mapping and hand anatomy required. Human anatomy review pending.",
+    "2790": "Palm-down hand raises in wrist extension with supported forearm and torso steady, opaque clothing. Adds unrelated chest red and wrist sits over tabletop instead of clearly beyond edge; block mapping/support-placement correction. Qualified review needed for extension range without forearm lifting, dorsal extensor mapping and finger anatomy. Human anatomy review pending."
+  },
+  "blockingIssues": {
+    "2789": [
+      "Move wrist/hand clearly beyond table edge while keeping forearm supported to allow unobstructed ulnar deviation."
+    ],
+    "2790": [
+      "Remove unrelated chest red; highlight dorsal forearm extensors only.",
+      "Position wrist/hand beyond table edge with forearm fixed and supported."
+    ]
+  },
+  "deferred": {},
+  "tests": 7,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "workerSyncResult": {
+    "statuses": {
+      "generated": 1084,
+      "pending": 10180
+    },
+    "remaining": 10180,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 1664365772
+  },
+  "publicationIndexUnchanged": true
+}

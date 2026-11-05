@@ -1,0 +1,132 @@
+{
+  "batch": 73,
+  "trigger": "2026-11-01T15:00:47.256Z",
+  "completedAt": "2026-11-01T15:26:21.964871+00:00",
+  "tool": "image_gen.imagegen",
+  "newCandidateSets": 6,
+  "generationCalls": 8,
+  "exerciseIds": [
+    "0470",
+    "0471",
+    "0472"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 298,
+    "remainingVariants": 10966,
+    "approvedVariants": 0,
+    "blockedVariants": 127,
+    "knownPoseImages": 612,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "All pending and unpublished. Hand-to-opposite-knee crunches clearly alternate sides but both blocked for already-elevated starting head/shoulder support; female custom crop visually inspected. Wall handstand push-ups show heel support, planted palms and head-floor clearance with opaque inverted clothing, qualified alignment review required. Hanging leg raises show suspended feet and horizontal straight-leg endpoint; both garment corrections saved, originals retained. Female opaque fabric improved; male tiny navel-like spot remains blocked pending review. No anatomical approval from pipeline checks.",
+  "metadataConflictsDeferred": [
+    {
+      "exerciseId": "0466",
+      "issue": "Sternum-chin title suggests chin grip but explicit overhand instructions need qualified variant clarification."
+    },
+    {
+      "exerciseId": "0467",
+      "issue": "Description crunch-at-top absent from plain chin-above-bar instructions."
+    },
+    {
+      "exerciseId": "0469",
+      "issue": "Chest-and-knees crunch description versus leg-only movement instruction."
+    },
+    {
+      "exerciseId": "0473",
+      "issue": "Pike-to-bar description versus legs-parallel endpoint contradiction."
+    },
+    {
+      "exerciseId": "0474",
+      "issue": "Hip-raise title/prose versus leg-only horizontal raise instructions."
+    },
+    {
+      "exerciseId": "0475",
+      "issue": "Mechanically equivalent to 0472 instructions; preserve separate ID and require variant review before reuse."
+    }
+  ],
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 482916518,
+  "savedMasters": [
+    {
+      "exerciseId": "0470",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0470-male-anatomical-white-v1.png",
+        "width": 2056,
+        "height": 765,
+        "bytes": 2301470,
+        "sha256": "dc15cfb7db85d4c5ca6a9f7735e278dd2d6333f41c3e9ee95acd0faf1e085c0a"
+      }
+    },
+    {
+      "exerciseId": "0470",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0470-female-anatomical-white-v1.png",
+        "width": 2056,
+        "height": 765,
+        "bytes": 2048152,
+        "sha256": "c8b96167a0bfb4b9325a2bbc76f8220b3ca2a44ca9078c7d2ddf19f08e475985"
+      }
+    },
+    {
+      "exerciseId": "0471",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0471-male-anatomical-white-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1924092,
+        "sha256": "7fc0830a9e630f1639292129a25658d82040fc8bfa614623a53875e3f900c980"
+      }
+    },
+    {
+      "exerciseId": "0471",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0471-female-anatomical-white-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1385054,
+        "sha256": "cbe7ad3ca34c9bbb4d5e57cac552af91d478af113906706791292eb84127dfce"
+      }
+    },
+    {
+      "exerciseId": "0472",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0472-male-anatomical-white-v2.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1628933,
+        "sha256": "90e45d0b85cbc545faffceaa4aded8a81cf282a9d045b71b9464410ff957f877"
+      }
+    },
+    {
+      "exerciseId": "0472",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0472-female-anatomical-white-v2.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1630724,
+        "sha256": "30395c57ef0bfb0ed99b90f7b293f84abd3154af0a26a88ff999e00e84954c3b"
+      }
+    }
+  ]
+}

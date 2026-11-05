@@ -1,0 +1,86 @@
+{
+  "batch": 282,
+  "runId": "ac6eed75-5af2-4747-ab60-ba70f3bff500",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "trigger": "2026-11-04T01:43:26.015Z",
+  "purpose": "batch282 scheduled male continuation",
+  "started": "2026-11-04T01:43:43.549945+00:00",
+  "completedAt": "2026-11-04T01:49:23.989486+00:00",
+  "actualToolName": "image_gen__imagegen",
+  "calls": 4,
+  "newCandidateSets": 4,
+  "exerciseIds": [
+    "2359",
+    "2362",
+    "2363",
+    "2364"
+  ],
+  "variants": [
+    "male"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1001,
+    "remainingVariants": 10263,
+    "approvedVariants": 0,
+    "blockedVariants": 332,
+    "knownPoseImages": 1922,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 628,
+      "remainingVariants": 5004,
+      "blockedVariants": 213
+    }
+  },
+  "reviewNotes": {
+    "2359": "Inward-knee faulty comparison differs from outward-tracking bottom and standing finish, heels grounded and light bar supported upper back. Output added embedded captions despite external-caption requirement; red thigh overlays show anatomical fiber contours through shorts. Block text/fabric correction. Qualified review of knee-to-toe alignment, squat depth and bar support remains required. Human anatomy review remains pending.",
+    "2362": "Collapsed-forward faulty squat contrasts with more braced upright bottom and standing finish, bar on upper back and heels grounded. External captions identify fault. Quad overlays render muscle contours/fibers through shorts; block fabric correction. Qualified review of actual spinal rounding versus simple torso lean, squat depth, knee tracking and bar position remains required. Human anatomy review remains pending.",
+    "2363": "High parallel bars support hands at sides with knees bent and feet suspended. Near-straight-arm top differs from flexed-elbow forward-lean bottom, chest near bar height, opaque clothing and plain chest tint. Qualified review of actual grip width, shoulder depth, elbow path, wrist loading and scapular position required. Human anatomy review remains pending.",
+    "2364": "Both knees remain on assistance pad, feet clear of floor, fixed handles support wide dip, arms near straight then flexed with upper arms near horizontal. Pad descends with knees and counterweight stack changes height; opaque clothing and plain chest tint. Qualified review of machine linkage/stack mechanics, knee support, grip width and shoulder depth required. Human anatomy review remains pending."
+  },
+  "blockingIssues": {
+    "2359": [
+      "Remove embedded text; captions belong outside image files.",
+      "Red quadriceps overlay exposes anatomical contours/fibers through shorts; replace with uniform tint on opaque cloth."
+    ],
+    "2362": [
+      "Red quadriceps overlay shows muscle anatomy/fibers through shorts; replace with uniform tint on opaque fabric."
+    ]
+  },
+  "deferred": {
+    "2360": "Specific faulty midway knee position not specified; comparison requires detailed planning.",
+    "2361": "Dynamic hip/chest timing comparison needs additional sequence planning."
+  },
+  "tests": 7,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "workerSyncResult": {
+    "statuses": {
+      "generated": 1001,
+      "pending": 10263
+    },
+    "remaining": 10263,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 1542847700
+  },
+  "publicationIndexUnchanged": true,
+  "savedMasters": [
+    "assets/exercise-illustrations/generated/2359-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/2362-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/2363-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/2364-male-anatomical-white-v1.png"
+  ]
+}

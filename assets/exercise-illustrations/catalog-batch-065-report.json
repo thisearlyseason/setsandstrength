@@ -1,0 +1,105 @@
+{
+  "batch": 65,
+  "trigger": "2026-11-01T13:17:46.090Z",
+  "completedAt": "2026-11-01T13:26:23.378553+00:00",
+  "tool": "image_gen.imagegen",
+  "newCandidateSets": 4,
+  "generationCalls": 5,
+  "exerciseIds": [
+    "0385",
+    "10901"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 256,
+    "remainingVariants": 11008,
+    "approvedVariants": 0,
+    "blockedVariants": 115,
+    "knownPoseImages": 518,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "All pending and unpublished. Reverse wrist curls inspected for pronated dumbbells, small hand rise and forearm support; qualified wrist-isolation/contact and extensor-mapping review required. Single-arm shrugs preserve one loaded shoulder and empty free hand, full opaque rear/crotch clothing. Male initial anterior-neck/chest highlight corrected to posterior trapezius in rear-view v2; original retained. Qualified anatomical and scapular/cervical technique approval remains separate.",
+  "metadataConflictsDeferred": [
+    {
+      "exerciseId": "0224",
+      "issue": "Back/behind-arm title versus facing-machine pronated front setup ambiguity."
+    },
+    {
+      "exerciseId": "0225",
+      "issue": "Reverse fly description versus forward pull instructions conflict."
+    },
+    {
+      "exerciseId": "0228",
+      "issue": "Facing-away instruction versus hip extension against low-cable resistance setup needs review."
+    },
+    {
+      "exerciseId": "0313",
+      "issue": "Hammer neutral-grip description versus rotate-palms-forward instructions."
+    },
+    {
+      "exerciseId": "10901",
+      "issue": "Traps target duplicated as trapezius secondary; preserve record and flag mapping."
+    }
+  ],
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 413607343,
+  "savedMasters": [
+    {
+      "exerciseId": "0385",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0385-male-anatomical-white-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1772687,
+        "sha256": "d253893907fa40b42822738b6d4d83a2513b82d8bd8b02885a9eb64f01e5b3aa"
+      }
+    },
+    {
+      "exerciseId": "0385",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0385-female-anatomical-white-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1688756,
+        "sha256": "42ff2a0f3b60b64ee5525a4f5cafc7b067cd596ab1d5b76f91f89a6d97ed95b3"
+      }
+    },
+    {
+      "exerciseId": "10901",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/10901-male-anatomical-white-v2.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1799907,
+        "sha256": "bcb496114d05fa4bce1ff65568dec6c5b4b102e17032ef6b918867f4c05fb105"
+      }
+    },
+    {
+      "exerciseId": "10901",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/10901-female-anatomical-white-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1457062,
+        "sha256": "b4aed0d81e4876d09b223a8a02d06ac66eea728710dd20791c979df56a875028"
+      }
+    }
+  ]
+}

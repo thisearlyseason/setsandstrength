@@ -1,0 +1,83 @@
+{
+  "batch": 43,
+  "trigger": "2026-11-01T09:50:43.734Z",
+  "completedAt": "2026-11-01T09:58:46.652223+00:00",
+  "tool": "image_gen.imagegen",
+  "newCandidateSets": 4,
+  "generationCalls": 8,
+  "exerciseIds": [
+    "0274",
+    "4332"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 168,
+    "remainingVariants": 11096,
+    "approvedVariants": 0,
+    "blockedVariants": 73,
+    "knownPoseImages": 338,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "All pending and unpublished. Floor crunch uses two vertical rows; crunch hold one position. Four corrections improve anatomical detail and intact fabric overlays; original masters and exact prompts retained. Three active variants explicitly blocked for warm facial hue, elevated starting shoulders, or hold range/lumbar uncertainty. Female hold remains awaiting qualified review, not anatomy approved.",
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 272921659,
+  "savedMasters": [
+    {
+      "exerciseId": "0274",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0274-male-anatomical-white-v2.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1601728,
+        "sha256": "ccbe4be50c7d1f1a99ecdab16eb9f4e40a51f3c4f35ffac0b788da8141a0f569"
+      }
+    },
+    {
+      "exerciseId": "0274",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0274-female-anatomical-white-v2.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1628199,
+        "sha256": "3dd391ddabbff858372f891c5a1f6970ea2a4aa4c4b9f79ae45534bacb681b81"
+      }
+    },
+    {
+      "exerciseId": "4332",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/4332-male-anatomical-white-v2.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1801923,
+        "sha256": "816f10a06aea515424d04760327086fd751bbf6a45f0de2ea1b84eb3aad43989"
+      }
+    },
+    {
+      "exerciseId": "4332",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/4332-female-anatomical-white-v2.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1780631,
+        "sha256": "370812fe96ff907c8feedfdb948a9810e5a4f27493399651ff2197a51915b9ac"
+      }
+    }
+  ]
+}

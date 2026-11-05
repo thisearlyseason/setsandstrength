@@ -1,0 +1,85 @@
+{
+  "batch": 267,
+  "runId": "0260db74-54b3-484c-95c1-e4b5263e3e83",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "trigger": "2026-11-03T23:17:55.670Z",
+  "purpose": "batch267 scheduled male continuation",
+  "started": "2026-11-03T23:18:25.144793+00:00",
+  "completedAt": "2026-11-03T23:26:54.546153+00:00",
+  "actualToolName": "image_gen__imagegen",
+  "calls": 4,
+  "newCandidateSets": 4,
+  "exerciseIds": [
+    "2159",
+    "2161",
+    "2163",
+    "2164"
+  ],
+  "variants": [
+    "male"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 941,
+    "remainingVariants": 10323,
+    "approvedVariants": 0,
+    "blockedVariants": 302,
+    "knownPoseImages": 1779,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 568,
+      "remainingVariants": 5064,
+      "blockedVariants": 183
+    }
+  },
+  "reviewNotes": {
+    "2159": "Two distinct single-leg bridge positions with loop above thighs and planted working foot, free leg lifted. Head floats above floor in both poses; block for relaxed floor-supported head/neck. Starting pose lacks glute highlight and top overlay includes internal fiber-like marks through shorts; correct consistent plain tint. Qualified review of free-leg tracing, pelvic level and band contact.",
+    "2161": "Two standing kickback positions, hands on chair back, ankle band connects both legs and working straight leg extends behind without obvious lumbar arch. Working glute plain overlay only in end pose; starting highlight absent and requires consistency correction. Qualified review of support stability, knee extension, pelvic control, range and band contact.",
+    "2163": "Prone torso on high bench with hands gripping edge, legs lower diagonally then rise in line with torso, ankle cuffs attached to floor-anchored band, longer at top. Both feet clear floor and glute tint on intact shorts. Qualified review of bench-edge pelvic support, band/anchor geometry, cervical extension, knee straightness, no lumbar arch and glute mapping.",
+    "2164": "Static forearm side plank with hips lifted clear floor, lower straight leg/outer shoe supporting and top straight leg lifted against thigh loop. Opposite hand on hip, pelvis largely stacked, full opaque clothing and abdominal teaching tint. Qualified review needed for knee-hip-shoulder line, elbow placement, head alignment, support-side versus upper-side abdominal mapping and band tension."
+  },
+  "blockingIssues": {
+    "2159": [
+      "Head floats off floor in both positions; correct relaxed head/neck support.",
+      "Starting glute highlight absent and top overlay includes internal fiber-like marks through shorts; use consistent plain fabric tint."
+    ],
+    "2161": [
+      "Starting working-glute highlight absent; maintain consistent primary-muscle teaching tint across poses."
+    ]
+  },
+  "deferred": {
+    "2162": "Knee-drive plank primary quads mapping needs qualified clarification before highlight planning."
+  },
+  "tests": 7,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "workerSyncResult": {
+    "statuses": {
+      "generated": 941,
+      "pending": 10323
+    },
+    "remaining": 10323,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 1450085661
+  },
+  "publicationIndexUnchanged": true,
+  "savedMasters": [
+    "assets/exercise-illustrations/generated/2159-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/2161-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/2163-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/2164-male-anatomical-white-v1.png"
+  ]
+}

@@ -14,7 +14,7 @@ import { liftLegacy } from '../lib/sync-legacy.js'
 import { mergeStates, localExtras, stampChange, highestStamp, stampRestore, stampReplace, inUnitOf, keepReset, resetIdsOf, mergeResetIds, entryKey } from '../lib/sync-merge.js'
 import { convertStateUnit } from '../lib/units.js'
 import { pendingRefCount, settleMedia, loadPending } from '../lib/media-owed.js'
-import { referencedHashes } from '../lib/media-refs.js'
+import { referencedHashes, localReferencedHashes } from '../lib/media-refs.js'
 import { mediaStore, mediaStoreInUse } from '../lib/media-store.js'
 import { countChanges, syncFingerprint } from '../lib/sync-changes.js'
 import { saveWorkoutEdit, deleteEditedWorkout } from '../lib/session-edit.js'
@@ -343,7 +343,7 @@ function loadState() {
 // weigh-ins and custom exercises. A custom exercise is all a new guest may have made — with its
 // photo or video, which the server counts as unreferenced until the state that names it lands —
 // so a profile created from such a copy takes it at once, like one holding a workout.
-const hasData = st => !!((st.workouts || []).length || (st.routines || []).length || (st.bodyweight || []).length || (st.customEx || []).length || (st.measurements || []).length || Object.values(st.exAliases || {}).some(v => Array.isArray(v) && v.length))
+const hasData = st => !!((st.workouts || []).length || (st.routines || []).length || (st.bodyweight || []).length || (st.customEx || []).length || (st.measurements || []).length || (st.progressPhotos || []).length || Object.values(st.exAliases || {}).some(v => Array.isArray(v) && v.length) || Object.keys(st.exerciseIdAliases || {}).length)
 
 // Decide whether a pulled account state may replace the local saved state. A local active workout
 // is deliberately carried forward: the server stores completed/saved state, while the in-progress
@@ -471,7 +471,7 @@ export const useStore = create((set, get) => {
        'local'   no server: a phone in local mode, a guest, nobody signed in
        'auth'    the server refuses this device (a 401), or the phone has lost its pairing
        'offline' the server could not be reached at all (no network, DNS, a timeout)
-       'error'   it answered with a failure: 5xx, 403, 413, a page that is not openGym's
+       'error'   it answered with a failure: 5xx, 403, 413, a page that is not sets&strength's
        'held'    signed in, but the question about this device's own entries is still open
        'pending' reachable, and a change is still waiting to reach it
        'ok'      this device holds what the server holds
@@ -518,6 +518,7 @@ export const useStore = create((set, get) => {
   // subpath (#238) in a browser. null on a phone without one — local mode, or a pairing lost
   // under an earlier version, which kept no address.
   const serverBase = () => {
+    if (import.meta.env.VITE_WORKOUT === '1') return import.meta.env.VITE_SUPABASE_URL || null
     if (MOBILE) return pairedBase
     try { return location.origin && location.origin !== 'null' ? location.origin + appBase().replace(/\/$/, '') : null } catch { return null }
   }
@@ -1025,7 +1026,7 @@ export const useStore = create((set, get) => {
     if (hadMedia || mediaStoreInUse()) {
       const since = Date.now()
       Promise.resolve(wiped).then(() => readStashes())
-        .then(all => mediaStore.retainOnly(new Set(Object.values(all).flatMap(e => [...referencedHashes(e?.state)])), { keepPutAfter: since }))
+        .then(all => mediaStore.retainOnly(new Set([...localReferencedHashes(get().S), ...Object.values(all).flatMap(e => [...localReferencedHashes(e?.state)])]), { keepPutAfter: since }))
         .catch(() => {})
     }
     return wiped
@@ -1073,19 +1074,21 @@ export const useStore = create((set, get) => {
     // Still signed in (an account switch on a live session): its server has the copy, so only
     // what it owes and a running workout are kept, as before.
     const live = get().user?.id === uid
-    if (live && !(owesOwn() && hasData(S)) && !pendingRefCount(S) && !S.active) return
+    const clean = live && !(owesOwn() && hasData(S)) && !pendingRefCount(S) && !S.active
+    if (clean && !(S.progressPhotos || []).length) return
     const server = serverBase()
     const key = stashKey(server, uid)
     let all = {}
     try { all = JSON.parse(localStorage.getItem(STASH_KEY)) || {} } catch { /* none */ }
     const prev = all[key]?.state
-    const state = prev ? mergeStates(S, prev) : clone(S)
+    const localPhotosOnly = clean && (!all[key] || all[key].localPhotosOnly)
+    const state = localPhotosOnly ? Object.assign(clone(DEF), { _ts: 0, progressPhotos: clone(S.progressPhotos) }) : prev ? mergeStates(S, prev) : clone(S)
     state.active = carryActive(S, state) || carryActive(prev, state) || null
     // The name comes from beside the owner when the account is no longer signed in here (its
     // session ended), so the screens say whose changes these are rather than an id.
     let name = get().user?.id === uid ? get().user.name || '' : ''
     if (!name) { try { name = localStorage.getItem('gym_owner_name') || '' } catch { /* the id then */ } }
-    const entry = { server: server || null, uid, name, at: Date.now(), state }
+    const entry = { server: server || null, uid, name, at: Date.now(), state, ...(localPhotosOnly ? { localPhotosOnly: true } : {}) }
     all[key] = entry
     // A second full copy beside the first may not fit (a profile near the size limit): the copy
     // in storage is wiped next anyway, so it makes the room.
@@ -1117,20 +1120,30 @@ export const useStore = create((set, get) => {
     return writeStashes(all)
   }
   // A workout running here is never on the server (a push leaves `active` out), so a sign-out
-  // with nothing owed used to wipe it. It is kept aside the way owed changes are, on its own:
+  // with nothing owed used to wipe it. It and local-only progress photos are kept aside:
   // the rest of the copy is the server's already, and a shared device keeps no more of the
   // account than it has to. It comes back on the next sign-in here as this account (applyStash).
-  const stashActive = async () => {
+  const stashDeviceOnly = async () => {
     const user = get().user
-    const a = get().S.active
-    if (!user || !a) return true
+    const S = get().S
+    const a = S.active
+    const photos = Array.isArray(S.progressPhotos) ? S.progressPhotos : []
+    if (!user) return true
     const all = await readStashes()
     const server = serverBase()
     const key = stashKey(server, user.id)
+    if (!a && !photos.length) {
+      if (all[key]?.localPhotosOnly) { delete all[key]; return writeStashes(all) }
+      return true
+    }
+    const localPhotosOnly = !a && (!all[key] || all[key].localPhotosOnly)
     const prev = all[key]?.state
-    const state = prev ? clone(prev) : Object.assign(clone(DEF), { _ts: 0, unit: get().S.unit || 'kg' })
-    state.active = clone(carryActive(get().S, state))
-    all[key] = { server: server || null, uid: user.id, name: user.name || '', at: Date.now(), state }
+    const state = prev ? clone(prev) : Object.assign(clone(DEF), { _ts: 0, unit: S.unit || 'kg' })
+    if (a) state.active = clone(carryActive(S, state))
+    // Progress-photo bytes never go to the server. Their account-scoped references must
+    // outlive a clean sign-out too, so retainOnly can keep the only copy on this device.
+    state.progressPhotos = clone(photos)
+    all[key] = { server: server || null, uid: user.id, name: user.name || '', at: Date.now(), state, ...(localPhotosOnly ? { localPhotosOnly: true } : {}) }
     return writeStashes(all)
   }
   // A sign-out ends the rest and the hold running on this device: the countdown must not go on
@@ -1151,20 +1164,35 @@ export const useStore = create((set, get) => {
     const user = get().user
     if (!user) return
     const all = await readStashes()
-    const exact = stashKey(serverBase(), user.id)
+    const server = serverBase()
+    const exact = stashKey(server, user.id)
+    const currentOwner = () => get().user?.id === user.id && serverBase() === server
+    if (!currentOwner()) return
     const keys = Object.keys(all).filter(k => k === exact || (all[k]?.uid === user.id && !all[k]?.server))
     if (!keys.length) return
+    const changes = keys.filter(k => !all[k].localPhotosOnly)
+    // A photo-only entry retains bytes while signed out; it is not an unsent account edit.
+    // The freshly pulled profile owns its metadata, including deletions on another device.
+    if (!changes.length) {
+      if (MOBILE) await nativePersist(true)
+      if (!currentOwner()) return
+      for (const k of keys) delete all[k]
+      await writeStashes(all)
+      return
+    }
     const S = get().S
     let merged = S
-    for (const k of keys) merged = all[k].adopt ? mergeStates(merged, all[k].state, { prefer: 'a' }) : mergeStates(merged, all[k].state)
+    for (const k of changes) merged = all[k].adopt ? mergeStates(merged, all[k].state, { prefer: 'a' }) : mergeStates(merged, all[k].state)
     merged = Object.assign(clone(DEF), merged)
     // A kept running workout comes back in the unit of the copy it joins: the account may have
     // switched to lb (converting every weight) since it was kept in kg.
-    merged.active = S.active || keys.map(k => carryActive(all[k].state, merged)).find(Boolean) || null
+    merged.active = S.active || changes.map(k => carryActive(all[k].state, merged)).find(Boolean) || null
     persist(merged, false)
     markOwed(true)
     if (MOBILE) await nativePersist(true)   // the durable copy holds it before the stash goes
+    if (!currentOwner()) return
     await get().pushState()
+    if (!currentOwner()) return
     for (const k of keys) delete all[k]
     await writeStashes(all)
   }
@@ -1205,7 +1233,7 @@ export const useStore = create((set, get) => {
     reached()
     let asked = false
     const askAbout = async extras => {
-      if (!(extras.workouts || extras.bodyweight || extras.customEx || extras.routines || extras.setup) || typeof ask !== 'function') return false
+      if (!(extras.workouts || extras.bodyweight || extras.customEx || extras.routines || extras.setup || extras.progressPhotos) || typeof ask !== 'function') return false
       asked = true
       return !!(await ask(extras))
     }
@@ -1302,7 +1330,7 @@ export const useStore = create((set, get) => {
   // A copy's workouts, weigh-ins and custom exercises split by the names a sign-in recorded when it
   // began (`pre`, see setUser): `before` holds what was there then, `later` — null when nothing
   // is — what was logged since, with the custom exercises its workouts use, in this copy's unit.
-  const ADOPT_FIELDS = ['workouts', 'bodyweight', 'customEx']
+  const ADOPT_FIELDS = ['workouts', 'bodyweight', 'customEx', 'progressPhotos']
   const splitByPre = (S, pre) => {
     const before = { ...S }
     const later = { _ts: S._ts, unit: S.unit, ...(S.unitSet ? { unitSet: S.unitSet } : {}) }
@@ -1787,7 +1815,7 @@ export const useStore = create((set, get) => {
     keptRev: 0,
     async keptChanges() {
       const all = await readStashes()
-      return Object.values(all).map(({ server, uid, name, at }) => ({ server: server || null, uid, name, at }))
+      return Object.values(all).filter(e => !e.localPhotosOnly).map(({ server, uid, name, at }) => ({ server: server || null, uid, name, at }))
     },
     // The copy kept for one account (keptChanges' server and uid), to save as a backup file.
     async keptState(server, uid) {
@@ -1796,9 +1824,9 @@ export const useStore = create((set, get) => {
     },
     // Every photo and video file the stashes refer to: they are kept on this device for as long
     // as the stash is (lib/media-sync.js localMediaGc, Reset everything).
-    async stashedMediaHashes() {
+    async stashedMediaHashes({ localOnly = false } = {}) {
       const all = await readStashes()
-      return new Set(Object.values(all).flatMap(e => [...referencedHashes(e?.state)]))
+      return new Set(Object.values(all).flatMap(e => [...localReferencedHashes(localOnly ? { progressPhotos: e?.state?.progressPhotos } : e?.state)]))
     },
 
     // Sign-in (and pairing a phone) takes the server's profile as this device's copy — the
@@ -1854,14 +1882,14 @@ export const useStore = create((set, get) => {
        device (stashOwed) and comes back when it next reaches this server as this account. If
        even that cannot be written, nothing is wiped ({ owed, count, stashed: false }).
        Otherwise { owed: false } or { owed: true, count, stashed: true }, signed out. A workout
-       running here is kept aside either way (stashActive), and the rest and hold timers stop. */
+       running here and local-only photos are kept aside (stashDeviceOnly), and the rest and hold timers stop. */
     async signOut({ force = false } = {}) {
       await settle()
       const left = get().unsyncedChanges()
       if (left.owed && !force) return owedResult(left)
       await stopTimers()
       if (left.owed && !(await stashOwed())) return owedResult(left, { stashed: false })
-      if (!left.owed && !(await stashActive())) return { owed: true, count: 0, stashed: false }
+      if (!left.owed && !(await stashDeviceOnly())) return { owed: true, count: 0, stashed: false }
       // The device is signed out either way. A request that did not get through leaves the cookie
       // behind, still valid, so the logout is owed until the server answers it (see boot).
       try { await api('/api/logout', { method: 'POST', body: '{}' }) } catch (e) { if (!MOBILE) logoutOwed(true) }
@@ -1921,7 +1949,7 @@ export const useStore = create((set, get) => {
       await stopTimers()
       await api('/api/logout/all', { method: 'POST', body: '{}' })
       if (left.owed && !(await stashOwed())) return owedResult(left, { stashed: false })
-      if (!left.owed && !(await stashActive())) return { owed: true, count: 0, stashed: false }
+      if (!left.owed && !(await stashDeviceOnly())) return { owed: true, count: 0, stashed: false }
       await clearLocalSession()
       return left.owed ? owedResult(left, { stashed: true }) : { owed: false }
     },
@@ -1966,7 +1994,8 @@ export const useStore = create((set, get) => {
       // localStorage may have been evicted since the last run) and go straight in. Unless this
       // device was paired to a server ("connect to my server" mode, lib/remote.js), in which
       // case it behaves exactly like the signed-in web flow below, straight from here.
-      if (MOBILE) {
+      if (MOBILE && import.meta.env.VITE_WORKOUT === '1' && get().user) await restoreFromMirror({ user: get().user })
+      if (MOBILE && import.meta.env.VITE_WORKOUT !== '1') {
         const remote = await loadRemote()
         // Before the first request: a server behind Cloudflare Access answers nothing without it.
         await loadCfAccess({ pairedBase: remote?.mode === 'remote' ? remote.base : '' })
@@ -2067,6 +2096,7 @@ export const useStore = create((set, get) => {
       try {
         const me = await api('/api/me')
         if (!me.user?.id) throw Object.assign(new Error('no user'), { status: 200, code: 'bad-response' })
+        if (MOBILE && import.meta.env.VITE_WORKOUT === '1') await restoreFromMirror({ user: me.user })
         get().setUser(me.user)
         // Re-stamp the reminder's timezone on every load — keeps it correct if you're travelling,
         // without needing to revisit Settings.

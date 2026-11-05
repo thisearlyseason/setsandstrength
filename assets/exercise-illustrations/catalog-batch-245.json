@@ -1,0 +1,294 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "1877",
+      "variant": "male",
+      "key": "1877-male-anatomical-white-v1",
+      "layout": {
+        "columns": 1,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand with your feet wide. Bend one knee and shift your hips toward that side while keeping the other leg straight and its foot flat. Hold for 20\u201330 seconds, then switch sides."
+        }
+      ],
+      "prompt": "STANDING HIP OUT ADDUCTOR STRETCH. ONE full-body static FRONT three-quarter view. Feet wide stance both flat toes forward, bend LEFT knee and shift body/hips LEFT (imageRIGHT). RIGHT leg remains STRAIGHT extended sideways, right foot flat, torso tall modest hiphinge. Hands lightly on bent left thigh, no pressure on knee joint. Highlight ONLY straight RIGHT inner-thigh ADDUCTORS RED exposed BELOW mid-thigh shorts hem with muscle detail retained; if covered upperadductors use soft plain teaching tint on intactshorts, no cutaway. Bentlegallgray no chestred. Coherent face chest pelviskneesfeet orientation. Hold20-30seconds. Use case: scientific-educational. Premium detailed ADULT MALE grayscale anatomical illustration matching original reference for rendering STYLE ONLY, ignore its pose and highlights. Realistic proportions, crisp exposed grayscale muscle contours, white background soft shadows. Full opaque BLACK athletic tank and mid-thigh shorts wrap front sides back seat crotch, seams hems folds; no transparency cutaways or anatomy visible through fabric. Red highlight over fabric must be a FLAT UNIFORM SOFT RED ELLIPSE teaching tint with no internal lines fibers rays or lobes; fabric folds retained. Black shoes. No text labels arrows captions logos. All limbs fingers feet and equipment entirely in frame with generous margins. Same person camera lighting and scale across poses.",
+      "inspectionNote": "Real output inspected. Standing adductor stretch: wide stance, one bent knee and straight opposite leg with inner-thigh red highlight. Coherent torso/pelvis orientation and feet grounded. Qualified review needed for hip shift, knee tracking, straight-leg adductor mapping and foot angle. Detailed grayscale rendering, white background and full opaque tank/shorts retained. Original project artwork style only, no upstream media. Exact prompt and original saved. Human anatomy review pending; no approval or publication.",
+      "canonicalName": "standing hip out aductor stretch",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "adductors"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Standing adductor stretch: wide stance, one bent knee and straight opposite leg with inner-thigh red highlight. Coherent torso/pelvis orientation and feet grounded. Qualified review needed for hip shift, knee tracking, straight-leg adductor mapping and foot angle. Detailed grayscale rendering, white background and full opaque tank/shorts retained. Original project artwork style only, no upstream media. Exact prompt and original saved. Human anatomy review pending; no approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/1877-male-anatomical-white-v1-p1-bcf3e34b96ca.webp",
+          "width": 1200,
+          "height": 800,
+          "bytes": 26162,
+          "sha256": "bcf3e34b96cada729ed1bf95162ea5f9a6137c48cc944456e16f1963eaca8b5a"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-245.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/1877-male-anatomical-white-v1-thumb-10461b6cc0fb.webp",
+        "width": 240,
+        "height": 160,
+        "bytes": 2068,
+        "sha256": "10461b6cc0fb8968c560272ad2e5efd679598acf891508c123446078c6ff4064"
+      },
+      "processingSignature": "e34ae7ab66a0120cc801b4c9625e5380357f50fb562badd45b06d4afa2ccf7bc",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1877-male-anatomical-white-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1342703,
+        "sha256": "6877dca8b1efcf6ede4dd62bf723ed0b71f3e318fce7a100df91bbc9e58288d6"
+      }
+    },
+    {
+      "exerciseId": "1879",
+      "variant": "male",
+      "key": "1879-male-anatomical-white-v1",
+      "layout": {
+        "columns": 1,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Place one heel on a stable bench or step with the knee slightly bent. Keep your chest tall and hinge gently at your hips. Hold for 20\u201330 seconds, then switch sides."
+        }
+      ],
+      "prompt": "STANDING LEG RESTING HIP STRETCH. ONE full-body SIDE three-quarter view. Stand facing sturdy low gray bench. RIGHT heel on bench top knee gently bent20degrees toesup, LEFT foot flat onfloor supports body. Hinge forward gently at HIPS with long flat back chest tall, hands resting lightly on raised right thigh above knee, pelvis square, no twisting or roundedcollapse. Primary RIGHT GLUTE only soft uniform RED teaching ellipse over intact black shorts rightposteriorhip/seat, NO hamstringred no chestred. Fullbenchbodyfeet handsmargins. Hold20-30seconds. Use case: scientific-educational. Premium detailed ADULT MALE grayscale anatomical illustration matching original reference for rendering STYLE ONLY, ignore its pose and highlights. Realistic proportions, crisp exposed grayscale muscle contours, white background soft shadows. Full opaque BLACK athletic tank and mid-thigh shorts wrap front sides back seat crotch, seams hems folds; no transparency cutaways or anatomy visible through fabric. Red highlight over fabric must be a FLAT UNIFORM SOFT RED ELLIPSE teaching tint with no internal lines fibers rays or lobes; fabric folds retained. Black shoes. No text labels arrows captions logos. All limbs fingers feet and equipment entirely in frame with generous margins. Same person camera lighting and scale across poses.",
+      "inspectionNote": "Real output inspected. Heel-on-bench hip stretch with gently bent elevated leg and tall hip hinge. BLOCKED: glute overlay appears on grounded-leg hip instead of elevated/stretching leg. Correct highlight laterality; qualified muscle-target mapping also required. Detailed grayscale rendering, white background and full opaque tank/shorts retained. Original project artwork style only, no upstream media. Exact prompt and original saved. Human anatomy review pending; no approval or publication.",
+      "blockingIssues": [
+        "Glute highlight appears on grounded leg rather than raised/stretching leg; correct laterality."
+      ],
+      "canonicalName": "standing leg resting hip stretch",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "glutes"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Heel-on-bench hip stretch with gently bent elevated leg and tall hip hinge. BLOCKED: glute overlay appears on grounded-leg hip instead of elevated/stretching leg. Correct highlight laterality; qualified muscle-target mapping also required. Detailed grayscale rendering, white background and full opaque tank/shorts retained. Original project artwork style only, no upstream media. Exact prompt and original saved. Human anatomy review pending; no approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/1879-male-anatomical-white-v1-p1-b96b3184b4b7.webp",
+          "width": 1200,
+          "height": 800,
+          "bytes": 29180,
+          "sha256": "b96b3184b4b70852cdd7ab7ac109cd9ec2e928f06b5ae760cfe5ae459bad3a3c"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-245.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/1879-male-anatomical-white-v1-thumb-37ed2a7ed51d.webp",
+        "width": 240,
+        "height": 160,
+        "bytes": 2218,
+        "sha256": "37ed2a7ed51d7556b36384ec365fd802120bbd1999a625e97250084a6866af65"
+      },
+      "processingSignature": "de39dc733687c69eb3e0297f2c7fe5bf80bdf51a135dcb9c14b7a42350fb09f3",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1879-male-anatomical-white-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1344715,
+        "sha256": "c3c06eb72d4b6f85fb17e46848f4a34d324ea3676d7bbc11bd9660379cefff22"
+      }
+    },
+    {
+      "exerciseId": "1885",
+      "variant": "male",
+      "key": "1885-male-anatomical-white-v1",
+      "layout": {
+        "columns": 1,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Place the ball of one foot against a wall with that heel on the floor. Gently lean your hips toward the wall. Hold for 20\u201330 seconds, then switch feet."
+        }
+      ],
+      "prompt": "STANDING TOE UP ACHILLES STRETCH. ONE full-body SIDE three-quarter view facing gray wall. RIGHT foot forward, RIGHT HEEL planted onfloor at wall base, RIGHT forefoot BALL againstwall toespointUP with ankle dorsiflexed. LEFT foot halfstepbehind flat forbalance. Bothpalms light wallcontact chestheight. Lean HIPS gently towardwall feetremainfixed, rightknee soft nearstraight. Primary exposed RIGHT CALF only RED musclecontours retained; leftcalf and allother muscles grayscale, tankplainblack. Camera clearlyshows toe-upfootwallcontact AND rightheel floorcontact, no footfloating, no heelraised. Hold20-30seconds. Use case: scientific-educational. Premium detailed ADULT MALE grayscale anatomical illustration matching original reference for rendering STYLE ONLY, ignore its pose and highlights. Realistic proportions, crisp exposed grayscale muscle contours, white background soft shadows. Full opaque BLACK athletic tank and mid-thigh shorts wrap front sides back seat crotch, seams hems folds; no transparency cutaways or anatomy visible through fabric. Red highlight over fabric must be a FLAT UNIFORM SOFT RED ELLIPSE teaching tint with no internal lines fibers rays or lobes; fabric folds retained. Black shoes. No text labels arrows captions logos. All limbs fingers feet and equipment entirely in frame with generous margins. Same person camera lighting and scale across poses.",
+      "inspectionNote": "Real output inspected. Toe-up wall stretch shows forward forefoot against wall with heel at floor, stable rear leg and palm support. BLOCKED: red highlight is on anterior shin rather than posterior calf. Correct muscle highlight mapping. Detailed grayscale rendering, white background and full opaque tank/shorts retained. Original project artwork style only, no upstream media. Exact prompt and original saved. Human anatomy review pending; no approval or publication.",
+      "blockingIssues": [
+        "Anterior shin highlighted rather than posterior calf; correct muscle mapping."
+      ],
+      "canonicalName": "standing toe up achilles stretch",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "calves"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Toe-up wall stretch shows forward forefoot against wall with heel at floor, stable rear leg and palm support. BLOCKED: red highlight is on anterior shin rather than posterior calf. Correct muscle highlight mapping. Detailed grayscale rendering, white background and full opaque tank/shorts retained. Original project artwork style only, no upstream media. Exact prompt and original saved. Human anatomy review pending; no approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/1885-male-anatomical-white-v1-p1-0ae5e0f1d697.webp",
+          "width": 1200,
+          "height": 800,
+          "bytes": 25024,
+          "sha256": "0ae5e0f1d697bd58bd9e0cf3d8cd2657be668c28300b9798c83d0d597c6f6c4f"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-245.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/1885-male-anatomical-white-v1-thumb-de855cd515ee.webp",
+        "width": 240,
+        "height": 160,
+        "bytes": 1868,
+        "sha256": "de855cd515ee84660b03da1ed2b242d054a1ec4b4be4dd00c7533f61a7f22f9e"
+      },
+      "processingSignature": "ddf13dc94eeec3283eca440e422b562ce0cf3508ede7a22ba0b434cbee73711a",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1885-male-anatomical-white-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1345775,
+        "sha256": "6506b746976e9347a4732b0cd9181a7aa9ec1ff7d119bfb307b14429d76a89a7"
+      }
+    },
+    {
+      "exerciseId": "1886",
+      "variant": "male",
+      "key": "1886-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hold a rail and place the ball of one foot on a step edge. Gently lower that heel below the step with the knee straight; hold for 20\u201330 seconds."
+        },
+        {
+          "key": "p2",
+          "caption": "Repeat the comfortable heel-lowered hold with the working knee slightly bent. Keep the forefoot supported and use the rail for balance, then switch legs."
+        }
+      ],
+      "prompt": "SINGLE HEEL DROP ACHILLES STRETCH. TWO equal square cells side by side wide2:1 SAME SIDE three-quarterview, two STATIC HOLD ANGLES. Sturdy gray elevated step20cmheight with fixedrail. RIGHT balloffoot onSTEPEDGE toesgriptop, rightHEELhangsBEYONDedge and gentlyLOWERED BELOWstepheight. LEFT wholefoot remains onsteptop besideworkingfoot for partialsupport. LEFThandholdsrail steady rightarmrelaxed. LEFTcell RIGHT KNEE STRAIGHT comfortable heelbelowedge. RIGHTcell SAME FOOTCONTACT rightKNEE slightlyBENT15degrees heelstillbelowedge, torso upright pelvisneutral. Primary exposed RIGHT CALF only RED with muscledetail through tint, leftleggray, tankplainblack. Fullsteprailfeetbodywith12percentmargin eachcell nofootpenetratingstep. Use case: scientific-educational. Premium detailed ADULT MALE grayscale anatomical illustration matching original reference for rendering STYLE ONLY, ignore its pose and highlights. Realistic proportions, crisp exposed grayscale muscle contours, white background soft shadows. Full opaque BLACK athletic tank and mid-thigh shorts wrap front sides back seat crotch, seams hems folds; no transparency cutaways or anatomy visible through fabric. Red highlight over fabric must be a FLAT UNIFORM SOFT RED ELLIPSE teaching tint with no internal lines fibers rays or lobes; fabric folds retained. Black shoes. No text labels arrows captions logos. All limbs fingers feet and equipment entirely in frame with generous margins. Same person camera lighting and scale across poses.",
+      "inspectionNote": "Real output inspected. Two knee-angle heel-drop holds depicted with rail and step. BLOCKED: working shoe hangs toe-down off front edge without clearly supported forefoot or heel dropping below step; front-shin highlight instead of posterior calf. Correct step contact, dorsiflexion and red mapping. Detailed grayscale rendering, white background and full opaque tank/shorts retained. Original project artwork style only, no upstream media. Exact prompt and original saved. Human anatomy review pending; no approval or publication.",
+      "blockingIssues": [
+        "Working forefoot lacks clear support on step edge; foot points down rather than heel lowering below edge.",
+        "Anterior shin highlight instead of posterior calf."
+      ],
+      "canonicalName": "single heel drop achilles stretch",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "calves"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Two knee-angle heel-drop holds depicted with rail and step. BLOCKED: working shoe hangs toe-down off front edge without clearly supported forefoot or heel dropping below step; front-shin highlight instead of posterior calf. Correct step contact, dorsiflexion and red mapping. Detailed grayscale rendering, white background and full opaque tank/shorts retained. Original project artwork style only, no upstream media. Exact prompt and original saved. Human anatomy review pending; no approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/1886-male-anatomical-white-v1-p1-dfe66a2706f4.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 28818,
+          "sha256": "dfe66a2706f4e75850caa4c4315a3c5782f7c80ace7030b1bc0af8eb85ba3e1f"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/1886-male-anatomical-white-v1-p2-cf33caa3489b.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 29796,
+          "sha256": "cf33caa3489b65eaf1066ca16ba7d307fad6a295711554f7056f960ae3abbbd1"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-245.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/1886-male-anatomical-white-v1-thumb-cf42f5d951b1.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2814,
+        "sha256": "cf42f5d951b195b3b10517293b05a1857ef943612705788bc78f20431ec05ec3"
+      },
+      "processingSignature": "19a80f045004d10e9f4c6a3068a926a4ba443fe044eb729a7c5d3fdde29b1aee",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1886-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1389782,
+        "sha256": "5fdaff55594ac189af1302f834816a8c38800eeb6eabf51cca4ffcfe05bb571e"
+      }
+    }
+  ]
+}

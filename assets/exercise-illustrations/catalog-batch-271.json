@@ -1,0 +1,341 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "2267",
+      "variant": "male",
+      "key": "2267-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Sit with your back against the pad and feet shoulder-width apart on the platform. Begin with knees bent."
+        },
+        {
+          "key": "p2",
+          "caption": "Press the platform forward until the legs are nearly straight without locking the knees. Bend the knees slowly to return."
+        }
+      ],
+      "prompt": "LEVER SEATED LEG PRESS. TWOequalcells sidebyside SAME SIDEthreequartercamera. RealisticGRAY HORIZONTAL seatedlegpress fixedUPRIGHTreclinedBACKREST paddedSEATatLEFT, largeFOOTPLATFORM inFRONTright attachedPIVOTEDLEVER connectedgrayWEIGHTSTACK withstablebase. MaleBACKandPELVISpad BOTHposes handsSEATsidehandles. BOTHFEET shoulderwidthflatMIDDLEplatform toesoutslight. LEFTstartKNEESBENT90 platformNEAR. RIGHTpushplatformFORWARD awaybody LEGSnearSTRAIGHTkneessoft, toesheelFLATplatformcontact, platformMOVESwithlever whileSEATstaysfixed. No45degreesledrails. PrimaryQUADS uniformsoftredellipse intactshortsfrontthigh. Entiremachinepadfeetframe. Premium detailed adult MALE grayscale anatomical illustration matching original project reference rendering STYLE ONLY, ignore reference pose/red chest. Pure white background soft shadows realistic proportions crisp detailed exposed gray muscle contours. Opaque BLACK tank and mid-thigh shorts fully wrap front sides back seat crotch with seams hems folds. No cutaways transparency or anatomy through fabric. Red over clothing PLAIN UNIFORM SOFT teaching ellipse NO internal fibers rays lobes segmentation, fabric folds retained. ONLY stated primary red no unrelated chest. Black shoes. Normal two arms hands five fingers two legs feet. All equipment body hands feet within each cell generous margins. No text arrows logos.",
+      "inspectionNote": "Real output inspected. Distinct bent/extended horizontal lever leg-press positions, back/pelvis supported, feet flat on moving platform and hands on handles. Quad highlights show fiber-like internal lines through shorts; block for plain teaching tint. Qualified review of knee soft lockout, platform/lever linkage, foot placement, lumbar support and muscle mapping. Human anatomy review remains pending; no approval or publication.",
+      "blockingIssues": [
+        "Fiber-like internal lines through shorts in quad highlight; replace with plain teaching tint on intact fabric."
+      ],
+      "canonicalName": "lever seated leg press",
+      "styleVersion": "white-v1",
+      "equipment": "leverage machine",
+      "primaryMuscles": [
+        "quads"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Distinct bent/extended horizontal lever leg-press positions, back/pelvis supported, feet flat on moving platform and hands on handles. Quad highlights show fiber-like internal lines through shorts; block for plain teaching tint. Qualified review of knee soft lockout, platform/lever linkage, foot placement, lumbar support and muscle mapping. Human anatomy review remains pending; no approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2267-male-anatomical-white-v1-p1-88d26eb72dd0.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 59700,
+          "sha256": "88d26eb72dd04d6ebbd7ef4907c1d0a2fa721b46da3c0754251a40fbd5242208"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/2267-male-anatomical-white-v1-p2-d3959b60635f.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 58720,
+          "sha256": "d3959b60635f5fe605637977126c136b0bb398ba315c96be3cad7084261f7a52"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-271.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2267-male-anatomical-white-v1-thumb-a0af01e47831.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 6060,
+        "sha256": "a0af01e47831767aa17587128968d01f6586110d556106c37af1d941076acedc"
+      },
+      "processingSignature": "ab77666ed9b4005dc4e4496f9e28b58af90665d68cbce7a155c1bfb8759d4f2e",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2267-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1821869,
+        "sha256": "68c3cd4308ea3da85be1fbb5de083c91f6c9a2492b71437bc7344670e979eff5"
+      }
+    },
+    {
+      "exerciseId": "2268",
+      "variant": "male",
+      "key": "2268-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Sit with feet braced and both hands on the machine pads. Brace your abs in the upright starting position."
+        },
+        {
+          "key": "p2",
+          "caption": "Curl the ribs toward the pelvis to bring your torso and pads forward. Pause briefly, then return slowly."
+        }
+      ],
+      "prompt": "LEVER SEATED CRUNCH HANDS PAD. TWOequalcells sidebyside SAME SIDEthreequartercamera. RealisticGRAYABCRUNCHmachine stableSEAT fixedFOOTBRACES BACKREST start, broadgrayMOVINGHANDPADinFRONTupperchest connectedPIVOTEDLEVERsideofmachine toWEIGHTSTACK. MaleSEATEDpelvisseatfeetbraced fixedpositions BOTHHANDS PRESSONTOPOFhandPAD fingersrelaxed wristsneutral elbowsbent. LEFTstartTORSOUPRIGHT padHIGHjustbelowshoulders. RIGHT CURLRIBSTOWARDPELVISspineFLEXES30degrees upperbodyforwardDOWN headinlinechinsoft handsfollowPADDOWNandFORWARD leverROTATES, hipsnotstandup andno pullingbehindneck. PrimaryABS only uniformsoftREDellipse intacttankfrontabdomen. Fullmachinebodyframe. Premium detailed adult MALE grayscale anatomical illustration matching original project reference rendering STYLE ONLY, ignore reference pose/red chest. Pure white background soft shadows realistic proportions crisp detailed exposed gray muscle contours. Opaque BLACK tank and mid-thigh shorts fully wrap front sides back seat crotch with seams hems folds. No cutaways transparency or anatomy through fabric. Red over clothing PLAIN UNIFORM SOFT teaching ellipse NO internal fibers rays lobes segmentation, fabric folds retained. ONLY stated primary red no unrelated chest. Black shoes. Normal two arms hands five fingers two legs feet. All equipment body hands feet within each cell generous margins. No text arrows logos.",
+      "inspectionNote": "Real output inspected. Seated upright then flexed-torso crunch with both hands pressing broad pad, feet braced and pelvis seated. Pad/lever moves downward and abdomen tint remains on intact tank. Qualified review of rib-to-pelvis flexion versus hip hinge, machine pivot/load linkage, neck alignment, hand anatomy and abdominal mapping. Human anatomy review remains pending; no approval or publication.",
+      "canonicalName": "lever seated crunch (hands pad)",
+      "styleVersion": "white-v1",
+      "equipment": "leverage machine",
+      "primaryMuscles": [
+        "abs"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Seated upright then flexed-torso crunch with both hands pressing broad pad, feet braced and pelvis seated. Pad/lever moves downward and abdomen tint remains on intact tank. Qualified review of rib-to-pelvis flexion versus hip hinge, machine pivot/load linkage, neck alignment, hand anatomy and abdominal mapping. Human anatomy review remains pending; no approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2268-male-anatomical-white-v1-p1-0e2b45f9ccc9.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 60494,
+          "sha256": "0e2b45f9ccc95b8ab600ae1a54491f0f66e4f7d384215cc115e79998c67f227a"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/2268-male-anatomical-white-v1-p2-33abddb16fdd.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 60584,
+          "sha256": "33abddb16fdde323a8ef4c747773dad6234100e85464a9b2751f921d600b785f"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-271.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2268-male-anatomical-white-v1-thumb-570fed50dfc6.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 6420,
+        "sha256": "570fed50dfc648d3ab63a860a5028f58663dc7dbe9499304c3015d7bc6828643"
+      },
+      "processingSignature": "d973b296c7aa36c0c4468420239250562b375eb49d25402eda0594a0e46b07d5",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2268-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1838921,
+        "sha256": "b1bda99adca7801284f8103a716da16946c5fb2ae05e55227a3aa06541aeabf6"
+      }
+    },
+    {
+      "exerciseId": "2269",
+      "variant": "male",
+      "key": "2269-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Kneel on a mat and grip the ab wheel in front of your knees. Brace your abs with a slight rounding of the lower back."
+        },
+        {
+          "key": "p2",
+          "caption": "Roll forward a short controlled distance without arching, then curl the ribs toward the hips to draw the wheel back toward your knees."
+        }
+      ],
+      "prompt": "AB ROLLER CRUNCH SHORT RANGE. TWOequalcells sidebyside SAME SIDEthreequarterfloorcamera. MaleKNEELINGgrayMAT kneeshipwidthfloor shinsbehind, BOTHHANDS gripshortAXLEHANDLES eachsideONEgrayABWHEEL onfloorINFRONTOFknees, wristsstraight. LEFTstartwheelnearKNEESbutinfront30cm elbowsnearlystraight shouldersabovewheel, hipsaboveknees spinegentlyroundedribsdown gazeDOWN. RIGHTrollFORWARD SHORT40cm wheelawayknees shouldersfollowforward kneesSTAYsamefloorpoints hipsstablemodestforwardshift notdeepfullrollout, elbowsstraightabsbraced no lumbararch. Showclearwheelpositiondifference, returnsbycurlribsTOPelvis. PrimaryABS uniformsoftREDellipse on intacttank front/lateralabdomen. Entirewheelhandskneesfeetframe. Premium detailed adult MALE grayscale anatomical illustration matching original project reference rendering STYLE ONLY, ignore reference pose/red chest. Pure white background soft shadows realistic proportions crisp detailed exposed gray muscle contours. Opaque BLACK tank and mid-thigh shorts fully wrap front sides back seat crotch with seams hems folds. No cutaways transparency or anatomy through fabric. Red over clothing PLAIN UNIFORM SOFT teaching ellipse NO internal fibers rays lobes segmentation, fabric folds retained. ONLY stated primary red no unrelated chest. Black shoes. Normal two arms hands five fingers two legs feet. All equipment body hands feet within each cell generous margins. No text arrows logos.",
+      "inspectionNote": "Real output inspected. Short kneeling ab-wheel movement with hands on axle handles, knees/shins supported and wheel farther forward in second pose, modest spinal rounding. Additional red chest patch beside abdominal tint is unrelated; block to remove chest highlight. Qualified review of short range, wheel grip, stable hips, lumbar control and abdominal mapping. Human anatomy review remains pending; no approval or publication.",
+      "blockingIssues": [
+        "Unrelated red chest patch; remove and retain abdominal teaching tint only."
+      ],
+      "canonicalName": "ab roller crunch",
+      "styleVersion": "white-v1",
+      "equipment": "wheel roller",
+      "primaryMuscles": [
+        "abs"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Short kneeling ab-wheel movement with hands on axle handles, knees/shins supported and wheel farther forward in second pose, modest spinal rounding. Additional red chest patch beside abdominal tint is unrelated; block to remove chest highlight. Qualified review of short range, wheel grip, stable hips, lumbar control and abdominal mapping. Human anatomy review remains pending; no approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2269-male-anatomical-white-v1-p1-7dce8178622d.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 41630,
+          "sha256": "7dce8178622d96f24f26910e8d38d9c4a2ba821a628b00e8647ed389612f449b"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/2269-male-anatomical-white-v1-p2-f2ab28bab18e.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 40880,
+          "sha256": "f2ab28bab18ec521629745e414aa176799493ec3eef4fb00d55cab5b1fc44aed"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-271.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2269-male-anatomical-white-v1-thumb-7049e72fe622.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 3842,
+        "sha256": "7049e72fe622aef0d56a8fa67537e5203aabac3a74926215e566d8bb2f6a3a0c"
+      },
+      "processingSignature": "e36e1330adfe037232cf11e630364244aa249c604c07e189d88a598ba1066ae2",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2269-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1760321,
+        "sha256": "23494d215e0722e8b22d09a52373c97c8d89c634785b166529242ae4a7718ea1"
+      }
+    },
+    {
+      "exerciseId": "2272",
+      "variant": "male",
+      "key": "2272-male-anatomical-white-v1",
+      "layout": {
+        "columns": 3,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand with the lead foot forward, knees soft and both hands guarding the chin."
+        },
+        {
+          "key": "p2",
+          "caption": "Extend the lead hand straight toward the target, rotating the fist palm down while the rear hand stays at your chin."
+        },
+        {
+          "key": "p3",
+          "caption": "Draw the lead hand quickly back to guard, keeping the chin tucked and stance balanced."
+        }
+      ],
+      "prompt": "BOXING JAB. THREEequalcells sidebyside WIDE3:1 SAME FRONTthreequartercamera. MaleORTHODOXSTANCE LEFTfootFORWARD RIGHTrearheelsoft kneesbent handsCLOSEDNORMALFISTS no gloves needed. LEFTcellGUARD BOTHfistsbesideCHIN chinTUCKED elbowsdown. MIDDLELEFTLEADarmPUNCHESSTRAIGHTFORWARD shoulderheight towardimaginarytarget, fistPRONATED PALMDOWN wristSTRAIGHT elbowsoftfullreach LEFTshoulderprotectschin RIGHTrearFIST staysbyCHIN, torsoonlygentleshiftnotHOOK. RIGHTcellLEFTfistSNAPSBACKtoGUARD bothhandsguard feetSAMEstance no swappedlegs. PrimaryLEFTexposedANTERIORDELTOID RED inallcells, otherbodygray chesttankblack. Entirefistsfeetframe. Premium detailed adult MALE grayscale anatomical illustration matching original project reference rendering STYLE ONLY, ignore reference pose/red chest. Pure white background soft shadows realistic proportions crisp detailed exposed gray muscle contours. Opaque BLACK tank and mid-thigh shorts fully wrap front sides back seat crotch with seams hems folds. No cutaways transparency or anatomy through fabric. Red over clothing PLAIN UNIFORM SOFT teaching ellipse NO internal fibers rays lobes segmentation, fabric folds retained. ONLY stated primary red no unrelated chest. Black shoes. Normal two arms hands five fingers two legs feet. All equipment body hands feet within each cell generous margins. No text arrows logos.",
+      "inspectionNote": "Real output inspected. Three poses show guard, straight punch and return with rear hand guarding. Guard gaze/stance faces image left but punch targets image right with unchanged feet; block for consistent target direction and lead-arm/lead-foot relationship. Deltoid highlight follows punching arm, full opaque clothing. Qualified review of fist pronation, wrist, chin protection and shoulder mapping. Human anatomy review remains pending; no approval or publication.",
+      "blockingIssues": [
+        "Guard and punch target directions differ with unchanged stance; correct consistent lead-foot/lead-arm orientation."
+      ],
+      "canonicalName": "boxing jab",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "delts"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Three poses show guard, straight punch and return with rear hand guarding. Guard gaze/stance faces image left but punch targets image right with unchanged feet; block for consistent target direction and lead-arm/lead-foot relationship. Deltoid highlight follows punching arm, full opaque clothing. Qualified review of fist pronation, wrist, chin protection and shoulder mapping. Human anatomy review remains pending; no approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2272-male-anatomical-white-v1-p1-612667a67f87.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 20068,
+          "sha256": "612667a67f8711db65dba1b718c772361b632889b4f31ae70cfa0bdff20f1130"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/2272-male-anatomical-white-v1-p2-aa1484aabdf0.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 21330,
+          "sha256": "aa1484aabdf0c18b82b5233cc78724915d5d573e9f8ff8b198d3c60fbf5af57f"
+        },
+        {
+          "pose": "p3",
+          "path": "/workout/illustration-pilot/2272-male-anatomical-white-v1-p3-e848e126f42f.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 20022,
+          "sha256": "e848e126f42f2f5a53b65e31a8ddae1ff7ccd37b8a7639528830c7f332ad53ee"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-271.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2272-male-anatomical-white-v1-thumb-438bd7e6e204.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2830,
+        "sha256": "438bd7e6e2044c6a904f1b3be1bb6fb6dc453a9060528b73fee21e08c654ce95"
+      },
+      "processingSignature": "7a68c19e0937e44e747f96abf56ea8ad95abe4eea0db4044d53ddd32cc3dd946",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2272-male-anatomical-white-v1.png",
+        "width": 2172,
+        "height": 724,
+        "bytes": 1415078,
+        "sha256": "314a0d35d576bcb163e7250cbb8de805bce30b2b8952b6c4b10e7b001c4621a6"
+      }
+    }
+  ]
+}

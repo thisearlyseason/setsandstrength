@@ -1,0 +1,81 @@
+{
+  "batch": 246,
+  "runId": "fe8a393d-ba11-40c3-b1e3-bd019b654634",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "trigger": "2026-11-03T19:51:22.535Z",
+  "purpose": "batch246 scheduled male continuation",
+  "started": "2026-11-03T19:51:46.111491+00:00",
+  "completedAt": "2026-11-03T19:59:04.873045+00:00",
+  "actualToolName": "image_gen__imagegen",
+  "calls": 4,
+  "newCandidateSets": 4,
+  "exerciseIds": [
+    "1887",
+    "1888",
+    "1889",
+    "1892"
+  ],
+  "variants": [
+    "male"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 857,
+    "remainingVariants": 10407,
+    "approvedVariants": 0,
+    "blockedVariants": 274,
+    "knownPoseImages": 1669,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 484,
+      "remainingVariants": 5148,
+      "blockedVariants": 155
+    }
+  },
+  "reviewNotes": {
+    "1887": "Straight rear-leg wall stretch: rear heel grounded, forward knee bent, palms on wall and red posterior calf rather than anterior shin. Qualified review needed for rear toe direction, hip squareness, heel contact and calf/Achilles highlight extent.",
+    "1888": "Wall Achilles stretch: heel grounded and posterior lower calf highlighted. BLOCKED: rear working knee appears essentially straight, rather than the distinct bent-knee soleus/Achilles position required. Correct back-knee flexion.",
+    "1889": "Seated toe-pull stretch: straight leg, towel around forefoot held with both hands, heel supported and toes toward shin. Posterior calf highlighted, torso/legs coherent. Qualified review needed for towel contact, comfortable dorsiflexion, knee extension and calf mapping.",
+    "1892": "Half-kneeling heel-down stretch: front heel and rear knee grounded, hands on front thigh, posterior lower-calf highlight. BLOCKED: front shin remains nearly vertical and knee stays well behind toes; show gentle forward knee-over-toe range with heel down as instructed."
+  },
+  "blockingIssues": {
+    "1888": [
+      "Rear working knee remains essentially straight; correct to visibly slight knee flexion for soleus/Achilles hold."
+    ],
+    "1892": [
+      "Front shin remains nearly vertical with knee behind toes instead of intended forward knee-over-toe range. Correct gentle forward shift while heel stays down."
+    ]
+  },
+  "tests": 7,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "workerSyncResult": {
+    "statuses": {
+      "generated": 857,
+      "pending": 10407
+    },
+    "remaining": 10407,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 1329603260
+  },
+  "publicationIndexUnchanged": true,
+  "savedMasters": [
+    "assets/exercise-illustrations/generated/1887-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/1888-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/1889-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/1892-male-anatomical-white-v1.png"
+  ]
+}

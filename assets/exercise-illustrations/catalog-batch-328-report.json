@@ -1,0 +1,75 @@
+{
+  "batch": 328,
+  "runId": "2a7579b3-954c-45ba-b8f3-ebdb6fee905c",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "trigger": "2026-11-04T09:02:29.678Z",
+  "purpose": "batch328 scheduled male continuation",
+  "started": "2026-11-04T09:03:08.337716+00:00",
+  "completedAt": "2026-11-04T09:07:44.628353+00:00",
+  "actualToolName": "image_gen__imagegen",
+  "calls": 2,
+  "newCandidateSets": 2,
+  "exerciseIds": [
+    "3145",
+    "3147"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1177,
+    "remainingVariants": 10087,
+    "approvedVariants": 0,
+    "blockedVariants": 423,
+    "knownPoseImages": 2297,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 804,
+      "remainingVariants": 4828,
+      "blockedVariants": 304
+    }
+  },
+  "reviewNotes": {
+    "3145": "High plank, lowered push-up and elevated protracted finish visible. Chest tint includes anatomical pectoral lobes through tank rather than uniform wash; block clothing overlay correction. Qualified scapular plus excursion, elbow angle and trunk alignment review pending.",
+    "3147": "Supine pelvic tilt phases with feet planted and hips on floor, abdomen plain wash on opaque tank. Head/neck hover above floor in both poses; block support correction. Qualified review of subtle posterior pelvic rotation and lumbar contact pending."
+  },
+  "blockingIssues": {
+    "3145": [
+      "Replace anatomical pectoral lobes through tank with plain uniform wash on intact opaque fabric."
+    ],
+    "3147": [
+      "Rest head and neck on floor throughout, remove unsupported hovering."
+    ]
+  },
+  "deferred": {
+    "3149/3150": "Levator scapulae primary mapping for chin tuck uncertain; qualified mapping clarification required.",
+    "3156/3162": "Bodyweight equipment/name conflicts with dumbbell instructions.",
+    "3158/3166": "Bodyweight row bar/handle anchor/resistance setup unspecified.",
+    "3161/3165": "Towel row anchor/resistance unspecified."
+  },
+  "stopReason": "Stopped at nearby technique/equipment uncertainties rather than guessing.",
+  "tests": 7,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "workerSyncResult": {
+    "statuses": {
+      "generated": 1177,
+      "pending": 10087
+    },
+    "remaining": 10087,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 1800637537
+  },
+  "publicationIndexUnchanged": true
+}

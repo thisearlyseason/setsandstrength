@@ -1,0 +1,110 @@
+{
+  "batch": 82,
+  "trigger": "2026-11-01T17:48:49.176Z",
+  "completedAt": "2026-11-01T18:10:07.385792+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 4,
+  "generationCalls": 7,
+  "exerciseIds": [
+    "0575",
+    "0576"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 340,
+    "remainingVariants": 10924,
+    "approvedVariants": 0,
+    "blockedVariants": 136,
+    "knownPoseImages": 698,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Four pending candidate sets; none approved or published. Seated lever curls show supinated grips, supported back, upper arms near torso and biceps highlights; male correction fails to connect near-side raised handle and remains blocked. Female correction visibly connects raised near-side grip, but full linkage/pivot continuity remains ambiguous and blocked for validation/correction. Original and attempted corrections retained. Seated lever chest presses have overhand chest-height grips, back/pelvis support, planted feet and bent-to-extended elbows. Male shirt correction replaces pectoral fibers with soft diffuse print on opaque fabric; female tint remains on intact cloth. Female press endpoint delivery crop visually checked. All retain opaque torso/seat/crotch clothing and detailed grayscale exposed anatomy. Qualified human anatomy, machine pivot/resistance geometry, grip/load and motion range review remain separate; pipeline checks do not constitute anatomical approval. Original project 0493 male artwork used only as rendering style reference, no upstream media. Three correction attempts retained with exact prompts, source masters and hashes.",
+  "metadataConflictsDeferred": [
+    {
+      "exerciseId": "0572",
+      "issue": "Chin-up title versus explicit overhand grip needs qualified grip variant review."
+    },
+    {
+      "exerciseId": "0574",
+      "issue": "Lever-machine title/description conflict with barbell equipment and free-bar instructions."
+    },
+    {
+      "exerciseId": "0577",
+      "issue": "Canonical name/instructions/muscle map identical to 0576; preserve stable ID and clarify variation before reuse."
+    },
+    {
+      "exerciseId": "0578",
+      "issue": "Deadlift hinge/stand description conflicts with seated back-pad/footplate instructions."
+    },
+    {
+      "exerciseId": "0579",
+      "issue": "Lat target conflicts with supplied upper-back primary muscle map."
+    },
+    {
+      "exerciseId": "0580",
+      "issue": "Gripless title/description conflicts with instructions to grasp handles."
+    }
+  ],
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 554344947,
+  "savedMasters": [
+    {
+      "exerciseId": "0575",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0575-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1845907,
+        "sha256": "0bb87a227fb1b8099678dcdfa49b760ee7182b0fe7ec966e32b8b27d5d71a93d"
+      }
+    },
+    {
+      "exerciseId": "0575",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0575-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1904346,
+        "sha256": "3c1b56e2f98b99d6b85e07f17ec725d09ce3fc7b97c7ac0ec22f30c1e455c9f5"
+      }
+    },
+    {
+      "exerciseId": "0576",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0576-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1863776,
+        "sha256": "af5735ef0cffebeeace0de45a9f5de07191e73d484d78c3210fe446de1659a91"
+      }
+    },
+    {
+      "exerciseId": "0576",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0576-female-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1925712,
+        "sha256": "dc189b4117995d17bd1cdbc6c1d477aa2084b8d107d495a8f5f23e6c729f5ad2"
+      }
+    }
+  ]
+}

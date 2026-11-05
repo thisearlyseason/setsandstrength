@@ -1,0 +1,59 @@
+{
+  "batch": 389,
+  "runId": "ec038cb9-9ac6-4e12-a386-c9054ac297e2",
+  "triggerTimestamp": "2026-11-04T18:07:01.904Z",
+  "builtInImageGenAvailable": true,
+  "anatomyReview": "pending",
+  "publication": "none",
+  "generatedIds": [
+    "3576"
+  ],
+  "failure": "Farmers carry repeats the same leading foot in both panels instead of alternating steps. Retained and blocked; generation stopped.",
+  "deferred": {
+    "3577": "Prompt saved; not generated after movement failure.",
+    "3578": "Not attempted this run.",
+    "3579": "Not attempted this run.",
+    "3580": "Prompt saved; not generated after movement failure.",
+    "3581": "Rear leg lift direction behind or beside requires choice clarification.",
+    "3582": "Not attempted this run."
+  },
+  "coverageAfter": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1387,
+    "remainingVariants": 9877,
+    "approvedVariants": 0,
+    "blockedVariants": 534,
+    "knownPoseImages": 2753,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 1014,
+      "remainingVariants": 4618,
+      "blockedVariants": 415
+    }
+  },
+  "paidWorker": {
+    "statuses": {
+      "generated": 1387,
+      "pending": 9877
+    },
+    "remaining": 9877,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 2107148761
+  },
+  "pipelineTests": "7 passed, 0 failed",
+  "approvedIndexUnchanged": true,
+  "existingUserApprovalsPreserved": 1306
+}

@@ -1,0 +1,114 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "0030",
+      "variant": "male",
+      "key": "0030-male-anatomical-white-v1",
+      "prompt": "CLOSE GRIP BARBELL BENCH PRESS. Two equal side-by-side panels SIDE three-quarter. Lie flat bench with head and back supported feet flat. ONE straight barbell with equal small plates and collars. OVERHAND grip slightly narrower than shoulder width, wrists straight. Panel1 bar directly above chest arms extended. Panel2 bar gently touches lower chest, elbows tucked close beside ribs and forearms vertical. No skull crusher, elbows flex downward beside trunk. Red exposed TRICEPS. Use case: scientific educational exercise illustration. Approved original 0853 reference for premium detailed grayscale anatomy rendering and character style ONLY. Do not copy its dumbbells, pose, grip or exercise. White background, soft floor shadows, realistic muscular adult male, same person, camera, scale and equipment across panels. Fully opaque black tank and mid-thigh black shorts wrap front, sides, back and crotch with realistic seams folds and hems. All clothing plain solid black, no cutaways, muscle fibers, anatomy or nipples over or through cloth. Red only on EXPOSED specified primary muscles. Entire body, feet, hands, chair and equipment fully inside each panel with generous margins. No words, labels, arrows or captions.",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Lie flat feet planted, grasp bar slightly narrower than shoulder width."
+        },
+        {
+          "key": "p2",
+          "caption": "Lower toward chest with elbows close, pause and press to straight arms."
+        }
+      ],
+      "inspectionNote": "Inspected original: Close-grip bench press shows extended arms and bar at chest, tucked elbows, complete bar and opaque clothing. Human anatomy review pending.",
+      "blockingIssues": [],
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream media used.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0853-male-anatomical-white-v1.png",
+        "role": "style only"
+      }
+    },
+    {
+      "exerciseId": "0055",
+      "variant": "male",
+      "key": "0055-male-anatomical-white-v1",
+      "prompt": "LYING CLOSE GRIP BARBELL PRESS. Two equal side-by-side panels SIDE three-quarter. Lie flat bench, feet grounded, head supported. ONE straight barbell symmetric plates collars. Hands shoulder width OVERHAND grip palms toward feet. Panel1 arms straight bar above chest. Panel2 lower bar to chest, elbows CLOSE to ribs, forearms vertical. Chest and shoulders stay covered opaque tank, red only exposed TRICEPS. Use case: scientific educational exercise illustration. Approved original 0853 reference for premium detailed grayscale anatomy rendering and character style ONLY. Do not copy its dumbbells, pose, grip or exercise. White background, soft floor shadows, realistic muscular adult male, same person, camera, scale and equipment across panels. Fully opaque black tank and mid-thigh black shorts wrap front, sides, back and crotch with realistic seams folds and hems. All clothing plain solid black, no cutaways, muscle fibers, anatomy or nipples over or through cloth. Red only on EXPOSED specified primary muscles. Entire body, feet, hands, chair and equipment fully inside each panel with generous margins. No words, labels, arrows or captions.",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Lie flat, hold bar above chest with shoulder-width grip palms toward feet."
+        },
+        {
+          "key": "p2",
+          "caption": "Lower to chest elbows tucked, pause and press up."
+        }
+      ],
+      "inspectionNote": "Inspected original: Two press poses saved; lowered panel appears to reverse the grip compared with extended panel, rather than maintaining palms toward feet. Human anatomy review pending.",
+      "blockingIssues": [
+        "Grip orientation changes between press poses; lowered pose appears supinated rather than consistent overhand palms toward feet."
+      ],
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream media used.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0853-male-anatomical-white-v1.png",
+        "role": "style only"
+      }
+    },
+    {
+      "exerciseId": "0072",
+      "variant": "male",
+      "key": "0072-male-anatomical-white-v1",
+      "prompt": "PRONE INCLINE BARBELL CURL. Two equal side-by-side panels SIDE three-quarter. Bench45degrees, chest and stomach lie face DOWN against pad feet grounded. ONE straight barbell with small symmetric plates, shoulder-width UNDERHAND grip. Panel1 both arms hang vertically below shoulders elbows straight bar below bench front. Panel2 bend ONLY elbows curling bar toward shoulders, upper arms remain hanging VERTICALLY fixed, no row or upper-arm pullback. Red exposed BICEPS. Use case: scientific educational exercise illustration. Approved original 0853 reference for premium detailed grayscale anatomy rendering and character style ONLY. Do not copy its dumbbells, pose, grip or exercise. White background, soft floor shadows, realistic muscular adult male, same person, camera, scale and equipment across panels. Fully opaque black tank and mid-thigh black shorts wrap front, sides, back and crotch with realistic seams folds and hems. All clothing plain solid black, no cutaways, muscle fibers, anatomy or nipples over or through cloth. Red only on EXPOSED specified primary muscles. Entire body, feet, hands, chair and equipment fully inside each panel with generous margins. No words, labels, arrows or captions.",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Lie chest down on45degree incline holding bar underhand, arms hanging fully extended."
+        },
+        {
+          "key": "p2",
+          "caption": "Curl bar toward shoulders with upper arms stationary, squeeze and lower."
+        }
+      ],
+      "inspectionNote": "Inspected original: Prone incline curl shows supported chest and stomach, underhand grip, lowered and curled elbows with upper arms fixed. Human anatomy review pending.",
+      "blockingIssues": [],
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream media used.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0853-male-anatomical-white-v1.png",
+        "role": "style only"
+      }
+    },
+    {
+      "exerciseId": "0076",
+      "variant": "male",
+      "key": "0076-male-anatomical-white-v1",
+      "prompt": "BARBELL REAR DELT ROW. Two equal side-by-side panels REAR-SIDE three-quarter. Stand soft knees hinge flat back torso near horizontal. ONE straight barbell symmetric small plates, overhand grip slightly WIDER than shoulders. Panel1 arms hang straight below shoulders. Panel2 pull bar toward UPPER CHEST with elbows flared OUT, bend elbows, squeeze blades, hinge unchanged. Red exposed REAR DELTOIDS only, back solid opaque tank. Use case: scientific educational exercise illustration. Approved original 0853 reference for premium detailed grayscale anatomy rendering and character style ONLY. Do not copy its dumbbells, pose, grip or exercise. White background, soft floor shadows, realistic muscular adult male, same person, camera, scale and equipment across panels. Fully opaque black tank and mid-thigh black shorts wrap front, sides, back and crotch with realistic seams folds and hems. All clothing plain solid black, no cutaways, muscle fibers, anatomy or nipples over or through cloth. Red only on EXPOSED specified primary muscles. Entire body, feet, hands, chair and equipment fully inside each panel with generous margins. No words, labels, arrows or captions.",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hinge flat back, bar overhand slightly wider than shoulder width."
+        },
+        {
+          "key": "p2",
+          "caption": "Pull bar toward chest, squeeze shoulder blades, pause and lower."
+        }
+      ],
+      "inspectionNote": "Inspected original: Hinged rear-delt row shows bar lowered and pulled toward torso with elbows flared; qualified reviewer should verify final bar height. Human anatomy review pending.",
+      "blockingIssues": [],
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream media used.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0853-male-anatomical-white-v1.png",
+        "role": "style only"
+      }
+    }
+  ]
+}

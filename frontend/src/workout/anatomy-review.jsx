@@ -26,7 +26,8 @@ function Review() {
             </option>
           ))}
         </select>
-        <a href="/">Back to Workout</a>
+        <a href="/illustration-review.html">Anatomical pilot review</a>
+        <a href="/">Back to Sets &amp; Strength</a>
       </header>
       <Anatomy
         key={id}

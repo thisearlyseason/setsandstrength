@@ -1,0 +1,37 @@
+{
+  "batch": 36,
+  "trigger": "2026-11-01T08:12:12.659Z",
+  "completedAt": "2026-11-01T08:22:42.863313+00:00",
+  "tool": "image_gen.imagegen",
+  "newCandidateSets": 4,
+  "generationCalls": 6,
+  "exerciseIds": [
+    "0320",
+    "0061"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 138,
+    "remainingVariants": 11126,
+    "approvedVariants": 0,
+    "blockedVariants": 56,
+    "knownPoseImages": 278,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "All pending, none published. Incline hammer v2 frontal corrections expose both weights; v1 history retained. Female low weight axis still questionable and blocked. Both lying extensions blocked for clipped shoes and qualified elbow/wrist/bar path review. Full opaque garments inspected.",
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 225727537
+}

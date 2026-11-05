@@ -1,0 +1,87 @@
+{
+  "batch": 142,
+  "trigger": "2026-11-03T04:21:55.959Z",
+  "completedAt": "2026-11-03T04:36:47.979587+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 4,
+  "generationCalls": 8,
+  "exerciseIds": [
+    "0878",
+    "0880"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 576,
+    "remainingVariants": 10688,
+    "approvedVariants": 0,
+    "blockedVariants": 211,
+    "knownPoseImages": 1180,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Four candidates, eight poses, eight built-in calls including four retained corrections. Rack squat pairs preserve free bar upper-back shelf, planted heels and exposed quadriceps red; framing edits expand margins. Male bottom depth remains visually uncertain despite targeted edit: BLOCKED for full-squat depth/view resolution. Female deep bottom retained, thin cell borders introduced and slight panel scale difference remains qualified. Cable hip extensions retain connected ankle cuff, frame support and backward leg motion; margins expanded. Female correction moves diffuse red to working-side buttock. Male red-to-strapped-leg association remains uncertain after edit: BLOCKED for mapping/leg identity resolution. Fine exposed grayscale anatomy and continuous opaque shirt/shorts visually retained. Qualified bar shelf, grip, safeties, knee alignment, pelvis/lumbar stability, cable routing, limb proportions and mapping remain for human review. Every original, exact prompt and correction history saved. No anatomy or clothing approval, no publication. Project original artwork used for rendering style only; no upstream licensed input. Seven pipeline checks do not establish anatomical accuracy.",
+  "metadataConflictsDeferred": {
+    "0885": "Smith side-lying leg resistance contact permits foot or leg without defining bar support/contact geometry; deferred pose planning."
+  },
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 926155188,
+  "savedMasters": [
+    {
+      "exerciseId": "0878",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0878-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1338436,
+        "sha256": "7b68b9e6ec4af1a6004274e5bd78f80b22f2747544d799d12646347f968c6b4e"
+      }
+    },
+    {
+      "exerciseId": "0878",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0878-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1312000,
+        "sha256": "2fc581328960e7108e197ef0c27e531939cccd5ab317b820c4a9ad6ededcb6bc"
+      }
+    },
+    {
+      "exerciseId": "0880",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0880-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1363614,
+        "sha256": "ee59347f9a86bc9bc0fa31fd4c258cc191cbf102fd55a68299275356bd466c48"
+      }
+    },
+    {
+      "exerciseId": "0880",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0880-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1341665,
+        "sha256": "eea606825d0e82ae9803bb8525cf601ba300d905cab28285c0a44c201c4aa4f5"
+      }
+    }
+  ]
+}

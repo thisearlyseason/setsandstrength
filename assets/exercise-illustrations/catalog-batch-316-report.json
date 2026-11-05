@@ -1,0 +1,67 @@
+{
+  "batch": 316,
+  "runId": "d92cdf85-0ebc-4b9d-8978-f7aa3cda6403",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "trigger": "2026-11-04T07:26:58.360Z",
+  "purpose": "batch316 scheduled male continuation",
+  "started": "2026-11-04T07:27:39.460827+00:00",
+  "completedAt": "2026-11-04T07:34:31.668289+00:00",
+  "actualToolName": "image_gen__imagegen",
+  "calls": 3,
+  "newCandidateSets": 3,
+  "exerciseIds": [
+    "2951",
+    "2954",
+    "2956"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1131,
+    "remainingVariants": 10133,
+    "approvedVariants": 0,
+    "blockedVariants": 399,
+    "knownPoseImages": 2194,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 758,
+      "remainingVariants": 4874,
+      "blockedVariants": 280
+    }
+  },
+  "reviewNotes": {
+    "2951": "Two supported seated horizontal leg-press phases visible with full soles on plate and opaque clothing. Machine carriage displacement and knee extension require human review; no automatic approval.",
+    "2954": "Two reverse-curl phases, straight bar pronated grip and exposed dorsal forearm highlights visible; opaque clothing retained. Grip, elbow travel and cable mechanics require human review.",
+    "2956": "Two goblet split-squat phases, front sole on low platform, rear forefoot on floor, upright torso and normal two-headed vertical dumbbell visible. Clothing remains opaque; highlight and lower-limb technique require human review."
+  },
+  "blockingIssues": {},
+  "deferred": {
+    "2957": "Prompt prepared; generation deferred after six-minute run window.",
+    "2947": "Anterior calf roll location conflicts with calves target; technique mapping needs clarification."
+  },
+  "tests": 7,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "workerSyncResult": {
+    "statuses": {
+      "generated": 1131,
+      "pending": 10133
+    },
+    "remaining": 10133,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 1732244896
+  },
+  "publicationIndexUnchanged": true
+}

@@ -1,0 +1,97 @@
+{
+  "batch": 85,
+  "trigger": "2026-11-01T18:30:19.536Z",
+  "completedAt": "2026-11-01T18:40:16.930042+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 4,
+  "generationCalls": 7,
+  "exerciseIds": [
+    "0592",
+    "0596"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 352,
+    "remainingVariants": 10912,
+    "approvedVariants": 0,
+    "blockedVariants": 146,
+    "knownPoseImages": 722,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Four candidate sets, seven built-in calls including three corrections; none approved or published. Both preacher curls show supported upper arms, planted feet, red biceps and opaque black garments. Male grip correction visibly changes lowered hands to underhand palms-up; curled grip still requires qualified validation. Both curl machine linkages change across phases and remain blocked. Seated fly candidates use pronated grips, supported backs and arms sweeping inward. Both shirt corrections remove radial anatomical patterns and retain continuous opaque fabric with diffuse red chest tint. Male fly endpoint closure and lever geometry remain blocked; female elbow-angle consistency, closure and load linkage require human review. All original masters, correction prompts and hashes retained. Anatomy and publication remain separate from passing pipeline checks. Original project artwork only; no licensed upstream media.",
+  "preflightNotes": [
+    "Completed 0597 and 0598 masters skipped; no duplicate generation."
+  ],
+  "metadataConflictsDeferred": [
+    {
+      "exerciseId": "0594",
+      "issue": "Slightly bent knees instruction does not specify standard seated bent-knee lever setup clearly; clarify knee angle and loading arrangement."
+    },
+    {
+      "exerciseId": "0595",
+      "issue": "Chest-pad forward crunch description conflicts with back against chest pad and leaning backward in instructions."
+    }
+  ],
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 576524252,
+  "savedMasters": [
+    {
+      "exerciseId": "0592",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0592-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1903202,
+        "sha256": "a7d4de5677e0a6a460a1a4f4f154aa86970b2f03e319d4c210a2565fbb3ea1aa"
+      }
+    },
+    {
+      "exerciseId": "0592",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0592-female-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1822751,
+        "sha256": "128e5fa9e51241b6d1b892170c6e15503113b4e024dd321d9d5fadb977335e56"
+      }
+    },
+    {
+      "exerciseId": "0596",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0596-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1799772,
+        "sha256": "e0551ad9e38bd6125dbe6e237aaa3b33a633dfb76a0ced91dfba511d1e2b19d1"
+      }
+    },
+    {
+      "exerciseId": "0596",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0596-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1777035,
+        "sha256": "7ecdf6450020d828f8f0d21ed9370be324790b5d2152fe7a0edfc05ac5583c61"
+      }
+    }
+  ]
+}

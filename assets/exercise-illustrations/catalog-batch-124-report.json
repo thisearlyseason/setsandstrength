@@ -1,0 +1,87 @@
+{
+  "batch": 124,
+  "trigger": "2026-11-02T23:19:23.733Z",
+  "completedAt": "2026-11-02T23:30:55.524518+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 4,
+  "generationCalls": 8,
+  "exerciseIds": [
+    "0738",
+    "0739"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 506,
+    "remainingVariants": 10758,
+    "approvedVariants": 0,
+    "blockedVariants": 198,
+    "knownPoseImages": 1044,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Four candidate sets, eight poses, eight built-in calls, four retained corrections. Calf press originals had copied chest highlights removed and feet moved to lower plate lip. Male ankle-angle change visible but forefoot/lip support appears mechanically uncertain; female ankle change still unclear and heel clearance uncertain: BOTH BLOCKED for contact/motion correction. Leg press pairs show bent and near-extended phases, full soles on plate, hands on side handles and supported back. Red rays removed/softened to smooth clothing overlays, exposed knees/calves grayscale; qualified pelvis support, knee softness, machine carriage geometry, proportions and primary quadriceps/gluteal/adductor mapping pending. Full opaque shirt/shorts retained, fine exposed grayscale anatomy. All original masters, exact prompts and correction history saved. No anatomy approval or publication. Original project artwork style only, no upstream media. Pipeline checks do not approve anatomy or equipment mechanics.",
+  "metadataConflictsDeferred": {
+    "0741": "Title/description specifies close feet, instructions specify shoulder-width stance; requires clarification."
+  },
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 825951907,
+  "savedMasters": [
+    {
+      "exerciseId": "0738",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0738-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1829282,
+        "sha256": "867d4a8749fd49ac41db0b6624d11b7051cb43bd443c04e31cacfd66d33204eb"
+      }
+    },
+    {
+      "exerciseId": "0738",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0738-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1928358,
+        "sha256": "4bc5f49402530991a075d1214f14a82b960ade433da86754ac4d31882ca225e2"
+      }
+    },
+    {
+      "exerciseId": "0739",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0739-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1767187,
+        "sha256": "6c51c6e22ebd0455531b68766712abf817a58c48c118974f4b1400f611543373"
+      }
+    },
+    {
+      "exerciseId": "0739",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0739-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1719333,
+        "sha256": "f5344e1ad4965fe3c1a98b70bd4047a53dde5dbf658abb83dc9e87e81412af7b"
+      }
+    }
+  ]
+}

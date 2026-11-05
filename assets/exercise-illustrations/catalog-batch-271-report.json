@@ -1,0 +1,88 @@
+{
+  "batch": 271,
+  "runId": "41a398db-61f5-4b02-891d-5d4f4cd694a6",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "trigger": "2026-11-04T00:01:25.101Z",
+  "purpose": "batch271 scheduled male continuation",
+  "started": "2026-11-04T00:02:03.351469+00:00",
+  "completedAt": "2026-11-04T00:10:07.444321+00:00",
+  "actualToolName": "image_gen__imagegen",
+  "calls": 4,
+  "newCandidateSets": 4,
+  "exerciseIds": [
+    "2267",
+    "2268",
+    "2269",
+    "2272"
+  ],
+  "variants": [
+    "male"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 957,
+    "remainingVariants": 10307,
+    "approvedVariants": 0,
+    "blockedVariants": 313,
+    "knownPoseImages": 1814,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 584,
+      "remainingVariants": 5048,
+      "blockedVariants": 194
+    }
+  },
+  "reviewNotes": {
+    "2267": "Distinct bent/extended horizontal lever leg-press positions, back/pelvis supported, feet flat on moving platform and hands on handles. Quad highlights show fiber-like internal lines through shorts; block for plain teaching tint. Qualified review of knee soft lockout, platform/lever linkage, foot placement, lumbar support and muscle mapping.",
+    "2268": "Seated upright then flexed-torso crunch with both hands pressing broad pad, feet braced and pelvis seated. Pad/lever moves downward and abdomen tint remains on intact tank. Qualified review of rib-to-pelvis flexion versus hip hinge, machine pivot/load linkage, neck alignment, hand anatomy and abdominal mapping.",
+    "2269": "Short kneeling ab-wheel movement with hands on axle handles, knees/shins supported and wheel farther forward in second pose, modest spinal rounding. Additional red chest patch beside abdominal tint is unrelated; block to remove chest highlight. Qualified review of short range, wheel grip, stable hips, lumbar control and abdominal mapping.",
+    "2272": "Three poses show guard, straight punch and return with rear hand guarding. Guard gaze/stance faces image left but punch targets image right with unchanged feet; block for consistent target direction and lead-arm/lead-foot relationship. Deltoid highlight follows punching arm, full opaque clothing. Qualified review of fist pronation, wrist, chin protection and shoulder mapping."
+  },
+  "blockingIssues": {
+    "2267": [
+      "Fiber-like internal lines through shorts in quad highlight; replace with plain teaching tint on intact fabric."
+    ],
+    "2269": [
+      "Unrelated red chest patch; remove and retain abdominal teaching tint only."
+    ],
+    "2272": [
+      "Guard and punch target directions differ with unchanged stance; correct consistent lead-foot/lead-arm orientation."
+    ]
+  },
+  "deferred": {
+    "2266": "Primary target spine requires specific muscle-highlight mapping.",
+    "2271": "Left hook description versus straight arm forward punching instructions requires technique clarification."
+  },
+  "tests": 7,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "workerSyncResult": {
+    "statuses": {
+      "generated": 957,
+      "pending": 10307
+    },
+    "remaining": 10307,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 1475991449
+  },
+  "publicationIndexUnchanged": true,
+  "savedMasters": [
+    "assets/exercise-illustrations/generated/2267-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/2268-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/2269-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/2272-male-anatomical-white-v1.png"
+  ]
+}

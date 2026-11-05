@@ -1,0 +1,72 @@
+{
+  "batch": 327,
+  "runId": "f872fc3b-f8ef-4d21-97d2-880a00a418c3",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "trigger": "2026-11-04T08:51:29.572Z",
+  "purpose": "batch327 scheduled male continuation",
+  "started": "2026-11-04T08:52:00.227074+00:00",
+  "completedAt": "2026-11-04T09:00:08.383802+00:00",
+  "actualToolName": "image_gen__imagegen",
+  "calls": 4,
+  "newCandidateSets": 4,
+  "exerciseIds": [
+    "3129",
+    "3130",
+    "3132",
+    "3144"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1175,
+    "remainingVariants": 10089,
+    "approvedVariants": 0,
+    "blockedVariants": 421,
+    "knownPoseImages": 2292,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 802,
+      "remainingVariants": 4830,
+      "blockedVariants": 302
+    }
+  },
+  "reviewNotes": {
+    "3129": "Arms remain straight forward while scapular spacing changes subtly. Red upper-back overlay shows anatomical fibers/lobes through tank; block fabric correction. Qualified review of retraction/protraction excursion and rib posture pending.",
+    "3130": "Shoulders elevated toward ears then depressed with arms relaxed, head stable and trapezius highlight mostly exposed neck with plain cloth tint. Qualified review of scapular excursion and exact upper-trap mapping pending.",
+    "3132": "Supported standing and comfortable deep squat phases with hands on rail, heels grounded, chest up and opaque shorts with plain glute wash. Qualified review of support stability, knee alignment and depth pending.",
+    "3144": "Floor seated band row shows long arms then ends drawn toward lower chest, straight back with slight recline and band around both feet. Plain upper-back wash on opaque tank. Qualified review of band securement, shoulder-blade movement and grip pending."
+  },
+  "blockingIssues": {
+    "3129": [
+      "Replace upper-back anatomical fiber/lobe overlay through tank with plain uniform wash on intact fabric."
+    ]
+  },
+  "deferred": {
+    "3142": "Smith bar hip-height setup conflicts with upper-back placement; clarify setup."
+  },
+  "tests": 7,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "workerSyncResult": {
+    "statuses": {
+      "generated": 1175,
+      "pending": 10089
+    },
+    "remaining": 10089,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 1797860292
+  },
+  "publicationIndexUnchanged": true
+}

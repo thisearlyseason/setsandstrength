@@ -1,0 +1,37 @@
+{
+  "jobs": [
+    {
+      "key": "0032-female-anatomical-white-v5",
+      "exerciseId": "0032",
+      "variant": "female",
+      "source": "0032-female-anatomical-white-v4",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "prompt": "Use case: style-transfer. Refine this existing exercise illustration to match our premium detailed grayscale anatomical style. Preserve every exercise pose, limb pairing, camera, equipment, panel layout and framing exactly. Exposed arms and legs should have crisp fine anatomical muscle contours and grayscale shading like a high-quality anatomical fitness drawing, not smooth photographic skin. Preserve realistic proportions, white background, soft shadows and black footwear. Clothing must be real fully opaque fabric with continuous front, sides, rear and crotch coverage, seams and folds. No garment cutaways or transparent cloth; red muscle-region graphics over garments are teaching overlays on intact cloth. No text, labels, numbers or watermark. Maintain both barbell deadlift poses. Extend the black shorts to mid-thigh with complete closed hems all around, including the back during the hip hinge. Keep supportive opaque sports top wrapping chest, sides and back. Preserve posterior glute location red overlay on shorts and hamstring highlights below hem. Keep full barbells and feet in both equal-width panels. Do not change grip, bar position, spine or stance."
+    },
+    {
+      "key": "0336-male-anatomical-white-v6",
+      "exerciseId": "0336",
+      "variant": "male",
+      "source": "0336-male-anatomical-white-v5",
+      "layout": {
+        "columns": 2,
+        "rows": 2
+      },
+      "prompt": "Use case: style-transfer. Refine this existing exercise illustration to match our premium detailed grayscale anatomical style. Preserve every exercise pose, limb pairing, camera, equipment, panel layout and framing exactly. Exposed arms and legs should have crisp fine anatomical muscle contours and grayscale shading like a high-quality anatomical fitness drawing, not smooth photographic skin. Preserve realistic proportions, white background, soft shadows and black footwear. Clothing must be real fully opaque fabric with continuous front, sides, rear and crotch coverage, seams and folds. No garment cutaways or transparent cloth; red muscle-region graphics over garments are teaching overlays on intact cloth. No text, labels, numbers or watermark. Preserve the four existing dumbbell lunge panels exactly: standing, right-leading lunge, return standing, left-leading lunge. Preserve all rear views/insets that already exist and their red glute-region overlays on intact shorts. Do not add new inset figures. Keep the two distinct leading legs, same dumbbells, neutral grip, upright torso and floor contact. Make exposed anatomy more detailed and entirely grayscale including face. Preserve complete black top and mid-thigh shorts, with unchanged garment coverage in front and rear views. Keep hands, dumbbells and shoes fully within each equal quadrant."
+    },
+    {
+      "key": "0336-female-anatomical-white-v6",
+      "exerciseId": "0336",
+      "variant": "female",
+      "source": "0336-female-anatomical-white-v5",
+      "layout": {
+        "columns": 2,
+        "rows": 2
+      },
+      "prompt": "Use case: style-transfer. Refine this existing exercise illustration to match our premium detailed grayscale anatomical style. Preserve every exercise pose, limb pairing, camera, equipment, panel layout and framing exactly. Exposed arms and legs should have crisp fine anatomical muscle contours and grayscale shading like a high-quality anatomical fitness drawing, not smooth photographic skin. Preserve realistic proportions, white background, soft shadows and black footwear. Clothing must be real fully opaque fabric with continuous front, sides, rear and crotch coverage, seams and folds. No garment cutaways or transparent cloth; red muscle-region graphics over garments are teaching overlays on intact cloth. No text, labels, numbers or watermark. Preserve the four existing dumbbell lunge panels exactly: standing, right-leading lunge, return standing, left-leading lunge. Preserve all rear views/insets that already exist and their red glute-region overlays on intact shorts. Do not add new inset figures. Keep the two distinct leading legs, same dumbbells, neutral grip, upright torso and floor contact. Make exposed anatomy more detailed and entirely grayscale including face. Preserve complete black top and mid-thigh shorts, with unchanged garment coverage in front and rear views. Keep hands, dumbbells and shoes fully within each equal quadrant."
+    }
+  ]
+}

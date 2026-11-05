@@ -1,0 +1,62 @@
+{
+  "batch": 209,
+  "runId": "ef335773-a0b7-4959-bb6c-67bb5a08cedb",
+  "trigger": "2026-11-03T14:00:30.447Z",
+  "completedAt": "2026-11-03T14:08:19.652493+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 2,
+  "generationCalls": 2,
+  "exerciseIds": [
+    "1576"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 732,
+    "remainingVariants": 10532,
+    "approvedVariants": 0,
+    "blockedVariants": 240,
+    "knownPoseImages": 1436,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Two leg-up hamstring stretch candidates, one static hold per variant, two built-in calls. Raised near-straight leg supported by both hands, other leg flat, skull/shoulders/pelvis supported on mat, hamstrings red and full opaque clothes retained. Detailed exposed grayscale anatomy. Qualified posterior thigh mapping, knee extension versus hyperextension, hand support location, lumbar/pelvic position and clothing boundaries require human review. Original project artwork rendering style only, no upstream licensed input. Exact prompts/originals saved. No anatomy or clothing approval or publication. Seven pipeline checks do not establish anatomical accuracy.",
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 1149234411,
+  "savedMasters": [
+    {
+      "exerciseId": "1576",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1576-male-anatomical-white-v1.png",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 1374009,
+        "sha256": "d528bcb44756cf88171ee1505c1d9d7b5ff916c576c28c80c3aba1fb1f037a54"
+      }
+    },
+    {
+      "exerciseId": "1576",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1576-female-anatomical-white-v1.png",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 1333836,
+        "sha256": "86de1cadec85f7910c0335a6d37ee5e9c57c31d18a31763f1e4ed0bb759f7c5c"
+      }
+    }
+  ]
+}

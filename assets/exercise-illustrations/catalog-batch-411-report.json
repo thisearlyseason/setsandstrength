@@ -1,0 +1,58 @@
+{
+  "batch": 411,
+  "runId": "28658522-c9f7-4941-aa18-3221b7b44e7d",
+  "triggerTimestamp": "2026-11-04T20:33:02.854Z",
+  "builtInImageGenAvailable": true,
+  "generatedIds": [
+    "3732",
+    "3733",
+    "3734",
+    "3736"
+  ],
+  "coverageAfter": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1459,
+    "remainingVariants": 9805,
+    "approvedVariants": 0,
+    "blockedVariants": 553,
+    "knownPoseImages": 2913,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 1086,
+      "remainingVariants": 4546,
+      "blockedVariants": 434
+    }
+  },
+  "paidWorker": {
+    "statuses": {
+      "generated": 1459,
+      "pending": 9805
+    },
+    "remaining": 9805,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 2210894483
+  },
+  "pipelineTests": "8 passed, 0 failed",
+  "approvedIndexUnchanged": true,
+  "existingUserApprovalsPreserved": 1306,
+  "anatomyReview": "pending",
+  "publication": "none",
+  "blocked": {
+    "3732": [
+      "Glute highlight contains anatomical fibers over shorts instead of plain fabric wash."
+    ]
+  }
+}

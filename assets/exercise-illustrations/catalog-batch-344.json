@@ -1,0 +1,326 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "3310",
+      "variant": "male",
+      "key": "3310-male-anatomical-white-v1",
+      "prompt": "FLAT BARBELL BENCH PRESS TWOequalpanels SIDEthreequarterview headLEFT feetRIGHT. Loadedbarbellsameplates and flatbench withrack. Head upperback buttocksSUPPORTEDbench BOTHfeetflatfloor allposes. ClosedOVERHANDgrips slightlywidershoulders wristsstacked. LEFTSTART armsstraight barOVERmidCHEST. RIGHTBOTTOM barlightlyatMIDCHEST belowshoulderline elbowsbendabout90and45degreesfromtorso forearmsvertical. Shoulderbladesretracted, noheadhover nofeetlift. PrimaryPECTORALS ONLY smallplainuniformredwash onintacttank chest NO lobesfibersor nipples; othersgrayblack. Premium detailed adult MALE grayscale anatomical illustration. Pure white backdrop soft contact shadows realistic equipment and exposed gray muscles. Original project artwork reference STYLE ONLY not pose. Same model scale camera all panels full body equipment in frame. Opaque BLACK tank and mid-thigh black shorts fully wrap front sides back seat crotch, seams folds hems. Covered red highlights SMALL PLAIN UNIFORM wash on intact opaquecloth NO muscle fibers/lobes/segments/cutaways. Exactly one head two arms hands two legs feet per figure. No text labels arrows logos. ",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Lie supported on flat bench with feet planted and bar above chest."
+        },
+        {
+          "key": "p2",
+          "caption": "Lower bar to mid chest with forearms stacked; press back up."
+        }
+      ],
+      "inspectionNote": "Real output inspected. Flat bench, planted feet and supported head visible, but lower bar hovers near upper chest/face instead of reaching mid chest. Small chest overlay remains on opaque fabric. Qualified grip/wrist review pending. Human anatomy review pending. No approval or publication.",
+      "blockingIssues": [
+        "Correct lower bar position to mid chest with stacked forearms; current faceward path is misleading."
+      ],
+      "canonicalName": "barbell weighted bench press",
+      "styleVersion": "white-v1",
+      "equipment": "barbell",
+      "primaryMuscles": [
+        "pectorals"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Flat bench, planted feet and supported head visible, but lower bar hovers near upper chest/face instead of reaching mid chest. Small chest overlay remains on opaque fabric. Qualified grip/wrist review pending. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/3310-male-anatomical-white-v1-p1-6f82f488edab.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 50136,
+          "sha256": "6f82f488edabeacb826bbdcc8013242fddd437c0da97f515057909d2dcdd792a"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/3310-male-anatomical-white-v1-p2-4493d47f569e.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 46156,
+          "sha256": "4493d47f569efac89d45abd398e39c8dac979d76fbf5dfdac955c021a6653787"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-344.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/3310-male-anatomical-white-v1-thumb-5f5de18926eb.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 5624,
+        "sha256": "5f5de18926ebf29210c40f81da28a4c81ae93bb33a01827c5969eb955ec03a9c"
+      },
+      "processingSignature": "5d39315302cd716a8b3de9098c3a960282cb74a73ec853803f27d37141cfbd02",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/3310-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1736269,
+        "sha256": "e56106438231bc4b9bd70010000b90b3a8cda2c5d09cec73a36055fdef1e4b7e"
+      }
+    },
+    {
+      "exerciseId": "3319",
+      "variant": "male",
+      "key": "3319-male-anatomical-white-v1",
+      "prompt": "DUMBBELL NEUTRAL HAMMER FLOOR PRESS TWOequalpanels SAMEelevatedSIDEthreequarterview headLEFTfeetRIGHT. LieBACKonFLOOR headandshouldersRESTfloor kneesBENTfeetFLATfloor. One dumbbellEACHhand neutralgrip PALMSFACEEACHOTHER allposes handlesparallelbody. LEFTBOTTOM upperarms/tricepsRESTfloor elbowbend90 forearmsVERTICAL weightsABOVEelbows. RIGHTTOP pressBOTHweightsUPoverCHEST armsalmoststraight nohardlock. WeightsDONOTtouch no bench noheadhover. PrimaryPECTORALS smallPLAINUNIFORMredwashintacttankchestONLY NO chestlobesfibers nipples. Premium detailed adult MALE grayscale anatomical illustration. Pure white backdrop soft contact shadows realistic equipment and exposed gray muscles. Original project artwork reference STYLE ONLY not pose. Same model scale camera all panels full body equipment in frame. Opaque BLACK tank and mid-thigh black shorts fully wrap front sides back seat crotch, seams folds hems. Covered red highlights SMALL PLAIN UNIFORM wash on intact opaquecloth NO muscle fibers/lobes/segments/cutaways. Exactly one head two arms hands two legs feet per figure. No text labels arrows logos. ",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Lie on floor with knees bent and neutral-grip dumbbells, triceps resting on floor."
+        },
+        {
+          "key": "p2",
+          "caption": "Press weights above chest, then lower until triceps touch floor."
+        }
+      ],
+      "inspectionNote": "Real output inspected. Neutral-grip floor press bottom and top with knees bent, grounded feet and opaque clothing. Head visibly hovers above floor in both phases; correction required. Qualified grip orientation and triceps-floor contact review pending. Human anatomy review pending. No approval or publication.",
+      "blockingIssues": [
+        "Rest head and neck on floor throughout press instead of hovering."
+      ],
+      "canonicalName": "dumbbell lying on floor hammer press",
+      "styleVersion": "white-v1",
+      "equipment": "dumbbell",
+      "primaryMuscles": [
+        "pectorals"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Neutral-grip floor press bottom and top with knees bent, grounded feet and opaque clothing. Head visibly hovers above floor in both phases; correction required. Qualified grip orientation and triceps-floor contact review pending. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/3319-male-anatomical-white-v1-p1-c9e23bea7cfd.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 29648,
+          "sha256": "c9e23bea7cfd8556f7bb1c073ebc7d6882f613184465f593bc0dc8bf4d0294eb"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/3319-male-anatomical-white-v1-p2-22c0217c16f4.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 32172,
+          "sha256": "22c0217c16f416482656362ce52ea13bed328a321c2cb98e661206ac2483295a"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-344.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/3319-male-anatomical-white-v1-thumb-1dbca0366577.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 3048,
+        "sha256": "1dbca0366577a64e0592d4f583b3906851e8868cbb302b9b0b0314d53eb6f6fc"
+      },
+      "processingSignature": "b034e3fed22e5bd1163acce8ae07243871ce4feb8beec43fe85ccc0cac9e26b5",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/3319-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1465702,
+        "sha256": "57c4251e6bcbb12c982cc75ac1f6288a261b6f58407af20a62d32332437769b7"
+      }
+    },
+    {
+      "exerciseId": "3320",
+      "variant": "male",
+      "key": "3320-male-anatomical-white-v1",
+      "prompt": "CHESTSUPPORTED INCLINE BENCH TWOARM NEUTRAL DUMBBELL ROW TWOequalpanels SAMErearSIDEthreequarterview headLEFTfeetRIGHT. BenchLOW30DEGREEincline, liePRONE chestANDabdomenSUPPORTEDinclinedpad headneutral aboveupperedge, feetflatfloor eithersidebase, bodyaligned. OneDBEACHhand PALMSFACEEACHOTHER neutralgrip. LEFTSTART botharmsHANGSTRAIGHTdown fromshoulders weightsbelowbench. RIGHTEND BOTH elbowsbendROWBACKtowardhips weightsbesidelowerribs elbowsneartorso shoulderbladesretracted chestSTILLpad no shrug. PrimaryUPPERBACK SMALLPLAINUNIFORMredwash intactBLACKupperbacktank ONLY NO fibers orscapulaanatomythroughfabric. Premium detailed adult MALE grayscale anatomical illustration. Pure white backdrop soft contact shadows realistic equipment and exposed gray muscles. Original project artwork reference STYLE ONLY not pose. Same model scale camera all panels full body equipment in frame. Opaque BLACK tank and mid-thigh black shorts fully wrap front sides back seat crotch, seams folds hems. Covered red highlights SMALL PLAIN UNIFORM wash on intact opaquecloth NO muscle fibers/lobes/segments/cutaways. Exactly one head two arms hands two legs feet per figure. No text labels arrows logos. ",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Lie chest down on low incline bench with arms hanging and neutral grip."
+        },
+        {
+          "key": "p2",
+          "caption": "Row both weights toward hips, squeeze shoulder blades, then lower slowly."
+        }
+      ],
+      "inspectionNote": "Real output inspected. Chest-supported low incline row with hanging then bent elbows toward hips, planted feet and opaque clothes/plain upper-back wash. Qualified neck extension, grip symmetry and bench support/contact review pending. Human anatomy review pending. No approval or publication.",
+      "canonicalName": "dumbbell hammer grip incline bench two arm row",
+      "styleVersion": "white-v1",
+      "equipment": "dumbbell",
+      "primaryMuscles": [
+        "upper back"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Chest-supported low incline row with hanging then bent elbows toward hips, planted feet and opaque clothes/plain upper-back wash. Qualified neck extension, grip symmetry and bench support/contact review pending. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/3320-male-anatomical-white-v1-p1-71f9a7ab84d7.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 42980,
+          "sha256": "71f9a7ab84d765a9d4066fb68fae8e75a44c8d1abff351a394f035eb2a2f420e"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/3320-male-anatomical-white-v1-p2-89503760b78e.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 38364,
+          "sha256": "89503760b78ef3b1b3bf9f3daa9c76189ec09e5f32c7c7fd235a056277feb675"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-344.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/3320-male-anatomical-white-v1-thumb-30c38ae370df.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 4248,
+        "sha256": "30c38ae370df43d2b3a17ae6cb7363d7728d892b3c6f94585035d214766608f6"
+      },
+      "processingSignature": "57dc91e216fc04613b338107395c5f4eb1a577a6f7e91311e4abc6e7fd0eef46",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/3320-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1594692,
+        "sha256": "e8097fdda1057aa7813d2bbce752111b4a9212025bc4573f21db83549f75512e"
+      }
+    },
+    {
+      "exerciseId": "3321",
+      "variant": "male",
+      "key": "3321-male-anatomical-white-v1",
+      "prompt": "RESISTANCE BAND REAR FLY / BAND PULLAPART TWOequalpanels SAMEFRONTthreequartercamera. Standtall feetshoulderwidth softknees. HoldONEsimpleflatcontinuousbandsegmentBETWEENbothhands ONLY noanchor nofloorloop. LEFTSTART BOTHarmsSTRAIGHTforward atSHOULDERHEIGHT handsaboutshoulderwidth bandhorizontalbetweenthem lighttension. RIGHTEND pullBOTHstraightarmsOUTSIDES formingT atshoulderheight bandSTRETCHEDhorizontalacrossFRONTupperchest betweenhands shouldersdown noelbowbend. PrimaryDELTOIDS redonexposedposterior/lateralshouldersONLY othersgrayblack NO redtank. Premium detailed adult MALE grayscale anatomical illustration. Pure white backdrop soft contact shadows realistic equipment and exposed gray muscles. Original project artwork reference STYLE ONLY not pose. Same model scale camera all panels full body equipment in frame. Opaque BLACK tank and mid-thigh black shorts fully wrap front sides back seat crotch, seams folds hems. Covered red highlights SMALL PLAIN UNIFORM wash on intact opaquecloth NO muscle fibers/lobes/segments/cutaways. Exactly one head two arms hands two legs feet per figure. No text labels arrows logos. ",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hold band in front at shoulder height with straight arms."
+        },
+        {
+          "key": "p2",
+          "caption": "Pull hands apart into a T, squeeze shoulder blades, then return slowly."
+        }
+      ],
+      "inspectionNote": "Real output inspected. Band pull-apart starts with straight forward arms then opens to shoulder-height T, band between hands, opaque clothes and deltoid-only highlights. Qualified band grip, elbow softness and rear-deltoid mapping review pending. Human anatomy review pending. No approval or publication.",
+      "canonicalName": "resistance band rear fly",
+      "styleVersion": "white-v1",
+      "equipment": "resistance band",
+      "primaryMuscles": [
+        "delts"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Band pull-apart starts with straight forward arms then opens to shoulder-height T, band between hands, opaque clothes and deltoid-only highlights. Qualified band grip, elbow softness and rear-deltoid mapping review pending. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/3321-male-anatomical-white-v1-p1-fa508748a8be.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 22674,
+          "sha256": "fa508748a8bec2cb6874003df0453dcf0124f1b022810f0fcefb6bf25835b36f"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/3321-male-anatomical-white-v1-p2-7e5d00f8affe.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 24368,
+          "sha256": "7e5d00f8affe6dcb6ff505849b2667ef238bf084994ed136274991dd2504a320"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-344.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/3321-male-anatomical-white-v1-thumb-5128040c2565.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2480,
+        "sha256": "5128040c25657e41d528feb7b10104e7239eed696ee071661ae4b98f7fba3ebf"
+      },
+      "processingSignature": "f3c9fb94965a1e7da02ae794204ec30620985193e979a0b987b524c7ec71ae21",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/3321-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1328517,
+        "sha256": "edaade9f27e62ffd8d89deaeaedc2968265212b5f487d1411dc41361230fc3fa"
+      }
+    }
+  ]
+}

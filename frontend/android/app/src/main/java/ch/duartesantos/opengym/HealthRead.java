@@ -9,8 +9,8 @@ import java.util.List;
 /**
  * What HealthConnectPlugin hands to JS when it reads (v1.4.3): plain values, no Android classes,
  * so it is tested on the JVM (HealthReadTest). Heart rate as [ms, bpm] pairs inside the window
- * asked for; weigh-ins as { t, kg, id, origin, clientId }. Which of them openGym takes, and how,
- * is decided in JS (lib/health-read.js), which also skips openGym's own records.
+ * asked for; weigh-ins as { t, kg, id, origin, clientId }. Which of them sets&strength takes, and how,
+ * is decided in JS (lib/health-read.js), which also skips sets&strength's own records.
  */
 final class HealthRead {
     private HealthRead() {}
@@ -66,6 +66,7 @@ final class HealthRead {
         switch (name) {
             case "heartRate": return "android.permission.health.READ_HEART_RATE";
             case "weight": return "android.permission.health.READ_WEIGHT";
+            case "steps": return "android.permission.health.READ_STEPS";
             // Not a data type: data older than 30 days before the first grant (#801).
             case "history": return "android.permission.health.READ_HEALTH_DATA_HISTORY";
             default: return null;

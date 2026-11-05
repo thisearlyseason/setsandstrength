@@ -1,0 +1,94 @@
+{
+  "batch": 88,
+  "trigger": "2026-11-01T19:06:19.928Z",
+  "completedAt": "2026-11-01T19:17:12.715213+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 4,
+  "generationCalls": 6,
+  "exerciseIds": [
+    "0603",
+    "0606"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 364,
+    "remainingVariants": 10900,
+    "approvedVariants": 0,
+    "blockedVariants": 154,
+    "knownPoseImages": 746,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Four candidate sets and two clothing corrections saved; none approved or published. Shoulder presses show supported backs, planted feet, overhand grips, bent-to-overhead arms and red deltoids; fixed brackets and pressing-arm geometry change across phases and remain blocked. Seated chest-supported T-bar rows follow canonical seated setup, use overhand horizontal bars and supported feet. Both shirt corrections replace anatomical-looking back streaks with diffuse red tint on continuous opaque black fabric. Male row lever length/linkage changes and female low pivot shifts upward, so both remain blocked. Qualified human review required for anatomy, technique, grip, elbow range and equipment continuity. Full opaque front/side/back/seat/crotch coverage retained. Originals, exact prompts, correction histories and hashes retained; original project style artwork only. Pipeline checks do not constitute anatomy approval.",
+  "metadataConflictsDeferred": [
+    {
+      "exerciseId": "0609",
+      "issue": "Description leans back using high anchored rope, while instructions face away and lean forward; setup and pull direction conflict."
+    },
+    {
+      "exerciseId": "0610",
+      "issue": "Cardiovascular-system target without primary muscle map; clarify primary red muscle highlights before illustration."
+    }
+  ],
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 597832028,
+  "savedMasters": [
+    {
+      "exerciseId": "0603",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0603-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1865531,
+        "sha256": "8f0dc418d2671501fc4b0b43ec228c8117a3f0e36571b5e036c84b008353e61d"
+      }
+    },
+    {
+      "exerciseId": "0603",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0603-female-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1878203,
+        "sha256": "89cc20e14abef432b2869892ac76e9e1efe5bdb856e60c994468289d7db2dbac"
+      }
+    },
+    {
+      "exerciseId": "0606",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0606-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1835339,
+        "sha256": "9a8cbb4d1041e4f62fef595b9e8b0c8bd82235917e51d04c01bbfdd2c68aea59"
+      }
+    },
+    {
+      "exerciseId": "0606",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0606-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1754163,
+        "sha256": "da416cdeaf9212fb60216faf8434f13ddf4a6f90e7368d442c8dadc32d8762b1"
+      }
+    }
+  ]
+}

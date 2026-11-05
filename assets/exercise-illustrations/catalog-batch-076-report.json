@@ -1,0 +1,106 @@
+{
+  "batch": 76,
+  "trigger": "2026-11-01T15:59:47.831Z",
+  "completedAt": "2026-11-01T16:12:21.372200+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 4,
+  "generationCalls": 7,
+  "exerciseIds": [
+    "0503",
+    "0520"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 312,
+    "remainingVariants": 10952,
+    "approvedVariants": 0,
+    "blockedVariants": 132,
+    "knownPoseImages": 644,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Four pending candidate sets, none approved or published. Stability-ball plank/pike male shirt correction replaces segmented muscles with opaque cloth tint; both ball-pike endpoint revisions roll ball clearly toward hands and shorten overly long endpoint legs, retaining support and opaque coverage. Original versions and three correction attempts retained. Alternating kettlebell presses show three phases with right and left overhead separately, opposite rack, both bells and grips visible; female overhead WebP crop visually checked. Qualified human anatomy, neck alignment, planted hand/support geometry, shoulder/wrist load and range review remain mandatory. No anatomical approval inferred from pipeline checks. Original 0493 male project artwork used only as style reference, never upstream media.",
+  "metadataConflictsDeferred": [
+    {
+      "exerciseId": "0510",
+      "issue": "Cardiovascular target provides no primary anatomical muscle localization; do not invent red heart/muscle map."
+    },
+    {
+      "exerciseId": "0513",
+      "issue": "Jump squat v2 resembles already generated 0514; preserve stable ID and clarify variant before reuse."
+    },
+    {
+      "exerciseId": "0517",
+      "issue": "Windmill instructions conflict: right arm overhead versus later pointing toward ground; foot/pivot instructions also need qualified clarification."
+    },
+    {
+      "exerciseId": "0518",
+      "issue": "Forearm target conflicts with supplied full-body primary muscle map; alternating title versus simultaneous clean prose needs review."
+    },
+    {
+      "exerciseId": "0524",
+      "issue": "Bent-press description suggests leaning back while instructions use side hinge/overhead hold; qualified movement clarification needed."
+    }
+  ],
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 505760631,
+  "savedMasters": [
+    {
+      "exerciseId": "0503",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0503-male-anatomical-white-v3.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1615734,
+        "sha256": "35b43e283206effb7b74263bf0af3830fcebe36a9e492d6eacc06e9464438063"
+      }
+    },
+    {
+      "exerciseId": "0503",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0503-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1615808,
+        "sha256": "3a60254e05456d2b6f1644a77f9e9e055e27b25f0e5bfc4ddd96c79499c3fadb"
+      }
+    },
+    {
+      "exerciseId": "0520",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0520-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1699367,
+        "sha256": "e18d6d469fb82e0e3aeae5c62122e5fd0bf26f31a715f416483c34c349f62f8a"
+      }
+    },
+    {
+      "exerciseId": "0520",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0520-female-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1749783,
+        "sha256": "e9a718f4fe8282b8360f307aa6d8d2a5ea7fb2288e773a8487dd25766931905d"
+      }
+    }
+  ]
+}

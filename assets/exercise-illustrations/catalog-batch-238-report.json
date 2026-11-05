@@ -1,0 +1,73 @@
+{
+  "batch": 238,
+  "runId": "f2a2b864-0336-49a0-9f48-eaf545c8ec0c",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "trigger": "2026-11-03T18:45:22.056Z",
+  "purpose": "batch238 scheduled male continuation",
+  "started": "2026-11-03T18:45:33.263689+00:00",
+  "completedAt": "2026-11-03T18:51:48.712392+00:00",
+  "actualToolName": "image_gen__imagegen",
+  "calls": 4,
+  "newCandidateSets": 4,
+  "exerciseIds": [
+    "1793",
+    "1794",
+    "1797",
+    "1798"
+  ],
+  "variants": [
+    "male"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 825,
+    "remainingVariants": 10439,
+    "approvedVariants": 0,
+    "blockedVariants": 262,
+    "knownPoseImages": 1627,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 452,
+      "remainingVariants": 5180,
+      "blockedVariants": 143
+    }
+  },
+  "reviewNotes": {
+    "1793": "Cross-over shoulder stretch: straight right arm crosses chest, opposite hand supports above elbow, feet grounded. Qualified review needed for exact posterior-deltoid mapping, shoulder relaxation, hand anatomy and comfortable stretch range.",
+    "1794": "Forward upper-back stretch: clasped hands reach at chest height, head lowered and upper thoracic back rounded with intact tank upper-back teaching overlay. Qualified review needed for scapular protraction, thoracic flexion, neck position and muscle mapping.",
+    "1797": "Reach-up back stretch: separate straight overhead arms with inward palms, rear view shows bilateral lat teaching overlays on intact tank. Qualified review needed for rib control, lumbar neutrality, shoulder range, finger anatomy and mapping.",
+    "1798": "Supine whole-body stretch: head supported, arms overhead and legs resting straight with full body in frame. Qualified review needed for cervical comfort, lumbar neutrality, shoulder floor contact and lat mapping; shoes remain more dorsiflexed than the gently pointed-toe cue."
+  },
+  "tests": 7,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "workerSyncResult": {
+    "statuses": {
+      "generated": 825,
+      "pending": 10439
+    },
+    "remaining": 10439,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 1284503454
+  },
+  "publicationIndexUnchanged": true,
+  "savedMasters": [
+    "assets/exercise-illustrations/generated/1793-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/1794-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/1797-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/1798-male-anatomical-white-v1.png"
+  ]
+}

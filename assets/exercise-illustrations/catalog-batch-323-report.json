@@ -1,0 +1,71 @@
+{
+  "batch": 323,
+  "runId": "fcceb946-7927-4320-8d60-9b9c00b3b73e",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "trigger": "2026-11-04T08:16:59.109Z",
+  "purpose": "batch323 scheduled male continuation",
+  "started": "2026-11-04T08:17:24.335732+00:00",
+  "completedAt": "2026-11-04T08:24:04.560322+00:00",
+  "actualToolName": "image_gen__imagegen",
+  "calls": 4,
+  "newCandidateSets": 4,
+  "exerciseIds": [
+    "3034",
+    "3035",
+    "3040",
+    "3048"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1159,
+    "remainingVariants": 10105,
+    "approvedVariants": 0,
+    "blockedVariants": 414,
+    "knownPoseImages": 2256,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 786,
+      "remainingVariants": 4846,
+      "blockedVariants": 295
+    }
+  },
+  "reviewNotes": {
+    "3034": "All-fours start and same bent-leg kickback shown, working thigh near horizontal and sole upward with other knee grounded. Opaque shorts retain plain glute wash. Qualified review of lumbar neutrality, pelvis square and knee/ankle continuity pending.",
+    "3035": "All-fours start and raised bent leg visible with supporting knee grounded. Camera is more side-on than planned, lateral abduction versus rearward extension unclear; outer hip tint shows muscle fibers through shorts. Block pose clarity and cloth overlay correction.",
+    "3040": "High pulley behind model, staggered stance, bar behind head then forward/up overhead extension, triceps red only and opaque clothes. Qualified review of fixed upper-arm angle, elbow extension, bar grip and cable attachment geometry pending.",
+    "3048": "Same outer left ankle cuff moves away from low pulley as right hand supports tower and right foot stays grounded; upright torso and plain outer hip wash over opaque shorts. Qualified review of cable clearance, support-knee softness and abduction range pending."
+  },
+  "blockingIssues": {
+    "3035": [
+      "Show clear lateral bent-knee abduction with suitable rear camera, distinct from backward kickback.",
+      "Replace outer hip fibers through shorts with plain uniform wash on opaque cloth."
+    ]
+  },
+  "deferred": {},
+  "tests": 7,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "workerSyncResult": {
+    "statuses": {
+      "generated": 1159,
+      "pending": 10105
+    },
+    "remaining": 10105,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 1774470418
+  },
+  "publicationIndexUnchanged": true
+}

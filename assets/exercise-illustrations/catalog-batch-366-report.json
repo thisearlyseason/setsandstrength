@@ -1,0 +1,56 @@
+{
+  "batch": 366,
+  "runId": "2699b332-4857-4591-bd11-b79c70132080",
+  "builtInImageGenAvailable": true,
+  "anatomyReview": "pending",
+  "publication": "none",
+  "deferred": {
+    "3454": "Spine target mapping needs review.",
+    "3457": "Cardiovascular primary highlight mapping unresolved.",
+    "3460": "Description specifies top leg while instructions specify bottom leg; conflict.",
+    "3461-3464": "Variation-specific lunge setup absent; identical generic instructions."
+  },
+  "coverageAfter": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1316,
+    "remainingVariants": 9948,
+    "approvedVariants": 0,
+    "blockedVariants": 505,
+    "knownPoseImages": 2607,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 943,
+      "remainingVariants": 4689,
+      "blockedVariants": 386
+    }
+  },
+  "paidWorker": {
+    "statuses": {
+      "generated": 1316,
+      "pending": 9948
+    },
+    "remaining": 9948,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 2004346651
+  },
+  "pipelineTests": "7 passed, 0 failed",
+  "approvedIndexUnchanged": true,
+  "existingUserApprovalsPreserved": 1306,
+  "generatedIds": [
+    "3458",
+    "3459"
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "batch": 404,
+  "runId": "1c9dfbb1-02cd-48b2-9744-461f26012b87",
+  "triggerTimestamp": "2026-11-04T19:38:02.431Z",
+  "builtInImageGenAvailable": true,
+  "generatedIds": [
+    "3692",
+    "3693",
+    "3694",
+    "3695"
+  ],
+  "coverageAfter": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1432,
+    "remainingVariants": 9832,
+    "approvedVariants": 0,
+    "blockedVariants": 545,
+    "knownPoseImages": 2854,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 1059,
+      "remainingVariants": 4573,
+      "blockedVariants": 426
+    }
+  },
+  "paidWorker": {
+    "statuses": {
+      "generated": 1432,
+      "pending": 9832
+    },
+    "remaining": 9832,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 2172722418
+  },
+  "pipelineTests": "7 passed, 0 failed",
+  "approvedIndexUnchanged": true,
+  "existingUserApprovalsPreserved": 1306,
+  "anatomyReview": "pending",
+  "publication": "none",
+  "blocked": {
+    "3694": [
+      "Final pose mirrors camera and bench; consistent view needed to confirm alternating arms."
+    ],
+    "3695": [
+      "Nipple-like details appear over tank chest highlights; replace with plain fabric wash."
+    ]
+  }
+}

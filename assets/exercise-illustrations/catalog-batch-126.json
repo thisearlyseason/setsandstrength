@@ -1,0 +1,660 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "0751",
+      "variant": "male",
+      "key": "0751-male-anatomical-white-v2",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Lie flat with feet grounded. Hold the Smith bar with an overhand grip slightly narrower than shoulder width and lower toward the chest, elbows close to the body."
+        },
+        {
+          "key": "p2",
+          "caption": "Press up along the guides until the arms extend, then lower with control."
+        }
+      ],
+      "prompt": "Correct original male CLOSE GRIP SMITH BENCH PRESS. Use TRUE SIDE three-quarter view to show bar touches MID/LOWER CHEST at sternum BELOW nipple line, well TOWARD FEET from neck. Shift bench/model relative to VERTICAL guides so bar axis sits at mid/lower chest, NOT throat or face. LEFT bar at chest with elbows tucked alongside ribs and forearms vertical; RIGHT same chest position with arms straight up. NARROW closed OVERHAND grip slightly narrower than shoulder width, not wide, wrists neutral. Both skull/shoulders/buttocks bench supported, feet flat. Red ONLY EXPOSED posterior upper-arm TRICEPS, no biceps/chest/shoulder red. Full opaque BLACK shirt/shorts continuous front sides back seat crotch, fine detailed exposed grayscale anatomy, same limb lengths. Frame connected sliding collars visible, no occlusion of chest/grip if possible. TWO equal square landscape cells white background generous margins, no text.",
+      "inspectionNote": "Narrow grip, supported skull and triceps mapping retained after edit, but lower bar still appears across neck/upper chest rather than clear mid/lower sternum. Blocked for bar contact/path correction. Opaque clothes and detailed exposed anatomy; qualified wrists/elbows pending.",
+      "canonicalName": "smith close-grip bench press",
+      "styleVersion": "white-v1",
+      "equipment": "smith machine",
+      "primaryMuscles": [
+        "triceps"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0751-male-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "status": "generated",
+        "costUSD": null
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Narrow grip, supported skull and triceps mapping retained after edit, but lower bar still appears across neck/upper chest rather than clear mid/lower sternum. Blocked for bar contact/path correction. Opaque clothes and detailed exposed anatomy; qualified wrists/elbows pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0751-male-anatomical-white-v2-p1-202cf26c8e53.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 51794,
+          "sha256": "202cf26c8e53d498a97fd97cf0c17e336210bec8245e108da2ef31fd40bc7a03"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0751-male-anatomical-white-v2-p2-18a0a586e1ed.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 57890,
+          "sha256": "18a0a586e1edbb48c44a4cb6b3d3b791645f541ac2b5c88afb05654a0d0bb683"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0751-male-anatomical-white-v2-thumb-1112c2a08433.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 5700,
+        "sha256": "1112c2a0843326feb9fc26d966730339812634c1f0a5fc12ba6e89747259ea77"
+      },
+      "processingSignature": "35ef7815a8f2e81036de30526f700a554c37b66f8fb29dfbf466662604a04724",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0751-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1683231,
+        "sha256": "f52c09f407cc0e056cb646a2ff02313580413ecc0eb399719e71499d6a3cd2fe"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0751",
+          "variant": "male",
+          "key": "0751-male-anatomical-white-v1",
+          "layout": {
+            "columns": 2,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Lie flat with feet grounded. Hold the Smith bar with an overhand grip slightly narrower than shoulder width and lower toward the chest, elbows close to the body."
+            },
+            {
+              "key": "p2",
+              "caption": "Press up along the guides until the arms extend, then lower with control."
+            }
+          ],
+          "prompt": "Original ADULT male premium detailed exercise anatomy. TWO equal SQUARE cells side by side WIDE LANDSCAPE. SMITH CLOSE GRIP FLAT BENCH PRESS. Flat horizontal black bench. Hands closed OVERHAND PRONATED grip slightly NARROWER than shoulder width, hand separation about30cm, not touching, wrists straight stacked over forearms. Elbows tucked close alongside ribs. LEFT bar lightly touches MID/LOWER CHEST at sternum BELOW nipple line, NEVER neck/throat. RIGHT bar ABOVE same chest location, arms extended upward. Primary TRICEPS: red highlights on EXPOSED BACKS of upper arms only, no red chest/biceps/shoulders. Realistic Smith machine: horizontal bar ATTACHED to sliding collars on TWO VERTICAL guide rails linked sturdy grounded frame, modest identical weight plates outside hands. Bar slides ONLY vertically, frame/bench/body positions fixed both panels. Camera SIDE-FRONT three-quarter with guide uprights positioned so hands/chest contact visible not occluded. Head IMAGE LEFT feet IMAGE RIGHT in both cells. Back of SKULL DIRECTLY supported bench pad, eyes upward neutral neck, hair swept off pad from beneath skull, head NEVER lifted. Shoulders and buttocks supported pad, both feet soles FLAT floor. Same model scale/limb lengths, generous margins every limb/plate/frame fully contained each cell. Fine detailed grayscale EXPOSED muscle contours arms/calves, realistic proportions, equal male/female detail. Reference original project artwork STYLE ONLY not push-up pose. Fully opaque BLACK shirt and mid-thigh shorts wrap FRONT SIDES BACK SEAT CROTCH with seams/broad folds, no cutaway or anatomy through cloth. Black shoes. White background soft grounded shadows. No embedded text/captions/labels/arrows.",
+          "inspectionNote": "Narrow grip and triceps red present, skull bench-supported and feet grounded. Lower bar appears at neck level rather than mid/lower chest; correction required. Full opaque clothes and detailed exposed anatomy; qualified grip, elbows, mapping pending.",
+          "canonicalName": "smith close-grip bench press",
+          "styleVersion": "white-v1",
+          "equipment": "smith machine",
+          "primaryMuscles": [
+            "triceps"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Narrow grip and triceps red present, skull bench-supported and feet grounded. Lower bar appears at neck level rather than mid/lower chest; correction required. Full opaque clothes and detailed exposed anatomy; qualified grip, elbows, mapping pending.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0751-male-anatomical-white-v1-p1-f22f2e12ad95.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 52836,
+              "sha256": "f22f2e12ad95581764dfa7927ee2481f09059bac1e4b269e1fbc6c304f2acf66"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0751-male-anatomical-white-v1-p2-b63cb22e59b3.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 58678,
+              "sha256": "b63cb22e59b3f5e791cb938ff7408ee5d03e2d9fa202e567b3d201a4b610a74a"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0751-male-anatomical-white-v1-thumb-b7a158b1e8d6.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 5740,
+            "sha256": "b7a158b1e8d6ca86005889f8a37644df8d0a3f71a413af6b41cca0787666b932"
+          },
+          "processingSignature": "e0a7ea59cddd0cb32c1e41799fe6624619dea6e8bdd77b0e560cd88d0ddad754",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0751-male-anatomical-white-v1.png",
+            "width": 1774,
+            "height": 887,
+            "bytes": 1730341,
+            "sha256": "8495573d1e8ca411300dc485d81a57a750f975b1374680ce80324a704e47a822"
+          }
+        }
+      ],
+      "blockingIssues": [
+        "Lower bar remains at apparent neck/upper-chest level; correct clear mid/lower-chest contact and vertical path."
+      ]
+    },
+    {
+      "exerciseId": "0751",
+      "variant": "female",
+      "key": "0751-female-anatomical-white-v2",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Lie flat with feet grounded. Hold the Smith bar with an overhand grip slightly narrower than shoulder width and lower toward the chest, elbows close to the body."
+        },
+        {
+          "key": "p2",
+          "caption": "Press up along the guides until the arms extend, then lower with control."
+        }
+      ],
+      "prompt": "Correct original female CLOSE GRIP SMITH BENCH PRESS. Use TRUE SIDE three-quarter view to show bar touches MID/LOWER CHEST at sternum BELOW nipple line, well TOWARD FEET from neck. Shift bench/model relative to VERTICAL guides so bar axis sits at mid/lower chest, NOT throat or face. LEFT bar at chest with elbows tucked alongside ribs and forearms vertical; RIGHT same chest position with arms straight up. NARROW closed OVERHAND grip slightly narrower than shoulder width, not wide, wrists neutral. Both skull/shoulders/buttocks bench supported, feet flat. Red ONLY EXPOSED posterior upper-arm TRICEPS, no biceps/chest/shoulder red. Full opaque BLACK shirt/shorts continuous front sides back seat crotch, fine detailed exposed grayscale anatomy, same limb lengths. Frame connected sliding collars visible, no occlusion of chest/grip if possible. TWO equal square landscape cells white background generous margins, no text.",
+      "inspectionNote": "Edit lowered bar but still appears close to neck/upper chest rather than unambiguous mid/lower chest. Narrow grip and triceps red retained, supported skull and feet grounded. Blocked for contact/path correction; full opaque clothes and detailed exposed anatomy. Qualified grip/wrist/elbow mapping pending.",
+      "canonicalName": "smith close-grip bench press",
+      "styleVersion": "white-v1",
+      "equipment": "smith machine",
+      "primaryMuscles": [
+        "triceps"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0751-female-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "status": "generated",
+        "costUSD": null
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Edit lowered bar but still appears close to neck/upper chest rather than unambiguous mid/lower chest. Narrow grip and triceps red retained, supported skull and feet grounded. Blocked for contact/path correction; full opaque clothes and detailed exposed anatomy. Qualified grip/wrist/elbow mapping pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0751-female-anatomical-white-v2-p1-3b9d8a9d1136.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 46750,
+          "sha256": "3b9d8a9d11360cff91e3d49efedd4a865c3b020949921790c177abd30b978ec3"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0751-female-anatomical-white-v2-p2-3d8f6e42beb9.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 50262,
+          "sha256": "3d8f6e42beb9adb148955f82f04d79d9a53f90b7bbf413c580663d56caf6597e"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0751-female-anatomical-white-v2-thumb-8d530679c6eb.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 5198,
+        "sha256": "8d530679c6ebcece0a2f4ec45bd11df45dd23c2d6683af3bc0a95d6eaad99fa4"
+      },
+      "processingSignature": "d4446cfb901a5fefa23a9142988a6a01d043e80cc20332011e0eabd3eb525703",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0751-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1564811,
+        "sha256": "b51b6b4b493dcfcfee9ee87bd2e70ca9ac447a448640f8de89932bfae1a3edc7"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0751",
+          "variant": "female",
+          "key": "0751-female-anatomical-white-v1",
+          "layout": {
+            "columns": 2,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Lie flat with feet grounded. Hold the Smith bar with an overhand grip slightly narrower than shoulder width and lower toward the chest, elbows close to the body."
+            },
+            {
+              "key": "p2",
+              "caption": "Press up along the guides until the arms extend, then lower with control."
+            }
+          ],
+          "prompt": "Original ADULT female premium detailed exercise anatomy. TWO equal SQUARE cells side by side WIDE LANDSCAPE. SMITH CLOSE GRIP FLAT BENCH PRESS. Flat horizontal black bench. Hands closed OVERHAND PRONATED grip slightly NARROWER than shoulder width, hand separation about30cm, not touching, wrists straight stacked over forearms. Elbows tucked close alongside ribs. LEFT bar lightly touches MID/LOWER CHEST at sternum BELOW nipple line, NEVER neck/throat. RIGHT bar ABOVE same chest location, arms extended upward. Primary TRICEPS: red highlights on EXPOSED BACKS of upper arms only, no red chest/biceps/shoulders. Realistic Smith machine: horizontal bar ATTACHED to sliding collars on TWO VERTICAL guide rails linked sturdy grounded frame, modest identical weight plates outside hands. Bar slides ONLY vertically, frame/bench/body positions fixed both panels. Camera SIDE-FRONT three-quarter with guide uprights positioned so hands/chest contact visible not occluded. Head IMAGE LEFT feet IMAGE RIGHT in both cells. Back of SKULL DIRECTLY supported bench pad, eyes upward neutral neck, hair swept off pad from beneath skull, head NEVER lifted. Shoulders and buttocks supported pad, both feet soles FLAT floor. Same model scale/limb lengths, generous margins every limb/plate/frame fully contained each cell. Fine detailed grayscale EXPOSED muscle contours arms/calves, realistic proportions, equal male/female detail. Reference original project artwork STYLE ONLY not push-up pose. Fully opaque BLACK shirt and mid-thigh shorts wrap FRONT SIDES BACK SEAT CROTCH with seams/broad folds, no cutaway or anatomy through cloth. Black shoes. White background soft grounded shadows. No embedded text/captions/labels/arrows.",
+          "inspectionNote": "Narrow grip, triceps highlight and flat bench with grounded feet. Lower bar remains above face/neck rather than touching chest; correction required. Detailed exposed grayscale anatomy, full opaque clothes. Qualified head support, grip and elbow alignment pending.",
+          "canonicalName": "smith close-grip bench press",
+          "styleVersion": "white-v1",
+          "equipment": "smith machine",
+          "primaryMuscles": [
+            "triceps"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Narrow grip, triceps highlight and flat bench with grounded feet. Lower bar remains above face/neck rather than touching chest; correction required. Detailed exposed grayscale anatomy, full opaque clothes. Qualified head support, grip and elbow alignment pending.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0751-female-anatomical-white-v1-p1-0789497d1c9a.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 48862,
+              "sha256": "0789497d1c9a35f5de86500bceed8457066375d55f0595bf79aa76bd9e665b56"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0751-female-anatomical-white-v1-p2-ec374c7562c7.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 51828,
+              "sha256": "ec374c7562c764cff284ec2ad4c15fa2eff1063e5f23e9edf1858b5ea6f6bb62"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0751-female-anatomical-white-v1-thumb-3c87d2fcc54b.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 5300,
+            "sha256": "3c87d2fcc54bad44cb9a85502f049f35925f80440e3048abdbcbd4ef018eb025"
+          },
+          "processingSignature": "d7316a4be947c695fcad56bbca1d8e7f448cc4a9d78fbae40fc80173c0404149",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0751-female-anatomical-white-v1.png",
+            "width": 1774,
+            "height": 887,
+            "bytes": 1674654,
+            "sha256": "7f005d3b89d04a51304100b24e0dabba28d1240f376a4175898679e400c6091e"
+          }
+        }
+      ],
+      "blockingIssues": [
+        "Bar contact remains near neck/upper chest rather than clear mid/lower sternum; correct contact and vertical path."
+      ]
+    },
+    {
+      "exerciseId": "0757",
+      "variant": "male",
+      "key": "0757-male-anatomical-white-v2",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Sit against a bench inclined 30\u201345 degrees, feet grounded. Grip the Smith bar slightly wider than the shoulders and lower toward the upper chest with elbows slightly tucked."
+        },
+        {
+          "key": "p2",
+          "caption": "Press the bar upward along the guides until the arms extend, then lower with control."
+        }
+      ],
+      "prompt": "Correct original male SMITH INCLINE PRESS: LOWER backrest to35degrees ABOVE HORIZONTAL floor (less than45degrees), NOT steep55\u201360degree seat. SIDE three-quarter view makes bench angle clear. Head/back/shoulders rest DIRECTLY on inclined pad, hair swept from beneath skull, neutral neck eyes up. Seat supports buttocks, feet flat ground. LEFT bar touching upper chest BELOW clavicles never throat, elbows tucked45degrees and forearms vertical; RIGHT arms extend vertically toward ceiling above SAME upper-chest point, Smith collars slide VERTICALLY on fixed rails. Same body/bench positions and limb scale. Replace red streaks/fibers with ONE smooth diffuse blurred UPPER CHEST tint on intact opaque BLACK shirt; abdomen black and no red arms. Full opaque shorts wrap front sides back seat crotch, fine exposed grayscale anatomy. TWO equal square cells WIDE LANDSCAPE generous margins full machine visible, no text.",
+      "inspectionNote": "Bench angle lowered and chest tint softened, upper-chest lower bar and vertical raised phase retained. Finish skull appears above upper end of pad rather than directly supported, blocked for head support correction. Full opaque clothes and fine exposed grayscale anatomy. Qualified angle, grip, bar path and mapping pending.",
+      "canonicalName": "smith incline bench press",
+      "styleVersion": "white-v1",
+      "equipment": "smith machine",
+      "primaryMuscles": [
+        "pectorals"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0757-male-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "status": "generated",
+        "costUSD": null
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Bench angle lowered and chest tint softened, upper-chest lower bar and vertical raised phase retained. Finish skull appears above upper end of pad rather than directly supported, blocked for head support correction. Full opaque clothes and fine exposed grayscale anatomy. Qualified angle, grip, bar path and mapping pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0757-male-anatomical-white-v2-p1-114c8c29a52d.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 50254,
+          "sha256": "114c8c29a52d9254967950359a675f9596787d39b665ef74777cc7fe59384c68"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0757-male-anatomical-white-v2-p2-a52041f3d872.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 52780,
+          "sha256": "a52041f3d872fa4edc75ed16c45dc9613126c1ac8558ababf39b70fb8c9d0917"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0757-male-anatomical-white-v2-thumb-95ab4bce02ac.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 5778,
+        "sha256": "95ab4bce02acddc7c3cd427f8130ad6f44ecfe8300728c3fd87014c0e74fc506"
+      },
+      "processingSignature": "d550d5399f4090b114e64b6734a55af8aca9d32a39b7410325164efabc9ead95",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0757-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1668147,
+        "sha256": "af78f5783638aabe9c9da16cbbe710d8d7dc303ed822482cec2ccb016a1a79c3"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0757",
+          "variant": "male",
+          "key": "0757-male-anatomical-white-v1",
+          "layout": {
+            "columns": 2,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Sit against a bench inclined 30\u201345 degrees, feet grounded. Grip the Smith bar slightly wider than the shoulders and lower toward the upper chest with elbows slightly tucked."
+            },
+            {
+              "key": "p2",
+              "caption": "Press the bar upward along the guides until the arms extend, then lower with control."
+            }
+          ],
+          "prompt": "Original ADULT male premium detailed exercise anatomy. TWO equal SQUARE cells side by side WIDE LANDSCAPE. SMITH INCLINE BENCH PRESS. Black bench back pad inclined35degrees above floor, seat pad supporting buttocks, back and BACK OF SKULL rest against inclined pad both poses. Hands closed OVERHAND PRONATED grip slightly WIDER than shoulders, wrists neutral. LEFT lower bar lightly touches UPPER CHEST below clavicles, never NECK or face; elbows slightly tucked45degrees and forearms nearly vertical. RIGHT bar directly ABOVE SAME upper chest location, arms extended VERTICALLY toward ceiling not diagonal in line with torso. Primary upper PECTORALS: ONE smoothly blurred diffuse red tint on upper-chest SHIRT, NO rays/fibers/sixpack through fabric, no abdominal/arm red. Realistic Smith machine: horizontal bar ATTACHED to sliding collars on TWO VERTICAL guide rails linked sturdy grounded frame, modest identical weight plates outside hands. Bar slides ONLY vertically, frame/bench/body positions fixed both panels. Camera SIDE-FRONT three-quarter with guide uprights positioned so hands/chest contact visible not occluded. Head IMAGE LEFT feet IMAGE RIGHT in both cells. Back of SKULL DIRECTLY supported bench pad, eyes upward neutral neck, hair swept off pad from beneath skull, head NEVER lifted. Shoulders and buttocks supported pad, both feet soles FLAT floor. Same model scale/limb lengths, generous margins every limb/plate/frame fully contained each cell. Fine detailed grayscale EXPOSED muscle contours arms/calves, realistic proportions, equal male/female detail. Reference original project artwork STYLE ONLY not push-up pose. Fully opaque BLACK shirt and mid-thigh shorts wrap FRONT SIDES BACK SEAT CROTCH with seams/broad folds, no cutaway or anatomy through cloth. Black shoes. White background soft grounded shadows. No embedded text/captions/labels/arrows.",
+          "inspectionNote": "Incline bench and guided bar phases rendered with upper chest highlight, but backrest appears steeper than requested30\u201345degrees and red has fine rays, correction required. Detailed exposed anatomy and full opaque clothes. Qualified upper-chest contact, skull support, grip and path pending.",
+          "canonicalName": "smith incline bench press",
+          "styleVersion": "white-v1",
+          "equipment": "smith machine",
+          "primaryMuscles": [
+            "pectorals"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Incline bench and guided bar phases rendered with upper chest highlight, but backrest appears steeper than requested30\u201345degrees and red has fine rays, correction required. Detailed exposed anatomy and full opaque clothes. Qualified upper-chest contact, skull support, grip and path pending.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0757-male-anatomical-white-v1-p1-6165c0d522e0.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 56372,
+              "sha256": "6165c0d522e04dff1998b000415dd11aa50eb7489043cf8db5b7376b61d38f4e"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0757-male-anatomical-white-v1-p2-ba4a8d016004.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 56816,
+              "sha256": "ba4a8d016004a6ef563b43c2dafb125a6384f180bfb2b83a4541e0059672d8c6"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0757-male-anatomical-white-v1-thumb-dceeaf7522db.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 5834,
+            "sha256": "dceeaf7522dbf920ee7708081690b9aa0d03ba75843fcee8950179d127468e82"
+          },
+          "processingSignature": "1af334de42507a4dae1ec3545806bd4ff4cb50fe0812f47b8c2fd7ca0c3b42e5",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0757-male-anatomical-white-v1.png",
+            "width": 1774,
+            "height": 887,
+            "bytes": 1769247,
+            "sha256": "d244e4e147b39df4d3b6669ff8e9c6f9c4617b139db4fe8f87dd13b503f8ff2a"
+          }
+        }
+      ],
+      "blockingIssues": [
+        "Finish skull extends above pad with direct head support uncertain; correct bench/head contact."
+      ]
+    },
+    {
+      "exerciseId": "0757",
+      "variant": "female",
+      "key": "0757-female-anatomical-white-v2",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Sit against a bench inclined 30\u201345 degrees, feet grounded. Grip the Smith bar slightly wider than the shoulders and lower toward the upper chest with elbows slightly tucked."
+        },
+        {
+          "key": "p2",
+          "caption": "Press the bar upward along the guides until the arms extend, then lower with control."
+        }
+      ],
+      "prompt": "Correct original female SMITH INCLINE PRESS: LOWER backrest to35degrees ABOVE HORIZONTAL floor (less than45degrees), NOT steep55\u201360degree seat. SIDE three-quarter view makes bench angle clear. Head/back/shoulders rest DIRECTLY on inclined pad, hair swept from beneath skull, neutral neck eyes up. Seat supports buttocks, feet flat ground. LEFT bar touching upper chest BELOW clavicles never throat, elbows tucked45degrees and forearms vertical; RIGHT arms extend vertically toward ceiling above SAME upper-chest point, Smith collars slide VERTICALLY on fixed rails. Same body/bench positions and limb scale. Replace red streaks/fibers with ONE smooth diffuse blurred UPPER CHEST tint on intact opaque BLACK shirt; abdomen black and no red arms. Full opaque shorts wrap front sides back seat crotch, fine exposed grayscale anatomy. TWO equal square cells WIDE LANDSCAPE generous margins full machine visible, no text.",
+      "inspectionNote": "Bench angle lowered and upper chest tint softened. Press phases and grounded feet retained. Skull extends above pad with hair behind head; direct pad support remains uncertain, blocked for head support correction. Fine exposed grayscale anatomy and full opaque clothes. Qualified angle, bar contact/path, grip and mapping pending.",
+      "canonicalName": "smith incline bench press",
+      "styleVersion": "white-v1",
+      "equipment": "smith machine",
+      "primaryMuscles": [
+        "pectorals"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0757-female-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "status": "generated",
+        "costUSD": null
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Bench angle lowered and upper chest tint softened. Press phases and grounded feet retained. Skull extends above pad with hair behind head; direct pad support remains uncertain, blocked for head support correction. Fine exposed grayscale anatomy and full opaque clothes. Qualified angle, bar contact/path, grip and mapping pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0757-female-anatomical-white-v2-p1-4a153953b34f.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 48228,
+          "sha256": "4a153953b34fa53656665155529f11baa413dcbd0aee825f6906d7815ae9707c"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0757-female-anatomical-white-v2-p2-7df156839ac4.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 49620,
+          "sha256": "7df156839ac46ec6caa54c2ea907dba815e9d68629555b6f14912e577378ce79"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0757-female-anatomical-white-v2-thumb-4abad20544db.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 5724,
+        "sha256": "4abad20544dbf2bf0babf29bcc27d7d8df6d0554c527653141a9b41846355b59"
+      },
+      "processingSignature": "ad71d8690bdf73f694391eb8e35368a9ecf5b8c67f867f530bccd391526e5344",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0757-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1610292,
+        "sha256": "b34e811462408e66ed92e31774a27dd721d82a0a5fcce5d35595919b7ce82e51"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0757",
+          "variant": "female",
+          "key": "0757-female-anatomical-white-v1",
+          "layout": {
+            "columns": 2,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Sit against a bench inclined 30\u201345 degrees, feet grounded. Grip the Smith bar slightly wider than the shoulders and lower toward the upper chest with elbows slightly tucked."
+            },
+            {
+              "key": "p2",
+              "caption": "Press the bar upward along the guides until the arms extend, then lower with control."
+            }
+          ],
+          "prompt": "Original ADULT female premium detailed exercise anatomy. TWO equal SQUARE cells side by side WIDE LANDSCAPE. SMITH INCLINE BENCH PRESS. Black bench back pad inclined35degrees above floor, seat pad supporting buttocks, back and BACK OF SKULL rest against inclined pad both poses. Hands closed OVERHAND PRONATED grip slightly WIDER than shoulders, wrists neutral. LEFT lower bar lightly touches UPPER CHEST below clavicles, never NECK or face; elbows slightly tucked45degrees and forearms nearly vertical. RIGHT bar directly ABOVE SAME upper chest location, arms extended VERTICALLY toward ceiling not diagonal in line with torso. Primary upper PECTORALS: ONE smoothly blurred diffuse red tint on upper-chest SHIRT, NO rays/fibers/sixpack through fabric, no abdominal/arm red. Realistic Smith machine: horizontal bar ATTACHED to sliding collars on TWO VERTICAL guide rails linked sturdy grounded frame, modest identical weight plates outside hands. Bar slides ONLY vertically, frame/bench/body positions fixed both panels. Camera SIDE-FRONT three-quarter with guide uprights positioned so hands/chest contact visible not occluded. Head IMAGE LEFT feet IMAGE RIGHT in both cells. Back of SKULL DIRECTLY supported bench pad, eyes upward neutral neck, hair swept off pad from beneath skull, head NEVER lifted. Shoulders and buttocks supported pad, both feet soles FLAT floor. Same model scale/limb lengths, generous margins every limb/plate/frame fully contained each cell. Fine detailed grayscale EXPOSED muscle contours arms/calves, realistic proportions, equal male/female detail. Reference original project artwork STYLE ONLY not push-up pose. Fully opaque BLACK shirt and mid-thigh shorts wrap FRONT SIDES BACK SEAT CROTCH with seams/broad folds, no cutaway or anatomy through cloth. Black shoes. White background soft grounded shadows. No embedded text/captions/labels/arrows.",
+          "inspectionNote": "Incline press bar near upper chest then raised, opaque clothes and detailed exposed anatomy. Backrest appears too steep and skull supported by hair/forward neck uncertain, red has fine streaks; correction required. Qualified grip, wrists and bar path pending.",
+          "canonicalName": "smith incline bench press",
+          "styleVersion": "white-v1",
+          "equipment": "smith machine",
+          "primaryMuscles": [
+            "pectorals"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Incline press bar near upper chest then raised, opaque clothes and detailed exposed anatomy. Backrest appears too steep and skull supported by hair/forward neck uncertain, red has fine streaks; correction required. Qualified grip, wrists and bar path pending.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0757-female-anatomical-white-v1-p1-c0d697d680a6.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 49114,
+              "sha256": "c0d697d680a640a1aaa05596d801557295e38bd7d2bcf6daf3270babe857ed7f"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0757-female-anatomical-white-v1-p2-c1302f1e0b0b.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 50464,
+              "sha256": "c1302f1e0b0b5ca330e4a949d5e485462a513873eb9aaeb0c0c5fe3a75501f0f"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0757-female-anatomical-white-v1-thumb-56acdbf4fff9.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 5664,
+            "sha256": "56acdbf4fff93459eb1f7ab1c7b2abe5a14f71deac5a8134f2dc25650907b5fc"
+          },
+          "processingSignature": "a90090eddadf9c6ebac0e6f0d8f602b9741fb72d2c15373546a480d099ba5040",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0757-female-anatomical-white-v1.png",
+            "width": 1774,
+            "height": 887,
+            "bytes": 1651955,
+            "sha256": "3297abeb8a80e56fda0f88eaee228b3e3f52789765f1601f542f335e0be558ee"
+          }
+        }
+      ],
+      "blockingIssues": [
+        "Direct skull pad support remains uncertain with head above upper pad and hair behind it; correct head/bench contact."
+      ]
+    }
+  ]
+}

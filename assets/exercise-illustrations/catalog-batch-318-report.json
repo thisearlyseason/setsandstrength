@@ -1,0 +1,70 @@
+{
+  "batch": 318,
+  "runId": "949dc2ca-6813-44f8-9a18-40c221110b08",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "trigger": "2026-11-04T07:41:58.469Z",
+  "purpose": "batch318 scheduled male continuation",
+  "started": "2026-11-04T07:42:10.094358+00:00",
+  "completedAt": "2026-11-04T07:46:57.703951+00:00",
+  "actualToolName": "image_gen__imagegen",
+  "calls": 4,
+  "newCandidateSets": 4,
+  "exerciseIds": [
+    "2969",
+    "2970",
+    "2972",
+    "2974"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1139,
+    "remainingVariants": 10125,
+    "approvedVariants": 0,
+    "blockedVariants": 403,
+    "knownPoseImages": 2214,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 766,
+      "remainingVariants": 4866,
+      "blockedVariants": 284
+    }
+  },
+  "reviewNotes": {
+    "2969": "Front rack, deep squat and standing overhead press shown with two normal dumbbells. Shorts remain black and exposed quad highlights below hems. Qualified review of squat depth, knee tracking, overhead stacking and complete finger anatomy remains pending.",
+    "2970": "Band under both feet, shoulder rack/squat/overhead phases visible with opaque clothing. Unrequested red chest wash violates primary-only mapping; block highlight correction. Qualified review of band anchoring/routing and squat mechanics pending.",
+    "2972": "Neutral stance and clearly opposite-side lunges visible with bent working knee and straight opposite leg, both feet grounded, hands clasped and opaque clothing/plain quad wash. Qualified review of hip hinge, knee/foot tracking and muscle mapping remains pending.",
+    "2974": "Same right arm presses from bent elbow to forward extension while left hand rests on thigh and unused lever stays back. Back supported, feet planted and plain chest wash over opaque tank. Qualified review of machine linkage, press path and wrist alignment pending."
+  },
+  "blockingIssues": {
+    "2970": [
+      "Remove red pectoral wash; only quadriceps should be highlighted."
+    ]
+  },
+  "deferred": {},
+  "tests": 7,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "workerSyncResult": {
+    "statuses": {
+      "generated": 1139,
+      "pending": 10125
+    },
+    "remaining": 10125,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 1744722101
+  },
+  "publicationIndexUnchanged": true
+}

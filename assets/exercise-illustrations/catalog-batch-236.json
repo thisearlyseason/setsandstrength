@@ -1,0 +1,296 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "1774",
+      "variant": "male",
+      "key": "1774-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Support yourself on your forearm and the edge of your bottom foot. Stack your legs and lift your hips into a straight side plank."
+        },
+        {
+          "key": "p2",
+          "caption": "Keep your hips square and raised as you lift the top leg. Lower it under control, then repeat on the other side."
+        }
+      ],
+      "prompt": "SIDE BRIDGE HIP ABDUCTION. Two equal square cells side by side, wide2:1 composition. Camera front oblique at hip height sees same side of body in both. LEFT: forearm side plank elbow directly below shoulder, bottom foot outer edge planted, both straight legs stacked, pelvis raised so shoulder hip ankle line straight. Top hand rests on hip. RIGHT: same plank bottom forearm and foot supporting, pelvis stays raised square without rotation, TOP straight leg abducted30degrees upwards, toes forward. Primary outer TOP HIP abductors red teaching ellipse over lateral shorts only, all other skin and fabric grayscale. Both poses hips clearly off floor. Use case: scientific-educational. Premium detailed ADULT MALE grayscale anatomical illustration matching original reference for rendering STYLE ONLY, ignore its pose and highlights. Realistic proportions, crisp exposed grayscale muscle contours, white background soft shadows. Full opaque BLACK athletic tank and mid-thigh shorts wrap front sides back seat crotch, seams hems folds; no transparency cutaways or anatomy visible through fabric. Red highlight over fabric must be a FLAT UNIFORM SOFT RED ELLIPSE teaching tint with no internal lines fibers rays or lobes; fabric folds retained. Black shoes. No text labels arrows captions logos. All limbs fingers feet and equipment entirely in frame with generous margins. Same person camera lighting and scale across poses.",
+      "inspectionNote": "Real output inspected. Side bridge shows stacked straight legs and raised top leg with pelvis off floor, intact opaque clothing and flat outer-hip highlight. Qualified review needed for exact elbow-under-shoulder alignment, load-bearing foot, pelvic alignment and abductor mapping. Original project artwork style reference only; no upstream media. Exact prompt and original master saved. Human anatomy review pending; no approval or publication.",
+      "canonicalName": "side bridge hip abduction",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "abductors"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Side bridge shows stacked straight legs and raised top leg with pelvis off floor, intact opaque clothing and flat outer-hip highlight. Qualified review needed for exact elbow-under-shoulder alignment, load-bearing foot, pelvic alignment and abductor mapping. Original project artwork style reference only; no upstream media. Exact prompt and original master saved. Human anatomy review pending; no approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/1774-male-anatomical-white-v1-p1-fc82d39b6c75.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 28156,
+          "sha256": "fc82d39b6c75106c7ea39139da6817462a4b933c17bd7a7fb7e82d05c3b3c8e9"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/1774-male-anatomical-white-v1-p2-ebfa52f66f9c.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 29970,
+          "sha256": "ebfa52f66f9cc3ba32f28f3f86795325e8f4e9a6f380b947cee3dbbcf4500720"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-236.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/1774-male-anatomical-white-v1-thumb-fcbd9d2f7c36.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2862,
+        "sha256": "fcbd9d2f7c36e577d30f77e2a626d2607f25ea934aa0beb2a50a0506864d760a"
+      },
+      "processingSignature": "93ad117b5b93bfd6c188c395401babea5b474ea84f9e71bc33ab3de0bf2eb0b1",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1774-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1431819,
+        "sha256": "1edc60622e00c6e20b255fff3a6d559fbbfe080abb0e26c3e136c623559ef602"
+      }
+    },
+    {
+      "exerciseId": "1776",
+      "variant": "male",
+      "key": "1776-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Lie face down with your forehead on your hands and both legs straight. Brace your abdomen and glutes."
+        },
+        {
+          "key": "p2",
+          "caption": "Lift one straight leg a few inches without arching your back. Lower slowly, repeat, then switch legs."
+        }
+      ],
+      "prompt": "LYING SINGLE STRAIGHT LEG HIP EXTENSION. Two equal square cells side by side wide2:1. Same near-side profile with slight rear-oblique angle shows both legs. Prone face down forehead resting on stacked hands, chest abdomen pelvis supported on floor, legs straight. LEFT: both straight legs resting on floor. RIGHT: same position lift ONLY near straight leg a few inches, foot10cm above floor, knee straight, pelvis grounded, abdomen braced and low back neutral. Other leg stays on floor. Primary working GLUTE red soft teaching ellipse over intact shorts seat only; rest grayscale. Do not raise torso head or pelvis. Use case: scientific-educational. Premium detailed ADULT MALE grayscale anatomical illustration matching original reference for rendering STYLE ONLY, ignore its pose and highlights. Realistic proportions, crisp exposed grayscale muscle contours, white background soft shadows. Full opaque BLACK athletic tank and mid-thigh shorts wrap front sides back seat crotch, seams hems folds; no transparency cutaways or anatomy visible through fabric. Red highlight over fabric must be a FLAT UNIFORM SOFT RED ELLIPSE teaching tint with no internal lines fibers rays or lobes; fabric folds retained. Black shoes. No text labels arrows captions logos. All limbs fingers feet and equipment entirely in frame with generous margins. Same person camera lighting and scale across poses.",
+      "inspectionNote": "Real output inspected. Prone straight-leg extension shows resting legs then one straight leg raised with forehead on hands and torso/pelvis supported. Qualified review needed for exact lift height, lumbar neutrality and glute highlight laterality; other leg remains grounded. Original project artwork style reference only; no upstream media. Exact prompt and original master saved. Human anatomy review pending; no approval or publication.",
+      "canonicalName": "lying single straight leg hip extension",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "glutes"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Prone straight-leg extension shows resting legs then one straight leg raised with forehead on hands and torso/pelvis supported. Qualified review needed for exact lift height, lumbar neutrality and glute highlight laterality; other leg remains grounded. Original project artwork style reference only; no upstream media. Exact prompt and original master saved. Human anatomy review pending; no approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/1776-male-anatomical-white-v1-p1-5a10a63a8c81.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 17326,
+          "sha256": "5a10a63a8c81f42689c1a018fe4f150df71ccd0a008c985037503dc545c72aba"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/1776-male-anatomical-white-v1-p2-4d439aa0f4dc.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 19234,
+          "sha256": "4d439aa0f4dcff9cc8818fd6d1b0994c5a3d0405090612baf05b16c6cb44bddb"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-236.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/1776-male-anatomical-white-v1-thumb-57d415475cdf.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 1808,
+        "sha256": "57d415475cdf85d6aaf60e202a38d47193e0b4cd21f9361f6425f531a66bf714"
+      },
+      "processingSignature": "296c6440861eced74c8b0762049713a240e74c3940ec9f648c08b532636c7490",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1776-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1245054,
+        "sha256": "d12f24ed05bdc971544203170f2ebef10ab11a82e7b1c6ef6317ce8a1865ccd2"
+      }
+    },
+    {
+      "exerciseId": "1777",
+      "variant": "male",
+      "key": "1777-male-anatomical-white-v1",
+      "layout": {
+        "columns": 1,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand tall, interlace your fingers and reach overhead. Gently move your arms back without arching your lower back. Breathe steadily and hold for 20\u201330 seconds."
+        }
+      ],
+      "prompt": "ABOVE HEAD CHEST STRETCH. ONE full-body pose centered square canvas front three-quarter view. Stand tall feet hip width knees soft, fingers INTERLACED palms upward above head, elbows extended, arms reach overhead and slightly back without rib flare or low back arch. Shoulders comfortably relaxed, chest gently lifted. Hold20-30seconds no bouncing. Primary pectorals shown by uniform soft red ellipse on each side of intact tank upper chest, all other skin/fabric grayscale. Show both hands fingers interlaced and full feet with large margin. Use case: scientific-educational. Premium detailed ADULT MALE grayscale anatomical illustration matching original reference for rendering STYLE ONLY, ignore its pose and highlights. Realistic proportions, crisp exposed grayscale muscle contours, white background soft shadows. Full opaque BLACK athletic tank and mid-thigh shorts wrap front sides back seat crotch, seams hems folds; no transparency cutaways or anatomy visible through fabric. Red highlight over fabric must be a FLAT UNIFORM SOFT RED ELLIPSE teaching tint with no internal lines fibers rays or lobes; fabric folds retained. Black shoes. No text labels arrows captions logos. All limbs fingers feet and equipment entirely in frame with generous margins. Same person camera lighting and scale across poses.",
+      "inspectionNote": "Real output inspected. Single overhead chest stretch shows interlaced hands above head and tall stance with chest teaching overlays on intact tank. Qualified review needed for finger anatomy, comfortable shoulder elevation, precise backward arm reach and pectoral mapping. Original project artwork style reference only; no upstream media. Exact prompt and original master saved. Human anatomy review pending; no approval or publication.",
+      "canonicalName": "above head chest stretch",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "pectorals"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Single overhead chest stretch shows interlaced hands above head and tall stance with chest teaching overlays on intact tank. Qualified review needed for finger anatomy, comfortable shoulder elevation, precise backward arm reach and pectoral mapping. Original project artwork style reference only; no upstream media. Exact prompt and original master saved. Human anatomy review pending; no approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/1777-male-anatomical-white-v1-p1-272951626ce0.webp",
+          "width": 1200,
+          "height": 1200,
+          "bytes": 26048,
+          "sha256": "272951626ce0db71f755bf718748839f4cbad0056de9bf8859a802d8eb2bd7e8"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-236.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/1777-male-anatomical-white-v1-thumb-6c33f05d88cb.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 1976,
+        "sha256": "6c33f05d88cbd8bb538a48791ed5e6c9a9b71f1080fc758e074a05df67f1892c"
+      },
+      "processingSignature": "65eb3f7db92dc5e17d3cf9ae9b691651d4f07eeea7c899242a609f246645ecd4",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1777-male-anatomical-white-v1.png",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 1212772,
+        "sha256": "75ff980079eee0af269d6363ab1536d9e61da69490f06181f20d58057e39014b"
+      }
+    },
+    {
+      "exerciseId": "1780",
+      "variant": "male",
+      "key": "1780-male-anatomical-white-v1",
+      "layout": {
+        "columns": 1,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Place your forearm against a wall or doorframe with your elbow bent to 90 degrees. Step forward and gently turn away. Hold for 20\u201330 seconds, then switch sides."
+        }
+      ],
+      "prompt": "BENT ARM CHEST STRETCH. ONE full-body pose square canvas. Adult male beside sturdy gray vertical doorframe. His RIGHT forearm rests vertically against frame, elbow at shoulder height bent90degrees, palm on frame above elbow, wrist neutral. Right upper arm extends sideways and modestly behind chest as torso turns gently AWAY to LEFT, small forward step with feet grounded, shoulders relaxed, spine neutral. Camera front-left three-quarter clearly shows arm/frame contact and chest. Gentle comfortable range, no extreme shoulder rotation. Left arm relaxed at side. Primary RIGHT pectoral only soft flat red teaching ellipse over intact black tank chest. No other red. Full frame supporting post and full body within canvas. Use case: scientific-educational. Premium detailed ADULT MALE grayscale anatomical illustration matching original reference for rendering STYLE ONLY, ignore its pose and highlights. Realistic proportions, crisp exposed grayscale muscle contours, white background soft shadows. Full opaque BLACK athletic tank and mid-thigh shorts wrap front sides back seat crotch, seams hems folds; no transparency cutaways or anatomy visible through fabric. Red highlight over fabric must be a FLAT UNIFORM SOFT RED ELLIPSE teaching tint with no internal lines fibers rays or lobes; fabric folds retained. Black shoes. No text labels arrows captions logos. All limbs fingers feet and equipment entirely in frame with generous margins. Same person camera lighting and scale across poses.",
+      "inspectionNote": "Real output inspected. Single doorframe stretch shows bent right elbow, vertical forearm/frame contact and staggered grounded stance. Qualified review needed for sufficient torso rotation away from supported arm, shoulder height, wrist alignment and pectoral mapping. Original project artwork style reference only; no upstream media. Exact prompt and original master saved. Human anatomy review pending; no approval or publication.",
+      "canonicalName": "bent arm chest stretch",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "pectorals"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Single doorframe stretch shows bent right elbow, vertical forearm/frame contact and staggered grounded stance. Qualified review needed for sufficient torso rotation away from supported arm, shoulder height, wrist alignment and pectoral mapping. Original project artwork style reference only; no upstream media. Exact prompt and original master saved. Human anatomy review pending; no approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/1780-male-anatomical-white-v1-p1-7106300bcf3d.webp",
+          "width": 1200,
+          "height": 1200,
+          "bytes": 41838,
+          "sha256": "7106300bcf3d0004a779cea14e282bc3b433d74b89aa040f0a60a1c50436061c"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-236.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/1780-male-anatomical-white-v1-thumb-18a96ce44fc6.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2852,
+        "sha256": "18a96ce44fc6cc4ae2b07448bd3fbb24bad6ddb08eddc5f934cd12a8734a0114"
+      },
+      "processingSignature": "b25c89122d0a327b8f99a82cd7f73068fdd6c786ea7b8082b0ac502473ab0516",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1780-male-anatomical-white-v1.png",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 1356053,
+        "sha256": "1d1dbe9af3a00994002f52dbcfaaef71265555b55ee41b78cbec654699e5b052"
+      }
+    }
+  ]
+}

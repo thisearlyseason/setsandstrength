@@ -1,0 +1,45 @@
+{
+  "runId": "7f8baa68-24ff-4da1-afa3-c13bdc0e03b7",
+  "triggerTimestamp": "2026-11-04T22:28:03.865Z",
+  "builtInImageGenAvailable": true,
+  "batches": [
+    433
+  ],
+  "generatedMasters": 4,
+  "blocked": {
+    "4065": [
+      "Arnold starting palms-in grip and outward rotation missing.",
+      "Starting primary highlight on biceps rather than deltoids."
+    ],
+    "4067": [
+      "Arnold starting palms-in grip and outward rotation missing."
+    ]
+  },
+  "coverageAfter": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1532,
+    "remainingVariants": 9732,
+    "approvedVariants": 0,
+    "blockedVariants": 579,
+    "knownPoseImages": 3077,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 1159,
+      "remainingVariants": 4473,
+      "blockedVariants": 460
+    }
+  },
+  "pipelineTests": "8 passed, 0 failed",
+  "approvedIndexUnchanged": true,
+  "existingUserApprovalsPreserved": 1306,
+  "publication": "none",
+  "anatomyReview": "pending",
+  "stopReason": "Repeated missing Arnold starting palms-in grip and rotation on4065/4067; saved blocked.",
+  "nextRunGuidance": "Continue4066/4071/4086 or later simple exposed-target sets. Avoid additional Arnold variations until grip orientation prompt method corrected; no automatic retry of blocked masters.",
+  "styleReference": "assets/exercise-illustrations/generated/0853-male-anatomical-white-v1.png"
+}

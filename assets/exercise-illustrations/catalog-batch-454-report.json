@@ -1,0 +1,58 @@
+{
+  "batch": 454,
+  "runId": "31685116-6383-4f7c-81a4-0adf0ffc7e8a",
+  "triggerTimestamp": "2026-11-05T00:18:04.737Z",
+  "builtInImageGenAvailable": true,
+  "generatedIds": [
+    "5002",
+    "5003",
+    "5009",
+    "5052"
+  ],
+  "coverageAfter": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1616,
+    "remainingVariants": 9648,
+    "approvedVariants": 0,
+    "blockedVariants": 591,
+    "knownPoseImages": 3257,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 1243,
+      "remainingVariants": 4389,
+      "blockedVariants": 472
+    }
+  },
+  "paidWorker": {
+    "statuses": {
+      "generated": 1616,
+      "pending": 9648
+    },
+    "remaining": 9648,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 2441251467
+  },
+  "pipelineTests": "8 passed, 0 failed",
+  "approvedIndexUnchanged": true,
+  "existingUserApprovalsPreserved": 1306,
+  "anatomyReview": "pending",
+  "publication": "none",
+  "blocked": {
+    "5052": [
+      "Starting heel is level with the step, omitting the required below-step stretch. Correct lower end range before approval."
+    ]
+  }
+}

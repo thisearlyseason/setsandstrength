@@ -1,0 +1,84 @@
+{
+  "jobs": [
+    {
+      "key": "0276-female-anatomical-white-v9",
+      "exerciseId": "0276",
+      "variant": "female",
+      "source": null,
+      "layout": {
+        "columns": 2,
+        "rows": 2
+      },
+      "cropBounds": [
+        [
+          0,
+          0,
+          0.5,
+          0.5
+        ],
+        [
+          0.5,
+          0,
+          1,
+          0.5
+        ],
+        [
+          0,
+          0.5,
+          0.5,
+          1
+        ],
+        [
+          0.5,
+          0.5,
+          1,
+          1
+        ]
+      ],
+      "blockingIssues": [
+        "Qualified review must verify overhead-arm floor clearance, tabletop hip/knee angles and lumbar contact in the foreshortened view."
+      ],
+      "prompt": "Premium grayscale anatomical fitness illustration on pure white background, adult female wearing fully opaque black short sleeve athletic shirt and complete mid-thigh black shorts with uninterrupted front, sides, back, crotch and two leg openings, black sneakers. Fine anatomical muscle contours on exposed arms and legs. Small red abdominal teaching overlay on intact shirt, no transparent clothing. FOUR equally sized square panels in a 2x2 grid, white gutters, no text or borders. DEAD BUG exercise, fixed TRUE BIRD'S EYE overhead camera looking vertically DOWN at model lying supine on floor, head at TOP of every panel, feet toward BOTTOM. Torso and head rest flat on floor in all panels. Top-left: hips and knees bent at 90 degrees in tabletop, both arms straight toward camera above shoulders (foreshortened). Top-right: woman's RIGHT arm (IMAGE LEFT) lies straight overhead alongside ear toward TOP of image, LEFT leg (IMAGE RIGHT) straight low above floor toward BOTTOM. Other arm points toward camera and other knee stays bent above hip. Bottom-left repeat tabletop. Bottom-right: woman's LEFT arm (IMAGE RIGHT) lies straight overhead alongside ear toward TOP, RIGHT leg (IMAGE LEFT) straight toward BOTTOM, other arm toward camera and other knee bent above hip. Two extension poses are opposite DIAGONALS. Show fully straight extended arms reaching far BEYOND head, not sideways; straight extended legs reaching far beyond hips. Keep head neck spine resting neutral, no crunch. Generous margins so raised overhead fingertips and feet remain within each quadrant. Identical model, clothes, lighting, viewpoint and scale in every panel. Crisp realistic anatomical illustration, no flesh tones, no labels, no numbers, no extra limbs."
+    },
+    {
+      "key": "0276-male-anatomical-white-v9",
+      "exerciseId": "0276",
+      "variant": "male",
+      "source": "0276-female-anatomical-white-v9",
+      "layout": {
+        "columns": 2,
+        "rows": 2
+      },
+      "cropBounds": [
+        [
+          0,
+          0,
+          0.5,
+          0.5
+        ],
+        [
+          0.5,
+          0,
+          1,
+          0.5
+        ],
+        [
+          0,
+          0.5,
+          0.5,
+          1
+        ],
+        [
+          0.5,
+          0.5,
+          1,
+          1
+        ]
+      ],
+      "blockingIssues": [
+        "Qualified review must verify overhead-arm floor clearance, tabletop hip/knee angles and lumbar contact in the foreshortened view."
+      ],
+      "prompt": "Edit this four-panel dead bug anatomical exercise illustration: change ONLY the adult female model into an adult male with short hair and realistic male proportions. Preserve EXACTLY the four limb poses, opposite diagonal arm/leg pairings, fixed camera, panel layout, white background and margins. Keep the same complete opaque black short-sleeve training shirt and full mid-thigh shorts wrapping front sides back and crotch, shoes, and red abdominal region as a teaching graphic on intact cloth. Detailed grayscale anatomical muscle contours on exposed arms and legs, no flesh colors. First and third panels tabletop. Second panel image-left arm reaches overhead and image-right leg extends, opposite limbs stay raised/bent. Fourth panel image-right arm reaches overhead and image-left leg extends. No text, no numbers, no transparency or cutouts. Preserve the illustrated movement; no new poses."
+    }
+  ]
+}

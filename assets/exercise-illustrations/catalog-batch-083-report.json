@@ -1,0 +1,94 @@
+{
+  "batch": 83,
+  "trigger": "2026-11-01T18:11:19.351Z",
+  "completedAt": "2026-11-01T18:22:50.897032+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 4,
+  "generationCalls": 4,
+  "exerciseIds": [
+    "0586",
+    "0587"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 344,
+    "remainingVariants": 10920,
+    "approvedVariants": 0,
+    "blockedVariants": 139,
+    "knownPoseImages": 706,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Four candidate sets saved with exact prompts and originals; none approved or published. Both prone leg curls retain supported hips, lower-calf rollers, opaque garments and hamstring fabric highlights; fixed-pivot and linkage continuity remain blocked, and male initial knee extension is incomplete. Military presses show supported backs, planted feet, overhand grips and red deltoids. Male machine geometry changes across phases and remains blocked. Female top elbow softness, wrists and full linkage need qualified review. Anatomy, technique and publication remain separate from pipeline checks. Original project artwork used for style only.",
+  "metadataConflictsDeferred": [
+    {
+      "exerciseId": "0582",
+      "issue": "Kneeling support and fully extending knees require setup clarification."
+    },
+    {
+      "exerciseId": "0589",
+      "issue": "Lever one-arm name conflicts with barbell equipment and bilateral barbell instructions."
+    }
+  ],
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 562049715,
+  "savedMasters": [
+    {
+      "exerciseId": "0586",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0586-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1918906,
+        "sha256": "d534650121592c5c50ca379bd780aef963efa6c646cd5dd48e4f3f36f897bfb9"
+      }
+    },
+    {
+      "exerciseId": "0586",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0586-female-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1957123,
+        "sha256": "5c2b82fd05d717ef0dacd6a48b6bfd9614ecbcc92bbcdae196684df12eaac52f"
+      }
+    },
+    {
+      "exerciseId": "0587",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0587-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1899600,
+        "sha256": "b563f5e242725e69661af58993fee829fdd2aa993f28b34b78e602fb013c1406"
+      }
+    },
+    {
+      "exerciseId": "0587",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0587-female-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1929139,
+        "sha256": "64430a1f149bcaf0d6a8e79e55b053ec5cf78584cce2e203203f1b2079fe1b4e"
+      }
+    }
+  ]
+}

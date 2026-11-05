@@ -1,0 +1,62 @@
+{
+  "batch": 212,
+  "runId": "e8bb1ca1-d04f-4418-a85a-ea460485f53f",
+  "trigger": "2026-11-03T14:24:30.641Z",
+  "completedAt": "2026-11-03T14:31:08.735426+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 2,
+  "generationCalls": 2,
+  "exerciseIds": [
+    "1593"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 738,
+    "remainingVariants": 10526,
+    "approvedVariants": 0,
+    "blockedVariants": 240,
+    "knownPoseImages": 1448,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Two sit squat candidates, four poses, two built-in calls. Standing to near-parallel light chair touch, arms forward, flat feet and quadriceps red. Full opaque clothing and detailed exposed grayscale anatomy retained. Qualified chair stability/seat contact, light touch versus relaxed sitting, knee tracking, spine/neck alignment, hand anatomy and cloth tint require human review. Original project artwork rendering style only, no upstream licensed input. Exact prompts/originals saved. No anatomy or clothing approval or publication. Seven pipeline checks do not establish anatomical accuracy.",
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 1157733089,
+  "savedMasters": [
+    {
+      "exerciseId": "1593",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1593-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1386836,
+        "sha256": "aa1f26a6e802601c36b053155f4bbf83a3a0e567d8935a7198ff2c79737e42d5"
+      }
+    },
+    {
+      "exerciseId": "1593",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1593-female-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1435227,
+        "sha256": "1f92a20ed7a55b4b6d5e66f7eebfc33d119b3ecb29dc146b6fd5f0c0dee7a4ea"
+      }
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "batch": 190,
+  "runId": "7e2f5cf1-76ab-4baf-a6b4-cd63a4f80a0d",
+  "trigger": "2026-11-03T11:44:29.492Z",
+  "completedAt": "2026-11-03T11:49:59.186186+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 2,
+  "generationCalls": 2,
+  "exerciseIds": [
+    "1442"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 694,
+    "remainingVariants": 10570,
+    "approvedVariants": 0,
+    "blockedVariants": 229,
+    "knownPoseImages": 1372,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Two dip hold candidates, one static pose per variant, two built-in calls. Straight-arm top support, bent crossed legs airborne, both grips on parallel bars, exposed triceps red. Full opaque tank and shorts and detailed grayscale anatomy retained. Qualified shoulder depression, elbow extension, thumb/grip contact, wrist alignment, slight forward lean and bar-frame stability require human review. Original project artwork rendering style only, no upstream licensed input. Exact prompts and originals retained. No anatomy or clothing approval or publication. Seven pipeline checks do not establish anatomical accuracy.",
+  "metadataConflictsDeferred": {
+    "1439": "Gripless description versus grasp handles instruction."
+  },
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 1095856033,
+  "savedMasters": [
+    {
+      "exerciseId": "1442",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1442-male-anatomical-white-v1.png",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 1378145,
+        "sha256": "e194cf8c65bbaeae70b8b32b067233d1eb1274e2dd02ef93750571587e990306"
+      }
+    },
+    {
+      "exerciseId": "1442",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1442-female-anatomical-white-v1.png",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 1387009,
+        "sha256": "20ec32792634e45605540eab053a62c4fd0fc0f3120bb081ac4d4ae6b5bb2585"
+      }
+    }
+  ]
+}

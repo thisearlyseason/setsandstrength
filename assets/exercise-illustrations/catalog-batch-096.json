@@ -1,0 +1,716 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "0635",
+      "variant": "male",
+      "key": "0635-male-anatomical-white-v2",
+      "layout": {
+        "columns": 3,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Rest back and head on the mat, arms crossed over chest and feet flat"
+        },
+        {
+          "key": "p2",
+          "caption": "Lift shoulder blades and rotate the right shoulder toward the left knee"
+        },
+        {
+          "key": "p3",
+          "caption": "Return down between repetitions, then curl and rotate the left shoulder toward the right knee"
+        }
+      ],
+      "detail": "OBLIQUE FLOOR CRUNCH, THREE equal panels. Same model head image LEFT feet RIGHT lying on mat, knees bent and BOTH feet flat hip width throughout. Arms CROSSED over CHEST, each hand opposite shoulder, per canonical option. LEFT supine neutral back/skull/shoulders fully on mat, face up. MIDDLE curl shoulder blades modestly OFF mat while rotating RIGHT SHOULDER toward LEFT KNEE, opposite shoulder stays low, pelvis stays mat, knees/feet motionless. RIGHT after returning down between repetitions (not separate panel), curl and rotate LEFT SHOULDER toward RIGHT KNEE, opposite twist direction clearly visible, no side-lying. Neck follows torso, no full sit-up. Legs identical across phases, only upper torso/shoulder line rotates. Soft diffuse red tint over intact opaque BLACK ABDOMINAL SHIRT only, no muscle segmentation/fibers/cutaways. All exposed anatomy grayscale detailed fibers. Entire person within each panel, no labels/arrows.",
+      "prompt": "Edit this original project three-panel crossed-arm oblique crunch. Preserve model, floor mat, camera, bent knees and planted feet, full opaque shirt and shorts around front sides back seat crotch, fine grayscale muscle fibers on exposed arms/legs. LEFT: lower back of SKULL directly to mat, eyes up, neck neutral, arms crossed on chest, no hovering head. MIDDLE keep current twist. RIGHT must twist torso OPPOSITE to middle: near/foreground shoulder RISES across toward FAR knee, far shoulder LOW near mat. Show near shoulder above far shoulder instead of same low foreground shoulder as middle; both arms still crossed on chest, pelvis flat and legs unchanged. This is a modest shoulder blade curl and rotation, not sit-up. ALL panels erase abdominal muscle segmentation/radial fibers in clothing: continuous opaque BLACK shirt with broad natural fabric folds and one smooth soft diffuse BLURRED red abdominal patch only. No sixpack lines, no cutaways, no text.",
+      "inspectionNote": "First-phase skull lowered to floor and shirt tint softened over opaque fabric. Final phase still repeats middle shoulder orientation, opposite rotation not achieved; blocked. Crossed arms and feet/knees retained, detailed grayscale anatomy. Qualified curl height and cloth review pending.",
+      "canonicalName": "oblique crunches floor",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "abs"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0635-male-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "status": "generated",
+        "costUSD": null
+      },
+      "review": {
+        "status": "pending",
+        "notes": "First-phase skull lowered to floor and shirt tint softened over opaque fabric. Final phase still repeats middle shoulder orientation, opposite rotation not achieved; blocked. Crossed arms and feet/knees retained, detailed grayscale anatomy. Qualified curl height and cloth review pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0635-male-anatomical-white-v2-p1-2dabb1b06ad6.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 19398,
+          "sha256": "2dabb1b06ad6b92be45c0fddc871a44732516fba6f73d1aa6dec984e204991fa"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0635-male-anatomical-white-v2-p2-6c4b554a485a.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 21728,
+          "sha256": "6c4b554a485ac0716c91b0927e03bb266ef265542a3f9eca3944a1d99d85c091"
+        },
+        {
+          "pose": "p3",
+          "path": "/workout/illustration-pilot/0635-male-anatomical-white-v2-p3-60638da05aa7.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 21616,
+          "sha256": "60638da05aa7435d8d682a51ec378218481cc73bdc9a7d0954dafc5a564feacb"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0635-male-anatomical-white-v2-thumb-8d2ccc58835a.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2840,
+        "sha256": "8d2ccc58835acf80ff2dc13c288dc3b65752ee2eefe9bc9d3e21fa1cc8943240"
+      },
+      "processingSignature": "98a643e5926b7f5c0faa2433ee5dfb607cc43f7dc87f28dc2e041ba2522cadf7",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0635-male-anatomical-white-v2.png",
+        "width": 2172,
+        "height": 724,
+        "bytes": 1702765,
+        "sha256": "321536792f0248bfeaac0889a4ff0cea85229e799cf3dc48a85f8f73ca8dc592"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0635",
+          "variant": "male",
+          "key": "0635-male-anatomical-white-v1",
+          "layout": {
+            "columns": 3,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Rest back and head on the mat, arms crossed over chest and feet flat"
+            },
+            {
+              "key": "p2",
+              "caption": "Lift shoulder blades and rotate the right shoulder toward the left knee"
+            },
+            {
+              "key": "p3",
+              "caption": "Return down between repetitions, then curl and rotate the left shoulder toward the right knee"
+            }
+          ],
+          "detail": "OBLIQUE FLOOR CRUNCH, THREE equal panels. Same model head image LEFT feet RIGHT lying on mat, knees bent and BOTH feet flat hip width throughout. Arms CROSSED over CHEST, each hand opposite shoulder, per canonical option. LEFT supine neutral back/skull/shoulders fully on mat, face up. MIDDLE curl shoulder blades modestly OFF mat while rotating RIGHT SHOULDER toward LEFT KNEE, opposite shoulder stays low, pelvis stays mat, knees/feet motionless. RIGHT after returning down between repetitions (not separate panel), curl and rotate LEFT SHOULDER toward RIGHT KNEE, opposite twist direction clearly visible, no side-lying. Neck follows torso, no full sit-up. Legs identical across phases, only upper torso/shoulder line rotates. Soft diffuse red tint over intact opaque BLACK ABDOMINAL SHIRT only, no muscle segmentation/fibers/cutaways. All exposed anatomy grayscale detailed fibers. Entire person within each panel, no labels/arrows.",
+          "prompt": "Original educational exercise illustration. Attached original project artwork is STYLE reference ONLY, never pose reference. Detailed fine grayscale anatomical fibers on exposed arms and legs, realistic neutral adult MALE; pure white background. THREE equal side-by-side panels, same exact model, camera and lighting. FULLY OPAQUE matte BLACK sleeveless shirt continuously wraps torso front/sides/back. Loose BLACK knee-length shorts fully wrap both upper thighs, front, sides, rear, seat and crotch with closed hems/seams and natural fabric folds. Never translucent fabric, bare buttocks, anatomy windows, clothing cutaways or muscle-fiber patterns on clothes. Black trainers. Red PRIMARY muscle highlights only as specified, over clothing one soft diffuse blurred tint on intact black fabric, no anatomy divisions or fibers. Entire person, shoes, hands and apparatus fit in EACH panel with generous white margins. No text, arrows, logos or numbers. OBLIQUE FLOOR CRUNCH, THREE equal panels. Same model head image LEFT feet RIGHT lying on mat, knees bent and BOTH feet flat hip width throughout. Arms CROSSED over CHEST, each hand opposite shoulder, per canonical option. LEFT supine neutral back/skull/shoulders fully on mat, face up. MIDDLE curl shoulder blades modestly OFF mat while rotating RIGHT SHOULDER toward LEFT KNEE, opposite shoulder stays low, pelvis stays mat, knees/feet motionless. RIGHT after returning down between repetitions (not separate panel), curl and rotate LEFT SHOULDER toward RIGHT KNEE, opposite twist direction clearly visible, no side-lying. Neck follows torso, no full sit-up. Legs identical across phases, only upper torso/shoulder line rotates. Soft diffuse red tint over intact opaque BLACK ABDOMINAL SHIRT only, no muscle segmentation/fibers/cutaways. All exposed anatomy grayscale detailed fibers. Entire person within each panel, no labels/arrows.",
+          "inspectionNote": "Three crossed-arm crunch phases, flat feet and bent knees. First head hovers; middle/final appear same twist direction, not alternating. Abdominal shirt has patterned red tint; correction needed for head rest, opposite shoulder rotation and diffuse intact fabric.",
+          "canonicalName": "oblique crunches floor",
+          "styleVersion": "white-v1",
+          "equipment": "body weight",
+          "primaryMuscles": [
+            "abs"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Three crossed-arm crunch phases, flat feet and bent knees. First head hovers; middle/final appear same twist direction, not alternating. Abdominal shirt has patterned red tint; correction needed for head rest, opposite shoulder rotation and diffuse intact fabric.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0635-male-anatomical-white-v1-p1-680f4de85edf.webp",
+              "width": 724,
+              "height": 724,
+              "bytes": 22136,
+              "sha256": "680f4de85edf590ebcf7564bccc815b69504d5a9cdb2883679d8578a94293192"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0635-male-anatomical-white-v1-p2-4ac4eb29125a.webp",
+              "width": 724,
+              "height": 724,
+              "bytes": 24862,
+              "sha256": "4ac4eb29125a5ae9c0c5ae0d6c7dd571344b329d8332c5c3871ac6cdfb497474"
+            },
+            {
+              "pose": "p3",
+              "path": "/workout/illustration-pilot/0635-male-anatomical-white-v1-p3-884da458a4b0.webp",
+              "width": 724,
+              "height": 724,
+              "bytes": 24288,
+              "sha256": "884da458a4b07aa133c13d9e9336aff6dca8aa37dbaa0c7e43d469843db227a0"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0635-male-anatomical-white-v1-thumb-4751a8b58591.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 2874,
+            "sha256": "4751a8b58591257909a00ed73fdaaae51e723ffe0a953b154d5c4b5ee47c1101"
+          },
+          "processingSignature": "db60df04e71f9e233124285552dc35443f07c03b656a7c5d51101cf0f7ed6a13",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0635-male-anatomical-white-v1.png",
+            "width": 2172,
+            "height": 724,
+            "bytes": 1809536,
+            "sha256": "9c5a53b586d1093eaacb74a397da44489febbd06520bf2f563329c133d1ec0c2"
+          }
+        }
+      ],
+      "blockingIssues": [
+        "Final oblique-crunch phase still repeats same twist direction after correction."
+      ]
+    },
+    {
+      "exerciseId": "0635",
+      "variant": "female",
+      "key": "0635-female-anatomical-white-v2",
+      "layout": {
+        "columns": 3,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Rest back and head on the mat, arms crossed over chest and feet flat"
+        },
+        {
+          "key": "p2",
+          "caption": "Lift shoulder blades and rotate the right shoulder toward the left knee"
+        },
+        {
+          "key": "p3",
+          "caption": "Return down between repetitions, then curl and rotate the left shoulder toward the right knee"
+        }
+      ],
+      "detail": "OBLIQUE FLOOR CRUNCH, THREE equal panels. Same model head image LEFT feet RIGHT lying on mat, knees bent and BOTH feet flat hip width throughout. Arms CROSSED over CHEST, each hand opposite shoulder, per canonical option. LEFT supine neutral back/skull/shoulders fully on mat, face up. MIDDLE curl shoulder blades modestly OFF mat while rotating RIGHT SHOULDER toward LEFT KNEE, opposite shoulder stays low, pelvis stays mat, knees/feet motionless. RIGHT after returning down between repetitions (not separate panel), curl and rotate LEFT SHOULDER toward RIGHT KNEE, opposite twist direction clearly visible, no side-lying. Neck follows torso, no full sit-up. Legs identical across phases, only upper torso/shoulder line rotates. Soft diffuse red tint over intact opaque BLACK ABDOMINAL SHIRT only, no muscle segmentation/fibers/cutaways. All exposed anatomy grayscale detailed fibers. Entire person within each panel, no labels/arrows.",
+      "prompt": "Edit this original project three-panel crossed-arm oblique crunch. Preserve model, floor mat, camera, bent knees and planted feet, full opaque shirt and shorts around front sides back seat crotch, fine grayscale muscle fibers on exposed arms/legs. LEFT: lower back of SKULL directly to mat, eyes up, neck neutral, arms crossed on chest, no hovering head. MIDDLE keep current twist. RIGHT must twist torso OPPOSITE to middle: near/foreground shoulder RISES across toward FAR knee, far shoulder LOW near mat. Show near shoulder above far shoulder instead of same low foreground shoulder as middle; both arms still crossed on chest, pelvis flat and legs unchanged. This is a modest shoulder blade curl and rotation, not sit-up. ALL panels erase abdominal muscle segmentation/radial fibers in clothing: continuous opaque BLACK shirt with broad natural fabric folds and one smooth soft diffuse BLURRED red abdominal patch only. No sixpack lines, no cutaways, no text. Female model: flatten/spread ponytail behind skull to mat so it does not prop head, preserve fine grayscale fibers on exposed limbs.",
+      "inspectionNote": "First-phase ponytail flatter, shirt tint softened but lines remain. Final pose changes head tilt and shoulder height yet opposite trunk rotation is not clearly established; blocked. Opaque garments and fine grayscale exposed anatomy retained. Qualified neck support and alternating rotation review needed.",
+      "canonicalName": "oblique crunches floor",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "abs"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0635-female-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "status": "generated",
+        "costUSD": null
+      },
+      "review": {
+        "status": "pending",
+        "notes": "First-phase ponytail flatter, shirt tint softened but lines remain. Final pose changes head tilt and shoulder height yet opposite trunk rotation is not clearly established; blocked. Opaque garments and fine grayscale exposed anatomy retained. Qualified neck support and alternating rotation review needed.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0635-female-anatomical-white-v2-p1-35f436092729.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 19614,
+          "sha256": "35f436092729b7139d306c78ba49deed707ae12ef475291d8c14581218f2e66e"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0635-female-anatomical-white-v2-p2-5552e59701dd.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 23004,
+          "sha256": "5552e59701dd895f62a4e6723e1e968c7148d332326db31531b5769775884933"
+        },
+        {
+          "pose": "p3",
+          "path": "/workout/illustration-pilot/0635-female-anatomical-white-v2-p3-7dc7ef65ffbc.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 22988,
+          "sha256": "7dc7ef65ffbc846c121e2f7c352ae1604ca770ce21d833882be32c2e3738c94e"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0635-female-anatomical-white-v2-thumb-fded56e53e78.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2510,
+        "sha256": "fded56e53e78ae8f9c1fccd65e862bee88f7c9b93993baad296c0fd0b2cf1832"
+      },
+      "processingSignature": "b3405a0983f9114725e0e0e45f51d82f5e0bcabdfeb273eced32c70db684af21",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0635-female-anatomical-white-v2.png",
+        "width": 2172,
+        "height": 724,
+        "bytes": 1788689,
+        "sha256": "29ec0afff197601995bfc448236e0867cb26920f8450bf18909b1c13aab7c4a5"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0635",
+          "variant": "female",
+          "key": "0635-female-anatomical-white-v1",
+          "layout": {
+            "columns": 3,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Rest back and head on the mat, arms crossed over chest and feet flat"
+            },
+            {
+              "key": "p2",
+              "caption": "Lift shoulder blades and rotate the right shoulder toward the left knee"
+            },
+            {
+              "key": "p3",
+              "caption": "Return down between repetitions, then curl and rotate the left shoulder toward the right knee"
+            }
+          ],
+          "detail": "OBLIQUE FLOOR CRUNCH, THREE equal panels. Same model head image LEFT feet RIGHT lying on mat, knees bent and BOTH feet flat hip width throughout. Arms CROSSED over CHEST, each hand opposite shoulder, per canonical option. LEFT supine neutral back/skull/shoulders fully on mat, face up. MIDDLE curl shoulder blades modestly OFF mat while rotating RIGHT SHOULDER toward LEFT KNEE, opposite shoulder stays low, pelvis stays mat, knees/feet motionless. RIGHT after returning down between repetitions (not separate panel), curl and rotate LEFT SHOULDER toward RIGHT KNEE, opposite twist direction clearly visible, no side-lying. Neck follows torso, no full sit-up. Legs identical across phases, only upper torso/shoulder line rotates. Soft diffuse red tint over intact opaque BLACK ABDOMINAL SHIRT only, no muscle segmentation/fibers/cutaways. All exposed anatomy grayscale detailed fibers. Entire person within each panel, no labels/arrows.",
+          "prompt": "Original educational exercise illustration. Attached original project artwork is STYLE reference ONLY, never pose reference. Detailed fine grayscale anatomical fibers on exposed arms and legs, realistic neutral adult FEMALE; pure white background. THREE equal side-by-side panels, same exact model, camera and lighting. FULLY OPAQUE matte BLACK sleeveless shirt continuously wraps torso front/sides/back. Loose BLACK knee-length shorts fully wrap both upper thighs, front, sides, rear, seat and crotch with closed hems/seams and natural fabric folds. Never translucent fabric, bare buttocks, anatomy windows, clothing cutaways or muscle-fiber patterns on clothes. Black trainers. Red PRIMARY muscle highlights only as specified, over clothing one soft diffuse blurred tint on intact black fabric, no anatomy divisions or fibers. Entire person, shoes, hands and apparatus fit in EACH panel with generous white margins. No text, arrows, logos or numbers. OBLIQUE FLOOR CRUNCH, THREE equal panels. Same model head image LEFT feet RIGHT lying on mat, knees bent and BOTH feet flat hip width throughout. Arms CROSSED over CHEST, each hand opposite shoulder, per canonical option. LEFT supine neutral back/skull/shoulders fully on mat, face up. MIDDLE curl shoulder blades modestly OFF mat while rotating RIGHT SHOULDER toward LEFT KNEE, opposite shoulder stays low, pelvis stays mat, knees/feet motionless. RIGHT after returning down between repetitions (not separate panel), curl and rotate LEFT SHOULDER toward RIGHT KNEE, opposite twist direction clearly visible, no side-lying. Neck follows torso, no full sit-up. Legs identical across phases, only upper torso/shoulder line rotates. Soft diffuse red tint over intact opaque BLACK ABDOMINAL SHIRT only, no muscle segmentation/fibers/cutaways. All exposed anatomy grayscale detailed fibers. Entire person within each panel, no labels/arrows.",
+          "inspectionNote": "Three crossed-arm crunch phases with bent knees and flat feet. Head appears propped on ponytail in first phase, middle/final repeat same twist. Abdominal tint patterned; correction needed for skull support, opposite rotation and diffuse fabric. Opaque full garments and detailed grayscale limbs.",
+          "canonicalName": "oblique crunches floor",
+          "styleVersion": "white-v1",
+          "equipment": "body weight",
+          "primaryMuscles": [
+            "abs"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Three crossed-arm crunch phases with bent knees and flat feet. Head appears propped on ponytail in first phase, middle/final repeat same twist. Abdominal tint patterned; correction needed for skull support, opposite rotation and diffuse fabric. Opaque full garments and detailed grayscale limbs.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0635-female-anatomical-white-v1-p1-f44e40d7cc9f.webp",
+              "width": 724,
+              "height": 724,
+              "bytes": 23624,
+              "sha256": "f44e40d7cc9f6a7777b5573f196cc51c8ba9d2dec54f6552c86ed488b614ee42"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0635-female-anatomical-white-v1-p2-7fba77e1e650.webp",
+              "width": 724,
+              "height": 724,
+              "bytes": 27652,
+              "sha256": "7fba77e1e650322d5bd93377ad9ade7965c87658c788fa87c68d7d085262b38c"
+            },
+            {
+              "pose": "p3",
+              "path": "/workout/illustration-pilot/0635-female-anatomical-white-v1-p3-cdb1a957f17c.webp",
+              "width": 724,
+              "height": 724,
+              "bytes": 27110,
+              "sha256": "cdb1a957f17c1efdac2771356ac58d8d088ffcf73e827f1924de217e3a88cb5b"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0635-female-anatomical-white-v1-thumb-2003a1c7695c.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 2636,
+            "sha256": "2003a1c7695cd6b7fa3240da1ca74e46a537be9c11c6772fbba768c155a46d08"
+          },
+          "processingSignature": "450e5c05975f58edf824fb48430ed9f420a58b879959afa47b1ccc72e11c4342",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0635-female-anatomical-white-v1.png",
+            "width": 2172,
+            "height": 724,
+            "bytes": 1828258,
+            "sha256": "e2b96749635798a8d4bf0a31b6ba2c412c57868b8f8a44edd2283c95bf4e6a2d"
+          }
+        }
+      ],
+      "blockingIssues": [
+        "Opposite torso rotation remains unclear after correction; residual patterned abdominal tint."
+      ]
+    },
+    {
+      "exerciseId": "0637",
+      "variant": "male",
+      "key": "0637-male-anatomical-white-v2",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Bend elbows to lower the bar behind the head, keeping upper arms near ears"
+        },
+        {
+          "key": "p2",
+          "caption": "Straighten elbows to raise the bar overhead without moving upper arms"
+        }
+      ],
+      "detail": "STANDING OLYMPIC STRAIGHT BARBELL OVERHEAD TRICEPS EXTENSION, TWO phases. Three-quarter SIDE view with entire full-length straight Olympic bar, balanced small identical gray plates and collars both ends visible and within each panel. Feet shoulder width planted, torso upright neutral ribs, no bench. BOTH hands shoulder-width OVERHAND closed grip, fingers and thumbs wrap bar securely, identical grip never changes. Upper arms near ears and roughly VERTICAL, shoulders fixed. LEFT LOWERED: elbows flex about90degrees, forearms fold BEHIND HEAD and bar held horizontally BEHIND upper neck/head with safe visible clearance; not in front of face, not resting on neck. RIGHT EXTENDED: straighten elbows to raise bar horizontally overhead directly above shoulder line, upper arms remain near ears, neutral wrists no shrug. Exact same bar length, plates, model/camera/floor each panel. Primary TRICEPS only red anatomical highlight on EXPOSED posterior upper arms; all other muscles grayscale fine fibers. Shirt has NO red and opaque full front sides back. Shorts fully opaque front sides back seat crotch. No text.",
+      "prompt": "Correct original project two-panel Olympic barbell overhead TRICEPS extension. ZOOM OUT BOTH panels enough to leave at least60pixels WHITE margin ABOVE entire topmost plate/bar and around shoes and all equipment. FULL uncut Olympic bar, both plates/collars and body within each equal panel. LEFT lowered phase: keep upper arms VERTICAL beside ears, elbows pointing UP, bend elbows deeper to lower BOTH hands and straight horizontal bar BEHIND HEAD to upper-neck height with a visible small clearance behind skull/neck; do not put bar above crown or resting on head, do not flare upper arms. RIGHT extended pose unchanged except framing. Maintain same full straight bar and identical small plates both ends, same shoulder-width overhand closed grip with thumbs and fingers wrapped, neutral wrist. Red only exposed TRICEPS posterior upper arms, all other exposed anatomy fine detailed grayscale fibers. Preserve fully opaque black shirt and shorts around front sides back seat crotch. No text.",
+      "inspectionNote": "Framing correction restores full plates/bar and feet inside image. Lowered phase bar remains above crown and elbows/forearms do not show intended behind-head depth; blocked. Red exposed triceps and opaque clothes retained. Qualified grip, elbow and bar geometry review needed.",
+      "canonicalName": "olympic barbell triceps extension",
+      "styleVersion": "white-v1",
+      "equipment": "olympic barbell",
+      "primaryMuscles": [
+        "triceps"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0637-male-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "status": "generated",
+        "costUSD": null
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Framing correction restores full plates/bar and feet inside image. Lowered phase bar remains above crown and elbows/forearms do not show intended behind-head depth; blocked. Red exposed triceps and opaque clothes retained. Qualified grip, elbow and bar geometry review needed.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0637-male-anatomical-white-v2-p1-9b6ce2ccae95.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 22372,
+          "sha256": "9b6ce2ccae95509da6ebc7cc29d073df3253b936090771fe7bbbfe246b263b97"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0637-male-anatomical-white-v2-p2-26344d64097d.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 23306,
+          "sha256": "26344d64097dd02d02da7ba180201db2aa72d6720a8569df781f2f940aba98c6"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0637-male-anatomical-white-v2-thumb-373df68193bb.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2456,
+        "sha256": "373df68193bb3e49f918daa967e977c35450d88a20f6ec076af1db3465bf846d"
+      },
+      "processingSignature": "bfbb5b964f8bf0aaf6f7e43e3bc1f1992e8ee77417f6f4d987351f03ce65a2a5",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0637-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1574033,
+        "sha256": "436156b3d57c774dd3331d7153a6a255629f82ade2461b2bbb14663cd9f37e59"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0637",
+          "variant": "male",
+          "key": "0637-male-anatomical-white-v1",
+          "layout": {
+            "columns": 2,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Bend elbows to lower the bar behind the head, keeping upper arms near ears"
+            },
+            {
+              "key": "p2",
+              "caption": "Straighten elbows to raise the bar overhead without moving upper arms"
+            }
+          ],
+          "detail": "STANDING OLYMPIC STRAIGHT BARBELL OVERHEAD TRICEPS EXTENSION, TWO phases. Three-quarter SIDE view with entire full-length straight Olympic bar, balanced small identical gray plates and collars both ends visible and within each panel. Feet shoulder width planted, torso upright neutral ribs, no bench. BOTH hands shoulder-width OVERHAND closed grip, fingers and thumbs wrap bar securely, identical grip never changes. Upper arms near ears and roughly VERTICAL, shoulders fixed. LEFT LOWERED: elbows flex about90degrees, forearms fold BEHIND HEAD and bar held horizontally BEHIND upper neck/head with safe visible clearance; not in front of face, not resting on neck. RIGHT EXTENDED: straighten elbows to raise bar horizontally overhead directly above shoulder line, upper arms remain near ears, neutral wrists no shrug. Exact same bar length, plates, model/camera/floor each panel. Primary TRICEPS only red anatomical highlight on EXPOSED posterior upper arms; all other muscles grayscale fine fibers. Shirt has NO red and opaque full front sides back. Shorts fully opaque front sides back seat crotch. No text.",
+          "prompt": "Original educational exercise illustration. Attached original project artwork is STYLE reference ONLY, never pose reference. Detailed fine grayscale anatomical fibers on exposed arms and legs, realistic neutral adult MALE; pure white background. TWO equal side-by-side panels, same exact model, camera and lighting. FULLY OPAQUE matte BLACK sleeveless shirt continuously wraps torso front/sides/back. Loose BLACK knee-length shorts fully wrap both upper thighs, front, sides, rear, seat and crotch with closed hems/seams and natural fabric folds. Never translucent fabric, bare buttocks, anatomy windows, clothing cutaways or muscle-fiber patterns on clothes. Black trainers. Red PRIMARY muscle highlights only as specified, over clothing one soft diffuse blurred tint on intact black fabric, no anatomy divisions or fibers. Entire person, shoes, hands and apparatus fit in EACH panel with generous white margins. No text, arrows, logos or numbers. STANDING OLYMPIC STRAIGHT BARBELL OVERHEAD TRICEPS EXTENSION, TWO phases. Three-quarter SIDE view with entire full-length straight Olympic bar, balanced small identical gray plates and collars both ends visible and within each panel. Feet shoulder width planted, torso upright neutral ribs, no bench. BOTH hands shoulder-width OVERHAND closed grip, fingers and thumbs wrap bar securely, identical grip never changes. Upper arms near ears and roughly VERTICAL, shoulders fixed. LEFT LOWERED: elbows flex about90degrees, forearms fold BEHIND HEAD and bar held horizontally BEHIND upper neck/head with safe visible clearance; not in front of face, not resting on neck. RIGHT EXTENDED: straighten elbows to raise bar horizontally overhead directly above shoulder line, upper arms remain near ears, neutral wrists no shrug. Exact same bar length, plates, model/camera/floor each panel. Primary TRICEPS only red anatomical highlight on EXPOSED posterior upper arms; all other muscles grayscale fine fibers. Shirt has NO red and opaque full front sides back. Shorts fully opaque front sides back seat crotch. No text.",
+          "inspectionNote": "Standing barbell extension shows flexed then extended elbows, red exposed triceps, opaque clothes and grayscale anatomy. Right top plate clipped; lowered bar remains above crown rather than behind head. Need frame margin and behind-head depth correction, grip/forearm continuity human review.",
+          "canonicalName": "olympic barbell triceps extension",
+          "styleVersion": "white-v1",
+          "equipment": "olympic barbell",
+          "primaryMuscles": [
+            "triceps"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Standing barbell extension shows flexed then extended elbows, red exposed triceps, opaque clothes and grayscale anatomy. Right top plate clipped; lowered bar remains above crown rather than behind head. Need frame margin and behind-head depth correction, grip/forearm continuity human review.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0637-male-anatomical-white-v1-p1-61f7a7318a99.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 26482,
+              "sha256": "61f7a7318a995ad1bf07c5ba0066c8a84e6e609cae4342ac69a49e09e8f29829"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0637-male-anatomical-white-v1-p2-14bbf290faed.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 26396,
+              "sha256": "14bbf290faedf928c1b7dcd1ea2f872a13c482b07bd98647e8efb6d2b29bbbab"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0637-male-anatomical-white-v1-thumb-1eb60501095b.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 2582,
+            "sha256": "1eb60501095ba9683f2d7f35070429db2801b9083e57c350ce3415e7930893b5"
+          },
+          "processingSignature": "cefc7fb9ba240ac33afbad578d6201e8bdf100b29ffee342099fbc0d06a210e2",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0637-male-anatomical-white-v1.png",
+            "width": 1774,
+            "height": 887,
+            "bytes": 1694494,
+            "sha256": "f581836e7736cb61a56cdf47ac849eaa6b7caa1581ca20aff19576e2c40c47cd"
+          }
+        }
+      ],
+      "blockingIssues": [
+        "Lowered bar remains above crown rather than clearly behind head; correction of depth/range failed."
+      ]
+    },
+    {
+      "exerciseId": "0637",
+      "variant": "female",
+      "key": "0637-female-anatomical-white-v2",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Bend elbows to lower the bar behind the head, keeping upper arms near ears"
+        },
+        {
+          "key": "p2",
+          "caption": "Straighten elbows to raise the bar overhead without moving upper arms"
+        }
+      ],
+      "detail": "STANDING OLYMPIC STRAIGHT BARBELL OVERHEAD TRICEPS EXTENSION, TWO phases. Three-quarter SIDE view with entire full-length straight Olympic bar, balanced small identical gray plates and collars both ends visible and within each panel. Feet shoulder width planted, torso upright neutral ribs, no bench. BOTH hands shoulder-width OVERHAND closed grip, fingers and thumbs wrap bar securely, identical grip never changes. Upper arms near ears and roughly VERTICAL, shoulders fixed. LEFT LOWERED: elbows flex about90degrees, forearms fold BEHIND HEAD and bar held horizontally BEHIND upper neck/head with safe visible clearance; not in front of face, not resting on neck. RIGHT EXTENDED: straighten elbows to raise bar horizontally overhead directly above shoulder line, upper arms remain near ears, neutral wrists no shrug. Exact same bar length, plates, model/camera/floor each panel. Primary TRICEPS only red anatomical highlight on EXPOSED posterior upper arms; all other muscles grayscale fine fibers. Shirt has NO red and opaque full front sides back. Shorts fully opaque front sides back seat crotch. No text.",
+      "prompt": "Correct original project two-panel Olympic barbell overhead TRICEPS extension. ZOOM OUT BOTH panels enough to leave at least60pixels WHITE margin ABOVE entire topmost plate/bar and around shoes and all equipment. FULL uncut Olympic bar, both plates/collars and body within each equal panel. LEFT lowered phase: keep upper arms VERTICAL beside ears, elbows pointing UP, bend elbows deeper to lower BOTH hands and straight horizontal bar BEHIND HEAD to upper-neck height with a visible small clearance behind skull/neck; do not put bar above crown or resting on head, do not flare upper arms. RIGHT extended pose unchanged except framing. Maintain same full straight bar and identical small plates both ends, same shoulder-width overhand closed grip with thumbs and fingers wrapped, neutral wrist. Red only exposed TRICEPS posterior upper arms, all other exposed anatomy fine detailed grayscale fibers. Preserve fully opaque black shirt and shorts around front sides back seat crotch. No text. Preserve female proportions and equally detailed fine grayscale exposed limb anatomy.",
+      "inspectionNote": "Full bar/plates fit after framing edit; lowered bar moves nearer crown but behind-head depth remains unclear and blocked. Red exposed triceps and opaque garments retained; grayscale fibers preserved. Qualified grip, elbows, bar continuity and anatomy review needed.",
+      "canonicalName": "olympic barbell triceps extension",
+      "styleVersion": "white-v1",
+      "equipment": "olympic barbell",
+      "primaryMuscles": [
+        "triceps"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0637-female-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "status": "generated",
+        "costUSD": null
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Full bar/plates fit after framing edit; lowered bar moves nearer crown but behind-head depth remains unclear and blocked. Red exposed triceps and opaque garments retained; grayscale fibers preserved. Qualified grip, elbows, bar continuity and anatomy review needed.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0637-female-anatomical-white-v2-p1-93bf49eec242.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 21214,
+          "sha256": "93bf49eec242d63149da1fe253d90b574c8333f9305881e5a60f703ff9f960b8"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0637-female-anatomical-white-v2-p2-f45ee72e8055.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 23088,
+          "sha256": "f45ee72e8055df50fd33f11aa6719c5583e64a0b91dd3c89b87b1e8d93adcb91"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0637-female-anatomical-white-v2-thumb-855c3f0c5b94.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2358,
+        "sha256": "855c3f0c5b9427c1af18eca153d3f7825c17d0b576dc5a31660bc974adc964f8"
+      },
+      "processingSignature": "82ccf97b801c428ce2ae0f53c98854fd05bf1146f7f713bad6d9b6de63f5981f",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0637-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1628793,
+        "sha256": "2ec734e8c6d19d0109cd54a2252b9ad8af8f35cd4ec91fe8a549ab40d2691340"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0637",
+          "variant": "female",
+          "key": "0637-female-anatomical-white-v1",
+          "layout": {
+            "columns": 2,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Bend elbows to lower the bar behind the head, keeping upper arms near ears"
+            },
+            {
+              "key": "p2",
+              "caption": "Straighten elbows to raise the bar overhead without moving upper arms"
+            }
+          ],
+          "detail": "STANDING OLYMPIC STRAIGHT BARBELL OVERHEAD TRICEPS EXTENSION, TWO phases. Three-quarter SIDE view with entire full-length straight Olympic bar, balanced small identical gray plates and collars both ends visible and within each panel. Feet shoulder width planted, torso upright neutral ribs, no bench. BOTH hands shoulder-width OVERHAND closed grip, fingers and thumbs wrap bar securely, identical grip never changes. Upper arms near ears and roughly VERTICAL, shoulders fixed. LEFT LOWERED: elbows flex about90degrees, forearms fold BEHIND HEAD and bar held horizontally BEHIND upper neck/head with safe visible clearance; not in front of face, not resting on neck. RIGHT EXTENDED: straighten elbows to raise bar horizontally overhead directly above shoulder line, upper arms remain near ears, neutral wrists no shrug. Exact same bar length, plates, model/camera/floor each panel. Primary TRICEPS only red anatomical highlight on EXPOSED posterior upper arms; all other muscles grayscale fine fibers. Shirt has NO red and opaque full front sides back. Shorts fully opaque front sides back seat crotch. No text.",
+          "prompt": "Original educational exercise illustration. Attached original project artwork is STYLE reference ONLY, never pose reference. Detailed fine grayscale anatomical fibers on exposed arms and legs, realistic neutral adult FEMALE; pure white background. TWO equal side-by-side panels, same exact model, camera and lighting. FULLY OPAQUE matte BLACK sleeveless shirt continuously wraps torso front/sides/back. Loose BLACK knee-length shorts fully wrap both upper thighs, front, sides, rear, seat and crotch with closed hems/seams and natural fabric folds. Never translucent fabric, bare buttocks, anatomy windows, clothing cutaways or muscle-fiber patterns on clothes. Black trainers. Red PRIMARY muscle highlights only as specified, over clothing one soft diffuse blurred tint on intact black fabric, no anatomy divisions or fibers. Entire person, shoes, hands and apparatus fit in EACH panel with generous white margins. No text, arrows, logos or numbers. STANDING OLYMPIC STRAIGHT BARBELL OVERHEAD TRICEPS EXTENSION, TWO phases. Three-quarter SIDE view with entire full-length straight Olympic bar, balanced small identical gray plates and collars both ends visible and within each panel. Feet shoulder width planted, torso upright neutral ribs, no bench. BOTH hands shoulder-width OVERHAND closed grip, fingers and thumbs wrap bar securely, identical grip never changes. Upper arms near ears and roughly VERTICAL, shoulders fixed. LEFT LOWERED: elbows flex about90degrees, forearms fold BEHIND HEAD and bar held horizontally BEHIND upper neck/head with safe visible clearance; not in front of face, not resting on neck. RIGHT EXTENDED: straighten elbows to raise bar horizontally overhead directly above shoulder line, upper arms remain near ears, neutral wrists no shrug. Exact same bar length, plates, model/camera/floor each panel. Primary TRICEPS only red anatomical highlight on EXPOSED posterior upper arms; all other muscles grayscale fine fibers. Shirt has NO red and opaque full front sides back. Shorts fully opaque front sides back seat crotch. No text.",
+          "inspectionNote": "Two standing overhead barbell extension phases with red triceps and opaque clothes. Right upper plate cropped; left bar remains above crown rather than behind neck. Need zoom-out margin and lower-phase elbow depth correction. Fine grayscale anatomy retained; grip and bar geometry human review.",
+          "canonicalName": "olympic barbell triceps extension",
+          "styleVersion": "white-v1",
+          "equipment": "olympic barbell",
+          "primaryMuscles": [
+            "triceps"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Two standing overhead barbell extension phases with red triceps and opaque clothes. Right upper plate cropped; left bar remains above crown rather than behind neck. Need zoom-out margin and lower-phase elbow depth correction. Fine grayscale anatomy retained; grip and bar geometry human review.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0637-female-anatomical-white-v1-p1-56226730d23b.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 25298,
+              "sha256": "56226730d23b43bd987b937e0dac1b6af18e3f1114c1f86cb5903cbc4277d2d3"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0637-female-anatomical-white-v1-p2-790f5b70b10e.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 25014,
+              "sha256": "790f5b70b10e1f97d94163fa0b30f46e0af1b541462cfd959c460b4348845ee5"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0637-female-anatomical-white-v1-thumb-9f876cd70df5.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 2690,
+            "sha256": "9f876cd70df528859db7fac87244a029a2d4088ab4eaae0fb769d4b89faa1ecf"
+          },
+          "processingSignature": "dd91d91e305389d642099bfa276aefff27cb140c522b4f26242a09b49316df4d",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0637-female-anatomical-white-v1.png",
+            "width": 1774,
+            "height": 887,
+            "bytes": 1648735,
+            "sha256": "e968ff844caf156cd0023b0695a744f03b303df89089f5f44f498bba00ae643b"
+          }
+        }
+      ],
+      "blockingIssues": [
+        "Lowered bar remains at crown rather than clearly behind head at upper-neck level; range/depth not resolved."
+      ]
+    }
+  ]
+}

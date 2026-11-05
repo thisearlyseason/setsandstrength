@@ -1,0 +1,168 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "1090",
+      "variant": "male",
+      "key": "1090-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hold the handles with arms extended and lean back with a straight body."
+        },
+        {
+          "key": "p2",
+          "caption": "Open the arms out to the sides with soft elbows, keeping shoulders down; return slowly."
+        }
+      ],
+      "prompt": "Original premium ADULT male anatomical illustration SUSPENSION REVERSE FLY canonical1090. TWO equal SQUARE cells side by side wide LANDSCAPE2:1, same body/limb proportions camera scale apparatus. Rear three-quarter camera showing BOTH ARMS and rear shoulders clearly. Model faces LEFT toward fixed overhead gray anchor frame, feet planted slightly forward, body rigid straight leaned BACK away anchor RIGHT, head spine neutral. Two distinct taut black fixed-length suspension straps each from high frame to respective closed hand handles, neutral palms facing inward. LEFT START BOTH arms nearly straight extended FORWARD toward anchor at shoulder height, hands shoulder-width, body lean30degrees. RIGHT FINISH BOTH arms remain nearly STRAIGHT soft elbows, sweep WIDE OUT SIDEWAYS forming T at SHOULDER HEIGHT, not bent elbow row, hands far apart lateral to shoulders, retract shoulder blades gently shoulders DOWN. Body pivots more upright as arms open without moving feet, straps remain taut SAME LENGTH anchor fixed, correct three-dimensional geometry. NO curls elbow flexion or shrug. Primary BOTH exposed POSTERIOR DELTOID caps RED only, no chest/back shirt/biceps red. Fine detailed grayscale exposed anatomy realistic hands proportions apparatus. Full OPAQUE BLACK athletic tank and MID-THIGH shorts wrapping front sides back seat crotch continuous real seams broad cloth folds, no cutaway/transparency/anatomical fibers through cloth. Black shoes. Pure WHITE background soft contact shadows, entire head hands lateral arms feet anchor/frame inside EACH square, uniformly SMALLER model to allow generous12percent margins no crop. Equal male/female quality. Original project reference rendering STYLE ONLY ignore pushup/bench/chest red. No text captions labels arrows.",
+      "inspectionNote": "Reverse fly extended forward arms to wide spread, exposed rear deltoid red and full opaque clothes. BLOCKED: far suspension strap appears to cross neck/upper back and lengthen substantially in finish, with asymmetric front-versus-lateral arm path. Needs geometry correction and qualified technique review.",
+      "blockingIssues": [
+        "Finish far strap passes across neck/upper back region; fixed strap length and bilateral lateral arm path not established."
+      ],
+      "canonicalName": "suspension reverse fly",
+      "styleVersion": "white-v1",
+      "equipment": "suspension trainer",
+      "primaryMuscles": [
+        "delts"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Reverse fly extended forward arms to wide spread, exposed rear deltoid red and full opaque clothes. BLOCKED: far suspension strap appears to cross neck/upper back and lengthen substantially in finish, with asymmetric front-versus-lateral arm path. Needs geometry correction and qualified technique review.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/1090-male-anatomical-white-v1-p1-996d24f14ec1.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 29694,
+          "sha256": "996d24f14ec1e2abf53a71ed503b27f0cdb576757c33543eec9d1df0d8b26f86"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/1090-male-anatomical-white-v1-p2-be5bc8a74223.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 30930,
+          "sha256": "be5bc8a74223f056879c680a187af4f4bbb04b6b5612b15f13f69e46da381ad2"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-158.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/1090-male-anatomical-white-v1-thumb-d3a98f56f364.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 3420,
+        "sha256": "d3a98f56f364b0e549b285a8553b525beb8012b6a61f02f7f1277e4b3f082f1d"
+      },
+      "processingSignature": "f887f474ce1ec6a90894053e30f56cae2bd33b93dcb74848c706a6d6f00ec985",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1090-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1415276,
+        "sha256": "c35803dae0722d7c729ea1f95c9764716331a4bfe02f8da39a1b156c77e52eb0"
+      }
+    },
+    {
+      "exerciseId": "1090",
+      "variant": "female",
+      "key": "1090-female-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hold the handles with arms extended and lean back with a straight body."
+        },
+        {
+          "key": "p2",
+          "caption": "Open the arms out to the sides with soft elbows, keeping shoulders down; return slowly."
+        }
+      ],
+      "prompt": "Original premium ADULT female anatomical illustration SUSPENSION REVERSE FLY canonical1090. TWO equal SQUARE cells side by side wide LANDSCAPE2:1, same body/limb proportions camera scale apparatus. Rear three-quarter camera showing BOTH ARMS and rear shoulders clearly. Model faces LEFT toward fixed overhead gray anchor frame, feet planted slightly forward, body rigid straight leaned BACK away anchor RIGHT, head spine neutral. Two distinct taut black fixed-length suspension straps each from high frame to respective closed hand handles, neutral palms facing inward. LEFT START BOTH arms nearly straight extended FORWARD toward anchor at shoulder height, hands shoulder-width, body lean30degrees. RIGHT FINISH BOTH arms remain nearly STRAIGHT soft elbows, sweep WIDE OUT SIDEWAYS forming T at SHOULDER HEIGHT, not bent elbow row, hands far apart lateral to shoulders, retract shoulder blades gently shoulders DOWN. Body pivots more upright as arms open without moving feet, straps remain taut SAME LENGTH anchor fixed, correct three-dimensional geometry. NO curls elbow flexion or shrug. Primary BOTH exposed POSTERIOR DELTOID caps RED only, no chest/back shirt/biceps red. Fine detailed grayscale exposed anatomy realistic hands proportions apparatus. Full OPAQUE BLACK athletic tank and MID-THIGH shorts wrapping front sides back seat crotch continuous real seams broad cloth folds, no cutaway/transparency/anatomical fibers through cloth. Black shoes. Pure WHITE background soft contact shadows, entire head hands lateral arms feet anchor/frame inside EACH square, uniformly SMALLER model to allow generous12percent margins no crop. Equal male/female quality. Original project reference rendering STYLE ONLY ignore pushup/bench/chest red. No text captions labels arrows.",
+      "inspectionNote": "Reverse fly extended forward arms to wide spread, exposed rear deltoid red and full opaque clothes. BLOCKED: far suspension strap appears to cross neck/upper back and lengthen substantially in finish, with asymmetric front-versus-lateral arm path. Needs geometry correction and qualified technique review.",
+      "blockingIssues": [
+        "Finish far strap passes across neck/upper back region; fixed strap length and bilateral lateral arm path not established."
+      ],
+      "canonicalName": "suspension reverse fly",
+      "styleVersion": "white-v1",
+      "equipment": "suspension trainer",
+      "primaryMuscles": [
+        "delts"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Reverse fly extended forward arms to wide spread, exposed rear deltoid red and full opaque clothes. BLOCKED: far suspension strap appears to cross neck/upper back and lengthen substantially in finish, with asymmetric front-versus-lateral arm path. Needs geometry correction and qualified technique review.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/1090-female-anatomical-white-v1-p1-d0d3014b2eda.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 27804,
+          "sha256": "d0d3014b2edaf42f195417eb80551f2b3d6dcd0e0f4d66dec19de9a4b4db4eb0"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/1090-female-anatomical-white-v1-p2-5dc274ca8451.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 29614,
+          "sha256": "5dc274ca8451f9707ace2ca006c1bc130e3300f00a34ded2282b3c4391b9060d"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-158.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/1090-female-anatomical-white-v1-thumb-239dc6f84a07.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 3034,
+        "sha256": "239dc6f84a0702c954fc00a9925365911ad2ec99b34bf230cdb7e009623c721a"
+      },
+      "processingSignature": "3086dafb047c529c31fe46b0f8a86cf107d4fbc983a772da99acdbee411e6c39",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1090-female-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1385248,
+        "sha256": "ddc93eb4d3928d5e1836257ac273b03fae4f22593fea20ae114b2a3331f5406c"
+      }
+    }
+  ]
+}

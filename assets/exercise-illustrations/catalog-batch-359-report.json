@@ -1,0 +1,81 @@
+{
+  "batch": 359,
+  "runId": "96a7cf00-f7f2-481d-84fa-067efb2e205d",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "trigger": "2026-11-04T14:24:04.285Z",
+  "purpose": "batch359 scheduled male continuation",
+  "started": "2026-11-04T14:24:43.446606+00:00",
+  "completedAt": "2026-11-04T14:33:25.858088+00:00",
+  "actualToolName": "image_gen__imagegen",
+  "calls": 4,
+  "newCandidateSets": 4,
+  "exerciseIds": [
+    "3407",
+    "3409",
+    "3412",
+    "3413"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1294,
+    "remainingVariants": 9970,
+    "approvedVariants": 0,
+    "blockedVariants": 495,
+    "knownPoseImages": 2555,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 921,
+      "remainingVariants": 4711,
+      "blockedVariants": 376
+    }
+  },
+  "reviewNotes": {
+    "3407": "Low hand position with neutral and opposite torso turns, opaque clothes. Abdominal anatomical segments visible through tank need plain-wash correction; qualified coordinated pelvic rotation and knee comfort review pending.",
+    "3409": "Standing arm-swing down, overhead and behind-hip phases with opaque clothes/deltoid highlights. Embedded gray motion arrows violate clean artwork convention; remove before review. Qualified shoulder arc and hand anatomy review pending.",
+    "3412": "Supine small hip-lift squeeze with planted feet and opaque shorts/plain glute wash. Head/neck hover in both phases instead of resting floor; correction required. Qualified small pelvic lift review pending.",
+    "3413": "Supine shoulder sweep T through Y to overhead with knees bent, feet planted and opaque clothes, deltoid-only highlight. Qualified head/arm floor contact, elbow softness and comfortable shoulder range review pending."
+  },
+  "blockingIssues": {
+    "3407": [
+      "Replace abdominal anatomical segments through tank with plain uniform wash."
+    ],
+    "3409": [
+      "Remove embedded motion arrows; keep movement explanation in accessible captions only."
+    ],
+    "3412": [
+      "Rest head and neck on floor in both phases."
+    ]
+  },
+  "deferred": {
+    "3410": "Wring-towel hand twist/wrap description does not specify distinct arm action.",
+    "3411": "Hip-circle instruction sequence omits clear front-to-side-to-back path.",
+    "3414": "Spine primary target needs anatomical muscle mapping.",
+    "3415": "Assistance and ankle-securing equipment unspecified."
+  },
+  "tests": 7,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "workerSyncResult": {
+    "statuses": {
+      "generated": 1294,
+      "pending": 9970
+    },
+    "remaining": 9970,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 1973500628
+  },
+  "publicationIndexUnchanged": true
+}

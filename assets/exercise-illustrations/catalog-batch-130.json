@@ -1,0 +1,648 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "0783",
+      "variant": "male",
+      "key": "0783-male-anatomical-white-v2",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand with feet shoulder-width and both arms overhead in line with the ears. Keep the ribs down."
+        },
+        {
+          "key": "p2",
+          "caption": "Sit the hips back and bend the knees until thighs approach parallel, keeping heels grounded and arms overhead. Drive through the feet to stand."
+        }
+      ],
+      "prompt": "Correct original male BODYWEIGHT ARMS-OVERHEAD SQUAT. Preserve standing then thigh-near-parallel squat, heels grounded and arms straight alongside ears BOTH phases, same limb scale and stance. Make at least8percent WHITE TOP MARGIN above raised fingertips in left cell and generous margins all cells; TWO equal SQUARE side-by-side cells WIDE LANDSCAPE. Remove all fine red rays/streaks from shorts; ONE smooth diffuse BLURRED quadriceps tint on intact opaque BLACK front thigh fabric, broad folds/seams only, no anatomy through cloth. Full opaque shirt/shorts front sides back seat crotch, fine exposed grayscale anatomy. No text.",
+      "inspectionNote": "Raised-hand margin expanded and thigh red smoothed to diffuse tint over opaque shorts. Standing and squat phases retain arms alongside ears and grounded heels. Thin gray cell borders added by generator, no text. Detailed exposed anatomy; qualified depth, ribs-down posture, knee tracking and proportions pending.",
+      "canonicalName": "squat (arms overhead)",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "quads"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0783-male-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "status": "generated",
+        "costUSD": null
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Raised-hand margin expanded and thigh red smoothed to diffuse tint over opaque shorts. Standing and squat phases retain arms alongside ears and grounded heels. Thin gray cell borders added by generator, no text. Detailed exposed anatomy; qualified depth, ribs-down posture, knee tracking and proportions pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0783-male-anatomical-white-v2-p1-04deca114cf9.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 16480,
+          "sha256": "04deca114cf95b28e4fb1550c2347265e06de575e01884e07ecb2474671d2fcf"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0783-male-anatomical-white-v2-p2-616e8f50670f.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 17612,
+          "sha256": "616e8f50670f7ad8dc61f3415bf74ba900ae50b9b51eddfafdb046752dd70bb9"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0783-male-anatomical-white-v2-thumb-4206db9f249e.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 1958,
+        "sha256": "4206db9f249ecb7360df405fd9acfa20dbf019251c7e3eb156fed09d0879fff8"
+      },
+      "processingSignature": "365febdf94be5805a9b862f731e4e9936941c3799a1ce8cd4b012e7ccc95de08",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0783-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1196271,
+        "sha256": "a0f41573e983b80e712200804e328f34638dcea9365b87ffdabc98032bdbcac2"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0783",
+          "variant": "male",
+          "key": "0783-male-anatomical-white-v1",
+          "layout": {
+            "columns": 2,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Stand with feet shoulder-width and both arms overhead in line with the ears. Keep the ribs down."
+            },
+            {
+              "key": "p2",
+              "caption": "Sit the hips back and bend the knees until thighs approach parallel, keeping heels grounded and arms overhead. Drive through the feet to stand."
+            }
+          ],
+          "prompt": "Original premium adult male exercise anatomy illustration, TWO equal SQUARE cells side by side WIDE LANDSCAPE same model scale and limb lengths. BODYWEIGHT SQUAT WITH ARMS OVERHEAD, no equipment. SIDE-FRONT three-quarter camera. Feet shoulder-width slightly toes out, BOTH full soles/heels flat floor same exact positions both phases. BOTH ARMS FULLY STRAIGHT reaching UP alongside EARS palms facing inward in BOTH poses, no bar/weights. LEFT stand tall hips/knees extended arms overhead. RIGHT squat hips back/down, knees bent track toes, thighs near parallel to HORIZONTAL floor, torso slight natural forward incline neutral spine, ribs down no lumbar arch. Arms stay aligned ears/torso, no lowering forward. Red primary QUADRICEPS ONE smooth diffuse BLURRED red tint over intact opaque FRONT thigh shorts on both legs. No muscle fibers/rays through fabric, no shoulder/chest/abs red. Detailed fine EXPOSED grayscale muscle contours arms/calves, realistic proportions, equal male/female quality. Original project reference ONLY rendering STYLE, never its bench/push-up pose or chest red. Full opaque BLACK athletic shirt and MID-THIGH shorts wrap FRONT SIDES BACK SEAT CROTCH continuously, seams and broad fabric folds. No cutaway/transparency/anatomy through cloth. Black shoes. White background soft grounded shadows. Whole body/raised hands and any bar/plates contained EACH cell with generous margins, no overlap across center. No embedded captions/labels/text/arrows.",
+          "inspectionNote": "Arms overhead retained standing and squat bottom, heels grounded and opaque clothes. Tight raised-hand top margin and fine thigh red streaks need correction. Detailed exposed anatomy; qualified depth, shoulder/ear alignment, knee tracking and proportions pending.",
+          "canonicalName": "squat (arms overhead)",
+          "styleVersion": "white-v1",
+          "equipment": "body weight",
+          "primaryMuscles": [
+            "quads"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Arms overhead retained standing and squat bottom, heels grounded and opaque clothes. Tight raised-hand top margin and fine thigh red streaks need correction. Detailed exposed anatomy; qualified depth, shoulder/ear alignment, knee tracking and proportions pending.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0783-male-anatomical-white-v1-p1-72de75a78190.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 19286,
+              "sha256": "72de75a78190457aae5d05e4641bab4f70a2a86c50ba1dfc22079acc39244db9"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0783-male-anatomical-white-v1-p2-8539f64e11a6.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 19870,
+              "sha256": "8539f64e11a6d273e373d8aa529c89fb79adc9b4ad951c7bd6b589c42e112c6a"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0783-male-anatomical-white-v1-thumb-471d441b5ba4.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 2048,
+            "sha256": "471d441b5ba4dde009ab8df9bfd6b53f624a5692d9f4249bfcb2fab315df807b"
+          },
+          "processingSignature": "209c0c7148ebdd6e27da077184a7fb862573307466283a62ab22a7925e5625b8",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0783-male-anatomical-white-v1.png",
+            "width": 1774,
+            "height": 887,
+            "bytes": 1268636,
+            "sha256": "379e3e039bf688b4cffa421f990025eac3dc8ad384738648bcaef400cbdce308"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "0783",
+      "variant": "female",
+      "key": "0783-female-anatomical-white-v2",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand with feet shoulder-width and both arms overhead in line with the ears. Keep the ribs down."
+        },
+        {
+          "key": "p2",
+          "caption": "Sit the hips back and bend the knees until thighs approach parallel, keeping heels grounded and arms overhead. Drive through the feet to stand."
+        }
+      ],
+      "prompt": "Correct original female BODYWEIGHT ARMS-OVERHEAD SQUAT. Preserve standing then thigh-near-parallel squat, heels grounded and arms straight alongside ears BOTH phases, same limb scale and stance. Make at least8percent WHITE TOP MARGIN above raised fingertips in left cell and generous margins all cells; TWO equal SQUARE side-by-side cells WIDE LANDSCAPE. Remove all fine red rays/streaks from shorts; ONE smooth diffuse BLURRED quadriceps tint on intact opaque BLACK front thigh fabric, broad folds/seams only, no anatomy through cloth. Full opaque shirt/shorts front sides back seat crotch, fine exposed grayscale anatomy. No text.",
+      "inspectionNote": "Hand top margins increased and quadriceps overlay smoothed on opaque shorts. Standing and squat phases retain arms overhead and heels grounded. Thin gray cell borders introduced, no text. Fine exposed anatomy and full opaque clothes; qualified depth, ribs-down posture, shoulder/ear alignment and knee tracking pending.",
+      "canonicalName": "squat (arms overhead)",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "quads"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0783-female-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "status": "generated",
+        "costUSD": null
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Hand top margins increased and quadriceps overlay smoothed on opaque shorts. Standing and squat phases retain arms overhead and heels grounded. Thin gray cell borders introduced, no text. Fine exposed anatomy and full opaque clothes; qualified depth, ribs-down posture, shoulder/ear alignment and knee tracking pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0783-female-anatomical-white-v2-p1-0d26bcebc229.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 15850,
+          "sha256": "0d26bcebc229d53c2cb44df146c7e8e100631621737ce353f2f0ccc97dc1a350"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0783-female-anatomical-white-v2-p2-4e224d76e53b.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 16154,
+          "sha256": "4e224d76e53bed9d4b31f7783650820e2ba452a3cb465f71b072793aaba9ca16"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0783-female-anatomical-white-v2-thumb-c06361c699a3.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 1896,
+        "sha256": "c06361c699a33226526abf8c9af20173b7f92cabbc5777fd0ebc36d560d9debc"
+      },
+      "processingSignature": "4c0ee51d7e65edd7d024b6ea12975a0d91e934676b35acf2349d185a75ec7939",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0783-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1158178,
+        "sha256": "8f33191d0b450a04b7fb9bc3f4960c131880fca9bf123b56cb40e4771ccaa60f"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0783",
+          "variant": "female",
+          "key": "0783-female-anatomical-white-v1",
+          "layout": {
+            "columns": 2,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Stand with feet shoulder-width and both arms overhead in line with the ears. Keep the ribs down."
+            },
+            {
+              "key": "p2",
+              "caption": "Sit the hips back and bend the knees until thighs approach parallel, keeping heels grounded and arms overhead. Drive through the feet to stand."
+            }
+          ],
+          "prompt": "Original premium adult female exercise anatomy illustration, TWO equal SQUARE cells side by side WIDE LANDSCAPE same model scale and limb lengths. BODYWEIGHT SQUAT WITH ARMS OVERHEAD, no equipment. SIDE-FRONT three-quarter camera. Feet shoulder-width slightly toes out, BOTH full soles/heels flat floor same exact positions both phases. BOTH ARMS FULLY STRAIGHT reaching UP alongside EARS palms facing inward in BOTH poses, no bar/weights. LEFT stand tall hips/knees extended arms overhead. RIGHT squat hips back/down, knees bent track toes, thighs near parallel to HORIZONTAL floor, torso slight natural forward incline neutral spine, ribs down no lumbar arch. Arms stay aligned ears/torso, no lowering forward. Red primary QUADRICEPS ONE smooth diffuse BLURRED red tint over intact opaque FRONT thigh shorts on both legs. No muscle fibers/rays through fabric, no shoulder/chest/abs red. Detailed fine EXPOSED grayscale muscle contours arms/calves, realistic proportions, equal male/female quality. Original project reference ONLY rendering STYLE, never its bench/push-up pose or chest red. Full opaque BLACK athletic shirt and MID-THIGH shorts wrap FRONT SIDES BACK SEAT CROTCH continuously, seams and broad fabric folds. No cutaway/transparency/anatomy through cloth. Black shoes. White background soft grounded shadows. Whole body/raised hands and any bar/plates contained EACH cell with generous margins, no overlap across center. No embedded captions/labels/text/arrows.",
+          "inspectionNote": "Standing and squat phases retain overhead arms and grounded heels, opaque clothes and detailed exposed anatomy. Raised hands too close to top edge and thigh tint fine streaks need correction. Qualified depth, ribs-down posture, shoulder alignment, knee tracking and mapping pending.",
+          "canonicalName": "squat (arms overhead)",
+          "styleVersion": "white-v1",
+          "equipment": "body weight",
+          "primaryMuscles": [
+            "quads"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Standing and squat phases retain overhead arms and grounded heels, opaque clothes and detailed exposed anatomy. Raised hands too close to top edge and thigh tint fine streaks need correction. Qualified depth, ribs-down posture, shoulder alignment, knee tracking and mapping pending.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0783-female-anatomical-white-v1-p1-b35b9beac286.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 17838,
+              "sha256": "b35b9beac286a8a1a43abe08d6262b1af29b81b3072acec8f653b070c7ca7651"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0783-female-anatomical-white-v1-p2-9835a41332b6.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 17466,
+              "sha256": "9835a41332b6473d5fb1d261766e9092048448e2542c60cf4cbf80c691dd87ad"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0783-female-anatomical-white-v1-thumb-a4dc64dd5f8d.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 2054,
+            "sha256": "a4dc64dd5f8d054215f982b634d9afe191403ab529a068b8387f24bcac2cd814"
+          },
+          "processingSignature": "a3de609a5dce335d59f671954ed31d3b2c623c4a073a866c56aadefc51f136cc",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0783-female-anatomical-white-v1.png",
+            "width": 1774,
+            "height": 887,
+            "bytes": 1253714,
+            "sha256": "d11002be34f19f28869390250ccb5d93b8a2b39ade305445be78577ae1386a10"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "0788",
+      "variant": "male",
+      "key": "0788-male-anatomical-white-v2",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand with feet shoulder-width, hold the barbell behind the neck using an overhand grip, and brace the torso."
+        },
+        {
+          "key": "p2",
+          "caption": "Press overhead by extending the arms, then lower slowly to the starting position while keeping the torso steady."
+        }
+      ],
+      "prompt": "Correct original male standing BEHIND NECK FREE BARBELL PRESS. Set head NEUTRAL facing SAME direction as TORSO in both phases, show back of skull centered over spine, do not turn head to side; REAR camera may show only small ear edge, no face profile. Keep bar shoulder-height behind head on upper trapezius shelf not cervical spine LEFT and overhead with straight elbows RIGHT, same closed overhand grip wider shoulders, same stable feet/torso and limb scale. Red ONLY exposed deltoid shoulder caps. Increase WHITE TOP MARGIN at least8percent cell height above overhead weight plates, all bar/plates/head/feet contained. TWO equal SQUARE landscape cells, full opaque black shirt/shorts front sides back seat crotch, detailed exposed grayscale anatomy, no text.",
+      "inspectionNote": "Head corrected to neutral rear alignment with torso and overhead plate margin expanded. Behind-neck shoulder-level bar and overhead extended phase retained, deltoid highlights, detailed exposed grayscale anatomy and full opaque back/seat clothing. Qualified cervical clearance/bar shelf, grip, shoulder range and elbow extension pending.",
+      "canonicalName": "standing behind neck press",
+      "styleVersion": "white-v1",
+      "equipment": "barbell",
+      "primaryMuscles": [
+        "delts"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0788-male-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "status": "generated",
+        "costUSD": null
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Head corrected to neutral rear alignment with torso and overhead plate margin expanded. Behind-neck shoulder-level bar and overhead extended phase retained, deltoid highlights, detailed exposed grayscale anatomy and full opaque back/seat clothing. Qualified cervical clearance/bar shelf, grip, shoulder range and elbow extension pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0788-male-anatomical-white-v2-p1-07c2e0ab380d.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 22422,
+          "sha256": "07c2e0ab380d16ae9a0f10fe90331378573f84bc86dfcd4fcddb783887aacbdd"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0788-male-anatomical-white-v2-p2-ad57095dcd1b.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 22846,
+          "sha256": "ad57095dcd1b68273ffff631ca2ae4fdbac8c399d1e781701400a32e1bbb6fb7"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0788-male-anatomical-white-v2-thumb-cb41d36dc217.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2714,
+        "sha256": "cb41d36dc2177de69b325f987c49387e8a691c57ecd0d8d19ac71be6a742247f"
+      },
+      "processingSignature": "36ae802995effeeee35e85158eae08c5ce5869018c4693e933f104cdcf98e303",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0788-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1288290,
+        "sha256": "157dd1bf4ce7baba4580b93792a7cc8eaa1b5499d3db1f24fe0f1413bfadb05c"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0788",
+          "variant": "male",
+          "key": "0788-male-anatomical-white-v1",
+          "layout": {
+            "columns": 2,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Stand with feet shoulder-width, hold the barbell behind the neck using an overhand grip, and brace the torso."
+            },
+            {
+              "key": "p2",
+              "caption": "Press overhead by extending the arms, then lower slowly to the starting position while keeping the torso steady."
+            }
+          ],
+          "prompt": "Original premium adult male exercise anatomy illustration, TWO equal SQUARE cells side by side WIDE LANDSCAPE same model scale and limb lengths. STANDING BARBELL BEHIND-NECK PRESS, FREE BARBELL no machine/bench. REAR three-quarter camera so BACK OF NECK/bar placement and hands clearly visible in BOTH phases, same body/head orientation, head neutral no ducking/turning. Feet shoulder-width full soles flat fixed floor knees soft, torso UPRIGHT neutral spine no backbend. Closed OVERHAND pronated grip WIDER than shoulders, thumbs wrap bar, wrists neutral forearms near vertical. LEFT bar behind head at shoulder-height across UPPER TRAPEZIUS muscle shelf NOT cervical vertebrae; elbows bent out below bar, bar stays behind skull not penetrating it. RIGHT bar directly OVERHEAD with arms fully extended, horizontal bar above head with visible clearance, same grip and fixed body/foot positions. Modest identical plates on both ends outside hands. Exposed DELTOID shoulder caps highlighted RED only, no back/traps/triceps/biceps/chest red. Detailed fine EXPOSED grayscale muscle contours arms/calves, realistic proportions, equal male/female quality. Original project reference ONLY rendering STYLE, never its bench/push-up pose or chest red. Full opaque BLACK athletic shirt and MID-THIGH shorts wrap FRONT SIDES BACK SEAT CROTCH continuously, seams and broad fabric folds. No cutaway/transparency/anatomy through cloth. Black shoes. White background soft grounded shadows. Whole body/raised hands and any bar/plates contained EACH cell with generous margins, no overlap across center. No embedded captions/labels/text/arrows.",
+          "inspectionNote": "Rear view behind-neck press start and overhead finish with deltoid red, full opaque back/seat clothing. Head turned slightly and raised plates too near top edge, correction required for neutral cervical alignment and margins. Qualified grip, shoulder mobility and bar shelf placement pending.",
+          "canonicalName": "standing behind neck press",
+          "styleVersion": "white-v1",
+          "equipment": "barbell",
+          "primaryMuscles": [
+            "delts"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Rear view behind-neck press start and overhead finish with deltoid red, full opaque back/seat clothing. Head turned slightly and raised plates too near top edge, correction required for neutral cervical alignment and margins. Qualified grip, shoulder mobility and bar shelf placement pending.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0788-male-anatomical-white-v1-p1-bac9cb5c612e.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 24640,
+              "sha256": "bac9cb5c612e5d098e74fc7e3b87c1d104abef65a645a13da6ffe8f0e7766850"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0788-male-anatomical-white-v1-p2-325bca7d87f9.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 26636,
+              "sha256": "325bca7d87f9cc0550ce1f2a5e2ce2f383790e706fbd3613970c7434a5290495"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0788-male-anatomical-white-v1-thumb-c7b6a1e2acdf.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 2800,
+            "sha256": "c7b6a1e2acdfca7383070e3db1620ddb25d0b84b4565373f625541480c32e26d"
+          },
+          "processingSignature": "19156a2014cea466bb90374ee58929e952487a3e6065d7e7390caf802ddc5fe2",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0788-male-anatomical-white-v1.png",
+            "width": 1774,
+            "height": 887,
+            "bytes": 1507670,
+            "sha256": "c3c2934184c88df53448862c605e5acb90ebd5307b3c855556e5d0d386ee0479"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "0788",
+      "variant": "female",
+      "key": "0788-female-anatomical-white-v2",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand with feet shoulder-width, hold the barbell behind the neck using an overhand grip, and brace the torso."
+        },
+        {
+          "key": "p2",
+          "caption": "Press overhead by extending the arms, then lower slowly to the starting position while keeping the torso steady."
+        }
+      ],
+      "prompt": "Correct original female standing BEHIND NECK FREE BARBELL PRESS. Set head NEUTRAL facing SAME direction as TORSO in both phases, show back of skull centered over spine, do not turn head to side; REAR camera may show only small ear edge, no face profile. Keep bar shoulder-height behind head on upper trapezius shelf not cervical spine LEFT and overhead with straight elbows RIGHT, same closed overhand grip wider shoulders, same stable feet/torso and limb scale. Red ONLY exposed deltoid shoulder caps. Increase WHITE TOP MARGIN at least8percent cell height above overhead weight plates, all bar/plates/head/feet contained. TWO equal SQUARE landscape cells, full opaque black shirt/shorts front sides back seat crotch, detailed exposed grayscale anatomy, no text.",
+      "inspectionNote": "Neutral rear head alignment and overhead plate margins corrected. Behind-neck bar and overhead extended phase retained, deltoid red, fine exposed grayscale anatomy and fully opaque back/seat clothes. Qualified bar shelf/cervical clearance, shoulder range, grip and elbow extension pending.",
+      "canonicalName": "standing behind neck press",
+      "styleVersion": "white-v1",
+      "equipment": "barbell",
+      "primaryMuscles": [
+        "delts"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0788-female-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "status": "generated",
+        "costUSD": null
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Neutral rear head alignment and overhead plate margins corrected. Behind-neck bar and overhead extended phase retained, deltoid red, fine exposed grayscale anatomy and fully opaque back/seat clothes. Qualified bar shelf/cervical clearance, shoulder range, grip and elbow extension pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0788-female-anatomical-white-v2-p1-fe7a74904729.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 22192,
+          "sha256": "fe7a749047291c93d4dc00c55d4373c3bc112df85f4c6336766aab3c829b0d42"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0788-female-anatomical-white-v2-p2-7b4a09638295.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 22524,
+          "sha256": "7b4a09638295369ee31ec9722cc10df8594874d3476c49980d5d0e681a545c46"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0788-female-anatomical-white-v2-thumb-2324c1cdc9b4.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2540,
+        "sha256": "2324c1cdc9b4af8e8fca647c81f2c0a820efb8b921a9dc319ed902f7adea7c47"
+      },
+      "processingSignature": "d36330058bbb25b5134eca648293da4c76f9e5c5200ef56e155ffc0c1f6c4d4d",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0788-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1284888,
+        "sha256": "92428e1f03367a14a6dbc663e3b40123d16ba9bc3b96b12cd74a44fb92ff7f41"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0788",
+          "variant": "female",
+          "key": "0788-female-anatomical-white-v1",
+          "layout": {
+            "columns": 2,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Stand with feet shoulder-width, hold the barbell behind the neck using an overhand grip, and brace the torso."
+            },
+            {
+              "key": "p2",
+              "caption": "Press overhead by extending the arms, then lower slowly to the starting position while keeping the torso steady."
+            }
+          ],
+          "prompt": "Original premium adult female exercise anatomy illustration, TWO equal SQUARE cells side by side WIDE LANDSCAPE same model scale and limb lengths. STANDING BARBELL BEHIND-NECK PRESS, FREE BARBELL no machine/bench. REAR three-quarter camera so BACK OF NECK/bar placement and hands clearly visible in BOTH phases, same body/head orientation, head neutral no ducking/turning. Feet shoulder-width full soles flat fixed floor knees soft, torso UPRIGHT neutral spine no backbend. Closed OVERHAND pronated grip WIDER than shoulders, thumbs wrap bar, wrists neutral forearms near vertical. LEFT bar behind head at shoulder-height across UPPER TRAPEZIUS muscle shelf NOT cervical vertebrae; elbows bent out below bar, bar stays behind skull not penetrating it. RIGHT bar directly OVERHEAD with arms fully extended, horizontal bar above head with visible clearance, same grip and fixed body/foot positions. Modest identical plates on both ends outside hands. Exposed DELTOID shoulder caps highlighted RED only, no back/traps/triceps/biceps/chest red. Detailed fine EXPOSED grayscale muscle contours arms/calves, realistic proportions, equal male/female quality. Original project reference ONLY rendering STYLE, never its bench/push-up pose or chest red. Full opaque BLACK athletic shirt and MID-THIGH shorts wrap FRONT SIDES BACK SEAT CROTCH continuously, seams and broad fabric folds. No cutaway/transparency/anatomy through cloth. Black shoes. White background soft grounded shadows. Whole body/raised hands and any bar/plates contained EACH cell with generous margins, no overlap across center. No embedded captions/labels/text/arrows.",
+          "inspectionNote": "Behind-neck press rear view with bar then overhead extension, deltoid red, detailed exposed anatomy and opaque back/seat clothes. Head turned and overhead plate margin tight, correction required. Qualified bar shelf, grip and shoulder mechanics pending.",
+          "canonicalName": "standing behind neck press",
+          "styleVersion": "white-v1",
+          "equipment": "barbell",
+          "primaryMuscles": [
+            "delts"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Behind-neck press rear view with bar then overhead extension, deltoid red, detailed exposed anatomy and opaque back/seat clothes. Head turned and overhead plate margin tight, correction required. Qualified bar shelf, grip and shoulder mechanics pending.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0788-female-anatomical-white-v1-p1-13d5f557c864.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 25104,
+              "sha256": "13d5f557c864c4f602fe841c95014bfb178c5a74b6d6f63c50e84e21e7f3bae4"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0788-female-anatomical-white-v1-p2-6e7367ab9881.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 25114,
+              "sha256": "6e7367ab9881e942cc29a0e039b8510d09d43652805e41ca1ab22aa118857df2"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0788-female-anatomical-white-v1-thumb-17d1fdcdf3f6.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 2672,
+            "sha256": "17d1fdcdf3f692addaf8b62147ec4a1fdaf71c693cd1f45e355bcade9067e28a"
+          },
+          "processingSignature": "bc59c2ff67abbdc69e8403f12da605b70f8f2408cebb8e7296538f1512a5fc4c",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0788-female-anatomical-white-v1.png",
+            "width": 1774,
+            "height": 887,
+            "bytes": 1342489,
+            "sha256": "a1031305a16941852f890dbf51d63c881baddae3da18eb59078a4cfa6383399b"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,654 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "0878",
+      "variant": "male",
+      "key": "0878-male-anatomical-white-v2",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand inside the rack with the free bar on the upper back, feet shoulder-width apart and safety pins set below the bottom bar position."
+        },
+        {
+          "key": "p2",
+          "caption": "Squat deeply with the whole foot grounded, knees tracking the toes and a neutral spine; drive through the feet to stand."
+        }
+      ],
+      "prompt": "Correct original male FREE BARBELL FULL SQUAT IN POWER RACK. RIGHT bottom lower hips a little until HIP CREASE CLEARLY BELOW TOP OF KNEES, retain heels flat, knees tracking toes and neutral spine; no excessive rounding. LEFT preserve standing pose. Bar remains on UPPER BACK TRAPS below neck, both hands closed overhand, no Smith rails, not on hooks, whole body inside rack, safety pins just below lowest BAR height. SHRINK whole rack AND person uniformly within each of TWO equal SQUARE cells WIDE LANDSCAPE, at least8percent white margin above rack and below feet, no cropping. Preserve exposed red quads only, fine grayscale exposed anatomy, full opaque black shirt/shorts front sides back seat crotch, no text.",
+      "inspectionNote": "Correction expands rack/person margins, retains free bar upper-back shelf, grounded heels and exposed quadriceps red. Bottom depth remains near parallel and below-parallel hip crease cannot be confirmed from this view despite correction. Opaque clothes; qualified rack/bar, grip and knee tracking pending.",
+      "canonicalName": "barbell full squat (with rack)",
+      "styleVersion": "white-v1",
+      "equipment": "barbell",
+      "primaryMuscles": [
+        "quads"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0878-male-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "status": "generated",
+        "costUSD": null
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Correction expands rack/person margins, retains free bar upper-back shelf, grounded heels and exposed quadriceps red. Bottom depth remains near parallel and below-parallel hip crease cannot be confirmed from this view despite correction. Opaque clothes; qualified rack/bar, grip and knee tracking pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0878-male-anatomical-white-v2-p1-ded6885dcf7c.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 30982,
+          "sha256": "ded6885dcf7c7a9e47165fdc883ccb0a673a7fe0aa6e5c9d8bedbfa2975da2ee"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0878-male-anatomical-white-v2-p2-dbc7df09b85c.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 30300,
+          "sha256": "dbc7df09b85c39e0c00ab91ab29630deb3cf303673ef201f7c2cba336c375e90"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0878-male-anatomical-white-v2-thumb-a5dbe970e665.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 3838,
+        "sha256": "a5dbe970e66599331130d394c1053493b91ed3bccf7b1f851fe5847e0b006d26"
+      },
+      "processingSignature": "0a5eba2ddce374b8c5bcd316ad32a91dc478eb0f6ab1ed04c9697864d78cc091",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0878-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1338436,
+        "sha256": "7b68b9e6ec4af1a6004274e5bd78f80b22f2747544d799d12646347f968c6b4e"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0878",
+          "variant": "male",
+          "key": "0878-male-anatomical-white-v1",
+          "layout": {
+            "columns": 2,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Stand inside the rack with the free bar on the upper back, feet shoulder-width apart and safety pins set below the bottom bar position."
+            },
+            {
+              "key": "p2",
+              "caption": "Squat deeply with the whole foot grounded, knees tracking the toes and a neutral spine; drive through the feet to stand."
+            }
+          ],
+          "prompt": "Original premium ADULT male anatomical exercise illustration, TWO equal SQUARE cells side by side WIDE LANDSCAPE 2:1. Same model scale/proportions and camera, equipment and limb lengths both poses. BARBELL FULL SQUAT WITH RACK canonical0878. Side-front three-quarter camera. Realistic compact FOUR-POST POWER RACK fully visible, no Smith rails, barbell FREE RESTING ON muscular UPPER BACK/TRAPS BELOW neck not cervical spine, both hands closed OVERHAND grip just wider than shoulders, elbows down/back wrists aligned. Bar with modest equal plates both ends horizontal, NOT resting hooks during exercise. Model stands safely INSIDE rack, J-hooks behind at upper chest height, two HORIZONTAL SAFETY PINS just BELOW lowest bar position, never touching bar, rack does not move. LEFT START upright hips/knees extended, feet SHOULDER WIDTH toes slightly out entire soles grounded. RIGHT BOTTOM DEEP squat hips back/down, hip crease SLIGHTLY BELOW knees, knees track toes no cave, chest up and neutral spine, reasonable forward torso lean, heels NEVER lift. Same feet positions, bar shelf/grip unchanged, whole bar and plates within each cell. Primary QUADRICEPS RED on exposed front thighs below shorts only, do NOT add glute/chest/abs red. Fine detailed EXPOSED grayscale anatomical muscle contours, realistic equipment and proportions, equivalent male/female detail. Opaque BLACK athletic tank shirt and MID-THIGH shorts wrap continuously FRONT SIDES BACK SEAT CROTCH, seams broad cloth folds, NEVER cutaways/transparency/anatomical fibers through cloth. Black shoes. Entire machine or rack, bar/cable, head/hands/feet inside EACH square with generous all-side margins, no cross-panel overlap. Pure white background soft contact shadows. Original project artwork for rendering STYLE ONLY ignore bench push-up pose and chest red. No text/captions/arrows/labels.",
+          "inspectionNote": "Rack squat free bar upper-back shelf, hand grips and planted feet retained from standing to squat near parallel. Safety pins below bar, but depth near parallel rather than clearly below and rack margins narrow. Opaque clothes and exposed quadriceps red; planned depth/framing correction, qualified shelf/grip/knee alignment pending.",
+          "canonicalName": "barbell full squat (with rack)",
+          "styleVersion": "white-v1",
+          "equipment": "barbell",
+          "primaryMuscles": [
+            "quads"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Rack squat free bar upper-back shelf, hand grips and planted feet retained from standing to squat near parallel. Safety pins below bar, but depth near parallel rather than clearly below and rack margins narrow. Opaque clothes and exposed quadriceps red; planned depth/framing correction, qualified shelf/grip/knee alignment pending.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0878-male-anatomical-white-v1-p1-c79c1d14de15.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 49010,
+              "sha256": "c79c1d14de159dfa00c9d9cf45725136636fbcf171a5fc12f890790a0804bf51"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0878-male-anatomical-white-v1-p2-fca9cedf0478.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 46750,
+              "sha256": "fca9cedf0478d5f4ea31dc7e107a3b856d540b3e8a14ad52b311deeba7d35a99"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0878-male-anatomical-white-v1-thumb-8013e4a742e2.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 5838,
+            "sha256": "8013e4a742e2e490693b2d3aef0782d8edec98849e28d0a70a46b6f0742dc762"
+          },
+          "processingSignature": "a31f5a23b9af26a21e70083121a4035cd59b15e4fb300ed6bdb36d8cf51b63aa",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0878-male-anatomical-white-v1.png",
+            "width": 1774,
+            "height": 887,
+            "bytes": 1588291,
+            "sha256": "49cae1b41562db3d258883e8742e8de46a70705ffc2332432ae2fcb00af430cf"
+          }
+        }
+      ],
+      "blockingIssues": [
+        "Full-squat below-parallel hip depth remains visually uncertain after targeted correction; requires depth/view repair or qualified resolution."
+      ]
+    },
+    {
+      "exerciseId": "0878",
+      "variant": "female",
+      "key": "0878-female-anatomical-white-v2",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand inside the rack with the free bar on the upper back, feet shoulder-width apart and safety pins set below the bottom bar position."
+        },
+        {
+          "key": "p2",
+          "caption": "Squat deeply with the whole foot grounded, knees tracking the toes and a neutral spine; drive through the feet to stand."
+        }
+      ],
+      "prompt": "Correct original female FREE BARBELL FULL SQUAT IN POWER RACK. Preserve existing deep squat depth and heels flat, knees tracking toes and neutral spine. LEFT preserve standing pose. Bar remains on UPPER BACK TRAPS below neck, both hands closed overhand, no Smith rails, not on hooks, whole body inside rack, safety pins just below lowest BAR height. SHRINK whole rack AND person uniformly within each of TWO equal SQUARE cells WIDE LANDSCAPE, at least8percent white margin above rack and below feet, no cropping. Preserve exposed red quads only, fine grayscale exposed anatomy, full opaque black shirt/shorts front sides back seat crotch, no text.",
+      "inspectionNote": "Correction expands rack/body margins and adds thin cell borders. Deep squat retained with heels planted, bar upper back above safeties, exposed quadriceps red and opaque clothing. Bottom panel rack/model slightly smaller than start, qualified scale consistency, depth/pelvis, grip and safety height pending review.",
+      "canonicalName": "barbell full squat (with rack)",
+      "styleVersion": "white-v1",
+      "equipment": "barbell",
+      "primaryMuscles": [
+        "quads"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0878-female-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "status": "generated",
+        "costUSD": null
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Correction expands rack/body margins and adds thin cell borders. Deep squat retained with heels planted, bar upper back above safeties, exposed quadriceps red and opaque clothing. Bottom panel rack/model slightly smaller than start, qualified scale consistency, depth/pelvis, grip and safety height pending review.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0878-female-anatomical-white-v2-p1-96df3e4da53f.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 31784,
+          "sha256": "96df3e4da53fdb85304df43f4a47df84cb05db176f01b8f36dde6b5088e42288"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0878-female-anatomical-white-v2-p2-9f53969b3a37.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 29588,
+          "sha256": "9f53969b3a37eac982b8504ea1da398e8012131c4789daa840b2bc12d44148a9"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0878-female-anatomical-white-v2-thumb-ae50077c47ac.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 4054,
+        "sha256": "ae50077c47ac873c9cadeb7b3936b68e7ee490c6b132122fe166037735068533"
+      },
+      "processingSignature": "a4eb6c11af65e5d94e7e3efd30276d58c13217dea84d8b050481ca57c9bb0977",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0878-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1312000,
+        "sha256": "2fc581328960e7108e197ef0c27e531939cccd5ab317b820c4a9ad6ededcb6bc"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0878",
+          "variant": "female",
+          "key": "0878-female-anatomical-white-v1",
+          "layout": {
+            "columns": 2,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Stand inside the rack with the free bar on the upper back, feet shoulder-width apart and safety pins set below the bottom bar position."
+            },
+            {
+              "key": "p2",
+              "caption": "Squat deeply with the whole foot grounded, knees tracking the toes and a neutral spine; drive through the feet to stand."
+            }
+          ],
+          "prompt": "Original premium ADULT female anatomical exercise illustration, TWO equal SQUARE cells side by side WIDE LANDSCAPE 2:1. Same model scale/proportions and camera, equipment and limb lengths both poses. BARBELL FULL SQUAT WITH RACK canonical0878. Side-front three-quarter camera. Realistic compact FOUR-POST POWER RACK fully visible, no Smith rails, barbell FREE RESTING ON muscular UPPER BACK/TRAPS BELOW neck not cervical spine, both hands closed OVERHAND grip just wider than shoulders, elbows down/back wrists aligned. Bar with modest equal plates both ends horizontal, NOT resting hooks during exercise. Model stands safely INSIDE rack, J-hooks behind at upper chest height, two HORIZONTAL SAFETY PINS just BELOW lowest bar position, never touching bar, rack does not move. LEFT START upright hips/knees extended, feet SHOULDER WIDTH toes slightly out entire soles grounded. RIGHT BOTTOM DEEP squat hips back/down, hip crease SLIGHTLY BELOW knees, knees track toes no cave, chest up and neutral spine, reasonable forward torso lean, heels NEVER lift. Same feet positions, bar shelf/grip unchanged, whole bar and plates within each cell. Primary QUADRICEPS RED on exposed front thighs below shorts only, do NOT add glute/chest/abs red. Fine detailed EXPOSED grayscale anatomical muscle contours, realistic equipment and proportions, equivalent male/female detail. Opaque BLACK athletic tank shirt and MID-THIGH shorts wrap continuously FRONT SIDES BACK SEAT CROTCH, seams broad cloth folds, NEVER cutaways/transparency/anatomical fibers through cloth. Black shoes. Entire machine or rack, bar/cable, head/hands/feet inside EACH square with generous all-side margins, no cross-panel overlap. Pure white background soft contact shadows. Original project artwork for rendering STYLE ONLY ignore bench push-up pose and chest red. No text/captions/arrows/labels.",
+          "inspectionNote": "Rack back squat standing to deep bottom, heels grounded knees track toes, bar remains upper-back shelf and above safeties. Red exposed quads with opaque clothes. Rack nearly reaches top/bottom edges; planned margin expansion. Qualified shelf/grip, depth/pelvis and knee tracking pending human review.",
+          "canonicalName": "barbell full squat (with rack)",
+          "styleVersion": "white-v1",
+          "equipment": "barbell",
+          "primaryMuscles": [
+            "quads"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Rack back squat standing to deep bottom, heels grounded knees track toes, bar remains upper-back shelf and above safeties. Red exposed quads with opaque clothes. Rack nearly reaches top/bottom edges; planned margin expansion. Qualified shelf/grip, depth/pelvis and knee tracking pending human review.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0878-female-anatomical-white-v1-p1-8bff2d6b3735.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 49484,
+              "sha256": "8bff2d6b3735605025369970fbe8309558172ee66e0ed1d2f007dedae0c66d7c"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0878-female-anatomical-white-v1-p2-6f6273959a74.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 47906,
+              "sha256": "6f6273959a744fb74374404fc5fb293af964143eb479dbaf53a4124833d7e8d0"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0878-female-anatomical-white-v1-thumb-81ab407f3bad.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 6010,
+            "sha256": "81ab407f3bad099dfd5a20d71857d53f4ad47401c4724cf158dcb470a5265a64"
+          },
+          "processingSignature": "f1d7d70aefaca3ac4508b467e26e54caaea04c492b49c0ef5b448be5351680da",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0878-female-anatomical-white-v1.png",
+            "width": 1774,
+            "height": 887,
+            "bytes": 1574308,
+            "sha256": "0ec7bc6b333c64bf5372b4ca8f8193ad19f3ad3273ad56a6bec28309728aed47"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "0880",
+      "variant": "male",
+      "key": "0880-male-anatomical-white-v2",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Face the cable stack, hold the frame and attach the low cable securely to the right ankle cuff."
+        },
+        {
+          "key": "p2",
+          "caption": "Keep the pelvis steady and extend the strapped right leg backward without arching the back; return slowly, then switch sides."
+        }
+      ],
+      "prompt": "Correct original male CABLE HIP EXTENSION, same two poses and ankle-cuffed working leg. RED GLUTE TINT must correspond to SAME buttock whose thigh leads to the ANKLE CUFF, and whose leg moves BACK in right panel. Remove red from buttock attached to stationary planted support leg. Make working-side buttock visible by slightly more REAR camera view consistently BOTH panels, without swapping leg identities. Start cuff on working leg under hip; finish same cuff leg extends back20degrees, knee nearly straight, support foot fixed, pelvis square no back arch, hands hold frame, cable taut from low pulley to cuff. ONE smooth diffuse BLURRED red working glute patch OVER intact opaque black shorts, broad cloth folds only no fibers/rays. SHRINK whole tower/person uniformly within EACH of two equal SQUARE cells WIDE LANDSCAPE to leave8percent white margins top/bottom and beyond lifted shoe. Fine exposed grayscale anatomy, full opaque shirt/shorts front sides back seat crotch, white background no text.",
+      "inspectionNote": "Correction expands tower/shoe margins and retains cable-connected ankle cuff/backward leg motion. Red remains on prominent near buttock and association to strapped moving leg remains uncertain despite targeted correction. Smooth tint and opaque clothes retained; qualified leg identity, pelvis and routing review pending.",
+      "canonicalName": "cable standing hip extension v. 2",
+      "styleVersion": "white-v1",
+      "equipment": "cable",
+      "primaryMuscles": [
+        "glutes"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0880-male-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "status": "generated",
+        "costUSD": null
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Correction expands tower/shoe margins and retains cable-connected ankle cuff/backward leg motion. Red remains on prominent near buttock and association to strapped moving leg remains uncertain despite targeted correction. Smooth tint and opaque clothes retained; qualified leg identity, pelvis and routing review pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0880-male-anatomical-white-v2-p1-02ee8bbd101c.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 28558,
+          "sha256": "02ee8bbd101cde08428de8748df8ee87228c4fd51cd4bf9bfb1cc7146eae3f25"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0880-male-anatomical-white-v2-p2-4c78e81e7c89.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 31098,
+          "sha256": "4c78e81e7c8936d93f150c6bdde845e5e05b8880c7c5d390a64a59894afbabf0"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0880-male-anatomical-white-v2-thumb-33018b810e2b.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 3402,
+        "sha256": "33018b810e2ba4d8972fadaf41627d6984cd2bdd100e64ff270d7db8b0c1a174"
+      },
+      "processingSignature": "cc14e8a30bd122b2bc836396f2fafc4a9e8f894285274ab2822463b82b11211b",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0880-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1363614,
+        "sha256": "ee59347f9a86bc9bc0fa31fd4c258cc191cbf102fd55a68299275356bd466c48"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0880",
+          "variant": "male",
+          "key": "0880-male-anatomical-white-v1",
+          "layout": {
+            "columns": 2,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Face the cable stack, hold the frame and attach the low cable securely to the right ankle cuff."
+            },
+            {
+              "key": "p2",
+              "caption": "Keep the pelvis steady and extend the strapped right leg backward without arching the back; return slowly, then switch sides."
+            }
+          ],
+          "prompt": "Original premium ADULT male anatomical exercise illustration, TWO equal SQUARE cells side by side WIDE LANDSCAPE 2:1. Same model scale/proportions and camera, equipment and limb lengths both poses. CABLE STANDING HIP EXTENSION v2 canonical0880. SIDE-REAR three-quarter view to show RIGHT GLUTE and right strapped leg. Head image LEFT, feet toward RIGHT, model FACES cable stack at image LEFT. Compact realistic tower LOW PULLEY at LEFT, both palms hold fixed frame at waist/chest height for support, slight hip hinge NEUTRAL spine and NECK eyes toward frame no turning back. LEFT support foot planted, left knee soft. Secure gray ANKLE CUFF around RIGHT ankle, visible carabiner connects to taut cable from LOW pulley BOTH panels, cable outside legs no penetration. LEFT START right leg near vertical under hip, right toe lightly on floor just behind support foot, pelvis square. RIGHT FINISH same right leg extends BACK toward image RIGHT about20degrees with knee nearly straight soft bend unchanged, right cuff behind hip and cable taut longer. Left foot, torso, hands, pelvis fixed; no lumbar arch or pelvic rotation. Highlight RIGHT GLUTE with ONE smooth diffuse BLURRED RED tint OVER intact opaque BLACK shorts rear/outer right buttock only, NEVER red fibers/rays/anatomical grooves through cloth; broad real cloth folds only. No red lower back/abs/quads. Fine detailed EXPOSED grayscale anatomical muscle contours, realistic equipment and proportions, equivalent male/female detail. Opaque BLACK athletic tank shirt and MID-THIGH shorts wrap continuously FRONT SIDES BACK SEAT CROTCH, seams broad cloth folds, NEVER cutaways/transparency/anatomical fibers through cloth. Black shoes. Entire machine or rack, bar/cable, head/hands/feet inside EACH square with generous all-side margins, no cross-panel overlap. Pure white background soft contact shadows. Original project artwork for rendering STYLE ONLY ignore bench push-up pose and chest red. No text/captions/arrows/labels.",
+          "inspectionNote": "Ankle cuff connected low cable from standing to backward hip extension, support foot and frame grips steady, red buttock tint smooth on opaque shorts. Lifted shoe near right edge; red working-side hip association needs clearer review. Qualified cable routing, pelvis/lumbar stability, knee angle and mapping pending.",
+          "canonicalName": "cable standing hip extension v. 2",
+          "styleVersion": "white-v1",
+          "equipment": "cable",
+          "primaryMuscles": [
+            "glutes"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Ankle cuff connected low cable from standing to backward hip extension, support foot and frame grips steady, red buttock tint smooth on opaque shorts. Lifted shoe near right edge; red working-side hip association needs clearer review. Qualified cable routing, pelvis/lumbar stability, knee angle and mapping pending.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0880-male-anatomical-white-v1-p1-06dfde446afd.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 38906,
+              "sha256": "06dfde446afd583a335da25fe2113263463ee8d890400c0e3a1f79600888a9a2"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0880-male-anatomical-white-v1-p2-5c4de1885cfe.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 40770,
+              "sha256": "5c4de1885cfeab371abc21ee959e01e73fef70943dfc5d67b6323a24026a879c"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0880-male-anatomical-white-v1-thumb-91dd0981b240.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 4330,
+            "sha256": "91dd0981b24058291c876555ac4798d058f438a18b4205aaaa17336602264306"
+          },
+          "processingSignature": "42b711fa1b4ed7927d9875705fba41b4eaf82f677d155ca0b93eb512f3d1f6e5",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0880-male-anatomical-white-v1.png",
+            "width": 1774,
+            "height": 887,
+            "bytes": 1502407,
+            "sha256": "a68e1cfc764f33dc2e4a220fd1d519e2a12302a6cb318f4c98b36b21ee4333e4"
+          }
+        }
+      ],
+      "blockingIssues": [
+        "Red glute overlay cannot be confidently associated with the strapped working leg after targeted correction; mapping and leg identity need repair or qualified resolution."
+      ]
+    },
+    {
+      "exerciseId": "0880",
+      "variant": "female",
+      "key": "0880-female-anatomical-white-v2",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Face the cable stack, hold the frame and attach the low cable securely to the right ankle cuff."
+        },
+        {
+          "key": "p2",
+          "caption": "Keep the pelvis steady and extend the strapped right leg backward without arching the back; return slowly, then switch sides."
+        }
+      ],
+      "prompt": "Correct original female CABLE HIP EXTENSION, same two poses and ankle-cuffed working leg. RED GLUTE TINT must correspond to SAME buttock whose thigh leads to the ANKLE CUFF, and whose leg moves BACK in right panel. Remove red from buttock attached to stationary planted support leg. Make working-side buttock visible by slightly more REAR camera view consistently BOTH panels, without swapping leg identities. Start cuff on working leg under hip; finish same cuff leg extends back20degrees, knee nearly straight, support foot fixed, pelvis square no back arch, hands hold frame, cable taut from low pulley to cuff. ONE smooth diffuse BLURRED red working glute patch OVER intact opaque black shorts, broad cloth folds only no fibers/rays. SHRINK whole tower/person uniformly within EACH of two equal SQUARE cells WIDE LANDSCAPE to leave8percent white margins top/bottom and beyond lifted shoe. Fine exposed grayscale anatomy, full opaque shirt/shorts front sides back seat crotch, white background no text.",
+      "inspectionNote": "Correction expands tower/lifted-shoe margins and moves smooth red tint to far working-side buttock visibly continuing to strapped moving thigh. Cuff and cable remain connected, support foot fixed. Opaque clothes; qualified leg identity, pelvis/lumbar stability, routing, knee angle and mapping pending human review.",
+      "canonicalName": "cable standing hip extension v. 2",
+      "styleVersion": "white-v1",
+      "equipment": "cable",
+      "primaryMuscles": [
+        "glutes"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0880-female-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "status": "generated",
+        "costUSD": null
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Correction expands tower/lifted-shoe margins and moves smooth red tint to far working-side buttock visibly continuing to strapped moving thigh. Cuff and cable remain connected, support foot fixed. Opaque clothes; qualified leg identity, pelvis/lumbar stability, routing, knee angle and mapping pending human review.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0880-female-anatomical-white-v2-p1-a87d3ab6fd75.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 27210,
+          "sha256": "a87d3ab6fd750ef2285c55364d21511d9cf7f3d1b0f82470ac3b6cf0a82c681b"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0880-female-anatomical-white-v2-p2-b7f33b66df35.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 28176,
+          "sha256": "b7f33b66df35a162e85bb70bfcb807bf983941a80d43d321097a72c975811f6d"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0880-female-anatomical-white-v2-thumb-985e8f61063d.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2920,
+        "sha256": "985e8f61063d142365bc7c1cb5c62a79d90892ab740d2eebcf4f18b81fb5d827"
+      },
+      "processingSignature": "d767c770c94f769be84705028e2aef294597689d4681fcf396a88d93fc5c822f",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0880-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1341665,
+        "sha256": "eea606825d0e82ae9803bb8525cf601ba300d905cab28285c0a44c201c4aa4f5"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0880",
+          "variant": "female",
+          "key": "0880-female-anatomical-white-v1",
+          "layout": {
+            "columns": 2,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Face the cable stack, hold the frame and attach the low cable securely to the right ankle cuff."
+            },
+            {
+              "key": "p2",
+              "caption": "Keep the pelvis steady and extend the strapped right leg backward without arching the back; return slowly, then switch sides."
+            }
+          ],
+          "prompt": "Original premium ADULT female anatomical exercise illustration, TWO equal SQUARE cells side by side WIDE LANDSCAPE 2:1. Same model scale/proportions and camera, equipment and limb lengths both poses. CABLE STANDING HIP EXTENSION v2 canonical0880. SIDE-REAR three-quarter view to show RIGHT GLUTE and right strapped leg. Head image LEFT, feet toward RIGHT, model FACES cable stack at image LEFT. Compact realistic tower LOW PULLEY at LEFT, both palms hold fixed frame at waist/chest height for support, slight hip hinge NEUTRAL spine and NECK eyes toward frame no turning back. LEFT support foot planted, left knee soft. Secure gray ANKLE CUFF around RIGHT ankle, visible carabiner connects to taut cable from LOW pulley BOTH panels, cable outside legs no penetration. LEFT START right leg near vertical under hip, right toe lightly on floor just behind support foot, pelvis square. RIGHT FINISH same right leg extends BACK toward image RIGHT about20degrees with knee nearly straight soft bend unchanged, right cuff behind hip and cable taut longer. Left foot, torso, hands, pelvis fixed; no lumbar arch or pelvic rotation. Highlight RIGHT GLUTE with ONE smooth diffuse BLURRED RED tint OVER intact opaque BLACK shorts rear/outer right buttock only, NEVER red fibers/rays/anatomical grooves through cloth; broad real cloth folds only. No red lower back/abs/quads. Fine detailed EXPOSED grayscale anatomical muscle contours, realistic equipment and proportions, equivalent male/female detail. Opaque BLACK athletic tank shirt and MID-THIGH shorts wrap continuously FRONT SIDES BACK SEAT CROTCH, seams broad cloth folds, NEVER cutaways/transparency/anatomical fibers through cloth. Black shoes. Entire machine or rack, bar/cable, head/hands/feet inside EACH square with generous all-side margins, no cross-panel overlap. Pure white background soft contact shadows. Original project artwork for rendering STYLE ONLY ignore bench push-up pose and chest red. No text/captions/arrows/labels.",
+          "inspectionNote": "Strapped ankle remains connected low cable in start/backward kick; supporting foot and frame grips steady. Smooth red buttock tint on opaque clothes, working-side association visually unclear and lifted shoe/tower edge margins narrow. Planned mapping/framing correction; qualified pelvic stability, leg identity and routing pending.",
+          "canonicalName": "cable standing hip extension v. 2",
+          "styleVersion": "white-v1",
+          "equipment": "cable",
+          "primaryMuscles": [
+            "glutes"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Strapped ankle remains connected low cable in start/backward kick; supporting foot and frame grips steady. Smooth red buttock tint on opaque clothes, working-side association visually unclear and lifted shoe/tower edge margins narrow. Planned mapping/framing correction; qualified pelvic stability, leg identity and routing pending.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0880-female-anatomical-white-v1-p1-3d8316b16e71.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 35574,
+              "sha256": "3d8316b16e71e1c78e5c6bd8ab40ad0c0968262e7da37762580e75dce37ea043"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0880-female-anatomical-white-v1-p2-616ec21f81f2.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 38886,
+              "sha256": "616ec21f81f24d784f9ca664bdb5a8842a5b57d46ba233a2f01c64aa86c85546"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0880-female-anatomical-white-v1-thumb-ca9561d57791.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 3948,
+            "sha256": "ca9561d57791910f840530dd5e8578dc3a97838ec4b406ab545e8d33e4b100b7"
+          },
+          "processingSignature": "ae9c2fb5106709db3955331a3ac457936dc50cc6df64252282e244275db1e2d4",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0880-female-anatomical-white-v1.png",
+            "width": 1774,
+            "height": 887,
+            "bytes": 1473872,
+            "sha256": "4dd63b8f499ff48048d3346f60089af977fb164e7ec8ec7d97c320d3732ab474"
+          }
+        }
+      ]
+    }
+  ]
+}

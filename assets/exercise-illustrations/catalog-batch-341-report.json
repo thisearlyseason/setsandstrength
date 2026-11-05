@@ -1,0 +1,80 @@
+{
+  "batch": 341,
+  "runId": "4dd4b92a-7379-4eb9-8d50-143aa1408089",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "trigger": "2026-11-04T11:23:31.714Z",
+  "purpose": "batch341 scheduled male continuation",
+  "started": "2026-11-04T11:23:43.070276+00:00",
+  "completedAt": "2026-11-04T11:28:14.258054+00:00",
+  "actualToolName": "image_gen__imagegen",
+  "calls": 4,
+  "newCandidateSets": 4,
+  "exerciseIds": [
+    "3279",
+    "3280",
+    "3282",
+    "3283"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1222,
+    "remainingVariants": 10042,
+    "approvedVariants": 0,
+    "blockedVariants": 450,
+    "knownPoseImages": 2396,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 849,
+      "remainingVariants": 4783,
+      "blockedVariants": 331
+    }
+  },
+  "reviewNotes": {
+    "3279": "Calves supported on bench with roughly right-angle knees, grounded head/shoulders start and modest crunch end. Opaque clothing and plain abdominal wash visible. Qualified hand/neck support, lower-back contact and bench height review pending.",
+    "3280": "Bench-supported legs and three phases visible, but start head is elevated and both rotated panels appear to repeat same shoulder direction instead of mirrored twists. Opaque clothing; correction required.",
+    "3282": "Plate stays against chest with both hands, calves supported and head grounded start to modest curl. Opaque clothing/plain wash. Qualified review of lower-back contact, neck alignment and plate grip pending.",
+    "3283": "Plate held against chest and supported legs visible, but elevated neutral head and repeated same-direction twist require correction. Clothing opaque with plain wash; qualified review pending."
+  },
+  "blockingIssues": {
+    "3280": [
+      "Rest head and shoulders fully on floor in neutral start.",
+      "Show clearly opposite shoulder-to-knee rotation in final panel."
+    ],
+    "3283": [
+      "Rest head and shoulders fully on floor in neutral start.",
+      "Show clearly opposite shoulder-to-knee rotation in final panel."
+    ]
+  },
+  "deferred": {
+    "3281": "Smith fixed bar path conflicts with instruction to step backward after unracking.",
+    "3286": "Muscle-up name/description conflicts with grip reversal and pull-up-only instructions.",
+    "3288": "Korean dip name conflicts with generic parallel-bar description.",
+    "3289": "Impossible dip name conflicts with ordinary parallel-bar dip instructions."
+  },
+  "tests": 7,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "workerSyncResult": {
+    "statuses": {
+      "generated": 1222,
+      "pending": 10042
+    },
+    "remaining": 10042,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 1865886892
+  },
+  "publicationIndexUnchanged": true
+}

@@ -1,0 +1,36 @@
+{
+  "batch": 25,
+  "trigger": "2026-11-01T06:41:11.561Z",
+  "completedAt": "2026-11-01T06:48:55.430724+00:00",
+  "tool": "image_gen.imagegen",
+  "newCandidateSets": 2,
+  "generationCalls": 4,
+  "exerciseIds": [
+    "0308"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 92,
+    "remainingVariants": 11172,
+    "approvedVariants": 0,
+    "blockedVariants": 36,
+    "knownPoseImages": 190,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Both candidates blocked from approval: fly elbow-angle inconsistency. Male inclined-bench renditions retained as rejected history; v3 corrects bench angle. Clothing opaque and complete in inspected views. No production publication.",
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 152283992
+}

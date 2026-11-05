@@ -1,0 +1,323 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "1735",
+      "variant": "male",
+      "key": "1735-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Lie on a flat bench with one dumbbell extended above your chest. Keep your upper arm still."
+        },
+        {
+          "key": "p2",
+          "caption": "Bend your elbow to lower the dumbbell toward your forehead without contact. Extend your arm to return, then repeat on both sides."
+        }
+      ],
+      "prompt": "DUMBBELL LYING SINGLE EXTENSION canonical1735. TWO equal square cells WIDE2:1 landscape SIDE three-quarter view. LieFACEUP grayflatbench skullbackpelvissupported feetflatfloor knees90degrees. ONE dumbbell working NEAR hand neutralgrip free hand rests abdomen empty. Working upperarm remains VERTICAL pointed CEILING elbow located ABOVE shoulder SAME fixedpoint in BOTH panels. LEFT TOP working elbowalmoststraight dumbbellaboveupperchest. RIGHT LOWERED elbow STAYS HIGH ABOVE SHOULDER while forearmrotates BACK toward skull, dumbbell besideforehead5cmclear, upperarmSTILLVERTICAL. Critical: elbow must NOT descend towardtorso/bench, forearmmustNOTremainvertical likebenchpress. This is elbowhinge only. Bothwriststraight gripunchanged. Red only workingtriceps. Original premium ADULT MALE detailed grayscale anatomical educational illustration. Same full person camera scale equipment throughout cells. Exposed TRICEPS RED only other skin grayscale no biceps/chest/deltsred. Crisp detailed realistic anatomical skin five fingers. Full opaque BLACK tank wraps front sides back and BLACK mid-thigh shorts cover front sides back seat crotch intact seams hems folds. No cutaways transparency or anatomical fibers through fabric. Black shoes. Pure WHITE background soft floor shadows generous12percent margins full head hands both feet all equipment inside EACH square uncropped. Original project artwork STYLE ONLY ignore pushup/chest red. No text captions arrows labels extra people.",
+      "inspectionNote": "Real output inspected. Lying single-arm extension: upper arm remains vertical and forearm lowers weight near forehead, with supported skull/back and feet planted. Qualified review of elbow stability, wrist/grip, clearance and hand anatomy required. Detailed grayscale/red exposed triceps and full opaque tank/shorts retained. Original artwork rendering style only; no upstream media. Exact prompt and original master saved. Human anatomy review pending; no approval or publication.",
+      "canonicalName": "dumbbell lying single extension",
+      "styleVersion": "white-v1",
+      "equipment": "dumbbell",
+      "primaryMuscles": [
+        "triceps"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Lying single-arm extension: upper arm remains vertical and forearm lowers weight near forehead, with supported skull/back and feet planted. Qualified review of elbow stability, wrist/grip, clearance and hand anatomy required. Detailed grayscale/red exposed triceps and full opaque tank/shorts retained. Original artwork rendering style only; no upstream media. Exact prompt and original master saved. Human anatomy review pending; no approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/1735-male-anatomical-white-v1-p1-228bcbc130d9.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 38756,
+          "sha256": "228bcbc130d93f1392edc4f8deb4c144ba6c18ccf48ccaf70905e80fb8177f44"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/1735-male-anatomical-white-v1-p2-42c3cdec14e8.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 37950,
+          "sha256": "42c3cdec14e8975f81c2068a0fcc5e50108c9c450ccfe41d64db2016b7c7d408"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-231.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/1735-male-anatomical-white-v1-thumb-868bcadc6f73.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 3758,
+        "sha256": "868bcadc6f73c859d484312022e8769968281b368897ddaddb7558128a8400ab"
+      },
+      "processingSignature": "4c7c7068b9222470fe41d6cd734fc0e4c90ba7abb63f265ce98a3f83fd35bf1a",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1735-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1563029,
+        "sha256": "b07a74d5d713a060d613b178b3fc4acbc60ad71e4e1b6400cbdc6730b84818af"
+      }
+    },
+    {
+      "exerciseId": "1740",
+      "variant": "male",
+      "key": "1740-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand with feet shoulder width and hinge forward with a flat back. Hold one dumbbell with your upper arm beside your torso and elbow bent."
+        },
+        {
+          "key": "p2",
+          "caption": "Keep your upper arm still and straighten your forearm backward. Lower slowly and repeat on both sides."
+        }
+      ],
+      "prompt": "DUMBBELL STANDING BENT OVER ONE ARM TRICEPS EXTENSION canonical1740. TWO equal square cells WIDE2:1 landscape REAR three-quarter SIDE view. Stand feetflatshoulderwidth kneessoft hingeFORWARD torso nearlyparallelfloor flatspine headneutral. ONE dumbbell NEAR hand neutralpalm inward free emptyhand rests opposite thigh. Working UPPER ARM HORIZONTAL alignedtorso elbowhigh alongside ribs SAME position BOTHpanels. LEFT START elbow90degreebend forearmVERTICAL down weightbelowelbow. RIGHT FINISH extend elbow fully so upperarmFOREARMwrist form ONE STRAIGHT HORIZONTAL LINE alongside torso weightBEHIND hip. UpperarmmustNOTlower or rotate down, shoulderstill, notarmhangingdown atfinish. Same bodyhipfeetposition bothpanels. Onlyworkingtricepsred. Original premium ADULT MALE detailed grayscale anatomical educational illustration. Same full person camera scale equipment throughout cells. Exposed TRICEPS RED only other skin grayscale no biceps/chest/deltsred. Crisp detailed realistic anatomical skin five fingers. Full opaque BLACK tank wraps front sides back and BLACK mid-thigh shorts cover front sides back seat crotch intact seams hems folds. No cutaways transparency or anatomical fibers through fabric. Black shoes. Pure WHITE background soft floor shadows generous12percent margins full head hands both feet all equipment inside EACH square uncropped. Original project artwork STYLE ONLY ignore pushup/chest red. No text captions arrows labels extra people.",
+      "inspectionNote": "Real output inspected. Standing bent-over single-arm extension: high upper arm, bent elbow to straight backward extension, free hand on thigh. Qualified review of shoulder stillness, elbow range, hinge angle and wrist alignment required. Detailed grayscale/red exposed triceps and full opaque tank/shorts retained. Original artwork rendering style only; no upstream media. Exact prompt and original master saved. Human anatomy review pending; no approval or publication.",
+      "canonicalName": "dumbbell standing bent over one arm triceps extension",
+      "styleVersion": "white-v1",
+      "equipment": "dumbbell",
+      "primaryMuscles": [
+        "triceps"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Standing bent-over single-arm extension: high upper arm, bent elbow to straight backward extension, free hand on thigh. Qualified review of shoulder stillness, elbow range, hinge angle and wrist alignment required. Detailed grayscale/red exposed triceps and full opaque tank/shorts retained. Original artwork rendering style only; no upstream media. Exact prompt and original master saved. Human anatomy review pending; no approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/1740-male-anatomical-white-v1-p1-3fdfb66a9c5d.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 34996,
+          "sha256": "3fdfb66a9c5d1bf153463b41510098b67e15449ed19d62ca65da3d69004b0969"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/1740-male-anatomical-white-v1-p2-0d15104a4540.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 34934,
+          "sha256": "0d15104a4540b5ea34a8e8e8ee05a6bfff6df7ceff9df9a83c7eafd6b1415e8c"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-231.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/1740-male-anatomical-white-v1-thumb-7cc9631a3a15.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 3336,
+        "sha256": "7cc9631a3a15cb59f1a39aeb1c6f7bf3b21f2701a029139679c2e5cf9647af2e"
+      },
+      "processingSignature": "e9fa663e3a906821d1f6a19595202adde38463835d046132a44035caa235ae7e",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1740-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1506521,
+        "sha256": "e582ae4c2b06cb33203fa032d7faf39b20bb67b034c029acb658f71e68d2a4a3"
+      }
+    },
+    {
+      "exerciseId": "1741",
+      "variant": "male",
+      "key": "1741-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hinge forward with a flat back and knees softly bent. Hold both dumbbells with elbows bent beside your torso."
+        },
+        {
+          "key": "p2",
+          "caption": "Keep your upper arms still and straighten both forearms backward. Pause, then return slowly."
+        }
+      ],
+      "prompt": "DUMBBELL STANDING BENT OVER TWO ARM TRICEPS EXTENSION canonical1741. Rear three-quarter SIDE camera clearlyshowbotharms. Stand feetflatshoulderwidth kneessoft hingeFORWARD torso nearlyparallelfloor flatback headneutral. TWO identical dumbbells NEUTRAL palmseachother. BOTH UPPER ARMS HORIZONTAL alongside torso elbowshigh beside ribs SAME LOCATIONS both panels. LEFT START BOTH elbowsbent90degrees forearmsVERTICALDOWN dumbbellsunderelbows. RIGHT FINISH extend BOTH elbows so EACH shoulder-upperarm-forearm-wrist forms ONE STRAIGHT HORIZONTAL LINE alignedtorso weights BEHIND hips, not hangingdown. Upperarms doNOTlower or swing. Same bodyhipfeetposition bothpanels. Bothtricepsred. Original premium ADULT MALE detailed grayscale anatomical educational illustration. TWO equal square panels side by side WIDE2:1 landscape SAME full body camera scale equipment. Exposed TRICEPS RED ONLY all other skin grayscale. Crisp detailed anatomical skin realistic hands five fingers. Full opaque BLACK tank wraps front sides back and BLACK mid-thigh shorts cover front sides back seat crotch intact seams hems folds. No cutaways transparency or anatomical fibers through cloth. Black shoes. Pure WHITE background soft contact shadows generous12percent margins full head hands both feet all equipment within EACH square uncropped. Original project artwork STYLE ONLY ignore pushup/chest red. No text captions labels arrows extra figures.",
+      "inspectionNote": "Real output inspected. Bent-over two-arm extension: both weights move backward but far upper arm hangs lower in start and swings upward at finish. BLOCKED for far-side upper-arm movement rather than isolated elbow extension. Detailed grayscale/red exposed triceps and full opaque tank/shorts retained. Original artwork rendering style only; no upstream media. Exact prompt and original master saved. Human anatomy review pending; no approval or publication.",
+      "blockingIssues": [
+        "Far upper arm hangs down in start and moves upward at finish, so stationary bilateral upper-arm kickback mechanics are not maintained."
+      ],
+      "canonicalName": "dumbbell standing bent over two arm triceps extension",
+      "styleVersion": "white-v1",
+      "equipment": "dumbbell",
+      "primaryMuscles": [
+        "triceps"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Bent-over two-arm extension: both weights move backward but far upper arm hangs lower in start and swings upward at finish. BLOCKED for far-side upper-arm movement rather than isolated elbow extension. Detailed grayscale/red exposed triceps and full opaque tank/shorts retained. Original artwork rendering style only; no upstream media. Exact prompt and original master saved. Human anatomy review pending; no approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/1741-male-anatomical-white-v1-p1-670b551815e9.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 32128,
+          "sha256": "670b551815e91e1892a0bbd493ee691fb03f9fd4a2fe00d1ac8ce18e869e0a87"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/1741-male-anatomical-white-v1-p2-b313e58f6836.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 29920,
+          "sha256": "b313e58f68367682b5b633ae41886ca6c9ee12e5377f3a755f93ec2111140b33"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-231.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/1741-male-anatomical-white-v1-thumb-52c352946d32.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 3310,
+        "sha256": "52c352946d32b44ac740243c78fc4702652c5fa1181673e749be261c7fc59c2c"
+      },
+      "processingSignature": "57d30d63f8013fda4f7472850412c9bd62456fe3bc71546f5073ef8495b824d5",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1741-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1444864,
+        "sha256": "29639715b99f883f0309c0327704806f4459f674cb5b30fe7fcba0a624c8ebde"
+      }
+    },
+    {
+      "exerciseId": "1743",
+      "variant": "male",
+      "key": "1743-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Lie on a flat bench with feet planted. Hold both dumbbells above your chest with palms facing away from you."
+        },
+        {
+          "key": "p2",
+          "caption": "Lower the weights toward your chest while turning your palms toward you. Press upward while reversing the turn."
+        }
+      ],
+      "prompt": "DUMBBELL TWISTING BENCH PRESS canonical1743. Front three-quarter SIDE camera clearlyshowhandgrips. Lie FACEUP grayflatbench skullbackpelvissupported feetflatfloor knees90degrees. TWO identical dumbbells. LEFT TOP botharmsnearlystraight abovechest OVERHAND PRONATED palmsfaceAWAY fromownface towardFEET, backs ofhands visible fromheadside. RIGHT BOTTOM lowerbothweightstochestlevel elbowsbent tuckedbesidetorso AND rotateforearms SUPINATE so PALMSFACE TOWARDOWNFACE/HEAD, wristsstraight weightssamelevel. Show distinctlyoppositepalmorientations TOP vsBOTTOM, not neutralhammergrip bothposes. Barsof dumbbellsrunleft-right parallel eachother, sameweightshape. Reverse this twistwhilepressingup. No torsotwist hipsstaybench. Original premium ADULT MALE detailed grayscale anatomical educational illustration. TWO equal square panels side by side WIDE2:1 landscape SAME full body camera scale equipment. Exposed TRICEPS RED ONLY all other skin grayscale. Crisp detailed anatomical skin realistic hands five fingers. Full opaque BLACK tank wraps front sides back and BLACK mid-thigh shorts cover front sides back seat crotch intact seams hems folds. No cutaways transparency or anatomical fibers through cloth. Black shoes. Pure WHITE background soft contact shadows generous12percent margins full head hands both feet all equipment within EACH square uncropped. Original project artwork STYLE ONLY ignore pushup/chest red. No text captions labels arrows extra figures.",
+      "inspectionNote": "Real output inspected. Twisting dumbbell bench press: extended pronated to lowered supinated-looking grips, supported body and feet planted. Qualified review of precise palm rotation, wrist angle, elbow tuck, triceps mapping and weight path required. Detailed grayscale/red exposed triceps and full opaque tank/shorts retained. Original artwork rendering style only; no upstream media. Exact prompt and original master saved. Human anatomy review pending; no approval or publication.",
+      "canonicalName": "dumbbell twisting bench press",
+      "styleVersion": "white-v1",
+      "equipment": "dumbbell",
+      "primaryMuscles": [
+        "triceps"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Twisting dumbbell bench press: extended pronated to lowered supinated-looking grips, supported body and feet planted. Qualified review of precise palm rotation, wrist angle, elbow tuck, triceps mapping and weight path required. Detailed grayscale/red exposed triceps and full opaque tank/shorts retained. Original artwork rendering style only; no upstream media. Exact prompt and original master saved. Human anatomy review pending; no approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/1743-male-anatomical-white-v1-p1-ac8c3088ffb2.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 46190,
+          "sha256": "ac8c3088ffb22b4c37716d27ae5ce904b9bb476dd70e78a8339328657bbfac60"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/1743-male-anatomical-white-v1-p2-475437364df7.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 38816,
+          "sha256": "475437364df7f12ec29c243f1436bf47eab99ff88914fd712b7d3a08570b1011"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-231.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/1743-male-anatomical-white-v1-thumb-97c9b24f38f8.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 4720,
+        "sha256": "97c9b24f38f8c91b7876162be9faa397075a631729dd4fb87eb19805ff56b1c3"
+      },
+      "processingSignature": "12488a33afa60e10ac611bb4d73995a29efa732d4c7870e421f030dfd954f8c2",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1743-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1575727,
+        "sha256": "7489ae36ec6148bfb1d009186a9c4c1a64fed7dcf6cef49591fa4081d8b6162a"
+      }
+    }
+  ]
+}

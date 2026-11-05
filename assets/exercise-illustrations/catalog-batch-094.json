@@ -1,0 +1,770 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "0624",
+      "layout": {
+        "columns": 3,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hold a wall sit with both feet flat, knees bent about ninety degrees"
+        },
+        {
+          "key": "p2",
+          "caption": "Keep back against wall while lifting the right knee and foot"
+        },
+        {
+          "key": "p3",
+          "caption": "Plant the right foot and lift the left knee and foot without changing hip height"
+        }
+      ],
+      "detail": "WALL SIT MARCH, THREE phases showing active march per canonical instructions despite isometric base category. SIDE FRONT three-quarter view, a plain WHITE vertical WALL BEHIND body as faint light-gray edge/contact shadow, not full room. Back/pelvis pressed to wall, hips low in wall-sit, thighs roughly horizontal, knees90degrees, feet forward so shins vertical. Hands on hips, torso upright, no seat/chair/bench. LEFT panel BOTH feet hip width flat on floor. MIDDLE lift RIGHT knee toward chest modestly, right foot CLEAR off floor, right knee stays bent, LEFT foot flat under left knee supports body; pelvis height/back wall contact unchanged. RIGHT panel LOWER right foot flat, lift LEFT knee/foot toward chest, left foot clear off floor, RIGHT foot planted. Same hip height, stable pelvis, no standing up or sliding down, no leg length changes, clear opposite leg identities. Primary GLUTES only ONE faint soft BLURRED RED color tint over intact BLACK side/rear hip shorts, no red quads/knees/calves/abs. Shorts full continuous opaque front/sides/back/seat/crotch even lifted knee; shirt opaque BLACK, limbs detailed grayscale. Whole person, all hands/shoes, enough wall/floor contact within EACH spacious panel.",
+      "variant": "male",
+      "key": "0624-male-anatomical-white-v2",
+      "prompt": "Edit this original project wall-sit march illustration. Preserve all three poses, exact limbs, wall/back/pelvis contact, camera, model and detailed fine grayscale fibers on ALL EXPOSED arms and legs. Only replace red hip/glute fabric highlight in all panels with a soft diffuse blurred red tint on continuous opaque matte black shorts. Remove all radial muscle lines and fibers inside red patch; fabric retains simple natural broad folds. Shorts fully wrap front, sides, rear, seat and crotch with no cutaway/transparency. Shirt opaque. No text. Do not simplify exposed grayscale anatomy.",
+      "inspectionNote": "Clothing correction softens glute tint over intact opaque shorts; three march phases and exposed grayscale anatomy retained. Wall-sit hip height, knee angles and alternate-leg continuity require qualified human review.",
+      "canonicalName": "march sit (wall)",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "glutes"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0624-male-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Clothing correction softens glute tint over intact opaque shorts; three march phases and exposed grayscale anatomy retained. Wall-sit hip height, knee angles and alternate-leg continuity require qualified human review.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0624-male-anatomical-white-v2-p1-c4587ee94013.webp",
+          "width": 591,
+          "height": 887,
+          "bytes": 26856,
+          "sha256": "c4587ee940139ff98d033a4775976873a4775537d9bc2bb8c8c1d3f8e0e1e8eb"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0624-male-anatomical-white-v2-p2-2e99cf02d882.webp",
+          "width": 592,
+          "height": 887,
+          "bytes": 25670,
+          "sha256": "2e99cf02d882f810478f5df01ceb22306d0f8aa14af8eaf74b3a3e0bf606827c"
+        },
+        {
+          "pose": "p3",
+          "path": "/workout/illustration-pilot/0624-male-anatomical-white-v2-p3-e4493c70823d.webp",
+          "width": 591,
+          "height": 887,
+          "bytes": 24110,
+          "sha256": "e4493c70823d817cd512fbf8101a71378b048afee4dca12ba84acb80afe5eb77"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0624-male-anatomical-white-v2-thumb-22bf207adee6.webp",
+        "width": 160,
+        "height": 240,
+        "bytes": 2880,
+        "sha256": "22bf207adee62c86bfff04c051ac7842261d354d8b9bd6200cbf23b756e14172"
+      },
+      "processingSignature": "6acdf574b787352525c49ea5997473d80ae3cb57fdd991c391d9d56a7d2f0c75",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0624-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1836122,
+        "sha256": "fa60ed3cc71cb5f151d66e650861f19d8fc6b6fd98d441fbcf2b21efeb9b6137"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0624",
+          "layout": {
+            "columns": 3,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Hold a wall sit with both feet flat, knees bent about ninety degrees"
+            },
+            {
+              "key": "p2",
+              "caption": "Keep back against wall while lifting the right knee and foot"
+            },
+            {
+              "key": "p3",
+              "caption": "Plant the right foot and lift the left knee and foot without changing hip height"
+            }
+          ],
+          "detail": "WALL SIT MARCH, THREE phases showing active march per canonical instructions despite isometric base category. SIDE FRONT three-quarter view, a plain WHITE vertical WALL BEHIND body as faint light-gray edge/contact shadow, not full room. Back/pelvis pressed to wall, hips low in wall-sit, thighs roughly horizontal, knees90degrees, feet forward so shins vertical. Hands on hips, torso upright, no seat/chair/bench. LEFT panel BOTH feet hip width flat on floor. MIDDLE lift RIGHT knee toward chest modestly, right foot CLEAR off floor, right knee stays bent, LEFT foot flat under left knee supports body; pelvis height/back wall contact unchanged. RIGHT panel LOWER right foot flat, lift LEFT knee/foot toward chest, left foot clear off floor, RIGHT foot planted. Same hip height, stable pelvis, no standing up or sliding down, no leg length changes, clear opposite leg identities. Primary GLUTES only ONE faint soft BLURRED RED color tint over intact BLACK side/rear hip shorts, no red quads/knees/calves/abs. Shorts full continuous opaque front/sides/back/seat/crotch even lifted knee; shirt opaque BLACK, limbs detailed grayscale. Whole person, all hands/shoes, enough wall/floor contact within EACH spacious panel.",
+          "variant": "male",
+          "key": "0624-male-anatomical-white-v1",
+          "prompt": "Original educational exercise illustration. Attached original project image is STYLE reference ONLY, never pose reference. Detailed fine grayscale anatomical fibers on exposed limbs, realistic neutral adult MALE; pure white background. THREE equal side-by-side panels with identical model, dimensions, camera and lighting. FULLY OPAQUE matte BLACK sleeveless shirt continuously wraps torso front/sides/back. Loose BLACK knee-length shorts wrap BOTH upper thighs, seat and crotch fully front/sides/rear, closed hems and seams, broad natural fabric folds. NO bare buttocks, translucent cloth, cutaways, anatomy windows or muscle-fiber patterns on garments. Black trainers. Red PRIMARY muscle highlights only as specified; over clothing use a SOFT DIFFUSE COLOR PATCH on intact BLACK FABRIC without anatomical subdivisions. Whole person, fingers/shoes and ENTIRE machine including frame, lever, pivots, weight stack and base within EACH panel with generous white margins. Same EXACT fixed frame/seat/pad/camera/pivots in both phases; only exercise joints and connected moving lever rotate. No text, arrows, captions, logos or numbers. WALL SIT MARCH, THREE phases showing active march per canonical instructions despite isometric base category. SIDE FRONT three-quarter view, a plain WHITE vertical WALL BEHIND body as faint light-gray edge/contact shadow, not full room. Back/pelvis pressed to wall, hips low in wall-sit, thighs roughly horizontal, knees90degrees, feet forward so shins vertical. Hands on hips, torso upright, no seat/chair/bench. LEFT panel BOTH feet hip width flat on floor. MIDDLE lift RIGHT knee toward chest modestly, right foot CLEAR off floor, right knee stays bent, LEFT foot flat under left knee supports body; pelvis height/back wall contact unchanged. RIGHT panel LOWER right foot flat, lift LEFT knee/foot toward chest, left foot clear off floor, RIGHT foot planted. Same hip height, stable pelvis, no standing up or sliding down, no leg length changes, clear opposite leg identities. Primary GLUTES only ONE faint soft BLURRED RED color tint over intact BLACK side/rear hip shorts, no red quads/knees/calves/abs. Shorts full continuous opaque front/sides/back/seat/crotch even lifted knee; shirt opaque BLACK, limbs detailed grayscale. Whole person, all hands/shoes, enough wall/floor contact within EACH spacious panel.",
+          "inspectionNote": "Three wall-sit march phases show both feet planted then alternate knee/foot lifts with back/pelvis against wall and hands on hips. Full opaque clothing and grayscale anatomy. Glute tint has internal streaks needing diffuse cloth treatment; hip height, knee angles and wall contact need qualified review.",
+          "blockingIssues": [
+            "Glute fabric highlight includes internal streaks; soften to diffuse color on intact opaque shorts."
+          ],
+          "canonicalName": "march sit (wall)",
+          "styleVersion": "white-v1",
+          "equipment": "body weight",
+          "primaryMuscles": [
+            "glutes"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Three wall-sit march phases show both feet planted then alternate knee/foot lifts with back/pelvis against wall and hands on hips. Full opaque clothing and grayscale anatomy. Glute tint has internal streaks needing diffuse cloth treatment; hip height, knee angles and wall contact need qualified review.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0624-male-anatomical-white-v1-p1-edfef161e368.webp",
+              "width": 591,
+              "height": 887,
+              "bytes": 29462,
+              "sha256": "edfef161e368d9e77d74726b5811354ebc0abd92835dc88a8198d40d14d27fe1"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0624-male-anatomical-white-v1-p2-cc5dd34df2db.webp",
+              "width": 592,
+              "height": 887,
+              "bytes": 28846,
+              "sha256": "cc5dd34df2db36225a4a5f5206e3a5005e5c30b4b2b415ec1dd85163c232b108"
+            },
+            {
+              "pose": "p3",
+              "path": "/workout/illustration-pilot/0624-male-anatomical-white-v1-p3-4e92ad42c278.webp",
+              "width": 591,
+              "height": 887,
+              "bytes": 27558,
+              "sha256": "4e92ad42c278030c41d062974ae3056f74951fa357f9cf018e5fc65db3feaeee"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0624-male-anatomical-white-v1-thumb-f66d0107d42c.webp",
+            "width": 160,
+            "height": 240,
+            "bytes": 2900,
+            "sha256": "f66d0107d42cb76cbb24ac371a933280ceba0773e22410bc428df6298557debd"
+          },
+          "processingSignature": "5645d2a1b60aaffdb766134c563ff08f296349c54994a165765b487e8420f776",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0624-male-anatomical-white-v1.png",
+            "width": 1774,
+            "height": 887,
+            "bytes": 1954779,
+            "sha256": "91b3f8640b212202361d56fe0c508f1e39fbf4aaa9d3e6bccd5c0d8018993860"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "0624",
+      "layout": {
+        "columns": 3,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hold a wall sit with both feet flat, knees bent about ninety degrees"
+        },
+        {
+          "key": "p2",
+          "caption": "Keep back against wall while lifting the right knee and foot"
+        },
+        {
+          "key": "p3",
+          "caption": "Plant the right foot and lift the left knee and foot without changing hip height"
+        }
+      ],
+      "detail": "WALL SIT MARCH, THREE phases showing active march per canonical instructions despite isometric base category. SIDE FRONT three-quarter view, a plain WHITE vertical WALL BEHIND body as faint light-gray edge/contact shadow, not full room. Back/pelvis pressed to wall, hips low in wall-sit, thighs roughly horizontal, knees90degrees, feet forward so shins vertical. Hands on hips, torso upright, no seat/chair/bench. LEFT panel BOTH feet hip width flat on floor. MIDDLE lift RIGHT knee toward chest modestly, right foot CLEAR off floor, right knee stays bent, LEFT foot flat under left knee supports body; pelvis height/back wall contact unchanged. RIGHT panel LOWER right foot flat, lift LEFT knee/foot toward chest, left foot clear off floor, RIGHT foot planted. Same hip height, stable pelvis, no standing up or sliding down, no leg length changes, clear opposite leg identities. Primary GLUTES only ONE faint soft BLURRED RED color tint over intact BLACK side/rear hip shorts, no red quads/knees/calves/abs. Shorts full continuous opaque front/sides/back/seat/crotch even lifted knee; shirt opaque BLACK, limbs detailed grayscale. Whole person, all hands/shoes, enough wall/floor contact within EACH spacious panel.",
+      "variant": "female",
+      "key": "0624-female-anatomical-white-v2",
+      "prompt": "Edit this original project wall-sit march illustration. Preserve all three poses, exact limbs, wall/back/pelvis contact, camera, model and detailed fine grayscale fibers on ALL EXPOSED arms and legs. Only replace red hip/glute fabric highlight in all panels with a soft diffuse blurred red tint on continuous opaque matte black shorts. Remove all radial muscle lines and fibers inside red patch; fabric retains simple natural broad folds. Shorts fully wrap front, sides, rear, seat and crotch with no cutaway/transparency. Shirt opaque. No text. Do not simplify exposed grayscale anatomy. For female sequence clarify opposite legs: middle phase lifts FAR/right thigh and shoe while near/left foot stays floor; final lifts NEAR/left thigh and shoe while far/right foot stays floor. Trace each thigh continuously from its own hip to knee, shin and shoe. Do not duplicate same leg in both march phases.",
+      "inspectionNote": "Diffuse glute fabric tint improved, full opaque clothing and exposed grayscale anatomy retained. Attempt to clarify opposite-leg exchange remains visually ambiguous; qualified wall-sit knee angles and limb continuity review needed.",
+      "canonicalName": "march sit (wall)",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "glutes"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0624-female-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Diffuse glute fabric tint improved, full opaque clothing and exposed grayscale anatomy retained. Attempt to clarify opposite-leg exchange remains visually ambiguous; qualified wall-sit knee angles and limb continuity review needed.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0624-female-anatomical-white-v2-p1-f633b11fb7ac.webp",
+          "width": 591,
+          "height": 887,
+          "bytes": 24474,
+          "sha256": "f633b11fb7aca67666d3a4b4bbbe1da9318fbe9857dc716441850d93f7942eb1"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0624-female-anatomical-white-v2-p2-849dd3320098.webp",
+          "width": 592,
+          "height": 887,
+          "bytes": 21328,
+          "sha256": "849dd33200986dd2d72ef73230c304977f4282f71b9c61aadec9c8d56f8e2016"
+        },
+        {
+          "pose": "p3",
+          "path": "/workout/illustration-pilot/0624-female-anatomical-white-v2-p3-73be5deebb03.webp",
+          "width": 591,
+          "height": 887,
+          "bytes": 22122,
+          "sha256": "73be5deebb03d2eb33247d94600e6ebafa26ac5d55088de19c5a1df513e5268c"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0624-female-anatomical-white-v2-thumb-5601fb9afedd.webp",
+        "width": 160,
+        "height": 240,
+        "bytes": 2662,
+        "sha256": "5601fb9afedd4175981be6f80d81c1dfebfebfafc4e3557fc5fef3442bd64e0a"
+      },
+      "processingSignature": "4379758213ac89b2f8ed9f9ef821917b4d54d275138bac208567947f922c1ec9",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0624-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1801086,
+        "sha256": "9b0027d1b84d04ef1d42ecb18bc7dbb72186faa7f22b4094cd38c341e78595a7"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0624",
+          "layout": {
+            "columns": 3,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Hold a wall sit with both feet flat, knees bent about ninety degrees"
+            },
+            {
+              "key": "p2",
+              "caption": "Keep back against wall while lifting the right knee and foot"
+            },
+            {
+              "key": "p3",
+              "caption": "Plant the right foot and lift the left knee and foot without changing hip height"
+            }
+          ],
+          "detail": "WALL SIT MARCH, THREE phases showing active march per canonical instructions despite isometric base category. SIDE FRONT three-quarter view, a plain WHITE vertical WALL BEHIND body as faint light-gray edge/contact shadow, not full room. Back/pelvis pressed to wall, hips low in wall-sit, thighs roughly horizontal, knees90degrees, feet forward so shins vertical. Hands on hips, torso upright, no seat/chair/bench. LEFT panel BOTH feet hip width flat on floor. MIDDLE lift RIGHT knee toward chest modestly, right foot CLEAR off floor, right knee stays bent, LEFT foot flat under left knee supports body; pelvis height/back wall contact unchanged. RIGHT panel LOWER right foot flat, lift LEFT knee/foot toward chest, left foot clear off floor, RIGHT foot planted. Same hip height, stable pelvis, no standing up or sliding down, no leg length changes, clear opposite leg identities. Primary GLUTES only ONE faint soft BLURRED RED color tint over intact BLACK side/rear hip shorts, no red quads/knees/calves/abs. Shorts full continuous opaque front/sides/back/seat/crotch even lifted knee; shirt opaque BLACK, limbs detailed grayscale. Whole person, all hands/shoes, enough wall/floor contact within EACH spacious panel.",
+          "variant": "female",
+          "key": "0624-female-anatomical-white-v1",
+          "prompt": "Original educational exercise illustration. Attached original project image is STYLE reference ONLY, never pose reference. Detailed fine grayscale anatomical fibers on exposed limbs, realistic neutral adult FEMALE; pure white background. THREE equal side-by-side panels with identical model, dimensions, camera and lighting. FULLY OPAQUE matte BLACK sleeveless shirt continuously wraps torso front/sides/back. Loose BLACK knee-length shorts wrap BOTH upper thighs, seat and crotch fully front/sides/rear, closed hems and seams, broad natural fabric folds. NO bare buttocks, translucent cloth, cutaways, anatomy windows or muscle-fiber patterns on garments. Black trainers. Red PRIMARY muscle highlights only as specified; over clothing use a SOFT DIFFUSE COLOR PATCH on intact BLACK FABRIC without anatomical subdivisions. Whole person, fingers/shoes and ENTIRE machine including frame, lever, pivots, weight stack and base within EACH panel with generous white margins. Same EXACT fixed frame/seat/pad/camera/pivots in both phases; only exercise joints and connected moving lever rotate. No text, arrows, captions, logos or numbers. WALL SIT MARCH, THREE phases showing active march per canonical instructions despite isometric base category. SIDE FRONT three-quarter view, a plain WHITE vertical WALL BEHIND body as faint light-gray edge/contact shadow, not full room. Back/pelvis pressed to wall, hips low in wall-sit, thighs roughly horizontal, knees90degrees, feet forward so shins vertical. Hands on hips, torso upright, no seat/chair/bench. LEFT panel BOTH feet hip width flat on floor. MIDDLE lift RIGHT knee toward chest modestly, right foot CLEAR off floor, right knee stays bent, LEFT foot flat under left knee supports body; pelvis height/back wall contact unchanged. RIGHT panel LOWER right foot flat, lift LEFT knee/foot toward chest, left foot clear off floor, RIGHT foot planted. Same hip height, stable pelvis, no standing up or sliding down, no leg length changes, clear opposite leg identities. Primary GLUTES only ONE faint soft BLURRED RED color tint over intact BLACK side/rear hip shorts, no red quads/knees/calves/abs. Shorts full continuous opaque front/sides/back/seat/crotch even lifted knee; shirt opaque BLACK, limbs detailed grayscale. Whole person, all hands/shoes, enough wall/floor contact within EACH spacious panel.",
+          "inspectionNote": "Wall sit with hands on hips, back/pelvis against wall and two lifted-foot march phases. Full opaque garments and grayscale exposed anatomy. Raised-leg identity is less clear in middle versus last phase; qualified continuity review needed. Glute red tint has radial lines requiring diffuse cloth treatment.",
+          "blockingIssues": [
+            "Glute highlight contains radial pattern on shorts; soften fabric tint and verify opposite-leg identity across march phases."
+          ],
+          "canonicalName": "march sit (wall)",
+          "styleVersion": "white-v1",
+          "equipment": "body weight",
+          "primaryMuscles": [
+            "glutes"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Wall sit with hands on hips, back/pelvis against wall and two lifted-foot march phases. Full opaque garments and grayscale exposed anatomy. Raised-leg identity is less clear in middle versus last phase; qualified continuity review needed. Glute red tint has radial lines requiring diffuse cloth treatment.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0624-female-anatomical-white-v1-p1-ceecf578ba17.webp",
+              "width": 591,
+              "height": 887,
+              "bytes": 28250,
+              "sha256": "ceecf578ba17abf412470b5b69b8687fc8398dbb80290aa0f07c8ba753301481"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0624-female-anatomical-white-v1-p2-5ce758916cca.webp",
+              "width": 592,
+              "height": 887,
+              "bytes": 24650,
+              "sha256": "5ce758916ccad85dbcfb11533ffdabd625330a7f9ec61e2222947401771f51d8"
+            },
+            {
+              "pose": "p3",
+              "path": "/workout/illustration-pilot/0624-female-anatomical-white-v1-p3-a900a22f2f34.webp",
+              "width": 591,
+              "height": 887,
+              "bytes": 25372,
+              "sha256": "a900a22f2f34fe5de209c627c656c84f88f08b70fce11a9c317dbfbeeb4127bd"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0624-female-anatomical-white-v1-thumb-0cc01c75c450.webp",
+            "width": 160,
+            "height": 240,
+            "bytes": 2724,
+            "sha256": "0cc01c75c45090e2804a1bb31076ccc3ee505624e26a67f9c25495a562d46e83"
+          },
+          "processingSignature": "6a03b5000564397f10c083e3f9f75e7845a50f4d0620d0fa163981105c506ac7",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0624-female-anatomical-white-v1.png",
+            "width": 1774,
+            "height": 887,
+            "bytes": 1785509,
+            "sha256": "52c58e190c29b5a3e111ace884a0f4b27d7d18cab8bcf644cbdb6f7c125f4298"
+          }
+        }
+      ],
+      "blockingIssues": [
+        "Opposite-leg identity remains ambiguous between middle and final march phases after correction."
+      ]
+    },
+    {
+      "exerciseId": "0625",
+      "layout": {
+        "columns": 3,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Lie back with bent knees, feet flat and medicine ball held at chest"
+        },
+        {
+          "key": "p2",
+          "caption": "Sit up and throw the ball forward to the wall with both hands"
+        },
+        {
+          "key": "p3",
+          "caption": "Stay seated and catch the returning ball in front of the chest"
+        }
+      ],
+      "detail": "MEDICINE BALL SIT-UP TO WALL, THREE phases. SIDE THREE-QUARTER view, head/body IMAGE LEFT, feet toward plain light gray WHITE WALL on IMAGE RIGHT, same wall distance/model/camera through phases. Floor seated position knees bent, both feet flat hip-width, soles not braced against wall, wall about1metre beyond toes. ONE round dark GRAYSCALE textured MEDICINE BALL held/released/caught in each phase, no other balls/weights. LEFT lie back with HEAD/back on floor, knees bent feet planted, BOTH hands hold ball at chest. MIDDLE perform sit-up to upright seated torso, knees/feet unchanged, BOTH arms extend FORWARD in chest-pass release, palms forward/fingers open; ball is FREE in air near WALL at chest height about to contact wall, not hovering over head. RIGHT seated upright remains, elbows flex and BOTH hands CATCH SAME returning ball in front of CHEST, five-finger contact round ball, no extra ball. Ball size identical across phases, no arrows or trails. After catch lower back controlled (not shown extra). Primary ABS only ONE soft DIFFUSE BLURRED RED tint printed over intact OPAQUE BLACK abdominal shirt, no six-pack lines, muscle divisions, fibers or clothing cutaways. Entire torso/seat/crotch/front/sides/back continuously opaque black clothes, limbs exposed detailed grayscale. Whole person/shoes/hands/ball AND relevant wall surface fit within each panel with white margins.",
+      "variant": "male",
+      "key": "0625-male-anatomical-white-v2",
+      "prompt": "Edit original project three-panel medicine-ball sit-up illustration. Preserve exact layout, male model, ball release and catch in middle/right, planted feet, bent knees, wall, clothes, camera and detailed fine grayscale muscle fibers on ALL EXPOSED arms/legs. LEFT panel ONLY: lower back of skull DIRECTLY onto floor, eyes toward ceiling, neutral neck, head fully resting, not hovering; shoulders/back rest on floor while hands hold ball at chest. All panels: replace segmented/radial red abdominal shirt patterns with ONE soft diffuse blurred red tint on intact OPAQUE matte BLACK fabric. No six-pack divisions, fibers, starburst or cutaway in shirt. Preserve full opaque shirt/shorts wrapping front sides back seat crotch. Maintain same medicine-ball size in all three panels. No added text.",
+      "inspectionNote": "First-phase skull now rests on floor with neutral upward gaze. Release and catch retained. Opaque clothes and exposed grayscale anatomy retained; abdominal tint still contains radial pattern in middle panel and remains blocked. Ball-size continuity and grip require human review.",
+      "canonicalName": "medicine ball sit up (wall)",
+      "styleVersion": "white-v1",
+      "equipment": "medicine ball",
+      "primaryMuscles": [
+        "abs"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0625-male-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "First-phase skull now rests on floor with neutral upward gaze. Release and catch retained. Opaque clothes and exposed grayscale anatomy retained; abdominal tint still contains radial pattern in middle panel and remains blocked. Ball-size continuity and grip require human review.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0625-male-anatomical-white-v2-p1-d5a2aed2fbe9.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 15576,
+          "sha256": "d5a2aed2fbe92d3b64e9de9bce8e45bf2959cd212dfa002e50892244d89e1a12"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0625-male-anatomical-white-v2-p2-6f83166871c9.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 20662,
+          "sha256": "6f83166871c9b9215faef7f0796b2ad23483af135231537f6d66820132f328e3"
+        },
+        {
+          "pose": "p3",
+          "path": "/workout/illustration-pilot/0625-male-anatomical-white-v2-p3-c6eb0905b1c9.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 18406,
+          "sha256": "c6eb0905b1c9ebd04833a5be1d97451372624c8c1b490763857201c0cf364499"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0625-male-anatomical-white-v2-thumb-423bef6dd268.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2460,
+        "sha256": "423bef6dd268edb4d4e0ef095f4ef0cf5e5b63ac21d212481b06ff47e5c2911a"
+      },
+      "processingSignature": "9f5c6df03539bbb3471b4d2f8c8c7a982f5bfeefef1d7a0d3dae57fc7062f82d",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0625-male-anatomical-white-v2.png",
+        "width": 2172,
+        "height": 724,
+        "bytes": 1673621,
+        "sha256": "082ec74cc995018b92236d5d9371e5a80fc7913dd663777a2d1f21db3d69268f"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0625",
+          "layout": {
+            "columns": 3,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Lie back with bent knees, feet flat and medicine ball held at chest"
+            },
+            {
+              "key": "p2",
+              "caption": "Sit up and throw the ball forward to the wall with both hands"
+            },
+            {
+              "key": "p3",
+              "caption": "Stay seated and catch the returning ball in front of the chest"
+            }
+          ],
+          "detail": "MEDICINE BALL SIT-UP TO WALL, THREE phases. SIDE THREE-QUARTER view, head/body IMAGE LEFT, feet toward plain light gray WHITE WALL on IMAGE RIGHT, same wall distance/model/camera through phases. Floor seated position knees bent, both feet flat hip-width, soles not braced against wall, wall about1metre beyond toes. ONE round dark GRAYSCALE textured MEDICINE BALL held/released/caught in each phase, no other balls/weights. LEFT lie back with HEAD/back on floor, knees bent feet planted, BOTH hands hold ball at chest. MIDDLE perform sit-up to upright seated torso, knees/feet unchanged, BOTH arms extend FORWARD in chest-pass release, palms forward/fingers open; ball is FREE in air near WALL at chest height about to contact wall, not hovering over head. RIGHT seated upright remains, elbows flex and BOTH hands CATCH SAME returning ball in front of CHEST, five-finger contact round ball, no extra ball. Ball size identical across phases, no arrows or trails. After catch lower back controlled (not shown extra). Primary ABS only ONE soft DIFFUSE BLURRED RED tint printed over intact OPAQUE BLACK abdominal shirt, no six-pack lines, muscle divisions, fibers or clothing cutaways. Entire torso/seat/crotch/front/sides/back continuously opaque black clothes, limbs exposed detailed grayscale. Whole person/shoes/hands/ball AND relevant wall surface fit within each panel with white margins.",
+          "variant": "male",
+          "key": "0625-male-anatomical-white-v1",
+          "prompt": "Original educational exercise illustration. Attached original project image is STYLE reference ONLY, never pose reference. Detailed fine grayscale anatomical fibers on exposed limbs, realistic neutral adult MALE; pure white background. THREE equal side-by-side panels with identical model, dimensions, camera and lighting. FULLY OPAQUE matte BLACK sleeveless shirt continuously wraps torso front/sides/back. Loose BLACK knee-length shorts wrap BOTH upper thighs, seat and crotch fully front/sides/rear, closed hems and seams, broad natural fabric folds. NO bare buttocks, translucent cloth, cutaways, anatomy windows or muscle-fiber patterns on garments. Black trainers. Red PRIMARY muscle highlights only as specified; over clothing use a SOFT DIFFUSE COLOR PATCH on intact BLACK FABRIC without anatomical subdivisions. Whole person, fingers/shoes and ENTIRE machine including frame, lever, pivots, weight stack and base within EACH panel with generous white margins. Same EXACT fixed frame/seat/pad/camera/pivots in both phases; only exercise joints and connected moving lever rotate. No text, arrows, captions, logos or numbers. MEDICINE BALL SIT-UP TO WALL, THREE phases. SIDE THREE-QUARTER view, head/body IMAGE LEFT, feet toward plain light gray WHITE WALL on IMAGE RIGHT, same wall distance/model/camera through phases. Floor seated position knees bent, both feet flat hip-width, soles not braced against wall, wall about1metre beyond toes. ONE round dark GRAYSCALE textured MEDICINE BALL held/released/caught in each phase, no other balls/weights. LEFT lie back with HEAD/back on floor, knees bent feet planted, BOTH hands hold ball at chest. MIDDLE perform sit-up to upright seated torso, knees/feet unchanged, BOTH arms extend FORWARD in chest-pass release, palms forward/fingers open; ball is FREE in air near WALL at chest height about to contact wall, not hovering over head. RIGHT seated upright remains, elbows flex and BOTH hands CATCH SAME returning ball in front of CHEST, five-finger contact round ball, no extra ball. Ball size identical across phases, no arrows or trails. After catch lower back controlled (not shown extra). Primary ABS only ONE soft DIFFUSE BLURRED RED tint printed over intact OPAQUE BLACK abdominal shirt, no six-pack lines, muscle divisions, fibers or clothing cutaways. Entire torso/seat/crotch/front/sides/back continuously opaque black clothes, limbs exposed detailed grayscale. Whole person/shoes/hands/ball AND relevant wall surface fit within each panel with white margins.",
+          "inspectionNote": "Three medicine-ball sit-up phases show reclined hold, seated chest-pass release toward wall and two-hand catch. Feet planted and ball/wall visible. Initial head hovers above floor and abdomen red has fiber/segmented pattern; lower skull in first phase and soften cloth tint. Ball-size continuity and catch grip need human review.",
+          "blockingIssues": [
+            "Reclined first-phase head remains lifted; rest skull and soften segmented abdominal fabric tint."
+          ],
+          "canonicalName": "medicine ball sit up (wall)",
+          "styleVersion": "white-v1",
+          "equipment": "medicine ball",
+          "primaryMuscles": [
+            "abs"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Three medicine-ball sit-up phases show reclined hold, seated chest-pass release toward wall and two-hand catch. Feet planted and ball/wall visible. Initial head hovers above floor and abdomen red has fiber/segmented pattern; lower skull in first phase and soften cloth tint. Ball-size continuity and catch grip need human review.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0625-male-anatomical-white-v1-p1-3980957ad745.webp",
+              "width": 724,
+              "height": 724,
+              "bytes": 20310,
+              "sha256": "3980957ad7452757b05c8329401bbf9c1385a1f3d5f278273fe2ddf97a7ff01d"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0625-male-anatomical-white-v1-p2-b7b47d9f4e41.webp",
+              "width": 724,
+              "height": 724,
+              "bytes": 25678,
+              "sha256": "b7b47d9f4e417093c7de2810d65dc470a98a8e643a8bcb51af9e8f43ee65dfb3"
+            },
+            {
+              "pose": "p3",
+              "path": "/workout/illustration-pilot/0625-male-anatomical-white-v1-p3-ba26099667cc.webp",
+              "width": 724,
+              "height": 724,
+              "bytes": 22570,
+              "sha256": "ba26099667cc63e345cfc3c0b6a23f2c5df026d9a895330678fe0bf2543c79a8"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0625-male-anatomical-white-v1-thumb-b5d554ffc3c8.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 2546,
+            "sha256": "b5d554ffc3c85b90d0ff408f6d03cb2af77c42d78f6201f32b51bcf498e06f8b"
+          },
+          "processingSignature": "b7a628090755688ca26e11f2b3c9c11a50042584ea3c683e177b2f4fb27624a4",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0625-male-anatomical-white-v1.png",
+            "width": 2172,
+            "height": 724,
+            "bytes": 1738358,
+            "sha256": "93fda8e408210e34a691c4ce96d9a85f877721c7155c367a32568e31e1c8fac9"
+          }
+        }
+      ],
+      "blockingIssues": [
+        "Middle-panel red abdominal tint retains radial/starburst lines after correction; needs diffuse intact fabric treatment."
+      ]
+    },
+    {
+      "exerciseId": "0625",
+      "layout": {
+        "columns": 3,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Lie back with bent knees, feet flat and medicine ball held at chest"
+        },
+        {
+          "key": "p2",
+          "caption": "Sit up and throw the ball forward to the wall with both hands"
+        },
+        {
+          "key": "p3",
+          "caption": "Stay seated and catch the returning ball in front of the chest"
+        }
+      ],
+      "detail": "MEDICINE BALL SIT-UP TO WALL, THREE phases. SIDE THREE-QUARTER view, head/body IMAGE LEFT, feet toward plain light gray WHITE WALL on IMAGE RIGHT, same wall distance/model/camera through phases. Floor seated position knees bent, both feet flat hip-width, soles not braced against wall, wall about1metre beyond toes. ONE round dark GRAYSCALE textured MEDICINE BALL held/released/caught in each phase, no other balls/weights. LEFT lie back with HEAD/back on floor, knees bent feet planted, BOTH hands hold ball at chest. MIDDLE perform sit-up to upright seated torso, knees/feet unchanged, BOTH arms extend FORWARD in chest-pass release, palms forward/fingers open; ball is FREE in air near WALL at chest height about to contact wall, not hovering over head. RIGHT seated upright remains, elbows flex and BOTH hands CATCH SAME returning ball in front of CHEST, five-finger contact round ball, no extra ball. Ball size identical across phases, no arrows or trails. After catch lower back controlled (not shown extra). Primary ABS only ONE soft DIFFUSE BLURRED RED tint printed over intact OPAQUE BLACK abdominal shirt, no six-pack lines, muscle divisions, fibers or clothing cutaways. Entire torso/seat/crotch/front/sides/back continuously opaque black clothes, limbs exposed detailed grayscale. Whole person/shoes/hands/ball AND relevant wall surface fit within each panel with white margins.",
+      "variant": "female",
+      "key": "0625-female-anatomical-white-v2",
+      "prompt": "Edit original project three-panel medicine-ball sit-up illustration. Preserve exact layout, female model, ball release and catch in middle/right, planted feet, bent knees, wall, clothes, camera and detailed fine grayscale muscle fibers on ALL EXPOSED arms/legs. LEFT panel ONLY: lower back of skull DIRECTLY onto floor, eyes toward ceiling, neutral neck, head fully resting, not hovering; shoulders/back rest on floor while hands hold ball at chest. All panels: replace segmented/radial red abdominal shirt patterns with ONE soft diffuse blurred red tint on intact OPAQUE matte BLACK fabric. No six-pack divisions, fibers, starburst or cutaway in shirt. Preserve full opaque shirt/shorts wrapping front sides back seat crotch. Maintain same medicine-ball size in all three panels. No added text. Flatten and spread ponytail on floor behind skull so it does not prop head up. Preserve fine grayscale anatomical fibers of exposed arms, thighs and shins.",
+      "inspectionNote": "First-phase skull rests on floor with ponytail spread behind. Red abdomen is diffuse on intact opaque shirt; three-phase release/catch and grayscale exposed anatomy retained. Ball-size continuity, hand grip and exercise technique need qualified human review.",
+      "canonicalName": "medicine ball sit up (wall)",
+      "styleVersion": "white-v1",
+      "equipment": "medicine ball",
+      "primaryMuscles": [
+        "abs"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0625-female-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "First-phase skull rests on floor with ponytail spread behind. Red abdomen is diffuse on intact opaque shirt; three-phase release/catch and grayscale exposed anatomy retained. Ball-size continuity, hand grip and exercise technique need qualified human review.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0625-female-anatomical-white-v2-p1-ae8de82f2c61.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 16918,
+          "sha256": "ae8de82f2c61b77764849865fe833fb73116495c52f7b9985f6e8f344bf1d8ee"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0625-female-anatomical-white-v2-p2-6c5930e8535d.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 23102,
+          "sha256": "6c5930e8535d383b76ebcd25d573e3f82075e5747e19fdafaa0be3c9ed5a0ddb"
+        },
+        {
+          "pose": "p3",
+          "path": "/workout/illustration-pilot/0625-female-anatomical-white-v2-p3-53fc7aeb5f64.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 19994,
+          "sha256": "53fc7aeb5f64ebb4952570c094374427c0617212daaed0d568b9a046d52a395d"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0625-female-anatomical-white-v2-thumb-256684398801.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2496,
+        "sha256": "256684398801ae6efc8812397305413f627a8a0f21355dbbe5aa00a8a729ef02"
+      },
+      "processingSignature": "e57828a12fef369325974597a09b2c7e0f42bfff2e642c394adbaaa646d8d24a",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0625-female-anatomical-white-v2.png",
+        "width": 2172,
+        "height": 724,
+        "bytes": 1665740,
+        "sha256": "5971d30617944fba155a2a62fa62d502564835f1177be581f40d1f2f88024e21"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0625",
+          "layout": {
+            "columns": 3,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Lie back with bent knees, feet flat and medicine ball held at chest"
+            },
+            {
+              "key": "p2",
+              "caption": "Sit up and throw the ball forward to the wall with both hands"
+            },
+            {
+              "key": "p3",
+              "caption": "Stay seated and catch the returning ball in front of the chest"
+            }
+          ],
+          "detail": "MEDICINE BALL SIT-UP TO WALL, THREE phases. SIDE THREE-QUARTER view, head/body IMAGE LEFT, feet toward plain light gray WHITE WALL on IMAGE RIGHT, same wall distance/model/camera through phases. Floor seated position knees bent, both feet flat hip-width, soles not braced against wall, wall about1metre beyond toes. ONE round dark GRAYSCALE textured MEDICINE BALL held/released/caught in each phase, no other balls/weights. LEFT lie back with HEAD/back on floor, knees bent feet planted, BOTH hands hold ball at chest. MIDDLE perform sit-up to upright seated torso, knees/feet unchanged, BOTH arms extend FORWARD in chest-pass release, palms forward/fingers open; ball is FREE in air near WALL at chest height about to contact wall, not hovering over head. RIGHT seated upright remains, elbows flex and BOTH hands CATCH SAME returning ball in front of CHEST, five-finger contact round ball, no extra ball. Ball size identical across phases, no arrows or trails. After catch lower back controlled (not shown extra). Primary ABS only ONE soft DIFFUSE BLURRED RED tint printed over intact OPAQUE BLACK abdominal shirt, no six-pack lines, muscle divisions, fibers or clothing cutaways. Entire torso/seat/crotch/front/sides/back continuously opaque black clothes, limbs exposed detailed grayscale. Whole person/shoes/hands/ball AND relevant wall surface fit within each panel with white margins.",
+          "variant": "female",
+          "key": "0625-female-anatomical-white-v1",
+          "prompt": "Original educational exercise illustration. Attached original project image is STYLE reference ONLY, never pose reference. Detailed fine grayscale anatomical fibers on exposed limbs, realistic neutral adult FEMALE; pure white background. THREE equal side-by-side panels with identical model, dimensions, camera and lighting. FULLY OPAQUE matte BLACK sleeveless shirt continuously wraps torso front/sides/back. Loose BLACK knee-length shorts wrap BOTH upper thighs, seat and crotch fully front/sides/rear, closed hems and seams, broad natural fabric folds. NO bare buttocks, translucent cloth, cutaways, anatomy windows or muscle-fiber patterns on garments. Black trainers. Red PRIMARY muscle highlights only as specified; over clothing use a SOFT DIFFUSE COLOR PATCH on intact BLACK FABRIC without anatomical subdivisions. Whole person, fingers/shoes and ENTIRE machine including frame, lever, pivots, weight stack and base within EACH panel with generous white margins. Same EXACT fixed frame/seat/pad/camera/pivots in both phases; only exercise joints and connected moving lever rotate. No text, arrows, captions, logos or numbers. MEDICINE BALL SIT-UP TO WALL, THREE phases. SIDE THREE-QUARTER view, head/body IMAGE LEFT, feet toward plain light gray WHITE WALL on IMAGE RIGHT, same wall distance/model/camera through phases. Floor seated position knees bent, both feet flat hip-width, soles not braced against wall, wall about1metre beyond toes. ONE round dark GRAYSCALE textured MEDICINE BALL held/released/caught in each phase, no other balls/weights. LEFT lie back with HEAD/back on floor, knees bent feet planted, BOTH hands hold ball at chest. MIDDLE perform sit-up to upright seated torso, knees/feet unchanged, BOTH arms extend FORWARD in chest-pass release, palms forward/fingers open; ball is FREE in air near WALL at chest height about to contact wall, not hovering over head. RIGHT seated upright remains, elbows flex and BOTH hands CATCH SAME returning ball in front of CHEST, five-finger contact round ball, no extra ball. Ball size identical across phases, no arrows or trails. After catch lower back controlled (not shown extra). Primary ABS only ONE soft DIFFUSE BLURRED RED tint printed over intact OPAQUE BLACK abdominal shirt, no six-pack lines, muscle divisions, fibers or clothing cutaways. Entire torso/seat/crotch/front/sides/back continuously opaque black clothes, limbs exposed detailed grayscale. Whole person/shoes/hands/ball AND relevant wall surface fit within each panel with white margins.",
+          "inspectionNote": "Three phases show reclined hold, seated release toward wall and chest-level catch. Full opaque clothes and detailed grayscale limbs. First-phase head hovers above floor; red shirt has segmented folds/tint needing softer diffuse cloth treatment. Ball size and finger grip require human review.",
+          "blockingIssues": [
+            "First-phase head is lifted; lower skull to floor and soften abdominal cloth tint."
+          ],
+          "canonicalName": "medicine ball sit up (wall)",
+          "styleVersion": "white-v1",
+          "equipment": "medicine ball",
+          "primaryMuscles": [
+            "abs"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Three phases show reclined hold, seated release toward wall and chest-level catch. Full opaque clothes and detailed grayscale limbs. First-phase head hovers above floor; red shirt has segmented folds/tint needing softer diffuse cloth treatment. Ball size and finger grip require human review.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0625-female-anatomical-white-v1-p1-160799f81087.webp",
+              "width": 724,
+              "height": 724,
+              "bytes": 22246,
+              "sha256": "160799f8108777f846b574614d3e7b78e97accb11dda2088df55673e27663bd4"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0625-female-anatomical-white-v1-p2-f863f5e94ed7.webp",
+              "width": 724,
+              "height": 724,
+              "bytes": 27538,
+              "sha256": "f863f5e94ed792a69ae49cebb011261ecbfbb7e32e040a1a42d4d4b9beb638f2"
+            },
+            {
+              "pose": "p3",
+              "path": "/workout/illustration-pilot/0625-female-anatomical-white-v1-p3-ca352570e8f6.webp",
+              "width": 724,
+              "height": 724,
+              "bytes": 24096,
+              "sha256": "ca352570e8f6279c8b69bae0b0a8668f6dac98207bb572b61dbe6b4f0bd1bb9a"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0625-female-anatomical-white-v1-thumb-f5625b5f93ff.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 2798,
+            "sha256": "f5625b5f93ff9bac57a7387e162440150d44250cadac509f53b76194d52a915e"
+          },
+          "processingSignature": "30df30f84abbefa6f02bbdb71ee7d5ec1f50841a5bae90cfe63e65d51fe18dbc",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0625-female-anatomical-white-v1.png",
+            "width": 2172,
+            "height": 724,
+            "bytes": 1854008,
+            "sha256": "753c8aece81d0580d47d1b491d0e67af20115b8dddb6ed60f9ec63f664664f2d"
+          }
+        }
+      ]
+    }
+  ]
+}

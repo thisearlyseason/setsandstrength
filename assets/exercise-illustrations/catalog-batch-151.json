@@ -1,0 +1,320 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "0993",
+      "variant": "male",
+      "key": "0993-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Face a chest-height anchor with feet shoulder-width apart and arms extended forward, holding the band ends."
+        },
+        {
+          "key": "p2",
+          "caption": "Open the nearly straight arms out to the sides at shoulder height, then return slowly without shrugging."
+        }
+      ],
+      "prompt": "Original premium ADULT male anatomical exercise illustration TWO equal SQUARE cells side by side WIDE LANDSCAPE 2:1. Same model scale/proportions/camera and limbs/equipment both poses. BAND REVERSE FLY canonical0993 STANDING UPRIGHT. REAR SIDE three-quarter camera so back and outward arms visible, head neutral looking FORWARD away camera. Gray fixed anchor post IN FRONT of model, chest height. ONE gray elastic band MIDDLE secured to post, two ends with handles grasped corresponding hands neutral grip. Feet shoulder width flat floor knees soft, torso upright and fixed no hinge or lean. LEFT START BOTH arms near STRAIGHT extended FORWARD at SHOULDER HEIGHT toward anchor, slight elbow bend, palms face each other. RIGHT FINISH sweep BOTH arms OUT TO SIDES at SHOULDER HEIGHT broad T, elbows slight bend UNCHANGED, palms face forward/inward relative arm; shoulder blades gently retract, no rowing elbow flexion, no shrug. Band two branches from fixed front chest-height anchor to each hand, visibly taut/longer at finish, outside torso not through body, all band/anchor visible. Red PRIMARY REAR DELTOID exposed shoulder caps only, NO upper-back shirt/chest/triceps red. Fine detailed EXPOSED grayscale anatomical muscle contours realistic proportions/equipment equal male/female detail. Full opaque BLACK athletic tank shirt and MID-THIGH shorts wrap FRONT SIDES BACK SEAT CROTCH, real continuous fabric seams/broad cloth folds no cutaways/transparency/anatomical fibers through fabric. Black shoes. Entire head/hands/feet/anchor/all band within EACH square, SHRINK subject uniformly to leave at least12percent WHITE MARGIN ALL SIDES especially fingertips ABOVE overhead hands and beside outstretched arms, no crop or panel crossing. Pure white background soft contact shadows. Original project reference rendering STYLE ONLY ignore bench push-up/chest red/equipment. No embedded text/captions/arrows/labels.",
+      "inspectionNote": "Standing anchored reverse fly shows arms forward then spread; rear-side view obscures near-arm forward-vs-lateral change and band strand passes behind torso in finish. Rear deltoid red and opaque clothes, steady upright feet/torso. Qualified bilateral shoulder sweep and band clearance/depth need careful review.",
+      "canonicalName": "band reverse fly",
+      "styleVersion": "white-v1",
+      "equipment": "band",
+      "primaryMuscles": [
+        "delts"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Standing anchored reverse fly shows arms forward then spread; rear-side view obscures near-arm forward-vs-lateral change and band strand passes behind torso in finish. Rear deltoid red and opaque clothes, steady upright feet/torso. Qualified bilateral shoulder sweep and band clearance/depth need careful review.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0993-male-anatomical-white-v1-p1-9e2fe4a9b719.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 20452,
+          "sha256": "9e2fe4a9b719c44dc60c7e3018707e4762e3683698ac2b9cee350a038925c5a0"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0993-male-anatomical-white-v1-p2-fc788b15bbed.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 23512,
+          "sha256": "fc788b15bbed94f346e5619fcf559261f2f14828ab1e37cc308169134dc0b80d"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0993-male-anatomical-white-v1-thumb-0e0edcf6ed04.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2428,
+        "sha256": "0e0edcf6ed04b41ce2a80d432da90d0294e6324066b531af6e0e5215affa0c87"
+      },
+      "processingSignature": "bc5f168524dd071aa301edf32ce16e3144ad65de3a9329934b66c227cdbc3528",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0993-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1306316,
+        "sha256": "5400d9ebd2201bcd6373907ab3393132a9d6683a3e80c67d55af51212784f11f"
+      }
+    },
+    {
+      "exerciseId": "0993",
+      "variant": "female",
+      "key": "0993-female-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Face a chest-height anchor with feet shoulder-width apart and arms extended forward, holding the band ends."
+        },
+        {
+          "key": "p2",
+          "caption": "Open the nearly straight arms out to the sides at shoulder height, then return slowly without shrugging."
+        }
+      ],
+      "prompt": "Original premium ADULT female anatomical exercise illustration TWO equal SQUARE cells side by side WIDE LANDSCAPE 2:1. Same model scale/proportions/camera and limbs/equipment both poses. BAND REVERSE FLY canonical0993 STANDING UPRIGHT. REAR SIDE three-quarter camera so back and outward arms visible, head neutral looking FORWARD away camera. Gray fixed anchor post IN FRONT of model, chest height. ONE gray elastic band MIDDLE secured to post, two ends with handles grasped corresponding hands neutral grip. Feet shoulder width flat floor knees soft, torso upright and fixed no hinge or lean. LEFT START BOTH arms near STRAIGHT extended FORWARD at SHOULDER HEIGHT toward anchor, slight elbow bend, palms face each other. RIGHT FINISH sweep BOTH arms OUT TO SIDES at SHOULDER HEIGHT broad T, elbows slight bend UNCHANGED, palms face forward/inward relative arm; shoulder blades gently retract, no rowing elbow flexion, no shrug. Band two branches from fixed front chest-height anchor to each hand, visibly taut/longer at finish, outside torso not through body, all band/anchor visible. Red PRIMARY REAR DELTOID exposed shoulder caps only, NO upper-back shirt/chest/triceps red. Fine detailed EXPOSED grayscale anatomical muscle contours realistic proportions/equipment equal male/female detail. Full opaque BLACK athletic tank shirt and MID-THIGH shorts wrap FRONT SIDES BACK SEAT CROTCH, real continuous fabric seams/broad cloth folds no cutaways/transparency/anatomical fibers through fabric. Black shoes. Entire head/hands/feet/anchor/all band within EACH square, SHRINK subject uniformly to leave at least12percent WHITE MARGIN ALL SIDES especially fingertips ABOVE overhead hands and beside outstretched arms, no crop or panel crossing. Pure white background soft contact shadows. Original project reference rendering STYLE ONLY ignore bench push-up/chest red/equipment. No embedded text/captions/arrows/labels.",
+      "inspectionNote": "Standing anchored reverse fly arms forward then spread, exposed rear deltoid red and opaque clothes, stable feet/upright torso. Rear-side view partly obscures near-arm sweep and front-of-torso band depth; qualified bilateral shoulder movement, anchor clearance, elbow softness and mapping pending review.",
+      "canonicalName": "band reverse fly",
+      "styleVersion": "white-v1",
+      "equipment": "band",
+      "primaryMuscles": [
+        "delts"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Standing anchored reverse fly arms forward then spread, exposed rear deltoid red and opaque clothes, stable feet/upright torso. Rear-side view partly obscures near-arm sweep and front-of-torso band depth; qualified bilateral shoulder movement, anchor clearance, elbow softness and mapping pending review.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0993-female-anatomical-white-v1-p1-7b65f5da5f01.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 20806,
+          "sha256": "7b65f5da5f01855d38f81ec147f4e8bb30f8b5c9c44de045e151586a34168076"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0993-female-anatomical-white-v1-p2-229d8895eb90.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 22324,
+          "sha256": "229d8895eb9095e5680b2c599d5aed62534335195729aba2df691ef6c63b2e88"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0993-female-anatomical-white-v1-thumb-e80eb983dbea.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2318,
+        "sha256": "e80eb983dbeaebe32cfa6df38e46db2fde50ece4f9a4f08c4c62468b540531b8"
+      },
+      "processingSignature": "e964d5800e03af5b60b5702a1e13fb0d529d1e589ca65aa60d8a8feac5c6b702",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0993-female-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1277402,
+        "sha256": "4cb265e4c3fc3a0829908047e00d08dd24abc20d28bc7c3b535b07b9a8e94a82"
+      }
+    },
+    {
+      "exerciseId": "0997",
+      "variant": "male",
+      "key": "0997-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand on the band and hold its ends at shoulder height with palms forward and elbows bent."
+        },
+        {
+          "key": "p2",
+          "caption": "Press both hands overhead while keeping the torso steady and wrists straight, then lower slowly."
+        }
+      ],
+      "prompt": "Original premium ADULT male anatomical exercise illustration TWO equal SQUARE cells side by side WIDE LANDSCAPE 2:1. Same model scale/proportions/camera and limbs/equipment both poses. BAND SHOULDER PRESS canonical0997. FRONT SIDE three-quarter camera. ONE gray elastic band MIDDLE securely trapped UNDER BOTH flat shoe soles, separate band ends/handles in corresponding CLOSED hands OVERHAND palms FORWARD. Upright torso neutral spine/neck gaze forward, feet shoulder width knees soft, no lumbar arch/legdrive. LEFT START HANDLES at SHOULDER HEIGHT outside shoulders, elbows bent90degrees below wrists, upper arms slightly below shoulder level. RIGHT FINISH press BOTH handles STRAIGHT OVERHEAD, arms fully extended soft elbows, wrists straight, palms forward, shoulders relaxed no shrug, torso/feet unchanged. Two band strands visibly elongate TAUT from corresponding shoe to overhead hand OUTSIDE body, no crossing/body penetration or detached strands. Primary DELTOID exposed shoulder caps RED only, no chest/triceps red. Fine detailed EXPOSED grayscale anatomical muscle contours realistic proportions/equipment equal male/female detail. Full opaque BLACK athletic tank shirt and MID-THIGH shorts wrap FRONT SIDES BACK SEAT CROTCH, real continuous fabric seams/broad cloth folds no cutaways/transparency/anatomical fibers through fabric. Black shoes. Entire head/hands/feet/anchor/all band within EACH square, SHRINK subject uniformly to leave at least12percent WHITE MARGIN ALL SIDES especially fingertips ABOVE overhead hands and beside outstretched arms, no crop or panel crossing. Pure white background soft contact shadows. Original project reference rendering STYLE ONLY ignore bench push-up/chest red/equipment. No embedded text/captions/arrows/labels.",
+      "inspectionNote": "Band shoulder press hands shoulder height with bent elbows to overhead near extension, band anchored beneath both shoes, steady upright stance. Exposed deltoid red and opaque clothing, full equipment/body framed. Qualified grip/wrist, underfoot security, shoulder path and proportions pending human review.",
+      "canonicalName": "band shoulder press",
+      "styleVersion": "white-v1",
+      "equipment": "band",
+      "primaryMuscles": [
+        "deltoids"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Band shoulder press hands shoulder height with bent elbows to overhead near extension, band anchored beneath both shoes, steady upright stance. Exposed deltoid red and opaque clothing, full equipment/body framed. Qualified grip/wrist, underfoot security, shoulder path and proportions pending human review.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0997-male-anatomical-white-v1-p1-eff063796a38.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 20874,
+          "sha256": "eff063796a38eb360e74c5c3bf1e2abbf01faa095e9b58591415ca87cfd82a3c"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0997-male-anatomical-white-v1-p2-f2385e263137.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 20872,
+          "sha256": "f2385e2631379cb02abba5f4e88cef12d3a2227aec050e2deceb0ab4fe48cb87"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0997-male-anatomical-white-v1-thumb-aca82c4dc981.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2472,
+        "sha256": "aca82c4dc9815a73ad6dc25cf36f19fbd27fc827e072f8668e03e30dc2d09d59"
+      },
+      "processingSignature": "17e006ffd1ade676879a7e409f155efa0af8bc7d6235e3bfe1c20e0ba596974c",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0997-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1268951,
+        "sha256": "735be45194eeb4de2306a226412fa66f12a08ac79ff2f07f58b56c6316539467"
+      }
+    },
+    {
+      "exerciseId": "0997",
+      "variant": "female",
+      "key": "0997-female-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand on the band and hold its ends at shoulder height with palms forward and elbows bent."
+        },
+        {
+          "key": "p2",
+          "caption": "Press both hands overhead while keeping the torso steady and wrists straight, then lower slowly."
+        }
+      ],
+      "prompt": "Original premium ADULT female anatomical exercise illustration TWO equal SQUARE cells side by side WIDE LANDSCAPE 2:1. Same model scale/proportions/camera and limbs/equipment both poses. BAND SHOULDER PRESS canonical0997. FRONT SIDE three-quarter camera. ONE gray elastic band MIDDLE securely trapped UNDER BOTH flat shoe soles, separate band ends/handles in corresponding CLOSED hands OVERHAND palms FORWARD. Upright torso neutral spine/neck gaze forward, feet shoulder width knees soft, no lumbar arch/legdrive. LEFT START HANDLES at SHOULDER HEIGHT outside shoulders, elbows bent90degrees below wrists, upper arms slightly below shoulder level. RIGHT FINISH press BOTH handles STRAIGHT OVERHEAD, arms fully extended soft elbows, wrists straight, palms forward, shoulders relaxed no shrug, torso/feet unchanged. Two band strands visibly elongate TAUT from corresponding shoe to overhead hand OUTSIDE body, no crossing/body penetration or detached strands. Primary DELTOID exposed shoulder caps RED only, no chest/triceps red. Fine detailed EXPOSED grayscale anatomical muscle contours realistic proportions/equipment equal male/female detail. Full opaque BLACK athletic tank shirt and MID-THIGH shorts wrap FRONT SIDES BACK SEAT CROTCH, real continuous fabric seams/broad cloth folds no cutaways/transparency/anatomical fibers through fabric. Black shoes. Entire head/hands/feet/anchor/all band within EACH square, SHRINK subject uniformly to leave at least12percent WHITE MARGIN ALL SIDES especially fingertips ABOVE overhead hands and beside outstretched arms, no crop or panel crossing. Pure white background soft contact shadows. Original project reference rendering STYLE ONLY ignore bench push-up/chest red/equipment. No embedded text/captions/arrows/labels.",
+      "inspectionNote": "Band shoulder press shoulder-height bent arms to overhead extension, band under both shoes taut to handles, steady torso and feet. Exposed shoulder red, full opaque clothing with complete framing. Qualified grip/wrist, underfoot anchoring, shoulder path/elbow softness and proportions pending human review.",
+      "canonicalName": "band shoulder press",
+      "styleVersion": "white-v1",
+      "equipment": "band",
+      "primaryMuscles": [
+        "deltoids"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Band shoulder press shoulder-height bent arms to overhead extension, band under both shoes taut to handles, steady torso and feet. Exposed shoulder red, full opaque clothing with complete framing. Qualified grip/wrist, underfoot anchoring, shoulder path/elbow softness and proportions pending human review.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0997-female-anatomical-white-v1-p1-295cff828add.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 21624,
+          "sha256": "295cff828add24e7e9421ee131e94922389b43b3c41555f74eefa2511bf9def4"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0997-female-anatomical-white-v1-p2-2d2d59f12417.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 21510,
+          "sha256": "2d2d59f12417a786680ee0543a1e1416d8bccee2a0621fa2c550ccf725dd9c62"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0997-female-anatomical-white-v1-thumb-0b770d55edef.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2458,
+        "sha256": "0b770d55edefac88b7af00c3a9bff92b84c0f0a605069f6178a016214287f67b"
+      },
+      "processingSignature": "81d2dc29b16c47e0f4e004af2251e50dd1a6c48f49b1c7bbf1940937a712e371",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0997-female-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1268101,
+        "sha256": "e690d10f847a257cf8f49e83487a42f9fe67909192a31078c894f34d3415741e"
+      }
+    }
+  ]
+}

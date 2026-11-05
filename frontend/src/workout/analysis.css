@@ -1,0 +1,10 @@
+.rating-radar { overflow-wrap: anywhere; }
+.rating-radar svg { display: block; width: min(100%, 380px); margin: auto; overflow: visible; }
+.rating-radar table, .analysis-table { width: 100%; border-collapse: collapse; font-size: .86rem; }
+.rating-radar th, .rating-radar td, .analysis-table th, .analysis-table td { padding: .65rem; border-bottom: 1px solid var(--line, #8885); text-align: left; vertical-align: top; }
+.analysis-scroll { max-width: 100%; overflow-x: auto; }
+.analysis-table { min-width: 650px; }
+.analysis-metrics { display: grid; grid-template-columns: repeat(auto-fit, minmax(155px, 1fr)); gap: 12px; }
+.analysis-metrics .metric { min-width: 0; }
+.coverage-table .coverage-row { align-items: start; }
+.coverage-table .coverage-row > span:last-child { white-space: normal; overflow-wrap: anywhere; line-height: 1.5; }

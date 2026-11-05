@@ -1,0 +1,69 @@
+{
+  "batch": 223,
+  "runId": "50c0040b-eb24-44fc-ab82-0ac39ff6736b",
+  "trigger": "2026-11-03T15:42:31.148Z",
+  "completedAt": "2026-11-03T15:49:35.030783+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 4,
+  "calls": 4,
+  "exerciseIds": [
+    "1666",
+    "1668",
+    "1669",
+    "1670"
+  ],
+  "variants": [
+    "male"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 771,
+    "remainingVariants": 10493,
+    "approvedVariants": 0,
+    "blockedVariants": 246,
+    "knownPoseImages": 1518,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 398,
+      "remainingVariants": 5234,
+      "blockedVariants": 127
+    }
+  },
+  "reviewNotes": {
+    "1666": "Prone single-arm hammer curl on flat bench: supported chest/pelvis/legs, hanging arm to flexed elbow. Qualified review needed for maintained neutral grip, neck alignment, shoulder position, dumbbell clearance and free-hand anatomy.",
+    "1668": "Ball-seated single-arm supinated curl: planted feet, supported pelvis, lowered to curled weight. Qualified review needed for upper-arm stillness, supination, wrist/finger anatomy and balance.",
+    "1669": "Seated single-arm hammer curl with thigh bracing: lowered to curled weight, neutral grip. Qualified review needed for exact continuous elbow/thigh contact and possible elbow drift, posture and finger anatomy.",
+    "1670": "Standing single-arm supinated curl: lowered to curled dumbbell with free hand empty, red working biceps. Qualified review needed for stationary upper arm, grip and elbow range."
+  },
+  "deferred": [
+    {
+      "exerciseId": "1667",
+      "reason": "Spider curl over-bench description conflicts with standing instructions."
+    },
+    {
+      "exerciseId": "1671",
+      "reason": "One-arm name/description conflicts with bilateral weights curl instructions."
+    },
+    {
+      "exerciseId": "1672",
+      "reason": "Zottman palm-down lowering description conflicts with underhand start then palm-up rotation instructions."
+    }
+  ],
+  "tests": 7,
+  "genCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "publicationIndexUnchanged": true,
+  "savedMasters": [
+    "assets/exercise-illustrations/generated/1666-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/1668-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/1669-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/1670-male-anatomical-white-v1.png"
+  ]
+}

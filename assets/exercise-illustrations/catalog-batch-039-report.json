@@ -1,0 +1,37 @@
+{
+  "batch": 39,
+  "trigger": "2026-11-01T08:52:13.040Z",
+  "completedAt": "2026-11-01T09:06:30.695306+00:00",
+  "tool": "image_gen.imagegen",
+  "newCandidateSets": 4,
+  "generationCalls": 7,
+  "exerciseIds": [
+    "1215",
+    "1060"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 152,
+    "remainingVariants": 11112,
+    "approvedVariants": 0,
+    "blockedVariants": 64,
+    "knownPoseImages": 306,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "All pending and blocked, none published. Lunge corrections replace ambiguous three-phase alternation with canonical permitted one-side repetition, two poses; male grayscale corrected in v3, histories retained. Chest-held grip occluded in rear view. Hip thrusts blocked for clipped bench/foot edges and qualified neck/contact review. Full opaque garments and soft surface highlights inspected.",
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 247188993
+}

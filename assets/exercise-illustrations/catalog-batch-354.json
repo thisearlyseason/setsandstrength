@@ -1,0 +1,326 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "3382",
+      "variant": "male",
+      "key": "3382-male-anatomical-white-v1",
+      "prompt": "Two equal panels SAME side three-quarter view headLEFT feetRIGHT. Bent-knee INVERTED ROW UNDER sturdy heavy rectangular TABLE four legs. Both hands firmly curl over SAME near table EDGE shoulderwidth. Both knees BENT about90 and BOTHfeet FLATfloor, hips lifted so SHOULDERS-HIPS-KNEES form straight diagonal. Panel1 arms straight chest low below edge. Panel2 elbows bend backward and chest pulls toward SAME edge with hips still lifted and feet fixed. No leg straightening no bench under body. Primary LATS small plain uniform red wash intact lateral back tank only. Premium detailed adult MALE grayscale anatomical illustration on pure white with soft contact shadows, detailed exposed gray muscles and realistic equipment. Original project reference STYLE ONLY. Opaque black tank and mid-thigh shorts wrap front sides back seat crotch with seams/folds/hems. Covered red highlights SMALL PLAIN UNIFORM wash on intact cloth NO fibers/lobes/segments/cutaways. One head two arms/hands two legs/feet per figure. Same camera/model/scale across panels. Full body/equipment in frame, no text arrows logos.",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Grip sturdy table edge with bent knees, feet planted and hips lifted."
+        },
+        {
+          "key": "p2",
+          "caption": "Pull chest toward edge, then lower with hips held up."
+        }
+      ],
+      "inspectionNote": "Real output inspected. Bent-knee table-edge row with planted feet, hips elevated and elbow flexion. Opaque clothes; lat fiber-like overlay through tank needs plain-wash correction. Qualified chest endpoint and grip review pending. Human anatomy review pending. No approval or publication.",
+      "blockingIssues": [
+        "Replace lat fiber-like anatomy through tank with plain uniform wash on intact fabric."
+      ],
+      "canonicalName": "inverted row bent knee under table",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "lats"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Bent-knee table-edge row with planted feet, hips elevated and elbow flexion. Opaque clothes; lat fiber-like overlay through tank needs plain-wash correction. Qualified chest endpoint and grip review pending. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/3382-male-anatomical-white-v1-p1-59d276ec0bde.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 35566,
+          "sha256": "59d276ec0bde1f6147a1759284135c1465ddfa2433acf0401394d2f61a030ec4"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/3382-male-anatomical-white-v1-p2-8c1c5ae06553.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 32536,
+          "sha256": "8c1c5ae065534e22dc79a9a2ecba5e263a59b1ab5698b1e7e064269cfde792e1"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-354.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/3382-male-anatomical-white-v1-thumb-d8aa40fb0428.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 4012,
+        "sha256": "d8aa40fb04282d2fa75b976e33b12017167b1f01a7eac285322cde70d2a56921"
+      },
+      "processingSignature": "24f860641f469dae7a32a1a5be0fe7b12270aaaa22bc4b804f6b45435d11153f",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/3382-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1471656,
+        "sha256": "653b789fc60cf660203e5ed1ff181aaa0cef4325f4a1094302c78c15f829184c"
+      }
+    },
+    {
+      "exerciseId": "3383",
+      "variant": "male",
+      "key": "3383-male-anatomical-white-v1",
+      "prompt": "Two equal panels SIDE three-quarter camera headLEFT feetRIGHT. FEET-ELEVATED PIKE PUSHUP. Both feet toes planted on flat bench at RIGHT, both palms FLOOR atLEFT shoulderwidth. Hips sharply PIKED HIGH making INVERTED V, legs nearly straight, torso steep down toward hands. Panel1 armsSTRAIGHT shouldersoverhands headneutral betweenarms. Panel2 elbowsbendabout45 out/back headlowers towardfloor justaheadhands, hipsSTILLHIGH feetremainbench. No headstand no flat plank no extra legs. Primary exposed DELTOIDS red ONLY, tank black. Premium detailed adult MALE grayscale anatomical illustration on pure white with soft contact shadows, detailed exposed gray muscles and realistic equipment. Original project reference STYLE ONLY. Opaque black tank and mid-thigh shorts wrap front sides back seat crotch with seams/folds/hems. Covered red highlights SMALL PLAIN UNIFORM wash on intact cloth NO fibers/lobes/segments/cutaways. One head two arms/hands two legs/feet per figure. Same camera/model/scale across panels. Full body/equipment in frame, no text arrows logos.",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Place feet on bench and palms on floor, hips piked high."
+        },
+        {
+          "key": "p2",
+          "caption": "Bend elbows to lower head toward floor, then press up."
+        }
+      ],
+      "inspectionNote": "Real output inspected. Feet-elevated pike push-up straight-arm and lowered-head phases with hands floor, hips high and deltoid-only highlights. Opaque black clothes intact. Qualified head path, elbow angle and stable foot/bench support review pending. Human anatomy review pending. No approval or publication.",
+      "canonicalName": "pike push up (on bench) v. 2",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "delts"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Feet-elevated pike push-up straight-arm and lowered-head phases with hands floor, hips high and deltoid-only highlights. Opaque black clothes intact. Qualified head path, elbow angle and stable foot/bench support review pending. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/3383-male-anatomical-white-v1-p1-1004882590f1.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 40338,
+          "sha256": "1004882590f1045d6466e6c2b1c959befa292a3d6c1f4bb83fcb50aa48bfb206"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/3383-male-anatomical-white-v1-p2-30d2420d449a.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 38406,
+          "sha256": "30d2420d449a31182879bdd52cc29713c387a1a71ce8854960f30b1ede5dcb74"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-354.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/3383-male-anatomical-white-v1-thumb-a2405748e380.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 4144,
+        "sha256": "a2405748e3805eddb78b18bbd865dc17b2923ec2eaad35ba13033490e7ad54d7"
+      },
+      "processingSignature": "56e24e1dadc1f40a0222bf75bb20774bbe1a9d12f7f3658a6e00cd29d5f4a55a",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/3383-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1560420,
+        "sha256": "9524f413ecb7673aa928afe118efd849afaaae5fc2af2dd2f65130d23c534a9f"
+      }
+    },
+    {
+      "exerciseId": "3385",
+      "variant": "male",
+      "key": "3385-male-anatomical-white-v1",
+      "prompt": "Two equal panels SIDE three-quarter view. SEATED HORIZONTAL LEVER LEG PRESS machine with upright slightlyreclinedBACKPAD and large vertical FOOTPLATE inFRONTLEFT on guidedlever. Backheadbutt supported pad, hands sidehandles. Bothfeet flat shoulderwidth on footplate sameheight allposes toes slightlyout. Panel1 kneesBENTabout90 thighs towardtorso heelsflatplate. Panel2 pressplatformAWAY by extendinglegs kneesSTILLSOFTnotlocked, backbuttcontactpad no curling pelvis. Machine linkage physically consistent, plate always under soles. Primary QUADRICEPS red exposed front thighs, SMALLplainuniformwash on intactfrontshorts with CLEARhems nofibers. Premium detailed adult MALE grayscale anatomical illustration on pure white with soft contact shadows, detailed exposed gray muscles and realistic equipment. Original project reference STYLE ONLY. Opaque black tank and mid-thigh shorts wrap front sides back seat crotch with seams/folds/hems. Covered red highlights SMALL PLAIN UNIFORM wash on intact cloth NO fibers/lobes/segments/cutaways. One head two arms/hands two legs/feet per figure. Same camera/model/scale across panels. Full body/equipment in frame, no text arrows logos.",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Sit supported with feet shoulder width on plate and knees bent around 90 degrees."
+        },
+        {
+          "key": "p2",
+          "caption": "Press through whole feet until legs nearly straight; return slowly."
+        }
+      ],
+      "inspectionNote": "Real output inspected. Seated horizontal leg press with supported back/butt, whole feet on plate and bent-to-nearly-straight legs. Opaque shorts with plain front-thigh wash. Qualified seat/footplate linkage, knee tracking and extension limit review pending. Human anatomy review pending. No approval or publication.",
+      "canonicalName": "lever seated leg press v. 2",
+      "styleVersion": "white-v1",
+      "equipment": "leverage machine",
+      "primaryMuscles": [
+        "quads"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Seated horizontal leg press with supported back/butt, whole feet on plate and bent-to-nearly-straight legs. Opaque shorts with plain front-thigh wash. Qualified seat/footplate linkage, knee tracking and extension limit review pending. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/3385-male-anatomical-white-v1-p1-118431402a6a.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 57416,
+          "sha256": "118431402a6a496856a247241cdaf46e282ce232ef36510ec547112e7f3931f6"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/3385-male-anatomical-white-v1-p2-f9712b87f048.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 55562,
+          "sha256": "f9712b87f048891a7f51658a65da8b5662090930f3116129ef0ab7cd5f5b0ecc"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-354.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/3385-male-anatomical-white-v1-thumb-b08e13ff8882.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 5566,
+        "sha256": "b08e13ff88829bc1cc7955e3e7f42e2e0c33ea7742f637b29b6bed5b543d67a9"
+      },
+      "processingSignature": "98d3b14ef6493bc003a4eeb19a80de629b9b62dd4157c7645d0bdf6d42ba077a",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/3385-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1756191,
+        "sha256": "6698a878117c2a8cf6db45a9173d4dc16f603bd1faba88e5f428a438c2f1a3b5"
+      }
+    },
+    {
+      "exerciseId": "3386",
+      "variant": "male",
+      "key": "3386-male-anatomical-white-v1",
+      "prompt": "Two equal panels SIDE three-quarter view facingLEFT. SEATED LEG EXTENSION leverage machine. Backagainstpad buttseat hands sidehandles, knee JOINT aligns visiblepivot beside seat edge. ONE cylindricalROLLER acrossFRONTOF BOTH LOWER SHINS justABOVEankles, attached rotatinglever. Panel1 kneesBENT90 shinsvertical rollerinfrontankles toesforward. Panel2 BOTHkneesextend untilnearlystraight lowerlegsforwardHORIZONTAL rollerSTILLcontactsfrontlowerSHINS machineleverrotatesaroundkneepivot. Upperthighsstayseat hipsdown. Primary QUADRICEPS redexposedfrontthigh plusSMALLplainuniformwash on intactblackfrontshorts CLEARhems NO fiberscloth. Premium detailed adult MALE grayscale anatomical illustration on pure white with soft contact shadows, detailed exposed gray muscles and realistic equipment. Original project reference STYLE ONLY. Opaque black tank and mid-thigh shorts wrap front sides back seat crotch with seams/folds/hems. Covered red highlights SMALL PLAIN UNIFORM wash on intact cloth NO fibers/lobes/segments/cutaways. One head two arms/hands two legs/feet per figure. Same camera/model/scale across panels. Full body/equipment in frame, no text arrows logos.",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Sit with knees aligned to pivots and lower shins behind roller."
+        },
+        {
+          "key": "p2",
+          "caption": "Extend legs nearly straight, squeeze quads, then lower slowly."
+        }
+      ],
+      "inspectionNote": "Real output inspected. Seated leg extension with shin roller and near-straight finish; opaque shorts/plain thigh wash. Non-primary red pectoral pattern through tank needs removal. Qualified knee pivot alignment, roller contact and extension range review pending. Human anatomy review pending. No approval or publication.",
+      "blockingIssues": [
+        "Remove non-primary red pectoral overlay; retain quadriceps-only highlights."
+      ],
+      "canonicalName": "lever seated leg extension v. 2",
+      "styleVersion": "white-v1",
+      "equipment": "leverage machine",
+      "primaryMuscles": [
+        "quads"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Seated leg extension with shin roller and near-straight finish; opaque shorts/plain thigh wash. Non-primary red pectoral pattern through tank needs removal. Qualified knee pivot alignment, roller contact and extension range review pending. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/3386-male-anatomical-white-v1-p1-58674bb1bc4e.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 47198,
+          "sha256": "58674bb1bc4e6c7bd76e7afa95ce9f2c8a026d8d9b9ee9910f89daada985500a"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/3386-male-anatomical-white-v1-p2-b5360a2c1067.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 48912,
+          "sha256": "b5360a2c1067914e0abd4a0353c60cd5d65e0e335672235b84b5fd18722b173e"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-354.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/3386-male-anatomical-white-v1-thumb-9a2c55622243.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 5014,
+        "sha256": "9a2c5562224335c5999e2ac485d736efe8de83fedea55ce9673ebbd2870aff51"
+      },
+      "processingSignature": "276cd9af6346c4ea8131e0d3895b4a86939807cd480c09b31aea04d6ae421c54",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/3386-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1626451,
+        "sha256": "dfc4136ee89dd2b891687cf83e7b6138bc7fab5625a613ac1a7620327a1aeede"
+      }
+    }
+  ]
+}

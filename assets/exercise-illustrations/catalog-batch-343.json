@@ -1,0 +1,330 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "3302",
+      "variant": "male",
+      "key": "3302-male-anatomical-white-v1",
+      "prompt": "WALLSUPPORTED HANDSTAND single fullbody pose SIDEthreequarterview. FlatwhiteverticalWALLatRIGHT meetsfloor. BothpalmsFLATfloor shoulderwidth fingersforward awaywall, armsSTRAIGHT verticallysupportshoulders, shouldershipskneesanklesSTACKED nearvertical upsideDOWN. LegsSTRAIGHTTOGETHER heelsLIGHTLYtouchwall, BACKtowall, headbetweenarms neckneutral lookingatfloor notextended. No headstand noelbowsupport. PRIMARYTRICEPS redexposedposteriorupperarms ONLY othergrayblack. Premium detailed grayscale adult MALE anatomy illustration, pure white background soft shadows, detailed exposed gray musculature, realistic proportions. Reference original project artwork STYLE ONLY, not pose/equipment. OPAQUE BLACK tank and mid-thigh shorts fully wrap front sides back seat crotch seams folds hems. Covered primary highlight SMALL PLAIN UNIFORM redwash on intact cloth NO anatomical fibers segments lobes cutaways transparency. Exactly one head two arms hands two legs feet per figure. Same model camera scale fullbody equipment inframe no text arrows logos. ",
+      "layout": {
+        "columns": 1,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hold a wall-supported handstand with straight arms and body stacked; lower legs slowly to exit."
+        }
+      ],
+      "inspectionNote": "Real output inspected. Wall-supported handstand with straight arms and legs, heels at wall, opaque clothes. Unrequested red torso highlight accompanies triceps and needs removal; qualified wrist, elbow and shoulder stacking review pending. Human anatomy review pending. No approval or publication.",
+      "blockingIssues": [
+        "Remove non-primary red torso overlay; keep triceps-only primary highlight."
+      ],
+      "canonicalName": "handstand",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "triceps"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Wall-supported handstand with straight arms and legs, heels at wall, opaque clothes. Unrequested red torso highlight accompanies triceps and needs removal; qualified wrist, elbow and shoulder stacking review pending. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/3302-male-anatomical-white-v1-p1-4fbd5971db13.webp",
+          "width": 600,
+          "height": 1200,
+          "bytes": 28396,
+          "sha256": "4fbd5971db13046b601128114ab618f547e409d894d49fb8dbde9b98c2c55dc8"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-343.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/3302-male-anatomical-white-v1-thumb-2d1c7969144c.webp",
+        "width": 120,
+        "height": 240,
+        "bytes": 1876,
+        "sha256": "2d1c7969144c59e5b4a327897056bc903ffc752b405bce050ebecfdc0d4c24ee"
+      },
+      "processingSignature": "abb6896e2b9363b25412ab494f78b258a269636e66bc12586e5b76da2e97a9a3",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/3302-male-anatomical-white-v1.png",
+        "width": 887,
+        "height": 1774,
+        "bytes": 1398163,
+        "sha256": "a84aa2f08bfb3b5347dd700a882066a6f376b21227a2222063a0ec38bcf2964e"
+      }
+    },
+    {
+      "exerciseId": "3305",
+      "variant": "male",
+      "key": "3305-male-anatomical-white-v1",
+      "prompt": "BARBELL THRUSTER THREEequalpanels SAME SIDEthreequartercamera. Loadedbarbellsameplates eachpanel, handsclosedOVERHANDslightlywidershoulders, FRONT rack acrossFRONTshoulders NEVERbehindneck. PANEL1 tallstance barfrontrack elbowsforward. PANEL2 frontsquat thighsparallel heelsfloor kneestracktoes barstillfrontrack chestup. PANEL3 standhipsKNEESextended pressbarOVERHEAD armsstraight barabovemidfoot headneutral. FeetSAMEshoulderwidthgroundedALLposes. PRIMARYDELTOIDS exposedshouldercapsREDONLY othergrayblack includingchestlegs. Premium detailed grayscale adult MALE anatomy illustration, pure white background soft shadows, detailed exposed gray musculature, realistic proportions. Reference original project artwork STYLE ONLY, not pose/equipment. OPAQUE BLACK tank and mid-thigh shorts fully wrap front sides back seat crotch seams folds hems. Covered primary highlight SMALL PLAIN UNIFORM redwash on intact cloth NO anatomical fibers segments lobes cutaways transparency. Exactly one head two arms hands two legs feet per figure. Same model camera scale fullbody equipment inframe no text arrows logos. ",
+      "layout": {
+        "columns": 3,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand with bar in front rack and elbows forward."
+        },
+        {
+          "key": "p2",
+          "caption": "Squat to controlled depth with chest tall and heels grounded."
+        },
+        {
+          "key": "p3",
+          "caption": "Drive up and press bar overhead; return to front rack."
+        }
+      ],
+      "inspectionNote": "Real output inspected. Standing front rack, squat and overhead press phases visible with grounded feet and opaque shorts. Tank has unrequested red pectoral/abdominal anatomy and front-rack elbows are too low; correction required. Human anatomy review pending. No approval or publication.",
+      "blockingIssues": [
+        "Remove non-primary torso red/anatomical detail; keep deltoids only.",
+        "Correct front rack so elbows project forward and bar rests on front shoulders rather than wrists."
+      ],
+      "canonicalName": "barbell thruster",
+      "styleVersion": "white-v1",
+      "equipment": "barbell",
+      "primaryMuscles": [
+        "delts"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Standing front rack, squat and overhead press phases visible with grounded feet and opaque shorts. Tank has unrequested red pectoral/abdominal anatomy and front-rack elbows are too low; correction required. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/3305-male-anatomical-white-v1-p1-8bed78072cf5.webp",
+          "width": 591,
+          "height": 887,
+          "bytes": 25476,
+          "sha256": "8bed78072cf51cec0b86914d21879f8675cdab222273a6e9d9e1d3ebd7f770d0"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/3305-male-anatomical-white-v1-p2-27d0fd63772a.webp",
+          "width": 592,
+          "height": 887,
+          "bytes": 25356,
+          "sha256": "27d0fd63772aac430f2c9879039c48c74ad969489e99306b7426846dfc61c86a"
+        },
+        {
+          "pose": "p3",
+          "path": "/workout/illustration-pilot/3305-male-anatomical-white-v1-p3-6700d19c4395.webp",
+          "width": 591,
+          "height": 887,
+          "bytes": 25962,
+          "sha256": "6700d19c4395cce5fbdb53f767ec5df45aa5cade1200c3496ea5bd464b396778"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-343.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/3305-male-anatomical-white-v1-thumb-cfe2738217ad.webp",
+        "width": 160,
+        "height": 240,
+        "bytes": 2900,
+        "sha256": "cfe2738217ad3f65fc17a2f2962df3886d60fbeb895a1fa985ba23f9dc305a06"
+      },
+      "processingSignature": "22acb87529a1bd22699b37af0d4b50563e3100643a4b35241f332e6e26277129",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/3305-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1541182,
+        "sha256": "734c3f835f73b3c5f8b143c50fab2a0c809b8c5539f285472174f6ebbb6be135"
+      }
+    },
+    {
+      "exerciseId": "3308",
+      "variant": "male",
+      "key": "3308-male-anatomical-white-v1",
+      "prompt": "BARBELL DEADLIFT TWOequalpanels SAME SIDEthreequartercamera rearhipvisible, headLEFT. Loadedbarbellidenticalplates. LEFTSTART barplatesRESTFLOOR barovermidfoot, feetHIPwidth BOTHclosedOVERHANDgripsjustOUTSIDElegs armsSTRAIGHT backneutral hipHINGE kneesbent shouldersslightlyinfrontbar headneutral. RIGHTEND standTALL hipkneesextended baratUPPERTHIGHS closelegs armsSTRAIGHT no shrug noleanback. Samefeetposition barverticalnearlegs. PrimaryGLUTES SMALLPLAINUNIFORMredwash on intactBLACKseatshorts only, NO buttockfibers, legsbackgrayblack. Premium detailed grayscale adult MALE anatomy illustration, pure white background soft shadows, detailed exposed gray musculature, realistic proportions. Reference original project artwork STYLE ONLY, not pose/equipment. OPAQUE BLACK tank and mid-thigh shorts fully wrap front sides back seat crotch seams folds hems. Covered primary highlight SMALL PLAIN UNIFORM redwash on intact cloth NO anatomical fibers segments lobes cutaways transparency. Exactly one head two arms hands two legs feet per figure. Same model camera scale fullbody equipment inframe no text arrows logos. ",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Set bar over midfoot, hinge down and grip just outside legs."
+        },
+        {
+          "key": "p2",
+          "caption": "Stand by extending hips and knees with bar close; lower under control."
+        }
+      ],
+      "inspectionNote": "Real output inspected. Loaded floor-to-standing lift, rear view shows opaque shorts with plain glute wash. Mixed-looking grip and rear camera make bar position relative to shins/thighs unclear. Block for clear front-of-leg bar path and grip depiction; qualified back/head alignment review pending. Human anatomy review pending. No approval or publication.",
+      "blockingIssues": [
+        "Clarify that bar remains in front of legs close to shins and thighs, with unambiguous hand grip."
+      ],
+      "canonicalName": "barbell weighted deadlift",
+      "styleVersion": "white-v1",
+      "equipment": "barbell",
+      "primaryMuscles": [
+        "glutes"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Loaded floor-to-standing lift, rear view shows opaque shorts with plain glute wash. Mixed-looking grip and rear camera make bar position relative to shins/thighs unclear. Block for clear front-of-leg bar path and grip depiction; qualified back/head alignment review pending. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/3308-male-anatomical-white-v1-p1-db2aa279fbcc.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 33850,
+          "sha256": "db2aa279fbcca3c67b2adbd1ffc010c818fb43b147e699c87cddbf6d6543ea03"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/3308-male-anatomical-white-v1-p2-95c68a837161.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 32706,
+          "sha256": "95c68a8371614c65b77903eb4f08d25a8ac242907d602d82420334f719ac31e4"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-343.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/3308-male-anatomical-white-v1-thumb-873e2d7c52e9.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 3448,
+        "sha256": "873e2d7c52e90620754927c8712ab45c540f8e7eb2b5dbc0510221b274968d19"
+      },
+      "processingSignature": "781caf6fd8d67c6c6f1583307e89834744bb65fd2fb7c691b0787aaf690ca0f5",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/3308-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1482156,
+        "sha256": "98b08854a2a74ee14a3dfe9f222fde77cec64cc5b1767db84e632cbeb1533070"
+      }
+    },
+    {
+      "exerciseId": "3309",
+      "variant": "male",
+      "key": "3309-male-anatomical-white-v1",
+      "prompt": "BARBELL FRONT SQUAT TWOequalpanels sameSIDEthreequartercamera. SAMEloadedbar acrossFRONTshoulders bothposes cleanFRONTRACK elbowsHIGHFORWARD handssteadybar closedfingertipgrip wristsnormal. LEFTtallstandingfeetshoulderwidthtoesslightlyout heelsfloor. RIGHTsquat thighsATLEASTPARALLEL chestupright elbowsSTILLHIGH kneestracktoes heelsfloor. Bar NEVERbehindneck. PrimaryQUADS SMALLPLAINUNIFORMredwash on intactblackFRONTthighshorts and exposedquadsbelowhem ONLY. NO anatomicalfibersoncloth othergrayblack. Premium detailed grayscale adult MALE anatomy illustration, pure white background soft shadows, detailed exposed gray musculature, realistic proportions. Reference original project artwork STYLE ONLY, not pose/equipment. OPAQUE BLACK tank and mid-thigh shorts fully wrap front sides back seat crotch seams folds hems. Covered primary highlight SMALL PLAIN UNIFORM redwash on intact cloth NO anatomical fibers segments lobes cutaways transparency. Exactly one head two arms hands two legs feet per figure. Same model camera scale fullbody equipment inframe no text arrows logos. ",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand with bar on front shoulders and elbows high."
+        },
+        {
+          "key": "p2",
+          "caption": "Squat to controlled parallel depth, then stand with elbows up."
+        }
+      ],
+      "inspectionNote": "Real output inspected. Standing and parallel-depth front squat with forward elbows, bar on front shoulders, planted feet and opaque clothing/plain thigh wash. Qualified wrist/finger anatomy, bar contact, knee tracking and depth review pending. Human anatomy review pending. No approval or publication.",
+      "canonicalName": "barbell weighted front chest squat",
+      "styleVersion": "white-v1",
+      "equipment": "barbell",
+      "primaryMuscles": [
+        "quads"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Standing and parallel-depth front squat with forward elbows, bar on front shoulders, planted feet and opaque clothing/plain thigh wash. Qualified wrist/finger anatomy, bar contact, knee tracking and depth review pending. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/3309-male-anatomical-white-v1-p1-27b74c6ed756.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 30544,
+          "sha256": "27b74c6ed756316b228596b1a9fa3e8298c04298cab632f7385a296c32db3583"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/3309-male-anatomical-white-v1-p2-e369e993ca7d.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 30354,
+          "sha256": "e369e993ca7d432002e0c22387f645ec47d63b551ea92641c28bdc7055554b42"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-343.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/3309-male-anatomical-white-v1-thumb-ca159daab00b.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 3482,
+        "sha256": "ca159daab00b9bdd9af858c8f2b3aa7ea6db80f95366cb5f02b660ac5d75238d"
+      },
+      "processingSignature": "e53073672b304e1b79b122e3ddee543cd7284e91b08bae14108a4f69f3643e71",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/3309-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1439466,
+        "sha256": "a04e130ffd82262e641dcb74d9bc76d8c8558fa34e4575a922905348e55b7949"
+      }
+    }
+  ]
+}

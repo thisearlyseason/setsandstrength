@@ -1,0 +1,88 @@
+{
+  "batch": 155,
+  "runId": "6d12df57-1f36-477f-86ef-072249563d14",
+  "trigger": "2026-11-03T07:23:27.435Z",
+  "completedAt": "2026-11-03T07:34:53.770306+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 4,
+  "generationCalls": 4,
+  "exerciseIds": [
+    "1053",
+    "1054"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 624,
+    "remainingVariants": 10640,
+    "approvedVariants": 0,
+    "blockedVariants": 215,
+    "knownPoseImages": 1262,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Four single-pose static stretch candidates, four built-in calls. Kneeling hip flexor stretch pairs show upright torso, front knee over grounded foot and rear knee/shin on mat, red rear exposed quadriceps. Wall calf stretch pairs show palms on wall, bent front knee, straight rear leg and rear heel grounded, exposed rear calf red. Fine grayscale anatomy and full opaque clothing visually retained. Qualified pelvic tuck/hip extension, foot direction, rear knee pressure, far limb occlusion, ankle/neck alignment and primary mapping require human review. Every original and exact prompt saved; no anatomy/clothing approval or publication. Original project artwork rendering style only, no upstream licensed input. Seven pipeline checks do not establish anatomical accuracy.",
+  "metadataConflictsDeferred": {
+    "1043": "Front neck flexion description versus traps target requires primary mapping clarification."
+  },
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 993250111,
+  "savedMasters": [
+    {
+      "exerciseId": "1053",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1053-male-anatomical-white-v1.png",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 1511274,
+        "sha256": "fffbf8851adff2cb04fef6c82225559bfdb6865f8e8849bfc109b33e4a1857f4"
+      }
+    },
+    {
+      "exerciseId": "1053",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1053-female-anatomical-white-v1.png",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 1553230,
+        "sha256": "d9d30cbe1b7150e58a517150405dae897452d695829cd8268befc0fff8d12ed1"
+      }
+    },
+    {
+      "exerciseId": "1054",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1054-male-anatomical-white-v1.png",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 1527160,
+        "sha256": "84fb83a0445a018cda4b47dcebf883e8861d2952f499c70fc502c5ffbf2a81ff"
+      }
+    },
+    {
+      "exerciseId": "1054",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1054-female-anatomical-white-v1.png",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 1469407,
+        "sha256": "9187866ce73d40b35e4cda5561804a03bdcb28379c25c46b904d4fdf5728113b"
+      }
+    }
+  ]
+}

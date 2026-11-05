@@ -1,0 +1,89 @@
+{
+  "batch": 138,
+  "trigger": "2026-11-03T03:43:55.706Z",
+  "completedAt": "2026-11-03T03:51:16.920606+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 4,
+  "generationCalls": 5,
+  "exerciseIds": [
+    "0834",
+    "0837"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 560,
+    "remainingVariants": 10704,
+    "approvedVariants": 0,
+    "blockedVariants": 209,
+    "knownPoseImages": 1148,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Four candidates, eight poses, five built-in calls including one retained female hip cloth-surface correction. Weighted front raises show pronated dumbbells moving from thigh front to shoulder height, nearly straight elbows and steady upright torso; red anterior shoulder caps on exposed grayscale anatomy. Side-lying hip abductions retain upper right ankle cuff and straight-leg lift with lower leg grounded; female red hip tint softened over opaque shorts. Slight rearward hip trajectory is subtle, and range, pelvis rotation, toe orientation, grip, neck, limb consistency and primary muscle mapping remain qualified human-review items. Full opaque clothing visually retained, without anatomy or clothing approval. Every original, exact prompt and correction history saved. Original project artwork used for style only; no upstream licensed input. No publication. Pipeline checks do not establish anatomical accuracy.",
+  "metadataConflictsDeferred": {
+    "0833": "Weighted donkey calf raise description specifies bent hips and extra load; standing instructions omit both bent-hip setup and load location.",
+    "0835": "Weighted ball hyperextension description specifies holding load; instructions instead place hands behind head or crossed chest without securing a weight.",
+    "0841": "Target lats conflicts with primary muscleMap upper-back; red mapping deferred."
+  },
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 903845481,
+  "savedMasters": [
+    {
+      "exerciseId": "0834",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0834-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1319437,
+        "sha256": "adb0020c5dac7745170bf2b03f5aa25538582084d52f4a630f66902f98904bae"
+      }
+    },
+    {
+      "exerciseId": "0834",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0834-female-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1332296,
+        "sha256": "613efbb3f2da1cc94a0b7f96d2b88ef78d7851133f9d6dbaac72d4d5a8f21932"
+      }
+    },
+    {
+      "exerciseId": "0837",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0837-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1287505,
+        "sha256": "217f9a2a20a7da55dd929fae1ed3b81b28f64036efd38800476543bb399ef62c"
+      }
+    },
+    {
+      "exerciseId": "0837",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0837-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1308481,
+        "sha256": "a2a2714905d722bf93790571482f3b51c10d18ffee7675c3f053da0cf4e0c395"
+      }
+    }
+  ]
+}

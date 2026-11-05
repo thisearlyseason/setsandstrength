@@ -1,0 +1,92 @@
+{
+  "batch": 288,
+  "runId": "cfac256b-6ca0-49d3-b1f3-f6b2aee39d71",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "trigger": "2026-11-04T02:40:26.557Z",
+  "purpose": "batch288 scheduled male continuation",
+  "started": "2026-11-04T02:40:54.858290+00:00",
+  "completedAt": "2026-11-04T02:47:40.912295+00:00",
+  "actualToolName": "image_gen__imagegen",
+  "calls": 4,
+  "newCandidateSets": 4,
+  "exerciseIds": [
+    "2463",
+    "2468",
+    "2473",
+    "2474"
+  ],
+  "variants": [
+    "male"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1025,
+    "remainingVariants": 10239,
+    "approvedVariants": 0,
+    "blockedVariants": 349,
+    "knownPoseImages": 1971,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 652,
+      "remainingVariants": 4980,
+      "blockedVariants": 230
+    }
+  },
+  "reviewNotes": {
+    "2463": "Vertical legs with band around forefeet, hands hold ends and reach upward as shoulders curl, lower back/pelvis grounded. Plain abdominal tint and opaque clothing. Start head hovers unsupported rather than relaxed on floor; block start support correction. Qualified review of band anchoring, resistance direction, leg stability, cervical position and curl range required. Human anatomy review remains pending.",
+    "2468": "Near foot on bench with other foot floor, then both feet rise onto bench, torso remains camera-facing and dumbbells at sides, showing lateral step-up. Red thigh tint includes anatomical segment/fiber contours under shorts; block clothing-overlay correction. Qualified review of full foot support near bench edge, leading leg laterality, knee alignment, load control and stepping trajectory required. Human anatomy review remains pending.",
+    "2473": "Single foot remains on bench, free leg extended upward, pelvis rises to bridge with arms/upper back grounded. Glute tint over intact shorts. Head visibly floats unsupported in both poses; block cervical support correction. Qualified review of planted-foot/knee geometry, hip level, lumbar extension, free-leg alignment and glute laterality required. Human anatomy review remains pending.",
+    "2474": "One foot planted floor, free leg straight upward, pelvis floor start then bridge aligned toward working knee. Head/back shoulders arms remain supported; plain glute tint on intact shorts. Qualified review of head contact/cervical neutrality, hip level, bridge endpoint, free-leg tracing and muscle laterality required. Human anatomy review remains pending."
+  },
+  "blockingIssues": {
+    "2463": [
+      "Start head hovers above floor; restore supported neutral head before curl."
+    ],
+    "2468": [
+      "Anatomical quad contours show through red shorts overlay; replace with uniform color wash on opaque fabric."
+    ],
+    "2473": [
+      "Head floats unsupported above floor; restore head contact and relaxed neutral neck in both poses."
+    ]
+  },
+  "deferred": {
+    "2462": "Straight-bar name contradicts parallel-bar instructions.",
+    "2464": "Kayak rotation description differs from ordinary one-arm row instructions.",
+    "2465": "Cardiovascular target lacks primary highlight mapping.",
+    "2466": "Alternating cross-body knee/elbow sequence requires detailed laterality planning.",
+    "2469": "Frog-crunch ball balance/support requires detailed planning.",
+    "2470": "Forward-arm start versus rear-delt lateral movement needs detailed path planning."
+  },
+  "tests": 7,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "workerSyncResult": {
+    "statuses": {
+      "generated": 1025,
+      "pending": 10239
+    },
+    "remaining": 10239,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 1577839691
+  },
+  "publicationIndexUnchanged": true,
+  "savedMasters": [
+    "assets/exercise-illustrations/generated/2463-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/2468-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/2473-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/2474-male-anatomical-white-v1.png"
+  ]
+}

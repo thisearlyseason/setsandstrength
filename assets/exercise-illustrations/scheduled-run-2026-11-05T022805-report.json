@@ -1,0 +1,51 @@
+{
+  "runId": "1883a1ac-763b-4bf9-be47-892aed867496",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "triggerTimestamp": "2026-11-05T02:28:05.603Z",
+  "batches": [
+    477
+  ],
+  "builtInImageGenAvailable": true,
+  "generatedMasters": 3,
+  "generatedIds": [
+    "6221",
+    "6232",
+    "6234"
+  ],
+  "blocked": {
+    "6232": [
+      "Nonelastic suspension straps change length substantially between poses; fixed anchor geometry is mechanically inconsistent."
+    ],
+    "6234": [
+      "Nonelastic suspension straps change length substantially between poses; fixed anchor geometry is mechanically inconsistent."
+    ]
+  },
+  "coverageAfter": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1696,
+    "remainingVariants": 9568,
+    "approvedVariants": 0,
+    "blockedVariants": 608,
+    "knownPoseImages": 3437,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 1323,
+      "remainingVariants": 4309,
+      "blockedVariants": 489
+    }
+  },
+  "pipelineTests": "8 passed, 0 failed",
+  "approvedIndexUnchanged": true,
+  "existingUserApprovalsPreserved": 1306,
+  "publication": "none",
+  "anatomyReview": "pending",
+  "paidWorker": "disabled; inventory sync only, zero requests",
+  "stopReason": "Repeated systemic suspension geometry failure: both 6232 and 6234 alter nonelastic strap lengths materially between poses. Saved blocked and stopped before planned 6252.",
+  "nextRunGuidance": "Defer all suspension strap/ring movements until mechanically constrained generation strategy is reviewed. Next select clear free-weight exposed-muscle canonical exercises such as 6265,6267,6358,6359,6361. Avoid covered primary targets due to prior cutaway failures; avoid neutral hammer curls with supinated curl reference. 6252 prompt exists without original and is deferred.",
+  "styleReference": "assets/exercise-illustrations/generated/0853-male-anatomical-white-v1.png"
+}

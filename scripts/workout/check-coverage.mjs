@@ -18,8 +18,8 @@ if (
   ids.some((id) => !mapped.has(id))
 )
   errors.push('Media manifest does not cover catalog exactly once')
-if (programs.length !== 35 || new Set(programs.map((p) => p.id)).size !== 35)
-  errors.push('Expected 35 distinct programs')
+if (programs.length !== 53 || new Set(programs.map((p) => p.id)).size !== 53)
+  errors.push('Expected 53 distinct programs')
 for (const p of programs) {
   if (p.weeks.length !== 4) errors.push(p.id + ' lacks four weeks')
   for (const w of p.weeks)
@@ -126,7 +126,7 @@ const report = {
 report.publicLaunchReady =
   errors.length === 0 &&
   approved.length === ids.length &&
-  report.approvedPrograms === 35
+  report.approvedPrograms === programs.length
 writeFileSync(
   new URL('docs/workout/coverage.json', root),
   JSON.stringify(report, null, 2) + '\n',

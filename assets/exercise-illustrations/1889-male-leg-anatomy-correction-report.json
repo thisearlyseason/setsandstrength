@@ -1,0 +1,153 @@
+{
+  "runId": "6d93a54d-f5d7-4ae5-b745-fad44d498a0b",
+  "completedAt": "2026-11-03T20:05:35.958823+00:00",
+  "exerciseId": "1889",
+  "variant": "male",
+  "reason": "User identified incoherent folded-leg/ankle attachment around hip.",
+  "actualToolName": "image_gen__imagegen",
+  "calls": 1,
+  "tests": 7,
+  "paidApiUsed": false,
+  "publicationIndexUnchanged": true,
+  "job": {
+    "exerciseId": "1889",
+    "variant": "male",
+    "key": "1889-male-anatomical-white-v2",
+    "layout": {
+      "columns": 1,
+      "rows": 1
+    },
+    "poses": [
+      {
+        "key": "p1",
+        "caption": "Sit with one leg straight and loop a towel around the ball of that foot. Gently pull the towel to draw your toes toward your shin while keeping the knee straight. Hold for 20\u201330 seconds, then switch legs."
+      }
+    ],
+    "prompt": "Use case: scientific-educational. Corrected sitting toe pull Achilles stretch canonical1889. ONE adult male seated on white floor, BOTH LEGS fully EXTENDED FORWARD together but separated by15cm so each HIP to THIGH to KNEE to SHIN to ANKLE to SHOE is individually traceable. NO folded leg, NO crossed legs, NO shoe beside pelvis. Camera FRONT-SIDE three-quarter view, sees front of chest and same front orientation of pelvis, knees and feet. Right leg is nearer camera, fully straight knee, heel resting floor, toes pulled toward shin by GRAY TOWEL looped around BALL of RIGHT shoe. Both hands each hold one towel end near waist with gentle tension, towel has two separate strands from hands to forefoot. Other left leg lies straight alongside right, left ankle relaxed and heel grounded. Sit tall with long neutral back and relaxed shoulders, comfortable seated position. Right POSTERIOR CALF only RED educational muscle highlight with detailed muscle contours retained, located on calf belly BACK side of lower leg below knee, NEVER on anterior shin. Left leg muscles and all other skin grayscale. Entire pelvis and both legs must have coherent human joint connections with no missing segments, hidden extra limbs or misplaced feet. Premium detailed grayscale exposed muscular anatomy, realistic proportions, white backdrop soft contact shadows. Full opaque BLACK athletic tank and mid-thigh shorts wrap front sides back seat crotch with seams folds hems, black shoes. No transparent fabric or cutaways, no red chest or shirt. Full body both feet hands and towel within frame with generous margins wide landscape2:1. No text captions labels logos. Approved original artwork is for rendering style ONLY, ignore its exercise pose and chest highlight. Human anatomy review remains separate.",
+    "inspectionNote": "Version2 built-in image_gen replacement inspected: both legs now extend forward with coherent hip/knee/ankle connections, separated feet, towel around working forefoot and red posterior calf only. Torso and pelvis consistently face forward. Opaque tank/shorts retained. Qualified review still required for knee extension, comfortable ankle dorsiflexion, exact towel contact, hand anatomy and calf mapping. Malformed v1 preserved with blocking reason in correctionHistory. Anatomy review pending; no approval or publication.",
+    "canonicalName": "sitting toe pull achilles stretch",
+    "styleVersion": "white-v1",
+    "equipment": "body weight",
+    "primaryMuscles": [
+      "calves"
+    ],
+    "metadataReview": "Qualified review of technique and muscle mapping required.",
+    "reference": {
+      "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+      "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+      "role": "style only, not exercise pose"
+    },
+    "generation": {
+      "attempts": 2,
+      "provider": "built-in image_gen",
+      "costUSD": null,
+      "status": "generated"
+    },
+    "review": {
+      "status": "pending",
+      "notes": "Version2 built-in image_gen replacement inspected: both legs now extend forward with coherent hip/knee/ankle connections, separated feet, towel around working forefoot and red posterior calf only. Torso and pelvis consistently face forward. Opaque tank/shorts retained. Qualified review still required for knee extension, comfortable ankle dorsiflexion, exact towel contact, hand anatomy and calf mapping. Malformed v1 preserved with blocking reason in correctionHistory. Anatomy review pending; no approval or publication.",
+      "reviewer": ""
+    },
+    "assets": [
+      {
+        "pose": "p1",
+        "path": "/workout/illustration-pilot/1889-male-anatomical-white-v2-p1-dfd321307a53.webp",
+        "width": 1200,
+        "height": 600,
+        "bytes": 31476,
+        "sha256": "dfd321307a53acc9171ce08f09f36a1ee4704d41248986803e8030a3ed75a6de"
+      }
+    ],
+    "video": null,
+    "batch": "catalog-batch-246.json",
+    "blockingIssues": [],
+    "correctionHistory": [
+      {
+        "exerciseId": "1889",
+        "variant": "male",
+        "key": "1889-male-anatomical-white-v1",
+        "layout": {
+          "columns": 1,
+          "rows": 1
+        },
+        "poses": [
+          {
+            "key": "p1",
+            "caption": "Sit with one leg straight and loop a towel around the ball of that foot. Gently pull the towel to draw your toes toward your shin while keeping the knee straight. Hold for 20\u201330 seconds, then switch legs."
+          }
+        ],
+        "prompt": "SITTING TOE PULL ACHILLES STRETCH. ONE full-body static SIDE REAR three-quarter camera shows POSTERIOR rightcalf. Sit onfloor RIGHT legstraightforward heelgrounded, LEFT legcomfortablybent toside. A simple gray TOWEL loops around BALL of RIGHT foot, both hands hold one towelend each nearhips pullinggently so righttoesdrawtowardshin ankleDORSIFLEXED, RIGHT knee staysstraight. Spine tallcomfortable, no hunching or headturntwist. RIGHT POSTERIOR CALF RED with musclecontours, back of lowerleg from belowkneetoAchilles; FRONT tibialis/shin staysGRAY. Tankblack no redchest. Towel clearly connectsfootball andtwohands, no fusedlimbs. Fullfeet headhandsfloorcontacts margins. Hold20-30seconds. Use case: scientific-educational. Premium detailed ADULT MALE grayscale anatomical illustration matching original reference for rendering STYLE ONLY, ignore its pose and highlights. Realistic proportions, crisp exposed grayscale muscle contours, white background soft shadows. Full opaque BLACK athletic tank and mid-thigh shorts wrap front sides back seat crotch, seams hems folds; no transparency cutaways or anatomy visible through fabric. Red highlight over fabric must be a FLAT UNIFORM SOFT RED ELLIPSE teaching tint with no internal lines fibers rays or lobes; fabric folds retained. Black shoes. No text labels arrows captions logos. All limbs fingers feet and equipment entirely in frame with generous margins. Same person camera lighting and scale across poses.",
+        "inspectionNote": "Real output inspected. Seated toe-pull stretch: straight leg, towel around forefoot held with both hands, heel supported and toes toward shin. Posterior calf highlighted, torso/legs coherent. Qualified review needed for towel contact, comfortable dorsiflexion, knee extension and calf mapping. Detailed grayscale rendering, white background and full opaque tank/shorts retained. Original project artwork style only, no upstream media. Exact prompt and original saved. Human anatomy review pending; no approval or publication.",
+        "canonicalName": "sitting toe pull achilles stretch",
+        "styleVersion": "white-v1",
+        "equipment": "body weight",
+        "primaryMuscles": [
+          "calves"
+        ],
+        "metadataReview": "Qualified review of technique and muscle mapping required.",
+        "reference": {
+          "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+          "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+          "role": "style only, not exercise pose"
+        },
+        "generation": {
+          "attempts": 1,
+          "provider": "built-in image_gen",
+          "costUSD": null,
+          "status": "generated"
+        },
+        "review": {
+          "status": "pending",
+          "notes": "User identified malformed folded leg and ankle near hip. Blocked for correction; anatomy review pending.",
+          "reviewer": ""
+        },
+        "assets": [
+          {
+            "pose": "p1",
+            "path": "/workout/illustration-pilot/1889-male-anatomical-white-v1-p1-6474760d267c.webp",
+            "width": 1200,
+            "height": 600,
+            "bytes": 31392,
+            "sha256": "6474760d267c3bd13ef95193bea519c5bc017a36880f4286b98c2ccd336c1da8"
+          }
+        ],
+        "video": null,
+        "batch": "catalog-batch-246.json",
+        "thumbnail": {
+          "path": "/workout/illustration-pilot/1889-male-anatomical-white-v1-thumb-02da7cbb4349.webp",
+          "width": 240,
+          "height": 120,
+          "bytes": 1900,
+          "sha256": "02da7cbb43490c9bf170355e0f7707fb11d3a058a7d910d8bb6e4bedcb4d94c0"
+        },
+        "processingSignature": "7aefb94c0e877c877230a5f4e055de01286650169622b699fbbf2bd12489bceb",
+        "master": {
+          "path": "assets/exercise-illustrations/generated/1889-male-anatomical-white-v1.png",
+          "width": 1774,
+          "height": 887,
+          "bytes": 1422499,
+          "sha256": "ce3cecd5c3009b80b3d9fa7923cefd3b589ee606c00ea790b5a554a83fec5128"
+        },
+        "blockingIssues": [
+          "User identified incoherent folded-leg/ankle connection around pelvis; replace with clearly traceable coherent leg anatomy."
+        ],
+        "correctionReason": "User identified incoherent folded-leg/ankle attachment around hip."
+      }
+    ],
+    "thumbnail": {
+      "path": "/workout/illustration-pilot/1889-male-anatomical-white-v2-thumb-f9fc8d3b572b.webp",
+      "width": 240,
+      "height": 120,
+      "bytes": 1918,
+      "sha256": "f9fc8d3b572bb890ed8583e7a2ca10b64e0a2a11b621e482186f9aba8d3842e7"
+    },
+    "processingSignature": "1650caaad855e3464971c1c654350ea1a7560849ee4efe3878902759bb5d7ca1",
+    "master": {
+      "path": "assets/exercise-illustrations/generated/1889-male-anatomical-white-v2.png",
+      "width": 1774,
+      "height": 887,
+      "bytes": 1464194,
+      "sha256": "608f185a7c540f328548bfc8d120899caf8d88ba6bf64956fa55f9c1ec5da063"
+    }
+  }
+}

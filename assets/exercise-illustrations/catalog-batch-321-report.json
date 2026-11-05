@@ -1,0 +1,74 @@
+{
+  "batch": 321,
+  "runId": "5313fd74-c60c-4764-badf-990d0d463aca",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "trigger": "2026-11-04T08:02:58.605Z",
+  "purpose": "batch321 scheduled male continuation",
+  "started": "2026-11-04T08:03:17.130352+00:00",
+  "completedAt": "2026-11-04T08:09:08.042761+00:00",
+  "actualToolName": "image_gen__imagegen",
+  "calls": 4,
+  "newCandidateSets": 4,
+  "exerciseIds": [
+    "3001",
+    "3002",
+    "3006",
+    "3013"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1151,
+    "remainingVariants": 10113,
+    "approvedVariants": 0,
+    "blockedVariants": 410,
+    "knownPoseImages": 2240,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 778,
+      "remainingVariants": 4854,
+      "blockedVariants": 291
+    }
+  },
+  "reviewNotes": {
+    "3001": "Standing and squat phases visible, heels planted and knees directed over toes with black opaque shorts/tank and exposed quad highlights. Qualified review of tracking, stance width and squat depth pending.",
+    "3002": "Same right palm supports kneeling push-up, opposite hand behind back, wide knees on floor and bent-elbow lowering shown. Opaque clothing and soft chest wash present. Qualified review of head-to-knees alignment, antirotation and palm/elbow position pending.",
+    "3006": "Seated knees move apart against loop above knees, hands support bench and feet grounded. Outer hip wash on intact shorts. Qualified review of band placement, knee motion and exact gluteus medius mapping pending.",
+    "3013": "Floor bridge lowered and elevated phases show palms down, planted feet and opaque shorts with glute wash. Head/neck visibly hover above floor rather than resting; block head support correction. Qualified pelvic alignment review pending."
+  },
+  "blockingIssues": {
+    "3013": [
+      "Place head and neck comfortably on floor in both bridge phases; remove unsupported hovering."
+    ]
+  },
+  "deferred": {
+    "3007": "Standing forward movement facing anterior anchor conflicts with knee-extension resistance direction; clarify setup.",
+    "3011": "Scapular push-up name versus elbow-bending instructions conflict.",
+    "3012": "Straight-arm scapular dip description versus bent-elbow unsupported standing instructions conflict."
+  },
+  "tests": 7,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "workerSyncResult": {
+    "statuses": {
+      "generated": 1151,
+      "pending": 10113
+    },
+    "remaining": 10113,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 1762485970
+  },
+  "publicationIndexUnchanged": true
+}

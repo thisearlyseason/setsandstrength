@@ -1,0 +1,75 @@
+{
+  "batch": 324,
+  "runId": "a88eb282-23e7-4712-9d12-f99a053c9be1",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "trigger": "2026-11-04T08:24:59.162Z",
+  "purpose": "batch324 scheduled male continuation",
+  "started": "2026-11-04T08:25:19.625689+00:00",
+  "completedAt": "2026-11-04T08:32:24.352247+00:00",
+  "actualToolName": "image_gen__imagegen",
+  "calls": 4,
+  "newCandidateSets": 4,
+  "exerciseIds": [
+    "3068",
+    "3083",
+    "3084",
+    "3086"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1163,
+    "remainingVariants": 10101,
+    "approvedVariants": 0,
+    "blockedVariants": 416,
+    "knownPoseImages": 2265,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 790,
+      "remainingVariants": 4842,
+      "blockedVariants": 297
+    }
+  },
+  "reviewNotes": {
+    "3068": "Two low-pulley rope curl phases with both rope ends held, elbows near sides, upright torso and biceps red only. Opaque clothes intact. Qualified review of rope length consistency, wrist position and elbow travel pending.",
+    "3083": "Seated bilateral supinated curl starts arms down and finishes weights near shoulders; feet planted and opaque clothes. Qualified review of fixed upper arms, grip and elbow range pending.",
+    "3084": "Same right dumbbell curls on preacher pad but elbow shifts markedly upward from lower pad to middle at top, violating fixed elbow pivot. Biceps red only and opaque clothing. Block arm support correction; qualified joint/grip review pending.",
+    "3086": "Standing start followed by repeated same raised knee in both twist phases rather than opposite knees. Tank wash largely plain with folds. Block alternation and opposite elbow/knee approach correction; qualified torso rotation review pending."
+  },
+  "blockingIssues": {
+    "3084": [
+      "Keep entire upper arm supported and elbow fixed at same point on pad throughout curl; currently elbow shifts upward."
+    ],
+    "3086": [
+      "Third panel must lift opposite knee toward opposite elbow; current two action panels repeat same leg."
+    ]
+  },
+  "deferred": {
+    "3075": "Record links maleVariant 1731; ordinary female counterpart or duplicate uncertain, not a female exception. Deferred scope clarification."
+  },
+  "tests": 7,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "workerSyncResult": {
+    "statuses": {
+      "generated": 1163,
+      "pending": 10101
+    },
+    "remaining": 10101,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 1780586675
+  },
+  "publicationIndexUnchanged": true
+}

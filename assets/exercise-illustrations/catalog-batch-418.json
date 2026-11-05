@@ -1,0 +1,128 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "3770",
+      "variant": "male",
+      "key": "3770-male-anatomical-white-v1",
+      "prompt": "BAND SQUAT WITH SINGLE ARM ROW THREE panels sidefront view. Elastic band SECURELY low anchored on fixed post ahead, continuous band to fully visible Dhandle in RIGHT hand. First stand lighttension armextended. Second squat chestup feetflat armextended. Third stand then row handle to ribs rightelbowclosebody. LEFT arm relaxed. Quads red exposed only. Use case: scientific-educational. Premium detailed grayscale anatomical adult male illustration on pure white background. Original project artwork reference for rendering style ONLY, never reference movement or chest overlay. Crisp detailed exposed muscle contours, realistic joints and proportions, soft contact shadows. Same model, camera, equipment, clothing and scale in every panel. Solid opaque BLACK tank and mid-thigh shorts completely wrap front, sides, back, seat and crotch, with seams folds and hems. Covered primary muscles: only a flat red teaching wash on intact fabric, NO fibers, lobes, nipples, muscle shapes, cutaways or transparency. Exposed primary muscles red as specified. Whole body, hands, feet and complete equipment within every equal-width panel with generous white margins above and below. No text, labels, arrows, numbers or logos. Reference is STYLE ONLY: do not copy reference bench, push-up or hand positions. Equipment proportions realistic and consistent; complete continuous attachments. IMPORTANT input is STYLE ONLY. No bench, no push-up, no red chest overlay. Render ONLY specified band exercise and post. Primary-muscle highlights confined to specified location. Garments must not contain anatomical fibers. Maintain equal human body scale across panels.",
+      "layout": {
+        "columns": 3,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand holding low anchored band."
+        },
+        {
+          "key": "p2",
+          "caption": "Squat with chest up."
+        },
+        {
+          "key": "p3",
+          "caption": "Stand and row handle to ribs, then release slowly."
+        }
+      ],
+      "inspectionNote": "Real output inspected. Stand, squat, stand-and-row sequence with continuous low band and visible Dhandle; full equipment fits. Qualified anatomy review pending; no publication.",
+      "blockingIssues": [],
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream media used.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only"
+      }
+    },
+    {
+      "exerciseId": "3772",
+      "variant": "male",
+      "key": "3772-male-anatomical-white-v1",
+      "prompt": "BAND HIGH KNEE LUNGE WITH SINGLE ARM ROW THREE panels sidefront view. Low anchored band fixedpost ahead to RIGHT Dhandle fullyconnected. First upright setup. Second RIGHT leg stepsback into lunge LEFTfrontthighparallel, RIGHT arm extended. Third standonLEFTleg driveRIGHTknee tohipheight while RIGHTelbowrows handle toribs. No twist. LEFTquads exposed red only. Use case: scientific-educational. Premium detailed grayscale anatomical adult male illustration on pure white background. Original project artwork reference for rendering style ONLY, never reference movement or chest overlay. Crisp detailed exposed muscle contours, realistic joints and proportions, soft contact shadows. Same model, camera, equipment, clothing and scale in every panel. Solid opaque BLACK tank and mid-thigh shorts completely wrap front, sides, back, seat and crotch, with seams folds and hems. Covered primary muscles: only a flat red teaching wash on intact fabric, NO fibers, lobes, nipples, muscle shapes, cutaways or transparency. Exposed primary muscles red as specified. Whole body, hands, feet and complete equipment within every equal-width panel with generous white margins above and below. No text, labels, arrows, numbers or logos. Reference is STYLE ONLY: do not copy reference bench, push-up or hand positions. Equipment proportions realistic and consistent; complete continuous attachments. IMPORTANT input is STYLE ONLY. No bench, no push-up, no red chest overlay. Render ONLY specified band exercise and post. Primary-muscle highlights confined to specified location. Garments must not contain anatomical fibers. Maintain equal human body scale across panels.",
+      "layout": {
+        "columns": 3,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand with low band handle."
+        },
+        {
+          "key": "p2",
+          "caption": "Step back into lunge."
+        },
+        {
+          "key": "p3",
+          "caption": "Drive rear knee up and row while balancing."
+        }
+      ],
+      "inspectionNote": "Real output inspected. Lunge and knee drive with row shown but anchor is waist height rather than low. Qualified anatomy review pending; no publication.",
+      "blockingIssues": [
+        "Anchor at waist height instead of canonical low anchor."
+      ],
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream media used.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only"
+      }
+    },
+    {
+      "exerciseId": "3773",
+      "variant": "male",
+      "key": "3773-male-anatomical-white-v1",
+      "prompt": "BAND SINGLE STIFF LEG DEADLIFT WITH SINGLE ARM ROW THREE panels sideview. Band lowanchoredfixedpost ahead completeconnection toRIGHTDhandle. StandonLEFTleg softknee. First upright rightfootraised. Second hiphinge torso forwardRIGHTleg extendsbehind almosthorizontal, RIGHTarmreachesanchor. Third REMAINHINGED pullRIGHThandle toribs elbowclose, rearlegstillextended. LEFT HAMSTRINGS red exposed posterior thigh only. Use case: scientific-educational. Premium detailed grayscale anatomical adult male illustration on pure white background. Original project artwork reference for rendering style ONLY, never reference movement or chest overlay. Crisp detailed exposed muscle contours, realistic joints and proportions, soft contact shadows. Same model, camera, equipment, clothing and scale in every panel. Solid opaque BLACK tank and mid-thigh shorts completely wrap front, sides, back, seat and crotch, with seams folds and hems. Covered primary muscles: only a flat red teaching wash on intact fabric, NO fibers, lobes, nipples, muscle shapes, cutaways or transparency. Exposed primary muscles red as specified. Whole body, hands, feet and complete equipment within every equal-width panel with generous white margins above and below. No text, labels, arrows, numbers or logos. Reference is STYLE ONLY: do not copy reference bench, push-up or hand positions. Equipment proportions realistic and consistent; complete continuous attachments. IMPORTANT input is STYLE ONLY. No bench, no push-up, no red chest overlay. Render ONLY specified band exercise and post. Primary-muscle highlights confined to specified location. Garments must not contain anatomical fibers. Maintain equal human body scale across panels.",
+      "layout": {
+        "columns": 3,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Balance on one leg with low band handle."
+        },
+        {
+          "key": "p2",
+          "caption": "Hinge forward as free leg extends behind."
+        },
+        {
+          "key": "p3",
+          "caption": "Row handle to ribs, then extend arm and stand."
+        }
+      ],
+      "inspectionNote": "Real output inspected. Single-leg hinge and row sequence, rear leg extended and standing hamstring highlight; continuous attachment. Qualified anatomy review pending; no publication.",
+      "blockingIssues": [],
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream media used.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only"
+      }
+    },
+    {
+      "exerciseId": "3774",
+      "variant": "male",
+      "key": "3774-male-anatomical-white-v1",
+      "prompt": "BAND SQUAT WITH HORIZONTAL PALLOF HOLD TWO panels frontthreequarter. Band chestheightanchoredfixedpost to athletesLEFT, continuous band sidepulls tohandle BOTH hands held straightFORWARD at shoulderheight. Hips shoulderssquareforward. First standing armsout. Second squat knees90 feetflat armsremainstraightforward handle steady. Quads red exposed only. Use case: scientific-educational. Premium detailed grayscale anatomical adult male illustration on pure white background. Original project artwork reference for rendering style ONLY, never reference movement or chest overlay. Crisp detailed exposed muscle contours, realistic joints and proportions, soft contact shadows. Same model, camera, equipment, clothing and scale in every panel. Solid opaque BLACK tank and mid-thigh shorts completely wrap front, sides, back, seat and crotch, with seams folds and hems. Covered primary muscles: only a flat red teaching wash on intact fabric, NO fibers, lobes, nipples, muscle shapes, cutaways or transparency. Exposed primary muscles red as specified. Whole body, hands, feet and complete equipment within every equal-width panel with generous white margins above and below. No text, labels, arrows, numbers or logos. Reference is STYLE ONLY: do not copy reference bench, push-up or hand positions. Equipment proportions realistic and consistent; complete continuous attachments. IMPORTANT input is STYLE ONLY. No bench, no push-up, no red chest overlay. Render ONLY specified band exercise and post. Primary-muscle highlights confined to specified location. Garments must not contain anatomical fibers. Maintain equal human body scale across panels.",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand side-on to anchor with handle pressed forward."
+        },
+        {
+          "key": "p2",
+          "caption": "Squat without rotating, keeping arms extended, then stand."
+        }
+      ],
+      "inspectionNote": "Real output inspected. Pallof position and squat shown but band anchor changes height on fixed post between panels. Qualified anatomy review pending; no publication.",
+      "blockingIssues": [
+        "Anchor attachment moves down post between standing and squat panels."
+      ],
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream media used.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only"
+      }
+    }
+  ]
+}

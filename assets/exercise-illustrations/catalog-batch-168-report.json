@@ -1,0 +1,62 @@
+{
+  "batch": 168,
+  "runId": "1d900b3b-2a8e-4638-b42e-fb20ef9c2b2a",
+  "trigger": "2026-11-03T08:59:58.116Z",
+  "completedAt": "2026-11-03T09:07:10.374320+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 2,
+  "generationCalls": 3,
+  "exerciseIds": [
+    "1228"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 650,
+    "remainingVariants": 10614,
+    "approvedVariants": 0,
+    "blockedVariants": 221,
+    "knownPoseImages": 1306,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Two standing dumbbell inner biceps curl candidates, four poses, three built-in calls including retained female composition correction. Female original incorrectly included male figures; edit leaves exactly the same female in two poses. Both variants show near-extended to flexed bilateral elbows, supinated grips and biceps red with upright stance and full opaque black clothing. Fine exposed grayscale anatomy retained. Qualified outward elbow angle/upper-arm drift, wrist/grip, symmetry and proportions require human review. Every original, exact prompt and correction history saved; no anatomy/clothing approval or publication. Original project artwork rendering style only, no upstream licensed input. Seven pipeline checks do not establish anatomical accuracy.",
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 1031500048,
+  "savedMasters": [
+    {
+      "exerciseId": "1228",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1228-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1355108,
+        "sha256": "508658f3cea74ebea2e24a266f7f797f9fea3ffcdbfa7236243c6b7111f7b446"
+      }
+    },
+    {
+      "exerciseId": "1228",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1228-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1289859,
+        "sha256": "7e960bd7a9accd84e2db1c64f088fe9309a0600781aa377b98ffb55b4fc3c634"
+      }
+    }
+  ]
+}

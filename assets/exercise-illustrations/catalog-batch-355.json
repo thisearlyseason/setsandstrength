@@ -1,0 +1,339 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "3389",
+      "variant": "male",
+      "key": "3389-male-anatomical-white-v1",
+      "prompt": "Two equal panels SIDE three-quarter camera headLEFT chairRIGHT. CHAIR-ASSISTED SITUP. Lower legs CALVES rest horizontally on sturdy CHAIR SEAT atRIGHT knees bent90, hips onfloor allposes. Arms CROSSED OVERCHEST hands opposite shoulders. Panel1 lies fully flat headshouldersbackFLOOR neckneutral. Panel2 curl torso UP toward knees into seated curl, hipsstayfloor calvesstaychair, no handpull no neckcrane. Primary ABS small plain uniform red wash intact black abdomen only. Premium detailed adult MALE grayscale anatomical illustration on pure white with soft shadows, realistic equipment detailed exposed gray muscles. Original project reference STYLE ONLY. Opaque black tank/mid-thigh shorts wrap front sides back seat crotch with seams folds hems. Covered primary red highlight SMALL PLAIN UNIFORM wash on intact cloth, NO fibers/lobes/segments/cutaways. One head two arms/hands two legs/feet per figure. Same model/camera/scale all panels, full body/equipment in frame. No text arrows logos.",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Lie flat with lower legs on chair seat and arms crossed over chest."
+        },
+        {
+          "key": "p2",
+          "caption": "Curl torso toward knees, pause, then lower slowly."
+        }
+      ],
+      "inspectionNote": "Real output inspected. Chair-supported sit-up with crossed arms, but start head/shoulders already lifted and abdominal anatomical segments appear through tank. Opaque shorts, lower-leg chair contact visible. Correction required. Human anatomy review pending. No approval or publication.",
+      "blockingIssues": [
+        "Rest head and shoulders on floor in start.",
+        "Replace abdominal anatomical segments through tank with plain uniform wash."
+      ],
+      "canonicalName": "sit up with chair assisted",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "abs"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Chair-supported sit-up with crossed arms, but start head/shoulders already lifted and abdominal anatomical segments appear through tank. Opaque shorts, lower-leg chair contact visible. Correction required. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/3389-male-anatomical-white-v1-p1-e6fa30094293.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 34722,
+          "sha256": "e6fa300942932da4b7944e0d5371a53aa6492c08b386613afb507e25d079cc8d"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/3389-male-anatomical-white-v1-p2-9ad53fe18ff7.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 36924,
+          "sha256": "9ad53fe18ff7c0f2190c940fbe18eb14c2a0370ddd90bd99ca394c5788736caf"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-355.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/3389-male-anatomical-white-v1-thumb-835a8a07a0c9.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 3226,
+        "sha256": "835a8a07a0c9f42c049ef80c41677f97332f53f10898c18bec240b18933afe58"
+      },
+      "processingSignature": "1721491621997473fff28b151fe1ea17527c955684c6131d0b0afe33a8217fb8",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/3389-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1489906,
+        "sha256": "9373d88b0e25221133eb32c8b61b97a3882ae8dd59fafb29c82e3b6df3591e32"
+      }
+    },
+    {
+      "exerciseId": "3390",
+      "variant": "male",
+      "key": "3390-male-anatomical-white-v1",
+      "prompt": "Two equal panels same REAR SIDE three-quarter view. DEFICIT CALF RAISE with CHAIR support. Stable low STEP below model, BOTH forefeet/balls of feet on SAMEstepEDGE toesforward feetHIPwidth, HEELS project OFFedge towardviewer. Hands lightly hold sturdy chairBACK inFRONTofmodel onfloor; show wholechair stepfeet. Kneesnearlystraight torsotall. Panel1 BOTHheels DROPBELOWstepTOP for calf stretch. Panel2 BOTHheels RISEHIGHABOVEstepTOP plantarflexion, forefeetstaySAMEcontact stepedge. Samechairfeet no anklecollapse no stepunderheels. Primary exposed CALVES red ONLY, shorts/tankblack. Premium detailed adult MALE grayscale anatomical illustration on pure white with soft shadows, realistic equipment detailed exposed gray muscles. Original project reference STYLE ONLY. Opaque black tank/mid-thigh shorts wrap front sides back seat crotch with seams folds hems. Covered primary red highlight SMALL PLAIN UNIFORM wash on intact cloth, NO fibers/lobes/segments/cutaways. One head two arms/hands two legs/feet per figure. Same model/camera/scale all panels, full body/equipment in frame. No text arrows logos.",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hold chair for balance with forefeet on step edge and heels lowered below step."
+        },
+        {
+          "key": "p2",
+          "caption": "Rise onto toes, pause, then lower heels slowly."
+        }
+      ],
+      "inspectionNote": "Real output inspected. Chair-supported calf raise with step and calf highlights, opaque clothing. Start heels remain at step height instead of hanging below edge, missing deficit stretch. Correction required. Human anatomy review pending. No approval or publication.",
+      "blockingIssues": [
+        "Place forefeet at step edge with heels clearly lowered below step top in start, keeping same forefoot contact at raised endpoint."
+      ],
+      "canonicalName": "calf raise from deficit with chair supported",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "calves"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Chair-supported calf raise with step and calf highlights, opaque clothing. Start heels remain at step height instead of hanging below edge, missing deficit stretch. Correction required. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/3390-male-anatomical-white-v1-p1-c7c69b2c1c76.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 36024,
+          "sha256": "c7c69b2c1c76c2246189c863b32ba6d683d428059c1913fe185e73bb7a22af9a"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/3390-male-anatomical-white-v1-p2-d1c47f351fc2.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 35802,
+          "sha256": "d1c47f351fc2271d7f93dbed932d3fadc4296d6e2b998f9565d7ccdc626585a1"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-355.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/3390-male-anatomical-white-v1-thumb-0743836afd3a.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 3890,
+        "sha256": "0743836afd3a770e0fef863d2139e9651b388fdd1188ad1d3db35d0b9bc057f1"
+      },
+      "processingSignature": "044246d07a68a4ed26cfe162a4dc25be9bdaaa4f09ed84c3890e600103e727e2",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/3390-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1787993,
+        "sha256": "295b6a818d41d35b82aa4c80c0e71ba39bddafddbde073f3fa3e627a24b4356a"
+      }
+    },
+    {
+      "exerciseId": "3391",
+      "variant": "male",
+      "key": "3391-male-anatomical-white-v1",
+      "prompt": "Three equal panels same elevated FRONT view. BENTOVER TWIST bodyweight. FeetWIDE bothplanted kneesSOFT, hinge torso forward with flatback nearlyhorizontal pelvisstable. Panel1 BOTHarmsSTRAIGHToutSIDES formT atshoulderline. Panel2 RIGHT hand reaches toward LEFTfoot viewerRIGHT, LEFTarm pointsUP, torso rotatesRIGHTshoulderDOWN leftUP. Panel3 LEFT hand reaches toward RIGHTfoot viewerLEFT, RIGHTarm pointsUP exactmirror. Clearlyoppositecrossbodyreaches, no knee squat orroundback. Primary ABS smallplainuniformredwash intactblackabdomenONLY. Premium detailed adult MALE grayscale anatomical illustration on pure white with soft shadows, realistic equipment detailed exposed gray muscles. Original project reference STYLE ONLY. Opaque black tank/mid-thigh shorts wrap front sides back seat crotch with seams folds hems. Covered primary red highlight SMALL PLAIN UNIFORM wash on intact cloth, NO fibers/lobes/segments/cutaways. One head two arms/hands two legs/feet per figure. Same model/camera/scale all panels, full body/equipment in frame. No text arrows logos.",
+      "layout": {
+        "columns": 3,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hinge forward with wide stance and arms extended sideways."
+        },
+        {
+          "key": "p2",
+          "caption": "Rotate right hand toward left foot under control."
+        },
+        {
+          "key": "p3",
+          "caption": "Return through center and rotate left hand toward right foot."
+        }
+      ],
+      "inspectionNote": "Real output inspected. Wide stance hinge with T start and mirrored opposite hand-to-foot rotations. Opaque clothing with small abdomen wash. Qualified hip stability, neck alignment, soft knees and controlled rotation range review pending. Human anatomy review pending. No approval or publication.",
+      "canonicalName": "bent over twist",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "abs"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Wide stance hinge with T start and mirrored opposite hand-to-foot rotations. Opaque clothing with small abdomen wash. Qualified hip stability, neck alignment, soft knees and controlled rotation range review pending. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/3391-male-anatomical-white-v1-p1-176d39a8c6fb.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 18098,
+          "sha256": "176d39a8c6fb479d06c9bba88653c42131b75a72f2f6115fae03307ed69914a1"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/3391-male-anatomical-white-v1-p2-02a88e5036e4.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 19200,
+          "sha256": "02a88e5036e4fedd36ef000fe5824e5145693e179cc0d367cddb90169ebd7491"
+        },
+        {
+          "pose": "p3",
+          "path": "/workout/illustration-pilot/3391-male-anatomical-white-v1-p3-3262186345ae.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 19436,
+          "sha256": "3262186345ae7d1231e84a30188e0ef4fd3b1ca98dc92fefdae9a998a517edbf"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-355.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/3391-male-anatomical-white-v1-thumb-18f6ce546cad.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2570,
+        "sha256": "18f6ce546cad6bc4a4e33a95e7872c394de907b224dce725c2a5f7e51da47d92"
+      },
+      "processingSignature": "b748b66569baa401feeb04ac3c6d494bc9920ce66c7a933fefa7b59054189dae",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/3391-male-anatomical-white-v1.png",
+        "width": 2172,
+        "height": 724,
+        "bytes": 1366803,
+        "sha256": "2aa18c57af310bf52cb3ee4b2dd4aed20609cd045bf467c3468680d2ab0c0be4"
+      }
+    },
+    {
+      "exerciseId": "3392",
+      "variant": "male",
+      "key": "3392-male-anatomical-white-v1",
+      "prompt": "Two equal panels same SIDE three-quarter view facingLEFT. NARROW HEEL-ELEVATED SQUAT. BOTHheelsrestONlowstableheelplatform about3cm high, toes/forefeetFLATFLOOR inFRONTplatform, feetCLOSEtogether narrowstance. BOTHarmsstraightforward atshoulderheight allposes. Panel1 standtall knees soft. Panel2 squatdeep hipsdown kneestracktoes torsochestup, SAMEheelsstayONplatform toesfloor. No broadstepunderwholefoot noairborneheels. Primary QUADRICEPS red exposedfrontthigh plusSMALLplainuniformwash intactfrontshorts CLEARhems NO fiberscloth; torsoblack. Premium detailed adult MALE grayscale anatomical illustration on pure white with soft shadows, realistic equipment detailed exposed gray muscles. Original project reference STYLE ONLY. Opaque black tank/mid-thigh shorts wrap front sides back seat crotch with seams folds hems. Covered primary red highlight SMALL PLAIN UNIFORM wash on intact cloth, NO fibers/lobes/segments/cutaways. One head two arms/hands two legs/feet per figure. Same model/camera/scale all panels, full body/equipment in frame. No text arrows logos.",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand narrow with heels on low platform and arms forward."
+        },
+        {
+          "key": "p2",
+          "caption": "Squat within controlled range with knees tracking toes; stand tall."
+        }
+      ],
+      "inspectionNote": "Real output inspected. Narrow heel-elevated squat standing and deep phases with arms forward, opaque shorts/plain front-thigh wash and black tank. Qualified heel-platform contact, knee tracking, balance and depth review pending. Human anatomy review pending. No approval or publication.",
+      "canonicalName": "narrow squat from deficit",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "quads"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Narrow heel-elevated squat standing and deep phases with arms forward, opaque shorts/plain front-thigh wash and black tank. Qualified heel-platform contact, knee tracking, balance and depth review pending. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/3392-male-anatomical-white-v1-p1-e24432a66a7f.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 23482,
+          "sha256": "e24432a66a7f8f4a83cd86315108c1efa20b5cec5da9644929676a64035fd0df"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/3392-male-anatomical-white-v1-p2-f445f5e75694.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 22844,
+          "sha256": "f445f5e7569486580c69f5c3b378c4d74d1097de4a73fa90feefbcba90437ff3"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-355.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/3392-male-anatomical-white-v1-thumb-9a682ae38100.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2344,
+        "sha256": "9a682ae38100e7f084baa42a4d0a78b5dbfe9c0e64300883441f11cf9f0d627f"
+      },
+      "processingSignature": "236d09fe9bae443e9bbd1d0188d3853739f5c8f7e8f1417225642651a2feeca5",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/3392-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1322333,
+        "sha256": "05e1eea5dbadb934a69986c311af64c6cbf9e09b2395bae773fab39a7a2dcd2b"
+      }
+    }
+  ]
+}

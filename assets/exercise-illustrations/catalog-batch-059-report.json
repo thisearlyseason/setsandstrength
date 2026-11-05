@@ -1,0 +1,101 @@
+{
+  "batch": 59,
+  "trigger": "2026-11-01T12:22:45.524Z",
+  "completedAt": "2026-11-01T12:34:55.972225+00:00",
+  "tool": "image_gen.imagegen",
+  "newCandidateSets": 4,
+  "generationCalls": 5,
+  "exerciseIds": [
+    "0138",
+    "0139"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 232,
+    "remainingVariants": 11032,
+    "approvedVariants": 0,
+    "blockedVariants": 100,
+    "knownPoseImages": 468,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "All pending and unpublished. Bottoms-up uses three phases including bent knees and pelvic curl, opaque rear/crotch clothing and supported upper body inspected; male endpoint has greater hip elevation and needs qualified range/cervical review. Underhand biceps pull-ups show full suspension and chin-up endpoint; male extra crossbar corrected, original retained. Qualified grip and anatomy review remains separate.",
+  "metadataConflictsDeferred": [
+    {
+      "exerciseId": "0140",
+      "issue": "Description underhand but instructions palms away; deferred."
+    },
+    {
+      "exerciseId": "0150",
+      "issue": "Target lats but muscleMap upper-back; qualified mapping review needed."
+    },
+    {
+      "exerciseId": "0151",
+      "issue": "Bench-press title/description but instructions standing cable press; deferred."
+    },
+    {
+      "exerciseId": "0152",
+      "issue": "Description kneeling concentration extension versus seated knee support instructions; deferred."
+    }
+  ],
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 374565409,
+  "savedMasters": [
+    {
+      "exerciseId": "0138",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0138-male-anatomical-white-v1.png",
+        "width": 2169,
+        "height": 725,
+        "bytes": 1381129,
+        "sha256": "618b68ce5d9afab92916414c1199168e9ca4b746f9e43cf131b331a23da9f82b"
+      }
+    },
+    {
+      "exerciseId": "0138",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0138-female-anatomical-white-v1.png",
+        "width": 2161,
+        "height": 728,
+        "bytes": 1331752,
+        "sha256": "c98228fd7b09d64945613f0f913aceba7ea320abaa9212b93fa4f64a14fb7c0a"
+      }
+    },
+    {
+      "exerciseId": "0139",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0139-male-anatomical-white-v2.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1437106,
+        "sha256": "8e68504667e09ed0ca54c61251c83c90383873be932849d314ac114f4ee648ff"
+      }
+    },
+    {
+      "exerciseId": "0139",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0139-female-anatomical-white-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1401534,
+        "sha256": "0f482e1f37c52e287cbc41f586f533ae2578b5ae634f0b8cd4c33c79625d0374"
+      }
+    }
+  ]
+}

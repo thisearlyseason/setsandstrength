@@ -1,0 +1,111 @@
+{
+  "jobs": [
+    {
+      "key": "0293-male-anatomical-white-v1",
+      "exerciseId": "0293",
+      "variant": "male",
+      "prompt": "Premium detailed grayscale anatomical fitness illustration on pure white background. Realistic adult male model, fully opaque black training T-shirt covering torso and mid-thigh shorts wrapping entire front sides back and crotch, continuous seams folds and hems, black shoes. Fine anatomical muscle contours on exposed limbs. Red target-muscle location overlay on intact shirt, never transparency or missing fabric. TWO equally sized side-by-side panels. Same model, camera, equipment and scale. Full body, hands and equipment within each panel with generous white margins. No text, captions, labels, borders or watermarks. DUMBBELL BENT OVER ROW with TWO dumbbells simultaneously, not a bench-supported one-arm row. Side three-quarter view showing both arms and upper back. Both poses maintain stable hip hinge, neutral spine/neck, knees slightly bent, feet grounded. Left: arms hang down under shoulders, palms face each other. Right: bend both elbows to row dumbbells toward lower ribs, elbows pass torso, wrists neutral; do not stand up or change torso angle. Red overlay upper-back region over intact shirt.",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hinge \u00b7 arms lowered"
+        },
+        {
+          "key": "p2",
+          "caption": "Row both dumbbells"
+        }
+      ],
+      "inspectionNote": "Visible clothing intact; full body/equipment framed; lowered and raised poses distinct. Qualified anatomical and exercise-technique review remains required.",
+      "blockingIssues": [
+        "Verify neutral-grip wrist orientation, torso stability and upper-back highlight boundaries; side view overlaps far hand/equipment."
+      ]
+    },
+    {
+      "key": "0293-female-anatomical-white-v1",
+      "exerciseId": "0293",
+      "variant": "female",
+      "prompt": "Premium detailed grayscale anatomical fitness illustration on pure white background. Realistic adult female model, fully opaque black training T-shirt covering torso and mid-thigh shorts wrapping entire front sides back and crotch, continuous seams folds and hems, black shoes. Fine anatomical muscle contours on exposed limbs. Red target-muscle location overlay on intact shirt, never transparency or missing fabric. TWO equally sized side-by-side panels. Same model, camera, equipment and scale. Full body, hands and equipment within each panel with generous white margins. No text, captions, labels, borders or watermarks. DUMBBELL BENT OVER ROW with TWO dumbbells simultaneously, not a bench-supported one-arm row. Side three-quarter view showing both arms and upper back. Both poses maintain stable hip hinge, neutral spine/neck, knees slightly bent, feet grounded. Left: arms hang down under shoulders, palms face each other. Right: bend both elbows to row dumbbells toward lower ribs, elbows pass torso, wrists neutral; do not stand up or change torso angle. Red overlay upper-back region over intact shirt.",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hinge \u00b7 arms lowered"
+        },
+        {
+          "key": "p2",
+          "caption": "Row both dumbbells"
+        }
+      ],
+      "inspectionNote": "Visible clothing intact; full body/equipment framed; lowered and raised poses distinct. Qualified anatomical and exercise-technique review remains required.",
+      "blockingIssues": [
+        "Verify neutral-grip wrist orientation, torso stability and upper-back highlight boundaries; side view overlaps far hand/equipment."
+      ]
+    },
+    {
+      "key": "0406-male-anatomical-white-v2",
+      "exerciseId": "0406",
+      "variant": "male",
+      "prompt": "Edit only the visual style of this two-pose dumbbell shrug illustration. Convert face and exposed limbs to crisp grayscale anatomical muscle contour illustration; remove all flesh colors. Keep red upper trapezius highlights, opaque continuous black T-shirt and shorts, white background, equipment, camera, full-body framing, and BOTH poses exactly unchanged. Left shoulders relaxed, right shoulders elevated with straight arms. No text or labels. Preserve complete clothing front sides back crotch.",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Shoulders lowered"
+        },
+        {
+          "key": "p2",
+          "caption": "Lift shoulders"
+        }
+      ],
+      "inspectionNote": "Visible clothing intact; full body/equipment framed; lowered and raised poses distinct. Qualified anatomical and exercise-technique review remains required.",
+      "history": [
+        {
+          "key": "0406-male-anatomical-white-v1",
+          "prompt": "Premium detailed grayscale anatomical fitness illustration on pure white background. Realistic adult male model, fully opaque black training T-shirt covering torso and mid-thigh shorts wrapping entire front sides back and crotch, continuous seams folds and hems, black shoes. Fine anatomical muscle contours on exposed limbs. Red target-muscle location overlay on intact shirt, never transparency or missing fabric. TWO equally sized side-by-side panels. Same model, camera, equipment and scale. Full body, hands and equipment within each panel with generous white margins. No text, captions, labels, borders or watermarks. DUMBBELL SHRUG. Front three-quarter view clearly showing neck and both shoulders. Stand tall, feet shoulder-width apart, two dumbbells at sides in neutral grip, arms straight, elbows unchanged. Left: shoulders relaxed down. Right: shoulders elevated straight upward toward ears, visibly shortened ear-to-shoulder distance, dumbbells slightly higher only because shoulders elevate. No elbow bending, no shoulder rolling, no head tilt, no bent-over posture. Red overlay upper trapezius region at base of neck and shoulders over intact shirt.",
+          "review": {
+            "status": "rejected",
+            "notes": "Flesh-colored style; replaced with grayscale revision"
+          }
+        }
+      ],
+      "source": "0406-male-anatomical-white-v1",
+      "blockingIssues": [
+        "Verify upper-trapezius highlight boundaries and that shoulder elevation occurs without elbow flexion."
+      ]
+    },
+    {
+      "key": "0406-female-anatomical-white-v1",
+      "exerciseId": "0406",
+      "variant": "female",
+      "prompt": "Premium detailed grayscale anatomical fitness illustration on pure white background. Realistic adult female model, fully opaque black training T-shirt covering torso and mid-thigh shorts wrapping entire front sides back and crotch, continuous seams folds and hems, black shoes. Fine anatomical muscle contours on exposed limbs. Red target-muscle location overlay on intact shirt, never transparency or missing fabric. TWO equally sized side-by-side panels. Same model, camera, equipment and scale. Full body, hands and equipment within each panel with generous white margins. No text, captions, labels, borders or watermarks. DUMBBELL SHRUG. Front three-quarter view clearly showing neck and both shoulders. Stand tall, feet shoulder-width apart, two dumbbells at sides in neutral grip, arms straight, elbows unchanged. Left: shoulders relaxed down. Right: shoulders elevated straight upward toward ears, visibly shortened ear-to-shoulder distance, dumbbells slightly higher only because shoulders elevate. No elbow bending, no shoulder rolling, no head tilt, no bent-over posture. Red overlay upper trapezius region at base of neck and shoulders over intact shirt. Strictly monochrome grayscale anatomical skin, ONLY red target highlights have color. No flesh-colored skin.",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Shoulders lowered"
+        },
+        {
+          "key": "p2",
+          "caption": "Lift shoulders"
+        }
+      ],
+      "inspectionNote": "Visible clothing intact; full body/equipment framed; lowered and raised poses distinct. Qualified anatomical and exercise-technique review remains required.",
+      "blockingIssues": [
+        "Verify upper-trapezius highlight boundaries and that shoulder elevation occurs without elbow flexion."
+      ]
+    }
+  ]
+}

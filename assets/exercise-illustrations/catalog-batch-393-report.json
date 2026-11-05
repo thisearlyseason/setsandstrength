@@ -1,0 +1,57 @@
+{
+  "batch": 393,
+  "runId": "f26a1700-ec74-4d40-a3a0-3e39d3c84f01",
+  "triggerTimestamp": "2026-11-04T18:35:02.063Z",
+  "builtInImageGenAvailable": true,
+  "anatomyReview": "pending",
+  "publication": "none",
+  "generatedIds": [
+    "3591",
+    "3590"
+  ],
+  "failure": "3590 repeats the same raised leg in final two panels instead of alternating. Retained and blocked; generation stopped.",
+  "deferred": {
+    "3589": "Cardiovascular target needs muscle highlight mapping.",
+    "3592": "variantOf alias, skip canonical duplication.",
+    "3594-3600": "variantOf aliases, skip canonical duplication."
+  },
+  "coverageAfter": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1396,
+    "remainingVariants": 9868,
+    "approvedVariants": 0,
+    "blockedVariants": 536,
+    "knownPoseImages": 2775,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 1023,
+      "remainingVariants": 4609,
+      "blockedVariants": 417
+    }
+  },
+  "paidWorker": {
+    "statuses": {
+      "generated": 1396,
+      "pending": 9868
+    },
+    "remaining": 9868,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 2119888759
+  },
+  "pipelineTests": "7 passed, 0 failed",
+  "approvedIndexUnchanged": true,
+  "existingUserApprovalsPreserved": 1306
+}

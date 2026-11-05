@@ -1,0 +1,14 @@
+{
+  "enabled": false,
+  "model": "gpt-image-2-2026-04-21",
+  "size": "1536x1024",
+  "quality": "high",
+  "budgetUSD": 0,
+  "reservePerRequestUSD": 1,
+  "maxRequests": 0,
+  "maxAttempts": 3,
+  "intervalSeconds": 5,
+  "pricing": {"textInput": 5, "imageInput": 8, "imageOutput": 30},
+  "pricingSource": "https://developers.openai.com/api/docs/pricing",
+  "pricingChecked": "2026-10-31"
+}

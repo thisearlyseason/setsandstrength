@@ -1,0 +1,51 @@
+{
+  "batch": 398,
+  "runId": "e2185003-f0c4-44d6-8c93-11630a062ff9",
+  "triggerTimestamp": "2026-11-04T19:10:02.315Z",
+  "builtInImageGenAvailable": true,
+  "anatomyReview": "pending",
+  "publication": "none",
+  "generatedIds": [
+    "3650",
+    "3645"
+  ],
+  "coverageAfter": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1408,
+    "remainingVariants": 9856,
+    "approvedVariants": 0,
+    "blockedVariants": 538,
+    "knownPoseImages": 2798,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 1035,
+      "remainingVariants": 4597,
+      "blockedVariants": 419
+    }
+  },
+  "paidWorker": {
+    "statuses": {
+      "generated": 1408,
+      "pending": 9856
+    },
+    "remaining": 9856,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 2137406233
+  },
+  "pipelineTests": "7 passed, 0 failed",
+  "approvedIndexUnchanged": true,
+  "existingUserApprovalsPreserved": 1306
+}

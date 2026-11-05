@@ -1,0 +1,87 @@
+{
+  "batch": 141,
+  "trigger": "2026-11-03T04:08:55.883Z",
+  "completedAt": "2026-11-03T04:21:23.282351+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 4,
+  "generationCalls": 8,
+  "exerciseIds": [
+    "0869",
+    "0872"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 572,
+    "remainingVariants": 10692,
+    "approvedVariants": 0,
+    "blockedVariants": 209,
+    "knownPoseImages": 1172,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Four candidates, eight poses, eight built-in calls including four retained corrections. Lever shoulder press pairs use overhand connected handles from shoulder level to overhead, supported back/hips and grounded feet; framing edits provide broad raised-hand/shoe margins. Reverse crunch pairs show bent-knee vertical-thigh start to small pelvic curl with upper back/head and arms supported. Abdominal red softened over opaque cloth folds; female short cropped hairstyle clears direct skull-to-mat contact. Exposed grayscale anatomy retained, full opaque shirt/shorts visually continuous. Qualified machine pivot mechanics, grip, shoulder path, cervical alignment, pelvic lift range, knee-angle/limb consistency, cloth surface and primary mapping remain for human review. No anatomy or clothing approval and no publication. Every original, exact prompt and correction history saved. Project original artwork used only for rendering style, no upstream licensed input. Pipeline checks do not establish anatomical accuracy. Existing 0867/0868 pairs were detected and skipped before generation.",
+  "metadataConflictsDeferred": {
+    "0870": "Description includes hip lift, instructions only lift knees; pelvis motion unresolved."
+  },
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 920799473,
+  "savedMasters": [
+    {
+      "exerciseId": "0869",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0869-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1378059,
+        "sha256": "0c395d2d9468791738ef81a18cbd4fe4bf9c56bfaa3b8d1dbefa38b4103ef8fd"
+      }
+    },
+    {
+      "exerciseId": "0869",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0869-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1300050,
+        "sha256": "b0393c391124aa630e663b269ac49bef21788d43f1058076840c25d462abd6fe"
+      }
+    },
+    {
+      "exerciseId": "0872",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0872-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1663442,
+        "sha256": "3eddab618d10282153f1e16e4ddc8853d05ab3a5d1a8732bfd681182f69d904c"
+      }
+    },
+    {
+      "exerciseId": "0872",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0872-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1332974,
+        "sha256": "8fa4117581fb888f89162f31485e3d5489c9c5b1400c691bb06c58b29da2d7a1"
+      }
+    }
+  ]
+}

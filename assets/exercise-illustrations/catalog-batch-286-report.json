@@ -1,0 +1,93 @@
+{
+  "batch": 286,
+  "runId": "9025d3dd-841e-4d82-97b2-df3d515c6bd8",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "trigger": "2026-11-04T02:22:26.393Z",
+  "purpose": "batch286 scheduled male continuation",
+  "started": "2026-11-04T02:22:48.176429+00:00",
+  "completedAt": "2026-11-04T02:29:28.822240+00:00",
+  "actualToolName": "image_gen__imagegen",
+  "calls": 4,
+  "newCandidateSets": 4,
+  "exerciseIds": [
+    "2413",
+    "2415",
+    "2418",
+    "2419"
+  ],
+  "variants": [
+    "male"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1017,
+    "remainingVariants": 10247,
+    "approvedVariants": 0,
+    "blockedVariants": 343,
+    "knownPoseImages": 1955,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 644,
+      "remainingVariants": 4988,
+      "blockedVariants": 224
+    }
+  },
+  "reviewNotes": {
+    "2413": "Wide underhand bar grip starts near front thighs and rises close to torso with elbows pulled behind rather than swung forward, torso upright and feet planted. Exposed biceps red, opaque black clothing. Qualified review needed for true wide grip, drag-curl endpoint, wrist alignment, shoulder extension and elbow travel. Human anatomy review remains pending.",
+    "2415": "One hand grips fixed post, free dumbbell hangs then raises laterally near shoulder height, exposed working deltoid red and opaque black clothing. Feet positioned away from support while torso leans toward it rather than leaning away; block support/lean geometry correction. Qualified review of grip, shoulder height, elbow softness and body alignment required. Human anatomy review remains pending.",
+    "2418": "All-fours start then bent working leg lifted laterally against thigh loop band, supporting knee and both hands grounded, intact shorts and plain glute tint in end pose. Start lacks primary-muscle highlight; block consistency correction. Qualified review of pelvis rotation, knee bend, band placement/tension and hip height required. Human anatomy review remains pending.",
+    "2419": "Supported standing start then nearly straight working leg lifts backward against ankle band; torso upright, support foot planted and intact shorts with glute tint in end. Start lacks glute highlight; block consistency correction. Qualified review of actual sagittal versus lateral leg path, band routing, hip square alignment and lumbar neutrality required. Human anatomy review remains pending."
+  },
+  "blockingIssues": {
+    "2415": [
+      "Body leans toward support rather than away; reposition feet near post and torso away."
+    ],
+    "2418": [
+      "Start lacks primary glute highlight; apply consistent mapping across poses."
+    ],
+    "2419": [
+      "Start lacks primary glute highlight; apply consistent mapping across poses."
+    ]
+  },
+  "deferred": {
+    "2403": "Arm-blaster fit needs additional planning after user-requested pad removal.",
+    "2405": "V-bar hand-width and arm-blaster fit need precise equipment planning.",
+    "2406": "SZ-bar name contradicts straight-bar instructions.",
+    "2407": "Arm-blaster fit needs additional planning after user-requested pad removal.",
+    "2408-2412": "Neck flexion/extension primary levator-scapulae mapping needs clarification.",
+    "2414": "One-hand barbell balance/grip requires detailed equipment planning.",
+    "2417": "Low-squat walking sequence and lead/trailing feet require detailed planning."
+  },
+  "tests": 7,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "workerSyncResult": {
+    "statuses": {
+      "generated": 1017,
+      "pending": 10247
+    },
+    "remaining": 10247,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 1565830913
+  },
+  "publicationIndexUnchanged": true,
+  "savedMasters": [
+    "assets/exercise-illustrations/generated/2413-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/2415-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/2418-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/2419-male-anatomical-white-v1.png"
+  ]
+}

@@ -1,0 +1,323 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "2750",
+      "variant": "male",
+      "key": "2750-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand near a wall with one hand supporting you and a dumbbell in the other hand."
+        },
+        {
+          "key": "p2",
+          "caption": "Hinge over the standing leg as the free leg extends back; keep your back flat, then stand tall."
+        }
+      ],
+      "prompt": "WALL SUPPORTED SINGLE LEG DUMBBELL DEADLIFT TWO equal panels SAME LEFT SIDE threequarter camera. LEFT hand onwall forbalance, LEFT LEG standing softknee, RIGHT LEG liftsback. RIGHT hand ONEdumbbell hangsSTRAIGHTdown. LEFTSTART torsoUPRIGHT leftfootplanted righttoeshoverbehind, dumbbellbesideleftfrontthigh. RIGHTEND hingeHIP so flatbacktorso tiltsforwardnearhorizontal and STRAIGHT rightleg extendsBACK tocounterbalance, pelvisSQUARE nogluterotation, leftkneeSOFT leftheelplanted, rightarmhangsDOWNdumbbelljustoutsideLEFTshin towardankle. LEFTsupporthandwallfollowsreachableheight, neckinline. Primary LEFT HAMSTRINGS only red exposedposteriorstandingthighbelowshorts and smallplainwash coveredposteriorleftthigh, allotherregionsgrayblack. Premium detailed adult MALE grayscale anatomical illustration. Approved original project reference STYLE ONLY ignore its pose/highlights. Pure white background soft shadows crisp detailed exposed gray muscle contours realistic proportions equipment. Opaque BLACK tank and black mid-thigh shorts fully wrap front sides back seat crotch normal fabric seams folds hems black shoes. No anatomy through fabric no cutaways. Covered primary highlight SMALL PLAIN UNIFORM soft red COLOR WASH on intact fabric no fibers lobes striations. Only specified primary red all other regions gray/black. Equal cells same person camera equipment whole body equipment in frame generous margins. Exactly two arms hands five fingers two legs feet. No text arrows logos.",
+      "inspectionNote": "Real output inspected. Wall support, single planted leg, free leg extends behind as torso hinges and dumbbell lowers beside standing shin. Full opaque clothing, posterior standing-thigh red. Qualified review needed for neutral neck versus forward gaze, square pelvis, soft standing knee, full hamstring mapping and hand/leg laterality. Human anatomy review pending. No approval or publication.",
+      "canonicalName": "dumbbell single leg deadlift with wall support",
+      "styleVersion": "white-v1",
+      "equipment": "dumbbell",
+      "primaryMuscles": [
+        "hamstrings"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Wall support, single planted leg, free leg extends behind as torso hinges and dumbbell lowers beside standing shin. Full opaque clothing, posterior standing-thigh red. Qualified review needed for neutral neck versus forward gaze, square pelvis, soft standing knee, full hamstring mapping and hand/leg laterality. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2750-male-anatomical-white-v1-p1-f0023ad3406e.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 26724,
+          "sha256": "f0023ad3406e07df0e4b7c8cfab42d5b9536f2f89fade9b79964fcf5c0297b23"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/2750-male-anatomical-white-v1-p2-be6ca2cc323f.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 28172,
+          "sha256": "be6ca2cc323f8a475470c1410babfe997fa2e591e8c850a3df5faf2071881e29"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-299.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2750-male-anatomical-white-v1-thumb-02ce30047747.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2876,
+        "sha256": "02ce30047747393f7062be5a6772b3dc0ade5190d88caf194638247fb2598318"
+      },
+      "processingSignature": "a577cee160b841c86e84e1b8e44e71e6d2c670c91bb6ea6988781e279bbe5718",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2750-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1446056,
+        "sha256": "025b466d0a731abe4a7a8adf2069c017c2b338f5ff27961fc71fe9ce0cd32aa3"
+      }
+    },
+    {
+      "exerciseId": "2752",
+      "variant": "male",
+      "key": "2752-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand in a long split stance with one foot forward and the rear heel raised."
+        },
+        {
+          "key": "p2",
+          "caption": "Lower the rear knee toward the floor, front knee over ankle; press through front heel to rise."
+        }
+      ],
+      "prompt": "BODYWEIGHT SPLIT SQUAT v2 TWO equalpanels SAME SIDEthreequarter camera. SAME LEFT FOOT forward RIGHT FOOT behindbothposes inlongstaggeredstance hipwidthlateralspace. TorsoUPRIGHT arms relaxedhandsatwaist. LEFTSTART standing splitstance leftsolefloor rightforefootfloor rightheelraised kneesnearlystraight. RIGHTEND descendVERTICALLY flexBOTHknees leftthighnearhorizontal leftkneeaboveankle leftheelplanted, rightkneejustabovefloor underhip rearheelraised. BOTHFEET SAMEspots andsamelegfront nostep noswitch. Primary LEFT QUADRICEPS red exposedanteriorlowerthighaboveKNEE and plainuniformwash on intactfrontleftshorts, allotherregionsgrayblack. Premium detailed adult MALE grayscale anatomical illustration. Approved original project reference STYLE ONLY ignore its pose/highlights. Pure white background soft shadows crisp detailed exposed gray muscle contours realistic proportions equipment. Opaque BLACK tank and black mid-thigh shorts fully wrap front sides back seat crotch normal fabric seams folds hems black shoes. No anatomy through fabric no cutaways. Covered primary highlight SMALL PLAIN UNIFORM soft red COLOR WASH on intact fabric no fibers lobes striations. Only specified primary red all other regions gray/black. Equal cells same person camera equipment whole body equipment in frame generous margins. Exactly two arms hands five fingers two legs feet. No text arrows logos.",
+      "inspectionNote": "Real output inspected. Same forward leg and staggered foot positions, rear heel raised, rear knee lowers near floor and torso stays tall. Red quad overlay contains fiber-like lines on shorts rather than plain wash; block overlay correction. Qualified review needed for knee/ankle alignment, stance width and exact mapping. Human anatomy review pending. No approval or publication.",
+      "blockingIssues": [
+        "Remove anatomy-like fiber lines over shorts; preserve opaque fabric with plain uniform quad wash."
+      ],
+      "canonicalName": "split squat v. 2",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "quads"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Same forward leg and staggered foot positions, rear heel raised, rear knee lowers near floor and torso stays tall. Red quad overlay contains fiber-like lines on shorts rather than plain wash; block overlay correction. Qualified review needed for knee/ankle alignment, stance width and exact mapping. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2752-male-anatomical-white-v1-p1-80d766f995d9.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 26732,
+          "sha256": "80d766f995d90a40a137f46160de323ba39f72fa873eb85b414f27f50c526872"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/2752-male-anatomical-white-v1-p2-21f8edbdff0f.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 26108,
+          "sha256": "21f8edbdff0ffde3b63af8f84c189e2396da6dd618f064798171196efb87fe4b"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-299.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2752-male-anatomical-white-v1-thumb-e75041a24449.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2802,
+        "sha256": "e75041a244498e423951fdd9e77ab7f953a501b21a72da45869f1ef2551767e5"
+      },
+      "processingSignature": "a83445b5ab6a097ce11812b1f970950488397f8e940fb9222af9525aef2aae04",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2752-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1394228,
+        "sha256": "89ecaedf57996d5f4ebe2db28054e3e77fe5da7f187e06b759f71f68eae38bf5"
+      }
+    },
+    {
+      "exerciseId": "2763",
+      "variant": "male",
+      "key": "2763-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Keep your upper arm still at your side with the elbow bent."
+        },
+        {
+          "key": "p2",
+          "caption": "Straighten the same arm slowly without moving your shoulder; return with control."
+        }
+      ],
+      "prompt": "ELBOW EXTENSION MOBILITY BODYWEIGHT TWO equalpanels SAME LEFTSIDEthreequarter view. STANDtall feetfloor noequipment. SAME LEFTarmWORKS BOTHposes, upperarmVERTICAL atleftside shoulderRELAXED nevermoves. RIGHTarmemptyrelaxedatrightside. LEFTSTART leftelbowbent90 forearmFORWARDhorizontal openhandneutralpalmINWARD thumbUP. RIGHTEND leftelbowSTRAIGHTENS forearmrotatesDOWNuntilleftarmnearlystraight besideleftthigh, upperarmstaysVERTICALsamespot wristsneutral openhand. No shoulderraise or cable. Primary LEFTTRICEPS onlyred exposedposteriorupperarm BOTHposes otherarmchestgrayblack. Premium detailed adult MALE grayscale anatomical illustration. Approved original project reference STYLE ONLY ignore its pose/highlights. Pure white background soft shadows crisp detailed exposed gray muscle contours realistic proportions equipment. Opaque BLACK tank and black mid-thigh shorts fully wrap front sides back seat crotch normal fabric seams folds hems black shoes. No anatomy through fabric no cutaways. Covered primary highlight SMALL PLAIN UNIFORM soft red COLOR WASH on intact fabric no fibers lobes striations. Only specified primary red all other regions gray/black. Equal cells same person camera equipment whole body equipment in frame generous margins. Exactly two arms hands five fingers two legs feet. No text arrows logos.",
+      "inspectionNote": "Real output inspected. Same elbow moves from bent to nearly straight, upper arm remains by side and shoulder relaxed; opposite arm empty and triceps red only. Full opaque clothing. Qualified review needed for elbow fixed position, wrist neutrality, range and finger anatomy. Human anatomy review pending. No approval or publication.",
+      "canonicalName": "elbow extension",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "triceps"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Same elbow moves from bent to nearly straight, upper arm remains by side and shoulder relaxed; opposite arm empty and triceps red only. Full opaque clothing. Qualified review needed for elbow fixed position, wrist neutrality, range and finger anatomy. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2763-male-anatomical-white-v1-p1-ca58df7a8385.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 22070,
+          "sha256": "ca58df7a8385c58bda365851702b3ba5652328d20e2182bc574e9bec6c1c71a4"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/2763-male-anatomical-white-v1-p2-9aec2db30daa.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 22006,
+          "sha256": "9aec2db30daa6051ea7640a2db4f5516ebbd4bd015fa9f8439963e3c061f2efd"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-299.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2763-male-anatomical-white-v1-thumb-759c68621428.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2340,
+        "sha256": "759c6862142846c25ca7ad65882faf6ac02918471e7347c405044010e11d18ff"
+      },
+      "processingSignature": "99fb1ad0ecd1a1eb32404d8fbc490a34a208d6246f773672df23459241ec48d0",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2763-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1318963,
+        "sha256": "3c7f7cdeaed01bcfd9c4c4530b5039e1c1eb6f31839d97635a9794efc4dc5d22"
+      }
+    },
+    {
+      "exerciseId": "2764",
+      "variant": "male",
+      "key": "2764-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Start with one arm down at your side, palm forward."
+        },
+        {
+          "key": "p2",
+          "caption": "Bend the same elbow to bring your hand toward your shoulder without swinging; lower slowly."
+        }
+      ],
+      "prompt": "ELBOW FLEXION MOBILITY BODYWEIGHT TWO equalpanels SAME FRONTthreequarter view. STANDtall feetfloor noequipment. SAME LEFTarmWORKS BOTHposes upperarmVERTICALatleftside shoulderRELAXEDfixed. RIGHTarmemptyrelaxedrightside. LEFTSTART LEFTarmstraightdown besideleftthigh OPENPALMfacesFORWARD fingersrelaxed. RIGHTEND bendLEFTelbow handraisesTOWARDleftSHOULDER PALMfacesUPtowardshoulder, elbowSTAYSbywaist upperarmVERTICAL unmoving. No dumbbell noresistance nootherarmmovement. Primary LEFTBICEPS only red exposedfrontleftupperarm BOTHposes allotherregionsgrayblack. Premium detailed adult MALE grayscale anatomical illustration. Approved original project reference STYLE ONLY ignore its pose/highlights. Pure white background soft shadows crisp detailed exposed gray muscle contours realistic proportions equipment. Opaque BLACK tank and black mid-thigh shorts fully wrap front sides back seat crotch normal fabric seams folds hems black shoes. No anatomy through fabric no cutaways. Covered primary highlight SMALL PLAIN UNIFORM soft red COLOR WASH on intact fabric no fibers lobes striations. Only specified primary red all other regions gray/black. Equal cells same person camera equipment whole body equipment in frame generous margins. Exactly two arms hands five fingers two legs feet. No text arrows logos.",
+      "inspectionNote": "Real output inspected. Same arm moves from palm-forward at side to elbow flexion hand toward shoulder, upper arm near side, opposite arm relaxed. Biceps highlight only, opaque clothing. Qualified review needed for elbow stationary position, palm/forearm rotation, finger proportions and shoulder relaxation. Human anatomy review pending. No approval or publication.",
+      "canonicalName": "elbow flexion",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "biceps"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Same arm moves from palm-forward at side to elbow flexion hand toward shoulder, upper arm near side, opposite arm relaxed. Biceps highlight only, opaque clothing. Qualified review needed for elbow stationary position, palm/forearm rotation, finger proportions and shoulder relaxation. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2764-male-anatomical-white-v1-p1-82f8a4a3c743.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 21646,
+          "sha256": "82f8a4a3c743de697531ad95fb812d55e568a613e689880ebe1991fa6a2f1f3f"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/2764-male-anatomical-white-v1-p2-1686b8168579.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 20620,
+          "sha256": "1686b8168579d89a2c8e465ef2508790684b4c4f29888f9d56c77421aa1d55da"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-299.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2764-male-anatomical-white-v1-thumb-1b349df7a714.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2346,
+        "sha256": "1b349df7a714bfa96dc1a19034c11ea80c8610a5167669aabd6617946c4a11d9"
+      },
+      "processingSignature": "21fe8f753851557372ca38f7ac5d605678d365545e8698023959541018e50be0",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2764-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1306943,
+        "sha256": "5861fa303a9d4e87868f0419c5807094dfb9bce7908b7a3fd5cbaf143c4496d8"
+      }
+    }
+  ]
+}

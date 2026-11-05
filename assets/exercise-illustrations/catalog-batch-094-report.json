@@ -1,0 +1,94 @@
+{
+  "batch": 94,
+  "trigger": "2026-11-01T21:29:51.502Z",
+  "completedAt": "2026-11-01T21:50:52.731068+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 4,
+  "generationCalls": 8,
+  "exerciseIds": [
+    "0624",
+    "0625"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 388,
+    "remainingVariants": 10876,
+    "approvedVariants": 0,
+    "blockedVariants": 162,
+    "knownPoseImages": 796,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Four candidate sets, twelve pose images and four correction masters saved using eight built-in calls. No anatomy approval or publication. Wall sit marching uses three phases because canonical instructions specify alternating knee lifts despite isometric category. Clothing edits soften glute tint; female opposite-leg identity remains ambiguous and blocked. Medicine-ball sets show reclined hold, release toward wall and seated catch. Both skull-rest corrections visibly improved first phase; female cloth tint diffuse, male middle abdominal tint retains radial pattern and is blocked. Ball-size continuity, grip, wall-sit angles and all anatomy/technique require qualified human review. Fully opaque clothing wraps torso, front, sides, back, seat and crotch; exposed anatomy grayscale. Originals, exact prompts, correction history and hashes retained. Original project artwork for style only. Pipeline tests do not constitute anatomy approval.",
+  "metadataConflictsDeferred": [
+    {
+      "exerciseId": "0631",
+      "issue": "Description finishes above bar in dip but instructions switch overhand to underhand and finish fully flexed; grip and finish conflict."
+    },
+    {
+      "exerciseId": "0629/0630",
+      "issue": "Cardiovascular target lacks primary muscle mapping for red highlight; clarify instead of guessing."
+    }
+  ],
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 638017768,
+  "savedMasters": [
+    {
+      "exerciseId": "0624",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0624-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1836122,
+        "sha256": "fa60ed3cc71cb5f151d66e650861f19d8fc6b6fd98d441fbcf2b21efeb9b6137"
+      }
+    },
+    {
+      "exerciseId": "0624",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0624-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1801086,
+        "sha256": "9b0027d1b84d04ef1d42ecb18bc7dbb72186faa7f22b4094cd38c341e78595a7"
+      }
+    },
+    {
+      "exerciseId": "0625",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0625-male-anatomical-white-v2.png",
+        "width": 2172,
+        "height": 724,
+        "bytes": 1673621,
+        "sha256": "082ec74cc995018b92236d5d9371e5a80fc7913dd663777a2d1f21db3d69268f"
+      }
+    },
+    {
+      "exerciseId": "0625",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0625-female-anatomical-white-v2.png",
+        "width": 2172,
+        "height": 724,
+        "bytes": 1665740,
+        "sha256": "5971d30617944fba155a2a62fa62d502564835f1177be581f40d1f2f88024e21"
+      }
+    }
+  ]
+}

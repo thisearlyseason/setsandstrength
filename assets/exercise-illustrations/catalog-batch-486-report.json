@@ -1,0 +1,58 @@
+{
+  "batch": 486,
+  "runId": "188d14fa-74b5-4264-8e83-9c3f681671d6",
+  "triggerTimestamp": "2026-11-05T03:06:05.796Z",
+  "builtInImageGenAvailable": true,
+  "generatedIds": [
+    "9180",
+    "9181",
+    "9187",
+    "9409"
+  ],
+  "coverageAfter": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1726,
+    "remainingVariants": 9538,
+    "approvedVariants": 0,
+    "blockedVariants": 615,
+    "knownPoseImages": 3500,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 1353,
+      "remainingVariants": 4279,
+      "blockedVariants": 496
+    }
+  },
+  "paidWorker": {
+    "statuses": {
+      "generated": 1726,
+      "pending": 9538
+    },
+    "remaining": 9538,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 2600350105
+  },
+  "pipelineTests": "8 passed, 0 failed",
+  "approvedIndexUnchanged": true,
+  "existingUserApprovalsPreserved": 1306,
+  "anatomyReview": "pending",
+  "publication": "none",
+  "blocked": {
+    "9180": [
+      "Starting stick/hand depth crosses visible thigh area instead of clearly remaining behind body; correct rear equipment placement."
+    ]
+  }
+}

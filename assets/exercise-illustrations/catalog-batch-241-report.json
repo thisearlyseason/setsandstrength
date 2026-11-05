@@ -1,0 +1,83 @@
+{
+  "batch": 241,
+  "runId": "ea946343-12c6-429c-84d4-69d6bfaf38fa",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "trigger": "2026-11-03T19:08:22.178Z",
+  "purpose": "batch241 scheduled male continuation",
+  "started": "2026-11-03T19:08:38.401623+00:00",
+  "completedAt": "2026-11-03T19:14:32.735383+00:00",
+  "actualToolName": "image_gen__imagegen",
+  "calls": 4,
+  "newCandidateSets": 4,
+  "exerciseIds": [
+    "1826",
+    "1827",
+    "1828",
+    "1829"
+  ],
+  "variants": [
+    "male"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 837,
+    "remainingVariants": 10427,
+    "approvedVariants": 0,
+    "blockedVariants": 267,
+    "knownPoseImages": 1639,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 464,
+      "remainingVariants": 5168,
+      "blockedVariants": 148
+    }
+  },
+  "reviewNotes": {
+    "1826": "Finger-flexor stretch BLOCKED: malformed forearm/hand chain with an extra elongated finger-like segment under assisting hand; assisting hand fails to contact the outward-palm fingers coherently. Spurious pectoral highlight. Correct limb anatomy, contact and highlights.",
+    "1827": "Finger-extensor stretch shows palm-down flexed wrist and opposite-hand pressure. BLOCKED: spurious red chest teaching overlay and working elbow visibly bent instead of extended. Correct elbow and restrict highlights to dorsal forearm.",
+    "1828": "Overhead triceps stretch shows bent right elbow, hand reaching down upper back and opposite hand contacting elbow, consistent rear torso/pelvis/feet orientation. Qualified review needed for shoulder range, finger anatomy and triceps mapping.",
+    "1829": "Wall triceps stretch shows bent elbow contacting wall above head, hand behind head, forward torso hinge and both feet grounded. Qualified review needed for elbow contact/height, cervical alignment, comfortable shoulder range and triceps mapping."
+  },
+  "blockingIssues": {
+    "1826": [
+      "Malformed forearm/hand chain and elongated extra finger-like segment; assisting hand contact incoherent.",
+      "Spurious pectoral red highlight; restrict to working palmar forearm."
+    ],
+    "1827": [
+      "Spurious red pectoral highlight; restrict to working dorsal forearm.",
+      "Working elbow visibly bent instead of extended."
+    ]
+  },
+  "tests": 7,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "workerSyncResult": {
+    "statuses": {
+      "generated": 837,
+      "pending": 10427
+    },
+    "remaining": 10427,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 1301360041
+  },
+  "publicationIndexUnchanged": true,
+  "savedMasters": [
+    "assets/exercise-illustrations/generated/1826-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/1827-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/1828-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/1829-male-anatomical-white-v1.png"
+  ]
+}

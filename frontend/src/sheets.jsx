@@ -119,10 +119,10 @@ export function addDeviceSetupMessage(routines) {
       : t('{0} routines were made on this device while signed out. Add them to your profile, or keep the profile exactly as it is on the server.', n)
 }
 export function askAddDeviceData(extras) {
-  const logged = extras.workouts || extras.bodyweight || extras.customEx
+  const logged = extras.workouts || extras.bodyweight || extras.customEx || extras.progressPhotos
   return new Promise(resolve => confirmSheet({
     title: logged ? t('Add this device\'s workouts to your profile?') : t('Add this device\'s plan to your profile?'),
-    message: logged ? addDeviceDataMessage(extras.workouts, extras.bodyweight) : addDeviceSetupMessage(extras.routines),
+    message: (logged ? addDeviceDataMessage(extras.workouts, extras.bodyweight) : addDeviceSetupMessage(extras.routines)) + (extras.progressPhotos ? ` ${extras.progressPhotos} progress photo records are also on this device. Photo files remain local.` : ''),
     confirmText: t('Add them'), cancelText: t('Keep profile as is'),
     onConfirm: () => resolve(true), onCancel: () => resolve(false), locked: true
   }))
@@ -2960,7 +2960,7 @@ function ShareWorkoutImage({ w, nameOf, close }) {
   const name = 'opengym-workout-' + (workoutDay(w) || todayISO()) + '.png'
   const share = async () => {
     setBusy(true)
-    await shareImage(img.blob, name, w.name || 'openGym')
+    await shareImage(img.blob, name, w.name || 'sets&strength')
     setBusy(false)
     close()
   }

@@ -1,0 +1,58 @@
+{
+  "runId": "99a44c7a-cbaa-4399-b0c9-b41d48c7eec9",
+  "triggerTimestamp": "2026-11-04T19:16:02.311Z",
+  "batches": [
+    399,
+    400,
+    401,
+    402
+  ],
+  "generatedMasters": 16,
+  "blocked": {
+    "3654": [
+      "Grip appears underhand instead of canonical overhand."
+    ],
+    "3663": [
+      "Final two panels repeat same lifted leg."
+    ],
+    "3668": [
+      "Tank highlight includes nipple-like anatomical detail instead of plain fabric wash."
+    ],
+    "3681": [
+      "Vertical dumbbell orientation requires correction or qualified grip/wrist validation before use."
+    ],
+    "3685": [
+      "Raised pose bends elbows substantially into row-like movement instead of lateral raise."
+    ]
+  },
+  "coverageAfter": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1424,
+    "remainingVariants": 9840,
+    "approvedVariants": 0,
+    "blockedVariants": 543,
+    "knownPoseImages": 2836,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 1051,
+      "remainingVariants": 4581,
+      "blockedVariants": 424
+    }
+  },
+  "pipelineTests": "7/7 passed after each batch",
+  "existingUserApprovalsPreserved": 1306,
+  "publication": "none",
+  "anatomyReview": "pending",
+  "deferred": {
+    "3653,3655,3656,3666,3671,3672,3675,3676,3677,3678": "Cardiovascular target needs highlight mapping.",
+    "3657,3658,3659,3660,3661,3673,3674": "Spine target is not a primary muscle; highlight mapping needs clarification.",
+    "3667": "Adduction name conflicts with lifting top leg (abduction).",
+    "3669": "Archer draw description and straight opposing arms instructions conflict.",
+    "3670": "Weighted name without load placement instructions."
+  }
+}

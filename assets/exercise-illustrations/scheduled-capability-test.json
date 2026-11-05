@@ -1,0 +1,50 @@
+{
+  "status": "success",
+  "scheduledTrigger": "2026-11-01T03:20:06.649Z",
+  "completedAt": "2026-11-01T03:21:43.915439+00:00",
+  "automationId": "test-workout-scheduled-image-generation",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "tool": "image_gen__imagegen",
+  "realScheduledGenerationVerified": true,
+  "exerciseId": "7557",
+  "variant": "male",
+  "master": {
+    "path": "assets/exercise-illustrations/generated/7557-male-anatomical-white-v1.png",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 1310530,
+    "sha256": "7a601289daff34b7f46db538529efe804dd64f255ef4693a182f4dbc6fb090ba"
+  },
+  "poseImages": [
+    {
+      "pose": "p1",
+      "path": "/workout/illustration-pilot/7557-male-anatomical-white-v1-p1-ad225ec78951.webp",
+      "width": 1200,
+      "height": 800,
+      "bytes": 24202,
+      "sha256": "ad225ec78951c0e7b65b1bd3045b5daf17585eb0c321afab0daabc1ef7307976"
+    }
+  ],
+  "thumbnail": {
+    "path": "/workout/illustration-pilot/7557-male-anatomical-white-v1-thumb-84d449d817f7.webp",
+    "width": 240,
+    "height": 160,
+    "bytes": 1812,
+    "sha256": "84d449d817f7eb90176ac23cc675e5976b72a2f37296205b2edf57473f55bbd7"
+  },
+  "promptFile": "assets/exercise-illustrations/scheduled-test-request.json",
+  "reviewStatus": "pending",
+  "pipelineTestsPassed": 7,
+  "paidAPIRequests": 0,
+  "creditPurchases": 0,
+  "generationTotal": 49,
+  "hourlyScheduleEnabled": true,
+  "scheduleReadback": {
+    "id": "test-workout-scheduled-image-generation",
+    "name": "Continue Workout illustrations",
+    "kind": "heartbeat",
+    "status": "ACTIVE",
+    "rrule": "FREQ=HOURLY;INTERVAL=1",
+    "target_thread_id": "01a19063-3343-7192-91fc-d0baf131872c"
+  }
+}

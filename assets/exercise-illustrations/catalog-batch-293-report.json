@@ -1,0 +1,85 @@
+{
+  "batch": 293,
+  "runId": "5e12b1cf-6f48-4e9b-9edf-2dcd16d400d0",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "trigger": "2026-11-04T03:40:57.164Z",
+  "purpose": "batch293 scheduled male continuation",
+  "started": "2026-11-04T03:41:32.891754+00:00",
+  "completedAt": "2026-11-04T03:49:19.081349+00:00",
+  "actualToolName": "image_gen__imagegen",
+  "calls": 4,
+  "newCandidateSets": 4,
+  "exerciseIds": [
+    "2563",
+    "2566",
+    "2567",
+    "2569"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1041,
+    "remainingVariants": 10223,
+    "approvedVariants": 0,
+    "blockedVariants": 356,
+    "knownPoseImages": 2001,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 668,
+      "remainingVariants": 4964,
+      "blockedVariants": 237
+    }
+  },
+  "reviewNotes": {
+    "2563": "Soft-knee hinged stance with extended arms then row to lower ribs, two ropes and weighted floor sled, opaque clothing and lateral lat tint. Sled remains similar distance despite row, ropes lengthen rather than pulling sled closer; block resistance geometry correction. Qualified review of neutral back, grip and actual sled travel required. Human anatomy review pending.",
+    "2566": "Supported bench posture, feet flat, one dumbbell held under head with both hands and plain chest tint. End elbows flex markedly while upper arms stay mostly upright, resembling triceps extension instead of fixed-angle pullover arc; block movement correction. Qualified review of grip, shoulder range and rib/lumbar position required. Human anatomy review pending.",
+    "2567": "Seated crossed bent leg with opposite leg extended, hand behind supports torso and glute tint on intact shorts. Elbow/knee contact appears same-side rather than opposite elbow outside crossed knee; block laterality/contact correction. Qualified review of foot outside opposite knee, grounded pelvis, rotation direction and comfortable range required. Human anatomy review pending.",
+    "2569": "Wide stance then distinct opposite-side Cossack squats with straight-leg heel grounded/toes raised, bent-leg heel planted and chest tall. Start lacks primary highlights and endpoint tint appears near anterior hip rather than clearly gluteal region; block mapping consistency/location correction. Opaque clothing retained. Qualified review of depth, knee alignment, foot spacing and hip range required. Human anatomy review pending."
+  },
+  "blockingIssues": {
+    "2563": [
+      "Sled stays stationary while ropes appear to lengthen; correct fixed rope length and sled movement toward athlete."
+    ],
+    "2566": [
+      "Elbows flex substantially instead of retaining angle during shoulder pullover; correct movement path."
+    ],
+    "2567": [
+      "Elbow appears same-side as bent knee instead of opposite elbow outside knee; correct arm/leg laterality and contact."
+    ],
+    "2569": [
+      "Start lacks primary highlight; endpoint tint location needs gluteal rather than anterior-hip correction."
+    ]
+  },
+  "deferred": {
+    "2561": "Lateral jump/landing sequence needs detailed pose planning.",
+    "2562": "Lateral step-jump airborne/landing sequence needs detailed planning.",
+    "2564": "Description suggests feet on ball but instructions hands on ball; clarify.",
+    "2570": "Bent-leg circle multi-step direction needs detailed planning.",
+    "2571": "Frog name/description conflicts with plank-like instructions."
+  },
+  "tests": 7,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "workerSyncResult": {
+    "statuses": {
+      "generated": 1041,
+      "pending": 10223
+    },
+    "remaining": 10223,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 1602168098
+  },
+  "publicationIndexUnchanged": true
+}

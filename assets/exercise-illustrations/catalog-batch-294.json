@@ -1,0 +1,245 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "2589",
+      "variant": "male",
+      "key": "2589-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Lie supported on the bench holding two dumbbells above your chest, palms inward."
+        },
+        {
+          "key": "p2",
+          "caption": "Keep upper arms still and bend elbows to lower dumbbells beside your head; straighten elbows to return."
+        }
+      ],
+      "prompt": "LYING DUMBBELL TRICEPS EXTENSION v2. TWO equalcells SAME SIDE threequarter headLEFTfeetRIGHT. Longflatbench supports ENTIRE HEAD upperbackhips, feetflatfloor kneesbent90. Dumbbelleachhand palmsINWARDneutralgrip. LEFT upperarmsVERTICAL elbowsnearlystraight weightsabovechest. RIGHT UPPERARMS remainVERTICAL sameposition pointingceiling, bendELBOWS90 so dumbbells lower BESIDE head outsideears, neutralwrists palmsin. No pullover shoulder movement, no barbell. Primary TRICEPS only red exposedposteriorupperarms, shouldersgray chesttankBLACK. Headrestsbench nofloat. Premium detailed adult MALE grayscale anatomical illustration matching approved original reference rendering STYLE ONLY, ignore its pose/highlights. White background soft shadows, realistic proportions/equipment and crisp detailed exposed gray muscle contours. Opaque BLACK tank and black mid-thigh shorts fully wrap front sides back seat crotch, normal seams hems folds, black shoes. No anatomy through fabric. Cloth highlights small PLAIN UNIFORM soft RED COLOR WASH without fibers lobes striations cutaways. Only specified primary red in BOTH poses. Exactly two arms hands five fingers two legs feet. Equal cells samecamera/person/equipment, whole body/equipment within each with generous margins. No text arrows logos.",
+      "inspectionNote": "Real output inspected. Supported bench posture, head/back/hips on pad and feet grounded; upper arms near vertical as elbows bend weights near head. Exposed triceps red only and opaque clothing. Qualified review needed for neutral-grip consistency, elbow tracking, dumbbell clearance beside ears rather than forehead contact, and fixed shoulder position. Human anatomy review pending. No approval or publication.",
+      "canonicalName": "dumbbell lying triceps extension v. 2",
+      "styleVersion": "white-v1",
+      "equipment": "dumbbell",
+      "primaryMuscles": [
+        "triceps"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Supported bench posture, head/back/hips on pad and feet grounded; upper arms near vertical as elbows bend weights near head. Exposed triceps red only and opaque clothing. Qualified review needed for neutral-grip consistency, elbow tracking, dumbbell clearance beside ears rather than forehead contact, and fixed shoulder position. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2589-male-anatomical-white-v1-p1-72a16257d5af.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 40010,
+          "sha256": "72a16257d5af87765d51b3ae722984e00cf76b83171bdba36175e77841913150"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/2589-male-anatomical-white-v1-p2-7221c1a05312.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 38826,
+          "sha256": "7221c1a0531250bf9fc85f5541a0ed3421234a8523f7b609e46d31bec441226a"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-294.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2589-male-anatomical-white-v1-thumb-9cf5350694f0.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 4116,
+        "sha256": "9cf5350694f0502658f5e7c5c2a673862b9058cdd51b6c435258fe910e54ac04"
+      },
+      "processingSignature": "f854c49af2d38b4fb73ac9055bee23f144be45da3b1b0216799acc51865e0b42",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2589-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1764856,
+        "sha256": "b9d182030a8075686858778b32bdcca9fa2b264cf1699bec5dd2e8cda5fdf76a"
+      }
+    },
+    {
+      "exerciseId": "2656",
+      "variant": "male",
+      "key": "2656-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Face the low cable holding the handle palm up, elbow tucked beside your torso."
+        },
+        {
+          "key": "p2",
+          "caption": "Curl the handle toward your shoulder without moving your upper arm, then lower slowly; switch after reps."
+        }
+      ],
+      "prompt": "STANDING SINGLE ARM LOW CABLE BICEPS CURL v2. TWO equalcells SAME SIDE FRONTthreequarter facingRIGHT. Lowpulleygraycablestackinfront IMAGE RIGHT, Dhandlecable attachesCENTER handle. RIGHT handunderhand palmUP, LEFT handonhip, feetshoulderwidthflat torsoUPRIGHTstill. LEFT rightarmnearlystraight handlefrontthigh, cabletautlowpulleytohandle. RIGHT bendRIGHTelbow curlhandletowardRIGHTshoulder, upperarmVERTICAL pinnedribs, cabletautdiagonalpulleytohand, no shoulderlift/noleannoarmswitch. Primary RIGHT BICEPS only exposedanteriorupperarm red, allclothBLACK. Premium detailed adult MALE grayscale anatomical illustration matching approved original reference rendering STYLE ONLY, ignore its pose/highlights. White background soft shadows, realistic proportions/equipment and crisp detailed exposed gray muscle contours. Opaque BLACK tank and black mid-thigh shorts fully wrap front sides back seat crotch, normal seams hems folds, black shoes. No anatomy through fabric. Cloth highlights small PLAIN UNIFORM soft RED COLOR WASH without fibers lobes striations cutaways. Only specified primary red in BOTH poses. Exactly two arms hands five fingers two legs feet. Equal cells samecamera/person/equipment, whole body/equipment within each with generous margins. No text arrows logos.",
+      "inspectionNote": "Real output inspected. Low cable D handle moves from thigh to shoulder underhand, upright torso and planted feet. Working arm switches between start and finish, start highlight on non-working arm, and unrelated chest red added; block laterality/mapping correction. Opaque clothing retained. Qualified review of cable routing, elbow pinning and wrist stacking required. Human anatomy review pending. No approval or publication.",
+      "blockingIssues": [
+        "Working arm switches between poses; retain same arm.",
+        "Start highlights non-working arm and unrelated chest tint; correct primary biceps mapping."
+      ],
+      "canonicalName": "cable one arm biceps curl v. 2",
+      "styleVersion": "white-v1",
+      "equipment": "cable",
+      "primaryMuscles": [
+        "biceps"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Low cable D handle moves from thigh to shoulder underhand, upright torso and planted feet. Working arm switches between start and finish, start highlight on non-working arm, and unrelated chest red added; block laterality/mapping correction. Opaque clothing retained. Qualified review of cable routing, elbow pinning and wrist stacking required. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2656-male-anatomical-white-v1-p1-8b1861203b3f.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 40540,
+          "sha256": "8b1861203b3f173fd2e3f2703bfcd1e7d20a1dc2fe882caa19142b787627bee8"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/2656-male-anatomical-white-v1-p2-4697f0cfdad6.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 39242,
+          "sha256": "4697f0cfdad6ce1d47b8d75066212686f6fed47b60132bf8b3937f406b48ef7e"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-294.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2656-male-anatomical-white-v1-thumb-55662618ccc2.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 4446,
+        "sha256": "55662618ccc2b52a20044b88920bf98237c16a927bfe232adaaa584fcd2bee23"
+      },
+      "processingSignature": "880ceb27cbc4b915f50bc7c051be6677b1c7b400c9e8ac71126dae907c97a97e",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2656-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1735611,
+        "sha256": "4c342e2509a1208eeb61c89357e5f9deb02e123d8278106bc094ac6bce5ef7bf"
+      }
+    },
+    {
+      "exerciseId": "2659",
+      "variant": "male",
+      "key": "2659-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Sit back on the incline machine with feet flat and handles at upper-chest height."
+        },
+        {
+          "key": "p2",
+          "caption": "Press forward and upward to nearly straight arms, keeping back supported and shoulders down; return slowly."
+        }
+      ],
+      "prompt": "PLATE LOADED INCLINE CHEST PRESS MACHINE. TWO equalcells SAME FRONTthreequartercamera. Real leverage press machine inclinedbackpad45degrees FULLHEAD backpelvis supported, feetflatfloor. Twoindependentpivoting grayleverarms with smallroundplates, horizontalhandles at upperchest LEFTstart, overhandclosedgrip palmsforward elbowsbent belowwrists. RIGHT press handles FORWARD and UP diagonal matching incline chestpress to nearlystraightarms, SAME machinegeometry seatposition feetcontact, shouldersdown. No overhead shoulderpress no freebar. Primary PECTORALS only smallplainuniformredoval overintact chesttank, nointernalfibers, armsgray. Premium detailed adult MALE grayscale anatomical illustration matching approved original reference rendering STYLE ONLY, ignore its pose/highlights. White background soft shadows, realistic proportions/equipment and crisp detailed exposed gray muscle contours. Opaque BLACK tank and black mid-thigh shorts fully wrap front sides back seat crotch, normal seams hems folds, black shoes. No anatomy through fabric. Cloth highlights small PLAIN UNIFORM soft RED COLOR WASH without fibers lobes striations cutaways. Only specified primary red in BOTH poses. Exactly two arms hands five fingers two legs feet. Equal cells samecamera/person/equipment, whole body/equipment within each with generous margins. No text arrows logos.",
+      "inspectionNote": "Real output inspected. Incline machine bench supports head, back and hips; planted feet and paired handles move from chest level to extended forward/upward arms. Clothing opaque with uniform chest highlight. Qualified review needed for lever pivot geometry, shoulder alignment, elbow tracking and endpoint range. Human anatomy review pending. No approval or publication.",
+      "canonicalName": "lever incline chest press (plate loaded)",
+      "styleVersion": "white-v1",
+      "equipment": "leverage machine",
+      "primaryMuscles": [
+        "pectorals"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Incline machine bench supports head, back and hips; planted feet and paired handles move from chest level to extended forward/upward arms. Clothing opaque with uniform chest highlight. Qualified review needed for lever pivot geometry, shoulder alignment, elbow tracking and endpoint range. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2659-male-anatomical-white-v1-p1-278a4cbdba8a.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 48604,
+          "sha256": "278a4cbdba8a213a05fe13fe33f135e319f3d4447fac7ca98e657ec3398f2ace"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/2659-male-anatomical-white-v1-p2-009441e7016a.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 50944,
+          "sha256": "009441e7016a8af623bbd79ee10063126b26363fe7cc8831a77fdb0a6132f158"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-294.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2659-male-anatomical-white-v1-thumb-6a9ea288b68f.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 5860,
+        "sha256": "6a9ea288b68fe4f69bf41f2ffc1f8fddbe632d9562a3b2544e1b3687d7134e06"
+      },
+      "processingSignature": "11470deed9d9aa67af74cab670771f69de9b6611f62bc0112e8cab7af7061045",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2659-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1693157,
+        "sha256": "11d2b2fb61e27e766979c1854b4d79a24141ea56a073aeed808f196f2bc566a5"
+      }
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "3564",
+      "variant": "male",
+      "key": "3564-male-anatomical-white-v1",
+      "prompt": "ONE static full body pose SEATED SHOULDER FLEXOR STRETCH BENT KNEE. Male sits on floor mat, RIGHT knee bent right foot flat, LEFT leg comfortably extended forward. BOTH palms flat on floor BEHIND hips fingers point BACK away from body. Arms straight, slide hips slightly forward chest tall shoulders gently extended. Keep buttocks supported on floor, not reverse plank. Small red highlights on exposed anterior DELTOIDS only. Premium detailed grayscale anatomical adult MALE illustration pure white background soft shadows crisp realistic muscle anatomy joints. Original project reference STYLE ONLY. Same model camera scale garments equipment all panels. Complete opaque BLACK tank mid-thigh shorts wrap front sides back seat crotch seams folds hems. Covered red highlight PLAIN UNIFORM wash NO anatomical fibers segments lobes cutaways transparency. Full body hands feet equipment inside every panel generous margins. No text arrows labels logos numbers.\n",
+      "layout": {
+        "columns": 1,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Sit with one knee bent, palms behind you; gently slide hips forward and hold."
+        }
+      ],
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream media used.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only"
+      },
+      "inspectionNote": "Real output inspected. Single seated stretch pose with bent knee, straight supporting arms behind hips, palms pointing away and intact opaque clothing. Qualified review should verify shoulder extension and wrist comfort. Human anatomy review pending; no approval or publication.",
+      "blockingIssues": []
+    },
+    {
+      "exerciseId": "3567",
+      "variant": "male",
+      "key": "3567-male-anatomical-white-v1",
+      "prompt": "ONE static full body pose SUPINE FIGURE FOUR GLUTE STRETCH. Male lies on back head shoulders relaxed supported on floor mat. RIGHT ankle rests across LEFT thigh just above left knee, right knee opens outward. BOTH hands clasp behind LEFT thigh draw left thigh toward chest, left foot lifted. Clear figure four, two anatomically separate legs. Small PLAIN red wash on intact shorts RIGHT buttock only; choose side three-quarter angle that shows leg crossing. Premium detailed grayscale anatomical adult MALE illustration pure white background soft shadows crisp realistic muscle anatomy joints. Original project reference STYLE ONLY. Same model camera scale garments equipment all panels. Complete opaque BLACK tank mid-thigh shorts wrap front sides back seat crotch seams folds hems. Covered red highlight PLAIN UNIFORM wash NO anatomical fibers segments lobes cutaways transparency. Full body hands feet equipment inside every panel generous margins. No text arrows labels logos numbers.\n",
+      "layout": {
+        "columns": 1,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Cross right ankle over left knee and draw left thigh toward chest; hold, then switch sides."
+        }
+      ],
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream media used.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only"
+      },
+      "inspectionNote": "Real output inspected. Single figure-four stretch with ankle crossed over opposite thigh and both hands drawing thigh toward chest. Head is visibly lifted instead of resting on floor. Opaque clothing retained. Human anatomy review pending; no approval or publication.",
+      "blockingIssues": [
+        "Head lifted off floor instead of relaxed and supported as canonical instructions require."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,365 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "2307",
+      "variant": "male",
+      "key": "2307-male-anatomical-white-v1",
+      "layout": {
+        "columns": 3,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand sideways with hands guarding your face."
+        },
+        {
+          "key": "p2",
+          "caption": "Chamber the working knee toward your chest, balancing on the supporting leg."
+        },
+        {
+          "key": "p3",
+          "caption": "Extend the working leg sideways, leading with the heel; retract and lower before switching sides."
+        }
+      ],
+      "prompt": "SIDE KICK. THREE equal cells left to right same front-three-quarter camera. Same man same working RIGHT leg throughout. Left: sideways fighting guard feet grounded. Center: RIGHT knee chambered high toward chest, hands guard, LEFT foot firmly planted turned slightly away from kick direction. Right: RIGHT leg thrust laterally toward IMAGE LEFT at waist height, knee softly extended, HEEL leads, toes drawn back, support LEFT foot turned away, trunk and pelvis coherently aligned for lateral kick, no torso reversal. No front kick. Highlight only working lateral hip ABDUCTORS as small uniform red area over intact outer shorts. No red chest or supporting thigh. Premium detailed adult MALE grayscale anatomical illustration matching original project reference rendering STYLE ONLY, ignore its exercise and highlights. Pure white background, soft contact shadows, realistic proportions, crisp detailed exposed gray muscle contours. Opaque BLACK tank and mid-thigh shorts fully wrap front sides back seat crotch with seams hems folds. No cutaways, transparency or anatomy through fabric. Red over clothing is a PLAIN UNIFORM SOFT teaching tint without internal muscle fibers, lobes or segmentation; retain normal cloth folds. Only specified primary red. Black shoes. Normal two arms, two hands with five fingers, two legs and two feet. Entire body and equipment within each equal cell, generous margins. No text arrows logos.",
+      "inspectionNote": "Real output inspected. Guard, knee chamber and heel-led extension are distinct, supporting foot grounded and clothing opaque. End stance reads as a forward heel push with chest oriented toward kick rather than a clearly lateral side-kick hip/foot alignment; needs correction/qualified technique review. Red abductor overlay remains a small outer-hip tint. Human anatomy review remains pending. No approval or publication.",
+      "blockingIssues": [
+        "Side-kick lateral hip alignment is unclear; end pose reads as forward heel push. Correct side-facing pelvis and supporting-foot rotation."
+      ],
+      "canonicalName": "side kick",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "abductors"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Guard, knee chamber and heel-led extension are distinct, supporting foot grounded and clothing opaque. End stance reads as a forward heel push with chest oriented toward kick rather than a clearly lateral side-kick hip/foot alignment; needs correction/qualified technique review. Red abductor overlay remains a small outer-hip tint. Human anatomy review remains pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2307-male-anatomical-white-v1-p1-f6a8106287c1.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 20646,
+          "sha256": "f6a8106287c1227f4cd8beb85e65e0ba104a4e8e41cf4ffe3e9c8a2d453bef66"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/2307-male-anatomical-white-v1-p2-3ad79ca5416e.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 18850,
+          "sha256": "3ad79ca5416e2414ddef5ef2a3d1ea2964eb7359a7da75ea7498e900cbedc951"
+        },
+        {
+          "pose": "p3",
+          "path": "/workout/illustration-pilot/2307-male-anatomical-white-v1-p3-e7945bbf683d.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 20162,
+          "sha256": "e7945bbf683d8205a8a0a511317e51ffa804394a1cf05ea3587cb4076929f6c8"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-276.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2307-male-anatomical-white-v1-thumb-3bd94abb2ec8.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2992,
+        "sha256": "3bd94abb2ec8cdaaac98ae64e05db9c310a19a19696983bdcc0a84b6b1ff64f3"
+      },
+      "processingSignature": "063d7bbd672976f4aa8764e671aa97f3a76822712e27fc627bada37d991b6d95",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2307-male-anatomical-white-v1.png",
+        "width": 2172,
+        "height": 724,
+        "bytes": 1391910,
+        "sha256": "f9ce1e7bc192af12328a6f0b19fcc7dc84dbb6bc2a88abf18d63bca2d47b55c0"
+      }
+    },
+    {
+      "exerciseId": "2309",
+      "variant": "male",
+      "key": "2309-male-anatomical-white-v1",
+      "layout": {
+        "columns": 3,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand in a fighting stance with hands up."
+        },
+        {
+          "key": "p2",
+          "caption": "Raise the working knee and pull the toes upward."
+        },
+        {
+          "key": "p3",
+          "caption": "Push the heel straight forward while leaning back slightly and keeping the supporting foot grounded; retract and lower."
+        }
+      ],
+      "prompt": "HEEL PUSH FRONT KICK. THREE equal cells left to right SAME side-three-quarter view facing IMAGE RIGHT. Same man same RIGHT working leg. Left guarded stance two feet grounded. Center right knee lifted in FRONT to waist, ankle dorsiflexed toes UP, left support foot grounded. Right RIGHT heel pushes straight FORWARD toward IMAGE RIGHT at waist height, knee softly extended, toes UP heel leading, torso leans back slightly, hands guard chin. Left supporting foot stays same location grounded, no jumping. Anatomically coherent hip knee ankle. Primary working QUADRICEPS uniform red tint on intact right thigh shorts and exposed distal quadriceps only. No chest red. Premium detailed adult MALE grayscale anatomical illustration matching original project reference rendering STYLE ONLY, ignore its exercise and highlights. Pure white background, soft contact shadows, realistic proportions, crisp detailed exposed gray muscle contours. Opaque BLACK tank and mid-thigh shorts fully wrap front sides back seat crotch with seams hems folds. No cutaways, transparency or anatomy through fabric. Red over clothing is a PLAIN UNIFORM SOFT teaching tint without internal muscle fibers, lobes or segmentation; retain normal cloth folds. Only specified primary red. Black shoes. Normal two arms, two hands with five fingers, two legs and two feet. Entire body and equipment within each equal cell, generous margins. No text arrows logos.",
+      "inspectionNote": "Real output inspected. Distinct guard, raised-knee chamber and forward heel push, toes upward, hands guarded, support foot grounded and slight torso lean. Working quad tint on opaque shorts with cloth folds. Qualified review needed for leg laterality, support knee softness, balance, heel strike and controlled retraction. Human anatomy review remains pending. No approval or publication.",
+      "canonicalName": "heel push kick",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "quads"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Distinct guard, raised-knee chamber and forward heel push, toes upward, hands guarded, support foot grounded and slight torso lean. Working quad tint on opaque shorts with cloth folds. Qualified review needed for leg laterality, support knee softness, balance, heel strike and controlled retraction. Human anatomy review remains pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2309-male-anatomical-white-v1-p1-5e134b50c9db.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 19878,
+          "sha256": "5e134b50c9db0a90e40289487021025c63d0904a9932726d5f43d9091923bf33"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/2309-male-anatomical-white-v1-p2-57a82e463d93.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 19136,
+          "sha256": "57a82e463d9322605d64f411e7827ae2362636e8f24cab378fadeb7b9107582f"
+        },
+        {
+          "pose": "p3",
+          "path": "/workout/illustration-pilot/2309-male-anatomical-white-v1-p3-2654868cbb01.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 19388,
+          "sha256": "2654868cbb016bbb7e7b2076233247954d7c6f39fdbbdb93ed0aade8d3ff324f"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-276.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2309-male-anatomical-white-v1-thumb-12c31bf6151a.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2898,
+        "sha256": "12c31bf6151a5a9b4ba5f20fa4f3bbfd2201c8ee90f0409da0350d91a7ca5d75"
+      },
+      "processingSignature": "ef14021f51dc790ff8d8150bcc70b85db0d362e4ec39ce80199971d7403aa8a4",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2309-male-anatomical-white-v1.png",
+        "width": 2172,
+        "height": 724,
+        "bytes": 1372724,
+        "sha256": "97e7f18a4ba18b407a0cf3c2533909410a1bb4ce9ee2e514499535ed1abaaf39"
+      }
+    },
+    {
+      "exerciseId": "2312",
+      "variant": "male",
+      "key": "2312-male-anatomical-white-v1",
+      "layout": {
+        "columns": 3,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Lie on your back with knees bent, feet flat and hands lightly behind your head."
+        },
+        {
+          "key": "p2",
+          "caption": "Curl the right shoulder toward the left knee while extending the right leg above the floor."
+        },
+        {
+          "key": "p3",
+          "caption": "Return through the start, then curl the left shoulder toward the right knee while extending the left leg above the floor."
+        }
+      ],
+      "prompt": "LYING ELBOW TO OPPOSITE KNEE alternating bicycle crunch. THREE equal cells side by side same elevated oblique camera with head toward image LEFT and feet RIGHT. LEFT start SUPINE on floor knees bent feet flat hands LIGHTLY behind head elbows out. CENTER curl RIGHT shoulder/elbow toward bent LEFT knee while RIGHT leg extends straight hovering above floor, pelvis remains grounded, no neck pulling. RIGHT opposite: curl LEFT shoulder/elbow toward bent RIGHT knee while LEFT leg extends straight hovering above floor. Both hands remain behind head all poses, exactly two coherent legs each pose, no disconnected limbs. Primary ABS plain uniform soft red tint front abdominal tank only, chest black. No fiber anatomy through cloth. Premium detailed adult MALE grayscale anatomical illustration matching original project reference rendering STYLE ONLY, ignore its exercise and highlights. Pure white background, soft contact shadows, realistic proportions, crisp detailed exposed gray muscle contours. Opaque BLACK tank and mid-thigh shorts fully wrap front sides back seat crotch with seams hems folds. No cutaways, transparency or anatomy through fabric. Red over clothing is a PLAIN UNIFORM SOFT teaching tint without internal muscle fibers, lobes or segmentation; retain normal cloth folds. Only specified primary red. Black shoes. Normal two arms, two hands with five fingers, two legs and two feet. Entire body and equipment within each equal cell, generous margins. No text arrows logos.",
+      "inspectionNote": "Real output inspected. Supine bent-knee start and extended-leg poses are visible, two legs per pose, opaque clothing and abdominal teaching tint. Bent knee remains low with foot planted and torso repeats similar facing rather than clear alternating opposite shoulder-to-knee crunches. Block for movement/laterality correction; qualified review of cervical support, abdominal rotation and leg clearance remains required. Human anatomy review remains pending. No approval or publication.",
+      "blockingIssues": [
+        "Bent leg stays foot-planted rather than bringing knee toward opposite elbow; alternating cross-body torso rotation is not clearly depicted."
+      ],
+      "canonicalName": "lying elbow to knee",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "abs"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Supine bent-knee start and extended-leg poses are visible, two legs per pose, opaque clothing and abdominal teaching tint. Bent knee remains low with foot planted and torso repeats similar facing rather than clear alternating opposite shoulder-to-knee crunches. Block for movement/laterality correction; qualified review of cervical support, abdominal rotation and leg clearance remains required. Human anatomy review remains pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2312-male-anatomical-white-v1-p1-e382d9880b2f.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 20614,
+          "sha256": "e382d9880b2f92446e1f9c37a7d2b93835a323e91d66271d335a969524df529e"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/2312-male-anatomical-white-v1-p2-7261c16602d8.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 22340,
+          "sha256": "7261c16602d86cf55d6e0ead85731c543f86ec02f81a71a49888ec490e903bf7"
+        },
+        {
+          "pose": "p3",
+          "path": "/workout/illustration-pilot/2312-male-anatomical-white-v1-p3-2cda899e0be0.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 22248,
+          "sha256": "2cda899e0be0aab375fd80a74af464f764611295cb29d54223ba83d1cfe0595d"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-276.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2312-male-anatomical-white-v1-thumb-722c0f6a2c80.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2670,
+        "sha256": "722c0f6a2c8097872f3bc013d74bd4cd3f4dba02b6fdeff71beae121ade2cd14"
+      },
+      "processingSignature": "1dd1517a6ffa7aaabddb3d5ec1ade0fa91a8f123d78b4e5977cdd684e43421d0",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2312-male-anatomical-white-v1.png",
+        "width": 2172,
+        "height": 724,
+        "bytes": 1429242,
+        "sha256": "5aa6a9292fb9cadae909a693e00d5b2f354bd757cd522b10023919774e9530dd"
+      }
+    },
+    {
+      "exerciseId": "2317",
+      "variant": "male",
+      "key": "2317-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Sit tall on a bench with feet flat, holding dumbbells beside your body with elbows bent to 90 degrees."
+        },
+        {
+          "key": "p2",
+          "caption": "Keep the elbow bend fixed and raise both upper arms out to the sides to shoulder height; pause and lower slowly."
+        }
+      ],
+      "prompt": "DUMBBELL SEATED BENT ARM LATERAL RAISE. TWO equal cells side by side SAME front-three-quarter camera. Same male sits upright on plain flat bench feet flat hip width, dumbbell each hand. LEFT upper arms hang at sides, elbows bent90, forearms point FORWARD horizontal, neutral wrists palms toward body. RIGHT keep elbows bent90 raise UPPER ARMS out SIDES until horizontal shoulder height; forearms remain projecting FORWARD from elbows with wrists straight, no elbow straightening no overhead press. Dumbbells normal separate pair. Primary lateral DELTOIDS red only exposed side shoulder caps, chest/tank black. Entire bench feet dumbbells visible. Premium detailed adult MALE grayscale anatomical illustration matching original project reference rendering STYLE ONLY, ignore its exercise and highlights. Pure white background, soft contact shadows, realistic proportions, crisp detailed exposed gray muscle contours. Opaque BLACK tank and mid-thigh shorts fully wrap front sides back seat crotch with seams hems folds. No cutaways, transparency or anatomy through fabric. Red over clothing is a PLAIN UNIFORM SOFT teaching tint without internal muscle fibers, lobes or segmentation; retain normal cloth folds. Only specified primary red. Black shoes. Normal two arms, two hands with five fingers, two legs and two feet. Entire body and equipment within each equal cell, generous margins. No text arrows logos.",
+      "inspectionNote": "Real output inspected. Seated bench setup, feet planted, upper arms down then lateral shoulder-height raise and elbow bends retained. Deltoid highlights on exposed shoulders, opaque tank and shorts. Start grip appears supinated, changing to pronated at top rather than palms toward body throughout; block grip correction. Qualified review of elbow angle, lateral versus forward trajectory and shoulder positioning required. Human anatomy review remains pending. No approval or publication.",
+      "blockingIssues": [
+        "Start grip appears palms-up/supinated rather than canonical palms toward body; grip rotates between poses."
+      ],
+      "canonicalName": "dumbbell seated bent arm lateral raise",
+      "styleVersion": "white-v1",
+      "equipment": "dumbbell",
+      "primaryMuscles": [
+        "delts"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Seated bench setup, feet planted, upper arms down then lateral shoulder-height raise and elbow bends retained. Deltoid highlights on exposed shoulders, opaque tank and shorts. Start grip appears supinated, changing to pronated at top rather than palms toward body throughout; block grip correction. Qualified review of elbow angle, lateral versus forward trajectory and shoulder positioning required. Human anatomy review remains pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2317-male-anatomical-white-v1-p1-7990a08c8c96.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 38658,
+          "sha256": "7990a08c8c96209da16a399b7db447203d682bbe847c3e45a7d5058399351406"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/2317-male-anatomical-white-v1-p2-e5400a485254.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 39488,
+          "sha256": "e5400a485254352f2e1ead8340ff516566b74a399b84dbbe931767c7f4e0e741"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-276.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2317-male-anatomical-white-v1-thumb-15df73eb2b99.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 4026,
+        "sha256": "15df73eb2b9929e327662ae9470cafc4a0221e9af5276444d34dc87d7b4e50b0"
+      },
+      "processingSignature": "a62ffa314fc575030ce200ced2062026b8024176c8efea74b4c4f7c128a5562a",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2317-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1533154,
+        "sha256": "b81684b24b88c11d35c26ce8e7025bb0d12a1906315db0b527c1154d68f594e1"
+      }
+    }
+  ]
+}

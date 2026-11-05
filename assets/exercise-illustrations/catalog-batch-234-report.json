@@ -1,0 +1,64 @@
+{
+  "batch": 234,
+  "runId": "32ad9007-b91a-4e7b-929e-ce5ba0d1164e",
+  "trigger": "2026-11-03T18:02:51.656Z",
+  "completedAt": "2026-11-03T18:18:50.923392+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 4,
+  "calls": 4,
+  "exerciseIds": [
+    "1762",
+    "1763",
+    "1764",
+    "1765"
+  ],
+  "variants": [
+    "male"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 813,
+    "remainingVariants": 10451,
+    "approvedVariants": 0,
+    "blockedVariants": 260,
+    "knownPoseImages": 1613,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 440,
+      "remainingVariants": 5192,
+      "blockedVariants": 141
+    }
+  },
+  "reviewNotes": {
+    "1762": "Supported pistol squat: fixed post grip, same supporting foot and raised forward leg, tall to near-parallel squat. Qualified review needed for post support loading, knee tracking, heel contact, grip and balance.",
+    "1763": "Shoulder-width pull-up: dead hang to bent elbows with both feet airborne and diffuse lat cloth overlay. BLOCKED: top chin does not clearly clear bar and neck cranes upward; correct top range and neutral neck.",
+    "1764": "Hanging leg/hip raise: straight-arm dead hang to bent knees/thighs near parallel, small hip curl, supported grip and feet off floor. Qualified review needed for exact posterior pelvic tilt, grip, shoulder loading and swing control.",
+    "1765": "Rear-POV upright dumbbell row: lowered arms to high elbows/outward arms with weights partially occluded at upper ribs. Qualified review needed for exact weight height/path, overhand wrists, deltoid highlight placement and elbow symmetry."
+  },
+  "deferred": [
+    {
+      "exerciseId": "1766",
+      "reason": "Self-assisted bodyweight inverse leg curl title/equipment conflicts with loaded prone leg curl machine description/instructions."
+    }
+  ],
+  "skippedCompleted": [
+    "1760"
+  ],
+  "tests": 7,
+  "genCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "publicationIndexUnchanged": true,
+  "savedMasters": [
+    "assets/exercise-illustrations/generated/1762-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/1763-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/1764-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/1765-male-anatomical-white-v1.png"
+  ]
+}

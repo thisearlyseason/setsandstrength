@@ -473,3 +473,19 @@ describe('a workout\'s photos and videos', () => {
     } finally { stop() }
   })
 })
+
+describe('local-only progress photo retention', () => {
+  it.each(['current', 'persisted', 'stashed', 'native'])('never evicts %s account photo bytes as a cloud-backed cache entry', async source => {
+    const backend = memoryBackend()
+    for (const c of ['a', 'b']) await backend.put({ hash: hex(c), mime: 'image/png', size: 350 * MB, putAt: clock, pending: false }, new Blob(['small synthetic fixture']))
+    media = createMediaStore(backend, { now: () => clock })
+    clock += 2 * 3600000
+    const photos = { progressPhotos: [{ id: 'private-photo', hash: hex('a') }] }
+    const S = { customEx: [{ id: 'cloud', media: refOf(hex('b')) }], ...(source === 'current' ? photos : {}) }
+    if (source === 'persisted') storage.setItem('gym_state_v1', JSON.stringify(photos))
+    const store = appStore({ S, stashedMediaHashes: async () => source === 'stashed' ? new Set([hex('a')]) : new Set() })
+    await make(store, { nativeLoad: source === 'native' ? async () => photos : null }).localMediaGc()
+    expect(await media.has(hex('a'))).toBe(true)
+    expect(await media.has(hex('b'))).toBe(false)
+  })
+})

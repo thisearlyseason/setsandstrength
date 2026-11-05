@@ -1,0 +1,327 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "2325",
+      "variant": "male",
+      "key": "2325-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hinge forward with a flat back and let the dumbbells hang beneath your shoulders with an overhand grip."
+        },
+        {
+          "key": "p2",
+          "caption": "Row toward your hips while rotating palms inward to face each other; keep the torso still and lower slowly."
+        }
+      ],
+      "prompt": "DUMBBELL PRONATED TO NEUTRAL GRIP ROW. TWO equal cells same rear three-quarter camera slightly to side showing grip. Same hinged torso45degrees and softly bent knees, feet planted. LEFT arms hang down, dumbbell handles transverse ACROSS BODY, OVERHAND palms facing backward toward legs. RIGHT row weights toward hips elbows tucked rearward, rotate handles90degrees so dumbbells aligned FRONT TO BACK, palms now face each other NEUTRAL grip. Same torso angle and neutral spine in both, no torso rise. Highlight LATS only smooth uniform red tint over intact tank on lateral mid-to-lower back; shoulder blades and chest black. Premium detailed adult MALE grayscale anatomical illustration matching original approved project reference for rendering STYLE ONLY, ignore reference pose and highlights. Pure white background, realistic proportions and equipment, crisp detailed exposed gray muscle contours and soft contact shadows. Opaque black tank and mid-thigh shorts completely wrap front sides back seat and crotch, visible seams hems folds, black shoes. No cutaways transparency or muscle fibers through fabric. Red on cloth is a plain uniform soft teaching tint, no internal fibers rays lobes. Only specified primary muscles red. Two arms, hands with five fingers, two legs and feet anatomically coherent. Entire body and equipment in each equal cell with generous margins. No text arrows logos.",
+      "inspectionNote": "Real output inspected. Hinged posture maintained, lowered pronated handles rotate toward neutral in second pose. End weights remain below lower ribs/hips and elbows insufficiently flexed, leaving the row incomplete; block endpoint correction. Lateral back tint on tank, opaque shorts. Qualified review of grip rotation, shoulder retraction, cloth-overlay rendering and lumbar alignment remains required. Human anatomy review remains pending. No approval or publication.",
+      "blockingIssues": [
+        "Row endpoint incomplete: weights remain low and elbow flexion is too small rather than weights approaching hips."
+      ],
+      "canonicalName": "dumbbell pronated to neutral grip row",
+      "styleVersion": "white-v1",
+      "equipment": "dumbbell",
+      "primaryMuscles": [
+        "lats"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Hinged posture maintained, lowered pronated handles rotate toward neutral in second pose. End weights remain below lower ribs/hips and elbows insufficiently flexed, leaving the row incomplete; block endpoint correction. Lateral back tint on tank, opaque shorts. Qualified review of grip rotation, shoulder retraction, cloth-overlay rendering and lumbar alignment remains required. Human anatomy review remains pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2325-male-anatomical-white-v1-p1-d489bfa44ae0.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 30940,
+          "sha256": "d489bfa44ae0a9aba566ca967a5471bcc8ec9af8b5c6af26fae82ac9f69cea59"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/2325-male-anatomical-white-v1-p2-6ce960a5c5a2.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 28536,
+          "sha256": "6ce960a5c5a2f06acee1e8ac50cfcd84d82fd3dbe310eaf3797a5c144ddc7be3"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-278.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2325-male-anatomical-white-v1-thumb-c666880e96a5.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 3418,
+        "sha256": "c666880e96a5d65160a0fa755d4cb9a5fec6f11d4544056105ddcfbf53bbf695"
+      },
+      "processingSignature": "652a889ae2762941fa2805e85883ebbfce1c7854f459e51cdf88707e1d092ffc",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2325-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1455376,
+        "sha256": "fd4ab0c521d96537d792b4b39553d20b40811f7be6d34377d57cef5a5ca7a4cb"
+      }
+    },
+    {
+      "exerciseId": "2326",
+      "variant": "male",
+      "key": "2326-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hinge forward with a flat back and arms hanging, holding both dumbbells overhand."
+        },
+        {
+          "key": "p2",
+          "caption": "Pull toward your lower ribs with elbows close to your body, keeping the grip and torso still; lower slowly."
+        }
+      ],
+      "prompt": "DUMBBELL PRONATED GRIP ROW. TWO equal cells side by side same rear three-quarter camera slightly to side showing grip. Same torso hinged45degrees flat neutral spine, knees soft feet planted. LEFT arms straight hanging below shoulders, two dumbbells held OVERHAND palms toward legs; handles oriented TRANSVERSE across body. RIGHT row both dumbbells to LOWER RIBS with elbows close to torso, upper arms move back, elbows bend90. Maintain OVERHAND PRONATED grip and SAME transverse handle orientation in both cells, no neutral grip rotation. Torso completely still same hinge angle. Highlight LATS only smooth uniform soft red tint over intact lateral mid/lower tank back. No red elsewhere. Premium detailed adult MALE grayscale anatomical illustration matching original approved project reference for rendering STYLE ONLY, ignore reference pose and highlights. Pure white background, realistic proportions and equipment, crisp detailed exposed gray muscle contours and soft contact shadows. Opaque black tank and mid-thigh shorts completely wrap front sides back seat and crotch, visible seams hems folds, black shoes. No cutaways transparency or muscle fibers through fabric. Red on cloth is a plain uniform soft teaching tint, no internal fibers rays lobes. Only specified primary muscles red. Two arms, hands with five fingers, two legs and feet anatomically coherent. Entire body and equipment in each equal cell with generous margins. No text arrows logos.",
+      "inspectionNote": "Real output inspected. Pronated dumbbells remain transverse, arms hang then elbows pull back with weight near lower ribs, stable hinged torso and feet. Far-hand/weight occluded in end pose; qualified review of bilateral grip, elbow tracking, endpoint and shoulder retraction required. Lateral tank tint follows normal folds; opaque shorts and intact tank. Human anatomy review remains pending. No approval or publication.",
+      "canonicalName": "dumbbell pronated grip row",
+      "styleVersion": "white-v1",
+      "equipment": "dumbbell",
+      "primaryMuscles": [
+        "lats"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Pronated dumbbells remain transverse, arms hang then elbows pull back with weight near lower ribs, stable hinged torso and feet. Far-hand/weight occluded in end pose; qualified review of bilateral grip, elbow tracking, endpoint and shoulder retraction required. Lateral tank tint follows normal folds; opaque shorts and intact tank. Human anatomy review remains pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2326-male-anatomical-white-v1-p1-9c6b5ef91c8a.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 32732,
+          "sha256": "9c6b5ef91c8a5010dd1cab1afb07d05e1751b4d13b0283b677d14e62c1ea8f78"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/2326-male-anatomical-white-v1-p2-0de723185984.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 29250,
+          "sha256": "0de723185984dc6fb2dcf811eef20bd959b9395131e5688d8052c5ac4886636a"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-278.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2326-male-anatomical-white-v1-thumb-3e28c5733c45.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 3464,
+        "sha256": "3e28c5733c4594702a59c68f7d5c2a2a612716b1ad4817a23682699d707fa20b"
+      },
+      "processingSignature": "fac1ff4b13c8642e5d561d2cce8296eb6e219465da77f6159d9143bceeec6885",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2326-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1472822,
+        "sha256": "2cc347778cdb2f333210bf73cdc3a6318936e7e03499c2163bbe8605dc63d597"
+      }
+    },
+    {
+      "exerciseId": "2328",
+      "variant": "male",
+      "key": "2328-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Place your hands on a stability ball, slightly narrower than shoulder width, and hold a straight-body push-up position."
+        },
+        {
+          "key": "p2",
+          "caption": "Bend your elbows close to your body to lower your chest toward the ball; press back up without letting hips sag."
+        }
+      ],
+      "prompt": "NARROW HAND PUSH-UP ON STABILITY BALL. TWO equal cells same SIDE three-quarter camera. Large gray stability ball on floor in front at IMAGE RIGHT. Man extends straight body diagonally from toes at IMAGE LEFT to BOTH palms resting close together on TOP ball at IMAGE RIGHT. LEFT elbows almost straight, hands narrower than shoulder width fingers spread gripping curved surface, legs straight feet on toes, head spine hips heels aligned. RIGHT elbows flex close against ribs, chest lowers toward TOP BALL, SAME hands contact ball SAME place and feet SAME place, body stays straight with braced hips. No hands on floor, no feet on ball. Primary TRICEPS only red on exposed BACK upper arms, chest black and shoulders gray. Premium detailed adult MALE grayscale anatomical illustration matching original approved project reference for rendering STYLE ONLY, ignore reference pose and highlights. Pure white background, realistic proportions and equipment, crisp detailed exposed gray muscle contours and soft contact shadows. Opaque black tank and mid-thigh shorts completely wrap front sides back seat and crotch, visible seams hems folds, black shoes. No cutaways transparency or muscle fibers through fabric. Red on cloth is a plain uniform soft teaching tint, no internal fibers rays lobes. Only specified primary muscles red. Two arms, hands with five fingers, two legs and feet anatomically coherent. Entire body and equipment in each equal cell with generous margins. No text arrows logos.",
+      "inspectionNote": "Real output inspected. Both narrow hands rest on ball top, toe support on floor, straight-arm start then chest lowered toward ball with elbows close to ribs. Exposed triceps red only, opaque clothing. Qualified review required for spinal/hip line, wrist support on curved ball, elbow depth, hand anatomy and stability. Human anatomy review remains pending. No approval or publication.",
+      "canonicalName": "narrow push-up on exercise ball",
+      "styleVersion": "white-v1",
+      "equipment": "stability ball",
+      "primaryMuscles": [
+        "triceps"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Both narrow hands rest on ball top, toe support on floor, straight-arm start then chest lowered toward ball with elbows close to ribs. Exposed triceps red only, opaque clothing. Qualified review required for spinal/hip line, wrist support on curved ball, elbow depth, hand anatomy and stability. Human anatomy review remains pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2328-male-anatomical-white-v1-p1-07345285f22b.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 38700,
+          "sha256": "07345285f22be6df2875f4435acf7dfa452eb80731e73e5bb9b266527ee3d973"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/2328-male-anatomical-white-v1-p2-c4cac1d1c50b.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 32844,
+          "sha256": "c4cac1d1c50ba2d6e2a849d2cbde45e7dbb1db217842f9bdaa2a55f26e22f764"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-278.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2328-male-anatomical-white-v1-thumb-20f53ede1f58.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 3660,
+        "sha256": "20f53ede1f58dfc260d8f349f0d7bc858725a51a9f9dfc6c65c857415d8a754d"
+      },
+      "processingSignature": "d130191ae9b002f8114b4379411f965d295e4d68f4c4e771f61f997290c4e3c6",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2328-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1512855,
+        "sha256": "6ccba91da158d1ede2141242e34350983ca0d2ca9b06737f1e6ecd425428748a"
+      }
+    },
+    {
+      "exerciseId": "2336",
+      "variant": "male",
+      "key": "2336-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Lie on the bench with feet planted and grip slightly wider than shoulder width; keep forearms vertical as the bar reaches mid-chest."
+        },
+        {
+          "key": "p2",
+          "caption": "Press to straight arms without flaring elbows, keeping hips and head supported; lower with control."
+        }
+      ],
+      "prompt": "BARBELL BENCH PRESS FOREARM ALIGNMENT FORM CHECK. TWO equal instructional cells same elevated FRONT-FOOT three-quarter camera, clearly showing both forearms and bar. Flat horizontal bench with head upper back and buttocks supported, feet flat on floor. LEFT bar at MID CHEST, hands slightly wider than shoulders, BOTH FOREARMS VERTICAL directly below wrists/bar, elbows about45degrees from torso. RIGHT press bar above chest to almost straight arms without locking. Same moderate grip width on normal barbell small light plates, hands closed thumbs wrapped. Rack uprights near head with bar UNRACKED and free of hooks during exercise. Normal wrist alignment. Primary PECTORALS only plain uniform soft red oval teaching tint over INTACT BLACK TANK front chest, no anatomy beneath fabric. All triceps and shoulders gray. Premium detailed adult MALE grayscale anatomical illustration matching original approved project reference for rendering STYLE ONLY, ignore reference pose and highlights. Pure white background, realistic proportions and equipment, crisp detailed exposed gray muscle contours and soft contact shadows. Opaque black tank and mid-thigh shorts completely wrap front sides back seat and crotch, visible seams hems folds, black shoes. No cutaways transparency or muscle fibers through fabric. Red on cloth is a plain uniform soft teaching tint, no internal fibers rays lobes. Only specified primary muscles red. Two arms, hands with five fingers, two legs and feet anatomically coherent. Entire body and equipment in each equal cell with generous margins. No text arrows logos.",
+      "inspectionNote": "Real output inspected. Lowered bar then near-straight-arm press, feet planted, hips on bench and plain chest tint over opaque tank. Lowered bar projects near neck rather than mid-chest and head appears beyond bench support; block correction before use. Qualified review of actual forearm verticality, wrist/bar stacking, elbow angle, camera projection and rack clearance required. Human anatomy review remains pending. No approval or publication.",
+      "blockingIssues": [
+        "Lowered bar is near neck/upper chest rather than canonical mid-chest; correct bar path.",
+        "Head appears unsupported beyond bench pad; restore full head support."
+      ],
+      "canonicalName": "barbell chest bench press forearms (form check)",
+      "styleVersion": "white-v1",
+      "equipment": "barbell",
+      "primaryMuscles": [
+        "pectorals"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Lowered bar then near-straight-arm press, feet planted, hips on bench and plain chest tint over opaque tank. Lowered bar projects near neck rather than mid-chest and head appears beyond bench support; block correction before use. Qualified review of actual forearm verticality, wrist/bar stacking, elbow angle, camera projection and rack clearance required. Human anatomy review remains pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2336-male-anatomical-white-v1-p1-a2443e336a20.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 40938,
+          "sha256": "a2443e336a2080cf2cecc20faea34e21afa79babd31bdae7183ef8f5fe6f3840"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/2336-male-anatomical-white-v1-p2-3a77935469be.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 43042,
+          "sha256": "3a77935469beeaf80482df15064afd37b72b7ba8f0ccda487ee9f459dedffb6e"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-278.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2336-male-anatomical-white-v1-thumb-6ba807754b01.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 4768,
+        "sha256": "6ba807754b011b586c2fa58eafd38649e0a2689bf67c7b0e4e9fd4525f162fe7"
+      },
+      "processingSignature": "082bd9d61db947996bb319626996862d634bddeff2aa3b473c4b1f2be6ecc427",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2336-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1635621,
+        "sha256": "8265f15e11875d623a4664408ba9d37694e58d1cf4a4c439572038c1305241f2"
+      }
+    }
+  ]
+}

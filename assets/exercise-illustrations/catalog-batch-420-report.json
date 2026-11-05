@@ -1,0 +1,58 @@
+{
+  "batch": 420,
+  "runId": "addd37a6-f661-4de9-8744-84ed288f9b7d",
+  "triggerTimestamp": "2026-11-04T21:15:33.238Z",
+  "builtInImageGenAvailable": true,
+  "generatedIds": [
+    "3783",
+    "3812",
+    "3813",
+    "3821"
+  ],
+  "coverageAfter": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1488,
+    "remainingVariants": 9776,
+    "approvedVariants": 0,
+    "blockedVariants": 565,
+    "knownPoseImages": 2980,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 1115,
+      "remainingVariants": 4517,
+      "blockedVariants": 446
+    }
+  },
+  "paidWorker": {
+    "statuses": {
+      "generated": 1488,
+      "pending": 9776
+    },
+    "remaining": 9776,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 2252669728
+  },
+  "pipelineTests": "8 passed, 0 failed",
+  "approvedIndexUnchanged": true,
+  "existingUserApprovalsPreserved": 1306,
+  "anatomyReview": "pending",
+  "publication": "none",
+  "blocked": {
+    "3813": [
+      "Contracted pose lifts lower back and torso into seated tuck instead of controlled beginner crunch."
+    ]
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "batch": 232,
+  "runId": "4e7f9de3-b087-48bb-bac9-c85d4000f0b5",
+  "trigger": "2026-11-03T17:32:21.365Z",
+  "completedAt": "2026-11-03T17:45:28.059604+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 4,
+  "calls": 4,
+  "exerciseIds": [
+    "1744",
+    "1747",
+    "1749",
+    "1750"
+  ],
+  "variants": [
+    "male"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 805,
+    "remainingVariants": 10459,
+    "approvedVariants": 0,
+    "blockedVariants": 258,
+    "knownPoseImages": 1597,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 432,
+      "remainingVariants": 5200,
+      "blockedVariants": 139
+    }
+  },
+  "reviewNotes": {
+    "1744": "Stability-ball dip: pelvis lifted in front of ball, hands supported and feet planted. BLOCKED for far elbow staying nearly straight while near elbow bends in lowered pose; bilateral dip mechanics are inconsistent.",
+    "1747": "Ball-seated EZ French press: extended to bar behind head with seated pelvis support. Qualified review needed for far foot occlusion, elbow stability, bar/skull clearance and grip.",
+    "1749": "Standing EZ French press: overhead to behind-head bar path with bent elbows. Qualified review needed for exact bar/skull clearance from rear view, upper-arm stability, grip and torso control.",
+    "1750": "Supine medicine-ball chest throw: chest load, visibly airborne ball release, two-hand catch. BLOCKED because skull floats beyond/above bench rather than resting supported; head/neck positioning requires correction."
+  },
+  "deferred": [
+    {
+      "exerciseId": "1746",
+      "reason": "Supine name conflicts with upright seated overhead instructions."
+    },
+    {
+      "exerciseId": "1751",
+      "reason": "Pin press description conflicts with standing chest-touch press sequence without supported dead-stop pin phase."
+    }
+  ],
+  "tests": 7,
+  "genCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "publicationIndexUnchanged": true,
+  "savedMasters": [
+    "assets/exercise-illustrations/generated/1744-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/1747-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/1749-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/1750-male-anatomical-white-v1.png"
+  ]
+}

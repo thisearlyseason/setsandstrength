@@ -1,0 +1,76 @@
+{
+  "runId": "137cdea4-b0c6-4bec-9a1e-9327b967ef83",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "triggerTimestamp": "2026-11-04T23:23:04.491Z",
+  "batches": [
+    442,
+    443,
+    444,
+    445
+  ],
+  "builtInImageGenAvailable": true,
+  "generatedMasters": 16,
+  "generatedIds": [
+    "4364",
+    "4369",
+    "4370",
+    "4408",
+    "4394",
+    "4411",
+    "4412",
+    "4422",
+    "4445",
+    "4446",
+    "4465",
+    "4375",
+    "4510",
+    "4516",
+    "4536",
+    "4563"
+  ],
+  "blocked": {
+    "4411": [
+      "High front raise ends below eye level; canonical record requires eye level or higher. Correct end range before approval."
+    ],
+    "4445": [
+      "Starting pose: both band branches connect to one handle while the other hand holds a detached grip. Correct continuous hand-to-anchor connections before approval."
+    ]
+  },
+  "coverageAfter": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1580,
+    "remainingVariants": 9684,
+    "approvedVariants": 0,
+    "blockedVariants": 584,
+    "knownPoseImages": 3180,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 1207,
+      "remainingVariants": 4425,
+      "blockedVariants": 465
+    }
+  },
+  "pipelineTests": "8 passed, 0 failed after each of four batches",
+  "approvedIndexUnchanged": true,
+  "existingUserApprovalsPreserved": 1306,
+  "publication": "none",
+  "anatomyReview": "pending",
+  "paidWorker": "disabled; inventory sync only, zero requests",
+  "stopReason": "Reached sixteen-master run target within twenty-minute work window.",
+  "styleReference": "assets/exercise-illustrations/generated/0853-male-anatomical-white-v1.png",
+  "deferred": {
+    "4389": "Name says push jerk but canonical instructions omit re-dip under load; technique clarification needed before depiction.",
+    "4407": "Tiger tail name with bodyweight equipment and unspecified anchor/support: setup is ambiguous, skipped.",
+    "4462": "Calves target metadata conflicts with foot-sole massage description; highlight needs clarification.",
+    "4463": "Peroneus description versus calves metadata: highlight clarification needed.",
+    "4464": "Tibialis anterior description versus calves metadata: highlight clarification needed.",
+    "4467": "Deep tibialis posterior cannot be drawn as exposed surface primary anatomy without clarification.",
+    "4485/4486": "Infraspinatus description conflicts with delts target metadata; skip rather than guess target highlight."
+  },
+  "nextRunGuidance": "Continue missing canonical male sets, one master at a time, using original 0853 for style only. Do not duplicate registered or blocked originals. 4411 needs greater high-front-raise range. 4445 needs independent continuous band-to-handle branches in starting pose. Keep new assets in review; no publication or qualified anatomical approval."
+}

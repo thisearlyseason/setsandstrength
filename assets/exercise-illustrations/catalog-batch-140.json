@@ -1,0 +1,484 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "0856",
+      "variant": "male",
+      "key": "0856-male-anatomical-white-v2",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand tall and squeeze a weight plate securely between the palms at chest height."
+        },
+        {
+          "key": "p2",
+          "caption": "Maintain the inward squeeze while pressing the plate straight forward at chest height, then return slowly."
+        }
+      ],
+      "prompt": "Edit original male SVEND PRESS two poses. Preserve vertical plate held securely BETWEEN FLAT PALMS squeezing opposite broad faces, plate at chest start and arms extended forward chest-height finish, upright body, same grounded feet, limbs and proportions. Replace ALL chest red fine fibers/rays/anatomical grooves with TWO soft diffuse BLURRED red patches over left and right PECTORAL CHEST on intact opaque BLACK SHIRT. Red is a flat soft teaching tint on continuous fabric with broad natural folds only, NEVER anatomical fibers or transparency. Do not remove red entirely. Full opaque black shorts all front sides back seat crotch. Detailed exposed grayscale arm/leg anatomy, two equal SQUARE cells wide landscape, white background generous margins no text. Only smooth shirt overlay; retain pose and equipment.",
+      "inspectionNote": "Correction smooths pectoral red patches over opaque black shirt, retains vertical plate between palms and forward chest-height press. Full opaque shorts; exposed grayscale anatomy somewhat softened. Qualified palm pressure/contact, finger geometry, wrist and shoulder path pending review.",
+      "canonicalName": "weighted svend press",
+      "styleVersion": "white-v1",
+      "equipment": "weighted",
+      "primaryMuscles": [
+        "pectorals"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0856-male-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "status": "generated",
+        "costUSD": null
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Correction smooths pectoral red patches over opaque black shirt, retains vertical plate between palms and forward chest-height press. Full opaque shorts; exposed grayscale anatomy somewhat softened. Qualified palm pressure/contact, finger geometry, wrist and shoulder path pending review.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0856-male-anatomical-white-v2-p1-982d60d663ca.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 20324,
+          "sha256": "982d60d663ca7a4af251403191a66c8787e7825491947308723103a7d3000bc1"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0856-male-anatomical-white-v2-p2-5d9f8ede1f72.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 19904,
+          "sha256": "5d9f8ede1f728b8fed7b5acf20286d8c7bd477ba8bf1f204564cda106567d209"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0856-male-anatomical-white-v2-thumb-e4eb371d7392.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2438,
+        "sha256": "e4eb371d739266b20941af2781bfa4ed3bfaf8a96f4e8a194366354a6b45845f"
+      },
+      "processingSignature": "d21b4bc18e3d7f67f31c6cc96342a5e51fc0febea7edd170ec17bf646c06a4e4",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0856-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1288164,
+        "sha256": "a9428d19c885c6e58c9245afc3d4499e787fa93a98d548dea5bf43373d97703d"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0856",
+          "variant": "male",
+          "key": "0856-male-anatomical-white-v1",
+          "layout": {
+            "columns": 2,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Stand tall and squeeze a weight plate securely between the palms at chest height."
+            },
+            {
+              "key": "p2",
+              "caption": "Maintain the inward squeeze while pressing the plate straight forward at chest height, then return slowly."
+            }
+          ],
+          "prompt": "Original premium ADULT male anatomical exercise illustration, TWO equal SQUARE cells side by side WIDE LANDSCAPE 2:1. Same model, proportions, scale, equipment and camera both panels. Full body and ALL equipment fully in each cell with generous margins. WEIGHTED SVEND PRESS canonical0856. Side-front three-quarter camera to show forward arm travel. Stand upright feet shoulder width flat floor, neutral neck eyes forward, stable torso. Hold ONE small gray circular weight PLATE VERTICAL between two flat PALMS squeezing its opposite broad flat faces, palms FACE EACH OTHER; fingers spread along plate face, no handle grip, no dumbbells. Plate faces point LEFT/RIGHT, plate edge faces forward. LEFT START plate close to MID CHEST sternum, elbows bent and pointing slightly out/down. RIGHT FINISH press SAME plate STRAIGHT FORWARD at chest height, arms extended nearly straight, PALMS stay pressed opposite plate faces, plate secure never floating, no overhead rise, no torso lean. Smooth diffuse BLURRED RED teaching tint on intact opaque black shirt over left/right PECTORAL CHEST ONLY. Absolutely NO red fibers, rays, sixpack or anatomical grooves through cloth, only broad fabric folds under soft red glow. Fine detailed EXPOSED grayscale muscle contours with realistic proportions, equivalent male/female quality. Full opaque BLACK athletic tank shirt and MID-THIGH shorts continuously wrap FRONT SIDES BACK SEAT CROTCH, intact fabric seams and broad cloth folds, NEVER cutaways/transparency or anatomical fibers through cloth. Black shoes. White background and soft contact shadows. Original project reference is rendering STYLE ONLY ignore bench push-up pose and equipment. No text/captions/arrows/labels.",
+          "inspectionNote": "Svend press palms visibly squeeze vertical plate, chest start to forward extended arms, torso and feet steady. Red chest overlay has fine rays requiring smoothing over intact opaque black shirt. Full shorts coverage. Qualified palm contact, wrist alignment and chest-height path pending review.",
+          "canonicalName": "weighted svend press",
+          "styleVersion": "white-v1",
+          "equipment": "weighted",
+          "primaryMuscles": [
+            "pectorals"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Svend press palms visibly squeeze vertical plate, chest start to forward extended arms, torso and feet steady. Red chest overlay has fine rays requiring smoothing over intact opaque black shirt. Full shorts coverage. Qualified palm contact, wrist alignment and chest-height path pending review.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0856-male-anatomical-white-v1-p1-7a1030fd2aeb.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 21630,
+              "sha256": "7a1030fd2aebc28e05c3adf3e33f5d55a1fb3a7de1577522eae8b1eed623d46a"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0856-male-anatomical-white-v1-p2-482e5632ebe4.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 21692,
+              "sha256": "482e5632ebe4894ca2b399aaaa0834c367f8c61f6ff3bbad7f985b89609e2346"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0856-male-anatomical-white-v1-thumb-9ed1ba261353.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 2428,
+            "sha256": "9ed1ba26135386c9ed8fd6e9d18544b3f67463466b12f104483a1b9dc5605358"
+          },
+          "processingSignature": "5da2c5100abdbfcf3e670f736ac0c6ba02d3cabf9302a9cfe59dff6e3c872ea2",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0856-male-anatomical-white-v1.png",
+            "width": 1774,
+            "height": 887,
+            "bytes": 1313898,
+            "sha256": "58e7a90f5681c94661ca337a1a99ee15b0793bb26f4f74311140db918888bb9f"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "0856",
+      "variant": "female",
+      "key": "0856-female-anatomical-white-v2",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand tall and squeeze a weight plate securely between the palms at chest height."
+        },
+        {
+          "key": "p2",
+          "caption": "Maintain the inward squeeze while pressing the plate straight forward at chest height, then return slowly."
+        }
+      ],
+      "prompt": "Edit original female SVEND PRESS two poses. Preserve vertical plate held securely BETWEEN FLAT PALMS squeezing opposite broad faces, plate at chest start and arms extended forward chest-height finish, upright body, same grounded feet, limbs and proportions. Replace ALL chest red fine fibers/rays/anatomical grooves with TWO soft diffuse BLURRED red patches over left and right PECTORAL CHEST on intact opaque BLACK SHIRT. Red is a flat soft teaching tint on continuous fabric with broad natural folds only, NEVER anatomical fibers or transparency. Do not remove red entirely. Full opaque black shorts all front sides back seat crotch. Detailed exposed grayscale arm/leg anatomy, two equal SQUARE cells wide landscape, white background generous margins no text. Only smooth shirt overlay; retain pose and equipment.",
+      "inspectionNote": "Correction smooths pectoral red patches over intact opaque black shirt, retains plate squeezed between palms from chest to forward extended arms. Opaque shorts and detailed exposed anatomy retained. Qualified palm/finger geometry, wrist and press path pending human review.",
+      "canonicalName": "weighted svend press",
+      "styleVersion": "white-v1",
+      "equipment": "weighted",
+      "primaryMuscles": [
+        "pectorals"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0856-female-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "status": "generated",
+        "costUSD": null
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Correction smooths pectoral red patches over intact opaque black shirt, retains plate squeezed between palms from chest to forward extended arms. Opaque shorts and detailed exposed anatomy retained. Qualified palm/finger geometry, wrist and press path pending human review.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0856-female-anatomical-white-v2-p1-b253ea1e637c.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 20028,
+          "sha256": "b253ea1e637cf38fbcebcde37b0c8fabdd84ce3ce9b1b8229db2a355742f4f2f"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0856-female-anatomical-white-v2-p2-3f0db9b5c3ee.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 19554,
+          "sha256": "3f0db9b5c3eeab2daf13d429c67e311030957b7fc0a3b5b25aa28e31de173da3"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0856-female-anatomical-white-v2-thumb-e00c3b80b468.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2402,
+        "sha256": "e00c3b80b468b2a540da0214d654d92cdb8ad8b8bc2cc71a4865783024a3badb"
+      },
+      "processingSignature": "126bb0525acf1985e94f196107cdf2027046fab9ee5f5ac5ea8eee6752516638",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0856-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1273607,
+        "sha256": "252caf1d29390d6c2ae4180cda461cb5897aa934b6220b07a4d2f2ecaac7b8d7"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0856",
+          "variant": "female",
+          "key": "0856-female-anatomical-white-v1",
+          "layout": {
+            "columns": 2,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Stand tall and squeeze a weight plate securely between the palms at chest height."
+            },
+            {
+              "key": "p2",
+              "caption": "Maintain the inward squeeze while pressing the plate straight forward at chest height, then return slowly."
+            }
+          ],
+          "prompt": "Original premium ADULT female anatomical exercise illustration, TWO equal SQUARE cells side by side WIDE LANDSCAPE 2:1. Same model, proportions, scale, equipment and camera both panels. Full body and ALL equipment fully in each cell with generous margins. WEIGHTED SVEND PRESS canonical0856. Side-front three-quarter camera to show forward arm travel. Stand upright feet shoulder width flat floor, neutral neck eyes forward, stable torso. Hold ONE small gray circular weight PLATE VERTICAL between two flat PALMS squeezing its opposite broad flat faces, palms FACE EACH OTHER; fingers spread along plate face, no handle grip, no dumbbells. Plate faces point LEFT/RIGHT, plate edge faces forward. LEFT START plate close to MID CHEST sternum, elbows bent and pointing slightly out/down. RIGHT FINISH press SAME plate STRAIGHT FORWARD at chest height, arms extended nearly straight, PALMS stay pressed opposite plate faces, plate secure never floating, no overhead rise, no torso lean. Smooth diffuse BLURRED RED teaching tint on intact opaque black shirt over left/right PECTORAL CHEST ONLY. Absolutely NO red fibers, rays, sixpack or anatomical grooves through cloth, only broad fabric folds under soft red glow. Fine detailed EXPOSED grayscale muscle contours with realistic proportions, equivalent male/female quality. Full opaque BLACK athletic tank shirt and MID-THIGH shorts continuously wrap FRONT SIDES BACK SEAT CROTCH, intact fabric seams and broad cloth folds, NEVER cutaways/transparency or anatomical fibers through cloth. Black shoes. White background and soft contact shadows. Original project reference is rendering STYLE ONLY ignore bench push-up pose and equipment. No text/captions/arrows/labels.",
+          "inspectionNote": "Vertical plate squeezed between palms, chest start to forward extended-arm finish; feet and upright torso steady. Fine radial chest-red streaks require smoothing on continuous opaque black shirt. Full opaque shorts; qualified palm/finger contact, wrist and press path pending human review.",
+          "canonicalName": "weighted svend press",
+          "styleVersion": "white-v1",
+          "equipment": "weighted",
+          "primaryMuscles": [
+            "pectorals"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Vertical plate squeezed between palms, chest start to forward extended-arm finish; feet and upright torso steady. Fine radial chest-red streaks require smoothing on continuous opaque black shirt. Full opaque shorts; qualified palm/finger contact, wrist and press path pending human review.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0856-female-anatomical-white-v1-p1-abbecc29e66e.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 22446,
+              "sha256": "abbecc29e66e52c412a0305565b5b402c1c3fc58fe092043a68255c9cb050d3f"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0856-female-anatomical-white-v1-p2-0fb48ff3b2df.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 21280,
+              "sha256": "0fb48ff3b2df7ecde50dc6420126bb771be6ed37e77c0a43634dc963f63319aa"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0856-female-anatomical-white-v1-thumb-0bc932cf4603.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 2386,
+            "sha256": "0bc932cf46031aeaab32662aac11a82e0274c1ae230f5b5061ef6199404fbb76"
+          },
+          "processingSignature": "cc7c987ba1c01ad092795c3c12b56834abe3856d2615f340405d0253f79b13f7",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0856-female-anatomical-white-v1.png",
+            "width": 1774,
+            "height": 887,
+            "bytes": 1302432,
+            "sha256": "9d65f57446d981905a5cfb0b36fb3d1d30d991ec404cc620530140efc290f015"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "0860",
+      "variant": "male",
+      "key": "0860-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Face a low cable pulley, hinge forward and hold the right upper arm by the torso with the elbow bent to 90 degrees."
+        },
+        {
+          "key": "p2",
+          "caption": "Keep the upper arm fixed and straighten the right elbow backward against the cable; return with control, then switch sides."
+        }
+      ],
+      "prompt": "Original premium ADULT male anatomical exercise illustration, TWO equal SQUARE cells side by side WIDE LANDSCAPE 2:1. Same model, proportions, scale, equipment and camera both panels. Full body and ALL equipment fully in each cell with generous margins. CABLE TRICEPS KICKBACK canonical0860. SIDE-FRONT three-quarter camera showing working RIGHT arm outside nearest torso. Cable machine LOW PULLEY at image LEFT in FRONT of model, model faces LEFT toward machine; feet shoulder width, soft knees, hip hinge with back neutral torso almost parallel floor. Left palm braces own LEFT thigh, not cable. One compact D-HANDLE held RIGHT hand in neutral grip, palm faces torso, thumb wrapped. Cable taut from low pulley to handle BOTH panels, runs clearly OUTSIDE body avoiding feet, never passes through body. RIGHT UPPER ARM tucked alongside torso horizontal and completely FIXED both poses, elbow held at side level with back. LEFT START elbow90degrees, forearm hanging DOWN below fixed elbow, handle near lower ribs/knee height. RIGHT FINISH only FOREARM extends BACK toward image RIGHT, elbow straightens until entire right arm in line with torso, handle behind hip; upper arm/elbow never swing. SAME torso feet head both panels, neutral neck eyes floor. Highlight RIGHT TRICEPS exposed back of upper arm RED ONLY, not shoulder/chest/back. Full small cable tower with low pulley, cable and both feet visible wholly inside each square; no cross-panel cable. Fine detailed EXPOSED grayscale muscle contours with realistic proportions, equivalent male/female quality. Full opaque BLACK athletic tank shirt and MID-THIGH shorts continuously wrap FRONT SIDES BACK SEAT CROTCH, intact fabric seams and broad cloth folds, NEVER cutaways/transparency or anatomical fibers through cloth. Black shoes. White background and soft contact shadows. Original project reference is rendering STYLE ONLY ignore bench push-up pose and equipment. No text/captions/arrows/labels.",
+      "inspectionNote": "Cable kickback low pulley connected to right D-handle in both poses; bent elbow start to backward extension, upper arm near torso, other hand braces thigh. Triceps red exposed, opaque shirt/shorts. Cable crosses foreground near legs without clear penetration; qualified routing clearance, elbow fixed position, neck and grip require human review.",
+      "canonicalName": "cable kickback",
+      "styleVersion": "white-v1",
+      "equipment": "cable",
+      "primaryMuscles": [
+        "triceps"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Cable kickback low pulley connected to right D-handle in both poses; bent elbow start to backward extension, upper arm near torso, other hand braces thigh. Triceps red exposed, opaque shirt/shorts. Cable crosses foreground near legs without clear penetration; qualified routing clearance, elbow fixed position, neck and grip require human review.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0860-male-anatomical-white-v1-p1-2186e7209d86.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 45494,
+          "sha256": "2186e7209d86d9f6b6297ff1d54b234cb6763d35653c3f8753c4fc79b06fbde4"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0860-male-anatomical-white-v1-p2-d7e80c52eda9.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 46796,
+          "sha256": "d7e80c52eda9df92ed87187fc4f3c66ab4e567116b3df8476cfc8538eec4f094"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0860-male-anatomical-white-v1-thumb-eb8eaeeb153e.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 4912,
+        "sha256": "eb8eaeeb153e1681abae85a9c60f9b35a6b4722edb28123b6336ca3619042a06"
+      },
+      "processingSignature": "4da9f6c6869bbf9d7c971ccbaabd6484c2a7e705b59fcc3fcf8c400b0dfde0cb",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0860-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1583869,
+        "sha256": "1d44314d34d221302b8f84cb87d664fc94ac1306dadaae2ab4140d6633997835"
+      }
+    },
+    {
+      "exerciseId": "0860",
+      "variant": "female",
+      "key": "0860-female-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Face a low cable pulley, hinge forward and hold the right upper arm by the torso with the elbow bent to 90 degrees."
+        },
+        {
+          "key": "p2",
+          "caption": "Keep the upper arm fixed and straighten the right elbow backward against the cable; return with control, then switch sides."
+        }
+      ],
+      "prompt": "Original premium ADULT female anatomical exercise illustration, TWO equal SQUARE cells side by side WIDE LANDSCAPE 2:1. Same model, proportions, scale, equipment and camera both panels. Full body and ALL equipment fully in each cell with generous margins. CABLE TRICEPS KICKBACK canonical0860. SIDE-FRONT three-quarter camera showing working RIGHT arm outside nearest torso. Cable machine LOW PULLEY at image LEFT in FRONT of model, model faces LEFT toward machine; feet shoulder width, soft knees, hip hinge with back neutral torso almost parallel floor. Left palm braces own LEFT thigh, not cable. One compact D-HANDLE held RIGHT hand in neutral grip, palm faces torso, thumb wrapped. Cable taut from low pulley to handle BOTH panels, runs clearly OUTSIDE body avoiding feet, never passes through body. RIGHT UPPER ARM tucked alongside torso horizontal and completely FIXED both poses, elbow held at side level with back. LEFT START elbow90degrees, forearm hanging DOWN below fixed elbow, handle near lower ribs/knee height. RIGHT FINISH only FOREARM extends BACK toward image RIGHT, elbow straightens until entire right arm in line with torso, handle behind hip; upper arm/elbow never swing. SAME torso feet head both panels, neutral neck eyes floor. Highlight RIGHT TRICEPS exposed back of upper arm RED ONLY, not shoulder/chest/back. Full small cable tower with low pulley, cable and both feet visible wholly inside each square; no cross-panel cable. Fine detailed EXPOSED grayscale muscle contours with realistic proportions, equivalent male/female quality. Full opaque BLACK athletic tank shirt and MID-THIGH shorts continuously wrap FRONT SIDES BACK SEAT CROTCH, intact fabric seams and broad cloth folds, NEVER cutaways/transparency or anatomical fibers through cloth. Black shoes. White background and soft contact shadows. Original project reference is rendering STYLE ONLY ignore bench push-up pose and equipment. No text/captions/arrows/labels.",
+      "inspectionNote": "Cable kickback low pulley connected to right D-handle, elbow bends then extends backward with upper arm near torso. Other palm braces thigh; triceps red on exposed grayscale anatomy, opaque shirt/shorts. Cable passes foreground near legs; qualified routing clearance, fixed elbow, wrist grip and cervical alignment pending review.",
+      "canonicalName": "cable kickback",
+      "styleVersion": "white-v1",
+      "equipment": "cable",
+      "primaryMuscles": [
+        "triceps"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Cable kickback low pulley connected to right D-handle, elbow bends then extends backward with upper arm near torso. Other palm braces thigh; triceps red on exposed grayscale anatomy, opaque shirt/shorts. Cable passes foreground near legs; qualified routing clearance, fixed elbow, wrist grip and cervical alignment pending review.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0860-female-anatomical-white-v1-p1-8f1537f7d143.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 40516,
+          "sha256": "8f1537f7d1435ec9359d2350f64e836bfb95f298940f5d5ac8b5bd869be65d81"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0860-female-anatomical-white-v1-p2-9a50346962b9.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 41314,
+          "sha256": "9a50346962b96e8d6e44a7dae77da75b03bd5f15ce2d1abc809543bebb838e11"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0860-female-anatomical-white-v1-thumb-330716f49d4c.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 4308,
+        "sha256": "330716f49d4cea5f742e45b208f7adf2012734b3702e391fda2b41b0400eb58d"
+      },
+      "processingSignature": "ae1f9e8d44751880456a3cd2156697e0b5534fffa5b74e35bda595bbcf4d6111",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0860-female-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1529440,
+        "sha256": "36d7c6965d9b33655b92edede39614f2c9902e32d4b4413951bbdf9f96f98e58"
+      }
+    }
+  ]
+}

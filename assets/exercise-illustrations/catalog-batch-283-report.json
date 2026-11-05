@@ -1,0 +1,89 @@
+{
+  "batch": 283,
+  "runId": "160b9a9c-5f67-478b-913f-c7cedf2378ec",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "trigger": "2026-11-04T01:50:26.096Z",
+  "purpose": "batch283 scheduled male continuation",
+  "started": "2026-11-04T01:50:45.030208+00:00",
+  "completedAt": "2026-11-04T01:56:51.533429+00:00",
+  "actualToolName": "image_gen__imagegen",
+  "calls": 4,
+  "newCandidateSets": 4,
+  "exerciseIds": [
+    "2365",
+    "2367",
+    "2368",
+    "2371"
+  ],
+  "variants": [
+    "male"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1005,
+    "remainingVariants": 10259,
+    "approvedVariants": 0,
+    "blockedVariants": 336,
+    "knownPoseImages": 1931,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 632,
+      "remainingVariants": 5000,
+      "blockedVariants": 217
+    }
+  },
+  "reviewNotes": {
+    "2365": "One dumbbell travels above chest to behind head, head/hips remain bench-supported and feet planted; elbows nearly straight throughout. Both hands appear resting on top of dumbbell head rather than supporting its underside securely; block grip correction. Lateral tank tint on intact cloth. Qualified review of shoulder range, elbow-angle consistency, hand anatomy and rib position required. Human anatomy review remains pending.",
+    "2367": "Both feet on low step then reverse lunge with front heel retained atop step and rear toes on floor; torso tall and dumbbells at sides. Start lacks primary quad highlight; end shows fiber-like quad shading through red shorts. Block consistent highlight/fabric correction. Qualified review of rear-knee height, front knee/ankle stacking, balance and leg laterality required. Human anatomy review remains pending.",
+    "2368": "Fixed split stance, hands on hips, rear heel lifted and upright torso lower to near-parallel front thigh. Red quad rendering replaces/opens front shorts panel and exposes muscle fibers, violating opaque clothing requirement; block clothing correction. Qualified review of fixed foot spacing, rear-knee clearance and front knee alignment required. Human anatomy review remains pending.",
+    "2371": "Center plate hold then two side holds, seated pelvis and feet remain grounded, opaque tank/shorts and plain abdominal tint. Second and third poses rotate toward same image side rather than opposite sides; block alternating direction correction. Qualified review of ribcage versus arm rotation, lean angle, grip and coherent pelvis orientation required. Human anatomy review remains pending."
+  },
+  "blockingIssues": {
+    "2365": [
+      "Hands appear atop dumbbell head with unclear secure support; correct two-hand cupped underside grip."
+    ],
+    "2367": [
+      "Start lacks primary-muscle highlight.",
+      "End quad overlay has fiber-like anatomy through shorts; replace with uniform tint on opaque fabric."
+    ],
+    "2368": [
+      "Front thigh shorts panel becomes an anatomical cutaway with exposed muscle fibers; restore fully opaque fabric and uniform overlay."
+    ],
+    "2371": [
+      "Both twist endpoints face the same side; regenerate distinct right and left torso rotations."
+    ]
+  },
+  "deferred": {},
+  "tests": 7,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "workerSyncResult": {
+    "statuses": {
+      "generated": 1005,
+      "pending": 10259
+    },
+    "remaining": 10259,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 1548973254
+  },
+  "publicationIndexUnchanged": true,
+  "savedMasters": [
+    "assets/exercise-illustrations/generated/2365-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/2367-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/2368-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/2371-male-anatomical-white-v1.png"
+  ]
+}

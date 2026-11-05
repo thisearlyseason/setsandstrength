@@ -1,0 +1,66 @@
+{
+  "batch": 197,
+  "runId": "93aa9d12-453b-40b8-9261-bb56b14caf55",
+  "trigger": "2026-11-03T12:33:29.863Z",
+  "completedAt": "2026-11-03T12:39:18.560262+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 2,
+  "generationCalls": 2,
+  "exerciseIds": [
+    "1492"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 708,
+    "remainingVariants": 10556,
+    "approvedVariants": 0,
+    "blockedVariants": 235,
+    "knownPoseImages": 1394,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Two overhead triceps stretch candidates, one static pose per variant, two built-in calls. Both BLOCKED for malformed extra upper-arm/shoulder structure. Bent working elbow overhead, other hand cupping elbow, exposed triceps red, full opaque clothes and detailed grayscale anatomy retained. Qualified limb count/shoulder connection, finger contact, neck and rib posture need correction and human review. Original project artwork rendering style only, no upstream licensed input. Exact prompts/originals retained. No anatomical or clothing approval or publication. Seven pipeline checks do not establish anatomical accuracy.",
+  "metadataConflictsDeferred": {
+    "1489": "Backward leaning sissy squat versus push through heels instruction.",
+    "1491": "Spine target requires specific muscle mapping."
+  },
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 1114775090,
+  "savedMasters": [
+    {
+      "exerciseId": "1492",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1492-male-anatomical-white-v1.png",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 1258990,
+        "sha256": "26b093559343eac4726dae071e252c046ba981270b731fb27d07718fe5cb0478"
+      }
+    },
+    {
+      "exerciseId": "1492",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1492-female-anatomical-white-v1.png",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 1284052,
+        "sha256": "8e40408af33fa9e5a1443ad46dcae9bb203db06f2f18e38220602b813226bb23"
+      }
+    }
+  ]
+}

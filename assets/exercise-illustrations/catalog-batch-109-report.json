@@ -1,0 +1,88 @@
+{
+  "batch": 109,
+  "trigger": "2026-11-02T19:44:51.896Z",
+  "completedAt": "2026-11-02T19:54:16.822133+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 4,
+  "generationCalls": 7,
+  "exerciseIds": [
+    "0688",
+    "0692"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 446,
+    "remainingVariants": 10818,
+    "approvedVariants": 0,
+    "blockedVariants": 186,
+    "knownPoseImages": 928,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Four candidate sets, six poses, seven built-in calls and three retained corrections. Scapular pull-ups show two straight-arm hang/depression phases with feet off floor; female correction increases shoulder/neck contrast and frame margins but introduces radial red rays on back-shirt fabric, blocked for cloth correction. Male frame has narrow but contained margins. Qualified overhand grip, elbow extension, scapular mechanics and scale continuity review pending for both. Hamstring stretches use one static pose each, straight near leg heel grounded/toes up, other knee bent, hands near ankle and long back. Both shorts tints softened to diffuse red. Qualified posterior hamstring localization, hip hinge and joint alignment review pending. Fine exposed grayscale anatomy and opaque full garments front/sides/back/seat/crotch retained. No anatomy approval or publication. Original PNGs, exact prompts and correction history saved. Original project artwork used for style only, no upstream media. Pipeline checks do not approve anatomy.",
+  "metadataConflictsDeferred": {
+    "0689": "Feet-flat seated start versus keeping legs straight throughout raise leaves start knee angle ambiguous; clarify pose sequence.",
+    "0690": "Lower-back stretch name/description with lats primary target; primary highlight mapping requires clarification."
+  },
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 733425148,
+  "savedMasters": [
+    {
+      "exerciseId": "0688",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0688-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1299288,
+        "sha256": "0a515db5b4d05a5ab58f2a96fa61040caca490ac810ff40c8a65f5678c0c8e00"
+      }
+    },
+    {
+      "exerciseId": "0688",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0688-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1263977,
+        "sha256": "b4a2b687871c93aab8d30200cfb227b033dc0416c51cade74425bc4b7956c001"
+      }
+    },
+    {
+      "exerciseId": "0692",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0692-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1583999,
+        "sha256": "3eae72da84bb2958c9ad73ef981c1f8db2d228a5477310a76050a2e3b93afd23"
+      }
+    },
+    {
+      "exerciseId": "0692",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0692-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1820479,
+        "sha256": "61339fb0fe852a7305edf2dd14de8f9a5ad8877005f7cbc4a2dba0145bc24cd9"
+      }
+    }
+  ]
+}

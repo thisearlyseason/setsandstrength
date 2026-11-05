@@ -1,0 +1,93 @@
+{
+  "batch": 62,
+  "trigger": "2026-11-01T12:55:15.891Z",
+  "completedAt": "2026-11-01T13:01:23.184856+00:00",
+  "tool": "image_gen.imagegen",
+  "newCandidateSets": 4,
+  "generationCalls": 5,
+  "exerciseIds": [
+    "0192",
+    "0200"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 244,
+    "remainingVariants": 11020,
+    "approvedVariants": 0,
+    "blockedVariants": 109,
+    "knownPoseImages": 494,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "All pending and unpublished. One-arm lateral raises blocked for exact facing-tower orientation and cable clearance from thighs. Rope pushdown poses inspected for separate neutral grips and stationary upper arms; male full-tower framing corrected in v2, original retained. Full opaque rear/crotch garments inspected. Qualified anatomical and grip review remains required. No automated anatomy approval.",
+  "metadataConflictsDeferred": [
+    {
+      "exerciseId": "0197",
+      "issue": "Target lats conflicts with upper-back primary mapping; pro bar geometry requires specification."
+    },
+    {
+      "exerciseId": "0198",
+      "issue": "Target lats conflicts with upper-back primary mapping."
+    }
+  ],
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 393867566,
+  "savedMasters": [
+    {
+      "exerciseId": "0192",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0192-male-anatomical-white-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1587929,
+        "sha256": "c894fbf1df63bac41af5c6faf561cbba21f948c2aa539e7f43314eb06170f62a"
+      }
+    },
+    {
+      "exerciseId": "0192",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0192-female-anatomical-white-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1580737,
+        "sha256": "ae68762024901c4b5cb0ab4ccc9e3b72abbfdf1c2a397105ffb19191cb95b079"
+      }
+    },
+    {
+      "exerciseId": "0200",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0200-male-anatomical-white-v2.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1570215,
+        "sha256": "eed64bcbeea3f6b14af99abd77f64b1cacbe4fdf9905ccc4fcc04f99782a6539"
+      }
+    },
+    {
+      "exerciseId": "0200",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0200-female-anatomical-white-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1477074,
+        "sha256": "1b61e5176307ecd3defa58ec166d66350e1b9f0ed35af35e826666f24d2aee81"
+      }
+    }
+  ]
+}

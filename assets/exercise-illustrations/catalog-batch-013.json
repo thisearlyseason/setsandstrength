@@ -1,0 +1,118 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "0333",
+      "variant": "male",
+      "key": "0333-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Bend elbows"
+        },
+        {
+          "key": "p2",
+          "caption": "Extend elbows"
+        }
+      ],
+      "prompt": "Premium anatomical educational fitness illustration, adult MALE, approved grayscale detailed realistic anatomy style from reference only; replace wall sit pose. Pure white background, crisp detail soft shadows, same model/camera/equipment/scale across two equal panels with generous gutter. Full opaque black sleeveless top covering chest torso sides back and knee-length black shorts completely covering rear seat crotch front sides, normal seams/folds closed hems, shoes. Red target highlights only; under garments use surface graphic on intact cloth with no transparency/cutaways. Whole bodies and equipment within panel margins. No text numbers arrows labels logos.  Exercise: dumbbell kickback (0333). Near SIDE three-quarter camera shows BOTH arms and forearms, with minimal overlap. Stand feet shoulder-width, knees soft, hinge at hips torso nearly parallel to floor, neutral back/neck and gaze down. One dumbbell in EACH hand. Upper arms fixed tight alongside torso and roughly horizontal. Left panel elbows bent90degrees with forearms hanging downward and dumbbells below elbows. Right panel extend BOTH elbows to straighten forearms BACK behind hips along upper-arm line, dumbbells now behind torso, wrists neutral. No shoulder swing or torso movement, upper arms same position both panels, feet planted. Highlight TRICEPS on BACK of both upper arms red, all other muscles grayscale.",
+      "inspectionNote": "Full opaque garments and near-arm elbow extension visible. Far arm is occluded/drops in start; bilateral upper-arm consistency cannot be established and must be corrected or qualified-reviewed.",
+      "batch": "catalog-batch-013.json",
+      "blockingIssues": [
+        "Far arm start/endpoint not clearly consistent with simultaneous bilateral kickback; correct or obtain qualified confirmation."
+      ]
+    },
+    {
+      "exerciseId": "0333",
+      "variant": "female",
+      "key": "0333-female-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Bend elbows"
+        },
+        {
+          "key": "p2",
+          "caption": "Extend elbows"
+        }
+      ],
+      "prompt": "Premium anatomical educational fitness illustration, adult FEMALE, approved grayscale detailed realistic anatomy style from reference only; replace wall sit pose. Pure white background, crisp detail soft shadows, same model/camera/equipment/scale across two equal panels with generous gutter. Full opaque black sleeveless top covering chest torso sides back and knee-length black shorts completely covering rear seat crotch front sides, normal seams/folds closed hems, shoes. Red target highlights only; under garments use surface graphic on intact cloth with no transparency/cutaways. Whole bodies and equipment within panel margins. No text numbers arrows labels logos.  Exercise: dumbbell kickback (0333). Near SIDE three-quarter camera shows BOTH arms and forearms, with minimal overlap. Stand feet shoulder-width, knees soft, hinge at hips torso nearly parallel to floor, neutral back/neck and gaze down. One dumbbell in EACH hand. Upper arms fixed tight alongside torso and roughly horizontal. Left panel elbows bent90degrees with forearms hanging downward and dumbbells below elbows. Right panel extend BOTH elbows to straighten forearms BACK behind hips along upper-arm line, dumbbells now behind torso, wrists neutral. No shoulder swing or torso movement, upper arms same position both panels, feet planted. Highlight TRICEPS on BACK of both upper arms red, all other muscles grayscale.",
+      "inspectionNote": "Full opaque clothing, near-arm kickback and both weights visible. Far upper-arm start position/occluded endpoint requires correction or qualified confirmation of bilateral consistency.",
+      "batch": "catalog-batch-013.json",
+      "blockingIssues": [
+        "Far arm start/endpoint not clearly consistent with simultaneous bilateral kickback; correct or obtain qualified confirmation."
+      ]
+    },
+    {
+      "exerciseId": "0095",
+      "variant": "male",
+      "key": "0095-male-anatomical-white-v2",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Relax shoulders"
+        },
+        {
+          "key": "p2",
+          "caption": "Shrug"
+        }
+      ],
+      "prompt": "Create the ADULT MALE version of this two-position BARBELL SHRUG illustration. Keep same FRONT three-quarter camera, whole bar clearly IN FRONT of thighs/shorts, overhand grip and straight arms in both poses. Left shoulders relaxed down, right shoulders raised toward ears with head neutral, no elbow bend, no shoulder rolling. Same male and same bar/plates in both panels, same scale. Premium detailed GRAYSCALE anatomy on exposed arms and lower legs, realistic proportions, no flesh-colored photography. Full opaque black sleeveless athletic top wrapping torso back sides chest and knee-length shorts with full seat crotch front sides/back coverage, seams/folds, shoes. Red UPPER TRAPEZIUS from neck toward shoulders only, not sternocleidomastoid on front neck or deltoids; surface overlay on intact shirt where covered. White background soft shadows, no text arrows labels or numbers. Two equal panels with ample margins.",
+      "inspectionNote": "Corrected to front camera with bar clearly in front of thighs. Shoulder elevation and full opaque garments visible; qualified trapezius boundary, grip and neck review pending.",
+      "batch": "catalog-batch-013.json",
+      "history": [
+        {
+          "key": "0095-male-anatomical-white-v1",
+          "layout": {
+            "columns": 2,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Relax shoulders"
+            },
+            {
+              "key": "p2",
+              "caption": "Shrug"
+            }
+          ],
+          "prompt": "Premium anatomical educational fitness illustration, adult MALE, approved grayscale detailed realistic anatomy style from reference only; replace wall sit pose. Pure white background, crisp detail soft shadows, same model/camera/equipment/scale across two equal panels with generous gutter. Full opaque black sleeveless top covering chest torso sides back and knee-length black shorts completely covering rear seat crotch front sides, normal seams/folds closed hems, shoes. Red target highlights only; under garments use surface graphic on intact cloth with no transparency/cutaways. Whole bodies and equipment within panel margins. No text numbers arrows labels logos.  Exercise: barbell shrug (0095). Near REAR three-quarter camera so upper trapezius and shoulder elevation clearly visible. Feet shoulder-width, torso tall, head/neck neutral. ONE straight barbell held in FRONT of thighs using overhand grip shoulder-width; hands realistically wrap shaft, arms remain straight. Bar may partly occlude behind torso from this camera but endpoints/plates and hands readable. Left panel shoulders relaxed down. Right panel elevate BOTH shoulders straight toward ears with arms still straight and shoulders not rolled forward/back; bar rises slightly from shoulder elevation, no elbow curl or head jut. Same bar and small matching plates/collars. Highlight UPPER TRAPEZIUS from neck toward shoulders red only; over shirt use opaque surface teaching overlay retaining fabric. Don't highlight deltoids or triceps."
+        }
+      ]
+    },
+    {
+      "exerciseId": "0095",
+      "variant": "female",
+      "key": "0095-female-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Relax shoulders"
+        },
+        {
+          "key": "p2",
+          "caption": "Shrug"
+        }
+      ],
+      "prompt": "Premium anatomical educational fitness illustration, adult FEMALE, approved grayscale detailed realistic anatomy style from reference only; replace wall sit pose. Pure white background, crisp detail soft shadows, same model/camera/equipment/scale across two equal panels with generous gutter. Full opaque black sleeveless top covering chest torso sides back and knee-length black shorts completely covering rear seat crotch front sides, normal seams/folds closed hems, shoes. Red target highlights only; under garments use surface graphic on intact cloth with no transparency/cutaways. Whole bodies and equipment within panel margins. No text numbers arrows labels logos.  Exercise: barbell shrug (0095). Near FRONT three-quarter camera so upper trapezius and shoulder elevation clearly visible. Feet shoulder-width, torso tall, head/neck neutral. ONE straight barbell held in FRONT of thighs using overhand grip shoulder-width; hands realistically wrap shaft, arms remain straight. Bar must be clearly IN FRONT of both thighs, never behind hips; entire shaft between both hands visible in front of shorts. Use front-oblique camera to establish this. Left panel shoulders relaxed down. Right panel elevate BOTH shoulders straight toward ears with arms still straight and shoulders not rolled forward/back; bar rises slightly from shoulder elevation, no elbow curl or head jut. Same bar and small matching plates/collars. Highlight UPPER TRAPEZIUS from neck toward shoulders red only; over shirt use opaque surface teaching overlay retaining fabric. Don't highlight deltoids or triceps.",
+      "inspectionNote": "Front bar position, straight arms and shoulder elevation visible; full opaque garments. Qualified trapezius boundary and neutral neck review pending.",
+      "batch": "catalog-batch-013.json"
+    }
+  ]
+}

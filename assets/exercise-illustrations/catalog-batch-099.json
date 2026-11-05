@@ -1,0 +1,710 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "0653",
+      "variant": "male",
+      "key": "0653-male-anatomical-white-v2",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hold a straight plank with both hands on the edges of the upward-facing flat Bosu platform"
+        },
+        {
+          "key": "p2",
+          "caption": "Bend elbows and lower the chest toward the platform, then press up"
+        }
+      ],
+      "detail": "BOSU BALL PUSH-UP, TWO phases. Same full-body three-quarter FRONT SIDE view head IMAGE LEFT feet RIGHT, BOTH hands on outer edges of a single INVERTED BOSU: flat rigid circular black platform faces UP, blue-gray HALF-DOME faces DOWN contacting FLOOR. It is a low hemisphere half-ball balance trainer, not a full ball or bench. Platform/dome fixed size and position each panel. Both hands shoulder width on outer platform rims, fingers secure around edge, wrists continuous, no floor hand. Feet hip width toes on floor behind, knees STRAIGHT. LEFT high plank elbows extended, straight line shoulders hips heels. RIGHT lower chest toward upward flat platform by bending elbows about90degrees, same straight body/legs, chest above platform not through it. Entire hemisphere platform/body/shoes/hands within panel white margins. Primary CHEST/PECTORALS only red as smoothly blurred diffuse patches on intact OPAQUE BLACK shirt over chest, NO fibers/radial lines/pectoral subdivisions on fabric. All other muscle fine detailed grayscale. Full opaque shirt front sides back, knee shorts full front sides back seat crotch. No labels/arrows.",
+      "prompt": "Edit original project two-panel inverted Bosu push-up. Preserve ALL exact poses, model, fixed trainer flat platform UP and half dome DOWN, hand/rim contacts, toes floor, whole body framing and detailed fine grayscale anatomical fibers on ALL EXPOSED arms/legs. Repaint ONLY chest shirt highlight as smooth soft diffuse BLURRED RED color patches on continuous OPAQUE matte BLACK FABRIC. REMOVE every radial fiber/streak and anatomical pectoral subdivision from clothes. Natural broad garment folds/seams only. Shirt wraps full torso front sides back, loose knee shorts fully cover front sides rear seat crotch. No cutaways/transparency. No text.",
+      "inspectionNote": "Chest red now diffuse on intact opaque black shirt, fine grayscale exposed anatomy retained. High/low plank, flat-up platform and hemisphere-down floor contact preserved. Qualified wrist/rim grip, toes, trainer geometry and technique review pending.",
+      "canonicalName": "push-up (bosu ball)",
+      "styleVersion": "white-v1",
+      "equipment": "bosu ball",
+      "primaryMuscles": [
+        "pectorals"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0653-male-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "status": "generated",
+        "costUSD": null
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Chest red now diffuse on intact opaque black shirt, fine grayscale exposed anatomy retained. High/low plank, flat-up platform and hemisphere-down floor contact preserved. Qualified wrist/rim grip, toes, trainer geometry and technique review pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0653-male-anatomical-white-v2-p1-68b49baad1e1.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 35770,
+          "sha256": "68b49baad1e1819c6989fe4844a00e3d3a4de3953877cfbfeeb7012f1d166787"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0653-male-anatomical-white-v2-p2-090378bdfaf1.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 29452,
+          "sha256": "090378bdfaf1b06bc316e86086f2712dc04b271dbe2780bc3ee75a0e91e934d2"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0653-male-anatomical-white-v2-thumb-a5657efe67b5.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 3872,
+        "sha256": "a5657efe67b5039525c5cfb972673120579543f84aa101cb53292e2511b314f0"
+      },
+      "processingSignature": "ec67f6816506f8c9307062cfa81c946f7175d0ded546a7b635faba47f2414862",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0653-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1721303,
+        "sha256": "c07ca278636b5e5a6c9b24c001b72d658ac642a0666b25ced533769b789e0f4f"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0653",
+          "variant": "male",
+          "key": "0653-male-anatomical-white-v1",
+          "layout": {
+            "columns": 2,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Hold a straight plank with both hands on the edges of the upward-facing flat Bosu platform"
+            },
+            {
+              "key": "p2",
+              "caption": "Bend elbows and lower the chest toward the platform, then press up"
+            }
+          ],
+          "detail": "BOSU BALL PUSH-UP, TWO phases. Same full-body three-quarter FRONT SIDE view head IMAGE LEFT feet RIGHT, BOTH hands on outer edges of a single INVERTED BOSU: flat rigid circular black platform faces UP, blue-gray HALF-DOME faces DOWN contacting FLOOR. It is a low hemisphere half-ball balance trainer, not a full ball or bench. Platform/dome fixed size and position each panel. Both hands shoulder width on outer platform rims, fingers secure around edge, wrists continuous, no floor hand. Feet hip width toes on floor behind, knees STRAIGHT. LEFT high plank elbows extended, straight line shoulders hips heels. RIGHT lower chest toward upward flat platform by bending elbows about90degrees, same straight body/legs, chest above platform not through it. Entire hemisphere platform/body/shoes/hands within panel white margins. Primary CHEST/PECTORALS only red as smoothly blurred diffuse patches on intact OPAQUE BLACK shirt over chest, NO fibers/radial lines/pectoral subdivisions on fabric. All other muscle fine detailed grayscale. Full opaque shirt front sides back, knee shorts full front sides back seat crotch. No labels/arrows.",
+          "prompt": "Original educational exercise illustration. Attached original project artwork is STYLE reference ONLY, never pose reference. Detailed fine grayscale anatomical fibers on exposed arms and legs, realistic neutral adult MALE; pure white background. TWO equal side-by-side panels, same exact model, camera and lighting. FULLY OPAQUE matte BLACK sleeveless shirt continuously wraps torso front/sides/back. Loose BLACK knee-length shorts fully wrap both upper thighs, front, sides, rear, seat and crotch with closed hems/seams and natural fabric folds. Never translucent fabric, bare buttocks, anatomy windows, clothing cutaways or muscle-fiber patterns on clothes. Black trainers. Red PRIMARY muscle highlights only as specified, over clothing one soft diffuse blurred tint on intact black fabric, no anatomy divisions or fibers. Entire person, shoes, hands and apparatus fit in EACH panel with generous white margins. No text, arrows, logos or numbers. BOSU BALL PUSH-UP, TWO phases. Same full-body three-quarter FRONT SIDE view head IMAGE LEFT feet RIGHT, BOTH hands on outer edges of a single INVERTED BOSU: flat rigid circular black platform faces UP, blue-gray HALF-DOME faces DOWN contacting FLOOR. It is a low hemisphere half-ball balance trainer, not a full ball or bench. Platform/dome fixed size and position each panel. Both hands shoulder width on outer platform rims, fingers secure around edge, wrists continuous, no floor hand. Feet hip width toes on floor behind, knees STRAIGHT. LEFT high plank elbows extended, straight line shoulders hips heels. RIGHT lower chest toward upward flat platform by bending elbows about90degrees, same straight body/legs, chest above platform not through it. Entire hemisphere platform/body/shoes/hands within panel white margins. Primary CHEST/PECTORALS only red as smoothly blurred diffuse patches on intact OPAQUE BLACK shirt over chest, NO fibers/radial lines/pectoral subdivisions on fabric. All other muscle fine detailed grayscale. Full opaque shirt front sides back, knee shorts full front sides back seat crotch. No labels/arrows.",
+          "inspectionNote": "Two Bosu push-up phases use flat platform up and hemisphere down, both hands on edges and toes on floor. Elbows extended/bent and torso straight. Opaque clothes and detailed grayscale limbs retained. Chest shirt highlight includes radial fibers requiring diffuse cloth edit; qualified wrist, foot and trainer geometry review pending.",
+          "canonicalName": "push-up (bosu ball)",
+          "styleVersion": "white-v1",
+          "equipment": "bosu ball",
+          "primaryMuscles": [
+            "pectorals"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Two Bosu push-up phases use flat platform up and hemisphere down, both hands on edges and toes on floor. Elbows extended/bent and torso straight. Opaque clothes and detailed grayscale limbs retained. Chest shirt highlight includes radial fibers requiring diffuse cloth edit; qualified wrist, foot and trainer geometry review pending.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0653-male-anatomical-white-v1-p1-9a079ba7f51e.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 38084,
+              "sha256": "9a079ba7f51e11cc428dfb2dbcedf8a939c38b7647b0997904cc4887bb111990"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0653-male-anatomical-white-v1-p2-6fd370f3d5a7.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 32198,
+              "sha256": "6fd370f3d5a70792a7c695fcf254b7c1f67d3f24067efe44c6f85a14ed842ec3"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0653-male-anatomical-white-v1-thumb-581db639eb19.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 3840,
+            "sha256": "581db639eb195456dfc697bde3c264582602a5b40f64f49eb57ef2e9fcb4bf26"
+          },
+          "processingSignature": "0e78b12000ab7b4efd489ff0067e499842a4bc658be754405bdc6584d9cb748f",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0653-male-anatomical-white-v1.png",
+            "width": 1774,
+            "height": 887,
+            "bytes": 1723607,
+            "sha256": "fc19a9b40e7d1b8f836c7aecf1567691f67637c3569366af31f024e928fa5dd9"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "0653",
+      "variant": "female",
+      "key": "0653-female-anatomical-white-v2",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hold a straight plank with both hands on the edges of the upward-facing flat Bosu platform"
+        },
+        {
+          "key": "p2",
+          "caption": "Bend elbows and lower the chest toward the platform, then press up"
+        }
+      ],
+      "detail": "BOSU BALL PUSH-UP, TWO phases. Same full-body three-quarter FRONT SIDE view head IMAGE LEFT feet RIGHT, BOTH hands on outer edges of a single INVERTED BOSU: flat rigid circular black platform faces UP, blue-gray HALF-DOME faces DOWN contacting FLOOR. It is a low hemisphere half-ball balance trainer, not a full ball or bench. Platform/dome fixed size and position each panel. Both hands shoulder width on outer platform rims, fingers secure around edge, wrists continuous, no floor hand. Feet hip width toes on floor behind, knees STRAIGHT. LEFT high plank elbows extended, straight line shoulders hips heels. RIGHT lower chest toward upward flat platform by bending elbows about90degrees, same straight body/legs, chest above platform not through it. Entire hemisphere platform/body/shoes/hands within panel white margins. Primary CHEST/PECTORALS only red as smoothly blurred diffuse patches on intact OPAQUE BLACK shirt over chest, NO fibers/radial lines/pectoral subdivisions on fabric. All other muscle fine detailed grayscale. Full opaque shirt front sides back, knee shorts full front sides back seat crotch. No labels/arrows.",
+      "prompt": "Edit original project two-panel inverted Bosu push-up. Preserve ALL exact poses, model, fixed trainer flat platform UP and half dome DOWN, hand/rim contacts, toes floor, whole body framing and detailed fine grayscale anatomical fibers on ALL EXPOSED arms/legs. Repaint ONLY chest shirt highlight as smooth soft diffuse BLURRED RED color patches on continuous OPAQUE matte BLACK FABRIC. REMOVE every radial fiber/streak and anatomical pectoral subdivision from clothes. Natural broad garment folds/seams only. Shirt wraps full torso front sides back, loose knee shorts fully cover front sides rear seat crotch. No cutaways/transparency. No text. Preserve female proportions and equally fine exposed grayscale muscle fibers.",
+      "inspectionNote": "Diffuse chest tint now on intact opaque shirt; exposed grayscale anatomy retained. Flat-up Bosu and dome-down support, high/low plank and hands/toes contacts preserved. Qualified trainer geometry, wrist grip, alignment and anatomical review pending.",
+      "canonicalName": "push-up (bosu ball)",
+      "styleVersion": "white-v1",
+      "equipment": "bosu ball",
+      "primaryMuscles": [
+        "pectorals"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0653-female-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "status": "generated",
+        "costUSD": null
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Diffuse chest tint now on intact opaque shirt; exposed grayscale anatomy retained. Flat-up Bosu and dome-down support, high/low plank and hands/toes contacts preserved. Qualified trainer geometry, wrist grip, alignment and anatomical review pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0653-female-anatomical-white-v2-p1-f3d93aa587fb.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 32452,
+          "sha256": "f3d93aa587fb77fe7928d311efc1eb8ca6bedd63b7464e2f298e945c78fce124"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0653-female-anatomical-white-v2-p2-ff869bb7007d.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 28856,
+          "sha256": "ff869bb7007da17064ecf88b3ec0c585a66468e3382aff253409331326d6d01e"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0653-female-anatomical-white-v2-thumb-1dc419eefcfb.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 3402,
+        "sha256": "1dc419eefcfbf918bcca8bf0d5ef886271fff04eabd6ce33393535775fa32595"
+      },
+      "processingSignature": "4a40683e2a6c12d413bbb3f909b696fa27925cf8c4d238c96516ff617a3b3554",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0653-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1688154,
+        "sha256": "8bd96d19b01cb49f982adea7490c49919660d3331eaa9d8df692f9da18d5aaef"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0653",
+          "variant": "female",
+          "key": "0653-female-anatomical-white-v1",
+          "layout": {
+            "columns": 2,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Hold a straight plank with both hands on the edges of the upward-facing flat Bosu platform"
+            },
+            {
+              "key": "p2",
+              "caption": "Bend elbows and lower the chest toward the platform, then press up"
+            }
+          ],
+          "detail": "BOSU BALL PUSH-UP, TWO phases. Same full-body three-quarter FRONT SIDE view head IMAGE LEFT feet RIGHT, BOTH hands on outer edges of a single INVERTED BOSU: flat rigid circular black platform faces UP, blue-gray HALF-DOME faces DOWN contacting FLOOR. It is a low hemisphere half-ball balance trainer, not a full ball or bench. Platform/dome fixed size and position each panel. Both hands shoulder width on outer platform rims, fingers secure around edge, wrists continuous, no floor hand. Feet hip width toes on floor behind, knees STRAIGHT. LEFT high plank elbows extended, straight line shoulders hips heels. RIGHT lower chest toward upward flat platform by bending elbows about90degrees, same straight body/legs, chest above platform not through it. Entire hemisphere platform/body/shoes/hands within panel white margins. Primary CHEST/PECTORALS only red as smoothly blurred diffuse patches on intact OPAQUE BLACK shirt over chest, NO fibers/radial lines/pectoral subdivisions on fabric. All other muscle fine detailed grayscale. Full opaque shirt front sides back, knee shorts full front sides back seat crotch. No labels/arrows.",
+          "prompt": "Original educational exercise illustration. Attached original project artwork is STYLE reference ONLY, never pose reference. Detailed fine grayscale anatomical fibers on exposed arms and legs, realistic neutral adult FEMALE; pure white background. TWO equal side-by-side panels, same exact model, camera and lighting. FULLY OPAQUE matte BLACK sleeveless shirt continuously wraps torso front/sides/back. Loose BLACK knee-length shorts fully wrap both upper thighs, front, sides, rear, seat and crotch with closed hems/seams and natural fabric folds. Never translucent fabric, bare buttocks, anatomy windows, clothing cutaways or muscle-fiber patterns on clothes. Black trainers. Red PRIMARY muscle highlights only as specified, over clothing one soft diffuse blurred tint on intact black fabric, no anatomy divisions or fibers. Entire person, shoes, hands and apparatus fit in EACH panel with generous white margins. No text, arrows, logos or numbers. BOSU BALL PUSH-UP, TWO phases. Same full-body three-quarter FRONT SIDE view head IMAGE LEFT feet RIGHT, BOTH hands on outer edges of a single INVERTED BOSU: flat rigid circular black platform faces UP, blue-gray HALF-DOME faces DOWN contacting FLOOR. It is a low hemisphere half-ball balance trainer, not a full ball or bench. Platform/dome fixed size and position each panel. Both hands shoulder width on outer platform rims, fingers secure around edge, wrists continuous, no floor hand. Feet hip width toes on floor behind, knees STRAIGHT. LEFT high plank elbows extended, straight line shoulders hips heels. RIGHT lower chest toward upward flat platform by bending elbows about90degrees, same straight body/legs, chest above platform not through it. Entire hemisphere platform/body/shoes/hands within panel white margins. Primary CHEST/PECTORALS only red as smoothly blurred diffuse patches on intact OPAQUE BLACK shirt over chest, NO fibers/radial lines/pectoral subdivisions on fabric. All other muscle fine detailed grayscale. Full opaque shirt front sides back, knee shorts full front sides back seat crotch. No labels/arrows.",
+          "inspectionNote": "Flat-up inverted Bosu platform and dome-down floor support consistent in two phases; both hands on rim and toes floor, elbows bend to lower chest. Opaque clothes and detailed grayscale exposed muscles. Red chest tint has internal streaks to soften; qualified hand/wrist, trainer continuity and alignment review pending.",
+          "canonicalName": "push-up (bosu ball)",
+          "styleVersion": "white-v1",
+          "equipment": "bosu ball",
+          "primaryMuscles": [
+            "pectorals"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Flat-up inverted Bosu platform and dome-down floor support consistent in two phases; both hands on rim and toes floor, elbows bend to lower chest. Opaque clothes and detailed grayscale exposed muscles. Red chest tint has internal streaks to soften; qualified hand/wrist, trainer continuity and alignment review pending.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0653-female-anatomical-white-v1-p1-9fff902d2735.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 35258,
+              "sha256": "9fff902d2735174ad81c3315b825ca8dac08c502ea183d33dd7f63bce3b4c3ec"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0653-female-anatomical-white-v1-p2-0dc440144aa3.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 31368,
+              "sha256": "0dc440144aa39b24416527d53c07394f186ed3cc7282e263a38c307893e0399c"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0653-female-anatomical-white-v1-thumb-48c2b2b545b0.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 3422,
+            "sha256": "48c2b2b545b0ddf077f8f3be3ae4e98cc0f698fcafdac827cfa579bccf819319"
+          },
+          "processingSignature": "0c681e8d056e7c05641d6b0c5aaea30ee6f05fb5fb0aa944a2087185168ec17f",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0653-female-anatomical-white-v1.png",
+            "width": 1774,
+            "height": 887,
+            "bytes": 1742516,
+            "sha256": "d0f02af5673eadd5d2ac95916f61531ce78499ac4a257fe930238911a6d95790"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "0654",
+      "variant": "male",
+      "key": "0654-male-anatomical-white-v2",
+      "layout": {
+        "columns": 3,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Lower into a push-up with both legs straight"
+        },
+        {
+          "key": "p2",
+          "caption": "Press up and draw the right knee toward the chest"
+        },
+        {
+          "key": "p3",
+          "caption": "After returning and repeating the push-up, draw the left knee toward the chest"
+        }
+      ],
+      "detail": "KNEE-TO-CHEST FLOOR PUSH-UP, THREE phases. Full body three-quarter side view head IMAGE LEFT feet RIGHT, HANDS flat on FLOOR MAT directly under shoulders throughout, NO BENCH or equipment. LEFT low push-up: elbows about90degrees torso straight low, both knees STRAIGHT with both toes mat. MIDDLE press arms straight high plank, draw RIGHT knee FORWARD under torso toward chest, RIGHT foot lifted, LEFT leg STRAIGHT behind with toes mat. RIGHT after next rep press up and draw LEFT knee FORWARD under torso toward chest, LEFT foot lifted, RIGHT leg STRAIGHT behind toes mat. Clearly swap the bent-leg hip origin: middle FAR/right thigh bends under body while NEAR/left leg extends back; final NEAR/left thigh bends under body while FAR/right extends back. Pelvis level, only one knee bends in each high plank, exactly2legs/2arms. Primary CHEST only red soft diffuse patches on intact OPAQUE black chest shirt, NO fibers/radial rays/pectoral divisions through cloth. Grayscale detailed exposed muscle fibers everywhere else, no red abs/legs. Full opaque black shirt and shorts wrap front sides back seat crotch, no cutaways. Whole figure/hands/shoes fit each panel white margins. No text.",
+      "prompt": "Correct this original project three-panel knee-to-chest floor push-up. Keep LEFT low push-up and RIGHT high plank with NEAR/foreground LEFT knee bent under chest, FAR/right leg straight back toes floor. CHANGE MIDDLE to OPPOSITE leg: NEAR/foreground LEFT leg fully STRAIGHT extending from near hip back to toes on floor IMAGE RIGHT; FAR/right thigh bends FORWARD under torso to right knee near chest, right shin folded behind, right foot elevated. Trace separate hip origins carefully, exactly TWO legs, no overlapping duplicate knee. Hands stay floor under shoulders elbows straight in both high panels, pelvis level. No bench/equipment. Every panel: smooth diffuse BLURRED RED patches over intact opaque BLACK CHEST SHIRT only; erase all radial fiber/pectoral divisions from fabric. Full opaque shirt/shorts front sides back seat crotch. Preserve detailed fine grayscale fibers on all exposed arms/legs and exact model/camera. No text.",
+      "inspectionNote": "Correction shifts knee height but middle/final still appear same near-leg bend; opposite leg exchange not achieved, blocked. Chest tint still internally patterned despite softening request. Opaque clothes and fine grayscale exposed anatomy retained; qualified foot support and technique review pending.",
+      "canonicalName": "push up (knee chest)",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "pectorals"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0654-male-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "status": "generated",
+        "costUSD": null
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Correction shifts knee height but middle/final still appear same near-leg bend; opposite leg exchange not achieved, blocked. Chest tint still internally patterned despite softening request. Opaque clothes and fine grayscale exposed anatomy retained; qualified foot support and technique review pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0654-male-anatomical-white-v2-p1-5cd8ec092f7f.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 19210,
+          "sha256": "5cd8ec092f7fde76939066bc529f9c5f22405b1e34a5baa10fd7c4483c616263"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0654-male-anatomical-white-v2-p2-e830cd6e66be.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 23056,
+          "sha256": "e830cd6e66be484fb49d8e2c9d892c2854b58042aa9ad6fbcbc67067857c2a09"
+        },
+        {
+          "pose": "p3",
+          "path": "/workout/illustration-pilot/0654-male-anatomical-white-v2-p3-1ed2ba36431f.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 24068,
+          "sha256": "1ed2ba36431f9f44b9b25bc1851aa77238cc82eda0466522391e30adfd558fe6"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0654-male-anatomical-white-v2-thumb-27a04ed0e82c.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2674,
+        "sha256": "27a04ed0e82c3fc1cdda7f12f4e48dbcad5669896b1972dd281da80c5ddc8fd9"
+      },
+      "processingSignature": "8f15645c5b3c646b2ba9c10106fc287dc5fb959292892f90297aa0c4f7f2f0dd",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0654-male-anatomical-white-v2.png",
+        "width": 2172,
+        "height": 724,
+        "bytes": 1746075,
+        "sha256": "d8312669c902cff061225d39e8aa7e1a3f674f3cdb25fecf1214032b14f61dd9"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0654",
+          "variant": "male",
+          "key": "0654-male-anatomical-white-v1",
+          "layout": {
+            "columns": 3,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Lower into a push-up with both legs straight"
+            },
+            {
+              "key": "p2",
+              "caption": "Press up and draw the right knee toward the chest"
+            },
+            {
+              "key": "p3",
+              "caption": "After returning and repeating the push-up, draw the left knee toward the chest"
+            }
+          ],
+          "detail": "KNEE-TO-CHEST FLOOR PUSH-UP, THREE phases. Full body three-quarter side view head IMAGE LEFT feet RIGHT, HANDS flat on FLOOR MAT directly under shoulders throughout, NO BENCH or equipment. LEFT low push-up: elbows about90degrees torso straight low, both knees STRAIGHT with both toes mat. MIDDLE press arms straight high plank, draw RIGHT knee FORWARD under torso toward chest, RIGHT foot lifted, LEFT leg STRAIGHT behind with toes mat. RIGHT after next rep press up and draw LEFT knee FORWARD under torso toward chest, LEFT foot lifted, RIGHT leg STRAIGHT behind toes mat. Clearly swap the bent-leg hip origin: middle FAR/right thigh bends under body while NEAR/left leg extends back; final NEAR/left thigh bends under body while FAR/right extends back. Pelvis level, only one knee bends in each high plank, exactly2legs/2arms. Primary CHEST only red soft diffuse patches on intact OPAQUE black chest shirt, NO fibers/radial rays/pectoral divisions through cloth. Grayscale detailed exposed muscle fibers everywhere else, no red abs/legs. Full opaque black shirt and shorts wrap front sides back seat crotch, no cutaways. Whole figure/hands/shoes fit each panel white margins. No text.",
+          "prompt": "Original educational exercise illustration. Attached original project artwork is STYLE reference ONLY, never pose reference. Detailed fine grayscale anatomical fibers on exposed arms and legs, realistic neutral adult MALE; pure white background. THREE equal side-by-side panels, same exact model, camera and lighting. FULLY OPAQUE matte BLACK sleeveless shirt continuously wraps torso front/sides/back. Loose BLACK knee-length shorts fully wrap both upper thighs, front, sides, rear, seat and crotch with closed hems/seams and natural fabric folds. Never translucent fabric, bare buttocks, anatomy windows, clothing cutaways or muscle-fiber patterns on clothes. Black trainers. Red PRIMARY muscle highlights only as specified, over clothing one soft diffuse blurred tint on intact black fabric, no anatomy divisions or fibers. Entire person, shoes, hands and apparatus fit in EACH panel with generous white margins. No text, arrows, logos or numbers. KNEE-TO-CHEST FLOOR PUSH-UP, THREE phases. Full body three-quarter side view head IMAGE LEFT feet RIGHT, HANDS flat on FLOOR MAT directly under shoulders throughout, NO BENCH or equipment. LEFT low push-up: elbows about90degrees torso straight low, both knees STRAIGHT with both toes mat. MIDDLE press arms straight high plank, draw RIGHT knee FORWARD under torso toward chest, RIGHT foot lifted, LEFT leg STRAIGHT behind with toes mat. RIGHT after next rep press up and draw LEFT knee FORWARD under torso toward chest, LEFT foot lifted, RIGHT leg STRAIGHT behind toes mat. Clearly swap the bent-leg hip origin: middle FAR/right thigh bends under body while NEAR/left leg extends back; final NEAR/left thigh bends under body while FAR/right extends back. Pelvis level, only one knee bends in each high plank, exactly2legs/2arms. Primary CHEST only red soft diffuse patches on intact OPAQUE black chest shirt, NO fibers/radial rays/pectoral divisions through cloth. Grayscale detailed exposed muscle fibers everywhere else, no red abs/legs. Full opaque black shirt and shorts wrap front sides back seat crotch, no cutaways. Whole figure/hands/shoes fit each panel white margins. No text.",
+          "inspectionNote": "Low push-up followed by two high planks with knee drives. Both high phases appear to repeat same near knee; alternate leg origins not achieved. Chest shirt tint has radial pattern; correct opposite knee and diffuse cloth overlay. Opaque clothes and detailed grayscale limbs retained.",
+          "canonicalName": "push up (knee chest)",
+          "styleVersion": "white-v1",
+          "equipment": "body weight",
+          "primaryMuscles": [
+            "pectorals"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Low push-up followed by two high planks with knee drives. Both high phases appear to repeat same near knee; alternate leg origins not achieved. Chest shirt tint has radial pattern; correct opposite knee and diffuse cloth overlay. Opaque clothes and detailed grayscale limbs retained.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0654-male-anatomical-white-v1-p1-c9cae5c76741.webp",
+              "width": 724,
+              "height": 724,
+              "bytes": 20526,
+              "sha256": "c9cae5c767416ed9ad72ee8dd6fde2fb4a7503007c17543ab863ddb33dce6c4d"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0654-male-anatomical-white-v1-p2-cb5eba814544.webp",
+              "width": 724,
+              "height": 724,
+              "bytes": 24610,
+              "sha256": "cb5eba8145449e2a916bde08dc02c60c04049ca0efa937cbd339f97830ba5b80"
+            },
+            {
+              "pose": "p3",
+              "path": "/workout/illustration-pilot/0654-male-anatomical-white-v1-p3-ea9264cdf831.webp",
+              "width": 724,
+              "height": 724,
+              "bytes": 26796,
+              "sha256": "ea9264cdf8316225ffc182d51ca7db5613f29eb9875cfc52291566ef3fb933f3"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0654-male-anatomical-white-v1-thumb-af24359655cc.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 2646,
+            "sha256": "af24359655ccc93b35445e9d8bd1ba478db1c1bba2dc3d3a989a636c98bdb599"
+          },
+          "processingSignature": "4999059bcfa1d1148b71c40b1679c23c73e43e5ea7687b9824549642793b954a",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0654-male-anatomical-white-v1.png",
+            "width": 2172,
+            "height": 724,
+            "bytes": 1737350,
+            "sha256": "dc220ae40870d1c6b236941f21057f08603e30df0e8ad46125035b22a5897f2b"
+          }
+        }
+      ],
+      "blockingIssues": [
+        "Alternate knee-drive limb identity failed; chest fabric highlight retains internal radial pattern."
+      ]
+    },
+    {
+      "exerciseId": "0654",
+      "variant": "female",
+      "key": "0654-female-anatomical-white-v2",
+      "layout": {
+        "columns": 3,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Lower into a push-up with both legs straight"
+        },
+        {
+          "key": "p2",
+          "caption": "Press up and draw the right knee toward the chest"
+        },
+        {
+          "key": "p3",
+          "caption": "After returning and repeating the push-up, draw the left knee toward the chest"
+        }
+      ],
+      "detail": "KNEE-TO-CHEST FLOOR PUSH-UP, THREE phases. Full body three-quarter side view head IMAGE LEFT feet RIGHT, HANDS flat on FLOOR MAT directly under shoulders throughout, NO BENCH or equipment. LEFT low push-up: elbows about90degrees torso straight low, both knees STRAIGHT with both toes mat. MIDDLE press arms straight high plank, draw RIGHT knee FORWARD under torso toward chest, RIGHT foot lifted, LEFT leg STRAIGHT behind with toes mat. RIGHT after next rep press up and draw LEFT knee FORWARD under torso toward chest, LEFT foot lifted, RIGHT leg STRAIGHT behind toes mat. Clearly swap the bent-leg hip origin: middle FAR/right thigh bends under body while NEAR/left leg extends back; final NEAR/left thigh bends under body while FAR/right extends back. Pelvis level, only one knee bends in each high plank, exactly2legs/2arms. Primary CHEST only red soft diffuse patches on intact OPAQUE black chest shirt, NO fibers/radial rays/pectoral divisions through cloth. Grayscale detailed exposed muscle fibers everywhere else, no red abs/legs. Full opaque black shirt and shorts wrap front sides back seat crotch, no cutaways. Whole figure/hands/shoes fit each panel white margins. No text.",
+      "prompt": "Correct this original project three-panel knee-to-chest floor push-up. Keep LEFT low push-up and RIGHT high plank with NEAR/foreground LEFT knee bent under chest, FAR/right leg straight back toes floor. CHANGE MIDDLE to OPPOSITE leg: NEAR/foreground LEFT leg fully STRAIGHT extending from near hip back to toes on floor IMAGE RIGHT; FAR/right thigh bends FORWARD under torso to right knee near chest, right shin folded behind, right foot elevated. Trace separate hip origins carefully, exactly TWO legs, no overlapping duplicate knee. Hands stay floor under shoulders elbows straight in both high panels, pelvis level. No bench/equipment. Every panel: smooth diffuse BLURRED RED patches over intact opaque BLACK CHEST SHIRT only; erase all radial fiber/pectoral divisions from fabric. Full opaque shirt/shorts front sides back seat crotch. Preserve detailed fine grayscale fibers on all exposed arms/legs and exact model/camera. No text. Preserve female proportions and equally fine detailed grayscale fibers on exposed arms/thighs/shins.",
+      "inspectionNote": "Chest tint softened over opaque shirt; fine exposed grayscale anatomy retained. Knee position shifts slightly but both high phases still show same near-leg bend and alternate identity remains failed, blocked. Qualified support, trunk alignment and limb continuity review pending.",
+      "canonicalName": "push up (knee chest)",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "pectorals"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0654-female-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "status": "generated",
+        "costUSD": null
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Chest tint softened over opaque shirt; fine exposed grayscale anatomy retained. Knee position shifts slightly but both high phases still show same near-leg bend and alternate identity remains failed, blocked. Qualified support, trunk alignment and limb continuity review pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0654-female-anatomical-white-v2-p1-ebc67fd99fde.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 18140,
+          "sha256": "ebc67fd99fde59980828ece0a57dde5188b89de2e16557cdbe0473b5127d28b6"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0654-female-anatomical-white-v2-p2-b349f9f971f7.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 20476,
+          "sha256": "b349f9f971f711598d0308a45306fd41fbd06b2edc5556fd45edcb273ac41ee9"
+        },
+        {
+          "pose": "p3",
+          "path": "/workout/illustration-pilot/0654-female-anatomical-white-v2-p3-ebdd7ec42871.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 21384,
+          "sha256": "ebdd7ec42871ddcda99f39d20af035887737358483938e41f1abec28d8e88654"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0654-female-anatomical-white-v2-thumb-1b400da085f7.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2680,
+        "sha256": "1b400da085f781892c247a3d9c4cea6060db4c7c53e1e29588e65bcb981beb77"
+      },
+      "processingSignature": "f7a5acef5961bd77c0b4fb97fb84e34d0b395b575f3e6f83d3ffbd13f9e87252",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0654-female-anatomical-white-v2.png",
+        "width": 2172,
+        "height": 724,
+        "bytes": 1681334,
+        "sha256": "4a70c3dff74826e771e529dba3a7a80abdce2e9d946f439ab778f09017ea2ea4"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0654",
+          "variant": "female",
+          "key": "0654-female-anatomical-white-v1",
+          "layout": {
+            "columns": 3,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Lower into a push-up with both legs straight"
+            },
+            {
+              "key": "p2",
+              "caption": "Press up and draw the right knee toward the chest"
+            },
+            {
+              "key": "p3",
+              "caption": "After returning and repeating the push-up, draw the left knee toward the chest"
+            }
+          ],
+          "detail": "KNEE-TO-CHEST FLOOR PUSH-UP, THREE phases. Full body three-quarter side view head IMAGE LEFT feet RIGHT, HANDS flat on FLOOR MAT directly under shoulders throughout, NO BENCH or equipment. LEFT low push-up: elbows about90degrees torso straight low, both knees STRAIGHT with both toes mat. MIDDLE press arms straight high plank, draw RIGHT knee FORWARD under torso toward chest, RIGHT foot lifted, LEFT leg STRAIGHT behind with toes mat. RIGHT after next rep press up and draw LEFT knee FORWARD under torso toward chest, LEFT foot lifted, RIGHT leg STRAIGHT behind toes mat. Clearly swap the bent-leg hip origin: middle FAR/right thigh bends under body while NEAR/left leg extends back; final NEAR/left thigh bends under body while FAR/right extends back. Pelvis level, only one knee bends in each high plank, exactly2legs/2arms. Primary CHEST only red soft diffuse patches on intact OPAQUE black chest shirt, NO fibers/radial rays/pectoral divisions through cloth. Grayscale detailed exposed muscle fibers everywhere else, no red abs/legs. Full opaque black shirt and shorts wrap front sides back seat crotch, no cutaways. Whole figure/hands/shoes fit each panel white margins. No text.",
+          "prompt": "Original educational exercise illustration. Attached original project artwork is STYLE reference ONLY, never pose reference. Detailed fine grayscale anatomical fibers on exposed arms and legs, realistic neutral adult FEMALE; pure white background. THREE equal side-by-side panels, same exact model, camera and lighting. FULLY OPAQUE matte BLACK sleeveless shirt continuously wraps torso front/sides/back. Loose BLACK knee-length shorts fully wrap both upper thighs, front, sides, rear, seat and crotch with closed hems/seams and natural fabric folds. Never translucent fabric, bare buttocks, anatomy windows, clothing cutaways or muscle-fiber patterns on clothes. Black trainers. Red PRIMARY muscle highlights only as specified, over clothing one soft diffuse blurred tint on intact black fabric, no anatomy divisions or fibers. Entire person, shoes, hands and apparatus fit in EACH panel with generous white margins. No text, arrows, logos or numbers. KNEE-TO-CHEST FLOOR PUSH-UP, THREE phases. Full body three-quarter side view head IMAGE LEFT feet RIGHT, HANDS flat on FLOOR MAT directly under shoulders throughout, NO BENCH or equipment. LEFT low push-up: elbows about90degrees torso straight low, both knees STRAIGHT with both toes mat. MIDDLE press arms straight high plank, draw RIGHT knee FORWARD under torso toward chest, RIGHT foot lifted, LEFT leg STRAIGHT behind with toes mat. RIGHT after next rep press up and draw LEFT knee FORWARD under torso toward chest, LEFT foot lifted, RIGHT leg STRAIGHT behind toes mat. Clearly swap the bent-leg hip origin: middle FAR/right thigh bends under body while NEAR/left leg extends back; final NEAR/left thigh bends under body while FAR/right extends back. Pelvis level, only one knee bends in each high plank, exactly2legs/2arms. Primary CHEST only red soft diffuse patches on intact OPAQUE black chest shirt, NO fibers/radial rays/pectoral divisions through cloth. Grayscale detailed exposed muscle fibers everywhere else, no red abs/legs. Full opaque black shirt and shorts wrap front sides back seat crotch, no cutaways. Whole figure/hands/shoes fit each panel white margins. No text.",
+          "inspectionNote": "Low push-up then two high knee-drive phases, but same near bent leg appears repeated. Chest red softened but internally streaked. Need opposite leg exchange and smooth intact cloth tint; full opaque clothes and detailed grayscale limb anatomy retained.",
+          "canonicalName": "push up (knee chest)",
+          "styleVersion": "white-v1",
+          "equipment": "body weight",
+          "primaryMuscles": [
+            "pectorals"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Low push-up then two high knee-drive phases, but same near bent leg appears repeated. Chest red softened but internally streaked. Need opposite leg exchange and smooth intact cloth tint; full opaque clothes and detailed grayscale limb anatomy retained.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0654-female-anatomical-white-v1-p1-0e71fdd63d41.webp",
+              "width": 724,
+              "height": 724,
+              "bytes": 19842,
+              "sha256": "0e71fdd63d41e8a12ae782c7e7f43ebf11e248b8884f8b1a7c584b6b706c298f"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0654-female-anatomical-white-v1-p2-75014ed17c79.webp",
+              "width": 724,
+              "height": 724,
+              "bytes": 22952,
+              "sha256": "75014ed17c7986827d3e6f87a3dabf77f07f416ddc79abe7c9eddc05a384e6cc"
+            },
+            {
+              "pose": "p3",
+              "path": "/workout/illustration-pilot/0654-female-anatomical-white-v1-p3-faf62a524297.webp",
+              "width": 724,
+              "height": 724,
+              "bytes": 23582,
+              "sha256": "faf62a524297091f1970d0019b7467ffdb2361095e2bfab1667f844e3cd5efe4"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0654-female-anatomical-white-v1-thumb-c5e2184e6f3b.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 2682,
+            "sha256": "c5e2184e6f3bd8e5da3f05db5288e391ebe8f464f83f0462aae25679a5cf5489"
+          },
+          "processingSignature": "b9476a40a642dc560eca4add0f525ef11ae4908e61d2f96b9b120910ad088e99",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0654-female-anatomical-white-v1.png",
+            "width": 2172,
+            "height": 724,
+            "bytes": 1707486,
+            "sha256": "a8f008745dab4e655522dc14a83e9588497ebbf503dd1aa77511bdec9353b594"
+          }
+        }
+      ],
+      "blockingIssues": [
+        "Opposite knee-drive leg identity not achieved after correction."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "batch": 67,
+  "trigger": "2026-11-01T13:36:16.295Z",
+  "completedAt": "2026-11-01T13:45:24.377108+00:00",
+  "tool": "image_gen.imagegen",
+  "newCandidateSets": 4,
+  "generationCalls": 5,
+  "exerciseIds": [
+    "0401",
+    "0402"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 264,
+    "remainingVariants": 11000,
+    "approvedVariants": 0,
+    "blockedVariants": 119,
+    "knownPoseImages": 534,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "All pending and unpublished. Palms-up wrist curls inspected for supination, small wrist rise, forearm contact and opaque clothing; qualified flexor-localization and wrist-only motion review required. Preacher curls blocked for elbow migration/pad-contact continuity. Male side-view correction improves support but does not prove fixed elbow; original retained. Full opaque back/seat/crotch clothes inspected. Pipeline pass is not anatomy approval.",
+  "metadataConflictsDeferred": [
+    {
+      "exerciseId": "0403",
+      "issue": "Reverse/overhand description versus palm-up instructions."
+    },
+    {
+      "exerciseId": "0404",
+      "issue": "Parallel-grip description versus palms-forward press instructions."
+    },
+    {
+      "exerciseId": "0407",
+      "issue": "Bending opposite loaded side while lowering weight conflicts with geometry; defer direction."
+    },
+    {
+      "exerciseId": "0402",
+      "issue": "General plural description versus explicit one-hand instructions; pilot follows one-hand instructions, qualified variation review required."
+    }
+  ],
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 427575684,
+  "savedMasters": [
+    {
+      "exerciseId": "0401",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0401-male-anatomical-white-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1694913,
+        "sha256": "8b5ea5fe83740476f77f66fa92f01955d39af3235c275ad3fd9261e6ca5111b0"
+      }
+    },
+    {
+      "exerciseId": "0401",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0401-female-anatomical-white-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1729733,
+        "sha256": "ab96983c59e57684cf4f414bf3816b81fde5c3f99c79d1495d4ef5a5a2111950"
+      }
+    },
+    {
+      "exerciseId": "0402",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0402-male-anatomical-white-v2.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1879586,
+        "sha256": "e3b150134494084db9fe9050bc309137c310342c45da72505d60de902fa6219a"
+      }
+    },
+    {
+      "exerciseId": "0402",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0402-female-anatomical-white-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1812323,
+        "sha256": "a88ba85924a0e0264e69869c1a0947c80d2ff4df6549305d7cc9c3770ae8e728"
+      }
+    }
+  ]
+}

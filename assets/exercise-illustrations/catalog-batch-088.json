@@ -1,0 +1,508 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "0603",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Sit supported with overhand machine handles at shoulder height and elbows bent"
+        },
+        {
+          "key": "p2",
+          "caption": "Press both handles overhead, keeping elbows soft and back supported"
+        }
+      ],
+      "detail": "LEVER SHOULDER PRESS. FRONT three-quarter view. Seated upright with back/pelvis against upright BACKREST, feet flat floor shoulder width, ribs down, no trunk arch or leg drive. BOTH hands hold HORIZONTAL handles OVERHAND palms forward/down, thumbs wrapped. LEFT start handles SHOULDER level, wrists neutral above elbows, both elbows bent90degrees. RIGHT extend both arms UP overhead, elbows almost straight but SOFT not locked, hands above respective shoulders, upper arms close to ears. Shoulder elevation is natural but no neck tilt. SAME simple two independent rigid steel pressing arms rotate around SAME fixed rear/upper pivots, each handle remains connected, SAME lever lengths, frame, backrest, stack, base between phases. Do not add/remove beams or change pivot locations; only pressing arms rotate and resistance stack lifts. Both deltoid shoulder caps RED only, triceps/forearms/chest grayscale, entire shirt and shorts BLACK opaque. Whole overhead handles, fingers, head, shoes and complete machine fit comfortably inside each panel.",
+      "variant": "male",
+      "key": "0603-male-anatomical-white-v1",
+      "prompt": "Original educational exercise illustration. Attached original project image is STYLE reference ONLY, never pose reference. Detailed fine grayscale anatomical fibers on exposed limbs, realistic neutral adult MALE; pure white background. TWO equal side-by-side panels with identical model, dimensions, camera and lighting. FULLY OPAQUE matte BLACK sleeveless shirt continuously wraps torso front/sides/back. Loose BLACK knee-length shorts wrap BOTH upper thighs, seat and crotch fully front/sides/rear, closed hems and seams, broad natural fabric folds. NO bare buttocks, translucent cloth, cutaways, anatomy windows or muscle-fiber patterns on garments. Black trainers. Red PRIMARY muscle highlights only as specified; over clothing use a SOFT DIFFUSE COLOR PATCH on intact BLACK FABRIC without anatomical subdivisions. Whole person, fingers/shoes and ENTIRE machine including frame, lever, pivots, weight stack and base within EACH panel with generous white margins. Same EXACT fixed frame/seat/pad/camera/pivots in both phases; only exercise joints and connected moving lever rotate. No text, arrows, captions, logos or numbers. LEVER SHOULDER PRESS. FRONT three-quarter view. Seated upright with back/pelvis against upright BACKREST, feet flat floor shoulder width, ribs down, no trunk arch or leg drive. BOTH hands hold HORIZONTAL handles OVERHAND palms forward/down, thumbs wrapped. LEFT start handles SHOULDER level, wrists neutral above elbows, both elbows bent90degrees. RIGHT extend both arms UP overhead, elbows almost straight but SOFT not locked, hands above respective shoulders, upper arms close to ears. Shoulder elevation is natural but no neck tilt. SAME simple two independent rigid steel pressing arms rotate around SAME fixed rear/upper pivots, each handle remains connected, SAME lever lengths, frame, backrest, stack, base between phases. Do not add/remove beams or change pivot locations; only pressing arms rotate and resistance stack lifts. Both deltoid shoulder caps RED only, triceps/forearms/chest grayscale, entire shirt and shorts BLACK opaque. Whole overhead handles, fingers, head, shoes and complete machine fit comfortably inside each panel.",
+      "inspectionNote": "Supported seated shoulder press with overhand grips, bent-to-nearly-straight soft elbows, red deltoids and opaque black garments. Feet stay planted. Fixed near-side top bracket and lever lengths differ between phases; requires mechanical continuity correction and qualified anatomy review.",
+      "blockingIssues": [
+        "Near-side fixed top bracket and pressing-lever geometry differ across panels."
+      ],
+      "canonicalName": "lever shoulder press",
+      "styleVersion": "white-v1",
+      "equipment": "leverage machine",
+      "primaryMuscles": [
+        "deltoids"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Supported seated shoulder press with overhand grips, bent-to-nearly-straight soft elbows, red deltoids and opaque black garments. Feet stay planted. Fixed near-side top bracket and lever lengths differ between phases; requires mechanical continuity correction and qualified anatomy review.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0603-male-anatomical-white-v1-p1-a1675956aa71.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 54904,
+          "sha256": "a1675956aa71743a3f466fcef40a6f1178a7fe68d120e4b05acd0f854399f61d"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0603-male-anatomical-white-v1-p2-9421195f59e7.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 51400,
+          "sha256": "9421195f59e7202ab54290c9cac983775f5a63d4e71eef5949d60c163d0a9967"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0603-male-anatomical-white-v1-thumb-83c41926c495.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 5698,
+        "sha256": "83c41926c495a73eb68fd9528ee4d7b39826d148fca7e7726f21cb9c6bca7e2b"
+      },
+      "processingSignature": "fb9f6b46deeb15f7933cc87cdb3c2d006b4e062d0156709ac6b97fbdbb8e9781",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0603-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1865531,
+        "sha256": "8f0dc418d2671501fc4b0b43ec228c8117a3f0e36571b5e036c84b008353e61d"
+      }
+    },
+    {
+      "exerciseId": "0603",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Sit supported with overhand machine handles at shoulder height and elbows bent"
+        },
+        {
+          "key": "p2",
+          "caption": "Press both handles overhead, keeping elbows soft and back supported"
+        }
+      ],
+      "detail": "LEVER SHOULDER PRESS. FRONT three-quarter view. Seated upright with back/pelvis against upright BACKREST, feet flat floor shoulder width, ribs down, no trunk arch or leg drive. BOTH hands hold HORIZONTAL handles OVERHAND palms forward/down, thumbs wrapped. LEFT start handles SHOULDER level, wrists neutral above elbows, both elbows bent90degrees. RIGHT extend both arms UP overhead, elbows almost straight but SOFT not locked, hands above respective shoulders, upper arms close to ears. Shoulder elevation is natural but no neck tilt. SAME simple two independent rigid steel pressing arms rotate around SAME fixed rear/upper pivots, each handle remains connected, SAME lever lengths, frame, backrest, stack, base between phases. Do not add/remove beams or change pivot locations; only pressing arms rotate and resistance stack lifts. Both deltoid shoulder caps RED only, triceps/forearms/chest grayscale, entire shirt and shorts BLACK opaque. Whole overhead handles, fingers, head, shoes and complete machine fit comfortably inside each panel.",
+      "variant": "female",
+      "key": "0603-female-anatomical-white-v1",
+      "prompt": "Original educational exercise illustration. Attached original project image is STYLE reference ONLY, never pose reference. Detailed fine grayscale anatomical fibers on exposed limbs, realistic neutral adult FEMALE; pure white background. TWO equal side-by-side panels with identical model, dimensions, camera and lighting. FULLY OPAQUE matte BLACK sleeveless shirt continuously wraps torso front/sides/back. Loose BLACK knee-length shorts wrap BOTH upper thighs, seat and crotch fully front/sides/rear, closed hems and seams, broad natural fabric folds. NO bare buttocks, translucent cloth, cutaways, anatomy windows or muscle-fiber patterns on garments. Black trainers. Red PRIMARY muscle highlights only as specified; over clothing use a SOFT DIFFUSE COLOR PATCH on intact BLACK FABRIC without anatomical subdivisions. Whole person, fingers/shoes and ENTIRE machine including frame, lever, pivots, weight stack and base within EACH panel with generous white margins. Same EXACT fixed frame/seat/pad/camera/pivots in both phases; only exercise joints and connected moving lever rotate. No text, arrows, captions, logos or numbers. LEVER SHOULDER PRESS. FRONT three-quarter view. Seated upright with back/pelvis against upright BACKREST, feet flat floor shoulder width, ribs down, no trunk arch or leg drive. BOTH hands hold HORIZONTAL handles OVERHAND palms forward/down, thumbs wrapped. LEFT start handles SHOULDER level, wrists neutral above elbows, both elbows bent90degrees. RIGHT extend both arms UP overhead, elbows almost straight but SOFT not locked, hands above respective shoulders, upper arms close to ears. Shoulder elevation is natural but no neck tilt. SAME simple two independent rigid steel pressing arms rotate around SAME fixed rear/upper pivots, each handle remains connected, SAME lever lengths, frame, backrest, stack, base between phases. Do not add/remove beams or change pivot locations; only pressing arms rotate and resistance stack lifts. Both deltoid shoulder caps RED only, triceps/forearms/chest grayscale, entire shirt and shorts BLACK opaque. Whole overhead handles, fingers, head, shoes and complete machine fit comfortably inside each panel.",
+      "inspectionNote": "Supported seated press with overhand handles, bent start to extended overhead endpoint, red deltoids and opaque black clothing. Entire body and apparatus fit panels. Near pressing arm changes from articulated assembly to straight beam; mechanical continuity correction required. Elbow softness and wrist stacking need human review.",
+      "blockingIssues": [
+        "Near-side pressing arm changes articulation/length and structure between phases."
+      ],
+      "canonicalName": "lever shoulder press",
+      "styleVersion": "white-v1",
+      "equipment": "leverage machine",
+      "primaryMuscles": [
+        "deltoids"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Supported seated press with overhand handles, bent start to extended overhead endpoint, red deltoids and opaque black clothing. Entire body and apparatus fit panels. Near pressing arm changes from articulated assembly to straight beam; mechanical continuity correction required. Elbow softness and wrist stacking need human review.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0603-female-anatomical-white-v1-p1-c996fb5a590c.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 50592,
+          "sha256": "c996fb5a590c45ce22500042c5d1e461bacaee80955a7db5ea8424723b3a27a6"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0603-female-anatomical-white-v1-p2-3f90f83bd6a9.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 50612,
+          "sha256": "3f90f83bd6a9ef239f23aaed1e0c73ce5d8fcde196c3b367dea585e297048cd7"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0603-female-anatomical-white-v1-thumb-61c319643214.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 5262,
+        "sha256": "61c319643214fb3f3eefadfe603e8af1c86f485e5fedccf153438c90a8fb29d5"
+      },
+      "processingSignature": "9d6e7d0d8026ab5e07274c3fab9a7916ed2bc812d78e19ec43cbd53bdc93b038",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0603-female-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1878203,
+        "sha256": "89cc20e14abef432b2869892ac76e9e1efe5bdb856e60c994468289d7db2dbac"
+      }
+    },
+    {
+      "exerciseId": "0606",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Sit with chest supported and overhand T-bar handles forward, arms extended"
+        },
+        {
+          "key": "p2",
+          "caption": "Row handles toward torso while keeping chest against pad and feet supported"
+        }
+      ],
+      "detail": "LEVER T BAR ROW in SEATED chest-supported leverage machine arrangement specified by canonical record. Rear-side three-quarter view shows upper back, chest pad support and BOTH horizontal handles. Sit on seat with chest firmly against inclined front pad, feet flat on footplate, knees comfortably bent, neutral spine and neck. Hands hold horizontal T-shaped handle crossbar slightly wider than shoulders with OVERHAND PRONATED palms DOWN grip, thumbs wrapped. LEFT arms extend FORWARD/down around chest pad with softly unlocked elbows. RIGHT pull same T-handle toward lower chest/upper abdomen, elbows bend and travel BACK outside torso, shoulder blades squeeze; chest stays ON pad, no torso lift or shrug. Same simple central rigid T lever has fixed pivot on FRONT low frame, SAME length and connected horizontal crossbar both phases; rotates toward chest while weight stack rises. No disconnected handle, changing lever lengths, extra joints or moving fixed frame. Entire frame/seat/footplate/stack/pivots inside each panel. Primary UPPER MID BACK only soft DIFFUSE RED tint printed over intact BLACK shirt between shoulder blades, no red fiber bundles or anatomical subdivisions on fabric. Exposed arms/shoulders/legs grayscale.",
+      "variant": "male",
+      "key": "0606-male-anatomical-white-v2",
+      "prompt": "Edit ONLY black shirt highlight in BOTH panels of this original project T-bar row illustration. Remove all red fiber streaks, starbursts, muscle subdivisions and anatomy-looking patterns from upper back. Restore fully OPAQUE matte BLACK cloth with broad natural wrinkles, then add ONE soft diffuse BLURRED RED color patch over mid/upper back between shoulder blades on intact fabric. No internal lines or anatomical sections within red patch. Keep entire shirt wrapping torso front/sides/back, shorts wrapping seat/crotch/upper thighs. Preserve exposed fine grayscale anatomical fibers on limbs, pose, face, hands, equipment, camera, dimensions and two-panel layout. Do not change exercise or machinery during clothing correction. White background, no text.",
+      "inspectionNote": "Clothing correction replaces back fiber streaks with one diffuse red patch on continuous opaque black shirt. Seated supported T-row, overhand bar and grayscale anatomy retained. Lever length/linkage still change across phases and remain blocked; original and exact correction prompt retained. Anatomy review pending.",
+      "canonicalName": "lever t bar row",
+      "styleVersion": "white-v1",
+      "equipment": "leverage machine",
+      "primaryMuscles": [
+        "upper-back"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0606-male-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Clothing correction replaces back fiber streaks with one diffuse red patch on continuous opaque black shirt. Seated supported T-row, overhand bar and grayscale anatomy retained. Lever length/linkage still change across phases and remain blocked; original and exact correction prompt retained. Anatomy review pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0606-male-anatomical-white-v2-p1-cca7e73fe164.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 49918,
+          "sha256": "cca7e73fe164aaddc6357b31bd18f799a622b266a60bf260d14772eeb8196cb2"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0606-male-anatomical-white-v2-p2-b8915cfdb8be.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 50558,
+          "sha256": "b8915cfdb8be6b9b261abbe29e71bb68fbdb707437b12ee85d1d44d8633c12ee"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0606-male-anatomical-white-v2-thumb-01a7a788282c.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 5498,
+        "sha256": "01a7a788282cbdb4cdc2f134eadccf3486f0f9ee3ef780427c09d080ca69d77f"
+      },
+      "processingSignature": "6a86a2253b37fd6647e309ccd5f7d603c00050ceac3ac9e2a891e4ac479bd54a",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0606-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1835339,
+        "sha256": "9a8cbb4d1041e4f62fef595b9e8b0c8bd82235917e51d04c01bbfdd2c68aea59"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0606",
+          "layout": {
+            "columns": 2,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Sit with chest supported and overhand T-bar handles forward, arms extended"
+            },
+            {
+              "key": "p2",
+              "caption": "Row handles toward torso while keeping chest against pad and feet supported"
+            }
+          ],
+          "detail": "LEVER T BAR ROW in SEATED chest-supported leverage machine arrangement specified by canonical record. Rear-side three-quarter view shows upper back, chest pad support and BOTH horizontal handles. Sit on seat with chest firmly against inclined front pad, feet flat on footplate, knees comfortably bent, neutral spine and neck. Hands hold horizontal T-shaped handle crossbar slightly wider than shoulders with OVERHAND PRONATED palms DOWN grip, thumbs wrapped. LEFT arms extend FORWARD/down around chest pad with softly unlocked elbows. RIGHT pull same T-handle toward lower chest/upper abdomen, elbows bend and travel BACK outside torso, shoulder blades squeeze; chest stays ON pad, no torso lift or shrug. Same simple central rigid T lever has fixed pivot on FRONT low frame, SAME length and connected horizontal crossbar both phases; rotates toward chest while weight stack rises. No disconnected handle, changing lever lengths, extra joints or moving fixed frame. Entire frame/seat/footplate/stack/pivots inside each panel. Primary UPPER MID BACK only soft DIFFUSE RED tint printed over intact BLACK shirt between shoulder blades, no red fiber bundles or anatomical subdivisions on fabric. Exposed arms/shoulders/legs grayscale.",
+          "variant": "male",
+          "key": "0606-male-anatomical-white-v1",
+          "prompt": "Original educational exercise illustration. Attached original project image is STYLE reference ONLY, never pose reference. Detailed fine grayscale anatomical fibers on exposed limbs, realistic neutral adult MALE; pure white background. TWO equal side-by-side panels with identical model, dimensions, camera and lighting. FULLY OPAQUE matte BLACK sleeveless shirt continuously wraps torso front/sides/back. Loose BLACK knee-length shorts wrap BOTH upper thighs, seat and crotch fully front/sides/rear, closed hems and seams, broad natural fabric folds. NO bare buttocks, translucent cloth, cutaways, anatomy windows or muscle-fiber patterns on garments. Black trainers. Red PRIMARY muscle highlights only as specified; over clothing use a SOFT DIFFUSE COLOR PATCH on intact BLACK FABRIC without anatomical subdivisions. Whole person, fingers/shoes and ENTIRE machine including frame, lever, pivots, weight stack and base within EACH panel with generous white margins. Same EXACT fixed frame/seat/pad/camera/pivots in both phases; only exercise joints and connected moving lever rotate. No text, arrows, captions, logos or numbers. LEVER T BAR ROW in SEATED chest-supported leverage machine arrangement specified by canonical record. Rear-side three-quarter view shows upper back, chest pad support and BOTH horizontal handles. Sit on seat with chest firmly against inclined front pad, feet flat on footplate, knees comfortably bent, neutral spine and neck. Hands hold horizontal T-shaped handle crossbar slightly wider than shoulders with OVERHAND PRONATED palms DOWN grip, thumbs wrapped. LEFT arms extend FORWARD/down around chest pad with softly unlocked elbows. RIGHT pull same T-handle toward lower chest/upper abdomen, elbows bend and travel BACK outside torso, shoulder blades squeeze; chest stays ON pad, no torso lift or shrug. Same simple central rigid T lever has fixed pivot on FRONT low frame, SAME length and connected horizontal crossbar both phases; rotates toward chest while weight stack rises. No disconnected handle, changing lever lengths, extra joints or moving fixed frame. Entire frame/seat/footplate/stack/pivots inside each panel. Primary UPPER MID BACK only soft DIFFUSE RED tint printed over intact BLACK shirt between shoulder blades, no red fiber bundles or anatomical subdivisions on fabric. Exposed arms/shoulders/legs grayscale.",
+          "inspectionNote": "Seated chest-supported T-bar row with overhand horizontal bar, supported feet and elbow flexion toward torso. Opaque clothing but red back tint contains fiber-shaped streaks; needs diffuse fabric overlay. Lever length and linkage structure change across phases. Human review pending.",
+          "blockingIssues": [
+            "Lever length/linkage structure change across phases; back highlight requires diffuse intact-fabric treatment."
+          ],
+          "canonicalName": "lever t bar row",
+          "styleVersion": "white-v1",
+          "equipment": "leverage machine",
+          "primaryMuscles": [
+            "upper-back"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Seated chest-supported T-bar row with overhand horizontal bar, supported feet and elbow flexion toward torso. Opaque clothing but red back tint contains fiber-shaped streaks; needs diffuse fabric overlay. Lever length and linkage structure change across phases. Human review pending.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0606-male-anatomical-white-v1-p1-536c993fe317.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 55412,
+              "sha256": "536c993fe317b2970b4a5f456dd25101fb8fd39271da242e81bb0dec01834031"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0606-male-anatomical-white-v1-p2-07adeb008085.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 56588,
+              "sha256": "07adeb008085d493ec827e30159a189070aeef978bfa7ceb50677aa3fdcddf4e"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0606-male-anatomical-white-v1-thumb-56002275d645.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 5554,
+            "sha256": "56002275d6450bff52ea1ea73bb2b5bc5b5e229dc6cd75c87da569ef50b50982"
+          },
+          "processingSignature": "b2b047337453c2f612230a04fac5c39ffb3fb05eaab63a83035ad55e2b678317",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0606-male-anatomical-white-v1.png",
+            "width": 1774,
+            "height": 887,
+            "bytes": 1921649,
+            "sha256": "1a23272f01519976643ced0361bed88dbe0a82a391c0c3d8f20c44ed7492afb8"
+          }
+        }
+      ],
+      "blockingIssues": [
+        "Lever length and linkage structure change between phases; fixed apparatus continuity requires correction."
+      ]
+    },
+    {
+      "exerciseId": "0606",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Sit with chest supported and overhand T-bar handles forward, arms extended"
+        },
+        {
+          "key": "p2",
+          "caption": "Row handles toward torso while keeping chest against pad and feet supported"
+        }
+      ],
+      "detail": "LEVER T BAR ROW in SEATED chest-supported leverage machine arrangement specified by canonical record. Rear-side three-quarter view shows upper back, chest pad support and BOTH horizontal handles. Sit on seat with chest firmly against inclined front pad, feet flat on footplate, knees comfortably bent, neutral spine and neck. Hands hold horizontal T-shaped handle crossbar slightly wider than shoulders with OVERHAND PRONATED palms DOWN grip, thumbs wrapped. LEFT arms extend FORWARD/down around chest pad with softly unlocked elbows. RIGHT pull same T-handle toward lower chest/upper abdomen, elbows bend and travel BACK outside torso, shoulder blades squeeze; chest stays ON pad, no torso lift or shrug. Same simple central rigid T lever has fixed pivot on FRONT low frame, SAME length and connected horizontal crossbar both phases; rotates toward chest while weight stack rises. No disconnected handle, changing lever lengths, extra joints or moving fixed frame. Entire frame/seat/footplate/stack/pivots inside each panel. Primary UPPER MID BACK only soft DIFFUSE RED tint printed over intact BLACK shirt between shoulder blades, no red fiber bundles or anatomical subdivisions on fabric. Exposed arms/shoulders/legs grayscale.",
+      "variant": "female",
+      "key": "0606-female-anatomical-white-v2",
+      "prompt": "Edit ONLY black shirt highlight in BOTH panels of this original project T-bar row illustration. Remove all red fiber streaks, starbursts, muscle subdivisions and anatomy-looking patterns from upper back. Restore fully OPAQUE matte BLACK cloth with broad natural wrinkles, then add ONE soft diffuse BLURRED RED color patch over mid/upper back between shoulder blades on intact fabric. No internal lines or anatomical sections within red patch. Keep entire shirt wrapping torso front/sides/back, shorts wrapping seat/crotch/upper thighs. Preserve exposed fine grayscale anatomical fibers on limbs, pose, face, hands, equipment, camera, dimensions and two-panel layout. Do not change exercise or machinery during clothing correction. White background, no text.",
+      "inspectionNote": "Clothing correction removes back fiber streaks, leaving diffuse red tint over intact opaque black shirt. Seated supported T-bar row and grayscale limbs retained. Low pivot still moves upward and lever geometry changes; equipment continuity remains blocked. Original master and correction prompt retained; anatomy review pending.",
+      "canonicalName": "lever t bar row",
+      "styleVersion": "white-v1",
+      "equipment": "leverage machine",
+      "primaryMuscles": [
+        "upper-back"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0606-female-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Clothing correction removes back fiber streaks, leaving diffuse red tint over intact opaque black shirt. Seated supported T-bar row and grayscale limbs retained. Low pivot still moves upward and lever geometry changes; equipment continuity remains blocked. Original master and correction prompt retained; anatomy review pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0606-female-anatomical-white-v2-p1-9484830e85a7.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 48196,
+          "sha256": "9484830e85a73d1bef93420b9ac41e1edee6ed6fc9908c43f90ef28a02f4f1f5"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0606-female-anatomical-white-v2-p2-92c101124fde.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 47594,
+          "sha256": "92c101124fdef7511d98138dbd61394358914bfa951a96fbed398b06b2c9e2fb"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0606-female-anatomical-white-v2-thumb-f76c659985f9.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 5652,
+        "sha256": "f76c659985f9432d0222a6a0c1a18d09737830f53c833f54e0d3d75e0aaae55c"
+      },
+      "processingSignature": "70560ec174221a827eea37d69766da70d52a8a3f83d14ef557333edc534fb31a",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0606-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1754163,
+        "sha256": "da416cdeaf9212fb60216faf8434f13ddf4a6f90e7368d442c8dadc32d8762b1"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0606",
+          "layout": {
+            "columns": 2,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Sit with chest supported and overhand T-bar handles forward, arms extended"
+            },
+            {
+              "key": "p2",
+              "caption": "Row handles toward torso while keeping chest against pad and feet supported"
+            }
+          ],
+          "detail": "LEVER T BAR ROW in SEATED chest-supported leverage machine arrangement specified by canonical record. Rear-side three-quarter view shows upper back, chest pad support and BOTH horizontal handles. Sit on seat with chest firmly against inclined front pad, feet flat on footplate, knees comfortably bent, neutral spine and neck. Hands hold horizontal T-shaped handle crossbar slightly wider than shoulders with OVERHAND PRONATED palms DOWN grip, thumbs wrapped. LEFT arms extend FORWARD/down around chest pad with softly unlocked elbows. RIGHT pull same T-handle toward lower chest/upper abdomen, elbows bend and travel BACK outside torso, shoulder blades squeeze; chest stays ON pad, no torso lift or shrug. Same simple central rigid T lever has fixed pivot on FRONT low frame, SAME length and connected horizontal crossbar both phases; rotates toward chest while weight stack rises. No disconnected handle, changing lever lengths, extra joints or moving fixed frame. Entire frame/seat/footplate/stack/pivots inside each panel. Primary UPPER MID BACK only soft DIFFUSE RED tint printed over intact BLACK shirt between shoulder blades, no red fiber bundles or anatomical subdivisions on fabric. Exposed arms/shoulders/legs grayscale.",
+          "variant": "female",
+          "key": "0606-female-anatomical-white-v1",
+          "prompt": "Original educational exercise illustration. Attached original project image is STYLE reference ONLY, never pose reference. Detailed fine grayscale anatomical fibers on exposed limbs, realistic neutral adult FEMALE; pure white background. TWO equal side-by-side panels with identical model, dimensions, camera and lighting. FULLY OPAQUE matte BLACK sleeveless shirt continuously wraps torso front/sides/back. Loose BLACK knee-length shorts wrap BOTH upper thighs, seat and crotch fully front/sides/rear, closed hems and seams, broad natural fabric folds. NO bare buttocks, translucent cloth, cutaways, anatomy windows or muscle-fiber patterns on garments. Black trainers. Red PRIMARY muscle highlights only as specified; over clothing use a SOFT DIFFUSE COLOR PATCH on intact BLACK FABRIC without anatomical subdivisions. Whole person, fingers/shoes and ENTIRE machine including frame, lever, pivots, weight stack and base within EACH panel with generous white margins. Same EXACT fixed frame/seat/pad/camera/pivots in both phases; only exercise joints and connected moving lever rotate. No text, arrows, captions, logos or numbers. LEVER T BAR ROW in SEATED chest-supported leverage machine arrangement specified by canonical record. Rear-side three-quarter view shows upper back, chest pad support and BOTH horizontal handles. Sit on seat with chest firmly against inclined front pad, feet flat on footplate, knees comfortably bent, neutral spine and neck. Hands hold horizontal T-shaped handle crossbar slightly wider than shoulders with OVERHAND PRONATED palms DOWN grip, thumbs wrapped. LEFT arms extend FORWARD/down around chest pad with softly unlocked elbows. RIGHT pull same T-handle toward lower chest/upper abdomen, elbows bend and travel BACK outside torso, shoulder blades squeeze; chest stays ON pad, no torso lift or shrug. Same simple central rigid T lever has fixed pivot on FRONT low frame, SAME length and connected horizontal crossbar both phases; rotates toward chest while weight stack rises. No disconnected handle, changing lever lengths, extra joints or moving fixed frame. Entire frame/seat/footplate/stack/pivots inside each panel. Primary UPPER MID BACK only soft DIFFUSE RED tint printed over intact BLACK shirt between shoulder blades, no red fiber bundles or anatomical subdivisions on fabric. Exposed arms/shoulders/legs grayscale.",
+          "inspectionNote": "Chest-supported seated T-bar row with overhand bar and feet on plate; elbows bend and retract. Opaque garments, but red back highlight has fiber streaks needing diffuse fabric correction. Fixed low pivot rises between panels and lever geometry changes. Anatomy and equipment review pending.",
+          "blockingIssues": [
+            "Low fixed pivot moves between phases and lever geometry changes; replace back fiber streaks with diffuse cloth tint."
+          ],
+          "canonicalName": "lever t bar row",
+          "styleVersion": "white-v1",
+          "equipment": "leverage machine",
+          "primaryMuscles": [
+            "upper-back"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Chest-supported seated T-bar row with overhand bar and feet on plate; elbows bend and retract. Opaque garments, but red back highlight has fiber streaks needing diffuse fabric correction. Fixed low pivot rises between panels and lever geometry changes. Anatomy and equipment review pending.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0606-female-anatomical-white-v1-p1-a15a6e4ec0ea.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 53828,
+              "sha256": "a15a6e4ec0eab465ea1c1cc3057ce0e8457ab19dd001b628ab5665ac230cde34"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0606-female-anatomical-white-v1-p2-eb72a418ec90.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 54050,
+              "sha256": "eb72a418ec90876a8b077d355eef914efe2f383fb73579741596b12e7e3123ba"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0606-female-anatomical-white-v1-thumb-9f6631653e2c.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 5732,
+            "sha256": "9f6631653e2c076a3e5cb9cd654891ee05755f8e4f45d77730f5f47ad8be81b0"
+          },
+          "processingSignature": "026bb1f02918203cf65b248b450faf4ea3b293c38322bf72256c7f0a81c020fb",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0606-female-anatomical-white-v1.png",
+            "width": 1774,
+            "height": 887,
+            "bytes": 1861137,
+            "sha256": "bdd2a7e772dfdfc60e0fdfcf6f8f4bb364c2f8b9372b28d2fd442e4bd6ab2967"
+          }
+        }
+      ],
+      "blockingIssues": [
+        "Fixed low pivot changes position and lever geometry differs across phases."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "batch": 161,
+  "runId": "d05d2f5b-39bc-4b7b-b2b2-20a4f439a4cc",
+  "trigger": "2026-11-03T08:10:27.815Z",
+  "completedAt": "2026-11-03T08:15:29.006819+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 2,
+  "generationCalls": 2,
+  "exerciseIds": [
+    "1135"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 636,
+    "remainingVariants": 10628,
+    "approvedVariants": 0,
+    "blockedVariants": 219,
+    "knownPoseImages": 1282,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Two single-pose static suspension single-leg forearm plank candidates, two built-in calls. Forearms grounded on mat with prone torso, separate foot cradles and one higher straight leg. Diffuse abdominal red over intact shirt; fine exposed grayscale anatomy and full opaque shorts retained. Qualified review of exact shoulder/elbow placement, lumbar arch/hip level, neck angle, foot height/cradle load and cloth tint/fold boundary remains pending. Every original and exact prompt saved; no anatomy/clothing approval or publication. Original project artwork rendering style only, no upstream licensed input. Seven pipeline checks do not establish anatomical accuracy.",
+  "metadataConflictsDeferred": {
+    "1130": "Walk feet forward to lighten row/reverse-fly load conflicts with usual leverage progression."
+  },
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 1010021997,
+  "savedMasters": [
+    {
+      "exerciseId": "1135",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1135-male-anatomical-white-v1.png",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 1419134,
+        "sha256": "35e5f4975cdcdf377e5a06eb223b485e0ef77f6bccaebb0d557a18649bb5c74a"
+      }
+    },
+    {
+      "exerciseId": "1135",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1135-female-anatomical-white-v1.png",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 1404482,
+        "sha256": "6aad4fc32f335df39a676a21b2690305f73646a2741434a96099f5de6703691e"
+      }
+    }
+  ]
+}

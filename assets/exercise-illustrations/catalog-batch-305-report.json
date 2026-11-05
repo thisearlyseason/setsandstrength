@@ -1,0 +1,81 @@
+{
+  "batch": 305,
+  "runId": "428bd8be-ff89-4420-9c26-641903e485b6",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "trigger": "2026-11-04T05:14:57.616Z",
+  "purpose": "batch305 scheduled male continuation",
+  "started": "2026-11-04T05:15:22.181917+00:00",
+  "completedAt": "2026-11-04T05:23:49.004163+00:00",
+  "actualToolName": "image_gen__imagegen",
+  "calls": 4,
+  "newCandidateSets": 4,
+  "exerciseIds": [
+    "2791",
+    "2793",
+    "2804",
+    "2806"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1088,
+    "remainingVariants": 10176,
+    "approvedVariants": 0,
+    "blockedVariants": 378,
+    "knownPoseImages": 2094,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 715,
+      "remainingVariants": 4917,
+      "blockedVariants": 259
+    }
+  },
+  "reviewNotes": {
+    "2791": "Palm-up wrist flexes with hand beyond table edge and forearm supported, torso seated tall. Forearm flexor red only and full opaque clothing. Qualified review needed for wrist-only movement, support to near wrist, finger anatomy and flexor mapping. Human anatomy review pending.",
+    "2793": "Four poses show forearm plank, mixed support, high plank and mixed descent with straight body line. Embedded headings and instructions violate external-caption requirement, and chest red appears beyond abdominal target; block text/highlight correction. Opaque clothing retained. Qualified review of lead-arm order, contact positions, neutral neck and hip stability required. Human anatomy review pending.",
+    "2804": "One dumbbell hangs outside leg with opposite hand supporting post; both knees flex into squat, heels grounded and chest up. Plain red wash on intact shorts. Qualified review needed for depth near parallel, knee/toe tracking, support-hand height and exact quad mapping. Human anatomy review pending.",
+    "2806": "Rear toes stay supported on step as torso hinges over soft front knee; posterior standing-thigh red and clothing opaque. Dumbbell shows only one weight head with exposed vertical stem rather than normal two-headed equipment; block equipment correction. Qualified review needed for neutral neck, hip square, knee softness, hand/leg laterality and hinge depth. Human anatomy review pending."
+  },
+  "blockingIssues": {
+    "2793": [
+      "Remove all embedded text; accessible captions belong outside image.",
+      "Limit red to abdominal primary target; remove unrelated chest tint."
+    ],
+    "2806": [
+      "Correct dumbbell geometry to two weight heads joined by a handle securely gripped by hand."
+    ]
+  },
+  "deferred": {
+    "2792": "Cardio primary highlight mapping needs clarification.",
+    "2795": "Step-up/lunge foot transition needs detailed clarification.",
+    "2800": "Female counterpart deferred under male-first scope.",
+    "2801": "Female-named variation not listed as active exception; deferred for clarification.",
+    "2803": "Ordinary femaleVariant counterpart of 2804; deferred.",
+    "2805": "Ordinary femaleVariant counterpart of 2806; deferred."
+  },
+  "tests": 7,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "workerSyncResult": {
+    "statuses": {
+      "generated": 1088,
+      "pending": 10176
+    },
+    "remaining": 10176,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 1670290782
+  },
+  "publicationIndexUnchanged": true
+}

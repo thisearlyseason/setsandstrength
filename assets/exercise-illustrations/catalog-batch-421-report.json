@@ -1,0 +1,58 @@
+{
+  "batch": 421,
+  "runId": "addd37a6-f661-4de9-8744-84ed288f9b7d",
+  "triggerTimestamp": "2026-11-04T21:15:33.238Z",
+  "builtInImageGenAvailable": true,
+  "generatedIds": [
+    "3826",
+    "3827",
+    "3829",
+    "3830"
+  ],
+  "coverageAfter": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1492,
+    "remainingVariants": 9772,
+    "approvedVariants": 0,
+    "blockedVariants": 566,
+    "knownPoseImages": 2989,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 1119,
+      "remainingVariants": 4513,
+      "blockedVariants": 447
+    }
+  },
+  "paidWorker": {
+    "statuses": {
+      "generated": 1492,
+      "pending": 9772
+    },
+    "remaining": 9772,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 2258774884
+  },
+  "pipelineTests": "8 passed, 0 failed",
+  "approvedIndexUnchanged": true,
+  "existingUserApprovalsPreserved": 1306,
+  "anatomyReview": "pending",
+  "publication": "none",
+  "blocked": {
+    "3827": [
+      "Lower-back anatomical fibers visible through shirt overlay."
+    ]
+  }
+}

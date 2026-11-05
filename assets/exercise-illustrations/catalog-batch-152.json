@@ -1,0 +1,402 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "1004",
+      "variant": "male",
+      "key": "1004-male-anatomical-white-v2",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand with feet shoulder-width apart and a loop band just above both knees."
+        },
+        {
+          "key": "p2",
+          "caption": "Sit the hips back and down into a squat, keeping heels grounded and knees tracking over toes; stand with control."
+        }
+      ],
+      "prompt": "Correct original male BAND SQUAT two poses. Smooth ALL red buttock fibers/rays into TWO diffuse BLURRED RED glute patches OVER continuous opaque BLACK shorts, broad natural fabric folds and seams only, never anatomical grooves or transparency. Preserve full opaque shirt/shorts front sides back seat crotch. Gray LOOP BAND should wrap BOTH THIGHS 3-5cm ABOVE kneecaps, not around knee joints, both poses. Keep standing start and hips-back near-parallel squat, heels flat, knees track toes no cave, neutral spine, clasped hands at chest, same model proportions and feet. Fine exposed grayscale anatomy, TWO equal square cells wide landscape generous white margins no text.\n",
+      "inspectionNote": "Correction softens glute tint over opaque black shorts; broad fabric folds remain visible. Standing to near-parallel squat, grounded heels and thigh loop retained. Qualified review must assess residual fine streaks, loop distance above kneecaps, depth and knee tracking. No anatomy or clothing approval.",
+      "canonicalName": "band squat",
+      "styleVersion": "white-v1",
+      "equipment": "band",
+      "primaryMuscles": [
+        "glutes"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/1004-male-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "status": "generated",
+        "costUSD": null
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Correction softens glute tint over opaque black shorts; broad fabric folds remain visible. Standing to near-parallel squat, grounded heels and thigh loop retained. Qualified review must assess residual fine streaks, loop distance above kneecaps, depth and knee tracking. No anatomy or clothing approval.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/1004-male-anatomical-white-v2-p1-de5de3e7da8c.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 18124,
+          "sha256": "de5de3e7da8ceab7ba78989972c670cf9ba1a2fccd99e32a208e601cb2193ed3"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/1004-male-anatomical-white-v2-p2-a5a00fc594f0.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 17708,
+          "sha256": "a5a00fc594f053bcf3df03a8cf98fb2fd9da68ffe67dc8481f6e577b16243f98"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/1004-male-anatomical-white-v2-thumb-33ecf64d0c55.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2010,
+        "sha256": "33ecf64d0c554d24258b0f224836de3ab66d53138fa9e2106b92245828d206fc"
+      },
+      "processingSignature": "2d8abeb0930c50f2bd54357515926c4025a246133af75a20257612fe9914fc11",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1004-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1625772,
+        "sha256": "edd131265ab6089417a6406fd875f7136f8ca88bcc16264f5e3561fd2e0a51d2"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "1004",
+          "variant": "male",
+          "key": "1004-male-anatomical-white-v1",
+          "layout": {
+            "columns": 2,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Stand with feet shoulder-width apart and a loop band just above both knees."
+            },
+            {
+              "key": "p2",
+              "caption": "Sit the hips back and down into a squat, keeping heels grounded and knees tracking over toes; stand with control."
+            }
+          ],
+          "prompt": "Original premium ADULT male anatomical exercise illustration TWO equal SQUARE cells side by side WIDE LANDSCAPE 2:1, same model scale/proportions/camera/limb lengths both poses. BAND SQUAT canonical1004. SIDE REAR three-quarter camera both poses so glutes and depth clear, neutral neck/head faces forward away camera. Feet SHOULDER WIDTH black shoes toes slightly outward, entire soles/HEELS planted same positions. Gray LOOP BAND secured around BOTH distal thighs JUST ABOVE KNEES not knee joints, loop visible both poses and stretches laterally as knees track outward over toes. Hands clasp lightly in FRONT CHEST, same both poses no weights. LEFT START upright hips/knees near straight, torso neutral. RIGHT BOTTOM squat hips BACK and DOWN until thighs near PARALLEL FLOOR, knees aligned middle toes no cave, chest up/neutral spine with appropriate forward torso lean, no excessive arch/round, heels remain ground. Primary BOTH GLUTES ONE smooth diffuse BLURRED RED tint on intact opaque BLACK shorts over rear buttocks only, no muscle fibers/rays/grooves through fabric, broad real cloth folds only, no quad/back red. Fine detailed EXPOSED grayscale anatomical muscle contours realistic proportions/equipment equal male/female detail. Full opaque BLACK athletic tank shirt and MID-THIGH shorts wrap FRONT SIDES BACK SEAT CROTCH all positions, continuous real seams/broad folds no cutaway/transparency/anatomical fibers through cloth. Black shoes. Entire body/head/hands/feet/band and anchor if present inside EACH square, uniformly smaller scale to leave generous12percent WHITE margins all edges, no crop/panel crossing. Pure white background soft contact shadows. Project original artwork rendering STYLE ONLY ignore bench push-up/chest red/equipment. No embedded text/captions/arrows/labels.",
+          "inspectionNote": "Banded squat standing to near-parallel bottom, heels planted hips back and band distal thighs near knees. Opaque clothes; red glute overlays show rays needing smoothing. Qualified band just-above-knee placement, knee tracking, depth/spine and mapping pending review.",
+          "canonicalName": "band squat",
+          "styleVersion": "white-v1",
+          "equipment": "band",
+          "primaryMuscles": [
+            "glutes"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Banded squat standing to near-parallel bottom, heels planted hips back and band distal thighs near knees. Opaque clothes; red glute overlays show rays needing smoothing. Qualified band just-above-knee placement, knee tracking, depth/spine and mapping pending review.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/1004-male-anatomical-white-v1-p1-940ed255c691.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 18994,
+              "sha256": "940ed255c691c76d19bb9da6fd811bf6e92c6f89b2aa671ede50d3e82d412cbe"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/1004-male-anatomical-white-v1-p2-0f312d333c87.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 18486,
+              "sha256": "0f312d333c871f89ab6d11537534049c003085e255ce4df6c3ffe3810196f231"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/1004-male-anatomical-white-v1-thumb-1f8ec48980f2.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 1938,
+            "sha256": "1f8ec48980f2d3aec0718214e86c7535bce28aeab95caa18c5224f29e4d71a0a"
+          },
+          "processingSignature": "2258e436c1b417b9320adfe89e3a94e990a9e6a26ffd8f79099737eda8b2baba",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/1004-male-anatomical-white-v1.png",
+            "width": 1774,
+            "height": 887,
+            "bytes": 1235460,
+            "sha256": "27531c2a53c4afd424350fce0b36e7abe3bed7c084f962f9c9185d1c46ed2103"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "1004",
+      "variant": "female",
+      "key": "1004-female-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand with feet shoulder-width apart and a loop band just above both knees."
+        },
+        {
+          "key": "p2",
+          "caption": "Sit the hips back and down into a squat, keeping heels grounded and knees tracking over toes; stand with control."
+        }
+      ],
+      "prompt": "Original premium ADULT female anatomical exercise illustration TWO equal SQUARE cells side by side WIDE LANDSCAPE 2:1, same model scale/proportions/camera/limb lengths both poses. BAND SQUAT canonical1004. SIDE REAR three-quarter camera both poses so glutes and depth clear, neutral neck/head faces forward away camera. Feet SHOULDER WIDTH black shoes toes slightly outward, entire soles/HEELS planted same positions. Gray LOOP BAND secured around BOTH distal thighs JUST ABOVE KNEES not knee joints, loop visible both poses and stretches laterally as knees track outward over toes. Hands clasp lightly in FRONT CHEST, same both poses no weights. LEFT START upright hips/knees near straight, torso neutral. RIGHT BOTTOM squat hips BACK and DOWN until thighs near PARALLEL FLOOR, knees aligned middle toes no cave, chest up/neutral spine with appropriate forward torso lean, no excessive arch/round, heels remain ground. Primary BOTH GLUTES ONE smooth diffuse BLURRED RED tint on intact opaque BLACK shorts over rear buttocks only, no muscle fibers/rays/grooves through fabric, broad real cloth folds only, no quad/back red. Fine detailed EXPOSED grayscale anatomical muscle contours realistic proportions/equipment equal male/female detail. Full opaque BLACK athletic tank shirt and MID-THIGH shorts wrap FRONT SIDES BACK SEAT CROTCH all positions, continuous real seams/broad folds no cutaway/transparency/anatomical fibers through cloth. Black shoes. Entire body/head/hands/feet/band and anchor if present inside EACH square, uniformly smaller scale to leave generous12percent WHITE margins all edges, no crop/panel crossing. Pure white background soft contact shadows. Project original artwork rendering STYLE ONLY ignore bench push-up/chest red/equipment. No embedded text/captions/arrows/labels.",
+      "inspectionNote": "Band squat standing to near-parallel with planted heels/hips back and band above knees. Smooth diffuse glute tint on intact opaque shorts, full shirt/short coverage. Qualified band height, knee tracking, spine/depth, grip and proportions pending human review.",
+      "canonicalName": "band squat",
+      "styleVersion": "white-v1",
+      "equipment": "band",
+      "primaryMuscles": [
+        "glutes"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Band squat standing to near-parallel with planted heels/hips back and band above knees. Smooth diffuse glute tint on intact opaque shorts, full shirt/short coverage. Qualified band height, knee tracking, spine/depth, grip and proportions pending human review.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/1004-female-anatomical-white-v1-p1-36e6da87277c.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 16614,
+          "sha256": "36e6da87277c8fc89aeed70f169d33a7452c9a4a98cb7e76f49acf62b846be86"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/1004-female-anatomical-white-v1-p2-9d33897b9406.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 16612,
+          "sha256": "9d33897b9406c61d8f6d803fd8e9aa91e248357d540b5c5b40d74534f194938b"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/1004-female-anatomical-white-v1-thumb-43c2db88ec82.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 1874,
+        "sha256": "43c2db88ec8201db4f9ea4a9caad47e6e9e9fbbe823aa588f593668579c4e65d"
+      },
+      "processingSignature": "7e6ceb5a26116e7c369589ad346d8dee4633e7c1e3055832a25b15db5df13966",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1004-female-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1240142,
+        "sha256": "6fc4b7d60b425b5692038736bba2d6ae83f8f2104c447832a52c8a288fd67a19"
+      }
+    },
+    {
+      "exerciseId": "1006",
+      "variant": "male",
+      "key": "1006-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Face a chest-height band anchor with arms extended and the band taut."
+        },
+        {
+          "key": "p2",
+          "caption": "Pull both hands toward the upper chest with elbows high and flared wide, then return slowly with shoulders relaxed."
+        }
+      ],
+      "prompt": "Original premium ADULT male anatomical exercise illustration TWO equal SQUARE cells side by side WIDE LANDSCAPE 2:1, same model scale/proportions/camera/limb lengths both poses. BAND REAR DELT ROW canonical1006. SIDE REAR three-quarter camera, gray fixed anchor post at CHEST HEIGHT IN FRONT of model imageLEFT; model faces LEFT, head/neck neutral looking anchor away camera. Feet shoulder width planted, knees soft, upright torso no lean/twist. Gray elastic BAND middle securely fastened chest-height anchor with TWO separate ends/handles corresponding closed hands OVERHAND palms DOWN. LEFT START arms EXTENDED FORWARD at shoulder height toward anchor, soft elbows. RIGHT FINISH pull BOTH handles to UPPER CHEST near shoulders, elbows BEND90degrees and FLARE WIDE OUT at SHOULDER HEIGHT, elbows travel slightly behind ribs, wrists straight, shoulders DOWN no shrug. Not low row elbows toward hips, not reverse fly straight arms, no torso rocking. Two strands stretch visibly taut longer from fixed front anchor to handles, outside limbs/body no penetration. Primary BOTH REAR DELTOID exposed shoulder caps RED ONLY, not upper-back shirt/chest/biceps red. Fine detailed EXPOSED grayscale anatomical muscle contours realistic proportions/equipment equal male/female detail. Full opaque BLACK athletic tank shirt and MID-THIGH shorts wrap FRONT SIDES BACK SEAT CROTCH all positions, continuous real seams/broad folds no cutaway/transparency/anatomical fibers through cloth. Black shoes. Entire body/head/hands/feet/band and anchor if present inside EACH square, uniformly smaller scale to leave generous12percent WHITE margins all edges, no crop/panel crossing. Pure white background soft contact shadows. Project original artwork rendering STYLE ONLY ignore bench push-up/chest red/equipment. No embedded text/captions/arrows/labels.",
+      "inspectionNote": "Rear-delt row forward arms to bent high/wide elbows and handles upper chest, fixed chest-height anchor with taut strands, upright stance. Exposed rear shoulder red and opaque clothes. Qualified elbow height, far hand occlusion, grip/wrist, band clearance and mapping pending human review.",
+      "canonicalName": "band rear delt row",
+      "styleVersion": "white-v1",
+      "equipment": "band",
+      "primaryMuscles": [
+        "delts"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Rear-delt row forward arms to bent high/wide elbows and handles upper chest, fixed chest-height anchor with taut strands, upright stance. Exposed rear shoulder red and opaque clothes. Qualified elbow height, far hand occlusion, grip/wrist, band clearance and mapping pending human review.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/1006-male-anatomical-white-v1-p1-ac6766bddb94.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 22850,
+          "sha256": "ac6766bddb9477d80aacc29f57bf3e864601c85936036742e23da6746771e0b8"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/1006-male-anatomical-white-v1-p2-7f2a211b69e8.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 23530,
+          "sha256": "7f2a211b69e8f07c55da3bca0fce17047a956d6e5e61cb2c0841a97f5b5baf8c"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/1006-male-anatomical-white-v1-thumb-1300d00ea39e.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2524,
+        "sha256": "1300d00ea39e4bc9a6095eebf224aab982861dc64d16dd7ddde006cf04b273a8"
+      },
+      "processingSignature": "e87164746c2f7b659c9019381f56240db978a98a5bcd4abcf97c9347d2b41064",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1006-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1299401,
+        "sha256": "ed20f8ec8b720b6b12f0cf5b1e8ccbc9bceadf649dfc534da14cdc45861d532a"
+      }
+    },
+    {
+      "exerciseId": "1006",
+      "variant": "female",
+      "key": "1006-female-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Face a chest-height band anchor with arms extended and the band taut."
+        },
+        {
+          "key": "p2",
+          "caption": "Pull both hands toward the upper chest with elbows high and flared wide, then return slowly with shoulders relaxed."
+        }
+      ],
+      "prompt": "Original premium ADULT female anatomical exercise illustration TWO equal SQUARE cells side by side WIDE LANDSCAPE 2:1, same model scale/proportions/camera/limb lengths both poses. BAND REAR DELT ROW canonical1006. SIDE REAR three-quarter camera, gray fixed anchor post at CHEST HEIGHT IN FRONT of model imageLEFT; model faces LEFT, head/neck neutral looking anchor away camera. Feet shoulder width planted, knees soft, upright torso no lean/twist. Gray elastic BAND middle securely fastened chest-height anchor with TWO separate ends/handles corresponding closed hands OVERHAND palms DOWN. LEFT START arms EXTENDED FORWARD at shoulder height toward anchor, soft elbows. RIGHT FINISH pull BOTH handles to UPPER CHEST near shoulders, elbows BEND90degrees and FLARE WIDE OUT at SHOULDER HEIGHT, elbows travel slightly behind ribs, wrists straight, shoulders DOWN no shrug. Not low row elbows toward hips, not reverse fly straight arms, no torso rocking. Two strands stretch visibly taut longer from fixed front anchor to handles, outside limbs/body no penetration. Primary BOTH REAR DELTOID exposed shoulder caps RED ONLY, not upper-back shirt/chest/biceps red. Fine detailed EXPOSED grayscale anatomical muscle contours realistic proportions/equipment equal male/female detail. Full opaque BLACK athletic tank shirt and MID-THIGH shorts wrap FRONT SIDES BACK SEAT CROTCH all positions, continuous real seams/broad folds no cutaway/transparency/anatomical fibers through cloth. Black shoes. Entire body/head/hands/feet/band and anchor if present inside EACH square, uniformly smaller scale to leave generous12percent WHITE margins all edges, no crop/panel crossing. Pure white background soft contact shadows. Project original artwork rendering STYLE ONLY ignore bench push-up/chest red/equipment. No embedded text/captions/arrows/labels.",
+      "inspectionNote": "Band rear-delt row arms forward to bent high/wide elbows handles upper chest, anchored chest-height strands, steady upright stance. Exposed rear deltoid red and opaque clothes. Qualified elbow/hand symmetry with far hand occluded, grip/wrist, band clearance and mapping pending human review.",
+      "canonicalName": "band rear delt row",
+      "styleVersion": "white-v1",
+      "equipment": "band",
+      "primaryMuscles": [
+        "delts"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Band rear-delt row arms forward to bent high/wide elbows handles upper chest, anchored chest-height strands, steady upright stance. Exposed rear deltoid red and opaque clothes. Qualified elbow/hand symmetry with far hand occluded, grip/wrist, band clearance and mapping pending human review.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/1006-female-anatomical-white-v1-p1-4834ea969d14.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 25704,
+          "sha256": "4834ea969d14101b7dabd6c9bdfcb0f37bd65fed6494da45b7f46bc7a80841bc"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/1006-female-anatomical-white-v1-p2-cb60a2420f54.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 25696,
+          "sha256": "cb60a2420f547a0e686df928b48cf553052194760c686bbcaafc6fd1be26d786"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/1006-female-anatomical-white-v1-thumb-ce4c15492e30.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2842,
+        "sha256": "ce4c15492e30c8927b973803dcc7c0c4f1f7558f1a4e5ae84327926e05727b81"
+      },
+      "processingSignature": "71d7ff7a077b6b0170f034c2372f732e33302663313010f05627827f323fef64",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1006-female-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1340417,
+        "sha256": "d8d79a246cc8c1a2a429fb29970551b9c2e3be8ae3b420631b4065f73084909b"
+      }
+    }
+  ]
+}

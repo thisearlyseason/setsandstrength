@@ -1,0 +1,66 @@
+{
+  "batch": 211,
+  "runId": "b09ff93e-6a6f-4677-a1e9-b8f54ed871c0",
+  "trigger": "2026-11-03T14:17:00.597Z",
+  "completedAt": "2026-11-03T14:23:47.709517+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 2,
+  "generationCalls": 2,
+  "exerciseIds": [
+    "1587"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 736,
+    "remainingVariants": 10528,
+    "approvedVariants": 0,
+    "blockedVariants": 240,
+    "knownPoseImages": 1444,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Two seated wide-angle pose sequence candidates, four poses, two built-in calls. Tall seated straddle to modest forward hip hinge, straight legs and flexed feet, hands supporting beside/behind hips and posterior thigh red. Full opaque clothes and detailed exposed grayscale anatomy retained. Qualified hamstring versus adductor highlight location in frontal view, hand position/reach, pelvic hinge versus spinal rounding, knee extension and cloth boundaries require human review. Original project artwork rendering style only, no upstream licensed input. Exact prompts/originals saved. No anatomical or clothing approval or publication. Seven pipeline checks do not establish anatomical accuracy.",
+  "metadataConflictsDeferred": {
+    "1585": "Hamstring target versus bent-front-knee runner lunge stretch mechanics.",
+    "1588": "Cardiovascular target requires explicit anatomical mapping."
+  },
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 1154911026,
+  "savedMasters": [
+    {
+      "exerciseId": "1587",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1587-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1480571,
+        "sha256": "ff6a1a511e2b510415863a1a1cd91e564cbe7d376562ff28426476b60f159ed1"
+      }
+    },
+    {
+      "exerciseId": "1587",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1587-female-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1567760,
+        "sha256": "8677c4b473164d22a7acc4cf0e2f23ab1fce9f75796ac496d191503ff0a56190"
+      }
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "4866",
+      "variant": "male",
+      "key": "4866-male-anatomical-white-v1",
+      "prompt": "Barbell Z press TWO equal side-by-side panels side three-quarter. SitonFLOOR legsSTRAIGHT extendedforward heelsfloor torsoUPRIGHT nobench. Straightbarbell withsmallbalancedplates heldoverhand shoulderwidth. First baratSHOULDERS belowchin elbowsbent forearmsvertical. Second pressbarOVERHEAD elbowsextended handsandplatesfullyinsidegenerousmargin. SAME legsstraight bracedtorso noarching. Exposed DELTOIDS red only. Use case: scientific educational. Match original 0853 reference only in premium detailed grayscale anatomy rendering, never its movement or equipment. White background, subtle floor shadow, realistic muscular adult male. Same person, camera, scale and equipment in both panels. Fully opaque black tank and mid-thigh black shorts wrap front, sides, back and crotch, realistic seams, folds and hems; no clothing cutaways or anatomical fibers over cloth. Red highlights only on exposed target deltoids or triceps as specified. Entire body, hands, feet, weights and equipment fit generously inside each panel. No words, numbers or arrows.",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Sit on floor with legs straight, bar at shoulders and core braced."
+        },
+        {
+          "key": "p2",
+          "caption": "Press overhead to straight arms, then lower to shoulders."
+        }
+      ],
+      "inspectionNote": "Real output inspected. Z press shown seated on floor with straight legs, shoulder-height bar and overhead extension. Opaque clothing retained. Qualified anatomy review pending; no publication.",
+      "blockingIssues": [],
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream media used.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0853-male-anatomical-white-v1.png",
+        "role": "style only"
+      }
+    },
+    {
+      "exerciseId": "4876",
+      "variant": "male",
+      "key": "4876-male-anatomical-white-v1",
+      "prompt": "PRAYER PUSH isometric ONE SINGLEPOSE only front three-quarter. Standtall feet hipwidth. BothPALMS firmlypressedTOGETHER atCHESTheight fingersUP elbowsOUTSIDES. Uprighttorso andrelaxedneck, noequipment. Red exposed DELTOIDS only, chest remainscoveredbyopaque blacktank withfoldsandseams. Generous fullbody whitebackground. Use case: scientific educational. Match original 0853 reference only in premium detailed grayscale anatomy rendering, never its movement or equipment. White background, subtle floor shadow, realistic muscular adult male. Same person, camera, scale and equipment in both panels. Fully opaque black tank and mid-thigh black shorts wrap front, sides, back and crotch, realistic seams, folds and hems; no clothing cutaways or anatomical fibers over cloth. Red highlights only on exposed target deltoids or triceps as specified. Entire body, hands, feet, weights and equipment fit generously inside each panel. No words, numbers or arrows.",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Extraneous dumbbell pose copied from the style reference; blocked and not part of this exercise."
+        },
+        {
+          "key": "p2",
+          "caption": "Press palms together at chest height, fingers up and elbows out; hold 5-10 seconds."
+        }
+      ],
+      "inspectionNote": "Real output inspected. Requested single prayer hold produced an extraneous dumbbell panel copied from style reference plus a prayer pose. Opaque clothing retained. Qualified anatomy review pending; no publication.",
+      "blockingIssues": [
+        "Static hold should contain one pose; original contains unrelated dumbbell artwork and an extra panel copied from the style reference. Must correct before approval."
+      ],
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream media used.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0853-male-anatomical-white-v1.png",
+        "role": "style only"
+      }
+    },
+    {
+      "exerciseId": "4900",
+      "variant": "male",
+      "key": "4900-male-anatomical-white-v1",
+      "prompt": "Elevated SEATED bodyweight calf raise TWO equal side-by-side panels SIDE view. Sitonflatbench knees90degrees handsrestonthighs noexternalweights. BOTHforefeet onraisedstep heelsFREEoverbackedge. First heelsLOWERED belowsteptop. Second bothheelsHIGH onto ballsfeet kneestipsrise slightly withsameforefootcontact. Samebenchblockfootposition. Red exposed CALVES only. Use case: scientific educational. Match original 0853 reference only in premium detailed grayscale anatomy rendering, never its movement or equipment. White background, subtle floor shadow, realistic muscular adult male. Same person, camera, scale and equipment in both panels. Fully opaque black tank and mid-thigh black shorts wrap front, sides, back and crotch, realistic seams, folds and hems; no clothing cutaways or anatomical fibers over cloth. Red highlights only on exposed target deltoids or triceps as specified. Entire body, hands, feet, weights and equipment fit generously inside each panel. No words, numbers or arrows.",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Sit with forefeet on raised step, hands on thighs, and lower heels comfortably."
+        },
+        {
+          "key": "p2",
+          "caption": "Press onto toes, pause, then lower slowly."
+        }
+      ],
+      "inspectionNote": "Real output inspected. Seated forefoot step support with heels dropping below edge then lifting; hands rest on thighs. Opaque clothing retained. Qualified anatomy review pending; no publication.",
+      "blockingIssues": [],
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream media used.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0853-male-anatomical-white-v1.png",
+        "role": "style only"
+      }
+    },
+    {
+      "exerciseId": "4910",
+      "variant": "male",
+      "key": "4910-male-anatomical-white-v1",
+      "prompt": "Dumbbell bent arm isometric hold ONE SINGLEPOSE only front three-quarter. Standtall onedumbbellEACHhand palmsUP withelbows bent90degrees andPINNEDRIBS, FOREARMS HORIZONTAL holdingweights atwaist. Shouldersrelaxed ribsdown nolean. Notcurlsequence, onlystatic90degreehold. Red exposed BICEPS only. Fullbody andweightsinsidewhiteframe. Use case: scientific educational. Match original 0853 reference only in premium detailed grayscale anatomy rendering, never its movement or equipment. White background, subtle floor shadow, realistic muscular adult male. Same person, camera, scale and equipment in both panels. Fully opaque black tank and mid-thigh black shorts wrap front, sides, back and crotch, realistic seams, folds and hems; no clothing cutaways or anatomical fibers over cloth. Red highlights only on exposed target deltoids or triceps as specified. Entire body, hands, feet, weights and equipment fit generously inside each panel. No words, numbers or arrows.",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hold dumbbells with elbows bent about ninety degrees and pinned to sides for 20-30 seconds."
+        },
+        {
+          "key": "p2",
+          "caption": "Duplicate of the same static hold; extra panel is blocked and requires correction."
+        }
+      ],
+      "inspectionNote": "Real output inspected. Requested single isometric pose produced two duplicate hold panels; wrist and elbow position plausible but pose count is wrong. Opaque clothing retained. Qualified anatomy review pending; no publication.",
+      "blockingIssues": [
+        "Static hold requested as one pose produced two duplicate panels. Repeated single-pose layout failure; stop run and revise reference strategy before retrying."
+      ],
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream media used.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0853-male-anatomical-white-v1.png",
+        "role": "style only"
+      }
+    }
+  ]
+}

@@ -1,0 +1,363 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "1686",
+      "variant": "male",
+      "key": "1686-male-anatomical-white-v1",
+      "layout": {
+        "columns": 3,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Squat with heels planted and knees tracking your toes."
+        },
+        {
+          "key": "p2",
+          "caption": "Stand up, reach both arms overhead and turn your torso gently to the right."
+        },
+        {
+          "key": "p3",
+          "caption": "Return through the squat and repeat with a gentle turn to the left. Alternate sides."
+        }
+      ],
+      "prompt": "SQUAT TO OVERHEAD REACH WITH TWIST canonical1686. THREE equal square cells side by side WIDE3:1 landscape FRONT three-quarter fixed camera bodyweight no equipment. LEFT SQUAT feet shoulder width toes slightlyout heels flat hipsback thighsnearparallel neutralback arms forward shoulderheight. MIDDLE stand tall legs straight soft BOTH arms straight OVERHEAD near ears palms open and torso/shoulders rotate modest30degrees to anatomical RIGHT viewerLEFT. RIGHT stand tall BOTH arms straight OVERHEAD and torso/shoulders rotate modest30degrees to anatomical LEFT viewerRIGHT. Clearly OPPOSITE torso rotations middle/right not identical. Feet same footprint knees trackfeet pelvis rotates minimally never wrench knees or extremebackbend. Primary QUADS RED on exposed anterior thighs below opaque black shorts ONLY no red over shorts/tank. Other skin grayscale. Original premium ADULT MALE detailed grayscale anatomical educational illustration. Same full body camera scale equipment throughout cells. Crisp detailed realistic grayscale anatomical skin five fingers. Full opaque BLACK tank wraps front sides back and BLACK mid-thigh shorts cover front sides back seat crotch with intact seams hems folds. No cutaways transparency or muscle fibers visible through fabric. Any red teaching tint over cloth MUST be soft diffuse with broad fabric folds ONLY never striations radial rays anatomical lobes. Black shoes. Pure WHITE background soft shadows generous12percent margins full head hands BOTH feet equipment inside EACH cell uncropped. Original project artwork STYLE ONLY ignore pushup/chest red. No text labels captions arrows extra people.",
+      "inspectionNote": "Real output inspected. Squat and two overhead reaches with opposite head/shoulder directions; exposed anterior quads red. Qualified review needed for actual torso rotation versus neck-only turning, knee tracking, shoulder/hand anatomy and tight top margins. Detailed grayscale/red primary highlights and opaque clothing retained, except noted rendering blocker. Original project artwork style only; no upstream media. Exact prompt and original master saved. Human anatomy review pending; no approval or publication.",
+      "canonicalName": "squat to overhead reach with twist",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "quads"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Squat and two overhead reaches with opposite head/shoulder directions; exposed anterior quads red. Qualified review needed for actual torso rotation versus neck-only turning, knee tracking, shoulder/hand anatomy and tight top margins. Detailed grayscale/red primary highlights and opaque clothing retained, except noted rendering blocker. Original project artwork style only; no upstream media. Exact prompt and original master saved. Human anatomy review pending; no approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/1686-male-anatomical-white-v1-p1-50f46828c4c9.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 14368,
+          "sha256": "50f46828c4c902eef6bee978cdc307cbecbf530d2b6f4719faf38a433ac0b008"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/1686-male-anatomical-white-v1-p2-a8c8388c8e63.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 15364,
+          "sha256": "a8c8388c8e63fc6f747fdcb01d25ca5d25242ef3be9e0ec5dff1311c4d152b04"
+        },
+        {
+          "pose": "p3",
+          "path": "/workout/illustration-pilot/1686-male-anatomical-white-v1-p3-7527b06e8fe3.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 15416,
+          "sha256": "7527b06e8fe34a5486fb85524de92ab5d0f9183912b4cda08a62cfba7c152ccf"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-225.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/1686-male-anatomical-white-v1-thumb-012392ce492f.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2100,
+        "sha256": "012392ce492ff978f0e77c7e27d4847feaa6de235557205d66af18d24007bf6e"
+      },
+      "processingSignature": "d042ea16856c4ea59eb1f40c3375eb1ec778af69f78385969b4a8fdb93fb0cfe",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1686-male-anatomical-white-v1.png",
+        "width": 2172,
+        "height": 724,
+        "bytes": 1240292,
+        "sha256": "9803d01a545ee332191e29f2f305bcf6e7f5d4e1ace8d283056416d7ec044e51"
+      }
+    },
+    {
+      "exerciseId": "1687",
+      "variant": "male",
+      "key": "1687-male-anatomical-white-v1",
+      "layout": {
+        "columns": 3,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand tall with arms at your sides."
+        },
+        {
+          "key": "p2",
+          "caption": "Step the right foot back into a controlled lunge and reach both arms overhead. Push through the front heel to return."
+        },
+        {
+          "key": "p3",
+          "caption": "Repeat by stepping the left foot back. Keep your torso tall and alternate sides."
+        }
+      ],
+      "prompt": "POSTERIOR STEP TO OVERHEAD REACH canonical1687. THREE equal square cells WIDE3:1 landscape FRONT three-quarter camera bodyweight no equipment. LEFT START stand feet hipwidth arms at sides. MIDDLE RIGHT FOOT STEPS BACK: anatomical LEFT leg viewerRIGHT remains FRONT soleflat knee90degrees; RIGHT leg viewerLEFT steps BACK rear ball-of-foot contact heelup knee just above floor. BOTH arms straight OVERHEAD palmsopen ribsstacked torso tall no backbend. RIGHT LEFT FOOT STEPS BACK: anatomical RIGHT leg viewerLEFT now FRONT flatsole knee90degrees; LEFT leg viewerRIGHT behind rearheelup kneehover. BOTH arms overhead again. CLEAR opposite leading legs middle/right not duplicates. Abs PRIMARY soft DIFFUSE RED teaching tint on intact BLACK tank abdomen only, plain fabric visible broad folds NO muscle fibers or cutaway. Legs grayscale. Original premium ADULT MALE detailed grayscale anatomical educational illustration. Same full body camera scale equipment throughout cells. Crisp detailed realistic grayscale anatomical skin five fingers. Full opaque BLACK tank wraps front sides back and BLACK mid-thigh shorts cover front sides back seat crotch with intact seams hems folds. No cutaways transparency or muscle fibers visible through fabric. Any red teaching tint over cloth MUST be soft diffuse with broad fabric folds ONLY never striations radial rays anatomical lobes. Black shoes. Pure WHITE background soft shadows generous12percent margins full head hands BOTH feet equipment inside EACH cell uncropped. Original project artwork STYLE ONLY ignore pushup/chest red. No text labels captions arrows extra people.",
+      "inspectionNote": "Real output inspected. Posterior step overhead reach with diffuse abdominal cloth tint. BLOCKED: both lunge cells duplicate the same leading leg instead of alternating. Detailed grayscale/red primary highlights and opaque clothing retained, except noted rendering blocker. Original project artwork style only; no upstream media. Exact prompt and original master saved. Human anatomy review pending; no approval or publication.",
+      "blockingIssues": [
+        "Both lunge cells use the same forward leg; opposite-side step-back repetition is missing."
+      ],
+      "canonicalName": "posterior step to overhead reach",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "abs"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Posterior step overhead reach with diffuse abdominal cloth tint. BLOCKED: both lunge cells duplicate the same leading leg instead of alternating. Detailed grayscale/red primary highlights and opaque clothing retained, except noted rendering blocker. Original project artwork style only; no upstream media. Exact prompt and original master saved. Human anatomy review pending; no approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/1687-male-anatomical-white-v1-p1-8b01011e4089.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 16454,
+          "sha256": "8b01011e40891ee70ff38ac8002c0f80b8fb5124d3009b7f864b7685d2c2e37d"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/1687-male-anatomical-white-v1-p2-5bbb00b92828.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 17228,
+          "sha256": "5bbb00b92828088ec24980ade83c237e5eb9e2bd5f4e39da44e75aa60f1bcb64"
+        },
+        {
+          "pose": "p3",
+          "path": "/workout/illustration-pilot/1687-male-anatomical-white-v1-p3-2f119c80845a.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 17296,
+          "sha256": "2f119c80845a59fedc6d8709101edfdab271ea2b8175a72248e26e6019e526ee"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-225.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/1687-male-anatomical-white-v1-thumb-903d33b148ab.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2474,
+        "sha256": "903d33b148ab21a3a08f9cd6d5824e15639c0f3592cef68524798e1af49d6520"
+      },
+      "processingSignature": "a68c071c12c5868b867a93f281f149d50d1c8cb8f5085f2beeece4dc6a2b47e2",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1687-male-anatomical-white-v1.png",
+        "width": 2172,
+        "height": 724,
+        "bytes": 1315014,
+        "sha256": "c70c7c60e3f256388a040d7fbe4b754b18a20acd279b7d1c803d905c3ba44749"
+      }
+    },
+    {
+      "exerciseId": "1688",
+      "variant": "male",
+      "key": "1688-male-anatomical-white-v1",
+      "layout": {
+        "columns": 3,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand with feet shoulder width."
+        },
+        {
+          "key": "p2",
+          "caption": "Lunge forward with the right leg and turn right, bringing your left elbow toward your right knee. Return to standing."
+        },
+        {
+          "key": "p3",
+          "caption": "Lunge forward with the left leg and turn left, bringing your right elbow toward your left knee. Alternate sides."
+        }
+      ],
+      "prompt": "LUNGE WITH TWIST canonical1688. THREE equal square cells WIDE3:1 landscape fixed FRONT three-quarter camera bodyweight no equipment. LEFT START stand feet shoulderwidth hands lightly by temples elbows bent naturally not pulling head. MIDDLE RIGHT FORWARD LUNGE: anatomical RIGHT leg viewerLEFT steps FORWARD soleflat knee90degrees, LEFT leg viewerRIGHT behind heelup knee hovering; rotate torso RIGHT and bring LEFT elbow diagonally toward RIGHT knee, small forward hip hinge neutralback neck, right elbow points behind torso. RIGHT LEFT FORWARD LUNGE: anatomical LEFT leg viewerRIGHT forward soleflat knee90degrees RIGHT leg viewerLEFT behind heelup, rotate LEFT bring RIGHT elbow toward LEFT knee. CLEAR opposite front legs and cross-body elbows middle/right no duplicate side. Abs PRIMARY soft DIFFUSE RED teaching tint on opaque BLACK tank lateral abdomen only plain fabric seams folds NO fibers or missingcloth. Legs arms grayscale. Original premium ADULT MALE detailed grayscale anatomical educational illustration. Same full body camera scale equipment throughout cells. Crisp detailed realistic grayscale anatomical skin five fingers. Full opaque BLACK tank wraps front sides back and BLACK mid-thigh shorts cover front sides back seat crotch with intact seams hems folds. No cutaways transparency or muscle fibers visible through fabric. Any red teaching tint over cloth MUST be soft diffuse with broad fabric folds ONLY never striations radial rays anatomical lobes. Black shoes. Pure WHITE background soft shadows generous12percent margins full head hands BOTH feet equipment inside EACH cell uncropped. Original project artwork STYLE ONLY ignore pushup/chest red. No text labels captions arrows extra people.",
+      "inspectionNote": "Real output inspected. Lunge twist with alternating forward legs and abdominal tint. BLOCKED: elbows approach same-side knees rather than the canonical opposite elbow-to-knee rotation; abdominal lobes also visible in tank rendering require correction. Detailed grayscale/red primary highlights and opaque clothing retained, except noted rendering blocker. Original project artwork style only; no upstream media. Exact prompt and original master saved. Human anatomy review pending; no approval or publication.",
+      "blockingIssues": [
+        "Same-side elbow-to-knee side bend is depicted instead of canonical opposite elbow-to-knee torso rotation.",
+        "Tank rendering shows segmented abdominal anatomy rather than plain opaque fabric folds."
+      ],
+      "canonicalName": "lunge with twist",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "abs"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Lunge twist with alternating forward legs and abdominal tint. BLOCKED: elbows approach same-side knees rather than the canonical opposite elbow-to-knee rotation; abdominal lobes also visible in tank rendering require correction. Detailed grayscale/red primary highlights and opaque clothing retained, except noted rendering blocker. Original project artwork style only; no upstream media. Exact prompt and original master saved. Human anatomy review pending; no approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/1688-male-anatomical-white-v1-p1-c17e50721113.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 17670,
+          "sha256": "c17e50721113438217a958c11e0833f1b17ee46fa47a4edc940815b0f1dc6e2c"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/1688-male-anatomical-white-v1-p2-363fce258866.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 20910,
+          "sha256": "363fce258866ce5ef836ae537da27544635fef6772851d7ab7b9246d1274e6ba"
+        },
+        {
+          "pose": "p3",
+          "path": "/workout/illustration-pilot/1688-male-anatomical-white-v1-p3-d57faf69fd62.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 20354,
+          "sha256": "d57faf69fd62f7eb871b6a5fe00cb49c9c412963f91de1599ae7ea1a30c9ca25"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-225.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/1688-male-anatomical-white-v1-thumb-fe697771c8ac.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2728,
+        "sha256": "fe697771c8ac408dde8a69b4039e3905270b947874203ba43669d1f0e3b75a47"
+      },
+      "processingSignature": "e9d97273d4c139d1ba16d090d7fa0fe070b4fe86d13f179715948972688ae9e9",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1688-male-anatomical-white-v1.png",
+        "width": 2172,
+        "height": 724,
+        "bytes": 1345054,
+        "sha256": "823a6697bee33a8e9ecd530d0d5fe0a7ba9d22db55f8f392ceb549de69ca14dd"
+      }
+    },
+    {
+      "exerciseId": "1693",
+      "variant": "male",
+      "key": "1693-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hold a medicine ball at your chest and balance on one leg with a soft knee."
+        },
+        {
+          "key": "p2",
+          "caption": "Hinge at your hips, extending the free leg behind you and lowering the ball with a flat back. Return to standing, then repeat on both sides."
+        }
+      ],
+      "prompt": "MEDICINE BALL SINGLE LEG DEADLIFT canonical1693. TWO equal square cells side by side WIDE2:1 landscape REAR three-quarter SIDE camera clearly shows posterior working thigh and flat back. SAME gray medicine ball held BOTH hands. LEFT START stand on RIGHT leg soleflat softknee, LEFT foot lifted slightly behind, ball at chest elbowsbent. RIGHT FINISH HIP HINGE on SAME RIGHT leg softknee heelplanted pelvis level spine flat torso nearlyhorizontal, LEFT leg straight extends BACK nearlyhorizontal, both hands lower SAME ball belowshoulders towardfloor at midshin height armsstraight, not deepkneesquat. Head alignedspine. Free left foot never touchesfloor. Red PRIMARY HAMSTRINGS on exposed BACK working RIGHT thigh below opaque shorthem only, optional diffuse tint on fabric posterior thigh WITHOUT fibers; no calf/glute/abs red. Same ball diameter body scale bothcells. Original premium ADULT MALE detailed grayscale anatomical educational illustration. Same full body camera scale equipment throughout cells. Crisp detailed realistic grayscale anatomical skin five fingers. Full opaque BLACK tank wraps front sides back and BLACK mid-thigh shorts cover front sides back seat crotch with intact seams hems folds. No cutaways transparency or muscle fibers visible through fabric. Any red teaching tint over cloth MUST be soft diffuse with broad fabric folds ONLY never striations radial rays anatomical lobes. Black shoes. Pure WHITE background soft shadows generous12percent margins full head hands BOTH feet equipment inside EACH cell uncropped. Original project artwork STYLE ONLY ignore pushup/chest red. No text labels captions arrows extra people.",
+      "inspectionNote": "Real output inspected. Single-leg medicine-ball deadlift: ball at chest to low hinge, same working leg planted and free leg extended behind, red exposed working hamstrings. Qualified review needed for pelvis level, knee softness, spine/neck alignment, ball grip and balance. Detailed grayscale/red primary highlights and opaque clothing retained, except noted rendering blocker. Original project artwork style only; no upstream media. Exact prompt and original master saved. Human anatomy review pending; no approval or publication.",
+      "canonicalName": "medicine ball single leg deadlift",
+      "styleVersion": "white-v1",
+      "equipment": "medicine ball",
+      "primaryMuscles": [
+        "hamstrings"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Single-leg medicine-ball deadlift: ball at chest to low hinge, same working leg planted and free leg extended behind, red exposed working hamstrings. Qualified review needed for pelvis level, knee softness, spine/neck alignment, ball grip and balance. Detailed grayscale/red primary highlights and opaque clothing retained, except noted rendering blocker. Original project artwork style only; no upstream media. Exact prompt and original master saved. Human anatomy review pending; no approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/1693-male-anatomical-white-v1-p1-9d95790f10be.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 22482,
+          "sha256": "9d95790f10be905872d9160422aefd96c2c756077e0af3bc71a358ce5756c49f"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/1693-male-anatomical-white-v1-p2-05de0f04b202.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 26714,
+          "sha256": "05de0f04b202a03e7685ee7c4a59438265546e01bbe0512dc6c82045463ef253"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-225.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/1693-male-anatomical-white-v1-thumb-2c8c24296e40.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2420,
+        "sha256": "2c8c24296e40d5d564e6d446a82d951be15315ce25f531c82a5be82550dd1a00"
+      },
+      "processingSignature": "55b22b8a01c0d0b4c8edff19670ee31f268dd522f97ff855cfe085e9b99f00b6",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1693-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1362707,
+        "sha256": "edaeb21604ab5ca1ffc689653b6fa26552d97b773b820d8bf968025bbd328d20"
+      }
+    }
+  ]
+}

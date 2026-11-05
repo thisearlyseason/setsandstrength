@@ -1,0 +1,278 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "1887",
+      "variant": "male",
+      "key": "1887-male-anatomical-white-v1",
+      "layout": {
+        "columns": 1,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Face a wall and step one foot back. Keep that leg straight and its heel down as you bend the front knee and lean forward. Hold for 20\u201330 seconds, then switch legs."
+        }
+      ],
+      "prompt": "STANDING HEEL BACK ACHILLES STRETCH. ONE full-body static REAR-SIDE three-quarter view facing gray wall. Both hands onwall shoulderheight. RIGHT leg steps BACK STRAIGHT kneeextended, RIGHT heel firmly onfloor and toesfacewall, LEFT knee bendsforward towardwall. Pelvis square spine neutral. PRIMARY RIGHT POSTERIOR CALF gastrocnemius and soleus RED with musclecontour detail, at BACK of lowerleg between knee and Achilles, NEVER FRONT SHIN. Tibialis anterior/shin and kneecaps gray, frontleftcalfgray, chesttankNOred. Fullhandheeltoe contactsvisible. Hold20-30seconds. Use case: scientific-educational. Premium detailed ADULT MALE grayscale anatomical illustration matching original reference for rendering STYLE ONLY, ignore its pose and highlights. Realistic proportions, crisp exposed grayscale muscle contours, white background soft shadows. Full opaque BLACK athletic tank and mid-thigh shorts wrap front sides back seat crotch, seams hems folds; no transparency cutaways or anatomy visible through fabric. Red highlight over fabric must be a FLAT UNIFORM SOFT RED ELLIPSE teaching tint with no internal lines fibers rays or lobes; fabric folds retained. Black shoes. No text labels arrows captions logos. All limbs fingers feet and equipment entirely in frame with generous margins. Same person camera lighting and scale across poses.",
+      "inspectionNote": "Real output inspected. Straight rear-leg wall stretch: rear heel grounded, forward knee bent, palms on wall and red posterior calf rather than anterior shin. Qualified review needed for rear toe direction, hip squareness, heel contact and calf/Achilles highlight extent. Detailed grayscale rendering, white background and full opaque tank/shorts retained. Original project artwork style only, no upstream media. Exact prompt and original saved. Human anatomy review pending; no approval or publication.",
+      "canonicalName": "standing heel back achilles stretch",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "calves"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Straight rear-leg wall stretch: rear heel grounded, forward knee bent, palms on wall and red posterior calf rather than anterior shin. Qualified review needed for rear toe direction, hip squareness, heel contact and calf/Achilles highlight extent. Detailed grayscale rendering, white background and full opaque tank/shorts retained. Original project artwork style only, no upstream media. Exact prompt and original saved. Human anatomy review pending; no approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/1887-male-anatomical-white-v1-p1-e3fab5ab4a1b.webp",
+          "width": 1200,
+          "height": 600,
+          "bytes": 18264,
+          "sha256": "e3fab5ab4a1b17fc00fbb7884837701e77ed358f72612e80bf1979d6f7fa5d97"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-246.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/1887-male-anatomical-white-v1-thumb-c309e95be07b.webp",
+        "width": 240,
+        "height": 120,
+        "bytes": 1502,
+        "sha256": "c309e95be07b790cdd627d75dde692ab75a9af6c8e019fe4f49ed1ff8e681828"
+      },
+      "processingSignature": "25be1adb1a25a366875aad1d30f80a9b3ceab689702b9f87913b1d65f39c6891",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1887-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1404671,
+        "sha256": "da5cd5abca810acbe0ca1754c8c67d8814f6a93e49fae0672d7ce6b3b60b30ad"
+      }
+    },
+    {
+      "exerciseId": "1888",
+      "variant": "male",
+      "key": "1888-male-anatomical-white-v1",
+      "layout": {
+        "columns": 1,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand near a support and step one foot back with the heel down. Slightly bend the back knee while keeping that foot pointed forward. Hold for 20\u201330 seconds, then switch legs."
+        }
+      ],
+      "prompt": "STANDING ACHILLES STRETCH. ONE full-body static REAR-SIDE three-quarter view facing gray wall. Both hands onwall forbalance. RIGHT leg stepsBACK heelDOWN soleflat toesforward, RIGHT knee gentlyBENT15-20degrees while leftfrontknee also soft. Slightly lowerpelvis andleanforward asrightheel remainsfloor; distinct bentBACKknee soleusstretch, notstraight-knee lunge. PRIMARY RIGHT POSTERIOR LOWER CALF/soleus RED detailedteachingtint alongbackoflowerleg aboveAchilles, NEVER ANTERIORSHIN; rightfrontshingray, leftcalfgray. Tankallblack. Entirebodyhandsheelcontactswithinframe. Hold20-30seconds. Use case: scientific-educational. Premium detailed ADULT MALE grayscale anatomical illustration matching original reference for rendering STYLE ONLY, ignore its pose and highlights. Realistic proportions, crisp exposed grayscale muscle contours, white background soft shadows. Full opaque BLACK athletic tank and mid-thigh shorts wrap front sides back seat crotch, seams hems folds; no transparency cutaways or anatomy visible through fabric. Red highlight over fabric must be a FLAT UNIFORM SOFT RED ELLIPSE teaching tint with no internal lines fibers rays or lobes; fabric folds retained. Black shoes. No text labels arrows captions logos. All limbs fingers feet and equipment entirely in frame with generous margins. Same person camera lighting and scale across poses.",
+      "inspectionNote": "Real output inspected. Wall Achilles stretch: heel grounded and posterior lower calf highlighted. BLOCKED: rear working knee appears essentially straight, rather than the distinct bent-knee soleus/Achilles position required. Correct back-knee flexion. Detailed grayscale rendering, white background and full opaque tank/shorts retained. Original project artwork style only, no upstream media. Exact prompt and original saved. Human anatomy review pending; no approval or publication.",
+      "blockingIssues": [
+        "Rear working knee remains essentially straight; correct to visibly slight knee flexion for soleus/Achilles hold."
+      ],
+      "canonicalName": "standing achilles stretch",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "calves"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Wall Achilles stretch: heel grounded and posterior lower calf highlighted. BLOCKED: rear working knee appears essentially straight, rather than the distinct bent-knee soleus/Achilles position required. Correct back-knee flexion. Detailed grayscale rendering, white background and full opaque tank/shorts retained. Original project artwork style only, no upstream media. Exact prompt and original saved. Human anatomy review pending; no approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/1888-male-anatomical-white-v1-p1-356f9ceaa9f6.webp",
+          "width": 1200,
+          "height": 1097,
+          "bytes": 41868,
+          "sha256": "356f9ceaa9f6c6ae256c36c33c2bcd7143b6844a0b7f39f4c125c09d74fa6d7d"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-246.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/1888-male-anatomical-white-v1-thumb-d62a2ed5cd91.webp",
+        "width": 240,
+        "height": 219,
+        "bytes": 2856,
+        "sha256": "d62a2ed5cd91dbbdc754b2d3c06aafd809bd502e4188e8347a6909876e831b91"
+      },
+      "processingSignature": "3b64a566b97d95296fef7dc96ae592aeb73b93c58022e8e3490e02d3d73c7e72",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1888-male-anatomical-white-v1.png",
+        "width": 1312,
+        "height": 1199,
+        "bytes": 1700428,
+        "sha256": "37adb81287a64499e7a155c2c8b25c9444325569734c0ba3773a0920270aee99"
+      }
+    },
+    {
+      "exerciseId": "1889",
+      "variant": "male",
+      "key": "1889-male-anatomical-white-v1",
+      "layout": {
+        "columns": 1,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Sit with one leg straight and loop a towel around the ball of that foot. Gently pull the towel to draw your toes toward your shin while keeping the knee straight. Hold for 20\u201330 seconds, then switch legs."
+        }
+      ],
+      "prompt": "SITTING TOE PULL ACHILLES STRETCH. ONE full-body static SIDE REAR three-quarter camera shows POSTERIOR rightcalf. Sit onfloor RIGHT legstraightforward heelgrounded, LEFT legcomfortablybent toside. A simple gray TOWEL loops around BALL of RIGHT foot, both hands hold one towelend each nearhips pullinggently so righttoesdrawtowardshin ankleDORSIFLEXED, RIGHT knee staysstraight. Spine tallcomfortable, no hunching or headturntwist. RIGHT POSTERIOR CALF RED with musclecontours, back of lowerleg from belowkneetoAchilles; FRONT tibialis/shin staysGRAY. Tankblack no redchest. Towel clearly connectsfootball andtwohands, no fusedlimbs. Fullfeet headhandsfloorcontacts margins. Hold20-30seconds. Use case: scientific-educational. Premium detailed ADULT MALE grayscale anatomical illustration matching original reference for rendering STYLE ONLY, ignore its pose and highlights. Realistic proportions, crisp exposed grayscale muscle contours, white background soft shadows. Full opaque BLACK athletic tank and mid-thigh shorts wrap front sides back seat crotch, seams hems folds; no transparency cutaways or anatomy visible through fabric. Red highlight over fabric must be a FLAT UNIFORM SOFT RED ELLIPSE teaching tint with no internal lines fibers rays or lobes; fabric folds retained. Black shoes. No text labels arrows captions logos. All limbs fingers feet and equipment entirely in frame with generous margins. Same person camera lighting and scale across poses.",
+      "inspectionNote": "Real output inspected. Seated toe-pull stretch: straight leg, towel around forefoot held with both hands, heel supported and toes toward shin. Posterior calf highlighted, torso/legs coherent. Qualified review needed for towel contact, comfortable dorsiflexion, knee extension and calf mapping. Detailed grayscale rendering, white background and full opaque tank/shorts retained. Original project artwork style only, no upstream media. Exact prompt and original saved. Human anatomy review pending; no approval or publication.",
+      "canonicalName": "sitting toe pull achilles stretch",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "calves"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Seated toe-pull stretch: straight leg, towel around forefoot held with both hands, heel supported and toes toward shin. Posterior calf highlighted, torso/legs coherent. Qualified review needed for towel contact, comfortable dorsiflexion, knee extension and calf mapping. Detailed grayscale rendering, white background and full opaque tank/shorts retained. Original project artwork style only, no upstream media. Exact prompt and original saved. Human anatomy review pending; no approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/1889-male-anatomical-white-v1-p1-6474760d267c.webp",
+          "width": 1200,
+          "height": 600,
+          "bytes": 31392,
+          "sha256": "6474760d267c3bd13ef95193bea519c5bc017a36880f4286b98c2ccd336c1da8"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-246.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/1889-male-anatomical-white-v1-thumb-02da7cbb4349.webp",
+        "width": 240,
+        "height": 120,
+        "bytes": 1900,
+        "sha256": "02da7cbb43490c9bf170355e0f7707fb11d3a058a7d910d8bb6e4bedcb4d94c0"
+      },
+      "processingSignature": "7aefb94c0e877c877230a5f4e055de01286650169622b699fbbf2bd12489bceb",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1889-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1422499,
+        "sha256": "ce3cecd5c3009b80b3d9fa7923cefd3b589ee606c00ea790b5a554a83fec5128"
+      }
+    },
+    {
+      "exerciseId": "1892",
+      "variant": "male",
+      "key": "1892-male-anatomical-white-v1",
+      "layout": {
+        "columns": 1,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Kneel on one knee with the other foot forward. Gently move the front knee over your toes while keeping that heel on the floor. Hold for 20\u201330 seconds, then switch legs."
+        }
+      ],
+      "prompt": "KNEELING HEEL DOWN ACHILLES STRETCH. ONE full-body static REAR-SIDE three-quarter view makes frontleg POSTERIOR CALF visible. Halfkneel LEFT knee onfloor leftshinbehind, RIGHT footforward entire soleflat heelgrounded, rightknee bends andtracksforward overtoes asbody shiftsgentlyforward. BOTH hands rest lightly onfrontRIGHT thigh ABOVE knee, torso upright pelvissquare. RIGHT POSTERIOR LOWER CALF soleus justaboveAchilles RED detailedtint, NEVER frontshin tibialis; allshin surfacesGRAY and leftcalfgray, tankNOred. Show rightheelgroundcontact andleftkneefloorcontact clearly, knee notcollapsedmedially, coherenttorso/hips orientation. Hold20-30seconds. Use case: scientific-educational. Premium detailed ADULT MALE grayscale anatomical illustration matching original reference for rendering STYLE ONLY, ignore its pose and highlights. Realistic proportions, crisp exposed grayscale muscle contours, white background soft shadows. Full opaque BLACK athletic tank and mid-thigh shorts wrap front sides back seat crotch, seams hems folds; no transparency cutaways or anatomy visible through fabric. Red highlight over fabric must be a FLAT UNIFORM SOFT RED ELLIPSE teaching tint with no internal lines fibers rays or lobes; fabric folds retained. Black shoes. No text labels arrows captions logos. All limbs fingers feet and equipment entirely in frame with generous margins. Same person camera lighting and scale across poses.",
+      "inspectionNote": "Real output inspected. Half-kneeling heel-down stretch: front heel and rear knee grounded, hands on front thigh, posterior lower-calf highlight. BLOCKED: front shin remains nearly vertical and knee stays well behind toes; show gentle forward knee-over-toe range with heel down as instructed. Detailed grayscale rendering, white background and full opaque tank/shorts retained. Original project artwork style only, no upstream media. Exact prompt and original saved. Human anatomy review pending; no approval or publication.",
+      "blockingIssues": [
+        "Front shin remains nearly vertical with knee behind toes instead of intended forward knee-over-toe range. Correct gentle forward shift while heel stays down."
+      ],
+      "canonicalName": "kneeling heel down achilles stretch",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "calves"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Half-kneeling heel-down stretch: front heel and rear knee grounded, hands on front thigh, posterior lower-calf highlight. BLOCKED: front shin remains nearly vertical and knee stays well behind toes; show gentle forward knee-over-toe range with heel down as instructed. Detailed grayscale rendering, white background and full opaque tank/shorts retained. Original project artwork style only, no upstream media. Exact prompt and original saved. Human anatomy review pending; no approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/1892-male-anatomical-white-v1-p1-357ffd1caf89.webp",
+          "width": 1200,
+          "height": 600,
+          "bytes": 18242,
+          "sha256": "357ffd1caf8921d5a195aaec716f532e40a57efbd0a2e6aa9c1f7c4586c43c67"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-246.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/1892-male-anatomical-white-v1-thumb-58f3a66cd7c9.webp",
+        "width": 240,
+        "height": 120,
+        "bytes": 1366,
+        "sha256": "58f3a66cd7c9f55a9ebb44ff7a9b9435674afc4e50db4c070e986e66712f0ccb"
+      },
+      "processingSignature": "92c1a666f0768cadb347d74b8ca9fa890499dbe2a2d0d573c49488c1e0d67c2b",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1892-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1277636,
+        "sha256": "65bece6038c5863fadd1024eb3f912888c29031b1e10a24286c4392c61296942"
+      }
+    }
+  ]
+}

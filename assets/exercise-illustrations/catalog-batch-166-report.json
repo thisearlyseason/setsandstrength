@@ -1,0 +1,65 @@
+{
+  "batch": 166,
+  "runId": "6c6b0c62-b3f0-47d9-abbd-14814089dd81",
+  "trigger": "2026-11-03T08:45:58.048Z",
+  "completedAt": "2026-11-03T08:50:29.866041+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 2,
+  "generationCalls": 2,
+  "exerciseIds": [
+    "1203"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 646,
+    "remainingVariants": 10618,
+    "approvedVariants": 0,
+    "blockedVariants": 221,
+    "knownPoseImages": 1298,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Two single-arm inner biceps cable curl candidates, four poses, two built-in calls. Near-extended working elbow to hand at shoulder, low pulley cable/raised stack, working biceps red, free hand at hip and upright stance. Fine exposed grayscale anatomy and full opaque clothes visually retained. Qualified elbow outward angle/upper-arm drift, supinated grip/wrist, cable routing/stack travel and proportions require human review. Every original and exact prompt saved; no anatomy/clothing approval or publication. Original project artwork rendering style only, no upstream licensed input. Seven pipeline checks do not establish anatomical accuracy.",
+  "metadataConflictsDeferred": {
+    "1201": "Cardiovascular target has no defined primary muscle mapping for red highlight."
+  },
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 1025738661,
+  "savedMasters": [
+    {
+      "exerciseId": "1203",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1203-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1516087,
+        "sha256": "eece118c73bfdc1796205e6f848c2cb965d13fac193f905bd5589a74d3ac4821"
+      }
+    },
+    {
+      "exerciseId": "1203",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1203-female-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1502434,
+        "sha256": "258be618ab9b5f50895c21d9dd339f8422319f5cfaea7da2fa5acc48ce335eee"
+      }
+    }
+  ]
+}

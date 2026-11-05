@@ -1,0 +1,66 @@
+{
+  "batch": 157,
+  "runId": "4bb08875-53d1-4db7-b58b-de24c7493fbb",
+  "trigger": "2026-11-03T07:42:27.584Z",
+  "completedAt": "2026-11-03T07:46:39.989834+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 2,
+  "generationCalls": 2,
+  "exerciseIds": [
+    "1083"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 628,
+    "remainingVariants": 10636,
+    "approvedVariants": 0,
+    "blockedVariants": 215,
+    "knownPoseImages": 1270,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Two suspension leg curl candidates, four poses, two built-in calls. Extended legs to flexed knees with elevated hips, supported head/upper back/arms on mat, heels in separate cradles and exposed hamstrings red. Fine grayscale anatomy and full opaque black clothing visually retained. Qualified review of strap length consistency, heel/cradle pressure, hip extension and lumbar alignment, red primary mapping and bilateral symmetry remains pending. Every original and exact prompt saved; no anatomy/clothing approval or publication. Original project artwork rendering style only, no upstream licensed input. Seven pipeline checks do not establish anatomical accuracy.",
+  "metadataConflictsDeferred": {
+    "1077": "Standing foot strap abduction resistance/support geometry requires clarification.",
+    "1079": "Prone suspension hyperextension lacks torso/pelvis support specification."
+  },
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 998712830,
+  "savedMasters": [
+    {
+      "exerciseId": "1083",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1083-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1365773,
+        "sha256": "dc7816ab62dce00a1e703a8ddb9c3d741e681f11de82d8730335891b87d3bbdb"
+      }
+    },
+    {
+      "exerciseId": "1083",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1083-female-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1307709,
+        "sha256": "b2fdb27decead062c3e568841c3da575fb880533da9249b5938ae49c5a550ac1"
+      }
+    }
+  ]
+}

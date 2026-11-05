@@ -1,0 +1,76 @@
+{
+  "batch": 290,
+  "runId": "e9ddada8-0a0d-47c1-be9d-d5c2f241ea4d",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "trigger": "2026-11-04T02:57:26.717Z",
+  "purpose": "batch290 scheduled male continuation",
+  "started": "2026-11-04T02:57:55.852331+00:00",
+  "completedAt": "2026-11-04T03:13:33.392900+00:00",
+  "actualToolName": "image_gen__imagegen",
+  "calls": 2,
+  "newCandidateSets": 2,
+  "exerciseIds": [
+    "2509",
+    "2511"
+  ],
+  "variants": [
+    "male"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1031,
+    "remainingVariants": 10233,
+    "approvedVariants": 0,
+    "blockedVariants": 352,
+    "knownPoseImages": 1983,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 658,
+      "remainingVariants": 4974,
+      "blockedVariants": 233
+    }
+  },
+  "reviewNotes": {
+    "2509": "Chest-supported incline row with lowered then flexed elbows, feet grounded, underhand grip appears retained. End bar visually crosses bench pad/frame and far bar end is unclear; block equipment clearance correction. Red tank overlay includes muscle-like lobes; block uniform cloth tint correction. Qualified review of wrist orientation, chest support and lower-rib endpoint required. Human anatomy review remains pending.",
+    "2511": "Chest supported on incline bench, arms hang then elbows row toward lower ribs, feet grounded and plain lateral-back tint over intact tank. Visible grip reads pronated/neutral rather than clearly underhand supinated; block grip clarification/correction. Qualified review of far-hand occlusion, wrists, chest contact, neck alignment and row endpoint required. Human anatomy review remains pending."
+  },
+  "blockingIssues": {
+    "2509": [
+      "End bar intersects bench pad/frame; correct bar/bench clearance.",
+      "Red lat overlay has muscle-like lobes through tank; use uniform tint on opaque cloth."
+    ],
+    "2511": [
+      "Reverse underhand grip not clearly depicted; visible grip reads pronated/neutral. Correct palm orientation."
+    ]
+  },
+  "deferred": {
+    "2515": "Prepared prompt retained; not attempted after run window elapsed.",
+    "2525": "Prepared prompt retained; not attempted after run window elapsed."
+  },
+  "tests": 7,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "workerSyncResult": {
+    "statuses": {
+      "generated": 1031,
+      "pending": 10233
+    },
+    "remaining": 10233,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 1587264360
+  },
+  "publicationIndexUnchanged": true
+}

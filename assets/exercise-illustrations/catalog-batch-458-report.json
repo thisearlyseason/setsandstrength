@@ -1,0 +1,58 @@
+{
+  "batch": 458,
+  "runId": "c621764e-ba88-4f0a-a116-6af7cbca18b3",
+  "triggerTimestamp": "2026-11-05T00:42:04.944Z",
+  "builtInImageGenAvailable": true,
+  "generatedIds": [
+    "5303",
+    "5317",
+    "5328",
+    "5370"
+  ],
+  "coverageAfter": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1631,
+    "remainingVariants": 9633,
+    "approvedVariants": 0,
+    "blockedVariants": 592,
+    "knownPoseImages": 3288,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 1258,
+      "remainingVariants": 4374,
+      "blockedVariants": 473
+    }
+  },
+  "paidWorker": {
+    "statuses": {
+      "generated": 1631,
+      "pending": 9633
+    },
+    "remaining": 9633,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 2462326022
+  },
+  "pipelineTests": "8 passed, 0 failed",
+  "approvedIndexUnchanged": true,
+  "existingUserApprovalsPreserved": 1306,
+  "anatomyReview": "pending",
+  "publication": "none",
+  "blocked": {
+    "5370": [
+      "Rope attachment geometry is inconsistent: extra connector on held branch and cable joins a branch rather than a clear central rope attachment. Correct before approval."
+    ]
+  }
+}

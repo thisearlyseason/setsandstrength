@@ -1,0 +1,76 @@
+{
+  "batch": 340,
+  "runId": "76d2e630-c5d4-4b10-b804-8283dd9870ff",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "trigger": "2026-11-04T11:16:31.652Z",
+  "purpose": "batch340 scheduled male continuation",
+  "started": "2026-11-04T11:16:41.513605+00:00",
+  "completedAt": "2026-11-04T11:19:07.411791+00:00",
+  "actualToolName": "image_gen__imagegen",
+  "calls": 2,
+  "newCandidateSets": 2,
+  "exerciseIds": [
+    "3266",
+    "3268"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1218,
+    "remainingVariants": 10046,
+    "approvedVariants": 0,
+    "blockedVariants": 448,
+    "knownPoseImages": 2386,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 845,
+      "remainingVariants": 4787,
+      "blockedVariants": 329
+    }
+  },
+  "reviewNotes": {
+    "3266": "Four poses show forearm and hand plank transitions, but an unrequested bench replaces floor support and both mixed-support panels repeat the same arm. Clothes opaque; human anatomy review pending.",
+    "3268": "Vertical legs and opposite lateral lowering are visible with T arms and opaque clothing, but each figure has an impossible second head at the far end of its torso. Anatomically invalid candidate; correction required before review."
+  },
+  "blockingIssues": {
+    "3266": [
+      "Remove unrequested bench; hands and forearms must support on floor.",
+      "Show opposite leading arm in fourth panel instead of repeating second panel."
+    ],
+    "3268": [
+      "Remove duplicated far-end head; each figure must have exactly one anatomically attached head."
+    ]
+  },
+  "deferred": {
+    "3269": "Cardiovascular-system target does not identify an anatomical primary muscle; mapping needs clarification.",
+    "3270": "Cardiovascular-system target does not identify an anatomical primary muscle; mapping needs clarification.",
+    "3271": "Cardiovascular-system target does not identify an anatomical primary muscle; mapping needs clarification.",
+    "3272": "Cardiovascular-system target does not identify an anatomical primary muscle; mapping needs clarification."
+  },
+  "stopReason": "Stopped after two outputs requiring substantial technique/anatomy correction and nearby cardio primary-mapping ambiguity.",
+  "tests": 7,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "workerSyncResult": {
+    "statuses": {
+      "generated": 1218,
+      "pending": 10046
+    },
+    "remaining": 10046,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 1860120884
+  },
+  "publicationIndexUnchanged": true
+}

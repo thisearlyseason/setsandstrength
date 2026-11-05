@@ -1,0 +1,62 @@
+{
+  "batch": 414,
+  "runId": "7a3f90aa-dfae-4264-afef-680068e919f5",
+  "triggerTimestamp": "2026-11-04T20:50:02.890Z",
+  "builtInImageGenAvailable": true,
+  "generatedIds": [
+    "3749",
+    "3750",
+    "3751",
+    "3752"
+  ],
+  "coverageAfter": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1470,
+    "remainingVariants": 9794,
+    "approvedVariants": 0,
+    "blockedVariants": 557,
+    "knownPoseImages": 2936,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 1097,
+      "remainingVariants": 4535,
+      "blockedVariants": 438
+    }
+  },
+  "paidWorker": {
+    "statuses": {
+      "generated": 1470,
+      "pending": 9794
+    },
+    "remaining": 9794,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 2226400184
+  },
+  "pipelineTests": "8 passed, 0 failed",
+  "approvedIndexUnchanged": true,
+  "existingUserApprovalsPreserved": 1306,
+  "anatomyReview": "pending",
+  "publication": "none",
+  "blocked": {
+    "3749": [
+      "Hip bend breaks straight-body row alignment.",
+      "Lats anatomy fibers visible through tank overlay."
+    ],
+    "3750": [
+      "Hands incorrectly placed on bench instead of floor high plank."
+    ]
+  }
+}

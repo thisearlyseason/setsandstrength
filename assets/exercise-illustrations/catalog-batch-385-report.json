@@ -1,0 +1,56 @@
+{
+  "batch": 385,
+  "runId": "485d54b3-065f-4480-beeb-9a13c3999b68",
+  "triggerTimestamp": "2026-11-04T17:39:01.739Z",
+  "builtInImageGenAvailable": true,
+  "anatomyReview": "pending",
+  "publication": "none",
+  "generatedIds": [
+    "3564",
+    "3567"
+  ],
+  "failure": "3567 figure-four stretch lifts head off floor instead of relaxing it on floor. Retained and blocked; generation stopped.",
+  "deferred": {
+    "3568": "Exact prompt saved; not generated after technique failure.",
+    "3566": "Not attempted after technique failure."
+  },
+  "coverageAfter": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1379,
+    "remainingVariants": 9885,
+    "approvedVariants": 0,
+    "blockedVariants": 532,
+    "knownPoseImages": 2738,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 1006,
+      "remainingVariants": 4626,
+      "blockedVariants": 413
+    }
+  },
+  "paidWorker": {
+    "statuses": {
+      "generated": 1379,
+      "pending": 9885
+    },
+    "remaining": 9885,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 2095872912
+  },
+  "pipelineTests": "7 passed, 0 failed",
+  "approvedIndexUnchanged": true,
+  "existingUserApprovalsPreserved": 1306
+}

@@ -1,3 +1,4 @@
+import { activityPrograms } from './activity-programs.mjs'
 import { readFileSync, writeFileSync, readdirSync, mkdirSync } from 'node:fs'
 import { EXDB, EXALIAS } from '../../frontend/src/lib/exercises-data.js'
 import { execFileSync } from 'node:child_process'
@@ -148,7 +149,7 @@ const programs = sports.flatMap(([sport, label, title, focus, movements]) =>
                 weight: 0,
                 rest: youth ? 90 : 75,
                 mode: 'reps',
-                policy: youth ? 'off' : 'double',
+                prog: youth ? 'off' : 'double',
                 repsMin: 6,
                 alternatives: alternatives[id] ? [alternatives[id]] : [],
                 note: youth
@@ -187,6 +188,7 @@ const programs = sports.flatMap(([sport, label, title, focus, movements]) =>
     }
   }),
 )
+programs.push(...activityPrograms)
 for (const p of programs)
   for (const w of p.weeks)
     for (const s of w.sessions)

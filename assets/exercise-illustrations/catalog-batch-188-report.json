@@ -1,0 +1,65 @@
+{
+  "batch": 188,
+  "runId": "825dd303-4373-4d5a-864f-d7725ef1c8f2",
+  "trigger": "2026-11-03T11:30:29.399Z",
+  "completedAt": "2026-11-03T11:34:24.966946+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 2,
+  "generationCalls": 2,
+  "exerciseIds": [
+    "1427"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 690,
+    "remainingVariants": 10574,
+    "approvedVariants": 0,
+    "blockedVariants": 227,
+    "knownPoseImages": 1366,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Two side-lying straight leg hip abduction candidates, four poses, two built-in calls. Legs stacked to top leg lifted, head supported by lower hand and upper hand on mat, outer upper hip red tint on intact shorts. Full opaque clothes and grayscale exposed anatomy retained. Qualified pelvis stacking versus backward roll, femoral rotation/toe direction, neck support, hip range and male/female fine-detail consistency require human review. Original project artwork style only, no upstream licensed input. Exact prompts/originals saved. No anatomy or clothing approval or publication. Seven pipeline checks do not establish anatomical accuracy.",
+  "metadataConflictsDeferred": {
+    "1429": "Lats target versus upper-back primary map conflicts."
+  },
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 1090234734,
+  "savedMasters": [
+    {
+      "exerciseId": "1427",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1427-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1290525,
+        "sha256": "9bf17862ee74e51b8a5c9a32213f34934da300b955fe8d9972ca4cf8ca50fa54"
+      }
+    },
+    {
+      "exerciseId": "1427",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1427-female-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1278934,
+        "sha256": "2682806199f28c1c60ba470608f29a0a007087eea9295d7023a755625865a37d"
+      }
+    }
+  ]
+}

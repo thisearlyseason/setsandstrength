@@ -1,0 +1,92 @@
+{
+  "batch": 127,
+  "trigger": "2026-11-02T23:57:24.047Z",
+  "completedAt": "2026-11-03T00:12:33.158526+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 4,
+  "generationCalls": 8,
+  "exerciseIds": [
+    "0740",
+    "0743"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 518,
+    "remainingVariants": 10746,
+    "approvedVariants": 0,
+    "blockedVariants": 204,
+    "knownPoseImages": 1068,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Four candidate sets, eight poses, eight built-in calls and four retained corrections. Wide sled leg press pairs show wide feet, bent then near-extended knees, full sole platform contact and handle grips. Head recline corrected; female knee red bleed removed and opaque cloth tint smoothed. Male radial red cloth streaks remain: BLOCKED for clothing-overlay smoothing. Hack squat pairs show moving back carriage/shoulder pads, fixed foot platform, standing and thigh-near-horizontal bottom. Cloth tint smoothed, female tall narrow original reframed as equal square landscape cells. Detailed exposed grayscale anatomy and full opaque shirt/shorts retained. Qualified knee tracking, depth, heel loading, pad contact, carriage mechanics and quadriceps/gluteal/adductor mapping pending. All original masters, exact prompts and correction history saved. No anatomy approval or publication. Original project artwork style only, no upstream media. Pipeline checks do not approve anatomy.",
+  "metadataConflictsDeferred": {
+    "0758": "Reverse-grip title/description conflicts with overhand grip instruction.",
+    "0759": "Serratus target vs front-shoulder description and undefined incline standing setup.",
+    "0761": "Smith narrow row title conflicts with seated handles machine instructions.",
+    "0762": "Smith row title conflicts with seated chest-pad/handles machine instructions.",
+    "0764": "Underhand description conflicts with overhand instruction and standing setup.",
+    "0765": "Smith bar title conflicts with handles/supports machine instruction; hardware needs clarification."
+  },
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 845696313,
+  "savedMasters": [
+    {
+      "exerciseId": "0740",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0740-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 2006220,
+        "sha256": "6acf95f8766907b40bf04eece0641182003eff4277a581fb642646f8f465c64c"
+      }
+    },
+    {
+      "exerciseId": "0740",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0740-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1755329,
+        "sha256": "dd0a4551ef000e8cf28fdba8549c9d310563b9da16c8860a12dedc03e62a42e7"
+      }
+    },
+    {
+      "exerciseId": "0743",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0743-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1678166,
+        "sha256": "a894e64dc42fd8175b87aa0170a915392af9819f12198022a86a6d5c2dd8d047"
+      }
+    },
+    {
+      "exerciseId": "0743",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0743-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1566807,
+        "sha256": "c069cc2cfc0ad3015296a0ae86700dd5ab0ef60ca3e6d1014a2b0b6b4ce252a0"
+      }
+    }
+  ]
+}

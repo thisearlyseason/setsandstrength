@@ -1,0 +1,60 @@
+{
+  "batch": 413,
+  "runId": "28658522-c9f7-4941-aa18-3221b7b44e7d",
+  "triggerTimestamp": "2026-11-04T20:33:02.854Z",
+  "builtInImageGenAvailable": true,
+  "generatedIds": [
+    "3745",
+    "3746",
+    "3747"
+  ],
+  "coverageAfter": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1466,
+    "remainingVariants": 9798,
+    "approvedVariants": 0,
+    "blockedVariants": 555,
+    "knownPoseImages": 2927,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 1093,
+      "remainingVariants": 4539,
+      "blockedVariants": 436
+    }
+  },
+  "paidWorker": {
+    "statuses": {
+      "generated": 1466,
+      "pending": 9798
+    },
+    "remaining": 9798,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 2220726831
+  },
+  "pipelineTests": "8 passed, 0 failed",
+  "approvedIndexUnchanged": true,
+  "existingUserApprovalsPreserved": 1306,
+  "anatomyReview": "pending",
+  "publication": "none",
+  "blocked": {
+    "3746": [
+      "Pulled-position right elbow cropped at outer image boundary."
+    ],
+    "3747": [
+      "Anatomical quadriceps fibers rendered through shorts instead of flat fabric overlay."
+    ]
+  }
+}

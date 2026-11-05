@@ -1,0 +1,78 @@
+{
+  "batch": 247,
+  "runId": "24236aa4-42cb-451a-98ce-e7fee6beb569",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "trigger": "2026-11-03T20:07:52.637Z",
+  "purpose": "batch247 scheduled male continuation",
+  "started": "2026-11-03T20:08:20.147338+00:00",
+  "completedAt": "2026-11-03T20:16:26.716583+00:00",
+  "actualToolName": "image_gen__imagegen",
+  "calls": 4,
+  "newCandidateSets": 4,
+  "exerciseIds": [
+    "1899",
+    "1900",
+    "1902",
+    "1909"
+  ],
+  "variants": [
+    "male"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 861,
+    "remainingVariants": 10403,
+    "approvedVariants": 0,
+    "blockedVariants": 275,
+    "knownPoseImages": 1673,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 488,
+      "remainingVariants": 5144,
+      "blockedVariants": 156
+    }
+  },
+  "reviewNotes": {
+    "1899": "Side-lunge adductor stretch: wide stance, straight right leg with inner-thigh highlight, bent opposite knee and hands above knee; coherent whole-body orientation. Qualified review needed for knee tracking, heel loading, adductor mapping and intact hem/overlay boundary.",
+    "1900": "Bent-knee adductor stretch: wide stance with one bent and opposite straight leg. BLOCKED: hand rests on front of bent knee rather than gentle inward-thigh contact guiding knee outward. Correct contact and preserve no joint pressure; review adductor overlay on intact shorts.",
+    "1902": "Seated straddle: both knees/toes upward, separate straight legs, palms forward and coherent front-facing torso/pelvis. Opaque shorts and teaching overlays retained. Qualified review needed for hip hinge versus spine flexion, cervical position, sitting-bone support and adductor mapping.",
+    "1909": "Toe-up hamstring stretch: front heel grounded/toes raised, front knee near straight, rear knee soft and torso hinged. Qualified review needed for medial hamstring versus adductor highlight placement, hand pressure near knees, neutral cervical alignment and flat back."
+  },
+  "blockingIssues": {
+    "1900": [
+      "Hand rests on front of bent knee rather than gentle inner-thigh contact guiding outward; correct contact without direct joint force."
+    ]
+  },
+  "tests": 7,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "workerSyncResult": {
+    "statuses": {
+      "generated": 861,
+      "pending": 10403
+    },
+    "remaining": 10403,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 1335135394
+  },
+  "publicationIndexUnchanged": true,
+  "savedMasters": [
+    "assets/exercise-illustrations/generated/1899-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/1900-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/1902-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/1909-male-anatomical-white-v1.png"
+  ]
+}

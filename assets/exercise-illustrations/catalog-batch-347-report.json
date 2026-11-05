@@ -1,0 +1,76 @@
+{
+  "batch": 347,
+  "runId": "8e0d8e40-c49f-4aff-b342-8e46be49c1d3",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "trigger": "2026-11-04T12:05:32.179Z",
+  "purpose": "batch347 scheduled male continuation",
+  "started": "2026-11-04T12:06:00.611066+00:00",
+  "completedAt": "2026-11-04T12:11:44.801529+00:00",
+  "actualToolName": "image_gen__imagegen",
+  "calls": 4,
+  "newCandidateSets": 4,
+  "exerciseIds": [
+    "3336",
+    "3337",
+    "3338",
+    "3340"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1246,
+    "remainingVariants": 10018,
+    "approvedVariants": 0,
+    "blockedVariants": 466,
+    "knownPoseImages": 2443,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 873,
+      "remainingVariants": 4759,
+      "blockedVariants": 347
+    }
+  },
+  "reviewNotes": {
+    "3336": "Flat overhead start and V-up with two-hand dumbbell visible. Clothing is fully red rather than black with localized abdominal highlight; needs style/muscle mapping correction. Qualified balance and neck alignment review pending.",
+    "3337": "Forearm side bridge with stacked legs and dumbbell steadied on top hip, opaque shorts. Oblique fiber-like red anatomy through tank needs plain-wash correction. Qualified elbow-under-shoulder alignment, hips and grip review pending.",
+    "3338": "Contralateral dumbbell single-leg hinge with free hand on hip and rear leg raised, opaque clothes. Non-primary red chest and glute overlays need removal; hamstring mapping inconsistent between panels. Qualified stance/neck/grip review pending.",
+    "3340": "Standing and soft-knee hip hinge with two dumbbells close in front of shins, flat-looking back and opaque clothing/plain posterior shorts wash. Qualified hamstring-versus-glute overlay boundary, neck alignment, grip and knee softness review pending."
+  },
+  "blockingIssues": {
+    "3336": [
+      "Restore opaque black tank/shorts; use only localized plain abdominal red highlight."
+    ],
+    "3337": [
+      "Replace oblique fiber-like red anatomy through tank with plain uniform wash on intact fabric."
+    ],
+    "3338": [
+      "Remove non-primary chest/glute red overlays and consistently highlight supporting hamstring only."
+    ]
+  },
+  "deferred": {},
+  "tests": 7,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "workerSyncResult": {
+    "statuses": {
+      "generated": 1246,
+      "pending": 10018
+    },
+    "remaining": 10018,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 1901314406
+  },
+  "publicationIndexUnchanged": true
+}

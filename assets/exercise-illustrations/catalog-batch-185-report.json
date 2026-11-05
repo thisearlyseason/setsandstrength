@@ -1,0 +1,62 @@
+{
+  "batch": 185,
+  "runId": "a12a6e71-7c47-4669-aa45-c927155ffcf5",
+  "trigger": "2026-11-03T11:09:29.209Z",
+  "completedAt": "2026-11-03T11:13:58.717347+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 2,
+  "generationCalls": 2,
+  "exerciseIds": [
+    "1408"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 684,
+    "remainingVariants": 10580,
+    "approvedVariants": 0,
+    "blockedVariants": 225,
+    "knownPoseImages": 1354,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Two band hip lift candidates, four poses, two built-in calls. Pelvis grounded to bridge with flat feet, head/shoulders on mat, continuous loop above knees, red over covered glutes. Full opaque tank and shorts and exposed grayscale anatomy retained. Band sits on exposed lower thigh rather than shorts requested; canonical location above knee retained. Qualified loop tension, knee alignment, bridge height/lumbar position, head contact, female model consistency and red tint versus fabric folds require human review. Original project artwork style only, no upstream licensed inputs. Exact prompts and originals saved. No anatomy or clothing approval or publication. Seven pipeline checks do not establish anatomical accuracy.",
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 1081657056,
+  "savedMasters": [
+    {
+      "exerciseId": "1408",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1408-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1362131,
+        "sha256": "36922e85450f3f3cd71a27c298dfb99f6295aa4cc21218fe6457f1014e60eaf0"
+      }
+    },
+    {
+      "exerciseId": "1408",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1408-female-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1401673,
+        "sha256": "31f205d464c49a64e6c388006eb051b8bdf57078e40b116bd8f7184b22d7d5f0"
+      }
+    }
+  ]
+}

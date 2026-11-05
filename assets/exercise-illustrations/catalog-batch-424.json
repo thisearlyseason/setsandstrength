@@ -1,0 +1,111 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "3853",
+      "variant": "male",
+      "key": "3853-male-anatomical-white-v1",
+      "prompt": "RESISTANCE BAND STANDING HIP ABDUCTION frontview TWO panels. Continuousclosedloop elasticBAND around BOTHANKLES. Talltorso supportLEFT handonsturdypost ifneeded. First feet hipwidth toesforward bandlighttension. Second standLEFTleg while RIGHTleglifts OUT TORIGHTside withtoesforward kneesstraightsoft torsovertical bandstretched visiblyconnectsankles. Abductors red PLAINfabricwash outerRIGHThip shorts, NO exposedmuscleunderclothes. Use case: scientific-educational. Premium detailed grayscale anatomical adult male illustration white background crisp detailed exposed muscles and realistic joints soft contact shadows. Reference original artwork for STYLE ONLY not movement. Same camera scale model garments all panels. Entire body equipment feet hands inside frame generous margins. Opaque black tank and mid-thigh shorts wrap front sides back seat crotch seams folds hems. Red primary-muscle teaching overlay on garment must be PLAIN FLAT surface color with fabric folds, NEVER show muscle shapes sixpack fibers nipples cutaways or transparent cloth. Exposed target muscles detailed red. No captions text arrows numbers logos. CLOTHING SILHOUETTE must remain complete, plain red patch is printed ON fabric. No reference bench or reference chest highlight unless requested. Same human scale in each panel.",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand with band around ankles."
+        },
+        {
+          "key": "p2",
+          "caption": "Lift leg sideways with toes forward, then return."
+        }
+      ],
+      "inspectionNote": "Real output inspected. Continuous ankle loop and side leg lift shown, but red target overlay is on support-side hip rather than lifting side. Qualified anatomy review pending; no publication.",
+      "blockingIssues": [
+        "Red primary target hip highlight placed on support side instead of abducting leg."
+      ],
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream media used.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only"
+      }
+    },
+    {
+      "exerciseId": "3854",
+      "variant": "male",
+      "key": "3854-male-anatomical-white-v1",
+      "prompt": "FRONT PLANK WALKOUT sideview THREE panels FLOOR ONLY. First standtall feethipwidth. Second hingehipskneessoft handsplacedFLOOR nearfeet. Third walkhandsforward to HIGHPLANK handsundershoulders toesstayoriginalfloorposition bodyheadtoheelsstraight hipslevel. Thenwalkbackstand. No bench. Abs plainred tankmidriff FABRICwash no absegments. Use case: scientific-educational. Premium detailed grayscale anatomical adult male illustration white background crisp detailed exposed muscles and realistic joints soft contact shadows. Reference original artwork for STYLE ONLY not movement. Same camera scale model garments all panels. Entire body equipment feet hands inside frame generous margins. Opaque black tank and mid-thigh shorts wrap front sides back seat crotch seams folds hems. Red primary-muscle teaching overlay on garment must be PLAIN FLAT surface color with fabric folds, NEVER show muscle shapes sixpack fibers nipples cutaways or transparent cloth. Exposed target muscles detailed red. No captions text arrows numbers logos. CLOTHING SILHOUETTE must remain complete, plain red patch is printed ON fabric. No reference bench or reference chest highlight unless requested. Same human scale in each panel.",
+      "layout": {
+        "columns": 3,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand tall."
+        },
+        {
+          "key": "p2",
+          "caption": "Hinge and place hands on floor."
+        },
+        {
+          "key": "p3",
+          "caption": "Walk hands to plank, pause, then walk back and stand."
+        }
+      ],
+      "inspectionNote": "Real output inspected. Standing, hinge and floor plank sequence shown; actual unequal panels registered with explicit boundaries. Qualified anatomy review pending; no publication.",
+      "blockingIssues": [],
+      "cropBounds": [
+        [
+          0,
+          0,
+          0.257,
+          1
+        ],
+        [
+          0.257,
+          0,
+          0.556,
+          1
+        ],
+        [
+          0.556,
+          0,
+          1,
+          1
+        ]
+      ],
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream media used.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only"
+      }
+    },
+    {
+      "exerciseId": "3861",
+      "variant": "male",
+      "key": "3861-male-anatomical-white-v1",
+      "prompt": "STABILITY BALL BODY SAW sideview TWO panels. FOREARMS and elbows on LARGEroundstabilityBALL feettoesfloor legsstraight highhipsNOTsagging bodyheadtoheelsstraight. First elbowsundershoulders. Second slowlyshiftbodyback pushing elbowsforward FEWINCHES onball, ballrollslightlyforward, bodyremainsstraight movementSMALL. Abs plainflatredfabricwash midrifftank nosegments. Use case: scientific-educational. Premium detailed grayscale anatomical adult male illustration white background crisp detailed exposed muscles and realistic joints soft contact shadows. Reference original artwork for STYLE ONLY not movement. Same camera scale model garments all panels. Entire body equipment feet hands inside frame generous margins. Opaque black tank and mid-thigh shorts wrap front sides back seat crotch seams folds hems. Red primary-muscle teaching overlay on garment must be PLAIN FLAT surface color with fabric folds, NEVER show muscle shapes sixpack fibers nipples cutaways or transparent cloth. Exposed target muscles detailed red. No captions text arrows numbers logos. CLOTHING SILHOUETTE must remain complete, plain red patch is printed ON fabric. No reference bench or reference chest highlight unless requested. Same human scale in each panel.",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Form plank with forearms on ball."
+        },
+        {
+          "key": "p2",
+          "caption": "Push elbows forward slightly, then pull back without sagging."
+        }
+      ],
+      "inspectionNote": "Real output inspected. Forearm ball plank with small shoulder shift; qualified reviewer should confirm adequate body-saw displacement and hip alignment. Qualified anatomy review pending; no publication.",
+      "blockingIssues": [],
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream media used.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only"
+      }
+    }
+  ]
+}

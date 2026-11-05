@@ -1,0 +1,90 @@
+{
+  "batch": 149,
+  "trigger": "2026-11-03T06:08:26.939Z",
+  "completedAt": "2026-11-03T06:20:07.437369+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 4,
+  "generationCalls": 4,
+  "exerciseIds": [
+    "0973",
+    "0976"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 604,
+    "remainingVariants": 10660,
+    "approvedVariants": 0,
+    "blockedVariants": 213,
+    "knownPoseImages": 1228,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Four candidates, eight poses, four built-in calls. Band calf raise v2 uses standing choice with heels flat then visibly lifted, forefeet grounded on band, handles at waist and red exposed calves. Concentration curl pairs show seated wide feet, working right elbow braced thigh near knee, palm-up hand low to shoulder and band under same-side shoe; red exposed working biceps. Qualified exact elbow contact especially female knee-front/inner boundary, wrist/grip, forefoot security, ankle rolling/plantarflexion, band routing and proportions remain human-review items. Fine exposed grayscale anatomy and continuous opaque black clothing visually retained. Every original and exact prompt saved; no corrections required at this inspection stage, no clothing/anatomy approval or publication. Project original artwork for rendering style only, no upstream licensed input. Seven pipeline checks do not establish anatomical accuracy.",
+  "metadataConflictsDeferred": {
+    "0969": "Alternating V-up describes crossing legs but band anchoring/resistance undefined.",
+    "0970": "Target lats conflicts with upper-back primary muscleMap.",
+    "0971": "Band-assisted wheel rollout omits band anchor and holding wheel-handle mechanics.",
+    "0972": "Band bicycle crunch instructions omit band position and attachment."
+  },
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 965440154,
+  "savedMasters": [
+    {
+      "exerciseId": "0973",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0973-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1285880,
+        "sha256": "353daca7c03cefc70c0e4cda490f1be3a928b0c07fde16c66542de7db7548ce4"
+      }
+    },
+    {
+      "exerciseId": "0973",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0973-female-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1278859,
+        "sha256": "345fe04e7dcf179e44d0966994e4f3bccd417a5b9f68de99f8892796dec30d1e"
+      }
+    },
+    {
+      "exerciseId": "0976",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0976-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1606888,
+        "sha256": "e784ea60b4a023163ff3a0783fa790dd35ecf4856acc835de4f1eb28bb034c4b"
+      }
+    },
+    {
+      "exerciseId": "0976",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0976-female-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1623724,
+        "sha256": "198d4e70ccdde3fbc0ef3a6ff4653300179a589767aefc3fbbb7fabd3ec4f12c"
+      }
+    }
+  ]
+}

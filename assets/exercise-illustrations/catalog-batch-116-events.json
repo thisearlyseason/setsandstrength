@@ -1,0 +1,12 @@
+{
+  "events": [
+    {
+      "exerciseId": "0708",
+      "variant": "female",
+      "phase": "correction",
+      "error": "image generation failed: network error: error sending request",
+      "action": "Retry once using same built-in tool; no billing/tool switch.",
+      "outcome": "Retry succeeded using built-in image_gen; no usage limit or billing switch."
+    }
+  ]
+}

@@ -98,5 +98,5 @@ export async function supabaseApi(path, opts = {}) {
     return data
   }
   if (path === '/api/activity') return { ok: true }
-  throw fail('This upstream service is not enabled in Workout.', 404)
+  throw fail('This upstream service is not enabled in Sets & Strength.', 404)
 }

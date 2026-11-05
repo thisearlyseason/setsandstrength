@@ -1,0 +1,67 @@
+{
+  "batch": 189,
+  "runId": "33f9b170-1a9c-4d93-bcc3-45d703f67c39",
+  "trigger": "2026-11-03T11:37:29.434Z",
+  "completedAt": "2026-11-03T11:42:26.799274+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 2,
+  "generationCalls": 2,
+  "exerciseIds": [
+    "1436"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 692,
+    "remainingVariants": 10572,
+    "approvedVariants": 0,
+    "blockedVariants": 229,
+    "knownPoseImages": 1370,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Two high-bar barbell squat candidates, four poses, two built-in calls. Both BLOCKED for overcloth radial highlight fibers; male posterior thigh highlighting also needs correction. Standing to near-parallel squat, flat feet, bar high across upper back, opaque clothing and exposed grayscale detail retained. Qualified upper-trap bar placement, wrist grip, knee tracking, depth, bar over midfoot and primary mapping require human review. Original project artwork style only, no upstream licensed input. Exact prompts/originals retained. No anatomy or clothing approval or publication. Seven pipeline checks do not establish anatomical accuracy.",
+  "metadataConflictsDeferred": {
+    "1431": "Chin-up versus overhand pull-up instructions and lats versus upper-back map.",
+    "1432": "Lats versus upper-back map; assisted foot support omitted.",
+    "1434": "Low-bar title versus traps placement and stepping back from fixed Smith bar."
+  },
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 1093090879,
+  "savedMasters": [
+    {
+      "exerciseId": "1436",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1436-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1446081,
+        "sha256": "62a1ebb317772b72916706c93e333c2f45921dacff71a96c86896aa014a25bcd"
+      }
+    },
+    {
+      "exerciseId": "1436",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1436-female-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1410064,
+        "sha256": "43fb88b5c4cfbfa801db9b7d0631c9b1d430c0b4216863085f4de6fd430ff15c"
+      }
+    }
+  ]
+}

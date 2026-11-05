@@ -1,0 +1,55 @@
+{
+  "batch": 380,
+  "runId": "08a398f3-6683-4068-92a6-3e34b8116a57",
+  "builtInImageGenAvailable": true,
+  "anatomyReview": "pending",
+  "publication": "none",
+  "deferred": {
+    "3539": "Spine primary muscle mapping unresolved.",
+    "3540": "Spine primary muscle mapping unresolved.",
+    "3541": "Incline Y-raise sitting/forward-lean setup vs usual chest-supported geometry needs clarification."
+  },
+  "coverageAfter": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1367,
+    "remainingVariants": 9897,
+    "approvedVariants": 0,
+    "blockedVariants": 527,
+    "knownPoseImages": 2710,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 994,
+      "remainingVariants": 4638,
+      "blockedVariants": 408
+    }
+  },
+  "paidWorker": {
+    "statuses": {
+      "generated": 1367,
+      "pending": 9897
+    },
+    "remaining": 9897,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 2078744047
+  },
+  "pipelineTests": "7 passed, 0 failed",
+  "approvedIndexUnchanged": true,
+  "existingUserApprovalsPreserved": 1306,
+  "generatedIds": [
+    "3537",
+    "3538"
+  ]
+}

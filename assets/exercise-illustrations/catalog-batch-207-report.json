@@ -1,0 +1,66 @@
+{
+  "batch": 207,
+  "runId": "059c1e20-47cb-49f0-a266-6857d67c02de",
+  "trigger": "2026-11-03T13:44:30.353Z",
+  "completedAt": "2026-11-03T13:51:57.227111+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 2,
+  "generationCalls": 2,
+  "exerciseIds": [
+    "1558"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 728,
+    "remainingVariants": 10536,
+    "approvedVariants": 0,
+    "blockedVariants": 238,
+    "knownPoseImages": 1432,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Two dumbbell wall squat candidates, four poses, two built-in calls. Near-upright supported start to vertical-torso wall squat near parallel, feet forward and flat, quadriceps red. Full opaque clothes and detailed grayscale exposed anatomy retained. Qualified back/pelvis wall contact, knee-over-ankle alignment, dumbbell-wall clearance especially near hand, far grip and cloth tint require human review. Original project artwork rendering style only, no upstream licensed input. Exact prompts/originals saved. No anatomy or clothing approval or publication. Seven pipeline checks do not establish anatomical accuracy.",
+  "metadataConflictsDeferred": {
+    "1559": "Glute target versus hip-flexor stretch and unsupported kneeling/straight rear leg instructions.",
+    "1560": "Seated forward hamstring description versus supine ball walkout instructions."
+  },
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 1143841706,
+  "savedMasters": [
+    {
+      "exerciseId": "1558",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1558-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1536460,
+        "sha256": "e8b90c293cb66f90c24b03c9e87b5054cfbfe2a7efbbb0e4b94a04fd8d84cd8b"
+      }
+    },
+    {
+      "exerciseId": "1558",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1558-female-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1495771,
+        "sha256": "f6e1f7ec3badf346b1719f6236404edfdfb06fd92354e68a2d280a10ae12abee"
+      }
+    }
+  ]
+}

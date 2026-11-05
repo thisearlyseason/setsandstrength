@@ -1,0 +1,63 @@
+{
+  "batch": 410,
+  "runId": "3c81e6d6-87e7-49bd-b25a-905e32acf9a8",
+  "triggerTimestamp": "2026-11-04T20:13:02.644Z",
+  "builtInImageGenAvailable": true,
+  "generatedIds": [
+    "3724",
+    "3731",
+    "3729"
+  ],
+  "coverageAfter": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1455,
+    "remainingVariants": 9809,
+    "approvedVariants": 0,
+    "blockedVariants": 552,
+    "knownPoseImages": 2905,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 1082,
+      "remainingVariants": 4550,
+      "blockedVariants": 433
+    }
+  },
+  "paidWorker": {
+    "statuses": {
+      "generated": 1455,
+      "pending": 9809
+    },
+    "remaining": 9809,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 2205599784
+  },
+  "pipelineTests": "8 passed, 0 failed",
+  "approvedIndexUnchanged": true,
+  "existingUserApprovalsPreserved": 1306,
+  "anatomyReview": "pending",
+  "publication": "none",
+  "blocked": {
+    "3724": [
+      "Chest highlight includes nipple and pectoral contour through shirt instead of plain fabric wash."
+    ],
+    "3731": [
+      "Red primary-muscle highlight appears on anterior thighs rather than posterior hamstrings."
+    ],
+    "3729": [
+      "Chest highlight again includes nipple and pectoral contour through shirt; repeated clothing-rendering defect."
+    ]
+  }
+}

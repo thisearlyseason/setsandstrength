@@ -1,0 +1,436 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "0817",
+      "variant": "male",
+      "key": "0817-male-anatomical-white-v2",
+      "layout": {
+        "columns": 1,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand or sit upright. Bend one arm overhead and gently guide its elbow toward the head with the opposite hand. Hold 15\u201330 seconds, release, then switch arms."
+        }
+      ],
+      "prompt": "Correct original male STATIC OVERHEAD TRICEPS STRETCH: head NEUTRAL aligned TORSO, show back of skull centered over spine, no face profile/no neck rotation, rear camera. Keep right upper arm alongside ear elbow bent forearm behind head hand on upper back, opposite left hand gently cups RIGHT ELBOW, exactly2arms2hands. Red ONLY right posterior upper-arm triceps exposed, no shoulder/back red. Increase WHITE TOP MARGIN at least8percent above highest hand/elbow, whole body square composition generous margins. Preserve full opaque black shirt/shorts front sides back seat crotch, fine detailed exposed grayscale anatomy, white background no text.",
+      "inspectionNote": "Head neutral rear alignment corrected and overhead margin expanded. Static stretch retains opposite hand cupping elbow and stretched hand upper back, exposed triceps red. Full opaque back/seat clothes and fine grayscale anatomy. Qualified elbow/hand contact, shoulder range and mapping pending.",
+      "canonicalName": "triceps stretch",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "triceps"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0817-male-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "status": "generated",
+        "costUSD": null
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Head neutral rear alignment corrected and overhead margin expanded. Static stretch retains opposite hand cupping elbow and stretched hand upper back, exposed triceps red. Full opaque back/seat clothes and fine grayscale anatomy. Qualified elbow/hand contact, shoulder range and mapping pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0817-male-anatomical-white-v2-p1-26c5951b7917.webp",
+          "width": 1200,
+          "height": 1200,
+          "bytes": 30714,
+          "sha256": "26c5951b79176b80a2285aa545abc1edc31d18692a9d9f4693c8c24b12b19ccd"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0817-male-anatomical-white-v2-thumb-0188e1095e04.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2186,
+        "sha256": "0188e1095e0401e695b9c8746e8e720b5b29672f34c43672bf6942330e2fa6db"
+      },
+      "processingSignature": "b57b72409211299888eb8bae5824038f8264ac0252e9661612a734dd605ac24d",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0817-male-anatomical-white-v2.png",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 1258603,
+        "sha256": "0c88aa303959b0197b544f4eb64fcc67bf5bae7a242fb57c153f18d0ce4ff695"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0817",
+          "variant": "male",
+          "key": "0817-male-anatomical-white-v1",
+          "layout": {
+            "columns": 1,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Stand or sit upright. Bend one arm overhead and gently guide its elbow toward the head with the opposite hand. Hold 15\u201330 seconds, release, then switch arms."
+            }
+          ],
+          "prompt": "Original premium ADULT male detailed exercise anatomy. ONE STATIC OVERHEAD TRICEPS STRETCH pose SQUARE canvas. Stand upright feet shoulder-width full soles flat floor, neutral torso/head no backbend. REAR three-quarter camera clearly shows stretched posterior upper arm and BOTH hands. RIGHT arm overhead with upper arm alongside ear, elbow BENT so right forearm folds behind head and right hand rests gently upper back between shoulder blades. LEFT arm reaches overhead and LEFT HAND gently cups RIGHT ELBOW, guides it toward head no forceful pull, do not grab wrist or neck. Exactly two arms/two hands, shoulder anatomically plausible, no dislocated elbow. Red only stretched RIGHT posterior upper-arm TRICEPS exposed muscle, other arm/shoulder/back grayscale. Fine detailed EXPOSED grayscale muscle contours arms/calves, realistic proportions, equal male/female detail. Original project artwork reference ONLY rendering STYLE, not push-up pose/bench layout/chest red. Fully opaque BLACK athletic shirt and MID-THIGH shorts continuously wrap FRONT SIDES BACK SEAT CROTCH with seams and BROAD cloth folds. No anatomy through fabric/cutaway/transparency. Black shoes. White background soft grounded shadows. Entire limbs/head and benches inside EACH cell generous margins no overlap across center. No text captions labels arrows.",
+          "inspectionNote": "Overhead triceps hold with opposite hand on elbow and stretched hand upper back, triceps red, full opaque back/seat clothes and detailed exposed anatomy. Head turned and raised elbow near top edge; correct neutral cervical alignment and margins. Qualified hand/elbow contact and muscle mapping pending.",
+          "canonicalName": "triceps stretch",
+          "styleVersion": "white-v1",
+          "equipment": "body weight",
+          "primaryMuscles": [
+            "triceps"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Overhead triceps hold with opposite hand on elbow and stretched hand upper back, triceps red, full opaque back/seat clothes and detailed exposed anatomy. Head turned and raised elbow near top edge; correct neutral cervical alignment and margins. Qualified hand/elbow contact and muscle mapping pending.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0817-male-anatomical-white-v1-p1-f6f3d95021ba.webp",
+              "width": 1200,
+              "height": 1200,
+              "bytes": 34678,
+              "sha256": "f6f3d95021ba6dc302d6cc0c71aafa2acdb41b53ae3124a5258649c2a5adb568"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0817-male-anatomical-white-v1-thumb-f80c40646455.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 2476,
+            "sha256": "f80c4064645564f6181e85e97e7f7ea23eeda49925db612f088ae1e1b9a6795a"
+          },
+          "processingSignature": "d145611b0013b7381bbaa1265c9e2fb335a1400ada8a2f07f194c97a14d41771",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0817-male-anatomical-white-v1.png",
+            "width": 1254,
+            "height": 1254,
+            "bytes": 1302916,
+            "sha256": "b9069398959d14b7c5934d6339695fe983532aa6a65e34e8a7de4aa42fa5aef9"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "0817",
+      "variant": "female",
+      "key": "0817-female-anatomical-white-v2",
+      "layout": {
+        "columns": 1,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand or sit upright. Bend one arm overhead and gently guide its elbow toward the head with the opposite hand. Hold 15\u201330 seconds, release, then switch arms."
+        }
+      ],
+      "prompt": "Correct original female STATIC OVERHEAD TRICEPS STRETCH: head NEUTRAL aligned TORSO, show back of skull centered over spine, no face profile/no neck rotation, rear camera. Keep right upper arm alongside ear elbow bent forearm behind head hand on upper back, opposite left hand gently cups RIGHT ELBOW, exactly2arms2hands. Red ONLY right posterior upper-arm triceps exposed, no shoulder/back red. Increase WHITE TOP MARGIN at least8percent above highest hand/elbow, whole body square composition generous margins. Preserve full opaque black shirt/shorts front sides back seat crotch, fine detailed exposed grayscale anatomy, white background no text.",
+      "inspectionNote": "Neutral rear head alignment and overhead margin corrected. Static overhead elbow-guided triceps hold retained, right hand upper back, red posterior arm, fine exposed anatomy and full opaque back/seat clothes. Qualified hand/elbow contact, shoulder range and mapping pending.",
+      "canonicalName": "triceps stretch",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "triceps"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0817-female-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "status": "generated",
+        "costUSD": null
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Neutral rear head alignment and overhead margin corrected. Static overhead elbow-guided triceps hold retained, right hand upper back, red posterior arm, fine exposed anatomy and full opaque back/seat clothes. Qualified hand/elbow contact, shoulder range and mapping pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0817-female-anatomical-white-v2-p1-ea98e2508ae1.webp",
+          "width": 1200,
+          "height": 1200,
+          "bytes": 33322,
+          "sha256": "ea98e2508ae106c2466812d3c09ac3583b02086a3c2434757c1d5a36383155e2"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0817-female-anatomical-white-v2-thumb-ebf255d7cf4f.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2130,
+        "sha256": "ebf255d7cf4f2ac8e0e10a6e27126820c3a49deae1c09e7933ae319875950aa2"
+      },
+      "processingSignature": "b0d993c28a8463791ff0d166436b04b60b24da09c7bd78c324f8d4fbb8f8f85d",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0817-female-anatomical-white-v2.png",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 1273766,
+        "sha256": "6b187ba4c0da54e63cb660d8c6c57bc28244e85c4b36183c89d80da57111ee07"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0817",
+          "variant": "female",
+          "key": "0817-female-anatomical-white-v1",
+          "layout": {
+            "columns": 1,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Stand or sit upright. Bend one arm overhead and gently guide its elbow toward the head with the opposite hand. Hold 15\u201330 seconds, release, then switch arms."
+            }
+          ],
+          "prompt": "Original premium ADULT female detailed exercise anatomy. ONE STATIC OVERHEAD TRICEPS STRETCH pose SQUARE canvas. Stand upright feet shoulder-width full soles flat floor, neutral torso/head no backbend. REAR three-quarter camera clearly shows stretched posterior upper arm and BOTH hands. RIGHT arm overhead with upper arm alongside ear, elbow BENT so right forearm folds behind head and right hand rests gently upper back between shoulder blades. LEFT arm reaches overhead and LEFT HAND gently cups RIGHT ELBOW, guides it toward head no forceful pull, do not grab wrist or neck. Exactly two arms/two hands, shoulder anatomically plausible, no dislocated elbow. Red only stretched RIGHT posterior upper-arm TRICEPS exposed muscle, other arm/shoulder/back grayscale. Fine detailed EXPOSED grayscale muscle contours arms/calves, realistic proportions, equal male/female detail. Original project artwork reference ONLY rendering STYLE, not push-up pose/bench layout/chest red. Fully opaque BLACK athletic shirt and MID-THIGH shorts continuously wrap FRONT SIDES BACK SEAT CROTCH with seams and BROAD cloth folds. No anatomy through fabric/cutaway/transparency. Black shoes. White background soft grounded shadows. Entire limbs/head and benches inside EACH cell generous margins no overlap across center. No text captions labels arrows.",
+          "inspectionNote": "Overhead triceps hold, opposite hand on elbow, stretched hand upper back and triceps red. Head turned and overhead margin tight, correction required. Full opaque shirt/shorts and fine exposed anatomy; qualified elbow/hand contact, shoulder range and localization pending.",
+          "canonicalName": "triceps stretch",
+          "styleVersion": "white-v1",
+          "equipment": "body weight",
+          "primaryMuscles": [
+            "triceps"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Overhead triceps hold, opposite hand on elbow, stretched hand upper back and triceps red. Head turned and overhead margin tight, correction required. Full opaque shirt/shorts and fine exposed anatomy; qualified elbow/hand contact, shoulder range and localization pending.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0817-female-anatomical-white-v1-p1-773ff8974916.webp",
+              "width": 1200,
+              "height": 1200,
+              "bytes": 39604,
+              "sha256": "773ff8974916456308c50e8e53ac860f7ca33aefbf648227957527ca5477c8e3"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0817-female-anatomical-white-v1-thumb-cca48a14a28a.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 2600,
+            "sha256": "cca48a14a28a34ee05a570beb83f037c5b39926aeb770627469842c110e4bb2d"
+          },
+          "processingSignature": "df892ce91dfe152cdb691e93a1f424807f5f816e4d09de49f3c4acc9a9b575a9",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0817-female-anatomical-white-v1.png",
+            "width": 1254,
+            "height": 1254,
+            "bytes": 1328191,
+            "sha256": "6d4fdf04b37c8564b083faaf8ba24a25454093654636d0c5232379a1bc2271a5"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "0813",
+      "variant": "male",
+      "key": "0813-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Support the hands on the edge of one bench with fingers forward and heels on another bench. Slide the hips clear and extend the arms."
+        },
+        {
+          "key": "p2",
+          "caption": "Bend the elbows to lower the hips while keeping the back close to the hand bench, then press back up."
+        }
+      ],
+      "prompt": "Original premium ADULT male detailed exercise anatomy. TWO equal SQUARE cells side by side WIDE LANDSCAPE, same model scale and limb lengths. TRICEPS DIP BETWEEN TWO BENCHES. Model faces IMAGE RIGHT side-front three-quarter camera. TWO sturdy equal-height gray benches: hand bench BEHIND IMAGE LEFT and heel bench IN FRONT IMAGE RIGHT, gap between them. BOTH hands shoulder-width at FRONT EDGE of rear bench, fingers point FORWARD toward feet, palms support top edge, closed edge contact. BOTH HEELS on TOP of front bench, legs EXTENDED nearly straight, knees soft. Same hand/heel positions benches FIXED both phases. HIPS/BUTTOCKS ENTIRELY OFF rear bench suspended in GAP, back close to rear edge, not seated. LEFT top arms nearly straight hips about rear bench height. RIGHT lower hips VERTICALLY by bending elbows to90degrees, back close bench, shoulders not excessively below elbows, heels still on other bench and knees remain extended. No third bench/floor feet/weights. Red primary EXPOSED posterior upper-arm TRICEPS ONLY, biceps/shoulders/chest grayscale. Fine detailed EXPOSED grayscale muscle contours arms/calves, realistic proportions, equal male/female detail. Original project artwork reference ONLY rendering STYLE, not push-up pose/bench layout/chest red. Fully opaque BLACK athletic shirt and MID-THIGH shorts continuously wrap FRONT SIDES BACK SEAT CROTCH with seams and BROAD cloth folds. No anatomy through fabric/cutaway/transparency. Black shoes. White background soft grounded shadows. Entire limbs/head and benches inside EACH cell generous margins no overlap across center. No text captions labels arrows.",
+      "inspectionNote": "Between-bench dip shows hands on rear edge, heels on front bench and extended legs, hips suspended top then lowered with bent elbows. Exposed triceps red, detailed grayscale anatomy and full opaque clothes. Qualified hand support, shoulder depth, elbow track, heel contact and proportions pending.",
+      "canonicalName": "triceps dip (between benches)",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "triceps"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Between-bench dip shows hands on rear edge, heels on front bench and extended legs, hips suspended top then lowered with bent elbows. Exposed triceps red, detailed grayscale anatomy and full opaque clothes. Qualified hand support, shoulder depth, elbow track, heel contact and proportions pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0813-male-anatomical-white-v1-p1-e595cd32f2dd.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 36608,
+          "sha256": "e595cd32f2dd44d22ffa4adbda05b17db24267efd7eed4facea10a891e10161a"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0813-male-anatomical-white-v1-p2-ab90a1cb65b6.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 36456,
+          "sha256": "ab90a1cb65b63e02dd63960a99a8dcc6e5feccace1e08a75a9f23c80482e162d"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0813-male-anatomical-white-v1-thumb-2178d6c68d09.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 3842,
+        "sha256": "2178d6c68d090a4e052436c3323ab8dca5f6de23437cf6701be63f9fd7fbdec7"
+      },
+      "processingSignature": "6c1a93fce3377cccf29993ce007aa9c5761961713a39ef0bf3f55231bc44a866",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0813-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1491305,
+        "sha256": "359db318f6195b004fca56793fea87e1207e189bf5d7a1678f50ae673014da77"
+      }
+    },
+    {
+      "exerciseId": "0813",
+      "variant": "female",
+      "key": "0813-female-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Support the hands on the edge of one bench with fingers forward and heels on another bench. Slide the hips clear and extend the arms."
+        },
+        {
+          "key": "p2",
+          "caption": "Bend the elbows to lower the hips while keeping the back close to the hand bench, then press back up."
+        }
+      ],
+      "prompt": "Original premium ADULT female detailed exercise anatomy. TWO equal SQUARE cells side by side WIDE LANDSCAPE, same model scale and limb lengths. TRICEPS DIP BETWEEN TWO BENCHES. Model faces IMAGE RIGHT side-front three-quarter camera. TWO sturdy equal-height gray benches: hand bench BEHIND IMAGE LEFT and heel bench IN FRONT IMAGE RIGHT, gap between them. BOTH hands shoulder-width at FRONT EDGE of rear bench, fingers point FORWARD toward feet, palms support top edge, closed edge contact. BOTH HEELS on TOP of front bench, legs EXTENDED nearly straight, knees soft. Same hand/heel positions benches FIXED both phases. HIPS/BUTTOCKS ENTIRELY OFF rear bench suspended in GAP, back close to rear edge, not seated. LEFT top arms nearly straight hips about rear bench height. RIGHT lower hips VERTICALLY by bending elbows to90degrees, back close bench, shoulders not excessively below elbows, heels still on other bench and knees remain extended. No third bench/floor feet/weights. Red primary EXPOSED posterior upper-arm TRICEPS ONLY, biceps/shoulders/chest grayscale. Fine detailed EXPOSED grayscale muscle contours arms/calves, realistic proportions, equal male/female detail. Original project artwork reference ONLY rendering STYLE, not push-up pose/bench layout/chest red. Fully opaque BLACK athletic shirt and MID-THIGH shorts continuously wrap FRONT SIDES BACK SEAT CROTCH with seams and BROAD cloth folds. No anatomy through fabric/cutaway/transparency. Black shoes. White background soft grounded shadows. Entire limbs/head and benches inside EACH cell generous margins no overlap across center. No text captions labels arrows.",
+      "inspectionNote": "Between-bench dip with heels on front bench, extended legs, hands rear edge and bent-elbow lowered phase. Top hips very close to rear edge so qualified off-bench clearance review needed. Exposed triceps red, fine grayscale anatomy and full opaque clothes. Qualified shoulder depth, wrist support, heel contact and proportions pending.",
+      "canonicalName": "triceps dip (between benches)",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "triceps"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Between-bench dip with heels on front bench, extended legs, hands rear edge and bent-elbow lowered phase. Top hips very close to rear edge so qualified off-bench clearance review needed. Exposed triceps red, fine grayscale anatomy and full opaque clothes. Qualified shoulder depth, wrist support, heel contact and proportions pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0813-female-anatomical-white-v1-p1-f29d93d20f01.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 40342,
+          "sha256": "f29d93d20f01e7168bc3cb891a7a20fab96a69f9e5a57c3e73f1a77d61004c33"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0813-female-anatomical-white-v1-p2-8ff3da7a74d8.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 37858,
+          "sha256": "8ff3da7a74d8fa0bc284f3682f09872c8d25e2927bb5e27cb759bc2ea8651992"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0813-female-anatomical-white-v1-thumb-8d688270b7d0.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 4312,
+        "sha256": "8d688270b7d01de469c6e1df5aaa24ee631be870f9be4258564745231d6a8994"
+      },
+      "processingSignature": "093c07f66e3156488d0e7f2f5e1394a2c39028398566242cbd1fb4a806c13862",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0813-female-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1495919,
+        "sha256": "f17e9b9cd110b9e03f9e84e494997864fa10c7bc1c26c4662b963d25a006e5f3"
+      }
+    }
+  ]
+}

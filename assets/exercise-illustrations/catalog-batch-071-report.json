@@ -1,0 +1,97 @@
+{
+  "batch": 71,
+  "trigger": "2026-11-01T14:29:46.868Z",
+  "completedAt": "2026-11-01T14:40:49.452117+00:00",
+  "tool": "image_gen.imagegen",
+  "newCandidateSets": 4,
+  "generationCalls": 4,
+  "exerciseIds": [
+    "0449",
+    "0455"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 286,
+    "remainingVariants": 10978,
+    "approvedVariants": 0,
+    "blockedVariants": 122,
+    "knownPoseImages": 582,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "All pending and unpublished. Incline EZ extensions inspected for bar geometry, elbow flexion and opaque clothes; qualified45degree bench, behind-head clearance, grip and fixed upper-arm review required. Finger curls use deliberate hand-detail compositions, not accidentally clipped full-body media; both blocked for ambiguous bar-to-fingertip contact/roll and secure hooked-finger support despite five visible digits. Pipeline pass is not movement/anatomy correctness.",
+  "metadataConflictsDeferred": [
+    {
+      "exerciseId": "0443",
+      "issue": "Standing-or-floor description versus floor-only instructions and ambiguous return-leg extension; defer detailed phase planning."
+    },
+    {
+      "exerciseId": "0448",
+      "issue": "Palms-facing-each-other instruction on EZ shaft requires grip specification before generation."
+    },
+    {
+      "exerciseId": "0450",
+      "issue": "JM hybrid description versus generic chest-lowering bench-press instructions; defer endpoint."
+    }
+  ],
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 463196500,
+  "savedMasters": [
+    {
+      "exerciseId": "0449",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0449-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1674613,
+        "sha256": "a5b764a9ae510e81ffc0a655400589cb06e66d843e3c3710e903110a459eb4cc"
+      }
+    },
+    {
+      "exerciseId": "0449",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0449-female-anatomical-white-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1680221,
+        "sha256": "982c6c981f31ae3d702c03daa6a1483e963d014be32167a83cce639540e61e14"
+      }
+    },
+    {
+      "exerciseId": "0455",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0455-male-anatomical-white-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 2197351,
+        "sha256": "e093950099a6e91975977d0c34a8aea86e4bc1b2d4eb8c9263829b0e0291baa6"
+      }
+    },
+    {
+      "exerciseId": "0455",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0455-female-anatomical-white-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 2206366,
+        "sha256": "0690950d93d70da8ce3827837276028c6785d70c6edfe27677c4e5d4bfd46cdb"
+      }
+    }
+  ]
+}

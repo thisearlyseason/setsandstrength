@@ -1,0 +1,58 @@
+{
+  "batch": 391,
+  "runId": "914bc926-7ce0-4b72-9bfd-bb6092642cab",
+  "triggerTimestamp": "2026-11-04T18:21:01.995Z",
+  "builtInImageGenAvailable": true,
+  "anatomyReview": "pending",
+  "publication": "none",
+  "generatedIds": [
+    "3583"
+  ],
+  "failure": "Single-leg bridge holds head lifted off mat in both poses rather than supported neutral position. Retained and blocked; generation stopped.",
+  "deferred": {
+    "3584": "Arm and leg swing plane requires clarification.",
+    "3585": "Prompt saved; not generated after technique failure.",
+    "3586": "Not attempted this run.",
+    "3587": "Prompt saved; not generated after technique failure.",
+    "3588": "Prompt saved; not generated after technique failure."
+  },
+  "coverageAfter": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1391,
+    "remainingVariants": 9873,
+    "approvedVariants": 0,
+    "blockedVariants": 535,
+    "knownPoseImages": 2764,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 1018,
+      "remainingVariants": 4614,
+      "blockedVariants": 416
+    }
+  },
+  "paidWorker": {
+    "statuses": {
+      "generated": 1391,
+      "pending": 9873
+    },
+    "remaining": 9873,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 2112856020
+  },
+  "pipelineTests": "7 passed, 0 failed",
+  "approvedIndexUnchanged": true,
+  "existingUserApprovalsPreserved": 1306
+}

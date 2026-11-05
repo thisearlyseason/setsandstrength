@@ -1,0 +1,80 @@
+{
+  "batch": 332,
+  "runId": "c2b2a3ff-8e9c-4e0d-b8dd-a86a79b7819b",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "trigger": "2026-11-04T09:40:30.208Z",
+  "purpose": "batch332 scheduled male continuation",
+  "started": "2026-11-04T09:41:00.905645+00:00",
+  "completedAt": "2026-11-04T09:50:28.680811+00:00",
+  "actualToolName": "image_gen__imagegen",
+  "calls": 4,
+  "newCandidateSets": 4,
+  "exerciseIds": [
+    "3201",
+    "3202",
+    "3203",
+    "3204"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1192,
+    "remainingVariants": 10072,
+    "approvedVariants": 0,
+    "blockedVariants": 436,
+    "knownPoseImages": 2328,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 819,
+      "remainingVariants": 4813,
+      "blockedVariants": 317
+    }
+  },
+  "reviewNotes": {
+    "3201": "Two partial sit-up phases with feet planted and opaque tank/plain abdominal wash. Initial head/shoulders remain elevated rather than flat floor; block start-pose correction. Qualified neck support and specified torso range review pending.",
+    "3202": "Half sit-up phases with stable planted feet and opaque clothing/plain abdomen tint. Initial head/shoulders already raised; block initial floor-rest correction. Qualified neck/torso control review pending.",
+    "3203": "Prisoner half sit-up shows hands behind head, elbows wide, planted feet and abdomen tint on intact tank. Start remains partly curled with head/shoulders above floor; block initial floor-rest correction. Qualified torso range/neck support review pending.",
+    "3204": "Supine arms-overhead start and upright full sit-up finish with straight overhead arms, planted feet and opaque tank/plain abdomen wash. Qualified review of head-floor contact, shoulder mobility, lumbar control and hand anatomy pending."
+  },
+  "blockingIssues": {
+    "3201": [
+      "Rest head/shoulders on floor in initial pose, rather than already curling."
+    ],
+    "3202": [
+      "Initial head and shoulders must rest on floor before curling."
+    ],
+    "3203": [
+      "Show head/shoulders resting on floor in initial pose."
+    ]
+  },
+  "deferred": {
+    "3196/3197/3198/3199": "Cardiovascular primary has no anatomical primary-muscle mapping; clarify highlight policy.",
+    "3200": "Bent-over row name versus seat setup and overhand v-bar grip instructions ambiguous.",
+    "3211": "Kneeling push-up name conflicts with head-to-heels/toe-supported instructions."
+  },
+  "tests": 7,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "workerSyncResult": {
+    "statuses": {
+      "generated": 1192,
+      "pending": 10072
+    },
+    "remaining": 10072,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 1823129803
+  },
+  "publicationIndexUnchanged": true
+}

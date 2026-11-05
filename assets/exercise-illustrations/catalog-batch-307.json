@@ -1,0 +1,323 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "2831",
+      "variant": "male",
+      "key": "2831-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Place feet on a bench and palms on the floor, hips high in an inverted V."
+        },
+        {
+          "key": "p2",
+          "caption": "Bend elbows about 45 degrees from torso to lower head near floor, then press up."
+        }
+      ],
+      "prompt": "BENCH FEET ELEVATED PIKE PUSHUP TWOequalpanels SAME SIDEthreequartercamera headLEFTfeetRIGHT. BOTHFOREFOOT onSTURDYLOWBENCH atRIGHT, BOTHPALMSflatFLOOR atLEFT shoulderwidth fingersforward. HIPS HIGH abovehead invertedV, legsSTRAIGHT tilteddownrighttobench, spine/headneutral gaze towardfeetfloor. LEFTSTART elbowsSTRAIGHT armsnearvertical shouldersabovehands. RIGHTEND bendBOTHelbowsabout90 pointing45degrees fromtorso HEADlowersNEARFLOOR slightlyaheadhands withoutcontact, hipsSTAYHIGH invertedV legsstraight feetSAMEbenchcontact. Noflatplank noheadweightbearing. Primary BOTHDELTOIDS onlyred exposedshouldercaps bothposes allotherregionsgrayblack. Premium detailed adult MALE grayscale anatomical illustration. Approved original project reference STYLE ONLY ignore its pose/highlights. Pure white background soft shadows crisp detailed exposed gray muscle contours realistic proportions equipment. Opaque BLACK tank and black mid-thigh shorts fully wrap front sides back seat crotch normal fabric seams folds hems black shoes. No anatomy through fabric no cutaways. Covered primary highlight SMALL PLAIN UNIFORM soft red COLOR WASH on intact fabric no fibers lobes striations. Only specified primary red all other regions gray/black. Equal cells same person camera equipment whole body in frame generous margins. Exactly two arms hands five fingers two legs feet. No text captions labels arrows logos.",
+      "inspectionNote": "Real output inspected. Feet on bench, palms floor, hips high and legs straight; elbows bend as head lowers near floor without contact. Shoulder highlights and full opaque clothing. Qualified review needed for neutral neck versus forward gaze, shoulder-over-hand position, elbow angle near 45 degrees and load distribution. Human anatomy review pending. No approval or publication.",
+      "canonicalName": "pike push up (on bench)",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "delts"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Feet on bench, palms floor, hips high and legs straight; elbows bend as head lowers near floor without contact. Shoulder highlights and full opaque clothing. Qualified review needed for neutral neck versus forward gaze, shoulder-over-hand position, elbow angle near 45 degrees and load distribution. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2831-male-anatomical-white-v1-p1-6ad2ca6d5bd1.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 33298,
+          "sha256": "6ad2ca6d5bd1e5ab1eabc562bd8f560ef3a2f15e19370ba9b97180e1606e0ea1"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/2831-male-anatomical-white-v1-p2-b562c2fd188b.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 32884,
+          "sha256": "b562c2fd188b0abe3a8412e74b100b1d4c1d7f50926ffdbf0d038c24db250284"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-307.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2831-male-anatomical-white-v1-thumb-81f019333f09.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 3456,
+        "sha256": "81f019333f0967602da0fac6c83165d1b679b2f9a81778c3fb25d4a3ea1a7516"
+      },
+      "processingSignature": "be8d4c1c421aac8851d99299f0041df765e52a8b41d6da895a413c6d3facb389",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2831-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1455767,
+        "sha256": "fe796b3716e85548e70bd782f0f114c8f73c98bab81d2b110f23fc0675e1dde6"
+      }
+    },
+    {
+      "exerciseId": "2835",
+      "variant": "male",
+      "key": "2835-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Sit on a chair holding the cable handle at chest, feet close together."
+        },
+        {
+          "key": "p2",
+          "caption": "Lean slightly forward and stand through your heels, then sit under control."
+        }
+      ],
+      "prompt": "CABLE NARROW CHAIR STAND UP TWOequalpanels SAME SIDEfrontthreequartercamera. Real cableLOWPULLEY inFRONTleft ofmodel, cableTAUT toTWOHANDCLOSEHANDLE heldATCHEST BOTHposes. StableCHAIRbehindRIGHT model. FEETclosetogether hipwidthorless plantedSAMEfloorpositions bothposes. LEFTSTART SITchair hipsknees90feetflat torsoslightforwardneutralback handlechest elbowsbent. RIGHTEND STANDTALL inFRONTOFsamechair kneeshipsextend feetSAMEpositions handleSTILLchest cabletautdiagonalDOWNtofrontpulley, noarmrow. Primary BOTHQUADS onlyred exposedanteriorthighaboveknees plusPLAINUNIFORMwash onintactfrontshorts nofibers allotherregionsgrayblack. Premium detailed adult MALE grayscale anatomical illustration. Approved original project reference STYLE ONLY ignore its pose/highlights. Pure white background soft shadows crisp detailed exposed gray muscle contours realistic proportions equipment. Opaque BLACK tank and black mid-thigh shorts fully wrap front sides back seat crotch normal fabric seams folds hems black shoes. No anatomy through fabric no cutaways. Covered primary highlight SMALL PLAIN UNIFORM soft red COLOR WASH on intact fabric no fibers lobes striations. Only specified primary red all other regions gray/black. Equal cells same person camera equipment whole body in frame generous margins. Exactly two arms hands five fingers two legs feet. No text captions labels arrows logos.",
+      "inspectionNote": "Real output inspected. Close feet planted, seated-to-standing with handle at chest and cable taut to low pulley, chair retained behind. Quad highlights contain radiating muscle-like lines over shorts; block overlay correction. Qualified review of weight-stack engagement, slight forward lean and controlled sit-to-stand needed. Human anatomy review pending. No approval or publication.",
+      "blockingIssues": [
+        "Remove radiating anatomical lines over shorts; use plain uniform quad color wash over opaque fabric."
+      ],
+      "canonicalName": "cable narrow chair stand up",
+      "styleVersion": "white-v1",
+      "equipment": "cable",
+      "primaryMuscles": [
+        "quads"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Close feet planted, seated-to-standing with handle at chest and cable taut to low pulley, chair retained behind. Quad highlights contain radiating muscle-like lines over shorts; block overlay correction. Qualified review of weight-stack engagement, slight forward lean and controlled sit-to-stand needed. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2835-male-anatomical-white-v1-p1-62ca032ab6e5.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 43238,
+          "sha256": "62ca032ab6e5745ca130a6d08ab0a580ca22aeeaa92d73d16503fd63eb5e7d48"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/2835-male-anatomical-white-v1-p2-9bf1f2ea5c93.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 45016,
+          "sha256": "9bf1f2ea5c9368092b1112e9a6ecb347ac125d2dd54f177ba3d75ef8fbc9240f"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-307.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2835-male-anatomical-white-v1-thumb-7d0ed39e613c.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 4682,
+        "sha256": "7d0ed39e613c2847915bc624d7ea408dfc7f4fc5cf22bf140abad34f58a6190a"
+      },
+      "processingSignature": "ad58cab3c5790dfd8da32913af88298f87e4763555cb50b42df12dc5215d4c6e",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2835-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1776883,
+        "sha256": "bf67981dc966ef6bd62e8d72e3c0e4789fb9b10b4445276b99f16d485138ba10"
+      }
+    },
+    {
+      "exerciseId": "2836",
+      "variant": "male",
+      "key": "2836-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand on the step facing a low cable, holding its handle with knees nearly straight."
+        },
+        {
+          "key": "p2",
+          "caption": "Hinge with a flat back and lower the handle; stand by extending hips."
+        }
+      ],
+      "prompt": "CABLE STIFF LEG DEADLIFT ON STEPBOX TWOequalpanels SAME SIDErear threequartercamera. StandonSTURDYLOWSTEPBOX BOTHFEET flatHIPwidth, facingLOWCABLEPULLEY INFRONTbelowboxlevel. BOTHHANDSholdstraightshortcablehandleOVERHAND armsstraight SAMEgrip. LEFTSTART standingtallkneesnearlystraightunlocked handlebyfrontthigh cabletauttofrontlowpulley. RIGHTEND HINGEHIPSback neutralflatback torsoforward45to60degrees, kneesremainNEARLYSTRAIGHTslightbend notsquat, armsHANGstraightDOWNhandlelowinFRONTOFshins belowknees, tautcableoutsidebox nointersectionbody. FeetSAMEboxcontact neutralneck inline. Primary BOTHHAMSTRINGS onlyred exposedposteriorlowerthighbelowshorts andplainwash intactrearshorts nofibers allotherregionsgrayblack. Premium detailed adult MALE grayscale anatomical illustration. Approved original project reference STYLE ONLY ignore its pose/highlights. Pure white background soft shadows crisp detailed exposed gray muscle contours realistic proportions equipment. Opaque BLACK tank and black mid-thigh shorts fully wrap front sides back seat crotch normal fabric seams folds hems black shoes. No anatomy through fabric no cutaways. Covered primary highlight SMALL PLAIN UNIFORM soft red COLOR WASH on intact fabric no fibers lobes striations. Only specified primary red all other regions gray/black. Equal cells same person camera equipment whole body in frame generous margins. Exactly two arms hands five fingers two legs feet. No text captions labels arrows logos.",
+      "inspectionNote": "Real output inspected. Both feet remain on step, nearly straight knees and hip hinge lower handle toward shins; taut low cable, posterior thigh red and opaque clothing. Qualified review needed for weight stack travel under resistance, neutral neck versus forward gaze, knee softness, cable clearance and hamstring mapping. Human anatomy review pending. No approval or publication.",
+      "canonicalName": "cable stiff leg deadlift from stepbox",
+      "styleVersion": "white-v1",
+      "equipment": "cable",
+      "primaryMuscles": [
+        "hamstrings"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Both feet remain on step, nearly straight knees and hip hinge lower handle toward shins; taut low cable, posterior thigh red and opaque clothing. Qualified review needed for weight stack travel under resistance, neutral neck versus forward gaze, knee softness, cable clearance and hamstring mapping. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2836-male-anatomical-white-v1-p1-0b8f55cc5302.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 32240,
+          "sha256": "0b8f55cc5302fb996e03f88cda56147b17a6fb516067615b2e0548094ef75888"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/2836-male-anatomical-white-v1-p2-9ee0027cbf9b.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 35514,
+          "sha256": "9ee0027cbf9be08a3c40d5648ec7ebfcbdbae28e347055153990b79cabd5e190"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-307.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2836-male-anatomical-white-v1-thumb-d4dd51a2b6c3.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 3492,
+        "sha256": "d4dd51a2b6c3c47f30ddb07144a15268cba35142f45196a6d95988d6ac71e1eb"
+      },
+      "processingSignature": "affcd26e6b8dc9b16f6dfec16d0ae0219b16330dc4675fcaba4caad5b5c3b1c1",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2836-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1421568,
+        "sha256": "01cb18a42885f928f1d8e62217bbeb6c9591819c9a4f3f9fa5e46222d0ad7b51"
+      }
+    },
+    {
+      "exerciseId": "2844",
+      "variant": "male",
+      "key": "2844-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Lie face down with arms extended and neck long."
+        },
+        {
+          "key": "p2",
+          "caption": "Lift arms, chest and legs slightly while keeping neck aligned; lower slowly."
+        }
+      ],
+      "prompt": "FLOOR HYPEREXTENSION SUPERMAN v2 TWOequalpanels SAME SIDEthreequartercamera headLEFTfeetRIGHT. PRONEfaceDOWN bodyfloor armsSTRAIGHTOVERHEAD extendedleft palmsdown, legsSTRAIGHTextendedright feetseparatedhipwidth. LEFTSTART headneckneutralgazedown armschestlegsrestFLOOR. RIGHTEND simultaneouslyLIFTARMS CHESTandBOTHSTRAIGHTLEGS onlymodestlyfewinchesofffloor, PELVIS/LOWABDOMENstaysfloorcontact, headNECKinline gazeDOWN notforward, noextremebackarch. Primary SPINALERECTORS onlySMALLPLAINUNIFORMredwash twoVERTICALstrips LEFTandRIGHT ofLUMBARmidline onintactbacktank BOTHposes NOanatomicalfibers nosegmentation. Allotherregionsgrayblack. Premium detailed adult MALE grayscale anatomical illustration. Approved original project reference STYLE ONLY ignore its pose/highlights. Pure white background soft shadows crisp detailed exposed gray muscle contours realistic proportions equipment. Opaque BLACK tank and black mid-thigh shorts fully wrap front sides back seat crotch normal fabric seams folds hems black shoes. No anatomy through fabric no cutaways. Covered primary highlight SMALL PLAIN UNIFORM soft red COLOR WASH on intact fabric no fibers lobes striations. Only specified primary red all other regions gray/black. Equal cells same person camera equipment whole body in frame generous margins. Exactly two arms hands five fingers two legs feet. No text captions labels arrows logos.",
+      "inspectionNote": "Real output inspected. Prone start and modest simultaneous arm/chest/leg lift with pelvis grounded, neck directed down, opaque clothing and paired lumbar tint. Qualified review needed for lumbar erector placement, restrained extension range, chest clearance and neck alignment. Human anatomy review pending. No approval or publication.",
+      "canonicalName": "floor hyperextension v. 2",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "spine"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Prone start and modest simultaneous arm/chest/leg lift with pelvis grounded, neck directed down, opaque clothing and paired lumbar tint. Qualified review needed for lumbar erector placement, restrained extension range, chest clearance and neck alignment. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2844-male-anatomical-white-v1-p1-244b4acf06d5.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 19774,
+          "sha256": "244b4acf06d5fc0cf8fe22a9e1f79d1adcd9788ad1afe9bb4858f30a6ea03934"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/2844-male-anatomical-white-v1-p2-1f25ee8b180c.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 19658,
+          "sha256": "1f25ee8b180c2aa672e4df7aa4abec0ccc7725fe496d53713665f0162a59ad86"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-307.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2844-male-anatomical-white-v1-thumb-0bc1bbd01018.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 1922,
+        "sha256": "0bc1bbd010180210e821f851134dac912e3cd952a5d73fc9ea33b4f927c5ae78"
+      },
+      "processingSignature": "42e710333e27ff9c9b6083d2b8339f719d3ce464d07a1dc3063411dec1fc9873",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2844-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1596618,
+        "sha256": "861569aa3c1be86a2751297fef5344e13691b235f45e2ab89b70ea45367c0476"
+      }
+    }
+  ]
+}

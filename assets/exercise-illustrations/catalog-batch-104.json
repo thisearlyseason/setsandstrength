@@ -1,0 +1,611 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "0667",
+      "variant": "male",
+      "key": "0667-male-anatomical-white-v2",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hold a high plank with the right leg lifted straight and left toes supporting"
+        },
+        {
+          "key": "p2",
+          "caption": "Bend elbows to lower the chest while keeping the same leg lifted; switch legs next set"
+        }
+      ],
+      "detail": "SINGLE-LEG-RAISED FLOOR PUSH-UP, TWO phases, full body three-quarter side camera head LEFT feet RIGHT on thin gray FLOOR MAT, NO bench/equipment. BOTH hands shoulder-width flat floor, fingers forward. RIGHT/FAR leg held STRAIGHT slightly ABOVE hip height behind body, right shoe15cm above other ankle, right KNEE extended and foot does NOT touch floor in either panel. LEFT/NEAR leg stays STRAIGHT with LEFT TOES planted mat. Same raised RIGHT leg in BOTH panels (switch leg next set outside image). LEFT TOP: elbows straight high plank, body straight head-hips-planted ankle, pelvis level. RIGHT LOW: elbows bend90degrees, chest just above mat, trunk/hips straight and right leg still lifted straight. Exactly2arms2legs with clear hip-thigh-knee-shoe continuity, no bent/tucked leg or rotation. Entire model/shoes/hands within panel. Primary CHEST only smoothly blurred diffuse RED tint over intact opaque BLACK chest shirt, no radial fibers/pectoral divisions in garment. Fine detailed grayscale exposed arms/legs, other muscles no red. No text.",
+      "prompt": "Edit original project TWO-panel single-leg-raised floor push-up. Preserve both exact poses, SAME raised straight leg and opposite planted toes in both panels, straight trunk, hand support, model/camera and fine detailed grayscale anatomical fibers on ALL EXPOSED arms/legs. Only repaint RED CHEST SHIRT as smooth soft diffuse BLURRED red patches on continuous opaque matte BLACK FABRIC. Remove all internal fiber rays/streaks, radial starburst and anatomical pectoral divisions from clothes. Broad natural garment folds/seams only. Shirt fully wraps front sides back and knee shorts front sides back seat crotch without transparency/cutaways. Entire body/mat framing unchanged. No text.",
+      "inspectionNote": "Chest tint now diffuse on intact opaque fabric; same straight raised leg, planted toes and high/low elbow positions retained. Fine detailed exposed anatomy and full opaque garments. Qualified pelvic alignment, leg identity, hand/wrist contact and technique review pending.",
+      "canonicalName": "raise single leg push up",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "pectorals"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0667-male-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "status": "generated",
+        "costUSD": null
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Chest tint now diffuse on intact opaque fabric; same straight raised leg, planted toes and high/low elbow positions retained. Fine detailed exposed anatomy and full opaque garments. Qualified pelvic alignment, leg identity, hand/wrist contact and technique review pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0667-male-anatomical-white-v2-p1-03c4c9e153a4.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 31586,
+          "sha256": "03c4c9e153a40f71a57d939b350a34b94d3cbcb8fc454f886e44bcf88b03e6d9"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0667-male-anatomical-white-v2-p2-5c2fcba16fa7.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 28488,
+          "sha256": "5c2fcba16fa7575597122879d33c246dd1a5df8b167abc5965fbbbf1aa5ba7ae"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0667-male-anatomical-white-v2-thumb-8c4b308a9d59.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 3242,
+        "sha256": "8c4b308a9d598eeba7185633ab5360fbc068a60923b695a65f8e66d14b8d7d09"
+      },
+      "processingSignature": "e464a18080be6dc87663b096922553fabf5d32f32c0b29d5b0ccaec046965dc2",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0667-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1746394,
+        "sha256": "cb1807e642960d28b9aadea8ae27449f63c3531cdbc9d4d7d711054c6f29bed5"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0667",
+          "variant": "male",
+          "key": "0667-male-anatomical-white-v1",
+          "layout": {
+            "columns": 2,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Hold a high plank with the right leg lifted straight and left toes supporting"
+            },
+            {
+              "key": "p2",
+              "caption": "Bend elbows to lower the chest while keeping the same leg lifted; switch legs next set"
+            }
+          ],
+          "detail": "SINGLE-LEG-RAISED FLOOR PUSH-UP, TWO phases, full body three-quarter side camera head LEFT feet RIGHT on thin gray FLOOR MAT, NO bench/equipment. BOTH hands shoulder-width flat floor, fingers forward. RIGHT/FAR leg held STRAIGHT slightly ABOVE hip height behind body, right shoe15cm above other ankle, right KNEE extended and foot does NOT touch floor in either panel. LEFT/NEAR leg stays STRAIGHT with LEFT TOES planted mat. Same raised RIGHT leg in BOTH panels (switch leg next set outside image). LEFT TOP: elbows straight high plank, body straight head-hips-planted ankle, pelvis level. RIGHT LOW: elbows bend90degrees, chest just above mat, trunk/hips straight and right leg still lifted straight. Exactly2arms2legs with clear hip-thigh-knee-shoe continuity, no bent/tucked leg or rotation. Entire model/shoes/hands within panel. Primary CHEST only smoothly blurred diffuse RED tint over intact opaque BLACK chest shirt, no radial fibers/pectoral divisions in garment. Fine detailed grayscale exposed arms/legs, other muscles no red. No text.",
+          "prompt": "Original educational exercise illustration. Attached original project artwork STYLE ONLY never pose reference. Detailed fine grayscale anatomical muscle fibers on EXPOSED arms/legs, realistic neutral adult MALE. Pure white background. TWO equal side-by-side panels, same model camera lighting. FULLY OPAQUE matte BLACK sleeveless shirt wraps torso front/sides/back; loose BLACK knee-length shorts wrap both thighs/front/sides/rear/seat/crotch fully with closed seams/hems and broad natural folds. Never translucent cloth, bare buttocks, cutaways, anatomy windows or muscle fibers on garments. Black trainers. Red primary muscle only as specified, over clothing ONE soft diffuse blurred color patch on intact black fabric with no anatomy divisions. Whole person fingers shoes apparatus within each panel white margins. No text/captions/arrows/logos. SINGLE-LEG-RAISED FLOOR PUSH-UP, TWO phases, full body three-quarter side camera head LEFT feet RIGHT on thin gray FLOOR MAT, NO bench/equipment. BOTH hands shoulder-width flat floor, fingers forward. RIGHT/FAR leg held STRAIGHT slightly ABOVE hip height behind body, right shoe15cm above other ankle, right KNEE extended and foot does NOT touch floor in either panel. LEFT/NEAR leg stays STRAIGHT with LEFT TOES planted mat. Same raised RIGHT leg in BOTH panels (switch leg next set outside image). LEFT TOP: elbows straight high plank, body straight head-hips-planted ankle, pelvis level. RIGHT LOW: elbows bend90degrees, chest just above mat, trunk/hips straight and right leg still lifted straight. Exactly2arms2legs with clear hip-thigh-knee-shoe continuity, no bent/tucked leg or rotation. Entire model/shoes/hands within panel. Primary CHEST only smoothly blurred diffuse RED tint over intact opaque BLACK chest shirt, no radial fibers/pectoral divisions in garment. Fine detailed grayscale exposed arms/legs, other muscles no red. No text.",
+          "inspectionNote": "High and low single-leg push-up phases keep one straight leg raised and opposite toes on mat. Arms extend/bend, full opaque garments and fine grayscale anatomy retained. Red chest tint internally streaked needing diffuse cloth treatment. Qualified leg identity, pelvis alignment and hand support review pending.",
+          "canonicalName": "raise single leg push up",
+          "styleVersion": "white-v1",
+          "equipment": "body weight",
+          "primaryMuscles": [
+            "pectorals"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "High and low single-leg push-up phases keep one straight leg raised and opposite toes on mat. Arms extend/bend, full opaque garments and fine grayscale anatomy retained. Red chest tint internally streaked needing diffuse cloth treatment. Qualified leg identity, pelvis alignment and hand support review pending.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0667-male-anatomical-white-v1-p1-3ff2f9ba3740.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 34014,
+              "sha256": "3ff2f9ba37404627cf874efeaed7f092eeb3401dc08872be844e8ccc25bd5323"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0667-male-anatomical-white-v1-p2-c937488242ab.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 30548,
+              "sha256": "c937488242abdbfb004aa95232b829fea953028cb6e32562c2d55db892929006"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0667-male-anatomical-white-v1-thumb-fd2062555024.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 3232,
+            "sha256": "fd2062555024ae6271f0e7d0d4d92ce23338b0b06e4a08a797bcfef7f416cbbc"
+          },
+          "processingSignature": "3420945222bbd572da83573b0a9913d2d9d33215f4d33771a8eb45de02203865",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0667-male-anatomical-white-v1.png",
+            "width": 1774,
+            "height": 887,
+            "bytes": 1442610,
+            "sha256": "71b67d76fba8d1d8719a7652d83e4306c8aa4f1ec3aa229a1aab3cdec495270d"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "0667",
+      "variant": "female",
+      "key": "0667-female-anatomical-white-v2",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hold a high plank with the right leg lifted straight and left toes supporting"
+        },
+        {
+          "key": "p2",
+          "caption": "Bend elbows to lower the chest while keeping the same leg lifted; switch legs next set"
+        }
+      ],
+      "detail": "SINGLE-LEG-RAISED FLOOR PUSH-UP, TWO phases, full body three-quarter side camera head LEFT feet RIGHT on thin gray FLOOR MAT, NO bench/equipment. BOTH hands shoulder-width flat floor, fingers forward. RIGHT/FAR leg held STRAIGHT slightly ABOVE hip height behind body, right shoe15cm above other ankle, right KNEE extended and foot does NOT touch floor in either panel. LEFT/NEAR leg stays STRAIGHT with LEFT TOES planted mat. Same raised RIGHT leg in BOTH panels (switch leg next set outside image). LEFT TOP: elbows straight high plank, body straight head-hips-planted ankle, pelvis level. RIGHT LOW: elbows bend90degrees, chest just above mat, trunk/hips straight and right leg still lifted straight. Exactly2arms2legs with clear hip-thigh-knee-shoe continuity, no bent/tucked leg or rotation. Entire model/shoes/hands within panel. Primary CHEST only smoothly blurred diffuse RED tint over intact opaque BLACK chest shirt, no radial fibers/pectoral divisions in garment. Fine detailed grayscale exposed arms/legs, other muscles no red. No text.",
+      "prompt": "Edit original project TWO-panel single-leg-raised floor push-up. Preserve both exact poses, SAME raised straight leg and opposite planted toes in both panels, straight trunk, hand support, model/camera and fine detailed grayscale anatomical fibers on ALL EXPOSED arms/legs. Only repaint RED CHEST SHIRT as smooth soft diffuse BLURRED red patches on continuous opaque matte BLACK FABRIC. Remove all internal fiber rays/streaks, radial starburst and anatomical pectoral divisions from clothes. Broad natural garment folds/seams only. Shirt fully wraps front sides back and knee shorts front sides back seat crotch without transparency/cutaways. Entire body/mat framing unchanged. No text. Preserve female proportions and equally fine exposed grayscale anatomical fibers.",
+      "inspectionNote": "Diffuse chest fabric tint improved, same straight leg raised in high/low push-up and opposite toes planted. Full opaque clothing, fine detailed exposed grayscale anatomy retained. Qualified pelvic alignment, limb continuity, wrists and technique review pending.",
+      "canonicalName": "raise single leg push up",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "pectorals"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0667-female-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "status": "generated",
+        "costUSD": null
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Diffuse chest fabric tint improved, same straight leg raised in high/low push-up and opposite toes planted. Full opaque clothing, fine detailed exposed grayscale anatomy retained. Qualified pelvic alignment, limb continuity, wrists and technique review pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0667-female-anatomical-white-v2-p1-4b86c8ce6863.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 30646,
+          "sha256": "4b86c8ce686388e2a3269baf41b07b73a25f47fd7a984380ff91c041b308225b"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0667-female-anatomical-white-v2-p2-393ceede364e.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 28128,
+          "sha256": "393ceede364eefc1a5ddb790434236e4c27b1c5e99e2e65d8b2254cf4acaa4b7"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0667-female-anatomical-white-v2-thumb-17c6c4fe1ab1.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 3100,
+        "sha256": "17c6c4fe1ab11c798a059f4d07273092e6fa0e99bb90f0059a36bc9a5414ea6e"
+      },
+      "processingSignature": "b4609453bfde2597fc403cbdcd60fc5d11acbc710d05ea507ccd1d9e9bb13a78",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0667-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1753532,
+        "sha256": "48112dcf2682d0c0ee31729bc528b21f76dd0973b0635c471dc85a79f1b40275"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0667",
+          "variant": "female",
+          "key": "0667-female-anatomical-white-v1",
+          "layout": {
+            "columns": 2,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Hold a high plank with the right leg lifted straight and left toes supporting"
+            },
+            {
+              "key": "p2",
+              "caption": "Bend elbows to lower the chest while keeping the same leg lifted; switch legs next set"
+            }
+          ],
+          "detail": "SINGLE-LEG-RAISED FLOOR PUSH-UP, TWO phases, full body three-quarter side camera head LEFT feet RIGHT on thin gray FLOOR MAT, NO bench/equipment. BOTH hands shoulder-width flat floor, fingers forward. RIGHT/FAR leg held STRAIGHT slightly ABOVE hip height behind body, right shoe15cm above other ankle, right KNEE extended and foot does NOT touch floor in either panel. LEFT/NEAR leg stays STRAIGHT with LEFT TOES planted mat. Same raised RIGHT leg in BOTH panels (switch leg next set outside image). LEFT TOP: elbows straight high plank, body straight head-hips-planted ankle, pelvis level. RIGHT LOW: elbows bend90degrees, chest just above mat, trunk/hips straight and right leg still lifted straight. Exactly2arms2legs with clear hip-thigh-knee-shoe continuity, no bent/tucked leg or rotation. Entire model/shoes/hands within panel. Primary CHEST only smoothly blurred diffuse RED tint over intact opaque BLACK chest shirt, no radial fibers/pectoral divisions in garment. Fine detailed grayscale exposed arms/legs, other muscles no red. No text.",
+          "prompt": "Original educational exercise illustration. Attached original project artwork STYLE ONLY never pose reference. Detailed fine grayscale anatomical muscle fibers on EXPOSED arms/legs, realistic neutral adult FEMALE. Pure white background. TWO equal side-by-side panels, same model camera lighting. FULLY OPAQUE matte BLACK sleeveless shirt wraps torso front/sides/back; loose BLACK knee-length shorts wrap both thighs/front/sides/rear/seat/crotch fully with closed seams/hems and broad natural folds. Never translucent cloth, bare buttocks, cutaways, anatomy windows or muscle fibers on garments. Black trainers. Red primary muscle only as specified, over clothing ONE soft diffuse blurred color patch on intact black fabric with no anatomy divisions. Whole person fingers shoes apparatus within each panel white margins. No text/captions/arrows/logos. SINGLE-LEG-RAISED FLOOR PUSH-UP, TWO phases, full body three-quarter side camera head LEFT feet RIGHT on thin gray FLOOR MAT, NO bench/equipment. BOTH hands shoulder-width flat floor, fingers forward. RIGHT/FAR leg held STRAIGHT slightly ABOVE hip height behind body, right shoe15cm above other ankle, right KNEE extended and foot does NOT touch floor in either panel. LEFT/NEAR leg stays STRAIGHT with LEFT TOES planted mat. Same raised RIGHT leg in BOTH panels (switch leg next set outside image). LEFT TOP: elbows straight high plank, body straight head-hips-planted ankle, pelvis level. RIGHT LOW: elbows bend90degrees, chest just above mat, trunk/hips straight and right leg still lifted straight. Exactly2arms2legs with clear hip-thigh-knee-shoe continuity, no bent/tucked leg or rotation. Entire model/shoes/hands within panel. Primary CHEST only smoothly blurred diffuse RED tint over intact opaque BLACK chest shirt, no radial fibers/pectoral divisions in garment. Fine detailed grayscale exposed arms/legs, other muscles no red. No text.",
+          "inspectionNote": "Two single-leg push-up phases retain same straight raised leg and other toes on mat, high/low elbows and detailed grayscale anatomy. Full opaque shirt/shorts. Red chest tint has internal streaks requiring diffuse fabric edit; qualified pelvis alignment, leg continuity and technique review pending.",
+          "canonicalName": "raise single leg push up",
+          "styleVersion": "white-v1",
+          "equipment": "body weight",
+          "primaryMuscles": [
+            "pectorals"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Two single-leg push-up phases retain same straight raised leg and other toes on mat, high/low elbows and detailed grayscale anatomy. Full opaque shirt/shorts. Red chest tint has internal streaks requiring diffuse fabric edit; qualified pelvis alignment, leg continuity and technique review pending.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0667-female-anatomical-white-v1-p1-7a40f645534f.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 33202,
+              "sha256": "7a40f645534fb4ecff6f54beb41d21d9315f0ce95fdda1c884b2636555473446"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0667-female-anatomical-white-v1-p2-87d39f099904.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 30616,
+              "sha256": "87d39f099904a49660549ecb5211f2dfb41b695fbc2abfb55666e26df84e1282"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0667-female-anatomical-white-v1-thumb-726b952aa488.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 3034,
+            "sha256": "726b952aa48895b83033ee7f13f3ff247d67d5c4ce5659d68579aee6919a6981"
+          },
+          "processingSignature": "85daa675e5b6da360abf3ff11a6dfd062e0df4cae625e301de63f41879d89521",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0667-female-anatomical-white-v1.png",
+            "width": 1774,
+            "height": 887,
+            "bytes": 1419043,
+            "sha256": "2b7855b367fb27abcecfadc3831a2b801b52cdf23e42d4502abfd5991d875034"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "0668",
+      "variant": "male",
+      "key": "0668-male-anatomical-white-v2",
+      "layout": {
+        "columns": 1,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hold hips raised with shoulders, hips and knees aligned, feet flat and arms beside the body"
+        }
+      ],
+      "detail": "REAR DECLINE BRIDGE canonical FLOOR GLUTE BRIDGE STATIC HOLD (hold:true): ONE SINGLE full-body pose. Side three-quarter view head IMAGE LEFT feet RIGHT on thin mat, NO bench/equipment. BOTH feet flat FLOOR hip width, knees bent90degrees. HIPS lifted so shoulders-HIPS-KNEES form straight rising diagonal, no sag/overextension. Back of SKULL and both SHOULDER BLADES rest directly on FLOOR MAT, neutral neck eyes ceiling, not head lifted. Both ARMS straight beside body floor with palms DOWN, elbows/hands flat, not under head. Entire person shoes fingers visible. Primary GLUTES only ONE smoothly blurred diffuse RED tint over side/rear hip of intact opaque BLACK shorts, no fiber rays/starburst/muscle divisions on fabric. All exposed legs/arms detailed fine grayscale anatomy. Opaque shirt and loose knee shorts fully wrap front sides back seat crotch, no cutaways. Female ponytail spread flat BEHIND skull on mat so it does not prop head. One static pose no sequence/panels/text.",
+      "prompt": "Edit original project SINGLE POSE floor glute bridge hold. Preserve exact bridge height, feet flat, skull and shoulders on mat, arms/palms down beside body, model/camera and fine detailed grayscale anatomical fibers on ALL EXPOSED arms/legs. Repaint ONLY red glute/hip shorts patch as smooth soft diffuse BLURRED RED COLOR over intact continuous OPAQUE matte BLACK fabric. Remove every internal fiber streak/radial ray/starburst/muscle division in shorts. Broad natural cloth folds/seams only, loose shorts fully wrap front sides rear seat crotch, opaque shirt full front sides back. No cutaways/transparency. Whole body/mat frame unchanged, no text.",
+      "inspectionNote": "Glute tint now diffuse over intact opaque shorts. Static bridge preserves skull/shoulders on mat, flat feet, palms beside body and raised hip alignment; fine exposed grayscale anatomy retained. Qualified knee/hip/neck angles and technique review pending.",
+      "canonicalName": "rear decline bridge",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "glutes"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0668-male-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "status": "generated",
+        "costUSD": null
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Glute tint now diffuse over intact opaque shorts. Static bridge preserves skull/shoulders on mat, flat feet, palms beside body and raised hip alignment; fine exposed grayscale anatomy retained. Qualified knee/hip/neck angles and technique review pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0668-male-anatomical-white-v2-p1-2fa5c70861f9.webp",
+          "width": 1200,
+          "height": 600,
+          "bytes": 32402,
+          "sha256": "2fa5c70861f9cad872ede29cccfef48c202aa92f615750e693e935179fb84762"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0668-male-anatomical-white-v2-thumb-cad86e3ecc57.webp",
+        "width": 240,
+        "height": 120,
+        "bytes": 2340,
+        "sha256": "cad86e3ecc578bbb440bd17e9e8681df70e1ea2edba22ee430ee82dc0d93da2b"
+      },
+      "processingSignature": "88d4721f442906f850e3d2f1b34f8cc592e881b3e4bc8bc525df3ab60e32f2bb",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0668-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1726299,
+        "sha256": "c5926605f24a209fe774e73f740ffb39b142de1a73345d7876eb98a2ca132fee"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0668",
+          "variant": "male",
+          "key": "0668-male-anatomical-white-v1",
+          "layout": {
+            "columns": 1,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Hold hips raised with shoulders, hips and knees aligned, feet flat and arms beside the body"
+            }
+          ],
+          "detail": "REAR DECLINE BRIDGE canonical FLOOR GLUTE BRIDGE STATIC HOLD (hold:true): ONE SINGLE full-body pose. Side three-quarter view head IMAGE LEFT feet RIGHT on thin mat, NO bench/equipment. BOTH feet flat FLOOR hip width, knees bent90degrees. HIPS lifted so shoulders-HIPS-KNEES form straight rising diagonal, no sag/overextension. Back of SKULL and both SHOULDER BLADES rest directly on FLOOR MAT, neutral neck eyes ceiling, not head lifted. Both ARMS straight beside body floor with palms DOWN, elbows/hands flat, not under head. Entire person shoes fingers visible. Primary GLUTES only ONE smoothly blurred diffuse RED tint over side/rear hip of intact opaque BLACK shorts, no fiber rays/starburst/muscle divisions on fabric. All exposed legs/arms detailed fine grayscale anatomy. Opaque shirt and loose knee shorts fully wrap front sides back seat crotch, no cutaways. Female ponytail spread flat BEHIND skull on mat so it does not prop head. One static pose no sequence/panels/text.",
+          "prompt": "Original educational exercise illustration. Attached original project artwork STYLE ONLY never pose reference. Detailed fine grayscale anatomical muscle fibers on EXPOSED arms/legs, realistic neutral adult MALE. Pure white background. ONE single full-body pose, same model camera lighting. FULLY OPAQUE matte BLACK sleeveless shirt wraps torso front/sides/back; loose BLACK knee-length shorts wrap both thighs/front/sides/rear/seat/crotch fully with closed seams/hems and broad natural folds. Never translucent cloth, bare buttocks, cutaways, anatomy windows or muscle fibers on garments. Black trainers. Red primary muscle only as specified, over clothing ONE soft diffuse blurred color patch on intact black fabric with no anatomy divisions. Whole person fingers shoes apparatus within each panel white margins. No text/captions/arrows/logos. REAR DECLINE BRIDGE canonical FLOOR GLUTE BRIDGE STATIC HOLD (hold:true): ONE SINGLE full-body pose. Side three-quarter view head IMAGE LEFT feet RIGHT on thin mat, NO bench/equipment. BOTH feet flat FLOOR hip width, knees bent90degrees. HIPS lifted so shoulders-HIPS-KNEES form straight rising diagonal, no sag/overextension. Back of SKULL and both SHOULDER BLADES rest directly on FLOOR MAT, neutral neck eyes ceiling, not head lifted. Both ARMS straight beside body floor with palms DOWN, elbows/hands flat, not under head. Entire person shoes fingers visible. Primary GLUTES only ONE smoothly blurred diffuse RED tint over side/rear hip of intact opaque BLACK shorts, no fiber rays/starburst/muscle divisions on fabric. All exposed legs/arms detailed fine grayscale anatomy. Opaque shirt and loose knee shorts fully wrap front sides back seat crotch, no cutaways. Female ponytail spread flat BEHIND skull on mat so it does not prop head. One static pose no sequence/panels/text.",
+          "inspectionNote": "Single bridge hold shows skull/shoulders on mat, arms beside palms down, feet flat and raised hips aligned with knees. Opaque garments and detailed grayscale anatomy. Glute shorts highlight has internal fiber streaks requiring diffuse fabric edit; qualified hip height, knee angles and neck contact review pending.",
+          "canonicalName": "rear decline bridge",
+          "styleVersion": "white-v1",
+          "equipment": "body weight",
+          "primaryMuscles": [
+            "glutes"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Single bridge hold shows skull/shoulders on mat, arms beside palms down, feet flat and raised hips aligned with knees. Opaque garments and detailed grayscale anatomy. Glute shorts highlight has internal fiber streaks requiring diffuse fabric edit; qualified hip height, knee angles and neck contact review pending.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0668-male-anatomical-white-v1-p1-31a55c039d87.webp",
+              "width": 1200,
+              "height": 600,
+              "bytes": 34148,
+              "sha256": "31a55c039d87ddd45658383d562082908ed030fc92a9019e49bc98ec75304baf"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0668-male-anatomical-white-v1-thumb-09acd164fd8d.webp",
+            "width": 240,
+            "height": 120,
+            "bytes": 2284,
+            "sha256": "09acd164fd8da7358d49fcfc2222eca9b913b1662702f0c8c152277469a35cec"
+          },
+          "processingSignature": "d1d7f523ffed5f792f8ba569d4447749c77bb71c7bfb88d7a81fdf87bfaacc73",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0668-male-anatomical-white-v1.png",
+            "width": 1774,
+            "height": 887,
+            "bytes": 1531345,
+            "sha256": "158d3545cf4ef182850b44d88e1a02573957c6e87fd2cdd4bd1a8b31d2868e22"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "0668",
+      "variant": "female",
+      "key": "0668-female-anatomical-white-v2",
+      "layout": {
+        "columns": 1,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hold hips raised with shoulders, hips and knees aligned, feet flat and arms beside the body"
+        }
+      ],
+      "detail": "REAR DECLINE BRIDGE canonical FLOOR GLUTE BRIDGE STATIC HOLD (hold:true): ONE SINGLE full-body pose. Side three-quarter view head IMAGE LEFT feet RIGHT on thin mat, NO bench/equipment. BOTH feet flat FLOOR hip width, knees bent90degrees. HIPS lifted so shoulders-HIPS-KNEES form straight rising diagonal, no sag/overextension. Back of SKULL and both SHOULDER BLADES rest directly on FLOOR MAT, neutral neck eyes ceiling, not head lifted. Both ARMS straight beside body floor with palms DOWN, elbows/hands flat, not under head. Entire person shoes fingers visible. Primary GLUTES only ONE smoothly blurred diffuse RED tint over side/rear hip of intact opaque BLACK shorts, no fiber rays/starburst/muscle divisions on fabric. All exposed legs/arms detailed fine grayscale anatomy. Opaque shirt and loose knee shorts fully wrap front sides back seat crotch, no cutaways. Female ponytail spread flat BEHIND skull on mat so it does not prop head. One static pose no sequence/panels/text.",
+      "prompt": "Edit original project SINGLE POSE floor glute bridge hold. Preserve exact bridge height, feet flat, skull and shoulders on mat, arms/palms down beside body, model/camera and fine detailed grayscale anatomical fibers on ALL EXPOSED arms/legs. Repaint ONLY red glute/hip shorts patch as smooth soft diffuse BLURRED RED COLOR over intact continuous OPAQUE matte BLACK fabric. Remove every internal fiber streak/radial ray/starburst/muscle division in shorts. Broad natural cloth folds/seams only, loose shorts fully wrap front sides rear seat crotch, opaque shirt full front sides back. No cutaways/transparency. Whole body/mat frame unchanged, no text. Female: lower BACK OF SKULL directly onto MAT with neck neutral and eyes ceiling. Flatten/spread ponytail behind skull on mat, not beneath skull as a cushion. Keep shoulders planted, exact hip/feet/arms and fine exposed anatomical fibers. Do not change bridge height.",
+      "inspectionNote": "Glute fabric tint now diffuse and ponytail spreads behind skull; head still appears elevated/propped at hair knot so direct skull/mat contact remains uncertain, blocked for support review. Static bridge, feet/palms, opaque full clothes and fine grayscale anatomy retained.",
+      "canonicalName": "rear decline bridge",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "glutes"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0668-female-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "status": "generated",
+        "costUSD": null
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Glute fabric tint now diffuse and ponytail spreads behind skull; head still appears elevated/propped at hair knot so direct skull/mat contact remains uncertain, blocked for support review. Static bridge, feet/palms, opaque full clothes and fine grayscale anatomy retained.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0668-female-anatomical-white-v2-p1-3a168a7ae126.webp",
+          "width": 1200,
+          "height": 600,
+          "bytes": 33552,
+          "sha256": "3a168a7ae126488b94d89dc484d20156d2aea2f51c9f3bb1781e4b15b44716d3"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0668-female-anatomical-white-v2-thumb-3075675cf39a.webp",
+        "width": 240,
+        "height": 120,
+        "bytes": 2210,
+        "sha256": "3075675cf39aa89ef42f98fd96bf357e78af3b37d0c9954162b560aa4a207fce"
+      },
+      "processingSignature": "3192a8c0efb318c8d79d8d4a8292b3b166b8f3abd19938d846d18bc2a3ad2ad1",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0668-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1818088,
+        "sha256": "2fae6f3ab523a2c493a8912dd681f419b3b68c4b655017ceb802805d4be19fd6"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0668",
+          "variant": "female",
+          "key": "0668-female-anatomical-white-v1",
+          "layout": {
+            "columns": 1,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Hold hips raised with shoulders, hips and knees aligned, feet flat and arms beside the body"
+            }
+          ],
+          "detail": "REAR DECLINE BRIDGE canonical FLOOR GLUTE BRIDGE STATIC HOLD (hold:true): ONE SINGLE full-body pose. Side three-quarter view head IMAGE LEFT feet RIGHT on thin mat, NO bench/equipment. BOTH feet flat FLOOR hip width, knees bent90degrees. HIPS lifted so shoulders-HIPS-KNEES form straight rising diagonal, no sag/overextension. Back of SKULL and both SHOULDER BLADES rest directly on FLOOR MAT, neutral neck eyes ceiling, not head lifted. Both ARMS straight beside body floor with palms DOWN, elbows/hands flat, not under head. Entire person shoes fingers visible. Primary GLUTES only ONE smoothly blurred diffuse RED tint over side/rear hip of intact opaque BLACK shorts, no fiber rays/starburst/muscle divisions on fabric. All exposed legs/arms detailed fine grayscale anatomy. Opaque shirt and loose knee shorts fully wrap front sides back seat crotch, no cutaways. Female ponytail spread flat BEHIND skull on mat so it does not prop head. One static pose no sequence/panels/text.",
+          "prompt": "Original educational exercise illustration. Attached original project artwork STYLE ONLY never pose reference. Detailed fine grayscale anatomical muscle fibers on EXPOSED arms/legs, realistic neutral adult FEMALE. Pure white background. ONE single full-body pose, same model camera lighting. FULLY OPAQUE matte BLACK sleeveless shirt wraps torso front/sides/back; loose BLACK knee-length shorts wrap both thighs/front/sides/rear/seat/crotch fully with closed seams/hems and broad natural folds. Never translucent cloth, bare buttocks, cutaways, anatomy windows or muscle fibers on garments. Black trainers. Red primary muscle only as specified, over clothing ONE soft diffuse blurred color patch on intact black fabric with no anatomy divisions. Whole person fingers shoes apparatus within each panel white margins. No text/captions/arrows/logos. REAR DECLINE BRIDGE canonical FLOOR GLUTE BRIDGE STATIC HOLD (hold:true): ONE SINGLE full-body pose. Side three-quarter view head IMAGE LEFT feet RIGHT on thin mat, NO bench/equipment. BOTH feet flat FLOOR hip width, knees bent90degrees. HIPS lifted so shoulders-HIPS-KNEES form straight rising diagonal, no sag/overextension. Back of SKULL and both SHOULDER BLADES rest directly on FLOOR MAT, neutral neck eyes ceiling, not head lifted. Both ARMS straight beside body floor with palms DOWN, elbows/hands flat, not under head. Entire person shoes fingers visible. Primary GLUTES only ONE smoothly blurred diffuse RED tint over side/rear hip of intact opaque BLACK shorts, no fiber rays/starburst/muscle divisions on fabric. All exposed legs/arms detailed fine grayscale anatomy. Opaque shirt and loose knee shorts fully wrap front sides back seat crotch, no cutaways. Female ponytail spread flat BEHIND skull on mat so it does not prop head. One static pose no sequence/panels/text.",
+          "inspectionNote": "Single bridge hold shows bent knees/flat feet, hips raised and palms down beside body. Detailed grayscale anatomy and full opaque garments. Skull appears propped on gathered ponytail rather than directly on mat; flatten hair/rest skull. Glute cloth red contains fine internal streaks needing diffuse edit.",
+          "canonicalName": "rear decline bridge",
+          "styleVersion": "white-v1",
+          "equipment": "body weight",
+          "primaryMuscles": [
+            "glutes"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Single bridge hold shows bent knees/flat feet, hips raised and palms down beside body. Detailed grayscale anatomy and full opaque garments. Skull appears propped on gathered ponytail rather than directly on mat; flatten hair/rest skull. Glute cloth red contains fine internal streaks needing diffuse edit.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0668-female-anatomical-white-v1-p1-a4f8a3e18e37.webp",
+              "width": 1200,
+              "height": 600,
+              "bytes": 35624,
+              "sha256": "a4f8a3e18e3799f5fc807fd4ae418de5dba2f4e5923c40ba5e28357bfe61a6e7"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0668-female-anatomical-white-v1-thumb-88b7986ad8e6.webp",
+            "width": 240,
+            "height": 120,
+            "bytes": 2202,
+            "sha256": "88b7986ad8e68a684354cbef149578297c776425bca6b988ecb140c2e2e7a2ea"
+          },
+          "processingSignature": "5aaa3d9a311f0893b8c85fa8823748374b714f85a996507be46f8114ccbbedf2",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0668-female-anatomical-white-v1.png",
+            "width": 1774,
+            "height": 887,
+            "bytes": 1562789,
+            "sha256": "32bfc77806c586e0cd47cbf51c8663b18c4c391ab1d1dc9a214942e4eb6930d5"
+          }
+        }
+      ],
+      "blockingIssues": [
+        "Direct skull-to-mat support remains uncertain after ponytail/head-rest correction."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "batch": 119,
+  "trigger": "2026-11-02T21:54:52.927Z",
+  "completedAt": "2026-11-02T22:15:43.257230+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 4,
+  "generationCalls": 8,
+  "exerciseIds": [
+    "0717",
+    "0718"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 486,
+    "remainingVariants": 10778,
+    "approvedVariants": 0,
+    "blockedVariants": 192,
+    "knownPoseImages": 1006,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Four candidate sets, ten poses, eight built-in calls and four retained corrections. Side push-ups show bent bottom support arm then straight-arm high side plank with top arm upward and straight stacked legs. Both recomposed as two square landscape cells; female original unequal vertical panels retained only in history. Qualified triceps versus anterior upper-arm localization, wrist/elbow mechanics, support identity and hip line review pending. Alternating side sit-ups show supine start and two planted-foot diagonal rises. Corrections establish opposite final torso direction with partial rear view and soften cloth tint, but both rear-facing final phases retain red on back rather than abdominal primary region: BLOCKED. Female corrected master also tall with narrow horizontal cells, framing correction pending. Qualified crossing elbow/knee identity, spinal range and planted-foot continuity review pending. Fine exposed grayscale anatomy and full opaque clothes front/sides/back/seat/crotch retained. Originals, exact prompts and correction history saved. No anatomy approval or publication. Original project artwork style only, no upstream media. Pipeline checks do not approve anatomy.",
+  "metadataConflictsDeferred": {
+    "0720": "Side-to-side description requires lateral traverse but instructions define ordinary centered pull-up; movement needs clarification before generating.",
+    "0721": "Side wrist pull describes lateral extended arm but inward hand pull does not define wrist flexion/deviation or grip; clarify exact stretch geometry."
+  },
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 795696970,
+  "savedMasters": [
+    {
+      "exerciseId": "0717",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0717-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1433113,
+        "sha256": "a1b7e53ec6a929adb31571324f2bd359802e8219e920dd38061abab031cc7c86"
+      }
+    },
+    {
+      "exerciseId": "0717",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0717-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1357074,
+        "sha256": "3572c35dd12966db19fc3d9e0261aefd27a61c1469202bcacf6cedcc3e52b265"
+      }
+    },
+    {
+      "exerciseId": "0718",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0718-male-anatomical-white-v2.png",
+        "width": 2172,
+        "height": 724,
+        "bytes": 1749478,
+        "sha256": "0bd56bb46f8403ce32cb154ac590035330c0fd71aea8fb0aa0994fa4042779e1"
+      }
+    },
+    {
+      "exerciseId": "0718",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0718-female-anatomical-white-v2.png",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 1302831,
+        "sha256": "a6b43c73728ebcb4672d2def10241a9d9eadd32ae841fde7db820e1be3bf5534"
+      }
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "jobs": [
+    {
+      "key": "0025-male-anatomical-white-v3",
+      "exerciseId": "0025",
+      "variant": "male",
+      "source": "0025-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "prompt": "Use case: scientific-educational. Create a corrected premium exercise illustration, detailed grayscale anatomical rendering with red primary muscle regions, white background and soft contact shadows. No text, numbers or arrows. Use the supplied image only for adult model identity and detailed illustration style. Real opaque black athletic clothing must fully wrap front, sides, back and crotch, continuous seams and folds; muscle highlights over cloth must be flat red teaching overlays on intact fabric, never cutouts or exposed anatomy. All body parts/equipment must fit each panel with generous white margins. Two equally sized side-by-side panels of barbell bench press from a consistent near-side view slightly elevated and oblique enough to see both hands. Male wears complete opaque black training T-shirt and mid-thigh shorts. Left arms extended bar over chest. Right lower bar to lower sternum, clearly well below head/neck, wrists above elbows, forearms vertical, elbows moderately tucked. Bench supports head/shoulders and buttocks, feet flat on floor. Same rack and barbell, same plates and grip width. Red pectoral-location overlay on intact shirt. Keep complete barbell and both feet visible, no bar intersecting face."
+    },
+    {
+      "key": "0276-male-anatomical-white-v7",
+      "exerciseId": "0276",
+      "variant": "male",
+      "source": null,
+      "layout": {
+        "columns": 2,
+        "rows": 2
+      },
+      "prompt": "Use case: scientific-educational. Create a corrected premium exercise illustration, detailed grayscale anatomical rendering with red primary muscle regions, white background and soft contact shadows. No text, numbers or arrows. Use the supplied image only for adult model identity and detailed illustration style. Real opaque black athletic clothing must fully wrap front, sides, back and crotch, continuous seams and folds; muscle highlights over cloth must be flat red teaching overlays on intact fabric, never cutouts or exposed anatomy. All body parts/equipment must fit each panel with generous white margins. Four equal panels in a 2 by 2 grid. Adult male dead bug, camera high overhead oblique so BOTH shoulders, BOTH hips and all four limbs clearly distinguishable, same camera in all panels. Head points to top of panel, feet toward bottom. Complete opaque fitted black training shirt covering torso and mid-thigh sports shorts. Red abdominal-location teaching overlay on intact shirt. Panel top-left: supine tabletop, both arms vertical over shoulders, both hips and knees 90 degrees with shins parallel to floor. Top-right: RIGHT arm extends overhead toward floor and LEFT leg extends away low above floor, while LEFT arm stays vertical and RIGHT knee stays bent 90 degrees over hip. Bottom-left return to exactly tabletop. Bottom-right LEFT arm extends overhead and RIGHT leg extends low, RIGHT arm remains vertical and LEFT knee stays bent over hip. Show unmistakably different diagonal pairs in panels 2 and 4. Maintain head, ribs, pelvis and lower back resting on floor; no crunch, no twisting, no exaggerated back arch. Separate overlapping limbs through camera choice. Do not repeat the same extended limbs in both extension panels. Hands, shoes and all limbs fully visible. Recompose the image completely from a new overhead view; do not preserve the original side-view pose silhouette."
+    },
+    {
+      "key": "0025-male-anatomical-white-v4",
+      "exerciseId": "0025",
+      "variant": "male",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "prompt": "Create a premium grayscale anatomical fitness instructional illustration, pure white background, crisp realistic anatomy, red pectoral highlights printed as a teaching overlay on intact black athletic shirt. Adult male wears full opaque black short-sleeve training shirt, continuous mid-thigh shorts covering front sides rear crotch, black shoes. Two equally sized side-by-side panels, each COMPLETE STRICT SIDE PROFILE view of a conventional barbell bench press. Head at LEFT feet at RIGHT in each panel. Bench horizontal, head/shoulders and buttocks supported, feet flat on floor. Bar and plates visible end-on from this side, both hands gripping the same bar. LEFT PANEL: bar at full arm extension, vertically above middle chest, straight arms. RIGHT PANEL: bar touches lower sternum near bottom of pectoral region, far to the RIGHT of neck/head, elbows bent below bar, wrists vertically above elbows. No bar by face, no bar by neck. Same figure, clothing, barbell, plates, rack and camera in both panels. Fine grayscale muscle detail on visible arms and legs, red region only on shirt over pectorals. Entire feet, bench and rack fit frame with generous margins. No labels, text, border or captions."
+    },
+    {
+      "key": "0276-female-anatomical-white-v7",
+      "exerciseId": "0276",
+      "variant": "female",
+      "layout": {
+        "columns": 2,
+        "rows": 2
+      },
+      "prompt": "Scientific educational anatomical fitness illustration, adult FEMALE in complete opaque black athletic T-shirt and mid-thigh shorts, shoes. Crisp detailed grayscale muscle contours on exposed limbs, realistic proportions, red abdominal teaching overlay printed OVER opaque shirt. White background. FOUR equal panels, two rows two columns. Dead bug exercise. Camera above looking down from foot end, head near top of each panel feet toward bottom, clearly showing left AND right sides of body. Body lying flat supine with head and torso resting on floor. Top-left: tabletop, BOTH arms point up toward ceiling above shoulders, BOTH thighs vertical over hips and BOTH knees at 90 degrees, shins parallel floor. Top-right: the arm on IMAGE LEFT stays pointing to ceiling, arm on IMAGE RIGHT reaches back overhead near the floor; the leg on IMAGE LEFT straightens low above floor and leg on IMAGE RIGHT remains bent at 90 degrees. This is a DIAGONAL moving pair. Bottom-left repeat tabletop. Bottom-right: arm on IMAGE RIGHT points to ceiling, arm on IMAGE LEFT reaches overhead near floor; leg on IMAGE RIGHT extends low, leg on IMAGE LEFT stays bent 90 degrees. Exactly opposite diagonal to panel 2. Each panel has same viewpoint and model. Both arms and both legs distinctly visible, no extra limbs. Do not extend arm and leg on same side of image. Full rear and front shorts coverage, no muscle cutouts. White gutters and ample margins around complete hands/feet. No text, captions, numbers, arrows, or visible grid borders."
+    },
+    {
+      "key": "0276-female-anatomical-white-v8",
+      "exerciseId": "0276",
+      "variant": "female",
+      "source": "0276-female-anatomical-white-v7",
+      "layout": {
+        "columns": 2,
+        "rows": 2
+      },
+      "prompt": "Correct only extended limbs in upper-right and lower-right panels of this dead bug instructional image. Preserve grayscale anatomical detail, opaque complete black shirt/shorts, white background, camera, four-panel layout, abdominal surface overlay and all correct limb pairings. In upper-right panel the IMAGE RIGHT arm must be STRAIGHT at elbow and reach fully overhead beyond the crown of the head toward the top edge, hovering just above floor, not out sideways. IMAGE LEFT leg straight at knee low above floor. In lower-right panel IMAGE LEFT arm must be STRAIGHT at elbow, reach overhead beyond crown toward top edge, just above floor; IMAGE RIGHT leg straight at knee low above floor. Keep the other arm vertical and other knee over hip at 90 degrees. Do NOT swap limbs: diagonal opposite arm/leg pairing is already correct. Keep top-left and bottom-left tabletop poses unchanged. Add white space as needed so outstretched fingertips and toes stay entirely within each equal quadrant. No text, no borders."
+    }
+  ]
+}

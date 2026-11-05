@@ -1,0 +1,73 @@
+{
+  "batch": 300,
+  "runId": "a58c067f-3f6a-4653-b95a-d9302bce3872",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "trigger": "2026-11-04T04:35:27.366Z",
+  "purpose": "batch300 scheduled male continuation",
+  "started": "2026-11-04T04:36:05.208335+00:00",
+  "completedAt": "2026-11-04T04:41:54.050896+00:00",
+  "actualToolName": "image_gen__imagegen",
+  "calls": 4,
+  "newCandidateSets": 4,
+  "exerciseIds": [
+    "2765",
+    "2766",
+    "2767",
+    "2768"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1068,
+    "remainingVariants": 10196,
+    "approvedVariants": 0,
+    "blockedVariants": 368,
+    "knownPoseImages": 2052,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 695,
+      "remainingVariants": 4937,
+      "blockedVariants": 249
+    }
+  },
+  "reviewNotes": {
+    "2765": "Same forearm rotates from palm up to palm down with elbow near 90 at side and upper arm stationary; opposite arm relaxed and opaque clothing. Qualified review needed for forearm rotation versus wrist movement, pronator mapping, thumb/finger anatomy and elbow angle. Human anatomy review pending.",
+    "2766": "Same forearm shown palm down then up with elbow at side and no equipment, supinator-region tint and opaque clothing. Qualified review needed for clearly distinguishable palm orientation/rotation range, thumb laterality, finger anatomy and precise proximal supinator mapping. Human anatomy review pending.",
+    "2767": "Straight leg lifts laterally, support hand/foot grounded, torso mostly upright and clothing opaque. Red highlight remains on standing/support hip instead of moving-leg abductors; block laterality/mapping correction. Qualified review of toes forward, level pelvis and standing knee softness required. Human anatomy review pending.",
+    "2768": "Same straight leg moves inward from abducted position, support foot/hand grounded and medial-thigh tint on intact shorts. Finish stops beside standing leg rather than crossing in front as canonical instructions specify; block endpoint correction. Qualified review needed for clear leg separation, adductor mapping, toes forward and pelvis stability. Human anatomy review pending."
+  },
+  "blockingIssues": {
+    "2767": [
+      "Primary highlight on support hip rather than abducting leg; correct working-side abductor mapping both poses."
+    ],
+    "2768": [
+      "Finish must show working leg crossing in front of standing leg; currently stops beside it."
+    ]
+  },
+  "deferred": {},
+  "tests": 7,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "workerSyncResult": {
+    "statuses": {
+      "generated": 1068,
+      "pending": 10196
+    },
+    "remaining": 10196,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 1642738656
+  },
+  "publicationIndexUnchanged": true
+}

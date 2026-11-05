@@ -1,0 +1,73 @@
+{
+  "batch": 303,
+  "runId": "6b380657-032c-4db2-8558-167840b22b20",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "trigger": "2026-11-04T04:57:57.501Z",
+  "purpose": "batch303 scheduled male continuation",
+  "started": "2026-11-04T04:58:23.075739+00:00",
+  "completedAt": "2026-11-04T05:04:37.009864+00:00",
+  "actualToolName": "image_gen__imagegen",
+  "calls": 4,
+  "newCandidateSets": 4,
+  "exerciseIds": [
+    "2779",
+    "2780",
+    "2781",
+    "2782"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1080,
+    "remainingVariants": 10184,
+    "approvedVariants": 0,
+    "blockedVariants": 374,
+    "knownPoseImages": 2076,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 707,
+      "remainingVariants": 4925,
+      "blockedVariants": 255
+    }
+  },
+  "reviewNotes": {
+    "2779": "Same elbow remains near waist at 90 while forearm rotates outward, thumb up and torso steady. Exposed posterior shoulder tint, opaque clothing. Qualified review needed for fixed elbow contact, neutral start orientation, external rotation range and precise deltoid/rotator cuff mapping. Human anatomy review pending.",
+    "2780": "Same forearm moves inward across stomach with elbow near side and torso steady; anterior shoulder tint and opaque clothing. Qualified review needed for visible neutral-forward start versus already internally rotated position, fixed elbow and rotation range, wrist neutrality and finger anatomy. Human anatomy review pending.",
+    "2781": "Arms depicted forward then lateral/back at shoulder height, opaque clothing and posterior shoulder red. Working arm switches between poses instead of same-arm horizontal sweep; block laterality correction. Qualified review of horizontal path, torso stability, endpoint range and shoulder mapping required. Human anatomy review pending.",
+    "2782": "Same arm sweeps from side across chest horizontally with torso steady and opaque clothing. Red chest wash has radiating fiber-like lines; block plain fabric overlay correction. Qualified review of arm height, comfortable cross-body range, shoulder position and finger anatomy required. Human anatomy review pending."
+  },
+  "blockingIssues": {
+    "2781": [
+      "Working arm switches between start and finish; show same arm sweeping horizontally outward/back."
+    ],
+    "2782": [
+      "Replace radiating fiber-like chest lines with plain uniform color wash over intact tank."
+    ]
+  },
+  "deferred": {},
+  "tests": 7,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "workerSyncResult": {
+    "statuses": {
+      "generated": 1080,
+      "pending": 10184
+    },
+    "remaining": 10184,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 1658718732
+  },
+  "publicationIndexUnchanged": true
+}

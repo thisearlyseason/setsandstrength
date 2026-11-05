@@ -1,0 +1,82 @@
+{
+  "batch": 284,
+  "runId": "05c19caf-4103-4771-a686-fb53a121ba8e",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "trigger": "2026-11-04T01:57:56.164Z",
+  "purpose": "batch284 scheduled male continuation",
+  "started": "2026-11-04T01:58:15.617479+00:00",
+  "completedAt": "2026-11-04T02:04:37.173625+00:00",
+  "actualToolName": "image_gen__imagegen",
+  "calls": 4,
+  "newCandidateSets": 4,
+  "exerciseIds": [
+    "2375",
+    "2381",
+    "2393",
+    "2394"
+  ],
+  "variants": [
+    "male"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1009,
+    "remainingVariants": 10255,
+    "approvedVariants": 0,
+    "blockedVariants": 338,
+    "knownPoseImages": 1939,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 636,
+      "remainingVariants": 4996,
+      "blockedVariants": 219
+    }
+  },
+  "reviewNotes": {
+    "2375": "One hand holds fixed post while same working leg supports upright then lowered single-leg squat, free leg lifted forward. Uniform red color wash retains opaque thigh fabric/hem with normal folds, other cloth black. Qualified review of free-foot clearance from post, working-knee tracking, balance, squat depth and hand force required. Human anatomy review remains pending.",
+    "2381": "Standing one-arm press from shoulder level to overhead, off hand on hip, feet planted and torso upright, forward grip. Working deltoid red but entire tank is red as well, obscuring primary-only mapping and black-clothing style; block tank/highlight correction. Qualified review of wrist stacking, overhead range and elbow softness required. Human anatomy review remains pending.",
+    "2393": "One hand supported on bench, both feet floor, stable hip hinge, working dumbbell hangs then rows near hip/lower ribs with elbow tucked. Red lateral tank panel retains cloth folds and coverage. Qualified review of actual neutral grip, torso rotation, shoulder retraction, wrist alignment and fixed hinge angle required. Human anatomy review remains pending.",
+    "2394": "Prone floor start then small chest/arm/leg lift with pelvis grounded, opaque shorts and glute color wash on normal fabric. Head lifted with gaze forward rather than neck neutral looking floor; block cervical alignment correction. Qualified review of lift amplitude, lumbar arch, bilateral leg clearance and glute placement required. Human anatomy review remains pending."
+  },
+  "blockingIssues": {
+    "2381": [
+      "Entire tank rendered red; restore black tank and restrict red to working deltoid."
+    ],
+    "2394": [
+      "Head/neck extended with forward gaze; correct neutral neck and downward gaze."
+    ]
+  },
+  "deferred": {},
+  "tests": 7,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "workerSyncResult": {
+    "statuses": {
+      "generated": 1009,
+      "pending": 10255
+    },
+    "remaining": 10255,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 1554401957
+  },
+  "publicationIndexUnchanged": true,
+  "savedMasters": [
+    "assets/exercise-illustrations/generated/2375-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/2381-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/2393-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/2394-male-anatomical-white-v1.png"
+  ]
+}

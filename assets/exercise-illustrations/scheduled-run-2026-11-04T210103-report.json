@@ -1,0 +1,52 @@
+{
+  "runId": "32236a5c-87ff-4ad5-9b69-792f67947666",
+  "triggerTimestamp": "2026-11-04T21:01:03.047Z",
+  "builtInImageGenAvailable": true,
+  "batches": [
+    418
+  ],
+  "generatedMasters": 4,
+  "generatedIds": [
+    "3770",
+    "3772",
+    "3773",
+    "3774"
+  ],
+  "blocked": {
+    "3772": [
+      "Anchor at waist height instead of canonical low anchor."
+    ],
+    "3774": [
+      "Anchor attachment moves down post between standing and squat panels."
+    ]
+  },
+  "coverageAfter": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1479,
+    "remainingVariants": 9785,
+    "approvedVariants": 0,
+    "blockedVariants": 560,
+    "knownPoseImages": 2959,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 1106,
+      "remainingVariants": 4526,
+      "blockedVariants": 441
+    }
+  },
+  "pipelineTests": "8 passed, 0 failed",
+  "existingUserApprovalsPreserved": 1306,
+  "approvedIndexUnchanged": true,
+  "anatomyReview": "pending",
+  "publication": "none",
+  "stopReason": "Repeated band anchor geometry failures: incorrect canonical height on 3772 and moving attachment on 3774. Stop run per systemic-output-failure rule.",
+  "nextRunGuidance": "Explicitly fix anchor attachment at same physical position and same pixel height in every panel, allowing diagonal band when hand lowers. No moving anchor to keep band horizontal. Low anchor at ankle/shin height.",
+  "deferred": {
+    "3775/3776/3779": "Prompts prepared but ungenerated because run stopped; require fixed-anchor prompt improvement."
+  }
+}

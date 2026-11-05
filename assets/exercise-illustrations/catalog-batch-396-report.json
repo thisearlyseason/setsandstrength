@@ -1,0 +1,58 @@
+{
+  "batch": 396,
+  "runId": "16d137b2-95dc-46e5-95eb-cb5e176ba259",
+  "triggerTimestamp": "2026-11-04T18:56:02.196Z",
+  "builtInImageGenAvailable": true,
+  "anatomyReview": "pending",
+  "publication": "none",
+  "generatedIds": [
+    "3634",
+    "3639",
+    "3640"
+  ],
+  "deferred": {
+    "3635": "Contralateral arm movement in description absent from instructions; clarify.",
+    "3636": "Cardiovascular target needs highlight mapping.",
+    "3637": "Wheel running description conflicts with rollout instructions.",
+    "3638": "Cardiovascular target needs highlight mapping."
+  },
+  "coverageAfter": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1405,
+    "remainingVariants": 9859,
+    "approvedVariants": 0,
+    "blockedVariants": 537,
+    "knownPoseImages": 2790,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 1032,
+      "remainingVariants": 4600,
+      "blockedVariants": 418
+    }
+  },
+  "paidWorker": {
+    "statuses": {
+      "generated": 1405,
+      "pending": 9859
+    },
+    "remaining": 9859,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 2133310249
+  },
+  "pipelineTests": "7 passed, 0 failed",
+  "approvedIndexUnchanged": true,
+  "existingUserApprovalsPreserved": 1306
+}

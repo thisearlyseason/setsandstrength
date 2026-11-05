@@ -1,0 +1,101 @@
+{
+  "batch": 57,
+  "trigger": "2026-11-01T12:02:15.225Z",
+  "completedAt": "2026-11-01T12:11:10.253049+00:00",
+  "tool": "image_gen.imagegen",
+  "newCandidateSets": 4,
+  "generationCalls": 4,
+  "exerciseIds": [
+    "0447",
+    "0486"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 224,
+    "remainingVariants": 11040,
+    "approvedVariants": 0,
+    "blockedVariants": 98,
+    "knownPoseImages": 450,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "All pending and unpublished. EZ-bar curls retain angled shaft, collars/weights and underhand grips with steady torso; qualified wrist and endpoint range review required. Hip bridges show hip-down/raised phases, flat feet, upper-back/head support and intact opaque shorts with diffuse glute tint on folded fabric. Detailed grayscale limbs retained. Framing margins narrow on some mat/feet edges; qualified lumbar/neck and muscle mapping review remains separate.",
+  "metadataConflictsDeferred": [
+    {
+      "exerciseId": "0446",
+      "issue": "Close-grip title conflicts with shoulder-width instructions; defer grip width."
+    },
+    {
+      "exerciseId": "0484",
+      "issue": "Target abs while described/instructed hip bridge emphasizes glutes; qualified mapping review needed."
+    },
+    {
+      "exerciseId": "0500",
+      "issue": "Description arm wipers but instructions moving legs; chest target also conflicts, deferred."
+    },
+    {
+      "exerciseId": "0445",
+      "issue": "Anti-gravity press variation not explained beyond generic overhead press; qualified planning required."
+    }
+  ],
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 361804260,
+  "savedMasters": [
+    {
+      "exerciseId": "0447",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0447-male-anatomical-white-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1863746,
+        "sha256": "e4739626cbdaa65c5cd60838d332e7a815ba3e7d3fcfd4fc6c1b7223238c5839"
+      }
+    },
+    {
+      "exerciseId": "0447",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0447-female-anatomical-white-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1510072,
+        "sha256": "79d7c9777c24ae28c46c82b9022f7ef1442c19b7db1301f74cc1078103941b12"
+      }
+    },
+    {
+      "exerciseId": "0486",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0486-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1323567,
+        "sha256": "d21dcc255dfbaaf1c6607d0d45a710a7094be4024f56dd800e9f9198e65775c6"
+      }
+    },
+    {
+      "exerciseId": "0486",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0486-female-anatomical-white-v1.png",
+        "width": 2056,
+        "height": 765,
+        "bytes": 1460082,
+        "sha256": "a169efe5d3f3cf5efc4251858c640b6563168f77d786858399eb12ff43bb1bd2"
+      }
+    }
+  ]
+}

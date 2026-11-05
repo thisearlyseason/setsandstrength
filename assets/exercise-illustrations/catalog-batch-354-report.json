@@ -1,0 +1,75 @@
+{
+  "batch": 354,
+  "runId": "0fe34aab-0181-40b1-937c-547bb38ec3cf",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "trigger": "2026-11-04T13:06:33.575Z",
+  "purpose": "batch354 scheduled male continuation",
+  "started": "2026-11-04T13:07:03.825549+00:00",
+  "completedAt": "2026-11-04T13:16:30.555199+00:00",
+  "actualToolName": "image_gen__imagegen",
+  "calls": 4,
+  "newCandidateSets": 4,
+  "exerciseIds": [
+    "3382",
+    "3383",
+    "3385",
+    "3386"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1274,
+    "remainingVariants": 9990,
+    "approvedVariants": 0,
+    "blockedVariants": 482,
+    "knownPoseImages": 2505,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 901,
+      "remainingVariants": 4731,
+      "blockedVariants": 363
+    }
+  },
+  "reviewNotes": {
+    "3382": "Bent-knee table-edge row with planted feet, hips elevated and elbow flexion. Opaque clothes; lat fiber-like overlay through tank needs plain-wash correction. Qualified chest endpoint and grip review pending.",
+    "3383": "Feet-elevated pike push-up straight-arm and lowered-head phases with hands floor, hips high and deltoid-only highlights. Opaque black clothes intact. Qualified head path, elbow angle and stable foot/bench support review pending.",
+    "3385": "Seated horizontal leg press with supported back/butt, whole feet on plate and bent-to-nearly-straight legs. Opaque shorts with plain front-thigh wash. Qualified seat/footplate linkage, knee tracking and extension limit review pending.",
+    "3386": "Seated leg extension with shin roller and near-straight finish; opaque shorts/plain thigh wash. Non-primary red pectoral pattern through tank needs removal. Qualified knee pivot alignment, roller contact and extension range review pending."
+  },
+  "blockingIssues": {
+    "3382": [
+      "Replace lat fiber-like anatomy through tank with plain uniform wash on intact fabric."
+    ],
+    "3386": [
+      "Remove non-primary red pectoral overlay; retain quadriceps-only highlights."
+    ]
+  },
+  "deferred": {
+    "3384": "Cardiovascular target lacks anatomical primary-muscle mapping."
+  },
+  "tests": 7,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "workerSyncResult": {
+    "statuses": {
+      "generated": 1274,
+      "pending": 9990
+    },
+    "remaining": 9990,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 1944894278
+  },
+  "publicationIndexUnchanged": true
+}

@@ -1,0 +1,89 @@
+{
+  "batch": 133,
+  "trigger": "2026-11-03T01:41:24.841Z",
+  "completedAt": "2026-11-03T02:11:34.126579+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 4,
+  "generationCalls": 8,
+  "exerciseIds": [
+    "0794",
+    "0801"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 542,
+    "remainingVariants": 10722,
+    "approvedVariants": 0,
+    "blockedVariants": 205,
+    "knownPoseImages": 1114,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Four candidate sets, six poses, eight built-in calls and four retained corrections. Standing lateral stretch pairs each use one static hold with arms out per canonical variation, gentle lateral bend, feet grounded and elongated-side lat highlight. Head rotation corrected to rear torso alignment, shirt overlays softened. Step-up pairs show lead foot fully on fixed box then lead leg straight and trailing foot suspended. Head margins expanded, thin gray cell borders added. Fine exposed grayscale anatomy and full opaque shirt/shorts retained. Qualified lateral-plane bend, hip/arm level, lat localization, same-leg identity, scale, knee alignment and box stability remain pending. All original masters, exact prompts and correction history saved. No anatomy approval or publication. Original project artwork style only, no upstream media. Pipeline checks do not approve anatomy.",
+  "metadataConflictsDeferred": {
+    "0803": "Description lifts opposite arm/leg at top but instructions lift during lowering; movement phase conflicts.",
+    "0805": "Equipment says bodyweight but description uses suspension straps, and lean-at-waist conflicts with straight-body setup; review required.",
+    "0806": "Equipment says bodyweight but suspension handles required; facing-away/feet-forward setup needs mechanics clarification."
+  },
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 878693691,
+  "savedMasters": [
+    {
+      "exerciseId": "0794",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0794-male-anatomical-white-v2.png",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 1290527,
+        "sha256": "ae7c8ad35006fe188c637754ed760819c0603be31e1f3981c07fd96932f7a2ee"
+      }
+    },
+    {
+      "exerciseId": "0794",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0794-female-anatomical-white-v2.png",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 1277001,
+        "sha256": "98f6050602f5fc18d1dc5ce73929f37d6e687052849635d3a91c1e41c7c260c4"
+      }
+    },
+    {
+      "exerciseId": "0801",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0801-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1243311,
+        "sha256": "a695f2990d59a4a2e50cfb8008dc8aa41ea7fdf9ae848071e49e89ed4350323d"
+      }
+    },
+    {
+      "exerciseId": "0801",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0801-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1258885,
+        "sha256": "1d447f13cbc7b4d6bd104751932c840b69969ca823943d417a7a69267ae6ddab"
+      }
+    }
+  ]
+}

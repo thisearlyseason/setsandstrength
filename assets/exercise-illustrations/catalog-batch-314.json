@@ -1,0 +1,320 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "2931",
+      "variant": "male",
+      "key": "2931-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand with head, back and hips against wall, arms straight at sides."
+        },
+        {
+          "key": "p2",
+          "caption": "Raise arms forward and overhead as far as comfortable without arching; lower slowly."
+        }
+      ],
+      "prompt": "SHOULDER FLEXION BACK TO WALL TWOequalpanels SAME SIDEfrontthreequartercamera. PlainverticalwallBEHINDmodel visibleedge. Standfeetshortdistanceforwardwall kneesunlocked HEAD UPPERBACK PELVIS lightlyCONTACTSAMEwallBOTHposes, ribsdown lowerbackneutral noarch. LEFTSTART BOTHarmsSTRAIGHTDOWNsides palmsINWARD. RIGHTEND BOTHarmsraiseFORWARD thenOVERHEAD nearvertical elbowsstraight palmsINWARD thumbsBACK towardwall, onlycomfortablepainfreerange preserveHEADBACKHIPcontact nolean. Primary BOTHANTERIORDELTOIDS red exposedfrontshouldercaps ONLY allposes chesttankBLACK. Premium detailed adult MALE grayscale anatomical illustration; approved original reference STYLE ONLY ignore reference pose/highlights. Pure white background soft shadows detailed exposed gray muscle contours realistic proportions equipment. Opaque BLACK tank and mid-thigh shorts fully wrap front sides back seat crotch normal seams folds hems black shoes. No anatomy through fabric no cutaways. Covered highlight SMALL PLAIN UNIFORM soft red wash NO fibers lobes striations. Only specified primary red, other regions grayblack. Equal panels same person camera equipment whole body within generous margins. Exactly two arms hands five fingers two legs feet. No text captions labels arrows logos.",
+      "inspectionNote": "Real output inspected. Back-to-wall start and straight-arm overhead finish, head/back/pelvis near wall with ribs down and opaque clothing. Anterior shoulder red only. Qualified review needed for maintained contact, pain-free shoulder range, elbow straightness and avoiding lumbar arch. Human anatomy review pending. No approval or publication.",
+      "canonicalName": "shoulder flexion back to wall",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "delts"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Back-to-wall start and straight-arm overhead finish, head/back/pelvis near wall with ribs down and opaque clothing. Anterior shoulder red only. Qualified review needed for maintained contact, pain-free shoulder range, elbow straightness and avoiding lumbar arch. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2931-male-anatomical-white-v1-p1-479775c33837.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 21426,
+          "sha256": "479775c33837946bfb1fbfc4d1b29222da507337e5b0f3a2a5590513e1c7e4bd"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/2931-male-anatomical-white-v1-p2-e525cdd22ba3.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 20430,
+          "sha256": "e525cdd22ba3ac66f60f2dd01c0b68af9600d32538634b2105fd34293f4e9569"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-314.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2931-male-anatomical-white-v1-thumb-31b8d12cddbd.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2124,
+        "sha256": "31b8d12cddbd104ccc84564f390ed86ef053de4b9e6ea11ee7f1b2ae8874d9af"
+      },
+      "processingSignature": "026e9eeca274ec793dad4c404d5e2c5314e5ce02b45a32695ea4f9990aad4c70",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2931-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1350160,
+        "sha256": "5b8f61445cae22bb523ee7542f686672d7c27a79a2096a34512f1d1cc076ad50"
+      }
+    },
+    {
+      "exerciseId": "2932",
+      "variant": "male",
+      "key": "2932-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Kneel tall on both knees with kettlebell racked at one shoulder."
+        },
+        {
+          "key": "p2",
+          "caption": "Press overhead with ribs down, then lower under control; switch arms after reps."
+        }
+      ],
+      "prompt": "TALL KNEELING ONE ARM KETTLEBELL SHOULDER PRESS TWOequalpanels SAME FRONTthreequartercamera. KneelBOTHKNEESfloor hipsEXTENDED talltorso notsittingheels. SAME LEFTARMworks ALLposes RIGHTarmemptyrelaxedside. NormalKETTLEBELL NOTbottomsup: heavyROUNDbody hangsBELOW/BEHINDhandle restingBACKOFLEFTFOREARM inrack, lefthandgriphandle wristneutral. LEFTSTART leftelbowbent leftkettlebellRACKEDatshoulder bodyagainstoutsideforearm. RIGHTEND pressLEFTarmVERTICALOVERHEAD elbowstraight bicepsnearear wriststackedelbowshoulder, normalbellbodySTILLbehindforearm BELOWhandle noflip. RibsDOWN neutralpelvis noleanback. Primary LEFTDELTOID onlyred exposedshoulder BOTHposes chestBLACK. Premium detailed adult MALE grayscale anatomical illustration; approved original reference STYLE ONLY ignore reference pose/highlights. Pure white background soft shadows detailed exposed gray muscle contours realistic proportions equipment. Opaque BLACK tank and mid-thigh shorts fully wrap front sides back seat crotch normal seams folds hems black shoes. No anatomy through fabric no cutaways. Covered highlight SMALL PLAIN UNIFORM soft red wash NO fibers lobes striations. Only specified primary red, other regions grayblack. Equal panels same person camera equipment whole body within generous margins. Exactly two arms hands five fingers two legs feet. No text captions labels arrows logos.",
+      "inspectionNote": "Real output inspected. Tall kneeling with normal kettlebell racked at shoulder then pressed overhead, bell below handle behind forearm and same arm working. Deltoid red only, opaque clothing. Qualified review needed for grip security, wrist stacking, ribs/pelvis neutral and overhead lockout. Human anatomy review pending. No approval or publication.",
+      "canonicalName": "kettlebell kneeling one arm shoulder press",
+      "styleVersion": "white-v1",
+      "equipment": "kettlebell",
+      "primaryMuscles": [
+        "delts"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Tall kneeling with normal kettlebell racked at shoulder then pressed overhead, bell below handle behind forearm and same arm working. Deltoid red only, opaque clothing. Qualified review needed for grip security, wrist stacking, ribs/pelvis neutral and overhead lockout. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2932-male-anatomical-white-v1-p1-c6aded253ad7.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 23002,
+          "sha256": "c6aded253ad70a6d6845b1646689c52ae9c78206d4392083829825c768bdc09f"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/2932-male-anatomical-white-v1-p2-8177a4f7c2dc.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 23854,
+          "sha256": "8177a4f7c2dc8ea8dc742b9d8fcb2dd9cb9227149f24a953744a5191804dacb2"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-314.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2932-male-anatomical-white-v1-thumb-e8066f7abbfb.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2502,
+        "sha256": "e8066f7abbfb47f386944057943ce03b6755588dae1779ba848a9f5eb0d027fe"
+      },
+      "processingSignature": "6d10b924ec053490ea113be1b8e90d58a229ea118c85e7cd1051633ac38af8e0",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2932-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1342886,
+        "sha256": "0fed3006ae7ea2c508e886c5e419df5a96b64e47b5fb961496960f545f408a6c"
+      }
+    },
+    {
+      "exerciseId": "2934",
+      "variant": "male",
+      "key": "2934-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Half kneel with one foot forward and kettlebell racked at shoulder."
+        },
+        {
+          "key": "p2",
+          "caption": "Brace and press vertically overhead; lower slowly, then switch sides after reps."
+        }
+      ],
+      "prompt": "HALF KNEELING KETTLEBELL SHOULDER PRESS TWOequalpanels SAME SIDEfrontthreequartercamera. RIGHTKNEEfloor rightshinbehind, LEFTFOOTforwardflat LEFTknee90 overankle hipsLEVEL torsoUPRIGHT. SAME RIGHTARMholdsNORMALkettlebell RACKEDrightshoulder leftarmrelaxedbywaist. Heavybellbody BELOW/BEHINDhandle againstbackrightforearm notbottomsup. LEFTSTART rightelbowbent90 forearmvertical handshoulderheight. RIGHTEND pressRIGHTarmVERTICALOVERHEAD elbowstraight bicepsnearear normalbellbodybehindforearm, wriststackedelbowshoulder. EXACTSAMElegs halfkneeling contactpoints BOTHposes ribsdown glutesbraced noleanback. Primary RIGHTDELTOID onlyred exposedshoulder BOTHposes. Premium detailed adult MALE grayscale anatomical illustration; approved original reference STYLE ONLY ignore reference pose/highlights. Pure white background soft shadows detailed exposed gray muscle contours realistic proportions equipment. Opaque BLACK tank and mid-thigh shorts fully wrap front sides back seat crotch normal seams folds hems black shoes. No anatomy through fabric no cutaways. Covered highlight SMALL PLAIN UNIFORM soft red wash NO fibers lobes striations. Only specified primary red, other regions grayblack. Equal panels same person camera equipment whole body within generous margins. Exactly two arms hands five fingers two legs feet. No text captions labels arrows logos.",
+      "inspectionNote": "Real output inspected. Same half-kneeling leg position and working arm, normal kettlebell rack to overhead lockout; torso tall and opaque clothing. Deltoid red only. Qualified review needed for rear-knee glute engagement, pelvis level, wrist/shoulder stacking and front-knee alignment. Human anatomy review pending. No approval or publication.",
+      "canonicalName": "kettlebell half kneeling shoulder press",
+      "styleVersion": "white-v1",
+      "equipment": "kettlebell",
+      "primaryMuscles": [
+        "delts"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Same half-kneeling leg position and working arm, normal kettlebell rack to overhead lockout; torso tall and opaque clothing. Deltoid red only. Qualified review needed for rear-knee glute engagement, pelvis level, wrist/shoulder stacking and front-knee alignment. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2934-male-anatomical-white-v1-p1-169e7e59ab83.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 22962,
+          "sha256": "169e7e59ab835b98d1d5554b004a3cabbbb708197a381c3f49a3946c0b7b374d"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/2934-male-anatomical-white-v1-p2-ecef5ed0cc14.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 23940,
+          "sha256": "ecef5ed0cc14dac00be047492e4a5deadb7cfa41932129c6ac6d103deae35824"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-314.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2934-male-anatomical-white-v1-thumb-e64056e4f32c.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2672,
+        "sha256": "e64056e4f32c284564d96b325d71f25797ae99e59f5443faf4e30da52db4eeee"
+      },
+      "processingSignature": "a364013403e4cdec4976becfb82730be91c3a8adf34342f0a5424ebd659f534c",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2934-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1366890,
+        "sha256": "54bd2c2cd52937a90390b185aac77ab85a6d7f4a554601350f47627a7d85a81d"
+      }
+    },
+    {
+      "exerciseId": "2936",
+      "variant": "male",
+      "key": "2936-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Half kneel with front foot flat and heel grounded."
+        },
+        {
+          "key": "p2",
+          "caption": "Rock front knee forward over toes without lifting heel, then rock back slowly and switch legs."
+        }
+      ],
+      "prompt": "ROCKING ANKLE STRETCH TWOequalpanels SAME SIDEcamera facingLEFT. HALF KNEEL RIGHTKNEEfloorbehind RIGHTshinback LEFTFOOTforwardflat toeLEFT, LEFTkneebentnear90, bothhandslightlyonLEFTthighaboveKNEE notpulling. LEFTSTART torsoUPRIGHT frontLEFTkneeABOVEankle heelFLATfloor. RIGHTEND slowlyROCKFORWARD LEFTknee travelsOVERTOES leftankleDORSIFLEXES tibialeansforward, LEFTHEELstaysFIRMLYDOWN exactsamefootspot, rearRIGHTkneeSAMEfloorpoint torso slightforwardneutral, nofootrotation noheelraise. Primary LEFTCALF onlyred exposedPOSTERIORleftLOWERLEG soleus/gastrocnemius region BOTHposes notshin, allotherregionsgrayblack. Premium detailed adult MALE grayscale anatomical illustration; approved original reference STYLE ONLY ignore reference pose/highlights. Pure white background soft shadows detailed exposed gray muscle contours realistic proportions equipment. Opaque BLACK tank and mid-thigh shorts fully wrap front sides back seat crotch normal seams folds hems black shoes. No anatomy through fabric no cutaways. Covered highlight SMALL PLAIN UNIFORM soft red wash NO fibers lobes striations. Only specified primary red, other regions grayblack. Equal panels same person camera equipment whole body within generous margins. Exactly two arms hands five fingers two legs feet. No text captions labels arrows logos.",
+      "inspectionNote": "Real output inspected. Half kneeling ankle rock shows front tibia advancing over toes with heel grounded, rear knee down and hands on thigh. Calf tint and opaque clothing. Qualified review needed for unchanged foot/rear-knee spacing, true ankle dorsiflexion versus whole-body translation, calf mapping and comfortable range. Human anatomy review pending. No approval or publication.",
+      "canonicalName": "rocking ankle stretch",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "calves"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Half kneeling ankle rock shows front tibia advancing over toes with heel grounded, rear knee down and hands on thigh. Calf tint and opaque clothing. Qualified review needed for unchanged foot/rear-knee spacing, true ankle dorsiflexion versus whole-body translation, calf mapping and comfortable range. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2936-male-anatomical-white-v1-p1-d45204cad188.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 33870,
+          "sha256": "d45204cad188d497b1b3a8f9e586ecfa7f3463b24a8ceda8debc44dc91a7ecc5"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/2936-male-anatomical-white-v1-p2-37335fc4927c.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 33118,
+          "sha256": "37335fc4927cff55e87224dd4e4ed34441e7280e1f50febf793caa8d2690e329"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-314.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2936-male-anatomical-white-v1-thumb-68c0f5ceb6bb.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 3284,
+        "sha256": "68c0f5ceb6bbc4d2b6765d6f4b217a8a92a7672ccf7e068a23b8b51f5cbaa637"
+      },
+      "processingSignature": "7067d73502fb8d6de22f6781254529a03409085583483da594f5a860934ff350",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2936-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1836731,
+        "sha256": "2855435546308d1adeb17be81822a086dc3cc885c8ce2cb99c304cf006761ea5"
+      }
+    }
+  ]
+}

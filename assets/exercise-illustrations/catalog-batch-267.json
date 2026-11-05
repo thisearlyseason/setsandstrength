@@ -1,0 +1,315 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "2159",
+      "variant": "male",
+      "key": "2159-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Lie on your back with a band above your knees. Plant one foot and lift and extend the other leg."
+        },
+        {
+          "key": "p2",
+          "caption": "Drive through the planted heel to raise your hips, keeping the pelvis level. Squeeze the working glute, then lower with control and switch legs."
+        }
+      ],
+      "prompt": "RESISTANCE BAND ONE LEG GLUTE BRIDGE. TWO equalcells sidebyside SAME SIDEthreequarterfloorcamera. MaleSUPINE backofHEADandBOTH SHOULDERS FULLCONTACTfloor, armsstraightbysides palmsdown. LoopgrayBANDaroundBOTHTHIGHS justABOVEknees. RIGHTworkingfootflatfloor RIGHTkneebent, LEFTfreelegSTRAIGHT heldofffloor30degreesup. LEFTstartpelvisDOWNfloor. RIGHTendpelvisUP shoulderHIPRIGHTkneeSTRAIGHTLINE freeLEFTlegstillSTRAIGHT inlinewithworkingthigh, pelvisLEVEL nottwisting. Feetandbandtraceable clearNO extra knees. PrimaryRIGHTworkingGLUTE only smallplainredellipse on intactshorts. Premium detailed adult MALE grayscale anatomical illustration matching original project reference rendering STYLE ONLY, ignore reference exercise/red chest. Pure white background soft contact shadows realistic proportions detailed exposed gray muscle contours. Opaque BLACK tank and mid-thigh shorts fully wrap front sides back seat crotch with seams hems folds. NO clothing cutaways transparency or anatomy through fabric. Red on clothing PLAIN UNIFORM SOFT teaching ellipse NO internal fibers rays lobes segmentation; ordinary fabric folds retained. ONLY specified primary red chest black. Black shoes. Two coherent arms hands five fingers two legs feet. All body equipment within each cell generous margins. No text arrows logos.",
+      "inspectionNote": "Real output inspected. Two distinct single-leg bridge positions with loop above thighs and planted working foot, free leg lifted. Head floats above floor in both poses; block for relaxed floor-supported head/neck. Starting pose lacks glute highlight and top overlay includes internal fiber-like marks through shorts; correct consistent plain tint. Qualified review of free-leg tracing, pelvic level and band contact. Human anatomy review remains pending; no approval or publication.",
+      "blockingIssues": [
+        "Head floats off floor in both positions; correct relaxed head/neck support.",
+        "Starting glute highlight absent and top overlay includes internal fiber-like marks through shorts; use consistent plain fabric tint."
+      ],
+      "canonicalName": "resistance band one leg glute bridge",
+      "styleVersion": "white-v1",
+      "equipment": "band",
+      "primaryMuscles": [
+        "glutes"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Two distinct single-leg bridge positions with loop above thighs and planted working foot, free leg lifted. Head floats above floor in both poses; block for relaxed floor-supported head/neck. Starting pose lacks glute highlight and top overlay includes internal fiber-like marks through shorts; correct consistent plain tint. Qualified review of free-leg tracing, pelvic level and band contact. Human anatomy review remains pending; no approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2159-male-anatomical-white-v1-p1-4ff0997fe200.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 22420,
+          "sha256": "4ff0997fe200e14605f322c764c0c13d24686175adbc502c40fb7f7f75257868"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/2159-male-anatomical-white-v1-p2-5ac6c12644cf.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 24484,
+          "sha256": "5ac6c12644cfc87d42bbbe240404961f55345c05f24886820b871e7f5cb6bdb6"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-267.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2159-male-anatomical-white-v1-thumb-b0084d1a3bf6.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2338,
+        "sha256": "b0084d1a3bf6ac65a67cad7deb70884718f782c6f3c58082028d551e298d9fb2"
+      },
+      "processingSignature": "c8238d661d20c4f98cf7bc813798ebb61e508942b426e3d7ef2dd40844af9d95",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2159-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1323898,
+        "sha256": "558f92683d36bc97a1462b1ace507c93624ab789060ff9b1a0858135ea69365e"
+      }
+    },
+    {
+      "exerciseId": "2161",
+      "variant": "male",
+      "key": "2161-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Place a loop band around your ankles and hold a sturdy support with your core braced."
+        },
+        {
+          "key": "p2",
+          "caption": "Keep one knee straight as you press that leg back against the band. Avoid arching your back, then return slowly and switch legs after the set."
+        }
+      ],
+      "prompt": "RESISTANCE BAND ONE LEG KICKBACK. TWOequalcells sidebyside SAME SIDEthreequartercamera. MaleSTANDINGtall BOTHhandsholdGRAYstablechairBACK inFRONTofbody forbalance. GrayLOOPbandaroundBOTHANKLESaboveshoes. LEFTstartBOTHfeetflat hipwidthkneessoftstraight. RIGHTendRIGHTstraightleg extendsBACK20degrees fromHIP heelmovesback30cm toesnearofffloor, LEFTsupportfootflat kneesoft, hipsfaceforward spineNEUTRAL no lumbararch or forwardtorsohinge. Bandstretchesbetweenankles secure. PrimaryRIGHTworkingGLUTE only plainredellipse intactshorts; no calfchestred. Premium detailed adult MALE grayscale anatomical illustration matching original project reference rendering STYLE ONLY, ignore reference exercise/red chest. Pure white background soft contact shadows realistic proportions detailed exposed gray muscle contours. Opaque BLACK tank and mid-thigh shorts fully wrap front sides back seat crotch with seams hems folds. NO clothing cutaways transparency or anatomy through fabric. Red on clothing PLAIN UNIFORM SOFT teaching ellipse NO internal fibers rays lobes segmentation; ordinary fabric folds retained. ONLY specified primary red chest black. Black shoes. Two coherent arms hands five fingers two legs feet. All body equipment within each cell generous margins. No text arrows logos.",
+      "inspectionNote": "Real output inspected. Two standing kickback positions, hands on chair back, ankle band connects both legs and working straight leg extends behind without obvious lumbar arch. Working glute plain overlay only in end pose; starting highlight absent and requires consistency correction. Qualified review of support stability, knee extension, pelvic control, range and band contact. Human anatomy review remains pending; no approval or publication.",
+      "blockingIssues": [
+        "Starting working-glute highlight absent; maintain consistent primary-muscle teaching tint across poses."
+      ],
+      "canonicalName": "resistance band one leg kickback",
+      "styleVersion": "white-v1",
+      "equipment": "resistance band",
+      "primaryMuscles": [
+        "glutes"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Two standing kickback positions, hands on chair back, ankle band connects both legs and working straight leg extends behind without obvious lumbar arch. Working glute plain overlay only in end pose; starting highlight absent and requires consistency correction. Qualified review of support stability, knee extension, pelvic control, range and band contact. Human anatomy review remains pending; no approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2161-male-anatomical-white-v1-p1-5fa0f09f60ba.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 33492,
+          "sha256": "5fa0f09f60ba6f993688ac8bdc1a6f7b12e387c3850fc03eaf5844e7e8c3687f"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/2161-male-anatomical-white-v1-p2-b8189e39b26c.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 36808,
+          "sha256": "b8189e39b26cb26f962dcb5dd546678104de0ba34f9dc82c7c9e0c5718151e8f"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-267.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2161-male-anatomical-white-v1-thumb-bd15608e9bd8.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 3208,
+        "sha256": "bd15608e9bd8b029aa879c3e734468226f482de67d5edf520b230060fd12804f"
+      },
+      "processingSignature": "bff08fd80039067a6e34265dd1fdc326e02bd83eb91cc0ed3ab7018a300bdb9e",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2161-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1455811,
+        "sha256": "8387c664861dd25bcd0774c86a764391fb5b83aabd14305cc1719635a69c5a7c"
+      }
+    },
+    {
+      "exerciseId": "2163",
+      "variant": "male",
+      "key": "2163-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Lie face down over a bench with hips near the edge, grip the bench and secure the anchored band around your ankles."
+        },
+        {
+          "key": "p2",
+          "caption": "Lift both legs until they align with your torso, squeezing your glutes without swinging or arching your back. Lower slowly."
+        }
+      ],
+      "prompt": "RESISTANCE BAND REVERSE HYPEREXTENSION. TWOequalcells sidebyside SAME SIDEthreequartercamera. MalePRONEoverHIGHGRAYSTURDYBENCH headandCHESTforward LEFT, hipsatRIGHTedge ofbench BOTHhandsgripbenchsides. TORSOandPELVISsupportedPAD, legsfreebehindedge. GraybandANCHORboltedFLOORnearbenchREARLEG BELOWhips, elasticrises toSECUREANKLELOOParoundBOTHankles. LEFTstartBOTHstraightlegshangDOWN45degrees kneesstraightfeetclearfloor. RIGHTendBOTHstraightlegs liftBACKUPuntilINLINEwithtorso HORIZONTAL, notabove no lumbarhyperextension. Bandfromflooranchortoankles tautlongerattop clearlynotfloating no passbody. PrimaryBOTHGLUTES plainredellipse on intactshortsbuttocks. Fullbenchanchorfeetheadframe. Premium detailed adult MALE grayscale anatomical illustration matching original project reference rendering STYLE ONLY, ignore reference exercise/red chest. Pure white background soft contact shadows realistic proportions detailed exposed gray muscle contours. Opaque BLACK tank and mid-thigh shorts fully wrap front sides back seat crotch with seams hems folds. NO clothing cutaways transparency or anatomy through fabric. Red on clothing PLAIN UNIFORM SOFT teaching ellipse NO internal fibers rays lobes segmentation; ordinary fabric folds retained. ONLY specified primary red chest black. Black shoes. Two coherent arms hands five fingers two legs feet. All body equipment within each cell generous margins. No text arrows logos.",
+      "inspectionNote": "Real output inspected. Prone torso on high bench with hands gripping edge, legs lower diagonally then rise in line with torso, ankle cuffs attached to floor-anchored band, longer at top. Both feet clear floor and glute tint on intact shorts. Qualified review of bench-edge pelvic support, band/anchor geometry, cervical extension, knee straightness, no lumbar arch and glute mapping. Human anatomy review remains pending; no approval or publication.",
+      "canonicalName": "resistance band reverse hyperextension",
+      "styleVersion": "white-v1",
+      "equipment": "band",
+      "primaryMuscles": [
+        "glutes"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Prone torso on high bench with hands gripping edge, legs lower diagonally then rise in line with torso, ankle cuffs attached to floor-anchored band, longer at top. Both feet clear floor and glute tint on intact shorts. Qualified review of bench-edge pelvic support, band/anchor geometry, cervical extension, knee straightness, no lumbar arch and glute mapping. Human anatomy review remains pending; no approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2163-male-anatomical-white-v1-p1-81e28b0bf872.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 32442,
+          "sha256": "81e28b0bf87265489f07fab30f70e97630e123e14d0dda86f70f396a917bcddf"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/2163-male-anatomical-white-v1-p2-ab82f61bc37b.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 33258,
+          "sha256": "ab82f61bc37b32c4af3d643d124709a83c673589589f430c7805e00c82254124"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-267.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2163-male-anatomical-white-v1-thumb-cf1d2231735d.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 3402,
+        "sha256": "cf1d2231735d211f47e44cf14a94a36024174b3ff82881c3ad2eb664ead24ce6"
+      },
+      "processingSignature": "51b25ada400f0e7326d664c079e0ec7f976e35dbe4653d06f9701491a025498f",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2163-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1442910,
+        "sha256": "850e90ee4e77f72ecf8f85c5c0e767c5b6b1951b5b09dd88b6748781761dad40"
+      }
+    },
+    {
+      "exerciseId": "2164",
+      "variant": "male",
+      "key": "2164-male-anatomical-white-v1",
+      "layout": {
+        "columns": 1,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Set a side plank on your forearm and lower foot with a band around your thighs. Lift your hips into a straight line and gently raise the top leg against the band. Hold for 20\u201330 seconds, then switch sides."
+        }
+      ],
+      "prompt": "RESISTANCE BAND SIDE PLANK. ONEstaticfullbody FRONTthreequarterfloorview. MaleLEFTforearmSIDEPLANK LEFTelbowUNDERshoulder forearmgroundedpalmdown. LEFTbottomLEGSTRAIGHTouteredgeLEFTshoeFLOOR bearsload. HIPS LIFTED HIGH toSTRAIGHTLINEbottomLEFTankleHIPSHOULDERHEAD no sag nofloorsitting. RIGHTtopLEGSTRAIGHT raisedUP10cm againstgrayLOOPBANDaroundBOTHTHIGHSjustaboveknees; bandstretchesbetweenthighs. RIGHThandonHIP, pelvisSTACKED no rollingback. PrimaryABS supportsidewaist softuniformREDellipse on intacttank LEFTside; glutesblack. Headneckneutral. Premium detailed adult MALE grayscale anatomical illustration matching original project reference rendering STYLE ONLY, ignore reference exercise/red chest. Pure white background soft contact shadows realistic proportions detailed exposed gray muscle contours. Opaque BLACK tank and mid-thigh shorts fully wrap front sides back seat crotch with seams hems folds. NO clothing cutaways transparency or anatomy through fabric. Red on clothing PLAIN UNIFORM SOFT teaching ellipse NO internal fibers rays lobes segmentation; ordinary fabric folds retained. ONLY specified primary red chest black. Black shoes. Two coherent arms hands five fingers two legs feet. All body equipment within each cell generous margins. No text arrows logos.",
+      "inspectionNote": "Real output inspected. Static forearm side plank with hips lifted clear floor, lower straight leg/outer shoe supporting and top straight leg lifted against thigh loop. Opposite hand on hip, pelvis largely stacked, full opaque clothing and abdominal teaching tint. Qualified review needed for knee-hip-shoulder line, elbow placement, head alignment, support-side versus upper-side abdominal mapping and band tension. Human anatomy review remains pending; no approval or publication.",
+      "canonicalName": "resistance band side plank",
+      "styleVersion": "white-v1",
+      "equipment": "resistance band",
+      "primaryMuscles": [
+        "abs"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Static forearm side plank with hips lifted clear floor, lower straight leg/outer shoe supporting and top straight leg lifted against thigh loop. Opposite hand on hip, pelvis largely stacked, full opaque clothing and abdominal teaching tint. Qualified review needed for knee-hip-shoulder line, elbow placement, head alignment, support-side versus upper-side abdominal mapping and band tension. Human anatomy review remains pending; no approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2164-male-anatomical-white-v1-p1-3a82b5a9f521.webp",
+          "width": 1200,
+          "height": 600,
+          "bytes": 30648,
+          "sha256": "3a82b5a9f521f4642c6d6cef4f4619ea18928d38b2af64e6d2b3a57ae298a5ba"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-267.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2164-male-anatomical-white-v1-thumb-12f9418c7e37.webp",
+        "width": 240,
+        "height": 120,
+        "bytes": 2396,
+        "sha256": "12f9418c7e378cbc2a0be3c5c574afd4d6dd23d4c78d8113ab584dbf506bbaf4"
+      },
+      "processingSignature": "0f0b409d986134fb3553017830a0f389bf6650733b35e75dc0466248e40065b7",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2164-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1437219,
+        "sha256": "abec66bfd969ad239856bff6a32df9628b131645a11e3b752f6ca7bbeda378bb"
+      }
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "batch": 468,
+  "runId": "58dabd12-905b-4a4e-9db3-24689d0b09b7",
+  "triggerTimestamp": "2026-11-05T01:29:05.204Z",
+  "builtInImageGenAvailable": true,
+  "generatedIds": [
+    "5944"
+  ],
+  "coverageAfter": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1662,
+    "remainingVariants": 9602,
+    "approvedVariants": 0,
+    "blockedVariants": 596,
+    "knownPoseImages": 3358,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 1289,
+      "remainingVariants": 4343,
+      "blockedVariants": 477
+    }
+  },
+  "paidWorker": {
+    "statuses": {
+      "generated": 1662,
+      "pending": 9602
+    },
+    "remaining": 9602,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 2507036748
+  },
+  "pipelineTests": "8 passed, 0 failed",
+  "approvedIndexUnchanged": true,
+  "existingUserApprovalsPreserved": 1306,
+  "anatomyReview": "pending",
+  "publication": "none",
+  "blocked": {
+    "5944": [
+      "Lowered hand appears palm-up while raised hand is neutral; canonical front raise requires neutral grip from start through finish. Correct lowered grip before approval."
+    ]
+  }
+}

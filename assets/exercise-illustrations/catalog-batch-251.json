@@ -1,0 +1,272 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "1949",
+      "variant": "male",
+      "key": "1949-male-anatomical-white-v1",
+      "layout": {
+        "columns": 1,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Step into a staggered stance. Gently tuck your pelvis and shift your hips forward while keeping your torso upright. Hold for 20\u201330 seconds, then switch sides."
+        }
+      ],
+      "prompt": "STANDING HIP FLEXOR STRETCH. ONE fullbody static SIDE FRONT three-quarter view. Staggeredlunge RIGHTlegBACK leftlegFORWARD, frontleftknee gentlybent, rearRIGHTheel maylift naturally onballoffoot. RearRIGHTknee softalmoststraight notdeepkneel. Pelvis gentlyPOSTERIORLYTUCKED tailbonedown, gentlysqueezeRIGHTglute andshiftHIPFORWARD withoutlumbararch. TorsoUPRIGHT chesttall bothhands onhips. PRIMARY RIGHT QUADRICEPS/frontofREARthigh RED belowshorthem only, nofrontleftthighred, nohamstring/glutered, tankplainblack. Rearthigh clearlyconnectedtokneeandankle samebodyorientation. Comfortablegentlehold20-30sec noexaggeratedlunge. Use case: scientific-educational. Premium detailed ADULT MALE grayscale anatomical illustration matching original reference for rendering STYLE ONLY, ignore its pose and highlights. Realistic proportions, crisp exposed grayscale muscle contours, white background soft shadows. Full opaque BLACK athletic tank and mid-thigh shorts wrap front sides back seat crotch, seams hems folds; no transparency cutaways or anatomy visible through fabric. Red highlight over fabric must be a FLAT UNIFORM SOFT RED ELLIPSE teaching tint with no internal lines fibers rays or lobes; fabric folds retained. Black shoes. No text labels arrows captions logos. All limbs fingers feet and equipment entirely in frame with generous margins. Same person camera lighting and scale across poses.",
+      "inspectionNote": "Real output inspected. Standing hip-flexor stretch: staggered stance, upright torso, rear forefoot support and rear anterior-thigh highlight. Qualified review needed for actual posterior pelvic tuck, comfortable hip extension, glute engagement and quad-versus-hip-flexor mapping. Detailed grayscale rendering, white background and full opaque tank/shorts retained. Original project artwork style only, no upstream media. Exact prompt and original saved. Human anatomy review pending; no approval or publication.",
+      "canonicalName": "standing hip flexor stretch",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "quads"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Standing hip-flexor stretch: staggered stance, upright torso, rear forefoot support and rear anterior-thigh highlight. Qualified review needed for actual posterior pelvic tuck, comfortable hip extension, glute engagement and quad-versus-hip-flexor mapping. Detailed grayscale rendering, white background and full opaque tank/shorts retained. Original project artwork style only, no upstream media. Exact prompt and original saved. Human anatomy review pending; no approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/1949-male-anatomical-white-v1-p1-47bd4ef6788a.webp",
+          "width": 1097,
+          "height": 1200,
+          "bytes": 37162,
+          "sha256": "47bd4ef6788a18c37b86f490ed3918e820469ab22a8c85096d1eb29809632197"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-251.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/1949-male-anatomical-white-v1-thumb-f98efb718bca.webp",
+        "width": 219,
+        "height": 240,
+        "bytes": 2710,
+        "sha256": "f98efb718bcab89e682630de3eab8c97da78fcc4f3f80c6a49d43443e10e72a0"
+      },
+      "processingSignature": "213c9e789922a15a6454c5cfa8849a9b0f4d2a517ae01457bbeb5b8e0847a89f",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1949-male-anatomical-white-v1.png",
+        "width": 1199,
+        "height": 1312,
+        "bytes": 1328015,
+        "sha256": "c68e80efc5a8d07c6510b01d5b6c5c9da7b5722763b38f02c9c322237c37882d"
+      }
+    },
+    {
+      "exerciseId": "1953",
+      "variant": "male",
+      "key": "1953-male-anatomical-white-v1",
+      "layout": {
+        "columns": 1,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hold a wall or chair for balance. Bend one knee and hold that ankle behind you, keeping your knees close and torso tall. Gently bring the heel toward your glutes and hold for 20\u201330 seconds, then switch legs."
+        }
+      ],
+      "prompt": "SUPPORTED ONE LEG STANDING HIP FLEXOR AND KNEE EXTENSOR STRETCH. ONE fullbody static SIDE FRONT three-quarter view. StandLEFTfootflat nexttostablegraychair. LEFThandholdsCHAIRback balance. RIGHTknee flexesheelbehind towardRIGHTglute, RIGHThandholdsRIGHTankle behindbody. RIGHTthighverticalorjustbehindhip kneesCLOSETogether pelvisneutral/slightlytucked no lumbararch chesttall. Show coherent RIGHT HIP to THIGH to KNEE belowpelvis thenSHINfoldsBACKUP to ankleheldnearbuttock, no missinglegsegment. PRIMARY RIGHT ANTERIOR THIGH QUADS RED belowintactshorthem; oppositeleggray. Nochestred. Fullchairbothfeetheadhandsframe. Hold20-30sec. Use case: scientific-educational. Premium detailed ADULT MALE grayscale anatomical illustration matching original reference for rendering STYLE ONLY, ignore its pose and highlights. Realistic proportions, crisp exposed grayscale muscle contours, white background soft shadows. Full opaque BLACK athletic tank and mid-thigh shorts wrap front sides back seat crotch, seams hems folds; no transparency cutaways or anatomy visible through fabric. Red highlight over fabric must be a FLAT UNIFORM SOFT RED ELLIPSE teaching tint with no internal lines fibers rays or lobes; fabric folds retained. Black shoes. No text labels arrows captions logos. All limbs fingers feet and equipment entirely in frame with generous margins. Same person camera lighting and scale across poses.",
+      "inspectionNote": "Real output inspected. Supported standing quad stretch: one hand on chair, other holds same-side shoe/ankle with bent knee, opposite foot grounded and knees close. Qualified review needed for exact ankle grip, neutral pelvis, knee alignment and quad overlay on intact shorts. Detailed grayscale rendering, white background and full opaque tank/shorts retained. Original project artwork style only, no upstream media. Exact prompt and original saved. Human anatomy review pending; no approval or publication.",
+      "canonicalName": "supported one leg standing hip flexor and knee extensor stretch",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "quads"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Supported standing quad stretch: one hand on chair, other holds same-side shoe/ankle with bent knee, opposite foot grounded and knees close. Qualified review needed for exact ankle grip, neutral pelvis, knee alignment and quad overlay on intact shorts. Detailed grayscale rendering, white background and full opaque tank/shorts retained. Original project artwork style only, no upstream media. Exact prompt and original saved. Human anatomy review pending; no approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/1953-male-anatomical-white-v1-p1-474a7e7ef8b8.webp",
+          "width": 800,
+          "height": 1200,
+          "bytes": 48930,
+          "sha256": "474a7e7ef8b87f70a97ee027a6ddd5a1bf4cf9dc144388c2c4022e92d55b9a67"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-251.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/1953-male-anatomical-white-v1-thumb-298712415d44.webp",
+        "width": 160,
+        "height": 240,
+        "bytes": 3312,
+        "sha256": "298712415d44c9d559c88b1dc61c0d1972f845ad5c8110deb49acb3b23c1a0cb"
+      },
+      "processingSignature": "a5735112ed702e16ecff105f4b6a0aef9bfb9ed1e38b9b0b27ed9c2353d3dbb2",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1953-male-anatomical-white-v1.png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1540393,
+        "sha256": "b45fe27d916bb4694e002204ff91cef36b4989f2df90bb8d0d048de7ab039ee3"
+      }
+    },
+    {
+      "exerciseId": "1954",
+      "variant": "male",
+      "key": "1954-male-anatomical-white-v1",
+      "layout": {
+        "columns": 1,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Face away from a low box or bench and rest the top of one foot on it behind you. Keep your torso tall, tuck your pelvis and lower your hips slightly. Hold for 20\u201330 seconds, then switch legs."
+        }
+      ],
+      "prompt": "QUADRICEPS STRETCH ON BOX. ONE fullbody static SIDE FRONT three-quarter view. Male facesAWAYfrom lowsturdygrayBOX behindhim. LEFTfootflatforward onfloor supportsbody withsoftknee. RIGHTknee bendsbehind, TOPofRIGHTshoe restsBOXTOP behindbody heelup, ankleplantarflexed no toegripping. RearRIGHTthigh anglesdown/back fromhip kneebent90. TorsoTALL upright pelvisPOSTERIORLYtucked andhipsloweredSLIGHTLY tostretchfrontofRIGHTthigh, no deepbulgariansquat. BOTHhands hips. PRIMARY RIGHT FRONT THIGH QUADS RED belowshorthem only, leftquadgray chesttankblack. Entirelegjoints traceable hipkneeshinankleshoe, correcttopfootboxcontact. Hold20-30sec. Use case: scientific-educational. Premium detailed ADULT MALE grayscale anatomical illustration matching original reference for rendering STYLE ONLY, ignore its pose and highlights. Realistic proportions, crisp exposed grayscale muscle contours, white background soft shadows. Full opaque BLACK athletic tank and mid-thigh shorts wrap front sides back seat crotch, seams hems folds; no transparency cutaways or anatomy visible through fabric. Red highlight over fabric must be a FLAT UNIFORM SOFT RED ELLIPSE teaching tint with no internal lines fibers rays or lobes; fabric folds retained. Black shoes. No text labels arrows captions logos. All limbs fingers feet and equipment entirely in frame with generous margins. Same person camera lighting and scale across poses.",
+      "inspectionNote": "Real output inspected. Box quad stretch: bent rear knee with foot on box, front foot grounded, torso tall and rear-thigh teaching overlay. Qualified review needed for top-of-foot rather than toe-only support, hip tuck, mild depth and quad mapping. Detailed grayscale rendering, white background and full opaque tank/shorts retained. Original project artwork style only, no upstream media. Exact prompt and original saved. Human anatomy review pending; no approval or publication.",
+      "canonicalName": "quadriceps stretch on box",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "quads"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Box quad stretch: bent rear knee with foot on box, front foot grounded, torso tall and rear-thigh teaching overlay. Qualified review needed for top-of-foot rather than toe-only support, hip tuck, mild depth and quad mapping. Detailed grayscale rendering, white background and full opaque tank/shorts retained. Original project artwork style only, no upstream media. Exact prompt and original saved. Human anatomy review pending; no approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/1954-male-anatomical-white-v1-p1-5e4871176c32.webp",
+          "width": 1200,
+          "height": 600,
+          "bytes": 18968,
+          "sha256": "5e4871176c3271cd917fc7f154d1d8290c9a589bc1cc2809725e23a16d4f2546"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-251.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/1954-male-anatomical-white-v1-thumb-678d9ce714c7.webp",
+        "width": 240,
+        "height": 120,
+        "bytes": 1408,
+        "sha256": "678d9ce714c779ac8ee52d439f82c7c64d3e6d5639a0082d3812c8ade371752a"
+      },
+      "processingSignature": "9007954854e80311e2685e363c7c38906a083128276e9d29e805fe57f9bb2baa",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1954-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1303608,
+        "sha256": "2067b0612bdee1332529a117e5de243277b8dd01bf743ade0faf579cb303eb41"
+      }
+    },
+    {
+      "exerciseId": "1956",
+      "variant": "male",
+      "key": "1956-male-anatomical-white-v1",
+      "layout": {
+        "columns": 1,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Kneel and sit back toward your heels. Place your hands behind you, lean back slowly and lift your hips slightly into a comfortable stretch. Hold for 20\u201330 seconds without forcing your knees, then return slowly."
+        }
+      ],
+      "prompt": "DOUBLE LEAN BACK QUADRICEPS STRETCH. ONE fullbody static SIDE FRONT three-quarter view. Male KNEELS onBOTH knees whitefloor, bothshins flatbehindwithtopsfeetdown, kneesshoulderwidthorcloser. Startfromhipsnearheels thenleanTORSO BACK only20-30degrees withBOTHpalms plantedFLOOR behindhips fingerspointtowardbody, elbowssoft. HIPS liftSLIGHTLY aboveheels, bothkneesandshinsremainfloor, chestopen longspine no lowerbacksag. PRIMARY BOTH FRONT THIGH QUADS RED exposedbelowmid-thighshorthems, coveredupperthigh plainuniformsoftredteachingoverlay onintactshorts NOinternalfibers rays orcutaways. No redchest calvesorglutes. Fullbodyhandskneesfeetcontacts frame. Comfortablemildhold20-30sec. Use case: scientific-educational. Premium detailed ADULT MALE grayscale anatomical illustration matching original reference for rendering STYLE ONLY, ignore its pose and highlights. Realistic proportions, crisp exposed grayscale muscle contours, white background soft shadows. Full opaque BLACK athletic tank and mid-thigh shorts wrap front sides back seat crotch, seams hems folds; no transparency cutaways or anatomy visible through fabric. Red highlight over fabric must be a FLAT UNIFORM SOFT RED ELLIPSE teaching tint with no internal lines fibers rays or lobes; fabric folds retained. Black shoes. No text labels arrows captions logos. All limbs fingers feet and equipment entirely in frame with generous margins. Same person camera lighting and scale across poses.",
+      "inspectionNote": "Real output inspected. Double kneeling lean-back stretch: knees/shins supported, hands behind on floor, hips lifted and torso leaning back with intact shorts overlays. Qualified review needed for avoiding excessive hip lift/lumbar arch, comfortable knee range, foot orientation, hand contact and quad mapping. Detailed grayscale rendering, white background and full opaque tank/shorts retained. Original project artwork style only, no upstream media. Exact prompt and original saved. Human anatomy review pending; no approval or publication.",
+      "canonicalName": "double lean back quadriceps stretch",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "quads"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Double kneeling lean-back stretch: knees/shins supported, hands behind on floor, hips lifted and torso leaning back with intact shorts overlays. Qualified review needed for avoiding excessive hip lift/lumbar arch, comfortable knee range, foot orientation, hand contact and quad mapping. Detailed grayscale rendering, white background and full opaque tank/shorts retained. Original project artwork style only, no upstream media. Exact prompt and original saved. Human anatomy review pending; no approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/1956-male-anatomical-white-v1-p1-f397130e3bb0.webp",
+          "width": 1200,
+          "height": 800,
+          "bytes": 36444,
+          "sha256": "f397130e3bb09d920f74648c46a474fc53b79a00f2ad9d10a28e496a06654f85"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-251.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/1956-male-anatomical-white-v1-thumb-03bfc268d2a0.webp",
+        "width": 240,
+        "height": 160,
+        "bytes": 2472,
+        "sha256": "03bfc268d2a0ed716a866dd62e96c0f992d7fdc107b4e2b37c06bbeab466d044"
+      },
+      "processingSignature": "775c9510e12926e188143870efd081472f906627716b190b0eb48d1f22102944",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1956-male-anatomical-white-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1430812,
+        "sha256": "3998ff2678ab5e0b6d7c179f848534a4a48ec5d554093e4a45784333666767fe"
+      }
+    }
+  ]
+}

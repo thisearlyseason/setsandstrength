@@ -1,0 +1,70 @@
+{
+  "batch": 172,
+  "runId": "bc6fa9e2-4035-49a7-ae7f-9dfe965b182c",
+  "trigger": "2026-11-03T09:30:58.510Z",
+  "completedAt": "2026-11-03T09:40:43.716807+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 2,
+  "generationCalls": 4,
+  "exerciseIds": [
+    "1281"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 658,
+    "remainingVariants": 10606,
+    "approvedVariants": 0,
+    "blockedVariants": 221,
+    "knownPoseImages": 1318,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Two incline one-arm dumbbell press candidates, four poses, four built-in calls including two retained female corrections. Bent working elbow to vertical extended arm with free hand abdomen, supported back/head and planted feet. Female first correction smooths chest tint but softens exposed anatomy; second restores exposed grayscale anatomical contours while retaining smooth tint on intact opaque shirt. Full opaque shorts retained. Qualified head/pad support, elbow/press path, wrist/grip, incline angle and muscle mapping require human review. Every original, exact prompt and correction history saved, including unprocessed intermediate master; no anatomy/clothing approval or publication. Original project artwork rendering style only, no upstream licensed input. Seven pipeline checks do not establish anatomical accuracy.",
+  "metadataConflictsDeferred": {
+    "1280": "Incline title versus horizontal ball head/neck/upper-back support needs clarification.",
+    "1286": "Upper back support versus shoulders off ball contradictory.",
+    "1290": "Chest press target versus seated overhead press instructions.",
+    "1291": "Pullover described lying but instructions remain seated.",
+    "1292": "Chest fly target versus seated forward-leaning lateral lowering path.",
+    "1293": "Upper-back support description versus lower-back support instructions."
+  },
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 1043685808,
+  "savedMasters": [
+    {
+      "exerciseId": "1281",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1281-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1554025,
+        "sha256": "f57d205556b61cf5763bc2ae2dfca12216243c29a30b167e926efe8a5d026db5"
+      }
+    },
+    {
+      "exerciseId": "1281",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1281-female-anatomical-white-v3.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1571024,
+        "sha256": "cc57d33241bbebc960179eac582db55088163306ec1e554c26f4ed6c5a91036a"
+      }
+    }
+  ]
+}

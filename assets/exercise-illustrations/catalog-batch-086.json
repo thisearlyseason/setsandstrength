@@ -1,0 +1,588 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "0601",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Sit with chest supported, holding parallel grips with arms forward"
+        },
+        {
+          "key": "p2",
+          "caption": "Open arms outward to shoulder level while keeping elbows softly bent and chest supported"
+        }
+      ],
+      "detail": "LEVER SEATED REVERSE FLY with PARALLEL NEUTRAL GRIP. REAR three-quarter camera shows posterior shoulders and both hands. Adult sits facing into reverse-fly station with CHEST against front vertical chest pad, feet flat floor, torso upright/stationary. Both hands grip VERTICAL handles, palms face each other, thumbs wrap. LEFT start arms reach forward around chest pad at shoulder level, elbows slightly bent. RIGHT spread SAME arms OUTWARD/BACK to sides at shoulder height, maintaining SAME slight elbow bend, shoulder blades retract; not a row, no elbow flexion, no torso lean. Stop upper arms approximately in plane of torso, no excessive shoulder extension. Simple machine has two SAME LENGTH rigid moving arms rotating around FIXED vertical axes above/front shoulders; handles always visibly connected. SAME frame/pivots/pad/seat/stack/base and camera in both panels. Both posterior DELTOID shoulder caps exposed RED only, traps/back/triceps/forearms grayscale, entire black shirt BLACK no red back. Entire wide-open arms/handles and all machine fit within each panel.",
+      "variant": "male",
+      "key": "0601-male-anatomical-white-v2",
+      "prompt": "Correct ONLY LEFT START PANEL of this original project reverse fly so it is a shoulder reverse-fly, not a bent-elbow row. BOTH arms should reach FORWARD around front of chest pad with elbows NEARLY STRAIGHT, just15degrees flexion, same elbow bend as RIGHT endpoint. In left panel extend upper arms/forearms together toward the front of the machine, hands farther forward away from chest, adjust connected vertical grips and swinging lever angle to meet hands. Keep palms facing each other, thumbs wrapped. Chest stays against pad; torso, legs, seat, fixed frame/pivots unchanged. RIGHT panel stays unchanged, arms spread outward at shoulder height. Red on posterior deltoids only, rest grayscale, detailed exposed fibers. Opaque BLACK shirt and shorts fully wrap front/sides/back/seat/crotch. White background, entire machine/body within each panel, no text. Preserve original male/female identity of supplied image.",
+      "inspectionNote": "Start correction visibly extends both arms forward with soft elbows, improving reverse-fly movement consistency. End arms spread with posterior deltoid highlights, opaque clothing and chest support retained. Moving lever/fixed-pivot connections across phases remain mechanically ambiguous and blocked for validation. Original retained; anatomy approval pending.",
+      "canonicalName": "lever seated reverse fly (parallel grip)",
+      "styleVersion": "white-v1",
+      "equipment": "leverage machine",
+      "primaryMuscles": [
+        "deltoids"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0601-male-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Start correction visibly extends both arms forward with soft elbows, improving reverse-fly movement consistency. End arms spread with posterior deltoid highlights, opaque clothing and chest support retained. Moving lever/fixed-pivot connections across phases remain mechanically ambiguous and blocked for validation. Original retained; anatomy approval pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0601-male-anatomical-white-v2-p1-d821c61c1c7a.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 46088,
+          "sha256": "d821c61c1c7ad1424394cc50522f005230685342513eb6459ee371432701c64e"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0601-male-anatomical-white-v2-p2-a1051f3c083b.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 51224,
+          "sha256": "a1051f3c083b4e8ae4a66b873d10f24653caed9076a36c8ee510e56f37e70f27"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0601-male-anatomical-white-v2-thumb-35dc6108fa77.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 4940,
+        "sha256": "35dc6108fa776888748064bdd819abe150265b48aa56e1b5b209c1c311c10d9d"
+      },
+      "processingSignature": "a2a3f8e3ee95d859f0bf80f8b18d939123a6973bd0f23840dc4f78a55e655ca2",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0601-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1804553,
+        "sha256": "afcd31a85bcba1e1ed67fe47aa0cea5bb9600bb72f11b9b17a256098c0066c19"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0601",
+          "layout": {
+            "columns": 2,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Sit with chest supported, holding parallel grips with arms forward"
+            },
+            {
+              "key": "p2",
+              "caption": "Open arms outward to shoulder level while keeping elbows softly bent and chest supported"
+            }
+          ],
+          "detail": "LEVER SEATED REVERSE FLY with PARALLEL NEUTRAL GRIP. REAR three-quarter camera shows posterior shoulders and both hands. Adult sits facing into reverse-fly station with CHEST against front vertical chest pad, feet flat floor, torso upright/stationary. Both hands grip VERTICAL handles, palms face each other, thumbs wrap. LEFT start arms reach forward around chest pad at shoulder level, elbows slightly bent. RIGHT spread SAME arms OUTWARD/BACK to sides at shoulder height, maintaining SAME slight elbow bend, shoulder blades retract; not a row, no elbow flexion, no torso lean. Stop upper arms approximately in plane of torso, no excessive shoulder extension. Simple machine has two SAME LENGTH rigid moving arms rotating around FIXED vertical axes above/front shoulders; handles always visibly connected. SAME frame/pivots/pad/seat/stack/base and camera in both panels. Both posterior DELTOID shoulder caps exposed RED only, traps/back/triceps/forearms grayscale, entire black shirt BLACK no red back. Entire wide-open arms/handles and all machine fit within each panel.",
+          "variant": "male",
+          "key": "0601-male-anatomical-white-v1",
+          "prompt": "Original educational exercise illustration. Attached original project image is STYLE reference ONLY, never pose reference. Detailed fine grayscale anatomical fibers on exposed limbs, realistic neutral adult MALE; pure white background. TWO equal side-by-side panels with identical model, dimensions, camera and lighting. FULLY OPAQUE matte BLACK sleeveless shirt continuously wraps torso front/sides/back. Loose BLACK knee-length shorts wrap BOTH upper thighs, seat and crotch fully front/sides/rear, closed hems and seams, broad natural fabric folds. NO bare buttocks, translucent cloth, cutaways, anatomy windows or muscle-fiber patterns on garments. Black trainers. Red PRIMARY muscle highlights only as specified; over clothing use a SOFT DIFFUSE COLOR PATCH on intact BLACK FABRIC without anatomical subdivisions. Whole person, fingers/shoes and ENTIRE machine including frame, lever, pivots, weight stack and base within EACH panel with generous white margins. Same EXACT fixed frame/seat/pad/camera/pivots in both phases; only exercise joints and connected moving lever rotate. No text, arrows, captions, logos or numbers. LEVER SEATED REVERSE FLY with PARALLEL NEUTRAL GRIP. REAR three-quarter camera shows posterior shoulders and both hands. Adult sits facing into reverse-fly station with CHEST against front vertical chest pad, feet flat floor, torso upright/stationary. Both hands grip VERTICAL handles, palms face each other, thumbs wrap. LEFT start arms reach forward around chest pad at shoulder level, elbows slightly bent. RIGHT spread SAME arms OUTWARD/BACK to sides at shoulder height, maintaining SAME slight elbow bend, shoulder blades retract; not a row, no elbow flexion, no torso lean. Stop upper arms approximately in plane of torso, no excessive shoulder extension. Simple machine has two SAME LENGTH rigid moving arms rotating around FIXED vertical axes above/front shoulders; handles always visibly connected. SAME frame/pivots/pad/seat/stack/base and camera in both panels. Both posterior DELTOID shoulder caps exposed RED only, traps/back/triceps/forearms grayscale, entire black shirt BLACK no red back. Entire wide-open arms/handles and all machine fit within each panel.",
+          "inspectionNote": "Reverse fly shows chest support, vertical neutral grips, posterior shoulder highlights and full opaque black clothing. Start elbows are markedly bent whereas endpoint arms straighten, making movement resemble a row; rear-fly elbow consistency requires correction. Full apparatus retained. Human review pending.",
+          "blockingIssues": [
+            "Elbow bend changes markedly from flexed start to straight endpoint; reverse fly requires approximately fixed soft elbow bend."
+          ],
+          "canonicalName": "lever seated reverse fly (parallel grip)",
+          "styleVersion": "white-v1",
+          "equipment": "leverage machine",
+          "primaryMuscles": [
+            "deltoids"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Reverse fly shows chest support, vertical neutral grips, posterior shoulder highlights and full opaque black clothing. Start elbows are markedly bent whereas endpoint arms straighten, making movement resemble a row; rear-fly elbow consistency requires correction. Full apparatus retained. Human review pending.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0601-male-anatomical-white-v1-p1-0977771926b6.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 50722,
+              "sha256": "0977771926b682d50d3abcb4ad1f223a63bc6365b86b59a731e65e87cdb0e91a"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0601-male-anatomical-white-v1-p2-7c227cbe2201.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 54914,
+              "sha256": "7c227cbe22016811be270cc980f3f0ca3d700448c4a39d6c15fca7f9d5c9b0d9"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0601-male-anatomical-white-v1-thumb-92902fc7d844.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 5116,
+            "sha256": "92902fc7d844adb293f73095a8c12cfef792b47a786af0bbe900a5899c07245c"
+          },
+          "processingSignature": "d5e8f7c0f6b82cf1fd61e525a01609f6a40472770278e457416f98ba7188f853",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0601-male-anatomical-white-v1.png",
+            "width": 1774,
+            "height": 887,
+            "bytes": 1830878,
+            "sha256": "da994f6022a850a5864ae5d4582ada106fd0d9f2acd3a2c29bbd37b009504caa"
+          }
+        }
+      ],
+      "blockingIssues": [
+        "Validate both independent lever-to-pivot connections and fixed machine geometry across phases."
+      ]
+    },
+    {
+      "exerciseId": "0601",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Sit with chest supported, holding parallel grips with arms forward"
+        },
+        {
+          "key": "p2",
+          "caption": "Open arms outward to shoulder level while keeping elbows softly bent and chest supported"
+        }
+      ],
+      "detail": "LEVER SEATED REVERSE FLY with PARALLEL NEUTRAL GRIP. REAR three-quarter camera shows posterior shoulders and both hands. Adult sits facing into reverse-fly station with CHEST against front vertical chest pad, feet flat floor, torso upright/stationary. Both hands grip VERTICAL handles, palms face each other, thumbs wrap. LEFT start arms reach forward around chest pad at shoulder level, elbows slightly bent. RIGHT spread SAME arms OUTWARD/BACK to sides at shoulder height, maintaining SAME slight elbow bend, shoulder blades retract; not a row, no elbow flexion, no torso lean. Stop upper arms approximately in plane of torso, no excessive shoulder extension. Simple machine has two SAME LENGTH rigid moving arms rotating around FIXED vertical axes above/front shoulders; handles always visibly connected. SAME frame/pivots/pad/seat/stack/base and camera in both panels. Both posterior DELTOID shoulder caps exposed RED only, traps/back/triceps/forearms grayscale, entire black shirt BLACK no red back. Entire wide-open arms/handles and all machine fit within each panel.",
+      "variant": "female",
+      "key": "0601-female-anatomical-white-v2",
+      "prompt": "Correct ONLY LEFT START PANEL of this original project reverse fly so it is a shoulder reverse-fly, not a bent-elbow row. BOTH arms should reach FORWARD around front of chest pad with elbows NEARLY STRAIGHT, just15degrees flexion, same elbow bend as RIGHT endpoint. In left panel extend upper arms/forearms together toward the front of the machine, hands farther forward away from chest, adjust connected vertical grips and swinging lever angle to meet hands. Keep palms facing each other, thumbs wrapped. Chest stays against pad; torso, legs, seat, fixed frame/pivots unchanged. RIGHT panel stays unchanged, arms spread outward at shoulder height. Red on posterior deltoids only, rest grayscale, detailed exposed fibers. Opaque BLACK shirt and shorts fully wrap front/sides/back/seat/crotch. White background, entire machine/body within each panel, no text. Preserve original male/female identity of supplied image.",
+      "inspectionNote": "Start correction extends arms forward with nearly straight soft elbows; endpoint remains open at shoulder height. Clothing, posterior deltoid highlights and chest support retained. Far-side lever/handle connection in start phase appears disconnected and remains blocked. Original retained; human anatomy review pending.",
+      "canonicalName": "lever seated reverse fly (parallel grip)",
+      "styleVersion": "white-v1",
+      "equipment": "leverage machine",
+      "primaryMuscles": [
+        "deltoids"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0601-female-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Start correction extends arms forward with nearly straight soft elbows; endpoint remains open at shoulder height. Clothing, posterior deltoid highlights and chest support retained. Far-side lever/handle connection in start phase appears disconnected and remains blocked. Original retained; human anatomy review pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0601-female-anatomical-white-v2-p1-779d609e70f0.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 40370,
+          "sha256": "779d609e70f0caaf0a94ae0e0cbf3ffd387316e670c9265cf69bab852e49491f"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0601-female-anatomical-white-v2-p2-95f74892f470.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 48214,
+          "sha256": "95f74892f4705ee88fa1c44938ef44d70452aacf9788b956b1df6628c6caace7"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0601-female-anatomical-white-v2-thumb-af05288f0081.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 4696,
+        "sha256": "af05288f008142c96b95102624e82df7d53334293e2219598647bbc65251c1d7"
+      },
+      "processingSignature": "4c63257f147d88e6f2ddb6544950a276c408735e76b5355623a9ca965e7ed08f",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0601-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1766884,
+        "sha256": "3d89206562274889067adbf67ea3ac1cb75222c57ad39dc60f395925282a4c5a"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0601",
+          "layout": {
+            "columns": 2,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Sit with chest supported, holding parallel grips with arms forward"
+            },
+            {
+              "key": "p2",
+              "caption": "Open arms outward to shoulder level while keeping elbows softly bent and chest supported"
+            }
+          ],
+          "detail": "LEVER SEATED REVERSE FLY with PARALLEL NEUTRAL GRIP. REAR three-quarter camera shows posterior shoulders and both hands. Adult sits facing into reverse-fly station with CHEST against front vertical chest pad, feet flat floor, torso upright/stationary. Both hands grip VERTICAL handles, palms face each other, thumbs wrap. LEFT start arms reach forward around chest pad at shoulder level, elbows slightly bent. RIGHT spread SAME arms OUTWARD/BACK to sides at shoulder height, maintaining SAME slight elbow bend, shoulder blades retract; not a row, no elbow flexion, no torso lean. Stop upper arms approximately in plane of torso, no excessive shoulder extension. Simple machine has two SAME LENGTH rigid moving arms rotating around FIXED vertical axes above/front shoulders; handles always visibly connected. SAME frame/pivots/pad/seat/stack/base and camera in both panels. Both posterior DELTOID shoulder caps exposed RED only, traps/back/triceps/forearms grayscale, entire black shirt BLACK no red back. Entire wide-open arms/handles and all machine fit within each panel.",
+          "variant": "female",
+          "key": "0601-female-anatomical-white-v1",
+          "prompt": "Original educational exercise illustration. Attached original project image is STYLE reference ONLY, never pose reference. Detailed fine grayscale anatomical fibers on exposed limbs, realistic neutral adult FEMALE; pure white background. TWO equal side-by-side panels with identical model, dimensions, camera and lighting. FULLY OPAQUE matte BLACK sleeveless shirt continuously wraps torso front/sides/back. Loose BLACK knee-length shorts wrap BOTH upper thighs, seat and crotch fully front/sides/rear, closed hems and seams, broad natural fabric folds. NO bare buttocks, translucent cloth, cutaways, anatomy windows or muscle-fiber patterns on garments. Black trainers. Red PRIMARY muscle highlights only as specified; over clothing use a SOFT DIFFUSE COLOR PATCH on intact BLACK FABRIC without anatomical subdivisions. Whole person, fingers/shoes and ENTIRE machine including frame, lever, pivots, weight stack and base within EACH panel with generous white margins. Same EXACT fixed frame/seat/pad/camera/pivots in both phases; only exercise joints and connected moving lever rotate. No text, arrows, captions, logos or numbers. LEVER SEATED REVERSE FLY with PARALLEL NEUTRAL GRIP. REAR three-quarter camera shows posterior shoulders and both hands. Adult sits facing into reverse-fly station with CHEST against front vertical chest pad, feet flat floor, torso upright/stationary. Both hands grip VERTICAL handles, palms face each other, thumbs wrap. LEFT start arms reach forward around chest pad at shoulder level, elbows slightly bent. RIGHT spread SAME arms OUTWARD/BACK to sides at shoulder height, maintaining SAME slight elbow bend, shoulder blades retract; not a row, no elbow flexion, no torso lean. Stop upper arms approximately in plane of torso, no excessive shoulder extension. Simple machine has two SAME LENGTH rigid moving arms rotating around FIXED vertical axes above/front shoulders; handles always visibly connected. SAME frame/pivots/pad/seat/stack/base and camera in both panels. Both posterior DELTOID shoulder caps exposed RED only, traps/back/triceps/forearms grayscale, entire black shirt BLACK no red back. Entire wide-open arms/handles and all machine fit within each panel.",
+          "inspectionNote": "Chest-supported reverse fly with neutral vertical grips and posterior deltoid highlights; opaque shirt and shorts wrap fully. Start elbows flex substantially whereas end arms straighten; lever shape also differs. Needs elbow-angle and mechanical continuity correction before human approval.",
+          "blockingIssues": [
+            "Elbow bend changes markedly across phases and moving lever shape differs; not a fixed-elbow reverse-fly arc."
+          ],
+          "canonicalName": "lever seated reverse fly (parallel grip)",
+          "styleVersion": "white-v1",
+          "equipment": "leverage machine",
+          "primaryMuscles": [
+            "deltoids"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Chest-supported reverse fly with neutral vertical grips and posterior deltoid highlights; opaque shirt and shorts wrap fully. Start elbows flex substantially whereas end arms straighten; lever shape also differs. Needs elbow-angle and mechanical continuity correction before human approval.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0601-female-anatomical-white-v1-p1-9767caef17b0.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 47056,
+              "sha256": "9767caef17b03f208086d617268f21ba9b377083368e5d9780c19a33dd964d39"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0601-female-anatomical-white-v1-p2-c03c83fd8df1.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 54852,
+              "sha256": "c03c83fd8df1eb4a4dc9dc8c97f0530a03e8e3a4c85c595e11dea965aa41cdfc"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0601-female-anatomical-white-v1-thumb-bdbfcdb4d769.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 4876,
+            "sha256": "bdbfcdb4d769dfbae24b6d4179f294c7fe4fc8166e6f66390f981fe267e31dad"
+          },
+          "processingSignature": "2ee79a774f42eacb6c68165301b7de39cfa67852b5fd859c9958e0c1fca853f1",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0601-female-anatomical-white-v1.png",
+            "width": 1774,
+            "height": 887,
+            "bytes": 1643294,
+            "sha256": "2933e367f6ea6f9e68ae68c7f353fa5c61474e84cf916ca951f8efca3f2b1bfa"
+          }
+        }
+      ],
+      "blockingIssues": [
+        "Far-side starting handle is not clearly connected to its independent lever; mechanical continuity needs correction."
+      ]
+    },
+    {
+      "exerciseId": "0605",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand with shoulders under pads and balls of feet supported, heels lowered"
+        },
+        {
+          "key": "p2",
+          "caption": "Rise onto balls of feet by lifting both heels while keeping knees softly straight"
+        }
+      ],
+      "detail": "LEVER STANDING CALF RAISE, SIDE three-quarter camera shows both heels and toes clearly. Stand straight in shoulder-pad calf machine, feet shoulder-width on edge of raised fixed FOOT BLOCK, balls of BOTH feet supported on block, heels extend beyond rear edge. Shoulders beneath two padded supports attached to lever resistance frame; hands grasp shoulder-height handles securely. Spine neutral, knees nearly straight but softly unlocked and UNCHANGED across phases. LEFT heels lowered below block top in controlled ankle dorsiflexion, balls/toes remain on block. RIGHT push through same balls of feet and plantarflex BOTH ankles to raise BOTH heels clearly above block top; WHOLE body/shoulder carriage rises together, same upright posture, no knee bending or toe reposition. Body proportion/leg lengths fixed, ONLY ankle angle changes. Shoulder pads remain contacting shoulders and connected lever rotates around same FIXED pivot; same weight-stack machine frame/base/footblock in both panels. Red highlights ONLY exposed posterior CALVES on both lower legs, other anatomy grayscale, whole shirt/shorts BLACK opaque. Both shoes and entire machine including overhead frame and footblock within panels with white margins.",
+      "variant": "male",
+      "key": "0605-male-anatomical-white-v2",
+      "prompt": "Correct this original project male standing calf raise in TWO panels. Reframe both scenes slightly smaller to leave generous white space ABOVE head and whole machine. Keep SAME machine/frame/footblock/camera/body proportions across phases. Move balls of BOTH feet toward REAR EDGE of fixed block so only FOREFOOT is supported and heels extend BEYOND block edge (toward viewer). LEFT phase: both heels hang clearly BELOW top of block with ankles dorsiflexed; knees softly straight. RIGHT phase: plantarflex ankles, heels clearly ABOVE block top, balls stay at SAME fixed contact points. The ENTIRE upright body, hips, shoulders, head and shoulder pads must translate UP together by heel-rise height on right, with unchanged femur/tibia/body lengths and knee angles; not shortened legs. Top pressing lever rotates slightly UP around its SAME fixed hinge with body/pads. Hands keep holding handles. Red posterior calves only, other exposed anatomy detailed grayscale, torso fully opaque black shirt and shorts wrapping seat/crotch/sides. Preserve model, no text, no floating forefeet.",
+      "inspectionNote": "Correction visibly lowers start heels beyond block edge, raises endpoint heels and translates upright body and shoulder pads upward. More head margin; detailed grayscale anatomy, red calves and full opaque clothing retained. Forefoot contact consistency, fixed leg proportions and lever resistance require qualified human review. Original retained; no anatomical approval.",
+      "canonicalName": "lever standing calf raise",
+      "styleVersion": "white-v1",
+      "equipment": "leverage machine",
+      "primaryMuscles": [
+        "calves"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0605-male-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Correction visibly lowers start heels beyond block edge, raises endpoint heels and translates upright body and shoulder pads upward. More head margin; detailed grayscale anatomy, red calves and full opaque clothing retained. Forefoot contact consistency, fixed leg proportions and lever resistance require qualified human review. Original retained; no anatomical approval.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0605-male-anatomical-white-v2-p1-e9a16c5dccaa.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 41724,
+          "sha256": "e9a16c5dccaac5e2b398b2804c2a4a0a8c4c3abdabcc32fcdef2c1171d7b3efc"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0605-male-anatomical-white-v2-p2-b54c355ad1fb.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 43066,
+          "sha256": "b54c355ad1fb5e535ab8190f08203c3dafd32535c8c91c14349158fd4741c5f5"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0605-male-anatomical-white-v2-thumb-06ce6a01e87c.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 4406,
+        "sha256": "06ce6a01e87cd8aae3592566d933a26869367488849836b19a31f44ef7cfd7be"
+      },
+      "processingSignature": "810064e56034c3ea85a1a057d9a9d7485c6b57708d116556181d10225aeedc95",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0605-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1592809,
+        "sha256": "b7b2e81111e9231417fc31624a47a027b3d1f72e9ce3639fb63212b7ca8e38b9"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0605",
+          "layout": {
+            "columns": 2,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Stand with shoulders under pads and balls of feet supported, heels lowered"
+            },
+            {
+              "key": "p2",
+              "caption": "Rise onto balls of feet by lifting both heels while keeping knees softly straight"
+            }
+          ],
+          "detail": "LEVER STANDING CALF RAISE, SIDE three-quarter camera shows both heels and toes clearly. Stand straight in shoulder-pad calf machine, feet shoulder-width on edge of raised fixed FOOT BLOCK, balls of BOTH feet supported on block, heels extend beyond rear edge. Shoulders beneath two padded supports attached to lever resistance frame; hands grasp shoulder-height handles securely. Spine neutral, knees nearly straight but softly unlocked and UNCHANGED across phases. LEFT heels lowered below block top in controlled ankle dorsiflexion, balls/toes remain on block. RIGHT push through same balls of feet and plantarflex BOTH ankles to raise BOTH heels clearly above block top; WHOLE body/shoulder carriage rises together, same upright posture, no knee bending or toe reposition. Body proportion/leg lengths fixed, ONLY ankle angle changes. Shoulder pads remain contacting shoulders and connected lever rotates around same FIXED pivot; same weight-stack machine frame/base/footblock in both panels. Red highlights ONLY exposed posterior CALVES on both lower legs, other anatomy grayscale, whole shirt/shorts BLACK opaque. Both shoes and entire machine including overhead frame and footblock within panels with white margins.",
+          "variant": "male",
+          "key": "0605-male-anatomical-white-v1",
+          "prompt": "Original educational exercise illustration. Attached original project image is STYLE reference ONLY, never pose reference. Detailed fine grayscale anatomical fibers on exposed limbs, realistic neutral adult MALE; pure white background. TWO equal side-by-side panels with identical model, dimensions, camera and lighting. FULLY OPAQUE matte BLACK sleeveless shirt continuously wraps torso front/sides/back. Loose BLACK knee-length shorts wrap BOTH upper thighs, seat and crotch fully front/sides/rear, closed hems and seams, broad natural fabric folds. NO bare buttocks, translucent cloth, cutaways, anatomy windows or muscle-fiber patterns on garments. Black trainers. Red PRIMARY muscle highlights only as specified; over clothing use a SOFT DIFFUSE COLOR PATCH on intact BLACK FABRIC without anatomical subdivisions. Whole person, fingers/shoes and ENTIRE machine including frame, lever, pivots, weight stack and base within EACH panel with generous white margins. Same EXACT fixed frame/seat/pad/camera/pivots in both phases; only exercise joints and connected moving lever rotate. No text, arrows, captions, logos or numbers. LEVER STANDING CALF RAISE, SIDE three-quarter camera shows both heels and toes clearly. Stand straight in shoulder-pad calf machine, feet shoulder-width on edge of raised fixed FOOT BLOCK, balls of BOTH feet supported on block, heels extend beyond rear edge. Shoulders beneath two padded supports attached to lever resistance frame; hands grasp shoulder-height handles securely. Spine neutral, knees nearly straight but softly unlocked and UNCHANGED across phases. LEFT heels lowered below block top in controlled ankle dorsiflexion, balls/toes remain on block. RIGHT push through same balls of feet and plantarflex BOTH ankles to raise BOTH heels clearly above block top; WHOLE body/shoulder carriage rises together, same upright posture, no knee bending or toe reposition. Body proportion/leg lengths fixed, ONLY ankle angle changes. Shoulder pads remain contacting shoulders and connected lever rotates around same FIXED pivot; same weight-stack machine frame/base/footblock in both panels. Red highlights ONLY exposed posterior CALVES on both lower legs, other anatomy grayscale, whole shirt/shorts BLACK opaque. Both shoes and entire machine including overhead frame and footblock within panels with white margins.",
+          "inspectionNote": "Standing shoulder-pad calf raise, planted forefeet and raised heels at endpoint, posterior calves red and opaque black clothing. Start heels sit on block rather than lowering beyond edge; body height does not rise convincingly with heel lift. Needs range and proportion continuity correction. Full apparatus visible with tight head margin.",
+          "blockingIssues": [
+            "Start heels lack below-block range and body/pad elevation does not track heel rise consistently."
+          ],
+          "canonicalName": "lever standing calf raise",
+          "styleVersion": "white-v1",
+          "equipment": "leverage machine",
+          "primaryMuscles": [
+            "calves"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Standing shoulder-pad calf raise, planted forefeet and raised heels at endpoint, posterior calves red and opaque black clothing. Start heels sit on block rather than lowering beyond edge; body height does not rise convincingly with heel lift. Needs range and proportion continuity correction. Full apparatus visible with tight head margin.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0605-male-anatomical-white-v1-p1-770c8260a28b.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 46244,
+              "sha256": "770c8260a28b6febb0e7fc01cfa1920a64ad3cdc6bfaf7d92c63adc820f80a5e"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0605-male-anatomical-white-v1-p2-9e7f4a14294f.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 44566,
+              "sha256": "9e7f4a14294f4f8971af9350801a889cd42ce17d165e91e3891c724c2608d8d1"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0605-male-anatomical-white-v1-thumb-39b0c32df617.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 4690,
+            "sha256": "39b0c32df617fe563f48e9084f7b6f45c19954a5f16596cdee18effad6065b47"
+          },
+          "processingSignature": "c7bb18a46eab803b2c7ff05cb4a54178b1ce79d4cd1b11fd219f20a3d4985953",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0605-male-anatomical-white-v1.png",
+            "width": 1774,
+            "height": 887,
+            "bytes": 1540689,
+            "sha256": "d4424327e0fbe678485a966f7f9e0d7d15da33084c634e3fe042f0aa6932ff47"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "0605",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand with shoulders under pads and balls of feet supported, heels lowered"
+        },
+        {
+          "key": "p2",
+          "caption": "Rise onto balls of feet by lifting both heels while keeping knees softly straight"
+        }
+      ],
+      "detail": "LEVER STANDING CALF RAISE, SIDE three-quarter camera shows both heels and toes clearly. Stand straight in shoulder-pad calf machine, feet shoulder-width on edge of raised fixed FOOT BLOCK, balls of BOTH feet supported on block, heels extend beyond rear edge. Shoulders beneath two padded supports attached to lever resistance frame; hands grasp shoulder-height handles securely. Spine neutral, knees nearly straight but softly unlocked and UNCHANGED across phases. LEFT heels lowered below block top in controlled ankle dorsiflexion, balls/toes remain on block. RIGHT push through same balls of feet and plantarflex BOTH ankles to raise BOTH heels clearly above block top; WHOLE body/shoulder carriage rises together, same upright posture, no knee bending or toe reposition. Body proportion/leg lengths fixed, ONLY ankle angle changes. Shoulder pads remain contacting shoulders and connected lever rotates around same FIXED pivot; same weight-stack machine frame/base/footblock in both panels. Red highlights ONLY exposed posterior CALVES on both lower legs, other anatomy grayscale, whole shirt/shorts BLACK opaque. Both shoes and entire machine including overhead frame and footblock within panels with white margins.",
+      "variant": "female",
+      "key": "0605-female-anatomical-white-v1",
+      "prompt": "Original educational exercise illustration. Attached original project image is STYLE reference ONLY, never pose reference. Detailed fine grayscale anatomical fibers on exposed limbs, realistic neutral adult FEMALE; pure white background. TWO equal side-by-side panels with identical model, dimensions, camera and lighting. FULLY OPAQUE matte BLACK sleeveless shirt continuously wraps torso front/sides/back. Loose BLACK knee-length shorts wrap BOTH upper thighs, seat and crotch fully front/sides/rear, closed hems and seams, broad natural fabric folds. NO bare buttocks, translucent cloth, cutaways, anatomy windows or muscle-fiber patterns on garments. Black trainers. Red PRIMARY muscle highlights only as specified; over clothing use a SOFT DIFFUSE COLOR PATCH on intact BLACK FABRIC without anatomical subdivisions. Whole person, fingers/shoes and ENTIRE machine including frame, lever, pivots, weight stack and base within EACH panel with generous white margins. Same EXACT fixed frame/seat/pad/camera/pivots in both phases; only exercise joints and connected moving lever rotate. No text, arrows, captions, logos or numbers. LEVER STANDING CALF RAISE, SIDE three-quarter camera shows both heels and toes clearly. Stand straight in shoulder-pad calf machine, feet shoulder-width on edge of raised fixed FOOT BLOCK, balls of BOTH feet supported on block, heels extend beyond rear edge. Shoulders beneath two padded supports attached to lever resistance frame; hands grasp shoulder-height handles securely. Spine neutral, knees nearly straight but softly unlocked and UNCHANGED across phases. LEFT heels lowered below block top in controlled ankle dorsiflexion, balls/toes remain on block. RIGHT push through same balls of feet and plantarflex BOTH ankles to raise BOTH heels clearly above block top; WHOLE body/shoulder carriage rises together, same upright posture, no knee bending or toe reposition. Body proportion/leg lengths fixed, ONLY ankle angle changes. Shoulder pads remain contacting shoulders and connected lever rotates around same FIXED pivot; same weight-stack machine frame/base/footblock in both panels. Red highlights ONLY exposed posterior CALVES on both lower legs, other anatomy grayscale, whole shirt/shorts BLACK opaque. Both shoes and entire machine including overhead frame and footblock within panels with white margins.",
+      "inspectionNote": "Standing calf raise with shoulder pads, secure handles, forefeet on block and heels lowered beyond edge then elevated. Opaque continuous clothing and red calves retained. Endpoint body and shoulder pads rise; tight head margin. Qualified review needed for ankle range, fixed leg proportions, shoulder carriage and resistance linkage. No anatomy approval.",
+      "canonicalName": "lever standing calf raise",
+      "styleVersion": "white-v1",
+      "equipment": "leverage machine",
+      "primaryMuscles": [
+        "calves"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Standing calf raise with shoulder pads, secure handles, forefeet on block and heels lowered beyond edge then elevated. Opaque continuous clothing and red calves retained. Endpoint body and shoulder pads rise; tight head margin. Qualified review needed for ankle range, fixed leg proportions, shoulder carriage and resistance linkage. No anatomy approval.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0605-female-anatomical-white-v1-p1-69cad1f53910.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 44014,
+          "sha256": "69cad1f539101f32a7b9aa04bc24b46a9b457349aec87c5e655fa605b4e04cfc"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0605-female-anatomical-white-v1-p2-b47a52619cdd.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 43548,
+          "sha256": "b47a52619cdde98179ffe246a1c9c3aba03c5b3c9fabe377c6b0192eaf6e974e"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0605-female-anatomical-white-v1-thumb-ca3ebd82bdef.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 4520,
+        "sha256": "ca3ebd82bdef2c861ffc050af5389c74431447a8f0d9a60b1ff1740ecef5e219"
+      },
+      "processingSignature": "9c2ce5e1f0263254c0bed53ec43db7bd1d501386d2ceebb3b0abc30bca40fdb7",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0605-female-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1676878,
+        "sha256": "ead756f45c9293c1eb4457ca89cca77afa9be608cf3ae32ac5d2165918e6ef14"
+      }
+    }
+  ]
+}

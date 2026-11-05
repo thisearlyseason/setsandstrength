@@ -1,0 +1,80 @@
+{
+  "batch": 336,
+  "runId": "d251cf23-ad03-4283-a131-b67ba8380ebb",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "trigger": "2026-11-04T10:28:31.007Z",
+  "purpose": "batch336 scheduled male continuation",
+  "started": "2026-11-04T10:29:23.591287+00:00",
+  "completedAt": "2026-11-04T10:38:18.455731+00:00",
+  "actualToolName": "image_gen__imagegen",
+  "calls": 4,
+  "newCandidateSets": 4,
+  "exerciseIds": [
+    "3238",
+    "3242",
+    "3243",
+    "3244"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1206,
+    "remainingVariants": 10058,
+    "approvedVariants": 0,
+    "blockedVariants": 444,
+    "knownPoseImages": 2352,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 833,
+      "remainingVariants": 4799,
+      "blockedVariants": 325
+    }
+  },
+  "reviewNotes": {
+    "3238": "Single kneeling forearm plank with elbows below shoulders, knees grounded, neutral gaze and intact opaque clothes/plain abdomen wash. Qualified review of head-to-knees line, pelvic position and elbow placement pending.",
+    "3242": "Single knee drawn toward chest with both hands at shin and opposite foot planted, opaque clothes/plain lumbar tint. Head/neck hover above floor; block relaxed head-support correction. Qualified knee/hip continuity and hand placement review pending.",
+    "3243": "Both knees gently hugged toward chest with feet airborne and head resting floor, opaque clothes. Lumbar tint shows fine anatomical fibers through tank; block overlay correction. Qualified hand/shin contact and relaxed pelvic position review pending.",
+    "3244": "Single prone abdominal stretch with palms under shoulders, chest pressed up, pelvis/legs grounded and forward gaze. Opaque clothing; abdominal red wash contains fine muscle-like fibers rather than uniform tint. Block overlay correction; qualified comfortable extension range review pending."
+  },
+  "blockingIssues": {
+    "3242": [
+      "Rest head and neck on floor instead of unsupported hovering."
+    ],
+    "3243": [
+      "Remove fine anatomical fibers from lumbar highlight through tank; use plain uniform wash over opaque fabric."
+    ],
+    "3244": [
+      "Remove fine muscle-like fibers from abdomen overlay; use plain uniform wash on intact opaque tank."
+    ]
+  },
+  "deferred": {
+    "3239": "Kneeling name conflicts with toe-supported plank instructions.",
+    "3240": "Shoulder-width feet conflicts with tennis ball held between knees without defined knee angle.",
+    "3241": "Facing wall conflicts with ball between wall and lower back; ankle ball also conflicts shoulder-width stance."
+  },
+  "tests": 7,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "workerSyncResult": {
+    "statuses": {
+      "generated": 1206,
+      "pending": 10058
+    },
+    "remaining": 10058,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 1843328133
+  },
+  "publicationIndexUnchanged": true
+}

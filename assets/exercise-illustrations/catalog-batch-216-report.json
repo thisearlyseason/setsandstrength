@@ -1,0 +1,57 @@
+{
+  "batch": 216,
+  "runId": "e47cc672-9d08-4c24-9aeb-e80cb4dbb8ac",
+  "trigger": "2026-11-03T14:55:00.853Z",
+  "completedAt": "2026-11-03T14:59:51.528196+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 2,
+  "calls": 2,
+  "exerciseIds": [
+    "1619"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 746,
+    "remainingVariants": 10518,
+    "approvedVariants": 0,
+    "blockedVariants": 243,
+    "knownPoseImages": 1464,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Two one-arm incline hammer press candidates, four poses, two built-in calls. Real outputs inspected: supported inclined torso, one dumbbell at shoulder to extended arm, free hand on hip, planted feet, red exposed triceps, intact opaque tank/shorts. Masters returned square with two full-height equal panels; equal half crops retain complete bodies and equipment. Qualified human review needed for neutral palm orientation and strongly vertical dumbbell shaft rendering, female elbow flare and hand anatomy, shoulder path and head support. Original project artwork style only, no upstream media. Exact prompts and original masters retained. No anatomical approval or publication.",
+  "deferred": [
+    {
+      "exerciseId": "1618",
+      "reason": "Incline bench description conflicts with ball-only instruction equipment."
+    },
+    {
+      "exerciseId": "1621",
+      "reason": "Lying-ball description conflicts with upright seated starting instructions."
+    },
+    {
+      "exerciseId": "1623",
+      "reason": "Overhand grip wording conflicts with inward-facing neutral grip."
+    },
+    {
+      "exerciseId": "1624",
+      "reason": "Reverse-grip name conflicts with overhand palms-toward-feet instructions."
+    }
+  ],
+  "tests": 7,
+  "genCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 1169713683,
+  "savedMasters": [
+    "assets/exercise-illustrations/generated/1619-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/1619-female-anatomical-white-v1.png"
+  ]
+}

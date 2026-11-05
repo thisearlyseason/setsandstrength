@@ -1,0 +1,72 @@
+{
+  "batch": 236,
+  "runId": "fcea86ff-89bf-4722-913f-79e629cfd007",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "trigger": "2026-11-03T18:33:33.003693+00:00",
+  "purpose": "batch236 interactive male continuation",
+  "completedAt": "2026-11-03T18:38:27.823733+00:00",
+  "actualToolName": "image_gen__imagegen",
+  "calls": 4,
+  "newCandidateSets": 4,
+  "exerciseIds": [
+    "1774",
+    "1776",
+    "1777",
+    "1780"
+  ],
+  "variants": [
+    "male"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 817,
+    "remainingVariants": 10447,
+    "approvedVariants": 0,
+    "blockedVariants": 260,
+    "knownPoseImages": 1619,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 444,
+      "remainingVariants": 5188,
+      "blockedVariants": 141
+    }
+  },
+  "reviewNotes": {
+    "1774": "Side bridge shows stacked straight legs and raised top leg with pelvis off floor, intact opaque clothing and flat outer-hip highlight. Qualified review needed for exact elbow-under-shoulder alignment, load-bearing foot, pelvic alignment and abductor mapping.",
+    "1776": "Prone straight-leg extension shows resting legs then one straight leg raised with forehead on hands and torso/pelvis supported. Qualified review needed for exact lift height, lumbar neutrality and glute highlight laterality; other leg remains grounded.",
+    "1777": "Single overhead chest stretch shows interlaced hands above head and tall stance with chest teaching overlays on intact tank. Qualified review needed for finger anatomy, comfortable shoulder elevation, precise backward arm reach and pectoral mapping.",
+    "1780": "Single doorframe stretch shows bent right elbow, vertical forearm/frame contact and staggered grounded stance. Qualified review needed for sufficient torso rotation away from supported arm, shoulder height, wrist alignment and pectoral mapping."
+  },
+  "tests": 7,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "workerSyncResult": {
+    "statuses": {
+      "generated": 817,
+      "pending": 10447
+    },
+    "remaining": 10447,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 1273786054
+  },
+  "publicationIndexUnchanged": true,
+  "savedMasters": [
+    "assets/exercise-illustrations/generated/1774-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/1776-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/1777-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/1780-male-anatomical-white-v1.png"
+  ]
+}

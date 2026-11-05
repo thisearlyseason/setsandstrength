@@ -1,0 +1,90 @@
+{
+  "batch": 285,
+  "runId": "44df2271-47d8-4849-9ccf-ff890b3b02e6",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "trigger": "2026-11-04T02:05:26.253Z",
+  "purpose": "batch285 scheduled male continuation",
+  "started": "2026-11-04T02:05:46.405364+00:00",
+  "completedAt": "2026-11-04T02:12:17.444329+00:00",
+  "actualToolName": "image_gen__imagegen",
+  "calls": 4,
+  "newCandidateSets": 4,
+  "exerciseIds": [
+    "2396",
+    "2398",
+    "2401",
+    "2404"
+  ],
+  "variants": [
+    "male"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1013,
+    "remainingVariants": 10251,
+    "approvedVariants": 0,
+    "blockedVariants": 340,
+    "knownPoseImages": 1947,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 640,
+      "remainingVariants": 4992,
+      "blockedVariants": 221
+    }
+  },
+  "reviewNotes": {
+    "2396": "Supine low-cable curl with upper arms grounded, bent knees/feet flat and underhand bar curls from near hips toward shoulders. Biceps red, opaque black clothing. Cable attaches to bar end instead of center and head appears hovering above floor; block equipment/support correction. Qualified review of cable-leg clearance, forearm range and shoulder stability required. Human anatomy review remains pending.",
+    "2398": "Knees grounded on mat, hands shoulder width, near-straight-arm top then tucked-elbow lowered chest, feet relaxed behind. Red exposed triceps only and opaque clothing. Qualified review of shoulder-hip-knee line, bottom chest clearance, elbow tracking, wrist loading and cervical neutrality required. Human anatomy review remains pending.",
+    "2401": "Arm blaster over intact tank with padded upper-arm supports and shoulder/neck straps, two supinated dumbbells lowered start. End curls only one arm while other remains down instead of canonical bilateral curl; block variant correction. Exposed biceps red, clothing opaque. Qualified review of device fit/support, strap routing and elbow contact required. Human anatomy review remains pending.",
+    "2404": "EZ bar lowered then curled toward upper chest, upright torso and planted feet, upper arms braced against gray arm-blaster supports over intact black tank. Biceps-only red and opaque clothing. Qualified review of underhand angled-bar grip, wrist alignment, device fit/strap routing, elbow contact and range required. Human anatomy review remains pending."
+  },
+  "blockingIssues": {
+    "2396": [
+      "Cable attached to one end of straight bar rather than centered attachment.",
+      "Head appears hovering above floor; restore relaxed supported neutral head."
+    ],
+    "2401": [
+      "End pose shows alternating/one-arm curl rather than bilateral curl; correct exercise variant."
+    ]
+  },
+  "deferred": {
+    "2395": "Alternating cross-body elbow/knee laterality requires detailed pose planning.",
+    "2397": "Scott press name versus ordinary overhead press instructions requires clarification.",
+    "2399": "Cable seated-twist pulley direction and alternating setup require detailed planning.",
+    "2400": "Bodyweight inverse-curl name/equipment conflicts with prone cable ankle-strap curl instructions.",
+    "2402": "Hammer-curl name conflicts with palms-forward supinated instructions.",
+    "2403": "Arm-blaster placement on upper arms requires precise device fit planning."
+  },
+  "tests": 7,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "workerSyncResult": {
+    "statuses": {
+      "generated": 1013,
+      "pending": 10251
+    },
+    "remaining": 10251,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 1559938838
+  },
+  "publicationIndexUnchanged": true,
+  "savedMasters": [
+    "assets/exercise-illustrations/generated/2396-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/2398-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/2401-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/2404-male-anatomical-white-v1.png"
+  ]
+}

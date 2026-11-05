@@ -1,0 +1,76 @@
+{
+  "batch": 178,
+  "runId": "1eb69e02-e21e-422e-81a3-79eb293585ae",
+  "trigger": "2026-11-03T10:18:28.801Z",
+  "completedAt": "2026-11-03T10:24:55.285764+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 2,
+  "generationCalls": 2,
+  "exerciseIds": [
+    "1377"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 670,
+    "remainingVariants": 10594,
+    "approvedVariants": 0,
+    "blockedVariants": 225,
+    "knownPoseImages": 1334,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Two single-pose static wall calf stretch candidates, two built-in calls. Palms on wall, front knee bent and rear leg straight with grounded heel, rear calf red. Fine exposed grayscale anatomy and full opaque clothes retained. Qualified foot direction/heel pressure, hip square alignment, hand/wrist contact and neck posture require human review. 1373 already had both registered saved masters, skipped before generation. Every original and exact prompt saved; no anatomy/clothing approval or publication. Original project artwork rendering style only, no upstream licensed input. Seven pipeline checks do not establish anatomical accuracy.",
+  "skippedCompleted": [
+    "1373-male",
+    "1373-female"
+  ],
+  "metadataConflictsDeferred": {
+    "1364": "Pelvic tilt forward versus lower back pushed back ambiguous; spine primary mapping absent.",
+    "1365": "Forward rounded-back stretch description versus overhead retraction instructions conflicts.",
+    "1366": "Spine target lacks explicit primary muscle map.",
+    "1367": "Rear pull-up title versus chin-over-bar front instructions.",
+    "1370": "Bar across back description versus feet standing on floor bar instructions.",
+    "1374": "Jump down title/description versus jump up instructions.",
+    "1375": "Cable calf raise ankle strap versus hand resistance anchor undefined.",
+    "1376": "Cable resistance described but no loaded attachment specified."
+  },
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 1060798716,
+  "savedMasters": [
+    {
+      "exerciseId": "1377",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1377-male-anatomical-white-v1.png",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 1591213,
+        "sha256": "bd7265d18ff3a8b0a8bee5cbc9b4dc6983f5c302741111075b0a6653a7cb1b82"
+      }
+    },
+    {
+      "exerciseId": "1377",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1377-female-anatomical-white-v1.png",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 1601326,
+        "sha256": "b2f3e820f933c55872a96af52d229e72fd85eb1cd2d8dc39bf28d2b598ecb0b2"
+      }
+    }
+  ]
+}

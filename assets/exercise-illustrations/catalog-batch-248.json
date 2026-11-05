@@ -1,0 +1,275 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "1910",
+      "variant": "male",
+      "key": "1910-male-anatomical-white-v1",
+      "layout": {
+        "columns": 1,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Place one heel on a low support with the leg straight and toes up. Keep the standing knee soft and hinge forward with a long back. Hold for 20\u201330 seconds, then switch legs."
+        }
+      ],
+      "prompt": "STANDING LEG UP HAMSTRING STRETCH. ONE full-body static SIDE REAR three-quarterview, entire body sameorientation. RIGHT HEEL rests on low sturdy gray bench top, RIGHT knee STRAIGHT notlocked toesUP. LEFT supportingfootflat knee soft. Hinge torsoFORWARD at HIPS longflatback chestopen, handsrestlightlyonhips orsupportingthigh, no pushing raisedknee. PRIMARY RIGHT posterior THIGH HAMSTRINGS RED only, exposed belowshorthem BACKofthigh NOTfrontquads, anycoveredportion plainredteachingtint onintactshorts. LEFT thighgray chesttankblack. Bothhiptothekneetotheankleconnectionscoherent, fullbenchfeetheadhandsframe. Hold20-30seconds. Use case: scientific-educational. Premium detailed ADULT MALE grayscale anatomical illustration matching original reference for rendering STYLE ONLY, ignore its pose and highlights. Realistic proportions, crisp exposed grayscale muscle contours, white background soft shadows. Full opaque BLACK athletic tank and mid-thigh shorts wrap front sides back seat crotch, seams hems folds; no transparency cutaways or anatomy visible through fabric. Red highlight over fabric must be a FLAT UNIFORM SOFT RED ELLIPSE teaching tint with no internal lines fibers rays or lobes; fabric folds retained. Black shoes. No text labels arrows captions logos. All limbs fingers feet and equipment entirely in frame with generous margins. Same person camera lighting and scale across poses.",
+      "inspectionNote": "Real output inspected. Standing heel-on-bench hamstring stretch: elevated leg straight/toes up, supporting foot grounded and torso hinged with coherent body orientation. Qualified review needed for exact raised-leg hamstring versus adductor mapping, hip squareness, neutral neck and knee softness. Detailed grayscale rendering, white background and full opaque tank/shorts retained. Original project artwork style only, no upstream media. Exact prompt and original saved. Human anatomy review pending; no approval or publication.",
+      "canonicalName": "standing leg up hamstring stretch",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "hamstrings"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Standing heel-on-bench hamstring stretch: elevated leg straight/toes up, supporting foot grounded and torso hinged with coherent body orientation. Qualified review needed for exact raised-leg hamstring versus adductor mapping, hip squareness, neutral neck and knee softness. Detailed grayscale rendering, white background and full opaque tank/shorts retained. Original project artwork style only, no upstream media. Exact prompt and original saved. Human anatomy review pending; no approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/1910-male-anatomical-white-v1-p1-f172660baa7a.webp",
+          "width": 1200,
+          "height": 600,
+          "bytes": 19424,
+          "sha256": "f172660baa7a42a8bb246efa73bdc58e16f6a9e9fc8ef12cab9d9681ffa667eb"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-248.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/1910-male-anatomical-white-v1-thumb-deae06cd97a7.webp",
+        "width": 240,
+        "height": 120,
+        "bytes": 1692,
+        "sha256": "deae06cd97a7ed71e1383f54cf3334554f8a880831851cb4355e56da6d514a8e"
+      },
+      "processingSignature": "b5631962716e36d514f7c7953fcdd4df7c5169b98de7a8f89af5351dff319c5e",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1910-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1259729,
+        "sha256": "35ee7c55ff95ee1f4850ca2c18a489bc7adc96fcca94739dd740a261904864b7"
+      }
+    },
+    {
+      "exerciseId": "1913",
+      "variant": "male",
+      "key": "1913-male-anatomical-white-v1",
+      "layout": {
+        "columns": 1,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Kneel on one knee and extend the other leg forward with the heel down and toes up. Use your hands for support and hinge gently at the hips with a flat back. Hold for 20\u201330 seconds and switch sides."
+        }
+      ],
+      "prompt": "KNEELING TOE UP HAMSTRING STRETCH. ONE full-body static SIDE FRONT three-quartercamera. LEFT knee kneelsfloor leftshinbehind. RIGHT leg extendsSTRAIGHTforward RIGHTheelgrounded toesUP ankleflexed. Hips sitback aboveleftknee, hingeFORWARD at hips longflatback chestopen headaligned. BOTHpalms onfloor besideextendedrightleg forlightbalance notpushingknee. Primary RIGHT POSTERIOR THIGH HAMSTRINGS red belowshorthem, not anteriorquads/inneradductors. Anycoveredportion plainredteachingtint opaque shorts. Leftleggray, tankNOred. Fullbody hands kneesfeetgroundcontacts generousmargins. Hold20-30seconds. Use case: scientific-educational. Premium detailed ADULT MALE grayscale anatomical illustration matching original reference for rendering STYLE ONLY, ignore its pose and highlights. Realistic proportions, crisp exposed grayscale muscle contours, white background soft shadows. Full opaque BLACK athletic tank and mid-thigh shorts wrap front sides back seat crotch, seams hems folds; no transparency cutaways or anatomy visible through fabric. Red highlight over fabric must be a FLAT UNIFORM SOFT RED ELLIPSE teaching tint with no internal lines fibers rays or lobes; fabric folds retained. Black shoes. No text labels arrows captions logos. All limbs fingers feet and equipment entirely in frame with generous margins. Same person camera lighting and scale across poses.",
+      "inspectionNote": "Real output inspected. Half-kneeling hamstring stretch: front leg straight heel grounded toes up, opposite knee/shin supported and both palms on floor. Qualified review needed for hip hinge, neutral cervical position, knee not locking and posterior-thigh mapping. Detailed grayscale rendering, white background and full opaque tank/shorts retained. Original project artwork style only, no upstream media. Exact prompt and original saved. Human anatomy review pending; no approval or publication.",
+      "canonicalName": "kneeling toe up hamstring stretch",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "hamstrings"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Half-kneeling hamstring stretch: front leg straight heel grounded toes up, opposite knee/shin supported and both palms on floor. Qualified review needed for hip hinge, neutral cervical position, knee not locking and posterior-thigh mapping. Detailed grayscale rendering, white background and full opaque tank/shorts retained. Original project artwork style only, no upstream media. Exact prompt and original saved. Human anatomy review pending; no approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/1913-male-anatomical-white-v1-p1-ad235b0a7ee6.webp",
+          "width": 1200,
+          "height": 600,
+          "bytes": 29000,
+          "sha256": "ad235b0a7ee6d11a303215e104f811a46d698cee207d3b92b3d096acdff69bb3"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-248.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/1913-male-anatomical-white-v1-thumb-464e49f1d024.webp",
+        "width": 240,
+        "height": 120,
+        "bytes": 2078,
+        "sha256": "464e49f1d024e922d6c0c62ef9549d30272c1869c2d319326213670beb51054d"
+      },
+      "processingSignature": "83874e86405e062439910b04a9a8b64376aa68fe6a9588886ddcfde0c3c44064",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1913-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1432306,
+        "sha256": "8cfc8ebaa32d285546571ebb11e278e8b7107a121f1d962c074d3e5a6a0b0d37"
+      }
+    },
+    {
+      "exerciseId": "1916",
+      "variant": "male",
+      "key": "1916-male-anatomical-white-v1",
+      "layout": {
+        "columns": 1,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand with your feet hip-width apart and knees slightly bent. Hinge at your hips and reach toward your shins or toes, letting your head and neck relax. Hold for 20\u201330 seconds, then rise slowly."
+        }
+      ],
+      "prompt": "STANDING REACH DOWN HAMSTRING STRETCH. ONE fullbody static SIDE REAR three-quarterview showing backs of thighs. FeetHIPWIDTH bothflat, knees SLIGHTLYBENT about10degrees. HingeFORWARD at HIPS into comfortable forwardfold, upperbodydrops towardlegs, botharms hang relaxed HANDS reach towardSHINS withoutpulling. HEADNECK hangrelaxed chinsoft no lookingforward. PRIMARY BOTH POSTERIOR THIGH HAMSTRINGS RED frombelowshorthem toknee, no calf quads chestred, anycoveredupperthigh plainredteachingoverlay onintactblackshorts NOcutaways. Clearcoherenttorso pelvis legs, twoarms hands insideframe. Hold20-30seconds. Use case: scientific-educational. Premium detailed ADULT MALE grayscale anatomical illustration matching original reference for rendering STYLE ONLY, ignore its pose and highlights. Realistic proportions, crisp exposed grayscale muscle contours, white background soft shadows. Full opaque BLACK athletic tank and mid-thigh shorts wrap front sides back seat crotch, seams hems folds; no transparency cutaways or anatomy visible through fabric. Red highlight over fabric must be a FLAT UNIFORM SOFT RED ELLIPSE teaching tint with no internal lines fibers rays or lobes; fabric folds retained. Black shoes. No text labels arrows captions logos. All limbs fingers feet and equipment entirely in frame with generous margins. Same person camera lighting and scale across poses.",
+      "inspectionNote": "Real output inspected. Standing forward fold: feet grounded hip width, arms/head hang, red posterior hamstrings visible below intact shorts. Qualified review needed for gentle knee flexion, hip hinge versus excessive spinal rounding and hamstring mapping. Detailed grayscale rendering, white background and full opaque tank/shorts retained. Original project artwork style only, no upstream media. Exact prompt and original saved. Human anatomy review pending; no approval or publication.",
+      "canonicalName": "standing reach down hamstring stretch",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "hamstrings"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Standing forward fold: feet grounded hip width, arms/head hang, red posterior hamstrings visible below intact shorts. Qualified review needed for gentle knee flexion, hip hinge versus excessive spinal rounding and hamstring mapping. Detailed grayscale rendering, white background and full opaque tank/shorts retained. Original project artwork style only, no upstream media. Exact prompt and original saved. Human anatomy review pending; no approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/1916-male-anatomical-white-v1-p1-784573d37b62.webp",
+          "width": 1097,
+          "height": 1200,
+          "bytes": 44176,
+          "sha256": "784573d37b623bdb2ec3de71bf8b38c7ae58ba93692029497af8ebf8d22eab9b"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-248.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/1916-male-anatomical-white-v1-thumb-d695e2d9e07e.webp",
+        "width": 219,
+        "height": 240,
+        "bytes": 2958,
+        "sha256": "d695e2d9e07e60737b2ad9452cdcd6c7607d31fe6329b960af4d7db63f359392"
+      },
+      "processingSignature": "c3b4377463beb51b851844a97b2a2e673a506a52e1db68a9d5fbe886d60d69ad",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1916-male-anatomical-white-v1.png",
+        "width": 1199,
+        "height": 1312,
+        "bytes": 1389834,
+        "sha256": "bba53086e1efd024c3221aebecba0fb8f47d50c7f697bcf8645cf9d37f4cf22c"
+      }
+    },
+    {
+      "exerciseId": "1922",
+      "variant": "male",
+      "key": "1922-male-anatomical-white-v1",
+      "layout": {
+        "columns": 1,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Lie on your back and loop a towel around the ball of one foot. Raise that leg with the knee nearly straight, keeping the other leg flat. Gently pull the towel, hold for 20\u201330 seconds and switch sides."
+        }
+      ],
+      "prompt": "RECUMBENT KNEE FLEXOR STRETCH WITH TOWEL. ONE fullbody static wide2:1 landscape SIDE three-quarterview seesnearlegposteriorhamstring. LieSUPINE HEADandSHOULDERS supportedWHITEfloor torsoDOWN notcrunch. LEFT leg straightflatfloor heelgrounded. RIGHT leg raised towardCEILING about80degrees RIGHTknee nearlySTRAIGHT. GrayTOWEL looparoundBALLofRIGHTshoe twoends heldseparately bybothhands nearwaist, gentlepulltowardbody. Rightheelairborne leftheelgrounded, legsclearlyseparate hips connected coherently. Primary RIGHT POSTERIOR THIGH HAMSTRINGS RED notcalf notfrontquadriceps, belowshorthem detailedredtint, anycoveredpart plainteachingoverlay onintactshorts. TankblackNOchestred. Fullraisedfoot handsheadfloorleginside generousmargins, towelclearlyconnectshandsforefoot. Hold20-30seconds. Use case: scientific-educational. Premium detailed ADULT MALE grayscale anatomical illustration matching original reference for rendering STYLE ONLY, ignore its pose and highlights. Realistic proportions, crisp exposed grayscale muscle contours, white background soft shadows. Full opaque BLACK athletic tank and mid-thigh shorts wrap front sides back seat crotch, seams hems folds; no transparency cutaways or anatomy visible through fabric. Red highlight over fabric must be a FLAT UNIFORM SOFT RED ELLIPSE teaching tint with no internal lines fibers rays or lobes; fabric folds retained. Black shoes. No text labels arrows captions logos. All limbs fingers feet and equipment entirely in frame with generous margins. Same person camera lighting and scale across poses.",
+      "inspectionNote": "Real output inspected. Supine towel hamstring stretch: one straight leg raised, opposite leg flat, towel at forefoot held with both hands. BLOCKED: head lifted off floor rather than supported; restore supported neutral head/neck. Qualified review needed for towel contact, knee extension and raised-leg hamstring mapping. Detailed grayscale rendering, white background and full opaque tank/shorts retained. Original project artwork style only, no upstream media. Exact prompt and original saved. Human anatomy review pending; no approval or publication.",
+      "blockingIssues": [
+        "Head floats above floor instead of supported neutral cervical position. Correct head support."
+      ],
+      "canonicalName": "recumbent knee flexor stretch with towel",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "hamstrings"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Supine towel hamstring stretch: one straight leg raised, opposite leg flat, towel at forefoot held with both hands. BLOCKED: head lifted off floor rather than supported; restore supported neutral head/neck. Qualified review needed for towel contact, knee extension and raised-leg hamstring mapping. Detailed grayscale rendering, white background and full opaque tank/shorts retained. Original project artwork style only, no upstream media. Exact prompt and original saved. Human anatomy review pending; no approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/1922-male-anatomical-white-v1-p1-57fd645cb721.webp",
+          "width": 1200,
+          "height": 600,
+          "bytes": 30384,
+          "sha256": "57fd645cb721ead62292028ef33c6a77976e1202bd0c5ae2dfc8658ed8369b39"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-248.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/1922-male-anatomical-white-v1-thumb-fce414dcfb88.webp",
+        "width": 240,
+        "height": 120,
+        "bytes": 2030,
+        "sha256": "fce414dcfb88bc85d2c814b96b7c12b87f3e7859341fadc77cc8353c0d75e28a"
+      },
+      "processingSignature": "3f8f8aee1ff528b0b835f2d98e1d50b1a58518b0ae328c9c842c93b0d7dd3559",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1922-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1451979,
+        "sha256": "078ef31e3f09612c7233678eb870e00722713f9d8c92e43c5435be96bfee0084"
+      }
+    }
+  ]
+}

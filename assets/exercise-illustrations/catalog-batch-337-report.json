@@ -1,0 +1,66 @@
+{
+  "batch": 337,
+  "runId": "01150917-ca06-405d-beeb-648963901dc3",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "trigger": "2026-11-04T10:40:31.120Z",
+  "purpose": "batch337 scheduled male continuation",
+  "started": "2026-11-04T10:41:07.871941+00:00",
+  "completedAt": "2026-11-04T10:49:33.676568+00:00",
+  "actualToolName": "image_gen__imagegen",
+  "calls": 4,
+  "newCandidateSets": 4,
+  "exerciseIds": [
+    "3248",
+    "3249",
+    "3253",
+    "3254"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1210,
+    "remainingVariants": 10054,
+    "approvedVariants": 0,
+    "blockedVariants": 444,
+    "knownPoseImages": 2362,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 837,
+      "remainingVariants": 4795,
+      "blockedVariants": 325
+    }
+  },
+  "reviewNotes": {
+    "3248": "Standing and forward toe-reach with relaxed head, heels down and opaque clothes/plain abdomen wash. Qualified review of comfortable spinal flexion/hinge, soft knees and hand anatomy pending.",
+    "3249": "Wide stance then two-hand forward floor reach with both feet planted and opaque clothing/plain abdomen wash. Qualified review of comfortable hinge, head relaxation and nonforced reach pending.",
+    "3253": "Neutral stance and opposite one-arm overhead side bends shown with stable feet, plain abdomen wash and opaque clothing. Qualified review of pelvis stability, lateral range and hand/finger anatomy pending.",
+    "3254": "Overhead clasped-hands neutral then mirrored side bends with planted feet and opaque clothes/plain abdomen wash. Qualified review of pelvic stability, hand clasp and comfortable shoulder/lateral range pending."
+  },
+  "blockingIssues": {},
+  "deferred": {},
+  "tests": 7,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "workerSyncResult": {
+    "statuses": {
+      "generated": 1210,
+      "pending": 10054
+    },
+    "remaining": 10054,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 1848809687
+  },
+  "publicationIndexUnchanged": true
+}

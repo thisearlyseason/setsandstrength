@@ -1,0 +1,84 @@
+{
+  "batch": 275,
+  "runId": "b76d3428-60ae-42af-b2b0-4944e0e2042a",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "trigger": "2026-11-04T00:49:56.164Z",
+  "purpose": "batch275 scheduled male continuation",
+  "started": "2026-11-04T00:50:29.636544+00:00",
+  "completedAt": "2026-11-04T00:58:32.074663+00:00",
+  "actualToolName": "image_gen__imagegen",
+  "calls": 4,
+  "newCandidateSets": 4,
+  "exerciseIds": [
+    "2297",
+    "2300",
+    "2303",
+    "2305"
+  ],
+  "variants": [
+    "male"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 973,
+    "remainingVariants": 10291,
+    "approvedVariants": 0,
+    "blockedVariants": 318,
+    "knownPoseImages": 1853,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 600,
+      "remainingVariants": 5032,
+      "blockedVariants": 199
+    }
+  },
+  "reviewNotes": {
+    "2297": "Upright seated ball start then forward curled torso, both feet flat and hands lightly behind head with elbows open. Plain abdominal overlay on intact tank, folds in flexed pose are continuous fabric. Qualified review needed for full-range name versus canonical seated start, abdominal flexion versus hip hinge, neck pressure, ball stability and mapping.",
+    "2300": "Bent-knee inverted row with feet planted, hands gripping fixed rack bar, arms extended then flexed, torso/hips elevated. Upper-back tint on intact tank. End bar aligns near chin/neck rather than chest; qualified review needed for chest-to-bar path, grip and rack clearance, knee-hip-shoulder alignment, cervical position and upper-back mapping.",
+    "2303": "Guard, knee chamber and low forward extension are distinct, hands remain up and support foot grounded. End toes are pulled upward/heel leading rather than toe/instep emphasis stated by canonical description; block for foot-strike orientation correction. Plain quad tint on intact shorts. Qualified review of kick height, knee softness, leg laterality and balance.",
+    "2305": "Guard, raised-knee chamber and forward snap extension distinct, support foot grounded, hands guard chin and torso upright. Quad tint follows working thigh over opaque shorts. Qualified review needed for foot strike angle/ball-of-foot action through shoe, knee softness, chamber/retraction trajectory, leg laterality and balance."
+  },
+  "blockingIssues": {
+    "2303": [
+      "Foot is dorsiflexed/heel leading rather than canonical toe/instep emphasis; correct foot-strike orientation."
+    ]
+  },
+  "deferred": {
+    "2298": "Bench-height gripping/hanging equipment setup requires clarification before illustration.",
+    "2301": "Rear hook kick arc/support-foot rotation needs detailed technique planning.",
+    "2302": "Lead hook kick arc/support-foot rotation needs detailed technique planning.",
+    "2304": "Axe-kick high raise/drop support and range need detailed technique planning."
+  },
+  "tests": 7,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "workerSyncResult": {
+    "statuses": {
+      "generated": 973,
+      "pending": 10291
+    },
+    "remaining": 10291,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 1500813879
+  },
+  "publicationIndexUnchanged": true,
+  "savedMasters": [
+    "assets/exercise-illustrations/generated/2297-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/2300-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/2303-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/2305-male-anatomical-white-v1.png"
+  ]
+}

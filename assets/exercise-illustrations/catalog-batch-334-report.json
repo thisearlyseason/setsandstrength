@@ -1,0 +1,75 @@
+{
+  "batch": 334,
+  "runId": "b7f2104d-b6d7-4c10-b7ec-59d758b6029d",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "trigger": "2026-11-04T10:02:30.553Z",
+  "purpose": "batch334 scheduled male continuation",
+  "started": "2026-11-04T10:03:04.864478+00:00",
+  "completedAt": "2026-11-04T10:13:30.413633+00:00",
+  "actualToolName": "image_gen__imagegen",
+  "calls": 4,
+  "newCandidateSets": 4,
+  "exerciseIds": [
+    "3225",
+    "3226",
+    "3228",
+    "3230"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1199,
+    "remainingVariants": 10065,
+    "approvedVariants": 0,
+    "blockedVariants": 440,
+    "knownPoseImages": 2342,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 826,
+      "remainingVariants": 4806,
+      "blockedVariants": 321
+    }
+  },
+  "reviewNotes": {
+    "3225": "Prone T arms with thumbs up lift slightly while torso/legs stay grounded. Opaque clothing and soft upper-back wash. Qualified review of true 90-degree arm angle, scapular control, forehead position and hand anatomy pending.",
+    "3226": "Single prone cobra hold with chest lifted, palms tucked under thighs and feet down. Neck extends upward with gaze forward rather than long neck looking floor; block neck alignment correction. Opaque clothing/lumbar wash retained, qualified extension range review pending.",
+    "3228": "Prone chest lowered then modestly lifted with hands beside head and feet grounded. Opaque clothes/lumbar wash retained. Qualified review of cervical alignment, controlled lumbar extension and exact erector mapping pending.",
+    "3230": "Single prone cobra with clasped hands reaching back, chest lifted and pelvis/feet down. Head extends upward rather than neck aligned gaze floor; block neck correction. Opaque clothes and lumbar wash retained; qualified shoulder/extension range review pending."
+  },
+  "blockingIssues": {
+    "3226": [
+      "Align neck with torso and direct gaze toward floor rather than extending head upward."
+    ],
+    "3230": [
+      "Keep neck long in torso alignment and gaze on floor rather than lifting head upward."
+    ]
+  },
+  "deferred": {
+    "3219/3220/3221/3222/3223/3224": "Cardiovascular target lacks anatomical primary muscle mapping; highlight policy clarification needed."
+  },
+  "tests": 7,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "workerSyncResult": {
+    "statuses": {
+      "generated": 1199,
+      "pending": 10065
+    },
+    "remaining": 10065,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 1832666420
+  },
+  "publicationIndexUnchanged": true
+}

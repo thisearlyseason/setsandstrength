@@ -1,0 +1,329 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "2463",
+      "variant": "male",
+      "key": "2463-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Lie on your back with legs raised and a band around your feet, holding both ends."
+        },
+        {
+          "key": "p2",
+          "caption": "Curl shoulders off the floor and reach toward your toes against the band, then lower under control."
+        }
+      ],
+      "prompt": "RESISTANCE BAND TOE TOUCH CRUNCH. TWO equal cells SAME SIDE three-quarter camera head IMAGE LEFT feet upward. Supine pelvis/lowerback on FLOOR, legs raised toward ceiling knees softly extended feet together, gray long resistance BAND MIDDLE loops around BALLS of BOTH SHOES, one end in EACH hand. LEFT head/shoulders supported FLOOR arms reach upward toward feet, hands around kneeheight keeping band lightly taut. RIGHT CURL upper back shoulders upward reaching both hands toward toes against tautband, pelvis/lumbar stayfloor, legs same vertical position, chin neutral no neck yank. Cable-like band ends visibly connected hands-to-feet no crossing limbs. Primary ABS only small plain uniform red oval over intact abdominal tank in BOTH cells, chest black. Premium detailed adult MALE grayscale anatomical illustration matching approved original reference rendering STYLE ONLY, ignore reference exercise/highlights. Pure white background soft shadows, realistic proportions/equipment and crisp detailed exposed gray anatomy. Opaque BLACK tank and black mid-thigh shorts fully wrap front sides back seat crotch, ordinary seams hems fabric folds; black shoes. NO anatomical contours through fabric. Red over cloth is a small plain UNIFORM SOFT COLOR WASH on opaque normal cloth, no internal muscle fibers lobes striations rays cutaways. Only named primary regions red in BOTH poses. Exactly two arms hands five fingers, two legs feet. Equal cells same camera/person/equipment proportions, full body/equipment in frame generous margins. No text arrows logos.",
+      "inspectionNote": "Real output inspected. Vertical legs with band around forefeet, hands hold ends and reach upward as shoulders curl, lower back/pelvis grounded. Plain abdominal tint and opaque clothing. Start head hovers unsupported rather than relaxed on floor; block start support correction. Qualified review of band anchoring, resistance direction, leg stability, cervical position and curl range required. Human anatomy review remains pending. No approval or publication.",
+      "blockingIssues": [
+        "Start head hovers above floor; restore supported neutral head before curl."
+      ],
+      "canonicalName": "resistance band toe touch",
+      "styleVersion": "white-v1",
+      "equipment": "band",
+      "primaryMuscles": [
+        "abs"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Vertical legs with band around forefeet, hands hold ends and reach upward as shoulders curl, lower back/pelvis grounded. Plain abdominal tint and opaque clothing. Start head hovers unsupported rather than relaxed on floor; block start support correction. Qualified review of band anchoring, resistance direction, leg stability, cervical position and curl range required. Human anatomy review remains pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2463-male-anatomical-white-v1-p1-129322d4272b.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 32360,
+          "sha256": "129322d4272b57bcd4a3942fd2aafcdf5b39f67e53aaf55a1c9efce62d202ae1"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/2463-male-anatomical-white-v1-p2-84e253cd6a80.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 33298,
+          "sha256": "84e253cd6a8073a0d45c3d969771c1a26a03108579e90a3fcb7b0a5ddc0262b8"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-288.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2463-male-anatomical-white-v1-thumb-f37552fb291e.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 3488,
+        "sha256": "f37552fb291e381a133e981a576d057655ce715f6dc572a0bcb1581e9e5a70c6"
+      },
+      "processingSignature": "441f7e73e01e010dc7cd0bdf6a73b0a475294bfd22a4f6b9690442dc69e105fa",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2463-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1532901,
+        "sha256": "ec14f344d1e51aa594cab9cd427096fdca4a72ca74a5a797f92db4f4d29fc8e0"
+      }
+    },
+    {
+      "exerciseId": "2468",
+      "variant": "male",
+      "key": "2468-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand beside a bench holding dumbbells, with the near foot planted on top."
+        },
+        {
+          "key": "p2",
+          "caption": "Drive through the raised heel to step sideways up, bringing the other foot onto the bench; step down under control and switch sides after reps."
+        }
+      ],
+      "prompt": "DUMBBELL LATERAL STEP-UP. TWO equal cells SAME FRONT three-quarter camera. Sturdy gray flat bench to man's RIGHT at IMAGE LEFT, TOP height30cm. Body faces camera throughout, movement SIDEWAYS toward bench not forwardstair. One dumbbell each hand arms hanging palms inward. LEFT start RIGHT near foot FULLY planted atopbench, knee bent90, LEFT far foot on FLOOR besidebench, torso tall pelvis square. RIGHT press through RIGHT heel and stand on TOP bench bringing LEFT foot up beside RIGHT, both feet fully on samebench top, knees nearstraight torso tall, dumbbells at sides. Same bench and orientation, no foot crossing. Primary QUADS only small uniform soft redwash on intact FRONT thigh shorts and exposed distal quads, no anatomy undercloth. Premium detailed adult MALE grayscale anatomical illustration matching approved original reference rendering STYLE ONLY, ignore reference exercise/highlights. Pure white background soft shadows, realistic proportions/equipment and crisp detailed exposed gray anatomy. Opaque BLACK tank and black mid-thigh shorts fully wrap front sides back seat crotch, ordinary seams hems fabric folds; black shoes. NO anatomical contours through fabric. Red over cloth is a small plain UNIFORM SOFT COLOR WASH on opaque normal cloth, no internal muscle fibers lobes striations rays cutaways. Only named primary regions red in BOTH poses. Exactly two arms hands five fingers, two legs feet. Equal cells same camera/person/equipment proportions, full body/equipment in frame generous margins. No text arrows logos.",
+      "inspectionNote": "Real output inspected. Near foot on bench with other foot floor, then both feet rise onto bench, torso remains camera-facing and dumbbells at sides, showing lateral step-up. Red thigh tint includes anatomical segment/fiber contours under shorts; block clothing-overlay correction. Qualified review of full foot support near bench edge, leading leg laterality, knee alignment, load control and stepping trajectory required. Human anatomy review remains pending. No approval or publication.",
+      "blockingIssues": [
+        "Anatomical quad contours show through red shorts overlay; replace with uniform color wash on opaque fabric."
+      ],
+      "canonicalName": "dumbbell lateral step up",
+      "styleVersion": "white-v1",
+      "equipment": "dumbbell",
+      "primaryMuscles": [
+        "quads"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Near foot on bench with other foot floor, then both feet rise onto bench, torso remains camera-facing and dumbbells at sides, showing lateral step-up. Red thigh tint includes anatomical segment/fiber contours under shorts; block clothing-overlay correction. Qualified review of full foot support near bench edge, leading leg laterality, knee alignment, load control and stepping trajectory required. Human anatomy review remains pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2468-male-anatomical-white-v1-p1-d501c1f38531.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 23994,
+          "sha256": "d501c1f38531b3019f7d52da50195dca0a3ded8793973dd1abbed935b98cad77"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/2468-male-anatomical-white-v1-p2-593a79138d57.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 23270,
+          "sha256": "593a79138d5775ed1c20f0e5c43f5eadd767119edc92636b11c5f63a41c822c1"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-288.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2468-male-anatomical-white-v1-thumb-a94cc8d5d150.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2692,
+        "sha256": "a94cc8d5d1500aa8805c34ab350aad5c0fb7f4144db6714c6beeea27daedb29e"
+      },
+      "processingSignature": "c7f1a29b080ffa44400c8ca0535ab0283796d2a76845dac3e0355e26a15e2ecb",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2468-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1680862,
+        "sha256": "679c3b844a64d8f141154682335f8106ecbea780e97c337e0e9a737972afac86"
+      }
+    },
+    {
+      "exerciseId": "2473",
+      "variant": "male",
+      "key": "2473-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Lie on your back with one heel on the bench and the other leg extended, arms by your sides."
+        },
+        {
+          "key": "p2",
+          "caption": "Drive through the planted heel to lift hips level, keeping head and shoulders grounded; lower slowly and switch after reps."
+        }
+      ],
+      "prompt": "SINGLE LEG GLUTE BRIDGE ONE FOOT ON BENCH. TWO equal cells SAME SIDE REAR three-quarter camera head LEFT feet RIGHT. Supine floor head upperback shoulders and arms flat supported on floor. Lowgraybench at feet RIGHT. RIGHT working foot/heel fully planted bench TOP knee bent90. LEFT freeleg extends straight upward diagonally, foot NOT onbench/floor. LEFT start pelvis downfloor. RIGHT push RIGHT heel into samebench lift pelvis until shoulders hips workingRIGHTknee nearly straightline, LEFT freeleg remains extended SAMEdirection upward, hips level no lumbar arch, HEAD stays onfloor. Exactly two coherent legs no extra feet. Primary RIGHT GLUTE only small smooth uniform redwash on intact seatshorts in BOTH cells; no anatomy beneath cloth. Premium detailed adult MALE grayscale anatomical illustration matching approved original reference rendering STYLE ONLY, ignore reference exercise/highlights. Pure white background soft shadows, realistic proportions/equipment and crisp detailed exposed gray anatomy. Opaque BLACK tank and black mid-thigh shorts fully wrap front sides back seat crotch, ordinary seams hems fabric folds; black shoes. NO anatomical contours through fabric. Red over cloth is a small plain UNIFORM SOFT COLOR WASH on opaque normal cloth, no internal muscle fibers lobes striations rays cutaways. Only named primary regions red in BOTH poses. Exactly two arms hands five fingers, two legs feet. Equal cells same camera/person/equipment proportions, full body/equipment in frame generous margins. No text arrows logos.",
+      "inspectionNote": "Real output inspected. Single foot remains on bench, free leg extended upward, pelvis rises to bridge with arms/upper back grounded. Glute tint over intact shorts. Head visibly floats unsupported in both poses; block cervical support correction. Qualified review of planted-foot/knee geometry, hip level, lumbar extension, free-leg alignment and glute laterality required. Human anatomy review remains pending. No approval or publication.",
+      "blockingIssues": [
+        "Head floats unsupported above floor; restore head contact and relaxed neutral neck in both poses."
+      ],
+      "canonicalName": "glute bridge one leg on bench",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "glutes"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Single foot remains on bench, free leg extended upward, pelvis rises to bridge with arms/upper back grounded. Glute tint over intact shorts. Head visibly floats unsupported in both poses; block cervical support correction. Qualified review of planted-foot/knee geometry, hip level, lumbar extension, free-leg alignment and glute laterality required. Human anatomy review remains pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2473-male-anatomical-white-v1-p1-922a511ca906.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 28398,
+          "sha256": "922a511ca9065dae12466abdcb656ddcbfd0c38f0852b36338fb525016bf3acb"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/2473-male-anatomical-white-v1-p2-7aff7fcd6bf1.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 28470,
+          "sha256": "7aff7fcd6bf1c52ad93cb77d47b5ef7c7df17f6c7c00494a76d73ffda67a3d04"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-288.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2473-male-anatomical-white-v1-thumb-efe35d1e6f33.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2970,
+        "sha256": "efe35d1e6f33ffff056b49cedaf08496e47f4b829137c02580f3a385326a8674"
+      },
+      "processingSignature": "eafc476ec82ece9e53842bcae697a4a82fcd1c60ca28b339d22a1e8e6a076eee",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2473-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1425742,
+        "sha256": "14c0bc58a0718a1728d53d34bc2f8b60c30c77d55a3506f31165427b5033dc65"
+      }
+    },
+    {
+      "exerciseId": "2474",
+      "variant": "male",
+      "key": "2474-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Lie on your back with one knee bent, heel on the floor, and the free leg straight upward."
+        },
+        {
+          "key": "p2",
+          "caption": "Press through the planted heel to raise hips while keeping pelvis level, head and shoulders grounded; lower and switch after reps."
+        }
+      ],
+      "prompt": "SINGLE LEG FLOOR GLUTE BRIDGE FREE LEG STRAIGHT UP. TWO equal cells SAME SIDE REAR three-quarter view head LEFT feet RIGHT. Head upperback shoulders arms onfloor, palmsfloor bysides. RIGHT working knee bent90 with RIGHT foot FLAT onfloor near buttock. LEFT FREE LEG straight toward CEILING with slight diagonal no knee bend, left foot airborne. LEFT start pelvis floor. RIGHT push through SAME planted RIGHT heel lift hips to shoulder-hip-rightknee straightline, LEFT freeleg stays straight upward, hips level, no lumbar hyperextension. HEAD always touchesfloor neck relaxed, exactly two legs feet. Primary RIGHT GLUTE only small uniform soft redwash over intact seatshorts in BOTH poses, no cutaway/fibers. No bench/equipment. Premium detailed adult MALE grayscale anatomical illustration matching approved original reference rendering STYLE ONLY, ignore reference exercise/highlights. Pure white background soft shadows, realistic proportions/equipment and crisp detailed exposed gray anatomy. Opaque BLACK tank and black mid-thigh shorts fully wrap front sides back seat crotch, ordinary seams hems fabric folds; black shoes. NO anatomical contours through fabric. Red over cloth is a small plain UNIFORM SOFT COLOR WASH on opaque normal cloth, no internal muscle fibers lobes striations rays cutaways. Only named primary regions red in BOTH poses. Exactly two arms hands five fingers, two legs feet. Equal cells same camera/person/equipment proportions, full body/equipment in frame generous margins. No text arrows logos.",
+      "inspectionNote": "Real output inspected. One foot planted floor, free leg straight upward, pelvis floor start then bridge aligned toward working knee. Head/back shoulders arms remain supported; plain glute tint on intact shorts. Qualified review of head contact/cervical neutrality, hip level, bridge endpoint, free-leg tracing and muscle laterality required. Human anatomy review remains pending. No approval or publication.",
+      "canonicalName": "glute bridge one leg on floor (straight leg)",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "glutes"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. One foot planted floor, free leg straight upward, pelvis floor start then bridge aligned toward working knee. Head/back shoulders arms remain supported; plain glute tint on intact shorts. Qualified review of head contact/cervical neutrality, hip level, bridge endpoint, free-leg tracing and muscle laterality required. Human anatomy review remains pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2474-male-anatomical-white-v1-p1-790387483abd.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 25602,
+          "sha256": "790387483abd1bcfaeeea7f74356d49eb2885e16ac6ff1d08d782bdd57b4f679"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/2474-male-anatomical-white-v1-p2-11c8f74a4027.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 25734,
+          "sha256": "11c8f74a4027183faa614d57868356f6ea83b9a4a07c2e82a809718e126a805e"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-288.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2474-male-anatomical-white-v1-thumb-ad3d625eb6d1.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2752,
+        "sha256": "ad3d625eb6d15dcc87123ecdaaca9a1ed4c3b838d6875ac52b8c927b26a60d4a"
+      },
+      "processingSignature": "e81e7605f3fec1b9451189c422d2cbdf70ad3748cfafe7f92050387bb6e831c4",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2474-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1401659,
+        "sha256": "250d6e43d29b12cf4c5a759dc961ada2d74da8a263d7ffd9fb8dbe19f4254ecc"
+      }
+    }
+  ]
+}

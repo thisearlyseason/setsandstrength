@@ -1,0 +1,585 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "0575",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Sit supported and hold machine handles underhand with arms extended near sides"
+        },
+        {
+          "key": "p2",
+          "caption": "Bend elbows to curl handles upward while keeping upper arms near sides"
+        }
+      ],
+      "detail": "LEVER BICEP CURL, seated leverage biceps machine with upright BACKREST. Side-front three-quarter view, person faces IMAGE LEFT. Seat pelvis and back supported, feet flat shoulder width. Machine has compact steel base, two linked curl lever arms with fixed pivot axis aligned to user's ELBOWS, paired short horizontal handles held with UNDERHAND SUPINATED grip (palms up), weight-stack/cam linkage visible and connected. NO preacher pad forcing arms in front; elbows remain CLOSE to torso sides with shoulders relaxed and upper arms nearly vertical and SAME positions both panels. LEFT elbows nearly fully extended soft, forearms reach down/forward holding handles low near thighs. RIGHT flex elbows to curl handles up toward shoulders, forearms rotate upward while elbows/upper arms stay fixed; wrists neutral and palms up, no shoulder raise or torso lean. Handles follow fixed-radius lever arc connected to same machine pivot; exactly two hands/two handles, closed fingers around grips. RED PRIMARY BICEPS exposed on BOTH upper arms only; forearm/triceps/deltoid gray; shirt/shorts solidblack, no chest tint.",
+      "variant": "male",
+      "key": "0575-male-anatomical-white-v2",
+      "prompt": "Edit ONLY near-side curl lever linkage in RIGHT (curled) panel of this original male biceps-machine illustration. LEFT extended-arm panel unchanged. In RIGHT panel raised grip in near hand around x1390,y220 is currently floating, while near machine lever still points downward to unused low end around x1470,y530. REMOVE that downward moving lever/unused low end. Keep fixed round elbow-height pivot around x1515,y375 in same location, and rotate a solid steel lever UP/FORWARD from that pivot to CONNECT DIRECTLY to raised held grip at x1390,y220. Same lever length/radius as left panel, not telescoping; continuous mechanical connection, grip horizontal through curled hand. No detached dumbbell-like grip. Keep both hand grips and anatomical poses, fixed machine frame/base/seat/pivots/weight-stack, man identity, fine grayscale muscle fibers/red biceps, fully opaque black shirt/knee shorts/seat/crotch and two-panel white framing exactly. Far-side lever remains connected. No extra handles or joints/text. Coordinates approximate for editing only, never render them.",
+      "inspectionNote": "Correction attempt alters far-side linkage but fails to connect raised near-side grip; candidate remains blocked, with both original and attempted correction retained. Opaque clothing and anatomical detail preserved.",
+      "canonicalName": "lever bicep curl",
+      "styleVersion": "white-v1",
+      "equipment": "leverage machine",
+      "primaryMuscles": [
+        "biceps"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Correction attempt alters far-side linkage but fails to connect raised near-side grip; candidate remains blocked, with both original and attempted correction retained. Opaque clothing and anatomical detail preserved.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0575-male-anatomical-white-v2-p1-e27c0ff806be.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 51586,
+          "sha256": "e27c0ff806beae37bbce0b1661bdf94a0cb35c2f022259acf0c51b2c64677e07"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0575-male-anatomical-white-v2-p2-d1f4ad9ddfee.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 49900,
+          "sha256": "d1f4ad9ddfeee198b7f0e5379db0521efe543fa017872e0ce61b9c08f0dff1d5"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0575-male-anatomical-white-v2-thumb-3c685ea7bbbd.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 5776,
+        "sha256": "3c685ea7bbbd9d44ad3958280a922c51655976ed6820d337072836a4fcccb340"
+      },
+      "processingSignature": "801849a33711b1176a762ed2fbf1796a24bf34dbeb9a1f7489d28c3f7ee6b4e8",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0575-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1845907,
+        "sha256": "0bb87a227fb1b8099678dcdfa49b760ee7182b0fe7ec966e32b8b27d5d71a93d"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0575",
+          "layout": {
+            "columns": 2,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Sit supported and hold machine handles underhand with arms extended near sides"
+            },
+            {
+              "key": "p2",
+              "caption": "Bend elbows to curl handles upward while keeping upper arms near sides"
+            }
+          ],
+          "detail": "LEVER BICEP CURL, seated leverage biceps machine with upright BACKREST. Side-front three-quarter view, person faces IMAGE LEFT. Seat pelvis and back supported, feet flat shoulder width. Machine has compact steel base, two linked curl lever arms with fixed pivot axis aligned to user's ELBOWS, paired short horizontal handles held with UNDERHAND SUPINATED grip (palms up), weight-stack/cam linkage visible and connected. NO preacher pad forcing arms in front; elbows remain CLOSE to torso sides with shoulders relaxed and upper arms nearly vertical and SAME positions both panels. LEFT elbows nearly fully extended soft, forearms reach down/forward holding handles low near thighs. RIGHT flex elbows to curl handles up toward shoulders, forearms rotate upward while elbows/upper arms stay fixed; wrists neutral and palms up, no shoulder raise or torso lean. Handles follow fixed-radius lever arc connected to same machine pivot; exactly two hands/two handles, closed fingers around grips. RED PRIMARY BICEPS exposed on BOTH upper arms only; forearm/triceps/deltoid gray; shirt/shorts solidblack, no chest tint.",
+          "variant": "male",
+          "key": "0575-male-anatomical-white-v1",
+          "prompt": "Scientific-educational ORIGINAL exercise illustration. Attached original project artwork is STYLE REFERENCE ONLY for fine grayscale exposed muscle fibers/tendons, matte opaque fabric and pure white background. Do NOT copy its exercise, bench or poses. Realistic adult MALE, SAME model, proportions, camera, entire machine and lighting across TWO equal SIDE-BY-SIDE panels. Detailed monochrome grayscale exposed limbs/face/hands, not flesh colored. FULLY OPAQUE matte BLACK sleeveless shirt covers chest/abdomen FRONT SIDES BACK; opaque loose BLACK knee-length shorts wrap BOTH thighs FRONT SIDES REAR/SEAT/CROTCH, closed stitched hems, natural broad cloth folds. NO transparency, skin/anatomical windows or muscle-fiber divisions on clothes. Black trainers, soft contact shadows. Entire seated person AND WHOLE machine frame, weight stack, base feet, hinges, handles and all fingers/shoes within EACH panel with generous white clearance; no equipment cropped. Same actual fixed machine geometry/supports/pivot in both phases; moving lever rotates around fixed joint rather than telescoping. No text, labels, numbers, logos or arrows. LEVER BICEP CURL, seated leverage biceps machine with upright BACKREST. Side-front three-quarter view, person faces IMAGE LEFT. Seat pelvis and back supported, feet flat shoulder width. Machine has compact steel base, two linked curl lever arms with fixed pivot axis aligned to user's ELBOWS, paired short horizontal handles held with UNDERHAND SUPINATED grip (palms up), weight-stack/cam linkage visible and connected. NO preacher pad forcing arms in front; elbows remain CLOSE to torso sides with shoulders relaxed and upper arms nearly vertical and SAME positions both panels. LEFT elbows nearly fully extended soft, forearms reach down/forward holding handles low near thighs. RIGHT flex elbows to curl handles up toward shoulders, forearms rotate upward while elbows/upper arms stay fixed; wrists neutral and palms up, no shoulder raise or torso lean. Handles follow fixed-radius lever arc connected to same machine pivot; exactly two hands/two handles, closed fingers around grips. RED PRIMARY BICEPS exposed on BOTH upper arms only; forearm/triceps/deltoid gray; shirt/shorts solidblack, no chest tint.",
+          "inspectionNote": "Male curl shows supinated grips, upper arms near torso, elbow flexion, back support and opaque clothing. Near-side lever remains low while raised handle floats detached in curled phase.",
+          "blockingIssues": [
+            "Right panel near-side held handle is detached from lever arm, which still points down. Connect raised grip to rotated lever around same fixed pivot before publication."
+          ],
+          "canonicalName": "lever bicep curl",
+          "styleVersion": "white-v1",
+          "equipment": "leverage machine",
+          "primaryMuscles": [
+            "biceps"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Male curl shows supinated grips, upper arms near torso, elbow flexion, back support and opaque clothing. Near-side lever remains low while raised handle floats detached in curled phase.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0575-male-anatomical-white-v1-p1-1610788c3b74.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 56700,
+              "sha256": "1610788c3b74e6eefba25bbbe82939f9816338506e3f99677f4ebcedadd11548"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0575-male-anatomical-white-v1-p2-9b7abb312e61.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 56044,
+              "sha256": "9b7abb312e6128c5116c3808491bcd3ae09b6bcd172fb8153fed75dfe7931ac6"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0575-male-anatomical-white-v1-thumb-3c14d743879d.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 5770,
+            "sha256": "3c14d743879d62fdb351ec1541e6f5965d5063167d27298935255cb7272d2eb1"
+          },
+          "processingSignature": "5a53f29180b00368c568a8a2b497b71ca8cc1313c37209260f77c0b9a938ee87",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0575-male-anatomical-white-v1.png",
+            "width": 1774,
+            "height": 887,
+            "bytes": 1953786,
+            "sha256": "19afaf08dfdd9c66b871a7b3325050ead19f3fa011bf2236b852ca535f9bb572"
+          }
+        }
+      ],
+      "blockingIssues": [
+        "Near-side raised grip remains detached while near lever points down; fixed-pivot machine linkage continuity must be corrected before publication."
+      ]
+    },
+    {
+      "exerciseId": "0575",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Sit supported and hold machine handles underhand with arms extended near sides"
+        },
+        {
+          "key": "p2",
+          "caption": "Bend elbows to curl handles upward while keeping upper arms near sides"
+        }
+      ],
+      "detail": "LEVER BICEP CURL, seated leverage biceps machine with upright BACKREST. Side-front three-quarter view, person faces IMAGE LEFT. Seat pelvis and back supported, feet flat shoulder width. Machine has compact steel base, two linked curl lever arms with fixed pivot axis aligned to user's ELBOWS, paired short horizontal handles held with UNDERHAND SUPINATED grip (palms up), weight-stack/cam linkage visible and connected. NO preacher pad forcing arms in front; elbows remain CLOSE to torso sides with shoulders relaxed and upper arms nearly vertical and SAME positions both panels. LEFT elbows nearly fully extended soft, forearms reach down/forward holding handles low near thighs. RIGHT flex elbows to curl handles up toward shoulders, forearms rotate upward while elbows/upper arms stay fixed; wrists neutral and palms up, no shoulder raise or torso lean. Handles follow fixed-radius lever arc connected to same machine pivot; exactly two hands/two handles, closed fingers around grips. RED PRIMARY BICEPS exposed on BOTH upper arms only; forearm/triceps/deltoid gray; shirt/shorts solidblack, no chest tint.",
+      "variant": "female",
+      "key": "0575-female-anatomical-white-v2",
+      "prompt": "Correct ONLY machine connection in RIGHT panel of this original female biceps curl. The rightmost hand grip at about x1400,y220 floats unattached. Draw one continuous dark steel diagonal moving lever BEHIND/ALONGSIDE that forearm from rightmost FIXED circular pivot at about x1565,y330 UP-LEFT to raised hand grip at x1400,y220, so grip is clearly attached to machine. Remove obsolete short DOWN-LEFT moving arm ending about x1510,y405. Keep frame/seat/base/round fixed pivot in SAME place, preserve original left panel and same lever length across poses. New raised lever may be partly occluded by forearm naturally but connection must be legible at grip and pivot. No free dumbbell handles or extra joints. Preserve woman/poses/fine grayscale fibers/red biceps, secure supinated grips, opaque black shirt and knee-length shorts front/sides/back/seat/crotch, full white panel framing. No text; approximate coordinates for editing only.",
+      "inspectionNote": "Raised near-side grip now visibly connected to diagonal machine lever. Opaque coverage and curl pose retained; linkage radius and multi-joint continuity across phases still require correction/qualified validation.",
+      "canonicalName": "lever bicep curl",
+      "styleVersion": "white-v1",
+      "equipment": "leverage machine",
+      "primaryMuscles": [
+        "biceps"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Raised near-side grip now visibly connected to diagonal machine lever. Opaque coverage and curl pose retained; linkage radius and multi-joint continuity across phases still require correction/qualified validation.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0575-female-anatomical-white-v2-p1-0279297f6290.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 58350,
+          "sha256": "0279297f6290c5f30140b7ac6a819d3c2f526861021da50177d419df19ba16d5"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0575-female-anatomical-white-v2-p2-81bd45077b51.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 57870,
+          "sha256": "81bd45077b515d6cfe7081627941dc22f42a3094777c12930c16abbc09764961"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0575-female-anatomical-white-v2-thumb-2ef27803059a.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 6426,
+        "sha256": "2ef27803059a1c9c5a3a8d14b69b16378bc61cd4500cd2adbe804dea2ac4ac22"
+      },
+      "processingSignature": "67b79148f5bce397844dbb49c255237a191b3b4adbacd50b26a05df42146c72f",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0575-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1904346,
+        "sha256": "3c1b56e2f98b99d6b85e07f17ec725d09ce3fc7b97c7ac0ec22f30c1e455c9f5"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0575",
+          "layout": {
+            "columns": 2,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Sit supported and hold machine handles underhand with arms extended near sides"
+            },
+            {
+              "key": "p2",
+              "caption": "Bend elbows to curl handles upward while keeping upper arms near sides"
+            }
+          ],
+          "detail": "LEVER BICEP CURL, seated leverage biceps machine with upright BACKREST. Side-front three-quarter view, person faces IMAGE LEFT. Seat pelvis and back supported, feet flat shoulder width. Machine has compact steel base, two linked curl lever arms with fixed pivot axis aligned to user's ELBOWS, paired short horizontal handles held with UNDERHAND SUPINATED grip (palms up), weight-stack/cam linkage visible and connected. NO preacher pad forcing arms in front; elbows remain CLOSE to torso sides with shoulders relaxed and upper arms nearly vertical and SAME positions both panels. LEFT elbows nearly fully extended soft, forearms reach down/forward holding handles low near thighs. RIGHT flex elbows to curl handles up toward shoulders, forearms rotate upward while elbows/upper arms stay fixed; wrists neutral and palms up, no shoulder raise or torso lean. Handles follow fixed-radius lever arc connected to same machine pivot; exactly two hands/two handles, closed fingers around grips. RED PRIMARY BICEPS exposed on BOTH upper arms only; forearm/triceps/deltoid gray; shirt/shorts solidblack, no chest tint.",
+          "variant": "female",
+          "key": "0575-female-anatomical-white-v1",
+          "prompt": "Scientific-educational ORIGINAL exercise illustration. Attached original project artwork is STYLE REFERENCE ONLY for fine grayscale exposed muscle fibers/tendons, matte opaque fabric and pure white background. Do NOT copy its exercise, bench or poses. Realistic adult FEMALE, SAME model, proportions, camera, entire machine and lighting across TWO equal SIDE-BY-SIDE panels. Detailed monochrome grayscale exposed limbs/face/hands, not flesh colored. FULLY OPAQUE matte BLACK sleeveless shirt covers chest/abdomen FRONT SIDES BACK; opaque loose BLACK knee-length shorts wrap BOTH thighs FRONT SIDES REAR/SEAT/CROTCH, closed stitched hems, natural broad cloth folds. NO transparency, skin/anatomical windows or muscle-fiber divisions on clothes. Black trainers, soft contact shadows. Entire seated person AND WHOLE machine frame, weight stack, base feet, hinges, handles and all fingers/shoes within EACH panel with generous white clearance; no equipment cropped. Same actual fixed machine geometry/supports/pivot in both phases; moving lever rotates around fixed joint rather than telescoping. No text, labels, numbers, logos or arrows. LEVER BICEP CURL, seated leverage biceps machine with upright BACKREST. Side-front three-quarter view, person faces IMAGE LEFT. Seat pelvis and back supported, feet flat shoulder width. Machine has compact steel base, two linked curl lever arms with fixed pivot axis aligned to user's ELBOWS, paired short horizontal handles held with UNDERHAND SUPINATED grip (palms up), weight-stack/cam linkage visible and connected. NO preacher pad forcing arms in front; elbows remain CLOSE to torso sides with shoulders relaxed and upper arms nearly vertical and SAME positions both panels. LEFT elbows nearly fully extended soft, forearms reach down/forward holding handles low near thighs. RIGHT flex elbows to curl handles up toward shoulders, forearms rotate upward while elbows/upper arms stay fixed; wrists neutral and palms up, no shoulder raise or torso lean. Handles follow fixed-radius lever arc connected to same machine pivot; exactly two hands/two handles, closed fingers around grips. RED PRIMARY BICEPS exposed on BOTH upper arms only; forearm/triceps/deltoid gray; shirt/shorts solidblack, no chest tint.",
+          "inspectionNote": "Female curl preserves supinated grips, supported back, upper-arm position, opaque clothing and biceps highlight. Curled near handle is detached and linkage geometry differs across panels.",
+          "blockingIssues": [
+            "Raised near-side grip lacks connection to lever; fixed-pivot/linkage continuity must be corrected before publication."
+          ],
+          "canonicalName": "lever bicep curl",
+          "styleVersion": "white-v1",
+          "equipment": "leverage machine",
+          "primaryMuscles": [
+            "biceps"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Female curl preserves supinated grips, supported back, upper-arm position, opaque clothing and biceps highlight. Curled near handle is detached and linkage geometry differs across panels.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0575-female-anatomical-white-v1-p1-619d6508348b.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 64982,
+              "sha256": "619d6508348bda4bd920af4daca3fec20ca1eb8a0dadf39f1dfdff6bec9b5679"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0575-female-anatomical-white-v1-p2-2dd95fa333ac.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 65680,
+              "sha256": "2dd95fa333ac52aff7c844a0daacef733c75d1bcc65de5eaf126a7f3cc0273d4"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0575-female-anatomical-white-v1-thumb-4642e2ecd90a.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 6484,
+            "sha256": "4642e2ecd90a510a9d19b43d20d42895063e21a5f18dcb99d65ba320ca5f7e1a"
+          },
+          "processingSignature": "8bef53113a5ac7e0b565d21bbba88cd219e141f7d674ca01ba590cccd3b039c6",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0575-female-anatomical-white-v1.png",
+            "width": 1774,
+            "height": 887,
+            "bytes": 1987384,
+            "sha256": "3af5fcb262f4fa9961a957628403b7bd7579f47a45b694beaa8935eaa90da6c3"
+          }
+        }
+      ],
+      "blockingIssues": [
+        "Full linkage/pivot continuity between start and curl remains ambiguous despite repaired raised-handle connection; validate consistent fixed geometry before publication."
+      ]
+    },
+    {
+      "exerciseId": "0576",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Sit with back supported and overhand handles at chest height, elbows bent"
+        },
+        {
+          "key": "p2",
+          "caption": "Press machine handles forward while keeping back against pad"
+        }
+      ],
+      "detail": "LEVER CHEST PRESS on seated horizontal chest-press machine. Same SIDE-front three-quarter view person faces IMAGE LEFT. Seat hips and upper back against slightly inclined upright BACKREST, feet flat shoulder width. Full steel leverage machine with two pressing arms pivoting above/behind shoulders, horizontal handles at MID-CHEST level, connected resistance/weight stack, stable complete base. LEFT both hands securely grasp horizontal handles OVERHAND (palms downward), elbows bent about90degrees and 45-60degrees out from torso, wrists neutral in line with forearms, handles beside chest. RIGHT extend BOTH elbows to press handles straight FORWARD away from chest to almost-straight arms at same mid-chest height, same overhand grip, back/pelvis stay pressed against pad; no torso lift, no overhead press. Machine lever arms swing on SAME fixed pivots, no detached handles/changed arm length or apparatus. Primary PECTORALS only a very faint smooth BLURRY red surface print ON intact BLACK chest fabric with cloth wrinkles crossing tint, NO anatomical pectoral fibers/segments or cutaway, abdomen solidblack. All exposed limb muscles grayscale. Whole machine and full hands/shoes framed in own panel.",
+      "variant": "male",
+      "key": "0576-male-anatomical-white-v2",
+      "prompt": "Edit ONLY shirt surface in this original two-panel male seated chest-press illustration. Preserve machine geometry/pivots/levers/handles/weight stack, both exercise poses, hand grips, seated/back support, feet, fine grayscale exposed anatomical muscle fibers, man/face and framing exactly. Repaint ENTIRE sleeveless shirt as continuous fully OPAQUE MATTE BLACK athletic fabric wrapping chest/abdomen/front/sides/back. Remove all pectoral muscle fibers, anatomical divisions, cutaway effects or transparent windows from shirt. Apply ONLY two very faint smooth blurred dark RED surface-tint patches on BLACK chest cloth over pectorals, no internal red lines/muscle outlines; broad BLACK fabric wrinkles cross tint. Abdomen remains black, no red lower torso, no navel/six-pack. Preserve opaque shorts front/sides/rear/seat/crotch and all original exposed-limb striation detail. Pure white background, no text/new objects.",
+      "inspectionNote": "Chest shirt now opaque black fabric with faint smooth pectoral-only tint and no muscle fibers. Machine press poses/grips/back support and fine exposed anatomy retained. Qualified machine continuity, wrist loading, range and anatomy review pending.",
+      "canonicalName": "lever chest press",
+      "styleVersion": "white-v1",
+      "equipment": "leverage machine",
+      "primaryMuscles": [
+        "chest"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Chest shirt now opaque black fabric with faint smooth pectoral-only tint and no muscle fibers. Machine press poses/grips/back support and fine exposed anatomy retained. Qualified machine continuity, wrist loading, range and anatomy review pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0576-male-anatomical-white-v2-p1-ba56ca3f8c92.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 58122,
+          "sha256": "ba56ca3f8c9216b3af030b7378af0070369860957eff83d58612fbe97be3018e"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0576-male-anatomical-white-v2-p2-67bd2244ab5e.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 58300,
+          "sha256": "67bd2244ab5eddf5a09a666c36ea9efb2356558b398a806cd66d616787ddac35"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0576-male-anatomical-white-v2-thumb-29d0cd586b42.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 6424,
+        "sha256": "29d0cd586b42b49d4818634ebf674ea0b7060c7d2c3f01e110a3710851e2abf7"
+      },
+      "processingSignature": "6a1a19ad950f3031fb20406b7683983070658777c14563199e36ce8c6d94253d",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0576-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1863776,
+        "sha256": "af5735ef0cffebeeace0de45a9f5de07191e73d484d78c3210fe446de1659a91"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0576",
+          "layout": {
+            "columns": 2,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Sit with back supported and overhand handles at chest height, elbows bent"
+            },
+            {
+              "key": "p2",
+              "caption": "Press machine handles forward while keeping back against pad"
+            }
+          ],
+          "detail": "LEVER CHEST PRESS on seated horizontal chest-press machine. Same SIDE-front three-quarter view person faces IMAGE LEFT. Seat hips and upper back against slightly inclined upright BACKREST, feet flat shoulder width. Full steel leverage machine with two pressing arms pivoting above/behind shoulders, horizontal handles at MID-CHEST level, connected resistance/weight stack, stable complete base. LEFT both hands securely grasp horizontal handles OVERHAND (palms downward), elbows bent about90degrees and 45-60degrees out from torso, wrists neutral in line with forearms, handles beside chest. RIGHT extend BOTH elbows to press handles straight FORWARD away from chest to almost-straight arms at same mid-chest height, same overhand grip, back/pelvis stay pressed against pad; no torso lift, no overhead press. Machine lever arms swing on SAME fixed pivots, no detached handles/changed arm length or apparatus. Primary PECTORALS only a very faint smooth BLURRY red surface print ON intact BLACK chest fabric with cloth wrinkles crossing tint, NO anatomical pectoral fibers/segments or cutaway, abdomen solidblack. All exposed limb muscles grayscale. Whole machine and full hands/shoes framed in own panel.",
+          "variant": "male",
+          "key": "0576-male-anatomical-white-v1",
+          "prompt": "Scientific-educational ORIGINAL exercise illustration. Attached original project artwork is STYLE REFERENCE ONLY for fine grayscale exposed muscle fibers/tendons, matte opaque fabric and pure white background. Do NOT copy its exercise, bench or poses. Realistic adult MALE, SAME model, proportions, camera, entire machine and lighting across TWO equal SIDE-BY-SIDE panels. Detailed monochrome grayscale exposed limbs/face/hands, not flesh colored. FULLY OPAQUE matte BLACK sleeveless shirt covers chest/abdomen FRONT SIDES BACK; opaque loose BLACK knee-length shorts wrap BOTH thighs FRONT SIDES REAR/SEAT/CROTCH, closed stitched hems, natural broad cloth folds. NO transparency, skin/anatomical windows or muscle-fiber divisions on clothes. Black trainers, soft contact shadows. Entire seated person AND WHOLE machine frame, weight stack, base feet, hinges, handles and all fingers/shoes within EACH panel with generous white clearance; no equipment cropped. Same actual fixed machine geometry/supports/pivot in both phases; moving lever rotates around fixed joint rather than telescoping. No text, labels, numbers, logos or arrows. LEVER CHEST PRESS on seated horizontal chest-press machine. Same SIDE-front three-quarter view person faces IMAGE LEFT. Seat hips and upper back against slightly inclined upright BACKREST, feet flat shoulder width. Full steel leverage machine with two pressing arms pivoting above/behind shoulders, horizontal handles at MID-CHEST level, connected resistance/weight stack, stable complete base. LEFT both hands securely grasp horizontal handles OVERHAND (palms downward), elbows bent about90degrees and 45-60degrees out from torso, wrists neutral in line with forearms, handles beside chest. RIGHT extend BOTH elbows to press handles straight FORWARD away from chest to almost-straight arms at same mid-chest height, same overhand grip, back/pelvis stay pressed against pad; no torso lift, no overhead press. Machine lever arms swing on SAME fixed pivots, no detached handles/changed arm length or apparatus. Primary PECTORALS only a very faint smooth BLURRY red surface print ON intact BLACK chest fabric with cloth wrinkles crossing tint, NO anatomical pectoral fibers/segments or cutaway, abdomen solidblack. All exposed limb muscles grayscale. Whole machine and full hands/shoes framed in own panel.",
+          "inspectionNote": "Male machine press has supported back/pelvis, overhand chest-height grips, bent-to-extended elbows and visible lever pivots. Opaque clothing retained but red pectoral fiber treatment needs fabric-only softening.",
+          "blockingIssues": [
+            "Replace anatomical pectoral fibers on shirt with diffuse red print on intact opaque fabric before publication; verify fixed-pivot machine geometry in qualified review."
+          ],
+          "canonicalName": "lever chest press",
+          "styleVersion": "white-v1",
+          "equipment": "leverage machine",
+          "primaryMuscles": [
+            "chest"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Male machine press has supported back/pelvis, overhand chest-height grips, bent-to-extended elbows and visible lever pivots. Opaque clothing retained but red pectoral fiber treatment needs fabric-only softening.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0576-male-anatomical-white-v1-p1-a72896521b05.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 65704,
+              "sha256": "a72896521b053ac71ba65dbc0f90fa3ab49f4df7226002f9db7ea56812d50fea"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0576-male-anatomical-white-v1-p2-135dbb8d5e1c.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 64892,
+              "sha256": "135dbb8d5e1cc8b70be53f7a1ec5ee3f7fe3cf8ad03b8897a3a093041316e9ba"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0576-male-anatomical-white-v1-thumb-f0c4267334e6.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 6592,
+            "sha256": "f0c4267334e6768802428257d69a47ceb327133f91706611775cabd88d297af4"
+          },
+          "processingSignature": "4eae9dd69a809ab14e95e9439b17765415f1e1161f2b90953dec0b8a2f1c2060",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0576-male-anatomical-white-v1.png",
+            "width": 1774,
+            "height": 887,
+            "bytes": 1958010,
+            "sha256": "a19e4869c2e9a1ceab100c16e4e942f052cf1d9417c3bb467cd9e1cc1f6dc9ef"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "0576",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Sit with back supported and overhand handles at chest height, elbows bent"
+        },
+        {
+          "key": "p2",
+          "caption": "Press machine handles forward while keeping back against pad"
+        }
+      ],
+      "detail": "LEVER CHEST PRESS on seated horizontal chest-press machine. Same SIDE-front three-quarter view person faces IMAGE LEFT. Seat hips and upper back against slightly inclined upright BACKREST, feet flat shoulder width. Full steel leverage machine with two pressing arms pivoting above/behind shoulders, horizontal handles at MID-CHEST level, connected resistance/weight stack, stable complete base. LEFT both hands securely grasp horizontal handles OVERHAND (palms downward), elbows bent about90degrees and 45-60degrees out from torso, wrists neutral in line with forearms, handles beside chest. RIGHT extend BOTH elbows to press handles straight FORWARD away from chest to almost-straight arms at same mid-chest height, same overhand grip, back/pelvis stay pressed against pad; no torso lift, no overhead press. Machine lever arms swing on SAME fixed pivots, no detached handles/changed arm length or apparatus. Primary PECTORALS only a very faint smooth BLURRY red surface print ON intact BLACK chest fabric with cloth wrinkles crossing tint, NO anatomical pectoral fibers/segments or cutaway, abdomen solidblack. All exposed limb muscles grayscale. Whole machine and full hands/shoes framed in own panel.",
+      "variant": "female",
+      "key": "0576-female-anatomical-white-v1",
+      "prompt": "Scientific-educational ORIGINAL exercise illustration. Attached original project artwork is STYLE REFERENCE ONLY for fine grayscale exposed muscle fibers/tendons, matte opaque fabric and pure white background. Do NOT copy its exercise, bench or poses. Realistic adult FEMALE, SAME model, proportions, camera, entire machine and lighting across TWO equal SIDE-BY-SIDE panels. Detailed monochrome grayscale exposed limbs/face/hands, not flesh colored. FULLY OPAQUE matte BLACK sleeveless shirt covers chest/abdomen FRONT SIDES BACK; opaque loose BLACK knee-length shorts wrap BOTH thighs FRONT SIDES REAR/SEAT/CROTCH, closed stitched hems, natural broad cloth folds. NO transparency, skin/anatomical windows or muscle-fiber divisions on clothes. Black trainers, soft contact shadows. Entire seated person AND WHOLE machine frame, weight stack, base feet, hinges, handles and all fingers/shoes within EACH panel with generous white clearance; no equipment cropped. Same actual fixed machine geometry/supports/pivot in both phases; moving lever rotates around fixed joint rather than telescoping. No text, labels, numbers, logos or arrows. LEVER CHEST PRESS on seated horizontal chest-press machine. Same SIDE-front three-quarter view person faces IMAGE LEFT. Seat hips and upper back against slightly inclined upright BACKREST, feet flat shoulder width. Full steel leverage machine with two pressing arms pivoting above/behind shoulders, horizontal handles at MID-CHEST level, connected resistance/weight stack, stable complete base. LEFT both hands securely grasp horizontal handles OVERHAND (palms downward), elbows bent about90degrees and 45-60degrees out from torso, wrists neutral in line with forearms, handles beside chest. RIGHT extend BOTH elbows to press handles straight FORWARD away from chest to almost-straight arms at same mid-chest height, same overhand grip, back/pelvis stay pressed against pad; no torso lift, no overhead press. Machine lever arms swing on SAME fixed pivots, no detached handles/changed arm length or apparatus. Primary PECTORALS only a very faint smooth BLURRY red surface print ON intact BLACK chest fabric with cloth wrinkles crossing tint, NO anatomical pectoral fibers/segments or cutaway, abdomen solidblack. All exposed limb muscles grayscale. Whole machine and full hands/shoes framed in own panel.",
+      "inspectionNote": "Female machine press retains supported back/pelvis, flat feet, overhand chest-height handles and bent-to-extended elbows with visible connected pressing arms. Opaque fabric and diffuse pectoral tint preserved. Qualified machine pivot/resistance geometry, grip/wrist loading and anatomy review pending.",
+      "canonicalName": "lever chest press",
+      "styleVersion": "white-v1",
+      "equipment": "leverage machine",
+      "primaryMuscles": [
+        "chest"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Female machine press retains supported back/pelvis, flat feet, overhand chest-height handles and bent-to-extended elbows with visible connected pressing arms. Opaque fabric and diffuse pectoral tint preserved. Qualified machine pivot/resistance geometry, grip/wrist loading and anatomy review pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0576-female-anatomical-white-v1-p1-f2a5d4b834cb.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 60904,
+          "sha256": "f2a5d4b834cbd85f75bd38334a6e94d93006a9770a5c151b3ba48937495dec75"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0576-female-anatomical-white-v1-p2-442b377c7151.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 59154,
+          "sha256": "442b377c7151deb6ac003257cfd8a1a9e5cd34a4fa442b20ffc01d8f4e1e0e8d"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0576-female-anatomical-white-v1-thumb-cef369145906.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 6378,
+        "sha256": "cef369145906ed609f8eccda7227fb2b568dad8fcdb9c94ddca6f15771d36401"
+      },
+      "processingSignature": "57af3921dc01ced602dbea27b4a4c3da291072c08b1cd42dbd6f16288e9bbb43",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0576-female-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1925712,
+        "sha256": "dc189b4117995d17bd1cdbc6c1d477aa2084b8d107d495a8f5f23e6c729f5ad2"
+      }
+    }
+  ]
+}

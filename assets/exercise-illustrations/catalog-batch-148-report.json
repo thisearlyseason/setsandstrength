@@ -1,0 +1,84 @@
+{
+  "batch": 148,
+  "trigger": "2026-11-03T05:55:26.845Z",
+  "completedAt": "2026-11-03T06:06:51.136743+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 4,
+  "generationCalls": 4,
+  "exerciseIds": [
+    "0963",
+    "0964"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 600,
+    "remainingVariants": 10664,
+    "approvedVariants": 0,
+    "blockedVariants": 213,
+    "knownPoseImages": 1220,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Four single-pose static-hold candidates, four built-in calls. Warrior II pairs show open upright torso, front knee over ankle, straight back leg, arms extending shoulder height and gaze over front hand. Warrior I pairs show torso turned toward front, overhead palms-in arms, front lunge and rear leg straight with grounded heel. Qualified hip squaring vs open pelvis in Warrior I, rear foot/heel angle/contact, knee tracking, hand/toe anatomy, shoulder/spine alignment, weight distribution and primary mapping require human review. Fine exposed grayscale anatomy and red quadriceps with continuous opaque black shirt/shorts visually retained. Fingertip margins modest but uncropped. Every original and exact prompt saved; no corrections required at this inspection stage, no anatomy/clothing approval or publication. Original project artwork rendering style only, no upstream licensed input. Seven pipeline checks do not establish anatomical accuracy.",
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 959644803,
+  "savedMasters": [
+    {
+      "exerciseId": "0963",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0963-male-anatomical-white-v1.png",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 1447980,
+        "sha256": "7230c2f30e211c7ec24c8a97184ba9fbf7a1d0addf336e0408c3f219f8824e95"
+      }
+    },
+    {
+      "exerciseId": "0963",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0963-female-anatomical-white-v1.png",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 1443659,
+        "sha256": "5e5105bccc897a4d117cc76c67f9c9c3cfff6a8c43cdd3c4aa4e8187f1dcf873"
+      }
+    },
+    {
+      "exerciseId": "0964",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0964-male-anatomical-white-v1.png",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 1360250,
+        "sha256": "74c2f6d5f0f255063afefdd70ab9466f4f6e46ba35fc6e4a26f8b77d4f564972"
+      }
+    },
+    {
+      "exerciseId": "0964",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0964-female-anatomical-white-v1.png",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 1375262,
+        "sha256": "3d03ea145168f49733274dd05cc41ca39a0c331698bf64d21d71a43af4f0b824"
+      }
+    }
+  ]
+}

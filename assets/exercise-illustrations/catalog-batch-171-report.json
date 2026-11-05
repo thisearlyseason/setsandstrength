@@ -1,0 +1,68 @@
+{
+  "batch": 171,
+  "runId": "525d1222-aa93-44a3-9ca7-33e67eba9709",
+  "trigger": "2026-11-03T09:21:58.375Z",
+  "completedAt": "2026-11-03T09:29:49.064487+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 2,
+  "generationCalls": 3,
+  "exerciseIds": [
+    "1267"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 656,
+    "remainingVariants": 10608,
+    "approvedVariants": 0,
+    "blockedVariants": 221,
+    "knownPoseImages": 1314,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Two ball-seated one-arm cable chest press candidates, four poses, three built-in calls including retained male cable-occlusion correction. Upright torso, planted wide feet, free hand hip and bent working elbow to forward extension. Male edit removes cable crossing front shirt; far-side route now partly hidden behind torso/arm as in female. Smooth working-chest tint over intact opaque tank, full opaque shorts and grayscale exposed anatomy retained. Qualified cable-to-handle continuity in occlusion, elbow/grip, ball stability, stack travel and shoulder alignment require human review. Every original, exact prompt and correction history saved; no anatomy/clothing approval or publication. Original project artwork rendering style only, no upstream licensed input. Seven pipeline checks do not establish anatomical accuracy.",
+  "metadataConflictsDeferred": {
+    "1266": "Stability ball plus incline bench support combination undefined.",
+    "1271": "Crossed arms pushed forward conflicts with chest-opening/retraction stretch.",
+    "1272": "Sitting on ball while holding same ball ambiguous; motion does not establish chest stretch.",
+    "1274": "Deep dumbbell push-up equipment/contact omitted from instructions."
+  },
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 1040560759,
+  "savedMasters": [
+    {
+      "exerciseId": "1267",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1267-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1808150,
+        "sha256": "aba65953f683dbbda4f900e48438e165d2c579368b15ad426132095521195f64"
+      }
+    },
+    {
+      "exerciseId": "1267",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1267-female-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1904802,
+        "sha256": "78083ceb0353309809a5c49fcea588c0812f9ba64e6856a11798dffbd94d5699"
+      }
+    }
+  ]
+}

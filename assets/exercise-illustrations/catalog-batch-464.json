@@ -1,0 +1,58 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "5667",
+      "variant": "male",
+      "key": "5667-male-anatomical-white-v1",
+      "prompt": "Dumbbell ZPRESS TWO equal side-by-side panels SIDEthreequarter. SitonFLOOR BOTHlegsSTRAIGHTextendedforward heelsfloor torsoUPRIGHT no backsupport. ONEdumbbellEACHhand palmsFORWARD. First weightsatSHOULDERS elbowsbent forearmsvertical. Second BOTHweightspressedSTRAIGHTOVERHEAD elbowslocked generousmarginfullweightsinframe. Samelegsstraight corebraced noleanback. Exposed DELTOIDS red only. Use case: scientific educational. Match original 0853 reference only in premium detailed grayscale anatomy rendering, never its movement or equipment. White background, subtle floor shadow, realistic muscular adult male. Same person, camera, scale and equipment in both panels. Fully opaque black tank and mid-thigh black shorts wrap front, sides, back and crotch, realistic seams, folds and hems; no clothing cutaways or anatomical fibers over cloth. Red highlights only on exposed target deltoids or triceps as specified. Entire body, hands, feet, weights and equipment fit generously inside each panel. No words, numbers or arrows.",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Sit tall on floor with legs straight and dumbbells at shoulders, palms forward."
+        },
+        {
+          "key": "p2",
+          "caption": "Press overhead to straight arms without leaning back, then lower with control."
+        }
+      ],
+      "inspectionNote": "Real output inspected. Floor-seated Z press with straight legs and upright trunk, weights at shoulders then overhead. Opaque clothing retained. Qualified anatomy review pending; no publication.",
+      "blockingIssues": [],
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream media used.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0853-male-anatomical-white-v1.png",
+        "role": "style only"
+      }
+    },
+    {
+      "exerciseId": "5669",
+      "variant": "male",
+      "key": "5669-male-anatomical-white-v1",
+      "prompt": "Barbell STRICTcurl TWO equal side-by-side panels FRONTthreequarter. Standtall neutralspine feetfixed hipsfixed torsoSTILL no swing. Straightbarbellsmallbalancedplates UNDERHANDshoulderwidthgrip. First elbowsFULLYstraight baratthighs. Second curlbartowardSHOULDERS elbowsPINNEDribs upperarmsfixed wristsstraight. Entirebarandplatesinsideframe sameproportions. Exposed BICEPS red only. Use case: scientific educational. Match original 0853 reference only in premium detailed grayscale anatomy rendering, never its movement or equipment. White background, subtle floor shadow, realistic muscular adult male. Same person, camera, scale and equipment in both panels. Fully opaque black tank and mid-thigh black shorts wrap front, sides, back and crotch, realistic seams, folds and hems; no clothing cutaways or anatomical fibers over cloth. Red highlights only on exposed target deltoids or triceps as specified. Entire body, hands, feet, weights and equipment fit generously inside each panel. No words, numbers or arrows.",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand with underhand shoulder-width grip and elbows pinned to sides."
+        },
+        {
+          "key": "p2",
+          "caption": "Curl toward shoulders with torso still, squeeze biceps, then lower slowly to straight arms."
+        }
+      ],
+      "inspectionNote": "Real output inspected. Strict underhand barbell curl has fixed stance and upper arms at sides with full bar visible. Opaque clothing retained. Qualified anatomy review pending; no publication.",
+      "blockingIssues": [],
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream media used.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0853-male-anatomical-white-v1.png",
+        "role": "style only"
+      }
+    }
+  ]
+}

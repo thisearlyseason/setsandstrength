@@ -1,0 +1,342 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "3403",
+      "variant": "male",
+      "key": "3403-male-anatomical-white-v1",
+      "prompt": "Two equal panels same REAR three-quarter view. STANDING BODYWEIGHT Y RAISE. Stand tall feet hip width knees soft pelvis stable. Panel1 both arms straight by sides, thumbs forward/up. Panel2 both arms lift diagonally overhead into broad Y, elbows straight thumbs UP, shoulders DOWN necklong no shrug no leaningback. No weights or bands. Primary LOWER TRAPEZIUS small PLAIN uniform red wash on intact black mid/upper-back tank centered below shoulder blades only; all shoulders gray. Premium detailed adult MALE grayscale anatomical illustration pure white background soft shadows detailed exposed gray musculature. Original project reference STYLE ONLY. Opaque BLACK tank and mid-thigh shorts wrap front sides back seat crotch with fabric seams folds hems. Red primary highlights over covered areas SMALL PLAIN UNIFORM wash on intact fabric NO anatomical fibers/lobes/segments/cutaways. One head two arms/hands two legs/feet per figure. Same model/camera/scale across panels, whole body in frame. No text arrows logos.",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand tall with arms by sides and thumbs up."
+        },
+        {
+          "key": "p2",
+          "caption": "Raise arms diagonally overhead into Y, keep shoulders down, then lower."
+        }
+      ],
+      "inspectionNote": "Real output inspected. Standing Y raise from arms down to diagonal overhead thumbs up, opaque clothes. Small lower-trap wash has anatomical fiber pattern through tank; correction needed. Qualified shoulder depression and lower-trap mapping review pending. Human anatomy review pending. No approval or publication.",
+      "blockingIssues": [
+        "Replace lower-trap anatomical fibers through tank with plain uniform wash."
+      ],
+      "canonicalName": "standing y raise",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "traps"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Standing Y raise from arms down to diagonal overhead thumbs up, opaque clothes. Small lower-trap wash has anatomical fiber pattern through tank; correction needed. Qualified shoulder depression and lower-trap mapping review pending. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/3403-male-anatomical-white-v1-p1-36305c1ceb7f.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 20930,
+          "sha256": "36305c1ceb7f56d5722550d28d0c62cb9800afb403cd52ec12216e86d0605461"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/3403-male-anatomical-white-v1-p2-fcac2e99a367.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 21814,
+          "sha256": "fcac2e99a3676f1a69cbe977eb7c37904603e3bffc1e8164b71cf87ad8f1e444"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-358.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/3403-male-anatomical-white-v1-thumb-d102c71c900c.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2294,
+        "sha256": "d102c71c900c0b2b56e2ba76673bd1df66d8e71a9123b674df4267ffbccabbba"
+      },
+      "processingSignature": "ab963943c2248ebb0ae0cbb72ec876f49bc490f9019c9d57b740a66acc39041f",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/3403-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1319167,
+        "sha256": "fa205090ebb6638105f1a1de292e784166c5762270668ce263052ec490ab02a6"
+      }
+    },
+    {
+      "exerciseId": "3404",
+      "variant": "male",
+      "key": "3404-male-anatomical-white-v1",
+      "prompt": "Two equal panels same REAR three-quarter view. STANDING BODYWEIGHT T RAISE. Feet hip width fixed, talltorso ribsdown. Panel1 both straight arms reachFORWARD atCHESTheight parallelfloor. Panel2 openbothstraightarmsOUTSIDES into T shoulderheight shoulderbladesgentlytogether, no backlean no weights. Primary UPPER BACK small PLAIN uniformredwash intactblackupperbacktank ONLY no scapula/upperback fibers, exposedshouldersgray. Premium detailed adult MALE grayscale anatomical illustration pure white background soft shadows detailed exposed gray musculature. Original project reference STYLE ONLY. Opaque BLACK tank and mid-thigh shorts wrap front sides back seat crotch with fabric seams folds hems. Red primary highlights over covered areas SMALL PLAIN UNIFORM wash on intact fabric NO anatomical fibers/lobes/segments/cutaways. One head two arms/hands two legs/feet per figure. Same model/camera/scale across panels, whole body in frame. No text arrows logos.",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Reach straight arms forward at chest height."
+        },
+        {
+          "key": "p2",
+          "caption": "Open arms into T and squeeze shoulder blades; return slowly."
+        }
+      ],
+      "inspectionNote": "Real output inspected. Standing straight-arm forward start to open T with steady stance, opaque clothes/plain upper-back wash. Qualified scapular retraction, shoulder height and rib control review pending. Human anatomy review pending. No approval or publication.",
+      "canonicalName": "standing t raise",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "upper back"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Standing straight-arm forward start to open T with steady stance, opaque clothes/plain upper-back wash. Qualified scapular retraction, shoulder height and rib control review pending. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/3404-male-anatomical-white-v1-p1-de2ad5a85cf8.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 19656,
+          "sha256": "de2ad5a85cf8e90765cf93be6a2863dc01ee4126b9366bcc71a1760d834315c1"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/3404-male-anatomical-white-v1-p2-8cc8fde3bc15.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 21278,
+          "sha256": "8cc8fde3bc15e5fac2605bed18427852a0ab2bb3490dcf9390e5dd859f404890"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-358.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/3404-male-anatomical-white-v1-thumb-898303219dc7.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2230,
+        "sha256": "898303219dc7f5226fb3a60db35881cdf0c88a22e5e2ac1e54d94597bb659774"
+      },
+      "processingSignature": "594d41a3612a915cbd9e66ffb68ec1d2e7b5bf3e4df40863ff6804efd9ff4f86",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/3404-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1299187,
+        "sha256": "e98cbd50ae8594666c57ea61f5e4dae992bd63423113c52b6af87bdd60cbf53c"
+      }
+    },
+    {
+      "exerciseId": "3405",
+      "variant": "male",
+      "key": "3405-male-anatomical-white-v1",
+      "prompt": "Two equal panels same REAR three-quarter view. STANDING BODYWEIGHT W RAISE. Feet hipwidth talltorso necklong shouldersdown. Panel1 elbowsBENT handsinfrontCHEST elbowsnearfronttorso. Panel2 drawbothELBOWSBACKandDOWN slightlybelowshoulders, elbowsbent90 handsrotateOUTWARD/UP palmsforward formingW withupperarmsdownwarddiagonal andforearmsup. Shoulderbladesgentlyretract ribsdown no shrug no weights. Primary UPPER BACK small PLAIN uniformredwash intactblackupperbacktank ONLY NO fibers/scapulalobes. Premium detailed adult MALE grayscale anatomical illustration pure white background soft shadows detailed exposed gray musculature. Original project reference STYLE ONLY. Opaque BLACK tank and mid-thigh shorts wrap front sides back seat crotch with fabric seams folds hems. Red primary highlights over covered areas SMALL PLAIN UNIFORM wash on intact fabric NO anatomical fibers/lobes/segments/cutaways. One head two arms/hands two legs/feet per figure. Same model/camera/scale across panels, whole body in frame. No text arrows logos.",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand with bent elbows and hands in front of chest."
+        },
+        {
+          "key": "p2",
+          "caption": "Pull elbows back/down and rotate hands outward into W; return slowly."
+        }
+      ],
+      "inspectionNote": "Real output inspected. Bent-elbow forward start to outward W with elbows low, opaque clothing. Red upper-back anatomical fiber pattern through tank requires correction. Qualified external rotation and shoulder depression review pending. Human anatomy review pending. No approval or publication.",
+      "blockingIssues": [
+        "Replace upper-back anatomical fiber pattern through tank with plain uniform wash."
+      ],
+      "canonicalName": "standing w raise",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "upper back"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Bent-elbow forward start to outward W with elbows low, opaque clothing. Red upper-back anatomical fiber pattern through tank requires correction. Qualified external rotation and shoulder depression review pending. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/3405-male-anatomical-white-v1-p1-0151b816697c.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 21224,
+          "sha256": "0151b816697c0bd1c89ca197d21063ef603134ed65e09963d74deddb9e6fb999"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/3405-male-anatomical-white-v1-p2-d58151656057.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 23186,
+          "sha256": "d581516560571569a84c991f9dcba717e0a2359b653108c73104ab219e5aef11"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-358.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/3405-male-anatomical-white-v1-thumb-64b24f1a992d.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2318,
+        "sha256": "64b24f1a992d399ba6c1f057fe80553b824acd6d0d48d62d31dd18fc1d35dad9"
+      },
+      "processingSignature": "09cd4480b8e205ef565aae10af8a4b01ee37eb365fff8a5fe815a797223e8a11",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/3405-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1338019,
+        "sha256": "e08e309a58316366a715d0cb8c285587f6b4a109cf2cc656e2a03d8ab4ae030a"
+      }
+    },
+    {
+      "exerciseId": "3408",
+      "variant": "male",
+      "key": "3408-male-anatomical-white-v1",
+      "prompt": "Three equal panels SAME straight-on FRONTcamera. STANDING UPPERBODY ROTATION. Feet hipwidth planted, kneesSOFT pelvis/hipsALWAYSFACEFRONT. BOTHhandsCLASPEDinfrontCHEST elbowsbent allposes. Panel1 torsofrontneutral. Panel2 rotateSHOULDERScage about30degrees toMODELRIGHT viewerLEFT, handsremaininfrontsternum headfollows, PELVISSTILLFRONT. Panel3 MIRROR rotateSHOULDERScage30degrees MODELLEFT viewerRIGHT handssternum hipsfront. Clearlyoppositerotations no shiftingfeet. PrimaryABS small PLAIN uniformredwash intactblackabdomenONLY no sixpack. Premium detailed adult MALE grayscale anatomical illustration pure white background soft shadows detailed exposed gray musculature. Original project reference STYLE ONLY. Opaque BLACK tank and mid-thigh shorts wrap front sides back seat crotch with fabric seams folds hems. Red primary highlights over covered areas SMALL PLAIN UNIFORM wash on intact fabric NO anatomical fibers/lobes/segments/cutaways. One head two arms/hands two legs/feet per figure. Same model/camera/scale across panels, whole body in frame. No text arrows logos.",
+      "layout": {
+        "columns": 3,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand with hands clasped at chest and hips forward."
+        },
+        {
+          "key": "p2",
+          "caption": "Rotate upper body toward right within comfortable range."
+        },
+        {
+          "key": "p3",
+          "caption": "Return through center and rotate toward left, keeping hips forward."
+        }
+      ],
+      "inspectionNote": "Real output inspected. Hands clasped and hips forward, but rotation mostly appears in head/neck rather than thorax. Unrequested pectoral fiber-like red instead of abdominal highlight. Opaque clothes; correction required. Human anatomy review pending. No approval or publication.",
+      "blockingIssues": [
+        "Show clear mirrored thoracic/shoulder rotation while hips stay forward, rather than neck-only turns.",
+        "Remove non-primary pectoral anatomy/red; use localized plain abdomen wash."
+      ],
+      "canonicalName": "standing upper body rotation",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "abs"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Hands clasped and hips forward, but rotation mostly appears in head/neck rather than thorax. Unrequested pectoral fiber-like red instead of abdominal highlight. Opaque clothes; correction required. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/3408-male-anatomical-white-v1-p1-df3656a5f08e.webp",
+          "width": 591,
+          "height": 887,
+          "bytes": 21008,
+          "sha256": "df3656a5f08ebf9141a33784e6bb4472339d2dff20564cbdcabc4ee88520cef0"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/3408-male-anatomical-white-v1-p2-85719800598c.webp",
+          "width": 592,
+          "height": 887,
+          "bytes": 21708,
+          "sha256": "85719800598c21cfeb90cfdd3d8e6221fbfe5c6a743b06e4c81b8f7d1ae87a32"
+        },
+        {
+          "pose": "p3",
+          "path": "/workout/illustration-pilot/3408-male-anatomical-white-v1-p3-ecd5108c06b8.webp",
+          "width": 591,
+          "height": 887,
+          "bytes": 21690,
+          "sha256": "ecd5108c06b85ece158e1f06d89802ca9be9448fab58469f35335e22bd836e7e"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-358.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/3408-male-anatomical-white-v1-thumb-1716ba7caa10.webp",
+        "width": 160,
+        "height": 240,
+        "bytes": 2468,
+        "sha256": "1716ba7caa1069190d94699cb04ab676dbad53dabe51c33fd0bc229edd828b32"
+      },
+      "processingSignature": "63cc8974286bb8e0e3e8a08dad10fabdbb077fa84bbd9a9e7c0f84648f727355",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/3408-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1442133,
+        "sha256": "e71624ca1b9e4088145494f2c64276cad890d0db61c1ca435a237f28c6bba3ae"
+      }
+    }
+  ]
+}

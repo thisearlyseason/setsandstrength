@@ -1,0 +1,84 @@
+{
+  "batch": 98,
+  "trigger": "2026-11-01T22:31:52.252Z",
+  "completedAt": "2026-11-01T22:43:12.530148+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 4,
+  "generationCalls": 8,
+  "exerciseIds": [
+    "0642",
+    "0647"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 404,
+    "remainingVariants": 10860,
+    "approvedVariants": 0,
+    "blockedVariants": 172,
+    "knownPoseImages": 836,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Four candidate sets with twelve pose images and four retained corrections; eight built-in calls. None approved or published. Outside-leg-kick push-ups show low push-up and two high-plank leg phases. Male correction straightens final near knee, but lateral kick range/supporting toe contact and residual radial glute fabric pattern remain blocked. Female correction removes erroneous bench and restores hands to floor mat, but both high planks still appear to lift same far leg and radial cloth pattern remains, blocked. Wall-sit jumps show squat, airborne extension and bent-knee landing; cloth edits replace upper-thigh anatomical tint with diffuse red on intact opaque shorts while exposed quadriceps retain red fibers. Qualified wall clearance, landing mechanics, foot support, knee angles and all anatomy/technique review remain separate. Full opaque garments wrap torso/front/sides/back/seat/crotch, exposed anatomy grayscale. Exact prompts, original PNGs, corrections and hashes retained; original project artwork style reference only, no upstream media. Pipeline checks are not anatomy approval.",
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 665417868,
+  "savedMasters": [
+    {
+      "exerciseId": "0642",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0642-male-anatomical-white-v2.png",
+        "width": 2172,
+        "height": 724,
+        "bytes": 1785807,
+        "sha256": "aeb10a775c4cc49b5a77c3091fd0858f2331e21cbad6ee0d1fa235cc93e78c6c"
+      }
+    },
+    {
+      "exerciseId": "0642",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0642-female-anatomical-white-v2.png",
+        "width": 2172,
+        "height": 724,
+        "bytes": 1804445,
+        "sha256": "e35c3ecebf0e1891bd7e6a8fa4309022aae794600211c2b5257aeee214148949"
+      }
+    },
+    {
+      "exerciseId": "0647",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0647-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1807979,
+        "sha256": "970bddb5db2cc5ce493f777cd36909fceab730717a7d8d9e842ae6b49fcad2eb"
+      }
+    },
+    {
+      "exerciseId": "0647",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0647-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1675226,
+        "sha256": "bbdc06bb09a4ff7fb00b6752c74de0509838c5d49a22ec5aab29ff20d551cd1f"
+      }
+    }
+  ]
+}

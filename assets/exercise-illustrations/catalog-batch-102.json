@@ -1,0 +1,496 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "0659",
+      "variant": "male",
+      "key": "0659-male-anatomical-white-v2",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hold the body straight with palms on the wall and elbows extended"
+        },
+        {
+          "key": "p2",
+          "caption": "Bend elbows to lower the straight body toward the wall, then press away"
+        }
+      ],
+      "detail": "WALL PUSH-UP TWO PHASES, strict SIDE three-quarter view, wall LEFT model RIGHT facing left. Full person shoes and hands visible. Vertical plain white wall at image left with faint shadow. Feet hip width entire SOLES INCLUDING HEELS flat on FLOOR, knees straight. LEFT TOP: hands/palms on wall at shoulder height, fingers UP, arms STRAIGHT HORIZONTAL from wall palms to shoulders, elbow angle175-180degrees, elbow NOT bent. Feet positioned so body slightly inclined straight head-hips-heels; do not lean excessively. RIGHT LOWER: SAME feet/hands locations, body straight leans toward wall and BOTH elbows bend90degrees, chest and face close wall but no collision. Clear difference elbow extension vs flexion with whole torso moving together, no hips folding. Same model/wall/camera, no equipment/bench. Primary CHEST only red as ONE soft smoothly blurred diffuse tint on continuous OPAQUE BLACK shirt, no fibers/radial rays/muscle divisions in clothing. All exposed arms/legs fine detailed grayscale anatomical fibers. Full opaque black shirt front sides back and loose knee shorts front sides back seat crotch, no cutaways. No text.",
+      "prompt": "Edit original project two-panel wall push-up. Preserve TOP near-straight arms and BOTTOM bent elbows, same palms at shoulder-height wall and straight body line. In BOTH panels rotate feet at ankles so BOTH entire SOLES INCLUDING HEELS plant flat on FLOOR, no tiptoes or lifted heels; move feet a little closer if needed, keep hips/knees straight. RIGHT LOWER ensure forehead/nose do NOT contact wall, leave clear3-5cm gap and neutral neck, adjust torso only enough without losing bent elbows. Smooth diffuse BLURRED RED chest patch on intact opaque BLACK shirt, erase every radial fiber/starburst/muscle division from fabric. Shirt wraps full front sides back; loose black knee shorts front sides back seat crotch. Preserve detailed fine grayscale anatomical fibers on all exposed arms/legs, model/camera, full framing. No text.",
+      "inspectionNote": "Heels/soles now flat on floor and near-straight top arms retained. Lower-phase forehead/nose still nearly touches wall and chest radial cloth tint persists; blocked for clearance and fabric review. Opaque clothing and fine exposed grayscale anatomy retained; qualified elbow/hand continuity pending.",
+      "canonicalName": "push-up (wall)",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "pectorals"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0659-male-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "status": "generated",
+        "costUSD": null
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Heels/soles now flat on floor and near-straight top arms retained. Lower-phase forehead/nose still nearly touches wall and chest radial cloth tint persists; blocked for clearance and fabric review. Opaque clothing and fine exposed grayscale anatomy retained; qualified elbow/hand continuity pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0659-male-anatomical-white-v2-p1-31294efe68de.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 23806,
+          "sha256": "31294efe68de5e4000f11771ab406c4e7473b291fb8eb0adf458849cd944f7ce"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0659-male-anatomical-white-v2-p2-6707ca05b0e1.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 24078,
+          "sha256": "6707ca05b0e105243540f3219a02c5ff8460309479525b931632ca79c66405b8"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0659-male-anatomical-white-v2-thumb-cece09e5eab7.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2630,
+        "sha256": "cece09e5eab7ed59f685eb442a917de101357509c41129a08728b7c771fd84f7"
+      },
+      "processingSignature": "f283f73ce57739c2b27964d216bba0c83af29fdb2b91c07c65793b3f63058778",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0659-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1665277,
+        "sha256": "5967e508925e067d7740936a682f22faf9b8abde28077fc9302bd6c9997dc4cd"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0659",
+          "variant": "male",
+          "key": "0659-male-anatomical-white-v1",
+          "layout": {
+            "columns": 2,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Hold the body straight with palms on the wall and elbows extended"
+            },
+            {
+              "key": "p2",
+              "caption": "Bend elbows to lower the straight body toward the wall, then press away"
+            }
+          ],
+          "detail": "WALL PUSH-UP TWO PHASES, strict SIDE three-quarter view, wall LEFT model RIGHT facing left. Full person shoes and hands visible. Vertical plain white wall at image left with faint shadow. Feet hip width entire SOLES INCLUDING HEELS flat on FLOOR, knees straight. LEFT TOP: hands/palms on wall at shoulder height, fingers UP, arms STRAIGHT HORIZONTAL from wall palms to shoulders, elbow angle175-180degrees, elbow NOT bent. Feet positioned so body slightly inclined straight head-hips-heels; do not lean excessively. RIGHT LOWER: SAME feet/hands locations, body straight leans toward wall and BOTH elbows bend90degrees, chest and face close wall but no collision. Clear difference elbow extension vs flexion with whole torso moving together, no hips folding. Same model/wall/camera, no equipment/bench. Primary CHEST only red as ONE soft smoothly blurred diffuse tint on continuous OPAQUE BLACK shirt, no fibers/radial rays/muscle divisions in clothing. All exposed arms/legs fine detailed grayscale anatomical fibers. Full opaque black shirt front sides back and loose knee shorts front sides back seat crotch, no cutaways. No text.",
+          "prompt": "Original educational exercise illustration. Attached original project artwork is STYLE reference ONLY, never pose reference. Detailed fine grayscale anatomical fibers on exposed arms and legs, realistic neutral adult MALE; pure white background. TWO equal side-by-side panels, same exact model, camera and lighting. FULLY OPAQUE matte BLACK sleeveless shirt continuously wraps torso front/sides/back. Loose BLACK knee-length shorts fully wrap both upper thighs, front, sides, rear, seat and crotch with closed hems/seams and natural fabric folds. Never translucent fabric, bare buttocks, anatomy windows, clothing cutaways or muscle-fiber patterns on clothes. Black trainers. Red PRIMARY muscle highlights only as specified, over clothing one soft diffuse blurred tint on intact black fabric, no anatomy divisions or fibers. Entire person, shoes, hands and apparatus fit in EACH panel with generous white margins. No text, arrows, logos or numbers. WALL PUSH-UP TWO PHASES, strict SIDE three-quarter view, wall LEFT model RIGHT facing left. Full person shoes and hands visible. Vertical plain white wall at image left with faint shadow. Feet hip width entire SOLES INCLUDING HEELS flat on FLOOR, knees straight. LEFT TOP: hands/palms on wall at shoulder height, fingers UP, arms STRAIGHT HORIZONTAL from wall palms to shoulders, elbow angle175-180degrees, elbow NOT bent. Feet positioned so body slightly inclined straight head-hips-heels; do not lean excessively. RIGHT LOWER: SAME feet/hands locations, body straight leans toward wall and BOTH elbows bend90degrees, chest and face close wall but no collision. Clear difference elbow extension vs flexion with whole torso moving together, no hips folding. Same model/wall/camera, no equipment/bench. Primary CHEST only red as ONE soft smoothly blurred diffuse tint on continuous OPAQUE BLACK shirt, no fibers/radial rays/muscle divisions in clothing. All exposed arms/legs fine detailed grayscale anatomical fibers. Full opaque black shirt front sides back and loose knee shorts front sides back seat crotch, no cutaways. No text.",
+          "inspectionNote": "Wall push-up top arms more extended and bottom elbows flexed, straight body incline. Heels lift and lower-phase forehead/nose close to wall contact; need soles planted and head clearance. Chest radial fabric pattern needs diffuse edit. Full opaque clothes and fine detailed grayscale exposed limbs.",
+          "canonicalName": "push-up (wall)",
+          "styleVersion": "white-v1",
+          "equipment": "body weight",
+          "primaryMuscles": [
+            "pectorals"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Wall push-up top arms more extended and bottom elbows flexed, straight body incline. Heels lift and lower-phase forehead/nose close to wall contact; need soles planted and head clearance. Chest radial fabric pattern needs diffuse edit. Full opaque clothes and fine detailed grayscale exposed limbs.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0659-male-anatomical-white-v1-p1-9e2a8b686e4f.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 26978,
+              "sha256": "9e2a8b686e4f76a05aecc7c75be7035900f5a9d676cf26fcf2bd5ee0deb10cf7"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0659-male-anatomical-white-v1-p2-451ecbb4b32a.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 27034,
+              "sha256": "451ecbb4b32aea56d21ead6ecc0c265e8c67e56556e29268cb6f15211de9ce4c"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0659-male-anatomical-white-v1-thumb-fe85128eb019.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 2698,
+            "sha256": "fe85128eb019403bec175eac4e9f5948bafc434b28421b25e87c32738bc2a732"
+          },
+          "processingSignature": "0e35c79d61b809b09adf602df9e7706bc3d1653783848d477e183fa5c571853f",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0659-male-anatomical-white-v1.png",
+            "width": 1774,
+            "height": 887,
+            "bytes": 1755928,
+            "sha256": "e290cdbdad40d9e789ce6fcf4dacc7db8c782b9861de22475f4b7fdbae7ec8d6"
+          }
+        }
+      ],
+      "blockingIssues": [
+        "Lower-phase head remains at wall with inadequate visible clearance; radial chest fabric pattern persists."
+      ]
+    },
+    {
+      "exerciseId": "0659",
+      "variant": "female",
+      "key": "0659-female-anatomical-white-v2",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hold the body straight with palms on the wall and elbows extended"
+        },
+        {
+          "key": "p2",
+          "caption": "Bend elbows to lower the straight body toward the wall, then press away"
+        }
+      ],
+      "detail": "WALL PUSH-UP TWO PHASES, strict SIDE three-quarter view, wall LEFT model RIGHT facing left. Full person shoes and hands visible. Vertical plain white wall at image left with faint shadow. Feet hip width entire SOLES INCLUDING HEELS flat on FLOOR, knees straight. LEFT TOP: hands/palms on wall at shoulder height, fingers UP, arms STRAIGHT HORIZONTAL from wall palms to shoulders, elbow angle175-180degrees, elbow NOT bent. Feet positioned so body slightly inclined straight head-hips-heels; do not lean excessively. RIGHT LOWER: SAME feet/hands locations, body straight leans toward wall and BOTH elbows bend90degrees, chest and face close wall but no collision. Clear difference elbow extension vs flexion with whole torso moving together, no hips folding. Same model/wall/camera, no equipment/bench. Primary CHEST only red as ONE soft smoothly blurred diffuse tint on continuous OPAQUE BLACK shirt, no fibers/radial rays/muscle divisions in clothing. All exposed arms/legs fine detailed grayscale anatomical fibers. Full opaque black shirt front sides back and loose knee shorts front sides back seat crotch, no cutaways. No text.",
+      "prompt": "Edit original project two-panel wall push-up. Preserve TOP near-straight arms and BOTTOM bent elbows, same palms at shoulder-height wall and straight body line. In BOTH panels rotate feet at ankles so BOTH entire SOLES INCLUDING HEELS plant flat on FLOOR, no tiptoes or lifted heels; move feet a little closer if needed, keep hips/knees straight. RIGHT LOWER ensure forehead/nose do NOT contact wall, leave clear3-5cm gap and neutral neck, adjust torso only enough without losing bent elbows. Smooth diffuse BLURRED RED chest patch on intact opaque BLACK shirt, erase every radial fiber/starburst/muscle division from fabric. Shirt wraps full front sides back; loose black knee shorts front sides back seat crotch. Preserve detailed fine grayscale anatomical fibers on all exposed arms/legs, model/camera, full framing. No text. Preserve female model proportions and fine grayscale exposed muscle detail.",
+      "inspectionNote": "Soles and heels now planted, head visibly clear of wall, top arms nearly straight and lower elbows bent. Chest tint still has internal radial streaks, blocked for cloth correction. Full opaque garments and fine exposed grayscale anatomy retained; qualified palm height, body alignment and elbow range review pending.",
+      "canonicalName": "push-up (wall)",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "pectorals"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0659-female-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "status": "generated",
+        "costUSD": null
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Soles and heels now planted, head visibly clear of wall, top arms nearly straight and lower elbows bent. Chest tint still has internal radial streaks, blocked for cloth correction. Full opaque garments and fine exposed grayscale anatomy retained; qualified palm height, body alignment and elbow range review pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0659-female-anatomical-white-v2-p1-05a937b9a889.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 23224,
+          "sha256": "05a937b9a889984e9bc708e436afcb956bde347b61882d951d955381e8ad8518"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0659-female-anatomical-white-v2-p2-9a73e680cad9.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 23374,
+          "sha256": "9a73e680cad9cff020834150c44391e68566b5aa83e24e4b23dff522b1c42861"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0659-female-anatomical-white-v2-thumb-8487084eae4e.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2578,
+        "sha256": "8487084eae4e29332b55f745d7102b0ea3ad0dc080717148c1d4e16c71092233"
+      },
+      "processingSignature": "abc6129b8f42ca6de52a535884aa8954e6ad05b70e1b48e26eef92971f8b1f66",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0659-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1667650,
+        "sha256": "e41608d60e5accc7d4d59a722454d0f1ee9186b5d498f5e89a6cc4adfcddfc35"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0659",
+          "variant": "female",
+          "key": "0659-female-anatomical-white-v1",
+          "layout": {
+            "columns": 2,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Hold the body straight with palms on the wall and elbows extended"
+            },
+            {
+              "key": "p2",
+              "caption": "Bend elbows to lower the straight body toward the wall, then press away"
+            }
+          ],
+          "detail": "WALL PUSH-UP TWO PHASES, strict SIDE three-quarter view, wall LEFT model RIGHT facing left. Full person shoes and hands visible. Vertical plain white wall at image left with faint shadow. Feet hip width entire SOLES INCLUDING HEELS flat on FLOOR, knees straight. LEFT TOP: hands/palms on wall at shoulder height, fingers UP, arms STRAIGHT HORIZONTAL from wall palms to shoulders, elbow angle175-180degrees, elbow NOT bent. Feet positioned so body slightly inclined straight head-hips-heels; do not lean excessively. RIGHT LOWER: SAME feet/hands locations, body straight leans toward wall and BOTH elbows bend90degrees, chest and face close wall but no collision. Clear difference elbow extension vs flexion with whole torso moving together, no hips folding. Same model/wall/camera, no equipment/bench. Primary CHEST only red as ONE soft smoothly blurred diffuse tint on continuous OPAQUE BLACK shirt, no fibers/radial rays/muscle divisions in clothing. All exposed arms/legs fine detailed grayscale anatomical fibers. Full opaque black shirt front sides back and loose knee shorts front sides back seat crotch, no cutaways. No text.",
+          "prompt": "Original educational exercise illustration. Attached original project artwork is STYLE reference ONLY, never pose reference. Detailed fine grayscale anatomical fibers on exposed arms and legs, realistic neutral adult FEMALE; pure white background. TWO equal side-by-side panels, same exact model, camera and lighting. FULLY OPAQUE matte BLACK sleeveless shirt continuously wraps torso front/sides/back. Loose BLACK knee-length shorts fully wrap both upper thighs, front, sides, rear, seat and crotch with closed hems/seams and natural fabric folds. Never translucent fabric, bare buttocks, anatomy windows, clothing cutaways or muscle-fiber patterns on clothes. Black trainers. Red PRIMARY muscle highlights only as specified, over clothing one soft diffuse blurred tint on intact black fabric, no anatomy divisions or fibers. Entire person, shoes, hands and apparatus fit in EACH panel with generous white margins. No text, arrows, logos or numbers. WALL PUSH-UP TWO PHASES, strict SIDE three-quarter view, wall LEFT model RIGHT facing left. Full person shoes and hands visible. Vertical plain white wall at image left with faint shadow. Feet hip width entire SOLES INCLUDING HEELS flat on FLOOR, knees straight. LEFT TOP: hands/palms on wall at shoulder height, fingers UP, arms STRAIGHT HORIZONTAL from wall palms to shoulders, elbow angle175-180degrees, elbow NOT bent. Feet positioned so body slightly inclined straight head-hips-heels; do not lean excessively. RIGHT LOWER: SAME feet/hands locations, body straight leans toward wall and BOTH elbows bend90degrees, chest and face close wall but no collision. Clear difference elbow extension vs flexion with whole torso moving together, no hips folding. Same model/wall/camera, no equipment/bench. Primary CHEST only red as ONE soft smoothly blurred diffuse tint on continuous OPAQUE BLACK shirt, no fibers/radial rays/muscle divisions in clothing. All exposed arms/legs fine detailed grayscale anatomical fibers. Full opaque black shirt front sides back and loose knee shorts front sides back seat crotch, no cutaways. No text.",
+          "inspectionNote": "Wall push-up top arms clearly straighter and lower arms bent, body straight and face clear wall. Heel support slightly elevated, chest radial cloth pattern needs diffuse edit. Full opaque clothes and fine grayscale exposed anatomy retained; qualified palm height, elbow range and alignment review pending.",
+          "canonicalName": "push-up (wall)",
+          "styleVersion": "white-v1",
+          "equipment": "body weight",
+          "primaryMuscles": [
+            "pectorals"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Wall push-up top arms clearly straighter and lower arms bent, body straight and face clear wall. Heel support slightly elevated, chest radial cloth pattern needs diffuse edit. Full opaque clothes and fine grayscale exposed anatomy retained; qualified palm height, elbow range and alignment review pending.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0659-female-anatomical-white-v1-p1-5d8e8a270280.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 26646,
+              "sha256": "5d8e8a270280ed9374792d9597eabb07cbb689e27ae67e22a7a4fc40364eaabf"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0659-female-anatomical-white-v1-p2-41f483072170.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 26054,
+              "sha256": "41f483072170d2a7b00d6c2a69b5d0465ebbc45855ecff209ab5e9c551697aa4"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0659-female-anatomical-white-v1-thumb-7e396ec455bc.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 2672,
+            "sha256": "7e396ec455bcbeafa1d13246182b02775b3104998f0a6df0d9c67cb97ad4e224"
+          },
+          "processingSignature": "bff05a8c4f4306954e01b11285aac787f037d20ab340ba2e7a6f9f484a03d8ee",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0659-female-anatomical-white-v1.png",
+            "width": 1774,
+            "height": 887,
+            "bytes": 1693941,
+            "sha256": "bb0068398a67bdd2cd399d973835fcf26d857c6b7d166a73a58e08261c71bd8a"
+          }
+        }
+      ],
+      "blockingIssues": [
+        "Residual radial chest highlight in shirt after diffuse-cloth correction request."
+      ]
+    },
+    {
+      "exerciseId": "0660",
+      "variant": "male",
+      "key": "0660-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Grip the two close-set dumbbell handles and hold a straight high plank"
+        },
+        {
+          "key": "p2",
+          "caption": "Bend elbows close to the ribs and lower the chest, then press up"
+        }
+      ],
+      "detail": "CLOSE-GRIP DUMBBELL PUSH-UP TWO PHASES, whole body front/side three-quarter camera head LEFT feet RIGHT. Exactly TWO small identical gray HEX DUMBBELLS parallel to body length resting stable on FLAT HEX ENDS on FLOOR MAT, handles horizontal at ground level, separated CLOSE about20cm/inside shoulder width under chest. BOTH hands closed NEUTRAL grip around respective dumbbell HANDLE, palms face each other, thumbs/fingers wrap securely, neutral wrists. Dumbbells neither roll nor move between panels, no platform/bench. Feet together toes on floor, knees straight, body straight head-hips-heels. LEFT TOP arms nearly STRAIGHT with dumbbells directly below shoulder/chest, no shoulder shrug. RIGHT LOWER bend both elbows near90degrees keeping elbows tucked CLOSE TO RIBS, chest lowers toward floor between dumbbells, torso/hips/legs stay straight, no deep sag. Whole body and both entire dumbbells visible each panel. Primary TRICEPS only red anatomical fibers on EXPOSED POSTERIOR upper arms; ALL other exposed muscles grayscale fine fibers and NO red on chest/clothes. Full opaque black sleeveless shirt wraps front sides back and loose black knee shorts wrap front sides back seat crotch. No labels/arrows.",
+      "prompt": "Original educational exercise illustration. Attached original project artwork is STYLE reference ONLY, never pose reference. Detailed fine grayscale anatomical fibers on exposed arms and legs, realistic neutral adult MALE; pure white background. TWO equal side-by-side panels, same exact model, camera and lighting. FULLY OPAQUE matte BLACK sleeveless shirt continuously wraps torso front/sides/back. Loose BLACK knee-length shorts fully wrap both upper thighs, front, sides, rear, seat and crotch with closed hems/seams and natural fabric folds. Never translucent fabric, bare buttocks, anatomy windows, clothing cutaways or muscle-fiber patterns on clothes. Black trainers. Red PRIMARY muscle highlights only as specified, over clothing one soft diffuse blurred tint on intact black fabric, no anatomy divisions or fibers. Entire person, shoes, hands and apparatus fit in EACH panel with generous white margins. No text, arrows, logos or numbers. CLOSE-GRIP DUMBBELL PUSH-UP TWO PHASES, whole body front/side three-quarter camera head LEFT feet RIGHT. Exactly TWO small identical gray HEX DUMBBELLS parallel to body length resting stable on FLAT HEX ENDS on FLOOR MAT, handles horizontal at ground level, separated CLOSE about20cm/inside shoulder width under chest. BOTH hands closed NEUTRAL grip around respective dumbbell HANDLE, palms face each other, thumbs/fingers wrap securely, neutral wrists. Dumbbells neither roll nor move between panels, no platform/bench. Feet together toes on floor, knees straight, body straight head-hips-heels. LEFT TOP arms nearly STRAIGHT with dumbbells directly below shoulder/chest, no shoulder shrug. RIGHT LOWER bend both elbows near90degrees keeping elbows tucked CLOSE TO RIBS, chest lowers toward floor between dumbbells, torso/hips/legs stay straight, no deep sag. Whole body and both entire dumbbells visible each panel. Primary TRICEPS only red anatomical fibers on EXPOSED POSTERIOR upper arms; ALL other exposed muscles grayscale fine fibers and NO red on chest/clothes. Full opaque black sleeveless shirt wraps front sides back and loose black knee shorts wrap front sides back seat crotch. No labels/arrows.",
+      "inspectionNote": "Two close-grip dumbbell push-up phases show neutral closed handles, two hex dumbbells on floor, high plank and tucked bent elbows. Exposed triceps red only, opaque clothes and detailed grayscale anatomy. Qualified grip/wrist, dumbbell stability/spacing, elbow tuck and body alignment review pending.",
+      "canonicalName": "push-up close-grip off dumbbell",
+      "styleVersion": "white-v1",
+      "equipment": "dumbbell",
+      "primaryMuscles": [
+        "triceps"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Two close-grip dumbbell push-up phases show neutral closed handles, two hex dumbbells on floor, high plank and tucked bent elbows. Exposed triceps red only, opaque clothes and detailed grayscale anatomy. Qualified grip/wrist, dumbbell stability/spacing, elbow tuck and body alignment review pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0660-male-anatomical-white-v1-p1-a95490e37f4b.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 35068,
+          "sha256": "a95490e37f4ba2ac1471c9ee83a7753dac2cd5263a01de08932a890f67108609"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0660-male-anatomical-white-v1-p2-6e001c37bca1.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 28336,
+          "sha256": "6e001c37bca1a8cc8e35fa800f64e42cdb18170610eb8d0b704a518159d09d28"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0660-male-anatomical-white-v1-thumb-1b7c5ae41650.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 3524,
+        "sha256": "1b7c5ae41650f5f7393f6f402f840542beb2d5aadda1b002abf5497d1672bec7"
+      },
+      "processingSignature": "d7bcb003a63fcef0a5791180c90f17c5843b3ae7c505d731c32e5a0331edd4db",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0660-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1716648,
+        "sha256": "a622de5d4cb24f07898a2219f6d84e245634584c42abe71c2de79e193756c4cd"
+      }
+    },
+    {
+      "exerciseId": "0660",
+      "variant": "female",
+      "key": "0660-female-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Grip the two close-set dumbbell handles and hold a straight high plank"
+        },
+        {
+          "key": "p2",
+          "caption": "Bend elbows close to the ribs and lower the chest, then press up"
+        }
+      ],
+      "detail": "CLOSE-GRIP DUMBBELL PUSH-UP TWO PHASES, whole body front/side three-quarter camera head LEFT feet RIGHT. Exactly TWO small identical gray HEX DUMBBELLS parallel to body length resting stable on FLAT HEX ENDS on FLOOR MAT, handles horizontal at ground level, separated CLOSE about20cm/inside shoulder width under chest. BOTH hands closed NEUTRAL grip around respective dumbbell HANDLE, palms face each other, thumbs/fingers wrap securely, neutral wrists. Dumbbells neither roll nor move between panels, no platform/bench. Feet together toes on floor, knees straight, body straight head-hips-heels. LEFT TOP arms nearly STRAIGHT with dumbbells directly below shoulder/chest, no shoulder shrug. RIGHT LOWER bend both elbows near90degrees keeping elbows tucked CLOSE TO RIBS, chest lowers toward floor between dumbbells, torso/hips/legs stay straight, no deep sag. Whole body and both entire dumbbells visible each panel. Primary TRICEPS only red anatomical fibers on EXPOSED POSTERIOR upper arms; ALL other exposed muscles grayscale fine fibers and NO red on chest/clothes. Full opaque black sleeveless shirt wraps front sides back and loose black knee shorts wrap front sides back seat crotch. No labels/arrows.",
+      "prompt": "Original educational exercise illustration. Attached original project artwork is STYLE reference ONLY, never pose reference. Detailed fine grayscale anatomical fibers on exposed arms and legs, realistic neutral adult FEMALE; pure white background. TWO equal side-by-side panels, same exact model, camera and lighting. FULLY OPAQUE matte BLACK sleeveless shirt continuously wraps torso front/sides/back. Loose BLACK knee-length shorts fully wrap both upper thighs, front, sides, rear, seat and crotch with closed hems/seams and natural fabric folds. Never translucent fabric, bare buttocks, anatomy windows, clothing cutaways or muscle-fiber patterns on clothes. Black trainers. Red PRIMARY muscle highlights only as specified, over clothing one soft diffuse blurred tint on intact black fabric, no anatomy divisions or fibers. Entire person, shoes, hands and apparatus fit in EACH panel with generous white margins. No text, arrows, logos or numbers. CLOSE-GRIP DUMBBELL PUSH-UP TWO PHASES, whole body front/side three-quarter camera head LEFT feet RIGHT. Exactly TWO small identical gray HEX DUMBBELLS parallel to body length resting stable on FLAT HEX ENDS on FLOOR MAT, handles horizontal at ground level, separated CLOSE about20cm/inside shoulder width under chest. BOTH hands closed NEUTRAL grip around respective dumbbell HANDLE, palms face each other, thumbs/fingers wrap securely, neutral wrists. Dumbbells neither roll nor move between panels, no platform/bench. Feet together toes on floor, knees straight, body straight head-hips-heels. LEFT TOP arms nearly STRAIGHT with dumbbells directly below shoulder/chest, no shoulder shrug. RIGHT LOWER bend both elbows near90degrees keeping elbows tucked CLOSE TO RIBS, chest lowers toward floor between dumbbells, torso/hips/legs stay straight, no deep sag. Whole body and both entire dumbbells visible each panel. Primary TRICEPS only red anatomical fibers on EXPOSED POSTERIOR upper arms; ALL other exposed muscles grayscale fine fibers and NO red on chest/clothes. Full opaque black sleeveless shirt wraps front sides back and loose black knee shorts wrap front sides back seat crotch. No labels/arrows.",
+      "inspectionNote": "Two close-grip dumbbell push-up phases show two hex dumbbells, neutral closed grip, straight body/toes floor and tucked elbows in lower phase. Exposed triceps red, all other muscles detailed grayscale, full opaque clothes. Qualified grip/wrist, dumbbell spacing/stability and elbow/body alignment review pending.",
+      "canonicalName": "push-up close-grip off dumbbell",
+      "styleVersion": "white-v1",
+      "equipment": "dumbbell",
+      "primaryMuscles": [
+        "triceps"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Two close-grip dumbbell push-up phases show two hex dumbbells, neutral closed grip, straight body/toes floor and tucked elbows in lower phase. Exposed triceps red, all other muscles detailed grayscale, full opaque clothes. Qualified grip/wrist, dumbbell spacing/stability and elbow/body alignment review pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0660-female-anatomical-white-v1-p1-6c237552dd12.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 33254,
+          "sha256": "6c237552dd12bca0285003e5e349df77567b130302804944b516686f71c54f2b"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0660-female-anatomical-white-v1-p2-28342f616189.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 28594,
+          "sha256": "28342f616189018d197afb70fc6e1114caeab7d5b7a714acfbc4e8f2eac6d9ca"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0660-female-anatomical-white-v1-thumb-b8b8634075df.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 3276,
+        "sha256": "b8b8634075dfe6659f981370966c9d6a37623ec271a1db8ea9c2e197fe22b0db"
+      },
+      "processingSignature": "90fb73b24a5f6d82c425f6e6bc410126089a8be6916f19e06c2ab37c0ed841c2",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0660-female-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1713536,
+        "sha256": "0c432ef6f9e316e2daef1a650b88797eefc46543967f67af71ee24224cfb0593"
+      }
+    }
+  ]
+}

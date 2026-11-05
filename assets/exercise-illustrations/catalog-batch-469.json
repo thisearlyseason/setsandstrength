@@ -1,0 +1,114 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "6061",
+      "variant": "male",
+      "key": "6061-male-anatomical-white-v1",
+      "prompt": "BOTTLEweighted bentover REVERSEFLY TWO equal side-by-side panels REARthreequarter. Standhipwidth HINGEflatback torsoNEARHORIZONTAL kneesSOFT. ONEsealedwaterBOTTLEEACHhand holdsbottlemidbody, NOTdumbbell. First armshangbelowshoulders palmsin. Second raisebotharmsLATERALLYouttosides toshoulderheight slightelbowbendUNCHANGED, samehinge. Exposed REARDELTOIDS red only backcoveredopaquetank. Use case: scientific educational. Match original 0853 reference only in premium detailed grayscale anatomy rendering, never its movement or equipment. White background, subtle floor shadow, realistic muscular adult male. Same person, camera, scale and equipment in both panels. Fully opaque black tank and mid-thigh black shorts wrap front, sides, back and crotch, realistic seams, folds and hems; no clothing cutaways or anatomical fibers over cloth. Red highlights only on exposed target deltoids or triceps as specified. Entire body, hands, feet, weights and equipment fit generously inside each panel. No words, numbers or arrows. Equipment is ONLY sealed cylindrical water bottles with rounded shoulders and screw caps, no labels, no dumbbells, no metal weights. Preserve same bottle shapes in every panel.",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hinge with flat back holding a bottle in each hand, arms hanging with soft elbows."
+        },
+        {
+          "key": "p2",
+          "caption": "Raise arms sideways to shoulder height, squeeze shoulder blades, then lower slowly."
+        }
+      ],
+      "inspectionNote": "Inspected original: two consistent hinged reverse-fly poses with sealed bottles, rear deltoid highlights and opaque clothing; human anatomy review pending.",
+      "blockingIssues": [],
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream media used.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0853-male-anatomical-white-v1.png",
+        "role": "style only"
+      }
+    },
+    {
+      "exerciseId": "6065",
+      "variant": "male",
+      "key": "6065-male-anatomical-white-v1",
+      "prompt": "BOTTLEweighted ONEARM TRICEPSKICKBACK TWO equal side-by-side panels SIDEthreequarter. Hinge flatback torsonearhorizontal kneesSOFT. RIGHThandgripsONEsealedwaterbottle atmiddle. RIGHTUPPERARMparallelFLOOR elbowTIGHTatside fixedbothposes. First rightelbow90degrees forearmHANGSDOWN bottlebelowelbow. Second extendONLYelbow straighteningarmBEHINDbody parallelfloor. LEFThandlightlyrestsleftthigh forbalance empty. Exposed RIGHTTRICEPS red only. Use case: scientific educational. Match original 0853 reference only in premium detailed grayscale anatomy rendering, never its movement or equipment. White background, subtle floor shadow, realistic muscular adult male. Same person, camera, scale and equipment in both panels. Fully opaque black tank and mid-thigh black shorts wrap front, sides, back and crotch, realistic seams, folds and hems; no clothing cutaways or anatomical fibers over cloth. Red highlights only on exposed target deltoids or triceps as specified. Entire body, hands, feet, weights and equipment fit generously inside each panel. No words, numbers or arrows. Equipment is ONLY sealed cylindrical water bottles with rounded shoulders and screw caps, no labels, no dumbbells, no metal weights. Preserve same bottle shapes in every panel.",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hinge with flat back, upper arm parallel to floor and elbow tucked, bottle in hand."
+        },
+        {
+          "key": "p2",
+          "caption": "Straighten elbow behind you, squeeze triceps, then bend slowly and switch arms."
+        }
+      ],
+      "inspectionNote": "Inspected original: supported single-arm elbow flexion and extension with bottle, stable hinge and opaque clothing; human anatomy review pending.",
+      "blockingIssues": [],
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream media used.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0853-male-anatomical-white-v1.png",
+        "role": "style only"
+      }
+    },
+    {
+      "exerciseId": "6066",
+      "variant": "male",
+      "key": "6066-male-anatomical-white-v1",
+      "prompt": "BOTTLEweighted TWOARM TRICEPSKICKBACK TWO equal side-by-side panels REARSIDEthreequarter. Hinge flatback torsoNEARHORIZONTAL kneesSOFT ONEsealedwaterbottleEACHhand gripmidbody. BOTHupperarmsparallelFLOOR tuckedCLOSEribs FIXEDbothposes. First elbows90degrees forearmshangDOWN bottlesbelowelbows. Second straightenBOTHelbows sendingbottlesBACKtowardhips witharmsparallelfloor. Samehinge no rowing no shoulderraise. Exposed TRICEPS red only backcoveredopaque tank. Use case: scientific educational. Match original 0853 reference only in premium detailed grayscale anatomy rendering, never its movement or equipment. White background, subtle floor shadow, realistic muscular adult male. Same person, camera, scale and equipment in both panels. Fully opaque black tank and mid-thigh black shorts wrap front, sides, back and crotch, realistic seams, folds and hems; no clothing cutaways or anatomical fibers over cloth. Red highlights only on exposed target deltoids or triceps as specified. Entire body, hands, feet, weights and equipment fit generously inside each panel. No words, numbers or arrows. Equipment is ONLY sealed cylindrical water bottles with rounded shoulders and screw caps, no labels, no dumbbells, no metal weights. Preserve same bottle shapes in every panel.",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hinge flat back with bottles in hands, upper arms parallel to floor and elbows bent."
+        },
+        {
+          "key": "p2",
+          "caption": "Extend both elbows behind you, squeeze triceps, then return slowly."
+        }
+      ],
+      "inspectionNote": "Inspected original: bottles retained, but starting hands pinch bottle bases instead of wrapping a secure grip and upper arms drop below the required parallel position. Saved for correction.",
+      "blockingIssues": [
+        "Starting bottle grips pinch the bases rather than securely wrapping the bottles; upper arms do not maintain the specified parallel-to-floor position."
+      ],
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream media used.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0853-male-anatomical-white-v1.png",
+        "role": "style only"
+      }
+    },
+    {
+      "exerciseId": "6067",
+      "variant": "male",
+      "key": "6067-male-anatomical-white-v1",
+      "prompt": "BOTTLEweighted overhead TRICEPSEXTENSION TWO equal side-by-side panels SIDEthreequarter. Standtall ribsdownglutesbraced holdingONEsealedwaterbottlewithBOTHhands aroundbottlemidbody. First armsSTRAIGHTOVERHEAD bottleabovehead fullhandsbottleinsidegenerousmargin. Second bendONLYelbows lowerbottleBEHINDHEAD upperarmsremainVERTICALCLOSEEARS elbowsPOINTFORWARD. No shoulderpress no elbowflare samebottlegripthroughout. Exposed TRICEPS red only. Use case: scientific educational. Match original 0853 reference only in premium detailed grayscale anatomy rendering, never its movement or equipment. White background, subtle floor shadow, realistic muscular adult male. Same person, camera, scale and equipment in both panels. Fully opaque black tank and mid-thigh black shorts wrap front, sides, back and crotch, realistic seams, folds and hems; no clothing cutaways or anatomical fibers over cloth. Red highlights only on exposed target deltoids or triceps as specified. Entire body, hands, feet, weights and equipment fit generously inside each panel. No words, numbers or arrows. Equipment is ONLY sealed cylindrical water bottles with rounded shoulders and screw caps, no labels, no dumbbells, no metal weights. Preserve same bottle shapes in every panel.",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hold one bottle overhead with both hands, elbows pointing forward."
+        },
+        {
+          "key": "p2",
+          "caption": "Bend elbows to lower behind head, then extend while keeping upper arms still."
+        }
+      ],
+      "inspectionNote": "Inspected original: single bottle held in both hands, overhead extension and flexion, opaque clothing; human anatomy review pending.",
+      "blockingIssues": [],
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream media used.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0853-male-anatomical-white-v1.png",
+        "role": "style only"
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "batch": 273,
+  "runId": "0c723ce9-3c1b-43bb-a05f-cc83d65ec8e5",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "trigger": "2026-11-04T00:23:25.302Z",
+  "purpose": "batch273 scheduled male continuation",
+  "started": "2026-11-04T00:24:15.976376+00:00",
+  "completedAt": "2026-11-04T00:33:57.018195+00:00",
+  "actualToolName": "image_gen__imagegen",
+  "calls": 4,
+  "newCandidateSets": 4,
+  "exerciseIds": [
+    "2278",
+    "2285",
+    "2290",
+    "2291"
+  ],
+  "variants": [
+    "male"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 965,
+    "remainingVariants": 10299,
+    "approvedVariants": 0,
+    "blockedVariants": 316,
+    "knownPoseImages": 1833,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 592,
+      "remainingVariants": 5040,
+      "blockedVariants": 197
+    }
+  },
+  "reviewNotes": {
+    "2278": "Two decline-path lever press positions, handles move forward and down with elbows extending, back supported, feet grounded and shoulders relaxed. Plain lower-chest teaching tint over intact tank. Qualified review needed for downward path magnitude versus pressdown, handle setup, lever/pivot mechanics, soft lockout and lower-pectoral mapping.",
+    "2285": "Lever pullover shows overhead and lowered bar with back supported and feet grounded, plain lateral-back tint on intact tank. Elbows change from nearly straight to markedly bent at end rather than maintaining slight bend; block for shoulder-driven sweep with consistent elbow angle. Qualified review of handle range, overhead clearance/margins, machine pivot and lat mapping.",
+    "2290": "Distinct raised/lowered Bulgarian split squat, front foot grounded, rear shoe top supported on bench, dumbbells at sides and torso upright. Front thigh near parallel at bottom, plain working-quad tint over intact shorts. Qualified review of front-knee tracking, stride length, rear-foot contact, dumbbell grip, pelvis alignment and quad mapping.",
+    "2291": "Pulldown has overhead start and bent-elbow end with thighs secured, feet planted and cable attached to bar center. End bar appears behind neck across rear shoulders rather than in front to upper chest; block for correct anterior bar path and slight torso lean. Plain lat tint on intact tank. Qualified review of overhand grip width, elbow path, cable mechanics and mapping."
+  },
+  "blockingIssues": {
+    "2285": [
+      "Elbow angle changes markedly; maintain slight bend and drive pullover through shoulders."
+    ],
+    "2291": [
+      "End bar appears behind neck rather than in front at upper chest; correct anterior pulldown path."
+    ]
+  },
+  "deferred": {
+    "2279": "Cardiovascular primary requires muscle-highlight mapping.",
+    "2282-2284": "Neck motion versus levator scapulae primary mapping requires qualified clarification.",
+    "2286": "Seated backrest/footrests versus backward leg hip extension instructions conflict.",
+    "2287": "Primary muscleMap includes quadriceps/gluteal/adductors versus target quads; highlight plan requires clarification.",
+    "2288": "Machine gripper contact/mechanism insufficiently specified.",
+    "2289": "Seat/shoulder alignment and toes pressing lever down versus heel-rise mechanics unclear."
+  },
+  "tests": 7,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "workerSyncResult": {
+    "statuses": {
+      "generated": 965,
+      "pending": 10299
+    },
+    "remaining": 10299,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 1488609868
+  },
+  "publicationIndexUnchanged": true,
+  "savedMasters": [
+    "assets/exercise-illustrations/generated/2278-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/2285-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/2290-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/2291-male-anatomical-white-v1.png"
+  ]
+}

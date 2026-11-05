@@ -1,0 +1,37 @@
+{
+  "batch": 27,
+  "trigger": "2026-11-01T06:56:11.782Z",
+  "completedAt": "2026-11-01T07:01:56.626836+00:00",
+  "tool": "image_gen.imagegen",
+  "newCandidateSets": 4,
+  "generationCalls": 6,
+  "exerciseIds": [
+    "0392",
+    "0383"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 100,
+    "remainingVariants": 11164,
+    "approvedVariants": 0,
+    "blockedVariants": 40,
+    "knownPoseImages": 206,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "All pending; no production publication. Seated front raises visually inspected for pose, weights and full clothing. Reverse-fly front camera outputs retained in correction history; rear-view v2 corrections now active but blocked for hinge depth, shoulder range and posterior-delt mapping review.",
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 165208954
+}

@@ -1,0 +1,144 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "1492",
+      "variant": "male",
+      "key": "1492-male-anatomical-white-v1",
+      "layout": {
+        "columns": 1,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Raise one arm overhead and bend its elbow so the hand rests behind your head. Gently guide the elbow with your other hand, keeping ribs down; hold 20\u201330 seconds and switch arms."
+        }
+      ],
+      "prompt": "Use case scientific-educational. Original premium ADULT male detailed anatomical exercise illustration canonical1492 TRICEPS DIP STRETCH. ONE STATIC HOLD exactly ONE full body person standing tall SIDE REAR three-quarter view facing RIGHT. Feet hip-width soles flat knees soft pelvis/ribs stacked neutral spine no back arch. Raise RIGHT upper arm OVERHEAD next to ear, RIGHT elbow BENT so RIGHT forearm folds DOWN behind head with right hand resting between shoulder blades. LEFT hand reaches OVER TOP of head to gently cup RIGHT elbow and guide it back/down. Clear realistic TWO arms and TWO hands: working right elbow highest point, working right hand behind upper back, assisting left fingers on outside right elbow. Shoulders relaxed head neutral neck long no neck pressure. Primary exposed RIGHT posterior upper-arm TRICEPS RED ONLY, left triceps and deltoids/chest forearms grayscale. Fine detailed grayscale exposed anatomical muscle contours realistic hand fingers limb proportions. Full opaque BLACK athletic tank wraps FRONT SIDES BACK covers torso and black MID-THIGH shorts cover FRONT SIDES BACK SEAT CROTCH seams broad folds continuous hems no cutaways/transparency/fibers through fabric. Black shoes. Pure WHITE background soft floor contact shadows generous12percent margins overhead elbow fingers full head both feet entirely within SQUARE no crop. Equal male/female quality. Original project reference rendering STYLE ONLY ignore pushup/chest red. No text labels captions arrows extra panels.",
+      "inspectionNote": "Two overhead triceps stretch candidates, one static pose per variant, two built-in calls. Both BLOCKED for malformed extra upper-arm/shoulder structure. Bent working elbow overhead, other hand cupping elbow, exposed triceps red, full opaque clothes and detailed grayscale anatomy retained. Qualified limb count/shoulder connection, finger contact, neck and rib posture need correction and human review. Original project artwork rendering style only, no upstream licensed input. Exact prompts/originals retained. No anatomical or clothing approval or publication. Seven pipeline checks do not establish anatomical accuracy.",
+      "blockingIssues": [
+        "Upper-arm/shoulder topology inconsistent: two overhead arms plus extra lowered shoulder/upper-arm structure; male has a clear extra arm descending beside torso."
+      ],
+      "canonicalName": "triceps dip stretch",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "triceps"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Two overhead triceps stretch candidates, one static pose per variant, two built-in calls. Both BLOCKED for malformed extra upper-arm/shoulder structure. Bent working elbow overhead, other hand cupping elbow, exposed triceps red, full opaque clothes and detailed grayscale anatomy retained. Qualified limb count/shoulder connection, finger contact, neck and rib posture need correction and human review. Original project artwork rendering style only, no upstream licensed input. Exact prompts/originals retained. No anatomical or clothing approval or publication. Seven pipeline checks do not establish anatomical accuracy.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/1492-male-anatomical-white-v1-p1-5322cc9f6adf.webp",
+          "width": 1200,
+          "height": 1200,
+          "bytes": 30402,
+          "sha256": "5322cc9f6adfb600393cb3ebc659b04ef4fe245b2b166e252583c60fa7cfe5e5"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-197.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/1492-male-anatomical-white-v1-thumb-857f0218a49a.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2132,
+        "sha256": "857f0218a49ae61ddc5acf0ec067dc92a427de17f457e71cf48b5d415d423dd6"
+      },
+      "processingSignature": "d43deef5fec9b797493d72894ea0e9033ac3a0e3fb29a1abdd78b2a73740029a",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1492-male-anatomical-white-v1.png",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 1258990,
+        "sha256": "26b093559343eac4726dae071e252c046ba981270b731fb27d07718fe5cb0478"
+      }
+    },
+    {
+      "exerciseId": "1492",
+      "variant": "female",
+      "key": "1492-female-anatomical-white-v1",
+      "layout": {
+        "columns": 1,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Raise one arm overhead and bend its elbow so the hand rests behind your head. Gently guide the elbow with your other hand, keeping ribs down; hold 20\u201330 seconds and switch arms."
+        }
+      ],
+      "prompt": "Use case scientific-educational. Original premium ADULT female detailed anatomical exercise illustration canonical1492 TRICEPS DIP STRETCH. ONE STATIC HOLD exactly ONE full body person standing tall SIDE REAR three-quarter view facing RIGHT. Feet hip-width soles flat knees soft pelvis/ribs stacked neutral spine no back arch. Raise RIGHT upper arm OVERHEAD next to ear, RIGHT elbow BENT so RIGHT forearm folds DOWN behind head with right hand resting between shoulder blades. LEFT hand reaches OVER TOP of head to gently cup RIGHT elbow and guide it back/down. Clear realistic TWO arms and TWO hands: working right elbow highest point, working right hand behind upper back, assisting left fingers on outside right elbow. Shoulders relaxed head neutral neck long no neck pressure. Primary exposed RIGHT posterior upper-arm TRICEPS RED ONLY, left triceps and deltoids/chest forearms grayscale. Fine detailed grayscale exposed anatomical muscle contours realistic hand fingers limb proportions. Full opaque BLACK athletic tank wraps FRONT SIDES BACK covers torso and black MID-THIGH shorts cover FRONT SIDES BACK SEAT CROTCH seams broad folds continuous hems no cutaways/transparency/fibers through fabric. Black shoes. Pure WHITE background soft floor contact shadows generous12percent margins overhead elbow fingers full head both feet entirely within SQUARE no crop. Equal male/female quality. Original project reference rendering STYLE ONLY ignore pushup/chest red. No text labels captions arrows extra panels.",
+      "inspectionNote": "Two overhead triceps stretch candidates, one static pose per variant, two built-in calls. Both BLOCKED for malformed extra upper-arm/shoulder structure. Bent working elbow overhead, other hand cupping elbow, exposed triceps red, full opaque clothes and detailed grayscale anatomy retained. Qualified limb count/shoulder connection, finger contact, neck and rib posture need correction and human review. Original project artwork rendering style only, no upstream licensed input. Exact prompts/originals retained. No anatomical or clothing approval or publication. Seven pipeline checks do not establish anatomical accuracy.",
+      "blockingIssues": [
+        "Upper-arm/shoulder topology inconsistent: two overhead arms plus extra lowered shoulder/upper-arm structure; male has a clear extra arm descending beside torso."
+      ],
+      "canonicalName": "triceps dip stretch",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "triceps"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Two overhead triceps stretch candidates, one static pose per variant, two built-in calls. Both BLOCKED for malformed extra upper-arm/shoulder structure. Bent working elbow overhead, other hand cupping elbow, exposed triceps red, full opaque clothes and detailed grayscale anatomy retained. Qualified limb count/shoulder connection, finger contact, neck and rib posture need correction and human review. Original project artwork rendering style only, no upstream licensed input. Exact prompts/originals retained. No anatomical or clothing approval or publication. Seven pipeline checks do not establish anatomical accuracy.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/1492-female-anatomical-white-v1-p1-2be791e9ff80.webp",
+          "width": 1200,
+          "height": 1200,
+          "bytes": 32264,
+          "sha256": "2be791e9ff805cb68cd7bab45f4a60c1ad87f899be653140af46dbb31312df83"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-197.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/1492-female-anatomical-white-v1-thumb-538cef8c4c65.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2216,
+        "sha256": "538cef8c4c65075899dace41e62ef275ef184d276deef0a78b834d78b275a3de"
+      },
+      "processingSignature": "33ec0de582a91526b33eeed50a5d204e734ff03624e932e001340dbcb947c569",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1492-female-anatomical-white-v1.png",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 1284052,
+        "sha256": "8e40408af33fa9e5a1443ad46dcae9bb203db06f2f18e38220602b813226bb23"
+      }
+    }
+  ]
+}

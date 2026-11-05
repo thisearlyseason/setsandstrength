@@ -1,0 +1,65 @@
+{
+  "batch": 227,
+  "runId": "e3ecc97e-4f1f-49a3-8e00-cb535bc101f4",
+  "trigger": "2026-11-03T16:15:31.285Z",
+  "completedAt": "2026-11-03T16:22:16.607274+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 4,
+  "calls": 4,
+  "exerciseIds": [
+    "1702",
+    "1703",
+    "1705",
+    "1706"
+  ],
+  "variants": [
+    "male"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 787,
+    "remainingVariants": 10477,
+    "approvedVariants": 0,
+    "blockedVariants": 250,
+    "knownPoseImages": 1556,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 414,
+      "remainingVariants": 5218,
+      "blockedVariants": 131
+    }
+  },
+  "reviewNotes": {
+    "1702": "Single-leg foot touch: standing balance to flat-back hinge and reach, free leg behind. BLOCKED: radial anatomical rays appear within red glute overlay on shorts rather than diffuse tint on plain fabric.",
+    "1703": "Single-leg transverse bend: cross-body reach and modest shoulder rotation with free leg extended. Qualified review needed for hamstring versus medial-thigh highlight mapping, actual torso rotation, pelvis control and knee softness.",
+    "1705": "BOSU squat: correctly inverted flat platform above half-dome, both feet planted on platform, tall to near-parallel squat. Qualified review needed for BOSU stability, knee tracking, depth and ankle/foot loading.",
+    "1706": "Static stability-ball forearm plank: one pose, both forearms supported, toes planted, straight body line and diffuse red abdominal cloth overlay. Qualified review needed for elbow/shoulder alignment, lumbar control, forearm contact and fingers."
+  },
+  "deferred": [
+    {
+      "exerciseId": "1708",
+      "reason": "Partner-assisted description conflicts with self/towel assistance; foot arrangement for calf stretch unclear."
+    },
+    {
+      "exerciseId": "1709",
+      "reason": "Partner-assisted description conflicts with self-held figure-four instructions."
+    }
+  ],
+  "tests": 7,
+  "genCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "publicationIndexUnchanged": true,
+  "savedMasters": [
+    "assets/exercise-illustrations/generated/1702-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/1703-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/1705-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/1706-male-anatomical-white-v1.png"
+  ]
+}

@@ -1,0 +1,528 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "0712",
+      "variant": "male",
+      "key": "0712-male-anatomical-white-v1",
+      "layout": {
+        "columns": 1,
+        "rows": 2
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Lie on the side with straight legs stacked and head supported by the lower arm."
+        },
+        {
+          "key": "p2",
+          "caption": "Lift both feet together while keeping legs straight, pause briefly, then lower slowly; finish repetitions and switch sides."
+        }
+      ],
+      "detail": "SIDE-LYING BOTH-FEET RAISE, TWO equal SQUARE panels side by side same front-side three-quarter camera/model/scale, HEAD IMAGE LEFT FEET RIGHT. Lie on LEFT SIDE along thin gray mat, hips/waist and lower torso grounded BOTH phases, not a plank. LEFT bottom arm bent to support side of head in left hand, left elbow/upper arm rests mat, neck neutral; RIGHT top palm rests lightly mat in FRONT abdomen for balance. Both legs STRAIGHT and STACKED together, knees fully extended, ankles/shoes touching each other both phases. LEFT LOWER: both legs/shoes on mat. RIGHT LIFT: lift BOTH straight legs together about15-20cm off mat as ONE stacked pair, both shoes clearly off mat same height, thighs adducted together no gap between legs, no top-leg-only abduction, pelvis remains on LEFT SIDE mat, upper body/head supported same place. Same limb lengths/scale; no knee bend. Primary ADDUCTORS ONE smooth diffuse BLURRED red tint over INNER upper thigh area on intact opaque black shorts, no outer-hip red, no muscle lines through cloth. Fine exposed grayscale arms/calves. Head/arms/pelvis sameposition, no seated V-up. Full clothes front sides back seat crotch.",
+      "prompt": "Original educational exercise illustration. Attached original project artwork STYLE ONLY never pose/equipment reference. Neutral adult MALE, premium fine detailed grayscale anatomical fibers on EXPOSED muscles, pure white background. Fully OPAQUE matte BLACK sleeveless shirt covers torso front sides back abdomen; loose knee-length BLACK shorts wrap both thighs front sides rear seat crotch, closed seams/hems and broad natural folds. Black trainers. Red PRIMARY only as specified; over cloth ONE smooth diffuse blurred tint independent of muscle divisions, no rays/fibers/sixpack lines. Whole body fingers shoes inside generous white margins. No text/labels/arrows/logos. SIDE-LYING BOTH-FEET RAISE, TWO equal SQUARE panels side by side same front-side three-quarter camera/model/scale, HEAD IMAGE LEFT FEET RIGHT. Lie on LEFT SIDE along thin gray mat, hips/waist and lower torso grounded BOTH phases, not a plank. LEFT bottom arm bent to support side of head in left hand, left elbow/upper arm rests mat, neck neutral; RIGHT top palm rests lightly mat in FRONT abdomen for balance. Both legs STRAIGHT and STACKED together, knees fully extended, ankles/shoes touching each other both phases. LEFT LOWER: both legs/shoes on mat. RIGHT LIFT: lift BOTH straight legs together about15-20cm off mat as ONE stacked pair, both shoes clearly off mat same height, thighs adducted together no gap between legs, no top-leg-only abduction, pelvis remains on LEFT SIDE mat, upper body/head supported same place. Same limb lengths/scale; no knee bend. Primary ADDUCTORS ONE smooth diffuse BLURRED red tint over INNER upper thigh area on intact opaque black shorts, no outer-hip red, no muscle lines through cloth. Fine exposed grayscale arms/calves. Head/arms/pelvis sameposition, no seated V-up. Full clothes front sides back seat crotch.",
+      "inspectionNote": "Actual two phases vertical, delivery grid set one column/two rows. Side-lying both straight legs stacked, grounded then both feet lifted, pelvis low and head hand-supported. Diffuse adductor tint on opaque shorts and fine exposed grayscale anatomy. Qualified simultaneous leg lift, pelvic/waist contact, knee extension and inner-thigh localization review pending.",
+      "canonicalName": "side lying feet raise",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "adductors"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Actual two phases vertical, delivery grid set one column/two rows. Side-lying both straight legs stacked, grounded then both feet lifted, pelvis low and head hand-supported. Diffuse adductor tint on opaque shorts and fine exposed grayscale anatomy. Qualified simultaneous leg lift, pelvic/waist contact, knee extension and inner-thigh localization review pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0712-male-anatomical-white-v1-p1-11274af82160.webp",
+          "width": 1200,
+          "height": 600,
+          "bytes": 30410,
+          "sha256": "11274af82160a88de4b1ed9b34e103c06045de8065c7764080f8a7a0d2d1e3f0"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0712-male-anatomical-white-v1-p2-27b00b5eb083.webp",
+          "width": 1200,
+          "height": 600,
+          "bytes": 33956,
+          "sha256": "27b00b5eb083575264ee0e375e5e282301e29c27e1783d06c9b88e0564ae281c"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0712-male-anatomical-white-v1-thumb-06843f6e65c3.webp",
+        "width": 240,
+        "height": 120,
+        "bytes": 1994,
+        "sha256": "06843f6e65c3f34fe632de3114f76c25819eb957b6eb08b766ae61334fecb5bc"
+      },
+      "processingSignature": "678c07cd1eecb733ee0732b187cec1e230e6c05b0237d1d5a3b01e5bdfef3891",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0712-male-anatomical-white-v1.png",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 1618567,
+        "sha256": "0f4517483cd8ca4fb6a620e48acf5a5cc2d58b20c8e66fea199950c5a72ded2d"
+      }
+    },
+    {
+      "exerciseId": "0712",
+      "variant": "female",
+      "key": "0712-female-anatomical-white-v2",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Lie on the side with straight legs stacked and head supported by the lower arm."
+        },
+        {
+          "key": "p2",
+          "caption": "Lift both feet together while keeping legs straight, pause briefly, then lower slowly; finish repetitions and switch sides."
+        }
+      ],
+      "detail": "SIDE-LYING BOTH-FEET RAISE, TWO equal SQUARE panels side by side same front-side three-quarter camera/model/scale, HEAD IMAGE LEFT FEET RIGHT. Lie on LEFT SIDE along thin gray mat, hips/waist and lower torso grounded BOTH phases, not a plank. LEFT bottom arm bent to support side of head in left hand, left elbow/upper arm rests mat, neck neutral; RIGHT top palm rests lightly mat in FRONT abdomen for balance. Both legs STRAIGHT and STACKED together, knees fully extended, ankles/shoes touching each other both phases. LEFT LOWER: both legs/shoes on mat. RIGHT LIFT: lift BOTH straight legs together about15-20cm off mat as ONE stacked pair, both shoes clearly off mat same height, thighs adducted together no gap between legs, no top-leg-only abduction, pelvis remains on LEFT SIDE mat, upper body/head supported same place. Same limb lengths/scale; no knee bend. Primary ADDUCTORS ONE smooth diffuse BLURRED red tint over INNER upper thigh area on intact opaque black shorts, no outer-hip red, no muscle lines through cloth. Fine exposed grayscale arms/calves. Head/arms/pelvis sameposition, no seated V-up. Full clothes front sides back seat crotch.",
+      "prompt": "Edit original project female TWO-panel side-lying both-feet raise. Preserve EXACT both straight stacked legs grounded then both feet lifted together, head hand-supported, pelvis grounded, upperbody/camera/scale, fine detailed EXPOSED grayscale muscles. Only replace red adductor rays on shorts with ONE smooth soft diffuse BLURRED red tint over intact opaque matte BLACK inner-thigh fabric. Erase all radial rays, fibers and anatomical divisions in garment, broad natural cloth folds/seams only. Full opaque clothes front sides back seat crotch. Keep two side-by-side panels full framing. No text.",
+      "inspectionNote": "Inner-thigh rays removed to diffuse soft red over intact opaque shorts. Both straight stacked legs grounded then feet lifted, pelvis low, head hand-supported retained with fine grayscale exposed anatomy. Qualified simultaneous lift, knee extension, pelvic contact and adductor localization review pending.",
+      "canonicalName": "side lying feet raise",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "adductors"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0712-female-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "status": "generated",
+        "costUSD": null
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Inner-thigh rays removed to diffuse soft red over intact opaque shorts. Both straight stacked legs grounded then feet lifted, pelvis low, head hand-supported retained with fine grayscale exposed anatomy. Qualified simultaneous lift, knee extension, pelvic contact and adductor localization review pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0712-female-anatomical-white-v2-p1-bd2989f571ca.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 21088,
+          "sha256": "bd2989f571cae87174a8617b70a548cbd035665e05940eee21705e45bbd3f53e"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0712-female-anatomical-white-v2-p2-e5dc15611d8e.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 22006,
+          "sha256": "e5dc15611d8e777a6e13a2d984acf7fe71d208da1d6a94360f82088c913e1cda"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0712-female-anatomical-white-v2-thumb-9fa26976f108.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2294,
+        "sha256": "9fa26976f108492b2df09386d10cff59a97d702b4a508b756f76eabc885d3ca7"
+      },
+      "processingSignature": "9d6f188df507f2038862a50933d9ca6e6c1b1e6d68f87b1171e07b4e93a913d2",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0712-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1647072,
+        "sha256": "c6220fb75803787024e84e0351617785090d2f408e35472f9c913bf466a9b125"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0712",
+          "variant": "female",
+          "key": "0712-female-anatomical-white-v1",
+          "layout": {
+            "columns": 2,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Lie on the side with straight legs stacked and head supported by the lower arm."
+            },
+            {
+              "key": "p2",
+              "caption": "Lift both feet together while keeping legs straight, pause briefly, then lower slowly; finish repetitions and switch sides."
+            }
+          ],
+          "detail": "SIDE-LYING BOTH-FEET RAISE, TWO equal SQUARE panels side by side same front-side three-quarter camera/model/scale, HEAD IMAGE LEFT FEET RIGHT. Lie on LEFT SIDE along thin gray mat, hips/waist and lower torso grounded BOTH phases, not a plank. LEFT bottom arm bent to support side of head in left hand, left elbow/upper arm rests mat, neck neutral; RIGHT top palm rests lightly mat in FRONT abdomen for balance. Both legs STRAIGHT and STACKED together, knees fully extended, ankles/shoes touching each other both phases. LEFT LOWER: both legs/shoes on mat. RIGHT LIFT: lift BOTH straight legs together about15-20cm off mat as ONE stacked pair, both shoes clearly off mat same height, thighs adducted together no gap between legs, no top-leg-only abduction, pelvis remains on LEFT SIDE mat, upper body/head supported same place. Same limb lengths/scale; no knee bend. Primary ADDUCTORS ONE smooth diffuse BLURRED red tint over INNER upper thigh area on intact opaque black shorts, no outer-hip red, no muscle lines through cloth. Fine exposed grayscale arms/calves. Head/arms/pelvis sameposition, no seated V-up. Full clothes front sides back seat crotch.",
+          "prompt": "Original educational exercise illustration. Attached original project artwork STYLE ONLY never pose/equipment reference. Neutral adult FEMALE, premium fine detailed grayscale anatomical fibers on EXPOSED muscles, pure white background. Fully OPAQUE matte BLACK sleeveless shirt covers torso front sides back abdomen; loose knee-length BLACK shorts wrap both thighs front sides rear seat crotch, closed seams/hems and broad natural folds. Black trainers. Red PRIMARY only as specified; over cloth ONE smooth diffuse blurred tint independent of muscle divisions, no rays/fibers/sixpack lines. Whole body fingers shoes inside generous white margins. No text/labels/arrows/logos. SIDE-LYING BOTH-FEET RAISE, TWO equal SQUARE panels side by side same front-side three-quarter camera/model/scale, HEAD IMAGE LEFT FEET RIGHT. Lie on LEFT SIDE along thin gray mat, hips/waist and lower torso grounded BOTH phases, not a plank. LEFT bottom arm bent to support side of head in left hand, left elbow/upper arm rests mat, neck neutral; RIGHT top palm rests lightly mat in FRONT abdomen for balance. Both legs STRAIGHT and STACKED together, knees fully extended, ankles/shoes touching each other both phases. LEFT LOWER: both legs/shoes on mat. RIGHT LIFT: lift BOTH straight legs together about15-20cm off mat as ONE stacked pair, both shoes clearly off mat same height, thighs adducted together no gap between legs, no top-leg-only abduction, pelvis remains on LEFT SIDE mat, upper body/head supported same place. Same limb lengths/scale; no knee bend. Primary ADDUCTORS ONE smooth diffuse BLURRED red tint over INNER upper thigh area on intact opaque black shorts, no outer-hip red, no muscle lines through cloth. Fine exposed grayscale arms/calves. Head/arms/pelvis sameposition, no seated V-up. Full clothes front sides back seat crotch.",
+          "inspectionNote": "Side-lying straight stacked legs lower then both feet lifted, head hand-supported and pelvis grounded. Opaque full clothes, detailed grayscale exposed anatomy. Inner-thigh tint contains radial rays requiring correction; qualified simultaneous lift, pelvic contact, knee extension and muscle localization review pending.",
+          "canonicalName": "side lying feet raise",
+          "styleVersion": "white-v1",
+          "equipment": "body weight",
+          "primaryMuscles": [
+            "adductors"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Side-lying straight stacked legs lower then both feet lifted, head hand-supported and pelvis grounded. Opaque full clothes, detailed grayscale exposed anatomy. Inner-thigh tint contains radial rays requiring correction; qualified simultaneous lift, pelvic contact, knee extension and muscle localization review pending.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0712-female-anatomical-white-v1-p1-133a962917d8.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 22760,
+              "sha256": "133a962917d8aaee9e972ef60f424d59d21e08e858976553a82e468c09291f16"
+            },
+            {
+              "pose": "p2",
+              "path": "/workout/illustration-pilot/0712-female-anatomical-white-v1-p2-d9531c68664d.webp",
+              "width": 887,
+              "height": 887,
+              "bytes": 23518,
+              "sha256": "d9531c68664da0235c5304b7b2baf6c1b8cdd410c214845d8e4dda148b3c2f56"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0712-female-anatomical-white-v1-thumb-0bee60a3e30f.webp",
+            "width": 240,
+            "height": 240,
+            "bytes": 2194,
+            "sha256": "0bee60a3e30fc38fbcddbfd3b01f0bfc4b09a82644f81be59555542b9f1ee8b0"
+          },
+          "processingSignature": "51766a8e4d29d7b43da8a8e7ba64f9d07463d65bdd9a1675e22edb4b9a907653",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0712-female-anatomical-white-v1.png",
+            "width": 1774,
+            "height": 887,
+            "bytes": 1303282,
+            "sha256": "21d85857b1ca5949e960ce268cccb89bab9600e657ad61506c964426af0508b7"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "0713",
+      "variant": "male",
+      "key": "0713-male-anatomical-white-v2",
+      "layout": {
+        "columns": 1,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand tall, gently tilt one ear toward its shoulder while keeping the opposite shoulder down, and hold 20\u201330 seconds; return to center and switch sides."
+        }
+      ],
+      "detail": "GENTLE SIDE NECK STRETCH, ONE static full-body standing hold REAR three-quarter view with enough face profile to show ear moving toward shoulder. Stand tall feet hip width, knees soft, torso vertical and pelvis level. Tilt head gently toward RIGHT shoulder about20degrees, RIGHT ear toward right shoulder; NO turning face/no forward neck flexion/no chin tuck, gaze forward. Keep LEFT shoulder relaxed pressed DOWN away from left ear, both arms relaxed at SIDES hands free, no forced hand traction needed. Shoulder line horizontal, no torso side bend/shrug. Primary LEFT LEVATOR SCAPULAE area teaching highlight on EXPOSED LEFT POSTEROLATERAL NECK from upper inner shoulder toward upper neck, small red elongated patch ONLY there, all other exposed muscles grayscale. Do not remove shirt fabric to expose deep muscle; opaque black shirt back covers torso and scapulae; patch stops at neckline if covered. Fine detailed grayscale anatomy on exposed arms/calves and neck, realistic relaxed proportions. Hair short or neatly tied away from back/side neck. Entire body head/shoes/hands inside generous white margins. No anatomy labels/text.",
+      "prompt": "Correct original project male side NECK STRETCH pose. Re-render same adult full-body in DIRECT FRONT VIEW so side-bend is clear. Upright torso/pelvis, shoulders LEVEL and relaxed, arms hanging sides hands free, feet hip width. FACE and nose look STRAIGHT AHEAD at camera, no left/right face turn. TILT whole head gently toward IMAGE LEFT about20degrees, bringing IMAGE-LEFT EAR toward image-left shoulder; ear-to-ear/eye line visibly DIAGONAL, NOT horizontal. Chin remains centered facing forward, NO upward head tip/no forward flexion. IMAGE-RIGHT shoulder remains depressed/level. Small RED teaching highlight at stretched IMAGE-RIGHT posterolateral neck/upper-neck-shoulder region only, stop at black shirt neckline, no exposed scapula/cutaway. Fine detailed grayscale EXPOSED muscles elsewhere, full opaque black shirt/shorts front sides back seat crotch, black trainers. Same premium anatomy style, white background, whole body with margins, no text.",
+      "inspectionNote": "Front view now shows lateral head tilt with diagonal eye/ear line and level relaxed shoulders, face forward, no hand traction. Output tilts opposite prompt image direction but red lies on opposite stretched neck side, compatible with generic accessible caption. Full opaque clothes and fine exposed grayscale muscles. Qualified levator localization and cervical range review pending.",
+      "canonicalName": "side neck stretch",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "levator scapulae"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0713-male-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "status": "generated",
+        "costUSD": null
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Front view now shows lateral head tilt with diagonal eye/ear line and level relaxed shoulders, face forward, no hand traction. Output tilts opposite prompt image direction but red lies on opposite stretched neck side, compatible with generic accessible caption. Full opaque clothes and fine exposed grayscale muscles. Qualified levator localization and cervical range review pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0713-male-anatomical-white-v2-p1-1ac2ae790218.webp",
+          "width": 800,
+          "height": 1200,
+          "bytes": 36846,
+          "sha256": "1ac2ae7902180b1b917a30dc76dc995b0a0458158b21e2097e23821a5c5838aa"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0713-male-anatomical-white-v2-thumb-bd10bfec4101.webp",
+        "width": 160,
+        "height": 240,
+        "bytes": 2516,
+        "sha256": "bd10bfec410159c152da5e84532349555382f7b6849f5f38c877d12780fd3236"
+      },
+      "processingSignature": "f5a931d9c41d5d285a7a5160bb50cd7dcafa586333487d1424eb665761660eab",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0713-male-anatomical-white-v2.png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1738886,
+        "sha256": "5ac6885cbf773c59fdc177048ec4691c605e6ad8d5f63499639261358ef356f4"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0713",
+          "variant": "male",
+          "key": "0713-male-anatomical-white-v1",
+          "layout": {
+            "columns": 1,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Stand tall, gently tilt one ear toward its shoulder while keeping the opposite shoulder down, and hold 20\u201330 seconds; return to center and switch sides."
+            }
+          ],
+          "detail": "GENTLE SIDE NECK STRETCH, ONE static full-body standing hold REAR three-quarter view with enough face profile to show ear moving toward shoulder. Stand tall feet hip width, knees soft, torso vertical and pelvis level. Tilt head gently toward RIGHT shoulder about20degrees, RIGHT ear toward right shoulder; NO turning face/no forward neck flexion/no chin tuck, gaze forward. Keep LEFT shoulder relaxed pressed DOWN away from left ear, both arms relaxed at SIDES hands free, no forced hand traction needed. Shoulder line horizontal, no torso side bend/shrug. Primary LEFT LEVATOR SCAPULAE area teaching highlight on EXPOSED LEFT POSTEROLATERAL NECK from upper inner shoulder toward upper neck, small red elongated patch ONLY there, all other exposed muscles grayscale. Do not remove shirt fabric to expose deep muscle; opaque black shirt back covers torso and scapulae; patch stops at neckline if covered. Fine detailed grayscale anatomy on exposed arms/calves and neck, realistic relaxed proportions. Hair short or neatly tied away from back/side neck. Entire body head/shoes/hands inside generous white margins. No anatomy labels/text.",
+          "prompt": "Original educational exercise illustration. Attached original project artwork STYLE ONLY never pose/equipment reference. Neutral adult MALE, premium fine detailed grayscale anatomical fibers on EXPOSED muscles, pure white background. Fully OPAQUE matte BLACK sleeveless shirt covers torso front sides back abdomen; loose knee-length BLACK shorts wrap both thighs front sides rear seat crotch, closed seams/hems and broad natural folds. Black trainers. Red PRIMARY only as specified; over cloth ONE smooth diffuse blurred tint independent of muscle divisions, no rays/fibers/sixpack lines. Whole body fingers shoes inside generous white margins. No text/labels/arrows/logos. GENTLE SIDE NECK STRETCH, ONE static full-body standing hold REAR three-quarter view with enough face profile to show ear moving toward shoulder. Stand tall feet hip width, knees soft, torso vertical and pelvis level. Tilt head gently toward RIGHT shoulder about20degrees, RIGHT ear toward right shoulder; NO turning face/no forward neck flexion/no chin tuck, gaze forward. Keep LEFT shoulder relaxed pressed DOWN away from left ear, both arms relaxed at SIDES hands free, no forced hand traction needed. Shoulder line horizontal, no torso side bend/shrug. Primary LEFT LEVATOR SCAPULAE area teaching highlight on EXPOSED LEFT POSTEROLATERAL NECK from upper inner shoulder toward upper neck, small red elongated patch ONLY there, all other exposed muscles grayscale. Do not remove shirt fabric to expose deep muscle; opaque black shirt back covers torso and scapulae; patch stops at neckline if covered. Fine detailed grayscale anatomy on exposed arms/calves and neck, realistic relaxed proportions. Hair short or neatly tied away from back/side neck. Entire body head/shoes/hands inside generous white margins. No anatomy labels/text.",
+          "inspectionNote": "Full standing rear view with opaque clothing, detailed grayscale exposed anatomy and small neck red patch. Head is rotated looking right rather than ear-to-shoulder side tilt, highlight appears on wrong side; correction required. Qualified levator mapping and cervical mechanics pending.",
+          "canonicalName": "side neck stretch",
+          "styleVersion": "white-v1",
+          "equipment": "body weight",
+          "primaryMuscles": [
+            "levator scapulae"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Full standing rear view with opaque clothing, detailed grayscale exposed anatomy and small neck red patch. Head is rotated looking right rather than ear-to-shoulder side tilt, highlight appears on wrong side; correction required. Qualified levator mapping and cervical mechanics pending.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0713-male-anatomical-white-v1-p1-f3fd7efa0787.webp",
+              "width": 800,
+              "height": 1200,
+              "bytes": 34498,
+              "sha256": "f3fd7efa0787cb630618041aaf9d4d9bff875be92c350a57543d9ab9724406fd"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0713-male-anatomical-white-v1-thumb-22dcf491feed.webp",
+            "width": 160,
+            "height": 240,
+            "bytes": 2384,
+            "sha256": "22dcf491feed618cebbbc0c237e866c1bc3cd2b6a64d604f082deece96d7a5a0"
+          },
+          "processingSignature": "9379edac01c0ec960a24fb3b1da6923b5e7db35281968f298663bb9a9fded636",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0713-male-anatomical-white-v1.png",
+            "width": 1024,
+            "height": 1536,
+            "bytes": 1399347,
+            "sha256": "c72ea5ad7ae06fa6d6b07bfbc67833979f1b27447bf340cc9a33758a32887ffa"
+          }
+        }
+      ]
+    },
+    {
+      "exerciseId": "0713",
+      "variant": "female",
+      "key": "0713-female-anatomical-white-v2",
+      "layout": {
+        "columns": 1,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand tall, gently tilt one ear toward its shoulder while keeping the opposite shoulder down, and hold 20\u201330 seconds; return to center and switch sides."
+        }
+      ],
+      "detail": "GENTLE SIDE NECK STRETCH, ONE static full-body standing hold REAR three-quarter view with enough face profile to show ear moving toward shoulder. Stand tall feet hip width, knees soft, torso vertical and pelvis level. Tilt head gently toward RIGHT shoulder about20degrees, RIGHT ear toward right shoulder; NO turning face/no forward neck flexion/no chin tuck, gaze forward. Keep LEFT shoulder relaxed pressed DOWN away from left ear, both arms relaxed at SIDES hands free, no forced hand traction needed. Shoulder line horizontal, no torso side bend/shrug. Primary LEFT LEVATOR SCAPULAE area teaching highlight on EXPOSED LEFT POSTEROLATERAL NECK from upper inner shoulder toward upper neck, small red elongated patch ONLY there, all other exposed muscles grayscale. Do not remove shirt fabric to expose deep muscle; opaque black shirt back covers torso and scapulae; patch stops at neckline if covered. Fine detailed grayscale anatomy on exposed arms/calves and neck, realistic relaxed proportions. Hair short or neatly tied away from back/side neck. Entire body head/shoes/hands inside generous white margins. No anatomy labels/text.",
+      "prompt": "Correct original project female side NECK STRETCH pose. Re-render same adult full-body in DIRECT FRONT VIEW so side-bend is clear. Upright torso/pelvis, shoulders LEVEL and relaxed, arms hanging sides hands free, feet hip width. FACE and nose look STRAIGHT AHEAD at camera, no left/right face turn. TILT whole head gently toward IMAGE LEFT about20degrees, bringing IMAGE-LEFT EAR toward image-left shoulder; ear-to-ear/eye line visibly DIAGONAL, NOT horizontal. Chin remains centered facing forward, NO upward head tip/no forward flexion. IMAGE-RIGHT shoulder remains depressed/level. Small RED teaching highlight at stretched IMAGE-RIGHT posterolateral neck/upper-neck-shoulder region only, stop at black shirt neckline, no exposed scapula/cutaway. Fine detailed grayscale EXPOSED muscles elsewhere, full opaque black shirt/shorts front sides back seat crotch, black trainers. Same premium anatomy style, white background, whole body with margins, no text.",
+      "inspectionNote": "Front view now shows gentle lateral head tilt and relaxed level shoulders, arms at sides, face forward. Red remains on same compressed side as tilt rather than opposite stretched side; blocked for highlight correction and qualified levator/cervical review. Fine exposed grayscale anatomy and full opaque clothes retained.",
+      "canonicalName": "side neck stretch",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "levator scapulae"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose",
+        "editInputPath": "assets/exercise-illustrations/generated/0713-female-anatomical-white-v1.png"
+      },
+      "generation": {
+        "attempts": 2,
+        "provider": "built-in image_gen",
+        "status": "generated",
+        "costUSD": null
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Front view now shows gentle lateral head tilt and relaxed level shoulders, arms at sides, face forward. Red remains on same compressed side as tilt rather than opposite stretched side; blocked for highlight correction and qualified levator/cervical review. Fine exposed grayscale anatomy and full opaque clothes retained.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0713-female-anatomical-white-v2-p1-71c54b80c4e3.webp",
+          "width": 800,
+          "height": 1200,
+          "bytes": 29722,
+          "sha256": "71c54b80c4e37455604904149e91c758b18d5d4af4f4c4e048c05448bd007b06"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0713-female-anatomical-white-v2-thumb-2778ef2bd3ef.webp",
+        "width": 160,
+        "height": 240,
+        "bytes": 2144,
+        "sha256": "2778ef2bd3ef2bb07f51ca69f3debae1fbc7cc4e4d69186725744c465d4dcf1b"
+      },
+      "processingSignature": "f3518451ebd4511c15fa7b5b3c7eded582837643b4bfe61041d2176c66eb12c6",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0713-female-anatomical-white-v2.png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1309601,
+        "sha256": "951502acaeafc45868e146cbf1ca35c2d6b95edcbfe5fc0fb5056aa5a9a3b01a"
+      },
+      "correctionHistory": [
+        {
+          "exerciseId": "0713",
+          "variant": "female",
+          "key": "0713-female-anatomical-white-v1",
+          "layout": {
+            "columns": 1,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Stand tall, gently tilt one ear toward its shoulder while keeping the opposite shoulder down, and hold 20\u201330 seconds; return to center and switch sides."
+            }
+          ],
+          "detail": "GENTLE SIDE NECK STRETCH, ONE static full-body standing hold REAR three-quarter view with enough face profile to show ear moving toward shoulder. Stand tall feet hip width, knees soft, torso vertical and pelvis level. Tilt head gently toward RIGHT shoulder about20degrees, RIGHT ear toward right shoulder; NO turning face/no forward neck flexion/no chin tuck, gaze forward. Keep LEFT shoulder relaxed pressed DOWN away from left ear, both arms relaxed at SIDES hands free, no forced hand traction needed. Shoulder line horizontal, no torso side bend/shrug. Primary LEFT LEVATOR SCAPULAE area teaching highlight on EXPOSED LEFT POSTEROLATERAL NECK from upper inner shoulder toward upper neck, small red elongated patch ONLY there, all other exposed muscles grayscale. Do not remove shirt fabric to expose deep muscle; opaque black shirt back covers torso and scapulae; patch stops at neckline if covered. Fine detailed grayscale anatomy on exposed arms/calves and neck, realistic relaxed proportions. Hair short or neatly tied away from back/side neck. Entire body head/shoes/hands inside generous white margins. No anatomy labels/text.",
+          "prompt": "Original educational exercise illustration. Attached original project artwork STYLE ONLY never pose/equipment reference. Neutral adult FEMALE, premium fine detailed grayscale anatomical fibers on EXPOSED muscles, pure white background. Fully OPAQUE matte BLACK sleeveless shirt covers torso front sides back abdomen; loose knee-length BLACK shorts wrap both thighs front sides rear seat crotch, closed seams/hems and broad natural folds. Black trainers. Red PRIMARY only as specified; over cloth ONE smooth diffuse blurred tint independent of muscle divisions, no rays/fibers/sixpack lines. Whole body fingers shoes inside generous white margins. No text/labels/arrows/logos. GENTLE SIDE NECK STRETCH, ONE static full-body standing hold REAR three-quarter view with enough face profile to show ear moving toward shoulder. Stand tall feet hip width, knees soft, torso vertical and pelvis level. Tilt head gently toward RIGHT shoulder about20degrees, RIGHT ear toward right shoulder; NO turning face/no forward neck flexion/no chin tuck, gaze forward. Keep LEFT shoulder relaxed pressed DOWN away from left ear, both arms relaxed at SIDES hands free, no forced hand traction needed. Shoulder line horizontal, no torso side bend/shrug. Primary LEFT LEVATOR SCAPULAE area teaching highlight on EXPOSED LEFT POSTEROLATERAL NECK from upper inner shoulder toward upper neck, small red elongated patch ONLY there, all other exposed muscles grayscale. Do not remove shirt fabric to expose deep muscle; opaque black shirt back covers torso and scapulae; patch stops at neckline if covered. Fine detailed grayscale anatomy on exposed arms/calves and neck, realistic relaxed proportions. Hair short or neatly tied away from back/side neck. Entire body head/shoes/hands inside generous white margins. No anatomy labels/text.",
+          "inspectionNote": "Full standing rear-three-quarter pose, fine exposed grayscale anatomy and opaque clothes. Head rotates looking sideways rather than ear-to-shoulder lateral tilt; correction required. Qualified neck mechanics and levator localization review pending.",
+          "canonicalName": "side neck stretch",
+          "styleVersion": "white-v1",
+          "equipment": "body weight",
+          "primaryMuscles": [
+            "levator scapulae"
+          ],
+          "metadataReview": "Qualified review of technique and muscle mapping required.",
+          "reference": {
+            "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+            "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+            "role": "style only, not exercise pose"
+          },
+          "generation": {
+            "attempts": 1,
+            "provider": "built-in image_gen",
+            "costUSD": null,
+            "status": "generated"
+          },
+          "review": {
+            "status": "pending",
+            "notes": "Full standing rear-three-quarter pose, fine exposed grayscale anatomy and opaque clothes. Head rotates looking sideways rather than ear-to-shoulder lateral tilt; correction required. Qualified neck mechanics and levator localization review pending.",
+            "reviewer": ""
+          },
+          "assets": [
+            {
+              "pose": "p1",
+              "path": "/workout/illustration-pilot/0713-female-anatomical-white-v1-p1-54dc9d98b086.webp",
+              "width": 800,
+              "height": 1200,
+              "bytes": 31800,
+              "sha256": "54dc9d98b0869f096b18ecf741db3c1ffde6924cef1325f0f69243be9ef4bbe6"
+            }
+          ],
+          "video": null,
+          "batch": "intake.json",
+          "thumbnail": {
+            "path": "/workout/illustration-pilot/0713-female-anatomical-white-v1-thumb-58a0eea6ba5b.webp",
+            "width": 160,
+            "height": 240,
+            "bytes": 2158,
+            "sha256": "58a0eea6ba5b1b879432cd3ab088463fd24d9f86e408317e824a423949ca3fc2"
+          },
+          "processingSignature": "02014a851ceff13784dadfab5511ab05179d0450a40a7d0eacdb73d4e06d7bfc",
+          "master": {
+            "path": "assets/exercise-illustrations/generated/0713-female-anatomical-white-v1.png",
+            "width": 1024,
+            "height": 1536,
+            "bytes": 1325807,
+            "sha256": "8a8f4852286edc341693a4c01e002566198f16174fe0aea338dc8db49067fc86"
+          }
+        }
+      ],
+      "blockingIssues": [
+        "Neck red highlight is on compressed side of head tilt rather than opposite stretched side; mapping correction required."
+      ]
+    }
+  ]
+}

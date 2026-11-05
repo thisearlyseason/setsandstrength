@@ -1,0 +1,338 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "1722",
+      "variant": "male",
+      "key": "1722-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Face away from a high pulley and hold the rope overhead with elbows close to your head."
+        },
+        {
+          "key": "p2",
+          "caption": "Keep your upper arms still and bend your elbows to lower the rope behind your head. Extend your arms to return."
+        }
+      ],
+      "prompt": "CABLE HIGH PULLEY OVERHEAD TRICEPS EXTENSION canonical1722. TWO equal square panels WIDE2:1 landscape SIDE three-quarter camera showing BOTH elbows. Stand facing AWAY from gray cable machine behind subject, pulley HIGH abovehead behind. Feet shoulderwidth planted torso tall neutral. TWO ends of rope capped rubberballs held oneeachhand neutralgrip, two ends joincentraleye attached ONE taut cable to highpulley behind. BOTH upper arms vertical beside ears fixed SAME elbowposition in BOTH cells. LEFT TOP arms almost straight overhead hands forward slightly ofhead, cable continuous fromropeeye tohighpulley clear ofskull. RIGHT LOWERED bend BOTH elbows100degrees so BOTH hands ropeends descend fully BEHIND skull at upperneckheight, upperarmsstillvertical elbowsnearears. Not hands ABOVE crown inloweredpose. Rope cable stays connected and visibly clears head/body allposes. Same machine ropebody stance. Original premium ADULT MALE detailed grayscale anatomical educational illustration. Same full body camera scale equipment throughout cells. Primary exposed TRICEPS RED ONLY other skin grayscale no biceps/chest/deltsred. Crisp detailed realistic anatomical skin five fingers. Full opaque BLACK tank wraps front sides back and BLACK mid-thigh shorts fully cover front sides back seat crotch intact seams hems folds. No cutaways transparency or muscle anatomy through fabric. Black shoes. Pure WHITE background soft contact shadows generous12percent margins full head hands both feet all equipment inside EACH square uncropped. Original project artwork STYLE ONLY ignore its pushup/chest red. No text labels captions arrows extra people.",
+      "inspectionNote": "Real output inspected. High-pulley rope overhead triceps extension: extended to hands behind head with taut cable and both bent elbows. Qualified review needed for rope grip, elbow stability, skull clearance and shoulder alignment. Detailed grayscale/red exposed triceps and full opaque tank/shorts retained. Original project artwork rendering style only; no upstream media. Exact prompt and original master saved. Human anatomy review pending; no approval or publication.",
+      "canonicalName": "cable high pulley overhead tricep extension",
+      "styleVersion": "white-v1",
+      "equipment": "cable",
+      "primaryMuscles": [
+        "triceps"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. High-pulley rope overhead triceps extension: extended to hands behind head with taut cable and both bent elbows. Qualified review needed for rope grip, elbow stability, skull clearance and shoulder alignment. Detailed grayscale/red exposed triceps and full opaque tank/shorts retained. Original project artwork rendering style only; no upstream media. Exact prompt and original master saved. Human anatomy review pending; no approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/1722-male-anatomical-white-v1-p1-ae1f26790a51.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 28410,
+          "sha256": "ae1f26790a5116eaa3c538eee4c268e66e99e06ef0c01c4092f23af641948eeb"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/1722-male-anatomical-white-v1-p2-2020f224d7b5.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 26772,
+          "sha256": "2020f224d7b5be0613821123b7dedd715ab3f022cf6be8fed7d49a76db30ae8a"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-229.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/1722-male-anatomical-white-v1-thumb-4d8ef65ddf32.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 3350,
+        "sha256": "4d8ef65ddf3254a4d415089c74f7a59d859a99140635cf84f2b5fb81dc7e5e14"
+      },
+      "processingSignature": "08424b02b3003f1e8be008550188d0655fd0552be1a6a7f31742d7b037a42707",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1722-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1341290,
+        "sha256": "e189a841dd8dcac1df558d0282dea5484d20a70b854e0d96b77ec256575c8add"
+      }
+    },
+    {
+      "exerciseId": "1726",
+      "variant": "male",
+      "key": "1726-male-anatomical-white-v1",
+      "layout": {
+        "columns": 1,
+        "rows": 2
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Lie face up on the floor with your head toward a low pulley. Hold the rope ends palms inward and extend your arms upward."
+        },
+        {
+          "key": "p2",
+          "caption": "Keep your upper arms still and bend both elbows to bring the rope toward your forehead without contact. Extend your arms to return."
+        }
+      ],
+      "prompt": "CABLE ROPE LYING ON FLOOR TRICEPS EXTENSION canonical1726. TWO equal square panels WIDE2:1 landscape SIDE three-quarter camera showingBOTHarms. Man lies FACEUP directlyonfloor skull short hair back pelvis supported kneesbent90degrees feetflatfloor. Gray cable machine LOW pulley onfloor BEHIND head at least1meter away. Both hands hold ropeends with NEUTRAL palmsfaceeachother; endsjoincentraleye connected byONEtautcable tolowpulleybehindhead cableclears skull notthroughbody. BOTH upperarmsvertical above shoulders elbowsfixed BOTH cells. LEFT TOP arms almoststraight towardceiling hands aboveupperchest. RIGHT LOWERED bend BOTH elbows90degrees ropeendsapproachFOREHEAD stop5cmclear, upperarmsstayvertical no shoulderchange. Same bodyskullfeet machine cable connections inboth. No bench. Neutralwrist. Original premium ADULT MALE detailed grayscale anatomical educational illustration. Same full body camera scale equipment throughout cells. Primary exposed TRICEPS RED ONLY other skin grayscale no biceps/chest/deltsred. Crisp detailed realistic anatomical skin five fingers. Full opaque BLACK tank wraps front sides back and BLACK mid-thigh shorts fully cover front sides back seat crotch intact seams hems folds. No cutaways transparency or muscle anatomy through fabric. Black shoes. Pure WHITE background soft contact shadows generous12percent margins full head hands both feet all equipment inside EACH square uncropped. Original project artwork STYLE ONLY ignore its pushup/chest red. No text labels captions arrows extra people.",
+      "inspectionNote": "Real output inspected. Floor-lying rope extension: arms extended to bent elbows near forehead, supported skull/back and planted feet. Returned vertical two-row master; layout changed to one column/two rows to preserve complete poses. Qualified review needed for rope routing, skull clearance, neutral wrist and upper-arm position. Detailed grayscale/red exposed triceps and full opaque tank/shorts retained. Original project artwork rendering style only; no upstream media. Exact prompt and original master saved. Human anatomy review pending; no approval or publication.",
+      "canonicalName": "cable rope lying on floor tricep extension",
+      "styleVersion": "white-v1",
+      "equipment": "cable",
+      "primaryMuscles": [
+        "triceps"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Floor-lying rope extension: arms extended to bent elbows near forehead, supported skull/back and planted feet. Returned vertical two-row master; layout changed to one column/two rows to preserve complete poses. Qualified review needed for rope routing, skull clearance, neutral wrist and upper-arm position. Detailed grayscale/red exposed triceps and full opaque tank/shorts retained. Original project artwork rendering style only; no upstream media. Exact prompt and original master saved. Human anatomy review pending; no approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/1726-male-anatomical-white-v1-p1-277d4771beb5.webp",
+          "width": 1200,
+          "height": 600,
+          "bytes": 35108,
+          "sha256": "277d4771beb5fb7c24a09678aa7fe160bfd299c8fe7e13252709d038b98a2f11"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/1726-male-anatomical-white-v1-p2-68bfcbe06365.webp",
+          "width": 1200,
+          "height": 600,
+          "bytes": 33152,
+          "sha256": "68bfcbe06365059904cf43db636d6e2d1ef2df5cc63711c0a7152b7d1020a21d"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-229.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/1726-male-anatomical-white-v1-thumb-8ab14f9517bb.webp",
+        "width": 240,
+        "height": 120,
+        "bytes": 2618,
+        "sha256": "8ab14f9517bb7228c9d0b6edd5977225fe84db8fca55cd903bf55198bb7f92ef"
+      },
+      "processingSignature": "1b291e0eefb14652a2bd122d399e162108dbd9f0ae8eb973a33b9c11a46fa345",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1726-male-anatomical-white-v1.png",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 1510045,
+        "sha256": "c31acaa1afd171b5885947380fbacbdae85e1e3e483ee55ba0359b604afbf469"
+      }
+    },
+    {
+      "exerciseId": "1728",
+      "variant": "male",
+      "key": "1728-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand with knees softly bent and hinge forward with a flat back. Hold both cable handles palms inward, with elbows bent and upper arms beside your torso."
+        },
+        {
+          "key": "p2",
+          "caption": "Keep your upper arms still and extend both forearms backward. Pause, then return slowly."
+        }
+      ],
+      "prompt": "CABLE TWO ARM TRICEPS KICKBACK canonical1728. TWO equal square panels WIDE2:1 landscape REAR three-quarter SIDEcamera toshowbothupperarms. Two small gray LOW cable pulley towers IN FRONT subject eachside one taut cable to corresponding Dhandle. Feetshoulderwidth knees softlybent torsoHIPHINGE about45degrees flatback. BOTH upperarmsdrawn BACK alignedtorso nearlyhorizontal elbows fixed besides ribs BOTHcells, shouldersstill. HandsNEUTRAL palmsinward. LEFT START BOTH elbowsbent90degrees forearmshangdown Dhandlesnearwaist. RIGHT FINISH extend BOTH elbows backwards so armsstraight inlinewithupperarms hands BEHIND hips and taut cables run forward clear oflegs body. Identical pulley positions and two continuous same-side cables no crossing. Headneutral no torso swing. Original premium ADULT MALE detailed grayscale anatomical educational illustration. Same full body camera scale equipment throughout cells. Primary exposed TRICEPS RED ONLY other skin grayscale no biceps/chest/deltsred. Crisp detailed realistic anatomical skin five fingers. Full opaque BLACK tank wraps front sides back and BLACK mid-thigh shorts fully cover front sides back seat crotch intact seams hems folds. No cutaways transparency or muscle anatomy through fabric. Black shoes. Pure WHITE background soft contact shadows generous12percent margins full head hands both feet all equipment inside EACH square uncropped. Original project artwork STYLE ONLY ignore its pushup/chest red. No text labels captions arrows extra people.",
+      "inspectionNote": "Real output inspected. Bilateral cable kickback: bent to partially extended elbows with two connected low cables. BLOCKED: finish upper arms drop and elbows remain bent, so isolated full backward extension is not established. Detailed grayscale/red exposed triceps and full opaque tank/shorts retained. Original project artwork rendering style only; no upstream media. Exact prompt and original master saved. Human anatomy review pending; no approval or publication.",
+      "blockingIssues": [
+        "Upper arms drop and finish elbows remain bent rather than full backward forearm extension with stationary upper arms."
+      ],
+      "canonicalName": "cable two arm tricep kickback",
+      "styleVersion": "white-v1",
+      "equipment": "cable",
+      "primaryMuscles": [
+        "triceps"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Bilateral cable kickback: bent to partially extended elbows with two connected low cables. BLOCKED: finish upper arms drop and elbows remain bent, so isolated full backward extension is not established. Detailed grayscale/red exposed triceps and full opaque tank/shorts retained. Original project artwork rendering style only; no upstream media. Exact prompt and original master saved. Human anatomy review pending; no approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/1728-male-anatomical-white-v1-p1-d4bef1d0b502.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 42262,
+          "sha256": "d4bef1d0b502455c4813a63fece9e5716495c5eac26b77b110dfa2c990337497"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/1728-male-anatomical-white-v1-p2-2d702a003157.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 41786,
+          "sha256": "2d702a003157031613bea8be58498f66d3e934a72421c8a9cd442ae291ab1e6b"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-229.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/1728-male-anatomical-white-v1-thumb-255bc8bb2aeb.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 4576,
+        "sha256": "255bc8bb2aeb287f1b54e2518b2fe6119c4ff3106ae1a730f91b389b5b248085"
+      },
+      "processingSignature": "bfce52e8d4bc67088fce4a45aecc97b3a8511dc96c6e9bfa09c0de98e5e68c46",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1728-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1577234,
+        "sha256": "a20e9449995c42b82b87a724cde7c9a5221e24a2151cd463636c004d6a04eb7e"
+      }
+    },
+    {
+      "exerciseId": "1729",
+      "variant": "male",
+      "key": "1729-male-anatomical-white-v1",
+      "layout": {
+        "columns": 3,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Lie on a flat bench with feet planted and both dumbbells above your chest, palms facing inward."
+        },
+        {
+          "key": "p2",
+          "caption": "Keep your upper arms still and lower the right dumbbell toward your head while the left arm stays extended. Raise it again."
+        },
+        {
+          "key": "p3",
+          "caption": "Lower the left dumbbell while the right arm stays extended. Continue alternating under control."
+        }
+      ],
+      "prompt": "DUMBBELL LYING ALTERNATE EXTENSION canonical1729. THREE equal square cells side by side WIDE3:1 landscape FRONT three-quarter SIDEcamera clearlyshowsBOTH elbows. LieFACEUP grayflatbench skullbackpelvissupported feetflatfloor knees90degrees. TWO identical dumbbells NEUTRAL grips palmseachother throughout. Both upperarmsVERTICAL above shoulders elbowsfixed allcells. LEFT START BOTH elbowsnearlystraight weightsabovechest. MIDDLE lower anatomicalRIGHT dumbbell viewerLEFT besideRIGHTtemple by bendingRIGHTelbow90degrees, LEFT armviewerRIGHT remainsSTRAIGHT overhead. RIGHT lower anatomicalLEFT dumbbell viewerRIGHT besideLEFTtemple by bendingLEFTelbow90degrees RIGHT armviewerLEFT nowstraightoverhead. CLEAR OPPOSITE bentelbows middle/right notduplicates; no botharmssimultaneouslybent no shoulderpress. Weightsnevercontactskull, wriststraight. Bothtricepsred. Original premium ADULT MALE detailed grayscale anatomical educational illustration. Same full body camera scale equipment throughout cells. Primary exposed TRICEPS RED ONLY other skin grayscale no biceps/chest/deltsred. Crisp detailed realistic anatomical skin five fingers. Full opaque BLACK tank wraps front sides back and BLACK mid-thigh shorts fully cover front sides back seat crotch intact seams hems folds. No cutaways transparency or muscle anatomy through fabric. Black shoes. Pure WHITE background soft contact shadows generous12percent margins full head hands both feet all equipment inside EACH square uncropped. Original project artwork STYLE ONLY ignore its pushup/chest red. No text labels captions arrows extra people.",
+      "inspectionNote": "Real output inspected. Alternating lying dumbbell extension: opposite arms lower in middle/right cells. BLOCKED: working upper arms lower toward torso/bench with forearms vertical, depicting an alternating press rather than elbow-only skull extension. Detailed grayscale/red exposed triceps and full opaque tank/shorts retained. Original project artwork rendering style only; no upstream media. Exact prompt and original master saved. Human anatomy review pending; no approval or publication.",
+      "blockingIssues": [
+        "Working upper arm lowers toward torso/bench and forearm stays vertical, depicting alternating press rather than stationary-upper-arm triceps extension."
+      ],
+      "canonicalName": "dumbbell lying alternate extension",
+      "styleVersion": "white-v1",
+      "equipment": "dumbbell",
+      "primaryMuscles": [
+        "triceps"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Alternating lying dumbbell extension: opposite arms lower in middle/right cells. BLOCKED: working upper arms lower toward torso/bench with forearms vertical, depicting an alternating press rather than elbow-only skull extension. Detailed grayscale/red exposed triceps and full opaque tank/shorts retained. Original project artwork rendering style only; no upstream media. Exact prompt and original master saved. Human anatomy review pending; no approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/1729-male-anatomical-white-v1-p1-f5c82982f98f.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 31034,
+          "sha256": "f5c82982f98f8fc622f00ba007e904680f9fa6159a45d05d58fc4d0fa4313b44"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/1729-male-anatomical-white-v1-p2-16ce6a71d5d7.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 29310,
+          "sha256": "16ce6a71d5d7b69012338bcbeab7f20fe1f90d26929113a64b60dd811fffe585"
+        },
+        {
+          "pose": "p3",
+          "path": "/workout/illustration-pilot/1729-male-anatomical-white-v1-p3-598acc6c4dfa.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 29522,
+          "sha256": "598acc6c4dfae96c3004bcd3436f40a71e3d02aab861579f9a9e1b8e56e0286a"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-229.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/1729-male-anatomical-white-v1-thumb-45613720344c.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 4382,
+        "sha256": "45613720344c7cdf2efae09fb743db471d4210efe731378d8383322508f6caaa"
+      },
+      "processingSignature": "dd3c98e5faf5d9684fb0b866805c99ae0de478a94c01728d5ad6698c6efb10ab",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1729-male-anatomical-white-v1.png",
+        "width": 2172,
+        "height": 724,
+        "bytes": 1558128,
+        "sha256": "f8fa22b81093b2106d0897181b1ed0645cd4f6a933ac97cc708c9c01d42a86e5"
+      }
+    }
+  ]
+}

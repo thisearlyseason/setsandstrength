@@ -1,0 +1,288 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "2113",
+      "variant": "male",
+      "key": "2113-male-anatomical-white-v1",
+      "layout": {
+        "columns": 1,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand with feet slightly wider than hip-width. Reach one arm overhead and bend away from it, shifting your hips gently the other way. Keep your chest forward; hold for 20\u201330 seconds, then switch sides."
+        }
+      ],
+      "prompt": "STANDING LOWER TRUNK LATERAL FLEXOR STRETCH. ONE static FRONTVIEW fullbody feet slightlyWIDERthanhipwidth FLATfloor toeskneespointFORWARD. LEFT hand onLEFT hip; RIGHT arm raisesUP overHEAD and reachesLEFT whiletorso SIDEBENDS LEFT15degrees. HIPSpushRIGHTslightlyoppositereach. Chest pelvis kneesfeet ALLfaceFRONT with NO twisting or front/back flip, no forwardlean. RIGHTWAIST iselongated OUTERCONVEXside and ONLYRIGHT lateral abdominalwall softREDellipse on intacttank side, LEFTcompressedwaist staysBLACK. Primaryabs, notlat shoulder. Premium detailed adult MALE grayscale anatomical illustration matching original project reference for rendering STYLE ONLY, ignore reference pose and red chest. Pure WHITE background soft shadows realistic proportions detailed exposed gray muscle contours. Opaque BLACK tank and mid-thigh shorts wrap front sides back seat crotch, seams hems folds. NO anatomy through cloth, no cutaways transparency or exposed pelvic tissue. Red over clothing is PLAIN UNIFORM SOFT teaching ellipse with NO internal muscle lines rays lobes segmentation; retain ordinary fabric folds. Chest shoulders arms legs GRAY/BLACK no unrelated red. Black shoes. Whole body hands fingers feet equipment inside frame generous margins. Two coherent arms two hands five fingers two legs two feet. No text arrows logos.",
+      "inspectionNote": "Real output inspected. Front-view standing side bend, right arm overhead reaching left, opposite hand on hip, hips shift slightly opposite, both feet grounded. Uniform red overlay correctly follows elongated right waist on intact tank; compressed side black and no torso/pelvis reversal. Qualified review needed for stance width, hip shift, side-bend range, hand anatomy and abdominal versus lat mapping. Human anatomy review remains pending; no approval or publication.",
+      "canonicalName": "standing lower trunk lateral flexor stretch",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "abs"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Front-view standing side bend, right arm overhead reaching left, opposite hand on hip, hips shift slightly opposite, both feet grounded. Uniform red overlay correctly follows elongated right waist on intact tank; compressed side black and no torso/pelvis reversal. Qualified review needed for stance width, hip shift, side-bend range, hand anatomy and abdominal versus lat mapping. Human anatomy review remains pending; no approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2113-male-anatomical-white-v1-p1-ea28f38b0344.webp",
+          "width": 800,
+          "height": 1200,
+          "bytes": 29724,
+          "sha256": "ea28f38b0344c35ee7f81e8307effe12fb1a498a72f09431ca0e387085d866c3"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-260.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2113-male-anatomical-white-v1-thumb-c67573da51ba.webp",
+        "width": 160,
+        "height": 240,
+        "bytes": 2328,
+        "sha256": "c67573da51baa3f5a1b9633af18520e3b94a0595e8910b9ee4528b7e3a0bfa9e"
+      },
+      "processingSignature": "d9ff59468f09552c09496cd1cedb77a492f896ca9e35585cfbd4b434885467d6",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2113-male-anatomical-white-v1.png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1327023,
+        "sha256": "577179eb1fb2ca643690c61aa855e91756060985373d216dbdd4010eb0de4675"
+      }
+    },
+    {
+      "exerciseId": "2114",
+      "variant": "male",
+      "key": "2114-male-anatomical-white-v1",
+      "layout": {
+        "columns": 1,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Sit tall with both feet flat and both hips grounded. Reach one arm overhead and bend gently away from it without leaning forward. Hold for 20\u201330 seconds, then switch sides."
+        }
+      ],
+      "prompt": "SEATED LOWER TRUNK LATERAL FLEXOR STRETCH. ONE static FRONTVIEW. Sit ongray sturdyCHAIR withBOTH FEETFLATfloor kneesseparatehipwidth at90. BOTHsitbonesstayseat. LEFT handrestleftthigh. RIGHT armreachesOVERHEADtowardLEFT torsoSIDE BENDSLEFT15degrees. No twisting chestpelviskneesfeet ALLFRONT andno forwardlean. RIGHT elongatedOUTERwaist only softuniformREDteachingellipse on intacttankrightside abdomen, LEFTcompressedsideblack, nochestlatarmred. Chairalllegsnormal entirelyframe. Premium detailed adult MALE grayscale anatomical illustration matching original project reference for rendering STYLE ONLY, ignore reference pose and red chest. Pure WHITE background soft shadows realistic proportions detailed exposed gray muscle contours. Opaque BLACK tank and mid-thigh shorts wrap front sides back seat crotch, seams hems folds. NO anatomy through cloth, no cutaways transparency or exposed pelvic tissue. Red over clothing is PLAIN UNIFORM SOFT teaching ellipse with NO internal muscle lines rays lobes segmentation; retain ordinary fabric folds. Chest shoulders arms legs GRAY/BLACK no unrelated red. Black shoes. Whole body hands fingers feet equipment inside frame generous margins. Two coherent arms two hands five fingers two legs two feet. No text arrows logos.",
+      "inspectionNote": "Real output inspected. Chair-seated front view with feet flat and hips supported, overhead right arm reaches left and opposite hand rests thigh. Small side bend and elongated-side abdominal tint on intact tank, no twisted lower body. Qualified review needed for adequate gentle lateral range, grounded sit bones, chair stability, hand anatomy and abdominal mapping. Human anatomy review remains pending; no approval or publication.",
+      "canonicalName": "seated lower trunk lateral flexor stretch",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "abs"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Chair-seated front view with feet flat and hips supported, overhead right arm reaches left and opposite hand rests thigh. Small side bend and elongated-side abdominal tint on intact tank, no twisted lower body. Qualified review needed for adequate gentle lateral range, grounded sit bones, chair stability, hand anatomy and abdominal mapping. Human anatomy review remains pending; no approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2114-male-anatomical-white-v1-p1-484d5865b338.webp",
+          "width": 800,
+          "height": 1200,
+          "bytes": 39842,
+          "sha256": "484d5865b338ea85d97f2a72b21f0ec953027076945c78d1054c36fa18ad58a6"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-260.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2114-male-anatomical-white-v1-thumb-c490bbae3db2.webp",
+        "width": 160,
+        "height": 240,
+        "bytes": 2664,
+        "sha256": "c490bbae3db201ecc478114ebb086860d3166ae96554a3f6f02674c78fae9559"
+      },
+      "processingSignature": "0edaf4fcda0bda91253a47a79722619236db33742deb998b985590271c35e3c0",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2114-male-anatomical-white-v1.png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1426097,
+        "sha256": "98ca06538a2f89af20487fd8860a1cf385f0973d457ee9bc3395afff4afa658e"
+      }
+    },
+    {
+      "exerciseId": "2115",
+      "variant": "male",
+      "key": "2115-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Kneel on a soft surface with thighs upright and hands on your hips."
+        },
+        {
+          "key": "p2",
+          "caption": "Squeeze your glutes and gently move the hips forward, keeping ribs down and avoiding a lower-back arch. Pause, then return to the start."
+        }
+      ],
+      "prompt": "HIP EXTENSION ON KNEES. TWO equal square cells SIDE BY SIDE SAME SIDE three-quarterview fullbody. SoftgrayfloorPAD kneeshipwidth grounded shinsandshoetopsfloor. BOTHhandsHIPSCREST. LEFT starttallkneeling THIGHSUPRIGHT pelvisaboveKNEES ribsdownneutralspine. RIGHT squeezeGLUTES andpushPELVISFORWARD onlySMALL5cm withposteriorpelvictilt, thighsleanforward5degrees upperbodytall, ribsDOWN no backbend/hiphinge. No sittingonheels. Different subtlepelvispositions instructionalclarity. Primary GLUTES smallplainuniformREDteachingellipse on intactblackshortsbuttocks bothcells; abdomenblack NO lumbarorquadhighlight. Premium detailed adult MALE grayscale anatomical illustration matching original project reference for rendering STYLE ONLY, ignore reference pose and red chest. Pure WHITE background soft shadows realistic proportions detailed exposed gray muscle contours. Opaque BLACK tank and mid-thigh shorts wrap front sides back seat crotch, seams hems folds. NO anatomy through cloth, no cutaways transparency or exposed pelvic tissue. Red over clothing is PLAIN UNIFORM SOFT teaching ellipse with NO internal muscle lines rays lobes segmentation; retain ordinary fabric folds. Chest shoulders arms legs GRAY/BLACK no unrelated red. Black shoes. Whole body hands fingers feet equipment inside frame generous margins. Two coherent arms two hands five fingers two legs two feet. No text arrows logos.",
+      "inspectionNote": "Real output inspected. Two tall-kneeling views on pad, hands on hips, shins grounded and intact clothing. Positions look nearly identical without clear forward pelvic motion or posterior tilt; block for insufficient dynamic distinction. Red glute overlays contain radial fiber-like lines through shorts and require plain tint. Qualified review of ribs/lumbar control and glute mapping. Human anatomy review remains pending; no approval or publication.",
+      "blockingIssues": [
+        "Two positions are nearly identical; show forward pelvic shift and posterior tilt without lumbar arch.",
+        "Radial fiber-like lines in glute overlay through shorts; replace with plain fabric teaching tint."
+      ],
+      "canonicalName": "hip extension on knees",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "glutes"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Two tall-kneeling views on pad, hands on hips, shins grounded and intact clothing. Positions look nearly identical without clear forward pelvic motion or posterior tilt; block for insufficient dynamic distinction. Red glute overlays contain radial fiber-like lines through shorts and require plain tint. Qualified review of ribs/lumbar control and glute mapping. Human anatomy review remains pending; no approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2115-male-anatomical-white-v1-p1-7eda9c0c900f.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 34340,
+          "sha256": "7eda9c0c900f356e22d0ceac48157ed6f7e93909a52169513817bfbf8ce46c17"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/2115-male-anatomical-white-v1-p2-79587ba3524f.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 34046,
+          "sha256": "79587ba3524f83d2a3955559a7b7e2b0fa4f7fee3fcdd7ee34db081fac90f557"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-260.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2115-male-anatomical-white-v1-thumb-5965d83cbe09.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2922,
+        "sha256": "5965d83cbe09c749be1e997507bd33cdae756a1ba585bd741a42f4e35683deb5"
+      },
+      "processingSignature": "d3348e97460c338090f43242efd7f84ce8c36111cf847d2c0ccbf3e88cb62ed2",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2115-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1519292,
+        "sha256": "79c41f8d13bad4f8ee2025147738273f2ed6435d525e83e56f712a424c3640e2"
+      }
+    },
+    {
+      "exerciseId": "2117",
+      "variant": "male",
+      "key": "2117-male-anatomical-white-v1",
+      "layout": {
+        "columns": 1,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand with feet hip-width apart. Reach one arm overhead and bend away from it, keeping your chest open and hips level. Hold a comfortable side stretch for 20\u201330 seconds, then switch sides."
+        }
+      ],
+      "prompt": "STANDING LATERAL SIDE STRETCH. ONE static FRONTVIEW fullbody feetHIPWIDTH flatfloor pelvisLEVEL nohiphike. RIGHTarmraisesOVERHEADand reachesLEFT withpalminward elbownearlystraight; LEFTarmhangsatside fingersdownnearleftthigh. TorsoSIDEBENDSLEFT15degrees ONLY, chestopenFRONT andkneespelvisfeet faceFRONT coherently no twisting noforwardlean. Primary ABS RIGHT lateralWAIST elongatedconvexside only softuniformREDellipse on intactblacktank, LEFTcompressedwaist remainsblack, chestlatsarmsgrayblack. Premium detailed adult MALE grayscale anatomical illustration matching original project reference for rendering STYLE ONLY, ignore reference pose and red chest. Pure WHITE background soft shadows realistic proportions detailed exposed gray muscle contours. Opaque BLACK tank and mid-thigh shorts wrap front sides back seat crotch, seams hems folds. NO anatomy through cloth, no cutaways transparency or exposed pelvic tissue. Red over clothing is PLAIN UNIFORM SOFT teaching ellipse with NO internal muscle lines rays lobes segmentation; retain ordinary fabric folds. Chest shoulders arms legs GRAY/BLACK no unrelated red. Black shoes. Whole body hands fingers feet equipment inside frame generous margins. Two coherent arms two hands five fingers two legs two feet. No text arrows logos.",
+      "inspectionNote": "Real output inspected. Front-view lateral side stretch with right arm overhead reaching left and opposite arm relaxed alongside thigh, coherent forward torso/pelvis/legs and feet planted. Elongated right waist red overlay retains cloth folds; clothing opaque. Qualified review of hip level, comfortable side-bend range, abdominal versus lat mapping and hand anatomy. Human anatomy review remains pending; no approval or publication.",
+      "canonicalName": "standing lateral side stretch",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "abs"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Front-view lateral side stretch with right arm overhead reaching left and opposite arm relaxed alongside thigh, coherent forward torso/pelvis/legs and feet planted. Elongated right waist red overlay retains cloth folds; clothing opaque. Qualified review of hip level, comfortable side-bend range, abdominal versus lat mapping and hand anatomy. Human anatomy review remains pending; no approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/2117-male-anatomical-white-v1-p1-eece21110cf9.webp",
+          "width": 800,
+          "height": 1200,
+          "bytes": 28816,
+          "sha256": "eece21110cf9603c34a1abd2290e68210cc18b63835f667840a932370c9cbfe0"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-260.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/2117-male-anatomical-white-v1-thumb-7e2a76f5a416.webp",
+        "width": 160,
+        "height": 240,
+        "bytes": 2176,
+        "sha256": "7e2a76f5a416c3a84d2112f03608e3a1bf0c59fb4c647060cc5fd972e192e270"
+      },
+      "processingSignature": "630a0c2aa91ffd524dd4f57d061958e655354e0cba4cde0a6f34be3df32803d9",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/2117-male-anatomical-white-v1.png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1274011,
+        "sha256": "58bc696be212992a9c9f61e68d1c037d7668bc72f77664b2fdc697a23900d86b"
+      }
+    }
+  ]
+}

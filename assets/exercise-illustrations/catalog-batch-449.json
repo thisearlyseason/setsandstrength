@@ -1,0 +1,116 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "4680",
+      "variant": "male",
+      "key": "4680-male-anatomical-white-v1",
+      "prompt": "Standing BAND triceps extension pressdown TWO equal side-by-side panels side three-quarter. Single continuous flat band anchoredSECURELY OVERHEAD tofixedpost atcentral loop, twoFREEENDS oneineachhand. First elbowsbent90degrees upperarmsPINNEDribs handsbeforeabdomen. Second handsPRESSDOWNtoTHIGHS elbowsstraight upperarmsstillpinned. Eachhandend has itsOWN visiblycontinuousbandbranch fromoverheadanchor straighttoitsgrip, independent no detachedgrips no bothbranchestoonlyonehand. Red exposed triceps only. Use case: scientific educational. Match original 0853 reference only in premium detailed grayscale anatomy rendering, never its movement or equipment. White background, subtle floor shadow, realistic muscular adult male. Same person, camera, scale and equipment in both panels. Fully opaque black tank and mid-thigh black shorts wrap front, sides, back and crotch, realistic seams, folds and hems; no clothing cutaways or anatomical fibers over cloth. Red highlights only on exposed target deltoids or triceps as specified. Entire body, hands, feet, weights and equipment fit generously inside each panel. No words, numbers or arrows.",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hold the ends of an overhead-anchored band with elbows tucked."
+        },
+        {
+          "key": "p2",
+          "caption": "Press hands down until arms straighten, squeeze triceps, then return slowly."
+        }
+      ],
+      "inspectionNote": "Real output inspected. Overhead flat band anchor and elbow pressdown shown; second branch partly naturally occluded by torso. Qualified anatomy review pending; no publication.",
+      "blockingIssues": [],
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream media used.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0853-male-anatomical-white-v1.png",
+        "role": "style only"
+      }
+    },
+    {
+      "exerciseId": "4682",
+      "variant": "male",
+      "key": "4682-male-anatomical-white-v1",
+      "prompt": "Band bent over rear delt fly TWO equal side-by-side panels rear three-quarter. Standonmiddleofsingleflatresistanceband BOTHfeetfirmlypinningit, endineachhand. Hinge flatback torsonearhorizontal kneessoft. First armshangbelowshoulders holdingbandends. Second botharmsraiseLATERALLYOUTSIDES withslightelbowbend untilupperarmsparallelfloor SAMEhinge. Continuousbandbranches eachfoottoitscorrespondinghand, visiblewholeequipment. Red exposed rear deltoids only. Opaque tankback fullycovered no cutaways. Use case: scientific educational. Match original 0853 reference only in premium detailed grayscale anatomy rendering, never its movement or equipment. White background, subtle floor shadow, realistic muscular adult male. Same person, camera, scale and equipment in both panels. Fully opaque black tank and mid-thigh black shorts wrap front, sides, back and crotch, realistic seams, folds and hems; no clothing cutaways or anatomical fibers over cloth. Red highlights only on exposed target deltoids or triceps as specified. Entire body, hands, feet, weights and equipment fit generously inside each panel. No words, numbers or arrows.",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand on the band and hinge with a flat back, arms hanging."
+        },
+        {
+          "key": "p2",
+          "caption": "Raise arms sideways with soft elbows, squeeze shoulder blades, then lower."
+        }
+      ],
+      "inspectionNote": "Real output inspected. Fly movement and opaque back plausible, but doubled band branches in start become single branches at end. Qualified anatomy review pending; no publication.",
+      "blockingIssues": [
+        "Band topology changes: two strands from each hand in starting pose become one strand per hand in raised pose. Correct equipment consistency before approval."
+      ],
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream media used.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0853-male-anatomical-white-v1.png",
+        "role": "style only"
+      }
+    },
+    {
+      "exerciseId": "4687",
+      "variant": "male",
+      "key": "4687-male-anatomical-white-v1",
+      "prompt": "Resistance TUBE band hammer curl TWO equal side-by-side panels front three-quarter. Standonmiddleoftuberesistanceband BOTHfeetfirmlypinningmiddle. One D-HANDLEeachhand, gripNEUTRAL palmsFACE EACHOTHER thumbsUP throughout. First armsnearlystraight handlesbythighs. Second curl bothhandles towardshoulders elbowsfixedbyribs NO wristrotation. Distinctcontinuous tubeBRANCH fromUNDER LEFTfoot toLEFThandle and UNDER RIGHTfoot toRIGHThandle, bothfullDshapedhandles complete. Red exposed biceps only. Use case: scientific educational. Match original 0853 reference only in premium detailed grayscale anatomy rendering, never its movement or equipment. White background, subtle floor shadow, realistic muscular adult male. Same person, camera, scale and equipment in both panels. Fully opaque black tank and mid-thigh black shorts wrap front, sides, back and crotch, realistic seams, folds and hems; no clothing cutaways or anatomical fibers over cloth. Red highlights only on exposed target deltoids or triceps as specified. Entire body, hands, feet, weights and equipment fit generously inside each panel. No words, numbers or arrows.",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand on the tube band with palms facing inward on its handles."
+        },
+        {
+          "key": "p2",
+          "caption": "Curl handles toward shoulders without turning wrists; lower under tension."
+        }
+      ],
+      "inspectionNote": "Real output inspected. Tube band connections complete; however starting grips are supinated while end grips become neutral, contrary to hammer-curl wrist consistency. Qualified anatomy review pending; no publication.",
+      "blockingIssues": [
+        "Starting handles are held with palms up, rotating to neutral at the top; hammer curl requires palms facing inward throughout. Correct starting grip."
+      ],
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream media used.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0853-male-anatomical-white-v1.png",
+        "role": "style only"
+      }
+    },
+    {
+      "exerciseId": "4719",
+      "variant": "male",
+      "key": "4719-male-anatomical-white-v1",
+      "prompt": "Band assisted dip version2 TWO equal side-by-side panels side three-quarter. Parallel dipbars stablefullframe. Thick continuousassistanceband securelyloopedacross BOTHbars andUNDER BOTHBENTKNEES. Handsneutralgripontopbars, nootherweights. First topSUPPORTwithstraightelbows shouldersdown. Second lowerwithELBOWS90degrees upperarmsparallelfloor, kneesremaininband. Clearlyshowbothbandattachments andbandunderknees, wholehandsfeetbarsineachpanel. Red exposed triceps only. Use case: scientific educational. Match original 0853 reference only in premium detailed grayscale anatomy rendering, never its movement or equipment. White background, subtle floor shadow, realistic muscular adult male. Same person, camera, scale and equipment in both panels. Fully opaque black tank and mid-thigh black shorts wrap front, sides, back and crotch, realistic seams, folds and hems; no clothing cutaways or anatomical fibers over cloth. Red highlights only on exposed target deltoids or triceps as specified. Entire body, hands, feet, weights and equipment fit generously inside each panel. No words, numbers or arrows.",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Loop a band across dip bars, place knees in it and support yourself with straight arms."
+        },
+        {
+          "key": "p2",
+          "caption": "Lower until elbows reach about ninety degrees, then press up with shoulders down."
+        }
+      ],
+      "inspectionNote": "Real output inspected. Band connects both dip bars beneath knees; straight support and lowered elbow-flexion stages shown. Qualified anatomy review pending; no publication.",
+      "blockingIssues": [],
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream media used.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0853-male-anatomical-white-v1.png",
+        "role": "style only"
+      }
+    }
+  ]
+}

@@ -1,0 +1,366 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "3322",
+      "variant": "male",
+      "key": "3322-male-anatomical-white-v1",
+      "prompt": "KETTLEBELL DEADLIFT twoequalpanels SAME SIDEthreequartercamera headLEFT rearglutevisible. ONEkettlebell heldbyBOTHhands handlecenter BETWEENlegs. LEFTSTART bellBODYrestsFLOOR betweenfeetHIPwidth, hipsback kneesbend neutralflatback neckaligned, armsSTRAIGHT shoulderstobell. RIGHTEND standtall hipskneesextended bellhangsINFRONTOFPELVIS betweenlegs atupperthighheight armsSTRAIGHT noleanback. Samefootpositions bellnotbehindlegs. PrimaryGLUTES SMALLplainuniformredwash on intactBLACKseatshortsONLY othergrayblack. Premium detailed adult MALE grayscale anatomical illustration. Pure white backdrop soft contact shadows realistic equipment detailed exposed gray muscles. Original project reference STYLE ONLY not pose or equipment. Same model camera scale all panels fullbodyequipmentinframe. Opaque BLACK tank and mid-thigh black shorts fully wrap front sides back seat crotch with seams folds hems. Covered red highlights SMALL PLAIN UNIFORM wash on intact fabric NO anatomical fibers lobes segments cutaways transparency. Exactly one head two arms hands two legs feet per figure. No text labels arrows logos. ",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hinge down to kettlebell between feet with both hands and flat back."
+        },
+        {
+          "key": "p2",
+          "caption": "Stand tall through hips and knees, then hinge to return bell to floor."
+        }
+      ],
+      "inspectionNote": "Real output inspected. Single kettlebell between feet at floor then standing, both hands on handle, opaque clothing/plain glute wash. Qualified hinge-versus-squat depth, hand anatomy, neck alignment and bell path review pending. Human anatomy review pending. No approval or publication.",
+      "canonicalName": "kettlebell deadlift",
+      "styleVersion": "white-v1",
+      "equipment": "kettlebell",
+      "primaryMuscles": [
+        "glutes"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Single kettlebell between feet at floor then standing, both hands on handle, opaque clothing/plain glute wash. Qualified hinge-versus-squat depth, hand anatomy, neck alignment and bell path review pending. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/3322-male-anatomical-white-v1-p1-6aeb25e662b4.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 25046,
+          "sha256": "6aeb25e662b4dd0124ed07e0f7d91b459479b6a6ae73c1ee0a2f9b0cbf2e4b7d"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/3322-male-anatomical-white-v1-p2-8677acf74773.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 22898,
+          "sha256": "8677acf747735edeec78b1065e9b86595e33e58c2ba7327cbb73d6bd3b52afd8"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-345.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/3322-male-anatomical-white-v1-thumb-a837b02c9e78.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2652,
+        "sha256": "a837b02c9e7855d7d4a3782adae7a8b6474b487bec0ad2c6c48fd4fdb71ab723"
+      },
+      "processingSignature": "085f464a2df08be07550b06ef0d0b9d3fa880297acf0dec48b909e30777753f9",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/3322-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1355570,
+        "sha256": "9d1464436410aef0b1893a410ba4bf65e56b65ae4835ecc41e110a37d4f72e3f"
+      }
+    },
+    {
+      "exerciseId": "3323",
+      "variant": "male",
+      "key": "3323-male-anatomical-white-v1",
+      "prompt": "HALF TURKISH GETUP THREEequalpanels SAMEelevatedFRONTthreequartercamera. SAME RIGHTHAND holdsONEkettlebellpressedVERTICALLYaboveRIGHTshoulder allposes armSTRAIGHT elbowlocked wristneutral bellRESTSbackFOREARM. RIGHTkneeBENT RIGHTfootflatfloor LEFTlegSTRAIGHTdiagonaloutfloorALLposes. PANEL1 SUPINEheadshouldersbackFLOOR LEFTarmout45floor. PANEL2 rollontoLEFTELBOW forearmfloor RIGHTarmSTILLvertical eyesbell. PANEL3 TALLSEATEDonLEFTHAND palmfloor LEFTarmSTRAIGHT elbowextended torsoUP, bothhipsFLOOR NO bridge no kneeling; sameRIGHTfootLEFTleg. PrimaryABS smallplainuniformredwash intacttankabdomenONLY. Premium detailed adult MALE grayscale anatomical illustration. Pure white backdrop soft contact shadows realistic equipment detailed exposed gray muscles. Original project reference STYLE ONLY not pose or equipment. Same model camera scale all panels fullbodyequipmentinframe. Opaque BLACK tank and mid-thigh black shorts fully wrap front sides back seat crotch with seams folds hems. Covered red highlights SMALL PLAIN UNIFORM wash on intact fabric NO anatomical fibers lobes segments cutaways transparency. Exactly one head two arms hands two legs feet per figure. No text labels arrows logos. ",
+      "layout": {
+        "columns": 3,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Lie with right knee bent, left leg straight and kettlebell held vertically in right hand."
+        },
+        {
+          "key": "p2",
+          "caption": "Roll onto left elbow while keeping bell arm vertical."
+        },
+        {
+          "key": "p3",
+          "caption": "Press onto left hand into tall seated position; reverse slowly and switch sides."
+        }
+      ],
+      "inspectionNote": "Real output inspected. Supine, elbow-supported and hand-supported half-get-up phases visible with opaque clothes, but supine bent knee appears opposite bell arm and leg arrangement changes between panels. Correction needed for consistent same-side knee/loaded arm. Human anatomy review pending. No approval or publication.",
+      "blockingIssues": [
+        "Keep bent knee on same side as kettlebell arm and preserve the same leg arrangement in all phases."
+      ],
+      "canonicalName": "kettlebell half turkish get up",
+      "styleVersion": "white-v1",
+      "equipment": "kettlebell",
+      "primaryMuscles": [
+        "abs"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Supine, elbow-supported and hand-supported half-get-up phases visible with opaque clothes, but supine bent knee appears opposite bell arm and leg arrangement changes between panels. Correction needed for consistent same-side knee/loaded arm. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/3323-male-anatomical-white-v1-p1-886ef519b165.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 20308,
+          "sha256": "886ef519b1650b5138e76e8f347d62c47bc7ed4d53dfbda911909a997026728e"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/3323-male-anatomical-white-v1-p2-582e2f95d3ca.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 25282,
+          "sha256": "582e2f95d3ca1e8874e0fb265538bb0a834b960b2996659ebdaf5ade833ff14c"
+        },
+        {
+          "pose": "p3",
+          "path": "/workout/illustration-pilot/3323-male-anatomical-white-v1-p3-68a339f1a166.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 25920,
+          "sha256": "68a339f1a166103ba76b00d6567cacb6f087770e9e40985a910c80a62f2fe2e8"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-345.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/3323-male-anatomical-white-v1-thumb-ba6d3b51351a.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2712,
+        "sha256": "ba6d3b51351aa5dff651635138a908f563b52cd1155b8bc782c52746497850a3"
+      },
+      "processingSignature": "a838c29de93f56a1f6d94346bb7c19bc1ae80382098bc49b7dae2b5492fbb448",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/3323-male-anatomical-white-v1.png",
+        "width": 2172,
+        "height": 724,
+        "bytes": 1834603,
+        "sha256": "a515ac924b09903da524f2e9325f390f5333bc519dfbef428c9d684c29092010"
+      }
+    },
+    {
+      "exerciseId": "3324",
+      "variant": "male",
+      "key": "3324-male-anatomical-white-v1",
+      "prompt": "ALTERNATING BAND INCLINE CHEST PRESS WITH TWIST THREEequalpanels SAMEFRONTthreequartercamera. Lowfixedanchor onpost BEHINDmodel atankleheight, TWO elasticstrands fromsameanchor toONEhandleEACHhand, visibleunbrokenbands. Splitstance SAMEfeetplantedallposes hipssteady. PANEL1 BOTHhandles chestheight elbowsbent. PANEL2 RIGHTarmpressesUPandFORWARD45degree armslope torsoROTATESslightlyLEFT, LEFThandstayschest. PANEL3 LEFTarmpressesUPforward45 torsoslightlyRIGHT RIGHTstayschest. ClearlyOPPOSITEactivearms, bandstensionfromLOWBEHIND. PrimaryPECTORALS smallPLAINuniformredwash intacttankchest NO anatomicalchestlobes. Premium detailed adult MALE grayscale anatomical illustration. Pure white backdrop soft contact shadows realistic equipment detailed exposed gray muscles. Original project reference STYLE ONLY not pose or equipment. Same model camera scale all panels fullbodyequipmentinframe. Opaque BLACK tank and mid-thigh black shorts fully wrap front sides back seat crotch with seams folds hems. Covered red highlights SMALL PLAIN UNIFORM wash on intact fabric NO anatomical fibers lobes segments cutaways transparency. Exactly one head two arms hands two legs feet per figure. No text labels arrows logos. ",
+      "layout": {
+        "columns": 3,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand in split stance with bands anchored low behind, handles at chest."
+        },
+        {
+          "key": "p2",
+          "caption": "Press right hand up and forward with a small torso rotation; return."
+        },
+        {
+          "key": "p3",
+          "caption": "Press left hand up and forward; alternate while keeping hips steady."
+        }
+      ],
+      "inspectionNote": "Real output inspected. Low rear anchor and alternating upward press arms visible with steady split stance. Red pectoral lobes through tank require plain-wash correction. Qualified torso rotation, band continuity and hand grip review pending. Human anatomy review pending. No approval or publication.",
+      "blockingIssues": [
+        "Replace anatomical pectoral lobes through tank with plain uniform wash on intact opaque fabric."
+      ],
+      "canonicalName": "band alternate incline chest press with twist",
+      "styleVersion": "white-v1",
+      "equipment": "band",
+      "primaryMuscles": [
+        "pectorals"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Low rear anchor and alternating upward press arms visible with steady split stance. Red pectoral lobes through tank require plain-wash correction. Qualified torso rotation, band continuity and hand grip review pending. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/3324-male-anatomical-white-v1-p1-2d89b401efd3.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 25688,
+          "sha256": "2d89b401efd3fd4acde53ee59e0df036a9a8c5ac7302c749632fedce5dbf875c"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/3324-male-anatomical-white-v1-p2-019d2e2a2955.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 28368,
+          "sha256": "019d2e2a29552e6e34931cbdc1a23504b5486d2e5eb50d6ab9a28890b8b7c3db"
+        },
+        {
+          "pose": "p3",
+          "path": "/workout/illustration-pilot/3324-male-anatomical-white-v1-p3-d4bf129a6fef.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 26620,
+          "sha256": "d4bf129a6fef59e1654604eb7d29419773971f9508bb4952dc10e8471210c88c"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-345.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/3324-male-anatomical-white-v1-thumb-ceddb9174687.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 4054,
+        "sha256": "ceddb91746877d817c11845fbf9853729db1826573db7020ddbb6cd492a8090e"
+      },
+      "processingSignature": "ba6733c103fc01b79f2eae19cf35b18bf81c5fd6b3c6ef0697c9213c75546876",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/3324-male-anatomical-white-v1.png",
+        "width": 2172,
+        "height": 724,
+        "bytes": 1560514,
+        "sha256": "99b7436d5a37f4abd88518a21a9dc13be5eecc4ee3f663a6f72555e449d132ba"
+      }
+    },
+    {
+      "exerciseId": "3325",
+      "variant": "male",
+      "key": "3325-male-anatomical-white-v1",
+      "prompt": "ALTERNATING LOW BAND ROW WITH TWIST THREEequalpanels SAME REARthreequartercamera headLEFT showsBOTHhands/back. LOWfixedanchorpostFRONTLEFTatankleheight TWO elasticstrands fromsameanchor toONEhandleEACHhand visibleunbrokenbands. STAGGEREDSTANCE SAMEfeetfloor hipssteady. PANEL1 BOTHarmsSTRAIGHTreachforwarddown towardanchor. PANEL2 RIGHTelbowpullsBACKtowardRIGHThip RIGHTelbowbent LEFTarmSTAYSstraight forward, torsosmallrotationRIGHT. PANEL3 LEFTelbowpullsBACKtowardLEFThip LEFTelbowbent RIGHTarmSTAYSstraight forward, torsosmallrotationLEFT. ClearlyOPPOSITEactivearms bothhandlesvisible. PrimaryUPPERBACK smallPLAINuniformredwash intactblacktankupperback NO fibersscapulalobes. Premium detailed adult MALE grayscale anatomical illustration. Pure white backdrop soft contact shadows realistic equipment detailed exposed gray muscles. Original project reference STYLE ONLY not pose or equipment. Same model camera scale all panels fullbodyequipmentinframe. Opaque BLACK tank and mid-thigh black shorts fully wrap front sides back seat crotch with seams folds hems. Covered red highlights SMALL PLAIN UNIFORM wash on intact fabric NO anatomical fibers lobes segments cutaways transparency. Exactly one head two arms hands two legs feet per figure. No text labels arrows logos. ",
+      "layout": {
+        "columns": 3,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Stand staggered with low band anchor in front and arms extended."
+        },
+        {
+          "key": "p2",
+          "caption": "Row right handle toward right hip with small torso rotation; return."
+        },
+        {
+          "key": "p3",
+          "caption": "Row left handle toward left hip; alternate under control."
+        }
+      ],
+      "inspectionNote": "Real output inspected. Low front anchor and row sequence visible with opaque clothing, but second/third panels repeat same rowing arm. Red upper-back anatomical segmentation through tank also needs plain-wash correction. Human anatomy review pending. No approval or publication.",
+      "blockingIssues": [
+        "Show opposite rowing arm in final panel instead of repeating same arm.",
+        "Replace upper-back anatomical segmentation through tank with plain uniform wash."
+      ],
+      "canonicalName": "band alternate low row with twist",
+      "styleVersion": "white-v1",
+      "equipment": "band",
+      "primaryMuscles": [
+        "upper back"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Low front anchor and row sequence visible with opaque clothing, but second/third panels repeat same rowing arm. Red upper-back anatomical segmentation through tank also needs plain-wash correction. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/3325-male-anatomical-white-v1-p1-b232861fca8e.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 29742,
+          "sha256": "b232861fca8e0e5c6eafe0a377dd5b20c510a80519eab6f0eba0f1b8275c99cb"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/3325-male-anatomical-white-v1-p2-d3114a689f75.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 31336,
+          "sha256": "d3114a689f75223a18f55bba2ac63f57fff67a9f799b4e5bb245f2cd8be282b1"
+        },
+        {
+          "pose": "p3",
+          "path": "/workout/illustration-pilot/3325-male-anatomical-white-v1-p3-ac8e14c1f20f.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 29576,
+          "sha256": "ac8e14c1f20f9ac966920fdfd4853eb9c714eb718aa0e7ec89656be632aded67"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-345.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/3325-male-anatomical-white-v1-thumb-3888a05fdbe0.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 4476,
+        "sha256": "3888a05fdbe05df739a079e77b69fec43fb9345e9504cd10caeab41689378dbb"
+      },
+      "processingSignature": "f4f42c32398b2c78d103a4133051249927846d74c9712b1970b3e9221839e671",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/3325-male-anatomical-white-v1.png",
+        "width": 2172,
+        "height": 724,
+        "bytes": 1563036,
+        "sha256": "c4390885939b4a0d0c491d15e0a40430fd37d8aeb5df13a2aa28b81be950fcc5"
+      }
+    }
+  ]
+}

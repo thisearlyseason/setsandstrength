@@ -1,0 +1,101 @@
+{
+  "batch": 66,
+  "trigger": "2026-11-01T13:26:46.200Z",
+  "completedAt": "2026-11-01T13:35:31.349609+00:00",
+  "tool": "image_gen.imagegen",
+  "newCandidateSets": 4,
+  "generationCalls": 5,
+  "exerciseIds": [
+    "0321",
+    "0327"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 260,
+    "remainingVariants": 11004,
+    "approvedVariants": 0,
+    "blockedVariants": 117,
+    "knownPoseImages": 526,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "All pending and unpublished. Hammer-press variants blocked for true neutral-grip specificity; male far shoe clipped. Female vertical-shaft dumbbells corrected to level shafts in v2 but exact palm orientation remains uncertain, original retained. Chest-supported rows show both elbows rowing and opaque rear/crotch clothing; far starting arm/weight occluded, qualified support/angle/grip/highlight review required. Pipeline checks are not anatomy approval.",
+  "metadataConflictsDeferred": [
+    {
+      "exerciseId": "0322",
+      "issue": "Upper-arm support on incline pad versus hanging elbows/inner-curl specificity unclear."
+    },
+    {
+      "exerciseId": "0323",
+      "issue": "Lateral raise instruction upper-arm against inner thigh conflicts with shoulder abduction."
+    },
+    {
+      "exerciseId": "0328",
+      "issue": "Serratus shoulder-raise title versus overhead raise/press instructions needs technique review."
+    },
+    {
+      "exerciseId": "0324",
+      "issue": "Appears mechanically equivalent to 0321; preserve separate ID and require variant review before reuse."
+    }
+  ],
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 420459129,
+  "savedMasters": [
+    {
+      "exerciseId": "0321",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0321-male-anatomical-white-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1726979,
+        "sha256": "4c1e1fee15231974336e4a271c763c3dd334c1b5764f2c23cd2b6496639b7374"
+      }
+    },
+    {
+      "exerciseId": "0321",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0321-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1525112,
+        "sha256": "0f10eead1445379bda12373bb263c27326f00e0dd98f251471501f05407ffec8"
+      }
+    },
+    {
+      "exerciseId": "0327",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0327-male-anatomical-white-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1783192,
+        "sha256": "edc4fe3263002cbcb7c100c4462ed354d626728094e13e961d98a0c3d9a6c7f7"
+      }
+    },
+    {
+      "exerciseId": "0327",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0327-female-anatomical-white-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1816503,
+        "sha256": "bf3b046503864965ee494a89a0930e384486178caf8e27a926693d814aed3d28"
+      }
+    }
+  ]
+}

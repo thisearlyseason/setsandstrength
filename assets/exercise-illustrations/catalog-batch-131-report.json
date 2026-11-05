@@ -1,0 +1,84 @@
+{
+  "batch": 131,
+  "trigger": "2026-11-03T00:58:54.512Z",
+  "completedAt": "2026-11-03T01:17:01.397909+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 4,
+  "generationCalls": 7,
+  "exerciseIds": [
+    "0790",
+    "0795"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 534,
+    "remainingVariants": 10730,
+    "approvedVariants": 0,
+    "blockedVariants": 205,
+    "knownPoseImages": 1100,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Four candidate sets, eight poses, seven built-in calls and three retained corrections. Bent-knee hip abduction male original swapped support/working legs and highlighted wrong hip; edit fixes identity/mapping but start thigh is raised forward rather than down and knee angle inconsistent: BLOCKED for start/plane correction. Female retains same working leg and bent-knee lateral lift; hip cloth highlight smoothed. Standing single-leg curl pairs show suspended near-straight start and heel curled toward glute, hands hips and upright torso; male posterior-thigh overlay smoothed, female original retained. Fine exposed grayscale anatomy and full opaque shirt/shorts retained. Qualified frontal-plane abduction, knee flexion/thigh constancy, heel range, pelvis level, leg identity and muscle mapping remain pending. All original masters, prompts and correction history saved. No anatomy approval or publication. Original project artwork style only, no upstream media. Pipeline checks do not approve anatomy.",
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 867873586,
+  "savedMasters": [
+    {
+      "exerciseId": "0790",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0790-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1343114,
+        "sha256": "dae844f18a1ad23497b6f99e16edd98e201be64bdde55e09e453b42122451f03"
+      }
+    },
+    {
+      "exerciseId": "0790",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0790-female-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1353981,
+        "sha256": "227a5d05241fbdae56926975b4ad14e810ac8053efc2314c659f07b034a3da63"
+      }
+    },
+    {
+      "exerciseId": "0795",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0795-male-anatomical-white-v2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1293516,
+        "sha256": "2d3a9583fda25e104402b3fc31d6b9426bfc8f4541e1878d85af71c1658bfc68"
+      }
+    },
+    {
+      "exerciseId": "0795",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0795-female-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1306263,
+        "sha256": "6a56ed6049df856dde61cea1f5ba8c19e0fad0f899958b4cebe7749daeb89a85"
+      }
+    }
+  ]
+}

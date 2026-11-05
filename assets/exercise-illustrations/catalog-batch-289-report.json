@@ -1,0 +1,79 @@
+{
+  "batch": 289,
+  "runId": "5ade29ac-a705-4bd3-8839-6d87c993f20c",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "trigger": "2026-11-04T02:48:56.604Z",
+  "purpose": "batch289 scheduled male continuation",
+  "started": "2026-11-04T02:49:24.801884+00:00",
+  "completedAt": "2026-11-04T02:56:10.847501+00:00",
+  "actualToolName": "image_gen__imagegen",
+  "calls": 4,
+  "newCandidateSets": 4,
+  "exerciseIds": [
+    "2475",
+    "2485",
+    "2487",
+    "2500"
+  ],
+  "variants": [
+    "male"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1029,
+    "remainingVariants": 10235,
+    "approvedVariants": 0,
+    "blockedVariants": 350,
+    "knownPoseImages": 1979,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 656,
+      "remainingVariants": 4976,
+      "blockedVariants": 231
+    }
+  },
+  "reviewNotes": {
+    "2475": "Bent free knee remains raised toward chest, working foot planted as hips rise from floor to bridge. Head/shoulders/arms supported, opaque shorts with plain glute tint both poses. Qualified review of head contact and neck neutrality, pelvic level, working-leg tracing, hip endpoint and glute laterality required. Human anatomy review remains pending.",
+    "2485": "Standing neutral-grip dumbbells hang at sides then both curl with vertical dumbbells and palms inward, torso upright. Exposed biceps red but unrelated chest tint added; block highlight mapping correction. Opaque black clothing intact. Qualified review of upper-arm drift, wrist neutrality, grip consistency and endpoint required. Human anatomy review remains pending.",
+    "2487": "Flat hinged torso maintained, weights hang then raise out to sides with elbows softly extended and rear deltoid red. Opaque clothing intact. Qualified review of fly versus backward shoulder-extension path, bilateral symmetry, neutral neck, elbow softness and shoulder height required. Human anatomy review remains pending.",
+    "2500": "Chest-supported incline bench, both feet floor, weights hang then raise out to sides with slight elbow bend retained, posterior deltoids red and all clothing opaque black. Qualified review of chest/pad contact, neck alignment, fly plane, shoulder height, elbow angle and bench clearance required. Human anatomy review remains pending."
+  },
+  "blockingIssues": {
+    "2485": [
+      "Unrelated red chest highlight; restrict red to primary biceps."
+    ]
+  },
+  "deferred": {},
+  "tests": 7,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "workerSyncResult": {
+    "statuses": {
+      "generated": 1029,
+      "pending": 10235
+    },
+    "remaining": 10235,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 1583732501
+  },
+  "publicationIndexUnchanged": true,
+  "savedMasters": [
+    "assets/exercise-illustrations/generated/2475-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/2485-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/2487-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/2500-male-anatomical-white-v1.png"
+  ]
+}

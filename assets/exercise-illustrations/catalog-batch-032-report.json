@@ -1,0 +1,47 @@
+{
+  "batch": 32,
+  "trigger": "2026-11-01T07:35:12.907Z",
+  "completedAt": "2026-11-01T07:44:30.661955+00:00",
+  "tool": "image_gen.imagegen",
+  "newCandidateSets": 4,
+  "generationCalls": 6,
+  "exerciseIds": [
+    "0315",
+    "0417"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 122,
+    "remainingVariants": 11142,
+    "approvedVariants": 0,
+    "blockedVariants": 51,
+    "knownPoseImages": 242,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "All pending, none published. Incline-curl v1 accidentally alternating; bilateral frontal v2 corrections retained with history. Qualified bench angle and fixed upper-arm path review pending. Female calf candidate blocked for reduced upper-body anatomical detail versus male. Full opaque garments inspected.",
+  "metadataConflictFlags": [
+    {
+      "exerciseId": "2119",
+      "issue": "target abs but described lateral stretch emphasizes flank/lats/obliques; qualified primary highlight mapping required, skipped."
+    },
+    {
+      "exerciseId": "1241",
+      "issue": "target spine is not a specific muscle region; qualified primary highlight mapping required, skipped."
+    }
+  ],
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 200428530
+}

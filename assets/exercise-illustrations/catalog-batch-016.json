@@ -1,0 +1,74 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "0375",
+      "variant": "male",
+      "key": "0375-male-anatomical-white-v2",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Weight above chest"
+        },
+        {
+          "key": "p2",
+          "caption": "Lower behind head"
+        }
+      ],
+      "prompt": "Edit only muscle highlight colors in this pullover illustration. REMOVE ALL red from both arms/triceps in BOTH panels, making all exposed arm muscles grayscale. Add red pectoral-region surface teaching graphic ON intact chest portion of black shirt in BOTH panels. Do not make fabric transparent or cutaway; red sits on intact cloth. Preserve same man, bench, poses, one shared dumbbell, white background, two equal panels, complete opaque top and shorts, crisp grayscale anatomy. No other colored muscles. No text.",
+      "inspectionNote": "Wrong triceps highlight removed; chest overlay now on intact shirt. Full garments preserved. Elbow bend and shoulder ROM in lowered position require qualified review.",
+      "history": [
+        {
+          "key": "0375-male-anatomical-white-v1",
+          "layout": {
+            "columns": 2,
+            "rows": 1
+          },
+          "poses": [
+            {
+              "key": "p1",
+              "caption": "Weight above chest"
+            },
+            {
+              "key": "p2",
+              "caption": "Lower behind head"
+            }
+          ],
+          "prompt": "Create premium detailed anatomical instructional illustration for DUMBBELL PULLOVER (canonical0375), ADULT MALE. Reference for grayscale style and flat bench ONLY: REPLACE two dumbbells and elbow-extension exercise with ONE DUMBBELL held in BOTH hands. Two equal side-by-side panels white gutters and full body/bench/weight inside each. Same person/bench/camera/weight/clothes. Near SIDE three-quarter camera. Lie SUPINE ALONG flat bench with head upper back pelvis supported, feet planted flat on floor. Hold ONE vertical dumbbell: BOTH hands securely cup underside of upper dumbbell head, fingers wrapping around upper head/handle area, lower dumbbell head hanging below. Left: arms reach upward above chest, slight elbow bend about15degrees. Right: rotate both upper arms together backward at SHOULDERS to lower single dumbbell BEHIND head, upper arms near ears reaching roughly in line with torso, hands beyond end of bench. Keep SAME small elbow bend; NOT skull crusher, not bench press. Neutral neck/head supported, ribs controlled without exaggerated lumbar arch, hips stay on bench, feet unchanged. Whole weight clearly behind head in second panel with clearance from floor and head. Red pectoral teaching overlay ON intact chest portion of shirt only. All exposed limb anatomy detailed grayscale realistic proportions, no flesh-colored skin. Full opaque black sleeveless athletic top covering chest torso sides back and knee-length black shorts fully enclosing seat crotch front sides rear, normal seams folds closed hems, shoes. Never transparent or cutaway clothing. White background soft shadows. No text numbers labels arrows or logos. Qualified shoulder range and grip review pending, do not illustrate forced excessive stretch."
+        }
+      ],
+      "blockingIssues": [
+        "Verify/correct excessive elbow bend in lowered pose against slight-bend pullover technique."
+      ],
+      "batch": "catalog-batch-016.json"
+    },
+    {
+      "exerciseId": "0375",
+      "variant": "female",
+      "key": "0375-female-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Weight above chest"
+        },
+        {
+          "key": "p2",
+          "caption": "Lower behind head"
+        }
+      ],
+      "prompt": "Create premium detailed anatomical instructional illustration for DUMBBELL PULLOVER (canonical0375), ADULT FEMALE. Reference for grayscale style and flat bench ONLY: REPLACE two dumbbells and elbow-extension exercise with ONE DUMBBELL held in BOTH hands. Two equal side-by-side panels white gutters and full body/bench/weight inside each. Same person/bench/camera/weight/clothes. Near SIDE three-quarter camera. Lie SUPINE ALONG flat bench with head upper back pelvis supported, feet planted flat on floor. Hold ONE vertical dumbbell: BOTH hands securely cup underside of upper dumbbell head, fingers wrapping around upper head/handle area, lower dumbbell head hanging below. Left: arms reach upward above chest, slight elbow bend about15degrees. Right: rotate both upper arms together backward at SHOULDERS to lower single dumbbell BEHIND head, upper arms near ears reaching roughly in line with torso, hands beyond end of bench. Keep SAME small elbow bend; NOT skull crusher, not bench press. Neutral neck/head supported, ribs controlled without exaggerated lumbar arch, hips stay on bench, feet unchanged. Whole weight clearly behind head in second panel with clearance from floor and head. Red pectoral teaching overlay ON intact chest portion of shirt only. All exposed limb anatomy detailed grayscale realistic proportions, no flesh-colored skin. Full opaque black sleeveless athletic top covering chest torso sides back and knee-length black shorts fully enclosing seat crotch front sides rear, normal seams folds closed hems, shoes. Never transparent or cutaway clothing. White background soft shadows. No text numbers labels arrows or logos. Qualified shoulder range and grip review pending, do not illustrate forced excessive stretch. CRITICAL: red ONLY chest overlay, no red triceps. Maintain elbows only slightly bent throughout; fully reach arms behind head by shoulder rotation, not bending elbows 90degrees.",
+      "inspectionNote": "Shared single dumbbell, chest overlay and complete opaque garments visible. Lowered elbow bend appears greater than requested slight bend; qualified shoulder/arm range and grip review required before approval.",
+      "batch": "catalog-batch-016.json",
+      "blockingIssues": [
+        "Verify/correct excessive elbow bend in lowered pose against slight-bend pullover technique."
+      ]
+    }
+  ]
+}

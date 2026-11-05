@@ -1,0 +1,30 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "3422",
+      "variant": "male",
+      "key": "3422-male-anatomical-white-v1",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Lie back holding medicine ball on chest."
+        },
+        {
+          "key": "p2",
+          "caption": "Curl shoulders off floor."
+        }
+      ],
+      "prompt": "Detailed grayscale anatomical adult male exercise illustration, pure white background, two equal panels. Medicine ball crunch: same model supine on mat, knees bent feet flat, holding one medicine ball against chest; panel 1 shoulders on floor, panel 2 curl shoulders upward without pulling chin to chest, lower back stays grounded. Highlight abs red as a small plain wash over intact opaque black sleeveless tank; fully opaque mid-thigh shorts wrap front sides back and crotch. High detail, soft shadows, no text or arrows. Original project illustration is style reference only.",
+      "inspectionNote": "Recovered saved original and inspected real output. Two crunch positions with medicine ball at chest, knees bent and feet planted. Clothing opaque with abdominal surface wash. Starting head appears slightly raised; qualified neck support, crunch range and muscle review pending. No approval or publication.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream media used.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only"
+      }
+    }
+  ]
+}

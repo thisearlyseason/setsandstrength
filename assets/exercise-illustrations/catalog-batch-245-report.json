@@ -1,0 +1,85 @@
+{
+  "batch": 245,
+  "runId": "27d1b6b0-dc48-47e0-a32b-f33c20e64076",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "trigger": "2026-11-03T19:39:54.200Z",
+  "purpose": "batch245 scheduled male continuation",
+  "started": "2026-11-03T19:41:19.326802+00:00",
+  "completedAt": "2026-11-03T19:48:52.309190+00:00",
+  "actualToolName": "image_gen__imagegen",
+  "calls": 4,
+  "newCandidateSets": 4,
+  "exerciseIds": [
+    "1877",
+    "1879",
+    "1885",
+    "1886"
+  ],
+  "variants": [
+    "male"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 853,
+    "remainingVariants": 10411,
+    "approvedVariants": 0,
+    "blockedVariants": 272,
+    "knownPoseImages": 1665,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 480,
+      "remainingVariants": 5152,
+      "blockedVariants": 153
+    }
+  },
+  "reviewNotes": {
+    "1877": "Standing adductor stretch: wide stance, one bent knee and straight opposite leg with inner-thigh red highlight. Coherent torso/pelvis orientation and feet grounded. Qualified review needed for hip shift, knee tracking, straight-leg adductor mapping and foot angle.",
+    "1879": "Heel-on-bench hip stretch with gently bent elevated leg and tall hip hinge. BLOCKED: glute overlay appears on grounded-leg hip instead of elevated/stretching leg. Correct highlight laterality; qualified muscle-target mapping also required.",
+    "1885": "Toe-up wall stretch shows forward forefoot against wall with heel at floor, stable rear leg and palm support. BLOCKED: red highlight is on anterior shin rather than posterior calf. Correct muscle highlight mapping.",
+    "1886": "Two knee-angle heel-drop holds depicted with rail and step. BLOCKED: working shoe hangs toe-down off front edge without clearly supported forefoot or heel dropping below step; front-shin highlight instead of posterior calf. Correct step contact, dorsiflexion and red mapping."
+  },
+  "blockingIssues": {
+    "1879": [
+      "Glute highlight appears on grounded leg rather than raised/stretching leg; correct laterality."
+    ],
+    "1885": [
+      "Anterior shin highlighted rather than posterior calf; correct muscle mapping."
+    ],
+    "1886": [
+      "Working forefoot lacks clear support on step edge; foot points down rather than heel lowering below edge.",
+      "Anterior shin highlight instead of posterior calf."
+    ]
+  },
+  "tests": 7,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "workerSyncResult": {
+    "statuses": {
+      "generated": 853,
+      "pending": 10411
+    },
+    "remaining": 10411,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 1323798026
+  },
+  "publicationIndexUnchanged": true,
+  "savedMasters": [
+    "assets/exercise-illustrations/generated/1877-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/1879-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/1885-male-anatomical-white-v1.png",
+    "assets/exercise-illustrations/generated/1886-male-anatomical-white-v1.png"
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "batch": 49,
+  "trigger": "2026-11-01T10:35:14.288Z",
+  "completedAt": "2026-11-01T10:42:45.783091+00:00",
+  "tool": "image_gen.imagegen",
+  "newCandidateSets": 4,
+  "generationCalls": 5,
+  "exerciseIds": [
+    "0092",
+    "0078"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 192,
+    "remainingVariants": 11072,
+    "approvedVariants": 0,
+    "blockedVariants": 86,
+    "knownPoseImages": 386,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "All pending and unpublished. Opaque complete garments and equipment framing inspected. Female barbell lunge corrected from photographic skin to equal detailed anatomical limb quality, original retained. Both lunge variants blocked pending exact stepping-side/highlight confirmation; male extension blocked for wrist/bar-clearance assessment. Female extension retains smoother leg detail and awaits qualified style/anatomy review.",
+  "metadataConflictsDeferred": [
+    {
+      "exerciseId": "0087",
+      "issue": "Bradford description says never fully lock out; instructions say fully extend overhead. Deferred rather than guessed."
+    },
+    {
+      "exerciseId": "0100",
+      "issue": "Skier swing/jump path needs qualified multi-step planning before illustration."
+    }
+  ],
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 310419569,
+  "savedMasters": [
+    {
+      "exerciseId": "0092",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0092-male-anatomical-white-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1554402,
+        "sha256": "042555807f40b79fd44a5a2bfc2c97692e3cb8bdb5bd3fa10ac4dfe08dd4c504"
+      }
+    },
+    {
+      "exerciseId": "0092",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0092-female-anatomical-white-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1499460,
+        "sha256": "38ac7aed728c3393599e822a17fb937b17ce2f64e8b3b2651f4d323ea6934d20"
+      }
+    },
+    {
+      "exerciseId": "0078",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0078-male-anatomical-white-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1855006,
+        "sha256": "616f2d528ec72e6177899eee760b289ef22b2b6efa94577df7f4d3db532810a2"
+      }
+    },
+    {
+      "exerciseId": "0078",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0078-female-anatomical-white-v2.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1597726,
+        "sha256": "020d56eede5bd56249c593fc81db8ed3929c23ff7bfae6f7fd2bb1ba60e13a40"
+      }
+    }
+  ]
+}

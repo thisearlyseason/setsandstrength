@@ -35,6 +35,7 @@ public class AppleHealthPlugin: CAPPlugin, CAPBridgedPlugin {
         CAPPluginMethod(name: "setEnabled", returnType: CAPPluginReturnPromise),
         CAPPluginMethod(name: "readHeartRate", returnType: CAPPluginReturnPromise),
         CAPPluginMethod(name: "readWeights", returnType: CAPPluginReturnPromise),
+        CAPPluginMethod(name: "readSteps", returnType: CAPPluginReturnPromise),
     ]
 
     static let enabledKey = "healthEnabled"
@@ -67,12 +68,30 @@ public class AppleHealthPlugin: CAPPlugin, CAPBridgedPlugin {
             var types: Set<HKObjectType> = []
             if read.contains("heartRate"), let hr = HKObjectType.quantityType(forIdentifier: .heartRate) { types.insert(hr) }
             if read.contains("weight") { types.insert(bodyMass) }
+            if read.contains("steps"), let steps = HKObjectType.quantityType(forIdentifier: .stepCount) { types.insert(steps) }
             store.requestAuthorization(toShare: [], read: types) { _, _ in call.resolve(["granted": self.granted]) }
             return
         }
         store.requestAuthorization(toShare: shareTypes, read: readTypes) { _, _ in
             call.resolve(["granted": self.granted])
         }
+    }
+
+    @objc func readSteps(_ call: CAPPluginCall) {
+        guard HKHealthStore.isHealthDataAvailable(), let type = HKQuantityType.quantityType(forIdentifier: .stepCount) else {
+            call.reject("Apple Health is unavailable", "unavailable"); return
+        }
+        guard let from = call.getDouble("from"), let to = call.getDouble("to"), from.isFinite, to.isFinite, to > from else {
+            call.reject("A valid time range is needed", "failed"); return
+        }
+        let predicate = HKQuery.predicateForSamples(withStart: Date(timeIntervalSince1970: from / 1000), end: Date(timeIntervalSince1970: to / 1000), options: .strictStartDate)
+        let query = HKStatisticsQuery(quantityType: type, quantitySamplePredicate: predicate, options: .cumulativeSum) { _, result, error in
+            guard error == nil else { call.reject("Steps could not be read", "failed"); return }
+            // HealthKit does not disclose denied read permission. Absent samples remain unknown.
+            if let count = result?.sumQuantity()?.doubleValue(for: .count()) { call.resolve(["count": Int(count)]) }
+            else { call.resolve(["count": NSNull()]) }
+        }
+        store.execute(query)
     }
 
     @objc func setEnabled(_ call: CAPPluginCall) {

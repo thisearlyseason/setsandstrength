@@ -1,0 +1,54 @@
+{
+  "batch": 217,
+  "runId": "f2852917-56a1-422c-a0de-a35a8bd55da4",
+  "trigger": "interactive continuation 2026-11-03",
+  "completedAt": "2026-11-03T15:05:29.711479+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 1,
+  "calls": 1,
+  "exerciseIds": [
+    "1627"
+  ],
+  "variants": [
+    "male"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 747,
+    "remainingVariants": 10517,
+    "approvedVariants": 0,
+    "blockedVariants": 243,
+    "knownPoseImages": 1466,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 374,
+      "remainingVariants": 5258,
+      "blockedVariants": 124
+    }
+  },
+  "review": "Male-first scope authorized by user. One EZ-bar close-grip preacher curl master, two poses, one built-in call. Real output inspected: supported upper arms, close underhand grip, lowered to curled bar, red biceps and opaque full tank/shorts. Qualified human review needed for maintained pad contact, exact EZ grip angle, finger/bar contact and elbow range. Original artwork style only; exact prompt and master retained. No anatomy approval or publication. Ordinary female counterpart deferred under production-policy.json.",
+  "cacheVerification": {
+    "unchangedDeliveryReused": true,
+    "corruptedDeliveryRebuiltIdentically": true,
+    "conversionSeconds": 1.8281775409996044
+  },
+  "deferred": [
+    {
+      "exerciseId": "1628",
+      "reason": "Chest-down incline description conflicts with standing/preacher-pad instructions."
+    }
+  ],
+  "tests": 7,
+  "genCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "savedMasters": [
+    "assets/exercise-illustrations/generated/1627-male-anatomical-white-v1.png"
+  ]
+}

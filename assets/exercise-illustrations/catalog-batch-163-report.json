@@ -1,0 +1,70 @@
+{
+  "batch": 163,
+  "runId": "7c67c30a-043e-4cd6-b7ef-aee5a265ba0d",
+  "trigger": "2026-11-03T08:24:57.863Z",
+  "completedAt": "2026-11-03T08:30:29.416835+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 2,
+  "generationCalls": 2,
+  "exerciseIds": [
+    "1154"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 640,
+    "remainingVariants": 10624,
+    "approvedVariants": 0,
+    "blockedVariants": 219,
+    "knownPoseImages": 1288,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Two suspension calf raise candidates, four poses, two built-in calls. Upright model with forefeet on step and heels lowered to visibly elevated, red exposed calves and full opaque black clothes. Qualified forefoot pressure/contact, heel clearance, ankle rolling, grip/strap balance-only loading and proportions remain human review items. Head margin tight but uncropped. 1162 already had both registered saved masters and was skipped before generation. Every original and exact prompt saved; no anatomy/clothing approval or publication. Original project artwork rendering style only, no upstream licensed input. Seven pipeline checks do not establish anatomical accuracy.",
+  "skippedCompleted": [
+    "1162-male",
+    "1162-female"
+  ],
+  "metadataConflictsDeferred": {
+    "1160": "Cardiovascular target has no defined primary muscle mapping for red highlight.",
+    "1161": "Cardiovascular target has no defined primary muscle mapping for red highlight."
+  },
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 1015991333,
+  "savedMasters": [
+    {
+      "exerciseId": "1154",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1154-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1390604,
+        "sha256": "e866d4ec02336240b1d8a7f1cd3b3573d5ce958a4b2a4d9b0a0a991fd405cbe3"
+      }
+    },
+    {
+      "exerciseId": "1154",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1154-female-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1443972,
+        "sha256": "a5b7f2c1e49ed35d04673183624c4b63c0efa2500885c40d651c19e0067ff327"
+      }
+    }
+  ]
+}

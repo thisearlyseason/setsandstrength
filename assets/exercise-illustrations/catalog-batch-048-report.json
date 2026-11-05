@@ -1,0 +1,93 @@
+{
+  "batch": 48,
+  "trigger": "2026-11-01T10:28:14.213Z",
+  "completedAt": "2026-11-01T10:34:53.786081+00:00",
+  "tool": "image_gen.imagegen",
+  "newCandidateSets": 4,
+  "generationCalls": 4,
+  "exerciseIds": [
+    "0424",
+    "0428"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 188,
+    "remainingVariants": 11076,
+    "approvedVariants": 0,
+    "blockedVariants": 83,
+    "knownPoseImages": 378,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "All pending and unpublished. Full opaque garments, standing feet and both required pose counts inspected. Palm-in press neutral grip is not unequivocal from camera; both blocked for qualified grip confirmation or clearer view. Standing preacher curls show both dumbbells and coherent pad frames, but elbow contact appears to shift; both blocked for qualified support review/correction.",
+  "metadataConflictsDeferred": [
+    {
+      "exerciseId": "0322",
+      "issue": "Incline inner curl description says deep stretch behind body but instructions rest upper arms on bench; setup deferred."
+    },
+    {
+      "exerciseId": "0374",
+      "issue": "Prone curl generic title but instructions specify palms down; grip requires qualified clarification."
+    }
+  ],
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 303912975,
+  "savedMasters": [
+    {
+      "exerciseId": "0424",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0424-male-anatomical-white-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1331230,
+        "sha256": "979d2a0962c9b6a5b4563573db596be394237f1fd512f337896127cedfeb15b8"
+      }
+    },
+    {
+      "exerciseId": "0424",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0424-female-anatomical-white-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1329644,
+        "sha256": "bf5ba757a65ef382e9d974a2df478ed8af4a1abe465176e7e5f5ce02a5096b5f"
+      }
+    },
+    {
+      "exerciseId": "0428",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0428-male-anatomical-white-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1617238,
+        "sha256": "533b193e6354be19cfbbc9543ae72732181ee0a3eea9fdcb7bf5ba43715ac349"
+      }
+    },
+    {
+      "exerciseId": "0428",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0428-female-anatomical-white-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1644012,
+        "sha256": "34fefdde2aa6037170218deecae74e8a3d10496d92c4fae8c08ad3eb6de42b9c"
+      }
+    }
+  ]
+}

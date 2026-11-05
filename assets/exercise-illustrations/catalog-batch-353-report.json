@@ -1,0 +1,84 @@
+{
+  "batch": 353,
+  "runId": "243eb1a1-ba30-4dba-936a-e06d45abe4f9",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "trigger": "2026-11-04T12:55:33.498Z",
+  "purpose": "batch353 scheduled male continuation",
+  "started": "2026-11-04T12:56:00.644798+00:00",
+  "completedAt": "2026-11-04T13:04:12.946376+00:00",
+  "actualToolName": "image_gen__imagegen",
+  "calls": 4,
+  "newCandidateSets": 4,
+  "exerciseIds": [
+    "3368",
+    "3375",
+    "3377",
+    "3381"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1270,
+    "remainingVariants": 9994,
+    "approvedVariants": 0,
+    "blockedVariants": 480,
+    "knownPoseImages": 2497,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 897,
+      "remainingVariants": 4735,
+      "blockedVariants": 361
+    }
+  },
+  "reviewNotes": {
+    "3368": "Two-hand dumbbell swing hinge and chest-height endpoint visible. Unrequested red pectorals/anatomy through tank accompany glute overlay. Opaque shorts; qualified hip-drive mechanics, grip and backswing path review pending.",
+    "3375": "Battle-rope fly forward and wide phases with anchored ropes, athletic stance and deltoid-only highlights; opaque black clothing. Qualified rope tension/waves, soft knees and shoulder range review pending.",
+    "3377": "Seated rope twist center and mirrored sides with planted feet and opaque shorts. Abdominal six-pack/lobes through tank require correction; qualified torso lean and rope swing review pending.",
+    "3381": "Table-edge inverted row with straight legs, heels down, hips suspended and bent-elbow raised phase. Opaque clothing/plain lateral back wash. Qualified sturdy table setup, edge grip, chest endpoint and neck alignment review pending."
+  },
+  "blockingIssues": {
+    "3368": [
+      "Remove non-primary red pectorals and chest anatomy through tank; retain localized glute wash only."
+    ],
+    "3377": [
+      "Replace abdominal anatomical segments through tank with plain uniform wash on intact opaque fabric."
+    ]
+  },
+  "deferred": {
+    "3369": "Cardiovascular target lacks anatomical primary-muscle mapping.",
+    "3370": "Cardiovascular target lacks anatomical primary-muscle mapping.",
+    "3371": "Cardiovascular target lacks anatomical primary-muscle mapping.",
+    "3372": "Cardiovascular target lacks anatomical primary-muscle mapping.",
+    "3373": "Cardiovascular target lacks anatomical primary-muscle mapping.",
+    "3374": "Cardiovascular target lacks anatomical primary-muscle mapping.",
+    "3376": "Cardiovascular target lacks anatomical primary-muscle mapping.",
+    "3378": "Cardiovascular target lacks anatomical primary-muscle mapping.",
+    "3379": "Cardiovascular target lacks anatomical primary-muscle mapping.",
+    "3380": "Cardiovascular target lacks anatomical primary-muscle mapping."
+  },
+  "tests": 7,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "workerSyncResult": {
+    "statuses": {
+      "generated": 1270,
+      "pending": 9994
+    },
+    "remaining": 9994,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 1938479560
+  },
+  "publicationIndexUnchanged": true
+}

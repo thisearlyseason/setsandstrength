@@ -1,0 +1,70 @@
+{
+  "runId": "613d1a47-0f57-4764-8504-a6139146e5d9",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "triggerTimestamp": "2026-11-05T02:33:05.653Z",
+  "batches": [
+    478,
+    479,
+    480,
+    481
+  ],
+  "builtInImageGenAvailable": true,
+  "generatedMasters": 16,
+  "generatedIds": [
+    "6757",
+    "6833",
+    "6890",
+    "6891",
+    "7114",
+    "7231",
+    "7235",
+    "7252",
+    "7449",
+    "7625",
+    "7879",
+    "7880",
+    "7892",
+    "7995",
+    "8502",
+    "7747"
+  ],
+  "blocked": {
+    "7252": [
+      "Finish is a forward raise rather than the specified lateral out-to-side raise."
+    ],
+    "7879": [
+      "Far arm remains lowered in finish instead of both elbows extending behind as specified."
+    ],
+    "7995": [
+      "Raised panel duplicates an arm/hand and dumbbell, showing three instead of two."
+    ]
+  },
+  "coverageAfter": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1712,
+    "remainingVariants": 9552,
+    "approvedVariants": 0,
+    "blockedVariants": 611,
+    "knownPoseImages": 3471,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 1339,
+      "remainingVariants": 4293,
+      "blockedVariants": 492
+    }
+  },
+  "pipelineTests": "8 passed, 0 failed after each of four batches",
+  "approvedIndexUnchanged": true,
+  "existingUserApprovalsPreserved": 1306,
+  "publication": "none",
+  "anatomyReview": "pending",
+  "paidWorker": "disabled; inventory sync only, zero requests",
+  "stopReason": "Reached requested sixteen-master target, successive batches without idle waits.",
+  "nextRunGuidance": "Continue missing male canonical exercises; exposed primary targets and plain black fabric avoided clothing defects in this run. Preserve blocked 7252 wrong raise direction,7879 far-arm omission,7995 duplicated arm. Defer suspension movements due to prior changing strap lengths; covered targets and neutral hammer grip reference leakage remain unresolved. Scan current catalog and originals before choosing next IDs.",
+  "styleReference": "assets/exercise-illustrations/generated/0853-male-anatomical-white-v1.png"
+}

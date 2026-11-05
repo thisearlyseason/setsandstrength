@@ -1,0 +1,343 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "3393",
+      "variant": "male",
+      "key": "3393-male-anatomical-white-v1",
+      "prompt": "Three equal panels SIDE camera headLEFT feetRIGHT. FLOOR LEG HIP RAISE. Head/neck/shoulders REST FLOOR throughout, both arms by sides palmsflatfloor. Panel1 supine straight legs together hovering low about20degrees, lowerbackgrounded. Panel2 raise same straight legs VERTICAL overpelvis hipsfloor. Panel3 small REVERSE CURL lift PELVIS a few inches off floor pressing both straight feet UPtowardceiling, legsstaynearVERTICAL notfoldoverface shoulders/headfloor. No extreme shoulderstand no legsbehindhead. Primary ABS small plain uniform redwash intactabdomen only. Premium detailed adult MALE grayscale anatomical illustration, pure white background soft contact shadows, detailed exposed gray muscles realistic proportions. Reference original project artwork STYLE ONLY. Opaque black tank/mid-thigh shorts wrap front sides back seat crotch with fabric seams folds hems. Covered red highlights SMALL PLAIN UNIFORM wash on intact fabric NO anatomical fibers/lobes/segments/cutaways. One head two arms/hands two legs/feet per figure, same model/camera/scale. Full body in frame, no text arrows logos.",
+      "layout": {
+        "columns": 3,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Lie with straight legs together and palms by sides, head resting on floor."
+        },
+        {
+          "key": "p2",
+          "caption": "Raise legs to vertical with control."
+        },
+        {
+          "key": "p3",
+          "caption": "Lift hips slightly to push feet upward, then lower hips and legs slowly."
+        }
+      ],
+      "inspectionNote": "Real output inspected. Low legs, vertical legs and small hip-lift phases with grounded head and palms, opaque shorts. Abdominal segments visible through tank need plain-wash correction. Qualified lumbar contact and pelvic curl range review pending. Human anatomy review pending. No approval or publication.",
+      "blockingIssues": [
+        "Replace abdominal anatomical segments through tank with plain uniform wash on intact fabric."
+      ],
+      "canonicalName": "lying leg hip raise on floor",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "abs"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Low legs, vertical legs and small hip-lift phases with grounded head and palms, opaque shorts. Abdominal segments visible through tank need plain-wash correction. Qualified lumbar contact and pelvic curl range review pending. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/3393-male-anatomical-white-v1-p1-a3f0fcb2b879.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 15002,
+          "sha256": "a3f0fcb2b8792a82cc82ef6bd3b4276b5840d3f8415007172e008fd43775bfad"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/3393-male-anatomical-white-v1-p2-a8d01c92a3e6.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 16792,
+          "sha256": "a8d01c92a3e6d7c2c8d01a7a1606a99d69375cc6d5e14bbea172866922581baf"
+        },
+        {
+          "pose": "p3",
+          "path": "/workout/illustration-pilot/3393-male-anatomical-white-v1-p3-826cf9dfc564.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 16972,
+          "sha256": "826cf9dfc56489528a6b237d5fd6f227255fdc38d28e8c0bd70754d6aea7b8eb"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-356.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/3393-male-anatomical-white-v1-thumb-f3eff1f44c0c.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2048,
+        "sha256": "f3eff1f44c0cf6fd3a414309f4845a64ab49e61c291b98c942f68d48051105e8"
+      },
+      "processingSignature": "5c01ccb5ef20ce72857592036383689c7246e15397d34d27529f51568f97067b",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/3393-male-anatomical-white-v1.png",
+        "width": 2172,
+        "height": 724,
+        "bytes": 1288739,
+        "sha256": "7ae5f5f6c26511b6961c2a854f0404226ab81cb7174807b073d3938ad8f08c1f"
+      }
+    },
+    {
+      "exerciseId": "3394",
+      "variant": "male",
+      "key": "3394-male-anatomical-white-v1",
+      "prompt": "Three equal panels SAME elevated FRONT-SIDE view headLEFT feetRIGHT. GLUTE BRIDGE MARCH. HEADNECKSHOULDERS REST FLOOR ALLposes, palmsbysidesfloor. Panel1 BOTHfeetflat kneesbent HIPSraised shoulderhipknee straightdiagonal. Panel2 maintainhipslevel LEFTfootfloor RIGHTknee lifts towardchest RIGHTfootairborne knee90. Panel3 maintainhipslevel RIGHTfootfloor LEFTknee lifts towardchest LEFTfootairborne knee90. ClearlyOPPOSITE lifted knees samepelvisheight, no extraslegs noheadhover. Primary GLUTES small PLAIN uniform redwash intactseatshorts only. Premium detailed adult MALE grayscale anatomical illustration, pure white background soft contact shadows, detailed exposed gray muscles realistic proportions. Reference original project artwork STYLE ONLY. Opaque black tank/mid-thigh shorts wrap front sides back seat crotch with fabric seams folds hems. Covered red highlights SMALL PLAIN UNIFORM wash on intact fabric NO anatomical fibers/lobes/segments/cutaways. One head two arms/hands two legs/feet per figure, same model/camera/scale. Full body in frame, no text arrows logos.",
+      "layout": {
+        "columns": 3,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hold bridge with both feet planted and hips lifted."
+        },
+        {
+          "key": "p2",
+          "caption": "Lift right knee while keeping left foot down and pelvis level."
+        },
+        {
+          "key": "p3",
+          "caption": "Replace right foot and lift left knee; alternate without dropping hips."
+        }
+      ],
+      "inspectionNote": "Real output inspected. Bridge then marching phases with opaque clothes/plain glute wash, but head hovers in all panels and both raised-knee phases repeat same leg. Correction required. Human anatomy review pending. No approval or publication.",
+      "blockingIssues": [
+        "Rest head and neck on floor throughout.",
+        "Show opposite lifted knee in final panel rather than repeated same-leg march."
+      ],
+      "canonicalName": "glute march",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "glutes"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Bridge then marching phases with opaque clothes/plain glute wash, but head hovers in all panels and both raised-knee phases repeat same leg. Correction required. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/3394-male-anatomical-white-v1-p1-01c9b8b95a82.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 19014,
+          "sha256": "01c9b8b95a821445fc4138e2db06dcf6d71f93edbbc7b9f021198ce4d384617f"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/3394-male-anatomical-white-v1-p2-91b42932c8ec.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 22160,
+          "sha256": "91b42932c8ecbf6235d437414f2f534cf9a607318a0254e1412de05207faa59a"
+        },
+        {
+          "pose": "p3",
+          "path": "/workout/illustration-pilot/3394-male-anatomical-white-v1-p3-51dea8c84e05.webp",
+          "width": 724,
+          "height": 724,
+          "bytes": 21832,
+          "sha256": "51dea8c84e051862a1d9f0ab7482f6bbaa97add4e793bfc688c0f679bb323fea"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-356.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/3394-male-anatomical-white-v1-thumb-ee2b6f37e594.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2678,
+        "sha256": "ee2b6f37e5940c8385cb878a4f24ca31ab644f5bb543cbdb7d9e593ba1fc197c"
+      },
+      "processingSignature": "551823d07aae7a0fb4b4f305df4698fa35795e20ed48f1d85790b8e807f5c915",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/3394-male-anatomical-white-v1.png",
+        "width": 2172,
+        "height": 724,
+        "bytes": 1423535,
+        "sha256": "0a0095d5f000b6f7e30a4d84acf2de8808f0b1f90d154611ffe3863bdb075b3b"
+      }
+    },
+    {
+      "exerciseId": "3395",
+      "variant": "male",
+      "key": "3395-male-anatomical-white-v1",
+      "prompt": "Two equal panels SAME SIDE view headLEFT feetRIGHT. SLIDING HAMSTRING CURL using TWO small foldedTOWELS ONE underEACHHEEL on smoothfloor. HEADNECKSHOULDERSfloor armsbysides palmsfloor ALLposes. Panel1 hipsHIGHbridge kneesBENT90 heelsontowelsclosetobutt toesup. Panel2 slideBOTHheels/towelsAWAY towardRIGHT untilkneesnearlySTRAIGHT hipsstillAIRBORNE shoulderhipheelstraightdiagonal, toesup heelskeeptowelcontact. Same body/headcontacts noheadhover. Primary HAMSTRINGS red exposedposterior thighs plusSMALLplainwash intactblackPOSTERIORshorts only. Premium detailed adult MALE grayscale anatomical illustration, pure white background soft contact shadows, detailed exposed gray muscles realistic proportions. Reference original project artwork STYLE ONLY. Opaque black tank/mid-thigh shorts wrap front sides back seat crotch with fabric seams folds hems. Covered red highlights SMALL PLAIN UNIFORM wash on intact fabric NO anatomical fibers/lobes/segments/cutaways. One head two arms/hands two legs/feet per figure, same model/camera/scale. Full body in frame, no text arrows logos.",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Bridge with heels on towels and knees bent."
+        },
+        {
+          "key": "p2",
+          "caption": "Slide heels away until legs nearly straight, keeping hips up; curl heels back."
+        }
+      ],
+      "inspectionNote": "Real output inspected. Sliding curl bent-knee bridge and nearly extended legs with both heels on separate towels, hips airborne and head supported. Opaque black clothes with exposed hamstring highlights. Qualified hip height, heel contact and posterior thigh mapping review pending. Human anatomy review pending. No approval or publication.",
+      "canonicalName": "sliding leg curl on floor with towel",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "hamstrings"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Sliding curl bent-knee bridge and nearly extended legs with both heels on separate towels, hips airborne and head supported. Opaque black clothes with exposed hamstring highlights. Qualified hip height, heel contact and posterior thigh mapping review pending. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/3395-male-anatomical-white-v1-p1-6f22c718b642.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 28386,
+          "sha256": "6f22c718b6424152265e2bf9c194ac159526ac66013fb2a1b5b3631e7e855b2a"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/3395-male-anatomical-white-v1-p2-351f1f99f3f5.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 26132,
+          "sha256": "351f1f99f3f53347effd9bbe505a6150f0e3a7066daa5950d2c60a051cab891d"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-356.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/3395-male-anatomical-white-v1-thumb-00db81db7067.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2824,
+        "sha256": "00db81db70673826f60949fda91977c037ec7561756f7f9ef3411d3d0b453aee"
+      },
+      "processingSignature": "9c0d47167daa091d845f65e2d218392fefda6256d9c9372059970460d1d095cc",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/3395-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1370523,
+        "sha256": "4e72467ceb0c229f42f64053f25bb3dc2281abff8750575a332b25d748ded7d2"
+      }
+    },
+    {
+      "exerciseId": "3396",
+      "variant": "male",
+      "key": "3396-male-anatomical-white-v1",
+      "prompt": "ONE SINGLE STATIC SUPINE KNEE-TO-CHEST HIP STRETCH. SIDEthreequarterview headLEFTfeetRIGHT. HEADNECKSHOULDERSrestFLOOR faceupneutral, LEFTlegSTRAIGHTextendedfloor LEFTheelground. RIGHTkneeBENT pulled gently towardchest BOTHhandsclaspFRONTofRIGHTSHIN justbelowknee notonjoint. Pelvisgrounded noheadlift no twist. Primary RIGHTGLUTE smallPLAINuniformredwashintactblackRIGHTseatshorts ONLY alltorso/leftleggrayblack. No equipment. Premium detailed adult MALE grayscale anatomical illustration, pure white background soft contact shadows, detailed exposed gray muscles realistic proportions. Reference original project artwork STYLE ONLY. Opaque black tank/mid-thigh shorts wrap front sides back seat crotch with fabric seams folds hems. Covered red highlights SMALL PLAIN UNIFORM wash on intact fabric NO anatomical fibers/lobes/segments/cutaways. One head two arms/hands two legs/feet per figure, same model/camera/scale. Full body in frame, no text arrows logos.",
+      "layout": {
+        "columns": 1,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Lie relaxed with head down; draw right knee to chest, hold 20\u201330 seconds, extend leg and repeat on left."
+        }
+      ],
+      "inspectionNote": "Real output inspected. Single knee-to-chest hold with extended opposite leg and opaque clothes. Head hovers rather than resting floor; red glute wash is on straight-leg side instead of flexed hip. Correction required. Human anatomy review pending. No approval or publication.",
+      "blockingIssues": [
+        "Rest head/neck on floor.",
+        "Place primary glute wash on flexed-leg side rather than extended-leg side."
+      ],
+      "canonicalName": "flexion and extension hip stretch",
+      "styleVersion": "white-v1",
+      "equipment": "body weight",
+      "primaryMuscles": [
+        "glutes"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork for style only; no upstream licensed media; anatomy review separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Real output inspected. Single knee-to-chest hold with extended opposite leg and opaque clothes. Head hovers rather than resting floor; red glute wash is on straight-leg side instead of flexed hip. Correction required. Human anatomy review pending. No approval or publication.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/3396-male-anatomical-white-v1-p1-345c6251b11f.webp",
+          "width": 1200,
+          "height": 600,
+          "bytes": 32814,
+          "sha256": "345c6251b11f217ba72e94659dd97d4a26e3b7ae7c5598778605628a00843193"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-356.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/3396-male-anatomical-white-v1-thumb-7a6abbc427ac.webp",
+        "width": 240,
+        "height": 120,
+        "bytes": 2106,
+        "sha256": "7a6abbc427acd2bac4c92aa51a5a07969a7aa6aca3894ab5559caed8ec10dfcb"
+      },
+      "processingSignature": "b8626ff1c0625347d3f72f4eca5ad2aa67be54159228524b00d240c09b9b8683",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/3396-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1475087,
+        "sha256": "bbc3ec7b12375b8101e1384be5d29785f42378504854089d41c3504f494aa99b"
+      }
+    }
+  ]
+}

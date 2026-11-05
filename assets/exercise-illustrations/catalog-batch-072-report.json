@@ -1,0 +1,124 @@
+{
+  "batch": 72,
+  "trigger": "2026-11-01T14:41:47.040Z",
+  "completedAt": "2026-11-01T15:00:08.412796+00:00",
+  "tool": "image_gen.imagegen",
+  "newCandidateSets": 6,
+  "generationCalls": 7,
+  "exerciseIds": [
+    "0457",
+    "0461",
+    "0464"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 292,
+    "remainingVariants": 10972,
+    "approvedVariants": 0,
+    "blockedVariants": 124,
+    "knownPoseImages": 598,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "All pending and unpublished. Straight-arm sit-ups show supported start/V-up reach but both blocked for abdominal muscle-window-like fabric treatment. Frog squat jump has explicit squat/airborne/landing phases. High-plank twists visibly alternate support/reaching arms; male garment correction replaces exposed-muscle appearance with opaque folded textile, original retained. Custom male sit-up crop visually checked for intact fingertips. Qualified knee/landing, cervical/wrist/shoulder/hip mechanics and anatomy review remains required. Pipeline pass is not movement approval.",
+  "metadataConflictsDeferred": [
+    {
+      "exerciseId": "0458",
+      "issue": "Single barbell floor-fly instructions require lateral independent arm movement impossible with rigid bar; defer equipment/movement clarification."
+    },
+    {
+      "exerciseId": "0459",
+      "issue": "Glutes target conflicts with supine flutter-kick lower-abs/hip-flexor description."
+    },
+    {
+      "exerciseId": "0462",
+      "issue": "Levator scapulae target versus sagittal front/back neck stretch needs qualified mapping review."
+    },
+    {
+      "exerciseId": "0464",
+      "issue": "Isometric category conflicts with alternating dynamic twist instructions; pose plan follows explicit dynamic instructions without changing records."
+    }
+  ],
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 471998093,
+  "savedMasters": [
+    {
+      "exerciseId": "0457",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0457-male-anatomical-white-v1.png",
+        "width": 2098,
+        "height": 749,
+        "bytes": 1378391,
+        "sha256": "f1cb08e28bcc498bf76c832fbd1c7863759122ae020f6e9b9d748d6b147e8aee"
+      }
+    },
+    {
+      "exerciseId": "0457",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0457-female-anatomical-white-v1.png",
+        "width": 2052,
+        "height": 766,
+        "bytes": 1331000,
+        "sha256": "b49ec17701caff3249071cc778f169424dfbbe4dba233d73ad68ff07cf0dcd5e"
+      }
+    },
+    {
+      "exerciseId": "0461",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0461-male-anatomical-white-v1.png",
+        "width": 2055,
+        "height": 765,
+        "bytes": 1426097,
+        "sha256": "9d8c86355c3371b40b0dbc0956b80d2486bfe59b83b4b4d3c3950aa20b8fb4eb"
+      }
+    },
+    {
+      "exerciseId": "0461",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0461-female-anatomical-white-v1.png",
+        "width": 1903,
+        "height": 826,
+        "bytes": 1436237,
+        "sha256": "dbd5deeb8b2977da131f31b6950190c8f83086ef0fda37263c80d7224a41a38b"
+      }
+    },
+    {
+      "exerciseId": "0464",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0464-male-anatomical-white-v2.png",
+        "width": 2055,
+        "height": 765,
+        "bytes": 1660272,
+        "sha256": "f3fc216c6752b6ad59eb7204ee47d54e26bc63265a6c7233b9fe3966ea405385"
+      }
+    },
+    {
+      "exerciseId": "0464",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0464-female-anatomical-white-v1.png",
+        "width": 2056,
+        "height": 765,
+        "bytes": 1569596,
+        "sha256": "87105814074aa5bfbf1dfdf1ab340d63bd46beb945b57cb81215c48a0575341a"
+      }
+    }
+  ]
+}

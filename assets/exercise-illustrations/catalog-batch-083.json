@@ -1,0 +1,333 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "0586",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Lie prone with hips on pad and legs extended, roller behind lower legs"
+        },
+        {
+          "key": "p2",
+          "caption": "Bend knees to curl heels toward glutes while hips stay supported"
+        }
+      ],
+      "detail": "LEVER LYING LEG CURL on prone leg-curl machine. Same SIDE-three-quarter view, head IMAGE LEFT and feet IMAGE RIGHT. Chest/abdomen/pelvis/thighs face DOWN and fully supported on slightly angled padded machine bed; knees extend just past end of thigh pad and align with FIXED lever pivot. Both hands grasp front handles, neck neutral gaze down, no head craning. Large padded roller sits across BACK of BOTH LOWER CALVES just ABOVE HEELS, NOT behind knees or on toes, connected by visible steel lever to knee-level fixed pivot and resistance stack. LEFT both knees nearly straight soft, lower legs extend behind horizontal/just below bed level, roller touching back of ankles. RIGHT flex both knees to about90degrees lifting heels toward glutes; same roller remains in contact behind LOWER CALVES above heels and rotates UP with feet along fixed-radius lever arc around SAME knee pivot. Hips/pelvis stay DOWN on bed, thighs don't lift, no lumbar hyperextension, no detached floating roller/feet. Both shoes/legs visible and supported roller contact clear. PRIMARY HAMSTRINGS only very soft blurred RED print on intact BLACK rear-thigh shorts; calves/glutes/torso/arms grayscale. Fully opaque rear/seat/crotch shorts no anatomy windows.",
+      "variant": "male",
+      "key": "0586-male-anatomical-white-v1",
+      "prompt": "Scientific-educational ORIGINAL exercise illustration. Attached original project artwork is STYLE REFERENCE ONLY: detailed fine grayscale exposed muscle-fiber/tendon rendering, matte black fabric, pure white background. Do NOT copy exercise/poses/bench/chest highlight. Realistic adult MALE, SAME model, proportions, camera, entire machine and lighting across TWO equal SIDE-BY-SIDE panels. Detailed grayscale exposed limbs/face/hands not flesh-colored. FULLY OPAQUE matte BLACK sleeveless shirt wraps chest/abdomen FRONT SIDES BACK; OPAQUE loose BLACK knee-length shorts wrap BOTH upper thighs FRONT SIDES REAR, SEAT and CROTCH completely, closed hems/seams and broad fabric folds. NO clothing cutaways, translucent fabric, bare buttocks, muscle-fiber divisions or anatomy windows in clothes. Black trainers, soft floor shadows. Entire person, all fingers/shoes and WHOLE machine frame, weight stack, pivots, moving linkage and base feet within EACH panel with ample WHITE margins/gutters. Same fixed machine frame/supports/pivots across both phases, moving lever rotates about fixed joint rather than lengthening/disconnecting. No text/captions/logos/numbers/arrows. LEVER LYING LEG CURL on prone leg-curl machine. Same SIDE-three-quarter view, head IMAGE LEFT and feet IMAGE RIGHT. Chest/abdomen/pelvis/thighs face DOWN and fully supported on slightly angled padded machine bed; knees extend just past end of thigh pad and align with FIXED lever pivot. Both hands grasp front handles, neck neutral gaze down, no head craning. Large padded roller sits across BACK of BOTH LOWER CALVES just ABOVE HEELS, NOT behind knees or on toes, connected by visible steel lever to knee-level fixed pivot and resistance stack. LEFT both knees nearly straight soft, lower legs extend behind horizontal/just below bed level, roller touching back of ankles. RIGHT flex both knees to about90degrees lifting heels toward glutes; same roller remains in contact behind LOWER CALVES above heels and rotates UP with feet along fixed-radius lever arc around SAME knee pivot. Hips/pelvis stay DOWN on bed, thighs don't lift, no lumbar hyperextension, no detached floating roller/feet. Both shoes/legs visible and supported roller contact clear. PRIMARY HAMSTRINGS only very soft blurred RED print on intact BLACK rear-thigh shorts; calves/glutes/torso/arms grayscale. Fully opaque rear/seat/crotch shorts no anatomy windows.",
+      "inspectionNote": "Prone supported curl with two poses and intact opaque garments. Initial knees remain partly flexed; machine linkage and fixed pivot placement differ between panels. Human anatomy and equipment review pending.",
+      "blockingIssues": [
+        "Machine fixed-pivot and linkage continuity require correction; initial knee extension is incomplete."
+      ],
+      "canonicalName": "lever lying leg curl",
+      "styleVersion": "white-v1",
+      "equipment": "leverage machine",
+      "primaryMuscles": [
+        "hamstring"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Prone supported curl with two poses and intact opaque garments. Initial knees remain partly flexed; machine linkage and fixed pivot placement differ between panels. Human anatomy and equipment review pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0586-male-anatomical-white-v1-p1-824996c9e90a.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 55016,
+          "sha256": "824996c9e90ac9e525994a2524957a2d57fe89152f0d6d45afaddf3b89055bf5"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0586-male-anatomical-white-v1-p2-8873ae230732.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 57468,
+          "sha256": "8873ae230732bd6e4293370e8c07579478fe14e968ca0a567570f4429d4776dc"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0586-male-anatomical-white-v1-thumb-d56249e339cd.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 5648,
+        "sha256": "d56249e339cdae352687cda6dcaad78f396fa79e9aa7c9f27098d31910d18399"
+      },
+      "processingSignature": "4c12a583626f4e9d79a800c7e27a5a892c29260fa140e9333f88e7b36ed2f53c",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0586-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1918906,
+        "sha256": "d534650121592c5c50ca379bd780aef963efa6c646cd5dd48e4f3f36f897bfb9"
+      }
+    },
+    {
+      "exerciseId": "0586",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Lie prone with hips on pad and legs extended, roller behind lower legs"
+        },
+        {
+          "key": "p2",
+          "caption": "Bend knees to curl heels toward glutes while hips stay supported"
+        }
+      ],
+      "detail": "LEVER LYING LEG CURL on prone leg-curl machine. Same SIDE-three-quarter view, head IMAGE LEFT and feet IMAGE RIGHT. Chest/abdomen/pelvis/thighs face DOWN and fully supported on slightly angled padded machine bed; knees extend just past end of thigh pad and align with FIXED lever pivot. Both hands grasp front handles, neck neutral gaze down, no head craning. Large padded roller sits across BACK of BOTH LOWER CALVES just ABOVE HEELS, NOT behind knees or on toes, connected by visible steel lever to knee-level fixed pivot and resistance stack. LEFT both knees nearly straight soft, lower legs extend behind horizontal/just below bed level, roller touching back of ankles. RIGHT flex both knees to about90degrees lifting heels toward glutes; same roller remains in contact behind LOWER CALVES above heels and rotates UP with feet along fixed-radius lever arc around SAME knee pivot. Hips/pelvis stay DOWN on bed, thighs don't lift, no lumbar hyperextension, no detached floating roller/feet. Both shoes/legs visible and supported roller contact clear. PRIMARY HAMSTRINGS only very soft blurred RED print on intact BLACK rear-thigh shorts; calves/glutes/torso/arms grayscale. Fully opaque rear/seat/crotch shorts no anatomy windows.",
+      "variant": "female",
+      "key": "0586-female-anatomical-white-v1",
+      "prompt": "Scientific-educational ORIGINAL exercise illustration. Attached original project artwork is STYLE REFERENCE ONLY: detailed fine grayscale exposed muscle-fiber/tendon rendering, matte black fabric, pure white background. Do NOT copy exercise/poses/bench/chest highlight. Realistic adult FEMALE, SAME model, proportions, camera, entire machine and lighting across TWO equal SIDE-BY-SIDE panels. Detailed grayscale exposed limbs/face/hands not flesh-colored. FULLY OPAQUE matte BLACK sleeveless shirt wraps chest/abdomen FRONT SIDES BACK; OPAQUE loose BLACK knee-length shorts wrap BOTH upper thighs FRONT SIDES REAR, SEAT and CROTCH completely, closed hems/seams and broad fabric folds. NO clothing cutaways, translucent fabric, bare buttocks, muscle-fiber divisions or anatomy windows in clothes. Black trainers, soft floor shadows. Entire person, all fingers/shoes and WHOLE machine frame, weight stack, pivots, moving linkage and base feet within EACH panel with ample WHITE margins/gutters. Same fixed machine frame/supports/pivots across both phases, moving lever rotates about fixed joint rather than lengthening/disconnecting. No text/captions/logos/numbers/arrows. LEVER LYING LEG CURL on prone leg-curl machine. Same SIDE-three-quarter view, head IMAGE LEFT and feet IMAGE RIGHT. Chest/abdomen/pelvis/thighs face DOWN and fully supported on slightly angled padded machine bed; knees extend just past end of thigh pad and align with FIXED lever pivot. Both hands grasp front handles, neck neutral gaze down, no head craning. Large padded roller sits across BACK of BOTH LOWER CALVES just ABOVE HEELS, NOT behind knees or on toes, connected by visible steel lever to knee-level fixed pivot and resistance stack. LEFT both knees nearly straight soft, lower legs extend behind horizontal/just below bed level, roller touching back of ankles. RIGHT flex both knees to about90degrees lifting heels toward glutes; same roller remains in contact behind LOWER CALVES above heels and rotates UP with feet along fixed-radius lever arc around SAME knee pivot. Hips/pelvis stay DOWN on bed, thighs don't lift, no lumbar hyperextension, no detached floating roller/feet. Both shoes/legs visible and supported roller contact clear. PRIMARY HAMSTRINGS only very soft blurred RED print on intact BLACK rear-thigh shorts; calves/glutes/torso/arms grayscale. Fully opaque rear/seat/crotch shorts no anatomy windows.",
+      "inspectionNote": "Supported prone curl with nearly extended start and flexed endpoint; grayscale anatomy, opaque garments and hamstring fabric tint. Lower-leg roller travels upward but the linkage changes geometry and its knee-axis alignment is unclear. Human review pending.",
+      "blockingIssues": [
+        "Fixed knee-axis alignment and roller linkage continuity are mechanically unclear across panels."
+      ],
+      "canonicalName": "lever lying leg curl",
+      "styleVersion": "white-v1",
+      "equipment": "leverage machine",
+      "primaryMuscles": [
+        "hamstring"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Supported prone curl with nearly extended start and flexed endpoint; grayscale anatomy, opaque garments and hamstring fabric tint. Lower-leg roller travels upward but the linkage changes geometry and its knee-axis alignment is unclear. Human review pending.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0586-female-anatomical-white-v1-p1-f69844e52db8.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 59324,
+          "sha256": "f69844e52db87a0c3e8c93ddc3e74856c444e03d4dbbaba80255fded32b36802"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0586-female-anatomical-white-v1-p2-da8a0c463c41.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 54844,
+          "sha256": "da8a0c463c41d3ce608e11fade4f6cb070fd14f53786763cca6abf17ed446a87"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0586-female-anatomical-white-v1-thumb-ba2c0c72f7f9.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 5950,
+        "sha256": "ba2c0c72f7f9b88abf99a540ee012b27e028ed0047a7d6dd7c4833f1712e1a9e"
+      },
+      "processingSignature": "08f86b8e869313baa72b5430fb5282610db1ba460e32916a997e0a20f0525c7a",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0586-female-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1957123,
+        "sha256": "5c2b82fd05d717ef0dacd6a48b6bfd9614ecbcc92bbcdae196684df12eaac52f"
+      }
+    },
+    {
+      "exerciseId": "0587",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Sit with back supported and overhand machine handles at shoulder height"
+        },
+        {
+          "key": "p2",
+          "caption": "Press both handles overhead while keeping back supported and elbows soft"
+        }
+      ],
+      "detail": "LEVER MILITARY PRESS on seated shoulder-press leverage machine. FRONT-three-quarter view. Pelvis and back against upright slightly reclined BACKREST, feet flat shoulder-width. Complete steel machine has two linked pressing arms on FIXED upper/back pivots, horizontal handles and connected weight-stack resistance. LEFT hands OVERHAND on handles just wider than shoulders at SHOULDER height, elbows bent about90degrees, wrists above elbows. RIGHT extend BOTH arms UPWARD to overhead, elbows almost straight but not hyperextended/locked, hands same width, same overhand grip, wrists stacked over shoulders, upper arms near ears. Hips/back remain against pad, neck neutral, ribs down, no back arch or leg drive. Handles clearly connected to levers in BOTH phases; lever arcs rotate around same fixed pivots and same lengths, no floating detached grips. PRIMARY DELTOID shoulder caps exposed RED on BOTH arms only, triceps/forearms/pectorals grayscale, entire shirt and shorts BLACK with no red torso. Secure five-finger grips, whole overhead handles, head, machine frame/weight stack/base and shoes within margins.",
+      "variant": "male",
+      "key": "0587-male-anatomical-white-v1",
+      "prompt": "Scientific-educational ORIGINAL exercise illustration. Attached original project artwork is STYLE REFERENCE ONLY: detailed fine grayscale exposed muscle-fiber/tendon rendering, matte black fabric, pure white background. Do NOT copy exercise/poses/bench/chest highlight. Realistic adult MALE, SAME model, proportions, camera, entire machine and lighting across TWO equal SIDE-BY-SIDE panels. Detailed grayscale exposed limbs/face/hands not flesh-colored. FULLY OPAQUE matte BLACK sleeveless shirt wraps chest/abdomen FRONT SIDES BACK; OPAQUE loose BLACK knee-length shorts wrap BOTH upper thighs FRONT SIDES REAR, SEAT and CROTCH completely, closed hems/seams and broad fabric folds. NO clothing cutaways, translucent fabric, bare buttocks, muscle-fiber divisions or anatomy windows in clothes. Black trainers, soft floor shadows. Entire person, all fingers/shoes and WHOLE machine frame, weight stack, pivots, moving linkage and base feet within EACH panel with ample WHITE margins/gutters. Same fixed machine frame/supports/pivots across both phases, moving lever rotates about fixed joint rather than lengthening/disconnecting. No text/captions/logos/numbers/arrows. LEVER MILITARY PRESS on seated shoulder-press leverage machine. FRONT-three-quarter view. Pelvis and back against upright slightly reclined BACKREST, feet flat shoulder-width. Complete steel machine has two linked pressing arms on FIXED upper/back pivots, horizontal handles and connected weight-stack resistance. LEFT hands OVERHAND on handles just wider than shoulders at SHOULDER height, elbows bent about90degrees, wrists above elbows. RIGHT extend BOTH arms UPWARD to overhead, elbows almost straight but not hyperextended/locked, hands same width, same overhand grip, wrists stacked over shoulders, upper arms near ears. Hips/back remain against pad, neck neutral, ribs down, no back arch or leg drive. Handles clearly connected to levers in BOTH phases; lever arcs rotate around same fixed pivots and same lengths, no floating detached grips. PRIMARY DELTOID shoulder caps exposed RED on BOTH arms only, triceps/forearms/pectorals grayscale, entire shirt and shorts BLACK with no red torso. Secure five-finger grips, whole overhead handles, head, machine frame/weight stack/base and shoes within margins.",
+      "inspectionNote": "Two seated overhead press phases with back support, overhand grips, feet planted, opaque shirt and shorts, red deltoids. Elbows nearly straight at top. Lever assemblies and fixed pivots change between panels, requiring mechanical review.",
+      "blockingIssues": [
+        "Machine lever and fixed-pivot continuity differ across phases."
+      ],
+      "canonicalName": "lever military press",
+      "styleVersion": "white-v1",
+      "equipment": "leverage machine",
+      "primaryMuscles": [
+        "deltoids"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Two seated overhead press phases with back support, overhand grips, feet planted, opaque shirt and shorts, red deltoids. Elbows nearly straight at top. Lever assemblies and fixed pivots change between panels, requiring mechanical review.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0587-male-anatomical-white-v1-p1-bace1c00cfa7.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 60810,
+          "sha256": "bace1c00cfa74c04088e9eed5c70c77c9cb6b9ee6cb26d94c3d7fde9df5a5cb9"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0587-male-anatomical-white-v1-p2-2a922de42a62.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 62940,
+          "sha256": "2a922de42a626e14e0dd99bd4259e60265949eeb3424637f84dfb64073606ce4"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0587-male-anatomical-white-v1-thumb-9df998b4bd79.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 6276,
+        "sha256": "9df998b4bd79e21df7341370b941b53c9c4a98e256536c52d9ca3c6751e4a586"
+      },
+      "processingSignature": "9dbc46d3ee9186564a0f78252ad03f80aaac5683eb9c86782ac9050d792b9615",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0587-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1899600,
+        "sha256": "b563f5e242725e69661af58993fee829fdd2aa993f28b34b78e602fb013c1406"
+      }
+    },
+    {
+      "exerciseId": "0587",
+      "layout": {
+        "columns": 2,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Sit with back supported and overhand machine handles at shoulder height"
+        },
+        {
+          "key": "p2",
+          "caption": "Press both handles overhead while keeping back supported and elbows soft"
+        }
+      ],
+      "detail": "LEVER MILITARY PRESS on seated shoulder-press leverage machine. FRONT-three-quarter view. Pelvis and back against upright slightly reclined BACKREST, feet flat shoulder-width. Complete steel machine has two linked pressing arms on FIXED upper/back pivots, horizontal handles and connected weight-stack resistance. LEFT hands OVERHAND on handles just wider than shoulders at SHOULDER height, elbows bent about90degrees, wrists above elbows. RIGHT extend BOTH arms UPWARD to overhead, elbows almost straight but not hyperextended/locked, hands same width, same overhand grip, wrists stacked over shoulders, upper arms near ears. Hips/back remain against pad, neck neutral, ribs down, no back arch or leg drive. Handles clearly connected to levers in BOTH phases; lever arcs rotate around same fixed pivots and same lengths, no floating detached grips. PRIMARY DELTOID shoulder caps exposed RED on BOTH arms only, triceps/forearms/pectorals grayscale, entire shirt and shorts BLACK with no red torso. Secure five-finger grips, whole overhead handles, head, machine frame/weight stack/base and shoes within margins.",
+      "variant": "female",
+      "key": "0587-female-anatomical-white-v1",
+      "prompt": "Scientific-educational ORIGINAL exercise illustration. Attached original project artwork is STYLE REFERENCE ONLY: detailed fine grayscale exposed muscle-fiber/tendon rendering, matte black fabric, pure white background. Do NOT copy exercise/poses/bench/chest highlight. Realistic adult FEMALE, SAME model, proportions, camera, entire machine and lighting across TWO equal SIDE-BY-SIDE panels. Detailed grayscale exposed limbs/face/hands not flesh-colored. FULLY OPAQUE matte BLACK sleeveless shirt wraps chest/abdomen FRONT SIDES BACK; OPAQUE loose BLACK knee-length shorts wrap BOTH upper thighs FRONT SIDES REAR, SEAT and CROTCH completely, closed hems/seams and broad fabric folds. NO clothing cutaways, translucent fabric, bare buttocks, muscle-fiber divisions or anatomy windows in clothes. Black trainers, soft floor shadows. Entire person, all fingers/shoes and WHOLE machine frame, weight stack, pivots, moving linkage and base feet within EACH panel with ample WHITE margins/gutters. Same fixed machine frame/supports/pivots across both phases, moving lever rotates about fixed joint rather than lengthening/disconnecting. No text/captions/logos/numbers/arrows. LEVER MILITARY PRESS on seated shoulder-press leverage machine. FRONT-three-quarter view. Pelvis and back against upright slightly reclined BACKREST, feet flat shoulder-width. Complete steel machine has two linked pressing arms on FIXED upper/back pivots, horizontal handles and connected weight-stack resistance. LEFT hands OVERHAND on handles just wider than shoulders at SHOULDER height, elbows bent about90degrees, wrists above elbows. RIGHT extend BOTH arms UPWARD to overhead, elbows almost straight but not hyperextended/locked, hands same width, same overhand grip, wrists stacked over shoulders, upper arms near ears. Hips/back remain against pad, neck neutral, ribs down, no back arch or leg drive. Handles clearly connected to levers in BOTH phases; lever arcs rotate around same fixed pivots and same lengths, no floating detached grips. PRIMARY DELTOID shoulder caps exposed RED on BOTH arms only, triceps/forearms/pectorals grayscale, entire shirt and shorts BLACK with no red torso. Secure five-finger grips, whole overhead handles, head, machine frame/weight stack/base and shoes within margins.",
+      "inspectionNote": "Two seated military press phases, overhand grips with visible thumbs, back supported and feet planted. Opaque continuous black shirt and shorts; exposed grayscale anatomy and red shoulder caps. Handle arms rise from rear pivots; top elbow softness, wrist alignment and linkage continuity require qualified human review. No anatomical approval.",
+      "canonicalName": "lever military press",
+      "styleVersion": "white-v1",
+      "equipment": "leverage machine",
+      "primaryMuscles": [
+        "deltoids"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Two seated military press phases, overhand grips with visible thumbs, back supported and feet planted. Opaque continuous black shirt and shorts; exposed grayscale anatomy and red shoulder caps. Handle arms rise from rear pivots; top elbow softness, wrist alignment and linkage continuity require qualified human review. No anatomical approval.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/0587-female-anatomical-white-v1-p1-1d89927bce88.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 60602,
+          "sha256": "1d89927bce88926d709bee70fa05b5e919c79ffd6f115fa1bbda5146db984d2d"
+        },
+        {
+          "pose": "p2",
+          "path": "/workout/illustration-pilot/0587-female-anatomical-white-v1-p2-7e2b6f12338d.webp",
+          "width": 887,
+          "height": 887,
+          "bytes": 59724,
+          "sha256": "7e2b6f12338d8f183eaa8a384917d8f41379f04bec174ff8fb7fef829ce0faaa"
+        }
+      ],
+      "video": null,
+      "batch": "intake.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/0587-female-anatomical-white-v1-thumb-7fec3352f368.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 5788,
+        "sha256": "7fec3352f368f0fc3e09536a32dc0834e4e836fccc4691d07469b6be37191d5e"
+      },
+      "processingSignature": "f6836b5ca7a0956bf4686c00ec914966edef415295ffa36c9289686e2ce4c3a7",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0587-female-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1929139,
+        "sha256": "64430a1f149bcaf0d6a8e79e55b053ec5cf78584cce2e203203f1b2079fe1b4e"
+      }
+    }
+  ]
+}

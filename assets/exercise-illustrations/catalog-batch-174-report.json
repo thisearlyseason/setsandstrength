@@ -1,0 +1,72 @@
+{
+  "batch": 174,
+  "runId": "049ec704-2832-49e1-b3e0-2de8b3e8dc37",
+  "trigger": "2026-11-03T09:48:58.634Z",
+  "completedAt": "2026-11-03T09:55:16.024309+00:00",
+  "tool": "image_gen.imagegen",
+  "actualToolName": "image_gen__imagegen",
+  "newCandidateSets": 2,
+  "generationCalls": 2,
+  "exerciseIds": [
+    "1308"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 662,
+    "remainingVariants": 10602,
+    "approvedVariants": 0,
+    "blockedVariants": 223,
+    "knownPoseImages": 1324,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "Two Smith wide-grip bench press candidates, four poses, two built-in calls. Bent elbows to extended arms with rail-mounted bar carriages, planted feet, smooth chest tint and full opaque clothes. BOTH BLOCKED: bottom bar remains well above chest and appears toward face; mid-chest alignment/full lowering not established. Female finish skull support also unclear at bench edge behind hair. Qualified machine consistency, grip, neck and bar path review required. Every original and exact prompt retained for correction; no anatomy/clothing approval or publication. Original project artwork rendering style only, no upstream licensed input. Seven pipeline checks do not establish anatomical accuracy.",
+  "metadataConflictsDeferred": {
+    "1310": "Added weight location omitted.",
+    "1312": "Ball rolling versus catching before floor contact conflicts.",
+    "1314": "Spine target lacks explicit primary muscle map.",
+    "1315": "Spine target lacks explicit primary muscle map.",
+    "1317": "Reverse grip versus palms-down instruction conflicts.",
+    "1318": "Supported incline-row description versus sitting/hinging instructions unresolved.",
+    "1320": "Overhand versus palms-facing-each-other grip conflicts.",
+    "1321": "Overhand versus palms-facing-each-other grip conflicts."
+  },
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 1049313457,
+  "savedMasters": [
+    {
+      "exerciseId": "1308",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1308-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1531470,
+        "sha256": "260f210de95633f35d4c72caa09060c8f53bec779dfb1a64d31f468928671af4"
+      }
+    },
+    {
+      "exerciseId": "1308",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1308-female-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1526370,
+        "sha256": "c37bf5edf9e853d6a7945962daf8d7b6f39b97f5072e7c6611d91fd2b6aea18a"
+      }
+    }
+  ]
+}

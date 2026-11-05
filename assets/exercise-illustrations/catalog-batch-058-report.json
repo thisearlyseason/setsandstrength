@@ -1,0 +1,97 @@
+{
+  "batch": 58,
+  "trigger": "2026-11-01T12:11:45.380Z",
+  "completedAt": "2026-11-01T12:22:03.167163+00:00",
+  "tool": "image_gen.imagegen",
+  "newCandidateSets": 4,
+  "generationCalls": 4,
+  "exerciseIds": [
+    "0453",
+    "0456"
+  ],
+  "variants": [
+    "male",
+    "female"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 228,
+    "remainingVariants": 11036,
+    "approvedVariants": 0,
+    "blockedVariants": 100,
+    "knownPoseImages": 458,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate."
+  },
+  "review": "All pending, unpublished. EZ-bar seated extensions preserve equipment class, supported feet and opaque garments; qualified grip/wrist and bar clearance review remains. Bent-knee flexion sit-up endpoints explicitly lift both feet and draw knees toward torso; both blocked for qualified starting cervical support and approximate45degree endpoint angle confirmation. Detailed grayscale limbs and intact clothed red overlays inspected.",
+  "metadataConflictsDeferred": [
+    {
+      "exerciseId": "0451",
+      "issue": "Reverse-grip curl description overhand, instructions underhand; deferred."
+    },
+    {
+      "exerciseId": "0452",
+      "issue": "Reverse preacher curl description overhand, instructions underhand; deferred."
+    },
+    {
+      "exerciseId": "0454",
+      "issue": "Spider curl chest-supported incline description but standing preacher/ball upper-arm-support instructions; deferred."
+    }
+  ],
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "generationCostUSD": null,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "activeMasterBytes": 369013888,
+  "savedMasters": [
+    {
+      "exerciseId": "0453",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0453-male-anatomical-white-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1605912,
+        "sha256": "3783f0f4174df5fd9d84f65ad2c4036e682b36400ea1963fc02407a2f79364b6"
+      }
+    },
+    {
+      "exerciseId": "0453",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0453-female-anatomical-white-v1.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1790552,
+        "sha256": "10d0da7d716f304fadb564b04a54d21885471ffd2632e591f7591f2fdaeba5d4"
+      }
+    },
+    {
+      "exerciseId": "0456",
+      "variant": "male",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0456-male-anatomical-white-v1.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 2080079,
+        "sha256": "ca008a3aaded3881972a727002c4da1e641e5376cc2025d17a9daabad33dbb2a"
+      }
+    },
+    {
+      "exerciseId": "0456",
+      "variant": "female",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/0456-female-anatomical-white-v1.png",
+        "width": 1942,
+        "height": 809,
+        "bytes": 1733085,
+        "sha256": "bba75318b8ce41c921ca047a56d89eebb97cd460df5867f08a8d4f9b959067a9"
+      }
+    }
+  ]
+}

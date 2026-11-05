@@ -1,0 +1,76 @@
+{
+  "batch": 309,
+  "runId": "e9c72c68-0bac-471f-aea7-bd29aa05b419",
+  "threadId": "01a19063-3343-7192-91fc-d0baf131872c",
+  "trigger": "2026-11-04T05:58:27.857Z",
+  "purpose": "batch309 scheduled male continuation",
+  "started": "2026-11-04T05:59:21.814402+00:00",
+  "completedAt": "2026-11-04T06:07:59.313141+00:00",
+  "actualToolName": "image_gen__imagegen",
+  "calls": 4,
+  "newCandidateSets": 4,
+  "exerciseIds": [
+    "2858",
+    "2863",
+    "2870",
+    "2872"
+  ],
+  "coverage": {
+    "exerciseCount": 5632,
+    "requiredVariants": 11264,
+    "generatedVariants": 1104,
+    "remainingVariants": 10160,
+    "approvedVariants": 0,
+    "blockedVariants": 388,
+    "knownPoseImages": 2134,
+    "totalPoseImages": null,
+    "costUSD": null,
+    "costNote": "No purchases or paid API authorized. Total image cost unavailable; unknown pose counts prevent a complete storage estimate.",
+    "activePhase": {
+      "name": "male-first",
+      "requiredVariants": 5632,
+      "generatedVariants": 731,
+      "remainingVariants": 4901,
+      "blockedVariants": 269
+    }
+  },
+  "reviewNotes": {
+    "2858": "Three stages supine arms overhead, rolling curl and seated reach with legs long/heels down. Plain abdomen wash on opaque tank. Qualified review needed for head support at start, sequential spinal control, comfortable forward reach and avoiding momentum. Human anatomy review pending.",
+    "2863": "Supine base, bridge, then two single-leg bridge panels with head supported, hips high and opaque clothing. Last two panels raise same leg instead of opposite sides; block alternating-side correction. Qualified review needed for level pelvis, shoulder support, knee/ankle stacking and plain glute mapping. Human anatomy review pending.",
+    "2870": "Prone flutter sequence with modest chest lift and pelvis grounded, lumbar red strips on opaque tank. Last two panels repeat same higher arm/leg pair rather than alternate; block laterality correction. Qualified review needed for opposite-arm/leg pairing, small amplitude, neutral neck and lumbar mapping. Human anatomy review pending.",
+    "2872": "Curl maintained, hands hold bent shin and other leg extends low, opaque clothing and abdomen tint. Last two panels repeat same bent knee instead of switching legs; block alternating-side correction. Qualified review needed for lower-back contact, neck length, shin grip and controlled leg angle. Human anatomy review pending."
+  },
+  "blockingIssues": {
+    "2863": [
+      "Last two panels repeat same raised leg; depict opposite leg extension with clear laterality."
+    ],
+    "2870": [
+      "Last two panels repeat same higher limbs; show alternating opposite arm/leg pairs clearly."
+    ],
+    "2872": [
+      "Last two panels repeat same bent knee; depict opposite-leg switch with hands transferring to other shin."
+    ]
+  },
+  "deferred": {},
+  "tests": 7,
+  "paidApiUsed": false,
+  "workerInventoryOnly": true,
+  "workerSyncResult": {
+    "statuses": {
+      "generated": 1104,
+      "pending": 10160
+    },
+    "remaining": 10160,
+    "ready": 0,
+    "paused": true,
+    "heartbeat": null,
+    "pid": null,
+    "requests": 0,
+    "usageCalculatedUSD": 0,
+    "unresolvedReservedUSD": 0,
+    "invoiceCostUSD": null,
+    "legacyGenerationCostUSD": null,
+    "masterBytes": 1693834500
+  },
+  "publicationIndexUnchanged": true
+}

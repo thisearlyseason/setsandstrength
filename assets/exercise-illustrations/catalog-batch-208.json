@@ -1,0 +1,144 @@
+{
+  "jobs": [
+    {
+      "exerciseId": "1564",
+      "variant": "male",
+      "key": "1564-male-anatomical-white-v1",
+      "layout": {
+        "columns": 1,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hold a stable support and use the rope to gently draw one heel toward your glutes. Keep knees close, hips square and torso tall; hold 20\u201330 seconds, then switch legs."
+        }
+      ],
+      "prompt": "Use case scientific-educational. Original premium ADULT male detailed anatomical exercise illustration canonical1564 INTERMEDIATE HIP FLEXOR AND QUAD STRETCH WITH ROPE. ONE STATIC HOLD exactly ONE full body person standing SIDE-FRONT three-quarter view facing LEFT next to simple gray stable upright support LEFT. LEFT hand lightly holds support at waist height for balance. LEFT support leg straight soft knee sole flat. Bend RIGHT knee behind body so RIGHT HEEL approaches RIGHT BUTTOCK, right knee points DOWN next to left knee, thighs near parallel pelvis square and gently tucked no lumbar arch. A SHORT soft gray ROPE forms secure padded loop around RIGHT ankle/instep above shoe, TWO visible rope ends extend upward/back to RIGHT hand held behind RIGHT hip; hand grasps rope ends and gently pulls heel toward glutes. Hand does NOT grasp ankle directly; rope continuous clearly connects same hand to ankle loop, no additional equipment or rope through skin. Torso TALL head neutral shoulders down. Primary working RIGHT QUADRICEPS FRONT thigh RED ONLY: exposed distal front thigh red detailed anatomy, upper covered FRONT thigh soft DIFFUSE red tint over intact black shorts, no left thigh/glutes/calves red. Smooth opaque cloth broad real folds no fibers/lobes through fabric. Fine detailed grayscale other EXPOSED anatomy realistic hands fingers proportions. Full opaque BLACK tank wraps FRONT SIDES BACK and BLACK MID-THIGH shorts cover FRONT SIDES BACK SEAT CROTCH continuous hems seams no transparency/cutaways. Black shoes. Pure WHITE background soft shadows generous12percent margins full head hands bent foot rope support grounded foot entirely within SQUARE uncropped. Equal male/female quality. Original project reference rendering STYLE ONLY ignore pushup/chest red. No labels text captions arrows extra figures.",
+      "inspectionNote": "Two rope-assisted standing quad stretch candidates, one static pose per variant, two built-in calls. Bent working knee with rope loop around ankle connected to same-side hand, other hand on support, quadriceps red. Both BLOCKED for anatomical-looking striation/radial lines within overcloth shorts highlight instead of diffuse tint on plain fabric. Full opaque clothing and exposed grayscale anatomy retained. Qualified knee/hip alignment, pelvic tuck, rope loop pressure and support stability need human review. Original project artwork rendering style only, no upstream licensed input. Exact prompts/originals saved. No anatomy or clothing approval or publication. Seven pipeline checks do not establish anatomical accuracy.",
+      "blockingIssues": [
+        "Overcloth thigh highlight contains anatomical-looking striations/radial lines; replace with diffuse tint on plain fabric."
+      ],
+      "canonicalName": "intermediate hip flexor and quad stretch",
+      "styleVersion": "white-v1",
+      "equipment": "rope",
+      "primaryMuscles": [
+        "quads"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Two rope-assisted standing quad stretch candidates, one static pose per variant, two built-in calls. Bent working knee with rope loop around ankle connected to same-side hand, other hand on support, quadriceps red. Both BLOCKED for anatomical-looking striation/radial lines within overcloth shorts highlight instead of diffuse tint on plain fabric. Full opaque clothing and exposed grayscale anatomy retained. Qualified knee/hip alignment, pelvic tuck, rope loop pressure and support stability need human review. Original project artwork rendering style only, no upstream licensed input. Exact prompts/originals saved. No anatomy or clothing approval or publication. Seven pipeline checks do not establish anatomical accuracy.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/1564-male-anatomical-white-v1-p1-048bb1aa28d0.webp",
+          "width": 1200,
+          "height": 1200,
+          "bytes": 39674,
+          "sha256": "048bb1aa28d0df54a39065e1416ded6b14830cd038d2badc484d519793891622"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-208.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/1564-male-anatomical-white-v1-thumb-adf46a627663.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2918,
+        "sha256": "adf46a62766366d3a6acb805046fdb600302cfd57943a2fe2e38adebaf8ed876"
+      },
+      "processingSignature": "0b131e97863105b36e051f998ce04cb83987ef9d49e5ccd6e3b11ecdbc94e6ff",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1564-male-anatomical-white-v1.png",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 1336029,
+        "sha256": "81404cac180b9785e30ff49476aec857ffada2704a522b0ce953fcded6481912"
+      }
+    },
+    {
+      "exerciseId": "1564",
+      "variant": "female",
+      "key": "1564-female-anatomical-white-v1",
+      "layout": {
+        "columns": 1,
+        "rows": 1
+      },
+      "poses": [
+        {
+          "key": "p1",
+          "caption": "Hold a stable support and use the rope to gently draw one heel toward your glutes. Keep knees close, hips square and torso tall; hold 20\u201330 seconds, then switch legs."
+        }
+      ],
+      "prompt": "Use case scientific-educational. Original premium ADULT female detailed anatomical exercise illustration canonical1564 INTERMEDIATE HIP FLEXOR AND QUAD STRETCH WITH ROPE. ONE STATIC HOLD exactly ONE full body person standing SIDE-FRONT three-quarter view facing LEFT next to simple gray stable upright support LEFT. LEFT hand lightly holds support at waist height for balance. LEFT support leg straight soft knee sole flat. Bend RIGHT knee behind body so RIGHT HEEL approaches RIGHT BUTTOCK, right knee points DOWN next to left knee, thighs near parallel pelvis square and gently tucked no lumbar arch. A SHORT soft gray ROPE forms secure padded loop around RIGHT ankle/instep above shoe, TWO visible rope ends extend upward/back to RIGHT hand held behind RIGHT hip; hand grasps rope ends and gently pulls heel toward glutes. Hand does NOT grasp ankle directly; rope continuous clearly connects same hand to ankle loop, no additional equipment or rope through skin. Torso TALL head neutral shoulders down. Primary working RIGHT QUADRICEPS FRONT thigh RED ONLY: exposed distal front thigh red detailed anatomy, upper covered FRONT thigh soft DIFFUSE red tint over intact black shorts, no left thigh/glutes/calves red. Smooth opaque cloth broad real folds no fibers/lobes through fabric. Fine detailed grayscale other EXPOSED anatomy realistic hands fingers proportions. Full opaque BLACK tank wraps FRONT SIDES BACK and BLACK MID-THIGH shorts cover FRONT SIDES BACK SEAT CROTCH continuous hems seams no transparency/cutaways. Black shoes. Pure WHITE background soft shadows generous12percent margins full head hands bent foot rope support grounded foot entirely within SQUARE uncropped. Equal male/female quality. Original project reference rendering STYLE ONLY ignore pushup/chest red. No labels text captions arrows extra figures.",
+      "inspectionNote": "Two rope-assisted standing quad stretch candidates, one static pose per variant, two built-in calls. Bent working knee with rope loop around ankle connected to same-side hand, other hand on support, quadriceps red. Both BLOCKED for anatomical-looking striation/radial lines within overcloth shorts highlight instead of diffuse tint on plain fabric. Full opaque clothing and exposed grayscale anatomy retained. Qualified knee/hip alignment, pelvic tuck, rope loop pressure and support stability need human review. Original project artwork rendering style only, no upstream licensed input. Exact prompts/originals saved. No anatomy or clothing approval or publication. Seven pipeline checks do not establish anatomical accuracy.",
+      "blockingIssues": [
+        "Overcloth thigh highlight contains anatomical-looking striations/radial lines; replace with diffuse tint on plain fabric."
+      ],
+      "canonicalName": "intermediate hip flexor and quad stretch",
+      "styleVersion": "white-v1",
+      "equipment": "rope",
+      "primaryMuscles": [
+        "quads"
+      ],
+      "metadataReview": "Qualified review of technique and muscle mapping required.",
+      "reference": {
+        "rights": "Original project artwork used only as rendering style reference. No upstream licensed media input. Anatomical approval remains separate.",
+        "styleReferencePath": "assets/exercise-illustrations/generated/0493-male-anatomical-white-v1.png",
+        "role": "style only, not exercise pose"
+      },
+      "generation": {
+        "attempts": 1,
+        "provider": "built-in image_gen",
+        "costUSD": null,
+        "status": "generated"
+      },
+      "review": {
+        "status": "pending",
+        "notes": "Two rope-assisted standing quad stretch candidates, one static pose per variant, two built-in calls. Bent working knee with rope loop around ankle connected to same-side hand, other hand on support, quadriceps red. Both BLOCKED for anatomical-looking striation/radial lines within overcloth shorts highlight instead of diffuse tint on plain fabric. Full opaque clothing and exposed grayscale anatomy retained. Qualified knee/hip alignment, pelvic tuck, rope loop pressure and support stability need human review. Original project artwork rendering style only, no upstream licensed input. Exact prompts/originals saved. No anatomy or clothing approval or publication. Seven pipeline checks do not establish anatomical accuracy.",
+        "reviewer": ""
+      },
+      "assets": [
+        {
+          "pose": "p1",
+          "path": "/workout/illustration-pilot/1564-female-anatomical-white-v1-p1-ecba49f37dab.webp",
+          "width": 1200,
+          "height": 1200,
+          "bytes": 42760,
+          "sha256": "ecba49f37dabcf95453c70d32f3d951fcccb9ab6c5feee7cb95b5eb021a10821"
+        }
+      ],
+      "video": null,
+      "batch": "catalog-batch-208.json",
+      "thumbnail": {
+        "path": "/workout/illustration-pilot/1564-female-anatomical-white-v1-thumb-d3b931fdc04e.webp",
+        "width": 240,
+        "height": 240,
+        "bytes": 2924,
+        "sha256": "d3b931fdc04e02873565ecad3326f007d477b06fb7bd637290a61ae4ba1fcf94"
+      },
+      "processingSignature": "d1bf3f1d117602bd52c68f48d1ec991e4ea2815144fc7789dafaf2b93d402448",
+      "master": {
+        "path": "assets/exercise-illustrations/generated/1564-female-anatomical-white-v1.png",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 1348831,
+        "sha256": "ea9851c8d51fbe4b68f84bf30de8d3f48d4363e6ba96196a544ac1238dd02841"
+      }
+    }
+  ]
+}
